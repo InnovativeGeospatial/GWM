@@ -115,12 +115,79 @@ function cDetectType(title) {
 
 function cDetectCountry(title, tags) {
   var text = (title || "").toLowerCase();
+  
+  // Check tags first - most reliable
   if (tags && tags.length) {
     for (var i = 0; i < tags.length; i++) {
       var tagName = tags[i].toLowerCase();
       if (cCentroids[tagName]) return tagName;
     }
   }
+  
+  // City/region to country mapping
+  var cityMap = {
+    "kyiv": "ukraine", "kiev": "ukraine", "kharkiv": "ukraine", "odesa": "ukraine", "odessa": "ukraine",
+    "moscow": "russia", "kremlin": "russia", "russian": "russia",
+    "beijing": "china", "taipei": "taiwan", "hong kong": "china", "shanghai": "china", "chinese": "china",
+    "tehran": "iran", "hormuz": "iran", "strait of hormuz": "iran", "persian gulf": "iran", "iranian": "iran",
+    "dublin": "ireland", "irish": "ireland",
+    "gaza": "palestine", "west bank": "palestine", "ramallah": "palestine", "palestinian": "palestine",
+    "tel aviv": "israel", "jerusalem": "israel", "israeli": "israel",
+    "kabul": "afghanistan", "afghan": "afghanistan",
+    "baghdad": "iraq", "iraqi": "iraq",
+    "damascus": "syria", "aleppo": "syria", "syrian": "syria",
+    "riyadh": "saudi arabia", "saudi": "saudi arabia",
+    "cairo": "egypt", "egyptian": "egypt",
+    "nairobi": "kenya", "kenyan": "kenya",
+    "lagos": "nigeria", "nigerian": "nigeria",
+    "khartoum": "sudan", "sudanese": "sudan",
+    "addis ababa": "ethiopia", "ethiopian": "ethiopia",
+    "kinshasa": "dr congo", "congolese": "dr congo",
+    "yangon": "myanmar", "rangoon": "myanmar", "burmese": "myanmar",
+    "pyongyang": "north korea", "korean": "south korea",
+    "caracas": "venezuela", "venezuelan": "venezuela",
+    "havana": "cuba", "cuban": "cuba",
+    "minsk": "belarus", "belarusian": "belarus",
+    "ankara": "turkey", "istanbul": "turkey", "turkish": "turkey",
+    "karachi": "pakistan", "islamabad": "pakistan", "pakistani": "pakistan",
+    "new delhi": "india", "mumbai": "india", "indian": "india",
+    "dhaka": "bangladesh", "bangladeshi": "bangladesh",
+    "colombo": "sri lanka", "sri lankan": "sri lanka",
+    "hanoi": "vietnam", "vietnamese": "vietnam",
+    "manila": "philippines", "filipino": "philippines", "philippine": "philippines",
+    "jakarta": "indonesia", "indonesian": "indonesia",
+    "kuala lumpur": "malaysia", "malaysian": "malaysia",
+    "bangkok": "thailand", "thai": "thailand",
+    "phnom penh": "cambodia", "cambodian": "cambodia",
+    "mogadishu": "somalia", "somali": "somalia",
+    "sanaa": "yemen", "yemeni": "yemen", "houthi": "yemen",
+    "tripoli": "libya", "libyan": "libya",
+    "algiers": "algeria", "algerian": "algeria",
+    "tunis": "tunisia", "tunisian": "tunisia",
+    "rabat": "morocco", "moroccan": "morocco",
+    "luanda": "angola", "angolan": "angola",
+    "maputo": "mozambique", "mozambican": "mozambique",
+    "harare": "zimbabwe", "zimbabwean": "zimbabwe",
+    "pretoria": "south africa", "johannesburg": "south africa", "south african": "south africa",
+    "bamako": "mali", "malian": "mali",
+    "ouagadougou": "burkina faso", "burkinabe": "burkina faso",
+    "niamey": "niger", "nigerien": "niger",
+    "ndjamena": "chad", "chadian": "chad",
+    "bangui": "central african republic",
+    "juba": "south sudan", "south sudanese": "south sudan",
+    "port-au-prince": "haiti", "haitian": "haiti",
+    "managua": "nicaragua", "nicaraguan": "nicaragua",
+    "mexico city": "mexico", "mexican": "mexico"
+  };
+  
+  // Check city/region mapping first
+  for (var city in cityMap) {
+    if (text.includes(city)) {
+      return cityMap[city];
+    }
+  }
+  
+  // Then check country names directly
   var best = null;
   var bestLen = 0;
   var countries = Object.keys(cCentroids);
@@ -261,19 +328,21 @@ cMap.on("load", function() {
           });
         }
         var country = cDetectCountry(title, tags);
-        if (!country || !cCentroids[country]) return;
-        var coords = cCentroids[country];
         var incType = cDetectType(title);
         var sev = cGetSeverity(title);
         
-        features.push({
-          type:"Feature",
-          geometry:{type:"Point",coordinates:[coords[0],coords[1]]},
-          properties:{title:title,country:country.charAt(0).toUpperCase()+country.slice(1),countryKey:country,type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
-        });
+        // Add to map if country detected
+        if (country && cCentroids[country]) {
+          var coords = cCentroids[country];
+          features.push({
+            type:"Feature",
+            geometry:{type:"Point",coordinates:[coords[0],coords[1]]},
+            properties:{title:title,country:country.charAt(0).toUpperCase()+country.slice(1),countryKey:country,type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
+          });
+        }
         
-        // Build ticker item (limit to first 10 for ticker)
-        if (tickerItems.length < 10) {
+        // Build ticker item (limit to first 10 for ticker) - always add if we have a country
+        if (tickerItems.length < 10 && country) {
           var shortTitle = title.length > 50 ? title.substring(0, 47) + "..." : title;
           var sevClass = sev === "crit" ? "sev-crit" : "sev-high";
           var sevLabel = sev === "crit" ? "CRITICAL" : "HIGH";
@@ -335,7 +404,7 @@ fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_pag
         }
       }
       var diff = Math.floor((new Date() - new Date(p.date)) / 60000);
-      var ago = diff < 60 ? diff+"m" : diff < 1440 ? Math.floor(diff/60)+"h" : Math.floor(diff/1440)+"d";
+      var ago = diff < 1 ? "now" : diff < 60 ? diff+"m" : diff < 1440 ? Math.floor(diff/60)+"h" : Math.floor(diff/1440)+"d";
       html += "<a class='c-news' href='"+link+"' target='_blank'><div class='c-news-meta'><span class='c-news-tag'>"+tag+"</span><span class='c-news-time'>"+ago+" ago</span></div><div class='c-news-title'>"+title+"</div><div class='c-news-summary'>"+excerpt+"</div></a>";
     }
     feed.innerHTML = html;
