@@ -442,42 +442,96 @@ function cShowPopup(coords, props) {
     .addTo(cMap);
 }
 
-var cIndex = [
-  {r:1,f:"\u{1F1F8}\u{1F1E9}",n:"Sudan",t:"Armed Conflict",s:97,g:"crit"},
-  {r:2,f:"\u{1F1F2}\u{1F1F2}",n:"Myanmar",t:"Civil War",s:95,g:"crit"},
-  {r:3,f:"\u{1F1ED}\u{1F1F9}",n:"Haiti",t:"Gang Violence",s:92,g:"crit"},
-  {r:4,f:"\u{1F1FE}\u{1F1EA}",n:"Yemen",t:"Armed Conflict",s:91,g:"crit"},
-  {r:5,f:"\u{1F1F8}\u{1F1F8}",n:"South Sudan",t:"Civil Conflict",s:89,g:"crit"},
-  {r:6,f:"\u{1F1F8}\u{1F1F4}",n:"Somalia",t:"Armed Conflict",s:88,g:"crit"},
-  {r:7,f:"\u{1F1E8}\u{1F1E9}",n:"DR Congo",t:"Armed Conflict",s:87,g:"crit"},
-  {r:8,f:"\u{1F1F2}\u{1F1F1}",n:"Mali",t:"Insurgency",s:85,g:"crit"},
-  {r:9,f:"\u{1F1F3}\u{1F1EE}",n:"Nicaragua",t:"Gov. Crackdown",s:84,g:"crit"},
-  {r:10,f:"\u{1F1E6}\u{1F1EB}",n:"Afghanistan",t:"Insurgency",s:83,g:"crit"},
-  {r:11,f:"\u{1F1F3}\u{1F1EC}",n:"Nigeria",t:"Armed Conflict",s:81,g:"high"},
-  {r:12,f:"\u{1F1EA}\u{1F1F9}",n:"Ethiopia",t:"Civil Conflict",s:79,g:"high"},
-  {r:13,f:"\u{1F1E8}\u{1F1EB}",n:"CAR",t:"Armed Conflict",s:78,g:"high"},
-  {r:14,f:"\u{1F1F2}\u{1F1FF}",n:"Mozambique",t:"Insurgency",s:76,g:"high"},
-  {r:15,f:"\u{1F1E7}\u{1F1EB}",n:"Burkina Faso",t:"Insurgency",s:74,g:"high"},
-  {r:16,f:"\u{1F1EE}\u{1F1F6}",n:"Iraq",t:"Political Unrest",s:70,g:"high"},
-  {r:17,f:"\u{1F1F1}\u{1F1FE}",n:"Libya",t:"Political Crisis",s:68,g:"high"},
-  {r:18,f:"\u{1F1F5}\u{1F1F0}",n:"Pakistan",t:"Border Conflict",s:66,g:"high"},
-  {r:19,f:"\u{1F1F0}\u{1F1F5}",n:"N. Korea",t:"Regime Risk",s:65,g:"high"},
-  {r:20,f:"\u{1F1E7}\u{1F1E9}",n:"Bangladesh",t:"Civil Unrest",s:63,g:"high"},
-  {r:21,f:"\u{1F1FB}\u{1F1EA}",n:"Venezuela",t:"Political Crisis",s:60,g:"med"},
-  {r:22,f:"\u{1F1F7}\u{1F1FA}",n:"Russia",t:"Armed Conflict",s:58,g:"med"},
-  {r:23,f:"\u{1F1F5}\u{1F1F8}",n:"Palestine",t:"Armed Conflict",s:57,g:"med"},
-  {r:24,f:"\u{1F1FF}\u{1F1FC}",n:"Zimbabwe",t:"Political Unrest",s:54,g:"med"},
-  {r:25,f:"\u{1F1F2}\u{1F1FD}",n:"Mexico",t:"Cartel Violence",s:52,g:"med"}
-];
+var cIndex = [];
+
+// Fetch State Department Travel Advisories
+fetch("https://cadataapi.state.gov/api/TravelAdvisories")
+  .then(function(r){return r.json();})
+  .then(function(advisories) {
+    var countries = [];
+    advisories.forEach(function(adv) {
+      var title = adv.Title || "";
+      var levelMatch = title.match(/Level (\d)/);
+      var level = levelMatch ? parseInt(levelMatch[1]) : 1;
+      var countryName = title.split(" - ")[0].trim();
+      
+      // Get country code from Category
+      var code = (adv.Category && adv.Category[0]) ? adv.Category[0] : "";
+      
+      // Map level to grade
+      var grade = "low";
+      var levelText = "Normal";
+      if (level === 4) { grade = "crit"; levelText = "Do Not Travel"; }
+      else if (level === 3) { grade = "high"; levelText = "Reconsider"; }
+      else if (level === 2) { grade = "med"; levelText = "Increased Caution"; }
+      else { levelText = "Normal Precautions"; }
+      
+      // Get flag emoji from country code
+      var flag = "";
+      if (code.length === 2) {
+        flag = String.fromCodePoint(0x1F1E6 + code.charCodeAt(0) - 65) + 
+               String.fromCodePoint(0x1F1E6 + code.charCodeAt(1) - 65);
+      }
+      
+      countries.push({
+        n: countryName,
+        f: flag,
+        l: level,
+        t: levelText,
+        g: grade,
+        code: code
+      });
+    });
+    
+    // Sort by level (highest first), then alphabetically
+    countries.sort(function(a, b) {
+      if (b.l !== a.l) return b.l - a.l;
+      return a.n.localeCompare(b.n);
+    });
+    
+    cIndex = countries;
+    renderIndex(countries);
+    updateStats(countries);
+  })
+  .catch(function(e) {
+    console.log("State Dept API error:", e);
+    var indexEl = document.getElementById("c-index");
+    if (indexEl) indexEl.innerHTML = "<div class='c-loading'>ADVISORY FEED UNAVAILABLE</div>";
+  });
+
+function renderIndex(countries) {
+  var indexEl = document.getElementById("c-index");
+  if (!indexEl) return;
+  
+  var html = "";
+  for (var i = 0; i < countries.length; i++) {
+    var c = countries[i];
+    html += "<div class='c-row'><div class='c-rank'>"+(i+1)+"</div><div class='c-flag'>"+c.f+"</div><div class='c-info'><div class='c-name'>"+c.n+"</div><div class='c-type'>Level "+c.l+": "+c.t+"</div></div><div class='c-score'><div class='c-score-val "+c.g+"'>"+c.l+"</div></div></div>";
+  }
+  indexEl.innerHTML = html;
+}
+
+function updateStats(countries) {
+  var level4 = 0, level3 = 0, level2 = 0;
+  countries.forEach(function(c) {
+    if (c.l === 4) level4++;
+    else if (c.l === 3) level3++;
+    else if (c.l === 2) level2++;
+  });
+  
+  // Update stat boxes
+  var critEl = document.querySelector(".c-stat-val.red");
+  var highEl = document.querySelector(".c-stat-val.orange");
+  var elevEl = document.querySelector(".c-stat-val.amber");
+  
+  if (critEl) critEl.textContent = level4;
+  if (highEl) highEl.textContent = level3;
+  if (elevEl) elevEl.textContent = level2;
+}
 
 var indexEl = document.getElementById("c-index");
 if (indexEl) {
-  var indexHtml = "";
-  for (var i = 0; i < cIndex.length; i++) {
-    var c = cIndex[i];
-    indexHtml += "<div class='c-row'><div class='c-rank'>"+c.r+"</div><div class='c-flag'>"+c.f+"</div><div class='c-info'><div class='c-name'>"+c.n+"</div><div class='c-type'>"+c.t+"</div></div><div class='c-score'><div class='c-score-val "+c.g+"'>"+c.s+"</div><div class='c-bar-wrap'><div class='c-bar "+c.g+"' style='width:"+c.s+"%'></div></div></div></div>";
-  }
-  indexEl.innerHTML = indexHtml;
+  indexEl.innerHTML = "<div class='c-loading'>LOADING STATE DEPT ADVISORIES...</div>";
 }
 
 cMap.on("load", function() {
@@ -620,10 +674,42 @@ setInterval(function() {
   if (clockEl) clockEl.textContent = (h<10?"0":"")+h+":"+(m<10?"0":"")+m+":"+(s<10?"0":"")+s+" UTC";
 }, 1000);
 
+var currentFilter = "all";
+
+function filterMapPoints(filterType) {
+  currentFilter = filterType.toLowerCase();
+  
+  if (!cOriginalFeatures.length) return;
+  
+  var filtered;
+  if (currentFilter === "all") {
+    filtered = cOriginalFeatures;
+  } else {
+    filtered = cOriginalFeatures.filter(function(f) {
+      return f.properties.type === currentFilter;
+    });
+  }
+  
+  // Reset expansion state
+  cExpandedKey = null;
+  if (cMap.getSource("c-lines")) {
+    cMap.getSource("c-lines").setData({type:"FeatureCollection",features:[]});
+  }
+  if (cMap.getSource("cpts")) {
+    cMap.getSource("cpts").setData({type:"FeatureCollection",features:filtered});
+  }
+  
+  // Update count
+  document.getElementById("c-map-count").textContent = filtered.length + " EVENTS";
+}
+
 var filterBtns = document.querySelectorAll(".c-fbtn");
 filterBtns.forEach(function(btn) {
   btn.addEventListener("click", function() {
     filterBtns.forEach(function(b){b.classList.remove("active");});
     this.classList.add("active");
+    
+    var filterText = this.textContent.trim().toLowerCase();
+    filterMapPoints(filterText);
   });
 });
