@@ -629,7 +629,7 @@ var zoutBtn = document.getElementById("c-zout");
 if (zinBtn) zinBtn.onclick = function(){cMap.zoomIn();};
 if (zoutBtn) zoutBtn.onclick = function(){cMap.zoomOut();};
 
-fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=20&orderby=date&order=desc&_embed=1")
+fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&orderby=date&order=desc&_embed=1")
   .then(function(r){return r.json();})
   .then(function(posts) {
     var feed = document.getElementById("c-feed");
