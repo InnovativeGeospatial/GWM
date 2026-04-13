@@ -8,6 +8,31 @@ var cMap = new maplibregl.Map({
 
 cMap.addControl(new maplibregl.AttributionControl({compact: true}), "bottom-right");
 
+// Brighten boundaries and labels once style loads
+cMap.on("style.load", function() {
+  // Brighten country boundaries
+  if (cMap.getLayer("boundary_country")) {
+    cMap.setPaintProperty("boundary_country", "line-color", "rgba(255,255,255,0.5)");
+    cMap.setPaintProperty("boundary_country", "line-width", 1);
+  }
+  // Try alternate layer names
+  cMap.getStyle().layers.forEach(function(layer) {
+    if (layer.id.includes("boundary") || layer.id.includes("admin")) {
+      try {
+        cMap.setPaintProperty(layer.id, "line-color", "rgba(255,255,255,0.45)");
+        cMap.setPaintProperty(layer.id, "line-opacity", 0.8);
+      } catch(e) {}
+    }
+    if (layer.id.includes("label") || layer.id.includes("place") || layer.id.includes("country")) {
+      try {
+        cMap.setPaintProperty(layer.id, "text-color", "rgba(255,255,255,0.85)");
+        cMap.setPaintProperty(layer.id, "text-halo-color", "rgba(0,0,0,0.9)");
+        cMap.setPaintProperty(layer.id, "text-halo-width", 1.5);
+      } catch(e) {}
+    }
+  });
+});
+
 var cCentroids = {
   // All coordinates are capital cities (or major city for that location)
   // Format: [longitude, latitude]
@@ -198,7 +223,7 @@ var cCentroids = {
   "global":[0,20]
 };
 
-var cTypeColors = {armed:"#ef4444",unrest:"#fb923c",coup:"#f59e0b",displacement:"#a78bfa",default:"#ef4444"};
+var cTypeColors = {armed:"#ef4444",unrest:"#fb923c",coup:"#facc15",displacement:"#a78bfa",default:"#ef4444"};
 
 var cFlags = {
   "afghanistan":"\u{1F1E6}\u{1F1EB}","afghan":"\u{1F1E6}\u{1F1EB}","kabul":"\u{1F1E6}\u{1F1EB}",
