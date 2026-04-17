@@ -1,0 +1,343 @@
+<!-- =====================================================================
+     Global Witness Monitor - Natural Disaster Intelligence Dashboard
+     Paste into a WordPress Custom HTML block on /disasters/
+     Requires: disaster-dash.js at /wp-content/themes/astra/disaster-dash.js
+     ===================================================================== -->
+
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" />
+<script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+
+<style>
+  #disaster-wrap {
+    --bg: #060709;
+    --surface: #0f1117;
+    --surface2: #141720;
+    --border: rgba(255,255,255,0.08);
+    --text: #e7e9ee;
+    --text-dim: #9aa0aa;
+    --text-muted: #6b7280;
+    --accent: #38bdf8;
+
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 90vh;
+    padding: 0;
+    margin: 0 -20px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Header bar */
+  #disaster-wrap .d-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #disaster-wrap .d-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  }
+  #disaster-wrap .d-title-pulse {
+    width: 9px; height: 9px; border-radius: 50%; background: #ef4444;
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    animation: dPulse 1.8s infinite;
+  }
+  @keyframes dPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(239,68,68,0.7); }
+    70%  { box-shadow: 0 0 0 10px rgba(239,68,68,0); }
+    100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
+  }
+  #disaster-wrap .d-live { color: #ef4444; font-weight: 700; font-size: 11px; letter-spacing: 0.1em; }
+  #disaster-wrap .d-clock {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--surface2);
+  }
+
+  /* Ticker */
+  #disaster-wrap .d-ticker {
+    overflow: hidden;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 0;
+    font-size: 12px;
+    color: var(--text-dim);
+    position: relative;
+  }
+  #disaster-wrap .d-ticker-track {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: dTickerScroll 90s linear infinite;
+    gap: 24px;
+    padding-left: 24px;
+  }
+  #disaster-wrap .d-ticker-item { display: inline-flex; align-items: center; gap: 8px; }
+  #disaster-wrap .d-ticker-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+  #disaster-wrap .d-ticker-sep { color: var(--text-muted); padding: 0 6px; }
+  @keyframes dTickerScroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* Three-panel layout */
+  #disaster-wrap .d-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr 320px;
+    gap: 0;
+    height: 78vh;
+    min-height: 600px;
+  }
+  @media (max-width: 1100px) {
+    #disaster-wrap .d-grid {
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+    #disaster-wrap .d-panel-left, #disaster-wrap .d-panel-right { max-height: 50vh; }
+    #disaster-wrap .d-panel-center { height: 60vh; }
+  }
+
+  #disaster-wrap .d-panel {
+    overflow-y: auto;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+  }
+  #disaster-wrap .d-panel-right { border-right: none; border-left: 1px solid var(--border); }
+  #disaster-wrap .d-panel-center { background: var(--bg); border: none; padding: 0; position: relative; overflow: hidden; }
+
+  /* Left panel */
+  #disaster-wrap .d-panel-section {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  #disaster-wrap .d-panel-heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-muted);
+    margin: 0 0 10px 0;
+    font-weight: 700;
+  }
+  #disaster-wrap .d-stat-total {
+    text-align: center;
+    padding: 4px 0 12px;
+  }
+  #disaster-wrap .d-stat-total-num {
+    font-size: 36px; font-weight: 700; line-height: 1; color: var(--text);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  #disaster-wrap .d-stat-total-label {
+    font-size: 10px; color: var(--text-muted); text-transform: uppercase;
+    letter-spacing: 0.15em; margin-top: 4px;
+  }
+  #disaster-wrap .d-stat-list { display: flex; flex-direction: column; gap: 6px; }
+  #disaster-wrap .d-stat-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 10px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 4px;
+    font-size: 12px;
+  }
+  #disaster-wrap .d-stat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  #disaster-wrap .d-stat-label { flex: 1; color: var(--text-dim); }
+  #disaster-wrap .d-stat-value {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--text); font-weight: 600;
+  }
+
+  #disaster-wrap .d-country-btn {
+    width: 100%;
+    display: flex; align-items: center; gap: 8px;
+    padding: 7px 10px;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-dim);
+    font-size: 12px;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 3px;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    font-family: inherit;
+  }
+  #disaster-wrap .d-country-btn:hover {
+    background: var(--surface2);
+    color: var(--text);
+    border-color: var(--border);
+  }
+  #disaster-wrap .d-country-flag { font-size: 14px; flex-shrink: 0; }
+  #disaster-wrap .d-country-name { flex: 1; }
+  #disaster-wrap .d-country-count {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  /* Map */
+  #d-map { width: 100%; height: 100%; }
+  #disaster-wrap .maplibregl-popup-content {
+    background: var(--surface) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  #disaster-wrap .maplibregl-popup-tip { border-top-color: var(--surface) !important; border-bottom-color: var(--surface) !important; }
+  #disaster-wrap .d-popup-type {
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    font-weight: 700; margin-bottom: 4px;
+  }
+  #disaster-wrap .d-popup-title { font-size: 12px; line-height: 1.35; margin-bottom: 5px; }
+  #disaster-wrap .d-popup-title a { color: var(--text); text-decoration: none; }
+  #disaster-wrap .d-popup-title a:hover { color: var(--accent); }
+  #disaster-wrap .d-popup-meta { font-size: 10px; color: var(--text-muted); }
+
+  /* Custom marker */
+  #disaster-wrap .d-marker {
+    width: 12px; height: 12px; border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.15s;
+  }
+  #disaster-wrap .d-marker:hover { transform: scale(1.4); }
+
+  /* Legend overlay */
+  #disaster-wrap .d-legend {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    background: rgba(15, 17, 23, 0.92);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 11px;
+    z-index: 5;
+    backdrop-filter: blur(6px);
+  }
+  #disaster-wrap .d-legend-title {
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    color: var(--text-muted); margin-bottom: 6px; font-weight: 700;
+  }
+  #disaster-wrap .d-legend-row { display: flex; align-items: center; gap: 7px; padding: 2px 0; color: var(--text-dim); }
+  #disaster-wrap .d-legend-dot { width: 9px; height: 9px; border-radius: 50%; }
+
+  /* News feed */
+  #disaster-wrap .d-news-item {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.12s;
+  }
+  #disaster-wrap .d-news-item:hover { background: var(--surface2); }
+  #disaster-wrap .d-news-bar { width: 3px; flex-shrink: 0; }
+  #disaster-wrap .d-news-body { padding: 10px 14px; flex: 1; min-width: 0; }
+  #disaster-wrap .d-news-meta {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  #disaster-wrap .d-news-type {
+    text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700;
+  }
+  #disaster-wrap .d-news-flag { font-size: 12px; }
+  #disaster-wrap .d-news-country { color: var(--text-dim); }
+  #disaster-wrap .d-news-time { color: var(--text-muted); margin-left: auto; }
+  #disaster-wrap .d-news-title {
+    font-size: 13px; line-height: 1.35; color: var(--text); font-weight: 500;
+  }
+  #disaster-wrap .d-news-excerpt {
+    font-size: 11px; color: var(--text-muted); margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  /* Empty state */
+  #disaster-wrap .d-empty {
+    padding: 20px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* Scrollbars */
+  #disaster-wrap .d-panel::-webkit-scrollbar { width: 6px; }
+  #disaster-wrap .d-panel::-webkit-scrollbar-track { background: transparent; }
+  #disaster-wrap .d-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 3px; }
+  #disaster-wrap .d-panel::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.14); }
+</style>
+
+<div id="disaster-wrap">
+
+  <!-- Header -->
+  <div class="d-header">
+    <div class="d-title">
+      <span class="d-title-pulse"></span>
+      <span class="d-live">Active Live Feed</span>
+      <span style="color: var(--text-dim); font-weight: 400; text-transform: none; letter-spacing: 0.02em; font-size: 13px;">
+        &middot; Natural Disaster Intelligence
+      </span>
+    </div>
+    <div class="d-clock" id="d-clock">--:--:-- UTC</div>
+  </div>
+
+  <!-- Ticker -->
+  <div class="d-ticker" id="d-ticker">
+    <div class="d-ticker-track" style="color: var(--text-muted);">Initializing feed...</div>
+  </div>
+
+  <!-- Grid -->
+  <div class="d-grid">
+
+    <!-- LEFT panel: stats + country list -->
+    <div class="d-panel d-panel-left">
+      <div class="d-panel-section">
+        <div class="d-panel-heading">Event Overview</div>
+        <div id="d-stats">
+          <div class="d-empty">Loading…</div>
+        </div>
+      </div>
+      <div class="d-panel-section">
+        <div class="d-panel-heading">Country Index</div>
+        <div id="d-country-list">
+          <div class="d-empty">Loading…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CENTER panel: map -->
+    <div class="d-panel d-panel-center">
+      <div id="d-map"></div>
+      <div class="d-legend">
+        <div class="d-legend-title">Event Types</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#92400e"></span>Earthquake</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#0ea5e9"></span>Flood</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#a855f7"></span>Storm / Cyclone</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#f97316"></span>Wildfire</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#dc2626"></span>Volcano</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#06b6d4"></span>Tsunami</div>
+        <div class="d-legend-row"><span class="d-legend-dot" style="background:#6b7280"></span>Other</div>
+      </div>
+    </div>
+
+    <!-- RIGHT panel: news feed -->
+    <div class="d-panel d-panel-right">
+      <div class="d-panel-section" style="position: sticky; top: 0; background: var(--surface); z-index: 2;">
+        <div class="d-panel-heading">Latest Reports</div>
+      </div>
+      <div id="d-news">
+        <div class="d-empty">Loading…</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="/wp-content/themes/astra/disaster-dash.js"></script>
