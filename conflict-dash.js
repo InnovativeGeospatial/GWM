@@ -676,7 +676,7 @@ fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_pag
       }
       var diff = Math.floor((new Date() - new Date(p.date)) / 60000);
       var ago = diff < 1 ? "now" : diff < 60 ? diff+"m" : diff < 1440 ? Math.floor(diff/60)+"h" : Math.floor(diff/1440)+"d";
-      html += "<a class='c-news' href='"+link+"' target='_blank'><div class='c-news-meta'><span class='c-news-tag'>"+tag+"</span><span class='c-news-time'>"+ago+" ago</span></div><div class='c-news-title'>"+title+"</div><div class='c-news-summary'>"+excerpt+"</div></a>";
+      html += "<a class='c-news' href='"+link+"' target='_blank'><div class='c-news-meta'><span class='c-news-tag'>"+tag+"</span><span class='c-news-time'>"+ago+"</span></div><div class='c-news-title'>"+title+"</div><div class='c-news-summary'>"+excerpt+"</div></a>";
     }
     feed.innerHTML = html;
   })
