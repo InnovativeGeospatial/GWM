@@ -1,3 +1,25 @@
+/* =====================================================================
+ * Global Witness Monitor — Conflict & Unrest Intelligence Dashboard
+ * conflict-dash.js  (full file)
+ *
+ * Served via jsDelivr:
+ *   https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict-dash.js
+ *
+ * Mounts into elements defined by conflict-loader HTML:
+ *   #c-map, #c-index, #c-feed, #c-ticker-content,
+ *   #c-map-count, #c-news-count, #c-live-count,
+ *   #c-level1, #c-level2, #c-level3, #c-level4,
+ *   #c-clock, #c-zin, #c-zout, .c-fbtn
+ *
+ * Data sources:
+ *   - Conflict reports:    WP REST API (category 8)
+ *   - Travel advisories:   travel_advisories.json on GWM repo
+ *                          (refreshed by the pipeline each run)
+ * ===================================================================== */
+
+// =====================================================================
+//  MAP INIT
+// =====================================================================
 var cMap = new maplibregl.Map({
   container: "c-map",
   style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
@@ -10,12 +32,10 @@ cMap.addControl(new maplibregl.AttributionControl({compact: true}), "bottom-righ
 
 // Brighten boundaries and labels once style loads
 cMap.on("style.load", function() {
-  // Brighten country boundaries
   if (cMap.getLayer("boundary_country")) {
     cMap.setPaintProperty("boundary_country", "line-color", "rgba(255,255,255,0.5)");
     cMap.setPaintProperty("boundary_country", "line-width", 1);
   }
-  // Try alternate layer names
   cMap.getStyle().layers.forEach(function(layer) {
     if (layer.id.includes("boundary") || layer.id.includes("admin")) {
       try {
@@ -33,10 +53,10 @@ cMap.on("style.load", function() {
   });
 });
 
+// =====================================================================
+//  CENTROIDS (capital cities / major cities)
+// =====================================================================
 var cCentroids = {
-  // All coordinates are capital cities (or major city for that location)
-  // Format: [longitude, latitude]
-  // A
   "afghanistan":[69.17,34.53],"afghan":[69.17,34.53],"kabul":[69.17,34.53],
   "albania":[19.82,41.33],"albanian":[19.82,41.33],"tirana":[19.82,41.33],
   "algeria":[3.04,36.75],"algerian":[3.04,36.75],"algiers":[3.04,36.75],
@@ -46,7 +66,6 @@ var cCentroids = {
   "australia":[149.13,-35.28],"australian":[149.13,-35.28],"canberra":[149.13,-35.28],"sydney":[151.21,-33.87],"melbourne":[144.96,-37.81],
   "austria":[16.37,48.21],"austrian":[16.37,48.21],"vienna":[16.37,48.21],
   "azerbaijan":[49.87,40.41],"azerbaijani":[49.87,40.41],"baku":[49.87,40.41],
-  // B
   "bahrain":[50.58,26.23],"bahraini":[50.58,26.23],"manama":[50.58,26.23],
   "bangladesh":[90.41,23.81],"bangladeshi":[90.41,23.81],"dhaka":[90.41,23.81],
   "belarus":[27.57,53.90],"belarusian":[27.57,53.90],"minsk":[27.57,53.90],
@@ -59,7 +78,6 @@ var cCentroids = {
   "bulgaria":[23.32,42.70],"bulgarian":[23.32,42.70],"sofia":[23.32,42.70],
   "burkina faso":[-1.52,12.37],"burkinabe":[-1.52,12.37],"ouagadougou":[-1.52,12.37],
   "burundi":[29.36,-3.38],"burundian":[29.36,-3.38],"bujumbura":[29.36,-3.38],"gitega":[29.92,-3.43],
-  // C
   "cambodia":[104.92,11.56],"cambodian":[104.92,11.56],"phnom penh":[104.92,11.56],
   "cameroon":[11.52,3.87],"cameroonian":[11.52,3.87],"yaounde":[11.52,3.87],
   "canada":[-75.70,45.42],"canadian":[-75.70,45.42],"ottawa":[-75.70,45.42],"toronto":[-79.38,43.65],
@@ -75,22 +93,18 @@ var cCentroids = {
   "cuba":[-82.37,23.11],"cuban":[-82.37,23.11],"havana":[-82.37,23.11],
   "cyprus":[33.38,35.19],"cypriot":[33.38,35.19],"nicosia":[33.38,35.19],
   "czech republic":[14.42,50.08],"czech":[14.42,50.08],"prague":[14.42,50.08],"czechia":[14.42,50.08],
-  // D
   "denmark":[12.57,55.68],"danish":[12.57,55.68],"copenhagen":[12.57,55.68],
   "djibouti":[43.15,11.59],"djiboutian":[43.15,11.59],
   "dr congo":[15.31,-4.32],"drc":[15.31,-4.32],"democratic republic of congo":[15.31,-4.32],"kinshasa":[15.31,-4.32],
-  // E
   "ecuador":[-78.47,-0.18],"ecuadorian":[-78.47,-0.18],"quito":[-78.47,-0.18],
   "egypt":[31.24,30.04],"egyptian":[31.24,30.04],"cairo":[31.24,30.04],
   "el salvador":[-89.19,13.69],"salvadoran":[-89.19,13.69],"san salvador":[-89.19,13.69],
   "eritrea":[38.93,15.33],"eritrean":[38.93,15.33],"asmara":[38.93,15.33],
   "estonia":[24.75,59.44],"estonian":[24.75,59.44],"tallinn":[24.75,59.44],
   "ethiopia":[38.76,9.02],"ethiopian":[38.76,9.02],"addis ababa":[38.76,9.02],
-  // F
   "fiji":[178.44,-18.14],"fijian":[178.44,-18.14],"suva":[178.44,-18.14],
   "finland":[24.94,60.17],"finnish":[24.94,60.17],"helsinki":[24.94,60.17],
   "france":[2.35,48.86],"french":[2.35,48.86],"paris":[2.35,48.86],
-  // G
   "gabon":[9.45,0.39],"gabonese":[9.45,0.39],"libreville":[9.45,0.39],
   "gambia":[-16.58,13.45],"gambian":[-16.58,13.45],"banjul":[-16.58,13.45],
   "georgia":[44.79,41.72],"georgian":[44.79,41.72],"tbilisi":[44.79,41.72],
@@ -100,12 +114,10 @@ var cCentroids = {
   "guatemala":[-90.51,14.63],"guatemalan":[-90.51,14.63],"guatemala city":[-90.51,14.63],
   "guinea":[-13.68,9.64],"guinean":[-13.68,9.64],"conakry":[-13.68,9.64],
   "guyana":[-58.16,6.80],"guyanese":[-58.16,6.80],"georgetown":[-58.16,6.80],
-  // H
   "haiti":[-72.34,18.54],"haitian":[-72.34,18.54],"port-au-prince":[-72.34,18.54],
   "honduras":[-87.21,14.08],"honduran":[-87.21,14.08],"tegucigalpa":[-87.21,14.08],
   "hungary":[19.04,47.50],"hungarian":[19.04,47.50],"budapest":[19.04,47.50],
   "hormuz":[56.27,26.60],"strait of hormuz":[56.27,26.60],
-  // I
   "iceland":[-21.90,64.14],"icelandic":[-21.90,64.14],"reykjavik":[-21.90,64.14],
   "india":[77.21,28.61],"indian":[77.21,28.61],"new delhi":[77.21,28.61],"mumbai":[72.88,19.08],"delhi":[77.21,28.61],
   "indonesia":[106.85,-6.21],"indonesian":[106.85,-6.21],"jakarta":[106.85,-6.21],
@@ -114,16 +126,13 @@ var cCentroids = {
   "ireland":[-6.26,53.35],"irish":[-6.26,53.35],"dublin":[-6.26,53.35],
   "israel":[35.22,31.77],"israeli":[35.22,31.77],"tel aviv":[34.78,32.08],"jerusalem":[35.22,31.77],
   "italy":[12.50,41.90],"italian":[12.50,41.90],"rome":[12.50,41.90],
-  // J
   "jamaica":[-76.79,18.00],"jamaican":[-76.79,18.00],"kingston":[-76.79,18.00],
   "japan":[139.69,35.69],"japanese":[139.69,35.69],"tokyo":[139.69,35.69],
   "jordan":[35.93,31.95],"jordanian":[35.93,31.95],"amman":[35.93,31.95],
-  // K
   "kazakhstan":[71.43,51.17],"kazakh":[71.43,51.17],"astana":[71.43,51.17],"almaty":[76.95,43.24],
   "kenya":[36.82,-1.29],"kenyan":[36.82,-1.29],"nairobi":[36.82,-1.29],
   "kuwait":[47.98,29.38],"kuwaiti":[47.98,29.38],"kuwait city":[47.98,29.38],
   "kyrgyzstan":[74.59,42.87],"kyrgyz":[74.59,42.87],"bishkek":[74.59,42.87],
-  // L
   "laos":[102.63,17.97],"laotian":[102.63,17.97],"vientiane":[102.63,17.97],
   "latvia":[24.11,56.95],"latvian":[24.11,56.95],"riga":[24.11,56.95],
   "lebanon":[35.50,33.89],"lebanese":[35.50,33.89],"beirut":[35.50,33.89],
@@ -131,7 +140,6 @@ var cCentroids = {
   "libya":[13.19,32.90],"libyan":[13.19,32.90],"tripoli":[13.19,32.90],
   "lithuania":[25.28,54.69],"lithuanian":[25.28,54.69],"vilnius":[25.28,54.69],
   "luxembourg":[6.13,49.61],"luxembourgish":[6.13,49.61],
-  // M
   "madagascar":[47.52,-18.91],"malagasy":[47.52,-18.91],"antananarivo":[47.52,-18.91],
   "malawi":[33.79,-13.97],"malawian":[33.79,-13.97],"lilongwe":[33.79,-13.97],
   "malaysia":[101.69,3.14],"malaysian":[101.69,3.14],"kuala lumpur":[101.69,3.14],
@@ -147,7 +155,6 @@ var cCentroids = {
   "morocco":[-6.83,34.02],"moroccan":[-6.83,34.02],"rabat":[-6.83,34.02],
   "mozambique":[32.59,-25.97],"mozambican":[32.59,-25.97],"maputo":[32.59,-25.97],
   "myanmar":[96.20,16.87],"burmese":[96.20,16.87],"burma":[96.20,16.87],"yangon":[96.20,16.87],"rangoon":[96.20,16.87],"naypyidaw":[96.13,19.76],
-  // N
   "namibia":[17.08,-22.56],"namibian":[17.08,-22.56],"windhoek":[17.08,-22.56],
   "nepal":[85.32,27.72],"nepali":[85.32,27.72],"nepalese":[85.32,27.72],"kathmandu":[85.32,27.72],
   "netherlands":[4.90,52.37],"dutch":[4.90,52.37],"amsterdam":[4.90,52.37],"the hague":[4.30,52.08],
@@ -157,9 +164,7 @@ var cCentroids = {
   "nigeria":[7.49,9.06],"nigerian":[7.49,9.06],"abuja":[7.49,9.06],"lagos":[3.39,6.45],
   "north korea":[125.75,39.04],"dprk":[125.75,39.04],"pyongyang":[125.75,39.04],
   "norway":[10.75,59.91],"norwegian":[10.75,59.91],"oslo":[10.75,59.91],
-  // O
   "oman":[58.39,23.59],"omani":[58.39,23.59],"muscat":[58.39,23.59],
-  // P
   "pakistan":[73.04,33.69],"pakistani":[73.04,33.69],"islamabad":[73.04,33.69],"karachi":[67.01,24.86],
   "palestine":[35.23,31.90],"palestinian":[35.23,31.90],"gaza":[34.47,31.50],"west bank":[35.23,31.90],"ramallah":[35.20,31.90],
   "panama":[-79.52,8.98],"panamanian":[-79.52,8.98],"panama city":[-79.52,8.98],
@@ -169,13 +174,10 @@ var cCentroids = {
   "philippines":[120.98,14.60],"filipino":[120.98,14.60],"philippine":[120.98,14.60],"manila":[120.98,14.60],
   "poland":[21.02,52.23],"polish":[21.02,52.23],"warsaw":[21.02,52.23],
   "portugal":[-9.14,38.74],"portuguese":[-9.14,38.74],"lisbon":[-9.14,38.74],
-  // Q
   "qatar":[51.53,25.29],"qatari":[51.53,25.29],"doha":[51.53,25.29],
-  // R
   "romania":[26.10,44.43],"romanian":[26.10,44.43],"bucharest":[26.10,44.43],
   "russia":[37.62,55.75],"russian":[37.62,55.75],"moscow":[37.62,55.75],"kremlin":[37.62,55.75],"st petersburg":[30.31,59.94],
   "rwanda":[30.06,-1.94],"rwandan":[30.06,-1.94],"kigali":[30.06,-1.94],
-  // S
   "saudi arabia":[46.72,24.69],"saudi":[46.72,24.69],"riyadh":[46.72,24.69],
   "senegal":[-17.44,14.69],"senegalese":[-17.44,14.69],"dakar":[-17.44,14.69],
   "serbia":[20.46,44.82],"serbian":[20.46,44.82],"belgrade":[20.46,44.82],
@@ -193,7 +195,6 @@ var cCentroids = {
   "sweden":[18.07,59.33],"swedish":[18.07,59.33],"stockholm":[18.07,59.33],
   "switzerland":[7.45,46.95],"swiss":[7.45,46.95],"bern":[7.45,46.95],"geneva":[6.15,46.20],"zurich":[8.54,47.38],
   "syria":[36.28,33.51],"syrian":[36.28,33.51],"damascus":[36.28,33.51],"aleppo":[37.16,36.20],
-  // T
   "taiwan":[121.56,25.03],"taiwanese":[121.56,25.03],"taipei":[121.56,25.03],
   "tajikistan":[68.77,38.54],"tajik":[68.77,38.54],"dushanbe":[68.77,38.54],
   "tanzania":[39.27,-6.81],"tanzanian":[39.27,-6.81],"dar es salaam":[39.27,-6.81],"dodoma":[35.75,-6.17],
@@ -203,7 +204,6 @@ var cCentroids = {
   "tunisia":[10.18,36.81],"tunisian":[10.18,36.81],"tunis":[10.18,36.81],
   "turkey":[32.87,39.93],"turkish":[32.87,39.93],"ankara":[32.87,39.93],"istanbul":[28.98,41.01],
   "turkmenistan":[58.38,37.95],"turkmen":[58.38,37.95],"ashgabat":[58.38,37.95],
-  // U
   "uganda":[32.58,0.31],"ugandan":[32.58,0.31],"kampala":[32.58,0.31],
   "ukraine":[30.52,50.45],"ukrainian":[30.52,50.45],"kyiv":[30.52,50.45],"kiev":[30.52,50.45],"kharkiv":[36.23,49.99],"odesa":[30.73,46.48],"odessa":[30.73,46.48],
   "uae":[54.37,24.45],"emirati":[54.37,24.45],"united arab emirates":[54.37,24.45],"dubai":[55.27,25.20],"abu dhabi":[54.37,24.45],
@@ -211,18 +211,17 @@ var cCentroids = {
   "united states":[-77.04,38.91],"american":[-77.04,38.91],"usa":[-77.04,38.91],"washington":[-77.04,38.91],"new york":[-74.01,40.71],
   "uruguay":[-56.19,-34.90],"uruguayan":[-56.19,-34.90],"montevideo":[-56.19,-34.90],
   "uzbekistan":[69.28,41.31],"uzbek":[69.28,41.31],"tashkent":[69.28,41.31],
-  // V
   "venezuela":[-66.90,10.49],"venezuelan":[-66.90,10.49],"caracas":[-66.90,10.49],
   "vietnam":[105.85,21.03],"vietnamese":[105.85,21.03],"hanoi":[105.85,21.03],"ho chi minh":[106.63,10.82],
-  // Y
   "yemen":[44.21,15.35],"yemeni":[44.21,15.35],"sanaa":[44.21,15.35],"houthi":[44.21,15.35],
-  // Z
   "zambia":[28.32,-15.39],"zambian":[28.32,-15.39],"lusaka":[28.32,-15.39],
   "zimbabwe":[31.05,-17.83],"zimbabwean":[31.05,-17.83],"harare":[31.05,-17.83],
-  // Special entries
   "global":[0,20]
 };
 
+// =====================================================================
+//  FLAGS
+// =====================================================================
 var cTypeColors = {armed:"#ef4444",unrest:"#fb923c",coup:"#facc15",displacement:"#a78bfa",default:"#ef4444"};
 
 var cFlags = {
@@ -387,6 +386,9 @@ var cFlags = {
   "zimbabwe":"\u{1F1FF}\u{1F1FC}","zimbabwean":"\u{1F1FF}\u{1F1FC}","harare":"\u{1F1FF}\u{1F1FC}"
 };
 
+// =====================================================================
+//  HELPERS
+// =====================================================================
 function cDetectType(title) {
   var t = (title || "").toLowerCase();
   if (t.includes("military") || t.includes("strike") || t.includes("airstrike") || t.includes("bomb") || t.includes("attack") || t.includes("offensive") || t.includes("war") || t.includes("combat") || t.includes("troops") || t.includes("soldier") || t.includes("kill")) return "armed";
@@ -398,16 +400,12 @@ function cDetectType(title) {
 
 function cDetectCountry(title, tags) {
   var text = (title || "").toLowerCase();
-  
-  // Check tags first - most reliable
   if (tags && tags.length) {
     for (var i = 0; i < tags.length; i++) {
       var tagName = tags[i].toLowerCase();
       if (cCentroids[tagName]) return tagName;
     }
   }
-  
-  // Check title against all entries in centroids (longest match wins)
   var best = null;
   var bestLen = 0;
   var keys = Object.keys(cCentroids);
@@ -428,6 +426,9 @@ function cGetSeverity(title) {
   return "high";
 }
 
+// =====================================================================
+//  CLUSTER EXPANSION (fan-out on click)
+// =====================================================================
 var cOriginalFeatures = [];
 var cExpandedKey = null;
 var C_SPREAD_RADIUS = 5;
@@ -467,134 +468,90 @@ function cShowPopup(coords, props) {
     .addTo(cMap);
 }
 
+// =====================================================================
+//  TRAVEL ADVISORIES — LIVE FROM GITHUB (refreshed by pipeline)
+// =====================================================================
 var cIndex = [];
+var C_ADVISORY_URL = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/travel_advisories.json";
 
-// State Department Travel Advisories - Embedded data (updated Apr 2026)
-var cStateDeptAdvisories = [
-  {n:"Afghanistan",l:4,c:"AF"},{n:"Algeria",l:2,c:"DZ"},{n:"Angola",l:2,c:"AO"},{n:"Argentina",l:1,c:"AR"},
-  {n:"Armenia",l:2,c:"AM"},{n:"Australia",l:1,c:"AU"},{n:"Austria",l:1,c:"AT"},{n:"Azerbaijan",l:3,c:"AZ"},
-  {n:"Bahamas",l:2,c:"BS"},{n:"Bahrain",l:2,c:"BH"},{n:"Bangladesh",l:3,c:"BD"},{n:"Barbados",l:1,c:"BB"},
-  {n:"Belarus",l:4,c:"BY"},{n:"Belgium",l:2,c:"BE"},{n:"Belize",l:2,c:"BZ"},{n:"Benin",l:2,c:"BJ"},
-  {n:"Bhutan",l:1,c:"BT"},{n:"Bolivia",l:2,c:"BO"},{n:"Bosnia and Herzegovina",l:2,c:"BA"},
-  {n:"Botswana",l:1,c:"BW"},{n:"Brazil",l:2,c:"BR"},{n:"Brunei",l:1,c:"BN"},{n:"Bulgaria",l:1,c:"BG"},
-  {n:"Burkina Faso",l:4,c:"BF"},{n:"Myanmar",l:4,c:"MM"},{n:"Burundi",l:3,c:"BI"},{n:"Cabo Verde",l:1,c:"CV"},
-  {n:"Cambodia",l:2,c:"KH"},{n:"Cameroon",l:2,c:"CM"},{n:"Canada",l:1,c:"CA"},{n:"Central African Republic",l:4,c:"CF"},
-  {n:"Chad",l:3,c:"TD"},{n:"Chile",l:2,c:"CL"},{n:"China",l:3,c:"CN"},{n:"Colombia",l:3,c:"CO"},
-  {n:"Comoros",l:2,c:"KM"},{n:"Costa Rica",l:2,c:"CR"},{n:"Cote d'Ivoire",l:2,c:"CI"},{n:"Croatia",l:1,c:"HR"},
-  {n:"Cuba",l:2,c:"CU"},{n:"Cyprus",l:1,c:"CY"},{n:"Czechia",l:1,c:"CZ"},{n:"DR Congo",l:3,c:"CD"},
-  {n:"Denmark",l:1,c:"DK"},{n:"Djibouti",l:2,c:"DJ"},{n:"Dominica",l:1,c:"DM"},{n:"Dominican Republic",l:2,c:"DO"},
-  {n:"Ecuador",l:2,c:"EC"},{n:"Egypt",l:3,c:"EG"},{n:"El Salvador",l:3,c:"SV"},{n:"Equatorial Guinea",l:2,c:"GQ"},
-  {n:"Eritrea",l:2,c:"ER"},{n:"Estonia",l:1,c:"EE"},{n:"Eswatini",l:2,c:"SZ"},{n:"Ethiopia",l:3,c:"ET"},
-  {n:"Fiji",l:2,c:"FJ"},{n:"Finland",l:1,c:"FI"},{n:"France",l:2,c:"FR"},{n:"Gabon",l:2,c:"GA"},
-  {n:"Georgia",l:1,c:"GE"},{n:"Germany",l:2,c:"DE"},{n:"Ghana",l:2,c:"GH"},{n:"Greece",l:1,c:"GR"},
-  {n:"Grenada",l:2,c:"GD"},{n:"Guatemala",l:3,c:"GT"},{n:"Guinea",l:3,c:"GN"},{n:"Guinea-Bissau",l:3,c:"GW"},
-  {n:"Guyana",l:3,c:"GY"},{n:"Haiti",l:4,c:"HT"},{n:"Honduras",l:3,c:"HN"},{n:"Hong Kong",l:2,c:"HK"},
-  {n:"Hungary",l:1,c:"HU"},{n:"Iceland",l:1,c:"IS"},{n:"India",l:2,c:"IN"},{n:"Indonesia",l:2,c:"ID"},
-  {n:"Iran",l:4,c:"IR"},{n:"Iraq",l:4,c:"IQ"},{n:"Ireland",l:1,c:"IE"},{n:"Israel",l:3,c:"IL"},
-  {n:"Italy",l:2,c:"IT"},{n:"Jamaica",l:2,c:"JM"},{n:"Japan",l:1,c:"JP"},{n:"Jordan",l:2,c:"JO"},
-  {n:"Kazakhstan",l:1,c:"KZ"},{n:"Kenya",l:2,c:"KE"},{n:"Kosovo",l:2,c:"XK"},{n:"Kuwait",l:2,c:"KW"},
-  {n:"Kyrgyzstan",l:1,c:"KG"},{n:"Laos",l:2,c:"LA"},{n:"Latvia",l:1,c:"LV"},{n:"Lebanon",l:4,c:"LB"},
-  {n:"Lesotho",l:2,c:"LS"},{n:"Liberia",l:2,c:"LR"},{n:"Libya",l:4,c:"LY"},{n:"Lithuania",l:1,c:"LT"},
-  {n:"Luxembourg",l:1,c:"LU"},{n:"Macau",l:1,c:"MO"},{n:"Madagascar",l:2,c:"MG"},{n:"Malawi",l:2,c:"MW"},
-  {n:"Malaysia",l:2,c:"MY"},{n:"Maldives",l:2,c:"MV"},{n:"Mali",l:4,c:"ML"},{n:"Malta",l:1,c:"MT"},
-  {n:"Mauritania",l:3,c:"MR"},{n:"Mauritius",l:2,c:"MU"},{n:"Mexico",l:2,c:"MX"},{n:"Moldova",l:2,c:"MD"},
-  {n:"Monaco",l:1,c:"MC"},{n:"Mongolia",l:1,c:"MN"},{n:"Montenegro",l:1,c:"ME"},{n:"Morocco",l:2,c:"MA"},
-  {n:"Mozambique",l:2,c:"MZ"},{n:"Namibia",l:2,c:"NA"},{n:"Nepal",l:2,c:"NP"},{n:"Netherlands",l:2,c:"NL"},
-  {n:"New Zealand",l:1,c:"NZ"},{n:"Nicaragua",l:3,c:"NI"},{n:"Niger",l:4,c:"NE"},{n:"Nigeria",l:3,c:"NG"},
-  {n:"North Korea",l:4,c:"KP"},{n:"North Macedonia",l:1,c:"MK"},{n:"Norway",l:1,c:"NO"},{n:"Oman",l:2,c:"OM"},
-  {n:"Pakistan",l:3,c:"PK"},{n:"Palau",l:1,c:"PW"},{n:"Panama",l:2,c:"PA"},{n:"Papua New Guinea",l:3,c:"PG"},
-  {n:"Paraguay",l:1,c:"PY"},{n:"Peru",l:2,c:"PE"},{n:"Philippines",l:2,c:"PH"},{n:"Poland",l:1,c:"PL"},
-  {n:"Portugal",l:1,c:"PT"},{n:"Qatar",l:1,c:"QA"},{n:"Romania",l:1,c:"RO"},{n:"Russia",l:4,c:"RU"},
-  {n:"Rwanda",l:2,c:"RW"},{n:"Saint Kitts and Nevis",l:1,c:"KN"},{n:"Saint Lucia",l:1,c:"LC"},
-  {n:"Saint Vincent",l:1,c:"VC"},{n:"Samoa",l:2,c:"WS"},{n:"Saudi Arabia",l:3,c:"SA"},
-  {n:"Senegal",l:1,c:"SN"},{n:"Serbia",l:2,c:"RS"},{n:"Seychelles",l:1,c:"SC"},{n:"Sierra Leone",l:2,c:"SL"},
-  {n:"Singapore",l:1,c:"SG"},{n:"Slovakia",l:1,c:"SK"},{n:"Slovenia",l:1,c:"SI"},{n:"Solomon Islands",l:2,c:"SB"},
-  {n:"Somalia",l:4,c:"SO"},{n:"South Africa",l:2,c:"ZA"},{n:"South Korea",l:1,c:"KR"},{n:"South Sudan",l:4,c:"SS"},
-  {n:"Spain",l:2,c:"ES"},{n:"Sri Lanka",l:2,c:"LK"},{n:"Sudan",l:4,c:"SD"},{n:"Suriname",l:1,c:"SR"},
-  {n:"Sweden",l:2,c:"SE"},{n:"Switzerland",l:1,c:"CH"},{n:"Syria",l:4,c:"SY"},{n:"Taiwan",l:1,c:"TW"},
-  {n:"Tajikistan",l:2,c:"TJ"},{n:"Tanzania",l:3,c:"TZ"},{n:"Thailand",l:1,c:"TH"},{n:"The Gambia",l:2,c:"GM"},
-  {n:"Timor-Leste",l:2,c:"TL"},{n:"Togo",l:2,c:"TG"},{n:"Trinidad and Tobago",l:2,c:"TT"},
-  {n:"Tunisia",l:2,c:"TN"},{n:"Turkey",l:2,c:"TR"},{n:"Turkmenistan",l:2,c:"TM"},{n:"Uganda",l:3,c:"UG"},
-  {n:"Ukraine",l:4,c:"UA"},{n:"United Arab Emirates",l:2,c:"AE"},{n:"United Kingdom",l:2,c:"GB"},
-  {n:"Uruguay",l:1,c:"UY"},{n:"Uzbekistan",l:2,c:"UZ"},{n:"Vanuatu",l:2,c:"VU"},{n:"Venezuela",l:4,c:"VE"},
-  {n:"Vietnam",l:1,c:"VN"},{n:"West Bank and Gaza",l:4,c:"PS"},{n:"Yemen",l:4,c:"YE"},{n:"Zambia",l:2,c:"ZM"},
-  {n:"Zimbabwe",l:2,c:"ZW"}
-];
-
-// Process embedded data
 (function() {
-  var levelText = {1:"Normal Precautions",2:"Increased Caution",3:"Reconsider Travel",4:"Do Not Travel"};
+  var levelText  = {1:"Normal Precautions",2:"Increased Caution",3:"Reconsider Travel",4:"Do Not Travel"};
   var levelGrade = {1:"low",2:"med",3:"high",4:"crit"};
-  
-  var countries = cStateDeptAdvisories.map(function(adv) {
-    var flag = "";
-    if (adv.c && adv.c.length === 2) {
-      flag = String.fromCodePoint(0x1F1E6 + adv.c.charCodeAt(0) - 65) + 
-             String.fromCodePoint(0x1F1E6 + adv.c.charCodeAt(1) - 65);
+
+  function renderIndex(countries) {
+    var indexEl = document.getElementById("c-index");
+    if (!indexEl) return;
+    var html = "";
+    for (var i = 0; i < countries.length; i++) {
+      var c = countries[i];
+      html += "<div class='c-row'><div class='c-rank'>"+(i+1)+"</div><div class='c-flag'>"+c.f+"</div><div class='c-info'><div class='c-name'>"+c.n+"</div><div class='c-type'>Level "+c.l+": "+c.t+"</div></div><div class='c-score'><div class='c-score-val "+c.g+"'>"+c.l+"</div></div></div>";
     }
-    return {
-      n: adv.n,
-      f: flag,
-      l: adv.l,
-      t: levelText[adv.l],
-      g: levelGrade[adv.l],
-      code: adv.c
-    };
-  });
-  
-  // Sort by level (highest first), then alphabetically
-  countries.sort(function(a, b) {
-    if (b.l !== a.l) return b.l - a.l;
-    return a.n.localeCompare(b.n);
-  });
-  
-  cIndex = countries;
-  
-  // Wait for DOM
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function() {
-      renderIndex(countries);
-      updateStats(countries);
+    indexEl.innerHTML = html;
+  }
+
+  function updateStats(countries) {
+    var counts = {1:0,2:0,3:0,4:0};
+    countries.forEach(function(c){ counts[c.l] = (counts[c.l]||0) + 1; });
+    var l4El = document.getElementById("c-level4");
+    var l3El = document.getElementById("c-level3");
+    var l2El = document.getElementById("c-level2");
+    var l1El = document.getElementById("c-level1");
+    if (l4El) l4El.textContent = counts[4];
+    if (l3El) l3El.textContent = counts[3];
+    if (l2El) l2El.textContent = counts[2];
+    if (l1El) l1El.textContent = counts[1];
+  }
+
+  function processAdvisories(advisories) {
+    var countries = advisories.map(function(adv) {
+      var flag = "";
+      var lookupKey = (adv.country || "").toLowerCase();
+      if (cFlags[lookupKey]) flag = cFlags[lookupKey];
+      return {
+        n: adv.country,
+        f: flag,
+        l: adv.level,
+        t: levelText[adv.level] || "",
+        g: levelGrade[adv.level] || "low"
+      };
     });
-  } else {
+    countries.sort(function(a, b) {
+      if (b.l !== a.l) return b.l - a.l;
+      return a.n.localeCompare(b.n);
+    });
+    cIndex = countries;
     renderIndex(countries);
     updateStats(countries);
   }
+
+  function errorFallback() {
+    var indexEl = document.getElementById("c-index");
+    if (indexEl) indexEl.innerHTML = "<div class='c-loading'>Advisory data unavailable</div>";
+  }
+
+  // Cache-bust every 30 min so pipeline updates appear within that window
+  var url = C_ADVISORY_URL + "?t=" + Math.floor(Date.now() / (1000 * 60 * 30));
+
+  function doFetch() {
+    fetch(url)
+      .then(function(r){ if (!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+      .then(function(payload){ processAdvisories(payload.advisories || []); })
+      .catch(function(err){
+        console.error("[conflict-dash] Travel advisory fetch failed:", err);
+        errorFallback();
+      });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", doFetch);
+  } else {
+    doFetch();
+  }
 })();
 
-function renderIndex(countries) {
-  var indexEl = document.getElementById("c-index");
-  if (!indexEl) return;
-  
-  var html = "";
-  for (var i = 0; i < countries.length; i++) {
-    var c = countries[i];
-    html += "<div class='c-row'><div class='c-rank'>"+(i+1)+"</div><div class='c-flag'>"+c.f+"</div><div class='c-info'><div class='c-name'>"+c.n+"</div><div class='c-type'>Level "+c.l+": "+c.t+"</div></div><div class='c-score'><div class='c-score-val "+c.g+"'>"+c.l+"</div></div></div>";
-  }
-  indexEl.innerHTML = html;
-}
-
-function updateStats(countries) {
-  var level4 = 0, level3 = 0, level2 = 0, level1 = 0;
-  countries.forEach(function(c) {
-    if (c.l === 4) level4++;
-    else if (c.l === 3) level3++;
-    else if (c.l === 2) level2++;
-    else level1++;
-  });
-  
-  // Update stat boxes by ID
-  var l4El = document.getElementById("c-level4");
-  var l3El = document.getElementById("c-level3");
-  var l2El = document.getElementById("c-level2");
-  var l1El = document.getElementById("c-level1");
-  
-  if (l4El) l4El.textContent = level4;
-  if (l3El) l3El.textContent = level3;
-  if (l2El) l2El.textContent = level2;
-  if (l1El) l1El.textContent = level1;
-}
-
+// =====================================================================
+//  MAP LOAD — PLOT CONFLICT POSTS + TICKER
+// =====================================================================
 cMap.on("load", function() {
   cMap.addSource("c-lines", {type:"geojson",data:{type:"FeatureCollection",features:[]}});
   cMap.addLayer({id:"c-spider-legs",type:"line",source:"c-lines",paint:{"line-color":"rgba(255,255,255,0.5)","line-width":1,"line-dasharray":[2,2]}});
@@ -626,7 +583,7 @@ cMap.on("load", function() {
     .then(function(posts) {
       var features = [];
       var tickerItems = [];
-      
+
       posts.forEach(function(post) {
         var title = post.title.rendered.replace(/<[^>]+>/g,"");
         var tags = [];
@@ -640,8 +597,7 @@ cMap.on("load", function() {
         var country = cDetectCountry(title, tags);
         var incType = cDetectType(title);
         var sev = cGetSeverity(title);
-        
-        // Add to map if country detected
+
         if (country && cCentroids[country]) {
           var coords = cCentroids[country];
           features.push({
@@ -650,8 +606,7 @@ cMap.on("load", function() {
             properties:{title:title,country:country.charAt(0).toUpperCase()+country.slice(1),countryKey:country,type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
           });
         }
-        
-        // Build ticker item (limit to first 10 for ticker) - always add if we have a country
+
         if (tickerItems.length < 10 && country) {
           var shortTitle = title.length > 50 ? title.substring(0, 47) + "..." : title;
           var sevClass = sev === "crit" ? "sev-crit" : "sev-high";
@@ -661,33 +616,39 @@ cMap.on("load", function() {
           tickerItems.push("<span class='c-ticker-item'><span class='c-ticker-flag'>" + flag + "</span> " + countryName + " — " + shortTitle + " <span class='c-ticker-sev " + sevClass + "'>" + sevLabel + "</span></span>");
         }
       });
-      
+
       cOriginalFeatures = features;
       cMap.getSource("cpts").setData({type:"FeatureCollection",features:features});
-      document.getElementById("c-map-count").textContent = features.length + " EVENTS";
-      
-      // Populate ticker - duplicate for seamless scroll
+      var mapCountEl = document.getElementById("c-map-count");
+      if (mapCountEl) mapCountEl.textContent = features.length + " EVENTS";
+
       var tickerEl = document.getElementById("c-ticker-content");
       if (tickerEl && tickerItems.length > 0) {
-        var tickerHtml = tickerItems.join("") + tickerItems.join("");
-        tickerEl.innerHTML = tickerHtml;
+        tickerEl.innerHTML = tickerItems.join("") + tickerItems.join("");
       }
-      
+
       console.log("Plotted " + features.length + " conflict events on map");
     })
     .catch(function(e) {
       console.log("Map feed error:", e);
-      document.getElementById("c-map-count").textContent = "FEED ERROR";
+      var mapCountEl = document.getElementById("c-map-count");
+      if (mapCountEl) mapCountEl.textContent = "FEED ERROR";
     });
 
   setTimeout(function(){cMap.resize();}, 200);
 });
 
+// =====================================================================
+//  ZOOM CONTROLS
+// =====================================================================
 var zinBtn = document.getElementById("c-zin");
 var zoutBtn = document.getElementById("c-zout");
 if (zinBtn) zinBtn.onclick = function(){cMap.zoomIn();};
 if (zoutBtn) zoutBtn.onclick = function(){cMap.zoomOut();};
 
+// =====================================================================
+//  RIGHT-PANEL NEWS FEED
+// =====================================================================
 fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&orderby=date&order=desc&_embed=1")
   .then(function(r){return r.json();})
   .then(function(posts) {
@@ -724,6 +685,9 @@ fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_pag
     if (feed) feed.innerHTML = "<div class='c-loading'>FEED ERROR</div>";
   });
 
+// =====================================================================
+//  UTC CLOCK
+// =====================================================================
 setInterval(function() {
   var d = new Date();
   var h = d.getUTCHours();
@@ -733,13 +697,14 @@ setInterval(function() {
   if (clockEl) clockEl.textContent = (h<10?"0":"")+h+":"+(m<10?"0":"")+m+":"+(s<10?"0":"")+s+" UTC";
 }, 1000);
 
+// =====================================================================
+//  MAP FILTER BUTTONS
+// =====================================================================
 var currentFilter = "all";
 
 function filterMapPoints(filterType) {
   currentFilter = filterType.toLowerCase();
-  
   if (!cOriginalFeatures.length) return;
-  
   var filtered;
   if (currentFilter === "all") {
     filtered = cOriginalFeatures;
@@ -748,8 +713,6 @@ function filterMapPoints(filterType) {
       return f.properties.type === currentFilter;
     });
   }
-  
-  // Reset expansion state
   cExpandedKey = null;
   if (cMap.getSource("c-lines")) {
     cMap.getSource("c-lines").setData({type:"FeatureCollection",features:[]});
@@ -757,9 +720,8 @@ function filterMapPoints(filterType) {
   if (cMap.getSource("cpts")) {
     cMap.getSource("cpts").setData({type:"FeatureCollection",features:filtered});
   }
-  
-  // Update count
-  document.getElementById("c-map-count").textContent = filtered.length + " EVENTS";
+  var mapCountEl = document.getElementById("c-map-count");
+  if (mapCountEl) mapCountEl.textContent = filtered.length + " EVENTS";
 }
 
 var filterBtns = document.querySelectorAll(".c-fbtn");
@@ -767,7 +729,6 @@ filterBtns.forEach(function(btn) {
   btn.addEventListener("click", function() {
     filterBtns.forEach(function(b){b.classList.remove("active");});
     this.classList.add("active");
-    
     var filterText = this.textContent.trim().toLowerCase();
     filterMapPoints(filterText);
   });
