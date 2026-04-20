@@ -19,7 +19,7 @@
 var WP_BASE     = "https://globalwitnessmonitor.com";
 var CATEGORY_ID = 38;
 var MAP_LIMIT   = 100;
-var FEED_LIMIT  = 20;
+var FEED_LIMIT  = 50;
 
 // =====================================================================
 //  MAP INIT
