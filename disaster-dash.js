@@ -376,9 +376,21 @@ var dFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
-function dEscapeHtml(s) {
-  return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+unction dEscapeHtml(s) {
+  if (!s) return "";
+  // Decode HTML entities first, then replace en/em dashes with commas
+  var txt = document.createElement("textarea");
+  txt.innerHTML = String(s);
+  var decoded = txt.value;
+  decoded = decoded.replace(/\s*[\u2013\u2014]\s*/g, ", ");
+  return decoded
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
+
 
 function dStripTags(s) {
   return (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
