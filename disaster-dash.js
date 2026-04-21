@@ -87,6 +87,7 @@ var dTypeLabels = {
 
 function dDetectType(title) {
   var t = (title || "").toLowerCase();
+  if (/\bM\s?\d+\.\d+\b/i.test(title)) return "earthquake";
   if (t.indexOf("tsunami") !== -1 || t.indexOf("tidal wave") !== -1) return "tsunami";
   if (t.indexOf("volcano") !== -1 || t.indexOf("eruption") !== -1 ||
       t.indexOf("volcanic") !== -1 || t.indexOf("lava") !== -1) return "volcano";
