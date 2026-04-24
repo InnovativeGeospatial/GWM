@@ -376,7 +376,7 @@ var dFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
-unction dEscapeHtml(s) {
+function dEscapeHtml(s) {
   if (!s) return "";
   // Decode HTML entities first, then replace en/em dashes with commas
   var txt = document.createElement("textarea");
