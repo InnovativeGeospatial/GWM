@@ -1,6 +1,6 @@
 /* =====================================================================
  * Global Witness Monitor -- Natural Disaster Intelligence Dashboard
- * disaster-dash.js  (v2 - GitHub/jsDelivr version)
+ * disaster-dash.js  (v3 - reads gwm-disaster-meta div + tag fallback)
  *
  * Served via jsDelivr:
  *   https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/disaster-dash.js
@@ -11,6 +11,12 @@
  *
  * Data source:
  *   WP REST API, category 38 (Natural Disaster Reports)
+ *
+ * v3 changes:
+ *   - dStripTags decodes HTML entities (fixes &#8211; titles)
+ *   - dTypeFromPost reads <div class="gwm-disaster-meta" data-type="..."> first,
+ *     then post tags, then falls back to title regex
+ *   - dCountryFromPost reads data-country from meta div first
  * ===================================================================== */
 
 // =====================================================================
@@ -85,6 +91,20 @@ var dTypeLabels = {
   other:      "Other"
 };
 
+// Pipeline-side canonical type names (Title Case) -> internal lowercase keys
+var dTypeKeyMap = {
+  "earthquake":"earthquake",
+  "flood":"flood",
+  "storm":"storm",
+  "wildfire":"wildfire",
+  "volcano":"volcano",
+  "tsunami":"tsunami",
+  "landslide":"landslide",
+  "drought":"drought",
+  "heatwave":"heatwave",
+  "other":"other"
+};
+
 function dDetectType(title) {
   var t = (title || "").toLowerCase();
   if (/\bM\s?\d+\.\d+\b/i.test(title)) return "earthquake";
@@ -108,6 +128,57 @@ function dDetectType(title) {
   if (t.indexOf("heatwave") !== -1 || t.indexOf("heat wave") !== -1 ||
       t.indexOf("extreme heat") !== -1) return "heatwave";
   return "other";
+}
+
+// Read gwm-disaster-meta div from rendered post content.
+// Returns {type: <key>|null, country: <name>|null}
+function dParseMetaDiv(post) {
+  var out = {type: null, country: null};
+  try {
+    var html = (post && post.content && post.content.rendered) || "";
+    if (!html) return out;
+    // Match in any attribute order
+    var divMatch = html.match(/<div[^>]*class=["'][^"']*gwm-disaster-meta[^"']*["'][^>]*><\/div>/i);
+    if (!divMatch) return out;
+    var divHtml = divMatch[0];
+    var typeMatch    = divHtml.match(/data-type=["']([^"']*)["']/i);
+    var countryMatch = divHtml.match(/data-country=["']([^"']*)["']/i);
+    if (typeMatch && typeMatch[1]) {
+      var key = typeMatch[1].trim().toLowerCase();
+      if (dTypeKeyMap[key]) out.type = dTypeKeyMap[key];
+    }
+    if (countryMatch && countryMatch[1]) {
+      out.country = countryMatch[1].trim() || null;
+    }
+  } catch (e) { /* ignore */ }
+  return out;
+}
+
+// Type from post tags (via _embedded). Returns key or null.
+function dTypeFromTags(post) {
+  try {
+    var terms = post._embedded && post._embedded["wp:term"];
+    if (!terms) return null;
+    for (var g = 0; g < terms.length; g++) {
+      var group = terms[g];
+      for (var i = 0; i < group.length; i++) {
+        var name = group[i] && group[i].name;
+        if (!name) continue;
+        var key = String(name).trim().toLowerCase();
+        if (dTypeKeyMap[key]) return dTypeKeyMap[key];
+      }
+    }
+  } catch (e) { /* ignore */ }
+  return null;
+}
+
+// Authoritative type lookup: meta div > tags > title regex.
+function dTypeFromPost(post, title) {
+  var meta = dParseMetaDiv(post);
+  if (meta.type) return meta.type;
+  var tagType = dTypeFromTags(post);
+  if (tagType) return tagType;
+  return dDetectType(title);
 }
 
 // =====================================================================
@@ -376,12 +447,17 @@ var dFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
+function dDecodeEntities(s) {
+  if (!s) return "";
+  var txt = document.createElement("textarea");
+  txt.innerHTML = String(s);
+  return txt.value;
+}
+
 function dEscapeHtml(s) {
   if (!s) return "";
   // Decode HTML entities first, then replace en/em dashes with commas
-  var txt = document.createElement("textarea");
-  txt.innerHTML = String(s);
-  var decoded = txt.value;
+  var decoded = dDecodeEntities(s);
   decoded = decoded.replace(/\s*[\u2013\u2014]\s*/g, ", ");
   return decoded
     .replace(/&/g, "&amp;")
@@ -393,7 +469,9 @@ function dEscapeHtml(s) {
 
 
 function dStripTags(s) {
-  return (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  // Decode entities first so &#8211; etc. don't survive into the output.
+  var decoded = dDecodeEntities(s || "");
+  return decoded.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
 function dRelativeTime(iso) {
@@ -504,7 +582,15 @@ function dCountryFromText(text) {
 }
 
 function dCountryFromPost(post) {
-  // 1) check tag names if embedded
+  // 1) prefer pipeline-supplied meta div
+  var meta = dParseMetaDiv(post);
+  if (meta.country) {
+    if (dFlags[meta.country]) return meta.country;
+    var canon = dCountryFromText(meta.country);
+    if (canon) return canon;
+    return meta.country;
+  }
+  // 2) check tag names if embedded
   try {
     var terms = post._embedded && post._embedded["wp:term"];
     if (terms && terms.length) {
@@ -520,7 +606,7 @@ function dCountryFromPost(post) {
       }
     }
   } catch (e) { /* ignore */ }
-  // 2) fall back to title text scan
+  // 3) fall back to title text scan
   var title = post.title && (post.title.rendered || post.title);
   return dCountryFromText(dStripTags(title));
 }
@@ -662,7 +748,7 @@ function dRenderNewsFeed(posts) {
   box.innerHTML = posts.map(function (p) {
     var title = dStripTags(p.title.rendered || "");
     var country = dCountryFromPost(p);
-    var type = dDetectType(title);
+    var type = dTypeFromPost(p, title);
     var color = dTypeColors[type];
     var excerpt = dStripTags(p.excerpt && p.excerpt.rendered || "").slice(0, 160);
     return (
@@ -791,7 +877,7 @@ function dLoadData() {
     dAllEvents = posts.map(function (p) {
       var title = dStripTags(p.title.rendered || "");
       var country = dCountryFromPost(p);
-      var type = dDetectType(title);
+      var type = dTypeFromPost(p, title);
       var coords = null;
       if (country) {
         var key = country.toLowerCase();
