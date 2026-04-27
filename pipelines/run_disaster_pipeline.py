@@ -891,7 +891,7 @@ CRITICAL RULES:
   inline using phrases like "according to local authorities" or "reports indicate".
 - Do not include a title in your response -- only the article body.
 - End with a one-sentence Mission Note: summarizing the operational significance for field workers
-  (e.g., travel impact, infrastructure damage, humanitarian access concerns).
+  (e.g., travel impact, infrastructure damage, humanitarian access concerns). Put this on it's own line apart from the paragraph. Do not put astriks next to it (no *).
 
 IMPORTANT: Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an
 explainer with no factual event reported. If the source mentions an actual disaster event -- even
