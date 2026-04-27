@@ -133,7 +133,7 @@ function dDetectType(title) {
 // Read gwm-disaster-meta div from rendered post content.
 // Returns {type: <key>|null, country: <name>|null}
 function dParseMetaDiv(post) {
-  var out = {type: null, country: null, lat: null, lng: null};
+  var out = {type: null, country: null, lat: null, lng: null, multi: false};
   try {
     var html = (post && post.content && post.content.rendered) || "";
     if (!html) return out;
@@ -145,6 +145,8 @@ function dParseMetaDiv(post) {
     var countryMatch = divHtml.match(/data-country=["']([^"']*)["']/i);
     var latMatch     = divHtml.match(/data-lat=["']([^"']*)["']/i);
     var lngMatch     = divHtml.match(/data-lng=["']([^"']*)["']/i);
+    var multiMatch   = divHtml.match(/data-multi=["']([^"']*)["']/i);
+
     if (typeMatch && typeMatch[1]) {
       var key = typeMatch[1].trim().toLowerCase();
       if (dTypeKeyMap[key]) out.type = dTypeKeyMap[key];
@@ -159,6 +161,9 @@ function dParseMetaDiv(post) {
     if (lngMatch && lngMatch[1]) {
       var lng = parseFloat(lngMatch[1]);
       if (!isNaN(lng) && lng >= -180 && lng <= 180) out.lng = lng;
+    }
+    if (multiMatch && multiMatch[1] === "true") {
+      out.multi = true;
     }
   } catch (e) { /* ignore */ }
   return out;
@@ -890,8 +895,11 @@ function dLoadData() {
       var type = dTypeFromPost(p, title);
       var meta = dParseMetaDiv(p);
       var coords = null;
-      // Prefer precise coordinates from meta div; fall back to country centroid
-      if (meta.lng !== null && meta.lat !== null) {
+      // Prefer precise coordinates from meta div; fall back to country centroid.
+      // If event is flagged multi-country, skip mapping entirely.
+      if (meta.multi) {
+        coords = null;
+      } else if (meta.lng !== null && meta.lat !== null) {
         coords = [meta.lng, meta.lat];
       } else if (country) {
         var key = country.toLowerCase();
