@@ -492,7 +492,7 @@ CRITICAL RULES:
 - When names of people are mentioned in the source material, do not include them, refer to them as man, woman, people, etc.
 - Do not include the source at the bottom of the article, just add the name somewhere in the article as according to... or something like that.
 - Do not include a title in your response -- only the article body.
-- End with a one-sentence Mission Note: summarizing the operational significance for field workers.
+- End with a one-sentence Mission Note: summarizing the operational significance for field workers. Put this on it's own line apart from the paragraph. Do not put astriks next to it (no *).
 MEDIA-ANNOUNCEMENT RULE:
 - If the source material is primarily an announcement of a video, photo gallery,
   livestream, or audio segment ('Video:', 'Footage:', 'Photos:', 'Watch this',
