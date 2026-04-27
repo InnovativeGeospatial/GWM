@@ -857,12 +857,19 @@ COUNTRY field rules:
   specific country, UNLESS one country is clearly the primary location).
 
 LOCATION field rules:
-- Return the most specific named place mentioned in the source material.
+- Return the most specific named place mentioned ANYWHERE in the source material.
 - Examples: "Petropavlovsk-Kamchatsky", "Kerala", "Mocoa, Putumayo", "Mount Etna".
 - Do NOT include the country in the LOCATION value (the COUNTRY field captures that).
-- For events spanning a wide region with no specific place, use the most specific
-  region name (e.g. "Sichuan Province", "Eastern Java").
-- If no specific place is named in the source, output LOCATION: UNKNOWN.
+- Prefer the smallest geographic unit named (city > district > province > region).
+- For events spanning a wide region, use the most specific region name available
+  (e.g. "Sichuan Province", "Eastern Java", "Tohoku Region", "Lake Chad Basin").
+- LOCATION: UNKNOWN should be your LAST resort. Use it ONLY when the source contains
+  literally NO place name beyond the country itself.
+- It is BETTER to return a broad region or a state/province than to return UNKNOWN.
+- Even if you are not 100% certain of the spelling, return the place name as it appears
+  in the source. The geocoding system will handle disambiguation.
+- If the source mentions a town, village, region, province, district, state, or any
+  named geographic area smaller than the country, you MUST return that name.
 
 DISASTER_TYPE field rules:
 - Return the PRIMARY event type, not secondary consequences.
