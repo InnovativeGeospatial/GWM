@@ -906,6 +906,12 @@ def publish_to_wordpress(item, article_body, parsed=None):
         ' data-lng="' + _lng_str + '"'
         ' style="display:none;"></div>\n'
     )
+   # Convert plain-text paragraph breaks (\n\n) into <p> tags so WordPress
+    # renders them as separate paragraphs instead of one wall of text.
+    if isinstance(article_body, str) and "<p>" not in article_body:
+        paragraphs = [p.strip() for p in article_body.split("\n\n") if p.strip()]
+        article_body = "\n".join("<p>" + p.replace("\n", " ") + "</p>" for p in paragraphs)
+
     if isinstance(article_body, str) and "gwm-conflict-meta" not in article_body:
         article_body = _meta_div + article_body
 
