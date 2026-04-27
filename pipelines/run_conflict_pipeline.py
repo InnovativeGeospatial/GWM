@@ -1,4 +1,3 @@
-import re
 #!/usr/bin/env python3
 """
 Global Witness Monitor -- Conflict & Unrest Pipeline v4
@@ -181,6 +180,12 @@ EXCLUDE_PATTERNS = [
     'i am not afraid', 'not afraid of',
     'will it work', 'is it working',
     'live updates', 'live blog', 'live:',
+    'video:', 'video shows', 'watch:', 'watch ',
+    'footage:', 'footage shows', 'new footage', 'raw footage',
+    'photos:', 'pictures of', 'photographer captures',
+    'caught on camera', 'caught on tape', 'caught on video',
+]
+
 ]
 
 def is_relevant(title, summary):
@@ -485,6 +490,17 @@ CRITICAL RULES:
 - Do not include the source at the bottom of the article, just add the name somewhere in the article as according to... or something like that.
 - Do not include a title in your response -- only the article body.
 - End with a one-sentence Mission Note: summarizing the operational significance for field workers.
+MEDIA-ANNOUNCEMENT RULE:
+- If the source material is primarily an announcement of a video, photo gallery,
+  livestream, or audio segment ('Video:', 'Footage:', 'Photos:', 'Watch this',
+  'New footage shows...', 'Caught on camera...'), respond with SKIP_NO_EVENT.
+- Such items are media drops, not written intelligence reports. The actual event,
+  if real, will be covered separately as a written wire story which the pipeline
+  will pick up on its next pass.
+- Exception: a regular wire-style news article that happens to embed a video and
+  describes the underlying event in prose is fine to brief on; only skip when the
+  source itself IS the media announcement.
+
 
 IMPORTANT: If the source material does not describe an actual event (something that happened), 
 or if there is insufficient factual information to write a proper intelligence brief, 
