@@ -488,7 +488,7 @@ CRITICAL RULES:
 - The audience is mission professionals who need accurate, actionable information about regional safety.
 - Structure: lead with the key development, provide context, note implications for civilian/missionary safety where relevant.
 - Do NOT editorialize about geopolitics or assign blame beyond what sources state.
-- Length:100-250 words.
+- Length 75-200 words.
 - When names of people are mentioned in the source material, do not include them, refer to them as man, woman, people, etc.
 - Do not include the source at the bottom of the article, just add the name somewhere in the article as according to... or something like that.
 - Do not include a title in your response -- only the article body.
