@@ -1214,6 +1214,15 @@ def publish_to_wordpress(item, article_body, parsed=None):
             _final_lat = _ilat
             _final_lng = _ilng
 
+    # Multi-country disaster events (regional droughts, transboundary floods, etc.)
+    # are not point events. Suppress lat/lng so the dashboard skips placing a pin
+    # rather than misleadingly anchoring the event to one country's centroid.
+    if len(countries) > 1:
+        _final_lat = None
+        _final_lng = None
+        log.info("Multi-country event (%s); skipping map pin",
+                 ", ".join(countries))
+
     _lat_str = ("%.4f" % _final_lat) if isinstance(_final_lat, (int, float)) else ""
     _lng_str = ("%.4f" % _final_lng) if isinstance(_final_lng, (int, float)) else ""
     meta_div = (
