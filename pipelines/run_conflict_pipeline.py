@@ -184,7 +184,7 @@ EXCLUDE_PATTERNS = [
     'footage:', 'footage shows', 'new footage', 'raw footage',
     'photos:', 'pictures of', 'photographer captures',
     'caught on camera', 'caught on tape', 'caught on video',
-]
+
 
 ]
 
