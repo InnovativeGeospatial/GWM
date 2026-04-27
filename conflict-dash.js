@@ -1,6 +1,6 @@
 /* =====================================================================
  * Global Witness Monitor — Conflict & Unrest Intelligence Dashboard
- * conflict-dash.js  (full file)
+ * conflict-dash.js  (v2 - reads gwm-conflict-meta div, lat/lng from pipeline)
  *
  * Served via jsDelivr:
  *   https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict-dash.js
@@ -389,6 +389,61 @@ var cFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
+// Pipeline-side canonical type names -> internal keys
+var cTypeKeyMap = {
+  "armed conflict":"armed",
+  "armed":"armed",
+  "civil unrest":"unrest",
+  "unrest":"unrest",
+  "coup or crisis":"coup",
+  "coup":"coup",
+  "crisis":"coup",
+  "displacement":"displacement",
+  "other":"armed"
+};
+
+// Read gwm-conflict-meta div from rendered post content.
+// Returns {type, country, lat, lng} with null defaults.
+function cParseMetaDiv(post) {
+  var out = {type: null, country: null, lat: null, lng: null};
+  try {
+    var html = (post && post.content && post.content.rendered) || "";
+    if (!html) return out;
+    var divMatch = html.match(/<div[^>]*class=["'][^"']*gwm-conflict-meta[^"']*["'][^>]*><\/div>/i);
+    if (!divMatch) return out;
+    var divHtml = divMatch[0];
+    var typeMatch    = divHtml.match(/data-type=["']([^"']*)["']/i);
+    var countryMatch = divHtml.match(/data-country=["']([^"']*)["']/i);
+    var latMatch     = divHtml.match(/data-lat=["']([^"']*)["']/i);
+    var lngMatch     = divHtml.match(/data-lng=["']([^"']*)["']/i);
+    if (typeMatch && typeMatch[1]) {
+      var key = typeMatch[1].trim().toLowerCase();
+      if (cTypeKeyMap[key]) out.type = cTypeKeyMap[key];
+    }
+    if (countryMatch && countryMatch[1]) out.country = countryMatch[1].trim() || null;
+    if (latMatch && latMatch[1]) {
+      var lat = parseFloat(latMatch[1]);
+      if (!isNaN(lat) && lat >= -90 && lat <= 90) out.lat = lat;
+    }
+    if (lngMatch && lngMatch[1]) {
+      var lng = parseFloat(lngMatch[1]);
+      if (!isNaN(lng) && lng >= -180 && lng <= 180) out.lng = lng;
+    }
+  } catch (e) { /* ignore */ }
+  return out;
+}
+
+// Decode HTML entities in titles (e.g. &#8211; -> en-dash)
+function cDecodeEntities(str) {
+  if (!str) return "";
+  var txt = document.createElement("textarea");
+  txt.innerHTML = String(str);
+  var decoded = txt.value;
+  // Replace en/em dashes with commas for readability
+  decoded = decoded.replace(/\s*[\u2013\u2014]\s*/g, ", ");
+  return decoded;
+}
+
 function cDetectType(title) {
   var t = (title || "").toLowerCase();
   if (t.includes("military") || t.includes("strike") || t.includes("airstrike") || t.includes("bomb") || t.includes("attack") || t.includes("offensive") || t.includes("war") || t.includes("combat") || t.includes("troops") || t.includes("soldier") || t.includes("kill")) return "armed";
@@ -585,7 +640,7 @@ cMap.on("load", function() {
       var tickerItems = [];
 
       posts.forEach(function(post) {
-        var title = post.title.rendered.replace(/<[^>]+>/g,"");
+        var title = cDecodeEntities(post.title.rendered.replace(/<[^>]+>/g,""));
         var tags = [];
         if (post._embedded && post._embedded["wp:term"]) {
           post._embedded["wp:term"].forEach(function(termGroup) {
@@ -594,18 +649,31 @@ cMap.on("load", function() {
             });
           });
         }
-        var country = cDetectCountry(title, tags);
-        var incType = cDetectType(title);
+
+        // Prefer meta div data; fall back to title-based detection
+        var meta = cParseMetaDiv(post);
+        var country = meta.country ? meta.country.toLowerCase() : cDetectCountry(title, tags);
+        var incType = meta.type || cDetectType(title);
         var sev = cGetSeverity(title);
 
-        if (country && cCentroids[country]) {
+        // Priority: meta lat/lng -> centroid
+        var lng, lat;
+        if (meta.lng !== null && meta.lat !== null) {
+          lng = meta.lng;
+          lat = meta.lat;
+        } else if (country && cCentroids[country]) {
           var coords = cCentroids[country];
-          features.push({
-            type:"Feature",
-            geometry:{type:"Point",coordinates:[coords[0],coords[1]]},
-            properties:{title:title,country:country.charAt(0).toUpperCase()+country.slice(1),countryKey:country,type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
-          });
+          lng = coords[0];
+          lat = coords[1];
+        } else {
+          return;
         }
+
+        features.push({
+          type:"Feature",
+          geometry:{type:"Point",coordinates:[lng,lat]},
+          properties:{title:title,country:country ? country.charAt(0).toUpperCase()+country.slice(1) : "Unknown",countryKey:country || "_",type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
+        });
 
         if (tickerItems.length < 10 && country) {
           var shortTitle = title.length > 50 ? title.substring(0, 47) + "..." : title;
@@ -662,8 +730,8 @@ fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_pag
     var html = "";
     for (var k = 0; k < posts.length; k++) {
       var p = posts[k];
-      var title = p.title.rendered.replace(/<[^>]+>/g,"");
-      var excerpt = p.excerpt.rendered.replace(/<[^>]+>/g,"").substring(0,100);
+      var title = cDecodeEntities(p.title.rendered.replace(/<[^>]+>/g,""));
+      var excerpt = cDecodeEntities(p.excerpt.rendered.replace(/<[^>]+>/g,"")).substring(0,100);
       var link = p.link || "#";
       var tag = "Global";
       if (p._embedded && p._embedded["wp:term"]) {
