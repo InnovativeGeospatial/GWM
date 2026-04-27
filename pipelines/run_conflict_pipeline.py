@@ -184,6 +184,9 @@ EXCLUDE_PATTERNS = [
     'footage:', 'footage shows', 'new footage', 'raw footage',
     'photos:', 'pictures of', 'photographer captures',
     'caught on camera', 'caught on tape', 'caught on video',
+    'memorial', 'tribute', 'ceremony', 'pays homage', 'pays respect',
+    'honored', 'honoured', 'remembers', 'commemorat', 'mourning',
+    'state funeral', 'funeral for',
 
 
 ]
@@ -500,6 +503,17 @@ MEDIA-ANNOUNCEMENT RULE:
 - Exception: a regular wire-style news article that happens to embed a video and
   describes the underlying event in prose is fine to brief on; only skip when the
   source itself IS the media announcement.
+COMMEMORATION RULE:
+- If the source material is about a memorial, funeral, ceremony, tribute, anniversary,
+  remembrance, or any commemorative event for past casualties or historical events,
+  respond with SKIP_NO_EVENT.
+- These are state ceremonies and remembrance events, not fresh conflict events. Even
+  if the ceremony is FOR people who died in real conflict, the brief should be about
+  the original event, not the memorial. The pipeline aims to surface ACTIONABLE,
+  CURRENT intelligence — not historical commemoration.
+- Examples to skip: "Kim Jong Un opens memorial", "tribute to fallen soldiers",
+  "anniversary of attack", "state funeral for...", "ceremony marks one year since...".
+
 
 
 IMPORTANT: If the source material does not describe an actual event (something that happened), 
@@ -836,10 +850,19 @@ def geocode_mapbox(location, country_hint=None):
 
 
 def sanitize_title(title):
-    """Decode HTML entities and replace en/em dashes with commas."""
+    """Decode HTML entities, replace en/em dashes with commas, strip
+    trailing source attributions like ' - Asia News Network' or ' | BBC News'."""
     if not title:
         return title
     t = html.unescape(title)
+    # Strip trailing source attributions before dash/pipe normalization.
+    # Matches: " - Source", " – Source", " — Source", " | Source"
+    # where Source is a short name (1-5 capitalized words, optional "News"/"Network").
+    t = re.sub(
+        r"\s*[-–—|]\s*[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+){0,4}(?:\s+(?:News|Network|Times|Post|Today|Tribune|Herald))?\s*$",
+        "",
+        t,
+    )
     t = t.replace("–", ", ").replace("—", ", ")
     t = re.sub(r"\s+", " ", t).strip()
     return t
