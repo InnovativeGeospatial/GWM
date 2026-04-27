@@ -626,13 +626,14 @@ def article_hash(url, title):
 # GDACS uses color-coded severity prefixes (Green/Orange/Red) in titles.
 # Replace with plain-English severity for readability.
 def normalize_gdacs_severity(title):
+    """Strip GDACS color-code severity prefixes (Green/Orange/Red) from titles.
+    GDACS feeds prefix titles with severity color codes which aren't useful in the
+    intelligence-brief context."""
     if not title:
         return title
-    for color, severity in (("Green ", "Minor "),
-                            ("Orange ", "Moderate "),
-                            ("Red ", "Major ")):
+    for color in ("Green ", "Orange ", "Red "):
         if title.startswith(color):
-            return severity + title[len(color):]
+            return title[len(color):]
     return title
 
 
@@ -1121,14 +1122,17 @@ def get_or_create_tag(name, auth):
         return None
 
 def sanitize_title(title):
-    """Decode HTML entities and replace en/em dashes with commas."""
+    """Decode HTML entities, replace en/em dashes with commas, ensure spacing
+    after common labels like Depth: and Magnitude:."""
     if not title:
         return title
     t = html.unescape(title)
     t = t.replace("\u2013", ", ").replace("\u2014", ", ")
+    # Add space after Depth:N or Magnitude:N if missing (USGS quirk)
+    t = re.sub(r"(Depth|Magnitude|Mag):\s*(\d)", r"\1: \2", t)
     t = re.sub(r"\s+", " ", t).strip()
     return t
-
+  
 def publish_to_wordpress(item, article_body, parsed=None):
     endpoint = WP_URL + "/wp-json/wp/v2/posts"
     auth     = (WP_USER, WP_APP_PASSWORD)
