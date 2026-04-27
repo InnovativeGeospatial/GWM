@@ -884,7 +884,7 @@ CRITICAL RULES:
   note implications for field operations, travel, and affected communities where relevant.
 - Do NOT editorialize about climate policy, government response, or assign blame beyond what
   sources state.
-- Length: 100-250 words.
+- Length: 75-200 words.
 - When names of people are mentioned in the source material, do not include them; refer to them
   as "a man", "a woman", "residents", "officials", "rescuers", etc.
 - Do not include the source URL at the bottom of the article. You may attribute information
