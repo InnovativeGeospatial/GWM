@@ -452,7 +452,7 @@ def generate_article(article):
         "- No headers or sections\n"
         "- Never repeat the same point twice\n"
         "- End with one short prayer prompt sentence\n"
-        "- 100-250 words maximum\n\n"
+        "- 75-200 words maximum\n\n"
         "After the article write on a new line: HEADLINE: [short descriptive headline, no personal names]\n\n"
         "SOURCE: " + article["source"] + "\n"
         "TITLE: " + article["title"] + "\n"
