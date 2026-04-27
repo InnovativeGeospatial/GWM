@@ -1,6 +1,6 @@
 /* =====================================================================
  * Global Witness Monitor — Conflict & Unrest Intelligence Dashboard
- * conflict-dash.js  (v2 - reads gwm-conflict-meta div, lat/lng from pipeline)
+ * conflict-dash.js  (full file)
  *
  * Served via jsDelivr:
  *   https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict-dash.js
@@ -54,7 +54,7 @@ cMap.on("style.load", function() {
 });
 
 // =====================================================================
-//  CENTROIDS (capital cities / major cities)
+//  CENTROIDS (capital cities / major cities) — fallback only
 // =====================================================================
 var cCentroids = {
   "afghanistan":[69.17,34.53],"afghan":[69.17,34.53],"kabul":[69.17,34.53],
@@ -389,61 +389,6 @@ var cFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
-// Pipeline-side canonical type names -> internal keys
-var cTypeKeyMap = {
-  "armed conflict":"armed",
-  "armed":"armed",
-  "civil unrest":"unrest",
-  "unrest":"unrest",
-  "coup or crisis":"coup",
-  "coup":"coup",
-  "crisis":"coup",
-  "displacement":"displacement",
-  "other":"armed"
-};
-
-// Read gwm-conflict-meta div from rendered post content.
-// Returns {type, country, lat, lng} with null defaults.
-function cParseMetaDiv(post) {
-  var out = {type: null, country: null, lat: null, lng: null};
-  try {
-    var html = (post && post.content && post.content.rendered) || "";
-    if (!html) return out;
-    var divMatch = html.match(/<div[^>]*class=["'][^"']*gwm-conflict-meta[^"']*["'][^>]*><\/div>/i);
-    if (!divMatch) return out;
-    var divHtml = divMatch[0];
-    var typeMatch    = divHtml.match(/data-type=["']([^"']*)["']/i);
-    var countryMatch = divHtml.match(/data-country=["']([^"']*)["']/i);
-    var latMatch     = divHtml.match(/data-lat=["']([^"']*)["']/i);
-    var lngMatch     = divHtml.match(/data-lng=["']([^"']*)["']/i);
-    if (typeMatch && typeMatch[1]) {
-      var key = typeMatch[1].trim().toLowerCase();
-      if (cTypeKeyMap[key]) out.type = cTypeKeyMap[key];
-    }
-    if (countryMatch && countryMatch[1]) out.country = countryMatch[1].trim() || null;
-    if (latMatch && latMatch[1]) {
-      var lat = parseFloat(latMatch[1]);
-      if (!isNaN(lat) && lat >= -90 && lat <= 90) out.lat = lat;
-    }
-    if (lngMatch && lngMatch[1]) {
-      var lng = parseFloat(lngMatch[1]);
-      if (!isNaN(lng) && lng >= -180 && lng <= 180) out.lng = lng;
-    }
-  } catch (e) { /* ignore */ }
-  return out;
-}
-
-// Decode HTML entities in titles (e.g. &#8211; -> en-dash)
-function cDecodeEntities(str) {
-  if (!str) return "";
-  var txt = document.createElement("textarea");
-  txt.innerHTML = String(str);
-  var decoded = txt.value;
-  // Replace en/em dashes with commas for readability
-  decoded = decoded.replace(/\s*[\u2013\u2014]\s*/g, ", ");
-  return decoded;
-}
-
 function cDetectType(title) {
   var t = (title || "").toLowerCase();
   if (t.includes("military") || t.includes("strike") || t.includes("airstrike") || t.includes("bomb") || t.includes("attack") || t.includes("offensive") || t.includes("war") || t.includes("combat") || t.includes("troops") || t.includes("soldier") || t.includes("kill")) return "armed";
@@ -481,6 +426,40 @@ function cGetSeverity(title) {
   return "high";
 }
 
+// Parse pipeline-injected meta div from post.content.rendered.
+// Returns {lat, lng, country, type} or null if missing/invalid.
+function cParseMetaFromContent(contentHtml) {
+  if (!contentHtml || typeof contentHtml !== "string") return null;
+  var m = contentHtml.match(/<div[^>]*class=["']gwm-conflict-meta["'][^>]*>/i);
+  if (!m) return null;
+  var tag = m[0];
+  function attr(name) {
+    var re = new RegExp('data-' + name + '=["\']([^"\']*)["\']', 'i');
+    var mm = tag.match(re);
+    return mm ? mm[1] : "";
+  }
+  var latStr = attr("lat");
+  var lngStr = attr("lng");
+  var lat = latStr ? parseFloat(latStr) : NaN;
+  var lng = lngStr ? parseFloat(lngStr) : NaN;
+  var hasCoords = isFinite(lat) && isFinite(lng) && (lat !== 0 || lng !== 0);
+  return {
+    lat: hasCoords ? lat : null,
+    lng: hasCoords ? lng : null,
+    country: attr("country"),
+    type: attr("type")
+  };
+}
+
+// Build cluster key from rounded coords (2 decimals = ~1.1km).
+// Falls back to country key if coords missing.
+function cBuildCoordKey(lng, lat, fallbackCountry) {
+  if (isFinite(lat) && isFinite(lng)) {
+    return lng.toFixed(2) + "," + lat.toFixed(2);
+  }
+  return "country:" + (fallbackCountry || "unknown");
+}
+
 // =====================================================================
 //  CLUSTER EXPANSION (fan-out on click)
 // =====================================================================
@@ -505,12 +484,13 @@ function cCollapseAll() {
   if (cMap.getSource("cpts")) cMap.getSource("cpts").setData({type:"FeatureCollection",features:cOriginalFeatures});
 }
 
-function cExpandCluster(countryKey) {
-  var clusterFeatures = cOriginalFeatures.filter(function(f){return f.properties.countryKey===countryKey;});
-  var otherFeatures = cOriginalFeatures.filter(function(f){return f.properties.countryKey!==countryKey;});
+function cExpandCluster(coordKey) {
+  var clusterFeatures = cOriginalFeatures.filter(function(f){return f.properties.coordKey===coordKey;});
+  var otherFeatures = cOriginalFeatures.filter(function(f){return f.properties.coordKey!==coordKey;});
+  if (!clusterFeatures.length) return;
   var center = clusterFeatures[0].geometry.coordinates;
   var spread = cSpread(clusterFeatures, center[0], center[1]);
-  cExpandedKey = countryKey;
+  cExpandedKey = coordKey;
   var lineFeatures = spread.map(function(f){return{type:"Feature",geometry:{type:"LineString",coordinates:[center,f.geometry.coordinates]}};});
   cMap.getSource("c-lines").setData({type:"FeatureCollection",features:lineFeatures});
   cMap.getSource("cpts").setData({type:"FeatureCollection",features:otherFeatures.concat(spread)});
@@ -618,10 +598,10 @@ cMap.on("load", function() {
     e.originalEvent.stopPropagation();
     var props = e.features[0].properties;
     var coords = e.features[0].geometry.coordinates.slice();
-    var countryKey = props.countryKey;
-    var clusterSize = cOriginalFeatures.filter(function(f){return f.properties.countryKey===countryKey;}).length;
-    if (cExpandedKey === countryKey) { cShowPopup(coords, props); return; }
-    if (clusterSize > 1) { cExpandCluster(countryKey); return; }
+    var coordKey = props.coordKey;
+    var clusterSize = cOriginalFeatures.filter(function(f){return f.properties.coordKey===coordKey;}).length;
+    if (cExpandedKey === coordKey) { cShowPopup(coords, props); return; }
+    if (clusterSize > 1) { cExpandCluster(coordKey); return; }
     cShowPopup(coords, props);
   });
 
@@ -638,9 +618,13 @@ cMap.on("load", function() {
     .then(function(posts) {
       var features = [];
       var tickerItems = [];
+      var pinnedFromMeta = 0;
+      var pinnedFromCentroid = 0;
+      var skippedNoLocation = 0;
 
       posts.forEach(function(post) {
-        var title = cDecodeEntities(post.title.rendered.replace(/<[^>]+>/g,""));
+        var title = post.title.rendered.replace(/<[^>]+>/g,"");
+        var contentHtml = (post.content && post.content.rendered) ? post.content.rendered : "";
         var tags = [];
         if (post._embedded && post._embedded["wp:term"]) {
           post._embedded["wp:term"].forEach(function(termGroup) {
@@ -650,38 +634,64 @@ cMap.on("load", function() {
           });
         }
 
-        // Prefer meta div data; fall back to title-based detection
-        var meta = cParseMetaDiv(post);
-        var country = meta.country ? meta.country.toLowerCase() : cDetectCountry(title, tags);
-        var incType = meta.type || cDetectType(title);
-        var sev = cGetSeverity(title);
+        var meta = cParseMetaFromContent(contentHtml);
+        var lng = null, lat = null;
+        var country = null;
+        var incType = null;
 
-        // Priority: meta lat/lng -> centroid
-        var lng, lat;
-        if (meta.lng !== null && meta.lat !== null) {
+        // 1) Prefer meta-div coords from pipeline (Mapbox geocoded)
+        if (meta && meta.lat !== null && meta.lng !== null) {
           lng = meta.lng;
           lat = meta.lat;
-        } else if (country && cCentroids[country]) {
-          var coords = cCentroids[country];
-          lng = coords[0];
-          lat = coords[1];
+          country = (meta.country || "").toLowerCase();
+          pinnedFromMeta++;
         } else {
-          return;
+          // 2) Fallback: detect country from title/tags, use centroid
+          country = cDetectCountry(title, tags);
+          if (country && cCentroids[country]) {
+            lng = cCentroids[country][0];
+            lat = cCentroids[country][1];
+            pinnedFromCentroid++;
+          } else {
+            skippedNoLocation++;
+            return; // skip this post entirely — no usable location
+          }
         }
+
+        // Event type: prefer meta, fall back to title detection
+        if (meta && meta.type) {
+          var t = meta.type.toLowerCase();
+          if (t.indexOf("armed") !== -1) incType = "armed";
+          else if (t.indexOf("unrest") !== -1) incType = "unrest";
+          else if (t.indexOf("coup") !== -1 || t.indexOf("crisis") !== -1) incType = "coup";
+          else if (t.indexOf("displace") !== -1) incType = "displacement";
+        }
+        if (!incType) incType = cDetectType(title);
+
+        var sev = cGetSeverity(title);
+        var coordKey = cBuildCoordKey(lng, lat, country);
+        var displayCountry = country ? (country.charAt(0).toUpperCase() + country.slice(1)) : "Unknown";
 
         features.push({
           type:"Feature",
           geometry:{type:"Point",coordinates:[lng,lat]},
-          properties:{title:title,country:country ? country.charAt(0).toUpperCase()+country.slice(1) : "Unknown",countryKey:country || "_",type:incType,color:cTypeColors[incType]||cTypeColors.default,link:post.link}
+          properties:{
+            title:title,
+            country:displayCountry,
+            countryKey:country || "",
+            coordKey:coordKey,
+            type:incType,
+            color:cTypeColors[incType]||cTypeColors.default,
+            link:post.link
+          }
         });
 
-        if (tickerItems.length < 10 && country) {
+        if (tickerItems.length < 10) {
           var shortTitle = title.length > 50 ? title.substring(0, 47) + "..." : title;
           var sevClass = sev === "crit" ? "sev-crit" : "sev-high";
           var sevLabel = sev === "crit" ? "CRITICAL" : "HIGH";
-          var flag = cFlags[country] || "";
-          var countryName = country.charAt(0).toUpperCase() + country.slice(1);
-          tickerItems.push("<span class='c-ticker-item'><span class='c-ticker-flag'>" + flag + "</span> " + countryName + " — " + shortTitle + " <span class='c-ticker-sev " + sevClass + "'>" + sevLabel + "</span></span>");
+          var flag = (country && cFlags[country]) ? cFlags[country] : "";
+          tickerItems.push("<span class='c-ticker-item'><span class='c-ticker-flag'>" + flag + "</span> " + displayCountry + " — " + shortTitle + " <span class='c-ticker-sev " + sevClass + "'>" + sevLabel + "</span></span>");
         }
       });
 
@@ -695,7 +705,10 @@ cMap.on("load", function() {
         tickerEl.innerHTML = tickerItems.join("") + tickerItems.join("");
       }
 
-      console.log("Plotted " + features.length + " conflict events on map");
+      console.log("[conflict-dash] plotted " + features.length + " events: " +
+        pinnedFromMeta + " from meta-div, " +
+        pinnedFromCentroid + " from country centroid, " +
+        skippedNoLocation + " skipped (no location)");
     })
     .catch(function(e) {
       console.log("Map feed error:", e);
@@ -730,8 +743,8 @@ fetch("https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_pag
     var html = "";
     for (var k = 0; k < posts.length; k++) {
       var p = posts[k];
-      var title = cDecodeEntities(p.title.rendered.replace(/<[^>]+>/g,""));
-      var excerpt = cDecodeEntities(p.excerpt.rendered.replace(/<[^>]+>/g,"")).substring(0,100);
+      var title = p.title.rendered.replace(/<[^>]+>/g,"");
+      var excerpt = p.excerpt.rendered.replace(/<[^>]+>/g,"").substring(0,100);
       var link = p.link || "#";
       var tag = "Global";
       if (p._embedded && p._embedded["wp:term"]) {
