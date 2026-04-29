@@ -2,16 +2,20 @@
  * Global Witness Monitor -- Natural Disaster Intelligence Dashboard
  * disaster-dash.js
  *
+ * Served from Cloudways at:
+ *   /wp-content/themes/astra/disaster-dash.js
+ *
  * Mounts into elements defined by the disaster-loader HTML:
  *   #d-map, #d-stats, #d-country-list, #d-news, #d-ticker, #d-clock,
  *   .d-fbtn (filter buttons)
  *
- * Data source: WP REST API, category 38 (Natural Disaster Reports)
+ * Data source:
+ *   WP REST API, category 38 (Natural Disaster Reports)
  *
- * Coords priority:
- *   1. Hidden <div class="gwm-disaster-meta" data-lat data-lng> in post body
- *      (pipeline emits Mapbox-geocoded city-level coords here)
- *   2. Country centroid fallback (this file's dCentroids table)
+ * Coordinates:
+ *   Pulled from each post's hidden <div class="gwm-disaster-meta"
+ *   data-lat="..." data-lng="..."> when present. Falls back to
+ *   country centroid only if the meta div is missing/invalid.
  * ===================================================================== */
 
 // =====================================================================
@@ -22,9 +26,40 @@ var CATEGORY_ID = 38;
 var MAP_LIMIT   = 100;
 var FEED_LIMIT  = 50;
 
-// Stack tolerance for fan-out: two points cluster only if both
-// lat and lng land in the same bucket of this size (~5 km).
-var D_STACK_EPSILON = 0.05;
+// Cluster fan-out trigger: points within ~5km (~0.05 deg) are "stacked"
+var D_CLUSTER_THRESHOLD_DEG = 0.05;
+var D_SPREAD_RADIUS_DEG     = 4;
+
+// =====================================================================
+//  ATTRIBUTION DARK THEME (injected so map attribution matches dashboard)
+// =====================================================================
+(function injectAttributionStyle() {
+  var css =
+    "#disaster-wrap .maplibregl-ctrl-attrib," +
+    "#disaster-wrap .maplibregl-ctrl-attrib.maplibregl-compact {" +
+      "background: rgba(15,17,23,0.85) !important;" +
+      "color: #9aa0aa !important;" +
+      "border: 1px solid rgba(255,255,255,0.08) !important;" +
+      "border-radius: 4px !important;" +
+      "backdrop-filter: blur(6px);" +
+    "}" +
+    "#disaster-wrap .maplibregl-ctrl-attrib a," +
+    "#disaster-wrap .maplibregl-ctrl-attrib-inner a {" +
+      "color: #9aa0aa !important;" +
+    "}" +
+    "#disaster-wrap .maplibregl-ctrl-attrib a:hover {" +
+      "color: #e7e9ee !important;" +
+    "}" +
+    "#disaster-wrap .maplibregl-ctrl-attrib-button {" +
+      "background-color: rgba(15,17,23,0.85) !important;" +
+    "}" +
+    "#disaster-wrap .maplibregl-ctrl-attrib summary {" +
+      "color: #9aa0aa !important;" +
+    "}";
+  var style = document.createElement("style");
+  style.textContent = css;
+  document.head.appendChild(style);
+})();
 
 // =====================================================================
 //  MAP INIT
@@ -39,38 +74,19 @@ var dMap = new maplibregl.Map({
 
 dMap.addControl(new maplibregl.AttributionControl({compact: true}), "bottom-right");
 
-// Inject CSS to make attribution control dark to match map
-(function injectAttributionStyle() {
-  if (document.getElementById("d-attr-style")) return;
-  var s = document.createElement("style");
-  s.id = "d-attr-style";
-  s.textContent =
-    ".maplibregl-ctrl-attrib, .mapboxgl-ctrl-attrib {" +
-    "  background: rgba(20,20,24,0.85) !important;" +
-    "  color: rgba(255,255,255,0.7) !important;" +
-    "}" +
-    ".maplibregl-ctrl-attrib a, .mapboxgl-ctrl-attrib a {" +
-    "  color: rgba(255,255,255,0.85) !important;" +
-    "}" +
-    ".maplibregl-ctrl-attrib-button, .mapboxgl-ctrl-attrib-button {" +
-    "  background-color: rgba(20,20,24,0.85) !important;" +
-    "}";
-  document.head.appendChild(s);
-})();
-
 dMap.on("style.load", function() {
   if (dMap.getLayer("boundary_country")) {
     dMap.setPaintProperty("boundary_country", "line-color", "rgba(255,255,255,0.5)");
     dMap.setPaintProperty("boundary_country", "line-width", 1);
   }
   dMap.getStyle().layers.forEach(function(layer) {
-    if (layer.id.includes("boundary") || layer.id.includes("admin")) {
+    if (layer.id.indexOf("boundary") !== -1 || layer.id.indexOf("admin") !== -1) {
       try {
         dMap.setPaintProperty(layer.id, "line-color", "rgba(255,255,255,0.45)");
         dMap.setPaintProperty(layer.id, "line-opacity", 0.8);
       } catch(e) {}
     }
-    if (layer.id.includes("label") || layer.id.includes("place") || layer.id.includes("country")) {
+    if (layer.id.indexOf("label") !== -1 || layer.id.indexOf("place") !== -1 || layer.id.indexOf("country") !== -1) {
       try {
         dMap.setPaintProperty(layer.id, "text-color", "rgba(255,255,255,0.85)");
         dMap.setPaintProperty(layer.id, "text-halo-color", "rgba(0,0,0,0.9)");
@@ -189,6 +205,7 @@ var dCentroids = {
   "mauritius":[57.50,-20.16],"port louis":[57.50,-20.16],
   "cape verde":[-23.51,14.93],"praia":[-23.51,14.93],
   "eswatini":[31.13,-26.31],"swaziland":[31.13,-26.31],"mbabane":[31.13,-26.31],
+
   "iran":[51.39,35.69],"iranian":[51.39,35.69],"tehran":[51.39,35.69],
   "iraq":[44.36,33.31],"iraqi":[44.36,33.31],"baghdad":[44.36,33.31],"mosul":[43.13,36.34],
   "syria":[36.30,33.51],"syrian":[36.30,33.51],"damascus":[36.30,33.51],"aleppo":[37.16,36.20],
@@ -205,6 +222,7 @@ var dCentroids = {
   "uae":[54.37,24.45],"united arab emirates":[54.37,24.45],"dubai":[55.27,25.20],"abu dhabi":[54.37,24.45],
   "turkey":[32.85,39.93],"turkish":[32.85,39.93],"ankara":[32.85,39.93],"istanbul":[28.98,41.01],"gaziantep":[37.38,37.07],
   "egypt":[31.24,30.04],"egyptian":[31.24,30.04],"cairo":[31.24,30.04],"alexandria":[29.92,31.20],
+
   "china":[116.40,39.90],"chinese":[116.40,39.90],"beijing":[116.40,39.90],"shanghai":[121.47,31.23],"sichuan":[104.07,30.67],
   "india":[77.21,28.61],"indian":[77.21,28.61],"new delhi":[77.21,28.61],"mumbai":[72.88,19.08],"kolkata":[88.36,22.57],"chennai":[80.27,13.08],"kerala":[76.27,10.85],
   "pakistan":[73.05,33.69],"pakistani":[73.05,33.69],"islamabad":[73.05,33.69],"karachi":[67.01,24.86],"lahore":[74.34,31.55],
@@ -235,6 +253,7 @@ var dCentroids = {
   "tajikistan":[68.78,38.56],"tajik":[68.78,38.56],"dushanbe":[68.78,38.56],
   "maldives":[73.51,4.18],"male":[73.51,4.18],
   "timor-leste":[125.58,-8.56],"east timor":[125.58,-8.56],"dili":[125.58,-8.56],
+
   "united kingdom":[-0.13,51.51],"uk":[-0.13,51.51],"britain":[-0.13,51.51],"british":[-0.13,51.51],"england":[-0.13,51.51],"london":[-0.13,51.51],"scotland":[-3.19,55.95],
   "ireland":[-6.27,53.35],"irish":[-6.27,53.35],"dublin":[-6.27,53.35],
   "france":[2.35,48.86],"french":[2.35,48.86],"paris":[2.35,48.86],"marseille":[5.37,43.30],
@@ -279,6 +298,7 @@ var dCentroids = {
   "georgia":[44.79,41.72],"georgian":[44.79,41.72],"tbilisi":[44.79,41.72],
   "armenia":[44.51,40.18],"armenian":[44.51,40.18],"yerevan":[44.51,40.18],
   "azerbaijan":[49.87,40.41],"azerbaijani":[49.87,40.41],"baku":[49.87,40.41],
+
   "united states":[-77.04,38.91],"usa":[-77.04,38.91],"us":[-77.04,38.91],"american":[-77.04,38.91],
   "washington":[-77.04,38.91],"new york":[-74.01,40.71],"los angeles":[-118.24,34.05],"california":[-119.42,36.78],
   "florida":[-81.76,27.66],"texas":[-99.90,31.97],"louisiana":[-91.96,30.98],"new orleans":[-90.07,29.95],
@@ -310,6 +330,7 @@ var dCentroids = {
   "uruguay":[-56.16,-34.90],"montevideo":[-56.16,-34.90],
   "guyana":[-58.16,6.80],"georgetown":[-58.16,6.80],
   "suriname":[-55.20,5.85],"paramaribo":[-55.20,5.85],
+
   "australia":[149.13,-35.28],"australian":[149.13,-35.28],"sydney":[151.21,-33.87],"melbourne":[144.96,-37.81],"brisbane":[153.03,-27.47],"queensland":[145.00,-22.00],
   "new zealand":[174.78,-41.29],"wellington":[174.78,-41.29],"auckland":[174.76,-36.85],"christchurch":[172.64,-43.53],
   "papua new guinea":[147.18,-9.44],"png":[147.18,-9.44],"port moresby":[147.18,-9.44],
@@ -407,6 +428,22 @@ function dStripTags(s) {
   return (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
+function dCapFirst(s) {
+  if (!s) return "";
+  var str = String(s);
+  // Find first letter (skip leading whitespace/punctuation)
+  for (var i = 0; i < str.length; i++) {
+    var ch = str.charAt(i);
+    if (/[a-z]/.test(ch)) {
+      return str.slice(0, i) + ch.toUpperCase() + str.slice(i + 1);
+    }
+    if (/[A-Z]/.test(ch)) {
+      return str; // already capitalized
+    }
+  }
+  return str;
+}
+
 function dRelativeTime(iso) {
   var then = new Date(iso).getTime();
   var now = Date.now();
@@ -417,29 +454,37 @@ function dRelativeTime(iso) {
   return Math.floor(diff / 86400) + "d ago";
 }
 
-// Read pipeline-emitted hidden meta div from post content.
-// Returns {country, type, lat, lng} or empty fields if absent.
-function dParseMetaFromContent(htmlStr) {
-  if (!htmlStr) return {};
-  var m = htmlStr.match(/<div[^>]*class=["']gwm-disaster-meta["'][^>]*>/i);
-  if (!m) return {};
-  var tag = m[0];
+// =====================================================================
+//  META DIV PARSER (real coords from pipeline)
+// =====================================================================
+function dParseMetaFromContent(html) {
+  if (!html) return null;
+  // Look for: <div class="gwm-disaster-meta" data-country="..." data-type="..." data-lat="..." data-lng="...">
+  var match = html.match(/class=["']gwm-disaster-meta["'][^>]*>/i);
+  if (!match) return null;
+  var tag = match[0];
+
   function attr(name) {
     var re = new RegExp("data-" + name + "=[\"']([^\"']*)[\"']", "i");
-    var x = tag.match(re);
-    return x ? x[1] : "";
+    var m = tag.match(re);
+    return m ? m[1] : null;
   }
+
   var lat = parseFloat(attr("lat"));
   var lng = parseFloat(attr("lng"));
-  return {
-    country: attr("country") || null,
-    type: (attr("type") || "").toLowerCase() || null,
-    lat: isFinite(lat) ? lat : null,
-    lng: isFinite(lng) ? lng : null
-  };
+  var country = attr("country");
+  var type = attr("type");
+
+  var coords = null;
+  if (!isNaN(lat) && !isNaN(lng) && lat !== 0 && lng !== 0) {
+    coords = [lng, lat];
+  }
+  return { coords: coords, country: country, type: type };
 }
 
-// Country canonical mapping (key -> display name)
+// =====================================================================
+//  COUNTRY RESOLUTION
+// =====================================================================
 var dCanonicalMap = {
   "drc":"DRC","congo":"DRC","kinshasa":"DRC","goma":"DRC",
   "south sudan":"South Sudan","juba":"South Sudan",
@@ -535,7 +580,22 @@ function dCountryFromText(text) {
   return null;
 }
 
-function dCountryFromPost(post) {
+function dCanonicalizeMetaCountry(name) {
+  if (!name) return null;
+  if (dFlags[name]) return name;
+  var lower = name.toLowerCase();
+  if (dCanonicalMap[lower]) return dCanonicalMap[lower];
+  // title case fallback
+  return name.split(" ").map(function (w) {
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(" ");
+}
+
+function dCountryFromPost(post, metaCountry) {
+  if (metaCountry) {
+    var canon = dCanonicalizeMetaCountry(metaCountry);
+    if (canon) return canon;
+  }
   try {
     var terms = post._embedded && post._embedded["wp:term"];
     if (terms && terms.length) {
@@ -550,48 +610,69 @@ function dCountryFromPost(post) {
         }
       }
     }
-  } catch (e) {}
+  } catch (e) { /* ignore */ }
   var title = post.title && (post.title.rendered || post.title);
   return dCountryFromText(dStripTags(title));
 }
 
 // =====================================================================
-//  CLUSTER EXPANSION (only when truly stacked)
+//  CLUSTER EXPANSION (fan-out only when truly stacked ~5km)
 // =====================================================================
 var dOriginalFeatures = [];
-var dExpandedKey = null;
-var D_SPREAD_RADIUS = 4;
+var dClusterGroups = {};   // groupKey -> array of feature indexes
+var dExpandedGroup = null;
 
 function dCoordKey(lng, lat) {
-  // Bucket lng/lat. Two points share a bucket only if within ~5 km.
-  var b = D_STACK_EPSILON;
-  return Math.round(lng / b) + "_" + Math.round(lat / b);
+  // Snap to threshold grid so points within ~5km share a key
+  var step = D_CLUSTER_THRESHOLD_DEG;
+  var glng = Math.round(lng / step);
+  var glat = Math.round(lat / step);
+  return glng + "," + glat;
+}
+
+function dBuildClusterGroups(features) {
+  var groups = {};
+  features.forEach(function(f, i) {
+    var c = f.geometry.coordinates;
+    var key = dCoordKey(c[0], c[1]);
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(i);
+    f.properties.clusterKey = key;
+  });
+  return groups;
 }
 
 function dSpread(features, centerLng, centerLat) {
   if (features.length === 1) return features;
   return features.map(function(f, i) {
     var angle = (2 * Math.PI * i / features.length) - Math.PI / 2;
-    var newLng = centerLng + D_SPREAD_RADIUS * Math.cos(angle);
-    var newLat = centerLat + D_SPREAD_RADIUS * Math.sin(angle);
+    var newLng = centerLng + D_SPREAD_RADIUS_DEG * Math.cos(angle);
+    var newLat = centerLat + D_SPREAD_RADIUS_DEG * Math.sin(angle);
     newLat = Math.max(-80, Math.min(80, newLat));
-    return {type:"Feature",geometry:{type:"Point",coordinates:[newLng,newLat]},properties:f.properties};
+    return {
+      type:"Feature",
+      geometry:{type:"Point",coordinates:[newLng,newLat]},
+      properties:f.properties
+    };
   });
 }
 
 function dCollapseAll() {
-  dExpandedKey = null;
+  dExpandedGroup = null;
   if (dMap.getSource("d-lines")) dMap.getSource("d-lines").setData({type:"FeatureCollection",features:[]});
   if (dMap.getSource("dpts")) dMap.getSource("dpts").setData({type:"FeatureCollection",features:dOriginalFeatures});
 }
 
-function dExpandCluster(stackKey) {
-  var clusterFeatures = dOriginalFeatures.filter(function(f){return f.properties.stackKey===stackKey;});
-  var otherFeatures = dOriginalFeatures.filter(function(f){return f.properties.stackKey!==stackKey;});
+function dExpandCluster(groupKey) {
+  var clusterFeatures = dOriginalFeatures.filter(function(f){return f.properties.clusterKey===groupKey;});
+  var otherFeatures   = dOriginalFeatures.filter(function(f){return f.properties.clusterKey!==groupKey;});
+  if (clusterFeatures.length < 2) return;
   var center = clusterFeatures[0].geometry.coordinates;
   var spread = dSpread(clusterFeatures, center[0], center[1]);
-  dExpandedKey = stackKey;
-  var lineFeatures = spread.map(function(f){return{type:"Feature",geometry:{type:"LineString",coordinates:[center,f.geometry.coordinates]}};});
+  dExpandedGroup = groupKey;
+  var lineFeatures = spread.map(function(f){
+    return {type:"Feature",geometry:{type:"LineString",coordinates:[center,f.geometry.coordinates]}};
+  });
   dMap.getSource("d-lines").setData({type:"FeatureCollection",features:lineFeatures});
   dMap.getSource("dpts").setData({type:"FeatureCollection",features:otherFeatures.concat(spread)});
 }
@@ -605,7 +686,7 @@ function dShowPopup(coords, props) {
     .setHTML(
       "<div style='font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;min-width:200px;'>" +
         "<div style='font-size:9px;text-transform:uppercase;letter-spacing:0.15em;color:" + color + ";font-weight:700;margin-bottom:4px;'>" + typeLabel + "</div>" +
-        "<div style='font-size:13px;font-weight:500;color:#111;line-height:1.4;margin-bottom:6px;'>" + dEscapeHtml(props.title || "") + "</div>" +
+        "<div style='font-size:13px;font-weight:500;color:#111;line-height:1.4;margin-bottom:6px;'>" + dEscapeHtml(dCapFirst(props.title || "")) + "</div>" +
         "<div style='font-size:10px;color:#666;margin-bottom:6px;'>" + flag + " " + dEscapeHtml(props.country || "") + "</div>" +
         "<a href='" + (props.link || "#") + "' target='_blank' rel='noopener' style='font-size:11px;color:#ef4444;text-decoration:none;'>Read full report &rarr;</a>" +
       "</div>"
@@ -643,7 +724,9 @@ function dRenderStats(events) {
     "<div class='d-stat-list'>" + rows + "</div>";
 }
 
-// Country count list, sorted by count desc, alphabetical tiebreak
+// =====================================================================
+//  COUNTRY LIST (sorted descending by count)
+// =====================================================================
 function dRenderCountryList(events) {
   var box = document.getElementById("d-country-list");
   if (!box) return;
@@ -654,10 +737,9 @@ function dRenderCountryList(events) {
   });
   var arr = Object.keys(grouped).map(function (c) {
     return { country: c, n: grouped[c] };
-  });
-  arr.sort(function (a, b) {
-    if (b.n !== a.n) return b.n - a.n;
-    return a.country.localeCompare(b.country);
+  }).sort(function (a, b) {
+    if (b.n !== a.n) return b.n - a.n;        // primary: count desc
+    return a.country.localeCompare(b.country); // secondary: alpha asc
   });
   if (!arr.length) {
     box.innerHTML = "<div class='d-empty'>No country data yet</div>";
@@ -691,8 +773,10 @@ function dFlyToCountry(country) {
 }
 
 // =====================================================================
-//  NEWS FEED -- accepts already-filtered events array
+//  NEWS FEED (right panel) - filterable
 // =====================================================================
+var dAllFeedEvents = []; // mirrors dAllEvents but for feed rendering
+
 function dRenderNewsFeed(events) {
   var box = document.getElementById("d-news");
   if (!box) return;
@@ -708,12 +792,12 @@ function dRenderNewsFeed(events) {
         "<div class='d-news-bar' style='background:" + color + "'></div>" +
         "<div class='d-news-body'>" +
           "<div class='d-news-meta'>" +
-            "<span class='d-news-type' style='color:" + color + "'>" + (dTypeLabels[e.type] || dTypeLabels.other) + "</span>" +
+            "<span class='d-news-type' style='color:" + color + "'>" + dTypeLabels[e.type] + "</span>" +
             "<span class='d-news-flag'>" + (dFlags[e.country] || "") + "</span>" +
             "<span class='d-news-country'>" + (e.country || "Global") + "</span>" +
             "<span class='d-news-time'>" + dRelativeTime(e.date) + "</span>" +
           "</div>" +
-          "<div class='d-news-title'>" + dEscapeHtml(e.title) + "</div>" +
+          "<div class='d-news-title'>" + dEscapeHtml(dCapFirst(e.title)) + "</div>" +
           (excerpt ? "<div class='d-news-excerpt'>" + dEscapeHtml(excerpt) + "\u2026</div>" : "") +
         "</div>" +
       "</a>"
@@ -733,12 +817,13 @@ function dRenderTicker(events) {
   }
   var items = events.slice(0, 10).map(function (e) {
     var color = dTypeColors[e.type];
+    var titleSnippet = dCapFirst(e.title.slice(0, 90));
     return (
       "<span class='d-ticker-item'>" +
         "<span class='d-ticker-dot' style='background:" + color + "'></span>" +
         "<strong style='color:" + color + "'>" + dTypeLabels[e.type].toUpperCase() + "</strong>" +
         " &middot; " + (dFlags[e.country] || "") + " " + dEscapeHtml(e.country || "Global") +
-        " &middot; " + dEscapeHtml(e.title.slice(0, 90)) +
+        " &middot; " + dEscapeHtml(titleSnippet) +
       "</span>"
     );
   }).join("<span class='d-ticker-sep'>\u2022</span>");
@@ -795,16 +880,16 @@ dMap.on("load", function() {
     e.originalEvent.stopPropagation();
     var props = e.features[0].properties;
     var coords = e.features[0].geometry.coordinates.slice();
-    var stackKey = props.stackKey;
-    var clusterSize = dOriginalFeatures.filter(function(f){return f.properties.stackKey===stackKey;}).length;
-    if (dExpandedKey === stackKey) { dShowPopup(coords, props); return; }
-    if (clusterSize > 1) { dExpandCluster(stackKey); return; }
+    var groupKey = props.clusterKey;
+    var clusterSize = dOriginalFeatures.filter(function(f){return f.properties.clusterKey===groupKey;}).length;
+    if (dExpandedGroup === groupKey) { dShowPopup(coords, props); return; }
+    if (clusterSize > 1) { dExpandCluster(groupKey); return; }
     dShowPopup(coords, props);
   });
 
   dMap.on("click", function(e) {
     var dot = dMap.queryRenderedFeatures(e.point, {layers:["ddots"]});
-    if (!dot.length && dExpandedKey) dCollapseAll();
+    if (!dot.length && dExpandedGroup) dCollapseAll();
   });
 
   dMap.on("mouseenter", "ddots", function(){dMap.getCanvas().style.cursor="pointer";});
@@ -821,26 +906,23 @@ var dAllEvents = [];
 var dCurrentTypeFilter = "all";
 
 function dLoadData() {
-  var url = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID +
-            "&per_page=" + MAP_LIMIT + "&orderby=date&order=desc&_embed=1";
+  // Need content.rendered to parse meta div, so don't strip it
+  var mapUrl  = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID + "&per_page=" + MAP_LIMIT + "&orderby=date&order=desc&_embed=1";
+  var feedUrl = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID + "&per_page=" + FEED_LIMIT + "&orderby=date&order=desc&_embed=1";
 
-  fetch(url).then(function (r) { return r.json(); }).then(function (posts) {
+  fetch(mapUrl).then(function (r) { return r.json(); }).then(function (posts) {
     if (!Array.isArray(posts)) { posts = []; }
     dAllEvents = posts.map(function (p) {
       var title = dStripTags(p.title.rendered || "");
       var contentHtml = (p.content && p.content.rendered) || "";
       var meta = dParseMetaFromContent(contentHtml);
 
-      var country = null;
-      if (meta.country && dFlags[meta.country]) country = meta.country;
-      if (!country) country = dCountryFromPost(p);
+      var country = dCountryFromPost(p, meta && meta.country);
+      var type = (meta && meta.type) ? meta.type.toLowerCase() : dDetectType(title);
+      if (!dTypeColors[type]) type = dDetectType(title);
 
-      var type = (meta.type && dTypeLabels[meta.type]) ? meta.type : dDetectType(title);
-
-      var coords = null;
-      if (meta.lat !== null && meta.lng !== null) {
-        coords = [meta.lng, meta.lat];
-      } else if (country) {
+      var coords = meta && meta.coords ? meta.coords : null;
+      if (!coords && country) {
         var key = country.toLowerCase();
         coords = dCentroids[key] || null;
       }
@@ -849,48 +931,51 @@ function dLoadData() {
         id: p.id,
         title: title,
         country: country,
-        countryKey: country ? country.toLowerCase() : null,
         type: type,
         coords: coords,
-        excerpt: dStripTags(p.excerpt && p.excerpt.rendered || ""),
+        excerpt: dStripTags((p.excerpt && p.excerpt.rendered) || ""),
         date: p.date_gmt + "Z",
         link: p.link
       };
     });
 
+    // Map and feed both work off dAllEvents now
     dApplyTypeFilter(dCurrentTypeFilter);
     dRenderStats(dAllEvents);
     dRenderCountryList(dAllEvents);
     dRenderTicker(dAllEvents);
   }).catch(function (e) {
-    console.error("[disaster-dash] data fetch failed", e);
-    var feed = document.getElementById("d-news");
-    if (feed) feed.innerHTML = "<div class='d-empty'>Feed unavailable</div>";
+    console.error("[disaster-dash] map fetch failed", e);
   });
+
+  // Keep separate feed fetch only if FEED_LIMIT > MAP_LIMIT in future; for now reuse
+  // (We removed the separate feed render path since dApplyTypeFilter now drives the feed too.)
 }
 
 // =====================================================================
-//  TYPE FILTER -- map AND news feed
+//  TYPE FILTER (drives map AND news feed)
 // =====================================================================
 function dApplyTypeFilter(filterType) {
   dCurrentTypeFilter = filterType;
-  var filtered;
+  var filteredForMap;
+  var filteredForFeed;
+
   if (filterType === "all") {
-    filtered = dAllEvents;
+    filteredForMap  = dAllEvents.filter(function(e){ return e.coords; });
+    filteredForFeed = dAllEvents.slice();
   } else {
-    filtered = dAllEvents.filter(function(e){ return e.type === filterType; });
+    filteredForMap  = dAllEvents.filter(function(e){ return e.coords && e.type === filterType; });
+    filteredForFeed = dAllEvents.filter(function(e){ return e.type === filterType; });
   }
 
-  var mapEvents = filtered.filter(function(e){ return e.coords; });
-  var features = mapEvents.map(function(e) {
+  // Build GeoJSON features
+  var features = filteredForMap.map(function(e) {
     return {
       type: "Feature",
       geometry: {type: "Point", coordinates: [e.coords[0], e.coords[1]]},
       properties: {
         title: e.title,
         country: e.country || "Unknown",
-        countryKey: e.countryKey || "_",
-        stackKey: dCoordKey(e.coords[0], e.coords[1]),
         type: e.type,
         color: dTypeColors[e.type] || dTypeColors.other,
         link: e.link
@@ -898,8 +983,11 @@ function dApplyTypeFilter(filterType) {
     };
   });
 
+  // Build cluster groups (5km grid snap) and tag features
+  dClusterGroups = dBuildClusterGroups(features);
   dOriginalFeatures = features;
-  dExpandedKey = null;
+  dExpandedGroup = null;
+
   if (dMap.getSource("d-lines")) {
     dMap.getSource("d-lines").setData({type:"FeatureCollection",features:[]});
   }
@@ -907,10 +995,12 @@ function dApplyTypeFilter(filterType) {
     dMap.getSource("dpts").setData({type:"FeatureCollection",features:features});
   }
 
-  dRenderNewsFeed(filtered);
+  dRenderNewsFeed(filteredForFeed.slice(0, FEED_LIMIT));
 }
 
-// Bind filter buttons
+// =====================================================================
+//  FILTER BUTTON BINDINGS
+// =====================================================================
 var filterBtns = document.querySelectorAll(".d-fbtn");
 filterBtns.forEach(function(btn) {
   btn.addEventListener("click", function() {
