@@ -1,22 +1,17 @@
 /* =====================================================================
  * Global Witness Monitor -- Natural Disaster Intelligence Dashboard
- * disaster-dash.js  (v4 - reads lat/lng from gwm-disaster-meta div for precise placement)
- *
- * Served via jsDelivr:
- *   https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/disaster-dash.js
+ * disaster-dash.js
  *
  * Mounts into elements defined by the disaster-loader HTML:
  *   #d-map, #d-stats, #d-country-list, #d-news, #d-ticker, #d-clock,
  *   .d-fbtn (filter buttons)
  *
- * Data source:
- *   WP REST API, category 38 (Natural Disaster Reports)
+ * Data source: WP REST API, category 38 (Natural Disaster Reports)
  *
- * v3 changes:
- *   - dStripTags decodes HTML entities (fixes &#8211; titles)
- *   - dTypeFromPost reads <div class="gwm-disaster-meta" data-type="..."> first,
- *     then post tags, then falls back to title regex
- *   - dCountryFromPost reads data-country from meta div first
+ * Coords priority:
+ *   1. Hidden <div class="gwm-disaster-meta" data-lat data-lng> in post body
+ *      (pipeline emits Mapbox-geocoded city-level coords here)
+ *   2. Country centroid fallback (this file's dCentroids table)
  * ===================================================================== */
 
 // =====================================================================
@@ -26,6 +21,10 @@ var WP_BASE     = "https://globalwitnessmonitor.com";
 var CATEGORY_ID = 38;
 var MAP_LIMIT   = 100;
 var FEED_LIMIT  = 50;
+
+// Stack tolerance for fan-out: two points cluster only if both
+// lat and lng land in the same bucket of this size (~5 km).
+var D_STACK_EPSILON = 0.05;
 
 // =====================================================================
 //  MAP INIT
@@ -39,6 +38,25 @@ var dMap = new maplibregl.Map({
 });
 
 dMap.addControl(new maplibregl.AttributionControl({compact: true}), "bottom-right");
+
+// Inject CSS to make attribution control dark to match map
+(function injectAttributionStyle() {
+  if (document.getElementById("d-attr-style")) return;
+  var s = document.createElement("style");
+  s.id = "d-attr-style";
+  s.textContent =
+    ".maplibregl-ctrl-attrib, .mapboxgl-ctrl-attrib {" +
+    "  background: rgba(20,20,24,0.85) !important;" +
+    "  color: rgba(255,255,255,0.7) !important;" +
+    "}" +
+    ".maplibregl-ctrl-attrib a, .mapboxgl-ctrl-attrib a {" +
+    "  color: rgba(255,255,255,0.85) !important;" +
+    "}" +
+    ".maplibregl-ctrl-attrib-button, .mapboxgl-ctrl-attrib-button {" +
+    "  background-color: rgba(20,20,24,0.85) !important;" +
+    "}";
+  document.head.appendChild(s);
+})();
 
 dMap.on("style.load", function() {
   if (dMap.getLayer("boundary_country")) {
@@ -91,20 +109,6 @@ var dTypeLabels = {
   other:      "Other"
 };
 
-// Pipeline-side canonical type names (Title Case) -> internal lowercase keys
-var dTypeKeyMap = {
-  "earthquake":"earthquake",
-  "flood":"flood",
-  "storm":"storm",
-  "wildfire":"wildfire",
-  "volcano":"volcano",
-  "tsunami":"tsunami",
-  "landslide":"landslide",
-  "drought":"drought",
-  "heatwave":"heatwave",
-  "other":"other"
-};
-
 function dDetectType(title) {
   var t = (title || "").toLowerCase();
   if (/\bM\s?\d+\.\d+\b/i.test(title)) return "earthquake";
@@ -130,77 +134,10 @@ function dDetectType(title) {
   return "other";
 }
 
-// Read gwm-disaster-meta div from rendered post content.
-// Returns {type: <key>|null, country: <name>|null}
-function dParseMetaDiv(post) {
-  var out = {type: null, country: null, lat: null, lng: null, multi: false};
-  try {
-    var html = (post && post.content && post.content.rendered) || "";
-    if (!html) return out;
-    // Match in any attribute order
-    var divMatch = html.match(/<div[^>]*class=["'][^"']*gwm-disaster-meta[^"']*["'][^>]*><\/div>/i);
-    if (!divMatch) return out;
-    var divHtml = divMatch[0];
-    var typeMatch    = divHtml.match(/data-type=["']([^"']*)["']/i);
-    var countryMatch = divHtml.match(/data-country=["']([^"']*)["']/i);
-    var latMatch     = divHtml.match(/data-lat=["']([^"']*)["']/i);
-    var lngMatch     = divHtml.match(/data-lng=["']([^"']*)["']/i);
-    var multiMatch   = divHtml.match(/data-multi=["']([^"']*)["']/i);
-
-    if (typeMatch && typeMatch[1]) {
-      var key = typeMatch[1].trim().toLowerCase();
-      if (dTypeKeyMap[key]) out.type = dTypeKeyMap[key];
-    }
-    if (countryMatch && countryMatch[1]) {
-      out.country = countryMatch[1].trim() || null;
-    }
-    if (latMatch && latMatch[1]) {
-      var lat = parseFloat(latMatch[1]);
-      if (!isNaN(lat) && lat >= -90 && lat <= 90) out.lat = lat;
-    }
-    if (lngMatch && lngMatch[1]) {
-      var lng = parseFloat(lngMatch[1]);
-      if (!isNaN(lng) && lng >= -180 && lng <= 180) out.lng = lng;
-    }
-    if (multiMatch && multiMatch[1] === "true") {
-      out.multi = true;
-    }
-  } catch (e) { /* ignore */ }
-  return out;
-}
-
-// Type from post tags (via _embedded). Returns key or null.
-function dTypeFromTags(post) {
-  try {
-    var terms = post._embedded && post._embedded["wp:term"];
-    if (!terms) return null;
-    for (var g = 0; g < terms.length; g++) {
-      var group = terms[g];
-      for (var i = 0; i < group.length; i++) {
-        var name = group[i] && group[i].name;
-        if (!name) continue;
-        var key = String(name).trim().toLowerCase();
-        if (dTypeKeyMap[key]) return dTypeKeyMap[key];
-      }
-    }
-  } catch (e) { /* ignore */ }
-  return null;
-}
-
-// Authoritative type lookup: meta div > tags > title regex.
-function dTypeFromPost(post, title) {
-  var meta = dParseMetaDiv(post);
-  if (meta.type) return meta.type;
-  var tagType = dTypeFromTags(post);
-  if (tagType) return tagType;
-  return dDetectType(title);
-}
-
 // =====================================================================
-//  CENTROIDS (capital cities / major cities)
+//  CENTROIDS (capital cities / major cities) - fallback only
 // =====================================================================
 var dCentroids = {
-  // Africa
   "nigeria":[7.49,9.07],"nigerian":[7.49,9.07],"abuja":[7.49,9.07],"lagos":[3.38,6.52],
   "kenya":[36.82,-1.29],"kenyan":[36.82,-1.29],"nairobi":[36.82,-1.29],"mombasa":[39.66,-4.05],
   "ethiopia":[38.74,9.03],"ethiopian":[38.74,9.03],"addis ababa":[38.74,9.03],
@@ -252,8 +189,6 @@ var dCentroids = {
   "mauritius":[57.50,-20.16],"port louis":[57.50,-20.16],
   "cape verde":[-23.51,14.93],"praia":[-23.51,14.93],
   "eswatini":[31.13,-26.31],"swaziland":[31.13,-26.31],"mbabane":[31.13,-26.31],
-
-  // Middle East
   "iran":[51.39,35.69],"iranian":[51.39,35.69],"tehran":[51.39,35.69],
   "iraq":[44.36,33.31],"iraqi":[44.36,33.31],"baghdad":[44.36,33.31],"mosul":[43.13,36.34],
   "syria":[36.30,33.51],"syrian":[36.30,33.51],"damascus":[36.30,33.51],"aleppo":[37.16,36.20],
@@ -270,8 +205,6 @@ var dCentroids = {
   "uae":[54.37,24.45],"united arab emirates":[54.37,24.45],"dubai":[55.27,25.20],"abu dhabi":[54.37,24.45],
   "turkey":[32.85,39.93],"turkish":[32.85,39.93],"ankara":[32.85,39.93],"istanbul":[28.98,41.01],"gaziantep":[37.38,37.07],
   "egypt":[31.24,30.04],"egyptian":[31.24,30.04],"cairo":[31.24,30.04],"alexandria":[29.92,31.20],
-
-  // Asia
   "china":[116.40,39.90],"chinese":[116.40,39.90],"beijing":[116.40,39.90],"shanghai":[121.47,31.23],"sichuan":[104.07,30.67],
   "india":[77.21,28.61],"indian":[77.21,28.61],"new delhi":[77.21,28.61],"mumbai":[72.88,19.08],"kolkata":[88.36,22.57],"chennai":[80.27,13.08],"kerala":[76.27,10.85],
   "pakistan":[73.05,33.69],"pakistani":[73.05,33.69],"islamabad":[73.05,33.69],"karachi":[67.01,24.86],"lahore":[74.34,31.55],
@@ -302,8 +235,6 @@ var dCentroids = {
   "tajikistan":[68.78,38.56],"tajik":[68.78,38.56],"dushanbe":[68.78,38.56],
   "maldives":[73.51,4.18],"male":[73.51,4.18],
   "timor-leste":[125.58,-8.56],"east timor":[125.58,-8.56],"dili":[125.58,-8.56],
-
-  // Europe
   "united kingdom":[-0.13,51.51],"uk":[-0.13,51.51],"britain":[-0.13,51.51],"british":[-0.13,51.51],"england":[-0.13,51.51],"london":[-0.13,51.51],"scotland":[-3.19,55.95],
   "ireland":[-6.27,53.35],"irish":[-6.27,53.35],"dublin":[-6.27,53.35],
   "france":[2.35,48.86],"french":[2.35,48.86],"paris":[2.35,48.86],"marseille":[5.37,43.30],
@@ -348,8 +279,6 @@ var dCentroids = {
   "georgia":[44.79,41.72],"georgian":[44.79,41.72],"tbilisi":[44.79,41.72],
   "armenia":[44.51,40.18],"armenian":[44.51,40.18],"yerevan":[44.51,40.18],
   "azerbaijan":[49.87,40.41],"azerbaijani":[49.87,40.41],"baku":[49.87,40.41],
-
-  // Americas
   "united states":[-77.04,38.91],"usa":[-77.04,38.91],"us":[-77.04,38.91],"american":[-77.04,38.91],
   "washington":[-77.04,38.91],"new york":[-74.01,40.71],"los angeles":[-118.24,34.05],"california":[-119.42,36.78],
   "florida":[-81.76,27.66],"texas":[-99.90,31.97],"louisiana":[-91.96,30.98],"new orleans":[-90.07,29.95],
@@ -381,8 +310,6 @@ var dCentroids = {
   "uruguay":[-56.16,-34.90],"montevideo":[-56.16,-34.90],
   "guyana":[-58.16,6.80],"georgetown":[-58.16,6.80],
   "suriname":[-55.20,5.85],"paramaribo":[-55.20,5.85],
-
-  // Pacific
   "australia":[149.13,-35.28],"australian":[149.13,-35.28],"sydney":[151.21,-33.87],"melbourne":[144.96,-37.81],"brisbane":[153.03,-27.47],"queensland":[145.00,-22.00],
   "new zealand":[174.78,-41.29],"wellington":[174.78,-41.29],"auckland":[174.76,-36.85],"christchurch":[172.64,-43.53],
   "papua new guinea":[147.18,-9.44],"png":[147.18,-9.44],"port moresby":[147.18,-9.44],
@@ -462,17 +389,11 @@ var dFlags = {
 // =====================================================================
 //  HELPERS
 // =====================================================================
-function dDecodeEntities(s) {
+function dEscapeHtml(s) {
   if (!s) return "";
   var txt = document.createElement("textarea");
   txt.innerHTML = String(s);
-  return txt.value;
-}
-
-function dEscapeHtml(s) {
-  if (!s) return "";
-  // Decode HTML entities first, then replace en/em dashes with commas
-  var decoded = dDecodeEntities(s);
+  var decoded = txt.value;
   decoded = decoded.replace(/\s*[\u2013\u2014]\s*/g, ", ");
   return decoded
     .replace(/&/g, "&amp;")
@@ -482,11 +403,8 @@ function dEscapeHtml(s) {
     .replace(/'/g, "&#39;");
 }
 
-
 function dStripTags(s) {
-  // Decode entities first so &#8211; etc. don't survive into the output.
-  var decoded = dDecodeEntities(s || "");
-  return decoded.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  return (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
 function dRelativeTime(iso) {
@@ -497,6 +415,28 @@ function dRelativeTime(iso) {
   if (diff < 3600) return Math.floor(diff / 60) + "m ago";
   if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
   return Math.floor(diff / 86400) + "d ago";
+}
+
+// Read pipeline-emitted hidden meta div from post content.
+// Returns {country, type, lat, lng} or empty fields if absent.
+function dParseMetaFromContent(htmlStr) {
+  if (!htmlStr) return {};
+  var m = htmlStr.match(/<div[^>]*class=["']gwm-disaster-meta["'][^>]*>/i);
+  if (!m) return {};
+  var tag = m[0];
+  function attr(name) {
+    var re = new RegExp("data-" + name + "=[\"']([^\"']*)[\"']", "i");
+    var x = tag.match(re);
+    return x ? x[1] : "";
+  }
+  var lat = parseFloat(attr("lat"));
+  var lng = parseFloat(attr("lng"));
+  return {
+    country: attr("country") || null,
+    type: (attr("type") || "").toLowerCase() || null,
+    lat: isFinite(lat) ? lat : null,
+    lng: isFinite(lng) ? lng : null
+  };
 }
 
 // Country canonical mapping (key -> display name)
@@ -576,7 +516,6 @@ var dCanonicalMap = {
 
 function dKeyToCanonical(key) {
   if (dCanonicalMap[key]) return dCanonicalMap[key];
-  // default - title case
   return key.split(" ").map(function (w) {
     return w.charAt(0).toUpperCase() + w.slice(1);
   }).join(" ");
@@ -597,15 +536,6 @@ function dCountryFromText(text) {
 }
 
 function dCountryFromPost(post) {
-  // 1) prefer pipeline-supplied meta div
-  var meta = dParseMetaDiv(post);
-  if (meta.country) {
-    if (dFlags[meta.country]) return meta.country;
-    var canon = dCountryFromText(meta.country);
-    if (canon) return canon;
-    return meta.country;
-  }
-  // 2) check tag names if embedded
   try {
     var terms = post._embedded && post._embedded["wp:term"];
     if (terms && terms.length) {
@@ -620,18 +550,23 @@ function dCountryFromPost(post) {
         }
       }
     }
-  } catch (e) { /* ignore */ }
-  // 3) fall back to title text scan
+  } catch (e) {}
   var title = post.title && (post.title.rendered || post.title);
   return dCountryFromText(dStripTags(title));
 }
 
 // =====================================================================
-//  CLUSTER EXPANSION (fan-out on click)
+//  CLUSTER EXPANSION (only when truly stacked)
 // =====================================================================
 var dOriginalFeatures = [];
 var dExpandedKey = null;
 var D_SPREAD_RADIUS = 4;
+
+function dCoordKey(lng, lat) {
+  // Bucket lng/lat. Two points share a bucket only if within ~5 km.
+  var b = D_STACK_EPSILON;
+  return Math.round(lng / b) + "_" + Math.round(lat / b);
+}
 
 function dSpread(features, centerLng, centerLat) {
   if (features.length === 1) return features;
@@ -650,12 +585,12 @@ function dCollapseAll() {
   if (dMap.getSource("dpts")) dMap.getSource("dpts").setData({type:"FeatureCollection",features:dOriginalFeatures});
 }
 
-function dExpandCluster(countryKey) {
-  var clusterFeatures = dOriginalFeatures.filter(function(f){return f.properties.countryKey===countryKey;});
-  var otherFeatures = dOriginalFeatures.filter(function(f){return f.properties.countryKey!==countryKey;});
+function dExpandCluster(stackKey) {
+  var clusterFeatures = dOriginalFeatures.filter(function(f){return f.properties.stackKey===stackKey;});
+  var otherFeatures = dOriginalFeatures.filter(function(f){return f.properties.stackKey!==stackKey;});
   var center = clusterFeatures[0].geometry.coordinates;
   var spread = dSpread(clusterFeatures, center[0], center[1]);
-  dExpandedKey = countryKey;
+  dExpandedKey = stackKey;
   var lineFeatures = spread.map(function(f){return{type:"Feature",geometry:{type:"LineString",coordinates:[center,f.geometry.coordinates]}};});
   dMap.getSource("d-lines").setData({type:"FeatureCollection",features:lineFeatures});
   dMap.getSource("dpts").setData({type:"FeatureCollection",features:otherFeatures.concat(spread)});
@@ -708,6 +643,7 @@ function dRenderStats(events) {
     "<div class='d-stat-list'>" + rows + "</div>";
 }
 
+// Country count list, sorted by count desc, alphabetical tiebreak
 function dRenderCountryList(events) {
   var box = document.getElementById("d-country-list");
   if (!box) return;
@@ -716,8 +652,12 @@ function dRenderCountryList(events) {
     if (!e.country) return;
     grouped[e.country] = (grouped[e.country] || 0) + 1;
   });
-  var arr = Object.keys(grouped).sort().map(function (c) {
+  var arr = Object.keys(grouped).map(function (c) {
     return { country: c, n: grouped[c] };
+  });
+  arr.sort(function (a, b) {
+    if (b.n !== a.n) return b.n - a.n;
+    return a.country.localeCompare(b.country);
   });
   if (!arr.length) {
     box.innerHTML = "<div class='d-empty'>No country data yet</div>";
@@ -751,32 +691,29 @@ function dFlyToCountry(country) {
 }
 
 // =====================================================================
-//  NEWS FEED (right panel)
+//  NEWS FEED -- accepts already-filtered events array
 // =====================================================================
-function dRenderNewsFeed(posts) {
+function dRenderNewsFeed(events) {
   var box = document.getElementById("d-news");
   if (!box) return;
-  if (!posts.length) {
+  if (!events.length) {
     box.innerHTML = "<div class='d-empty'>No reports yet</div>";
     return;
   }
-  box.innerHTML = posts.map(function (p) {
-    var title = dStripTags(p.title.rendered || "");
-    var country = dCountryFromPost(p);
-    var type = dTypeFromPost(p, title);
-    var color = dTypeColors[type];
-    var excerpt = dStripTags(p.excerpt && p.excerpt.rendered || "").slice(0, 160);
+  box.innerHTML = events.map(function (e) {
+    var color = dTypeColors[e.type] || dTypeColors.other;
+    var excerpt = (e.excerpt || "").slice(0, 160);
     return (
-      "<a class='d-news-item' href='" + p.link + "' target='_blank' rel='noopener'>" +
+      "<a class='d-news-item' href='" + e.link + "' target='_blank' rel='noopener'>" +
         "<div class='d-news-bar' style='background:" + color + "'></div>" +
         "<div class='d-news-body'>" +
           "<div class='d-news-meta'>" +
-            "<span class='d-news-type' style='color:" + color + "'>" + dTypeLabels[type] + "</span>" +
-            "<span class='d-news-flag'>" + (dFlags[country] || "") + "</span>" +
-            "<span class='d-news-country'>" + (country || "Global") + "</span>" +
-            "<span class='d-news-time'>" + dRelativeTime(p.date_gmt + "Z") + "</span>" +
+            "<span class='d-news-type' style='color:" + color + "'>" + (dTypeLabels[e.type] || dTypeLabels.other) + "</span>" +
+            "<span class='d-news-flag'>" + (dFlags[e.country] || "") + "</span>" +
+            "<span class='d-news-country'>" + (e.country || "Global") + "</span>" +
+            "<span class='d-news-time'>" + dRelativeTime(e.date) + "</span>" +
           "</div>" +
-          "<div class='d-news-title'>" + dEscapeHtml(title) + "</div>" +
+          "<div class='d-news-title'>" + dEscapeHtml(e.title) + "</div>" +
           (excerpt ? "<div class='d-news-excerpt'>" + dEscapeHtml(excerpt) + "\u2026</div>" : "") +
         "</div>" +
       "</a>"
@@ -858,10 +795,10 @@ dMap.on("load", function() {
     e.originalEvent.stopPropagation();
     var props = e.features[0].properties;
     var coords = e.features[0].geometry.coordinates.slice();
-    var countryKey = props.countryKey;
-    var clusterSize = dOriginalFeatures.filter(function(f){return f.properties.countryKey===countryKey;}).length;
-    if (dExpandedKey === countryKey) { dShowPopup(coords, props); return; }
-    if (clusterSize > 1) { dExpandCluster(countryKey); return; }
+    var stackKey = props.stackKey;
+    var clusterSize = dOriginalFeatures.filter(function(f){return f.properties.stackKey===stackKey;}).length;
+    if (dExpandedKey === stackKey) { dShowPopup(coords, props); return; }
+    if (clusterSize > 1) { dExpandCluster(stackKey); return; }
     dShowPopup(coords, props);
   });
 
@@ -884,27 +821,30 @@ var dAllEvents = [];
 var dCurrentTypeFilter = "all";
 
 function dLoadData() {
-  var mapUrl  = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID + "&per_page=" + MAP_LIMIT + "&orderby=date&order=desc&_embed=1";
-  var feedUrl = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID + "&per_page=" + FEED_LIMIT + "&orderby=date&order=desc&_embed=1";
+  var url = WP_BASE + "/wp-json/wp/v2/posts?categories=" + CATEGORY_ID +
+            "&per_page=" + MAP_LIMIT + "&orderby=date&order=desc&_embed=1";
 
-  fetch(mapUrl).then(function (r) { return r.json(); }).then(function (posts) {
+  fetch(url).then(function (r) { return r.json(); }).then(function (posts) {
     if (!Array.isArray(posts)) { posts = []; }
     dAllEvents = posts.map(function (p) {
       var title = dStripTags(p.title.rendered || "");
-      var country = dCountryFromPost(p);
-      var type = dTypeFromPost(p, title);
-      var meta = dParseMetaDiv(p);
+      var contentHtml = (p.content && p.content.rendered) || "";
+      var meta = dParseMetaFromContent(contentHtml);
+
+      var country = null;
+      if (meta.country && dFlags[meta.country]) country = meta.country;
+      if (!country) country = dCountryFromPost(p);
+
+      var type = (meta.type && dTypeLabels[meta.type]) ? meta.type : dDetectType(title);
+
       var coords = null;
-      // Prefer precise coordinates from meta div; fall back to country centroid.
-      // If event is flagged multi-country, skip mapping entirely.
-      if (meta.multi) {
-        coords = null;
-      } else if (meta.lng !== null && meta.lat !== null) {
+      if (meta.lat !== null && meta.lng !== null) {
         coords = [meta.lng, meta.lat];
       } else if (country) {
         var key = country.toLowerCase();
         coords = dCentroids[key] || null;
       }
+
       return {
         id: p.id,
         title: title,
@@ -912,6 +852,7 @@ function dLoadData() {
         countryKey: country ? country.toLowerCase() : null,
         type: type,
         coords: coords,
+        excerpt: dStripTags(p.excerpt && p.excerpt.rendered || ""),
         date: p.date_gmt + "Z",
         link: p.link
       };
@@ -922,31 +863,26 @@ function dLoadData() {
     dRenderCountryList(dAllEvents);
     dRenderTicker(dAllEvents);
   }).catch(function (e) {
-    console.error("[disaster-dash] map fetch failed", e);
-  });
-
-  fetch(feedUrl).then(function (r) { return r.json(); }).then(function (posts) {
-    if (!Array.isArray(posts)) { posts = []; }
-    dRenderNewsFeed(posts);
-  }).catch(function (e) {
-    console.error("[disaster-dash] feed fetch failed", e);
+    console.error("[disaster-dash] data fetch failed", e);
+    var feed = document.getElementById("d-news");
+    if (feed) feed.innerHTML = "<div class='d-empty'>Feed unavailable</div>";
   });
 }
 
 // =====================================================================
-//  TYPE FILTER BUTTONS
+//  TYPE FILTER -- map AND news feed
 // =====================================================================
 function dApplyTypeFilter(filterType) {
   dCurrentTypeFilter = filterType;
   var filtered;
   if (filterType === "all") {
-    filtered = dAllEvents.filter(function(e){ return e.coords; });
+    filtered = dAllEvents;
   } else {
-    filtered = dAllEvents.filter(function(e){ return e.coords && e.type === filterType; });
+    filtered = dAllEvents.filter(function(e){ return e.type === filterType; });
   }
 
-  // build GeoJSON features
-  var features = filtered.map(function(e) {
+  var mapEvents = filtered.filter(function(e){ return e.coords; });
+  var features = mapEvents.map(function(e) {
     return {
       type: "Feature",
       geometry: {type: "Point", coordinates: [e.coords[0], e.coords[1]]},
@@ -954,6 +890,7 @@ function dApplyTypeFilter(filterType) {
         title: e.title,
         country: e.country || "Unknown",
         countryKey: e.countryKey || "_",
+        stackKey: dCoordKey(e.coords[0], e.coords[1]),
         type: e.type,
         color: dTypeColors[e.type] || dTypeColors.other,
         link: e.link
@@ -969,6 +906,8 @@ function dApplyTypeFilter(filterType) {
   if (dMap.getSource("dpts")) {
     dMap.getSource("dpts").setData({type:"FeatureCollection",features:features});
   }
+
+  dRenderNewsFeed(filtered);
 }
 
 // Bind filter buttons
