@@ -187,8 +187,14 @@ EXCLUDE_PATTERNS = [
     'memorial', 'tribute', 'ceremony', 'pays homage', 'pays respect',
     'honored', 'honoured', 'remembers', 'commemorat', 'mourning',
     'state funeral', 'funeral for',
-
-
+    # Roundup / briefing format -- multi-country aggregator headlines
+    # cause cross-country contamination in the generated article.
+    'world news in brief', 'news in brief', 'briefing:',
+    'daily briefing', 'morning briefing', 'evening briefing',
+    'news roundup', 'weekly roundup', 'roundup:',
+    'world news roundup', 'news digest',
+    "today's headlines", 'headlines:',
+    'in brief:',
 ]
 
 def is_relevant(title, summary):
@@ -449,11 +455,12 @@ mission agencies, churches, and field workers who need accurate situational awar
 Your task is to write a factual conflict and unrest intelligence brief based strictly on the provided
 source material.
 
-REQUIRED OUTPUT FORMAT -- every response must begin with exactly this 2-line header:
+REQUIRED OUTPUT FORMAT -- every response must begin with exactly this 4-line header:
 
 COUNTRY: <primary country where the event physically occurred>
 EVENT_TYPE: <Armed Conflict|Civil Unrest|Coup or Crisis|Displacement|Other>
 LOCATION: <most specific named place from the source -- city, town, district, or named region. Use UNKNOWN ONLY if no place is named anywhere in the source>
+TITLE: <a fresh 6-12 word headline focused ONLY on the event in COUNTRY -- never a roundup, never multi-country, never the source's original headline>
 ---
 
 Then the article body follows on the next line.
@@ -484,15 +491,33 @@ Missing data is better than wrong data.
 CRITICAL RULES:
 - Base every claim strictly on the provided source material. Do not invent names, statistics,
   casualty figures, locations, or any other details not present in the source.
+- COUNTRY-SCOPED CONTENT: The article must focus EXCLUSIVELY on the event in the COUNTRY field.
+  If the source mentions other countries, other conflicts, or unrelated stories, IGNORE them
+  entirely. Do not reference, summarize, or list them in the article body. The brief is about
+  ONE country and ONE event line. Drop everything else even if it appears in the source.
+- DO NOT begin the article with "According to <outlet>", "Per <outlet>", "<Outlet> reports",
+  "<Outlet> says", or any equivalent attribution-first opener. Lead with what happened, who
+  was involved, and where -- the news itself, not the news outlet.
+- Source attribution should appear ONCE, naturally, in the middle or near the end of the
+  article (e.g. "...as reported by <outlet>" or "...the <outlet> report indicates..."), and
+  only when attribution adds analytical value. Never name the outlet at the start. Never
+  name it more than once.
 - Write in a factual, measured intelligence-briefing tone -- not sensational, not emotionally charged.
 - The audience is mission professionals who need accurate, actionable information about regional safety.
 - Structure: lead with the key development, provide context, note implications for civilian/missionary safety where relevant.
 - Do NOT editorialize about geopolitics or assign blame beyond what sources state.
 - Length 75-200 words.
 - When names of people are mentioned in the source material, do not include them, refer to them as man, woman, people, etc.
-- Do not include the source at the bottom of the article, just add the name somewhere in the article as according to... or something like that.
-- Do not include a title in your response -- only the article body.
-- End with a one-sentence Mission Note: summarizing the operational significance for field workers. Put this on it's own line apart from the paragraph. Do not put astriks next to it (no *).
+- Do not include the source at the bottom of the article.
+- Do not include a title in the article body -- only the body. (The TITLE field in the header captures the headline.)
+- End with a one-sentence Mission Note: summarizing the operational significance for field workers. Put this on its own line apart from the paragraph. Do not put asterisks next to it (no *).
+ROUNDUP / MULTI-COUNTRY RULE:
+- If the source title or summary clearly aggregates events across MULTIPLE unrelated
+  countries (e.g. "World News in Brief", "News Roundup", or a headline naming three
+  or more countries with separate events), respond with SKIP_NO_EVENT.
+- Roundup briefings dilute country-scoped intelligence. The pipeline will pick up
+  individual wire-story coverage of each event separately on later passes.
+
 MEDIA-ANNOUNCEMENT RULE:
 - If the source material is primarily an announcement of a video, photo gallery,
   livestream, or audio segment ('Video:', 'Footage:', 'Photos:', 'Watch this',
@@ -603,6 +628,7 @@ def parse_claude_response(raw_text):
         "countries": [],
         "event_type": "Other",
         "location": "",
+        "title": "",
         "body": "",
         "raw_country_line": "",
         "status": "malformed",
@@ -618,6 +644,7 @@ def parse_claude_response(raw_text):
     country_line = None
     type_line = None
     location_line = None
+    title_line = None
     body_start_idx = 0
 
     for i, line in enumerate(lines[:10]):
@@ -634,6 +661,9 @@ def parse_claude_response(raw_text):
             body_start_idx = max(body_start_idx, i + 1)
         elif up.startswith("LOCATION:"):
             location_line = stripped[len("LOCATION:"):].strip()
+            body_start_idx = max(body_start_idx, i + 1)
+        elif up.startswith("TITLE:"):
+            title_line = stripped[len("TITLE:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
         elif stripped == "---":
             body_start_idx = max(body_start_idx, i + 1)
@@ -662,6 +692,13 @@ def parse_claude_response(raw_text):
 
     if location_line and location_line.upper() != "UNKNOWN":
         result["location"] = location_line
+
+    # Capture rewritten title (Claude generates a country-scoped headline)
+    if title_line:
+        # Strip surrounding quotes if Claude wrapped the title
+        tl = title_line.strip().strip('"').strip("'").strip()
+        if tl:
+            result["title"] = tl
 
 
     if not country_line:
@@ -851,7 +888,7 @@ def geocode_mapbox(location, country_hint=None):
 
 def sanitize_title(title):
     """Decode HTML entities, replace en/em dashes with commas, strip
-    trailing source attributions like ' - Asia News Network' or ' | BBC News'."""
+    trailing source attributions, and capitalize the first letter."""
     if not title:
         return title
     t = html.unescape(title)
@@ -865,6 +902,8 @@ def sanitize_title(title):
     )
     t = t.replace("–", ", ").replace("—", ", ")
     t = re.sub(r"\s+", " ", t).strip()
+    if t:
+        t = t[0].upper() + t[1:]
     return t
 
 
@@ -872,8 +911,13 @@ def sanitize_title(title):
 # -- WORDPRESS PUBLISH --
 def publish_to_wordpress(item, article_body, parsed=None):
     # --- GWM patch: title sanitize + meta div + geocoding ---
+    # Prefer Claude-generated country-scoped TITLE; fall back to sanitized source title.
     try:
-        item["title"] = sanitize_title(item["title"])
+        _claude_title = (parsed or {}).get("title", "") if isinstance(parsed, dict) else ""
+        if _claude_title:
+            item["title"] = sanitize_title(_claude_title)
+        else:
+            item["title"] = sanitize_title(item["title"])
     except Exception:
         pass
 
