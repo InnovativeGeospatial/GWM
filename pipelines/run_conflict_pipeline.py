@@ -491,6 +491,20 @@ Missing data is better than wrong data.
 CRITICAL RULES:
 - Base every claim strictly on the provided source material. Do not invent names, statistics,
   casualty figures, locations, or any other details not present in the source.
+- NEVER use these meta-phrases referring to the source itself:
+  "source material", "the source", "available source material",
+  "available reporting", "the report indicates" (when "report" means
+  the source article, not an investigative report being summarized),
+  "according to the source", "in available data", "the source notes",
+  "source carries a disclaimer", "as reported in the source".
+- If a fact is uncertain or unstated, write the absence directly as
+  field-level information: "No casualty figures have been confirmed",
+  "Specific affected districts have not been named", "The cause
+  remains unreported". Do not narrate what the source did or didn't
+  say -- state what is or isn't known.
+- Attribution to a NAMED outlet (e.g. "BBC News", "Reuters", "GDACS")
+  is allowed once in the article. Attribution to "the source" or
+  "source material" is never allowed.
 - COUNTRY-SCOPED CONTENT: The article must focus EXCLUSIVELY on the event in the COUNTRY field.
   If the source mentions other countries, other conflicts, or unrelated stories, IGNORE them
   entirely. Do not reference, summarize, or list them in the article body. The brief is about
