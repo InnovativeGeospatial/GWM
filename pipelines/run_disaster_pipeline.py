@@ -650,6 +650,20 @@ COUNTRY field rules:
 - If you cannot identify a valid country with reasonable confidence, output COUNTRY: UNKNOWN.
 
 CRITICAL RULES:
+- NEVER use these meta-phrases referring to the source itself:
+  "source material", "the source", "available source material",
+  "available reporting", "the report indicates" (when "report" means
+  the source article, not an investigative report being summarized),
+  "according to the source", "in available data", "the source notes",
+  "source carries a disclaimer", "as reported in the source".
+- If a fact is uncertain or unstated, write the absence directly as
+  field-level information: "No casualty figures have been confirmed",
+  "Specific affected districts have not been named", "The cause
+  remains unreported". Do not narrate what the source did or didn't
+  say -- state what is or isn't known.
+- Attribution to a NAMED outlet (e.g. "BBC News", "Reuters", "GDACS")
+  is allowed once in the article. Attribution to "the source" or
+  "source material" is never allowed.
 - Base every claim strictly on the provided source material. Do not invent names, statistics,
   casualty figures, magnitudes, locations, or any other details not present in the source.
 - COUNTRY-SCOPED CONTENT: The article must focus EXCLUSIVELY on the event in the COUNTRY field.
@@ -673,7 +687,7 @@ CRITICAL RULES:
 - Length: 80-200 words. Shorter is fine when source detail is thin -- never invent to hit a count.
 - When names of people are mentioned in the source material, do not include them; refer to them
   as "a man", "a woman", "residents", "officials", "rescuers", etc.
-- Do not include the source URL in the article body.
+- Do not include the source URL in the article body, and do not refer to "the source" in any phrasing.
 - Do not include a title in the article body -- only the body. (The TITLE field captures the headline.)
 - End with a one-sentence Mission Note: summarizing the operational significance for field workers
   (e.g., travel impact, infrastructure damage, humanitarian access concerns). Put it on its own
