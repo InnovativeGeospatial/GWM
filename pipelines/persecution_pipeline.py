@@ -505,6 +505,13 @@ def publish_to_wordpress(article, headline, body):
         " data-lat=\"" + str(article["lat"] or "") + "\"" +
         " data-lng=\"" + str(article["lng"] or "") + "\"></div>"
     )
+
+    # Convert plain-text paragraph breaks (\n\n) into <p> tags so WordPress
+    # renders them as separate paragraphs instead of one wall of text.
+    if isinstance(body, str) and "<p>" not in body:
+        paragraphs = [p.strip() for p in body.split("\n\n") if p.strip()]
+        body = "\n".join("<p>" + p.replace("\n", " ") + "</p>" for p in paragraphs)
+
     title = headline or article["title"]
     post_data = {
         "title": title,
