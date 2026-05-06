@@ -28,7 +28,14 @@ var cMap = new maplibregl.Map({
   attributionControl: false
 });
 
-cMap.addControl(new maplibregl.AttributionControl({compact: true}), "bottom-right");
+cMap.addControl(new maplibregl.AttributionControl({
+  customAttribution: '© <a href="https://carto.com" style="color:#555">CARTO</a>',
+  compact: true
+}), "bottom-right");
+
+var cMlStyle = document.createElement('style');
+cMlStyle.innerHTML = '.maplibregl-ctrl-attrib { background: rgba(10,12,16,0.5) !important; color: #444 !important; font-size: 8px !important; } .maplibregl-ctrl-attrib a { color: #555 !important; } .maplibregl-ctrl-attrib-button { display: none !important; } .maplibregl-ctrl-zoom-in, .maplibregl-ctrl-zoom-out, .maplibregl-ctrl-compass { background: #161a23 !important; border-color: rgba(255,255,255,0.1) !important; } .maplibregl-ctrl-icon { filter: invert(0.7) !important; } .maplibregl-ctrl-group { background: #161a23 !important; border: 1px solid rgba(255,255,255,0.1) !important; }';
+document.head.appendChild(cMlStyle);
 
 // Brighten boundaries and labels once style loads
 cMap.on("style.load", function() {
