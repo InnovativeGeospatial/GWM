@@ -38,9 +38,13 @@
   }
   function timeAgo(iso) {
     if (!iso) return "";
-    var d = new Date(iso);
+    // WP returns dates without timezone; treat as UTC
+    var s = String(iso);
+    if (!/[Zz]|[+-]\d{2}:?\d{2}$/.test(s)) s = s + "Z";
+    var d = new Date(s);
     if (isNaN(d.getTime())) return "";
     var diff = Math.floor((Date.now() - d.getTime()) / 1000);
+    if (diff < 0) diff = 0;
     if (diff < 60) return diff + "s ago";
     if (diff < 3600) return Math.floor(diff / 60) + "m ago";
     if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
@@ -287,7 +291,10 @@
     });
     // Duplicate the items so the CSS scroll loops seamlessly
     var doubled = items.concat(items).join("");
-    node.innerHTML = '<div class="d-ticker-track">' + doubled + '</div>';
+    // Scale duration: ~3 seconds per item, capped at 600s
+    var duration = Math.min(600, Math.max(60, items.length * 3));
+    node.innerHTML = '<div class="d-ticker-track" style="animation-duration:' +
+                     duration + 's;">' + doubled + '</div>';
   }
 
   // ── Map ──────────────────────────────────────────────────────────────────
