@@ -294,7 +294,7 @@
     // Scale duration: ~3 seconds per item, capped at 600s
     var duration = Math.min(600, Math.max(60, items.length * 3));
     node.innerHTML = '<div class="d-ticker-track" style="animation-duration:' +
-                     duration + 's;">' + doubled + '</div>';
+                     duration + 's !important;">' + doubled + '</div>';
   }
 
   // ── Map ──────────────────────────────────────────────────────────────────
