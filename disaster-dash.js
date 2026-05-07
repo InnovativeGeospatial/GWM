@@ -289,12 +289,16 @@
              '<span>' + escHtml(dCapFirst(title)) + '</span>' +
              '</span>';
     });
-    // Duplicate the items so the CSS scroll loops seamlessly
     var doubled = items.concat(items).join("");
-    // Scale duration: ~3 seconds per item, capped at 600s
-    var duration = Math.min(600, Math.max(60, items.length * 3));
-    node.innerHTML = '<div class="d-ticker-track" style="animation-duration:' +
-                     duration + 's !important;">' + doubled + '</div>';
+    node.innerHTML = '<div class="d-ticker-track">' + doubled + '</div>';
+    // Set animation duration via setProperty(important) — only reliable way to
+    // override the CSS shorthand `animation: dTickerScroll 90s` defined inline
+    // in the loader HTML.
+    var track = node.querySelector(".d-ticker-track");
+    if (track) {
+      var duration = Math.min(600, Math.max(60, items.length * 4));
+      track.style.setProperty("animation-duration", duration + "s", "important");
+    }
   }
 
   // ── Map ──────────────────────────────────────────────────────────────────
@@ -317,7 +321,6 @@
       compact: true
     }), "bottom-right");
 
-    // Inject dark-styled attribution overrides
     var s = document.createElement("style");
     s.innerHTML = '.maplibregl-ctrl-attrib{background:rgba(15,17,23,0.5)!important;color:#444!important;font-size:8px!important;}.maplibregl-ctrl-attrib a{color:#555!important;}.maplibregl-ctrl-attrib-button{display:none!important;}.maplibregl-ctrl-zoom-in,.maplibregl-ctrl-zoom-out,.maplibregl-ctrl-compass{background:#161a23!important;border-color:rgba(255,255,255,0.1)!important;}.maplibregl-ctrl-icon{filter:invert(0.7)!important;}.maplibregl-ctrl-group{background:#161a23!important;border:1px solid rgba(255,255,255,0.1)!important;}';
     document.head.appendChild(s);
@@ -367,7 +370,6 @@
         dMap.getCanvas().style.cursor = "";
       });
 
-      // Initial paint
       paintMap(filteredEvents());
     });
   }
@@ -394,7 +396,7 @@
 
   function paintMap(events) {
     if (!dMap || !dMap.getSource) return;
-    if (!dMap.getSource("incidents")) return; // map not yet loaded
+    if (!dMap.getSource("incidents")) return;
     var features = eventsToFeatures(events);
     dMap.getSource("incidents").setData({
       type: "FeatureCollection", features: features
@@ -407,7 +409,6 @@
     expandedKey = null;
   }
 
-  // Cluster fan-out — only when points are very close (<~5km)
   function distanceKm(lat1, lng1, lat2, lng2) {
     var R = 6371;
     var dLat = (lat2 - lat1) * Math.PI / 180;
@@ -513,17 +514,13 @@
     var coords = feature.geometry.coordinates.slice();
     var key = "" + coords[0] + "," + coords[1];
 
-    // If already expanded around this center, just show the popup
     if (expandedKey === key) {
       showPopup(coords, feature.properties);
       return;
     }
     if (expandedKey) {
-      // We're in some other expanded state — collapse first
       collapseAll();
     }
-
-    // Try to expand if there are stacked points
     if (!expandStack(feature)) {
       showPopup(coords, feature.properties);
     }
@@ -557,7 +554,7 @@
     }
   }
 
-  // ── Country list click → zoom map ────────────────────────────────────────
+  // ── Country list click → fly map ─────────────────────────────────────────
   function bindCountryList() {
     var node = $id("d-country-list");
     if (!node) return;
@@ -571,7 +568,6 @@
                typeof ev.lat === "number" && typeof ev.lng === "number";
       });
       if (!matches.length) return;
-      // Compute centroid
       var sumLat = 0, sumLng = 0;
       matches.forEach(function (m) { sumLat += m.lat; sumLng += m.lng; });
       var cLat = sumLat / matches.length;
@@ -608,7 +604,6 @@
       renderCountries(view);
       renderNews(view);
       renderTicker(view);
-      // Map repaints itself when it loads; but if it's already loaded, paint now.
       if (dMap && dMap.loaded && dMap.loaded()) paintMap(view);
     }).catch(function (err) {
       console.error("[disaster-dash] fetch failed:", err);
