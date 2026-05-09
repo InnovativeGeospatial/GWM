@@ -291,14 +291,21 @@
     });
     var doubled = items.concat(items).join("");
     node.innerHTML = '<div class="d-ticker-track">' + doubled + '</div>';
-    // Set animation duration via setProperty(important) — only reliable way to
-    // override the CSS shorthand `animation: dTickerScroll 90s` defined inline
-    // in the loader HTML.
-    var track = node.querySelector(".d-ticker-track");
-    if (track) {
-      var duration = Math.min(600, Math.max(60, items.length * 4));
+    // Constant scroll speed regardless of item count.
+    // We measure the rendered width of the doubled track on the next frame,
+    // then set animation-duration so it scrolls at SPEED_PX_PER_SEC.
+    // This fixes "more articles = faster scroll" — speed is now item-count-independent.
+    var SPEED_PX_PER_SEC = 60; // tweak: lower = slower
+    requestAnimationFrame(function () {
+      var track = node.querySelector(".d-ticker-track");
+      if (!track) return;
+      // scrollWidth covers both halves of the doubled track. Animation moves
+      // by 50% (one half), so the distance traveled is scrollWidth / 2.
+      var distance = track.scrollWidth / 2;
+      if (!distance || !isFinite(distance)) return;
+      var duration = Math.max(30, Math.round(distance / SPEED_PX_PER_SEC));
       track.style.setProperty("animation-duration", duration + "s", "important");
-    }
+    });
   }
 
   // ── Map ──────────────────────────────────────────────────────────────────
