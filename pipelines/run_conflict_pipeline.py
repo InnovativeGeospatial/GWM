@@ -259,6 +259,66 @@ def is_duplicate(title, existing_titles, threshold=0.75):
     return False
 
 
+# ─── Cross-run WP dedup ────────────────────────────────────────────────────
+# Caches recent WP titles for category 8 so we can detect duplicates across
+# pipeline runs (e.g. same Trump ceasefire story from 4 outlets over 4 days).
+_RECENT_WP_TITLES_CACHE = None
+
+
+def load_recent_wp_titles(days=30):
+    """Fetch titles of conflict posts from the last N days. Cached per-run."""
+    global _RECENT_WP_TITLES_CACHE
+    if _RECENT_WP_TITLES_CACHE is not None:
+        return _RECENT_WP_TITLES_CACHE
+    titles = []
+    try:
+        from datetime import timedelta
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        page = 1
+        while page <= 5:  # cap at 500 posts
+            url = (WP_URL + "/wp-json/wp/v2/posts"
+                   "?categories=" + str(WP_CATEGORY_ID) +
+                   "&per_page=100&page=" + str(page) +
+                   "&_fields=id,title,date_gmt" +
+                   "&after=" + cutoff +
+                   "&orderby=date&order=desc")
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                break
+            posts = r.json()
+            if not posts:
+                break
+            for p in posts:
+                t = p.get("title", {}).get("rendered", "")
+                t = html.unescape(t)
+                t = re.sub(r"<[^>]+>", "", t).strip()
+                if t:
+                    titles.append(t)
+            page += 1
+        log.info("WP dedup cache: loaded %d recent titles (last %d days)",
+                 len(titles), days)
+    except Exception as e:
+        log.warning("WP dedup cache load failed: %s", e)
+    _RECENT_WP_TITLES_CACHE = titles
+    return titles
+
+
+def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
+    """Check if a candidate's source title resembles a recently-published post.
+
+    Threshold is intentionally lower (0.65) than within-run dedup (0.75)
+    because cross-run dupes often have different outlet wording but cover
+    the same event.
+    """
+    recent = load_recent_wp_titles()
+    for existing in recent:
+        if title_similarity(candidate_title, existing) >= threshold:
+            log.info("WP dedup match: %r ~ %r",
+                     candidate_title[:60], existing[:60])
+            return True
+    return False
+
+
 def load_seen():
     if os.path.exists(SEEN_FILE):
         try:
@@ -303,6 +363,9 @@ def fetch_rss_feeds(seen, filter_countries):
                     continue
                 if is_duplicate(title, seen_titles):
                     log.info('Skipping duplicate: %s', title[:60])
+                    continue
+                if is_duplicate_of_existing_wp(title):
+                    log.info('Skipping (already in WP recently): %s', title[:60])
                     continue
                 candidates.append({
                     'title': title, 'summary': summary, 'url': url,
@@ -356,6 +419,9 @@ def fetch_gdelt(seen, existing_titles, filter_countries):
                     continue
                 if is_duplicate(title, existing_titles):
                     log.info('GDELT duplicate skip: %s', title[:60])
+                    continue
+                if is_duplicate_of_existing_wp(title):
+                    log.info('GDELT skip (already in WP recently): %s', title[:60])
                     continue
                 candidates.append({
                     'title': title, 'summary': title, 'url': url_art,
@@ -755,8 +821,19 @@ def build_title(parsed, item):
     """
     Format: 'Armed Conflict in Ukraine 05/04/2026 — Kyiv'
             'Civil Unrest in France 05/04/2026'
+            'Coup/Crisis in Iran 05/04/2026'
+            'Iran 05/04/2026 — Strait of Hormuz'   (Other type → no prefix)
     """
-    etype = parsed.get("event_type", "Other") or "Other"
+    etype_raw = parsed.get("event_type", "Other") or "Other"
+    etype_norm = etype_raw.strip().lower()
+    # Display label rules
+    if etype_norm == "other":
+        etype_display = ""  # omit the prefix entirely
+    elif etype_norm == "coup or crisis":
+        etype_display = "Coup/Crisis"
+    else:
+        etype_display = etype_raw
+
     countries = parsed.get("countries") or []
     country = countries[0] if countries else (item.get("country") or "")
     location = (parsed.get("location") or "").strip()
@@ -764,9 +841,14 @@ def build_title(parsed, item):
     if not event_date_us:
         event_date_us = _to_us_date(item.get("published"))
 
-    parts = [etype]
-    if country:
+    parts = []
+    if etype_display and country:
+        parts.append(etype_display)
         parts.append("in " + country)
+    elif etype_display:
+        parts.append(etype_display)
+    elif country:
+        parts.append(country)
     if event_date_us:
         parts.append(event_date_us)
     base = " ".join(parts)
