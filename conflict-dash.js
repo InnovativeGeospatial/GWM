@@ -77,6 +77,16 @@
   function countryKey(c) {
     return (c || "").toString().toLowerCase().trim();
   }
+  // Display label rules:
+  // - "Other" → empty string (caller hides the pill entirely)
+  // - "Coup or Crisis" → "Coup/Crisis"
+  // - All else → Title Case
+  function displayTypeLabel(t) {
+    var k = typeKey(t);
+    if (k === "other") return "";
+    if (k === "coup or crisis") return "Coup/Crisis";
+    return dCapFirst(k);
+  }
 
   // ── Country flag map (ISO-2) ───────────────────────────────────────────
   var COUNTRY_ISO2 = {
@@ -248,13 +258,16 @@
 
     var html = events.slice(0, 100).map(function (e) {
       var color = colorForType(e.type);
-      var typeLabel = dCapFirst(typeKey(e.type));
+      var typeLabel = displayTypeLabel(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
       if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "…";
       var ago = timeAgo(e.date);
+      var typePill = typeLabel
+        ? "<span class='c-news-tag' style='color:" + color + "'>" + escHtml(typeLabel) + "</span>"
+        : "";
       return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener'>" +
              "<div class='c-news-meta'>" +
-             "<span class='c-news-tag' style='color:" + color + "'>" + escHtml(typeLabel) + "</span>" +
+             typePill +
              flagHTML(e.country) +
              "<span class='c-news-country'>" + escHtml(e.country || "") + "</span>" +
              "<span class='c-news-time'>" + escHtml(ago) + "</span>" +
@@ -276,11 +289,14 @@
     }
     var items = events.slice(0, 30).map(function (e) {
       var color = colorForType(e.type);
-      var typeLabel = dCapFirst(typeKey(e.type));
+      var typeLabel = displayTypeLabel(e.type);
       var title = (e.title || "").substring(0, 90);
+      var typePart = typeLabel
+        ? "<strong style='color:" + color + "'>" + escHtml(typeLabel) + "</strong>" +
+          "<span class='c-ticker-sep'>·</span>"
+        : "";
       return "<span class='c-ticker-item'>" +
-             "<strong style='color:" + color + "'>" + escHtml(typeLabel) + "</strong>" +
-             "<span class='c-ticker-sep'>·</span>" +
+             typePart +
              flagHTML(e.country) +
              "<span>" + escHtml(e.country || "") + "</span>" +
              "<span class='c-ticker-sep'>·</span>" +
@@ -289,7 +305,7 @@
     });
 
     var MIN_ITEMS_FOR_SCROLL = 5;
-    var SPEED_PX_PER_SEC = 60;
+    var SPEED_PX_PER_SEC = 180;
 
     if (items.length < MIN_ITEMS_FOR_SCROLL) {
       // Static layout
@@ -476,12 +492,16 @@
   }
 
   function showPopup(coords, props) {
+    var typeLabel = displayTypeLabel(props.type);
+    var headerLine = typeLabel
+      ? escHtml(typeLabel) + ' · ' + escHtml(props.country)
+      : escHtml(props.country);
     new maplibregl.Popup({ closeButton:false, offset:12 })
       .setLngLat(coords)
       .setHTML(
         '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;">' +
         '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;margin-bottom:5px;">' +
-          escHtml(dCapFirst(props.type)) + ' · ' + escHtml(props.country) +
+          headerLine +
         '</div>' +
         '<div style="font-size:13px;font-weight:500;line-height:1.4;margin-bottom:8px;">' +
           escHtml(props.title) +
