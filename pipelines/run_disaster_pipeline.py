@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
 """
-Global Witness Monitor -- Natural Disaster Intelligence Pipeline v2
-- Publishes disaster intelligence briefs to WordPress category 38
-- Writes/updates disasters.json (active feed, last 500) on GitHub
-- Appends to archive/disasters/<YYYY>-Q<n>.json on GitHub for full history
-- Tags posts by country AND by disaster type
-- RSS + GDELT coverage
-- Stricter event-based filtering (actual disasters, not explainers)
-- Dedup via hash + title similarity
-
-Run examples:
-  cd /opt/disaster-pipeline && set -a && source .env && set +a && venv/bin/python run_disaster_pipeline.py
-  venv/bin/python run_disaster_pipeline.py --type earthquake
-  venv/bin/python run_disaster_pipeline.py --region asia
-  venv/bin/python run_disaster_pipeline.py --country Japan --country Philippines
+Global Witness Monitor -- Natural Disaster Intelligence Pipeline v3
+- Plain-language article body (no MMI/Modified Mercalli/GDACS jargon, no Mission Note)
+- Title format: "Earthquake in Philippines 05/04/2026 — Magnitude 6"
+- Body has paragraph breaks (<p> tags), indentation preserved
+- HTML entities decoded (no &#8211; bleeding into output)
+- Date format MM/DD/YYYY
+- Same RSS/GDELT/dedup/geocoding/JSON-writer logic as v2
 """
 
 import os
@@ -26,12 +19,11 @@ import logging
 import argparse
 import requests
 import feedparser
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 import anthropic
 import html
 
-# JSON writer (active feed + quarterly archive on GitHub)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
     import gwm_json_writer
@@ -39,7 +31,6 @@ try:
 except ImportError:
     JSON_WRITER_AVAILABLE = False
 
-# -- LOGGING --
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -51,7 +42,6 @@ if not JSON_WRITER_AVAILABLE:
     log.warning("gwm_json_writer.py not found in pipeline directory — "
                 "JSON feeds will not be updated this run")
 
-# -- CONFIG --
 load_dotenv()
 
 WP_URL          = os.environ["WP_URL"].rstrip("/")
@@ -65,7 +55,6 @@ SEEN_FILE    = "/opt/disaster-pipeline/data/seen_articles.json"
 MAX_ARTICLES = 50
 FEED_NAME    = "disasters"
 
-# -- REGIONS --
 REGIONS = {
     "middle-east": [
         "Iran", "Iraq", "Syria", "Yemen", "Israel", "Palestine", "Lebanon",
@@ -119,7 +108,6 @@ for region_countries in REGIONS.values():
     ALL_COUNTRIES.extend(region_countries)
 ALL_COUNTRIES = list(set(ALL_COUNTRIES))
 
-# -- RSS SOURCES --
 RSS_FEEDS = [
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
@@ -133,7 +121,6 @@ RSS_FEEDS = [
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
 ]
 
-# -- DISASTER TERMS --
 DISASTER_TERMS = [
     "earthquake", "quake", "seismic", "aftershock", "magnitude", "tremor",
     "richter", "tectonic", "fault line",
@@ -259,7 +246,6 @@ def is_relevant(title, summary):
     return True
 
 
-# -- COUNTRY VALIDATION --
 CANONICAL_COUNTRY_MAP = None
 
 _COUNTRY_ALIASES = {
@@ -332,11 +318,12 @@ def validate_disaster_type(claude_type):
     return "Other"
 
 
+# ─── New Claude response parser: now also reads MAGNITUDE and EVENT_DATE ────
 def parse_claude_response(raw_text):
     result = {
         "countries": [], "disaster_type": "Other",
-        "location": "", "body": "",
-        "raw_country_line": "", "status": "malformed",
+        "location": "", "magnitude": "", "event_date": "",
+        "body": "", "raw_country_line": "", "status": "malformed",
     }
     if not raw_text:
         return result
@@ -349,9 +336,11 @@ def parse_claude_response(raw_text):
     country_line = None
     type_line = None
     location_line = None
+    magnitude_line = None
+    event_date_line = None
     body_start_idx = 0
 
-    for i, line in enumerate(lines[:10]):
+    for i, line in enumerate(lines[:12]):
         stripped = line.strip()
         up = stripped.upper()
         if up.startswith("COUNTRY:"):
@@ -366,6 +355,15 @@ def parse_claude_response(raw_text):
         elif up.startswith("LOCATION:"):
             location_line = stripped[len("LOCATION:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
+        elif up.startswith("MAGNITUDE:"):
+            magnitude_line = stripped[len("MAGNITUDE:"):].strip()
+            body_start_idx = max(body_start_idx, i + 1)
+        elif up.startswith("EVENT_DATE:") or up.startswith("EVENT DATE:"):
+            if up.startswith("EVENT_DATE:"):
+                event_date_line = stripped[len("EVENT_DATE:"):].strip()
+            else:
+                event_date_line = stripped[len("EVENT DATE:"):].strip()
+            body_start_idx = max(body_start_idx, i + 1)
         elif stripped == "---":
             body_start_idx = max(body_start_idx, i + 1)
 
@@ -379,9 +377,12 @@ def parse_claude_response(raw_text):
 
     if type_line:
         result["disaster_type"] = validate_disaster_type(type_line)
-
     if location_line and location_line.upper() != "UNKNOWN":
         result["location"] = location_line
+    if magnitude_line and magnitude_line.upper() != "UNKNOWN":
+        result["magnitude"] = magnitude_line
+    if event_date_line and event_date_line.upper() != "UNKNOWN":
+        result["event_date"] = event_date_line
 
     if not country_line:
         return result
@@ -525,13 +526,12 @@ def article_hash(url, title):
 
 
 def normalize_gdacs_severity(title):
+    """Strip GDACS color qualifiers entirely (don't replace with Minor/Major)."""
     if not title:
         return title
-    for color, severity in (("Green ", "Minor "),
-                            ("Orange ", "Moderate "),
-                            ("Red ", "Major ")):
+    for color in ("Green ", "Orange ", "Red "):
         if title.startswith(color):
-            return severity + title[len(color):]
+            return title[len(color):]
     return title
 
 
@@ -679,52 +679,59 @@ def fetch_all_feeds(seen, filter_countries, filter_types):
     return all_candidates[:MAX_ARTICLES]
 
 
-SYSTEM_PROMPT = """You are an intelligence analyst for Global Witness Monitor, a platform serving
-mission agencies, churches, and field workers who need accurate situational awareness for
-deployment and safety decisions.
+# ─── New system prompt: plain-language, no MMI/Mission Note/etc. ───────────
+SYSTEM_PROMPT = """You are writing brief, plain-language natural disaster reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
-Your task is to write a factual natural disaster intelligence brief based strictly on the provided
-source material.
-
-REQUIRED OUTPUT FORMAT -- every response must begin with exactly this 3-line header:
+REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
 
 COUNTRY: <primary country where the event physically occurred>
 DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drought|Heatwave|Other>
 LOCATION: <most specific named place from the source: city, town, region, or "UNKNOWN" if no specific place is named>
+MAGNITUDE: <numeric magnitude rounded to nearest whole number for earthquakes (e.g. "6"); category number for hurricanes (e.g. "Cat 4"); "UNKNOWN" if not applicable or unknown>
+EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
 ---
 
 Then the article body follows on the next line.
 
+WRITING STYLE — VERY IMPORTANT:
+- Plain language for general public. NO technical jargon.
+- DO NOT mention: Modified Mercalli Intensity, MMI, MMI scale, intensity level, GDACS, Global Disaster Alert and Coordination System, USGS, "Mission Note", "Field teams should...", or any boilerplate operational language.
+- DO NOT round depths to three decimal places. Round depth to the nearest whole kilometer ("about 73 kilometers deep") or describe it qualitatively ("shallow", "deep").
+- DO NOT include exposure estimates like "30,000 in MMI VI" or "740 thousand in MMI IV". If the source mentions how many people felt strong shaking, just say it plainly: "tens of thousands of people felt strong shaking".
+- DO NOT include UTC times in the body. Use plain dates and approximate times only if essential.
+- Length: 100-180 words.
+- Two or three short paragraphs. Use blank lines between paragraphs (the WordPress editor will turn those into proper paragraph spacing).
+- Do not include personal names; use "a man", "a woman", "residents", "officials", "rescuers".
+- Do not include the source URL in the body.
+- Do not include a title. Body only.
+- End naturally — no Mission Note, no Field Teams advisory, no boilerplate.
+
 COUNTRY field rules:
-- Return the country where the event PHYSICALLY OCCURRED, not where the news outlet is based.
-- Ignore outlet names in the source material (e.g. "Pakistan Today", "Japan Times", "BBC").
-- Ignore subject demonyms unrelated to event location.
+- Country where the event physically occurred, NOT the news outlet's country.
 - For events affecting multiple countries: COUNTRY: MULTIPLE: Country1, Country2
-- For events in international waters, Antarctica, or uncountryable regions: COUNTRY: UNKNOWN
+- For events in international waters or unknown: COUNTRY: UNKNOWN
 - Use common country names: "Japan", "United States", "United Kingdom", "Myanmar", "Congo".
 - Do NOT include state/province names.
-- Do NOT include continents or regions.
 
 LOCATION field rules:
-- Return the most specific named place mentioned in the source material.
-- Do NOT include the country in the LOCATION value.
-- If no specific place is named in the source, output LOCATION: UNKNOWN.
+- Most specific named place mentioned in the source.
+- Do NOT include the country.
+- If no specific place is named, output LOCATION: UNKNOWN.
 
-DISASTER_TYPE field rules:
-- Return the PRIMARY event type, not secondary consequences.
-- If truly unclassifiable, use DISASTER_TYPE: Other.
+DISASTER_TYPE field:
+- Primary event type only.
+- Use Other if truly unclassifiable.
 
-CRITICAL RULES:
-- Base every claim strictly on the provided source material.
-- Write in a factual, measured intelligence-briefing tone.
-- Length: 100-250 words.
-- Do not include personal names; use "a man", "a woman", "residents", "officials", "rescuers".
-- Do not include the source URL at the bottom.
-- Do not include a title in your response -- only the article body.
-- End with a one-sentence Mission Note: summarizing operational significance.
+MAGNITUDE field:
+- For earthquakes: integer like "6" (round 6.0, 5.8, 6.2 all to "6"). If decimal is meaningful (e.g. 5.0 vs 5.5), keep one decimal: "5.5".
+- For hurricanes: "Cat 4".
+- For other disaster types or when unknown: UNKNOWN.
 
-Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no
-factual event reported."""
+EVENT_DATE field:
+- MM/DD/YYYY format. Use the date the event occurred, not when it was reported.
+- UNKNOWN if not in source.
+
+Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no factual event reported."""
 
 
 BAD_RESPONSE_PATTERNS = [
@@ -778,7 +785,8 @@ def generate_article(item):
         log.info("fetched %d chars of article body", len(body_text))
         body_section = "SOURCE BODY TEXT:\n" + body_text + "\n\n"
     user_prompt = (
-        "Write a natural disaster intelligence brief based on this source material only.\n\n"
+        "Write a plain-language natural disaster report based only on the source material below. "
+        "Follow the header format and writing style rules from the system prompt exactly.\n\n"
         "SOURCE TITLE: " + item["title"] + "\n\n"
         "SOURCE SUMMARY: " + item["summary"] + "\n\n"
         + body_section +
@@ -790,7 +798,7 @@ def generate_article(item):
     log.info("Generating article for: %s", item["title"][:70])
     message = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=600,
+        max_tokens=700,
         messages=[{"role": "user", "content": user_prompt}],
         system=SYSTEM_PROMPT,
     )
@@ -861,17 +869,116 @@ def get_or_create_tag(name, auth):
     return None
 
 
+# ─── New helpers for title construction ───────────────────────────────────
+_BANNED_TITLE_PREFIXES = (
+    "minor ", "major ", "severe ", "massive ", "deadly ",
+    "devastating ", "catastrophic ", "small ", "large ",
+    "moderate ", "strong ",
+)
+
+
+def _strip_qualifier(label):
+    if not label:
+        return label
+    low = label.lower()
+    for p in _BANNED_TITLE_PREFIXES:
+        if low.startswith(p):
+            label = label[len(p):]
+            break
+    return label
+
+
+def _to_us_date(any_date_str):
+    """Try to coerce many input formats to MM/DD/YYYY. Return '' on failure."""
+    if not any_date_str:
+        return ""
+    s = str(any_date_str).strip()
+    if not s or s.upper() == "UNKNOWN":
+        return ""
+    # Already US?
+    m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})$", s)
+    if m:
+        mm, dd, yyyy = m.groups()
+        return f"{int(mm):02d}/{int(dd):02d}/{yyyy}"
+    # ISO?
+    m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", s)
+    if m:
+        yyyy, mm, dd = m.groups()
+        return f"{int(mm):02d}/{int(dd):02d}/{yyyy}"
+    # DD/MM/YYYY (rare; ambiguous, skip)
+    return ""
+
+
+def build_title(parsed, item):
+    """
+    Format: Earthquake in Philippines 05/04/2026 — Magnitude 6
+            Flood in Indonesia 05/05/2026
+            Wildfire in Australia 05/03/2026 — Cat 4   (storms get Cat label)
+    """
+    dtype = parsed.get("disaster_type", "Other") or "Other"
+    countries = parsed.get("countries") or []
+    country = countries[0] if countries else (item.get("country") or "")
+    magnitude = (parsed.get("magnitude") or "").strip()
+    # Date: Claude's EVENT_DATE first, fall back to RSS published date
+    event_date_us = _to_us_date(parsed.get("event_date"))
+    if not event_date_us:
+        event_date_us = _to_us_date(item.get("published"))
+
+    parts = [dtype]
+    if country:
+        parts.append("in " + country)
+    if event_date_us:
+        parts.append(event_date_us)
+    base = " ".join(parts)
+    if magnitude and magnitude.upper() != "UNKNOWN":
+        # Earthquake → "— Magnitude 6"; storm "Cat 4" → "— Cat 4"
+        if dtype == "Earthquake":
+            base += " \u2014 Magnitude " + magnitude
+        else:
+            base += " \u2014 " + magnitude
+    return base
+
+
 def sanitize_title(title):
+    """Decode entities, strip qualifier prefixes, capitalize first letter."""
     if not title:
         return title
     t = html.unescape(title)
-    t = t.replace("\u2013", ", ").replace("\u2014", ", ")
-    return re.sub(r"\s+", " ", t).strip()
+    t = t.strip().strip('"\'')
+    t = _strip_qualifier(t)
+    t = re.sub(r"\s+", " ", t).strip()
+    if t:
+        t = t[0].upper() + t[1:]
+    return t
+
+
+# ─── New body cleaner: decode entities + wrap paragraphs in <p> tags ──────
+def format_body_for_wordpress(body_text):
+    """
+    1. Decode HTML entities (so &#8211; doesn't leak through).
+    2. Split on blank lines into paragraphs.
+    3. Wrap each paragraph in <p>...</p> with proper spacing.
+    Note: WordPress's wpautop usually does this, but we wrap explicitly so
+    the indentation/spacing is preserved consistently.
+    """
+    if not body_text:
+        return ""
+    decoded = html.unescape(body_text).strip()
+    # split on one or more blank lines
+    paras = re.split(r"\n\s*\n", decoded)
+    cleaned = []
+    for p in paras:
+        p = p.strip()
+        if not p:
+            continue
+        # collapse single newlines inside a paragraph into spaces
+        p = re.sub(r"\s*\n\s*", " ", p)
+        p = re.sub(r"\s+", " ", p).strip()
+        cleaned.append("<p>" + p + "</p>")
+    return "\n\n".join(cleaned)
 
 
 def publish_to_wordpress(item, article_body, parsed=None):
-    """Publish to WP and return (post_id, post_link, lat, lng) on success,
-    or (None, None, None, None) on failure / skip."""
     endpoint = WP_URL + "/wp-json/wp/v2/posts"
     auth = (WP_USER, WP_APP_PASSWORD)
 
@@ -914,8 +1021,11 @@ def publish_to_wordpress(item, article_body, parsed=None):
     if type_tag_id:
         tag_ids.append(type_tag_id)
 
-    clean_title = sanitize_title(item["title"])
+    # Build clean structured title from parsed metadata
+    structured_title = build_title(parsed, item)
+    clean_title = sanitize_title(structured_title)
 
+    # Geocoding (unchanged)
     _final_lat = None
     _final_lng = None
     _claude_loc = parsed.get("location")
@@ -944,7 +1054,9 @@ def publish_to_wordpress(item, article_body, parsed=None):
         ' data-lng="' + _lng_str + '"'
         ' style="display:none;"></div>\n'
     )
-    final_content = meta_div + article_body
+
+    formatted_body = format_body_for_wordpress(article_body)
+    final_content = meta_div + formatted_body
 
     payload = {
         "title": clean_title,
@@ -961,7 +1073,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
         post_link = post.get("link")
         post_date = post.get("date_gmt") or post.get("date") or ""
         log.info("Published: %s [%s / %s] (ID %s)",
-                 item["title"][:50], countries[0], dtype, post_id)
+                 clean_title[:60], countries[0], dtype, post_id)
         return post_id, post_link, _final_lat, _final_lng, post_date
     else:
         log.error("Publish failed (%s): %s", r.status_code, r.text[:300])
@@ -969,7 +1081,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="GWM Disaster Pipeline v2")
+    parser = argparse.ArgumentParser(description="GWM Disaster Pipeline v3")
     parser.add_argument("--region", "-r", action="append",
                         choices=list(REGIONS.keys()),
                         help="Filter by region")
@@ -1014,7 +1126,7 @@ def main():
         label_parts.append("types: " + ",".join(filter_types))
     label = " | ".join(label_parts) if label_parts else "GLOBAL"
 
-    log.info("=== Disaster Pipeline v2 starting (%s) ===", label)
+    log.info("=== Disaster Pipeline v3 starting (%s) ===", label)
 
     seen = load_seen()
     candidates = fetch_all_feeds(seen, filter_countries, filter_types)
@@ -1048,15 +1160,15 @@ def main():
                 seen.add(item["hash"])
                 published += 1
 
-                # ── Queue event for JSON feed ──
                 if JSON_WRITER_AVAILABLE and not args.no_json:
                     countries = parsed.get("countries", []) if parsed else []
                     dtype = parsed.get("disaster_type", "Other") if parsed else "Other"
+                    structured_title = build_title(parsed, item) if parsed else item["title"]
                     event = {
                         "wp_id": post_id,
                         "wp_link": post_link,
                         "date": post_date or datetime.now(timezone.utc).isoformat(),
-                        "title": sanitize_title(item["title"]),
+                        "title": sanitize_title(structured_title),
                         "body": article_body,
                         "country": countries[0] if countries else "",
                         "countries": countries,
@@ -1084,7 +1196,6 @@ def main():
 
     save_seen(seen)
 
-    # ── Flush JSON feeds to GitHub ──
     if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
         try:
             log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
