@@ -1,9 +1,105 @@
 {
   "feed": "conflict",
-  "updated": "2026-05-09T19:02:19.339565+00:00",
-  "count": 92,
+  "updated": "2026-05-09T19:08:10.226014+00:00",
+  "count": 98,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2744,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-united-states-denver-international-airport/",
+      "date": "2026-05-09T19:08:05",
+      "title": "Other in United States — Denver International Airport",
+      "body": "A person was killed Friday night at Denver International Airport after jumping a perimeter fence onto an active runway and being struck by a departing Frontier Airlines plane. The aircraft was accelerating for takeoff toward Los Angeles when it hit the individual. The pilot stopped on the runway and reported an engine fire, which crews quickly put out.\n\nAll 224 passengers and 7 crew members evacuated using emergency slides. Twelve passengers reported minor injuries, and five were taken to nearby hospitals. Smoke was visible inside the cabin before the fire was extinguished.\n\nThe person who entered the runway is not believed to have been an airport employee. Authorities inspected the fence line and found it intact. Federal aviation and transportation safety investigators have launched a formal investigation, and the runway was closed while the response was underway.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 39.780834,
+      "lng": -104.794682,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c5y95782wyko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 2743,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-lebanon-sidon/",
+      "date": "2026-05-09T19:07:44",
+      "title": "Displacement in Lebanon — Sidon",
+      "body": "More than 1.5 million people in Lebanon remain displaced even though a ceasefire is in place. Many are from southern Lebanon, where residents of around 80 towns have been told not to return home. The United Nations points to ongoing insecurity and a lack of basic services as the main reasons people cannot go back.\n\nIn Sidon, a school building is now sheltering displaced families. Despite the crowded conditions, children are still attending classes inside the same building.\n\nFor the families staying there, daily life continues in difficult circumstances, with no clear timeline for when they will be able to return to their home communities in the south.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": 33.563423,
+      "lng": 35.371685,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/9/displaced-lebanese-children-keep-learning-amid-displacement-2?traffic_source=rss"
+    },
+    {
+      "wp_id": 2742,
+      "wp_link": "https://globalwitnessmonitor.com/coup-or-crisis-in-iran-05-09-2026/",
+      "date": "2026-05-09T19:07:35",
+      "title": "Coup or Crisis in Iran 05/09/2026",
+      "body": "Iran's football federation has confirmed the national men's team intends to play in the 2026 World Cup, but issued a list of conditions that the host countries — the United States, Mexico, and Canada — must meet. The conditions include guaranteed visas for all players and staff, respect for Iran's flag and national anthem, and high security at airports, hotels, and stadiums. The uncertainty stems partly from the ongoing conflict between the US and Israel against Iran, which began in February, and from Canada's refusal last month to allow the federation's leader to enter the country for a FIFA congress due to alleged ties to Iran's military force.\n\nUS officials have said Iranian players would be welcome but warned that individuals with ties to Iran's military arm could still be barred. The head of world football's governing body has said Iran will play its matches in the US as planned. Iran is scheduled to open its World Cup campaign in Los Angeles on June 15, with games based out of Tucson, Arizona.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Coup or Crisis",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/sports/2026/5/9/iran-says-it-will-play-at-2026-world-cup-if-hosts-address-concerns?traffic_source=rss"
+    },
+    {
+      "wp_id": 2741,
+      "wp_link": "https://globalwitnessmonitor.com/coup-or-crisis-in-iran-strait-of-hormuz/",
+      "date": "2026-05-09T19:07:24",
+      "title": "Coup or Crisis in Iran — Strait of Hormuz",
+      "body": "As nuclear talks between Iran and the United States continue without a breakthrough, Iranian officials and state media have been publicly emphasizing their control over the Strait of Hormuz as a major strategic asset. Senior officials compared the waterway's importance to that of an atomic bomb, saying it has the power to affect the entire global economy. One official said Iran will work to change the governing rules of the strait through international channels or domestic legislation.\n\nOfficials framed control of the strait as a counterweight to US sanctions targeting Iranian oil sales. State television drew parallels to a historic Islamic battle to argue that surrendering control of the strait would be catastrophic for Iran. A senior official stated that conditions at the strait \"will never return to what they were before.\"\n\nThe source also notes that Iranian Revolutionary Guard forces and US warships have recently exchanged fire over transit through the strait, adding to tensions in one of the world's most critical shipping lanes.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 27.0675,
+      "lng": 56.46,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/5/9/on-level-of-atomic-bomb-iran-highlights-hormuz-importance-amid-us-talks?traffic_source=rss"
+    },
+    {
+      "wp_id": 2740,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-05-09-2026-al-saksakieh/",
+      "date": "2026-05-09T19:07:13",
+      "title": "Armed Conflict in Lebanon 05/09/2026 — al-Saksakieh",
+      "body": "Israeli strikes across Lebanon killed at least 19 people on Saturday, the third week of a US-brokered ceasefire that was meant to halt fighting between Israeli forces and the armed group Hezbollah. Seven of those killed, including a child, died in an attack on the town of al-Saksakieh in the southern Sidon district. Other strikes killed people in Nabatieh, Nahrain, Saadiyat, Haboush, and Mefdoun. Lebanese health officials report that since April 16, Israeli forces have killed nearly 500 people, with the overall death toll since fighting began on March 2 now exceeding 2,750.\n\nThe Israeli army also issued new forced displacement orders for several towns in southern Lebanon, where it continues to occupy territory and demolish houses within a buffer zone, blocking the return of hundreds of thousands of displaced residents.\n\nHezbollah, excluded from the US-mediated talks, continued to fire artillery and drones at Israeli positions inside Lebanon and across the border into northern Israel, where at least three soldiers were wounded on Friday. A second round of negotiations between Israel and Lebanon is scheduled for May 14 and 15 in Washington.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/5/9/israeli-attacks-across-lebanon-kill-at-least-19?traffic_source=rss"
+    },
+    {
+      "wp_id": 2739,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-palestine-05-09-2026-al-shati-refugee-camp/",
+      "date": "2026-05-09T19:07:02",
+      "title": "Armed Conflict in Palestine 05/09/2026 — Al-Shati Refugee Camp",
+      "body": "Overnight airstrikes hit Al-Shati Refugee Camp in Gaza, leaving families to search through rubble for what remained of their belongings. The strikes occurred despite an active ceasefire, and residents described the attacks as a violation of the truce.\n\nThose affected said they lost not only shelter but the last places they had to stay. Many had already been displaced and had few options remaining. Residents described having nowhere else to go after the strikes destroyed what little they had left.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/9/nowhere-left-to-go-gaza-residents-return-to-rubble-after-israeli-strike?traffic_source=rss"
+    },
     {
       "wp_id": 2738,
       "wp_link": "https://globalwitnessmonitor.com/three-dead-after-volcano-erupts-on-indonesian-island/",
