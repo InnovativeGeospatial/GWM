@@ -1,22 +1,36 @@
 import os
 import re
+import sys
 import time
 import hashlib
 import json
 import random
 import feedparser
 import requests
+import html
 from datetime import datetime, timezone, timedelta
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
 load_dotenv('/opt/global-witness/.env')
 
+# JSON writer (active feed + quarterly archive on GitHub)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import gwm_json_writer
+    JSON_WRITER_AVAILABLE = True
+except ImportError:
+    JSON_WRITER_AVAILABLE = False
+    print("[WARN] gwm_json_writer.py not found in pipeline directory — JSON feeds will not be updated this run")
+
 client = Anthropic()
 WP_URL = os.getenv('WP_URL')
 WP_USER = os.getenv('WP_USER')
 WP_APP_PASSWORD = os.getenv('WP_APP_PASSWORD')
 SEEN_FILE = '/opt/global-witness/seen_articles.json'
+
+WP_CATEGORY_ID = 7   # Persecution Reports
+FEED_NAME = "persecution"
 
 RSS_FEEDS = [
     'https://morningstarnews.org/feed/',
@@ -60,7 +74,6 @@ CHRISTIAN_IDENTIFIERS = [
     'cross','gospel','congregation','believer',
 ]
 
-# Hard exclude - false positives and non-news content
 EXCLUDE_TITLE_PATTERNS = [
     'mystery of suffering','book of job','bible study','devotional',
     'sermon','prayer guide','reflection on','theological',
@@ -132,10 +145,8 @@ COUNTRY_CENTROIDS = {
 }
 
 
-# -- CANONICAL COUNTRY REGISTRY (derived from COUNTRY_CENTROIDS) --
 _CANONICAL_COUNTRIES = set(COUNTRY_CENTROIDS.keys())
 
-# Common aliases -> canonical name (all lowercase)
 _COUNTRY_ALIASES = {
     "usa": "united states",
     "us": "united states",
@@ -178,7 +189,6 @@ _COUNTRY_ALIASES = {
 }
 
 def validate_country(name):
-    """Return canonical country name (lowercase) or None."""
     if not name:
         return None
     n = name.strip().lower().strip(".,;:")
@@ -191,21 +201,6 @@ def validate_country(name):
     return None
 
 def parse_claude_response(text):
-    """
-    Parse Claude's structured output. Expected format:
-        COUNTRY: <canonical | MULTIPLE: c1, c2 | UNKNOWN>
-        ---
-        <article body>
-        HEADLINE: ...
-
-    Returns dict:
-        {
-          "status": "ok" | "unknown" | "malformed" | "no_valid_country",
-          "countries": [canonical_country, ...],
-          "body": str,              # body without header
-          "raw_country": str,       # original header value for audit
-        }
-    """
     out = {"status": "malformed", "countries": [], "body": text, "raw_country": ""}
     if not text:
         return out
@@ -270,27 +265,22 @@ def is_mainstream(feed_url, feed_title):
     return any(s in combined for s in MAINSTREAM_SOURCES)
 
 def is_news_incident(title, content):
-    """Require article to describe a specific real-world incident, not opinion/devotional."""
     title_lower = title.lower()
     content_lower = content.lower()
 
-    # Hard exclude non-news content types
     for pattern in EXCLUDE_TITLE_PATTERNS:
         if pattern in title_lower:
             return False
 
-    # Require at least one concrete incident word in title or first 500 chars
     incident_words = [
         "killed","kills","kill","murdered","murder","executed","execution",
-        "arrested","arrested","detained","detention","imprisoned","sentenced",
+        "arrested","detained","detention","imprisoned","sentenced",
         "attacked","attack","bombed","burned","demolished","destroyed","raided",
         "kidnapped","abducted","tortured","expelled","displaced","fled",
         "closed","banned","confiscated","threatened",
     ]
     text_check = title_lower + " " + content_lower[:500]
     has_incident = any(w in text_check for w in incident_words)
-
-    # Require a country or place name in the content
     has_location = any(c in content_lower for c in COUNTRY_CENTROIDS.keys())
 
     return has_incident and has_location
@@ -298,18 +288,15 @@ def is_news_incident(title, content):
 def is_relevant(title, content, feed_url, feed_title):
     title_lower = title.lower()
 
-    # For mainstream sources title must have Christian + persecution signal
     if is_mainstream(feed_url, feed_title):
         has_ci = any(ci in title_lower for ci in CHRISTIAN_IDENTIFIERS)
         has_ps = any(ps in title_lower for ps in PERSECUTION_SIGNALS)
         if not (has_ci and has_ps):
             return False
 
-    # Must be a specific news incident not opinion/devotional
     if not is_news_incident(title, content):
         return False
 
-    # Proximity check - Christian identifier and persecution signal in same sentence
     sentences = re.split(r"[.!?]", (title + " " + content).lower())
     for sentence in sentences:
         has_ci = any(ci in sentence for ci in CHRISTIAN_IDENTIFIERS)
@@ -318,6 +305,69 @@ def is_relevant(title, content, feed_url, feed_title):
             return True
 
     return False
+
+
+# ─── Cross-run WP dedup ───────────────────────────────────────────────────
+_RECENT_WP_TITLES_CACHE = None
+
+
+def _title_similarity(t1, t2):
+    w1 = set(t1.lower().split())
+    w2 = set(t2.lower().split())
+    stop = {"the","a","an","in","on","at","to","for","of","and","or",
+            "is","are","was","were","with","by","from","as","it","its","be"}
+    w1 = w1 - stop
+    w2 = w2 - stop
+    if not w1 or not w2:
+        return 0.0
+    return len(w1 & w2) / max(len(w1), len(w2))
+
+
+def load_recent_wp_titles(days=30):
+    global _RECENT_WP_TITLES_CACHE
+    if _RECENT_WP_TITLES_CACHE is not None:
+        return _RECENT_WP_TITLES_CACHE
+    titles = []
+    try:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        page = 1
+        while page <= 5:
+            url = (WP_URL + "/wp-json/wp/v2/posts"
+                   "?categories=" + str(WP_CATEGORY_ID) +
+                   "&per_page=100&page=" + str(page) +
+                   "&_fields=id,title,date_gmt" +
+                   "&after=" + cutoff +
+                   "&orderby=date&order=desc")
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                break
+            posts = r.json()
+            if not posts:
+                break
+            for p in posts:
+                t = p.get("title", {}).get("rendered", "")
+                t = html.unescape(t)
+                t = re.sub(r"<[^>]+>", "", t).strip()
+                if t:
+                    titles.append(t)
+            page += 1
+        print("WP dedup cache: loaded " + str(len(titles)) +
+              " recent titles (last " + str(days) + " days)")
+    except Exception as e:
+        print("WP dedup cache load failed: " + str(e))
+    _RECENT_WP_TITLES_CACHE = titles
+    return titles
+
+
+def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
+    """Cross-run dedup: skip candidates that resemble recent WP posts."""
+    recent = load_recent_wp_titles()
+    for existing in recent:
+        if _title_similarity(candidate_title, existing) >= threshold:
+            print("WP dedup match: " + candidate_title[:60] + " ~ " + existing[:60])
+            return True
+    return False
+
 
 def fetch_full_content(url):
     try:
@@ -396,6 +446,10 @@ def fetch_articles(seen):
                         continue
                 if not is_relevant(title, clean, feed_url, feed_title):
                     continue
+                if is_duplicate_of_existing_wp(title):
+                    print("Skipping (already in WP recently): " + title[:60])
+                    seen.add(h)
+                    continue
                 seen_titles.add(title.lower())
                 country = detect_country(title, clean)
                 inc_type = detect_type(title, clean)
@@ -435,7 +489,7 @@ def generate_article(article):
         "- If multiple countries are substantively involved (e.g. cross-border refugees, diaspora incident with country of origin), use MULTIPLE: c1, c2.\n"
         "- Use UNKNOWN only if no country can be reasonably determined.\n"
         "- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n"
-        "Write a factual 75-200 word news report based ONLY on the source material below.\n\n"
+        "Write a factual 100-250 word news report based ONLY on the source material below.\n\n"
         "STRICT RULES:\n"
         "- Only include facts present in the source material\n"
         "- Never invent names, statistics, dates, or locations\n"
@@ -452,9 +506,8 @@ def generate_article(article):
         "- No headers or sections\n"
         "- Never repeat the same point twice\n"
         "- End with one short prayer prompt sentence\n"
-        "- 75-200 words maximum\n\n"
-        "- Structure the article in 2-4 short paragraphs separated by blank lines (one blank line between paragraphs). Do not write one long block of text.\n\n"
-        "After the article write on a new line: HEADLINE: [short descriptive headline — no personal names, no source names, no publication names]\n\n"
+        "- 100-250 words maximum\n\n"
+        "After the article write on a new line: HEADLINE: [short descriptive headline, no personal names]\n\n"
         "SOURCE: " + article["source"] + "\n"
         "TITLE: " + article["title"] + "\n"
         "CONTENT: " + article["content"] + "\n\nWrite now:"
@@ -506,13 +559,6 @@ def publish_to_wordpress(article, headline, body):
         " data-lat=\"" + str(article["lat"] or "") + "\"" +
         " data-lng=\"" + str(article["lng"] or "") + "\"></div>"
     )
-
-    # Convert plain-text paragraph breaks (\n\n) into <p> tags so WordPress
-    # renders them as separate paragraphs instead of one wall of text.
-    if isinstance(body, str) and "<p>" not in body:
-        paragraphs = [p.strip() for p in body.split("\n\n") if p.strip()]
-        body = "\n".join("<p>" + p.replace("\n", " ") + "</p>" for p in paragraphs)
-
     title = headline or article["title"]
     post_data = {
         "title": title,
@@ -523,14 +569,15 @@ def publish_to_wordpress(article, headline, body):
     }
     r = requests.post(WP_URL + "/wp-json/wp/v2/posts", auth=auth, json=post_data)
     if r.status_code == 201:
+        post = r.json()
         print("Published: " + title[:60])
-        return r.json()
+        return post
     else:
         print("Failed: " + str(r.status_code))
         return None
 
 def run():
-    print("=== Global Witness Monitor - Persecution Pipeline ===")
+    print("=== Global Witness Monitor - Persecution Pipeline v2 ===")
     seen = load_seen()
     print("Previously seen: " + str(len(seen)) + " articles")
     articles = fetch_articles(seen)
@@ -539,12 +586,12 @@ def run():
         return
     published = 0
     skipped = 0
+    json_writes = 0
     for article in articles:
         try:
             print("Processing: " + article["title"][:60])
             raw, parsed = generate_article(article)
 
-            # Audit line: Claude's country vs pre-detected country
             claude_country = ",".join(parsed["countries"]) if parsed["countries"] else "-"
             detected_country = article.get("country") or "-"
             print(
@@ -560,7 +607,6 @@ def run():
                 seen.add(article["hash"])
                 continue
 
-            # Override: Claude is source of truth
             primary = parsed["countries"][0]
             article["country"] = primary
             coords = COUNTRY_CENTROIDS.get(primary)
@@ -571,7 +617,6 @@ def run():
                 article["lat"] = None
                 article["lng"] = None
 
-            # Use parsed body (header stripped) for downstream processing
             generated = parsed["body"] if parsed["body"] else raw
             if is_refusal(generated):
                 print("Skipping - refused")
@@ -587,11 +632,48 @@ def run():
             if result:
                 published += 1
                 seen.add(article["hash"])
+
+                # ── Queue event for JSON feed ──
+                if JSON_WRITER_AVAILABLE:
+                    title_for_feed = headline or article["title"]
+                    event = {
+                        "wp_id": result.get("id"),
+                        "wp_link": result.get("link"),
+                        "date": result.get("date_gmt") or result.get("date") or datetime.now(timezone.utc).isoformat(),
+                        "title": title_for_feed,
+                        "body": body,
+                        "country": article["country"] or "",
+                        "countries": parsed["countries"],
+                        "type": article["incident_type"],
+                        "lat": article["lat"],
+                        "lng": article["lng"],
+                        "source_title": article.get("source", ""),
+                        "source_url": article.get("link", ""),
+                    }
+                    try:
+                        gwm_json_writer.write_event(FEED_NAME, event)
+                        json_writes += 1
+                    except Exception as e:
+                        print("JSON write_event failed: " + str(e))
+
             time.sleep(2)
         except Exception as e:
             print("Error: " + str(e))
     save_seen(seen)
-    print("=== Done. Published: " + str(published) + " Skipped: " + str(skipped) + " ===")
+
+    # ── Flush JSON feeds to GitHub ──
+    if JSON_WRITER_AVAILABLE and json_writes > 0:
+        try:
+            print("Pushing " + str(json_writes) + " new events to GitHub JSON feeds...")
+            written = gwm_json_writer.finalize(FEED_NAME)
+            print("JSON feed updated: active=" + str(written.get("active")) +
+                  " archives=" + ",".join(written.get("archives", [])))
+        except Exception as e:
+            print("JSON finalize failed: " + str(e))
+
+    print("=== Done. Published: " + str(published) +
+          " Skipped: " + str(skipped) +
+          " JSON writes: " + str(json_writes) + " ===")
 
 if __name__ == "__main__":
     run()
