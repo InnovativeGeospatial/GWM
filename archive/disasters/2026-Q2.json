@@ -1,9 +1,265 @@
 {
   "feed": "disasters",
   "quarter": "2026-Q2",
-  "updated": "2026-05-09T03:26:41.220772+00:00",
-  "count": 157,
+  "updated": "2026-05-10T16:32:30.189172+00:00",
+  "count": 173,
   "events": [
+    {
+      "wp_id": 2775,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-2/",
+      "date": "2026-05-10T16:32:26",
+      "title": "Volcano in Indonesia",
+      "body": "Three hikers — two foreigners and one local resident — were killed after Mount Dukono, an active volcano on the island of Halmahera in eastern Indonesia, erupted on Friday morning. The eruption sent ash plumes roughly 10 kilometers into the sky.\n\nA group of 20 hikers went missing following the eruption. Rescuers located all survivors, and most have been evacuated and taken to hospital for treatment. Two porters stayed on the mountain to help recover the bodies of those who died.\n\nOfficials noted the group, which included nine Singaporeans, had been hiking on the volcano despite an existing ban on climbing. The ban was in place because of the volcano's active status.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": 1.539476,
+      "lng": 127.60065,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/videos/c5y7gmmp8pdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 2774,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-05-2026-magnitude-5-8/",
+      "date": "2026-05-10T16:32:07",
+      "title": "Earthquake in United States 09/05/2026 — Magnitude 5.8",
+      "body": "A magnitude 5.8 earthquake struck the Rat Islands area of the Aleutian Islands chain in Alaska. The quake occurred in the early morning hours and was centered about 26 kilometers below the surface — a moderate depth that can allow shaking to spread across a wide area.\n\nThe Aleutian Islands are one of the most seismically active regions in the world, sitting along a major fault zone in the northern Pacific. Earthquakes of this size in such a remote, sparsely populated area typically cause little to no damage, though they are closely monitored given the region's history of generating larger tremors.\n\nNo reports of damage or casualties were immediately available from this remote location.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.788056,
+      "lng": 178.302778,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539839"
+    },
+    {
+      "wp_id": 2773,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-5-8/",
+      "date": "2026-05-10T16:31:51",
+      "title": "Earthquake in United States 05/09/2026 — Magnitude 5.8",
+      "body": "A magnitude 5.8 earthquake struck a remote stretch of the North Pacific Ocean about 292 kilometers west-southwest of Adak, Alaska. The quake occurred at a shallow depth of about 26 kilometers beneath the seafloor.\n\nAdak is a small island community in the Aleutian Islands chain. Because the earthquake was centered far out at sea and well away from populated areas, no significant damage or injuries are expected. No tsunami warning was issued in connection with this event.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.873833,
+      "lng": -176.639163,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swf4"
+    },
+    {
+      "wp_id": 2772,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-4-9/",
+      "date": "2026-05-10T16:31:41",
+      "title": "Earthquake in United States 05/09/2026 — Magnitude 4.9",
+      "body": "A magnitude 4.9 earthquake struck off the northern California coast on May 9, 2026, centered about 96 kilometers west-southwest of Crescent City. The quake was shallow, occurring at a depth of about 10 kilometers beneath the ocean floor.\n\nRoughly 35 people submitted reports of feeling the shaking, though the tremor was relatively minor and no significant damage or injuries have been reported. Events of this size in offshore locations along this seismically active stretch of the Pacific coast are not uncommon.\n\nNo tsunami warning was issued in connection with this earthquake.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 41.752676,
+      "lng": -124.196966,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357576"
+    },
+    {
+      "wp_id": 2771,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-09-2026-magnitude-5/",
+      "date": "2026-05-10T16:31:30",
+      "title": "Earthquake in Papua New Guinea 05/09/2026 — Magnitude 5",
+      "body": "A magnitude 5.0 earthquake struck about 113 kilometers south-southeast of Lorengau, Papua New Guinea. The quake was shallow, occurring only about 10 kilometers below the surface, which can make shaking more noticeable at ground level.\n\nNo damage or injuries have been reported in connection with this event. Papua New Guinea sits along the Pacific's seismically active zones, and small to moderate earthquakes are common in this region.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.032957,
+      "lng": 147.278918,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swg6"
+    },
+    {
+      "wp_id": 2770,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-09-2026-magnitude-5/",
+      "date": "2026-05-10T16:31:16",
+      "title": "Earthquake in Japan 05/09/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck off the coast of Ishigaki, a small island in southwestern Japan, on May 9, 2026. The quake had a magnitude of 4.6 and occurred about 44 kilometers west-northwest of the island, at a depth of roughly 35 kilometers below the seafloor.\n\nNo damage or injuries have been reported from this event. At this magnitude and distance from shore, shaking on the island would likely have been noticeable but not strong enough to cause significant harm to buildings or people.\n\nIshigaki is part of Japan's Okinawa Prefecture, a chain of islands in a seismically active region near the boundary of the Philippine Sea Plate. Earthquakes of this size are fairly common in the area.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 24.3464,
+      "lng": 124.18535,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhc"
+    },
+    {
+      "wp_id": 2769,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-05-09-2026-magnitude-5/",
+      "date": "2026-05-10T16:31:05",
+      "title": "Earthquake in Panama 05/09/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 5 kilometers northwest of Paso Canoas Arriba, Panama on May 9, 2026. The quake occurred at a depth of about 30 kilometers beneath the surface.\n\nPaso Canoas sits on the border between Panama and Costa Rica, a busy crossing area with communities on both sides. At this magnitude and depth, shaking would likely have been felt by people in the immediate area, though significant damage is not typically expected from earthquakes of this size.\n\nNo details about damage or injuries were included in the available information.",
+      "country": "Panama",
+      "countries": [
+        "Panama"
+      ],
+      "type": "Earthquake",
+      "lat": 8.5964,
+      "lng": -82.8661,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhx"
+    },
+    {
+      "wp_id": 2768,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-09-2026-magnitude-5/",
+      "date": "2026-05-10T16:30:54",
+      "title": "Earthquake in Fiji 05/09/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck south of the Fiji Islands on May 9, 2026. The quake measured magnitude 5.3 and occurred at a shallow depth of about 10 kilometers beneath the seafloor.\n\nShallow earthquakes like this one can be felt more strongly at the surface than deeper ones. No damage reports or tsunami warnings were immediately noted in the available information.\n\nThe Fiji Islands region sits along one of the world's most seismically active zones, and smaller to moderate earthquakes are common there.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhy"
+    },
+    {
+      "wp_id": 2767,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-09-2026-magnitude-5/",
+      "date": "2026-05-10T16:30:44",
+      "title": "Earthquake in New Zealand 05/09/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck about 57 kilometers west-northwest of Turangi, New Zealand on May 9, 2026. The quake was very deep, occurring roughly 225 kilometers underground, which typically causes shaking to spread across a wide area but feel much weaker at the surface than a shallower quake of the same size.\n\nOnly one report of shaking was submitted by the public, suggesting few people noticed the event. No damage or injuries have been reported, and the overall estimated impact is considered low.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -38.98885,
+      "lng": 175.80905,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swi4"
+    },
+    {
+      "wp_id": 2766,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:30:34",
+      "title": "Earthquake in Philippines 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 78 kilometers south-southeast of Pondaguitan in the southern Philippines on May 10, 2026. The quake occurred roughly 99 kilometers below the surface, placing it in the deeper range where shaking at ground level is typically less intense than shallow earthquakes of similar size.\n\nNo damage or casualties were reported in the available information. Earthquakes of this size and depth in this region of the Philippines are relatively common, as the country sits along one of the world's most active seismic zones.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.358398,
+      "lng": 126.17333,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swjc"
+    },
+    {
+      "wp_id": 2765,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-10-2026-magnitude-5-2/",
+      "date": "2026-05-10T16:30:24",
+      "title": "Earthquake in Indonesia 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck in the waters south-southwest of Tual, Indonesia on May 10, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nTual is a city in the Maluku island region of eastern Indonesia. No damage or casualty reports were included in available information about this event.\n\nIndonesia sits along one of the world's most active earthquake zones, and smaller to moderate earthquakes in this region are common. Residents and those working in the area should remain aware of local emergency guidance following any seismic activity.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -5.637642,
+      "lng": 132.74513,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swk8"
+    },
+    {
+      "wp_id": 2764,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-4-5/",
+      "date": "2026-05-10T16:30:12",
+      "title": "Earthquake in United States 05/10/2026 — Magnitude 4.5",
+      "body": "A magnitude 4.5 earthquake struck near Brawley, California, in the early morning hours of May 10, 2026. The quake was centered about 2 kilometers west of the city and occurred at a depth of roughly 16 kilometers underground.\n\nMore than 165 people submitted reports of feeling the shaking. The estimated impact level for this event was rated green, suggesting limited risk of serious damage or casualties. Brawley sits in the Imperial Valley, an area with a history of seismic activity, and residents in the surrounding region are generally familiar with earthquakes of this size.\n\nNo significant damage or injuries were reported in the available information.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 32.978625,
+      "lng": -115.533615,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41460512"
+    },
+    {
+      "wp_id": 2763,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:57",
+      "title": "Earthquake in United States 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck near Brawley, in California's Imperial Valley, on May 10, 2026. The quake was centered about 3 kilometers west-southwest of town and occurred at a depth of roughly 15 kilometers.\n\nOver 160 people submitted reports saying they felt the shaking, with some describing it as strong. Brawley sits in a seismically active region near the Salton Sea, and smaller earthquakes are common there, though a quake of this size is large enough to be widely noticed and potentially cause minor damage.\n\nNo major injuries or damage have been reported at this time. Residents in the area are encouraged to check their surroundings for any structural concerns and to be prepared for possible aftershocks in the days ahead.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 32.978625,
+      "lng": -115.533615,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461608"
+    },
+    {
+      "wp_id": 2762,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:45",
+      "title": "Earthquake in Chile 05/10/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck near Cañete in south-central Chile on May 10, 2026. The quake had a magnitude of 4.7 and was centered about 7 kilometers east-northeast of the town, at a depth of roughly 31 kilometers underground.\n\nNo damage or injuries were reported in the source material. Earthquakes of this size can produce noticeable shaking for people nearby but typically cause little to no structural damage, especially at this depth. Chile sits along one of the world's most active seismic zones, and tremors in this region are common.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -37.79989,
+      "lng": -73.399445,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swni"
+    },
+    {
+      "wp_id": 2761,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-portugal-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:35",
+      "title": "Earthquake in Portugal 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 22 kilometers southwest of Santa Bárbara, Portugal on May 10, 2026. The quake was shallow, occurring roughly 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nNo damage or injuries were reported in the source material. Shallow earthquakes in this region of the Atlantic are not uncommon, as Portugal sits near active fault zones. Residents in the area may have felt noticeable shaking.",
+      "country": "Portugal",
+      "countries": [
+        "Portugal"
+      ],
+      "type": "Earthquake",
+      "lat": 38.5344,
+      "lng": -27.5038,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swq9"
+    },
+    {
+      "wp_id": 2760,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:25",
+      "title": "Earthquake in Indonesia 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck a remote area about 248 kilometers north-northeast of Palu, Indonesia, on May 10, 2026. The quake occurred at a depth of about 35 kilometers beneath the surface.\n\nNo damage or injuries have been reported in connection with this event. At this depth and magnitude, significant impact to populated areas would be unlikely, though residents in nearby coastal and inland communities may have felt some light shaking.\n\nIndonesia sits along one of the most seismically active regions in the world, and earthquakes of this size occur regularly across the archipelago.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.2342,
+      "lng": 120.5431,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swq8"
+    },
     {
       "wp_id": 2722,
       "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia/",
