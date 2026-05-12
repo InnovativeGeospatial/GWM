@@ -1,39 +1,36 @@
 #!/usr/bin/env python3
 """
-gwm_json_writer.py — Shared library for Global Witness Monitor pipelines.
+gwm_json_writer.py v2 — Shared library for Global Witness Monitor pipelines.
 
-Manages two layers of JSON output, both stored in the InnovativeGeospatial/GWM
-GitHub repo and served via jsDelivr:
+NOW SPLITS storage between two GitHub repos:
 
-  ACTIVE LAYER (served to live dashboards):
+  PUBLIC repo (e.g. InnovativeGeospatial/GWM):
     /<feed>.json                        — last 500 events, sorted newest-first
-    e.g. /disasters.json, /conflict.json, /persecution.json
+                                          (served to dashboards via jsDelivr)
 
-  ARCHIVE LAYER (permanent record, browsed on demand):
+  PRIVATE repo (e.g. InnovativeGeospatial/GWM-archive):
     /archive/<feed>/<YYYY>-Q<n>.json    — every event, partitioned by quarter
-    e.g. /archive/disasters/2026-Q2.json
+                                          (NOT publicly accessible)
 
-Each event is appended to its feed's quarterly archive AND merged into the
-active list when published. The active list is a "tail" view of the archive:
-the most recent 500 events sorted by date.
+Each event is appended to its feed's quarterly archive in the PRIVATE repo
+AND merged into the active list in the PUBLIC repo.
 
 Public API:
     write_event(feed, event)
-        Add a single event to its feed's active + archive files. Idempotent
-        (events keyed by `wp_id`).
-
     finalize(feed)
-        Push the updated active + archive files to GitHub. Call once per
-        pipeline run after all events have been written.
+    reset()
 
-Configuration via environment variables (read from /opt/global-witness/.env):
-    GITHUB_TOKEN       — Personal access token with repo write scope
-    GITHUB_OWNER       — e.g. InnovativeGeospatial
-    GITHUB_REPO        — e.g. GWM
-    GITHUB_BRANCH      — default: main
+Configuration via environment variables:
+    GITHUB_TOKEN          — PAT with write scope to BOTH repos
+    GITHUB_OWNER          — e.g. InnovativeGeospatial
+    GITHUB_REPO           — public repo for active feeds, e.g. GWM
+    GITHUB_BRANCH         — public branch, default: main
+    GITHUB_ARCHIVE_OWNER  — owner of private archive repo (default: GITHUB_OWNER)
+    GITHUB_ARCHIVE_REPO   — private archive repo name, e.g. GWM-archive
+    GITHUB_ARCHIVE_BRANCH — private branch, default: main
 
-Designed to be safe to call repeatedly within one pipeline run. Multiple calls
-to write_event() accumulate; finalize() flushes once at the end.
+If GITHUB_ARCHIVE_REPO is not set, falls back to writing archives to the
+public repo (backward compatible with v1 behavior).
 """
 
 import os
@@ -42,38 +39,48 @@ import base64
 import logging
 import requests
 from datetime import datetime, timezone
-from pathlib import Path
 
 log = logging.getLogger(__name__)
 
 ACTIVE_LIMIT = 500
 
-# Pending state — accumulated across write_event() calls within one pipeline run.
-# Structure: { feed_name: { "active": [...], "archives": { "2026-Q2": [...] } } }
 _pending = {}
-
-# Cache of files already pulled from GitHub this run, to avoid re-fetching.
-# Structure: { path: { "sha": str, "items": [...] } }
 _github_cache = {}
 
 
-# ── Config ──────────────────────────────────────────────────────────────
-def _config():
+def _config_active():
+    """Config for the PUBLIC repo (active feeds)."""
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     owner = os.environ.get("GITHUB_OWNER", "InnovativeGeospatial").strip()
     repo = os.environ.get("GITHUB_REPO", "GWM").strip()
     branch = os.environ.get("GITHUB_BRANCH", "main").strip()
     if not token:
         raise RuntimeError(
-            "GITHUB_TOKEN missing from environment. "
-            "Add it to /opt/global-witness/.env"
+            "GITHUB_TOKEN missing from environment."
         )
     return token, owner, repo, branch
 
 
+def _config_archive():
+    """Config for the PRIVATE archive repo.
+    If GITHUB_ARCHIVE_REPO is unset, returns the public repo (legacy mode)."""
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    archive_repo = os.environ.get("GITHUB_ARCHIVE_REPO", "").strip()
+    if not archive_repo:
+        # Legacy: archives in same repo as active
+        return _config_active()
+    owner = os.environ.get(
+        "GITHUB_ARCHIVE_OWNER",
+        os.environ.get("GITHUB_OWNER", "InnovativeGeospatial"),
+    ).strip()
+    branch = os.environ.get("GITHUB_ARCHIVE_BRANCH", "main").strip()
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN missing from environment.")
+    return token, owner, archive_repo, branch
+
+
 # ── GitHub helpers ──────────────────────────────────────────────────────
-def _gh_headers():
-    token, _, _, _ = _config()
+def _gh_headers(token):
     return {
         "Authorization": "Bearer " + token,
         "Accept": "application/vnd.github+json",
@@ -81,24 +88,34 @@ def _gh_headers():
     }
 
 
-def _gh_url(path):
-    _, owner, repo, _ = _config()
+def _gh_url(owner, repo, path):
     return "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" + path
 
 
-def _gh_get(path):
-    """Fetch a JSON file from GitHub. Returns (sha, items) or (None, [])."""
-    if path in _github_cache:
-        return _github_cache[path]["sha"], _github_cache[path]["items"]
+def _cache_key(owner, repo, branch, path):
+    return owner + "/" + repo + "@" + branch + ":" + path
 
-    _, _, _, branch = _config()
-    r = requests.get(_gh_url(path), headers=_gh_headers(),
+
+def _gh_get(target, path):
+    """target is 'active' or 'archive'. Returns (sha, items) or (None, [])."""
+    if target == "archive":
+        token, owner, repo, branch = _config_archive()
+    else:
+        token, owner, repo, branch = _config_active()
+
+    key = _cache_key(owner, repo, branch, path)
+    if key in _github_cache:
+        return _github_cache[key]["sha"], _github_cache[key]["items"]
+
+    r = requests.get(_gh_url(owner, repo, path),
+                     headers=_gh_headers(token),
                      params={"ref": branch}, timeout=20)
     if r.status_code == 404:
-        _github_cache[path] = {"sha": None, "items": []}
+        _github_cache[key] = {"sha": None, "items": []}
         return None, []
     if r.status_code != 200:
-        log.warning("GitHub GET %s -> %s: %s", path, r.status_code, r.text[:200])
+        log.warning("GitHub GET %s/%s/%s -> %s: %s",
+                    owner, repo, path, r.status_code, r.text[:200])
         return None, []
 
     body = r.json()
@@ -109,16 +126,19 @@ def _gh_get(path):
         data = json.loads(content)
         items = data.get("events", []) if isinstance(data, dict) else data
     except Exception as e:
-        log.warning("Failed to decode %s: %s", path, e)
+        log.warning("Failed to decode %s/%s/%s: %s", owner, repo, path, e)
         items = []
 
-    _github_cache[path] = {"sha": sha, "items": items}
+    _github_cache[key] = {"sha": sha, "items": items}
     return sha, items
 
 
-def _gh_put(path, content_str, sha, message):
-    """Create or update a file on GitHub."""
-    _, _, _, branch = _config()
+def _gh_put(target, path, content_str, sha, message):
+    if target == "archive":
+        token, owner, repo, branch = _config_archive()
+    else:
+        token, owner, repo, branch = _config_active()
+
     payload = {
         "message": message,
         "content": base64.b64encode(content_str.encode("utf-8")).decode("ascii"),
@@ -126,20 +146,21 @@ def _gh_put(path, content_str, sha, message):
     }
     if sha:
         payload["sha"] = sha
-    r = requests.put(_gh_url(path), headers=_gh_headers(),
+    r = requests.put(_gh_url(owner, repo, path),
+                     headers=_gh_headers(token),
                      json=payload, timeout=30)
     if r.status_code in (200, 201):
         new_sha = r.json().get("content", {}).get("sha")
-        if path in _github_cache:
-            _github_cache[path]["sha"] = new_sha
+        key = _cache_key(owner, repo, branch, path)
+        if key in _github_cache:
+            _github_cache[key]["sha"] = new_sha
         return True
-    log.error("GitHub PUT %s failed (%s): %s", path, r.status_code, r.text[:300])
+    log.error("GitHub PUT %s/%s/%s failed (%s): %s",
+              owner, repo, path, r.status_code, r.text[:300])
     return False
 
 
-# ── Quarter calculation ─────────────────────────────────────────────────
 def _quarter_key(iso_date):
-    """Return e.g. '2026-Q2' from an ISO datetime string."""
     if not iso_date:
         dt = datetime.now(timezone.utc)
     else:
@@ -151,20 +172,10 @@ def _quarter_key(iso_date):
     return "%d-Q%d" % (dt.year, q)
 
 
-# ── Public API ──────────────────────────────────────────────────────────
 def write_event(feed, event):
-    """Queue an event for inclusion in the active list and its quarter's archive.
-
-    Args:
-        feed: 'disasters' | 'conflict' | 'persecution'
-        event: dict with at minimum a 'wp_id' or unique 'hash' key.
-
-    Idempotent: re-writing the same event (same wp_id) replaces the prior copy.
-    """
     if feed not in _pending:
         _pending[feed] = {"active": {}, "archives": {}}
 
-    # Normalize key
     key = str(event.get("wp_id") or event.get("id") or event.get("hash") or "")
     if not key:
         log.warning("write_event: event has no wp_id/hash, skipping: %r",
@@ -173,21 +184,14 @@ def write_event(feed, event):
 
     qk = _quarter_key(event.get("date", ""))
 
-    # Active layer: dict keyed by id, deduplicated. Sorted at finalize time.
     _pending[feed]["active"][key] = event
 
-    # Archive layer: dict per quarter, keyed by id.
     if qk not in _pending[feed]["archives"]:
         _pending[feed]["archives"][qk] = {}
     _pending[feed]["archives"][qk][key] = event
 
 
 def finalize(feed):
-    """Flush pending events for a feed: merge with GitHub state and push.
-
-    Returns dict with paths written and counts:
-        {"active": "<path>", "archives": ["<path>", ...], "events_added": N}
-    """
     if feed not in _pending or not _pending[feed]["active"]:
         log.info("finalize(%s): nothing pending", feed)
         return {"active": None, "archives": [], "events_added": 0}
@@ -195,13 +199,13 @@ def finalize(feed):
     pending = _pending[feed]
     written = {"active": None, "archives": [], "events_added": len(pending["active"])}
 
-    # ── Update each affected quarterly archive ──
+    # ── Update each affected quarterly archive (PRIVATE repo) ──
     for qk, new_events in pending["archives"].items():
         archive_path = "archive/" + feed + "/" + qk + ".json"
-        sha, existing = _gh_get(archive_path)
+        sha, existing = _gh_get("archive", archive_path)
         merged = {str(e.get("wp_id") or e.get("id") or e.get("hash")): e
                   for e in existing if e}
-        merged.update(new_events)  # new events overwrite old by key
+        merged.update(new_events)
         events_list = sorted(
             merged.values(),
             key=lambda e: e.get("date", ""),
@@ -215,6 +219,7 @@ def finalize(feed):
             "events": events_list,
         }
         ok = _gh_put(
+            "archive",
             archive_path,
             json.dumps(body, ensure_ascii=False, indent=2),
             sha,
@@ -226,14 +231,9 @@ def finalize(feed):
             log.info("Archive written: %s (%d events total)",
                      archive_path, len(events_list))
 
-    # ── Rebuild active list as the 500 most recent across all archives ──
-    # Strategy: take all archive quarters that *might* contribute to the top 500,
-    # merged with pending events, sort by date, slice top 500.
-    # We pull at most the current quarter and previous quarter's archive — that's
-    # vastly more than 500 events for most feeds.
+    # ── Rebuild active list as the 500 most recent (PUBLIC repo) ──
     now = datetime.now(timezone.utc)
     cur_q = _quarter_key(now.isoformat())
-    # Previous quarter
     prev_year = now.year
     prev_q_num = (now.month - 1) // 3 + 1 - 1
     if prev_q_num < 1:
@@ -244,12 +244,11 @@ def finalize(feed):
     pool = {}
     for qk in [cur_q, prev_q]:
         archive_path = "archive/" + feed + "/" + qk + ".json"
-        _, items = _gh_get(archive_path)
+        _, items = _gh_get("archive", archive_path)
         for e in items:
             k = str(e.get("wp_id") or e.get("id") or e.get("hash") or "")
             if k:
                 pool[k] = e
-    # Layer in pending (most recent state wins)
     for k, e in pending["active"].items():
         pool[k] = e
 
@@ -260,7 +259,7 @@ def finalize(feed):
     )[:ACTIVE_LIMIT]
 
     active_path = feed + ".json"
-    sha, _ = _gh_get(active_path)
+    sha, _ = _gh_get("active", active_path)
     body = {
         "feed": feed,
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -269,6 +268,7 @@ def finalize(feed):
         "events": sorted_events,
     }
     ok = _gh_put(
+        "active",
         active_path,
         json.dumps(body, ensure_ascii=False, indent=2),
         sha,
@@ -280,13 +280,11 @@ def finalize(feed):
         log.info("Active feed written: %s (%d events)",
                  active_path, len(sorted_events))
 
-    # Clear pending for this feed so finalize() is safe to call again
     _pending[feed] = {"active": {}, "archives": {}}
 
     return written
 
 
 def reset():
-    """Clear all pending state and caches. Call between independent batches."""
     _pending.clear()
     _github_cache.clear()
