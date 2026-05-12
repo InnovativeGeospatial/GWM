@@ -1,9 +1,185 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-11T15:29:07.474779+00:00",
-  "count": 190,
+  "updated": "2026-05-12T14:01:08.141179+00:00",
+  "count": 201,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2874,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-solomon-islands/",
+      "date": "2026-05-12T14:01:03",
+      "title": "Storm in Solomon Islands",
+      "body": "Tropical Cyclone Maila has struck the Solomon Islands, leaving more than 150,000 people in need of humanitarian assistance. The storm is the latest in a series of weather events to hit the Pacific region and has deepened what relief workers describe as a serious humanitarian crisis across the island nation.\n\nThe situation is made more difficult by ongoing displacement and the presence of unexploded wartime explosives in some areas, which put additional lives at risk as people move or search for safety. Relief coordinators say the combination of storm damage, displacement, and these hidden dangers has created layered and urgent needs across affected communities.\n\nAid organizations are working to respond, but conditions remain challenging. The scale of those affected — more than 150,000 people — highlights how exposed communities in the Solomon Islands remain to powerful storms and the compounding crises that follow them.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Storm",
+      "lat": -9.430584,
+      "lng": 159.952685,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167485"
+    },
+    {
+      "wp_id": 2873,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-02-2025/",
+      "date": "2026-05-12T14:00:49",
+      "title": "Volcano in Indonesia 05/02/2025",
+      "body": "A volcanic eruption at Mount Dukono on Halmahera island in North Maluku killed three hikers — two Singaporeans and one Indonesian — when the volcano sent rocks and ash flying down the mountainside. A group of 20 hikers, a mix of Singaporeans and Indonesians, had climbed to the summit that Friday morning despite a ban on climbing permits that had been in place since mid-April. Authorities had also restricted public access within about 4 kilometers of the crater and posted warnings online and at trail entrances. The volcano had erupted more than 200 times since late March.\n\nA tour guide who led the group described two rapid eruptions in quick succession. The first released only smoke, but seconds later a second blast hurled volcanic material down the mountain. A large boulder, roughly 2 meters wide, rolled down and struck two hikers, killing them instantly. A third hiker was found dead near the summit the following day.\n\nThe surviving hikers were evacuated and treated at a nearby hospital. The remains of all three victims were recovered over the weekend by search and rescue teams digging through heavy layers of volcanic ash.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": 0.65,
+      "lng": 127.9,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cz623qjqjd6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 2872,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-10-2026-2/",
+      "date": "2026-05-12T14:00:37",
+      "title": "Wildfire in Russia 05/10/2026",
+      "body": "A forest fire broke out in Russia on May 10, 2026, and continued burning through at least May 11, 2026. No further details about the fire's location, size, or impact were included in the available report.\n\nBecause specific information about affected communities, casualties, or the extent of the fire is not yet available, it is not possible to say more about conditions on the ground at this time.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 50.78228184364474,
+      "lng": 129.8058278059038,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028636"
+    },
+    {
+      "wp_id": 2871,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-11-05-2026/",
+      "date": "2026-05-12T14:00:23",
+      "title": "Wildfire in Australia 11/05/2026",
+      "body": "A forest fire broke out in Australia on November 5, 2026, and continued burning through at least November 12, 2026. No further details about the fire's location, size, or impact were included in the available report.\n\nBecause specific details such as affected towns, acreage burned, and any casualties or evacuations are not yet known, updates should be expected as more information becomes available.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Wildfire",
+      "lat": -14.972754530773363,
+      "lng": 130.57707218271906,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028653"
+    },
+    {
+      "wp_id": 2870,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-10-2026-magnitude-5-2/",
+      "date": "2026-05-12T14:00:09",
+      "title": "Earthquake in Fiji 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck south of the Fiji Islands on May 10, 2026. The quake was extremely deep, occurring about 563 kilometers below the surface, which is far deeper than most earthquakes people experience.\n\nAt that depth, energy from the quake spreads out over a very wide area before reaching the surface, meaning shaking at ground level is typically much weaker than a shallower quake of the same size. Deep earthquakes like this one also carry a much lower risk of triggering tsunamis or landslides.\n\nNo damage or casualties were reported in the source material. The remote location south of Fiji and the extreme depth of this event likely limited any impact on nearby communities.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swtd"
+    },
+    {
+      "wp_id": 2869,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-11-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:46",
+      "title": "Earthquake in United States 05/11/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck in the waters east of Guam on May 11, 2026. The quake had a magnitude of 4.8 and was centered about 121 kilometers offshore from Yigo Village, in the northern part of the island.\n\nThe earthquake occurred at a shallow depth of about 10 kilometers, which can allow shaking to be felt more strongly at the surface compared to deeper quakes. No damage or casualty information was included in the available report.\n\nGuam sits in one of the most seismically active regions in the world, and earthquakes in this area are common. Those living or serving on the island or in surrounding communities should remain aware of local emergency guidance following seismic activity.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 39.460773,
+      "lng": -87.336243,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx06"
+    },
+    {
+      "wp_id": 2868,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-11-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:35",
+      "title": "Earthquake in Chile 05/11/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck off the coast of northern Chile on the night of May 11, 2026, centered about 90 kilometers west-southwest of the town of Taltal. The quake measured magnitude 4.5 and occurred at a shallow depth of about 10 kilometers beneath the seafloor.\n\nShallow earthquakes like this one can produce stronger shaking at the surface than deeper events of the same size. No details about damage or injuries were included in the available information.\n\nTaltal is a small coastal town in the Atacama region, an area that sits along one of the world's most seismically active zones where tectonic plates meet beneath the Pacific Ocean.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -25.407143,
+      "lng": -70.48556,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx1u"
+    },
+    {
+      "wp_id": 2867,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:24",
+      "title": "Earthquake in Solomon Islands 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 81 kilometers west-northwest of Kirakira in the Solomon Islands. The quake occurred at a depth of about 61 kilometers beneath the surface.\n\nNo damage or casualties have been reported from this event. At this depth and magnitude, shaking would likely have been felt in the surrounding area but major destruction would not be expected.\n\nThe Solomon Islands sit in one of the world's most seismically active zones, and earthquakes of this size occur there regularly.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx2s"
+    },
+    {
+      "wp_id": 2866,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:14",
+      "title": "Earthquake in India 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck near the Nicobar Islands in the early morning hours of May 12, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can increase the amount of shaking felt at ground level.\n\nThe Nicobar Islands are part of a remote island chain in the eastern Indian Ocean, in a region known for frequent seismic activity due to nearby tectonic plate boundaries. At this magnitude, the quake was relatively minor and is unlikely to have caused significant damage, though residents in the area may have felt noticeable shaking.\n\nNo reports of damage or casualties were immediately available from the source material.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Earthquake",
+      "lat": 7.0489,
+      "lng": 92.4295,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx36"
+    },
+    {
+      "wp_id": 2865,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:04",
+      "title": "Earthquake in Russia 05/12/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 131 kilometers southeast of Petropavlovsk-Kamchatsky, a city on Russia's Kamchatka Peninsula, on May 12, 2026. The quake measured magnitude 4.6 and was centered at a shallow depth of about 10 kilometers underground.\n\nKamchatka sits along the Pacific Ring of Fire and regularly experiences seismic activity. Shallow earthquakes like this one can be felt more strongly at the surface than deeper quakes of similar size. No damage or casualties were reported in the available source material.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 52.3443,
+      "lng": 160.1716,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3g"
+    },
+    {
+      "wp_id": 2864,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:58:50",
+      "title": "Earthquake in Philippines 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 5.0 earthquake struck in the waters southeast of Pondaguitan in the southern Philippines on May 12, 2026. The quake was centered about 224 kilometers offshore and occurred at a depth of roughly 109 kilometers, placing it well below the surface.\n\nAt that depth and distance from shore, significant damage or strong shaking at the surface is unlikely. No reports of casualties or damage were immediately available from the source.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.358398,
+      "lng": 126.17333,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3v"
+    },
     {
       "wp_id": 2819,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-austria-06-05-2026/",
