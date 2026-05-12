@@ -1,9 +1,57 @@
 {
   "feed": "conflict",
-  "updated": "2026-05-12T14:06:40.685876+00:00",
-  "count": 134,
+  "updated": "2026-05-12T15:59:05.733572+00:00",
+  "count": 137,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2902,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-palestine-west-bank/",
+      "date": "2026-05-12T15:59:00",
+      "title": "Armed Conflict in Palestine — West Bank",
+      "body": "United Nations agencies are warning that growing numbers of Palestinian children in the occupied West Bank are being killed or seriously injured. The violence involves both military operations and attacks by settlers, with children reported to have been shot, stabbed, and pepper-sprayed.\n\nIn Gaza, the situation for children with serious injuries is described as critical. Tens of thousands are living with life-changing injuries but cannot access the treatment or rehabilitation they need.\n\nThe warnings were issued on a Tuesday, though no specific date for the underlying events was given in the source. UN agencies say the trend is worsening, leaving many children without medical care at a time when their injuries require urgent and ongoing attention.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167488"
+    },
+    {
+      "wp_id": 2901,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pakistan-05-13-2025-sarai-naurang/",
+      "date": "2026-05-12T15:58:50",
+      "title": "Armed Conflict in Pakistan 05/13/2025 — Sarai Naurang",
+      "body": "A bomb hidden in a rickshaw exploded in a busy market in Sarai Naurang, a town in the Lakki Marwat district of northwestern Pakistan, killing at least nine people and wounding around 30 others. Those killed include two traffic police officers and a woman. Dozens of injured were taken to hospitals in the nearby city of Bannu, with some in critical condition.\n\nNo group immediately claimed responsibility. The attack came just days after 21 police officers were killed in a bombing and gun assault on a security post in Bannu district — an attack Pakistani officials blamed on the Pakistan Taliban (TTP). The TTP is a separate but allied group to Afghanistan's ruling Taliban and has increased attacks on Pakistani security forces in recent years.\n\nPakistan has long accused Afghanistan's Taliban government of sheltering TTP fighters, a charge Kabul denies. Cross-border tensions have been high since late February, when fighting killed hundreds of people on both sides of the border.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.825687,
+      "lng": 70.78368,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/5/12/at-least-nine-people-killed-in-explosion-at-pakistan-market?traffic_source=rss"
+    },
+    {
+      "wp_id": 2900,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-israel-west-bank/",
+      "date": "2026-05-12T15:58:39",
+      "title": "Armed Conflict in Israel — West Bank",
+      "body": "Since the start of 2025, at least one Palestinian child has been killed every week on average in the occupied West Bank, according to the United Nations. The deaths have been caused by both Israeli military forces and settlers.\n\nA UNICEF spokesperson publicly condemned the rising death toll and called on Israeli authorities to uphold the rights of children. The statement reflects growing UN concern about the pace and scale of child casualties in the territory.\n\nThe consistent weekly rate of child deaths points to an ongoing pattern of violence affecting civilian families across the West Bank.",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/12/israel-killing-at-least-one-child-a-week-in-occupied-west-bank-un-says?traffic_source=rss"
+    },
     {
       "wp_id": 2895,
       "wp_link": "https://globalwitnessmonitor.com/indonesia-05-02-2025-mount-dukono-halmahera/",
