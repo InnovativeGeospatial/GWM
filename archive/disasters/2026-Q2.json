@@ -1,0 +1,56 @@
+{
+  "feed": "disasters",
+  "quarter": "2026-Q2",
+  "updated": "2026-05-12T15:28:13.196763+00:00",
+  "count": 3,
+  "events": [
+    {
+      "wp_id": 2898,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-10-05-2026/",
+      "date": "2026-05-12T15:28:09",
+      "title": "Wildfire in Australia 10/05/2026",
+      "body": "A forest fire broke out in Australia on May 10, 2026, and continued burning through May 11, 2026. No further details about the fire's location, size, or impact were included in the available report.\n\nBecause specific details are limited, little can be said about the scope of this fire or whether any communities were affected. Those with contacts or personnel in Australia should monitor local news sources for updates as more information becomes available.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Wildfire",
+      "lat": -15.181583015938374,
+      "lng": 130.53402375419842,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028644"
+    },
+    {
+      "wp_id": 2897,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-10-2026-3/",
+      "date": "2026-05-12T15:28:00",
+      "title": "Wildfire in Russia 05/10/2026",
+      "body": "A forest fire broke out in Russia on May 10, 2026, and continued burning through at least May 11, 2026. No details about the specific location, size, or cause of the fire were included in the available report.\n\nBecause no further information is currently available — such as affected communities, firefighting efforts, or damage — the full scope of this fire remains unclear. Those with contacts or ministry work in Russia's forested regions may want to monitor local sources for updates.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 50.78109374615009,
+      "lng": 129.6826143409722,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028639"
+    },
+    {
+      "wp_id": 2896,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-12-2026-magnitude-5-2/",
+      "date": "2026-05-12T15:27:49",
+      "title": "Earthquake in Russia 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck a remote area about 179 kilometers southeast of Petropavlovsk-Kamchatsky, in Russia's far eastern Kamchatka region. The quake was shallow, occurring about 10 kilometers below the surface.\n\nNo damage or casualties have been reported. The area is largely open ocean, which likely limited any impact on populated areas. Petropavlovsk-Kamchatsky is the largest city on the Kamchatka Peninsula, a region known for frequent seismic activity due to its location along the Pacific Ring of Fire.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 52.1738,
+      "lng": 160.8367,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx2w"
+    }
+  ]
+}
