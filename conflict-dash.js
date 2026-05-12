@@ -263,14 +263,11 @@
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
       if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "…";
       var ago = timeAgo(e.date);
-      var typePill = typeLabel
-        ? "<span class='c-news-tag' style='color:" + color + "'>" + escHtml(typeLabel) + "</span>"
-        : "";
+
       return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener'>" +
              "<div class='c-news-meta'>" +
              flagHTML(e.country) +
              "<span class='c-news-country'>" + escHtml(e.country || "") + "</span>" +
-             typePill +
              "<span class='c-news-time'>" + escHtml(ago) + "</span>" +
              "</div>" +
              "<div class='c-news-title'>" + escHtml(e.title || "") + "</div>" +
