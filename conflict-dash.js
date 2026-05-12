@@ -19,7 +19,7 @@
   var TYPE_COLORS = {
     "armed conflict": "#ef4444",
     "civil unrest":   "#fb923c",
-    "coup or crisis": "#facc15",
+    "coup or crisis": "#22c55e",
     "displacement":   "#a78bfa",
     "other":          "#94a3b8"
   };
@@ -85,7 +85,8 @@
     var k = typeKey(t);
     if (k === "other") return "";
     if (k === "coup or crisis") return "Coup/Crisis";
-    return dCapFirst(k);
+    // Title-case each word: "civil unrest" -> "Civil Unrest"
+    return k.replace(/\b\w/g, function(c) { return c.toUpperCase(); });
   }
 
   // ── Country flag map (ISO-2) ───────────────────────────────────────────
@@ -267,9 +268,9 @@
         : "";
       return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener'>" +
              "<div class='c-news-meta'>" +
-             typePill +
              flagHTML(e.country) +
              "<span class='c-news-country'>" + escHtml(e.country || "") + "</span>" +
+             typePill +
              "<span class='c-news-time'>" + escHtml(ago) + "</span>" +
              "</div>" +
              "<div class='c-news-title'>" + escHtml(e.title || "") + "</div>" +
@@ -289,14 +290,8 @@
     }
     var items = events.slice(0, 30).map(function (e) {
       var color = colorForType(e.type);
-      var typeLabel = displayTypeLabel(e.type);
       var title = (e.title || "").substring(0, 90);
-      var typePart = typeLabel
-        ? "<strong style='color:" + color + "'>" + escHtml(typeLabel) + "</strong>" +
-          "<span class='c-ticker-sep'>·</span>"
-        : "";
       return "<span class='c-ticker-item'>" +
-             typePart +
              flagHTML(e.country) +
              "<span>" + escHtml(e.country || "") + "</span>" +
              "<span class='c-ticker-sep'>·</span>" +
@@ -305,7 +300,7 @@
     });
 
     var MIN_ITEMS_FOR_SCROLL = 5;
-    var SPEED_PX_PER_SEC = 180;
+    var SPEED_PX_PER_SEC = 250;
 
     if (items.length < MIN_ITEMS_FOR_SCROLL) {
       // Static layout
