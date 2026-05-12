@@ -245,7 +245,7 @@
       node.innerHTML = '<div class="d-empty">No reports match current filter.</div>';
       return;
     }
-    var html = events.slice(0, 100).map(function (e) {
+    var html = events.slice(0, 500).map(function (e) {
       var color = colorForType(e.type);
       var typeLabel = dCapFirst(typeKey(e.type));
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "")
@@ -255,7 +255,6 @@
              '<div class="d-news-bar" style="background:' + color + '"></div>' +
              '<div class="d-news-body">' +
              '<div class="d-news-meta">' +
-             '<span class="d-news-type" style="color:' + color + '">' + escHtml(typeLabel) + '</span>' +
              flagHTML(e.country) +
              '<span class="d-news-country">' + escHtml(e.country || "") + '</span>' +
              '<span class="d-news-time">' + escHtml(timeAgo(e.date)) + '</span>' +
