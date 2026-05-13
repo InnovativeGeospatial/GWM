@@ -1,9 +1,169 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-13T03:57:59.740448+00:00",
-  "count": 218,
+  "updated": "2026-05-13T15:11:13.030422+00:00",
+  "count": 228,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2972,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-04-20-2025/",
+      "date": "2026-05-13T15:11:07",
+      "title": "Flood in United States 04/20/2025",
+      "body": "On April 20, an unmanned self-driving car operated by Waymo drove onto a flooded road in San Antonio, Texas, and was swept into a creek. The vehicle was empty at the time, and no injuries were reported. Waymo's San Antonio service has been temporarily suspended while the company works on a software fix.\n\nIn response, Waymo issued a voluntary recall covering nearly 3,800 of its robotaxis across the United States. The company said safety is its top concern and that it has already taken steps to limit vehicle access to areas where flash flooding could occur.\n\nThe incident has drawn wider attention to the limits of self-driving technology. Experts note that the boundaries of what autonomous vehicles can handle safely often only become clear when something goes wrong, and that more incidents like this are likely as these vehicles become more common on public roads.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 29.424534,
+      "lng": -98.491484,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cwy2011dl4xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 2971,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-10-05-2026/",
+      "date": "2026-05-13T15:10:54",
+      "title": "Flood in Pakistan 10/05/2026",
+      "body": "Flooding struck Pakistan in early October 2026, with the situation continuing through at least the following day. The floods claimed at least eight lives, according to available reports.\n\nNo specific towns or regions were named in the available information, and details on the scale of damage or the cause of the flooding were not provided. Conditions in affected areas remain unclear.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Flood",
+      "lat": 33.712802,
+      "lng": 71.2678805,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103877"
+    },
+    {
+      "wp_id": 2970,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-12-2026/",
+      "date": "2026-05-13T15:10:41",
+      "title": "Wildfire in Russia 05/12/2026",
+      "body": "A forest fire broke out in Russia on May 12, 2026, and continued burning through at least May 13, 2026. No details about the specific location, size, or cause of the fire were included in the available report.\n\nBecause no further information is currently available — such as which region was affected, how many people were impacted, or whether evacuations took place — the full scope of this fire is not yet known. Updates are expected as more details become available.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 50.88973956922919,
+      "lng": 130.05909878101764,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028663"
+    },
+    {
+      "wp_id": 2969,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6/",
+      "date": "2026-05-13T15:10:31",
+      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 5.6",
+      "body": "A magnitude 5.6 earthquake struck the Solomon Islands on December 5, 2026. The quake occurred about 68 kilometers below the surface, which is a moderate depth and can reduce — but not eliminate — shaking felt at ground level.\n\nAbout 10,000 people live within 100 kilometers of the epicenter. No specific town or island was named as the closest populated area, and no reports of damage or casualties were included in the available information.\n\nThe Solomon Islands sit in one of the world's most seismically active regions, and earthquakes of this size occur there with some regularity. Those in the affected area should follow guidance from local authorities and check on neighbors, especially in more remote communities where access to information and assistance can be limited.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.649,
+      "lng": 164.9925,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540398"
+    },
+    {
+      "wp_id": 2968,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-6-2/",
+      "date": "2026-05-13T15:10:13",
+      "title": "Earthquake in Solomon Islands 05/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck about 88 kilometers west of Lata in the Solomon Islands on May 12, 2026. The quake originated about 68 kilometers below the surface, which reduces the energy felt at ground level compared to shallower events.\n\nNo casualties or damage have been reported at this time. The Solomon Islands sit along one of the world's most seismically active zones, and moderate earthquakes like this one are relatively common in the region.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.724173,
+      "lng": 165.797764,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5k"
+    },
+    {
+      "wp_id": 2967,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-nicaragua-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T15:09:57",
+      "title": "Earthquake in Nicaragua 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 35 kilometers southwest of Masachapa, Nicaragua, in the early morning hours. The quake was centered about 68 kilometers underground, which typically reduces the intensity of shaking felt at the surface.\n\nOnly a small number of people submitted reports saying they felt the earthquake. At that depth and magnitude, significant damage is unlikely, though residents closest to the epicenter may have noticed mild to moderate shaking.",
+      "country": "Nicaragua",
+      "countries": [
+        "Nicaragua"
+      ],
+      "type": "Earthquake",
+      "lat": 11.5397,
+      "lng": -86.7186,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxc7"
+    },
+    {
+      "wp_id": 2966,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T15:09:48",
+      "title": "Earthquake in Russia 05/13/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 137 kilometers east of Ozernovskiy, a remote coastal town on Russia's Kamchatka Peninsula, on May 13, 2026. The quake registered magnitude 4.6 and occurred about 57 kilometers below the surface, which is deep enough to reduce shaking at ground level.\n\nNo damage or injuries have been reported from this event. The area is sparsely populated, and earthquakes are common along this part of the Pacific Rim, where tectonic plates are constantly in motion. Events of this size in such a remote location typically cause little to no impact on communities.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 51.497,
+      "lng": 156.507,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxcz"
+    },
+    {
+      "wp_id": 2965,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T15:09:37",
+      "title": "Earthquake in New Zealand 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck the Kermadec Islands region, a remote stretch of the South Pacific northeast of New Zealand. The quake occurred at a very deep level — about 348 kilometers below the surface — which typically causes shaking to be felt more widely but with less intensity than shallower earthquakes.\n\nThe Kermadec Islands are largely uninhabited, and no damage or injuries have been reported. Deep earthquakes in this region are relatively common due to the tectonic activity associated with the Kermadec Trench, one of the deepest ocean trenches in the world.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -30.153,
+      "lng": -179.4729,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxd9"
+    },
+    {
+      "wp_id": 2964,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-el-salvador-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T15:09:23",
+      "title": "Earthquake in El Salvador 05/13/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 17 kilometers south-southeast of Conchagua, El Salvador. The quake measured magnitude 4.5 and was centered very deep underground — roughly 198 kilometers down. At that depth, seismic energy spreads across a wide area but is significantly weakened by the time it reaches the surface.\n\nBecause of this unusually deep focus, the shaking felt at the surface was likely mild, and the risk of serious damage or casualties is generally low for events of this type and depth. No damage or injuries have been reported in the available information.\n\nEl Salvador sits along an active seismic zone, and earthquakes in this region are not uncommon.",
+      "country": "El Salvador",
+      "countries": [
+        "El Salvador"
+      ],
+      "type": "Earthquake",
+      "lat": 13.307942,
+      "lng": -87.86248,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdu"
+    },
+    {
+      "wp_id": 2963,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-taiwan-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T15:09:11",
+      "title": "Earthquake in Taiwan 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 5 kilometers east-southeast of Hualien City, Taiwan on May 13, 2026. The quake originated at a depth of about 18 kilometers underground.\n\nAt least one person reported feeling the shaking. No damage or injuries were described in the available information.\n\nHualien is a coastal city on Taiwan's eastern side, an area that regularly experiences seismic activity due to its position along active fault zones.",
+      "country": "Taiwan",
+      "countries": [
+        "Taiwan"
+      ],
+      "type": "Earthquake",
+      "lat": 23.977873,
+      "lng": 121.60618,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxef"
+    },
     {
       "wp_id": 2937,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-09-2026/",
