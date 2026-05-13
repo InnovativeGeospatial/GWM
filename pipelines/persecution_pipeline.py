@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import time
 import hashlib
 import json
@@ -11,11 +12,21 @@ from dotenv import load_dotenv
 
 load_dotenv('/opt/global-witness/.env')
 
+# Make gwm_json_writer importable when pipeline lives at /opt/global-witness/.
+# Copy or symlink gwm_json_writer.py alongside this script before running.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import gwm_json_writer
+    JSON_WRITER_AVAILABLE = True
+except ImportError:
+    JSON_WRITER_AVAILABLE = False
+
 client = Anthropic()
 WP_URL = os.getenv('WP_URL')
 WP_USER = os.getenv('WP_USER')
 WP_APP_PASSWORD = os.getenv('WP_APP_PASSWORD')
 SEEN_FILE = '/opt/global-witness/seen_articles.json'
+FEED_NAME = 'persecution'
 
 RSS_FEEDS = [
     'https://morningstarnews.org/feed/',
@@ -533,6 +544,9 @@ def publish_to_wordpress(article, headline, body):
 
 def run():
     print('=== Global Witness Monitor - Persecution Pipeline ===')
+    if not JSON_WRITER_AVAILABLE:
+        print('WARNING: gwm_json_writer.py not found alongside this script - '
+              'JSON feeds will NOT be updated. Dashboard will not show new events.')
     seen = load_seen()
     print('Previously seen: ' + str(len(seen)) + ' articles')
     articles = fetch_articles(seen)
@@ -541,6 +555,7 @@ def run():
         return
     published = 0
     skipped = 0
+    json_writes = 0
     for article in articles:
         try:
             print('Processing: ' + article['title'][:60])
@@ -586,11 +601,50 @@ def run():
             if result:
                 published += 1
                 seen.add(article['hash'])
+
+                # Write event to GitHub JSON feed for dashboard consumption.
+                # Persecution events use country centroid only (no precise location)
+                # for safety / anonymity. lat/lng come from COUNTRY_CENTROIDS above.
+                if JSON_WRITER_AVAILABLE:
+                    try:
+                        post_id = result.get('id')
+                        post_link = result.get('link')
+                        post_date = result.get('date_gmt') or result.get('date') or ''
+                        event = {
+                            'wp_id': post_id,
+                            'wp_link': post_link,
+                            'date': post_date or datetime.now(timezone.utc).isoformat(),
+                            'title': headline or article['title'],
+                            'body': body,
+                            'country': primary,
+                            'countries': parsed['countries'],
+                            'type': article['incident_type'],
+                            'lat': article['lat'],
+                            'lng': article['lng'],
+                            'source_title': article.get('source', ''),
+                            'source_url': article.get('link', ''),
+                        }
+                        gwm_json_writer.write_event(FEED_NAME, event)
+                        json_writes += 1
+                    except Exception as e:
+                        print('JSON write_event failed: ' + str(e))
             time.sleep(2)
         except Exception as e:
             print('Error: ' + str(e))
     save_seen(seen)
-    print('=== Done. Published: ' + str(published) + ' Skipped: ' + str(skipped) + ' ===')
+
+    if JSON_WRITER_AVAILABLE and json_writes > 0:
+        try:
+            print('Pushing ' + str(json_writes) + ' new events to GitHub JSON feeds...')
+            written = gwm_json_writer.finalize(FEED_NAME)
+            print('JSON feed updated: active=' + str(written.get('active')) +
+                  ' archives=' + ','.join(written.get('archives', [])))
+        except Exception as e:
+            print('JSON finalize failed: ' + str(e))
+
+    print('=== Done. Published: ' + str(published) +
+          ' Skipped: ' + str(skipped) +
+          ' JSON writes: ' + str(json_writes) + ' ===')
 
 
 if __name__ == '__main__':
