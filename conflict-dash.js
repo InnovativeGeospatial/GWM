@@ -76,7 +76,8 @@
     return TYPE_COLORS[typeKey(t)] || TYPE_COLORS.other;
   }
   function countryKey(c) {
-    return (c || "").toString().toLowerCase().trim();
+    return (c || "").toString().toLowerCase().trim()
+      .replace(/\s*\([^)]*\)\s*/g, "").trim();
   }
   // Display label rules:
   // - "Other" → empty string (caller hides the pill entirely)
