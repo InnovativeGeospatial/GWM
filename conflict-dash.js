@@ -1,3 +1,4 @@
+
 /* =====================================================================
  * GWM Conflict & Unrest Dashboard — JSON feed edition
  * Reads from: https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json
@@ -264,7 +265,9 @@
       if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "…";
       var ago = timeAgo(e.date);
 
-      return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener'>" +
+      return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener' style='display:flex;text-decoration:none;color:inherit;'>" +
+             "<div style='width:3px;flex-shrink:0;background:" + color + ";'></div>" +
+             "<div style='flex:1;min-width:0;padding:10px 14px;'>" +
              "<div class='c-news-meta'>" +
              flagHTML(e.country) +
              "<span class='c-news-country'>" + escHtml(e.country || "") + "</span>" +
@@ -272,7 +275,8 @@
              "</div>" +
              "<div class='c-news-title'>" + escHtml(e.title || "") + "</div>" +
              (excerpt ? "<div class='c-news-summary'>" + escHtml(excerpt) + "</div>" : "") +
-             "</a>";
+             "</div></a>";
+
     }).join("");
     feed.innerHTML = html;
   }
