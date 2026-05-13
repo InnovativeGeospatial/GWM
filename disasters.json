@@ -1,9 +1,121 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-12T22:37:22.557408+00:00",
-  "count": 211,
+  "updated": "2026-05-13T03:57:59.740448+00:00",
+  "count": 218,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2937,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-09-2026/",
+      "date": "2026-05-13T03:57:54",
+      "title": "Wildfire in Russia 05/09/2026",
+      "body": "A forest fire broke out in Russia on May 9, 2026, and continued burning through at least May 11, 2026. No specific region or locality was identified in the available report.\n\nVery little detail is available at this time. No information on the size of the fire, casualties, or affected communities has been provided. Further updates are expected as the situation develops.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.685094902965034,
+      "lng": 134.07519405058898,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028647"
+    },
+    {
+      "wp_id": 2936,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-11-05-2026-2/",
+      "date": "2026-05-13T03:57:45",
+      "title": "Wildfire in Australia 11/05/2026",
+      "body": "A forest fire broke out in Australia on November 5, 2026, and continued burning through at least November 12, 2026. No further details about the fire's location, size, or impact were included in the available report.\n\nBecause specific information about affected communities, evacuations, or damage is not yet available, the full extent of this fire remains unclear. Updates are expected as more details emerge.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Wildfire",
+      "lat": -14.931697392301363,
+      "lng": 130.60657049407453,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028658"
+    },
+    {
+      "wp_id": 2935,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-12-05-2026-magnitude-6/",
+      "date": "2026-05-13T03:57:36",
+      "title": "Earthquake in Tonga 12/05/2026 — Magnitude 6",
+      "body": "A magnitude 5.7 earthquake struck Tonga on December 5, 2026. The quake originated about 154 kilometers below the surface, meaning it was a deep earthquake. At that depth, much of the energy is absorbed before reaching the surface, which typically results in weaker shaking felt at ground level.\n\nOnly around one thousand people are estimated to have felt any shaking from this event, and reports suggest the shaking was minor. No damage or injuries have been reported at this time.\n\nTonga sits in one of the most seismically active regions in the world, and deep earthquakes like this one are common in the area. Residents there are generally accustomed to seismic activity.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -23.2041,
+      "lng": -176.8485,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540431"
+    },
+    {
+      "wp_id": 2934,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-12-2026-magnitude-6-2/",
+      "date": "2026-05-13T03:57:23",
+      "title": "Earthquake in Tonga 05/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.7 earthquake struck about 275 kilometers southwest of Houma, Tonga on May 12, 2026. The quake occurred deep underground, roughly 154 kilometers below the surface, which generally reduces the shaking felt at ground level.\n\nNo significant damage or casualties have been reported at this time. The remote location and considerable depth of this earthquake likely limited its impact on nearby communities.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -23.2041,
+      "lng": -176.8485,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx9x"
+    },
+    {
+      "wp_id": 2933,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-12-2026-magnitude-5-2/",
+      "date": "2026-05-13T03:57:14",
+      "title": "Earthquake in Tonga 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 55 kilometers northeast of 'Ohonua, Tonga on May 12, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nNo damage or injuries were reported in the available source information. Tonga sits along an active seismic zone in the Pacific, and earthquakes in this range of magnitude are relatively common in the region. Residents in nearby areas may have felt noticeable shaking.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -21.340223,
+      "lng": -174.95555,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxaj"
+    },
+    {
+      "wp_id": 2932,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-13-2026-magnitude-5-2/",
+      "date": "2026-05-13T03:57:04",
+      "title": "Earthquake in Japan 05/13/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck the Pacific Ocean about 175 kilometers south-southeast of Akkeshi, Japan, in the early morning hours of May 13, 2026. The quake had a magnitude of about 4.9 and was shallow, occurring only about 10 kilometers below the seafloor.\n\nBecause the epicenter was far offshore and the magnitude was relatively low, significant damage or widespread shaking on land is unlikely. No reports of damage, injuries, or a tsunami threat were mentioned in the available information.\n\nAkkeshi is a coastal town on the eastern edge of Hokkaido, Japan's northernmost main island. Earthquakes in this region of the western Pacific are common due to the area's active tectonic setting.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 43.052948,
+      "lng": 144.84578,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxbv"
+    },
+    {
+      "wp_id": 2931,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-13-2026-magnitude-5/",
+      "date": "2026-05-13T03:56:53",
+      "title": "Earthquake in Japan 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck in the Izu Islands region of Japan on May 13, 2026. The quake occurred at an unusually deep level — about 457 kilometers below the surface — which significantly reduces the energy felt at ground level.\n\nAt that extreme depth, shaking at the surface is typically much weaker than a shallower quake of the same magnitude would produce. Deep earthquakes like this one are less likely to cause damage or generate tsunamis.\n\nNo damage or injuries were reported in the source material.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.978592,
+      "lng": 138.9495,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxc0"
+    },
     {
       "wp_id": 2928,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-02-2025-2/",
