@@ -1,9 +1,27 @@
+#!/usr/bin/env python3
+"""
+Global Witness Monitor -- Persecution Pipeline v3
+
+Changes from v2:
+- Claude-judge step: before generating an article, ask Claude whether the
+  source describes an actual persecution incident (vs policy debate,
+  religious news, etc). Cheap call, drops false positives like
+  "Senate debates assisted suicide bill, bishops oppose."
+- Body formatted as 2-3 paragraphs with explicit <p> tags, matching the
+  disaster pipeline's format_body_for_wordpress() pattern. WordPress
+  wpautop alone wasn't producing reliable paragraph breaks.
+- Same loosened filter logic from v2 (proximity check spans title + lead,
+  not single sentence; mainstream check includes content).
+- Same JSON writer integration that's working end-to-end.
+"""
+
 import os
 import re
 import sys
 import time
 import hashlib
 import json
+import html
 import feedparser
 import requests
 from datetime import datetime, timezone, timedelta
@@ -12,8 +30,6 @@ from dotenv import load_dotenv
 
 load_dotenv('/opt/global-witness/.env')
 
-# Make gwm_json_writer importable when pipeline lives at /opt/global-witness/.
-# Copy or symlink gwm_json_writer.py alongside this script before running.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
     import gwm_json_writer
@@ -76,6 +92,7 @@ CHRISTIAN_IDENTIFIERS = [
     'worshipper', 'worshippers', 'house church', 'underground church',
 ]
 
+# Keep this list narrow. Real noise patterns only. Claude judges the rest.
 EXCLUDE_TITLE_PATTERNS = [
     'mystery of suffering', 'book of job', 'bible study', 'devotional',
     'sermon series', 'prayer guide', 'reflection on', 'theological reflection',
@@ -285,44 +302,45 @@ def has_country_mention(text):
 
 
 def is_news_incident(title, content):
+    """Lightweight pre-filter. Throws out obvious non-news patterns.
+
+    This is NOT the persecution-vs-not-persecution judgment - Claude does
+    that downstream. This only filters out devotionals, opinion columns,
+    celebrity false positives, and articles with no country mention at all.
+    """
     title_lower = title.lower()
     for pattern in EXCLUDE_TITLE_PATTERNS:
         if pattern in title_lower:
             return False
-    incident_words = [
-        'killed', 'kills', 'kill', 'murdered', 'murder', 'executed', 'execution',
-        'beheaded', 'massacre', 'shot dead', 'lynched',
-        'arrested', 'detained', 'detention', 'imprisoned', 'sentenced', 'convicted',
-        'attacked', 'attack', 'bombed', 'burned', 'demolished', 'destroyed', 'raided',
-        'kidnapped', 'abducted', 'tortured', 'beaten',
-        'expelled', 'displaced', 'fled', 'evicted',
-        'closed', 'banned', 'confiscated', 'threatened',
-        'fined', 'jailed', 'forced',
-    ]
     text_check = title_lower + ' ' + content[:1500].lower()
-    has_incident = any(w in text_check for w in incident_words)
-    has_location = has_country_mention(text_check)
-    return has_incident and has_location
+    return has_country_mention(text_check)
 
 
 def is_relevant(title, content, feed_url, feed_title):
+    """Pre-filter: must mention Christianity-related word AND have a country.
+
+    Final persecution-vs-not judgment is delegated to Claude in judge_article().
+    """
     title_lower = title.lower()
     content_lower = content.lower()
-
-    if is_mainstream(feed_url, feed_title):
-        check_text = title_lower + ' ' + content_lower[:300]
-        has_ci = any(ci in check_text for ci in CHRISTIAN_IDENTIFIERS)
-        has_ps = any(ps in check_text for ps in PERSECUTION_SIGNALS)
-        if not (has_ci and has_ps):
-            return False
 
     if not is_news_incident(title, content):
         return False
 
-    combined = title_lower + ' ' + content_lower[:1000]
+    combined = title_lower + ' ' + content_lower[:1500]
     has_ci = any(ci in combined for ci in CHRISTIAN_IDENTIFIERS)
-    has_ps = any(ps in combined for ps in PERSECUTION_SIGNALS)
-    return has_ci and has_ps
+    if not has_ci:
+        return False
+
+    # Mainstream sources need at least one persecution signal somewhere -
+    # keeps us from spending Claude calls on every Reuters religion story.
+    if is_mainstream(feed_url, feed_title):
+        check_text = title_lower + ' ' + content_lower[:500]
+        has_ps = any(ps in check_text for ps in PERSECUTION_SIGNALS)
+        if not has_ps:
+            return False
+
+    return True
 
 
 def fetch_full_content(url):
@@ -433,20 +451,112 @@ def fetch_articles(seen):
             print('Error: ' + feed_url + ' - ' + str(e))
 
     print('Filter stats: ' + json.dumps(stats))
-    print('Found ' + str(len(articles)) + ' relevant articles')
+    print('Found ' + str(len(articles)) + ' candidate articles (pre-Claude-judge)')
     return articles
 
 
+JUDGE_SYSTEM = (
+    "You decide whether a news article describes an actual incident of "
+    "Christian persecution suitable for Global Witness Monitor, a platform "
+    "tracking persecution against Christians worldwide.\n\n"
+    "An article QUALIFIES if it reports a specific event in which Christians, "
+    "churches, clergy, missionaries, converts, or Christian institutions were "
+    "harmed, threatened, restricted, arrested, attacked, killed, displaced, "
+    "evicted, banned, or otherwise persecuted because of their faith or "
+    "religious activity.\n\n"
+    "An article DOES NOT QUALIFY if it is:\n"
+    "- A policy/legislative debate (e.g. parliament debating a bill, even if "
+    "Christian leaders weigh in for or against it)\n"
+    "- An advocacy or opinion piece by Christians on social/political issues\n"
+    "- Religious commentary, sermons, devotionals, theology, or worship news\n"
+    "- General news where Christianity is incidental (e.g. a Christian was a "
+    "victim of generic crime unrelated to their faith)\n"
+    "- A roundup, anniversary piece, explainer, or background analysis\n"
+    "- Coverage of Christian holidays, services, or events without an incident\n"
+    "- News about Christian denominations' internal politics or appointments\n"
+    "- Stories where the persecution happened to non-Christians\n\n"
+    "Respond with EXACTLY one line in this format:\n"
+    "VERDICT: YES | reason: <short reason>\n"
+    "or\n"
+    "VERDICT: NO | reason: <short reason>\n"
+    "\n"
+    "Be strict. When in doubt, answer NO. False positives hurt the platform "
+    "more than missing a borderline story."
+)
+
+
+def judge_article(article):
+    """Ask Claude whether this is genuine persecution. Cheap fast call."""
+    prompt = (
+        "TITLE: " + article['title'] + "\n\n"
+        "SOURCE: " + article['source'] + "\n\n"
+        "CONTENT: " + article['content'][:2000] + "\n\n"
+        "Is this an actual persecution incident as defined? Respond with the "
+        "VERDICT line only."
+    )
+    try:
+        msg = client.messages.create(
+            model='claude-haiku-4-5-20251001',
+            max_tokens=120,
+            system=JUDGE_SYSTEM,
+            messages=[{'role': 'user', 'content': prompt}],
+        )
+        raw = msg.content[0].text.strip()
+        first = raw.split('\n', 1)[0].strip()
+        verdict = 'NO'
+        reason = ''
+        m = re.match(r'VERDICT:\s*(YES|NO)\s*\|\s*reason:\s*(.*)', first, re.IGNORECASE)
+        if m:
+            verdict = m.group(1).upper()
+            reason = m.group(2).strip()
+        else:
+            # Fallback: look for YES/NO anywhere on first line
+            if re.search(r'\bYES\b', first, re.IGNORECASE):
+                verdict = 'YES'
+            elif re.search(r'\bNO\b', first, re.IGNORECASE):
+                verdict = 'NO'
+            reason = first[:120]
+        return verdict, reason
+    except Exception as e:
+        # On API failure, default to skipping rather than letting bad articles
+        # through. Persecution platform: false positives are worse than misses.
+        print('Judge call failed: ' + str(e))
+        return 'NO', 'judge_error: ' + str(e)[:80]
+
+
+def fetch_full_article(url):
+    try:
+        r = requests.get(
+            url, timeout=10,
+            headers={'User-Agent': 'Mozilla/5.0 (compatible; GlobalWitnessMonitor/1.0)'}
+        )
+        if r.status_code == 200:
+            text = re.sub(r'<script[^>]*>.*?</script>', '', r.text, flags=re.DOTALL)
+            text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
+            text = re.sub(r'<[^>]+>', ' ', text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            return text[:4000]
+    except Exception:
+        pass
+    return ''
+
+
 def generate_article(article):
+    body_text = fetch_full_article(article['link'])
+    body_section = ''
+    if body_text:
+        print('Fetched ' + str(len(body_text)) + ' chars of full article')
+        body_section = "FULL ARTICLE BODY:\n" + body_text + "\n\n"
+
     prompt = (
         'You are a journalist for Global Witness Monitor, a Christian persecution intelligence platform.\n\n'
         'STRUCTURED OUTPUT REQUIRED. Your response must begin with exactly these two header lines:\n'
         'COUNTRY: <country_name | MULTIPLE: country1, country2 | UNKNOWN>\n'
         '---\n'
-        'Then the article body.\n\n'
+        'Then the article body in 2 or 3 paragraphs separated by BLANK LINES.\n\n'
         'COUNTRY rules:\n'
         '- Use the country where the persecution event occurred, not the country of the outlet.\n'
-        '- If multiple countries are substantively involved (e.g. cross-border refugees, diaspora incident with country of origin), use MULTIPLE: c1, c2.\n'
+        '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
         '- Use UNKNOWN only if no country can be reasonably determined.\n'
         '- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n'
         'Write a factual 100-250 word news report based ONLY on the source material below.\n\n'
@@ -457,20 +567,22 @@ def generate_article(article):
         '- Redact identifying details to protect local communities:\n'
         "  - No personal names (replace with: man, woman, pastor, bishop, girl, boy, family, group, convert, believer)\n"
         "  - No specific church names (e.g. 'Linfen Covenant Home Church' -> 'a house church')\n"
-        "  - No specific local ministry or denomination names within the country (e.g. 'Three-Self Patriotic Movement' -> 'a state-sanctioned church body')\n"
-        "  - No towns, villages, counties, districts, or provinces (use the country only, or generic phrasing like 'a rural area' or 'a northern province')\n"
-        "  - You MAY name the external reporting watchdog (e.g. 'according to ChinaAid', 'according to Open Doors') since those are not local community identifiers\n"
+        "  - No specific local ministry or denomination names within the country\n"
+        "  - No towns, villages, counties, districts, or provinces (use the country only)\n"
+        "  - You MAY name the external reporting watchdog (e.g. 'according to ChinaAid', 'according to Open Doors')\n"
         '- These redaction rules apply EVEN IF the source material includes the specific names. Redaction is required, not optional.\n'
         '- Mention the source naturally in the text\n'
         '- No source list at the end\n'
         '- No headers or sections\n'
         '- Never repeat the same point twice\n'
-        '- End with one short prayer prompt sentence\n'
+        '- Structure the body as 2 or 3 paragraphs separated by blank lines. First paragraph: what happened. Second: context or details. Third (optional): broader pattern or prayer focus.\n'
+        '- End the final paragraph with one short prayer prompt sentence\n'
         '- 100-250 words maximum\n\n'
         'After the article write on a new line: HEADLINE: [short descriptive headline, no personal names]\n\n'
         'SOURCE: ' + article['source'] + '\n'
-        'TITLE: ' + article['title'] + '\n'
-        'CONTENT: ' + article['content'] + '\n\nWrite now:'
+        'TITLE: ' + article['title'] + '\n\n'
+        + body_section +
+        'SUMMARY: ' + article['content'] + '\n\nWrite now:'
     )
     response = client.messages.create(
         model='claude-sonnet-4-6',
@@ -502,6 +614,28 @@ def parse_generated(text):
     return headline, body
 
 
+def format_body_for_wordpress(body_text):
+    """Decode HTML entities and wrap paragraphs in explicit <p> tags.
+
+    Same pattern as disaster pipeline. WordPress's wpautop sometimes
+    misbehaves; explicit <p> tags guarantee paragraph breaks.
+    """
+    if not body_text:
+        return ''
+    decoded = html.unescape(body_text).strip()
+    paras = re.split(r'\n\s*\n', decoded)
+    cleaned = []
+    for p in paras:
+        p = p.strip()
+        if not p:
+            continue
+        # Collapse single newlines inside a paragraph to spaces
+        p = re.sub(r'\s*\n\s*', ' ', p)
+        p = re.sub(r'\s+', ' ', p).strip()
+        cleaned.append('<p>' + p + '</p>')
+    return '\n\n'.join(cleaned)
+
+
 def get_or_create_category(name, slug):
     auth = (WP_USER, WP_APP_PASSWORD)
     r = requests.get(WP_URL + '/wp-json/wp/v2/categories?slug=' + slug, auth=auth)
@@ -526,9 +660,10 @@ def publish_to_wordpress(article, headline, body):
         ' data-lng="' + str(article['lng'] or '') + '"></div>'
     )
     title = headline or article['title']
+    formatted_body = format_body_for_wordpress(body)
     post_data = {
         'title': title,
-        'content': body + meta_html,
+        'content': formatted_body + meta_html,
         'status': 'publish',
         'categories': [cat_id],
         'excerpt': article['content'][:200],
@@ -543,7 +678,7 @@ def publish_to_wordpress(article, headline, body):
 
 
 def run():
-    print('=== Global Witness Monitor - Persecution Pipeline ===')
+    print('=== Global Witness Monitor - Persecution Pipeline v3 ===')
     if not JSON_WRITER_AVAILABLE:
         print('WARNING: gwm_json_writer.py not found alongside this script - '
               'JSON feeds will NOT be updated. Dashboard will not show new events.')
@@ -555,9 +690,18 @@ def run():
         return
     published = 0
     skipped = 0
+    judged_no = 0
     json_writes = 0
     for article in articles:
         try:
+            # Claude-judge step: is this actual persecution?
+            verdict, reason = judge_article(article)
+            print('JUDGE: ' + verdict + ' | ' + reason[:80] + ' | ' + article['title'][:60])
+            if verdict != 'YES':
+                judged_no += 1
+                seen.add(article['hash'])
+                continue
+
             print('Processing: ' + article['title'][:60])
             raw, parsed = generate_article(article)
 
@@ -602,9 +746,6 @@ def run():
                 published += 1
                 seen.add(article['hash'])
 
-                # Write event to GitHub JSON feed for dashboard consumption.
-                # Persecution events use country centroid only (no precise location)
-                # for safety / anonymity. lat/lng come from COUNTRY_CENTROIDS above.
                 if JSON_WRITER_AVAILABLE:
                     try:
                         post_id = result.get('id')
@@ -615,7 +756,7 @@ def run():
                             'wp_link': post_link,
                             'date': post_date or datetime.now(timezone.utc).isoformat(),
                             'title': headline or article['title'],
-                            'body': body,
+                            'body': format_body_for_wordpress(body),
                             'country': primary,
                             'countries': parsed['countries'],
                             'type': article['incident_type'],
@@ -643,6 +784,7 @@ def run():
             print('JSON finalize failed: ' + str(e))
 
     print('=== Done. Published: ' + str(published) +
+          ' Judged-NO: ' + str(judged_no) +
           ' Skipped: ' + str(skipped) +
           ' JSON writes: ' + str(json_writes) + ' ===')
 
