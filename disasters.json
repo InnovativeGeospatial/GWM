@@ -1,9 +1,185 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-14T00:28:58.442641+00:00",
-  "count": 230,
+  "updated": "2026-05-14T14:24:58.324009+00:00",
+  "count": 241,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 3008,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6-2/",
+      "date": "2026-05-14T14:24:53",
+      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 5.6",
+      "body": "A moderate earthquake struck the Solomon Islands on December 5, 2026. The quake measured magnitude 5.6 and occurred at a depth of about 68 kilometers underground, which is deep enough to reduce the intensity of shaking felt at the surface.\n\nOnly a small number of people — a few thousand — were in areas where any shaking was likely felt, and at those distances the shaking would have been relatively light. No damage or casualties are mentioned in available reports.\n\nThe Solomon Islands sit in one of the world's most seismically active regions, and earthquakes of this size are not uncommon there. Residents in the affected area are encouraged to follow guidance from local authorities.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.649,
+      "lng": 164.9925,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540398"
+    },
+    {
+      "wp_id": 3007,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-13-2026/",
+      "date": "2026-05-14T14:24:40",
+      "title": "Wildfire in Russia 05/13/2026",
+      "body": "A forest fire broke out in Russia on May 13, 2026, and continued burning into the following day. No details about the fire's location, size, or cause were included in the available report.\n\nBecause no further information is currently available — including which region was affected or whether any communities were threatened — this report will be updated as new details emerge.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.69157827612376,
+      "lng": 133.84258065529383,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028668"
+    },
+    {
+      "wp_id": 3006,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-05-14-2026/",
+      "date": "2026-05-14T14:24:30",
+      "title": "Wildfire in Australia 05/14/2026",
+      "body": "A forest fire broke out in Australia on May 14, 2026. No additional details about the size, spread, or cause of the fire were included in the available report.\n\nBecause specific location information was not provided, it is not yet clear which part of Australia was affected. Further updates may provide more detail about the areas involved and any impact on local communities.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Wildfire",
+      "lat": -13.456114038889064,
+      "lng": 131.79236738189468,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028667"
+    },
+    {
+      "wp_id": 3005,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-13-2026-magnitude-5/",
+      "date": "2026-05-14T14:24:20",
+      "title": "Earthquake in Tonga 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 72 kilometers northeast of Hihifo, Tonga on May 13, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nNo damage or injuries have been reported at this time. Tonga sits in a highly active seismic zone in the South Pacific, and earthquakes of this size are relatively common in the region.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -15.95679,
+      "lng": -173.79214,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxf6"
+    },
+    {
+      "wp_id": 3004,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-13-2026-magnitude-5-2/",
+      "date": "2026-05-14T14:24:11",
+      "title": "Earthquake in Philippines 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 5.3 earthquake struck off the northern coast of the Philippines on May 13, 2026. The quake was centered about 51 kilometers north-northeast of Namuac, in the Cagayan region of northern Luzon, at a depth of about 35 kilometers.\n\nNo injuries, deaths, or damage have been reported in the limited information available. A small number of people submitted reports saying they felt the shaking, though at a mild level. Events of this size at this depth can be felt across a wide area but typically cause little to no damage.\n\nThe Philippines sits along one of the world's most seismically active zones, and earthquakes are common throughout the archipelago, particularly in the northern island of Luzon.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 18.611256,
+      "lng": 121.16483,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxk1"
+    },
+    {
+      "wp_id": 3003,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-13-2026-magnitude-5/",
+      "date": "2026-05-14T14:24:00",
+      "title": "Earthquake in Philippines 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 46 kilometers north of Namuac in the northern Philippines on May 13, 2026. The quake occurred at a depth of about 35 kilometers beneath the surface.\n\nNo damage or injuries were reported in the source material. Earthquakes of this size can occasionally be felt by people near the epicenter but rarely cause significant harm, particularly when centered at moderate depths.\n\nThe northern Philippines sits along active fault zones and experiences seismic activity regularly.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 18.611256,
+      "lng": 121.16483,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxk3"
+    },
+    {
+      "wp_id": 3002,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-ethiopia-05-14-2026-magnitude-5/",
+      "date": "2026-05-14T14:23:49",
+      "title": "Earthquake in Ethiopia 05/14/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck a remote area of southern Ethiopia, about 41 kilometers northeast of the town of Turmi, in the early morning hours of May 14, 2026. The quake registered a magnitude of 4.7 and occurred at a shallow depth of about 10 kilometers.\n\nNo casualty or damage reports are available from the source material. The Turmi area is a sparsely populated region, and the earthquake's relatively moderate size and remote location may limit its impact on residents. However, shallow earthquakes can sometimes produce stronger shaking at the surface than deeper ones of similar size.\n\nPeople in and around Turmi and nearby communities may have felt the tremor. Those serving or traveling in the region should be aware of the event and check on local contacts as information becomes available.",
+      "country": "Ethiopia",
+      "countries": [
+        "Ethiopia"
+      ],
+      "type": "Earthquake",
+      "lat": 4.96835,
+      "lng": 36.487794,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxka"
+    },
+    {
+      "wp_id": 3001,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-05-14-2026-magnitude-5/",
+      "date": "2026-05-14T14:23:32",
+      "title": "Earthquake in Argentina 05/14/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 69 kilometers west of San Antonio de los Cobres in northwestern Argentina on May 14, 2026. The quake originated very deep underground — roughly 183 kilometers down — which typically reduces the intensity of shaking felt at the surface.\n\nBecause of its depth and moderate size, significant damage or casualties are unlikely, though people in the region may have felt some light to moderate shaking. No additional details about impact were available from the source.",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -24.217514,
+      "lng": -66.32092,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxkm"
+    },
+    {
+      "wp_id": 3000,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-5/",
+      "date": "2026-05-14T14:23:19",
+      "title": "Earthquake in Indonesia 05/14/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 130 kilometers west of Ternate, Indonesia, in the early morning hours of May 14, 2026. The quake registered magnitude 4.7 and occurred at a depth of about 35 kilometers beneath the surface.\n\nNo damage or casualties were reported in the source material. The region sits within one of the most seismically active zones in the world, and earthquakes of this size are not uncommon in the area around the northern Maluku islands.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 0.78721,
+      "lng": 127.381386,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxky"
+    },
+    {
+      "wp_id": 2999,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iran-05-14-2026-magnitude-5/",
+      "date": "2026-05-14T14:23:09",
+      "title": "Earthquake in Iran 05/14/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 28 kilometers north-northwest of Bardsīr, Iran, on May 14, 2026. The quake was shallow, occurring roughly 10 kilometers underground, which can cause shaking to be felt more strongly at the surface.\n\nNo details about damage, injuries, or casualties were included in the available information. Bardsīr is a city in Kerman Province in southeastern Iran, a region that sits along active fault lines and has experienced earthquakes in the past.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Earthquake",
+      "lat": 29.929256,
+      "lng": 56.571205,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxm9"
+    },
+    {
+      "wp_id": 2998,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-05-14-2026-magnitude-5/",
+      "date": "2026-05-14T14:22:54",
+      "title": "Earthquake in Colombia 05/14/2026 — Magnitude 5",
+      "body": "A magnitude 5.3 earthquake struck about 32 kilometers west-northwest of Darien, Colombia on May 14, 2026. The quake occurred at a depth of about 117 kilometers, which is considered a deep earthquake. At that depth, shaking is typically spread over a wide area but felt less intensely at the surface than shallower quakes.\n\nA small number of people submitted reports saying they felt the shaking. No information about damage or injuries was included in the available reports.",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Earthquake",
+      "lat": 4.0895,
+      "lng": -76.7348,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxn9"
+    },
     {
       "wp_id": 2984,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iran-magnitude-4/",
