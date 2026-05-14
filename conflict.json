@@ -1,9 +1,137 @@
 {
   "feed": "conflict",
-  "updated": "2026-05-14T00:32:03.149665+00:00",
-  "count": 162,
+  "updated": "2026-05-14T14:28:11.017247+00:00",
+  "count": 170,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 3016,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-saksakiyeh-2/",
+      "date": "2026-05-14T14:28:05",
+      "title": "Armed Conflict in Lebanon — Saksakiyeh",
+      "body": "An Israeli airstrike destroyed a building in the southern Lebanese town of Saksakiyeh where a displaced family was sheltering, killing nine people. Relatives said the victims included an elderly woman, two of her sons, a daughter-in-law, four grandchildren, and a two-year-old great-granddaughter. The Israeli military said it had targeted armed group members operating from the site and was reviewing reports of civilian harm.\n\nA ceasefire announced last month has not stopped the fighting. Israeli airstrikes and drone activity continue day and night across southern Lebanon. Countless buildings have been destroyed, and most villages visited by a reporter over the past two weeks were nearly empty. Arab Salim, a village of around 6,000 before the war, now holds only about a tenth of its residents.\n\nMore than one million people — roughly one in five Lebanese — have been displaced, many still living in tents. Some residents who remain say they are too afraid to leave, and many say they have nowhere safe to go.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.43983,
+      "lng": 35.28265,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c9d3g6deljyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 3015,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-philippines-manila-2/",
+      "date": "2026-05-14T14:27:53",
+      "title": "Coup/Crisis in Philippines — Manila",
+      "body": "Gunshots were fired inside the Philippine Senate building in Manila after military and police personnel entered the premises. A senator wanted by the International Criminal Court had taken refuge there, believing his arrest was imminent. Officials said no one was hurt, and no one has been arrested for the shooting. The government denied any intention to arrest the senator, saying troops were there to protect him.\n\nThe senator in question was police chief during a past president's war on drugs, in which thousands of alleged drug dealers were killed. That former president has been held in The Hague since March 2025 to face ICC proceedings. The senator's lawyers have appealed to the Supreme Court to block his extradition.\n\nThe Senate building remained locked down following the incident, with senators still inside. Protesters gathered outside, demanding the senator be sent to face trial. Officials are investigating who fired the shots and have called on the public to submit any video footage that could help.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 14.590449,
+      "lng": 120.980362,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cnvp730yd52o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 3014,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-cuba-havana/",
+      "date": "2026-05-14T14:27:39",
+      "title": "Civil Unrest in Cuba — Havana",
+      "body": "Cuba has completely run out of diesel and fuel oil, according to the country's energy minister, leaving parts of Havana with blackouts lasting 20 to 22 hours a day. Hospitals have been unable to function normally, and schools and government offices have been forced to close. The minister described the energy situation as \"critical\" and the broader situation across the island as \"extremely tense.\"\n\nHundreds of residents took to the streets in Havana on Wednesday evening in what was described as the largest single night of protests since the energy crisis began in January. People blocked roads with burning rubbish and shouted anti-government slogans. In one neighborhood, residents could be heard demanding the government restore electricity.\n\nCuba normally relies on Venezuela and Mexico for oil supplies, but both countries have largely stopped sending fuel after the United States threatened tariffs on nations that supply Cuba. The US has offered $100 million in humanitarian aid, tied to political reforms, while Cuba's government has blamed the energy shortages entirely on US pressure.",
+      "country": "Cuba",
+      "countries": [
+        "Cuba"
+      ],
+      "type": "Civil Unrest",
+      "lat": 23.135305,
+      "lng": -82.358963,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cd7pyrj0vx7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 3013,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-congo-12-01-2024-uvira/",
+      "date": "2026-05-14T14:27:27",
+      "title": "Armed Conflict in Congo 12/01/2024 — Uvira",
+      "body": "A human rights investigation has found evidence that rebel fighters and soldiers accused of being from Rwanda executed 53 civilians — including six children — during door-to-door raids in Uvira, a city in eastern Democratic Republic of Congo. The killings took place after the M23 rebel group captured the city in December. Residents described watching family members shot in front of them.\n\nInvestigators also documented eight cases of rape during the occupation, with survivors describing threats at gunpoint. Other reported abuses included abductions, forced disappearances, and the forced recruitment of civilians. Investigators visited three suspected mass graves in the city, including one at a site previously used by UN peacekeepers.\n\nThe M23 withdrew from Uvira in January after diplomatic pressure. A separate United Nations report found more than 35,000 cases of sexual violence against children across eastern Congo in the first nine months of 2025. Nearly two million people in South Kivu province alone have fled their homes due to ongoing violence in the region.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Armed Conflict",
+      "lat": -3.40308,
+      "lng": 29.14171,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cy42dgj0x32o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 3012,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ukraine-05-22-2025-kyiv/",
+      "date": "2026-05-14T14:27:15",
+      "title": "Armed Conflict in Ukraine 05/22/2025 — Kyiv",
+      "body": "At least seven people were killed, including a 12-year-old girl, after Russia launched a massive overnight wave of drone and missile strikes on Kyiv and other parts of Ukraine. Bodies were pulled from the rubble of a nine-storey apartment block in Kyiv's southwestern Darnytskyi district, where rescuers were still searching for around 20 people feared missing. Dozens more were wounded, including two children, and 21 people were being treated in hospital.\n\nThe barrage involved more than 670 drones and 56 missiles, hitting over 180 sites across Ukraine, including more than 50 residential buildings. Strikes also damaged a school, a veterinary clinic, and disrupted Kyiv's water supply. Officials said around 93% of the incoming drones and missiles were intercepted.\n\nMore than 1,500 rescuers and police officers were working across the country in the aftermath. The attack came shortly after a three-day ceasefire expired, and officials described it as one of the largest Russian strikes since the full-scale invasion began in 2022.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 50.450034,
+      "lng": 30.524136,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cq5p8yygq94o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 3011,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-05-14-2026-srifa/",
+      "date": "2026-05-14T14:27:01",
+      "title": "Armed Conflict in Lebanon 05/14/2026 — Srifa",
+      "body": "Israeli airstrikes killed two people in the town of Srifa in southern Lebanon, where warplanes hit a residential area. A drone strike near a vocational school between the towns of Breqa and Zrarieh injured one person, and another airstrike was reported in the Ain al-Tineh area of the Western Bekaa. The Israeli military also issued forced evacuation orders for at least eight towns and villages across southern Lebanon. Journalists described the past several days as one of the most intense periods of aerial bombardment in weeks, with many individual strikes targeting vehicles on the main coastal highway south of Beirut.\n\nLebanon's health ministry reported that at least 2,896 people have been killed in Israeli attacks since fighting resumed in early March. A Hezbollah drone also fell inside Israeli territory near the border, injuring several people. Representatives from Lebanon and Israel are set to meet in Washington to discuss extending a ceasefire scheduled to expire on Sunday, though Hezbollah has opposed the talks and is not participating.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.28223,
+      "lng": 35.39721,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/5/14/two-killed-as-israel-ramps-up-southern-lebanon-attacks-ahead-of-us-talks?traffic_source=rss"
+    },
+    {
+      "wp_id": 3010,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-05-14-2026-beirut/",
+      "date": "2026-05-14T14:26:50",
+      "title": "Armed Conflict in Lebanon 05/14/2026 — Beirut",
+      "body": "Israel and Lebanon are holding a third round of direct talks aimed at preserving a ceasefire that is set to expire on Sunday. Previous meetings took place on April 14 and April 23, with delegations from both countries meeting face to face in Washington, D.C. The talks are deeply controversial inside Lebanon, with the president and prime minister supporting direct negotiations while Hezbollah and its allies prefer indirect talks.\n\nDespite the ceasefire, Israeli attacks on Lebanon have continued. On Wednesday, eight people — including two children — were killed when drones struck vehicles on a road connecting southern Lebanon to Beirut. Nine more people were killed in strikes elsewhere in the country. On Thursday, additional strikes were carried out and forced evacuation orders were issued for towns in the eastern Bekaa Valley and the south.\n\nHezbollah has continued to respond with its own attacks, which the group says have targeted Israeli soldiers and vehicles on Lebanese soil, as well as some military sites in northern Israel.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.89625,
+      "lng": 35.477367,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/5/14/what-is-on-the-table-during-lebanon-israel-direct-negotiations?traffic_source=rss"
+    },
+    {
+      "wp_id": 3009,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ukraine-kyiv/",
+      "date": "2026-05-14T14:26:36",
+      "title": "Armed Conflict in Ukraine — Kyiv",
+      "body": "A residential apartment building in Kyiv collapsed after being struck by Russian drones. Ukrainian officials say Russia launched more than 1,500 drones since Wednesday, causing damage in the capital despite a ceasefire proposal brokered by the United States.\n\nThe strikes came while a US-mediated ceasefire proposal was reportedly in place, raising serious concerns about civilian safety in urban areas. The scale of the drone campaign — over 1,500 launched in a short period — points to significant and ongoing risk for people living in cities and towns across Ukraine.\n\nResidents in affected areas face continued danger from falling debris and building collapses, particularly in densely populated neighborhoods like those struck in Kyiv.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 50.450034,
+      "lng": 30.524136,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/14/russian-drone-attack-hits-kyiv-apartment-block-during-ceasefire?traffic_source=rss"
+    },
     {
       "wp_id": 2993,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-darfur-kordofan/",
