@@ -1,9 +1,41 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-13T15:11:13.030422+00:00",
-  "count": 228,
+  "updated": "2026-05-14T00:28:58.442641+00:00",
+  "count": 230,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 2984,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iran-magnitude-4/",
+      "date": "2026-05-14T00:28:53",
+      "title": "Earthquake in Iran — Magnitude 4",
+      "body": "A moderate earthquake shook parts of Tehran and surrounding areas late Tuesday night, rattling residents but causing no reported injuries or damage. The tremor was centered in the Pardis area, east of the capital, at a shallow depth of about 10 kilometers. Shaking was also felt as far as Karaj, a suburb roughly 40 kilometers to the west, where residents were alarmed but unharmed. Magnitude estimates varied slightly between sources, ranging from 4.3 to 4.6.\n\nAuthorities confirmed no injuries or destruction were linked to the event. Despite the lack of damage this time, the incident is a reminder of Iran's position in one of the world's most earthquake-prone regions, where two tectonic plates meet beneath the country.\n\nPast earthquakes in Iran have been devastating. A 1990 quake killed more than 40,000 people, and a 2003 earthquake near Bam claimed over 26,000 lives. Shallow quakes and aging buildings have historically made the country especially vulnerable when stronger tremors strike.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Earthquake",
+      "lat": 35.740837,
+      "lng": 51.816174,
+      "source_title": "thesun.ng",
+      "source_url": "https://thesun.ng/irans-capital-hit-by-fresh-earthquake-as-tremor-jolts-tehran-suburbs/"
+    },
+    {
+      "wp_id": 2983,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-05-13-2026-magnitude-5/",
+      "date": "2026-05-14T00:28:32",
+      "title": "Earthquake in Costa Rica 05/13/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck near the coastal town of Jacó in Costa Rica on May 13, 2026. The quake was shallow, occurring about 10 kilometers underground, which typically means shaking is felt more strongly at the surface.\n\nAt least 21 people submitted reports saying they felt the shaking, suggesting the tremor was noticed across the area. Shallow earthquakes like this one can feel more intense to those nearby, even when the magnitude is moderate.\n\nNo damage or injuries were reported in the available information.",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Earthquake",
+      "lat": 9.61509,
+      "lng": -84.62871,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxh5"
+    },
     {
       "wp_id": 2972,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-04-20-2025/",
