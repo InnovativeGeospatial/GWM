@@ -1,13 +1,15 @@
 /* ============================================================================
-   GWM Disaster Dashboard — JSON feed edition
-   Reads from: https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/disasters.json
+   GWM Disaster Dashboard -- JSON feed edition
+   Reads from: raw.githubusercontent.com (was jsDelivr; switched for fresh data)
    No 100-event cap. Falls back to WP REST if JSON feed is unreachable.
    ============================================================================ */
 (function () {
   "use strict";
 
-  // ── Config ────────────────────────────────────────────────────────────────
-  var JSON_FEED_URL  = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/disasters.json";
+  // -- Config --
+  // Switched from jsDelivr to raw GitHub. Raw GitHub respects no-cache headers
+  // and edge-propagates within ~5 min. jsDelivr was caching for hours.
+  var JSON_FEED_URL  = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/disasters.json";
   var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var FLAG_BASE      = "https://flagcdn.com/24x18/";
   var SPREAD_KM      = 5;
@@ -19,13 +21,13 @@
     other: "#6b7280"
   };
 
-  // ── State ─────────────────────────────────────────────────────────────────
+  // -- State --
   var allEvents = [];
   var activeFilter = "all";
   var dMap = null;
   var expandedKey = null;
 
-  // ── Utilities ─────────────────────────────────────────────────────────────
+  // -- Utilities --
   function $id(id) { return document.getElementById(id); }
   function escHtml(s) {
     if (s == null) return "";
@@ -38,7 +40,6 @@
   }
   function timeAgo(iso) {
     if (!iso) return "";
-    // WP returns dates without timezone; treat as UTC
     var s = String(iso);
     if (!/[Zz]|[+-]\d{2}:?\d{2}$/.test(s)) s = s + "Z";
     var d = new Date(s);
@@ -54,7 +55,6 @@
   function colorForType(t) { return TYPE_COLORS[typeKey(t)] || TYPE_COLORS.other; }
   function countryKey(c) { return (c || "").toString().toLowerCase().trim(); }
 
-  // ── Country flag map (ISO-2) ──────────────────────────────────────────────
   var COUNTRY_ISO2 = {
     "afghanistan":"af","albania":"al","algeria":"dz","andorra":"ad","angola":"ao",
     "argentina":"ar","armenia":"am","australia":"au","austria":"at","azerbaijan":"az",
@@ -109,7 +109,6 @@
            'alt="" style="width:18px;height:13px;border-radius:2px;vertical-align:middle;">';
   }
 
-  // ── Data fetch ────────────────────────────────────────────────────────────
   function fetchEvents() {
     var url = JSON_FEED_URL + "?nocache=" + Date.now();
     return fetch(url)
@@ -134,7 +133,6 @@
       });
   }
 
-  // ── WP fallback adapter ───────────────────────────────────────────────────
   var META_RE = /data-country="([^"]*)"[^>]*data-type="([^"]*)"[^>]*data-lat="([^"]*)"[^>]*data-lng="([^"]*)"/;
   function wpPostToEvent(post) {
     var content = post.content ? post.content.rendered : "";
@@ -156,7 +154,6 @@
     };
   }
 
-  // ── Filtering ─────────────────────────────────────────────────────────────
   function filteredEvents() {
     if (activeFilter === "all") return allEvents.slice();
     return allEvents.filter(function (e) {
@@ -164,7 +161,6 @@
     });
   }
 
-  // ── Stats panel ───────────────────────────────────────────────────────────
   function renderStats(events) {
     var total = events.length;
     var counts = {
@@ -209,7 +205,6 @@
     if (node) node.innerHTML = html;
   }
 
-  // ── Country count panel ──────────────────────────────────────────────────
   function renderCountries(events) {
     var counts = {};
     events.forEach(function (e) {
@@ -237,7 +232,6 @@
     node.innerHTML = html;
   }
 
-  // ── News feed panel ──────────────────────────────────────────────────────
   function renderNews(events) {
     var node = $id("d-news");
     if (!node) return;
@@ -247,7 +241,6 @@
     }
     var html = events.slice(0, 500).map(function (e) {
       var color = colorForType(e.type);
-      var typeLabel = dCapFirst(typeKey(e.type));
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "")
                                   .replace(/\s+/g, " ").trim();
       if (excerpt.length > 180) excerpt = excerpt.substring(0, 180) + "…";
@@ -266,7 +259,6 @@
     node.innerHTML = html;
   }
 
-  // ── Ticker bar ───────────────────────────────────────────────────────────
   function renderTicker(events) {
     var node = $id("d-ticker");
     if (!node) return;
@@ -290,16 +282,10 @@
     });
     var doubled = items.concat(items).join("");
     node.innerHTML = '<div class="d-ticker-track">' + doubled + '</div>';
-    // Constant scroll speed regardless of item count.
-    // We measure the rendered width of the doubled track on the next frame,
-    // then set animation-duration so it scrolls at SPEED_PX_PER_SEC.
-    // This fixes "more articles = faster scroll" — speed is now item-count-independent.
-    var SPEED_PX_PER_SEC = 60; // tweak: lower = slower
+    var SPEED_PX_PER_SEC = 60;
     requestAnimationFrame(function () {
       var track = node.querySelector(".d-ticker-track");
       if (!track) return;
-      // scrollWidth covers both halves of the doubled track. Animation moves
-      // by 50% (one half), so the distance traveled is scrollWidth / 2.
       var distance = track.scrollWidth / 2;
       if (!distance || !isFinite(distance)) return;
       var duration = Math.max(30, Math.round(distance / SPEED_PX_PER_SEC));
@@ -307,7 +293,6 @@
     });
   }
 
-  // ── Map ──────────────────────────────────────────────────────────────────
   function initMap() {
     if (typeof maplibregl === "undefined") {
       console.error("[disaster-dash] MapLibre not loaded");
@@ -532,7 +517,6 @@
     }
   }
 
-  // ── Filter buttons ────────────────────────────────────────────────────────
   function setFilter(t) {
     activeFilter = t;
     var btns = document.querySelectorAll(".d-fbtn");
@@ -560,7 +544,6 @@
     }
   }
 
-  // ── Country list click → fly map ─────────────────────────────────────────
   function bindCountryList() {
     var node = $id("d-country-list");
     if (!node) return;
@@ -582,7 +565,6 @@
     });
   }
 
-  // ── Clock ─────────────────────────────────────────────────────────────────
   function startClock() {
     var node = $id("d-clock");
     if (!node) return;
@@ -597,7 +579,6 @@
     setInterval(tick, 1000);
   }
 
-  // ── Boot ──────────────────────────────────────────────────────────────────
   function boot() {
     startClock();
     bindFilters();
