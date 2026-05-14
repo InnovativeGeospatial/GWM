@@ -1,22 +1,21 @@
-
 /* =====================================================================
- * GWM Conflict & Unrest Dashboard — JSON feed edition
- * Reads from: https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json
+ * GWM Conflict & Unrest Dashboard -- JSON feed edition
+ * Reads from: raw.githubusercontent.com (was jsDelivr; switched for fresh data)
  * No 100-event cap. Falls back to WP REST if JSON feed unreachable.
- * Travel advisories still loaded from travel_advisories.json.
+ * Travel advisories also moved to raw GitHub.
  * ===================================================================== */
 (function () {
   "use strict";
 
-  // ── Config ─────────────────────────────────────────────────────────────
-  var JSON_FEED_URL = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json";
+  // -- Config --
+  // Switched from jsDelivr to raw GitHub. Raw respects no-cache headers and
+  // edge-propagates within ~5 min. jsDelivr was caching for hours.
+  var JSON_FEED_URL = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/conflict.json";
   var WP_FALLBACK   = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
-  var ADVISORY_URL  = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/travel_advisories.json";
+  var ADVISORY_URL  = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/travel_advisories.json";
   var FLAG_BASE     = "https://flagcdn.com/24x18/";
   var SPREAD_KM     = 5;
 
-  // Map event_type → color + filter key
-  // pipeline emits: Armed Conflict, Civil Unrest, Coup or Crisis, Displacement, Other
   var TYPE_COLORS = {
     "armed conflict": "#ef4444",
     "civil unrest":   "#fb923c",
@@ -25,7 +24,6 @@
     "other":          "#94a3b8"
   };
 
-  // Internal short keys used by filter buttons (.c-fbtn data-type or text)
   var TYPE_KEY_MAP = {
     "armed":         "armed conflict",
     "armed conflict":"armed conflict",
@@ -38,13 +36,11 @@
     "all":           "all"
   };
 
-  // ── State ──────────────────────────────────────────────────────────────
   var allEvents = [];
   var activeFilter = "all";
   var cMap = null;
   var expandedKey = null;
 
-  // ── Helpers ────────────────────────────────────────────────────────────
   function $id(id) { return document.getElementById(id); }
   function escHtml(s) {
     if (s == null) return "";
@@ -79,19 +75,13 @@
     return (c || "").toString().toLowerCase().trim()
       .replace(/\s*\([^)]*\)\s*/g, "").trim();
   }
-  // Display label rules:
-  // - "Other" → empty string (caller hides the pill entirely)
-  // - "Coup or Crisis" → "Coup/Crisis"
-  // - All else → Title Case
   function displayTypeLabel(t) {
     var k = typeKey(t);
     if (k === "other") return "";
     if (k === "coup or crisis") return "Coup/Crisis";
-    // Title-case each word: "civil unrest" -> "Civil Unrest"
     return k.replace(/\b\w/g, function(c) { return c.toUpperCase(); });
   }
 
-  // ── Country flag map (ISO-2) ───────────────────────────────────────────
   var COUNTRY_ISO2 = {
     "afghanistan":"af","albania":"al","algeria":"dz","andorra":"ad","angola":"ao",
     "argentina":"ar","armenia":"am","australia":"au","austria":"at","azerbaijan":"az",
@@ -146,7 +136,6 @@
            'alt="" style="width:18px;height:13px;border-radius:2px;vertical-align:middle;">';
   }
 
-  // ── Data fetch ─────────────────────────────────────────────────────────
   function fetchEvents() {
     var url = JSON_FEED_URL + "?nocache=" + Date.now();
     return fetch(url)
@@ -192,15 +181,13 @@
     };
   }
 
-  // ── Filtering ──────────────────────────────────────────────────────────
   function filteredEvents() {
     if (activeFilter === "all") return allEvents.slice();
     return allEvents.filter(function (e) { return typeKey(e.type) === activeFilter; });
   }
 
-  // ── Travel advisories panel (unchanged behavior) ───────────────────────
   function loadAdvisories() {
-    var url = ADVISORY_URL + "?t=" + Math.floor(Date.now() / (1000 * 60 * 30));
+    var url = ADVISORY_URL + "?nocache=" + Date.now();
     fetch(url)
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (payload) {
@@ -244,7 +231,6 @@
     if (l1) l1.textContent = counts[1];
   }
 
-  // ── News feed panel ────────────────────────────────────────────────────
   function renderNews(events) {
     var feed = $id("c-feed");
     var countEl = $id("c-news-count");
@@ -261,7 +247,6 @@
 
     var html = events.slice(0, 100).map(function (e) {
       var color = colorForType(e.type);
-      var typeLabel = displayTypeLabel(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
       if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "…";
       var ago = timeAgo(e.date);
@@ -282,7 +267,6 @@
     feed.innerHTML = html;
   }
 
-  // ── Ticker (constant-speed; static if too few items) ───────────────────
   function renderTicker(events) {
     var node = $id("c-ticker-content");
     if (!node) return;
@@ -291,7 +275,6 @@
       return;
     }
     var items = events.slice(0, 30).map(function (e) {
-      var color = colorForType(e.type);
       var title = (e.title || "").substring(0, 90);
       return "<span class='c-ticker-item'>" +
              flagHTML(e.country) +
@@ -305,9 +288,7 @@
     var SPEED_PX_PER_SEC = 250;
 
     if (items.length < MIN_ITEMS_FOR_SCROLL) {
-      // Static layout
       node.innerHTML = items.join("<span class='c-ticker-sep'>·</span>");
-      // Stop the loader's CSS animation if it set one
       node.style.setProperty("animation", "none", "important");
       node.style.setProperty("transform", "none", "important");
       var parent = node.parentElement;
@@ -317,7 +298,6 @@
       return;
     }
 
-    // Scrolling: duplicate for seamless loop and set duration by width
     var doubled = items.concat(items).join("");
     node.innerHTML = doubled;
     requestAnimationFrame(function () {
@@ -332,7 +312,6 @@
     });
   }
 
-  // ── Map ────────────────────────────────────────────────────────────────
   function initMap() {
     if (typeof maplibregl === "undefined") {
       console.error("[conflict-dash] MapLibre not loaded");
@@ -520,7 +499,6 @@
     if (!expandStack(feature)) showPopup(coords, feature.properties);
   }
 
-  // ── Filter buttons ─────────────────────────────────────────────────────
   function setFilter(t) {
     activeFilter = typeKey(t);
     var btns = document.querySelectorAll(".c-fbtn");
@@ -548,7 +526,6 @@
     }
   }
 
-  // ── Clock ──────────────────────────────────────────────────────────────
   function startClock() {
     var node = $id("c-clock");
     if (!node) return;
@@ -563,7 +540,6 @@
     setInterval(tick, 1000);
   }
 
-  // ── Boot ───────────────────────────────────────────────────────────────
   function boot() {
     startClock();
     loadAdvisories();
