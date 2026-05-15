@@ -661,7 +661,7 @@ def format_body_for_wordpress(paragraphs, prayer):
         pr_clean = html.unescape(prayer).strip()
         pr_clean = re.sub(r'\s+', ' ', pr_clean)
         parts.append(
-            '<p class="gwm-prayer-line"><strong>Pray:</strong> ' + pr_clean + '</p>'
+            '<p class="gwm-prayer-line"><strong>Prayer:</strong> ' + pr_clean + '</p>'
         )
     return '\n\n'.join(parts)
 
