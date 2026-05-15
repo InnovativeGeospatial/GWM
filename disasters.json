@@ -1,9 +1,73 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-14T14:24:58.324009+00:00",
-  "count": 241,
+  "updated": "2026-05-15T05:14:37.047587+00:00",
+  "count": 245,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 3069,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-6-2/",
+      "date": "2026-05-15T05:14:22",
+      "title": "Earthquake in Indonesia 05/14/2026 — Magnitude 6.2",
+      "body": "A magnitude 6.2 earthquake struck Indonesia on May 14, 2026. The quake was centered about 146 kilometers deep, which means much of its energy was absorbed before reaching the surface — reducing, but not eliminating, the shaking felt by people above.\n\nTens of thousands of people may have felt some level of shaking. Because the source does not name a specific city or region, the exact area affected is unclear at this time.\n\nNo damage or casualty information was available in the source material. Deeper earthquakes of this size are generally less likely to cause widespread destruction than shallower ones, but communities in the affected region should follow guidance from local authorities.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.198,
+      "lng": 130.3702,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540730"
+    },
+    {
+      "wp_id": 3068,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-14-2026-magnitude-5/",
+      "date": "2026-05-15T05:14:11",
+      "title": "Earthquake in Japan 05/14/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the Volcano Islands region of Japan on May 14, 2026. The quake occurred deep underground, at roughly 157 kilometers below the surface, which significantly reduces the amount of shaking felt at ground level.\n\nAt that depth, deep earthquakes rarely cause significant damage or strong surface shaking, even when they register at moderate magnitudes. The Volcano Islands are a remote, largely uninhabited chain south of the main Japanese islands, which further limits any potential impact.\n\nNo damage or injuries have been reported from this event.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 25.1362,
+      "lng": 141.443,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxnw"
+    },
+    {
+      "wp_id": 3067,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-6/",
+      "date": "2026-05-15T05:14:01",
+      "title": "Earthquake in Indonesia 05/14/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck deep beneath the waters southwest of Tual, Indonesia on May 14, 2026. The quake was centered about 146 kilometers underground, which is considered a deep earthquake. At that depth, energy is absorbed by a large amount of rock before reaching the surface, which generally reduces the intensity of shaking felt by people above.\n\nNo significant damage or casualties have been reported at this time, and the estimated impact level is low. The remote location of the epicenter, far out at sea, also limits the likelihood of widespread effects on populated areas. Residents in parts of the region may have felt mild to light shaking.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.198,
+      "lng": 130.3702,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxqf"
+    },
+    {
+      "wp_id": 3066,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-15-2026-magnitude-5/",
+      "date": "2026-05-15T05:13:46",
+      "title": "Earthquake in Papua New Guinea 05/15/2026 — Magnitude 5",
+      "body": "A magnitude 5.4 earthquake struck an area about 119 kilometers southeast of Lorengau, Papua New Guinea, on May 15, 2026. The quake was shallow, originating about 10 kilometers below the surface. Shallow earthquakes like this one tend to be felt more strongly at the surface than deeper ones.\n\nNo casualties or damage have been reported at this time. The remote location of the epicenter, well offshore, likely limited the impact on populated areas. Lorengau is the main town on Manus Island and serves as the provincial capital of Manus Province.\n\nPeople in the region should remain attentive to any updates from local authorities, as aftershocks are possible following an event of this size.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.9915,
+      "lng": 147.7607,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxu9"
+    },
     {
       "wp_id": 3008,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6-2/",
