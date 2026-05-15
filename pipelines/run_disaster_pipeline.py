@@ -3,9 +3,9 @@
 Global Witness Monitor -- Natural Disaster Intelligence Pipeline v4
 
 Changes from v3:
-- PRAY: header field. Claude returns a one-line prayer prompt in the
+- PRAYER: header field. Claude returns a one-line prayer prompt in the
   header block. The pipeline appends it as a styled paragraph:
-  <p class="gwm-prayer-line"><strong>Pray:</strong> ...</p>
+  <p class="gwm-prayer-line"><strong>Prayer:</strong> ...</p>
 - format_body_for_wordpress() accepts an optional prayer arg.
 - JSON feed includes 'prayer' field per event.
 - Everything else (dedup, geocoding, title format, GDELT) unchanged.
@@ -367,8 +367,8 @@ def parse_claude_response(raw_text):
             else:
                 event_date_line = stripped[len("EVENT DATE:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
-        elif up.startswith("PRAY:"):
-            pray_line = stripped[len("PRAY:"):].strip()
+        elif up.startswith("PRAYER:"):
+            pray_line = stripped[len("PRAYER:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
         elif stripped == "---":
             body_start_idx = max(body_start_idx, i + 1)
@@ -391,7 +391,7 @@ def parse_claude_response(raw_text):
         result["event_date"] = event_date_line
 
     if pray_line:
-        # Strip leading "Pray:" or "Pray that" if Claude added them anyway
+        # Strip leading "Prayer:" or "Pray that" if Claude added them anyway
         pl = re.sub(r'^pray[:\s]+(that\s+)?', '', pray_line, flags=re.IGNORECASE)
         pl = re.sub(r'^that\s+', '', pl, flags=re.IGNORECASE)
         result["prayer"] = pl.strip()
@@ -690,7 +690,7 @@ def fetch_all_feeds(seen, filter_countries, filter_types):
     return all_candidates[:MAX_ARTICLES]
 
 
-# ─── System prompt with new PRAY: field ────────────────────────────────────
+# ─── System prompt with new PRAYER: field ────────────────────────────────────
 SYSTEM_PROMPT = """You are writing brief, plain-language natural disaster reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
 REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
@@ -700,7 +700,7 @@ DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drough
 LOCATION: <most specific named place from the source: city, town, region, or "UNKNOWN" if no specific place is named>
 MAGNITUDE: <numeric magnitude rounded to nearest whole number for earthquakes (e.g. "6"); category number for hurricanes (e.g. "Cat 4"); "UNKNOWN" if not applicable or unknown>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
-PRAY: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "those who lost homes and the rescuers searching the rubble" or "displaced families and aid teams reaching cut-off areas">
+PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "those who lost homes and the rescuers searching the rubble" or "displaced families and aid teams reaching cut-off areas">
 ---
 
 Then the article body follows on the next line.
@@ -717,7 +717,7 @@ WRITING STYLE — VERY IMPORTANT:
 - Do not include the source URL in the body.
 - Do not include a title. Body only.
 - End naturally — no Mission Note, no Field Teams advisory, no boilerplate.
-- DO NOT include the prayer line in the body. The PRAY: field at the top of the header is the only place the prayer appears.
+- DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
 
 COUNTRY field rules:
 - Country where the event physically occurred, NOT the news outlet's country.
