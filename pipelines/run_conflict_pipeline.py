@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Global Witness Monitor -- Conflict & Unrest Pipeline v5
-- Plain-language article body (no Mission Note, no boilerplate)
-- Title format: "Armed Conflict in Ukraine 05/04/2026 — Kyiv"
-- Body wrapped in <p> tags with paragraph spacing
-- HTML entities decoded; banned qualifier prefixes stripped
-- Date format MM/DD/YYYY
-- JSON feed integration: writes conflict.json + archive/conflict/<YYYY>-Q<n>.json
-- Same RSS/GDELT/dedup/geocoding logic as v4
+Global Witness Monitor -- Conflict & Unrest Pipeline v6
+
+Changes from v5:
+- PRAY: header field. Claude now returns a one-line prayer prompt in the
+  header block. The pipeline appends it as a styled paragraph at the end
+  of the article body: <p class="gwm-prayer-line"><strong>Pray:</strong>...</p>
+- format_body_for_wordpress() now accepts an optional prayer arg.
+- JSON feed includes 'prayer' field per event.
+- Everything else (dedup, geocoding, title format, GDELT) unchanged.
 """
 
 import re
@@ -259,14 +260,10 @@ def is_duplicate(title, existing_titles, threshold=0.75):
     return False
 
 
-# ─── Cross-run WP dedup ────────────────────────────────────────────────────
-# Caches recent WP titles for category 8 so we can detect duplicates across
-# pipeline runs (e.g. same Trump ceasefire story from 4 outlets over 4 days).
 _RECENT_WP_TITLES_CACHE = None
 
 
 def load_recent_wp_titles(days=30):
-    """Fetch titles of conflict posts from the last N days. Cached per-run."""
     global _RECENT_WP_TITLES_CACHE
     if _RECENT_WP_TITLES_CACHE is not None:
         return _RECENT_WP_TITLES_CACHE
@@ -275,7 +272,7 @@ def load_recent_wp_titles(days=30):
         from datetime import timedelta
         cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
         page = 1
-        while page <= 5:  # cap at 500 posts
+        while page <= 5:
             url = (WP_URL + "/wp-json/wp/v2/posts"
                    "?categories=" + str(WP_CATEGORY_ID) +
                    "&per_page=100&page=" + str(page) +
@@ -304,12 +301,6 @@ def load_recent_wp_titles(days=30):
 
 
 def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
-    """Check if a candidate's source title resembles a recently-published post.
-
-    Threshold is intentionally lower (0.65) than within-run dedup (0.75)
-    because cross-run dupes often have different outlet wording but cover
-    the same event.
-    """
     recent = load_recent_wp_titles()
     for existing in recent:
         if title_similarity(candidate_title, existing) >= threshold:
@@ -446,7 +437,7 @@ def fetch_all_feeds(seen, filter_countries):
     return all_candidates[:MAX_ARTICLES]
 
 
-# ─── New plain-language system prompt ────────────────────────────────────
+# ─── System prompt with new PRAY: header field ────────────────────────────
 SYSTEM_PROMPT = """You are writing brief, plain-language conflict and unrest reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
 REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
@@ -455,6 +446,7 @@ COUNTRY: <primary country where the event physically occurred>
 EVENT_TYPE: <Armed Conflict|Civil Unrest|Coup or Crisis|Displacement|Other>
 LOCATION: <most specific named place from the source: city, town, district, or named region. UNKNOWN only if no place is named anywhere in the source>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
+PRAY: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "the families of those killed and for an end to the cycle of violence" or "civilians caught between rival armed groups">
 ---
 
 Then the article body follows on the next line.
@@ -469,6 +461,7 @@ WRITING STYLE — VERY IMPORTANT:
 - Do not include the source URL in the body.
 - Do not include a title in your response — only the article body.
 - End naturally with the last fact or implication for civilians — no boilerplate.
+- DO NOT include the prayer line in the body. The PRAY: field at the top of the header is the only place the prayer appears.
 
 COUNTRY field rules:
 - Country where the event physically occurred, NOT the news outlet's country.
@@ -489,6 +482,11 @@ EVENT_TYPE field:
 EVENT_DATE field:
 - MM/DD/YYYY format. Use the date the event occurred, not when it was reported.
 - UNKNOWN if not in source.
+
+PRAY field:
+- One sentence, specific to this event.
+- Focus on civilians affected, families of victims, restraint by armed parties, leaders pursuing peace, displaced people, or similar concrete needs.
+- Do not assign blame or make political statements.
 
 Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no factual event reported."""
 
@@ -554,6 +552,7 @@ def parse_claude_response(raw_text):
     result = {
         "countries": [], "event_type": "Other",
         "location": "", "event_date": "",
+        "prayer": "",
         "body": "", "raw_country_line": "",
         "status": "malformed",
     }
@@ -569,9 +568,10 @@ def parse_claude_response(raw_text):
     type_line = None
     location_line = None
     event_date_line = None
+    pray_line = None
     body_start_idx = 0
 
-    for i, line in enumerate(lines[:12]):
+    for i, line in enumerate(lines[:15]):
         stripped = line.strip()
         up = stripped.upper()
         if up.startswith("COUNTRY:"):
@@ -591,6 +591,9 @@ def parse_claude_response(raw_text):
                 event_date_line = stripped[len("EVENT_DATE:"):].strip()
             else:
                 event_date_line = stripped[len("EVENT DATE:"):].strip()
+            body_start_idx = max(body_start_idx, i + 1)
+        elif up.startswith("PRAY:"):
+            pray_line = stripped[len("PRAY:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
         elif stripped == "---":
             body_start_idx = max(body_start_idx, i + 1)
@@ -620,6 +623,12 @@ def parse_claude_response(raw_text):
         result["location"] = location_line
     if event_date_line and event_date_line.upper() != "UNKNOWN":
         result["event_date"] = event_date_line
+
+    if pray_line:
+        # Strip "Pray:" or "Pray that" if Claude included it despite instructions
+        pl = re.sub(r'^pray[:\s]+(that\s+)?', '', pray_line, flags=re.IGNORECASE)
+        pl = re.sub(r'^that\s+', '', pl, flags=re.IGNORECASE)
+        result["prayer"] = pl.strip()
 
     if not country_line:
         return result
@@ -720,7 +729,7 @@ def generate_article(item):
     log.info('Generating article for: %s', item['title'][:70])
     message = client.messages.create(
         model='claude-sonnet-4-6',
-        max_tokens=700,
+        max_tokens=800,
         messages=[{'role': 'user', 'content': user_prompt}],
         system=SYSTEM_PROMPT,
     )
@@ -781,7 +790,6 @@ def geocode_mapbox(location, country_hint=None):
         return None, None
 
 
-# ─── Title + body helpers (mirror disaster v3) ────────────────────────────
 _BANNED_TITLE_PREFIXES = (
     "minor ", "major ", "severe ", "massive ", "deadly ",
     "devastating ", "catastrophic ", "small ", "large ",
@@ -818,17 +826,10 @@ def _to_us_date(any_date_str):
 
 
 def build_title(parsed, item):
-    """
-    Format: 'Armed Conflict in Ukraine 05/04/2026 — Kyiv'
-            'Civil Unrest in France 05/04/2026'
-            'Coup/Crisis in Iran 05/04/2026'
-            'Iran 05/04/2026 — Strait of Hormuz'   (Other type → no prefix)
-    """
     etype_raw = parsed.get("event_type", "Other") or "Other"
     etype_norm = etype_raw.strip().lower()
-    # Display label rules
     if etype_norm == "other":
-        etype_display = ""  # omit the prefix entirely
+        etype_display = ""
     elif etype_norm == "coup or crisis":
         etype_display = "Coup/Crisis"
     else:
@@ -869,7 +870,8 @@ def sanitize_title(title):
     return t
 
 
-def format_body_for_wordpress(body_text):
+def format_body_for_wordpress(body_text, prayer=""):
+    """Wrap paragraphs in <p> tags. Optionally append styled Pray line."""
     if not body_text:
         return ""
     decoded = html.unescape(body_text).strip()
@@ -882,6 +884,12 @@ def format_body_for_wordpress(body_text):
         p = re.sub(r"\s*\n\s*", " ", p)
         p = re.sub(r"\s+", " ", p).strip()
         cleaned.append("<p>" + p + "</p>")
+    if prayer:
+        pr = html.unescape(prayer).strip()
+        pr = re.sub(r"\s+", " ", pr)
+        cleaned.append(
+            '<p class="gwm-prayer-line"><strong>Pray:</strong> ' + pr + '</p>'
+        )
     return "\n\n".join(cleaned)
 
 
@@ -904,7 +912,6 @@ def get_or_create_tag(name, auth):
 
 
 def publish_to_wordpress(item, article_body, parsed=None):
-    """Publish to WP. Returns (post_id, post_link, lat, lng, post_date) or (None,)*5."""
     endpoint = WP_URL + '/wp-json/wp/v2/posts'
     auth = (WP_USER, WP_APP_PASSWORD)
 
@@ -934,6 +941,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
 
     countries = parsed["countries"]
     etype = parsed.get("event_type", "Other")
+    prayer = parsed.get("prayer", "")
 
     tag_ids = []
     for c in countries:
@@ -947,7 +955,6 @@ def publish_to_wordpress(item, article_body, parsed=None):
     structured_title = build_title(parsed, item)
     clean_title = sanitize_title(structured_title)
 
-    # Geocoding
     _final_lat = None
     _final_lng = None
     _claude_loc = parsed.get("location")
@@ -974,7 +981,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
         ' style="display:none;"></div>\n'
     )
 
-    formatted_body = format_body_for_wordpress(article_body)
+    formatted_body = format_body_for_wordpress(article_body, prayer)
     final_content = _meta_div + formatted_body
 
     payload = {
@@ -991,8 +998,9 @@ def publish_to_wordpress(item, article_body, parsed=None):
         post_id = post.get('id')
         post_link = post.get('link')
         post_date = post.get('date_gmt') or post.get('date') or ''
-        log.info('Published: %s [%s / %s] (ID %s)',
-                 clean_title[:60], countries[0], etype, post_id)
+        log.info('Published: %s [%s / %s] (ID %s) prayer=%s',
+                 clean_title[:60], countries[0], etype, post_id,
+                 'yes' if prayer else 'no')
         return post_id, post_link, _final_lat, _final_lng, post_date
     else:
         log.error('Publish failed (%s): %s', r.status_code, r.text[:300])
@@ -1000,7 +1008,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='GWM Conflict Pipeline v5')
+    parser = argparse.ArgumentParser(description='GWM Conflict Pipeline v6')
     parser.add_argument('--region', '-r', action='append',
                         choices=list(REGIONS.keys()),
                         help='Filter by region')
@@ -1040,10 +1048,10 @@ def main():
 
     filter_countries = build_country_filter(args)
     if filter_countries:
-        log.info('=== Conflict Pipeline v5 starting (filtered: %d countries) ===',
+        log.info('=== Conflict Pipeline v6 starting (filtered: %d countries) ===',
                  len(filter_countries))
     else:
-        log.info('=== Conflict Pipeline v5 starting (GLOBAL) ===')
+        log.info('=== Conflict Pipeline v6 starting (GLOBAL) ===')
 
     seen = load_seen()
     candidates = fetch_all_feeds(seen, filter_countries)
@@ -1080,6 +1088,7 @@ def main():
                 if JSON_WRITER_AVAILABLE and not args.no_json:
                     countries = parsed.get("countries", []) if parsed else []
                     etype = parsed.get("event_type", "Other") if parsed else "Other"
+                    prayer = parsed.get("prayer", "") if parsed else ""
                     structured_title = build_title(parsed, item) if parsed else item['title']
                     event = {
                         "wp_id": post_id,
@@ -1094,6 +1103,7 @@ def main():
                         "lng": lng,
                         "source_title": item.get("source", ""),
                         "source_url": item.get("url", ""),
+                        "prayer": prayer,
                     }
                     try:
                         gwm_json_writer.write_event(FEED_NAME, event)
