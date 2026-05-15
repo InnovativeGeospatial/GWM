@@ -446,7 +446,7 @@ COUNTRY: <primary country where the event physically occurred>
 EVENT_TYPE: <Armed Conflict|Civil Unrest|Coup or Crisis|Displacement|Other>
 LOCATION: <most specific named place from the source: city, town, district, or named region. UNKNOWN only if no place is named anywhere in the source>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
-PRAY: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "the families of those killed and for an end to the cycle of violence" or "civilians caught between rival armed groups">
+PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "the families of those killed and for an end to the cycle of violence" or "civilians caught between rival armed groups">
 ---
 
 Then the article body follows on the next line.
@@ -461,7 +461,7 @@ WRITING STYLE — VERY IMPORTANT:
 - Do not include the source URL in the body.
 - Do not include a title in your response — only the article body.
 - End naturally with the last fact or implication for civilians — no boilerplate.
-- DO NOT include the prayer line in the body. The PRAY: field at the top of the header is the only place the prayer appears.
+- DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
 
 COUNTRY field rules:
 - Country where the event physically occurred, NOT the news outlet's country.
@@ -592,8 +592,8 @@ def parse_claude_response(raw_text):
             else:
                 event_date_line = stripped[len("EVENT DATE:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
-        elif up.startswith("PRAY:"):
-            pray_line = stripped[len("PRAY:"):].strip()
+        elif up.startswith("PRAYER:"):
+            pray_line = stripped[len("PRAYER:"):].strip()
             body_start_idx = max(body_start_idx, i + 1)
         elif stripped == "---":
             body_start_idx = max(body_start_idx, i + 1)
@@ -888,7 +888,7 @@ def format_body_for_wordpress(body_text, prayer=""):
         pr = html.unescape(prayer).strip()
         pr = re.sub(r"\s+", " ", pr)
         cleaned.append(
-            '<p class="gwm-prayer-line"><strong>Pray:</strong> ' + pr + '</p>'
+            '<p class="gwm-prayer-line"><strong>Prayer:</strong> ' + pr + '</p>'
         )
     return "\n\n".join(cleaned)
 
