@@ -4,12 +4,12 @@ Global Witness Monitor -- Persecution Pipeline v4
 
 Changes from v3:
 - Token-delimited output. Claude now returns body sections as
-  "PARA: <text>" and "PRAY: <text>" and "HEADLINE: <text>" on their own
+  "PARA: <text>" and "PRAYER: <text>" and "HEADLINE: <text>" on their own
   lines. The post-processor splits on these tokens rather than on blank
   lines, which v3 couldn't reliably enforce. Bulletproof against Claude
   collapsing whitespace.
-- "Pray:" line treatment. The final paragraph is wrapped in
-  <p class="gwm-prayer-line"><strong>Pray:</strong> ...</p> so the
+- "Prayer:" line treatment. The final paragraph is wrapped in
+  <p class="gwm-prayer-line"><strong>Prayer:</strong> ...</p> so the
   WordPress site can style it distinctly via CSS.
 - Fallback: if Claude ignores PARA tokens and returns one block, the
   pipeline sentence-splits into two paragraphs as a safety net.
@@ -539,9 +539,9 @@ def generate_article(article):
         'PARA: <first paragraph - what happened>\n'
         'PARA: <second paragraph - context, details, or pattern>\n'
         'PARA: <third paragraph - additional context, OPTIONAL>\n'
-        'PRAY: <one short prayer sentence; do NOT start with the word Pray; just write what should be prayed for>\n'
+        'PRAYER: <one short prayer sentence; do NOT start with the word Pray; just write what should be prayed for>\n'
         'HEADLINE: <short descriptive headline, no personal names>\n\n'
-        'Each section MUST start with its label (PARA: or PRAY: or HEADLINE:) on its own line. Do not merge paragraphs. Do not skip the PRAY: section.\n\n'
+        'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER: section.\n\n'
         'COUNTRY rules:\n'
         '- Use the country where the persecution event occurred, not the country of the outlet.\n'
         '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
@@ -564,7 +564,7 @@ def generate_article(article):
         '- No headers or sections inside paragraphs\n'
         '- Never repeat the same point twice\n'
         '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
-        '- PRAY: line should be a single specific prayer point related to this story\n\n'
+        '- PRAYER: line should be a single specific prayer point related to this story\n\n'
         'SOURCE: ' + article['source'] + '\n'
         'TITLE: ' + article['title'] + '\n\n'
         + body_section +
@@ -590,7 +590,7 @@ def is_refusal(text):
 
 
 def parse_tokenized_body(body_text):
-    """Parse PARA: / PRAY: / HEADLINE: tokenized response into clean fields."""
+    """Parse PARA: / PRAYER: / HEADLINE: tokenized response into clean fields."""
     out = {'paragraphs': [], 'prayer': '', 'headline': None}
     if not body_text:
         return out
