@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-Global Witness Monitor -- Persecution Pipeline v3
+Global Witness Monitor -- Persecution Pipeline v4
 
-Changes from v2:
-- Claude-judge step: before generating an article, ask Claude whether the
-  source describes an actual persecution incident (vs policy debate,
-  religious news, etc). Cheap call, drops false positives like
-  "Senate debates assisted suicide bill, bishops oppose."
-- Body formatted as 2-3 paragraphs with explicit <p> tags, matching the
-  disaster pipeline's format_body_for_wordpress() pattern. WordPress
-  wpautop alone wasn't producing reliable paragraph breaks.
-- Same loosened filter logic from v2 (proximity check spans title + lead,
-  not single sentence; mainstream check includes content).
-- Same JSON writer integration that's working end-to-end.
+Changes from v3:
+- Token-delimited output. Claude now returns body sections as
+  "PARA: <text>" and "PRAY: <text>" and "HEADLINE: <text>" on their own
+  lines. The post-processor splits on these tokens rather than on blank
+  lines, which v3 couldn't reliably enforce. Bulletproof against Claude
+  collapsing whitespace.
+- "Pray:" line treatment. The final paragraph is wrapped in
+  <p class="gwm-prayer-line"><strong>Pray:</strong> ...</p> so the
+  WordPress site can style it distinctly via CSS.
+- Fallback: if Claude ignores PARA tokens and returns one block, the
+  pipeline sentence-splits into two paragraphs as a safety net.
 """
 
 import os
@@ -92,7 +92,6 @@ CHRISTIAN_IDENTIFIERS = [
     'worshipper', 'worshippers', 'house church', 'underground church',
 ]
 
-# Keep this list narrow. Real noise patterns only. Claude judges the rest.
 EXCLUDE_TITLE_PATTERNS = [
     'mystery of suffering', 'book of job', 'bible study', 'devotional',
     'sermon series', 'prayer guide', 'reflection on', 'theological reflection',
@@ -218,10 +217,11 @@ def validate_country(name):
 
 
 def parse_claude_response(text):
+    """Parse the COUNTRY/--- header and return the rest verbatim."""
     out = {'status': 'malformed', 'countries': [], 'body': text, 'raw_country': ''}
     if not text:
         return out
-    lines = text.split('\n', 3)
+    lines = text.split('\n')
     if len(lines) < 3:
         return out
     header = lines[0].strip()
@@ -232,8 +232,7 @@ def parse_claude_response(text):
         return out
     value = header.split(':', 1)[1].strip()
     out['raw_country'] = value
-    body = lines[2] if len(lines) == 3 else (lines[2] + '\n' + lines[3])
-    out['body'] = body.strip()
+    out['body'] = '\n'.join(lines[2:]).strip()
     if not value or value.upper() == 'UNKNOWN':
         out['status'] = 'unknown'
         return out
@@ -302,12 +301,6 @@ def has_country_mention(text):
 
 
 def is_news_incident(title, content):
-    """Lightweight pre-filter. Throws out obvious non-news patterns.
-
-    This is NOT the persecution-vs-not-persecution judgment - Claude does
-    that downstream. This only filters out devotionals, opinion columns,
-    celebrity false positives, and articles with no country mention at all.
-    """
     title_lower = title.lower()
     for pattern in EXCLUDE_TITLE_PATTERNS:
         if pattern in title_lower:
@@ -317,10 +310,6 @@ def is_news_incident(title, content):
 
 
 def is_relevant(title, content, feed_url, feed_title):
-    """Pre-filter: must mention Christianity-related word AND have a country.
-
-    Final persecution-vs-not judgment is delegated to Claude in judge_article().
-    """
     title_lower = title.lower()
     content_lower = content.lower()
 
@@ -332,8 +321,6 @@ def is_relevant(title, content, feed_url, feed_title):
     if not has_ci:
         return False
 
-    # Mainstream sources need at least one persecution signal somewhere -
-    # keeps us from spending Claude calls on every Reuters religion story.
     if is_mainstream(feed_url, feed_title):
         check_text = title_lower + ' ' + content_lower[:500]
         has_ps = any(ps in check_text for ps in PERSECUTION_SIGNALS)
@@ -486,7 +473,6 @@ JUDGE_SYSTEM = (
 
 
 def judge_article(article):
-    """Ask Claude whether this is genuine persecution. Cheap fast call."""
     prompt = (
         "TITLE: " + article['title'] + "\n\n"
         "SOURCE: " + article['source'] + "\n\n"
@@ -510,7 +496,6 @@ def judge_article(article):
             verdict = m.group(1).upper()
             reason = m.group(2).strip()
         else:
-            # Fallback: look for YES/NO anywhere on first line
             if re.search(r'\bYES\b', first, re.IGNORECASE):
                 verdict = 'YES'
             elif re.search(r'\bNO\b', first, re.IGNORECASE):
@@ -518,8 +503,6 @@ def judge_article(article):
             reason = first[:120]
         return verdict, reason
     except Exception as e:
-        # On API failure, default to skipping rather than letting bad articles
-        # through. Persecution platform: false positives are worse than misses.
         print('Judge call failed: ' + str(e))
         return 'NO', 'judge_error: ' + str(e)[:80]
 
@@ -550,16 +533,21 @@ def generate_article(article):
 
     prompt = (
         'You are a journalist for Global Witness Monitor, a Christian persecution intelligence platform.\n\n'
-        'STRUCTURED OUTPUT REQUIRED. Your response must begin with exactly these two header lines:\n'
+        'STRUCTURED OUTPUT REQUIRED. Your response MUST follow this exact format:\n\n'
         'COUNTRY: <country_name | MULTIPLE: country1, country2 | UNKNOWN>\n'
         '---\n'
-        'Then the article body in 2 or 3 paragraphs separated by BLANK LINES.\n\n'
+        'PARA: <first paragraph - what happened>\n'
+        'PARA: <second paragraph - context, details, or pattern>\n'
+        'PARA: <third paragraph - additional context, OPTIONAL>\n'
+        'PRAY: <one short prayer sentence; do NOT start with the word Pray; just write what should be prayed for>\n'
+        'HEADLINE: <short descriptive headline, no personal names>\n\n'
+        'Each section MUST start with its label (PARA: or PRAY: or HEADLINE:) on its own line. Do not merge paragraphs. Do not skip the PRAY: section.\n\n'
         'COUNTRY rules:\n'
         '- Use the country where the persecution event occurred, not the country of the outlet.\n'
         '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
         '- Use UNKNOWN only if no country can be reasonably determined.\n'
         '- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n'
-        'Write a factual 100-250 word news report based ONLY on the source material below.\n\n'
+        'Write a factual 100-250 word news report (total across all PARA sections) based ONLY on the source material below.\n\n'
         'STRICT RULES:\n'
         '- Only include facts present in the source material\n'
         '- Never invent names, statistics, dates, or locations\n'
@@ -573,12 +561,10 @@ def generate_article(article):
         '- These redaction rules apply EVEN IF the source material includes the specific names. Redaction is required, not optional.\n'
         '- Mention the source naturally in the text\n'
         '- No source list at the end\n'
-        '- No headers or sections\n'
+        '- No headers or sections inside paragraphs\n'
         '- Never repeat the same point twice\n'
-        '- Structure the body as 2 or 3 paragraphs separated by blank lines. First paragraph: what happened. Second: context or details. Third (optional): broader pattern or prayer focus.\n'
-        '- End the final paragraph with one short prayer prompt sentence\n'
-        '- 100-250 words maximum\n\n'
-        'After the article write on a new line: HEADLINE: [short descriptive headline, no personal names]\n\n'
+        '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
+        '- PRAY: line should be a single specific prayer point related to this story\n\n'
         'SOURCE: ' + article['source'] + '\n'
         'TITLE: ' + article['title'] + '\n\n'
         + body_section +
@@ -586,7 +572,7 @@ def generate_article(article):
     )
     response = client.messages.create(
         model='claude-sonnet-4-6',
-        max_tokens=900,
+        max_tokens=1000,
         messages=[{'role': 'user', 'content': prompt}],
     )
     raw = response.content[0].text
@@ -603,37 +589,81 @@ def is_refusal(text):
     return any(s in text.lower() for s in signals)
 
 
-def parse_generated(text):
-    if 'HEADLINE:' in text:
-        parts = text.split('HEADLINE:')
-        body = parts[0].strip()
-        headline = parts[1].strip().split('\n')[0].strip()
-    else:
-        body = text.strip()
-        headline = None
-    return headline, body
-
-
-def format_body_for_wordpress(body_text):
-    """Decode HTML entities and wrap paragraphs in explicit <p> tags.
-
-    Same pattern as disaster pipeline. WordPress's wpautop sometimes
-    misbehaves; explicit <p> tags guarantee paragraph breaks.
-    """
+def parse_tokenized_body(body_text):
+    """Parse PARA: / PRAY: / HEADLINE: tokenized response into clean fields."""
+    out = {'paragraphs': [], 'prayer': '', 'headline': None}
     if not body_text:
-        return ''
-    decoded = html.unescape(body_text).strip()
-    paras = re.split(r'\n\s*\n', decoded)
-    cleaned = []
-    for p in paras:
-        p = p.strip()
+        return out
+
+    lines = body_text.split('\n')
+    current_label = None
+    current_buf = []
+
+    def flush():
+        if current_label is None or not current_buf:
+            return
+        text = ' '.join(s.strip() for s in current_buf if s.strip())
+        text = re.sub(r'\s+', ' ', text).strip()
+        if not text:
+            return
+        if current_label == 'PARA':
+            out['paragraphs'].append(text)
+        elif current_label == 'PRAY':
+            text = re.sub(r'^pray[:\s]+(that\s+)?', '', text, flags=re.IGNORECASE)
+            text = re.sub(r'^that\s+', '', text, flags=re.IGNORECASE)
+            out['prayer'] = text
+        elif current_label == 'HEADLINE':
+            out['headline'] = text
+
+    for line in lines:
+        stripped = line.strip()
+        m = re.match(r'^(PARA|PRAY|HEADLINE)\s*:\s*(.*)$', stripped, re.IGNORECASE)
+        if m:
+            flush()
+            current_label = m.group(1).upper()
+            current_buf = [m.group(2)]
+        else:
+            if current_label is not None:
+                current_buf.append(stripped)
+    flush()
+    return out
+
+
+def split_into_paragraphs_fallback(text, target_paragraphs=2):
+    """Fallback when Claude returns one giant paragraph despite instructions."""
+    if not text:
+        return []
+    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+    sentences = [s.strip() for s in sentences if s.strip()]
+    if not sentences:
+        return [text]
+    if len(sentences) <= 2:
+        return [' '.join(sentences)]
+    chunk_size = max(2, len(sentences) // target_paragraphs)
+    chunks = []
+    for i in range(0, len(sentences), chunk_size):
+        chunk = ' '.join(sentences[i:i + chunk_size])
+        if chunk:
+            chunks.append(chunk)
+    return chunks
+
+
+def format_body_for_wordpress(paragraphs, prayer):
+    """Build the final WordPress HTML body from clean paragraph list + prayer."""
+    parts = []
+    for p in paragraphs:
         if not p:
             continue
-        # Collapse single newlines inside a paragraph to spaces
-        p = re.sub(r'\s*\n\s*', ' ', p)
-        p = re.sub(r'\s+', ' ', p).strip()
-        cleaned.append('<p>' + p + '</p>')
-    return '\n\n'.join(cleaned)
+        p_clean = html.unescape(p).strip()
+        p_clean = re.sub(r'\s+', ' ', p_clean)
+        parts.append('<p>' + p_clean + '</p>')
+    if prayer:
+        pr_clean = html.unescape(prayer).strip()
+        pr_clean = re.sub(r'\s+', ' ', pr_clean)
+        parts.append(
+            '<p class="gwm-prayer-line"><strong>Pray:</strong> ' + pr_clean + '</p>'
+        )
+    return '\n\n'.join(parts)
 
 
 def get_or_create_category(name, slug):
@@ -649,7 +679,7 @@ def get_or_create_category(name, slug):
     return r.json().get('id')
 
 
-def publish_to_wordpress(article, headline, body):
+def publish_to_wordpress(article, headline, formatted_body):
     auth = (WP_USER, WP_APP_PASSWORD)
     cat_id = get_or_create_category('Persecution Reports', 'persecution-reports')
     meta_html = (
@@ -660,7 +690,6 @@ def publish_to_wordpress(article, headline, body):
         ' data-lng="' + str(article['lng'] or '') + '"></div>'
     )
     title = headline or article['title']
-    formatted_body = format_body_for_wordpress(body)
     post_data = {
         'title': title,
         'content': formatted_body + meta_html,
@@ -678,7 +707,7 @@ def publish_to_wordpress(article, headline, body):
 
 
 def run():
-    print('=== Global Witness Monitor - Persecution Pipeline v3 ===')
+    print('=== Global Witness Monitor - Persecution Pipeline v4 ===')
     if not JSON_WRITER_AVAILABLE:
         print('WARNING: gwm_json_writer.py not found alongside this script - '
               'JSON feeds will NOT be updated. Dashboard will not show new events.')
@@ -694,7 +723,6 @@ def run():
     json_writes = 0
     for article in articles:
         try:
-            # Claude-judge step: is this actual persecution?
             verdict, reason = judge_article(article)
             print('JUDGE: ' + verdict + ' | ' + reason[:80] + ' | ' + article['title'][:60])
             if verdict != 'YES':
@@ -730,18 +758,38 @@ def run():
                 article['lat'] = None
                 article['lng'] = None
 
-            generated = parsed['body'] if parsed['body'] else raw
+            generated = parsed['body']
             if is_refusal(generated):
                 print('Skipping - refused')
                 skipped += 1
                 seen.add(article['hash'])
                 continue
-            headline, body = parse_generated(generated)
-            if not body or len(body) < 50:
-                print('Skipping - too short')
+
+            tokens = parse_tokenized_body(generated)
+            paragraphs = tokens['paragraphs']
+            prayer = tokens['prayer']
+            headline = tokens['headline']
+
+            if not paragraphs:
+                print('No PARA tokens found - using sentence-split fallback')
+                paragraphs = split_into_paragraphs_fallback(generated, target_paragraphs=2)
+            elif len(paragraphs) == 1 and len(paragraphs[0]) > 600:
+                print('One large PARA found - splitting by sentences')
+                paragraphs = split_into_paragraphs_fallback(paragraphs[0], target_paragraphs=2)
+
+            total_len = sum(len(p) for p in paragraphs)
+            if total_len < 50:
+                print('Skipping - body too short')
                 skipped += 1
                 continue
-            result = publish_to_wordpress(article, headline, body)
+
+            formatted_body = format_body_for_wordpress(paragraphs, prayer)
+
+            print('FORMAT: paragraphs=' + str(len(paragraphs)) +
+                  ' prayer=' + ('yes' if prayer else 'no') +
+                  ' total_chars=' + str(total_len))
+
+            result = publish_to_wordpress(article, headline, formatted_body)
             if result:
                 published += 1
                 seen.add(article['hash'])
@@ -756,7 +804,7 @@ def run():
                             'wp_link': post_link,
                             'date': post_date or datetime.now(timezone.utc).isoformat(),
                             'title': headline or article['title'],
-                            'body': format_body_for_wordpress(body),
+                            'body': formatted_body,
                             'country': primary,
                             'countries': parsed['countries'],
                             'type': article['incident_type'],
@@ -764,6 +812,7 @@ def run():
                             'lng': article['lng'],
                             'source_title': article.get('source', ''),
                             'source_url': article.get('link', ''),
+                            'prayer': prayer,
                         }
                         gwm_json_writer.write_event(FEED_NAME, event)
                         json_writes += 1
