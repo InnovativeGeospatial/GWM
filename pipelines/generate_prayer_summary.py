@@ -1,31 +1,18 @@
 #!/usr/bin/env python3
 """
-GWM Prayer Summary Generator v2
+GWM Prayer Summary Generator v3
 
-Changes from v1:
-- Reads feeds from raw GitHub (no dependency on local file paths)
-- Uses Bearer auth matching gwm_json_writer.py
-- Reads same GitHub env vars as the writer: GITHUB_TOKEN, GITHUB_OWNER,
-  GITHUB_REPO, GITHUB_BRANCH
+Fix from v2: ignore GITHUB_PATH entirely. That env var is set to
+'travel_advisories.json' for the conflict pipeline's specific use and is
+NOT a directory prefix. Active feeds (persecution.json, conflict.json,
+disasters.json) live at the repo root.
 
-Runs after the three pipelines. Fetches the three live JSON feeds from
-GitHub, filters to harm events where applicable, calls Claude once per
-section to synthesize a bulleted prayer list, writes prayer_summary.json,
-and pushes it to the active GitHub repo for the Pray page to fetch.
-
-Filter rules:
-- Persecution: all events (already judged by Claude in the pipeline)
-- Conflict: exclude type "Other"; keep Armed Conflict, Civil Unrest,
-  Coup or Crisis, Displacement
-- Disaster: all events
-
-Time window: events from the last 24 hours.
-
-Cost: ~3 Claude calls per run, ~$0.005 total.
+Reads feeds from raw GitHub, filters, calls Claude per section, writes
+prayer_summary.json to the repo root using Bearer auth matching
+gwm_json_writer.py.
 """
 
 import os
-import sys
 import json
 import base64
 import logging
@@ -41,7 +28,6 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# Load env from conflict pipeline (has GitHub creds + Anthropic key)
 load_dotenv('/opt/conflict-pipeline/.env')
 
 ANTHROPIC_KEY = os.environ['ANTHROPIC_API_KEY']
@@ -49,15 +35,14 @@ GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
 GITHUB_OWNER = os.environ.get('GITHUB_OWNER', 'InnovativeGeospatial').strip()
 GITHUB_REPO = os.environ.get('GITHUB_REPO', 'GWM').strip()
 GITHUB_BRANCH = os.environ.get('GITHUB_BRANCH', 'main').strip()
-GITHUB_PATH = os.environ.get('GITHUB_PATH', '').strip()
 
-# Build the raw-content base URL for fetching feeds
+# All active feeds live at repo root. GITHUB_PATH is NOT used here - that
+# env var is set to a filename ('travel_advisories.json') for the conflict
+# pipeline's specific purpose, not a directory prefix.
 RAW_BASE = (
-    f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/"
-    f"{GITHUB_BRANCH}/"
+    'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' +
+    GITHUB_REPO + '/' + GITHUB_BRANCH + '/'
 )
-if GITHUB_PATH:
-    RAW_BASE += GITHUB_PATH.rstrip('/') + '/'
 
 FEED_URLS = {
     'persecution': RAW_BASE + 'persecution.json',
@@ -65,20 +50,14 @@ FEED_URLS = {
     'disaster':    RAW_BASE + 'disasters.json',
 }
 
-# Where to push the output in the repo (same path prefix as the feeds)
-GITHUB_OUTPUT_PATH = (GITHUB_PATH.rstrip('/') + '/') if GITHUB_PATH else ''
-GITHUB_OUTPUT_PATH += 'prayer_summary.json'
-
-# Local copy (handy for debugging)
+GITHUB_OUTPUT_PATH = 'prayer_summary.json'
 LOCAL_OUTPUT = '/opt/conflict-pipeline/data/prayer_summary.json'
 
-# Filter rules
 CONFLICT_KEEP_TYPES = {'Armed Conflict', 'Civil Unrest', 'Coup or Crisis', 'Displacement'}
 WINDOW_HOURS = 24
 
 
 def fetch_feed(url):
-    """Fetch a JSON feed from raw GitHub. Returns event list or []."""
     try:
         nocache_url = url + '?nocache=' + str(int(datetime.now().timestamp()))
         r = requests.get(nocache_url, timeout=20)
@@ -95,7 +74,6 @@ def fetch_feed(url):
 
 
 def filter_recent(events, hours=WINDOW_HOURS):
-    """Keep only events from the last N hours."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
     kept = []
     for ev in events:
@@ -118,12 +96,10 @@ def filter_recent(events, hours=WINDOW_HOURS):
 
 
 def filter_conflict_types(events):
-    """Drop events of type 'Other'. Keep the harm-category types."""
     return [e for e in events if e.get('type', 'Other') in CONFLICT_KEEP_TYPES]
 
 
 def build_event_brief(ev):
-    """Compact event representation for the Claude prompt."""
     import re as _re
     title = ev.get('title', '')[:120]
     country = ev.get('country', '')
@@ -173,10 +149,8 @@ Respond with ONLY valid JSON in this exact format, nothing before or after:
 def call_claude_for_section(section_name, events, client):
     if not events:
         return []
-
     briefs = [build_event_brief(ev) for ev in events]
     joined = '\n\n---\n\n'.join(briefs)
-
     user_prompt = (
         'Section: ' + section_name.upper() + '\n'
         'Event count: ' + str(len(events)) + '\n\n'
@@ -184,7 +158,6 @@ def call_claude_for_section(section_name, events, client):
         + joined + '\n\n'
         'Generate the bulleted prayer list as JSON.'
     )
-
     try:
         msg = client.messages.create(
             model='claude-sonnet-4-6',
@@ -217,14 +190,12 @@ def gh_headers():
 
 
 def push_to_github(filepath, content_str):
-    """Push the file to GITHUB_OWNER/GITHUB_REPO at filepath on GITHUB_BRANCH."""
     api_url = (
         'https://api.github.com/repos/' + GITHUB_OWNER + '/' + GITHUB_REPO +
         '/contents/' + filepath
     )
     log.info('Pushing to: %s (branch=%s)', api_url, GITHUB_BRANCH)
 
-    # GET current SHA if file exists
     sha = None
     r = requests.get(api_url, headers=gh_headers(),
                      params={'ref': GITHUB_BRANCH}, timeout=15)
@@ -254,31 +225,28 @@ def push_to_github(filepath, content_str):
 
 
 def main():
-    log.info('=== Prayer Summary Generator v2 starting ===')
-    log.info('GitHub target: %s/%s @ %s (path prefix: %r)',
-             GITHUB_OWNER, GITHUB_REPO, GITHUB_BRANCH, GITHUB_PATH)
+    log.info('=== Prayer Summary Generator v3 starting ===')
+    log.info('GitHub target: %s/%s @ %s', GITHUB_OWNER, GITHUB_REPO, GITHUB_BRANCH)
     log.info('Output path in repo: %s', GITHUB_OUTPUT_PATH)
+    log.info('Feed URLs:')
+    for k, v in FEED_URLS.items():
+        log.info('  %s: %s', k, v)
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
-    # Fetch all three feeds from raw GitHub
     persecution_events = fetch_feed(FEED_URLS['persecution'])
     conflict_events = fetch_feed(FEED_URLS['conflict'])
     disaster_events = fetch_feed(FEED_URLS['disaster'])
 
-    # Filter by time
     persecution_recent = filter_recent(persecution_events)
     conflict_recent = filter_recent(conflict_events)
     disaster_recent = filter_recent(disaster_events)
-
-    # Apply conflict type filter
     conflict_filtered = filter_conflict_types(conflict_recent)
 
     log.info('After filtering: persecution=%d conflict=%d disaster=%d',
              len(persecution_recent), len(conflict_filtered),
              len(disaster_recent))
 
-    # Generate bullets per section
     persecution_bullets = call_claude_for_section(
         'persecution', persecution_recent, client)
     conflict_bullets = call_claude_for_section(
@@ -286,7 +254,6 @@ def main():
     disaster_bullets = call_claude_for_section(
         'disaster', disaster_recent, client)
 
-    # Assemble output
     output = {
         'updated': datetime.now(timezone.utc).isoformat(),
         'window_hours': WINDOW_HOURS,
@@ -308,7 +275,6 @@ def main():
 
     content_str = json.dumps(output, indent=2)
 
-    # Write local copy
     try:
         os.makedirs(os.path.dirname(LOCAL_OUTPUT), exist_ok=True)
         with open(LOCAL_OUTPUT, 'w') as f:
@@ -317,7 +283,6 @@ def main():
     except Exception as e:
         log.warning('Local write failed: %s', e)
 
-    # Push to GitHub
     push_to_github(GITHUB_OUTPUT_PATH, content_str)
 
     log.info('=== Done. persecution=%d conflict=%d disaster=%d bullets ===',
