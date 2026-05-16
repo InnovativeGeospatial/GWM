@@ -1,9 +1,264 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-15T05:14:37.047587+00:00",
-  "count": 245,
+  "updated": "2026-05-16T12:54:55.377916+00:00",
+  "count": 260,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 3137,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia-2/",
+      "date": "2026-05-16T12:54:50",
+      "title": "Drought in Somalia",
+      "body": "At least six million people in Somalia are going days without enough food, according to United Nations aid teams. Of those, nearly two million are young children described as being at high risk of illness or death. Aid workers are warning that Somalia is at real risk of famine.\n\nThe crisis has been made worse by the fallout from conflict in the Middle East, which has disrupted international aid and funding. Families across the country are struggling to find enough to eat, and the situation is especially dangerous for the youngest and most vulnerable.\n\nUN teams are raising the alarm and calling for urgent attention to the growing hunger emergency before conditions worsen further.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Drought",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167516",
+      "prayer": "the six million people in Somalia going without enough food, especially the nearly two million young children at high risk of illness or death"
+    },
+    {
+      "wp_id": 3136,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-yemen-05-13-2026/",
+      "date": "2026-05-16T12:54:37",
+      "title": "Flood in Yemen 05/13/2026",
+      "body": "Flooding struck Yemen on May 13, 2026, and continued through at least May 15. Two people died as a result of the floodwaters. No large-scale displacement was reported alongside the fatalities.\n\nYemen continues to face compounding hardships, and even small-scale floods can deepen the suffering of communities already struggling with conflict, poverty, and limited access to services. Details on the specific areas affected were not available in the report.",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "type": "Flood",
+      "lat": 13.757808,
+      "lng": 43.767179,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103882",
+      "prayer": "the two families who lost loved ones in these floods and for communities facing further risk as waters rise"
+    },
+    {
+      "wp_id": 3135,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-05-13-2026/",
+      "date": "2026-05-16T12:54:27",
+      "title": "Flood in Philippines 05/13/2026",
+      "body": "Flooding struck the Philippines on May 13, 2026, displacing at least 110 people. The situation was still being monitored through May 15, with no deaths reported at the time of the latest update.\n\nDisplaced residents were forced to leave their homes as the floodwaters affected their communities. While the lack of fatalities is encouraging, more than a hundred people remained uprooted from their normal lives.\n\nConditions in the Philippines can change quickly during flood events, and continued monitoring is needed as the situation develops.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 6.6191395,
+      "lng": 124.748923,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103880",
+      "prayer": "the 110 people displaced by flooding as they wait to return to their homes"
+    },
+    {
+      "wp_id": 3134,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-15-2026/",
+      "date": "2026-05-16T12:54:10",
+      "title": "Wildfire in Russia 05/15/2026",
+      "body": "A forest fire broke out in Russia on May 15, 2026, and continued burning into the following day. No specific region or city was named in the available report.\n\nFurther details — including the size of the fire, any evacuations, and whether homes or villages were threatened — are not yet available. Updates are expected as more information comes in from the area.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 51.64208007928278,
+      "lng": 127.99719995276007,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028687",
+      "prayer": "communities near the fire zone and those working to contain the flames before they spread further"
+    },
+    {
+      "wp_id": 3133,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7-2/",
+      "date": "2026-05-16T12:53:58",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
+      "body": "A magnitude 6.7 earthquake struck Japan on May 15, 2026, at a depth of about 44 kilometers. Tens of thousands of people are estimated to have felt strong shaking from the quake.\n\nNo specific city or region was named in the available report, and details on casualties or damage have not yet been confirmed. Authorities and emergency teams will be working to assess conditions across the affected area.\n\nJapan sits on one of the world's most active seismic zones and regularly experiences earthquakes of this size. Residents there are generally well-prepared, though a quake of this magnitude has the potential to cause structural damage and injuries, particularly in areas closer to the epicenter.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 38.9127,
+      "lng": 142.2498,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540842",
+      "prayer": "the people of Japan as they assess damage and recover from this significant earthquake"
+    },
+    {
+      "wp_id": 3132,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-5/",
+      "date": "2026-05-16T12:53:35",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck the Bonin Islands region of Japan on May 15, 2026. The quake registered magnitude 4.8 and occurred at a depth of about 36 kilometers beneath the surface.\n\nThe Bonin Islands, also known as the Ogasawara Islands, are a remote chain of islands in the western Pacific Ocean, roughly 1,000 kilometers south of Tokyo. At this magnitude and depth, significant damage is unlikely, though residents in the area may have felt the shaking.\n\nNo casualty or damage reports were available from the source material at this time.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 27.9065,
+      "lng": 142.15,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxx0",
+      "prayer": "communities in the remote Bonin Islands and surrounding areas as they assess any effects from this earthquake"
+    },
+    {
+      "wp_id": 3131,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-05-15-2026-magnitude-5/",
+      "date": "2026-05-16T12:53:22",
+      "title": "Earthquake in Peru 05/15/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 11 kilometers west-northwest of Palca, Peru on May 15, 2026. The quake occurred deep underground, at roughly 135 kilometers below the surface, which typically reduces the intensity of shaking felt at ground level.\n\nAt that depth, serious surface damage is less likely than with a shallow quake of similar size, but residents in the area may still have felt the tremor. No damage or casualty details were included in the available information.\n\nPeru sits along one of the world's most active seismic zones, and earthquakes in this southern Andean region are not uncommon. Local communities and anyone working in the area are encouraged to stay aware of any follow-up reports from local authorities.",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -10.183634,
+      "lng": -75.149124,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxz1",
+      "prayer": "communities near Palca and anyone affected by the shaking in this remote region"
+    },
+    {
+      "wp_id": 3130,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-15-2026-magnitude-5/",
+      "date": "2026-05-16T12:53:10",
+      "title": "Earthquake in Vanuatu 05/15/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 95 kilometers east-southeast of Port-Vila, the capital of Vanuatu, on May 15, 2026. The quake registered magnitude 4.6 and was centered at a shallow depth of about 10 kilometers beneath the surface.\n\nShallow earthquakes like this one can be felt more strongly at the surface than deeper ones. Vanuatu sits in one of the world's most seismically active regions, and tremors in this area are common.\n\nNo damage or casualties were reported in the available information.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -17.731392,
+      "lng": 168.306222,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5n",
+      "prayer": "communities near Port-Vila as they assess any effects from this undersea tremor"
+    },
+    {
+      "wp_id": 3129,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-15-2026-magnitude-5/",
+      "date": "2026-05-16T12:52:59",
+      "title": "Earthquake in Fiji 05/15/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck deep beneath the South Pacific Ocean, about 212 kilometers east of Levuka, Fiji, on May 15, 2026. The quake originated at an extraordinary depth of about 568 kilometers underground, making it a very deep event.\n\nAt that depth, energy from an earthquake spreads out over a wide area before reaching the surface, which typically means shaking felt at ground level is much less intense than it would be from a shallower quake of the same size. No damage or injuries have been reported from this event.\n\nFiji sits in one of the world's most seismically active regions, and deep earthquakes like this one are not uncommon in the area. Residents and those working in nearby communities are encouraged to remain aware of local alerts.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -17.680825,
+      "lng": 178.834031,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy49",
+      "prayer": "communities in Fiji and the surrounding Pacific islands, especially those who may have felt this deep tremor far from its source"
+    },
+    {
+      "wp_id": 3128,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-16-2026-magnitude-5/",
+      "date": "2026-05-16T12:52:37",
+      "title": "Earthquake in Chile 05/16/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck about 71 kilometers southwest of Ollagüe, in northern Chile, in the early hours of May 16, 2026. The quake originated deep underground — roughly 133 kilometers below the surface — which typically reduces the intensity of shaking felt at ground level.\n\nAt that depth, strong surface damage is less likely, but tremors from deep earthquakes can still be felt across a wide area. The remote location of the epicenter, in Chile's high-altitude border region, means population density is low.\n\nNo damage or casualty reports are available from the source material at this time.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -21.22407,
+      "lng": -68.2535,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy50",
+      "prayer": "communities in northern Chile's remote highlands near the epicenter, and for any who may have felt the shaking"
+    },
+    {
+      "wp_id": 3127,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-16-2026-magnitude-5/",
+      "date": "2026-05-16T12:52:27",
+      "title": "Earthquake in Tonga 05/16/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 145 kilometers west-northwest of Hihifo, Tonga on May 16, 2026. The quake registered a magnitude of 4.6 and was centered very deep underground — roughly 288 kilometers down — which generally reduces the amount of shaking felt at the surface.\n\nBecause of its great depth, the earthquake was less likely to cause significant damage compared to a shallower quake of similar size. No reports of casualties or structural damage were available from the source material.\n\nTonga sits along the Pacific Ring of Fire and experiences frequent seismic activity due to the movement of tectonic plates in the region.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -15.95679,
+      "lng": -173.79214,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5s",
+      "prayer": "communities in Tonga and the surrounding islands as this deep earthquake was felt in the region"
+    },
+    {
+      "wp_id": 3126,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-16-2026-magnitude-5/",
+      "date": "2026-05-16T12:52:15",
+      "title": "Earthquake in New Zealand 05/16/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the Kermadec Islands region, a remote stretch of the southwestern Pacific Ocean northeast of New Zealand. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking at ground level than deeper earthquakes of similar size.\n\nThe Kermadec Islands are largely uninhabited, and no reports of damage or casualties have emerged from this event. The area sits along one of the world's most active seismic zones, where the Pacific tectonic plate pushes beneath the Australian plate, making earthquakes a regular occurrence.\n\nNo tsunami warning was issued in connection with this earthquake.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -31.9282,
+      "lng": -178.203,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5x",
+      "prayer": "communities in the remote Kermadec Islands region and anyone affected by ongoing seismic activity in this part of the Pacific"
+    },
+    {
+      "wp_id": 3125,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-05-16-2026-magnitude-5/",
+      "date": "2026-05-16T12:52:04",
+      "title": "Earthquake in Argentina 05/16/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 67 kilometers west-northwest of El Aguilar, in northwestern Argentina, on May 16, 2026. The quake was very deep, occurring about 245 kilometers underground.\n\nAt that depth, seismic energy spreads out over a wide area before reaching the surface, which generally means shaking felt at ground level is milder than it would be from a shallower quake of the same size. A magnitude 4.7 is considered a light earthquake.\n\nNo damage or injuries were reported in the available information. El Aguilar is a small mining community in Jujuy province, a mountainous region near the borders of Bolivia and Chile.",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -23.214727,
+      "lng": -65.68143,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy6x",
+      "prayer": "communities in northwestern Argentina who may have felt this deep tremor, and for calm and safety in the region"
+    },
+    {
+      "wp_id": 3124,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-16-2026-magnitude-5/",
+      "date": "2026-05-16T12:51:52",
+      "title": "Earthquake in Philippines 05/16/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 5 kilometers west-southwest of Badak in the southern Philippines on May 16, 2026. The quake was shallow, hitting at a depth of about 10 kilometers beneath the surface. Shallow earthquakes like this one tend to be felt more strongly at the surface than deeper ones.\n\nOnly a small number of shaking reports were submitted following the event, suggesting limited impact in the immediate area. No casualties or significant damage have been reported based on available information.\n\nThe southern Philippines sits along active fault lines and experiences earthquakes regularly. Residents in the region are generally familiar with seismic activity, though even moderate quakes can cause concern, particularly in areas with older or less sturdy buildings.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.8241,
+      "lng": 124.6816,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy76",
+      "prayer": "people near Badak who felt this quake, and for stability and safety in the days ahead"
+    },
+    {
+      "wp_id": 3123,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7/",
+      "date": "2026-05-16T12:51:40",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
+      "body": "A magnitude 6.7 earthquake struck off the northeastern coast of Japan on May 15, 2026, centered about 49 kilometers east-southeast of Ōfunato, a coastal city in the Iwate region. The quake occurred at a depth of about 44 kilometers underground.\n\nDozens of people submitted reports describing the shaking they felt, with some reporting it as quite strong. Ōfunato and the surrounding coastal communities sit in an area that has experienced major earthquake and tsunami events in the past, making any significant tremor a serious concern for residents.\n\nNo immediate details about damage or injuries were available from this source, but the region will be watching closely as local officials and emergency services assess conditions in the hours following the quake.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 39.082108,
+      "lng": 141.70938,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq",
+      "prayer": "communities along Japan's northeastern coast as they assess damage and recover from this strong quake"
+    },
     {
       "wp_id": 3069,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-6-2/",
