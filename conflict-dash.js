@@ -138,7 +138,8 @@
 
   function fetchEvents() {
     var url = JSON_FEED_URL + "?nocache=" + Date.now();
-    return fetch(url)
+    return fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
+
       .then(function (r) {
         if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
         return r.json();
@@ -188,7 +189,7 @@
 
   function loadAdvisories() {
     var url = ADVISORY_URL + "?nocache=" + Date.now();
-    fetch(url)
+    fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (payload) {
         renderAdvisories(payload.advisories || []);
