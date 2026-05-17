@@ -17,6 +17,8 @@ import re
 import sys
 import time
 import requests
+from dotenv import load_dotenv
+load_dotenv('/opt/conflict-pipeline/.env')
 
 # ── CONFIG ────────────────────────────────────────────────────
 
