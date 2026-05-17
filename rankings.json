@@ -1,1287 +1,1089 @@
 {
   "metadata": {
-    "version": "1.0",
-    "generated_at": "2026-05-17T20:27:18Z",
-    "wwl_year": "2026",
-    "uscirf_year": "2024",
+    "version": "2.0",
+    "generated_at": "2026-05-17T21:58:22Z",
     "country_count": 191,
-    "methodology": "GWM multi-source ranking (WWL + USCIRF + State Dept IRF + ACN + editorial). See globalwitnessmonitor.com/methodology"
+    "methodology": "GWM 5-dimension persecution scoring. See globalwitnessmonitor.com/methodology"
   },
   "countries": [
-    {
-      "name": "Eritrea",
-      "slug": "eritrea",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 4,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 1
-    },
-    {
-      "name": "Iran",
-      "slug": "iran",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 9,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 1
-    },
-    {
-      "name": "Myanmar",
-      "slug": "myanmar-burma",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 13,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 1
-    },
-    {
-      "name": "North Korea",
-      "slug": "north-korea",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 1,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 1
-    },
-    {
-      "name": "Pakistan",
-      "slug": "pakistan",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 7,
-      "uscirf": "CPC",
-      "threat": "both",
-      "rank": 1
-    },
-    {
-      "name": "Yemen",
-      "slug": "yemen",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 100,
-      "wwl_rank": 3,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 1
-    },
     {
       "name": "Afghanistan",
       "slug": "afghanistan",
       "tier": 1,
       "tier_label": "Extreme",
-      "score": 99.7,
-      "wwl_rank": 10,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 7
-    },
-    {
-      "name": "Libya",
-      "slug": "libya",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 99.7,
-      "wwl_rank": 5,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 7
+      "score": 96.0,
+      "sub_scores": {
+        "state": 20,
+        "non_state": 18,
+        "legal": 20,
+        "indigenous": 20,
+        "trajectory": 18
+      },
+      "rank": 1
     },
     {
       "name": "Somalia",
       "slug": "somalia",
       "tier": 1,
       "tier_label": "Extreme",
-      "score": 99.2,
-      "wwl_rank": 2,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 9
+      "score": 84.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 20,
+        "legal": 17,
+        "indigenous": 19,
+        "trajectory": 15
+      },
+      "rank": 2
+    },
+    {
+      "name": "North Korea",
+      "slug": "north-korea",
+      "tier": 1,
+      "tier_label": "Extreme",
+      "score": 79.0,
+      "sub_scores": {
+        "state": 20,
+        "non_state": 2,
+        "legal": 20,
+        "indigenous": 20,
+        "trajectory": 17
+      },
+      "rank": 3
+    },
+    {
+      "name": "Yemen",
+      "slug": "yemen",
+      "tier": 1,
+      "tier_label": "Extreme",
+      "score": 79.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 17,
+        "legal": 17,
+        "indigenous": 17,
+        "trajectory": 15
+      },
+      "rank": 3
+    },
+    {
+      "name": "Eritrea",
+      "slug": "eritrea",
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 73.0,
+      "sub_scores": {
+        "state": 20,
+        "non_state": 3,
+        "legal": 15,
+        "indigenous": 17,
+        "trajectory": 18
+      },
+      "rank": 5
+    },
+    {
+      "name": "Libya",
+      "slug": "libya",
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 71.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 15,
+        "legal": 15,
+        "indigenous": 15,
+        "trajectory": 13
+      },
+      "rank": 6
     },
     {
       "name": "Sudan",
       "slug": "sudan",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 97.3,
-      "wwl_rank": 8,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 10
-    },
-    {
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 96.1,
-      "wwl_rank": 18,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 11
-    },
-    {
-      "name": "Nigeria",
-      "slug": "nigeria",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 95.9,
-      "wwl_rank": 6,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 12
-    },
-    {
-      "name": "Algeria",
-      "slug": "algeria",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 95.6,
-      "wwl_rank": 15,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 13
-    },
-    {
-      "name": "Turkmenistan",
-      "slug": "turkmenistan",
-      "tier": 1,
-      "tier_label": "Extreme",
-      "score": 95.3,
-      "wwl_rank": 19,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 14
-    },
-    {
-      "name": "India",
-      "slug": "india",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 94.8,
-      "wwl_rank": 11,
-      "uscirf": "SWL",
-      "threat": "non-state",
-      "rank": 15
+      "score": 70.0,
+      "sub_scores": {
+        "state": 14,
+        "non_state": 14,
+        "legal": 12,
+        "indigenous": 13,
+        "trajectory": 17
+      },
+      "rank": 7
     },
     {
-      "name": "Syria",
-      "slug": "syria",
+      "name": "Iran",
+      "slug": "iran",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 94.0,
-      "wwl_rank": 12,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 16
+      "score": 69.0,
+      "sub_scores": {
+        "state": 18,
+        "non_state": 4,
+        "legal": 17,
+        "indigenous": 15,
+        "trajectory": 15
+      },
+      "rank": 8
     },
     {
-      "name": "Morocco",
-      "slug": "morocco",
+      "name": "Pakistan",
+      "slug": "pakistan",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 93.4,
-      "wwl_rank": 14,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 17
-    },
-    {
-      "name": "China",
-      "slug": "china",
-      "tier": 2,
-      "tier_label": "Very High",
-      "score": 92.9,
-      "wwl_rank": 22,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 18
+      "score": 69.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 15,
+        "legal": 15,
+        "indigenous": 11,
+        "trajectory": 15
+      },
+      "rank": 8
     },
     {
       "name": "Maldives",
       "slug": "maldives",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 91.8,
-      "wwl_rank": 16,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 19
+      "score": 68.0,
+      "sub_scores": {
+        "state": 16,
+        "non_state": 4,
+        "legal": 18,
+        "indigenous": 18,
+        "trajectory": 12
+      },
+      "rank": 10
     },
     {
-      "name": "Vietnam",
-      "slug": "vietnam",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 89.0,
-      "wwl_rank": 23,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 20
+      "score": 68.0,
+      "sub_scores": {
+        "state": 16,
+        "non_state": 3,
+        "legal": 18,
+        "indigenous": 18,
+        "trajectory": 13
+      },
+      "rank": 10
     },
     {
       "name": "Mauritania",
       "slug": "mauritania",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 88.5,
-      "wwl_rank": 20,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 21
+      "score": 67.0,
+      "sub_scores": {
+        "state": 15,
+        "non_state": 4,
+        "legal": 18,
+        "indigenous": 18,
+        "trajectory": 12
+      },
+      "rank": 12
     },
     {
-      "name": "Laos",
-      "slug": "laos",
+      "name": "Myanmar",
+      "slug": "myanmar-burma",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 87.7,
-      "wwl_rank": 21,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 22
+      "score": 66.0,
+      "sub_scores": {
+        "state": 15,
+        "non_state": 13,
+        "legal": 11,
+        "indigenous": 12,
+        "trajectory": 15
+      },
+      "rank": 13
     },
     {
-      "name": "Tajikistan",
-      "slug": "tajikistan",
+      "name": "India",
+      "slug": "india",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 87.1,
-      "wwl_rank": 29,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 23
+      "score": 65.0,
+      "sub_scores": {
+        "state": 11,
+        "non_state": 16,
+        "legal": 12,
+        "indigenous": 10,
+        "trajectory": 16
+      },
+      "rank": 14
     },
     {
-      "name": "Mali",
-      "slug": "mali",
+      "name": "China",
+      "slug": "china",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 86.9,
-      "wwl_rank": 17,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 24
+      "score": 63.0,
+      "sub_scores": {
+        "state": 18,
+        "non_state": 2,
+        "legal": 12,
+        "indigenous": 14,
+        "trajectory": 17
+      },
+      "rank": 15
     },
     {
-      "name": "Iraq",
-      "slug": "iraq",
+      "name": "Algeria",
+      "slug": "algeria",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 84.0,
-      "wwl_rank": 28,
-      "uscirf": "SWL",
-      "threat": "both",
-      "rank": 25
+      "score": 61.0,
+      "sub_scores": {
+        "state": 15,
+        "non_state": 4,
+        "legal": 14,
+        "indigenous": 13,
+        "trajectory": 15
+      },
+      "rank": 16
     },
     {
-      "name": "Uzbekistan",
-      "slug": "uzbekistan",
-      "tier": 2,
-      "tier_label": "Very High",
-      "score": 83.6,
-      "wwl_rank": 26,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 26
-    },
-    {
-      "name": "Burkina Faso",
-      "slug": "burkina-faso",
-      "tier": 2,
-      "tier_label": "Very High",
-      "score": 81.2,
-      "wwl_rank": 24,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 27
-    },
-    {
-      "name": "Egypt",
-      "slug": "egypt",
+      "name": "Nigeria",
+      "slug": "nigeria",
       "tier": 3,
       "tier_label": "High",
-      "score": 79.3,
-      "wwl_rank": 30,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 28
+      "score": 59.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 20,
+        "legal": 7,
+        "indigenous": 11,
+        "trajectory": 17
+      },
+      "rank": 17
     },
     {
-      "name": "Niger",
-      "slug": "niger",
+      "name": "Syria",
+      "slug": "syria",
       "tier": 3,
       "tier_label": "High",
-      "score": 78.8,
-      "wwl_rank": 27,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 29
-    },
-    {
-      "name": "Central African Republic",
-      "slug": "central-african-republic",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 78.5,
-      "wwl_rank": 31,
-      "uscirf": "SWL",
-      "threat": "non-state",
-      "rank": 30
-    },
-    {
-      "name": "Qatar",
-      "slug": "qatar",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 78.4,
-      "wwl_rank": 25,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 31
-    },
-    {
-      "name": "Kazakhstan",
-      "slug": "kazakhstan",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 77.6,
-      "wwl_rank": 37,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 32
+      "score": 56.0,
+      "sub_scores": {
+        "state": 8,
+        "non_state": 15,
+        "legal": 7,
+        "indigenous": 13,
+        "trajectory": 13
+      },
+      "rank": 18
     },
     {
       "name": "Bangladesh",
       "slug": "bangladesh",
       "tier": 3,
       "tier_label": "High",
-      "score": 76.9,
-      "wwl_rank": 33,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 33
+      "score": 55.0,
+      "sub_scores": {
+        "state": 9,
+        "non_state": 13,
+        "legal": 11,
+        "indigenous": 10,
+        "trajectory": 12
+      },
+      "rank": 19
+    },
+    {
+      "name": "Burkina Faso",
+      "slug": "burkina-faso",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 54.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 18,
+        "legal": 4,
+        "indigenous": 11,
+        "trajectory": 17
+      },
+      "rank": 20
     },
     {
       "name": "Comoros",
       "slug": "comoros",
       "tier": 3,
       "tier_label": "High",
-      "score": 76.2,
-      "wwl_rank": 35,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 34
+      "score": 53.0,
+      "sub_scores": {
+        "state": 11,
+        "non_state": 7,
+        "legal": 13,
+        "indigenous": 11,
+        "trajectory": 11
+      },
+      "rank": 21
     },
     {
-      "name": "Ethiopia",
-      "slug": "ethiopia",
+      "name": "Iraq",
+      "slug": "iraq",
       "tier": 3,
       "tier_label": "High",
-      "score": 74.7,
-      "wwl_rank": 32,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 35
+      "score": 53.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 12,
+        "legal": 10,
+        "indigenous": 13,
+        "trajectory": 11
+      },
+      "rank": 21
     },
     {
-      "name": "Turkey",
-      "slug": "turkey",
+      "name": "Laos",
+      "slug": "laos",
       "tier": 3,
       "tier_label": "High",
-      "score": 74.3,
-      "wwl_rank": 41,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 36
+      "score": 53.0,
+      "sub_scores": {
+        "state": 14,
+        "non_state": 4,
+        "legal": 11,
+        "indigenous": 11,
+        "trajectory": 13
+      },
+      "rank": 21
     },
     {
-      "name": "Cuba",
-      "slug": "cuba",
+      "name": "Mali",
+      "slug": "mali",
       "tier": 3,
       "tier_label": "High",
-      "score": 72.4,
-      "wwl_rank": 47,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 37
+      "score": 53.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 17,
+        "legal": 4,
+        "indigenous": 11,
+        "trajectory": 17
+      },
+      "rank": 21
+    },
+    {
+      "name": "Morocco",
+      "slug": "morocco",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 53.0,
+      "sub_scores": {
+        "state": 12,
+        "non_state": 5,
+        "legal": 14,
+        "indigenous": 11,
+        "trajectory": 11
+      },
+      "rank": 21
+    },
+    {
+      "name": "Egypt",
+      "slug": "egypt",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 52.0,
+      "sub_scores": {
+        "state": 10,
+        "non_state": 11,
+        "legal": 12,
+        "indigenous": 9,
+        "trajectory": 10
+      },
+      "rank": 26
+    },
+    {
+      "name": "Turkmenistan",
+      "slug": "turkmenistan",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 52.0,
+      "sub_scores": {
+        "state": 16,
+        "non_state": 2,
+        "legal": 11,
+        "indigenous": 11,
+        "trajectory": 12
+      },
+      "rank": 26
+    },
+    {
+      "name": "Bhutan",
+      "slug": "bhutan",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 48.0,
+      "sub_scores": {
+        "state": 11,
+        "non_state": 3,
+        "legal": 13,
+        "indigenous": 11,
+        "trajectory": 10
+      },
+      "rank": 28
+    },
+    {
+      "name": "Tajikistan",
+      "slug": "tajikistan",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 47.0,
+      "sub_scores": {
+        "state": 14,
+        "non_state": 2,
+        "legal": 11,
+        "indigenous": 9,
+        "trajectory": 11
+      },
+      "rank": 29
+    },
+    {
+      "name": "Brunei",
+      "slug": "brunei",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 46.0,
+      "sub_scores": {
+        "state": 12,
+        "non_state": 2,
+        "legal": 15,
+        "indigenous": 7,
+        "trajectory": 10
+      },
+      "rank": 30
+    },
+    {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 46.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 3,
+        "legal": 9,
+        "indigenous": 10,
+        "trajectory": 11
+      },
+      "rank": 30
     },
     {
       "name": "Nepal",
       "slug": "nepal",
       "tier": 3,
       "tier_label": "High",
-      "score": 72.2,
-      "wwl_rank": 40,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 38
+      "score": 45.0,
+      "sub_scores": {
+        "state": 10,
+        "non_state": 5,
+        "legal": 12,
+        "indigenous": 7,
+        "trajectory": 11
+      },
+      "rank": 32
     },
     {
-      "name": "Jordan",
-      "slug": "jordan",
+      "name": "Azerbaijan",
+      "slug": "azerbaijan",
       "tier": 3,
       "tier_label": "High",
-      "score": 71.1,
-      "wwl_rank": 34,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 39
-    },
-    {
-      "name": "DR Congo",
-      "slug": "dr-congo",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 69.8,
-      "wwl_rank": 38,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 40
-    },
-    {
-      "name": "Tunisia",
-      "slug": "tunisia",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 69.4,
-      "wwl_rank": 36,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 41
-    },
-    {
-      "name": "Sri Lanka",
-      "slug": "sri-lanka",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 69.0,
-      "wwl_rank": 39,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 42
-    },
-    {
-      "name": "Kyrgyzstan",
-      "slug": "kyrgyzstan",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 68.9,
-      "wwl_rank": 44,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 43
-    },
-    {
-      "name": "Indonesia",
-      "slug": "indonesia",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 66.3,
-      "wwl_rank": 46,
-      "uscirf": null,
-      "threat": "both",
-      "rank": 44
-    },
-    {
-      "name": "Kuwait",
-      "slug": "kuwait",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 64.5,
-      "wwl_rank": 42,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 45
-    },
-    {
-      "name": "Colombia",
-      "slug": "colombia",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 64.1,
-      "wwl_rank": 45,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 46
-    },
-    {
-      "name": "United Arab Emirates",
-      "slug": "united-arab-emirates",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 63.7,
-      "wwl_rank": 43,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 47
-    },
-    {
-      "name": "Mexico",
-      "slug": "mexico",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 61.6,
-      "wwl_rank": 48,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 48
-    },
-    {
-      "name": "Cameroon",
-      "slug": "cameroon",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 60.8,
-      "wwl_rank": 49,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 49
-    },
-    {
-      "name": "Mozambique",
-      "slug": "mozambique",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 60.0,
-      "wwl_rank": 50,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 50
+      "score": 44.0,
+      "sub_scores": {
+        "state": 12,
+        "non_state": 2,
+        "legal": 10,
+        "indigenous": 9,
+        "trajectory": 11
+      },
+      "rank": 33
     },
     {
       "name": "Nicaragua",
       "slug": "nicaragua",
       "tier": 3,
       "tier_label": "High",
-      "score": 60,
-      "wwl_rank": null,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 50
+      "score": 44.0,
+      "sub_scores": {
+        "state": 15,
+        "non_state": 2,
+        "legal": 3,
+        "indigenous": 7,
+        "trajectory": 17
+      },
+      "rank": 33
     },
     {
-      "name": "Bhutan",
-      "slug": "bhutan",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 43.0,
+      "sub_scores": {
+        "state": 10,
+        "non_state": 4,
+        "legal": 13,
+        "indigenous": 7,
+        "trajectory": 9
+      },
+      "rank": 35
+    },
+    {
+      "name": "DR Congo",
+      "slug": "dr-congo",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 42.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 15,
+        "legal": 3,
+        "indigenous": 7,
+        "trajectory": 13
+      },
+      "rank": 36
+    },
+    {
+      "name": "Niger",
+      "slug": "niger",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 42.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 14,
+        "legal": 4,
+        "indigenous": 7,
+        "trajectory": 13
+      },
+      "rank": 36
+    },
+    {
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 42.0,
+      "sub_scores": {
+        "state": 12,
+        "non_state": 2,
+        "legal": 10,
+        "indigenous": 8,
+        "trajectory": 10
+      },
+      "rank": 36
+    },
+    {
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 41.0,
+      "sub_scores": {
+        "state": 5,
+        "non_state": 13,
+        "legal": 4,
+        "indigenous": 7,
+        "trajectory": 12
+      },
+      "rank": 39
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 41.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 11,
+        "legal": 7,
+        "indigenous": 6,
+        "trajectory": 10
+      },
+      "rank": 39
+    },
+    {
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 41.0,
+      "sub_scores": {
+        "state": 12,
+        "non_state": 3,
+        "legal": 8,
+        "indigenous": 8,
+        "trajectory": 10
+      },
+      "rank": 39
+    },
+    {
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 40.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 14,
+        "legal": 3,
+        "indigenous": 7,
+        "trajectory": 12
+      },
+      "rank": 42
+    },
+    {
+      "name": "Central African Republic",
+      "slug": "central-african-republic",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 40.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 15,
+        "legal": 3,
+        "indigenous": 8,
+        "trajectory": 11
+      },
+      "rank": 42
+    },
+    {
+      "name": "Cuba",
+      "slug": "cuba",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 40.0,
+      "sub_scores": {
+        "state": 14,
+        "non_state": 2,
+        "legal": 4,
+        "indigenous": 7,
+        "trajectory": 13
+      },
+      "rank": 42
+    },
+    {
+      "name": "Russia",
+      "slug": "russia",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 40.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 3,
+        "legal": 5,
+        "indigenous": 5,
+        "trajectory": 14
+      },
+      "rank": 42
+    },
+    {
+      "name": "Turkey",
+      "slug": "turkey",
       "tier": 4,
       "tier_label": "Medium",
-      "score": 54,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "state",
+      "score": 38.0,
+      "sub_scores": {
+        "state": 9,
+        "non_state": 4,
+        "legal": 7,
+        "indigenous": 7,
+        "trajectory": 11
+      },
+      "rank": 46
+    },
+    {
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 37.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 4,
+        "legal": 10,
+        "indigenous": 7,
+        "trajectory": 9
+      },
+      "rank": 47
+    },
+    {
+      "name": "Jordan",
+      "slug": "jordan",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 36.0,
+      "sub_scores": {
+        "state": 6,
+        "non_state": 5,
+        "legal": 12,
+        "indigenous": 6,
+        "trajectory": 7
+      },
+      "rank": 48
+    },
+    {
+      "name": "Kyrgyzstan",
+      "slug": "kyrgyzstan",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 36.0,
+      "sub_scores": {
+        "state": 9,
+        "non_state": 4,
+        "legal": 7,
+        "indigenous": 7,
+        "trajectory": 9
+      },
+      "rank": 48
+    },
+    {
+      "name": "Qatar",
+      "slug": "qatar",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 36.0,
+      "sub_scores": {
+        "state": 9,
+        "non_state": 2,
+        "legal": 14,
+        "indigenous": 4,
+        "trajectory": 7
+      },
+      "rank": 48
+    },
+    {
+      "name": "Sri Lanka",
+      "slug": "sri-lanka",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 34.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 9,
+        "legal": 5,
+        "indigenous": 5,
+        "trajectory": 8
+      },
+      "rank": 51
+    },
+    {
+      "name": "Mozambique",
+      "slug": "mozambique",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 32.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 12,
+        "legal": 2,
+        "indigenous": 4,
+        "trajectory": 11
+      },
       "rank": 52
+    },
+    {
+      "name": "Bahrain",
+      "slug": "bahrain",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 31.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 2,
+        "legal": 12,
+        "indigenous": 4,
+        "trajectory": 6
+      },
+      "rank": 53
+    },
+    {
+      "name": "Colombia",
+      "slug": "colombia",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 31.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 12,
+        "legal": 2,
+        "indigenous": 4,
+        "trajectory": 10
+      },
+      "rank": 53
+    },
+    {
+      "name": "Kuwait",
+      "slug": "kuwait",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 31.0,
+      "sub_scores": {
+        "state": 7,
+        "non_state": 2,
+        "legal": 12,
+        "indigenous": 4,
+        "trajectory": 6
+      },
+      "rank": 53
+    },
+    {
+      "name": "Mexico",
+      "slug": "mexico",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 29.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 12,
+        "legal": 1,
+        "indigenous": 4,
+        "trajectory": 10
+      },
+      "rank": 56
+    },
+    {
+      "name": "Oman",
+      "slug": "oman",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 29.0,
+      "sub_scores": {
+        "state": 6,
+        "non_state": 2,
+        "legal": 12,
+        "indigenous": 4,
+        "trajectory": 5
+      },
+      "rank": 56
+    },
+    {
+      "name": "Belarus",
+      "slug": "belarus",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 27.0,
+      "sub_scores": {
+        "state": 8,
+        "non_state": 2,
+        "legal": 4,
+        "indigenous": 4,
+        "trajectory": 9
+      },
+      "rank": 58
+    },
+    {
+      "name": "Djibouti",
+      "slug": "djibouti",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 27.0,
+      "sub_scores": {
+        "state": 5,
+        "non_state": 3,
+        "legal": 9,
+        "indigenous": 4,
+        "trajectory": 6
+      },
+      "rank": 58
+    },
+    {
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 26.0,
+      "sub_scores": {
+        "state": 6,
+        "non_state": 2,
+        "legal": 11,
+        "indigenous": 3,
+        "trajectory": 4
+      },
+      "rank": 60
     },
     {
       "name": "South Sudan",
       "slug": "south-sudan",
       "tier": 4,
       "tier_label": "Medium",
-      "score": 50,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 53
+      "score": 25.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 9,
+        "legal": 2,
+        "indigenous": 4,
+        "trajectory": 7
+      },
+      "rank": 61
     },
     {
-      "name": "Azerbaijan",
-      "slug": "azerbaijan",
+      "name": "Israel and the Palestinian Territories",
+      "slug": "israel-and-the-palestinian-territories",
       "tier": 4,
       "tier_label": "Medium",
-      "score": 37,
-      "wwl_rank": null,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 54
+      "score": 24.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 6,
+        "legal": 3,
+        "indigenous": 4,
+        "trajectory": 7
+      },
+      "rank": 62
     },
     {
-      "name": "Malaysia",
-      "slug": "malaysia",
+      "name": "Kenya",
+      "slug": "kenya",
       "tier": 4,
       "tier_label": "Medium",
-      "score": 37,
-      "wwl_rank": null,
-      "uscirf": "SWL",
-      "threat": "state",
-      "rank": 54
+      "score": 24.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 9,
+        "legal": 2,
+        "indigenous": 3,
+        "trajectory": 8
+      },
+      "rank": 62
     },
     {
-      "name": "Brunei",
-      "slug": "brunei",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 34,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 56
+      "name": "Tanzania",
+      "slug": "tanzania",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 23.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 7,
+        "legal": 3,
+        "indigenous": 3,
+        "trajectory": 6
+      },
+      "rank": 64
+    },
+    {
+      "name": "Chad",
+      "slug": "chad",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 22.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 5,
+        "legal": 3,
+        "indigenous": 3,
+        "trajectory": 7
+      },
+      "rank": 65
+    },
+    {
+      "name": "Lebanon",
+      "slug": "lebanon",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 21.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 5,
+        "legal": 3,
+        "indigenous": 3,
+        "trajectory": 7
+      },
+      "rank": 66
+    },
+    {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 21.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 7,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 9
+      },
+      "rank": 66
+    },
+    {
+      "name": "Haiti",
+      "slug": "haiti",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 20.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 7,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 8
+      },
+      "rank": 68
+    },
+    {
+      "name": "Uganda",
+      "slug": "uganda",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 20.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 7,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 6
+      },
+      "rank": 68
     },
     {
       "name": "Rwanda",
       "slug": "rwanda",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 34,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 56
-    },
-    {
-      "name": "Ghana",
-      "slug": "ghana",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 30,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 58
-    },
-    {
-      "name": "Kenya",
-      "slug": "kenya",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 30,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 58
-    },
-    {
-      "name": "Uganda",
-      "slug": "uganda",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 30,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 58
-    },
-    {
-      "name": "Bahrain",
-      "slug": "bahrain",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Djibouti",
-      "slug": "djibouti",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Kosovo",
-      "slug": "kosovo",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Lebanon",
-      "slug": "lebanon",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Oman",
-      "slug": "oman",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Tanzania",
-      "slug": "tanzania",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Zambia",
-      "slug": "zambia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 28,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 61
-    },
-    {
-      "name": "Russia",
-      "slug": "russia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 22,
-      "wwl_rank": null,
-      "uscirf": "CPC",
-      "threat": "state",
-      "rank": 68
-    },
-    {
-      "name": "Belarus",
-      "slug": "belarus",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 16,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "state",
-      "rank": 69
-    },
-    {
-      "name": "Haiti",
-      "slug": "haiti",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 12,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
+      "score": 19.0,
+      "sub_scores": {
+        "state": 5,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 3,
+        "trajectory": 7
+      },
       "rank": 70
     },
     {
-      "name": "Philippines",
-      "slug": "philippines",
+      "name": "Venezuela",
+      "slug": "venezuela",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 12,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "non-state",
-      "rank": 70
-    },
-    {
-      "name": "Albania",
-      "slug": "albania",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Andorra",
-      "slug": "andorra",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Angola",
-      "slug": "angola",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Antigua and Barbuda",
-      "slug": "antigua-and-barbuda",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Argentina",
-      "slug": "argentina",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Armenia",
-      "slug": "armenia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Australia",
-      "slug": "australia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Austria",
-      "slug": "austria",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Barbados",
-      "slug": "barbados",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Belgium",
-      "slug": "belgium",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Belize",
-      "slug": "belize",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 18.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 4,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 7
+      },
+      "rank": 71
     },
     {
       "name": "Benin",
       "slug": "benin",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Bolivia",
-      "slug": "bolivia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Bosnia and Herzegovina",
-      "slug": "bosnia-and-herzegovina",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Botswana",
-      "slug": "botswana",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Brazil",
-      "slug": "brazil",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Bulgaria",
-      "slug": "bulgaria",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Burundi",
-      "slug": "burundi",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Cabo Verde",
-      "slug": "cabo-verde",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Cambodia",
-      "slug": "cambodia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Canada",
-      "slug": "canada",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Chad",
-      "slug": "chad",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Chile",
-      "slug": "chile",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Congo",
-      "slug": "congo",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Costa Rica",
-      "slug": "costa-rica",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Croatia",
-      "slug": "croatia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Cyprus",
-      "slug": "cyprus",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Czech Republic",
-      "slug": "czech-republic",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Denmark",
-      "slug": "denmark",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Dominica",
-      "slug": "dominica",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Ecuador",
-      "slug": "ecuador",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "El Salvador",
-      "slug": "el-salvador",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Equatorial Guinea",
-      "slug": "equatorial-guinea",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Estonia",
-      "slug": "estonia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Eswatini",
-      "slug": "eswatini",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Fiji",
-      "slug": "fiji",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Finland",
-      "slug": "finland",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "France",
-      "slug": "france",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Gabon",
-      "slug": "gabon",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Gambia",
-      "slug": "gambia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Georgia",
-      "slug": "georgia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Germany",
-      "slug": "germany",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Greece",
-      "slug": "greece",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Grenada",
-      "slug": "grenada",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Guatemala",
-      "slug": "guatemala",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
+      "score": 16.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 4,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 6
+      },
       "rank": 72
     },
     {
@@ -1289,825 +1091,1785 @@
       "slug": "guinea",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
+      "score": 16.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 3,
+        "legal": 3,
+        "indigenous": 3,
+        "trajectory": 4
+      },
       "rank": 72
     },
     {
-      "name": "Guinea-Bissau",
-      "slug": "guinea-bissau",
+      "name": "Kosovo",
+      "slug": "kosovo",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
+      "score": 16.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 4,
+        "legal": 2,
+        "indigenous": 3,
+        "trajectory": 4
+      },
       "rank": 72
     },
     {
-      "name": "Guyana",
-      "slug": "guyana",
+      "name": "Ghana",
+      "slug": "ghana",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Honduras",
-      "slug": "honduras",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Hungary",
-      "slug": "hungary",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Iceland",
-      "slug": "iceland",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Ireland",
-      "slug": "ireland",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Israel and the Palestinian Territories",
-      "slug": "israel-and-the-palestinian-territories",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Italy",
-      "slug": "italy",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Jamaica",
-      "slug": "jamaica",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Japan",
-      "slug": "japan",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Kiribati",
-      "slug": "kiribati",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Latvia",
-      "slug": "latvia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Lesotho",
-      "slug": "lesotho",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Liberia",
-      "slug": "liberia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Liechtenstein",
-      "slug": "liechtenstein",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Lithuania",
-      "slug": "lithuania",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Luxembourg",
-      "slug": "luxembourg",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Madagascar",
-      "slug": "madagascar",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Malawi",
-      "slug": "malawi",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Malta",
-      "slug": "malta",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Marshall Islands",
-      "slug": "marshall-islands",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Mauritius",
-      "slug": "mauritius",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Micronesia",
-      "slug": "micronesia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Moldova",
-      "slug": "moldova",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Monaco",
-      "slug": "monaco",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Mongolia",
-      "slug": "mongolia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Montenegro",
-      "slug": "montenegro",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Namibia",
-      "slug": "namibia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Nauru",
-      "slug": "nauru",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Netherlands",
-      "slug": "netherlands",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "New Zealand",
-      "slug": "new-zealand",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "North Macedonia",
-      "slug": "north-macedonia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Norway",
-      "slug": "norway",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Palau",
-      "slug": "palau",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Panama",
-      "slug": "panama",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Papua New Guinea",
-      "slug": "papua-new-guinea",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Paraguay",
-      "slug": "paraguay",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Peru",
-      "slug": "peru",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Poland",
-      "slug": "poland",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Portugal",
-      "slug": "portugal",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Romania",
-      "slug": "romania",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Saint Kitts and Nevis",
-      "slug": "saint-kitts-and-nevis",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Saint Lucia",
-      "slug": "saint-lucia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Saint Vincent and the Grenadines",
-      "slug": "saint-vincent-and-the-grenadines",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Samoa",
-      "slug": "samoa",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "San Marino",
-      "slug": "san-marino",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Senegal",
-      "slug": "senegal",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Serbia",
-      "slug": "serbia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Sierra Leone",
-      "slug": "sierra-leone",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Singapore",
-      "slug": "singapore",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Slovakia",
-      "slug": "slovakia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Slovenia",
-      "slug": "slovenia",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Solomon Islands",
-      "slug": "solomon-islands",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "South Africa",
-      "slug": "south-africa",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "South Korea",
-      "slug": "south-korea",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Spain",
-      "slug": "spain",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Suriname",
-      "slug": "suriname",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Sweden",
-      "slug": "sweden",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Switzerland",
-      "slug": "switzerland",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "São Tomé and Príncipe",
-      "slug": "sao-tome-and-principe",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Taiwan",
-      "slug": "taiwan",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Thailand",
-      "slug": "thailand",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
-    },
-    {
-      "name": "Timor-Leste",
-      "slug": "timor-leste",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 15.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 5,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 4
+      },
+      "rank": 75
     },
     {
       "name": "Togo",
       "slug": "togo",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 15.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 4,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 5
+      },
+      "rank": 75
     },
     {
-      "name": "Tonga",
-      "slug": "tonga",
+      "name": "Burundi",
+      "slug": "burundi",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 14.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 3,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 4
+      },
+      "rank": 77
     },
     {
-      "name": "Trinidad and Tobago",
-      "slug": "trinidad-and-tobago",
+      "name": "Equatorial Guinea",
+      "slug": "equatorial-guinea",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 13.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 78
     },
     {
-      "name": "Tuvalu",
-      "slug": "tuvalu",
+      "name": "Gambia",
+      "slug": "gambia",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 13.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 3,
+        "legal": 3,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 78
     },
     {
-      "name": "Ukraine",
-      "slug": "ukraine",
+      "name": "Georgia",
+      "slug": "georgia",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 13.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 3,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 78
+    },
+    {
+      "name": "Angola",
+      "slug": "angola",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "Cambodia",
+      "slug": "cambodia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "France",
+      "slug": "france",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 4,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 4
+      },
+      "rank": 81
+    },
+    {
+      "name": "Guinea-Bissau",
+      "slug": "guinea-bissau",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 3,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "Philippines",
+      "slug": "philippines",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 5,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "Senegal",
+      "slug": "senegal",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 12.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 3,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 81
+    },
+    {
+      "name": "Brazil",
+      "slug": "brazil",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 11.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 4,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 88
+    },
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 11.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 3,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 88
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 10.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 90
+    },
+    {
+      "name": "Congo",
+      "slug": "congo",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 10.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 90
+    },
+    {
+      "name": "Moldova",
+      "slug": "moldova",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 10.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 3
+      },
+      "rank": 90
+    },
+    {
+      "name": "Montenegro",
+      "slug": "montenegro",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 10.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 90
     },
     {
       "name": "United Kingdom",
       "slug": "united-kingdom",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 10.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 4
+      },
+      "rank": 90
     },
     {
-      "name": "United States",
-      "slug": "united-states",
+      "name": "Armenia",
+      "slug": "armenia",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 95
     },
     {
-      "name": "Uruguay",
-      "slug": "uruguay",
+      "name": "Bolivia",
+      "slug": "bolivia",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 95
     },
     {
-      "name": "Vanuatu",
-      "slug": "vanuatu",
+      "name": "Japan",
+      "slug": "japan",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 3,
+        "trajectory": 2
+      },
+      "rank": 95
     },
     {
-      "name": "Venezuela",
-      "slug": "venezuela",
+      "name": "North Macedonia",
+      "slug": "north-macedonia",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 95
+    },
+    {
+      "name": "Serbia",
+      "slug": "serbia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 95
+    },
+    {
+      "name": "South Africa",
+      "slug": "south-africa",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 9.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 3,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 95
     },
     {
       "name": "Zimbabwe",
       "slug": "zimbabwe",
       "tier": 5,
       "tier_label": "Lower",
-      "score": 10,
-      "wwl_rank": null,
-      "uscirf": null,
-      "threat": "structural",
-      "rank": 72
+      "score": 9.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 95
+    },
+    {
+      "name": "Belgium",
+      "slug": "belgium",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "El Salvador",
+      "slug": "el-salvador",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 3,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Eswatini",
+      "slug": "eswatini",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Germany",
+      "slug": "germany",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "Guatemala",
+      "slug": "guatemala",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 3,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Honduras",
+      "slug": "honduras",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 3,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Mongolia",
+      "slug": "mongolia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 2,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "Singapore",
+      "slug": "singapore",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Spain",
+      "slug": "spain",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "Sweden",
+      "slug": "sweden",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "United States",
+      "slug": "united-states",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
+      "name": "Zambia",
+      "slug": "zambia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
+      "name": "Argentina",
+      "slug": "argentina",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Australia",
+      "slug": "australia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 116
+    },
+    {
+      "name": "Canada",
+      "slug": "canada",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 116
+    },
+    {
+      "name": "Chile",
+      "slug": "chile",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Finland",
+      "slug": "finland",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 116
+    },
+    {
+      "name": "Gabon",
+      "slug": "gabon",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Greece",
+      "slug": "greece",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Italy",
+      "slug": "italy",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Liberia",
+      "slug": "liberia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Madagascar",
+      "slug": "madagascar",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Malawi",
+      "slug": "malawi",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Peru",
+      "slug": "peru",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Sierra Leone",
+      "slug": "sierra-leone",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 7.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 116
+    },
+    {
+      "name": "Austria",
+      "slug": "austria",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Croatia",
+      "slug": "croatia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Denmark",
+      "slug": "denmark",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Estonia",
+      "slug": "estonia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Hungary",
+      "slug": "hungary",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Ireland",
+      "slug": "ireland",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Latvia",
+      "slug": "latvia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Norway",
+      "slug": "norway",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Poland",
+      "slug": "poland",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Romania",
+      "slug": "romania",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 6.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 130
+    },
+    {
+      "name": "Albania",
+      "slug": "albania",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Andorra",
+      "slug": "andorra",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Barbados",
+      "slug": "barbados",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Belize",
+      "slug": "belize",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Botswana",
+      "slug": "botswana",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Cabo Verde",
+      "slug": "cabo-verde",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Dominica",
+      "slug": "dominica",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Fiji",
+      "slug": "fiji",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Grenada",
+      "slug": "grenada",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Guyana",
+      "slug": "guyana",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Iceland",
+      "slug": "iceland",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Jamaica",
+      "slug": "jamaica",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Kiribati",
+      "slug": "kiribati",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Lesotho",
+      "slug": "lesotho",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Malta",
+      "slug": "malta",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Marshall Islands",
+      "slug": "marshall-islands",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Mauritius",
+      "slug": "mauritius",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Micronesia",
+      "slug": "micronesia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Monaco",
+      "slug": "monaco",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Namibia",
+      "slug": "namibia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Nauru",
+      "slug": "nauru",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Palau",
+      "slug": "palau",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Panama",
+      "slug": "panama",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Saint Lucia",
+      "slug": "saint-lucia",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Samoa",
+      "slug": "samoa",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "San Marino",
+      "slug": "san-marino",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "slug": "sao-tome-and-principe",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Solomon Islands",
+      "slug": "solomon-islands",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Suriname",
+      "slug": "suriname",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Timor-Leste",
+      "slug": "timor-leste",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Tonga",
+      "slug": "tonga",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "slug": "trinidad-and-tobago",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Tuvalu",
+      "slug": "tuvalu",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
+    },
+    {
+      "name": "Vanuatu",
+      "slug": "vanuatu",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 5.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 1,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 1
+      },
+      "rank": 151
     }
   ]
 }
