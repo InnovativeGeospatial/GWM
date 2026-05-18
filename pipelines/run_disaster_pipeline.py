@@ -1011,6 +1011,10 @@ def publish_to_wordpress(item, article_body, parsed=None):
                     parsed.get("raw_country_line", ""), item["title"][:60])
         return None, None, None, None, None
 
+    if not parsed.get("location"):
+        log.info("Skipping (no location): %s", item["title"][:60])
+        return None, None, None, None, None
+
     countries = parsed["countries"]
     dtype = parsed["disaster_type"]
     prayer = parsed.get("prayer", "")
