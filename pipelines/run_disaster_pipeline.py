@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Global Witness Monitor -- Natural Disaster Intelligence Pipeline v4
+Global Witness Monitor -- Natural Disaster Intelligence Pipeline v5
 
-Changes from v3:
-- PRAYER: header field. Claude returns a one-line prayer prompt in the
-  header block. The pipeline appends it as a styled paragraph:
-  <p class="gwm-prayer-line"><strong>Prayer:</strong> ...</p>
-- format_body_for_wordpress() accepts an optional prayer arg.
-- JSON feed includes 'prayer' field per event.
-- Everything else (dedup, geocoding, title format, GDELT) unchanged.
+Changes from v4:
+- Cross-run WP dedup. Before adding an article to the candidate list,
+  check the last 30 days of WP posts in the disaster category and skip
+  if title similarity >= 0.65 to an existing post. This prevents the
+  same earthquake/hurricane/etc from being published 3-5 times when
+  multiple outlets cover the same event.
+- Matches the dedup pattern from conflict pipeline v6.
 """
 
 import os
@@ -21,7 +21,7 @@ import logging
 import argparse
 import requests
 import feedparser
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 import anthropic
 import html
@@ -391,7 +391,6 @@ def parse_claude_response(raw_text):
         result["event_date"] = event_date_line
 
     if pray_line:
-        # Strip leading "Prayer:" or "Pray that" if Claude added them anyway
         pl = re.sub(r'^pray[:\s]+(that\s+)?', '', pray_line, flags=re.IGNORECASE)
         pl = re.sub(r'^that\s+', '', pl, flags=re.IGNORECASE)
         result["prayer"] = pl.strip()
@@ -516,6 +515,106 @@ def is_duplicate(title, existing_titles, threshold=0.75):
     return False
 
 
+# ─── Cross-run WP dedup ──────────────────────────────────────────────
+_RECENT_WP_TITLES_CACHE = None
+
+
+def load_recent_wp_titles(days=30):
+    """Fetch the last N days of WP post titles in the disaster category.
+    Cached in-process so we only hit the WP REST API once per pipeline run."""
+    global _RECENT_WP_TITLES_CACHE
+    if _RECENT_WP_TITLES_CACHE is not None:
+        return _RECENT_WP_TITLES_CACHE
+    titles = []
+    try:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        page = 1
+        while page <= 5:
+            url = (WP_URL + "/wp-json/wp/v2/posts"
+                   "?categories=" + str(WP_CATEGORY_ID) +
+                   "&per_page=100&page=" + str(page) +
+                   "&_fields=id,title,date_gmt" +
+                   "&after=" + cutoff +
+                   "&orderby=date&order=desc")
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                break
+            posts = r.json()
+            if not posts:
+                break
+            for p in posts:
+                t = p.get("title", {}).get("rendered", "")
+                t = html.unescape(t)
+                t = re.sub(r"<[^>]+>", "", t).strip()
+                if t:
+                    titles.append(t)
+            page += 1
+        log.info("WP dedup cache: loaded %d recent titles (last %d days)",
+                 len(titles), days)
+    except Exception as e:
+        log.warning("WP dedup cache load failed: %s", e)
+    _RECENT_WP_TITLES_CACHE = titles
+    return titles
+
+
+def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
+    """Check if a candidate title closely matches any title already in WP.
+    Used to prevent the same disaster being republished across runs when
+    multiple outlets cover it.
+
+    Note: candidate titles from RSS feeds look like:
+      'M 5.2 - 12 km W of Liuzhou, China'
+      'M 6.0 - Strong earthquake hits Indonesia'
+
+    But published WP titles look like:
+      'Earthquake in China 05/18/2026 — Magnitude 5'
+
+    Title-level similarity won't catch these directly. So we ALSO extract
+    detected_country from the candidate item and do a country+type+date
+    check by comparing tokenized titles after normalization."""
+    recent = load_recent_wp_titles()
+    for existing in recent:
+        if title_similarity(candidate_title, existing) >= threshold:
+            log.info("WP dedup match: %r ~ %r",
+                     candidate_title[:60], existing[:60])
+            return True
+    return False
+
+
+def is_duplicate_published_event(country, dtype, candidate_title):
+    """Stronger dedup: build a normalized 'event signature' from country+type
+    and check against recent WP titles. Most published WP titles start with
+    '<DisasterType> in <Country>' so this catches the common case where
+    multiple outlets cover the same earthquake/flood/etc.
+
+    Returns True if a recent WP title matches the same country+type AND
+    has reasonable token overlap with the candidate."""
+    if not country or not dtype or dtype == "Other":
+        return False
+    recent = load_recent_wp_titles()
+    # Build a search prefix: "<dtype> in <country>"
+    expected_prefix = (dtype + " in " + country).lower()
+    candidate_tokens = set(candidate_title.lower().split())
+    stopwords = {"the", "a", "an", "in", "on", "at", "to", "for",
+                 "of", "and", "or", "is", "are", "was", "were",
+                 "with", "by", "from", "as", "it", "its", "be",
+                 "magnitude", "earthquake", "quake", "flood", "storm",
+                 "wildfire", "volcano", "tsunami", "landslide", "drought"}
+    candidate_tokens -= stopwords
+    for existing in recent:
+        existing_lower = existing.lower()
+        if existing_lower.startswith(expected_prefix):
+            existing_tokens = set(existing_lower.split()) - stopwords
+            if not candidate_tokens or not existing_tokens:
+                continue
+            overlap = len(candidate_tokens & existing_tokens)
+            if overlap >= 1:
+                log.info("WP event-sig dedup match: %r matches existing %r (country=%s type=%s)",
+                         candidate_title[:60], existing[:60], country, dtype)
+                return True
+    return False
+
+
 def load_seen():
     if os.path.exists(SEEN_FILE):
         try:
@@ -602,6 +701,14 @@ def fetch_rss_feeds(seen, filter_countries, filter_types):
                 if is_duplicate(title, seen_titles):
                     log.info("Skipping duplicate: %s", title[:60])
                     continue
+                # Cross-run WP dedup
+                if is_duplicate_of_existing_wp(title):
+                    log.info("Skipping (already in WP recently): %s", title[:60])
+                    continue
+                if country and is_duplicate_published_event(country, dtype, title):
+                    log.info("Skipping (matches recent WP event signature): %s",
+                             title[:60])
+                    continue
                 lat, lng = extract_coords(entry)
                 candidates.append({
                     "title": title, "summary": summary, "url": url,
@@ -666,6 +773,14 @@ def fetch_gdelt(seen, existing_titles, filter_countries, filter_types):
                     continue
                 if is_duplicate(title, existing_titles):
                     continue
+                # Cross-run WP dedup
+                if is_duplicate_of_existing_wp(title):
+                    log.info("GDELT skip (already in WP recently): %s", title[:60])
+                    continue
+                if country and is_duplicate_published_event(country, dtype, title):
+                    log.info("GDELT skip (matches recent WP event signature): %s",
+                             title[:60])
+                    continue
                 candidates.append({
                     "title": title, "summary": title, "url": url_art,
                     "hash": h, "source": source,
@@ -690,7 +805,6 @@ def fetch_all_feeds(seen, filter_countries, filter_types):
     return all_candidates[:MAX_ARTICLES]
 
 
-# ─── System prompt with new PRAYER: field ────────────────────────────────────
 SYSTEM_PROMPT = """You are writing brief, plain-language natural disaster reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
 REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
@@ -958,7 +1072,7 @@ def sanitize_title(title):
 
 
 def format_body_for_wordpress(body_text, prayer=""):
-    """Wrap paragraphs in <p> tags. Optionally append styled Pray line."""
+    """Wrap paragraphs in <p> tags. Optionally append styled Prayer line."""
     if not body_text:
         return ""
     decoded = html.unescape(body_text).strip()
@@ -1018,6 +1132,16 @@ def publish_to_wordpress(item, article_body, parsed=None):
     countries = parsed["countries"]
     dtype = parsed["disaster_type"]
     prayer = parsed.get("prayer", "")
+
+    # Second-stage WP dedup after Claude classifies — now we have the
+    # canonical structured title to compare. This catches cases where
+    # the source title was vague but the published title resolved to
+    # something already in WP.
+    candidate_published_title = build_title(parsed, item)
+    if is_duplicate_of_existing_wp(candidate_published_title):
+        log.info("Skipping (post-Claude WP dedup match): %s",
+                 candidate_published_title[:60])
+        return None, None, None, None, None
 
     tag_ids = []
     for c in countries:
@@ -1080,6 +1204,10 @@ def publish_to_wordpress(item, article_body, parsed=None):
         log.info("Published: %s [%s / %s] (ID %s) prayer=%s",
                  clean_title[:60], countries[0], dtype, post_id,
                  "yes" if prayer else "no")
+        # Add the just-published title to the cache so subsequent items
+        # in this run can see it.
+        if _RECENT_WP_TITLES_CACHE is not None:
+            _RECENT_WP_TITLES_CACHE.append(clean_title)
         return post_id, post_link, _final_lat, _final_lng, post_date
     else:
         log.error("Publish failed (%s): %s", r.status_code, r.text[:300])
@@ -1087,7 +1215,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="GWM Disaster Pipeline v4")
+    parser = argparse.ArgumentParser(description="GWM Disaster Pipeline v5")
     parser.add_argument("--region", "-r", action="append",
                         choices=list(REGIONS.keys()),
                         help="Filter by region")
@@ -1132,7 +1260,7 @@ def main():
         label_parts.append("types: " + ",".join(filter_types))
     label = " | ".join(label_parts) if label_parts else "GLOBAL"
 
-    log.info("=== Disaster Pipeline v4 starting (%s) ===", label)
+    log.info("=== Disaster Pipeline v5 starting (%s) ===", label)
 
     seen = load_seen()
     candidates = fetch_all_feeds(seen, filter_countries, filter_types)
