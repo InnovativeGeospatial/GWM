@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "2.0",
-    "generated_at": "2026-05-17T22:06:44Z",
-    "country_count": 191,
+    "generated_at": "2026-05-18T15:44:40Z",
+    "country_count": 192,
     "methodology": "GWM 5-dimension persecution scoring. See globalwitnessmonitor.com/methodology"
   },
   "countries": [
@@ -952,6 +952,21 @@
       "rank": 62
     },
     {
+      "name": "Ivory Coast",
+      "slug": "ivory-coast",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 23.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 7,
+        "legal": 3,
+        "indigenous": 4,
+        "trajectory": 6
+      },
+      "rank": 64
+    },
+    {
       "name": "Tanzania",
       "slug": "tanzania",
       "tier": 4,
@@ -979,7 +994,7 @@
         "indigenous": 3,
         "trajectory": 7
       },
-      "rank": 65
+      "rank": 66
     },
     {
       "name": "Lebanon",
@@ -994,7 +1009,7 @@
         "indigenous": 3,
         "trajectory": 7
       },
-      "rank": 66
+      "rank": 67
     },
     {
       "name": "Ukraine",
@@ -1009,7 +1024,7 @@
         "indigenous": 2,
         "trajectory": 9
       },
-      "rank": 66
+      "rank": 67
     },
     {
       "name": "Haiti",
@@ -1024,7 +1039,7 @@
         "indigenous": 2,
         "trajectory": 8
       },
-      "rank": 68
+      "rank": 69
     },
     {
       "name": "Uganda",
@@ -1039,7 +1054,7 @@
         "indigenous": 2,
         "trajectory": 6
       },
-      "rank": 68
+      "rank": 69
     },
     {
       "name": "Rwanda",
@@ -1054,7 +1069,7 @@
         "indigenous": 3,
         "trajectory": 7
       },
-      "rank": 70
+      "rank": 71
     },
     {
       "name": "Venezuela",
@@ -1069,7 +1084,7 @@
         "indigenous": 2,
         "trajectory": 7
       },
-      "rank": 71
+      "rank": 72
     },
     {
       "name": "Benin",
@@ -1084,7 +1099,7 @@
         "indigenous": 2,
         "trajectory": 6
       },
-      "rank": 72
+      "rank": 73
     },
     {
       "name": "Guinea",
@@ -1099,7 +1114,7 @@
         "indigenous": 3,
         "trajectory": 4
       },
-      "rank": 72
+      "rank": 73
     },
     {
       "name": "Kosovo",
@@ -1114,7 +1129,7 @@
         "indigenous": 3,
         "trajectory": 4
       },
-      "rank": 72
+      "rank": 73
     },
     {
       "name": "Ghana",
@@ -1129,7 +1144,7 @@
         "indigenous": 2,
         "trajectory": 4
       },
-      "rank": 75
+      "rank": 76
     },
     {
       "name": "Togo",
@@ -1144,7 +1159,7 @@
         "indigenous": 2,
         "trajectory": 5
       },
-      "rank": 75
+      "rank": 76
     },
     {
       "name": "Burundi",
@@ -1159,7 +1174,7 @@
         "indigenous": 2,
         "trajectory": 4
       },
-      "rank": 77
+      "rank": 78
     },
     {
       "name": "Equatorial Guinea",
@@ -1174,7 +1189,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 78
+      "rank": 79
     },
     {
       "name": "Gambia",
@@ -1189,7 +1204,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 78
+      "rank": 79
     },
     {
       "name": "Georgia",
@@ -1204,7 +1219,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 78
+      "rank": 79
     },
     {
       "name": "Angola",
@@ -1219,7 +1234,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Bulgaria",
@@ -1234,7 +1249,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Cambodia",
@@ -1249,7 +1264,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "France",
@@ -1264,7 +1279,7 @@
         "indigenous": 1,
         "trajectory": 4
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Guinea-Bissau",
@@ -1279,7 +1294,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Philippines",
@@ -1294,7 +1309,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Senegal",
@@ -1309,7 +1324,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 81
+      "rank": 82
     },
     {
       "name": "Brazil",
@@ -1324,7 +1339,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 88
+      "rank": 89
     },
     {
       "name": "Thailand",
@@ -1339,7 +1354,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 88
+      "rank": 89
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -1354,7 +1369,7 @@
         "indigenous": 2,
         "trajectory": 2
       },
-      "rank": 90
+      "rank": 91
     },
     {
       "name": "Congo",
@@ -1369,7 +1384,7 @@
         "indigenous": 2,
         "trajectory": 2
       },
-      "rank": 90
+      "rank": 91
     },
     {
       "name": "Moldova",
@@ -1384,7 +1399,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 90
+      "rank": 91
     },
     {
       "name": "Montenegro",
@@ -1399,7 +1414,7 @@
         "indigenous": 2,
         "trajectory": 2
       },
-      "rank": 90
+      "rank": 91
     },
     {
       "name": "United Kingdom",
@@ -1414,7 +1429,7 @@
         "indigenous": 1,
         "trajectory": 4
       },
-      "rank": 90
+      "rank": 91
     },
     {
       "name": "Armenia",
@@ -1429,7 +1444,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "Bolivia",
@@ -1444,7 +1459,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "Japan",
@@ -1459,7 +1474,7 @@
         "indigenous": 3,
         "trajectory": 2
       },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "North Macedonia",
@@ -1474,7 +1489,7 @@
         "indigenous": 2,
         "trajectory": 2
       },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "Serbia",
@@ -1489,7 +1504,7 @@
         "indigenous": 2,
         "trajectory": 2
       },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "South Africa",
@@ -1504,22 +1519,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 95
-    },
-    {
-      "name": "Zimbabwe",
-      "slug": "zimbabwe",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 9.0,
-      "sub_scores": {
-        "state": 2,
-        "non_state": 2,
-        "legal": 1,
-        "indigenous": 1,
-        "trajectory": 3
-      },
-      "rank": 95
+      "rank": 96
     },
     {
       "name": "Belgium",
@@ -1732,6 +1732,21 @@
       "rank": 102
     },
     {
+      "name": "Zimbabwe",
+      "slug": "zimbabwe",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 2
+      },
+      "rank": 102
+    },
+    {
       "name": "Argentina",
       "slug": "argentina",
       "tier": 5,
@@ -1744,7 +1759,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Australia",
@@ -1759,7 +1774,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Canada",
@@ -1774,7 +1789,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Chile",
@@ -1789,7 +1804,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Finland",
@@ -1804,7 +1819,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Gabon",
@@ -1819,7 +1834,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Greece",
@@ -1834,7 +1849,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Italy",
@@ -1849,7 +1864,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Liberia",
@@ -1864,7 +1879,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Madagascar",
@@ -1879,7 +1894,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Malawi",
@@ -1894,7 +1909,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Papua New Guinea",
@@ -1909,7 +1924,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Peru",
@@ -1924,7 +1939,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Sierra Leone",
@@ -1939,7 +1954,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 116
+      "rank": 117
     },
     {
       "name": "Austria",
@@ -1954,7 +1969,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Croatia",
@@ -1969,7 +1984,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Cyprus",
@@ -1984,7 +1999,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Czech Republic",
@@ -1999,7 +2014,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Denmark",
@@ -2014,7 +2029,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Estonia",
@@ -2029,7 +2044,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Hungary",
@@ -2044,7 +2059,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Ireland",
@@ -2059,7 +2074,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Latvia",
@@ -2074,7 +2089,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Lithuania",
@@ -2089,7 +2104,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "New Zealand",
@@ -2104,7 +2119,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Norway",
@@ -2119,7 +2134,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Poland",
@@ -2134,7 +2149,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Portugal",
@@ -2149,7 +2164,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Romania",
@@ -2164,7 +2179,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Slovakia",
@@ -2179,7 +2194,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Slovenia",
@@ -2194,7 +2209,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "South Korea",
@@ -2209,7 +2224,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Switzerland",
@@ -2224,7 +2239,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Taiwan",
@@ -2239,7 +2254,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Uruguay",
@@ -2254,7 +2269,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 130
+      "rank": 131
     },
     {
       "name": "Albania",
@@ -2269,7 +2284,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Andorra",
@@ -2284,7 +2299,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Antigua and Barbuda",
@@ -2299,7 +2314,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Barbados",
@@ -2314,7 +2329,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Belize",
@@ -2329,7 +2344,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Botswana",
@@ -2344,7 +2359,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Cabo Verde",
@@ -2359,7 +2374,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Costa Rica",
@@ -2374,7 +2389,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Dominica",
@@ -2389,7 +2404,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Fiji",
@@ -2404,7 +2419,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Grenada",
@@ -2419,7 +2434,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Guyana",
@@ -2434,7 +2449,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Iceland",
@@ -2449,7 +2464,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Jamaica",
@@ -2464,7 +2479,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Kiribati",
@@ -2479,7 +2494,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Lesotho",
@@ -2494,7 +2509,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Liechtenstein",
@@ -2509,7 +2524,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Luxembourg",
@@ -2524,7 +2539,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Malta",
@@ -2539,7 +2554,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Marshall Islands",
@@ -2554,7 +2569,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Mauritius",
@@ -2569,7 +2584,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Micronesia",
@@ -2584,7 +2599,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Monaco",
@@ -2599,7 +2614,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Namibia",
@@ -2614,7 +2629,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Nauru",
@@ -2629,7 +2644,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Palau",
@@ -2644,7 +2659,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Panama",
@@ -2659,7 +2674,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Paraguay",
@@ -2674,7 +2689,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Saint Kitts and Nevis",
@@ -2689,7 +2704,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Saint Lucia",
@@ -2704,7 +2719,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Saint Vincent and the Grenadines",
@@ -2719,7 +2734,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Samoa",
@@ -2734,7 +2749,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "San Marino",
@@ -2749,7 +2764,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Sao Tome and Principe",
@@ -2764,7 +2779,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Solomon Islands",
@@ -2779,7 +2794,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Suriname",
@@ -2794,7 +2809,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Timor-Leste",
@@ -2809,7 +2824,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Tonga",
@@ -2824,7 +2839,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Trinidad and Tobago",
@@ -2839,7 +2854,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Tuvalu",
@@ -2854,7 +2869,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     },
     {
       "name": "Vanuatu",
@@ -2869,7 +2884,7 @@
         "indigenous": 1,
         "trajectory": 1
       },
-      "rank": 151
+      "rank": 152
     }
   ]
 }
