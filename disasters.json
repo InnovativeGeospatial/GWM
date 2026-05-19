@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-19T00:37:05.796918+00:00",
-  "count": 297,
+  "updated": "2026-05-19T03:33:55.191553+00:00",
+  "count": 299,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4673,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-19-2026-magnitude-6/",
+      "date": "2026-05-19T03:33:31",
+      "title": "Earthquake in Vanuatu 05/19/2026 — Magnitude 6",
+      "body": "A magnitude 5.8 earthquake struck about 49 kilometers south-southwest of Port-Vila, the capital of Vanuatu, in the early morning hours of May 19, 2026. The quake occurred at a depth of about 37 kilometers beneath the seabed.\n\nVanuatu sits along the Pacific Ring of Fire and experiences frequent seismic activity. At this magnitude and depth, shaking would have been felt across the Port-Vila area, though early reports suggest the overall impact level was relatively low. A small number of residents reported feeling the tremor.\n\nNo tsunami warning information was included in the available source material. Authorities and residents in the region are likely monitoring conditions as details continue to emerge.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -17.731392,
+      "lng": 168.306222,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000synm",
+      "prayer": "residents of Port-Vila and surrounding communities as they assess any damage from this undersea earthquake"
+    },
+    {
+      "wp_id": 4672,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-19-2026-magnitude-5/",
+      "date": "2026-05-19T03:33:20",
+      "title": "Earthquake in Solomon Islands 05/19/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck about 83 kilometers west-northwest of Kirakira in the Solomon Islands on May 19, 2026. The quake originated about 82 kilometers underground, placing it in the deeper range where shaking is typically spread over a wider area but felt less intensely at the surface.\n\nNo damage or injuries have been reported at this time. At this depth, the risk of severe surface damage is generally lower than with shallow quakes, though residents in the region may still have felt noticeable shaking.\n\nThe Solomon Islands sit in one of the world's most seismically active zones, and earthquakes of this size are not uncommon in the area. Local communities are accustomed to regular seismic activity, but each event serves as a reminder of the region's vulnerability.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000synu",
+      "prayer": "communities near Kirakira and surrounding villages who may have felt this earthquake"
+    },
     {
       "wp_id": 4656,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-china/",
