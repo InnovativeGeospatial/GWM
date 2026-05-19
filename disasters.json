@@ -1,9 +1,80 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-18T12:47:21.956254+00:00",
-  "count": 294,
+  "updated": "2026-05-19T00:37:05.796918+00:00",
+  "count": 297,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4656,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china/",
+      "date": "2026-05-19T00:36:54",
+      "title": "Flood in China",
+      "body": "Heavy rain struck central and eastern China over the weekend, triggering dangerous flooding across several provinces. In the southwestern region of Guangxi, a pickup truck carrying 15 passengers fell into a flooded river, killing four people and leaving six others missing. Rescue teams were searching for the missing as more heavy rain was expected to move eastward and southward over the following days.\n\nAlso in Guangxi, a magnitude 5 earthquake struck near the city of Liuzhou, killing two people and forcing more than 7,000 residents to evacuate. Authorities released emergency relief supplies to help with both the flood and earthquake response.\n\nIn Hubei province, the city of Jingzhou declared an emergency and suspended work and business activities. Nearby Yichang saw its heaviest single-day rainfall in 36 years. Officials warned of growing risks from flash floods, river flooding, and waterlogged cities, and closed tourist sites and outdoor school activities as a precaution.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 23.657149,
+      "lng": 108.712813,
+      "source_title": "hindustantimes.com",
+      "source_url": "https://www.hindustantimes.com/world-news/china-people-missing-truck-falls-into-river-heavy-rain-guangxi-101779094463909.html",
+      "prayer": "the four who were killed, the six still missing, and rescuers working through dangerous floodwaters to find them"
+    },
+    {
+      "wp_id": 4655,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-mexico/",
+      "date": "2026-05-19T00:36:40",
+      "title": "Other in Mexico",
+      "body": "A new report from the World Meteorological Organization warns that record-breaking heat, deadly floods, worsening drought, and stronger hurricanes are putting millions of people across Latin America and the Caribbean at serious risk. The findings point to growing threats to food supplies, safe water access, and stable housing across the region.\n\nCommunities are facing a combination of disasters at once — some areas baking under extreme heat while others are overwhelmed by flooding or dry spells that are lasting longer than usual. Hurricanes in the region are also intensifying, adding to the danger.\n\nThe report underscores that these are not isolated events. Across the region, ordinary people are struggling to meet basic needs as weather extremes become more frequent and more severe. Aid organizations and local communities are under increasing pressure to respond.",
+      "country": "Mexico",
+      "countries": [
+        "Mexico",
+        "Guatemala",
+        "Honduras",
+        "El Salvador",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama",
+        "Colombia",
+        "Venezuela",
+        "Ecuador",
+        "Peru",
+        "Bolivia",
+        "Brazil",
+        "Chile",
+        "Argentina",
+        "Uruguay",
+        "Paraguay",
+        "Cuba",
+        "Haiti",
+        "Dominican Republic",
+        "Jamaica"
+      ],
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167537",
+      "prayer": "millions of people across Latin America and the Caribbean facing hunger, displacement, and water shortages due to worsening extreme weather"
+    },
+    {
+      "wp_id": 4654,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-18-2026-magnitude-5/",
+      "date": "2026-05-19T00:35:35",
+      "title": "Earthquake in United States 05/18/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck in the waters about 168 kilometers east of Atka, Alaska on May 18, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at the ground level compared to deeper earthquakes.\n\nAtka is a small, remote community located in the Aleutian Islands, a seismically active chain of islands stretching across the North Pacific. The area sits along one of the world's most active earthquake zones.\n\nNo damage reports or injuries were mentioned in the available information. Given the earthquake's moderate size and its location well offshore from an already sparsely populated area, widespread impact is considered limited.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.198511,
+      "lng": -174.198234,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sym0",
+      "prayer": "communities in Alaska's remote Aleutian Islands who experience frequent seismic activity far from emergency services"
+    },
     {
       "wp_id": 3601,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-magnitude-5-3/",
