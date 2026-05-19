@@ -110,7 +110,7 @@
   }
 
   function fetchEvents() {
-    var url = JSON_FEED_URL + "?nocache=" + Date.now();
+    var url = JSON_FEED_URL + "?nocache=" + Date.now() + "&rand=" + Math.random().toString(36).slice(2);
     return fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
 
       .then(function (r) {
