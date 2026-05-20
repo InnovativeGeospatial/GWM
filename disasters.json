@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-19T03:33:55.191553+00:00",
-  "count": 299,
+  "updated": "2026-05-20T00:12:32.123540+00:00",
+  "count": 301,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4678,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-19-2026-magnitude-5/",
+      "date": "2026-05-20T00:11:32",
+      "title": "Earthquake in Papua New Guinea 05/19/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 79 kilometers south-southeast of Kimbe, Papua New Guinea on May 19, 2026. The quake had a magnitude of 4.7 and occurred at a depth of about 60 kilometers beneath the surface.\n\nAt that depth, shaking at the surface is generally less intense than a shallower quake of the same size, though people in nearby communities may still have felt it. No damage or casualties have been reported in the available information.\n\nPapua New Guinea sits in one of the world's most seismically active regions, and earthquakes in this area are common. Those serving or living in the region around Kimbe are encouraged to stay aware of local conditions and official guidance.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -5.545937,
+      "lng": 150.142797,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syqy",
+      "prayer": "communities near Kimbe and surrounding areas as they assess any impact from this earthquake"
+    },
+    {
+      "wp_id": 4677,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-19-2026-magnitude-5/",
+      "date": "2026-05-20T00:10:44",
+      "title": "Earthquake in Japan 05/19/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 25 kilometers northwest of Takayama, Japan on May 19, 2026. The quake was very deep — roughly 262 kilometers below the surface — which typically means shaking is felt over a wide area but is less intense at ground level than a shallower quake of the same size.\n\nNo damage or injuries have been reported from this event. Deep earthquakes like this one rarely cause significant harm, though residents in the region may have felt light to moderate shaking.\n\nTakayama is a historic city in the mountainous Gifu Prefecture of central Japan. Japan sits on one of the most seismically active regions in the world, and small to moderate earthquakes are common throughout the country.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 36.142757,
+      "lng": 137.2562,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syva",
+      "prayer": "people near Takayama who felt this quake, and for their safety and peace of mind"
+    },
     {
       "wp_id": 4673,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-19-2026-magnitude-6/",
