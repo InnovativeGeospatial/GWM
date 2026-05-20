@@ -631,6 +631,14 @@ def save_seen(seen):
     with open(SEEN_FILE, "w") as f:
         json.dump(seen_list, f)
 
+def purge_jsdelivr(filename):
+    try:
+        url = "https://purge.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/" + filename
+        r = requests.get(url, timeout=20)
+        log.info("jsDelivr purge %s -> %s", filename, r.status_code)
+    except Exception as e:
+        log.warning("jsDelivr purge failed for %s: %s", filename, e)
+
 
 def article_hash(url, title):
     return hashlib.md5((url + title).encode()).hexdigest()
@@ -1315,8 +1323,10 @@ def main():
                         "prayer": prayer,
                     }
                     try:
-                        gwm_json_writer.write_event(FEED_NAME, event)
-                        json_writes += 1
+                   
+                      gwm_json_writer.write_event(FEED_NAME, event)
+                      
+                      json_writes += 1
                     except Exception as e:
                         log.error("JSON write_event failed for %s: %s",
                                   item["title"][:60], e)
@@ -1331,19 +1341,21 @@ def main():
             continue
 
     save_seen(seen)
+        if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
+            try:
+                log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
+                written = gwm_json_writer.finalize(FEED_NAME)
+                log.info("JSON feed updated: active=%s archives=%s",
+                         written.get("active"),
+                         ",".join(written.get("archives", [])))
+                purge_jsdelivr("disasters.json")
+            except Exception as e:
+                log.error("JSON finalize failed: %s", e)
+    
+        log.info("=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===",
+                 published, skipped, json_writes, len(candidates))
 
-    if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
-        try:
-            log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
-            written = gwm_json_writer.finalize(FEED_NAME)
-            log.info("JSON feed updated: active=%s archives=%s",
-                     written.get("active"),
-                     ",".join(written.get("archives", [])))
-        except Exception as e:
-            log.error("JSON finalize failed: %s", e)
 
-    log.info("=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===",
-             published, skipped, json_writes, len(candidates))
 
 
 if __name__ == "__main__":
