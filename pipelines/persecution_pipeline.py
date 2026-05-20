@@ -278,17 +278,33 @@ def purge_jsdelivr(filename):
         print("jsDelivr purge failed for " + filename + ": " + str(e))
 
 
+_PRAYER_SENTENCE_STARTERS = (
+    "may ", "lord", "father", "god ", "pray", "let ", "grant ",
+    "we pray", "we ask", "we lift", "we intercede", "we plead",
+    "protect ", "comfort ", "sustain ", "bring ", "heal ", "raise ",
+    "strengthen ", "give ", "send ", "uphold ", "watch over",
+)
+
+
 def _prayer_with_for(text):
-    """Ensure the prayer phrase begins with 'for ' so it reads naturally
-    after the 'Prayer:' label, e.g. 'Prayer: for the families ...'."""
+    """Normalize the prayer phrase to read naturally after 'Prayer:'.
+
+    The persecution prompt asks Claude for a noun phrase, so the usual
+    result is e.g. 'the families of those killed' -> 'for the families ...'.
+    As a safety net, if Claude ignores the instruction and writes a full
+    sentence ('May God sustain ...', 'Lord, intervene ...'), prepending
+    'for' would be ungrammatical -- so in that case the text is returned
+    unchanged."""
     if not text:
         return text
     t = text.strip()
     low = t.lower()
-    if low.startswith("for "):
+    if low.startswith("for ") or low.startswith("that "):
         return t
-    if low.startswith("that "):
-        return t
+    # Full-sentence / imperative prayer -> do not prepend 'for'
+    for starter in _PRAYER_SENTENCE_STARTERS:
+        if low.startswith(starter):
+            return t
     return "for " + t[0].lower() + t[1:]
 
 
@@ -563,7 +579,7 @@ def generate_article(article):
         'PARA: <first paragraph - what happened>\n'
         'PARA: <second paragraph - context, details, or pattern>\n'
         'PARA: <third paragraph - additional context, OPTIONAL>\n'
-        'PRAYER: <one short prayer sentence; do NOT start with the word Pray; just write what should be prayed for>\n'
+        'PRAYER: <one short prayer prompt as a noun phrase; do NOT write a full sentence; do NOT start with a verb or with words like May, Lord, Pray, Let, Grant; just name what should be prayed for, e.g. "the families of those killed and an end to the violence" or "protection for converts who face reprisal">\n'
         'HEADLINE: <short descriptive headline, no personal names>\n\n'
         'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER: section.\n\n'
         'COUNTRY rules:\n'
@@ -588,7 +604,7 @@ def generate_article(article):
         '- No headers or sections inside paragraphs\n'
         '- Never repeat the same point twice\n'
         '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
-        '- PRAYER: line should be a single specific prayer point related to this story\n\n'
+        '- PRAYER: line should be a short noun phrase naming a specific prayer point, not a full sentence\n\n'
         'SOURCE: ' + article['source'] + '\n'
         'TITLE: ' + article['title'] + '\n\n'
         + body_section +
