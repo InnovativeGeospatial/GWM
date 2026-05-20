@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-20T14:37:55.063442+00:00",
-  "count": 303,
+  "updated": "2026-05-20T21:06:15.166151+00:00",
+  "count": 305,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4750,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-turkey-magnitude-6/",
+      "date": "2026-05-20T21:06:03",
+      "title": "Earthquake in Turkey — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck the Battalgazi district of Malatya province in southeastern Turkey on a Wednesday morning. The quake was shallow, about 7 kilometers deep, and sent residents rushing outdoors in panic. Schools were evacuated and remained closed for the rest of the day across Malatya and several neighboring provinces, including Adiyaman, Elazig, Tunceli, and Sanliurfa.\n\nAt least 74 people sought medical care. About half were treated for panic-related complaints or minor injuries and discharged; 18 remained in hospital for observation. Authorities continued inspecting the area for structural damage.\n\nThe tremor hit a region that was devastated just over two years ago by two powerful earthquakes — both above magnitude 7 — on February 6, 2023. Those quakes killed more than 55,000 people in Turkey and thousands more in neighboring Syria, leaving communities across 11 provinces still in recovery.",
+      "country": "Turkey",
+      "countries": [
+        "Turkey"
+      ],
+      "type": "Earthquake",
+      "lat": null,
+      "lng": null,
+      "source_title": "al-monitor.com",
+      "source_url": "https://www.al-monitor.com/originals/2026/05/quake-hits-turkeys-malatya-reviving-fear-2023-disaster-zone",
+      "prayer": "the injured and traumatized residents of Malatya, and all those still living with the wounds of the 2023 disaster"
+    },
+    {
+      "wp_id": 4749,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-20-2026-magnitude-5/",
+      "date": "2026-05-20T21:05:22",
+      "title": "Earthquake in Vanuatu 05/20/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 25 kilometers northeast of Isangel, on Tanna Island in Vanuatu, on May 20, 2026. The quake originated very deep underground — about 260 kilometers down — which typically reduces the amount of shaking felt at the surface.\n\nAt that depth, serious surface damage is less likely than with shallower earthquakes of similar size. However, Vanuatu sits in one of the world's most active seismic zones, and communities there are accustomed to frequent tremors.\n\nNo damage or injuries were reported in the available information.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -19.541086,
+      "lng": 169.281088,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz0k",
+      "prayer": "communities near Isangel and across Tanna Island as they assess any effects from this tremor"
+    },
     {
       "wp_id": 4716,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-19-2026-magnitude-6-2/",
