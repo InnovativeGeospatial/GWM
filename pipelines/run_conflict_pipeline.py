@@ -1142,7 +1142,7 @@ if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
         log.error("JSON finalize failed: %s", e)
 
     log.info('=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===',
-             published, skipped, json_writes, len(candidates)). 
+             published, skipped, json_writes, len(candidates))
 
 
 if __name__ == '__main__':
