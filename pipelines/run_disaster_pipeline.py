@@ -1323,10 +1323,8 @@ def main():
                         "prayer": prayer,
                     }
                     try:
-                   
-                      gwm_json_writer.write_event(FEED_NAME, event)
-                      
-                      json_writes += 1
+                        gwm_json_writer.write_event(FEED_NAME, event)
+                        json_writes += 1
                     except Exception as e:
                         log.error("JSON write_event failed for %s: %s",
                                   item["title"][:60], e)
@@ -1341,19 +1339,20 @@ def main():
             continue
 
     save_seen(seen)
-if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
-    try:
-        log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
-        written = gwm_json_writer.finalize(FEED_NAME)
-        log.info("JSON feed updated: active=%s archives=%s",
-                 written.get("active"),
-                 ",".join(written.get("archives", [])))
-        purge_jsdelivr("disasters.json")
-    except Exception as e:
-        log.error("JSON finalize failed: %s", e)
+
+    if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
+        try:
+            log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
+            written = gwm_json_writer.finalize(FEED_NAME)
+            log.info("JSON feed updated: active=%s archives=%s",
+                     written.get("active"),
+                     ",".join(written.get("archives", [])))
+            purge_jsdelivr("disasters.json")
+        except Exception as e:
+            log.error("JSON finalize failed: %s", e)
 
     log.info("=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===",
-                 published, skipped, json_writes, len(candidates))
+             published, skipped, json_writes, len(candidates))
 
 
 
