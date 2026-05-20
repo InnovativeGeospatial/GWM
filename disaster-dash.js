@@ -10,7 +10,7 @@
   // Switched from jsDelivr to raw GitHub. Raw GitHub respects no-cache headers
   // and edge-propagates within ~5 min. jsDelivr was caching for hours.
   var JSON_FEED_URL  = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/disasters.json";
-  var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
+  var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=500&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var FLAG_BASE      = "https://flagcdn.com/24x18/";
   var SPREAD_KM      = 5;
 
