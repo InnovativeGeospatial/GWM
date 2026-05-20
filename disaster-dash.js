@@ -1,6 +1,6 @@
 /* ============================================================================
    GWM Disaster Dashboard -- JSON feed edition
-   Reads from: raw.githubusercontent.com (was jsDelivr; switched for fresh data)
+   Reads from: jsDelivr CDN. Pipeline purges jsDelivr after each run.
    No 100-event cap. Falls back to WP REST if JSON feed is unreachable.
    ============================================================================ */
 (function () {
@@ -9,8 +9,8 @@
   // -- Config --
   // Switched from jsDelivr to raw GitHub. Raw GitHub respects no-cache headers
   // and edge-propagates within ~5 min. jsDelivr was caching for hours.
-  var JSON_FEED_URL  = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/disasters.json";
-  var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=500&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
+  var JSON_FEED_URL  = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/disasters.json";
+  var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var FLAG_BASE      = "https://flagcdn.com/24x18/";
   var SPREAD_KM      = 5;
 
@@ -110,9 +110,7 @@
   }
 
   function fetchEvents() {
-    var url = JSON_FEED_URL + "?nocache=" + Date.now() + "&rand=" + Math.random().toString(36).slice(2);
-    return fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
-
+    return fetch(JSON_FEED_URL, { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
         return r.json();
