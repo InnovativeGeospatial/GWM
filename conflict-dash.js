@@ -138,7 +138,7 @@
   }
 
   function fetchEvents() {
-    return fetch(JSON_FEED_URL, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
+    return fetch(JSON_FEED_URL, { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
         return r.json();
@@ -187,7 +187,7 @@
   }
 
   function loadAdvisories() {
-    fetch(ADVISORY_URL, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
+    fetch(ADVISORY_URL, { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (payload) {
         renderAdvisories(payload.advisories || []);
