@@ -325,7 +325,14 @@ def save_seen(seen):
     seen_list = list(seen)[-2000:]
     with open(SEEN_FILE, 'w') as f:
         json.dump(seen_list, f)
-
+      
+def purge_jsdelivr(filename):
+    try:
+        url = "https://purge.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/" + filename
+        r = requests.get(url, timeout=20)
+        log.info("jsDelivr purge %s -> %s", filename, r.status_code)
+    except Exception as e:
+        log.warning("jsDelivr purge failed for %s: %s", filename, e)
 
 def article_hash(url, title):
     return hashlib.md5((url + title).encode()).hexdigest()
@@ -1123,18 +1130,19 @@ def main():
 
     save_seen(seen)
 
-    if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
+   if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
         try:
             log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
             written = gwm_json_writer.finalize(FEED_NAME)
             log.info("JSON feed updated: active=%s archives=%s",
                      written.get("active"),
                      ",".join(written.get("archives", [])))
+            purge_jsdelivr("conflict.json")
         except Exception as e:
             log.error("JSON finalize failed: %s", e)
 
     log.info('=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===',
-             published, skipped, json_writes, len(candidates))
+             published, skipped, json_writes, len(candidates))solve 1 and 2. 
 
 
 if __name__ == '__main__':
