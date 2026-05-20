@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-20T00:12:32.123540+00:00",
-  "count": 301,
+  "updated": "2026-05-20T14:37:55.063442+00:00",
+  "count": 303,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4716,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-19-2026-magnitude-6-2/",
+      "date": "2026-05-20T14:36:59",
+      "title": "Earthquake in Vanuatu 05/19/2026 — Magnitude 6",
+      "body": "A moderate earthquake struck about 51 kilometers southwest of Port-Vila, the capital of Vanuatu, on May 19, 2026. The quake had a magnitude of 5.7 and was centered about 27 kilometers below the surface — a relatively shallow depth that can make shaking more noticeable at ground level.\n\nVanuatu sits along one of the most seismically active zones in the Pacific, and earthquakes of this size are not uncommon in the region. A small number of people reported feeling the shaking, though no major damage or casualties have been confirmed from this event.\n\nResidents in and around Port-Vila are encouraged to stay alert, as aftershocks can follow moderate earthquakes in this part of the world.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -17.731392,
+      "lng": 168.306222,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000synm",
+      "prayer": "communities near Port-Vila as they check for damage and anyone affected by this tremor"
+    },
+    {
+      "wp_id": 4715,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-20-2026-magnitude-5/",
+      "date": "2026-05-20T14:35:34",
+      "title": "Earthquake in Indonesia 05/20/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck the sea about 131 kilometers west-northwest of Ternate, Indonesia on May 20, 2026. The quake occurred at a depth of about 54 kilometers beneath the seafloor.\n\nAt this size and distance from shore, significant damage is unlikely, though residents in the area may have felt some shaking. Ternate is a densely populated island city in the North Maluku province, known for its position near active tectonic fault zones.\n\nNo reports of damage or casualties were immediately available from the source material. The region regularly experiences seismic activity due to its location along major tectonic plate boundaries in the western Pacific.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 0.78721,
+      "lng": 127.381386,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syyd",
+      "prayer": "communities near Ternate and surrounding islands, that any damage would be minimal and people would be safe"
+    },
     {
       "wp_id": 4678,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-19-2026-magnitude-5/",
