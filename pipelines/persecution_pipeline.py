@@ -267,6 +267,13 @@ def save_seen(seen):
     with open(SEEN_FILE, 'w') as f:
         json.dump(list(seen), f)
 
+def purge_jsdelivr(filename):
+    try:
+        url = "https://purge.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/" + filename
+        r = requests.get(url, timeout=20)
+        print("jsDelivr purge " + filename + " -> " + str(r.status_code))
+    except Exception as e:
+        print("jsDelivr purge failed for " + filename + ": " + str(e))
 
 def article_hash(title):
     return hashlib.md5(title.lower().strip()[:100].encode()).hexdigest()
