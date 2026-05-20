@@ -829,15 +829,16 @@ def run():
         except Exception as e:
             print('Error: ' + str(e))
     save_seen(seen)
-
-    if JSON_WRITER_AVAILABLE and json_writes > 0:
-        try:
-            print('Pushing ' + str(json_writes) + ' new events to GitHub JSON feeds...')
-            written = gwm_json_writer.finalize(FEED_NAME)
-            print('JSON feed updated: active=' + str(written.get('active')) +
-                  ' archives=' + ','.join(written.get('archives', [])))
-        except Exception as e:
-            print('JSON finalize failed: ' + str(e))
+        
+        if JSON_WRITER_AVAILABLE and json_writes > 0:
+              try:
+                  print('Pushing ' + str(json_writes) + ' new events to GitHub JSON feeds...')
+                  written = gwm_json_writer.finalize(FEED_NAME)
+                  print('JSON feed updated: active=' + str(written.get('active')) +
+                        ' archives=' + ','.join(written.get('archives', [])))
+                  purge_jsdelivr("persecution.json")
+              except Exception as e:
+                  print('JSON finalize failed: ' + str(e))
 
     print('=== Done. Published: ' + str(published) +
           ' Judged-NO: ' + str(judged_no) +
