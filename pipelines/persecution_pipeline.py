@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-Global Witness Monitor -- Persecution Pipeline v4
+Global Witness Monitor -- Persecution Pipeline v5
 
-Changes from v3:
-- Token-delimited output. Claude now returns body sections as
-  "PARA: <text>" and "PRAYER: <text>" and "HEADLINE: <text>" on their own
-  lines. The post-processor splits on these tokens rather than on blank
-  lines, which v3 couldn't reliably enforce. Bulletproof against Claude
-  collapsing whitespace.
-- "Prayer:" line treatment. The final paragraph is wrapped in
-  <p class="gwm-prayer-line"><strong>Prayer:</strong> ...</p> so the
-  WordPress site can style it distinctly via CSS.
-- Fallback: if Claude ignores PARA tokens and returns one block, the
-  pipeline sentence-splits into two paragraphs as a safety net.
+Changes from v4:
+- PRAYER token parsing fixed. v4's parse_tokenized_body() regex matched
+  only "PRAY:" but the prompt instructs Claude to emit "PRAYER:". The
+  PRAYER line was therefore swallowed into the preceding PARA, leaving the
+  JSON feed "prayer" field empty. The regex now matches PRAYER or PRAY.
+- Prayer phrasing. The prayer is normalized to begin with "for " (via
+  _prayer_with_for) so it reads naturally after the "Prayer:" label, e.g.
+  "Prayer: for the families ...".
+- "Prayer:" label is now <em> (italic) instead of <strong>, matching the
+  conflict pipeline.
+- JSON feed "body" is html.unescape()'d so &#8217; etc. do not leak into
+  the dashboard.
 """
 
 import os
@@ -267,6 +268,7 @@ def save_seen(seen):
     with open(SEEN_FILE, 'w') as f:
         json.dump(list(seen), f)
 
+
 def purge_jsdelivr(filename):
     try:
         url = "https://purge.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/" + filename
@@ -274,6 +276,21 @@ def purge_jsdelivr(filename):
         print("jsDelivr purge " + filename + " -> " + str(r.status_code))
     except Exception as e:
         print("jsDelivr purge failed for " + filename + ": " + str(e))
+
+
+def _prayer_with_for(text):
+    """Ensure the prayer phrase begins with 'for ' so it reads naturally
+    after the 'Prayer:' label, e.g. 'Prayer: for the families ...'."""
+    if not text:
+        return text
+    t = text.strip()
+    low = t.lower()
+    if low.startswith("for "):
+        return t
+    if low.startswith("that "):
+        return t
+    return "for " + t[0].lower() + t[1:]
+
 
 def article_hash(title):
     return hashlib.md5(title.lower().strip()[:100].encode()).hexdigest()
@@ -597,7 +614,12 @@ def is_refusal(text):
 
 
 def parse_tokenized_body(body_text):
-    """Parse PARA: / PRAYER: / HEADLINE: tokenized response into clean fields."""
+    """Parse PARA: / PRAYER: / HEADLINE: tokenized response into clean fields.
+
+    v5: the token regex now matches PRAYER as well as PRAY. v4 matched only
+    PRAY, so a 'PRAYER:' line fell through and was appended to the preceding
+    PARA, leaving the prayer field empty.
+    """
     out = {'paragraphs': [], 'prayer': '', 'headline': None}
     if not body_text:
         return out
@@ -615,8 +637,8 @@ def parse_tokenized_body(body_text):
             return
         if current_label == 'PARA':
             out['paragraphs'].append(text)
-        elif current_label == 'PRAY':
-            text = re.sub(r'^pray[:\s]+(that\s+)?', '', text, flags=re.IGNORECASE)
+        elif current_label == 'PRAYER':
+            text = re.sub(r'^pray(?:er)?[:\s]+(that\s+)?', '', text, flags=re.IGNORECASE)
             text = re.sub(r'^that\s+', '', text, flags=re.IGNORECASE)
             out['prayer'] = text
         elif current_label == 'HEADLINE':
@@ -624,10 +646,14 @@ def parse_tokenized_body(body_text):
 
     for line in lines:
         stripped = line.strip()
-        m = re.match(r'^(PARA|PRAY|HEADLINE)\s*:\s*(.*)$', stripped, re.IGNORECASE)
+        m = re.match(r'^(PARA|PRAYER|PRAY|HEADLINE)\s*:\s*(.*)$', stripped, re.IGNORECASE)
         if m:
             flush()
-            current_label = m.group(1).upper()
+            label = m.group(1).upper()
+            # normalize PRAY -> PRAYER so both map to the prayer field
+            if label == 'PRAY':
+                label = 'PRAYER'
+            current_label = label
             current_buf = [m.group(2)]
         else:
             if current_label is not None:
@@ -656,7 +682,10 @@ def split_into_paragraphs_fallback(text, target_paragraphs=2):
 
 
 def format_body_for_wordpress(paragraphs, prayer):
-    """Build the final WordPress HTML body from clean paragraph list + prayer."""
+    """Build the final WordPress HTML body from clean paragraph list + prayer.
+
+    v5: 'Prayer:' label is <em> (italic) to match the conflict pipeline, and
+    the prayer text is normalized to begin with 'for '."""
     parts = []
     for p in paragraphs:
         if not p:
@@ -667,8 +696,9 @@ def format_body_for_wordpress(paragraphs, prayer):
     if prayer:
         pr_clean = html.unescape(prayer).strip()
         pr_clean = re.sub(r'\s+', ' ', pr_clean)
+        pr_clean = _prayer_with_for(pr_clean)
         parts.append(
-            '<p class="gwm-prayer-line"><strong>Prayer:</strong> ' + pr_clean + '</p>'
+            '<p class="gwm-prayer-line"><em>Prayer:</em> ' + pr_clean + '</p>'
         )
     return '\n\n'.join(parts)
 
@@ -714,7 +744,7 @@ def publish_to_wordpress(article, headline, formatted_body):
 
 
 def run():
-    print('=== Global Witness Monitor - Persecution Pipeline v4 ===')
+    print('=== Global Witness Monitor - Persecution Pipeline v5 ===')
     if not JSON_WRITER_AVAILABLE:
         print('WARNING: gwm_json_writer.py not found alongside this script - '
               'JSON feeds will NOT be updated. Dashboard will not show new events.')
@@ -806,12 +836,14 @@ def run():
                         post_id = result.get('id')
                         post_link = result.get('link')
                         post_date = result.get('date_gmt') or result.get('date') or ''
+                        feed_prayer = _prayer_with_for(
+                            html.unescape(prayer).strip()) if prayer else ''
                         event = {
                             'wp_id': post_id,
                             'wp_link': post_link,
                             'date': post_date or datetime.now(timezone.utc).isoformat(),
                             'title': headline or article['title'],
-                            'body': formatted_body,
+                            'body': html.unescape(formatted_body),
                             'country': primary,
                             'countries': parsed['countries'],
                             'type': article['incident_type'],
@@ -819,7 +851,7 @@ def run():
                             'lng': article['lng'],
                             'source_title': article.get('source', ''),
                             'source_url': article.get('link', ''),
-                            'prayer': prayer,
+                            'prayer': feed_prayer,
                         }
                         gwm_json_writer.write_event(FEED_NAME, event)
                         json_writes += 1
