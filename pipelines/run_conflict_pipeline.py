@@ -846,24 +846,18 @@ def build_title(parsed, item):
     countries = parsed.get("countries") or []
     country = countries[0] if countries else (item.get("country") or "")
     location = (parsed.get("location") or "").strip()
-    event_date_us = _to_us_date(parsed.get("event_date"))
-    if not event_date_us:
-        event_date_us = _to_us_date(item.get("published"))
+    has_location = bool(location) and location.upper() != "UNKNOWN"
 
-    parts = []
-    if etype_display and country:
-        parts.append(etype_display)
-        parts.append("in " + country)
-    elif etype_display:
-        parts.append(etype_display)
-    elif country:
-        parts.append(country)
-    if event_date_us:
-        parts.append(event_date_us)
-    base = " ".join(parts)
-    if location and location.upper() != "UNKNOWN":
-        base += " \u2014 " + location
-    return base
+    # Title format: "<EventType> in <Location>". No date.
+    # Falls back to country when no specific location is named.
+    place = location if has_location else country
+    if etype_display and place:
+        return etype_display + " in " + place
+    if etype_display:
+        return etype_display
+    if place:
+        return place
+    return "Conflict Report"
 
 
 def sanitize_title(title):
@@ -876,6 +870,20 @@ def sanitize_title(title):
     if t:
         t = t[0].upper() + t[1:]
     return t
+
+
+def _prayer_with_for(text):
+    """Ensure the prayer phrase begins with 'for ' so it reads naturally
+    after the 'Prayer:' label, e.g. 'Prayer: for the families ...'."""
+    if not text:
+        return text
+    t = text.strip()
+    low = t.lower()
+    if low.startswith("for "):
+        return t
+    if low.startswith("that "):
+        return t
+    return "for " + t[0].lower() + t[1:]
 
 
 def format_body_for_wordpress(body_text, prayer=""):
@@ -895,8 +903,9 @@ def format_body_for_wordpress(body_text, prayer=""):
     if prayer:
         pr = html.unescape(prayer).strip()
         pr = re.sub(r"\s+", " ", pr)
+        pr = _prayer_with_for(pr)
         cleaned.append(
-            '<p class="gwm-prayer-line"><strong>Prayer:</strong> ' + pr + '</p>'
+            '<p class="gwm-prayer-line"><em>Prayer:</em> ' + pr + '</p>'
         )
     return "\n\n".join(cleaned)
 
@@ -1098,12 +1107,14 @@ def main():
                     etype = parsed.get("event_type", "Other") if parsed else "Other"
                     prayer = parsed.get("prayer", "") if parsed else ""
                     structured_title = build_title(parsed, item) if parsed else item['title']
+                    feed_body = html.unescape(article_body or "")
+                    feed_prayer = _prayer_with_for(html.unescape(prayer or "").strip()) if prayer else ""
                     event = {
                         "wp_id": post_id,
                         "wp_link": post_link,
                         "date": post_date or datetime.now(timezone.utc).isoformat(),
                         "title": sanitize_title(structured_title),
-                        "body": article_body,
+                        "body": feed_body,
                         "country": countries[0] if countries else "",
                         "countries": countries,
                         "type": etype,
@@ -1111,7 +1122,7 @@ def main():
                         "lng": lng,
                         "source_title": item.get("source", ""),
                         "source_url": item.get("url", ""),
-                        "prayer": prayer,
+                        "prayer": feed_prayer,
                     }
                     try:
                         gwm_json_writer.write_event(FEED_NAME, event)
