@@ -1,15 +1,16 @@
 /* =====================================================================
  * GWM Conflict & Unrest Dashboard -- JSON feed edition
- * Reads from: raw.githubusercontent.com (was jsDelivr; switched for fresh data)
+ * Reads from: jsDelivr CDN. Pipeline purges jsDelivr after each run.
+ * No ?nocache query string -- jsDelivr /gh/ URLs reject query strings.
  * No 100-event cap. Falls back to WP REST if JSON feed unreachable.
- * Travel advisories also moved to raw GitHub.
  * ===================================================================== */
 (function () {
   "use strict";
 
   // -- Config --
-  // Switched from jsDelivr to raw GitHub. Raw respects no-cache headers and
-  // edge-propagates within ~5 min. jsDelivr was caching for hours.
+  // Feeds served from jsDelivr. The pipeline purges jsDelivr after each
+  // run so the CDN serves fresh data within minutes. Do NOT append a
+  // query string to jsDelivr /gh/ URLs -- it causes a 404.
   var JSON_FEED_URL = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json";
   var WP_FALLBACK   = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var ADVISORY_URL  = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/travel_advisories.json";
@@ -131,15 +132,13 @@
 
   function flagHTML(country) {
     var iso = COUNTRY_ISO2[countryKey(country)];
-    if (!iso) return '<span class="c-country-flag">🌍</span>';
+    if (!iso) return '<span class="c-country-flag">\uD83C\uDF0D</span>';
     return '<img class="c-country-flag" src="' + FLAG_BASE + iso + '.png" ' +
            'alt="" style="width:18px;height:13px;border-radius:2px;vertical-align:middle;">';
   }
 
   function fetchEvents() {
-    var url = JSON_FEED_URL + "?nocache=" + Date.now();
-    return fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
-
+    return fetch(JSON_FEED_URL, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
       .then(function (r) {
         if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
         return r.json();
@@ -188,8 +187,7 @@
   }
 
   function loadAdvisories() {
-    var url = ADVISORY_URL + "?nocache=" + Date.now();
-    fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
+    fetch(ADVISORY_URL, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (payload) {
         renderAdvisories(payload.advisories || []);
@@ -249,7 +247,7 @@
     var html = events.slice(0, 300).map(function (e) {
       var color = colorForType(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
-      if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "…";
+      if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "\u2026";
       var ago = timeAgo(e.date);
 
       return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener' style='display:flex;text-decoration:none;color:inherit;'>" +
@@ -280,7 +278,7 @@
       return "<span class='c-ticker-item'>" +
              flagHTML(e.country) +
              "<span>" + escHtml(e.country || "") + "</span>" +
-             "<span class='c-ticker-sep'>·</span>" +
+             "<span class='c-ticker-sep'>\u00b7</span>" +
              "<span>" + escHtml(title) + "</span>" +
              "</span>";
     });
@@ -289,7 +287,7 @@
     var SPEED_PX_PER_SEC = 250;
 
     if (items.length < MIN_ITEMS_FOR_SCROLL) {
-      node.innerHTML = items.join("<span class='c-ticker-sep'>·</span>");
+      node.innerHTML = items.join("<span class='c-ticker-sep'>\u00b7</span>");
       node.style.setProperty("animation", "none", "important");
       node.style.setProperty("transform", "none", "important");
       var parent = node.parentElement;
@@ -328,7 +326,7 @@
       attributionControl: false
     });
     cMap.addControl(new maplibregl.AttributionControl({
-      customAttribution: '© <a href="https://carto.com" style="color:#555">CARTO</a>',
+      customAttribution: '\u00a9 <a href="https://carto.com" style="color:#555">CARTO</a>',
       compact: true
     }), "bottom-right");
 
@@ -471,7 +469,7 @@
   function showPopup(coords, props) {
     var typeLabel = displayTypeLabel(props.type);
     var headerLine = typeLabel
-      ? escHtml(typeLabel) + ' · ' + escHtml(props.country)
+      ? escHtml(typeLabel) + ' \u00b7 ' + escHtml(props.country)
       : escHtml(props.country);
     new maplibregl.Popup({ closeButton:false, offset:12 })
       .setLngLat(coords)
@@ -484,7 +482,7 @@
           escHtml(props.title) +
         '</div>' +
         '<a href="' + escHtml(props.link) + '" target="_blank" rel="noopener" ' +
-        'style="font-size:11px;color:#ef4444;text-decoration:none;">Read full report →</a>' +
+        'style="font-size:11px;color:#ef4444;text-decoration:none;">Read full report \u2192</a>' +
         '</div>'
       )
       .addTo(cMap);
