@@ -8,6 +8,7 @@ Changes from v5:
   of the article body: <p class="gwm-prayer-line"><strong>Pray:</strong>...</p>
 - format_body_for_wordpress() now accepts an optional prayer arg.
 - JSON feed includes 'prayer' field per event.
+- jsDelivr purge after JSON finalize.
 - Everything else (dedup, geocoding, title format, GDELT) unchanged.
 """
 
@@ -42,7 +43,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 if not JSON_WRITER_AVAILABLE:
-    log.warning("gwm_json_writer.py not found in pipeline directory — "
+    log.warning("gwm_json_writer.py not found in pipeline directory - "
                 "JSON feeds will not be updated this run")
 
 load_dotenv()
@@ -325,7 +326,8 @@ def save_seen(seen):
     seen_list = list(seen)[-2000:]
     with open(SEEN_FILE, 'w') as f:
         json.dump(seen_list, f)
-      
+
+
 def purge_jsdelivr(filename):
     try:
         url = "https://purge.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/" + filename
@@ -333,6 +335,7 @@ def purge_jsdelivr(filename):
         log.info("jsDelivr purge %s -> %s", filename, r.status_code)
     except Exception as e:
         log.warning("jsDelivr purge failed for %s: %s", filename, e)
+
 
 def article_hash(url, title):
     return hashlib.md5((url + title).encode()).hexdigest()
@@ -444,10 +447,9 @@ def fetch_all_feeds(seen, filter_countries):
     return all_candidates[:MAX_ARTICLES]
 
 
-# ─── System prompt with new PRAY: header field ────────────────────────────
 SYSTEM_PROMPT = """You are writing brief, plain-language conflict and unrest reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
-REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
+REQUIRED OUTPUT FORMAT - every response must begin with exactly these header lines:
 
 COUNTRY: <primary country where the event physically occurred>
 EVENT_TYPE: <Armed Conflict|Civil Unrest|Coup or Crisis|Displacement|Other>
@@ -458,7 +460,7 @@ PRAYER: <one short prayer prompt sentence related to this event; do NOT begin wi
 
 Then the article body follows on the next line.
 
-WRITING STYLE — VERY IMPORTANT:
+WRITING STYLE - VERY IMPORTANT:
 - Plain language for general public. NO technical jargon, NO intelligence-briefing tone.
 - DO NOT include "Mission Note:", "Field teams should...", "Operational significance...", or any boilerplate operational language at the end.
 - DO NOT editorialize about geopolitics or assign blame beyond what sources state.
@@ -466,8 +468,8 @@ WRITING STYLE — VERY IMPORTANT:
 - Two or three short paragraphs. Use blank lines between paragraphs (the WordPress editor will turn those into proper paragraph spacing).
 - Do not include personal names; use "a man", "a woman", "residents", "officials", "soldiers", "protesters", etc.
 - Do not include the source URL in the body.
-- Do not include a title in your response — only the article body.
-- End naturally with the last fact or implication for civilians — no boilerplate.
+- Do not include a title in your response - only the article body.
+- End naturally with the last fact or implication for civilians - no boilerplate.
 - DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
 
 COUNTRY field rules:
@@ -632,7 +634,6 @@ def parse_claude_response(raw_text):
         result["event_date"] = event_date_line
 
     if pray_line:
-        # Strip "Pray:" or "Pray that" if Claude included it despite instructions
         pl = re.sub(r'^pray[:\s]+(that\s+)?', '', pray_line, flags=re.IGNORECASE)
         pl = re.sub(r'^that\s+', '', pl, flags=re.IGNORECASE)
         result["prayer"] = pl.strip()
@@ -1130,16 +1131,16 @@ def main():
 
     save_seen(seen)
 
-if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
-    try:
-        log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
-        written = gwm_json_writer.finalize(FEED_NAME)
-        log.info("JSON feed updated: active=%s archives=%s",
-                 written.get("active"),
-                 ",".join(written.get("archives", [])))
-        purge_jsdelivr("conflict.json")
-    except Exception as e:
-        log.error("JSON finalize failed: %s", e)
+    if JSON_WRITER_AVAILABLE and not args.no_json and json_writes > 0:
+        try:
+            log.info("Pushing %d new events to GitHub JSON feeds...", json_writes)
+            written = gwm_json_writer.finalize(FEED_NAME)
+            log.info("JSON feed updated: active=%s archives=%s",
+                     written.get("active"),
+                     ",".join(written.get("archives", [])))
+            purge_jsdelivr("conflict.json")
+        except Exception as e:
+            log.error("JSON finalize failed: %s", e)
 
     log.info('=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===',
              published, skipped, json_writes, len(candidates))
