@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>GWM Feed Test</title>
+<style>
+body{font-family:monospace;background:#0f1117;color:#fff;padding:20px;font-size:16px;line-height:1.5;}
+.ok{color:#22c55e;} .err{color:#ef4444;} .info{color:#f59e0b;}
+pre{white-space:pre-wrap;word-break:break-all;}
+</style></head>
+<body>
+<h2>GWM Feed Test</h2>
+<pre id="out">Running...</pre>
+<script>
+var out = document.getElementById("out");
+function log(msg, cls){
+  var span = document.createElement("span");
+  span.className = cls || "";
+  span.textContent = msg + "\n";
+  out.appendChild(span);
+}
+out.textContent = "";
+
+var tests = [
+  ["conflict.json (jsDelivr)", "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json"],
+  ["travel_advisories.json (jsDelivr)", "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/travel_advisories.json"]
+];
+
+function runTest(i){
+  if(i >= tests.length){ log("\nAll tests done.", "info"); return; }
+  var name = tests[i][0], url = tests[i][1];
+  log("\nTEST: " + name, "info");
+  var fullUrl = url + "?nocache=" + Date.now();
+  fetch(fullUrl, { cache:"no-store", headers:{ "Cache-Control":"no-cache" } })
+    .then(function(r){
+      log("  HTTP status: " + r.status, r.ok ? "ok" : "err");
+      if(!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function(data){
+      if(data.events){
+        log("  PARSED OK - events array length: " + data.events.length, "ok");
+      } else if(data.advisories){
+        log("  PARSED OK - advisories array length: " + data.advisories.length, "ok");
+      } else {
+        log("  PARSED but no events/advisories key. Keys: " + Object.keys(data).join(","), "err");
+      }
+    })
+    .catch(function(err){
+      log("  FAILED: " + err.message, "err");
+      log("  (this is the real error)", "err");
+    })
+    .then(function(){ runTest(i+1); });
+}
+runTest(0);
+</script>
+</body>
+</html>
