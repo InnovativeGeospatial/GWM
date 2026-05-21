@@ -512,7 +512,7 @@ _COUNTRY_ALIASES = {
     "north korea": "North Korea", "south korea": "South Korea",
     "korea, north": "North Korea", "korea, south": "South Korea",
     "czech republic": "Czechia",
-    "ivory coast": "Cote d'Ivoire", "cote divoire": "Cote d'Ivoire",
+    "cote d'ivoire": "Ivory Coast", "cote divoire": "Ivory Coast",
     "cabo verde": "Cape Verde",
     "uae": "United Arab Emirates",
     "uk": "United Kingdom", "britain": "United Kingdom",
