@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-20T21:06:15.166151+00:00",
-  "count": 305,
+  "updated": "2026-05-21T12:29:54.331943+00:00",
+  "count": 307,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4756,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-05-21-2026/",
+      "date": "2026-05-21T12:29:48",
+      "title": "Flood in China 05/21/2026",
+      "body": "Heavy flooding has struck southern China, sweeping away cars, destroying at least one bridge, and leaving streets underwater. Torrential rain triggered the disaster, killing at least 25 people and forcing residents to evacuate across multiple areas of the region.\n\nAuthorities have been working to move people to safety as floodwaters continue to cause widespread damage. The full extent of destruction is still being assessed.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/21/flooding-in-southern-china-washes-away-cars-and-destroys-bridge?traffic_source=rss",
+      "prayer": "the families of the 25 people killed and those evacuated from their homes across the affected regions"
+    },
+    {
+      "wp_id": 4755,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iran-05-21-2026-magnitude-5/",
+      "date": "2026-05-21T12:28:46",
+      "title": "Earthquake in Iran 05/21/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 61 kilometers west of Bandar Abbas, Iran, on May 21, 2026. The quake was shallow, occurring about 10 kilometers beneath the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nBandar Abbas is a major port city on the Strait of Hormuz in southern Iran. Shallow earthquakes in this region can be felt widely across the surrounding area, including coastal communities and nearby towns.\n\nNo damage or casualty information was included in the available report. Residents in the area are encouraged to stay alert to any official guidance from local authorities in the aftermath.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Earthquake",
+      "lat": 27.180216,
+      "lng": 56.277977,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz6i",
+      "prayer": "people near Bandar Abbas who felt this quake, and for calm and safety in the hours after"
+    },
     {
       "wp_id": 4750,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-turkey-magnitude-6/",
