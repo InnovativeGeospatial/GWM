@@ -1,9 +1,77 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-23T00:05:16.132078+00:00",
-  "count": 312,
+  "updated": "2026-05-24T18:59:24.876371+00:00",
+  "count": 316,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4828,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-22-2026-magnitude-5-2/",
+      "date": "2026-05-24T18:58:20",
+      "title": "Earthquake in Solomon Islands 05/22/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 156 kilometers west of Lata in the Solomon Islands. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking at ground level than deeper earthquakes.\n\nNo damage or injuries have been reported at this time. The Solomon Islands sit in a seismically active part of the Pacific, and earthquakes in this range are not uncommon for the region.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.7482,
+      "lng": 164.3652,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szk5",
+      "prayer": "communities in the Solomon Islands near the earthquake zone, and any who felt the shaking"
+    },
+    {
+      "wp_id": 4827,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-samoa-05-23-2026-magnitude-5/",
+      "date": "2026-05-24T18:57:06",
+      "title": "Earthquake in Samoa 05/23/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck in the ocean about 141 kilometers south-southwest of Gataivai, Samoa, on May 23, 2026. The quake was shallow, occurring only about 10 kilometers below the surface, which can allow shaking to be felt more strongly at ground level.\n\nNo details about damage or injuries were included in the available information. Because the epicenter was well out to sea and at a moderate magnitude, significant impact to populated areas may be limited, but coastal communities in Samoa could have felt the tremor.\n\nShallow offshore earthquakes in this region are not unusual, as Samoa sits within an active seismic zone in the South Pacific. Residents in the area are generally familiar with earthquake activity, though any tremor near island communities warrants attentiveness.",
+      "country": "Samoa",
+      "countries": [
+        "Samoa"
+      ],
+      "type": "Earthquake",
+      "lat": -14.9082,
+      "lng": -172.9897,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szu1",
+      "prayer": "communities across Samoa and any who felt this tremor, asking for safety and calm"
+    },
+    {
+      "wp_id": 4826,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-24-2026-magnitude-5-5/",
+      "date": "2026-05-24T18:56:04",
+      "title": "Earthquake in Philippines 05/24/2026 — Magnitude 5.5",
+      "body": "A magnitude 5.5 earthquake struck about 13 kilometers east of Cortes in the Philippines on May 24, 2026. The quake occurred at a depth of about 34 kilometers below the surface, which is considered moderate depth.\n\nReports from people in the area indicate noticeable shaking was felt locally. At that magnitude and depth, some minor damage to older or weaker structures is possible, though initial assessments suggested the overall impact was limited.\n\nResidents in the affected area are encouraged to inspect buildings for cracks or structural concerns before returning inside. Aftershocks are common following earthquakes of this size, so people in the region should remain cautious in the hours and days ahead.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.3032,
+      "lng": 126.3113,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szxz",
+      "prayer": "communities near Cortes as they check for damage and recover from the shaking"
+    },
+    {
+      "wp_id": 4825,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-23-2026-magnitude-6/",
+      "date": "2026-05-24T18:55:52",
+      "title": "Earthquake in United States 05/23/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck near the southern coast of Hawaii's Big Island on May 23, 2026, centered about 13 kilometers south of Honaunau-Napoopoo. The quake occurred at a depth of roughly 23 kilometers beneath the surface — a moderate depth that allowed strong shaking to reach communities across the region. More than 7,000 people submitted reports describing what they felt, indicating that shaking was widely experienced across the island.\n\nHawaii sits in a zone of frequent seismic activity due to volcanic and tectonic forces beneath the Pacific. A magnitude 6 earthquake at this depth can cause structural damage, especially to older buildings, and may trigger rockfalls on steep terrain common to the Big Island's landscape.\n\nLocal residents and visitors are encouraged to check on neighbors and inspect buildings carefully before re-entering any structure that may have been affected.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 19.443344,
+      "lng": -155.88448,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
+      "prayer": "residents of the Big Island who felt strong shaking and anyone dealing with damage from this earthquake"
+    },
     {
       "wp_id": 4795,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-22-1960-magnitude-10/",
