@@ -1,9 +1,131 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-25T20:22:16.141503+00:00",
-  "count": 318,
+  "updated": "2026-05-27T15:30:10.480874+00:00",
+  "count": 325,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4880,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-france/",
+      "date": "2026-05-27T15:30:04",
+      "title": "Heatwave in France",
+      "body": "A heat dome settled over Western Europe this week, pushing temperatures far above normal for May. In Paris, the heat reached 34°C (93°F), with people rushing to find shade in conditions that felt more like the height of summer. France's national weather service said the unusual pattern was producing temperatures 10 to 15 degrees Celsius above the seasonal average.\n\nThe heat caught many off guard. A visitor from Australia told reporters he had chosen May specifically to avoid the intense summer heat of June, July, and August, only to find the same conditions waiting for him.\n\nSeparately, the source also notes that storms named Marta and Leonardo caused widespread flooding in Spain, displacing thousands of people — a reminder that extreme weather was affecting multiple parts of the region at the same time.",
+      "country": "France",
+      "countries": [
+        "France",
+        "United Kingdom",
+        "Spain",
+        "Germany"
+      ],
+      "type": "Heatwave",
+      "lat": 48.853495,
+      "lng": 2.348392,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/videos/cy522zrkr7lo?at_medium=RSS&at_campaign=rss",
+      "prayer": "residents across Western Europe enduring dangerous heat, especially vulnerable people seeking relief from the unusual temperatures"
+    },
+    {
+      "wp_id": 4879,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-laos/",
+      "date": "2026-05-27T15:29:43",
+      "title": "Flood in Laos",
+      "body": "Rescue teams from Laos and Thailand have pulled five villagers out alive after they were trapped for a week inside a flooded cave in the central province of Xaysomboun, about 120 kilometers north of the capital Vientiane. The seven villagers had entered the cave to search for gold and wildlife but became trapped when heavy rain and landslides blocked the entrance. Two others who were with them remain missing.\n\nThe cave system is extremely narrow in places — some chambers only about 50 centimeters wide — and rescue divers had to crawl through muddy, nearly fully flooded passageways stretching hundreds of meters. A specialist diver described navigating flood waters, collapse hazards, and the risk of contaminated air throughout the operation.\n\nThe five survivors were located roughly 300 meters from the cave's exit. Rescuers say the search for the two missing villagers is continuing.",
+      "country": "Laos",
+      "countries": [
+        "Laos"
+      ],
+      "type": "Flood",
+      "lat": 18.897694,
+      "lng": 103.092479,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss",
+      "prayer": "the five survivors recovering from their ordeal and the families of the two still missing as rescuers continue searching"
+    },
+    {
+      "wp_id": 4878,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-05-27-2026-cat-1/",
+      "date": "2026-05-27T15:28:41",
+      "title": "Storm in Japan 05/27/2026 — Cat 1",
+      "body": "Tropical Cyclone Jangmi formed in the northwestern Pacific Ocean on May 27, 2026, with maximum wind speeds reaching about 167 kilometers per hour. The storm is classified as a tropical depression in terms of its official category, though its winds are strong enough to place it at hurricane-force intensity.\n\nJapan is the country most directly in the storm's path. At the time of reporting, no populated areas had been hit by Category 1 or stronger winds, meaning the most damaging winds had not yet reached land or had passed without striking densely settled areas.\n\nResidents in coastal and island communities near the storm's track are advised to follow local authorities and stay informed as conditions can change quickly with Pacific storm systems.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 10.3,
+      "lng": 137.2,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001272",
+      "prayer": "communities in Japan's coastal areas as this storm system moves through the region"
+    },
+    {
+      "wp_id": 4877,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-26-2026-magnitude-5/",
+      "date": "2026-05-27T15:27:54",
+      "title": "Earthquake in New Zealand 05/26/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the Kermadec Islands region, a remote stretch of the southwestern Pacific Ocean northeast of New Zealand. The quake was shallow, occurring about 10 kilometers below the surface, which can increase the strength of shaking felt at ground level.\n\nThe Kermadec Islands region is one of the most seismically active areas on Earth, sitting along a major tectonic boundary where the Pacific Plate dives beneath the Australian Plate. Earthquakes in this remote area are common.\n\nNo population centers are located close to the epicenter, and no damage or casualties have been reported. Residents of northern New Zealand and nearby island groups were not likely affected by this event.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -28.3135,
+      "lng": -176.5972,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t05n",
+      "prayer": "people living in and around the Kermadec Islands and for continued safety in this seismically active region"
+    },
+    {
+      "wp_id": 4876,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-27-2026-magnitude-5/",
+      "date": "2026-05-27T15:25:35",
+      "title": "Earthquake in Japan 05/27/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck offshore Japan on May 27, 2026, centered about 84 kilometers south-southeast of Hiroo, a coastal town on the island of Hokkaido. The quake occurred at a depth of about 38 kilometers beneath the seafloor.\n\nAt this size and distance from shore, the earthquake was likely felt only lightly by people nearest the coast, and no major damage would be expected. Offshore earthquakes in this region are common due to the active tectonic setting where the Pacific Plate meets the Eurasian Plate.\n\nNo reports of damage or injuries were included in the available information.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 42.285427,
+      "lng": 143.3121,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snud",
+      "prayer": "communities along the Hokkaido coast as they assess any effects from this offshore tremor"
+    },
+    {
+      "wp_id": 4875,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-27-2026-magnitude-5/",
+      "date": "2026-05-27T15:25:24",
+      "title": "Earthquake in Papua New Guinea 05/27/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck about 58 kilometers north of Finschhafen, Papua New Guinea on May 27, 2026. The quake occurred at a depth of about 76 kilometers, which helped reduce the energy felt at the surface.\n\nAt that depth and size, significant damage is unlikely, though people close to the epicenter may have felt noticeable shaking. Papua New Guinea sits in one of the most seismically active regions in the world, and tremors of this size are not uncommon there.\n\nNo damage or casualty reports are available from the source at this time.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.604093,
+      "lng": 147.853691,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snup",
+      "prayer": "communities near Finschhafen and anyone affected by this tremor"
+    },
+    {
+      "wp_id": 4874,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-25-2026-magnitude-7/",
+      "date": "2026-05-27T15:25:05",
+      "title": "Earthquake in Chile 05/25/2026 — Magnitude 7",
+      "body": "A magnitude 6.9 earthquake struck about 29 kilometers northeast of Calama, Chile on May 25, 2026. The quake was centered about 109 kilometers deep, which helped limit the intensity of shaking felt at the surface. Dozens of people reported feeling the tremor.\n\nCalama is a city in northern Chile's Atacama Desert, a region no stranger to seismic activity due to its location along the Andes. The depth of this quake — well over 100 kilometers underground — generally reduces the risk of severe surface damage compared to shallower events. No major casualties or damage reports were immediately available from the source material.\n\nCommunities in the area are encouraged to check on neighbors and follow guidance from local authorities as any aftershocks may follow in the coming hours and days.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -22.463293,
+      "lng": -68.92554,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t04s",
+      "prayer": "residents near Calama who felt strong shaking and any who may have been injured or displaced"
+    },
     {
       "wp_id": 4854,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-05-25-2026-magnitude-5/",
