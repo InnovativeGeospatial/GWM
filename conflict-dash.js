@@ -492,10 +492,68 @@
     e.originalEvent.stopPropagation();
     var feature = e.features[0];
     var coords = feature.geometry.coordinates.slice();
-    var key = "" + coords[0] + "," + coords[1];
-    if (expandedKey === key) { showPopup(coords, feature.properties); return; }
-    if (expandedKey) collapseAll();
-    if (!expandStack(feature)) showPopup(coords, feature.properties);
+    var allF = eventsToFeatures(filteredEvents());
+    var stack = findStackedFeatures(feature, allF);
+
+    if (stack.length < 2) {
+      showPopup(coords, feature.properties);
+      return;
+    }
+
+    showStackList(coords, stack);
+  }
+
+  function showStackList(coords, stack) {
+    // Sort newest first by matching back to allEvents for the date
+    var eventsByWpId = {};
+    allEvents.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
+
+    var items = stack.map(function (f) {
+      var ev = eventsByWpId[f.properties.wp_id] || {};
+      return {
+        wp_id: f.properties.wp_id,
+        title: f.properties.title,
+        country: f.properties.country,
+        type: f.properties.type,
+        color: f.properties.color,
+        link: f.properties.link,
+        date: ev.date || ""
+      };
+    });
+    items.sort(function (a, b) {
+      return (b.date || "").localeCompare(a.date || "");
+    });
+
+    var country = items[0].country;
+    var rows = items.map(function (it) {
+      var d = it.date ? new Date(it.date) : null;
+      var dateStr = d && !isNaN(d.getTime())
+        ? d.toISOString().slice(0, 10)
+        : "";
+      var typeLabel = displayTypeLabel(it.type);
+      return '<a href="' + escHtml(it.link) + '" target="_blank" rel="noopener" ' +
+             'style="display:block;padding:8px 10px;border-bottom:1px solid #eee;text-decoration:none;color:#111;">' +
+             '<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">' +
+             '<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + it.color + ';"></span>' +
+             '<span style="font-size:10px;color:#666;text-transform:uppercase;letter-spacing:0.08em;">' +
+             escHtml(dateStr) + (typeLabel ? ' \u00b7 ' + escHtml(typeLabel) : '') +
+             '</span></div>' +
+             '<div style="font-size:12px;line-height:1.35;font-weight:500;">' +
+             escHtml(it.title) +
+             '</div></a>';
+    }).join("");
+
+    new maplibregl.Popup({ closeButton: true, offset: 12, maxWidth: "320px" })
+      .setLngLat(coords)
+      .setHTML(
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:260px;max-height:340px;overflow-y:auto;color:#111;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:600;">' +
+        items.length + ' events \u00b7 ' + escHtml(country) +
+        '</div>' +
+        rows +
+        '</div>'
+      )
+      .addTo(cMap);
   }
 
   function setFilter(t) {
