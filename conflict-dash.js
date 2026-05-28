@@ -11,7 +11,7 @@
   // Feeds served from jsDelivr. The pipeline purges jsDelivr after each
   // run so the CDN serves fresh data within minutes. Do NOT append a
   // query string to jsDelivr /gh/ URLs -- it causes a 404.
-  var JSON_FEED_URL = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/conflict.json";
+  var JSON_FEED_URL = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/conflict.json";
   var WP_FALLBACK   = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var ADVISORY_URL  = "https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@main/travel_advisories.json";
   var FLAG_BASE     = "https://flagcdn.com/24x18/";
