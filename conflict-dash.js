@@ -535,7 +535,7 @@
              'style="display:block;padding:8px 10px;border-bottom:1px solid #eee;text-decoration:none;color:#111;">' +
              '<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">' +
              '<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + it.color + ';"></span>' +
-             '<span style="font-size:10px;color:#666;text-transform:uppercase;letter-spacing:0.08em;">' +
+             '<span style="font-size:10px;color:#111;text-transform:uppercase;letter-spacing:0.08em;">' +
              escHtml(dateStr) + (typeLabel ? ' \u00b7 ' + escHtml(typeLabel) : '') +
              '</span></div>' +
              '<div style="font-size:12px;line-height:1.35;font-weight:500;">' +
@@ -547,7 +547,7 @@
       .setLngLat(coords)
       .setHTML(
         '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:260px;max-height:340px;overflow-y:auto;color:#111;">' +
-        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:600;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:600;">' +
         items.length + ' events \u00b7 ' + escHtml(country) +
         '</div>' +
         rows +
