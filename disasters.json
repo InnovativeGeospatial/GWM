@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-29T15:42:11.529525+00:00",
-  "count": 332,
+  "updated": "2026-05-29T17:50:42.523887+00:00",
+  "count": 335,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5008,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-palestine/",
+      "date": "2026-05-29T17:50:31",
+      "title": "Disease in Palestine",
+      "body": "Infectious diseases are spreading across Gaza as ongoing violence, overcrowding, and rodent infestations create conditions that are difficult to survive. UN agencies warned that the situation is worsening rapidly, with residents facing serious illness without access to the medicines they need.\n\nEssential medical supplies are being blocked from entering the area, leaving health workers unable to treat patients. The combination of disease, poor sanitation, and shortages of basic supplies has pushed the humanitarian situation to a critical point.\n\nUN agencies are calling attention to the growing toll on civilians, particularly the most vulnerable, who have little protection against illness when treatment is unavailable. The spread of disease in these conditions can move quickly and affect large numbers of people in a short time.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Disease",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167572",
+      "prayer": "sick and malnourished civilians cut off from medicines, and aid workers trying to reach them"
+    },
+    {
+      "wp_id": 5007,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo/",
+      "date": "2026-05-29T17:49:42",
+      "title": "Disease in Congo",
+      "body": "A deadly return of Ebola is spreading through the eastern part of the Democratic Republic of the Congo, a region already struggling with serious instability and armed conflict. The head of the World Health Organization traveled to the country to respond to the growing crisis.\n\nThe combination of violence and disease is making it extremely difficult for health teams to contain the outbreak. Conflict in the area limits access to sick communities and disrupts the kind of coordinated response that Ebola requires to bring under control.\n\nThe WHO chief also called for a ceasefire, recognizing that the fighting itself is fueling the health emergency. Without greater safety and stability in the region, efforts to stop Ebola from spreading further face serious obstacles.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167594",
+      "prayer": "communities in eastern Congo suffering through both Ebola and ongoing conflict, and the health workers trying to reach them"
+    },
+    {
+      "wp_id": 5006,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-29-2026-magnitude-5/",
+      "date": "2026-05-29T17:49:06",
+      "title": "Earthquake in Fiji 05/29/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck south of the Fiji Islands on May 29, 2026. The quake was very deep, occurring about 499 kilometers underground, which is considered an exceptionally deep earthquake.\n\nAt that depth, the energy released travels through a large volume of rock before reaching the surface, meaning shaking is typically spread over a wide area but felt less intensely than a shallower quake of the same size. No damage reports are included in the available information.\n\nDeep earthquakes in this part of the southwestern Pacific are not unusual, as the region sits along active tectonic boundaries. Residents and those serving in nearby communities are encouraged to stay aware of local updates from official sources.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spdj",
+      "prayer": "people across the Fiji Islands region as this deep tremor was felt far from its source"
+    },
     {
       "wp_id": 4984,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-29-2026-magnitude-5-2/",
