@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-29T17:50:42.523887+00:00",
-  "count": 335,
+  "updated": "2026-05-29T21:03:23.479861+00:00",
+  "count": 337,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5014,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-2/",
+      "date": "2026-05-29T21:03:17",
+      "title": "Disease in Congo",
+      "body": "Two weeks into a new Ebola outbreak in the Democratic Republic of Congo, health officials now count 906 suspected cases and 223 suspected deaths. The outbreak is spreading rapidly, raising serious concern among international health workers.\n\nThe World Health Organization is on the ground responding to the crisis. One of the defining features of Ebola is how easily it spreads to those who are simply trying to help — caregivers, family members, and health workers face significant risk of infection while looking after the sick.\n\nThe situation remains serious, with hundreds of families affected and communities under stress. Health teams are working to contain the spread, but the outbreak continues to grow. People across the country and around the world are watching closely as responders work to stop further loss of life.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167602",
+      "prayer": "For those caring for the sick on the front lines, that they would be protected and sustained, and for the outbreak to be brought under control quickly."
+    },
+    {
+      "wp_id": 5013,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-05-27-2026-cat-1-2/",
+      "date": "2026-05-29T21:02:53",
+      "title": "Storm in Japan 05/27/2026 — Cat 1",
+      "body": "Tropical Storm Jangmi swept through the northwestern Pacific from May 27 to May 29, 2026, bringing maximum wind speeds of around 148 kilometers per hour. The storm affected Japan, with winds strong enough to be classified as Category 1 or higher reaching an estimated 1.6 million people.\n\nStorms of this strength can bring dangerous winds, heavy rainfall, and flooding to coastal and inland areas alike. Residents in affected areas faced the threat of damage to homes, disrupted transportation, and potential flooding.\n\nJapan has well-developed systems for responding to typhoons and tropical storms, but the large number of people in the storm's path means many communities will have needed to take shelter and prepare for disruptions in the days the storm was active.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 16.7,
+      "lng": 130.8,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001272",
+      "prayer": "For the safety of all people in Japan in the path of Tropical Storm Jangmi, and for minimal loss of life and property."
+    },
     {
       "wp_id": 5008,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-palestine/",
