@@ -1,9 +1,26 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-29T03:57:53.931808+00:00",
-  "count": 328,
+  "updated": "2026-05-29T15:42:11.529525+00:00",
+  "count": 332,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4984,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-29-2026-magnitude-5-2/",
+      "date": "2026-05-29T15:41:02",
+      "title": "Earthquake in Indonesia 05/29/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 56 kilometers north-northwest of Kendari, Indonesia on May 29, 2026. The quake was shallow, occurring only about 10 kilometers below the surface, which typically means shaking is felt more strongly at ground level.\n\nKendari is the capital of Southeast Sulawesi province, a region no stranger to seismic activity. Shallow earthquakes in this area can cause noticeable shaking across nearby communities, though no damage or casualty reports are included in the available source information.\n\nResidents in the area are encouraged to stay alert for any follow-up tremors, as aftershocks can follow events of this size.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -3.9918,
+      "lng": 122.51738,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spb8",
+      "prayer": "communities near Kendari and anyone affected by this tremor, that they would have peace and safety in the hours that follow"
+    },
     {
       "wp_id": 4961,
       "wp_link": "https://globalwitnessmonitor.com/heatwave-in-portugal/",
@@ -27,6 +44,23 @@
       "prayer": "people vulnerable to extreme heat across western Europe, especially children in sweltering schools and those without access to cool shelter"
     },
     {
+      "wp_id": 4960,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-28-2026-magnitude-5/",
+      "date": "2026-05-29T02:52:44",
+      "title": "Earthquake in United States 05/28/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 154 kilometers southwest of Merizo Village, Guam, on May 28, 2026. The quake occurred at a depth of about 36 kilometers beneath the seafloor in the western Pacific Ocean.\n\nNo damage or injuries have been reported from this event based on available information. Earthquakes of this size in the region are not uncommon, as Guam sits along the Pacific Ring of Fire where seismic activity is frequent.\n\nResidents in the area are encouraged to stay alert for any follow-up shaking.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 12.4385,
+      "lng": 143.5219,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp4x",
+      "prayer": "communities across Guam and the surrounding Pacific islands, that residents remain safe from any aftershocks or damage"
+    },
+    {
       "wp_id": 4959,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-29-2026-magnitude-5/",
       "date": "2026-05-29T02:52:34",
@@ -44,6 +78,23 @@
       "prayer": "communities near Sinabang, especially those who felt the shaking and may be anxious about aftershocks"
     },
     {
+      "wp_id": 4958,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-united-states-05-28-2026/",
+      "date": "2026-05-29T02:52:22",
+      "title": "Other in United States 05/28/2026",
+      "body": "A sonic boom was reported near Saint Andrews, South Carolina, rattling the area and prompting a large number of residents to report what they felt. Over 1,500 people submitted reports describing the experience, suggesting the boom was widely felt across the region.\n\nA sonic boom occurs when an aircraft or other object travels faster than the speed of sound, creating a powerful pressure wave that can shake buildings and sound like an explosion. No earthquake was involved in this event.\n\nNo details about damage or injuries were included in available reports. Residents in the area who felt the shaking or heard the loud bang are encouraged to check on neighbors, particularly the elderly and children who may have been alarmed.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 34.04732,
+      "lng": -81.10283,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp6m",
+      "prayer": "residents startled by the loud boom and any who may have been injured or frightened by the event"
+    },
+    {
       "wp_id": 4940,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-laos/",
       "date": "2026-05-27T21:06:27",
@@ -59,6 +110,23 @@
       "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/rescue-teams-find-five-of-seven-trapped-in-laos-cave?traffic_source=rss",
       "prayer": "the two villagers still missing underground and the rescue teams working to reach them"
+    },
+    {
+      "wp_id": 4939,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-27-2026-magnitude-5/",
+      "date": "2026-05-27T21:05:32",
+      "title": "Earthquake in Tonga 05/27/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck in the ocean about 280 kilometers west-northwest of Neiafu, Tonga, on May 27, 2026. The quake was shallow, occurring only about 10 kilometers below the seafloor, which can cause stronger shaking to be felt at the surface compared to deeper earthquakes.\n\nNo details about damage, injuries, or a tsunami warning were included in the available information. Because the epicenter was far out at sea and relatively distant from populated areas, the impact on communities may be limited, but the shallow depth means those nearest the area could have felt noticeable shaking.\n\nTonga sits in one of the most seismically active regions of the world, and earthquakes in this zone are common. Residents and those serving in the islands are encouraged to stay aware of local updates.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.651457,
+      "lng": -173.98355,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snxg",
+      "prayer": "communities in the Tonga islands and anyone affected by this remote ocean tremor"
     },
     {
       "wp_id": 4880,
