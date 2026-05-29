@@ -313,7 +313,11 @@
     }), "bottom-right");
 
     var s = document.createElement("style");
-    s.innerHTML = '.maplibregl-ctrl-attrib{background:rgba(15,17,23,0.5)!important;color:#444!important;font-size:8px!important;}.maplibregl-ctrl-attrib a{color:#555!important;}.maplibregl-ctrl-attrib-button{display:none!important;}.maplibregl-ctrl-zoom-in,.maplibregl-ctrl-zoom-out,.maplibregl-ctrl-compass{background:#161a23!important;border-color:rgba(255,255,255,0.1)!important;}.maplibregl-ctrl-icon{filter:invert(0.7)!important;}.maplibregl-ctrl-group{background:#161a23!important;border:1px solid rgba(255,255,255,0.1)!important;}';
+    s.innerHTML = '.maplibregl-ctrl-attrib{background:rgba(15,17,23,0.5)!important;color:#444!important;font-size:8px!important;}.maplibregl-ctrl-attrib a{color:#555!important;}.maplibregl-ctrl-attrib-button{display:none!important;}.maplibregl-ctrl-zoom-in,.maplibregl-ctrl-zoom-out,.maplibregl-ctrl-compass{background:#161a23!important;border-color:rgba(255,255,255,0.1)!important;}.maplibregl-ctrl-icon{filter:invert(0.7)!important;}.maplibregl-ctrl-group{background:#161a23!important;border:1px solid rgba(255,255,255,0.1)!important;}' +
+      /* Force GWM popups (single + stacked menu) to render on a white card */
+      '.gwm-popup .maplibregl-popup-content{background:#fff!important;color:#111!important;padding:0!important;border-radius:8px!important;box-shadow:0 6px 24px rgba(0,0,0,0.35)!important;overflow:hidden!important;}' +
+      '.gwm-popup .maplibregl-popup-tip{border-top-color:#fff!important;border-bottom-color:#fff!important;}' +
+      '.gwm-popup .maplibregl-popup-close-button{color:#111!important;font-size:18px!important;padding:2px 7px!important;}';
     document.head.appendChild(s);
 
     dMap.on("load", function () {
@@ -482,10 +486,10 @@
   }
 
   function showPopup(coords, props) {
-    new maplibregl.Popup({ closeButton: false, offset: 12 })
+    new maplibregl.Popup({ closeButton: false, offset: 12, className: "gwm-popup" })
       .setLngLat(coords)
       .setHTML(
-        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;">' +
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;padding:12px 14px;">' +
         '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;margin-bottom:5px;">' +
           escHtml(dCapFirst(props.type)) + ' · ' + escHtml(props.country) +
         '</div>' +
@@ -542,7 +546,7 @@
         : "";
       var typeLabel = dCapFirst(it.type);
       return '<a href="' + escHtml(it.link) + '" target="_blank" rel="noopener" ' +
-             'style="display:block;padding:8px 10px;border-bottom:1px solid #eee;text-decoration:none;color:#111;">' +
+             'style="display:block;padding:8px 10px;border-bottom:1px solid #eee;text-decoration:none;color:#111;background:#fff;">' +
              '<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">' +
              '<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + it.color + ';"></span>' +
              '<span style="font-size:10px;color:#111;text-transform:uppercase;letter-spacing:0.08em;font-weight:600;">' +
@@ -553,11 +557,11 @@
              '</div></a>';
     }).join("");
 
-    new maplibregl.Popup({ closeButton: true, offset: 12, maxWidth: "320px" })
+    new maplibregl.Popup({ closeButton: true, offset: 12, maxWidth: "320px", className: "gwm-popup" })
       .setLngLat(coords)
       .setHTML(
-        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:260px;max-height:340px;overflow-y:auto;color:#111;">' +
-        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:700;">' +
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:260px;max-height:340px;overflow-y:auto;color:#111;background:#fff;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:700;background:#fff;">' +
         items.length + ' events \u00b7 ' + escHtml(country) +
         '</div>' +
         rows +
