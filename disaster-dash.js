@@ -17,7 +17,7 @@
   var TYPE_COLORS = {
     earthquake: "#92400e", flood: "#0ea5e9", storm: "#a855f7",
     wildfire: "#f97316", volcano: "#dc2626", tsunami: "#06b6d4",
-    landslide: "#78716c", drought: "#d97706", heatwave: "#ef4444",
+    landslide: "#78716c", drought: "#d97706", heatwave: "#ef4444", disease: "#84cc16",
     other: "#6b7280"
   };
 
@@ -164,7 +164,7 @@
     var total = events.length;
     var counts = {
       earthquake:0, flood:0, storm:0, wildfire:0, volcano:0,
-      tsunami:0, landslide:0, drought:0, heatwave:0, other:0
+      tsunami:0, landslide:0, drought:0, heatwave:0, disease:0, other:0
     };
     events.forEach(function (e) {
       var k = typeKey(e.type);
@@ -181,6 +181,7 @@
       ["landslide",  "Landslide"],
       ["drought",    "Drought"],
       ["heatwave",   "Heatwave"],
+      ["disease",    "Disease Outbreak"],
       ["other",      "Other"]
     ];
 
