@@ -474,7 +474,7 @@
     new maplibregl.Popup({ closeButton:false, offset:12 })
       .setLngLat(coords)
       .setHTML(
-        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;">' +
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#666;">' +
         '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;margin-bottom:5px;">' +
           headerLine +
         '</div>' +
