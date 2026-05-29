@@ -489,7 +489,7 @@
     new maplibregl.Popup({ closeButton: false, offset: 12, className: "gwm-popup" })
       .setLngLat(coords)
       .setHTML(
-        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;padding:12px 14px;">' +
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;background:#fff;border-radius:8px;padding:12px 14px;">' +
         '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;margin-bottom:5px;">' +
           escHtml(dCapFirst(props.type)) + ' · ' + escHtml(props.country) +
         '</div>' +
