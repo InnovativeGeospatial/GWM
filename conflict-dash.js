@@ -475,7 +475,7 @@
       .setLngLat(coords)
       .setHTML(
         '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#111;">' +
-        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#666;margin-bottom:5px;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;margin-bottom:5px;">' +
           headerLine +
         '</div>' +
         '<div style="font-size:13px;font-weight:500;line-height:1.4;margin-bottom:8px;">' +
