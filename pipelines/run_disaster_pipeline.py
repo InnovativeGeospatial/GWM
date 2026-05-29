@@ -229,7 +229,7 @@ DISASTER_TYPE_KEYWORDS = {
         "chikungunya", "zika", "infectious disease",
     ],
 }
-}
+
 
 
 def detect_disaster_type(title, summary):
