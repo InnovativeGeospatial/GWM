@@ -1,19 +1,29 @@
 #!/usr/bin/env python3
 """
-gwm_json_writer.py v2 — Shared library for Global Witness Monitor pipelines.
+gwm_json_writer.py v3 — Shared library for Global Witness Monitor pipelines.
 
-NOW SPLITS storage between two GitHub repos:
+SPLITS storage between two GitHub repos:
 
   PUBLIC repo (e.g. InnovativeGeospatial/GWM):
-    /<feed>.json                        — last 500 events, sorted newest-first
-                                          (served to dashboards via jsDelivr)
+    /<feed>.json                        — active feed, last 500 events,
+                                          sorted newest-first (drives dashboards)
 
   PRIVATE repo (e.g. InnovativeGeospatial/GWM-archive):
     /archive/<feed>/<YYYY>-Q<n>.json    — every event, partitioned by quarter
-                                          (NOT publicly accessible)
+                                          (write-only history; never read back)
 
-Each event is appended to its feed's quarterly archive in the PRIVATE repo
-AND merged into the active list in the PUBLIC repo.
+v3 CHANGE (resurrection bug fix):
+    finalize() now rebuilds the active feed from
+        (1) new pending events  +  (2) the EXISTING active feed
+    and NO LONGER reads events back out of the archive. The archive is
+    strictly write-only: events flow IN, never OUT. Quarterly archive
+    writes are unchanged, so private history is still preserved.
+
+    Consequence: the active feed is the source of truth for "what is live."
+    An event that was pruned from the active feed (or rolled off past the
+    500 limit) will NOT come back. Conversely, to remove an event from the
+    active feed you must edit <feed>.json directly (or use a prune utility)
+    — deleting it from the archive alone does nothing to the active feed.
 
 Public API:
     write_event(feed, event)
@@ -55,9 +65,7 @@ def _config_active():
     repo = os.environ.get("GITHUB_REPO", "GWM").strip()
     branch = os.environ.get("GITHUB_BRANCH", "main").strip()
     if not token:
-        raise RuntimeError(
-            "GITHUB_TOKEN missing from environment."
-        )
+        raise RuntimeError("GITHUB_TOKEN missing from environment.")
     return token, owner, repo, branch
 
 
@@ -67,7 +75,6 @@ def _config_archive():
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     archive_repo = os.environ.get("GITHUB_ARCHIVE_REPO", "").strip()
     if not archive_repo:
-        # Legacy: archives in same repo as active
         return _config_active()
     owner = os.environ.get(
         "GITHUB_ARCHIVE_OWNER",
@@ -94,6 +101,10 @@ def _gh_url(owner, repo, path):
 
 def _cache_key(owner, repo, branch, path):
     return owner + "/" + repo + "@" + branch + ":" + path
+
+
+def _event_key(e):
+    return str(e.get("wp_id") or e.get("id") or e.get("hash") or "")
 
 
 def _gh_get(target, path):
@@ -176,7 +187,7 @@ def write_event(feed, event):
     if feed not in _pending:
         _pending[feed] = {"active": {}, "archives": {}}
 
-    key = str(event.get("wp_id") or event.get("id") or event.get("hash") or "")
+    key = _event_key(event)
     if not key:
         log.warning("write_event: event has no wp_id/hash, skipping: %r",
                     event.get("title", "")[:60])
@@ -200,11 +211,12 @@ def finalize(feed):
     written = {"active": None, "archives": [], "events_added": len(pending["active"])}
 
     # ── Update each affected quarterly archive (PRIVATE repo) ──
+    #    Write-only: existing archive contents are read solely to merge the
+    #    new events back in for the PUT; they are never fed to the active feed.
     for qk, new_events in pending["archives"].items():
         archive_path = "archive/" + feed + "/" + qk + ".json"
         sha, existing = _gh_get("archive", archive_path)
-        merged = {str(e.get("wp_id") or e.get("id") or e.get("hash")): e
-                  for e in existing if e}
+        merged = {_event_key(e): e for e in existing if e}
         merged.update(new_events)
         events_list = sorted(
             merged.values(),
@@ -231,24 +243,18 @@ def finalize(feed):
             log.info("Archive written: %s (%d events total)",
                      archive_path, len(events_list))
 
-    # ── Rebuild active list as the 500 most recent (PUBLIC repo) ──
-    now = datetime.now(timezone.utc)
-    cur_q = _quarter_key(now.isoformat())
-    prev_year = now.year
-    prev_q_num = (now.month - 1) // 3 + 1 - 1
-    if prev_q_num < 1:
-        prev_q_num = 4
-        prev_year -= 1
-    prev_q = "%d-Q%d" % (prev_year, prev_q_num)
+    # ── Rebuild active feed (PUBLIC repo) ──
+    #    Source = EXISTING active feed + new pending events. NOT the archive.
+    #    The existing active feed already reflects any prior prunes, so pruned
+    #    events stay gone. Newest-first, capped at ACTIVE_LIMIT.
+    active_path = feed + ".json"
+    sha, existing_active = _gh_get("active", active_path)
 
     pool = {}
-    for qk in [cur_q, prev_q]:
-        archive_path = "archive/" + feed + "/" + qk + ".json"
-        _, items = _gh_get("archive", archive_path)
-        for e in items:
-            k = str(e.get("wp_id") or e.get("id") or e.get("hash") or "")
-            if k:
-                pool[k] = e
+    for e in existing_active:
+        k = _event_key(e)
+        if k:
+            pool[k] = e
     for k, e in pending["active"].items():
         pool[k] = e
 
@@ -258,8 +264,6 @@ def finalize(feed):
         reverse=True,
     )[:ACTIVE_LIMIT]
 
-    active_path = feed + ".json"
-    sha, _ = _gh_get("active", active_path)
     body = {
         "feed": feed,
         "updated": datetime.now(timezone.utc).isoformat(),
