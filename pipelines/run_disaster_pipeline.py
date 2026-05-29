@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
 Global Witness Monitor -- Natural Disaster Intelligence Pipeline v5
-
-Changes from v4:
-- Cross-run WP dedup. Before adding an article to the candidate list,
-  check the last 30 days of WP posts in the disaster category and skip
-  if title similarity >= 0.65 to an existing post. This prevents the
-  same earthquake/hurricane/etc from being published 3-5 times when
-  multiple outlets cover the same event.
-- Matches the dedup pattern from conflict pipeline v6.
+- Disease outbreak support via WHO Disease Outbreak News
+- Cross-run WP dedup
+- Structured titles, prayer field, EVENT_DATE, MAGNITUDE
 """
 
 import os
@@ -41,8 +36,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 if not JSON_WRITER_AVAILABLE:
-    log.warning("gwm_json_writer.py not found in pipeline directory — "
-                "JSON feeds will not be updated this run")
+    log.warning("gwm_json_writer.py not found in pipeline directory")
 
 load_dotenv()
 
@@ -114,7 +108,6 @@ RSS_FEEDS = [
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
     "https://www.gdacs.org/xml/rss.xml",
-    # WHO Disease Outbreak News -- authoritative for disease outbreaks
     "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
     "https://reliefweb.int/updates/rss.xml",
     "https://feeds.reuters.com/reuters/worldNews",
@@ -143,7 +136,6 @@ DISASTER_TERMS = [
     "avalanche", "debris flow",
     "drought", "famine", "water crisis", "crop failure",
     "heatwave", "heat wave", "extreme heat", "cold snap", "freeze",
-    # Disease outbreaks
     "outbreak", "epidemic", "pandemic", "virus", "viral", "infection",
     "infectious disease", "disease outbreak", "cases of", "infected with",
     "cholera", "ebola", "marburg", "mpox", "monkeypox", "measles", "polio",
@@ -217,25 +209,19 @@ DISASTER_TYPE_KEYWORDS = {
     "Landslide":  ["landslide", "mudslide", "mudflow", "rockslide",
                    "avalanche", "debris flow"],
     "Drought":    ["drought", "famine", "water crisis", "crop failure"],
-    "Heatwave": [
-        "heatwave", "heat wave", "extreme heat",
-    ],
-    "Disease": [
-        "outbreak", "epidemic", "pandemic", "disease outbreak",
-        "cholera", "ebola", "marburg", "mpox", "monkeypox", "measles",
-        "polio", "yellow fever", "dengue", "lassa", "diphtheria",
-        "anthrax", "plague", "meningitis", "h5n1", "avian flu",
-        "bird flu", "swine flu", "rift valley fever", "crimean-congo",
-        "chikungunya", "zika", "infectious disease",
-    ],
+    "Heatwave":   ["heatwave", "heat wave", "extreme heat"],
+    "Disease":    ["outbreak", "epidemic", "pandemic", "disease outbreak",
+                   "cholera", "ebola", "marburg", "mpox", "monkeypox",
+                   "measles", "polio", "yellow fever", "dengue", "lassa",
+                   "diphtheria", "anthrax", "plague", "meningitis", "h5n1",
+                   "avian flu", "bird flu", "swine flu", "rift valley fever",
+                   "crimean-congo", "chikungunya", "zika",
+                   "infectious disease"],
 }
 
 
-
 def detect_disaster_type(title, summary):
-    """Return the best-matching disaster type label, or 'Other'."""
     text = (title + " " + summary).lower()
-    # Check in priority order -- specific named diseases beat generic terms
     priority = ["Disease", "Tsunami", "Volcano", "Earthquake", "Wildfire",
                 "Storm", "Flood", "Landslide", "Drought", "Heatwave"]
     for dtype in priority:
@@ -539,13 +525,10 @@ def is_duplicate(title, existing_titles, threshold=0.75):
     return False
 
 
-# ─── Cross-run WP dedup ──────────────────────────────────────────────
 _RECENT_WP_TITLES_CACHE = None
 
 
 def load_recent_wp_titles(days=30):
-    """Fetch the last N days of WP post titles in the disaster category.
-    Cached in-process so we only hit the WP REST API once per pipeline run."""
     global _RECENT_WP_TITLES_CACHE
     if _RECENT_WP_TITLES_CACHE is not None:
         return _RECENT_WP_TITLES_CACHE
@@ -582,20 +565,6 @@ def load_recent_wp_titles(days=30):
 
 
 def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
-    """Check if a candidate title closely matches any title already in WP.
-    Used to prevent the same disaster being republished across runs when
-    multiple outlets cover it.
-
-    Note: candidate titles from RSS feeds look like:
-      'M 5.2 - 12 km W of Liuzhou, China'
-      'M 6.0 - Strong earthquake hits Indonesia'
-
-    But published WP titles look like:
-      'Earthquake in China 05/18/2026 — Magnitude 5'
-
-    Title-level similarity won't catch these directly. So we ALSO extract
-    detected_country from the candidate item and do a country+type+date
-    check by comparing tokenized titles after normalization."""
     recent = load_recent_wp_titles()
     for existing in recent:
         if title_similarity(candidate_title, existing) >= threshold:
@@ -606,17 +575,9 @@ def is_duplicate_of_existing_wp(candidate_title, threshold=0.65):
 
 
 def is_duplicate_published_event(country, dtype, candidate_title):
-    """Stronger dedup: build a normalized 'event signature' from country+type
-    and check against recent WP titles. Most published WP titles start with
-    '<DisasterType> in <Country>' so this catches the common case where
-    multiple outlets cover the same earthquake/flood/etc.
-
-    Returns True if a recent WP title matches the same country+type AND
-    has reasonable token overlap with the candidate."""
     if not country or not dtype or dtype == "Other":
         return False
     recent = load_recent_wp_titles()
-    # Build a search prefix: "<dtype> in <country>"
     expected_prefix = (dtype + " in " + country).lower()
     candidate_tokens = set(candidate_title.lower().split())
     stopwords = {"the", "a", "an", "in", "on", "at", "to", "for",
@@ -633,7 +594,7 @@ def is_duplicate_published_event(country, dtype, candidate_title):
                 continue
             overlap = len(candidate_tokens & existing_tokens)
             if overlap >= 1:
-                log.info("WP event-sig dedup match: %r matches existing %r (country=%s type=%s)",
+                log.info("WP event-sig dedup match: %r ~ %r (country=%s type=%s)",
                          candidate_title[:60], existing[:60], country, dtype)
                 return True
     return False
@@ -654,6 +615,7 @@ def save_seen(seen):
     seen_list = list(seen)[-2000:]
     with open(SEEN_FILE, "w") as f:
         json.dump(seen_list, f)
+
 
 def purge_jsdelivr(filename):
     try:
@@ -733,7 +695,6 @@ def fetch_rss_feeds(seen, filter_countries, filter_types):
                 if is_duplicate(title, seen_titles):
                     log.info("Skipping duplicate: %s", title[:60])
                     continue
-                # Cross-run WP dedup
                 if is_duplicate_of_existing_wp(title):
                     log.info("Skipping (already in WP recently): %s", title[:60])
                     continue
@@ -805,7 +766,6 @@ def fetch_gdelt(seen, existing_titles, filter_countries, filter_types):
                     continue
                 if is_duplicate(title, existing_titles):
                     continue
-                # Cross-run WP dedup
                 if is_duplicate_of_existing_wp(title):
                     log.info("GDELT skip (already in WP recently): %s", title[:60])
                     continue
@@ -839,63 +799,37 @@ def fetch_all_feeds(seen, filter_countries, filter_types):
 
 SYSTEM_PROMPT = """You are writing brief, plain-language natural disaster reports for the general public on Global Witness Monitor. Mission agencies, churches, and field workers read these reports to stay aware of conditions where they serve.
 
-REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
+REQUIRED OUTPUT FORMAT - every response must begin with exactly these header lines:
 
 COUNTRY: <primary country where the event physically occurred>
 DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drought|Heatwave|Disease|Other>
 LOCATION: <most specific named place from the source: city, town, region, or "UNKNOWN" if no specific place is named>
 MAGNITUDE: <numeric magnitude rounded to nearest whole number for earthquakes (e.g. "6"); category number for hurricanes (e.g. "Cat 4"); "UNKNOWN" if not applicable or unknown>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
-PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "those who lost homes and the rescuers searching the rubble" or "displaced families and aid teams reaching cut-off areas">
+PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for>
 ---
 
 Then the article body follows on the next line.
 
-WRITING STYLE — VERY IMPORTANT:
+WRITING STYLE:
 - Plain language for general public. NO technical jargon.
-- DO NOT mention: Modified Mercalli Intensity, MMI, MMI scale, intensity level, GDACS, Global Disaster Alert and Coordination System, USGS, "Mission Note", "Field teams should...", or any boilerplate operational language.
-- DO NOT round depths to three decimal places. Round depth to the nearest whole kilometer ("about 73 kilometers deep") or describe it qualitatively ("shallow", "deep").
-- DO NOT include exposure estimates like "30,000 in MMI VI" or "740 thousand in MMI IV". If the source mentions how many people felt strong shaking, just say it plainly: "tens of thousands of people felt strong shaking".
-- DO NOT include UTC times in the body. Use plain dates and approximate times only if essential.
+- DO NOT mention: MMI, intensity level, GDACS, USGS, "Mission Note", "Field teams should...", or any boilerplate operational language.
+- Round depth to the nearest whole kilometer or describe qualitatively.
+- DO NOT include exposure estimates like "30,000 in MMI VI".
+- DO NOT include UTC times in the body.
 - Length: 100-180 words.
-- Two or three short paragraphs. Use blank lines between paragraphs (the WordPress editor will turn those into proper paragraph spacing).
+- Two or three short paragraphs separated by blank lines.
 - Do not include personal names; use "a man", "a woman", "residents", "officials", "rescuers".
 - Do not include the source URL in the body.
 - Do not include a title. Body only.
-- End naturally — no Mission Note, no Field Teams advisory, no boilerplate.
-- DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
-
-COUNTRY field rules:
-- Country where the event physically occurred, NOT the news outlet's country.
-- For events affecting multiple countries: COUNTRY: MULTIPLE: Country1, Country2
-- For events in international waters or unknown: COUNTRY: UNKNOWN
-- Use common country names: "Japan", "United States", "United Kingdom", "Myanmar", "Congo".
-- Do NOT include state/province names.
-
-LOCATION field rules:
-- Most specific named place mentioned in the source.
-- Do NOT include the country.
-- If no specific place is named, output LOCATION: UNKNOWN.
+- End naturally - no Mission Note, no Field Teams advisory.
+- DO NOT include the prayer line in the body.
 
 DISASTER_TYPE field:
-- Primary event type only.
+- Use Disease for disease outbreaks (cholera, ebola, mpox, measles, polio, etc.)
 - Use Other if truly unclassifiable.
 
-MAGNITUDE field:
-- For earthquakes: integer like "6" (round 6.0, 5.8, 6.2 all to "6"). If decimal is meaningful (e.g. 5.0 vs 5.5), keep one decimal: "5.5".
-- For hurricanes: "Cat 4".
-- For other disaster types or when unknown: UNKNOWN.
-
-EVENT_DATE field:
-- MM/DD/YYYY format. Use the date the event occurred, not when it was reported.
-- UNKNOWN if not in source.
-
-PRAY field:
-- One sentence, specific to this event.
-- Focus on victims, displaced families, rescue and aid workers, those in damage paths, or similar concrete needs.
-- Do not assign blame or make political statements.
-
-Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no factual event reported."""
+Only respond with SKIP_NO_EVENT if the source is pure opinion or an explainer with no factual event reported."""
 
 
 BAD_RESPONSE_PATTERNS = [
@@ -949,8 +883,7 @@ def generate_article(item):
         log.info("fetched %d chars of article body", len(body_text))
         body_section = "SOURCE BODY TEXT:\n" + body_text + "\n\n"
     user_prompt = (
-        "Write a plain-language natural disaster report based only on the source material below. "
-        "Follow the header format and writing style rules from the system prompt exactly.\n\n"
+        "Write a plain-language natural disaster report based only on the source material below.\n\n"
         "SOURCE TITLE: " + item["title"] + "\n\n"
         "SOURCE SUMMARY: " + item["summary"] + "\n\n"
         + body_section +
@@ -1060,11 +993,11 @@ def _to_us_date(any_date_str):
     m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})$", s)
     if m:
         mm, dd, yyyy = m.groups()
-        return f"{int(mm):02d}/{int(dd):02d}/{yyyy}"
+        return "%02d/%02d/%s" % (int(mm), int(dd), yyyy)
     m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", s)
     if m:
         yyyy, mm, dd = m.groups()
-        return f"{int(mm):02d}/{int(dd):02d}/{yyyy}"
+        return "%02d/%02d/%s" % (int(mm), int(dd), yyyy)
     return ""
 
 
@@ -1104,7 +1037,6 @@ def sanitize_title(title):
 
 
 def format_body_for_wordpress(body_text, prayer=""):
-    """Wrap paragraphs in <p> tags. Optionally append styled Prayer line."""
     if not body_text:
         return ""
     decoded = html.unescape(body_text).strip()
@@ -1139,11 +1071,10 @@ def publish_to_wordpress(item, article_body, parsed=None):
 
     status = parsed.get("status", "malformed")
     log.info(
-        "CLAUDE_VS_DETECTED: claude_country=%s claude_type=%s detected_country=%s detected_type=%s status=%s raw=%r",
+        "CLAUDE_VS_DETECTED: claude_country=%s claude_type=%s detected_country=%s detected_type=%s status=%s",
         ",".join(parsed.get("countries", [])) or "-",
         parsed.get("disaster_type", "Other"),
         detected_country or "-", detected_dtype, status,
-        parsed.get("raw_country_line", ""),
     )
 
     if status == "unknown":
@@ -1153,8 +1084,7 @@ def publish_to_wordpress(item, article_body, parsed=None):
         log.warning("Skipping (malformed): %s", item["title"][:60])
         return None, None, None, None, None
     if status == "no_valid_country":
-        log.warning("Skipping (no_valid_country %r): %s",
-                    parsed.get("raw_country_line", ""), item["title"][:60])
+        log.warning("Skipping (no_valid_country): %s", item["title"][:60])
         return None, None, None, None, None
 
     if not parsed.get("location"):
@@ -1165,10 +1095,6 @@ def publish_to_wordpress(item, article_body, parsed=None):
     dtype = parsed["disaster_type"]
     prayer = parsed.get("prayer", "")
 
-    # Second-stage WP dedup after Claude classifies — now we have the
-    # canonical structured title to compare. This catches cases where
-    # the source title was vague but the published title resolved to
-    # something already in WP.
     candidate_published_title = build_title(parsed, item)
     if is_duplicate_of_existing_wp(candidate_published_title):
         log.info("Skipping (post-Claude WP dedup match): %s",
@@ -1233,11 +1159,8 @@ def publish_to_wordpress(item, article_body, parsed=None):
         post_id = post.get("id")
         post_link = post.get("link")
         post_date = post.get("date_gmt") or post.get("date") or ""
-        log.info("Published: %s [%s / %s] (ID %s) prayer=%s",
-                 clean_title[:60], countries[0], dtype, post_id,
-                 "yes" if prayer else "no")
-        # Add the just-published title to the cache so subsequent items
-        # in this run can see it.
+        log.info("Published: %s [%s / %s] (ID %s)",
+                 clean_title[:60], countries[0], dtype, post_id)
         if _RECENT_WP_TITLES_CACHE is not None:
             _RECENT_WP_TITLES_CACHE.append(clean_title)
         return post_id, post_link, _final_lat, _final_lng, post_date
@@ -1258,7 +1181,7 @@ def parse_args():
     parser.add_argument("--list-regions", action="store_true",
                         help="List all regions")
     parser.add_argument("--no-json", action="store_true",
-                        help="Skip JSON feed update (publish to WP only)")
+                        help="Skip JSON feed update")
     return parser.parse_args()
 
 
@@ -1350,8 +1273,7 @@ def main():
                         gwm_json_writer.write_event(FEED_NAME, event)
                         json_writes += 1
                     except Exception as e:
-                        log.error("JSON write_event failed for %s: %s",
-                                  item["title"][:60], e)
+                        log.error("JSON write_event failed: %s", e)
 
                 time.sleep(3)
             else:
@@ -1377,8 +1299,6 @@ def main():
 
     log.info("=== Done. Published %d, Skipped %d, JSON writes %d, Total %d ===",
              published, skipped, json_writes, len(candidates))
-
-
 
 
 if __name__ == "__main__":
