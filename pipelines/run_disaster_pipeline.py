@@ -114,6 +114,8 @@ RSS_FEEDS = [
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
     "https://www.gdacs.org/xml/rss.xml",
+    # WHO Disease Outbreak News -- authoritative for disease outbreaks
+    "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
     "https://reliefweb.int/updates/rss.xml",
     "https://feeds.reuters.com/reuters/worldNews",
     "https://feeds.apnews.com/rss/apf-worldnews",
@@ -141,6 +143,13 @@ DISASTER_TERMS = [
     "avalanche", "debris flow",
     "drought", "famine", "water crisis", "crop failure",
     "heatwave", "heat wave", "extreme heat", "cold snap", "freeze",
+    # Disease outbreaks
+    "outbreak", "epidemic", "pandemic", "virus", "viral", "infection",
+    "infectious disease", "disease outbreak", "cases of", "infected with",
+    "cholera", "ebola", "marburg", "mpox", "monkeypox", "measles", "polio",
+    "yellow fever", "dengue", "lassa fever", "diphtheria", "anthrax",
+    "plague", "meningitis", "h5n1", "avian flu", "bird flu", "swine flu",
+    "rift valley fever", "crimean-congo", "chikungunya", "zika",
     "natural disaster", "catastrophe", "calamity", "disaster zone",
     "state of emergency", "emergency declared", "disaster declaration",
 ]
@@ -171,6 +180,8 @@ EVENT_SIGNALS = [
     "toll", "casualties", "fatalities",
     "leveled", "levelled", "flattened",
     "issued",
+    "infected", "sickened", "diagnosed", "confirmed cases", "cases reported",
+    "spreading", "outbreak", "epidemic",
 ]
 
 EXCLUDE_PATTERNS = [
@@ -206,13 +217,26 @@ DISASTER_TYPE_KEYWORDS = {
     "Landslide":  ["landslide", "mudslide", "mudflow", "rockslide",
                    "avalanche", "debris flow"],
     "Drought":    ["drought", "famine", "water crisis", "crop failure"],
-    "Heatwave":   ["heatwave", "heat wave", "extreme heat"],
+    "Heatwave": [
+        "heatwave", "heat wave", "extreme heat",
+    ],
+    "Disease": [
+        "outbreak", "epidemic", "pandemic", "disease outbreak",
+        "cholera", "ebola", "marburg", "mpox", "monkeypox", "measles",
+        "polio", "yellow fever", "dengue", "lassa", "diphtheria",
+        "anthrax", "plague", "meningitis", "h5n1", "avian flu",
+        "bird flu", "swine flu", "rift valley fever", "crimean-congo",
+        "chikungunya", "zika", "infectious disease",
+    ],
+}
 }
 
 
 def detect_disaster_type(title, summary):
+    """Return the best-matching disaster type label, or 'Other'."""
     text = (title + " " + summary).lower()
-    priority = ["Tsunami", "Volcano", "Earthquake", "Wildfire",
+    # Check in priority order -- specific named diseases beat generic terms
+    priority = ["Disease", "Tsunami", "Volcano", "Earthquake", "Wildfire",
                 "Storm", "Flood", "Landslide", "Drought", "Heatwave"]
     for dtype in priority:
         for kw in DISASTER_TYPE_KEYWORDS[dtype]:
@@ -221,7 +245,7 @@ def detect_disaster_type(title, summary):
     return "Other"
 
 
-TRUSTED_DISASTER_FEEDS = ("earthquake.usgs.gov", "gdacs.org")
+TRUSTED_DISASTER_FEEDS = ("earthquake.usgs.gov", "gdacs.org", "who.int")
 
 
 def is_trusted_feed(feed_url):
@@ -307,7 +331,7 @@ def validate_country(claude_country):
 
 VALID_DISASTER_TYPES = {
     "earthquake", "flood", "storm", "wildfire", "volcano",
-    "tsunami", "landslide", "drought", "heatwave", "other",
+    "tsunami", "landslide", "drought", "heatwave", "disease", "other",
 }
 
 
@@ -818,7 +842,7 @@ SYSTEM_PROMPT = """You are writing brief, plain-language natural disaster report
 REQUIRED OUTPUT FORMAT — every response must begin with exactly these header lines:
 
 COUNTRY: <primary country where the event physically occurred>
-DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drought|Heatwave|Other>
+DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drought|Heatwave|Disease|Other>
 LOCATION: <most specific named place from the source: city, town, region, or "UNKNOWN" if no specific place is named>
 MAGNITUDE: <numeric magnitude rounded to nearest whole number for earthquakes (e.g. "6"); category number for hurricanes (e.g. "Cat 4"); "UNKNOWN" if not applicable or unknown>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
