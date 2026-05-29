@@ -1,9 +1,82 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-28T01:03:02.373919+00:00",
-  "count": 233,
+  "updated": "2026-05-29T02:54:54.492597+00:00",
+  "count": 331,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 4961,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-portugal/",
+      "date": "2026-05-29T02:54:42",
+      "title": "Heatwave in Portugal",
+      "body": "A powerful heatwave has swept across western Europe, with Portugal recording its hottest May temperature ever — 40.3C in the central town of Mora — breaking a record that had stood since 2001. Italy issued red heatwave alerts for Rome, Florence, Bologna, Brescia, and Turin, warning of health risks even for healthy people. Temperatures in Rome reached 32C, and Madrid is expected to hit 35C over the weekend.\n\nFrance has been particularly affected, with 17 departments under orange alert and Paris reaching 33C. A primary school in the Landes region recorded 53C inside, forcing it to close. Despite widespread concern from teachers and unions, students are still sitting national exams in the heat, with some teachers reportedly bringing their own fans and screwdrivers to pry windows open.\n\nThe heat is caused by a \"heat dome\" of trapped warm air and is forecast to linger into the weekend before gradually easing. Scientists note that climate change is making such heatwaves more frequent and more intense across the continent.",
+      "country": "Portugal",
+      "countries": [
+        "Portugal",
+        "France",
+        "Italy",
+        "Spain",
+        "Germany",
+        "Switzerland"
+      ],
+      "type": "Heatwave",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c3v2yv5207xo?at_medium=RSS&at_campaign=rss",
+      "prayer": "people vulnerable to extreme heat across western Europe, especially children in sweltering schools and those without access to cool shelter"
+    },
+    {
+      "wp_id": 4960,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-28-2026-magnitude-5/",
+      "date": "2026-05-29T02:52:44",
+      "title": "Earthquake in United States 05/28/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 154 kilometers southwest of Merizo Village, Guam, on May 28, 2026. The quake occurred at a depth of about 36 kilometers beneath the seafloor in the western Pacific Ocean.\n\nNo damage or injuries have been reported from this event based on available information. Earthquakes of this size in the region are not uncommon, as Guam sits along the Pacific Ring of Fire where seismic activity is frequent.\n\nResidents in the area are encouraged to stay alert for any follow-up shaking.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 12.4385,
+      "lng": 143.5219,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp4x",
+      "prayer": "communities across Guam and the surrounding Pacific islands, that residents remain safe from any aftershocks or damage"
+    },
+    {
+      "wp_id": 4959,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-29-2026-magnitude-5/",
+      "date": "2026-05-29T02:52:34",
+      "title": "Earthquake in Indonesia 05/29/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck off the coast of Sumatra, about 73 kilometers southeast of Sinabang, Indonesia. The quake measured magnitude 4.7 and occurred in the early morning hours.\n\nThe earthquake originated at a depth of about 28 kilometers beneath the seafloor. At this size and depth, significant damage is unlikely, though residents near the epicenter may have felt noticeable shaking.\n\nSinabang is the main town on Simeulue Island, a remote area in Aceh province that sits along one of the world's most active earthquake zones. No damage or casualty reports were included in the available information.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 2.476622,
+      "lng": 96.38154,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp6y",
+      "prayer": "communities near Sinabang, especially those who felt the shaking and may be anxious about aftershocks"
+    },
+    {
+      "wp_id": 4958,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-united-states-05-28-2026/",
+      "date": "2026-05-29T02:52:22",
+      "title": "Other in United States 05/28/2026",
+      "body": "A sonic boom was reported near Saint Andrews, South Carolina, rattling the area and prompting a large number of residents to report what they felt. Over 1,500 people submitted reports describing the experience, suggesting the boom was widely felt across the region.\n\nA sonic boom occurs when an aircraft or other object travels faster than the speed of sound, creating a powerful pressure wave that can shake buildings and sound like an explosion. No earthquake was involved in this event.\n\nNo details about damage or injuries were included in available reports. Residents in the area who felt the shaking or heard the loud bang are encouraged to check on neighbors, particularly the elderly and children who may have been alarmed.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 34.04732,
+      "lng": -81.10283,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp6m",
+      "prayer": "residents startled by the loud boom and any who may have been injured or frightened by the event"
+    },
     {
       "wp_id": 4940,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-laos/",
@@ -609,6 +682,75 @@
       "prayer": "the families of those killed, the one person still missing, and the more than 7,000 people displaced from their homes"
     },
     {
+      "wp_id": 3600,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-magnitude-5-2/",
+      "date": "2026-05-18T12:47:06",
+      "title": "Earthquake in China — Magnitude 5",
+      "body": "A 5.2-magnitude earthquake struck Liuzhou city in China's Guangxi region early Monday, killing two people and leaving one person missing. Thirteen buildings collapsed, and over 7,000 residents were evacuated from the affected area.\n\nThe two confirmed dead were an older couple. Rescue workers, including search dogs and teams with earthmovers, combed through the rubble looking for the missing person. Video from state media showed people running out of high-rise buildings and damaged homes reduced to piles of debris.\n\nSearch and rescue efforts were still underway as of Monday morning. Earthquakes are not unusual in China — just last January, a much stronger quake in the remote Tibet region killed at least 126 people and damaged thousands of buildings.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 24.327732,
+      "lng": 109.423134,
+      "source_title": "geo.tv",
+      "source_url": "https://www.geo.tv/latest/664914-52-magnitude-quake-kills-two-in-south-china-state-media",
+      "prayer": "the two who died, the one still missing, and the more than 7,000 people displaced from their homes"
+    },
+    {
+      "wp_id": 3599,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-magnitude-5/",
+      "date": "2026-05-18T12:46:54",
+      "title": "Earthquake in China — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the Guangxi region of southwest China early Monday morning, killing two people and forcing more than 7,000 residents in the city of Liuzhou to leave their homes. Buildings collapsed, and search and rescue teams are working to find anyone still trapped.\n\nAuthorities have warned that transport routes in the area face disruptions, which could slow the movement of supplies and emergency crews. Evacuated residents are waiting as officials assess which buildings are safe to return to.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 24.327732,
+      "lng": 109.423134,
+      "source_title": "gdnonline.com",
+      "source_url": "https://www.gdnonline.com:443/Details/1395096",
+      "prayer": "the two families who lost loved ones, the more than 7,000 evacuees, and rescuers working to clear rubble and restore safe access"
+    },
+    {
+      "wp_id": 3598,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-05-18-2026-magnitude-5/",
+      "date": "2026-05-18T12:46:41",
+      "title": "Earthquake in China 05/18/2026 — Magnitude 5",
+      "body": "A magnitude 5.2 earthquake struck Liuzhou, in China's southern Guangxi region, bringing down more than a dozen buildings and killing at least two people. More than 7,000 residents have been evacuated from the area as rescue teams work through the damage.\n\nSearch and rescue operations are ongoing as workers look for anyone still trapped in the rubble. The scale of building collapses in a moderate-sized earthquake like this points to significant impact on local neighborhoods and communities.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 24.327732,
+      "lng": 109.423134,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/18/earthquake-hits-southern-china-toppling-buildings?traffic_source=rss",
+      "prayer": "the families of those killed, the more than 7,000 evacuated residents, and the rescuers still searching collapsed buildings"
+    },
+    {
+      "wp_id": 3597,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-14-2026/",
+      "date": "2026-05-18T12:46:30",
+      "title": "Wildfire in Russia 05/14/2026",
+      "body": "A forest fire broke out along the border region between Russia and China in mid-May 2026. The fire was reported to have started on May 14 and continued burning through at least May 18.\n\nNo details about the size of the fire, the areas affected, or any casualties were included in the available report. It is unclear whether any communities were directly threatened or evacuated.\n\nWildfires in this part of the world can spread quickly through dense forest, especially in dry spring conditions. Updates from local authorities or field contacts in the region would help clarify the scope and impact of this event.",
+      "country": "Russia",
+      "countries": [
+        "Russia",
+        "China"
+      ],
+      "type": "Wildfire",
+      "lat": 53.177187965477316,
+      "lng": 124.8397974964825,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028706",
+      "prayer": "communities near the fire lines and any firefighters working to bring the blaze under control"
+    },
+    {
       "wp_id": 3596,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-16-2026-magnitude-5-3/",
       "date": "2026-05-18T12:45:57",
@@ -692,6 +834,23 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sydv",
       "prayer": "communities near the south Java coast who felt this earthquake and those in areas prone to further tremors in this seismically active region"
+    },
+    {
+      "wp_id": 3591,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-05-17-2026-magnitude-5/",
+      "date": "2026-05-18T12:44:54",
+      "title": "Earthquake in China 05/17/2026 — Magnitude 5",
+      "body": "A magnitude 5.0 earthquake struck about 24 kilometers northwest of Liuzhou, China on May 17, 2026. The quake was shallow, occurring about 10 kilometers below the surface. Shallow earthquakes like this tend to be felt more strongly at ground level than deeper ones.\n\nA small number of people submitted reports saying they felt the shaking. No damage or injuries are mentioned in the available information.\n\nLiuzhou is a large city in the Guangxi region of southern China. Those in surrounding communities would likely have noticed the tremor. Residents in the area are encouraged to stay aware of any updates from local authorities.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 24.327732,
+      "lng": 109.423134,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sye4",
+      "prayer": "people near Liuzhou who felt this earthquake and any who may have been frightened or harmed"
     },
     {
       "wp_id": 3590,
@@ -898,6 +1057,23 @@
       "prayer": "communities in Fiji and the surrounding Pacific islands, especially any who felt this deep tremor"
     },
     {
+      "wp_id": 3325,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-16-2026-magnitude-6/",
+      "date": "2026-05-17T13:14:08",
+      "title": "Earthquake in Solomon Islands 05/16/2026 — Magnitude 6",
+      "body": "A magnitude 5.7 earthquake struck about 33 kilometers northeast of Auki, the provincial capital of Malaita, in the Solomon Islands. The quake occurred in the afternoon local time and was centered about 23 kilometers underground — a relatively shallow depth that can increase the strength of shaking felt at the surface.\n\nAt least one person reported feeling the tremor, though the full impact on local communities is not yet known. Auki is a coastal town and the largest settlement on Malaita Island, meaning a significant number of people could have been exposed to shaking.\n\nThe Solomon Islands sit in a highly active seismic zone, and earthquakes of this size can damage older or weaker structures. No tsunami warning information was included in available reports.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -8.770607,
+      "lng": 160.699265,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy8k",
+      "prayer": "communities near Auki and anyone affected by this earthquake, especially those in more remote areas where help may be slow to arrive"
+    },
+    {
       "wp_id": 3324,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-16-2026-magnitude-5-2/",
       "date": "2026-05-17T13:13:55",
@@ -932,6 +1108,23 @@
       "prayer": "communities near the Tonga islands and anyone affected by ongoing seismic activity in this remote Pacific region"
     },
     {
+      "wp_id": 3322,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-16-2026-magnitude-5/",
+      "date": "2026-05-17T13:13:31",
+      "title": "Earthquake in Vanuatu 05/16/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 92 kilometers east of Port-Vila, the capital of Vanuatu, on May 16, 2026. The quake was shallow, originating only about 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level.\n\nVanuatu sits along one of the most seismically active zones in the world, and earthquakes are a frequent reality for people living there. A shallow quake of this size can be felt across a wide area, though no major damage or casualties have been reported from this event at this time.\n\nThose living and serving in and around Port-Vila are encouraged to stay informed through local authorities and to check on neighbors and community members following the shaking.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -17.731392,
+      "lng": 168.306222,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy90",
+      "prayer": "the people of Vanuatu, especially those near Port-Vila who felt this earthquake, and for calm and safety in the days ahead"
+    },
+    {
       "wp_id": 3321,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-05-16-2026-magnitude-5/",
       "date": "2026-05-17T13:13:19",
@@ -947,6 +1140,23 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy9z",
       "prayer": "communities near the Andaman Islands who felt this quake and anyone affected by the shaking"
+    },
+    {
+      "wp_id": 3320,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-17-2026-magnitude-5/",
+      "date": "2026-05-17T13:13:06",
+      "title": "Earthquake in Japan 05/17/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck off the northeastern coast of Japan on May 17, about 93 kilometers east-northeast of the city of Miyako. The quake occurred at a depth of about 35 kilometers beneath the seafloor.\n\nNo damage or injuries have been reported from this event. Earthquakes of this size in this region are relatively common, as Japan's northeastern coast sits in one of the most seismically active zones in the world — the same area affected by the devastating 2011 earthquake and tsunami.\n\nResidents in the region are accustomed to seismic activity, and local monitoring systems remain in place to watch for any follow-up shaking or coastal hazards.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 31.72605,
+      "lng": 131.06433,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syak",
+      "prayer": "communities along Japan's northeastern coast as they experience continued seismic activity"
     },
     {
       "wp_id": 3319,
@@ -1085,6 +1295,57 @@
       "prayer": "the 110 people displaced by flooding as they wait to return to their homes"
     },
     {
+      "wp_id": 3134,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-15-2026/",
+      "date": "2026-05-16T12:54:10",
+      "title": "Wildfire in Russia 05/15/2026",
+      "body": "A forest fire broke out in Russia on May 15, 2026, and continued burning into the following day. No specific region or city was named in the available report.\n\nFurther details — including the size of the fire, any evacuations, and whether homes or villages were threatened — are not yet available. Updates are expected as more information comes in from the area.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 51.64208007928278,
+      "lng": 127.99719995276007,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028687",
+      "prayer": "communities near the fire zone and those working to contain the flames before they spread further"
+    },
+    {
+      "wp_id": 3133,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7-2/",
+      "date": "2026-05-16T12:53:58",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
+      "body": "A magnitude 6.7 earthquake struck Japan on May 15, 2026, at a depth of about 44 kilometers. Tens of thousands of people are estimated to have felt strong shaking from the quake.\n\nNo specific city or region was named in the available report, and details on casualties or damage have not yet been confirmed. Authorities and emergency teams will be working to assess conditions across the affected area.\n\nJapan sits on one of the world's most active seismic zones and regularly experiences earthquakes of this size. Residents there are generally well-prepared, though a quake of this magnitude has the potential to cause structural damage and injuries, particularly in areas closer to the epicenter.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 38.9127,
+      "lng": 142.2498,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540842",
+      "prayer": "the people of Japan as they assess damage and recover from this significant earthquake"
+    },
+    {
+      "wp_id": 3132,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-5/",
+      "date": "2026-05-16T12:53:35",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck the Bonin Islands region of Japan on May 15, 2026. The quake registered magnitude 4.8 and occurred at a depth of about 36 kilometers beneath the surface.\n\nThe Bonin Islands, also known as the Ogasawara Islands, are a remote chain of islands in the western Pacific Ocean, roughly 1,000 kilometers south of Tokyo. At this magnitude and depth, significant damage is unlikely, though residents in the area may have felt the shaking.\n\nNo casualty or damage reports were available from the source material at this time.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 27.9065,
+      "lng": 142.15,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxx0",
+      "prayer": "communities in the remote Bonin Islands and surrounding areas as they assess any effects from this earthquake"
+    },
+    {
       "wp_id": 3131,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-05-15-2026-magnitude-5/",
       "date": "2026-05-16T12:53:22",
@@ -1221,6 +1482,23 @@
       "prayer": "people near Badak who felt this quake, and for stability and safety in the days ahead"
     },
     {
+      "wp_id": 3123,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7/",
+      "date": "2026-05-16T12:51:40",
+      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
+      "body": "A magnitude 6.7 earthquake struck off the northeastern coast of Japan on May 15, 2026, centered about 49 kilometers east-southeast of Ōfunato, a coastal city in the Iwate region. The quake occurred at a depth of about 44 kilometers underground.\n\nDozens of people submitted reports describing the shaking they felt, with some reporting it as quite strong. Ōfunato and the surrounding coastal communities sit in an area that has experienced major earthquake and tsunami events in the past, making any significant tremor a serious concern for residents.\n\nNo immediate details about damage or injuries were available from this source, but the region will be watching closely as local officials and emergency services assess conditions in the hours following the quake.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 39.082108,
+      "lng": 141.70938,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq",
+      "prayer": "communities along Japan's northeastern coast as they assess damage and recover from this strong quake"
+    },
+    {
       "wp_id": 3069,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-6-2/",
       "date": "2026-05-15T05:14:22",
@@ -1283,6 +1561,38 @@
       "lng": 147.7607,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxu9"
+    },
+    {
+      "wp_id": 3008,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6-2/",
+      "date": "2026-05-14T14:24:53",
+      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 5.6",
+      "body": "A moderate earthquake struck the Solomon Islands on December 5, 2026. The quake measured magnitude 5.6 and occurred at a depth of about 68 kilometers underground, which is deep enough to reduce the intensity of shaking felt at the surface.\n\nOnly a small number of people — a few thousand — were in areas where any shaking was likely felt, and at those distances the shaking would have been relatively light. No damage or casualties are mentioned in available reports.\n\nThe Solomon Islands sit in one of the world's most seismically active regions, and earthquakes of this size are not uncommon there. Residents in the affected area are encouraged to follow guidance from local authorities.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.649,
+      "lng": 164.9925,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540398"
+    },
+    {
+      "wp_id": 3007,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-13-2026/",
+      "date": "2026-05-14T14:24:40",
+      "title": "Wildfire in Russia 05/13/2026",
+      "body": "A forest fire broke out in Russia on May 13, 2026, and continued burning into the following day. No details about the fire's location, size, or cause were included in the available report.\n\nBecause no further information is currently available — including which region was affected or whether any communities were threatened — this report will be updated as new details emerge.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.69157827612376,
+      "lng": 133.84258065529383,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028668"
     },
     {
       "wp_id": 3006,
@@ -1493,6 +1803,38 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103877"
     },
     {
+      "wp_id": 2970,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-12-2026/",
+      "date": "2026-05-13T15:10:41",
+      "title": "Wildfire in Russia 05/12/2026",
+      "body": "A forest fire broke out in Russia on May 12, 2026, and continued burning through at least May 13, 2026. No details about the specific location, size, or cause of the fire were included in the available report.\n\nBecause no further information is currently available — such as which region was affected, how many people were impacted, or whether evacuations took place — the full scope of this fire is not yet known. Updates are expected as more details become available.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 50.88973956922919,
+      "lng": 130.05909878101764,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028663"
+    },
+    {
+      "wp_id": 2969,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6/",
+      "date": "2026-05-13T15:10:31",
+      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 5.6",
+      "body": "A magnitude 5.6 earthquake struck the Solomon Islands on December 5, 2026. The quake occurred about 68 kilometers below the surface, which is a moderate depth and can reduce — but not eliminate — shaking felt at ground level.\n\nAbout 10,000 people live within 100 kilometers of the epicenter. No specific town or island was named as the closest populated area, and no reports of damage or casualties were included in the available information.\n\nThe Solomon Islands sit in one of the world's most seismically active regions, and earthquakes of this size occur there with some regularity. Those in the affected area should follow guidance from local authorities and check on neighbors, especially in more remote communities where access to information and assistance can be limited.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.649,
+      "lng": 164.9925,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540398"
+    },
+    {
       "wp_id": 2968,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-6-2/",
       "date": "2026-05-13T15:10:13",
@@ -1589,6 +1931,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxef"
     },
     {
+      "wp_id": 2937,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-09-2026/",
+      "date": "2026-05-13T03:57:54",
+      "title": "Wildfire in Russia 05/09/2026",
+      "body": "A forest fire broke out in Russia on May 9, 2026, and continued burning through at least May 11, 2026. No specific region or locality was identified in the available report.\n\nVery little detail is available at this time. No information on the size of the fire, casualties, or affected communities has been provided. Further updates are expected as the situation develops.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.685094902965034,
+      "lng": 134.07519405058898,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028647"
+    },
+    {
       "wp_id": 2936,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-11-05-2026-2/",
       "date": "2026-05-13T03:57:45",
@@ -1619,6 +1977,22 @@
       "lng": -176.8485,
       "source_title": "GDACS RSS information",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540431"
+    },
+    {
+      "wp_id": 2934,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-12-2026-magnitude-6-2/",
+      "date": "2026-05-13T03:57:23",
+      "title": "Earthquake in Tonga 05/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.7 earthquake struck about 275 kilometers southwest of Houma, Tonga on May 12, 2026. The quake occurred deep underground, roughly 154 kilometers below the surface, which generally reduces the shaking felt at ground level.\n\nNo significant damage or casualties have been reported at this time. The remote location and considerable depth of this earthquake likely limited its impact on nearby communities.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -23.2041,
+      "lng": -176.8485,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx9x"
     },
     {
       "wp_id": 2933,
@@ -1701,6 +2075,22 @@
       "source_url": "https://visayandailystar.com/phivolcs-warns-of-rising-magma-at-kanlaon/"
     },
     {
+      "wp_id": 2926,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-6/",
+      "date": "2026-05-12T22:36:44",
+      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck the Solomon Islands on December 5, 2026. The quake originated about 64 kilometers underground, which is considered a moderate depth and can limit the amount of shaking felt at the surface.\n\nNo injuries, casualties, or damage have been reported from this event. The relatively small number of people in the affected area and the depth of the quake likely reduced its impact on the ground.\n\nThe Solomon Islands sit in a highly active seismic zone in the southwestern Pacific, and earthquakes in this region are common. Residents and those working in the area should remain attentive to any official updates.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.6279,
+      "lng": 164.9205,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540398"
+    },
+    {
       "wp_id": 2925,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-12-05-2026-magnitude-5-7/",
       "date": "2026-05-12T22:36:33",
@@ -1733,6 +2123,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5d"
     },
     {
+      "wp_id": 2923,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-6/",
+      "date": "2026-05-12T22:36:11",
+      "title": "Earthquake in Solomon Islands 05/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck about 96 kilometers west of Lata in the Solomon Islands on May 12, 2026. The quake occurred at a depth of about 64 kilometers beneath the surface.\n\nNo casualties or damage have been reported from this event. The Solomon Islands sit in one of the most seismically active regions in the world, and earthquakes in this area are common.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.724173,
+      "lng": 165.797764,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5k"
+    },
+    {
       "wp_id": 2922,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-12-2026-magnitude-5/",
       "date": "2026-05-12T22:36:01",
@@ -1747,6 +2153,22 @@
       "lng": 128.0002,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx7r"
+    },
+    {
+      "wp_id": 2921,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-12-2026-magnitude-6/",
+      "date": "2026-05-12T22:35:51",
+      "title": "Earthquake in Tonga 05/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.7 earthquake struck a remote area of the southern Pacific Ocean, about 289 kilometers southwest of Houma, Tonga. The quake was about 136 kilometers deep, which is considered a relatively deep earthquake. At that depth, seismic energy is absorbed by the earth before reaching the surface, which typically reduces shaking and damage at ground level.\n\nNo casualties or significant damage have been reported, and initial assessments suggest the impact on communities was minimal. The remote location and depth of this earthquake both contributed to the low expected impact for the region.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -21.169119,
+      "lng": -175.30415,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx9x"
     },
     {
       "wp_id": 2920,
@@ -1765,6 +2187,38 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxaj"
     },
     {
+      "wp_id": 2899,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-10-2026-4/",
+      "date": "2026-05-12T15:41:10",
+      "title": "Wildfire in Russia 05/10/2026",
+      "body": "A forest fire broke out in Russia on May 10, 2026, and continued burning through at least May 11, 2026. No details about the specific location, size, or cause of the fire were included in the available report.\n\nBecause no further information has been provided about affected communities, evacuations, or damage, it is not possible to assess the impact at this time. Those with contacts or ministry work in Russian regions should monitor local sources for updates as more information becomes available.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.701261322187456,
+      "lng": 133.438170354676,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028645"
+    },
+    {
+      "wp_id": 2874,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-solomon-islands/",
+      "date": "2026-05-12T14:01:03",
+      "title": "Storm in Solomon Islands",
+      "body": "Tropical Cyclone Maila has struck the Solomon Islands, leaving more than 150,000 people in need of humanitarian assistance. The storm is the latest in a series of weather events to hit the Pacific region and has deepened what relief workers describe as a serious humanitarian crisis across the island nation.\n\nThe situation is made more difficult by ongoing displacement and the presence of unexploded wartime explosives in some areas, which put additional lives at risk as people move or search for safety. Relief coordinators say the combination of storm damage, displacement, and these hidden dangers has created layered and urgent needs across affected communities.\n\nAid organizations are working to respond, but conditions remain challenging. The scale of those affected — more than 150,000 people — highlights how exposed communities in the Solomon Islands remain to powerful storms and the compounding crises that follow them.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Storm",
+      "lat": -9.430584,
+      "lng": 159.952685,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167485"
+    },
+    {
       "wp_id": 2873,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-02-2025/",
       "date": "2026-05-12T14:00:49",
@@ -1779,6 +2233,22 @@
       "lng": 127.9,
       "source_title": "BBC News",
       "source_url": "https://www.bbc.com/news/articles/cz623qjqjd6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "wp_id": 2872,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-10-2026-2/",
+      "date": "2026-05-12T14:00:37",
+      "title": "Wildfire in Russia 05/10/2026",
+      "body": "A forest fire broke out in Russia on May 10, 2026, and continued burning through at least May 11, 2026. No further details about the fire's location, size, or impact were included in the available report.\n\nBecause specific information about affected communities, casualties, or the extent of the fire is not yet available, it is not possible to say more about conditions on the ground at this time.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 50.78228184364474,
+      "lng": 129.8058278059038,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028636"
     },
     {
       "wp_id": 2871,
@@ -1845,6 +2315,38 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx1u"
     },
     {
+      "wp_id": 2867,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:24",
+      "title": "Earthquake in Solomon Islands 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 81 kilometers west-northwest of Kirakira in the Solomon Islands. The quake occurred at a depth of about 61 kilometers beneath the surface.\n\nNo damage or casualties have been reported from this event. At this depth and magnitude, shaking would likely have been felt in the surrounding area but major destruction would not be expected.\n\nThe Solomon Islands sit in one of the world's most seismically active zones, and earthquakes of this size occur there regularly.",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx2s"
+    },
+    {
+      "wp_id": 2866,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-05-12-2026-magnitude-5/",
+      "date": "2026-05-12T13:59:14",
+      "title": "Earthquake in India 05/12/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck near the Nicobar Islands in the early morning hours of May 12, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can increase the amount of shaking felt at ground level.\n\nThe Nicobar Islands are part of a remote island chain in the eastern Indian Ocean, in a region known for frequent seismic activity due to nearby tectonic plate boundaries. At this magnitude, the quake was relatively minor and is unlikely to have caused significant damage, though residents in the area may have felt noticeable shaking.\n\nNo reports of damage or casualties were immediately available from the source material.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Earthquake",
+      "lat": 7.0489,
+      "lng": 92.4295,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx36"
+    },
+    {
       "wp_id": 2865,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-12-2026-magnitude-5/",
       "date": "2026-05-12T13:59:04",
@@ -1909,6 +2411,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103873"
     },
     {
+      "wp_id": 2817,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-05-10-2026/",
+      "date": "2026-05-11T15:28:32",
+      "title": "Wildfire in Russia 05/10/2026",
+      "body": "A forest fire broke out in Russia on May 10, 2026, and continued burning through at least May 11, 2026. No details about the specific location, size, or cause of the fire were included in the available report.\n\nBecause no further information is currently available — such as which region was affected, how many people were impacted, or whether any structures were threatened — the full scope of this fire remains unclear. Updates are expected as more details emerge.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.933340435084276,
+      "lng": 134.79097474455511,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028642"
+    },
+    {
       "wp_id": 2816,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-10-05-2026-magnitude-5-5/",
       "date": "2026-05-11T15:28:21",
@@ -1941,6 +2459,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000141"
     },
     {
+      "wp_id": 2814,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-09-2026-magnitude-5/",
+      "date": "2026-05-11T15:27:57",
+      "title": "Earthquake in Tonga 05/09/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck the waters north-northeast of Neiafu, Tonga on May 9, 2026. The quake had a magnitude of about 4.8 and occurred at a depth of roughly 35 kilometers beneath the seafloor.\n\nNo damage or injuries have been reported at this time. At this magnitude and distance from populated areas, significant impact on land is unlikely, though residents in the region may have felt some light shaking.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.651457,
+      "lng": -173.98355,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swj8"
+    },
+    {
       "wp_id": 2813,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-10-2026-magnitude-5-5/",
       "date": "2026-05-11T15:27:47",
@@ -1971,6 +2505,22 @@
       "lng": 145.805423,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swr6"
+    },
+    {
+      "wp_id": 2811,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-10-2026-magnitude-5/",
+      "date": "2026-05-11T15:27:21",
+      "title": "Earthquake in Tonga 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the ocean about 100 kilometers south-southeast of Hihifo, Tonga on May 10, 2026. The quake was shallow, occurring only about 10 kilometers below the surface, which can cause shaking to be felt more strongly at ground level.\n\nNo damage reports or casualty information were included in the available source material. The remote offshore location may have limited any significant impact on local communities, but residents in the region may have felt the tremor.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -15.95679,
+      "lng": -173.79214,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swr8"
     },
     {
       "wp_id": 2810,
@@ -2019,6 +2569,22 @@
       "lng": 26.96022,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swsg"
+    },
+    {
+      "wp_id": 2806,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-5-2/",
+      "date": "2026-05-11T15:26:38",
+      "title": "Earthquake in United States 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck in the Pacific Ocean about 292 kilometers north of Saipan in the Northern Mariana Islands on May 10, 2026. The quake was centered at a depth of about 175 kilometers, making it a deep event.\n\nAt that depth and distance from land, significant shaking at the surface is unlikely. Only one person submitted a felt report, suggesting little to no impact was noticed on the island.\n\nNo damage or injuries have been reported in connection with this event.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 17.8567,
+      "lng": 145.6782,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swss"
     },
     {
       "wp_id": 2805,
@@ -2101,6 +2667,54 @@
       "source_url": "https://www.bbc.com/news/videos/c5y7gmmp8pdo?at_medium=RSS&at_campaign=rss"
     },
     {
+      "wp_id": 2774,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-05-2026-magnitude-5-8/",
+      "date": "2026-05-10T16:32:07",
+      "title": "Earthquake in United States 09/05/2026 — Magnitude 5.8",
+      "body": "A magnitude 5.8 earthquake struck the Rat Islands area of the Aleutian Islands chain in Alaska. The quake occurred in the early morning hours and was centered about 26 kilometers below the surface — a moderate depth that can allow shaking to spread across a wide area.\n\nThe Aleutian Islands are one of the most seismically active regions in the world, sitting along a major fault zone in the northern Pacific. Earthquakes of this size in such a remote, sparsely populated area typically cause little to no damage, though they are closely monitored given the region's history of generating larger tremors.\n\nNo reports of damage or casualties were immediately available from this remote location.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.788056,
+      "lng": 178.302778,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539839"
+    },
+    {
+      "wp_id": 2773,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-5-8/",
+      "date": "2026-05-10T16:31:51",
+      "title": "Earthquake in United States 05/09/2026 — Magnitude 5.8",
+      "body": "A magnitude 5.8 earthquake struck a remote stretch of the North Pacific Ocean about 292 kilometers west-southwest of Adak, Alaska. The quake occurred at a shallow depth of about 26 kilometers beneath the seafloor.\n\nAdak is a small island community in the Aleutian Islands chain. Because the earthquake was centered far out at sea and well away from populated areas, no significant damage or injuries are expected. No tsunami warning was issued in connection with this event.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.873833,
+      "lng": -176.639163,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swf4"
+    },
+    {
+      "wp_id": 2772,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-4-9/",
+      "date": "2026-05-10T16:31:41",
+      "title": "Earthquake in United States 05/09/2026 — Magnitude 4.9",
+      "body": "A magnitude 4.9 earthquake struck off the northern California coast on May 9, 2026, centered about 96 kilometers west-southwest of Crescent City. The quake was shallow, occurring at a depth of about 10 kilometers beneath the ocean floor.\n\nRoughly 35 people submitted reports of feeling the shaking, though the tremor was relatively minor and no significant damage or injuries have been reported. Events of this size in offshore locations along this seismically active stretch of the Pacific coast are not uncommon.\n\nNo tsunami warning was issued in connection with this earthquake.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 41.752676,
+      "lng": -124.196966,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357576"
+    },
+    {
       "wp_id": 2771,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-09-2026-magnitude-5/",
       "date": "2026-05-10T16:31:30",
@@ -2181,6 +2795,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swi4"
     },
     {
+      "wp_id": 2766,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:30:34",
+      "title": "Earthquake in Philippines 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 78 kilometers south-southeast of Pondaguitan in the southern Philippines on May 10, 2026. The quake occurred roughly 99 kilometers below the surface, placing it in the deeper range where shaking at ground level is typically less intense than shallow earthquakes of similar size.\n\nNo damage or casualties were reported in the available information. Earthquakes of this size and depth in this region of the Philippines are relatively common, as the country sits along one of the world's most active seismic zones.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.358398,
+      "lng": 126.17333,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swjc"
+    },
+    {
       "wp_id": 2765,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-10-2026-magnitude-5-2/",
       "date": "2026-05-10T16:30:24",
@@ -2195,6 +2825,38 @@
       "lng": 132.74513,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swk8"
+    },
+    {
+      "wp_id": 2764,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-4-5/",
+      "date": "2026-05-10T16:30:12",
+      "title": "Earthquake in United States 05/10/2026 — Magnitude 4.5",
+      "body": "A magnitude 4.5 earthquake struck near Brawley, California, in the early morning hours of May 10, 2026. The quake was centered about 2 kilometers west of the city and occurred at a depth of roughly 16 kilometers underground.\n\nMore than 165 people submitted reports of feeling the shaking. The estimated impact level for this event was rated green, suggesting limited risk of serious damage or casualties. Brawley sits in the Imperial Valley, an area with a history of seismic activity, and residents in the surrounding region are generally familiar with earthquakes of this size.\n\nNo significant damage or injuries were reported in the available information.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 32.978625,
+      "lng": -115.533615,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41460512"
+    },
+    {
+      "wp_id": 2763,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:57",
+      "title": "Earthquake in United States 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck near Brawley, in California's Imperial Valley, on May 10, 2026. The quake was centered about 3 kilometers west-southwest of town and occurred at a depth of roughly 15 kilometers.\n\nOver 160 people submitted reports saying they felt the shaking, with some describing it as strong. Brawley sits in a seismically active region near the Salton Sea, and smaller earthquakes are common there, though a quake of this size is large enough to be widely noticed and potentially cause minor damage.\n\nNo major injuries or damage have been reported at this time. Residents in the area are encouraged to check their surroundings for any structural concerns and to be prepared for possible aftershocks in the days ahead.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 32.978625,
+      "lng": -115.533615,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461608"
     },
     {
       "wp_id": 2762,
@@ -2227,6 +2889,22 @@
       "lng": -27.5038,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swq9"
+    },
+    {
+      "wp_id": 2760,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-10-2026-magnitude-5/",
+      "date": "2026-05-10T16:29:25",
+      "title": "Earthquake in Indonesia 05/10/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck a remote area about 248 kilometers north-northeast of Palu, Indonesia, on May 10, 2026. The quake occurred at a depth of about 35 kilometers beneath the surface.\n\nNo damage or injuries have been reported in connection with this event. At this depth and magnitude, significant impact to populated areas would be unlikely, though residents in nearby coastal and inland communities may have felt some light shaking.\n\nIndonesia sits along one of the most seismically active regions in the world, and earthquakes of this size occur regularly across the archipelago.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.2342,
+      "lng": 120.5431,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swq8"
     },
     {
       "wp_id": 2722,
@@ -2307,6 +2985,22 @@
       "lng": 177.2617,
       "source_title": "GDACS RSS information",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539122"
+    },
+    {
+      "wp_id": 2717,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-05-2026-magnitude-6/",
+      "date": "2026-05-09T03:25:27",
+      "title": "Earthquake in United States 06/05/2026 — Magnitude 6",
+      "body": "A magnitude 5.8 earthquake struck the United States on June 5, 2026. The quake originated at a shallow depth of about 10 kilometers beneath the surface.\n\nVery few people appear to have been affected, and no significant damage or casualties are reported in the available information. Shallow earthquakes at this depth can sometimes be felt over a wide area, though this event seems to have had limited impact.\n\nNo specific city or region was identified in the source material, so the exact location within the country remains unclear at this time.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.2595,
+      "lng": 176.518,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539381"
     },
     {
       "wp_id": 2716,
@@ -2405,6 +3099,38 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svvf"
     },
     {
+      "wp_id": 2710,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-05-07-2026-magnitude-5/",
+      "date": "2026-05-09T03:24:08",
+      "title": "Earthquake in Mexico 05/07/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck off the Pacific coast of Mexico on May 7, 2026, centered about 98 kilometers southwest of Puerto Madero, in the southern state of Chiapas. The quake was shallow, occurring roughly 10 kilometers below the surface, which can cause shaking to be felt more strongly at the surface compared to deeper events.\n\nNo casualties, damage reports, or tsunami warnings were mentioned in available information. Earthquakes of this size near populated coastal areas are worth monitoring, particularly in a seismically active region like southern Mexico. Residents in the area may have felt light to moderate shaking.",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 14.719043,
+      "lng": -92.42215,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svvr"
+    },
+    {
+      "wp_id": 2709,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-07-2026-magnitude-5/",
+      "date": "2026-05-09T03:23:54",
+      "title": "Earthquake in Russia 05/07/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck about 123 kilometers south of Vilyuchinsk, Russia on May 7, 2026. The quake registered magnitude 4.5 and occurred at a depth of about 88 kilometers underground, placing it in the deeper range where shaking at the surface is generally less severe than shallower events.\n\nNo damage or injuries have been reported at this time. The remote location south of Vilyuchinsk, on the Kamchatka Peninsula, means population exposure is likely limited. The Kamchatka region sits along one of the world's most seismically active zones, and earthquakes of this size occur there regularly.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 52.931564,
+      "lng": 158.40579,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svwk"
+    },
+    {
       "wp_id": 2708,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-07-2026-magnitude-5/",
       "date": "2026-05-09T03:23:44",
@@ -2419,6 +3145,54 @@
       "lng": 178.834031,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svwn"
+    },
+    {
+      "wp_id": 2707,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-07-2026-magnitude-5-2/",
+      "date": "2026-05-09T03:23:29",
+      "title": "Earthquake in Japan 05/07/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 5 kilometers east of Chikusei, Japan on May 7, 2026. The quake occurred at a depth of about 79 kilometers, which is relatively deep and typically helps reduce the intensity of shaking felt at the surface.\n\nOnly a small number of people submitted felt reports, suggesting the shaking was minor in the area. No damage or injuries were mentioned in available information.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 36.305027,
+      "lng": 139.97879,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw0d"
+    },
+    {
+      "wp_id": 2706,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-07-2026-magnitude-5/",
+      "date": "2026-05-09T03:23:20",
+      "title": "Earthquake in Japan 05/07/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck about 41 kilometers east of Minami-Sōma, Japan, on May 7, 2026. The quake originated roughly 65 kilometers below the surface, placing it in the deeper range where shaking at ground level is generally less intense than with shallower quakes.\n\nMinami-Sōma is located in Fukushima Prefecture along Japan's Pacific coast, a region long familiar with seismic activity. No damage or casualties were reported in the available information.\n\nJapan experiences frequent earthquakes due to its position along major tectonic plate boundaries, and events of this size in the region are not uncommon.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 37.6229,
+      "lng": 141.4443,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw2r"
+    },
+    {
+      "wp_id": 2705,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-05-08-2026-magnitude-5/",
+      "date": "2026-05-09T03:23:10",
+      "title": "Earthquake in Argentina 05/08/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck a remote area of northwestern Argentina on May 8, 2026, centered about 55 kilometers north-northwest of the town of San Antonio de los Cobres, in Salta Province.\n\nThe quake was very deep, occurring roughly 198 kilometers underground. At that depth, seismic energy spreads out over a wide area before reaching the surface, which typically reduces the intensity of shaking felt by people on the ground compared to a shallower earthquake of the same size.\n\nNo damage or casualties were reported in the source material. San Antonio de los Cobres is a small, high-altitude town in the Andean highlands. The region experiences regular seismic activity due to the ongoing movement of tectonic plates beneath the Andes Mountains.",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -24.217514,
+      "lng": -66.32092,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw3f"
     },
     {
       "wp_id": 2704,
@@ -2469,6 +3243,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sw6v"
     },
     {
+      "wp_id": 2701,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-08-2026-magnitude-5/",
+      "date": "2026-05-09T03:22:25",
+      "title": "Earthquake in Japan 05/08/2026 — Magnitude 5",
+      "body": "A moderate earthquake struck off the northeastern coast of Japan on May 8, 2026, centered about 117 kilometers east-northeast of Miyako, a coastal city in Iwate Prefecture. The quake registered magnitude 4.6 and occurred at a depth of about 35 kilometers beneath the seafloor.\n\nNo damage or injuries were immediately reported from this event. Earthquakes of this size at this depth are common along Japan's Pacific coast, which sits on one of the world's most seismically active zones. Residents in the region are accustomed to frequent tremors of varying strength.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 31.72605,
+      "lng": 131.06433,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swak"
+    },
+    {
       "wp_id": 2700,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-05-08-2026-magnitude-5/",
       "date": "2026-05-09T03:22:15",
@@ -2485,6 +3275,22 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swai"
     },
     {
+      "wp_id": 2699,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-08-2026-magnitude-5/",
+      "date": "2026-05-09T03:22:04",
+      "title": "Earthquake in United States 05/08/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck a remote area of the North Pacific Ocean, about 289 kilometers west-southwest of Adak, Alaska. The quake occurred at a depth of roughly 37 kilometers beneath the seafloor.\n\nAdak is a small island community in the Aleutian Islands chain, one of the most seismically active regions in the world. At this distance from land and with no reports of damage or injuries in the source material, the event is not expected to have caused significant impact to communities in the area.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.873833,
+      "lng": -176.639163,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swbu"
+    },
+    {
       "wp_id": 2698,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-08-2026-magnitude-5/",
       "date": "2026-05-09T03:21:54",
@@ -2499,6 +3305,22 @@
       "lng": 178.4406,
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swcc"
+    },
+    {
+      "wp_id": 2697,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-08-2026-magnitude-5/",
+      "date": "2026-05-09T03:21:44",
+      "title": "Earthquake in Papua New Guinea 05/08/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck roughly 100 kilometers south-southeast of Lorengau, Papua New Guinea on May 8, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level compared to deeper earthquakes.\n\nNo damage or casualties have been reported from this event. Papua New Guinea sits along the Pacific Ring of Fire and regularly experiences seismic activity due to the movement of tectonic plates beneath the region.\n\nThose in the area should stay alert to any updates from local authorities, particularly regarding aftershocks, which are common following earthquakes in this part of the world.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.032957,
+      "lng": 147.278918,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swcg"
     },
     {
       "wp_id": 2696,
@@ -2549,6 +3371,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2693,
+      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth35-536km-in-indonesia-05-05-2026-0644-utc-740-thousand-in-mmi-iv/",
+      "date": "2026-05-07T19:28:17",
+      "title": "Minor earthquake (Magnitude 5.8M, Depth:35.536km) in Indonesia 05/05/2026 06:44 UTC, 740 thousand in MMI IV.",
+      "body": "A magnitude 5.8 earthquake struck Indonesia on May 5, 2026, at 06:44 UTC, with a recorded depth of approximately 35.5 kilometers. According to automated monitoring data, an estimated 740,000 people were exposed to shaking at Modified Mercalli Intensity (MMI) Scale level IV, which typically corresponds to light to moderate shaking felt indoors by most people, with some rattling of dishes and windows but generally limited structural risk.\n\nThe intermediate depth of the event — approximately 35 kilometers — suggests reduced surface impact compared to shallower seismic events of similar magnitude, though the broad population exposure warrants monitoring. No specific city, province, or region was identified in the source material as the epicentral area.\n\nNo reports of casualties, infrastructure damage, or secondary hazards such as landslides or tsunami generation were referenced in the available source data. This initial report is flagged as indicative and automated, requiring corroboration from national disaster management agencies and local sources before damage assessments can be confirmed.\n\nMission Note: Field personnel and mission teams operating in Indonesia should monitor follow-on reporting from official Indonesian authorities to confirm whether any localized impact occurred, particularly in areas with vulnerable construction.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -10.1135,
+      "lng": 119.3245,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2692,
       "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth10km-in-new-zealand-05-05-2026-0800-utc-70-thousand-in-mmi-iv/",
       "date": "2026-05-07T19:27:59",
@@ -2561,6 +3399,22 @@
       "type": "Earthquake",
       "lat": -36.7452,
       "lng": 177.2617,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2691,
+      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth10km-in-united-states-06-05-2026-1415-utc-few-people-affected-in-mmi-iii/",
+      "date": "2026-05-07T19:27:35",
+      "title": "Minor earthquake (Magnitude 5.8M, Depth:10km) in United States 06/05/2026 14:15 UTC, Few people affected in MMI III.",
+      "body": "A magnitude 5.8 earthquake struck the United States on 6 May 2026 at 14:15 UTC, with a recorded depth of 10 kilometers. According to the Global Disaster Alert and Coordination System (GDACS), the event registered a Modified Mercalli Intensity (MMI) of III, a level generally described as weak shaking felt by few people, particularly those indoors or in upper floors of buildings. At MMI III, structural damage is not typically expected, and the event is unlikely to have caused significant casualties or infrastructure disruption.\n\nThe source does not specify a named city, region, or state where the earthquake occurred, limiting precise geographic situational awareness. The shallow depth of 10 kilometers is notable, as shallower earthquakes can produce stronger surface shaking relative to their magnitude, though the low MMI rating suggests limited felt impact in this instance.\n\nNo injuries, fatalities, or damage reports are referenced in the available source material. The preliminary nature of the data, as acknowledged by the originating system, means situational details may be subject to revision as additional reporting becomes available.\n\n**Mission Note:** Field personnel and deploying organizations operating within the United States should monitor follow-on reporting to confirm the precise location and any emerging impact assessments before drawing operational conclusions.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.2595,
+      "lng": 176.518,
       "source_title": "",
       "source_url": ""
     },
@@ -2677,6 +3531,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2255,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-united-states-at-shallow-depth/",
+      "date": "2026-05-06T23:35:11",
+      "title": "Magnitude 5.8 Earthquake Strikes United States at Shallow Depth",
+      "body": "<p>A magnitude 5.8 earthquake struck the United States on 6 May 2026 at 14:15 UTC, with a shallow focal depth of 10 kilometers. Initial assessments indicate that few people were affected, with shaking intensity recorded at Modified Mercalli Intensity (MMI) III — generally described as slight tremor felt indoors but unlikely to cause significant damage or injury. No specific city, region, or locality is identified in the available reporting. The low population exposure and moderate shaking intensity suggest limited humanitarian impact at this time, though shallow-depth earthquakes can occasionally produce localized structural effects disproportionate to their magnitude.</p>\n<p>Mission Note: Field workers in the United States should monitor for more precise location data as it becomes available, as the shallow depth and MMI III classification suggest minimal operational disruption, but site-specific assessments near the epicenter are advisable until further information is confirmed.</p>",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.2595,
+      "lng": 176.518,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2254,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-5-earthquake-strikes-philippines-at-shallow-depth/",
       "date": "2026-05-06T23:34:58",
@@ -2689,6 +3559,38 @@
       "type": "Earthquake",
       "lat": 14.5868,
       "lng": 120.9818,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2253,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-3-earthquake-strikes-banda-sea-region/",
+      "date": "2026-05-06T23:34:44",
+      "title": "Magnitude 5.3 Earthquake Strikes Banda Sea Region",
+      "body": "<p>A magnitude 5.3 earthquake occurred in the Banda Sea on 5 May 2026 at 02:38 UTC. The epicenter was located at approximately 6.4°S, 130.2°E, placing it within the seismically active Banda Sea zone of eastern Indonesia. The event occurred at a depth of approximately 154 kilometers, which significantly reduces surface shaking intensity and the likelihood of major structural damage or tsunami generation compared to shallower events. No damage or casualty figures are available in current reporting.</p>\n<p>Mission Note: At this depth and magnitude, operational disruption to field personnel in eastern Indonesia is assessed as low, though teams in the Maluku and East Nusa Tenggara regions should monitor local reports for any aftershock activity or infrastructure impacts.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.4335,
+      "lng": 130.1627,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2252,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-northeast-of-pauanui/",
+      "date": "2026-05-06T23:34:32",
+      "title": "Magnitude 5.8 Earthquake Strikes Northeast of Pauanui",
+      "body": "<p>A magnitude 5.8 earthquake occurred approximately 127 km east-northeast of Pauanui, New Zealand, on 5 May 2026 at 08:00 UTC. The event was recorded at a shallow depth of 10 km, which can increase ground shaking intensity at the surface. USGS PAGER assigned a GREEN alert level, indicating low likelihood of significant casualties or major damage. ShakeMap estimated a maximum intensity of IV (Light) on the Modified Mercalli scale, consistent with 42 public reports submitted through the Did You Feel It? system, which corroborated the same intensity level. No tsunami warnings, structural damage reports, or casualty figures are referenced in the available data.</p>\n<p>Mission Note: At a GREEN PAGER alert and MMI IV intensity, this event poses minimal immediate threat to field personnel or infrastructure in the region, though those operating in coastal or rural areas northeast of Pauanui should monitor local authorities for any follow-on advisories.</p>",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -37.0242,
+      "lng": 175.86,
       "source_title": "",
       "source_url": ""
     },
@@ -2741,6 +3643,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2248,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-izu-islands-region/",
+      "date": "2026-05-06T23:33:42",
+      "title": "Magnitude 4.8 Earthquake Strikes Izu Islands Region",
+      "body": "<p>A magnitude 4.8 earthquake occurred in the Izu Islands region of Japan on 6 May 2026 at 03:03 UTC. The event was recorded at a shallow depth of 10 kilometers, with the epicenter located at approximately 29.3°N, 142.5°E, as reported by the USGS. Shallow-focus earthquakes at this depth can produce stronger ground shaking relative to their magnitude, though no damage or casualty information is available from the source material.</p>\n<p>The Izu Islands chain extends southward from the Japanese mainland into the Philippine Sea and encompasses both populated island communities and active volcanic zones. Seismic activity in this region is common given its tectonic setting.</p>\n<p>Mission Note: Field workers or personnel transiting through or stationed in the Izu Islands should monitor local authorities for any follow-on seismic activity or infrastructure impact, though the moderate magnitude suggests limited operational disruption at this stage.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.9786,
+      "lng": 138.9495,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2247,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-northwest-of-dajal/",
       "date": "2026-05-06T23:33:31",
@@ -2753,6 +3671,22 @@
       "type": "Earthquake",
       "lat": 29.5563,
       "lng": 70.3797,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2246,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-2-earthquake-strikes-west-of-panguna/",
+      "date": "2026-05-06T23:33:17",
+      "title": "Magnitude 5.2 Earthquake Strikes West of Panguna",
+      "body": "<p>A magnitude 5.2 earthquake struck approximately 134 kilometers west-northwest of Panguna, Papua New Guinea, on 6 May 2026 at 09:43 UTC. The event occurred at a depth of approximately 103 kilometers, placing it in the intermediate-depth range, which generally reduces surface shaking intensity compared to shallower events of equivalent magnitude. No casualty figures, infrastructure damage assessments, or tsunami advisories are referenced in the available source data.</p>\n<p>The intermediate depth and moderate magnitude suggest limited surface impact, though seismic activity in this region is frequent and cumulative effects on structures in remote areas warrant monitoring. Panguna and surrounding communities on Bougainville Island sit within one of the world&#8217;s most seismically active zones.</p>\n<p>Mission Note: Field personnel operating in the Bougainville region should conduct standard post-event structure checks and monitor local emergency communications for any follow-on activity or damage reports from more isolated communities.</p>",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.3048,
+      "lng": 155.4882,
       "source_title": "",
       "source_url": ""
     },
@@ -2785,6 +3719,22 @@
       "type": "Earthquake",
       "lat": -29.9551,
       "lng": -71.3375,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2243,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-6-earthquake-strikes-south-of-kermadec-islands/",
+      "date": "2026-05-06T23:32:40",
+      "title": "Magnitude 5.6 Earthquake Strikes South of Kermadec Islands",
+      "body": "<p>A magnitude 5.6 earthquake occurred south of the Kermadec Islands on 6 May 2026 at 11:46 UTC, with a shallow focal depth of 10 km. USGS PAGER assessment assigned a GREEN alert level, indicating low likelihood of significant casualties or damage. ShakeMap estimated a maximum intensity of VI (Strong) at the nearest affected area.</p>\n<p>The shallow depth of the event is consistent with elevated ground shaking potential in the immediate epicentral zone, though the remote oceanic location of the Kermadec Islands substantially limits humanitarian and infrastructure exposure. No tsunami warning information is referenced in the available source material.</p>\n<p>Mission Note: This event occurred in a remote, largely uninhabited oceanic region; no immediate impact to field personnel or mission infrastructure is anticipated, but operators with maritime or aerial assets transiting the southwestern Pacific should monitor for any follow-on advisories.</p>",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -32.1671,
+      "lng": -177.9339,
       "source_title": "",
       "source_url": ""
     },
@@ -2885,6 +3835,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2217,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-russia-lasting-several-days-2/",
+      "date": "2026-05-05T23:54:28",
+      "title": "Forest Fire Reported in Russia Lasting Several Days",
+      "body": "<p>A forest fire was recorded in the Russian Federation beginning 29 April 2026, with the event continuing through 02 May 2026, according to the Global Disaster Alert and Coordination System (GDACS). The alert is classified at the green notification level, indicating a lower severity assessment at the time of reporting. No specific geographic location within Russia, casualty figures, or area of burned land were provided in the available source material.</p>\n<p>Given the limited detail in this initial alert, field personnel operating in or near forested regions of Russia should monitor follow-on reporting for updated perimeter data, air quality advisories, and any access restrictions that may develop.</p>\n<p>Mission Note: Field workers in Russia should treat this as an early-stage indicator and consult additional regional sources before making deployment or travel decisions in affected forested areas.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 49.2757,
+      "lng": 130.3278,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2216,
       "wp_link": "https://globalwitnessmonitor.com/flooding-in-tajikistan-kills-three-displaces-hundreds/",
       "date": "2026-05-05T23:54:17",
@@ -2933,6 +3899,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2213,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-indonesia-at-moderate-depth/",
+      "date": "2026-05-05T23:53:38",
+      "title": "Magnitude 5.8 Earthquake Strikes Indonesia at Moderate Depth",
+      "body": "<p>A magnitude 5.8 earthquake struck Indonesia on 5 May 2026 at 06:44 UTC, at a depth of approximately 35.5 kilometers. Initial assessments indicate an estimated 740,000 people may have been exposed to shaking at MMI IV intensity — a level generally described as noticeable indoor movement, rattling of objects, and minor disturbance, but not typically associated with structural damage to sound construction. The event is classified as &#8220;green&#8221; alert level by GDACS, suggesting limited humanitarian impact is anticipated at this stage. No casualty figures or infrastructure damage reports are referenced in available source material.</p>\n<p>Mission Note: Field personnel in Indonesia should monitor local reports for any localized structural damage or access disruptions, particularly in areas with older or informal construction, though the green alert classification suggests significant operational impact is unlikely at this time.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.1756,
+      "lng": 106.8272,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2212,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-new-zealand-at-shallow-depth/",
       "date": "2026-05-05T23:53:25",
@@ -2965,6 +3947,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2210,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-off-miyako-coast/",
+      "date": "2026-05-05T23:52:52",
+      "title": "Magnitude 4.8 Earthquake Strikes Off Miyako Coast",
+      "body": "<p>A magnitude 4.8 earthquake occurred approximately 123 kilometers east-northeast of Miyako, in the offshore Pacific region of northeastern Japan, on 4 May 2026 at 21:42 UTC. The event was recorded at a relatively shallow depth of 12.46 kilometers, according to USGS monitoring data. Shallow-focus earthquakes at this depth can produce stronger ground shaking at the surface compared to deeper events, though no casualty or damage information is available in the current reporting. The epicenter coordinates place the event well offshore in the western Pacific, reducing the likelihood of significant onshore impact, but the area lies within Japan&#8217;s seismically active northeastern coast — a region with a history of consequential seismic activity.</p>\n<p>Mission Note: Field workers operating in the Miyako and broader Iwate Prefecture region should monitor local emergency channels for any updated advisories, though the offshore location and moderate magnitude suggest limited immediate threat to inland infrastructure or communities.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 31.7261,
+      "lng": 131.0643,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2209,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-remote-central-australia/",
       "date": "2026-05-05T23:52:38",
@@ -2993,6 +3991,22 @@
       "type": "Earthquake",
       "lat": 54.1337,
       "lng": -165.7744,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2207,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-northeast-of-tonopah-nevada/",
+      "date": "2026-05-05T23:52:11",
+      "title": "Magnitude 4.5 Earthquake Strikes Northeast of Tonopah Nevada",
+      "body": "<p>A magnitude 4.5 earthquake occurred approximately 77 kilometers northeast of Tonopah, Nevada, on 5 May 2026 at 02:39 UTC. The event was recorded at a shallow depth of 10 kilometers. USGS PAGER assessment assigned a Green alert level, indicating low likelihood of significant casualties or damage. ShakeMap estimated a maximum intensity of IV (Light), consistent with the nine public reports submitted through the Did You Feel It? system, also reflecting intensity IV — perceptible shaking but generally below the threshold for structural damage.</p>\n<p>The shallow focal depth increases local shaking potential relative to deeper events of similar magnitude, though the Green PAGER designation suggests impact remains limited. No damage or casualty reports are referenced in the available source material.</p>\n<p>Mission Note: The Green PAGER alert and Light intensity rating suggest minimal disruption to personnel or infrastructure in the Tonopah area; field workers in central Nevada should monitor for any aftershock activity given the shallow focal depth.</p>",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 38.067,
+      "lng": -117.2296,
       "source_title": "",
       "source_url": ""
     },
@@ -3045,6 +4059,54 @@
       "source_url": ""
     },
     {
+      "wp_id": 2203,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-northeast-of-pauanui/",
+      "date": "2026-05-05T23:51:22",
+      "title": "Magnitude 4.5 Earthquake Strikes Northeast of Pauanui",
+      "body": "<p>A magnitude 4.5 earthquake struck approximately 129 kilometers east-northeast of Pauanui, New Zealand, on May 5, 2026, at 09:37 UTC. The event was recorded at a relatively shallow depth of 10 kilometers, which can increase ground shaking intensity at the surface compared to deeper seismic events. No casualty figures, infrastructure damage reports, or tsunami advisories are referenced in the available source data.</p>\n<p>At M4.5 and shallow depth, the tremor may have been perceptible across a broad coastal area northeast of the Coromandel Peninsula, though events of this magnitude typically do not cause significant structural damage.</p>\n<p>Mission Note: Field personnel operating in the Coromandel Peninsula and surrounding coastal regions should monitor local authorities for any follow-on assessments, particularly given the shallow focal depth, though significant disruption to operations is not anticipated based on currently available information.</p>",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -37.0242,
+      "lng": 175.86,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2202,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-banda-sea-at-depth/",
+      "date": "2026-05-05T23:51:10",
+      "title": "Magnitude 4.5 Earthquake Strikes Banda Sea at Depth",
+      "body": "<p>A magnitude 4.5 earthquake occurred in the Banda Sea on 5 May 2026 at 13:46 UTC, with an epicenter located at approximately 6.6°S, 130.1°E. The event was recorded at a depth of 158 kilometers, placing it in the intermediate-depth range. At this depth, seismic energy is typically attenuated significantly before reaching the surface, reducing the likelihood of strong shaking or tsunami generation at the surface level. No damage, casualties, or infrastructure impacts are referenced in the available source material.</p>\n<p>The Banda Sea is a seismically active zone situated within the Indonesian archipelago, and intermediate-depth events in this region are routine. Field personnel operating in the Maluku island chain or surrounding areas should monitor local authority channels for any follow-on reporting.</p>\n<p>Mission Note: No immediate operational disruption is indicated, but field workers in the Maluku and eastern Indonesian region should maintain situational awareness given the seismically active nature of the Banda Sea zone.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.5523,
+      "lng": 130.0678,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2201,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-kepulauan-babar-archipelago/",
+      "date": "2026-05-05T23:50:50",
+      "title": "Magnitude 4.5 Earthquake Strikes Kepulauan Babar Archipelago",
+      "body": "<p>A magnitude 4.5 earthquake struck the Kepulauan Babar region of Indonesia on 5 May 2026 at 15:38 UTC. The event was recorded at a depth of approximately 64 kilometers, placing it in the intermediate-depth range, which generally reduces surface shaking intensity compared to shallower events. No casualty figures, infrastructure damage reports, or tsunami advisories are referenced in the available source data.</p>\n<p>Kepulauan Babar is a remote island group in the Maluku province, an area with limited infrastructure and constrained emergency response capacity. The intermediate depth of this event may have moderated local impact, but assessments remain preliminary given the sparse reporting.</p>\n<p>Mission Note: Field personnel operating in or near the Kepulauan Babar island chain should monitor local communications for any reports of structural damage or access disruptions, as infrastructure in this remote region is limited and earthquake impacts may take time to be confirmed.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -7.5791,
+      "lng": 129.8196,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2200,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-0-earthquake-strikes-northwest-of-tumbes/",
       "date": "2026-05-05T23:50:37",
@@ -3057,6 +4119,38 @@
       "type": "Earthquake",
       "lat": -3.5698,
       "lng": -80.4601,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2199,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-sarpol-e-zahab-iran/",
+      "date": "2026-05-05T23:50:25",
+      "title": "Magnitude 4.9 Earthquake Strikes Near Sarpol-e Zahab Iran",
+      "body": "<p>A magnitude 4.9 earthquake struck approximately 32 kilometers south-southwest of Sarpol-e Zahab, Iran, on 5 May 2026 at 20:53 UTC. The USGS recorded the event at a shallow depth of 10 kilometers, which increases the potential for surface-level shaking in the surrounding area. No casualty figures or infrastructure damage assessments are available in current reporting.</p>\n<p>Sarpol-e Zahab and the broader Kermanshah Province border region have a documented history of seismic activity, and shallow-focus earthquakes in this zone warrant close monitoring given the area&#8217;s vulnerability.</p>\n<p>Mission Note: Field workers and personnel operating in the Sarpol-e Zahab area should verify local structural conditions and remain alert to aftershock potential following this shallow-focus seismic event.</p>",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Earthquake",
+      "lat": 34.4608,
+      "lng": 45.8638,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2161,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-russia-lasting-several-days/",
+      "date": "2026-05-05T02:43:32",
+      "title": "Forest Fire Reported in Russia Lasting Several Days",
+      "body": "<p>A forest fire was recorded in the Russian Federation beginning 1 May 2026, with activity continuing through 4 May 2026, according to GDACS monitoring data. No specific region, locality, or affected area size is identified in the available source material. The alert is classified at a green notification level, indicating a lower-severity assessment at the time of reporting.</p>\n<p>No casualty figures, infrastructure impacts, or evacuation details are available from the current source. Further reporting from regional or national authorities would be required to assess the full scope of the event.</p>\n<p>Mission Note: Field workers operating in or planning travel to forested regions of Russia should monitor local and national emergency management channels for updated fire perimeter data and any access restrictions that may develop.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 49.4225,
+      "lng": 136.3308,
       "source_title": "",
       "source_url": ""
     },
@@ -3157,6 +4251,38 @@
       "source_url": ""
     },
     {
+      "wp_id": 2154,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-6-earthquake-strikes-philippines-at-moderate-depth/",
+      "date": "2026-05-05T02:42:10",
+      "title": "Magnitude 6 Earthquake Strikes Philippines at Moderate Depth",
+      "body": "<p>A magnitude 6.0 earthquake struck the Philippines on 5 April 2026 at 06:09 UTC, at a depth of approximately 73 kilometers. Initial assessments indicate roughly 3,000 people are located within the MMI VI shaking intensity zone, a level associated with strong shaking, potential minor structural damage, and objects falling or shifting. The intermediate depth of the event may have moderated surface-level impact compared to a shallower rupture of equivalent magnitude, though affected populations in the MMI VI zone warrant close monitoring. GDACS data characterizes this as a &#8220;green&#8221; alert level, suggesting limited projected humanitarian impact based on initial modeling, though ground-truth reporting has not yet been confirmed.</p>\n<p>Mission Note: Field personnel operating in the Philippines should verify local infrastructure integrity and communication status in the affected zone, as even moderate shaking can disrupt access routes and essential services in vulnerable communities.</p>",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 14.5868,
+      "lng": 120.9818,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2153,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-mexico-affecting-thousands/",
+      "date": "2026-05-05T02:41:58",
+      "title": "Magnitude 5.7 Earthquake Strikes Mexico Affecting Thousands",
+      "body": "<p>A magnitude 5.7 earthquake struck Mexico on 4 May 2026 at 15:19 UTC, with a recorded depth of approximately 22 kilometers. Initial assessments indicate that roughly 80,000 people were exposed to shaking at Modified Mercalli Intensity (MMI) Scale V, which typically produces moderate shaking felt by most people indoors, with some minor objects displaced but structural damage generally limited. The event is classified as &#8220;Green&#8221; severity by GDACS, suggesting lower levels of expected humanitarian impact based on automated modeling. No specific locality or region within Mexico is identified in the available source data, and no casualty or infrastructure damage figures have been reported at this stage.</p>\n<p>Mission Note: Field workers and travelers in Mexico should monitor local sources for ground-truth assessments of infrastructure or access impacts, particularly if operating in areas that experienced MMI V shaking, while the overall risk level appears low based on current classification.</p>",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 16.6223,
+      "lng": -97.9846,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2152,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-northeast-of-yonakuni-japan/",
       "date": "2026-05-05T02:41:38",
@@ -3221,6 +4347,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2148,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-remote-alaska-peninsula-waters/",
+      "date": "2026-05-05T02:40:55",
+      "title": "Magnitude 4.6 Earthquake Strikes Remote Alaska Peninsula Waters",
+      "body": "<p>A magnitude 4.6 earthquake occurred approximately 80 kilometers south-southeast of False Pass, Alaska, on May 3, 2026, at 19:20 UTC. The USGS recorded the event at a depth of 42.72 km (26.54 miles), placing it in the intermediate-depth range. ShakeMap estimated a maximum intensity of IV (Light), consistent with the two reports submitted through the Did You Feel It? system — indicating the tremor was perceptible to some residents but unlikely to have caused structural damage at that intensity level. False Pass is a remote Aleutian Islands community; the offshore epicenter reduces the likelihood of direct impact to infrastructure or population centers.</p>\n<p>Mission Note: No immediate threat to field operations is indicated, though personnel transiting or stationed in the Alaska Peninsula and Aleutian Islands region should monitor USGS feeds for aftershock activity given the seismically active nature of this zone.</p>",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 54.8547,
+      "lng": -163.4144,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2147,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-southeast-of-sarangani/",
       "date": "2026-05-05T02:40:42",
@@ -3233,6 +4375,22 @@
       "type": "Earthquake",
       "lat": 6.1028,
       "lng": 125.292,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2146,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-northwest-of-tobelo/",
+      "date": "2026-05-05T02:40:32",
+      "title": "Magnitude 4.6 Earthquake Strikes Northwest of Tobelo",
+      "body": "<p>A magnitude 4.6 earthquake occurred approximately 209 kilometers northwest of Tobelo, Indonesia, on 4 May 2026 at 03:37 UTC. The event was recorded at a depth of 35 kilometers, placing it in the shallow-to-intermediate range. No casualty figures, infrastructure damage, or tsunami advisories are referenced in the available source data. The epicenter coordinates (3.094°N, 126.709°E) place the event in a seismically active zone of the northern Maluku region, an area with a history of tectonic activity.</p>\n<p>Mission Note: Field personnel operating in or near Tobelo and the northern Maluku region should monitor local authorities for any follow-on assessments, as shallow-focus earthquakes in this zone can occasionally produce localized structural effects even at moderate magnitudes.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.7252,
+      "lng": 128.0002,
       "source_title": "",
       "source_url": ""
     },
@@ -3269,6 +4427,102 @@
       "source_url": ""
     },
     {
+      "wp_id": 2143,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-7-earthquake-strikes-northeast-of-kokopo/",
+      "date": "2026-05-05T02:39:53",
+      "title": "Magnitude 4.7 Earthquake Strikes Northeast of Kokopo",
+      "body": "<p>A magnitude 4.7 earthquake struck approximately 73 kilometers east-northeast of Kokopo, Papua New Guinea, on 4 May 2026 at 06:41 UTC. The USGS recorded the event at a depth of approximately 69 kilometers, placing it in the intermediate-depth range, which typically reduces surface shaking intensity compared to shallower events. No casualty figures, damage assessments, or infrastructure impacts are noted in available reporting at this time.</p>\n<p>Papua New Guinea sits within one of the world&#8217;s most seismically active zones, and events of this magnitude at this depth are not uncommon in the region. The East New Britain Province, where Kokopo is located, has experienced significant seismic activity historically.</p>\n<p>Mission Note: Field personnel operating in or near Kokopo and the East New Britain Province should monitor local reporting for any follow-on aftershocks or infrastructure disruption, though the event&#8217;s depth suggests limited surface impact is likely.</p>",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.343,
+      "lng": 152.2813,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2142,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-copiapo-chile/",
+      "date": "2026-05-05T02:39:42",
+      "title": "Magnitude 4.9 Earthquake Strikes Near Copiapó Chile",
+      "body": "<p>A magnitude 4.9 earthquake occurred approximately 94 kilometers west-northwest of Copiapó, Chile, on 4 May 2026 at 08:22 UTC. The USGS recorded the event at a depth of 25 kilometers, placing it in the shallow-to-moderate range. No casualty figures, infrastructure damage reports, or tsunami advisories are referenced in the available source material.</p>\n<p>Copiapó is the capital of the Atacama Region, an area with established seismic activity given its proximity to the Nazca-South American plate boundary. At this magnitude and offshore distance, significant surface damage would not typically be expected, though shallow earthquakes can produce localized shaking.</p>\n<p>Mission Note: Field personnel operating in or near the Copiapó area should monitor local authorities for any follow-on reports of damage or aftershock activity, particularly given the shallow focal depth.</p>",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.3665,
+      "lng": -70.3314,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2141,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-russias-kuril-islands/",
+      "date": "2026-05-05T02:39:31",
+      "title": "Magnitude 4.6 Earthquake Strikes Russia&#8217;s Kuril Islands",
+      "body": "<p>A magnitude 4.6 earthquake occurred in the Kuril Islands region on 4 May 2026 at 10:02 UTC. The event was recorded at a depth of 35 km (approximately 21.75 miles), placing it in the shallow-to-intermediate range, with the epicenter coordinates at 46.735°N, 152.867°E, as logged by USGS. No casualty figures, damage reports, or tsunami advisories are referenced in the available source material.</p>\n<p>The Kuril Islands chain is a seismically active zone situated along the Pacific Ring of Fire, and earthquakes of this magnitude are relatively routine in the region. At this depth and magnitude, significant surface damage is unlikely but cannot be confirmed without additional ground-truth reporting.</p>\n<p>Mission Note: Field personnel and mission contacts operating in the southern Kuril Islands or adjacent coastal areas of Russia&#8217;s Far East should monitor local advisories for any follow-on seismic activity or tsunami warnings, though none have been indicated at this time.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 46.7345,
+      "lng": 152.867,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2140,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-off-nicaraguas-pacific-coast/",
+      "date": "2026-05-05T02:39:19",
+      "title": "Magnitude 4.5 Earthquake Strikes Off Nicaragua&#8217;s Pacific Coast",
+      "body": "<p>A magnitude 4.5 earthquake occurred approximately 58 kilometers west-southwest of Masachapa, Nicaragua, on 4 May 2026 at 13:50 UTC. The event was recorded at a depth of 50.36 kilometers, placing it in the intermediate depth range, which generally reduces surface shaking intensity compared to shallower events. No casualty figures, structural damage reports, or tsunami advisories are referenced in the available source data.</p>\n<p>The moderate magnitude and significant offshore distance from the coast, combined with the relatively deep focal depth, suggest limited impact on coastal communities, though local conditions may vary.</p>\n<p>Mission Note: Field personnel operating in Nicaragua&#8217;s Pacific coastal region, including areas near Masachapa, should monitor local authorities for any follow-on reporting, but current data indicates low likelihood of significant infrastructure disruption or humanitarian impact from this event.</p>",
+      "country": "Nicaragua",
+      "countries": [
+        "Nicaragua"
+      ],
+      "type": "Earthquake",
+      "lat": 11.5237,
+      "lng": -86.9774,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2139,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-near-kangding-sichuan/",
+      "date": "2026-05-05T02:39:08",
+      "title": "Magnitude 4.8 Earthquake Strikes Near Kangding, Sichuan",
+      "body": "<p>A magnitude 4.8 earthquake struck approximately 62 kilometers south-southeast of Kangding, China on 4 May 2026 at 15:03 UTC. The USGS recorded the event at a shallow depth of 10 kilometers, which can amplify ground shaking and increase the potential for surface impact in the surrounding area. No casualty figures or damage assessments are included in the initial seismic data.</p>\n<p>Kangding sits within Sichuan Province, a seismically active region with a history of significant seismic events. Shallow-focus earthquakes in this zone warrant monitoring, particularly given the mountainous terrain that can elevate landslide risk following ground shaking.</p>\n<p>Mission Note: Field personnel operating in or near Kangding and surrounding districts should monitor local reports for infrastructure damage, road disruptions, or secondary hazards such as landslides that may affect movement and access in the area.</p>",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 29.9999,
+      "lng": 101.9545,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2138,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-near-zocoteaca-de-leon/",
+      "date": "2026-05-05T02:38:57",
+      "title": "Magnitude 5.7 Earthquake Strikes Near Zocoteaca de León",
+      "body": "<p>A magnitude 5.7 earthquake struck approximately 2 km southeast of Zocoteaca de León, Mexico on 4 May 2026 at 15:19 UTC, at a depth of 22.19 km. USGS PAGER assessment assigned a GREEN alert level, indicating low probability of significant casualties or damage. ShakeMap estimated a maximum intensity of V (Moderate) on the Modified Mercalli scale, while community reports — drawn from 48 responses — indicated a maximum felt intensity of IV (Light to Moderate). These intensity levels suggest shaking was perceptible across the surrounding area but is unlikely to have caused structural damage to well-constructed buildings. No casualties or infrastructure damage are noted in available reporting.</p>\n<p>Mission Note: Field personnel operating in the Zocoteaca de León area and surrounding Oaxaca region should conduct routine post-event checks on local structures and road conditions, though the GREEN PAGER alert suggests operational disruption is likely minimal.</p>",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 16.6223,
+      "lng": -97.9846,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2137,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-northern-nosratabad-region/",
       "date": "2026-05-05T02:38:45",
@@ -3297,6 +4551,22 @@
       "type": "Earthquake",
       "lat": 52.8895,
       "lng": 173.1169,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2135,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-2-earthquake-strikes-offshore-northeast-japan/",
+      "date": "2026-05-05T02:38:23",
+      "title": "Magnitude 5.2 Earthquake Strikes Offshore Northeast Japan",
+      "body": "<p>A magnitude 5.2 earthquake occurred approximately 98 kilometers east-northeast of Miyako, Japan, on May 4, 2026, at 23:54 UTC. The event was recorded at a depth of 32.08 kilometers (roughly 20 miles). A single felt report submitted via USGS&#8217;s &#8220;Did You Feel It?&#8221; system indicated a maximum intensity of II on the Modified Mercalli scale — described as barely perceptible to most individuals and unlikely to cause structural damage at that intensity level. No additional details regarding damage, casualties, or infrastructure impact are available in the source material.</p>\n<p>This offshore location places the epicenter in the Pacific Ocean northeast of Iwate Prefecture, a seismically active zone along Japan&#8217;s Pacific coast.</p>\n<p>Mission Note: At the reported intensity level, field operations in and around Miyako are unlikely to be affected, but personnel in the region should monitor local authorities for any updates, particularly given the area&#8217;s tsunami-prone coastline.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 31.7261,
+      "lng": 131.0643,
       "source_title": "",
       "source_url": ""
     },
@@ -3349,6 +4619,38 @@
       "source_url": ""
     },
     {
+      "wp_id": 2126,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-russia-late-april-2026-2/",
+      "date": "2026-05-03T16:36:35",
+      "title": "Forest Fire Reported in Russia Late April 2026",
+      "body": "<p>A forest fire was recorded in Russia beginning 30 April 2026, with activity continuing through 2 May 2026, according to a GDACS wildfire notification. The alert is classified as &#8220;green&#8221; severity, indicating a lower-impact event on the international disaster scale. No specific region, affected area size, casualties, or infrastructure damage figures are provided in the available source material.</p>\n<p>The brief duration and green classification suggest a contained or limited-scale fire, though independent verification from regional sources would be needed to confirm current suppression status and any localized impacts.</p>\n<p>Mission Note: Field workers operating in forested areas of Russia should monitor local authorities for updated fire perimeters and any related travel or air quality advisories, particularly if active in remote or rural regions where access routes may be affected.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 44.882,
+      "lng": 131.6405,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2125,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-japan-at-moderate-depth-2/",
+      "date": "2026-05-03T16:36:24",
+      "title": "Magnitude 5.7 Earthquake Strikes Japan at Moderate Depth",
+      "body": "<p>A magnitude 5.7 earthquake struck Japan on 2 May 2026 at 09:28 UTC, with a focal depth of approximately 59 km. Initial assessments indicate roughly 140,000 people were exposed to shaking at MMI intensity V — a moderate level typically associated with felt movement, rattling of objects, and minor disturbance, but generally below the threshold for significant structural damage in well-constructed buildings. No casualty figures or infrastructure damage reports are included in the available data. The intermediate depth of the event (59 km) tends to moderate surface shaking compared to shallower earthquakes of equivalent magnitude. The GDACS classification of &#8220;Green&#8221; suggests the estimated humanitarian impact is low based on automated modeling.</p>\n<p>Mission Note: Field personnel in the affected region should monitor local authorities for any follow-on advisories, particularly regarding aftershock activity or localized infrastructure impacts in older or less-reinforced structures.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 36.3865,
+      "lng": 138.5922,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2124,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-near-hicks-bay/",
       "date": "2026-05-03T16:35:54",
@@ -3377,6 +4679,38 @@
       "type": "Earthquake",
       "lat": -4.343,
       "lng": 152.2813,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2122,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-east-of-bitung-indonesia/",
+      "date": "2026-05-03T16:35:33",
+      "title": "Magnitude 4.8 Earthquake Strikes East of Bitung Indonesia",
+      "body": "<p>A magnitude 4.8 earthquake occurred approximately 127 kilometers east of Bitung, Indonesia, on 3 May 2026 at 06:57 UTC. The event was recorded at a depth of 35 kilometers, placing it in the shallow-to-intermediate range. No casualty figures, infrastructure damage reports, or tsunami advisories are included in the available source data.</p>\n<p>The epicenter coordinates (1.529°N, 126.271°E) position the event offshore in the Molucca Sea region, an area of ongoing seismic activity due to the complex tectonic environment of eastern Indonesia.</p>\n<p>Mission Note: Field personnel operating in and around Bitung and North Sulawesi should monitor local authorities for any follow-on assessments, as shallow earthquakes in this region can occasionally produce localized structural impacts or aftershock sequences.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.4443,
+      "lng": 125.1895,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2121,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-bonin-islands-region/",
+      "date": "2026-05-03T16:35:21",
+      "title": "Magnitude 4.5 Earthquake Strikes Bonin Islands Region",
+      "body": "<p>A magnitude 4.5 earthquake struck the Bonin Islands region of Japan on 3 May 2026 at 07:07 UTC. The epicenter was located at approximately 28.993°N, 142.515°E, with a shallow focal depth of 10 kilometers. No casualty figures, structural damage reports, or tsunami advisories are referenced in available data at this time.</p>\n<p>The Bonin Islands (Ogasawara Islands) are a remote oceanic chain in the western Pacific, with limited permanent population. The shallow depth of the event increases the potential for localized ground shaking, though the remote location reduces the probability of significant infrastructure impact.</p>\n<p>Mission Note: This event is unlikely to affect field operations on the Japanese mainland, but personnel traveling to or stationed in the Ogasawara island chain should monitor local advisories for any aftershock activity or updated assessments.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 28.9934,
+      "lng": 142.5152,
       "source_title": "",
       "source_url": ""
     },
@@ -3413,6 +4747,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2102,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-burns-across-russian-federation-late-april-2026/",
+      "date": "2026-05-02T18:18:41",
+      "title": "Forest Fire Burns Across Russian Federation Late April 2026",
+      "body": "<p>A forest fire ignited in the Russian Federation on 27 April 2026 and continued burning through at least 29 April 2026, according to a GDACS alert. The brief notification classifies the event as a green-level alert, indicating a lower severity threshold relative to higher-tier wildfire events. No specific locality, affected area size, casualty figures, or infrastructure impacts are detailed in the available reporting.</p>\n<p>The limited data suggests early-stage monitoring of the fire, with further updates likely as the event develops. Field personnel operating in forested regions of Russia during this period should monitor local emergency management channels for evolving fire perimeters and any associated air quality or evacuation advisories.</p>\n<p>Mission Note: Field workers in forested areas of Russia should maintain awareness of potential fire spread and verify local access routes and air quality conditions before travel or operations in affected regions.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 55.3335,
+      "lng": 70.774,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2101,
       "wp_link": "https://globalwitnessmonitor.com/forest-fire-burns-in-australia-through-early-may-2026/",
       "date": "2026-05-02T18:18:29",
@@ -3441,6 +4791,22 @@
       "type": "Flood",
       "lat": 12.9833,
       "lng": 77.6047,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2099,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-russia-late-april-2026/",
+      "date": "2026-05-02T18:18:03",
+      "title": "Forest Fire Reported in Russia Late April 2026",
+      "body": "<p>A forest fire ignited in the Russian Federation on 30 April 2026, with activity continuing through 2 May 2026, according to a GDACS alert. The notification is classified at the green severity level, indicating a lower-impact event relative to regional norms. No specific geographic location within Russia has been identified in available reporting, and no casualty figures, affected area measurements, or infrastructure impacts have been disclosed at this stage.</p>\n<p>Given Russia&#8217;s vast forested territories and the frequency of wildfire activity during spring dry periods, this event warrants monitoring as conditions can escalate rapidly.</p>\n<p>Mission Note: Field workers operating in forested or rural areas of Russia should monitor local advisories for fire progression and potential impacts on road access or air quality in affected zones.</p>",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 48.4175,
+      "lng": 134.3135,
       "source_title": "",
       "source_url": ""
     },
@@ -3509,6 +4875,54 @@
       "source_url": ""
     },
     {
+      "wp_id": 2094,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-ransiki-indonesia/",
+      "date": "2026-05-02T18:17:05",
+      "title": "Magnitude 4.9 Earthquake Strikes Near Ransiki Indonesia",
+      "body": "<p>A magnitude 4.9 earthquake struck approximately 14 kilometers east-southeast of Ransiki, Indonesia on 1 May 2026 at 09:24 UTC. The event was recorded at a shallow depth of 10 kilometers, which can increase ground shaking intensity at the surface relative to deeper seismic events. The epicenter coordinates place the quake in the West Papua region. No casualty figures, infrastructure damage assessments, or displacement reports are included in the available source data.</p>\n<p>Mission Note: Field personnel operating in or near Ransiki, West Papua should monitor local conditions for potential infrastructure impacts given the shallow focal depth of this seismic event, and verify road and building integrity before resuming normal operations.</p>",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -1.504,
+      "lng": 134.1681,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2093,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-off-hasaki-coast/",
+      "date": "2026-05-02T18:16:54",
+      "title": "Magnitude 4.9 Earthquake Strikes Off Hasaki Coast",
+      "body": "<p>A magnitude 4.9 earthquake occurred approximately 75 kilometers east-northeast of Hasaki, Japan, on 1 May 2026 at 13:00 UTC. The USGS recorded the event at a depth of 35 kilometers, placing it in the shallow-to-intermediate range. No casualty figures, damage assessments, or tsunami advisories are referenced in the available source data.</p>\n<p>At M4.9, the event is unlikely to have caused significant structural damage, though shallow-depth seismicity in this region can produce localized shaking. Hasaki sits in Chiba Prefecture along the Pacific coast, an area with established seismic activity.</p>\n<p>Mission Note: No immediate operational impact is expected for field personnel in the region, but workers in eastern Chiba Prefecture should monitor local authorities for any follow-on advisories or aftershock activity.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 35.7483,
+      "lng": 140.824,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2092,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-south-of-nemuro-japan/",
+      "date": "2026-05-02T18:16:44",
+      "title": "Magnitude 4.8 Earthquake Strikes South of Nemuro Japan",
+      "body": "<p>A magnitude 4.8 earthquake occurred approximately 47 kilometers south of Nemuro, Japan, on 1 May 2026 at 17:19 UTC. The event was recorded at a depth of 38.77 kilometers (approximately 24 miles), placing it in the intermediate-shallow range. The epicenter was located at 42.899°N, 145.534°E, in the seismically active zone off the Nemuro Peninsula in Hokkaido&#8217;s eastern coastal region, as logged by the USGS earthquake monitoring network.</p>\n<p>At this magnitude and depth, significant structural damage is unlikely, though light shaking may have been felt by residents in the Nemuro area. No casualty or damage information was included in the source material.</p>\n<p>Mission Note: Field personnel operating in the Nemuro Peninsula or eastern Hokkaido coastal areas should monitor local authorities for any follow-on seismic activity, as this region lies within a historically active subduction zone where aftershocks or larger events are possible.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 43.3346,
+      "lng": 145.5802,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2091,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-northeast-of-lospalos/",
       "date": "2026-05-02T18:16:33",
@@ -3521,6 +4935,86 @@
       "type": "Earthquake",
       "lat": -8.522,
       "lng": 126.9987,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2090,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-deep-south-of-fiji/",
+      "date": "2026-05-02T18:16:22",
+      "title": "Magnitude 5.1 Earthquake Strikes Deep South of Fiji",
+      "body": "<p>A magnitude 5.1 earthquake occurred south of the Fiji Islands on 2 May 2026 at 02:06 UTC. The event was recorded at a depth of approximately 533 kilometers, classifying it as a deep-focus earthquake. At such depths, seismic energy is typically attenuated significantly before reaching the surface, substantially reducing the likelihood of structural damage or tsunami generation.</p>\n<p>No casualty figures, infrastructure impacts, or damage assessments are present in the available source data.</p>\n<p>Mission Note: The extreme depth of this event minimizes surface impact and does not indicate immediate threat to personnel, facilities, or travel routes in the Fiji region, though monitoring for follow-on seismic activity is advisable.</p>",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2089,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-deep-beneath-northwestern-argentina/",
+      "date": "2026-05-02T18:16:12",
+      "title": "Magnitude 4.5 Earthquake Strikes Deep Beneath Northwestern Argentina",
+      "body": "<p>A magnitude 4.5 earthquake occurred approximately 111 kilometers west of San Antonio de los Cobres in northwestern Argentina on 2 May 2026 at 03:57 UTC. The event was recorded at a significant depth of approximately 211 kilometers, classifying it as a deep-focus earthquake. At this depth, ground shaking at the surface is typically attenuated, reducing the likelihood of structural damage or casualties compared to shallower events of similar magnitude. No damage reports or casualty figures are present in the available source data.</p>\n<p>Mission Note: The deep focal depth reduces immediate infrastructure risk, but field personnel operating in the San Antonio de los Cobres region should monitor local reports for any follow-on seismic activity or access disruptions in this remote Andean area.</p>",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -24.2175,
+      "lng": -66.3209,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2088,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-0-earthquake-strikes-near-chamical-argentina/",
+      "date": "2026-05-02T18:16:02",
+      "title": "Magnitude 5.0 Earthquake Strikes Near Chamical Argentina",
+      "body": "<p>A magnitude 5.0 earthquake struck approximately 43 kilometers north-northwest of Chamical, Argentina on 2 May 2026 at 05:04 UTC. The event occurred at a shallow depth of 10 kilometers, which can increase the potential for surface-level shaking. USGS data indicates a maximum reported intensity of IV on the Modified Mercalli scale, based on two citizen reports, suggesting moderate shaking perceptible to residents but not necessarily indicative of significant structural damage at that intensity level.</p>\n<p>No casualty or damage figures are available in the current reporting.</p>\n<p>Mission Note: Field personnel operating in La Rioja Province near Chamical should monitor local infrastructure conditions, as shallow seismic events at this magnitude can affect road stability and older building stock in the region.</p>",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -30.3585,
+      "lng": -66.3126,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2087,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-north-of-calama/",
+      "date": "2026-05-02T18:15:52",
+      "title": "Magnitude 4.6 Earthquake Strikes North of Calama",
+      "body": "<p>A magnitude 4.6 earthquake occurred approximately 79 kilometers north of Calama, Chile, on 2 May 2026 at 06:22 UTC. The event was recorded at a depth of approximately 116 kilometers, placing it in the intermediate-depth range, which typically reduces surface shaking intensity compared to shallower events. No casualty figures, infrastructure damage reports, or humanitarian impacts are referenced in the available source data.</p>\n<p>Mission Note: At this depth and magnitude, significant operational disruption is unlikely, but field personnel in the Calama region and the broader Atacama Desert corridor should monitor local reports for any secondary effects or aftershock activity.</p>",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -22.4633,
+      "lng": -68.9255,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2086,
+      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-deep-beneath-izu-islands/",
+      "date": "2026-05-02T18:15:40",
+      "title": "Magnitude 4.6 Earthquake Strikes Deep Beneath Izu Islands",
+      "body": "<p>A magnitude 4.6 earthquake occurred in the Izu Islands region of Japan on 2 May 2026 at 08:36 UTC. The event was recorded at an unusually deep focal depth of approximately 396 kilometers, placing it well within the subducting slab beneath the region. Deep-focus earthquakes at this depth typically result in significantly attenuated ground shaking at the surface compared to shallow events of equivalent magnitude, reducing the likelihood of structural damage or tsunami generation.</p>\n<p>No casualty figures, damage reports, or infrastructure impacts are referenced in the available source data.</p>\n<p>Mission Note: At this depth and magnitude, operational disruption to field personnel in the Izu Islands region is considered low, though workers in the area should monitor local authorities for any updated assessments.</p>",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.9786,
+      "lng": 138.9495,
       "source_title": "",
       "source_url": ""
     },
@@ -3685,6 +5179,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2063,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-russian-federation-2/",
+      "date": "2026-05-01T03:24:47",
+      "title": "forest fire notification in Russian Federation",
+      "body": "A forest fire was reported in the Russian Federation, with initial reports indicating the event began on 28 April 2026 and continued through 30 April 2026. No additional details regarding the specific location, scale, affected area, or casualties are available from current source material. The alert was issued via the Global Disaster Alert and Coordination System (GDACS), which notes the information is indicative in nature and should be corroborated with additional sources before informing operational decisions.\n\nMission Note: Field personnel operating in or near forested regions of Russia during late April 2026 should seek updated local reporting to determine affected areas and any associated travel or air quality impacts.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 55.8469,
+      "lng": 74.9171,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2062,
       "wp_link": "https://globalwitnessmonitor.com/flood-alert-in-peru/",
       "date": "2026-05-01T03:24:37",
@@ -3733,6 +5243,22 @@
       "source_url": ""
     },
     {
+      "wp_id": 2059,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-magnitude-5-7m-depth-10km-in-papua-new-guinea-30-04-2026-1327-utc-80-thousand-in-mmiiii/",
+      "date": "2026-05-01T03:24:07",
+      "title": "earthquake (Magnitude 5.7M, Depth: 10km) in Papua New Guinea 30/04/2026 13:27 UTC, 80 thousand in MMI>=III.",
+      "body": "A magnitude 5.7 earthquake struck Papua New Guinea on April 30, 2026, at 13:27 UTC, according to data from the Global Disaster Alert and Coordination System (GDACS). The event occurred at a shallow depth of 10 kilometers, a factor that typically increases surface-level shaking intensity. Initial assessments indicate approximately 80,000 people were exposed to shaking at Modified Mercalli Intensity (MMI) level III or greater — characterized as light to moderate shaking perceptible to most residents. No casualty figures or infrastructure damage reports are referenced in the available source material. The shallow depth warrants monitoring for potential aftershock activity or localized structural impacts, particularly in communities with limited building resilience.\n\nMission Note: Field workers and personnel operating in Papua New Guinea should monitor local reports for aftershocks and any infrastructure disruption, particularly in areas near the epicenter, as shallow seismic events at this magnitude can affect road access and building integrity in vulnerable communities.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.4784,
+      "lng": 145.2417,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2058,
       "wp_link": "https://globalwitnessmonitor.com/m-4-7-104-km-nne-of-hihifo-tonga/",
       "date": "2026-05-01T03:23:55",
@@ -3765,6 +5291,54 @@
       "source_url": ""
     },
     {
+      "wp_id": 2056,
+      "wp_link": "https://globalwitnessmonitor.com/m-5-0-135-km-wnw-of-neiafu-tonga/",
+      "date": "2026-05-01T03:23:22",
+      "title": "M 5.0 &#8211; 135 km WNW of Neiafu, Tonga",
+      "body": "A magnitude 5.0 earthquake occurred approximately 135 kilometers west-northwest of Neiafu, Tonga, on April 30, 2026, at 09:07 UTC, according to USGS data. The event was recorded at a depth of approximately 249 kilometers (155 miles), classifying it as a deep-focus earthquake. At this depth, ground shaking at the surface is typically attenuated, reducing the likelihood of significant structural damage or tsunami generation compared to shallower events.\n\nNo casualty figures, infrastructure damage reports, or humanitarian impacts are referenced in the available source material. The deep focal depth is a mitigating factor, though the Tonga region remains one of the most seismically active zones in the Pacific.\n\nMission Note: Field personnel operating in the Vava&#8217;u island group near Neiafu should monitor local advisories, though the event&#8217;s depth significantly reduces expected surface impact and infrastructure risk.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.6515,
+      "lng": -173.9836,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2055,
+      "wp_link": "https://globalwitnessmonitor.com/m-5-7-234-km-se-of-lorengau-papua-new-guinea/",
+      "date": "2026-05-01T03:23:11",
+      "title": "M 5.7 &#8211; 234 km SE of Lorengau, Papua New Guinea",
+      "body": "A magnitude 5.7 earthquake occurred approximately 234 kilometers southeast of Lorengau, Papua New Guinea, on April 30, 2026, at 13:27 UTC, according to USGS reporting. The event was recorded at a shallow depth of 10 kilometers. The USGS PAGER system assigned a GREEN alert level, indicating a low probability of significant casualties or major damage. ShakeMap data estimated a maximum intensity of MMI III, consistent with light shaking generally felt indoors but unlikely to cause structural damage.\n\nThe shallow focal depth warrants monitoring, as such depths can amplify ground motion, though the GREEN alert and low intensity rating suggest limited impact on populated areas.\n\nMission Note: Current data indicates low risk to personnel and infrastructure in the region, but field workers operating in or near Manus Province should monitor local reports for any updated assessments or aftershock activity.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.033,
+      "lng": 147.2789,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2054,
+      "wp_link": "https://globalwitnessmonitor.com/m-4-8-85-km-ese-of-kokopo-papua-new-guinea/",
+      "date": "2026-05-01T03:22:55",
+      "title": "M 4.8 &#8211; 85 km ESE of Kokopo, Papua New Guinea",
+      "body": "A magnitude 4.8 earthquake struck approximately 85 kilometers east-southeast of Kokopo, Papua New Guinea, on April 30, 2026, at 22:58 UTC, according to USGS reporting. The event was recorded at a shallow depth of 10 kilometers, which can increase the intensity of ground shaking felt at the surface. No casualty figures, infrastructure damage assessments, or tsunami advisories are referenced in available source material at this time.\n\nShallow-focus earthquakes in this region are not uncommon given Papua New Guinea&#8217;s position along active tectonic boundaries, and initial reports provide no indication of significant impact. Field personnel should monitor for follow-on assessments from local authorities.\n\nMission Note: Field workers operating in or near the Kokopo area and broader East New Britain Province should monitor local communications for any reports of damage or access disruption resulting from this seismic event.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.343,
+      "lng": 152.2813,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
       "wp_id": 2050,
       "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-australia-2/",
       "date": "2026-04-30T00:57:56",
@@ -3777,6 +5351,22 @@
       "type": "Wildfire",
       "lat": -16.2936,
       "lng": 125.2545,
+      "source_title": "",
+      "source_url": ""
+    },
+    {
+      "wp_id": 2049,
+      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-russian-federation/",
+      "date": "2026-04-30T00:57:46",
+      "title": "forest fire notification in Russian Federation",
+      "body": "A forest fire was reported in the Russian Federation on 29 April 2026, according to a notification issued by the Global Disaster Alert and Coordination System (GDACS). The source provides no additional details regarding the geographic location within Russia, the scale of the fire, casualties, or affected infrastructure. The alert carries a standard disclaimer noting that the information is indicative only and should not be used as a sole basis for decision-making.\n\nMission Note: Field personnel operating in or near forested regions of Russia should monitor local authorities and additional verified sources for specific location data, fire perimeter updates, and any related evacuations or access restrictions before making deployment or travel decisions.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 49.2155,
+      "lng": 130.0971,
       "source_title": "",
       "source_url": ""
     },
