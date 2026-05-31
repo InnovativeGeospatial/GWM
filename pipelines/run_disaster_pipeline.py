@@ -1132,6 +1132,14 @@ def publish_to_wordpress(item, article_body, parsed=None):
         if isinstance(_ilat, (int, float)) and isinstance(_ilng, (int, float)):
             _final_lat = _ilat
             _final_lng = _ilng
+                if _final_lat is None and _country_hint:
+        _clat, _clng = geocode_mapbox(_country_hint, _country_hint)
+        if _clat is not None and _clng is not None:
+            _final_lat = _clat
+            _final_lng = _clng
+            log.info("Country-centroid fallback %r -> %.4f, %.4f",
+                     _country_hint, _clat, _clng)
+
 
     _lat_str = ("%.4f" % _final_lat) if isinstance(_final_lat, (int, float)) else ""
     _lng_str = ("%.4f" % _final_lng) if isinstance(_final_lng, (int, float)) else ""
