@@ -267,9 +267,51 @@ def matches_filter(country, filter_countries):
     return country in filter_countries
 
 
+_NUM_WORDS = {
+    "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+    "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
+    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
+    "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+    "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100,
+    "thousand": 1000,
+}
+
+
+def _normalize_numbers(text):
+    if not text:
+        return ""
+    t = text.lower().replace("-", " ")
+    tokens = t.split()
+    out = []
+    i = 0
+    while i < len(tokens):
+        w = tokens[i]
+        if w in _NUM_WORDS:
+            val = _NUM_WORDS[w]
+            j = i + 1
+            while j < len(tokens) and tokens[j] in _NUM_WORDS:
+                nxt = _NUM_WORDS[tokens[j]]
+                if nxt in (100, 1000):
+                    val = (val or 1) * nxt
+                elif val and val % 10 == 0 and 0 < nxt < 10:
+                    val += nxt
+                elif val >= 100 and nxt < 100:
+                    val += nxt
+                else:
+                    break
+                j += 1
+            out.append(str(val))
+            i = j
+        else:
+            out.append(w)
+            i += 1
+    return " ".join(out)
+
+
 def title_similarity(title1, title2):
-    words1 = set(title1.lower().split())
-    words2 = set(title2.lower().split())
+    words1 = set(_normalize_numbers(title1).split())
+    words2 = set(_normalize_numbers(title2).split())
     stopwords = {'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for',
                  'of', 'and', 'or', 'is', 'are', 'was', 'were',
                  'with', 'by', 'from', 'as', 'it', 'its', 'be'}
