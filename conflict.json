@@ -1,26 +1,127 @@
 {
   "feed": "conflict",
-  "updated": "2026-05-30T22:23:46.954198+00:00",
-  "count": 369,
+  "updated": "2026-05-31T05:07:17.267220+00:00",
+  "count": 375,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5722,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-ukraine/",
+      "date": "2026-05-31T05:07:12",
+      "title": "Armed Conflict in southern Ukraine",
+      "body": "Ukraine has confirmed at least 14 drone strikes on Russian supply vehicles in occupied southern Ukraine over the past week. The targeted vehicles were carrying food, fuel, and ammunition along key roads connecting Russia to Crimea and other occupied territories. Analysts have documented the destruction of roughly 150 vehicles more than 12 miles from the front line, though this is believed to represent only about half of all incidents.\n\nUkraine is using a new AI-enabled drone system trained on thousands of hours of footage of Russian military vehicles. The drones can operate over 100 miles from launch points and connect through satellite networks that are harder for Russian forces to jam. In response, Russia has reportedly shortened its supply convoys to reduce potential losses.\n\nExperts say cutting off ammunition, fuel, and food far behind the front line creates serious difficulties for Russian units fighting at the front and launching longer-range strikes. Analysis from the Institute for the Study of War suggests Ukraine has recently begun regaining slightly more ground than it is losing for the first time since 2023.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 47.326876,
+      "lng": 29.889943,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cdjp0n7rn41o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Ukrainian and Russian soldiers along supply routes in southern Ukraine amid intensifying drone strikes"
+    },
+    {
+      "wp_id": 5721,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris/",
+      "date": "2026-05-31T05:06:56",
+      "title": "Civil Unrest in Paris",
+      "body": "More than 400 people were arrested across France after celebrations following a Paris Saint-Germain Champions League victory turned violent. Thousands of officers were deployed in Paris, where crowds set off fireworks and flares, burned electric bikes, and smashed at least one shopfront. Police used tear gas to disperse crowds in the city center, and seven officers were reported injured.\n\nUnrest began earlier in the day when clashes broke out between police and supporters gathered to watch the match on large screens at the team's stadium. By the early hours of Sunday, 280 of the 416 total arrests had been made in Paris alone. Six vehicles, two businesses, and a bus shelter were damaged.\n\nThis marks the second consecutive year that PSG's European victory has been followed by serious disorder. Last year's celebrations left two people dead, including a teenager. A victory parade was planned for Sunday afternoon, with players set to tour central Paris and attend a reception hosted by the French president.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Civil Unrest",
+      "lat": 48.853495,
+      "lng": 2.348392,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cg7pk5j7nyjo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents in Paris caught in post-match violence, injured officers, and business owners with damaged properties"
+    },
+    {
+      "wp_id": 5720,
+      "wp_link": "https://globalwitnessmonitor.com/denali-national-park-and-preserve/",
+      "date": "2026-05-31T05:06:44",
+      "title": "Denali National Park and Preserve",
+      "body": "Three climbers from Latvia died after falling near Denali Pass on Denali — North America's tallest peak — in Alaska. A group of seven was ascending the popular West Buttress route when four of them fell at an altitude of over 5,500 meters on Wednesday. Three of those four died. The remaining three members of the group stayed to help before retreating to a lower camp.\n\nA fourth climber who survived the fall was rescued from a mountain basin at roughly 5,240 meters late Thursday. Because the terrain prevented a helicopter from landing, rescue personnel used a long line to lift the survivor out. The person was then transferred to an air ambulance and taken to a hospital in critical condition.\n\nThe Latvian Mountaineering Association called the three who died \"talented and experienced\" climbers and described the loss as devastating to the broader Latvian mountaineering community.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 63.73356,
+      "lng": -148.91658,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/three-latvian-mountaineers-die-on-north-america-s-tallest-peak/a-77353020?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Latvian mountaineering community and families grieving three climbers lost on Denali"
+    },
+    {
+      "wp_id": 5718,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-laghman-province/",
+      "date": "2026-05-31T05:06:23",
+      "title": "Displacement in Laghman Province",
+      "body": "A truck carrying recently returned Afghan refugees overturned in Laghman Province in eastern Afghanistan, killing at least 22 people and injuring 36 others. Officials say the driver lost control of the vehicle, and an investigation has been launched.\n\nThe victims were refugees who had recently returned to Afghanistan. The crash adds to the hardships already faced by displaced Afghans making their way home under difficult circumstances.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Displacement",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/22-killed-as-truck-carrying-refugees-overturns-in-afghanistan?traffic_source=rss",
+      "prayer": "Families of 22 Afghan refugees killed in a truck accident in Laghman Province, and 36 others injured"
+    },
+    {
+      "wp_id": 5717,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-galati/",
+      "date": "2026-05-31T05:06:13",
+      "title": "Armed Conflict in Galati",
+      "body": "A drone struck a building in Galati, a major Romanian port city on the Danube River near the Ukrainian border. Romania's president blamed Russia for the attack, and the European Union quickly condemned Moscow. NATO stated it was prepared to defend allied territory in response.\n\nRussia's president denied responsibility but suggested the war was approaching its end. Ukraine's president warned that Russia is planning a large aerial assault in the coming period.\n\nThe strike has raised questions about whether NATO could be drawn more directly into the conflict. Romania is a NATO member, meaning an attack on its territory carries significant alliance implications. Diplomatic efforts appear strained as the incident added new tension to an already difficult situation.",
+      "country": "Romania",
+      "countries": [
+        "Romania"
+      ],
+      "type": "Armed Conflict",
+      "lat": 45.43376,
+      "lng": 28.05401,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/inside-story/2026/5/30/is-the-war-in-ukraine-entering-a-new-phase-2?traffic_source=rss",
+      "prayer": "Residents of Galati and civilians near the Ukrainian border following a drone strike on a port city"
+    },
+    {
+      "wp_id": 5716,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-lima/",
+      "date": "2026-05-31T05:05:59",
+      "title": "Civil Unrest in Lima",
+      "body": "Thousands of people marched through Lima to protest the presidential candidacy of a four-time presidential candidate whose father, a former leader, served 16 years in prison for crimes against humanity. Demonstrators filled the streets in opposition to her bid, reflecting deep divisions over the family's political legacy.\n\nThe candidate is described as Peru's most controversial political figure. Her father's conviction and imprisonment have made her candidacy a flashpoint for many Peruvians who remain affected by events from that era.\n\nNo violence was reported in the source. The scale of the protest points to significant public opposition heading into the electoral period.",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Civil Unrest",
+      "lat": -12.06973,
+      "lng": -77.03542,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/aje-onl-nf_clip-thousands-in-peru-protest-fujimori-run-300526?traffic_source=rss",
+      "prayer": "Thousands of protesters in Lima amid a deeply polarizing presidential campaign"
+    },
     {
       "wp_id": 5040,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-2/",
       "date": "2026-05-30T22:23:42",
-      "title": "Armed Conflict in Gaza",
-      "body": "Egypt has launched urgent diplomatic talks to prevent the collapse of a Gaza ceasefire that has been shaken by renewed Israeli military strikes and statements about expanding Israeli-controlled territory. At least 141 Palestinians have been killed in the past two weeks, and Israeli officials have moved to extend military control from 53% to 70% of Gaza — a step that mediators say breaks the terms of a peace agreement brokered in October 2025. An Israeli official also revived a plan to encourage Palestinians to leave Gaza, which Egypt sharply rejected.\n\nCairo is working with Qatar, Türkiye, and US officials to bring both sides back to the negotiating table. Egypt has asked US President Donald Trump to press Israel to halt the escalations. A Hamas delegation is expected to travel to Cairo within days for emergency talks.\n\nSince the October ceasefire took effect, at least 929 Palestinians have been killed in Israeli attacks, and the vast majority of Gaza's population remains displaced from their homes.",
-      "country": "Israel",
+      "title": "Armed Conflict in Gaza Strip",
+      "body": "At least 26 Palestinians were killed in the Gaza Strip starting on the eve of Eid, one of the most significant holidays in Islam. The deaths were reported by the UN human rights office on Friday.\n\nThe killings occurred over what is typically a time of celebration and family gathering for Muslim communities. The UN human rights office documented the deaths across the holiday period beginning Tuesday.\n\nCivilians in Gaza continue to face danger during what would normally be a time of rest and festivity.",
+      "country": "Palestine",
       "countries": [
-        "Israel",
-        "Egypt"
+        "Palestine"
       ],
       "type": "Armed Conflict",
-      "lat": 31.512442,
-      "lng": 34.457165,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/5/30/egypt-warns-israel-that-dangerous-gaza-escalations-threaten-ceasefire?traffic_source=rss",
-      "prayer": "Over 900 Palestinians killed and nearly all of Gaza's population displaced amid collapsing ceasefire"
+      "lat": 31.512868,
+      "lng": 34.458136,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167610",
+      "prayer": "At least 26 Palestinians killed in Gaza during the Eid holiday period"
     },
     {
       "wp_id": 5039,
