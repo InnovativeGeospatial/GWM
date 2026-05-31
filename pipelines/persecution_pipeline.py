@@ -315,8 +315,8 @@ def _prayer_with_for(text):
     'for' would be ungrammatical -- so in that case the text is returned
     unchanged.""" 
     if not text:
-                return text
-           return text.strip()
+        return text
+    return text.strip()
 
 
 
