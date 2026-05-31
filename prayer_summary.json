@@ -1,28 +1,34 @@
 {
-  "updated": "2026-05-31T04:43:49.193096+00:00",
-  "window_hours": 24,
+  "updated": "2026-05-31T04:49:26.855895+00:00",
+  "window_hours": 48,
   "sections": {
     "persecution": {
-      "event_count": 0,
-      "bullets": []
+      "event_count": 2,
+      "bullets": [
+        "Thirty-one Christians in China, including an elderly leader, imprisoned for peaceful worship and Bible study in one of the largest coordinated prosecutions in recent years.",
+        "Christian worshippers in Indonesia, including children and elderly members, traumatized after an extremist mob violently disrupted their service and forced them from their meeting place."
+      ]
     },
     "conflict": {
-      "event_count": 3,
+      "event_count": 11,
       "bullets": [
-        "Civilians across Gaza facing ongoing airstrikes, displacement, and a deteriorating ceasefire amid escalating military operations and humanitarian collapse.",
-        "Civilian populations in southern Lebanon facing advancing military occupation, urban encirclement, and pressure on overstretched national defense forces."
+        "Civilians in Gaza \u2014 over 900 killed and nearly all of the population displaced \u2014 amid collapsed ceasefire terms, expanding military control, and stalled peace negotiations.",
+        "Civilians across Lebanon \u2014 more than 3,200 killed, one million displaced, and children among the dead and injured \u2014 amid intensifying airstrikes, advancing ground forces, and a deepening humanitarian crisis.",
+        "Sixteen girls killed and dozens injured in Kenya after a deliberately set fire destroyed a boarding school dormitory in the early morning hours.",
+        "Civilians across Ukraine enduring large-scale strikes amid United Nations warnings that the war risks spiraling into a wider and more devastating conflict.",
+        "Civilians in Sudan \u2014 including elderly residents killed in villages during a religious holiday \u2014 amid ongoing civil war, armed group attacks, and worsening famine conditions."
       ]
     },
     "disaster": {
-      "event_count": 10,
+      "event_count": 14,
       "bullets": [
-        "Indonesian communities near an erupting volcano living under ongoing ash fall and a 3-kilometre exclusion zone preventing return to their homes.",
-        "Stranded and displaced farmers and communities in eastern Syria cut off by severe flooding and a collapsed bridge along the Euphrates River.",
-        "Australian farming families in two states whose crops and homes are overwhelmed by a devastating mouse plague threatening their livelihoods and food security.",
-        "Rescue teams and the families of two men still missing after several gold seekers were trapped for ten days in a flood-filled cave system.",
-        "Thousands of people across eastern Congo and neighboring Uganda exposed to a rapidly spreading Ebola outbreak with over 1,000 suspected cases and hundreds of deaths.",
-        "Millions of residents across Japan recovering from a typhoon bringing dangerous Category 1 winds and heavy rainfall across wide areas of the country.",
-        "Communities in Papua New Guinea and the broader Pacific region regularly exposed to seismic activity and the ongoing risks of living in one of the world's most earthquake-prone zones."
+        "Communities in eastern DR Congo and neighboring Uganda amid a rapidly spreading Ebola outbreak exceeding 1,000 suspected cases and hundreds of deaths, worsened by ongoing armed conflict limiting health response.",
+        "Farmers and stranded communities in eastern Syria after the Euphrates River flooded, collapsing a bridge and cutting off access to affected areas.",
+        "Residents near an active volcano in Indonesia living under an exclusion zone as renewed eruptions send ash columns kilometers into the sky.",
+        "Farmers across large parts of Australia facing a devastating mouse plague destroying crops and invading homes, threatening livelihoods and food production.",
+        "Gold seekers and rescue teams in Laos after flash floods trapped miners inside a narrow cave system, with two people still unaccounted for.",
+        "Millions of residents across Japan exposed to dangerous winds, heavy rainfall, and flooding from a Category 1 typhoon.",
+        "Communities in Papua New Guinea and Fiji on alert following a series of moderate earthquakes in a highly seismically active region."
       ]
     }
   }
