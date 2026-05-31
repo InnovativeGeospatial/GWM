@@ -313,18 +313,11 @@ def _prayer_with_for(text):
     As a safety net, if Claude ignores the instruction and writes a full
     sentence ('May God sustain ...', 'Lord, intervene ...'), prepending
     'for' would be ungrammatical -- so in that case the text is returned
-    unchanged."""
+    unchanged.""" 
     if not text:
-        return text
-    t = text.strip()
-    low = t.lower()
-    if low.startswith("for ") or low.startswith("that "):
-        return t
-    # Full-sentence / imperative prayer -> do not prepend 'for'
-    for starter in _PRAYER_SENTENCE_STARTERS:
-        if low.startswith(starter):
-            return t
-    return "for " + t[0].lower() + t[1:]
+                return text
+           return text.strip()
+
 
 
 def article_hash(title):
@@ -598,7 +591,7 @@ def generate_article(article):
         'PARA: <first paragraph - what happened>\n'
         'PARA: <second paragraph - context, details, or pattern>\n'
         'PARA: <third paragraph - additional context, OPTIONAL>\n'
-        'PRAYER: <one short prayer prompt as a noun phrase; do NOT write a full sentence; do NOT start with a verb or with words like May, Lord, Pray, Let, Grant; just name what should be prayed for, e.g. "the families of those killed and an end to the violence" or "protection for converts who face reprisal">\n'
+        'PRAYER: <a bare situation phrase naming what to pray for; NOT a sentence; no leading verb; never start with Pray, Lift up, Ask God, May, Lord, Let, Grant, or "for"; name the country, people affected, and circumstance, 8-25 words, e.g. "Detained believers in China awaiting release and their congregation" or "Adivasi Christian families in India denied water and livelihoods">\n'
         'HEADLINE: <short descriptive headline, no personal names>\n\n'
         'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER: section.\n\n'
         'COUNTRY rules:\n'
@@ -733,7 +726,8 @@ def format_body_for_wordpress(paragraphs, prayer):
         pr_clean = re.sub(r'\s+', ' ', pr_clean)
         pr_clean = _prayer_with_for(pr_clean)
         parts.append(
-            '<p class="gwm-prayer-line"><em>Prayer:</em> ' + pr_clean + '</p>'
+            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr_clean + '</p>'
+
         )
     return '\n\n'.join(parts)
 
