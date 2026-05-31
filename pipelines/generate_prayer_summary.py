@@ -54,7 +54,7 @@ GITHUB_OUTPUT_PATH = 'prayer_summary.json'
 LOCAL_OUTPUT = '/opt/conflict-pipeline/data/prayer_summary.json'
 
 CONFLICT_KEEP_TYPES = {'Armed Conflict', 'Civil Unrest', 'Coup or Crisis', 'Displacement'}
-WINDOW_HOURS = 24
+WINDOW_HOURS = 48
 
 
 def fetch_feed(url):
