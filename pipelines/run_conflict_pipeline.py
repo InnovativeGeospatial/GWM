@@ -904,8 +904,8 @@ def _prayer_with_for(text):
     """Ensure the prayer phrase begins with 'for ' so it reads naturally
     after the 'Prayer:' label, e.g. 'Prayer: for the families ...'."""
     if not text:
-            return text
-        return text.strip()
+        return text
+    return text.strip()
 
 
 
