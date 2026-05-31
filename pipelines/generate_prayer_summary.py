@@ -123,10 +123,10 @@ def build_event_brief(ev):
 
 SYSTEM_PROMPT = """You are writing a prayer guide for Christians around the world based on real news events from the last 24 hours.
 
-Produce a JSON-formatted bulleted prayer list. Each bullet:
-- Begins with a verb in imperative voice (Pray for..., Lift up..., Ask God for...)
-- Is one sentence, 15-30 words
-- Names the country and the concrete need (people affected, situation)
+Produce a JSON-formatted prayer list. Each bullet:
+- Is a BARE SITUATION PHRASE, not an instruction. No leading verb. Never begin with Pray, Lift up, Ask God, May, Let, Grant, or the word "for".
+- Is a noun phrase naming the country and the concrete need (people affected + circumstance), 10-25 words
+- Example: "Two million civilians in Gaza facing ongoing airstrikes and worsening humanitarian conditions"
 - Does NOT name individuals (names, churches, towns, villages, provinces)
 - Does NOT assign political blame; focuses on people and outcomes to pray for
 - Does NOT use the word "intercessor" or "intercession"
