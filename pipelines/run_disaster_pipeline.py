@@ -806,7 +806,8 @@ DISASTER_TYPE: <Earthquake|Flood|Storm|Wildfire|Volcano|Tsunami|Landslide|Drough
 LOCATION: <most specific named place from the source: city, town, region, or "UNKNOWN" if no specific place is named>
 MAGNITUDE: <numeric magnitude rounded to nearest whole number for earthquakes (e.g. "6"); category number for hurricanes (e.g. "Cat 4"); "UNKNOWN" if not applicable or unknown>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
-PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for>
+PRAYER: <a bare situation phrase naming what to pray for — NOT an instruction, NOT a sentence. No leading verb. Never begin with Pray, Lift up, Ask God, May, Let, or "for". Name the people and circumstance, 8-25 words, e.g. "Communities in central Indonesia recovering after a shallow earthquake" or "Residents across drought-stricken Somalia facing failed harvests">
+
 ---
 
 Then the article body follows on the next line.
@@ -1053,7 +1054,8 @@ def format_body_for_wordpress(body_text, prayer=""):
         pr = html.unescape(prayer).strip()
         pr = re.sub(r"\s+", " ", pr)
         cleaned.append(
-            '<p class="gwm-prayer-line"><strong>Prayer:</strong> ' + pr + '</p>'
+            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr + '</p>'
+
         )
     return "\n\n".join(cleaned)
 
