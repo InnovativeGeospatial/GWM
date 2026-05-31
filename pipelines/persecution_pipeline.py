@@ -772,6 +772,115 @@ def publish_to_wordpress(article, headline, formatted_body):
         return None
 
 
+# --- dedup helpers (added v6) ---
+DEDUP_TITLE_THRESHOLD = 0.75  # higher = fewer auto-dedupes (safer against dropping real events)
+
+_NUM_WORDS = {
+    "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+    "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
+    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
+    "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+    "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100,
+    "thousand": 1000,
+}
+
+
+def _normalize_numbers(text):
+    if not text:
+        return ""
+    t = text.lower().replace("-", " ")
+    tokens = t.split()
+    out = []
+    i = 0
+    while i < len(tokens):
+        w = tokens[i]
+        if w in _NUM_WORDS:
+            val = _NUM_WORDS[w]
+            j = i + 1
+            while j < len(tokens) and tokens[j] in _NUM_WORDS:
+                nxt = _NUM_WORDS[tokens[j]]
+                if nxt in (100, 1000):
+                    val = (val or 1) * nxt
+                elif val and val % 10 == 0 and 0 < nxt < 10:
+                    val += nxt
+                elif val >= 100 and nxt < 100:
+                    val += nxt
+                else:
+                    break
+                j += 1
+            out.append(str(val))
+            i = j
+        else:
+            out.append(w)
+            i += 1
+    return " ".join(out)
+
+
+_DEDUP_STOPWORDS = {"the", "a", "an", "in", "on", "at", "to", "for",
+                    "of", "and", "or", "is", "are", "was", "were",
+                    "with", "by", "from", "as", "it", "its", "be"}
+
+
+def title_similarity(title1, title2):
+    words1 = set(_normalize_numbers(title1).split()) - _DEDUP_STOPWORDS
+    words2 = set(_normalize_numbers(title2).split()) - _DEDUP_STOPWORDS
+    if not words1 or not words2:
+        return 0.0
+    return len(words1 & words2) / max(len(words1), len(words2))
+
+
+_RECENT_WP_TITLES_CACHE = None
+
+
+def load_recent_wp_titles(days=30):
+    global _RECENT_WP_TITLES_CACHE
+    if _RECENT_WP_TITLES_CACHE is not None:
+        return _RECENT_WP_TITLES_CACHE
+    titles = []
+    try:
+        cat_id = get_or_create_category('Persecution Reports', 'persecution-reports')
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        page = 1
+        while page <= 5:
+            url = (WP_URL + '/wp-json/wp/v2/posts'
+                   '?categories=' + str(cat_id) +
+                   '&per_page=100&page=' + str(page) +
+                   '&_fields=id,title,date_gmt' +
+                   '&after=' + cutoff +
+                   '&orderby=date&order=desc')
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                break
+            posts = r.json()
+            if not posts:
+                break
+            for p in posts:
+                t = p.get('title', {}).get('rendered', '')
+                t = html.unescape(t)
+                t = re.sub(r'<[^>]+>', '', t).strip()
+                if t:
+                    titles.append(t)
+            page += 1
+        print('WP dedup cache: loaded ' + str(len(titles)) + ' recent titles')
+    except Exception as e:
+        print('WP dedup cache load failed: ' + str(e))
+    _RECENT_WP_TITLES_CACHE = titles
+    return titles
+
+
+def is_duplicate_of_existing_wp(candidate_title, threshold=DEDUP_TITLE_THRESHOLD):
+    recent = load_recent_wp_titles()
+    for existing in recent:
+        if title_similarity(candidate_title, existing) >= threshold:
+            print('DEDUP skip: ' + repr(candidate_title[:55]) + ' ~ ' + repr(existing[:55]))
+            return True
+    return False
+
+
+# --- end dedup helpers ---
+
+
 def run():
     print('=== Global Witness Monitor - Persecution Pipeline v5 ===')
     if not JSON_WRITER_AVAILABLE:
@@ -849,6 +958,13 @@ def run():
                 skipped += 1
                 continue
 
+            candidate_title = headline or article['title']
+            if is_duplicate_of_existing_wp(candidate_title):
+                print('Skipping (duplicate of recent post): ' + candidate_title[:60])
+                skipped += 1
+                seen.add(article['hash'])
+                continue
+
             formatted_body = format_body_for_wordpress(paragraphs, prayer)
 
             print('FORMAT: paragraphs=' + str(len(paragraphs)) +
@@ -859,6 +975,8 @@ def run():
             if result:
                 published += 1
                 seen.add(article['hash'])
+                if _RECENT_WP_TITLES_CACHE is not None:
+                    _RECENT_WP_TITLES_CACHE.append(headline or article['title'])
 
                 if JSON_WRITER_AVAILABLE:
                     try:
