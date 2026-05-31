@@ -481,7 +481,8 @@ COUNTRY: <primary country where the event physically occurred>
 EVENT_TYPE: <Armed Conflict|Civil Unrest|Coup or Crisis|Displacement|Other>
 LOCATION: <most specific named place from the source: city, town, district, or named region. UNKNOWN only if no place is named anywhere in the source>
 EVENT_DATE: <event date in MM/DD/YYYY format, "UNKNOWN" if not stated in the source>
-PRAYER: <one short prayer prompt sentence related to this event; do NOT begin with the word "Pray"; just write what to pray for, e.g. "the families of those killed and for an end to the cycle of violence" or "civilians caught between rival armed groups">
+PRAYER: <a bare situation phrase naming what to pray for — NOT an instruction, NOT a sentence. No leading verb. Never begin with Pray, Lift up, Ask God, May, Let, or "for". Name the people and circumstance, 8-25 words, e.g. "Two million civilians in Gaza facing ongoing airstrikes" or "Families displaced by cross-border shelling in southern Lebanon">
+
 ---
 
 Then the article body follows on the next line.
@@ -518,9 +519,10 @@ EVENT_DATE field:
 - MM/DD/YYYY format. Use the date the event occurred, not when it was reported.
 - UNKNOWN if not in source.
 
-PRAY field:
-- One sentence, specific to this event.
-- Focus on civilians affected, families of victims, restraint by armed parties, leaders pursuing peace, displaced people, or similar concrete needs.
+PRAYER field:
+- A bare situation phrase, not an instruction or sentence. Name who is affected and what is happening.
+- No leading verb. Never start with Pray, Lift up, Ask God, May, Let, Grant, or "for".
+- Focus on civilians affected, families of victims, or displaced people.
 - Do not assign blame or make political statements.
 
 Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no factual event reported."""
@@ -902,14 +904,9 @@ def _prayer_with_for(text):
     """Ensure the prayer phrase begins with 'for ' so it reads naturally
     after the 'Prayer:' label, e.g. 'Prayer: for the families ...'."""
     if not text:
-        return text
-    t = text.strip()
-    low = t.lower()
-    if low.startswith("for "):
-        return t
-    if low.startswith("that "):
-        return t
-    return "for " + t[0].lower() + t[1:]
+            return text
+        return text.strip()
+
 
 
 def format_body_for_wordpress(body_text, prayer=""):
@@ -931,7 +928,8 @@ def format_body_for_wordpress(body_text, prayer=""):
         pr = re.sub(r"\s+", " ", pr)
         pr = _prayer_with_for(pr)
         cleaned.append(
-            '<p class="gwm-prayer-line"><em>Prayer:</em> ' + pr + '</p>'
+            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr + '</p>'
+
         )
     return "\n\n".join(cleaned)
 
