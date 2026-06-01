@@ -1,9 +1,128 @@
 {
   "feed": "disasters",
-  "updated": "2026-05-31T04:43:35.197675+00:00",
-  "count": 329,
+  "updated": "2026-06-01T12:19:49.254427+00:00",
+  "count": 336,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5737,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-brazil/",
+      "date": "2026-06-01T12:19:37",
+      "title": "Disease in Brazil",
+      "body": "Health authorities in Brazil are monitoring two patients in São Paulo and Rio de Janeiro for possible Ebola infection. A man from the Democratic Republic of Congo showed symptoms including fever in São Paulo, while a Belgian man who arrived from Uganda showed symptoms including cough, chills, and diarrhea in Rio de Janeiro. Test results are expected next week. If confirmed, these would be the first Ebola cases outside Africa since the current outbreak began.\n\nBoth patients have already been diagnosed with other illnesses — the man in São Paulo tested positive for meningitis and is in serious condition, while the patient in Rio tested positive for malaria. Officials say these diagnoses do not rule out Ebola.\n\nThe outbreak, caused by a rare strain called Bundibugyo, has now recorded more than 1,000 suspected cases and at least 246 deaths in DR Congo. Uganda has also reported nine confirmed cases. This strain has no proven vaccine and kills roughly one in three people infected.",
+      "country": "Brazil",
+      "countries": [
+        "Brazil"
+      ],
+      "type": "Disease",
+      "lat": -22.036966,
+      "lng": -42.166167,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cy72z48zd7po?at_medium=RSS&at_campaign=rss",
+      "prayer": "Two patients in Brazil under watch for Ebola as the outbreak spreads beyond Africa"
+    },
+    {
+      "wp_id": 5736,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-laos-05-20-2025-2/",
+      "date": "2026-06-01T12:19:26",
+      "title": "Flood in Laos 05/20/2025",
+      "body": "Seven villagers entered a narrow cave system in Laos's mountainous Xaysomboun province on May 20 to search for gold, but flash floods trapped them inside. Five have since been rescued — four of them emerging on Saturday after water levels dropped enough for them to free themselves without direct help from rescuers.\n\nTwo men remain trapped deeper inside the cave, which is so narrow it measures around 50 centimeters wide in some places. Survivors recovering in hospital have been giving rescuers detailed descriptions of the cave's deeper sections to help plan a new search effort. A drainage pump used to lower water levels broke down, temporarily blocking the passage used in Saturday's rescue.\n\nOn Sunday, heavy rain caused water to flow back into the cave entrance, forcing a pause in operations. Specialist divers from Thailand, Indonesia, France, and Australia are among those assisting. Search efforts were set to resume Monday.",
+      "country": "Laos",
+      "countries": [
+        "Laos"
+      ],
+      "type": "Flood",
+      "lat": 19.922589,
+      "lng": 102.593737,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Two men still trapped deep inside a flooded cave in central Laos"
+    },
+    {
+      "wp_id": 5735,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-4/",
+      "date": "2026-06-01T12:19:14",
+      "title": "Disease in Congo",
+      "body": "Health authorities in the Democratic Republic of Congo are marking a hopeful moment after five patients recovered from Ebola and were discharged from hospital. Four of them were nurses treated in Bunia, the main city of Ituri province, which sits at the center of the outbreak. A fifth, a laboratory worker, was discharged the previous week. Officials used the occasion to encourage people to seek care early if they show symptoms, stressing that recovery is possible.\n\nThe outbreak has now reached more than 1,000 suspected cases and at least 246 deaths across the country. Neighboring Uganda has also reported nine confirmed cases and one death. This strain of Ebola, known as Bundibugyo, has no approved vaccine, though some are in development.\n\nTensions have complicated the response in some areas, with residents attacking health centers over burial rules that prevent families from handling the bodies of those who may have died from the virus. Officials are urging communities to work alongside medical staff, saying local trust and cooperation are essential to ending the outbreak.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.555387,
+      "lng": 30.247854,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cz928xq588no?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities across DR Congo and Uganda enduring the ongoing Ebola outbreak with over 1,000 suspected cases"
+    },
+    {
+      "wp_id": 5734,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-05-27-2026-cat-1-4/",
+      "date": "2026-06-01T12:18:37",
+      "title": "Storm in Japan 05/27/2026 — Cat 1",
+      "body": "Tropical Storm Jangmi swept through the Northwest Pacific from late May into early June 2026, bringing maximum wind speeds of around 139 km/h. The storm affected Japan, where roughly 1.27 million people were exposed to Category 1 strength winds or higher.\n\nJapan is considered to have relatively low vulnerability to storms of this type, given its infrastructure and emergency systems. Even so, storms of this intensity can disrupt communities, damage property, and put lives at risk, particularly in coastal and low-lying areas.\n\nResidents across affected areas were likely dealing with strong winds, heavy rain, and possible flooding during the storm's passage. Local authorities and communities would have been working to protect people and limit damage throughout the storm's active period.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 25.6,
+      "lng": 127.4,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001272",
+      "prayer": "Over a million people in Japan in the path of Tropical Storm Jangmi"
+    },
+    {
+      "wp_id": 5733,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-31-2026-magnitude-5/",
+      "date": "2026-06-01T12:17:28",
+      "title": "Earthquake in New Zealand 05/31/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the Kermadec Islands region on May 31, 2026. The quake occurred at a depth of about 99 kilometers beneath the ocean floor, which is considered a moderately deep earthquake.\n\nAt this depth, shaking at the surface is generally weaker than earthquakes closer to the surface. The Kermadec Islands are a remote, largely uninhabited island chain northeast of New Zealand's main islands. No reports of damage or casualties are available from the source material.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -30.5996,
+      "lng": -179.0432,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sppt",
+      "prayer": "People in the remote Kermadec Islands region following an undersea earthquake"
+    },
+    {
+      "wp_id": 5732,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-australia-06-01-2026-magnitude-5/",
+      "date": "2026-06-01T12:16:34",
+      "title": "Earthquake in Australia 06/01/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck the remote Macquarie Island region in the southern ocean on June 1, 2026. The quake occurred at a shallow depth of about 10 kilometers beneath the seafloor.\n\nMacquarie Island is a remote Australian territory located roughly halfway between New Zealand and Antarctica. The area is extremely isolated, with no permanent civilian population — only a small number of researchers stationed there at any given time. No damage or injuries have been reported.\n\nBecause of its shallow depth and remote location, the quake was unlikely to cause significant harm, though shallow earthquakes can produce stronger ground shaking than deeper ones.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Earthquake",
+      "lat": -57.8585,
+      "lng": 157.7638,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spti",
+      "prayer": "Isolated communities near Macquarie Island following a shallow ocean earthquake"
+    },
+    {
+      "wp_id": 5731,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-31-2026-magnitude-6/",
+      "date": "2026-06-01T12:16:22",
+      "title": "Earthquake in Chile 05/31/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck about 33 kilometers northwest of Valparaíso, Chile on May 31, 2026. The quake originated at a depth of about 25 kilometers beneath the surface. More than 150 people submitted reports saying they felt the shaking.\n\nValparaíso is a densely populated coastal city and one of Chile's most important port areas. Earthquakes are common along Chile's coast due to the active fault systems running the length of the country. At this magnitude and depth, shaking was felt across a wide area, though no significant damage or casualties have been reported at this time.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -33.041965,
+      "lng": -71.624306,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spqc",
+      "prayer": "Residents near Valparaíso, Chile shaken by a magnitude 6 earthquake"
+    },
     {
       "wp_id": 5713,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-30-2026/",
