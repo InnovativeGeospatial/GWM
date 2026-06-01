@@ -97,6 +97,33 @@ mlStyle.innerHTML = '.maplibregl-ctrl-attrib { background: rgba(10,12,16,0.5) !i
   '.gwm-popup .maplibregl-popup-close-button{color:#111 !important;font-size:18px !important;padding:2px 7px !important;}';
 document.head.appendChild(mlStyle);
 
+/* ── GWM theme overrides: brighter reds, bright-white body text, header spacing ──
+   --crimson drives the rank bars AND the EXTREME/VERY HIGH labels, so one bump
+   brightens both. --text-dim/--text-muted -> white covers most dim text; the
+   !important rules below catch the few hardcoded greys. "Latest Reports" (inline
+   green) and the tier labels (crimson/amber/gold) are intentionally NOT touched. */
+var gwmTheme = document.createElement('style');
+gwmTheme.innerHTML =
+  '#gwm-wrap{--crimson:#ff5a47;--amber:#ffa94d;--gold:#e8c07d;--text-dim:#ffffff;--text-muted:#ffffff;}' +
+  '#gwm-wrap .gwm-panel-header{padding:24px 18px 14px;}' +
+  '#gwm-wrap .gwm-stat-label{color:#fff !important;}' +
+  '#gwm-wrap .gwm-stat-value{color:#fff !important;}' +
+  '#gwm-wrap .gwm-stat-delta{color:#fff !important;}' +
+  '#gwm-wrap .gwm-stat-delta.neutral{color:#fff !important;}' +
+  '#gwm-wrap .gwm-cname{color:#fff !important;}' +
+  '#gwm-wrap .gwm-rank{color:#fff !important;}' +
+  '#gwm-wrap .gwm-nsummary{color:#fff !important;}' +
+  '#gwm-wrap .gwm-ntitle{color:#fff !important;}' +
+  '#gwm-wrap .gwm-ntime{color:#fff !important;}' +
+  '#gwm-wrap .gwm-tag{color:#fff !important;}' +
+  '#gwm-wrap .gwm-source-badge{color:#fff !important;}' +
+  '#gwm-wrap .gwm-legend-title{color:#fff !important;}' +
+  '#gwm-wrap .gwm-legend-item{color:#fff !important;}' +
+  '#gwm-wrap .gwm-trend-title{color:#fff !important;}' +
+  '#gwm-wrap .gwm-tlabel{color:#fff !important;}' +
+  '#gwm-wrap #gwm-trends div{color:#fff !important;}';
+document.head.appendChild(gwmTheme);
+
 var gwmCentroids = {
   'afghanistan':[65.0,33.9],'albania':[20.2,41.2],'algeria':[2.6,28.0],'angola':[17.9,-11.2],
   'argentina':[-63.6,-38.4],'armenia':[45.0,40.1],'australia':[133.8,-25.3],'austria':[14.6,47.5],
@@ -331,10 +358,10 @@ function gwmPostToFeature(post) {
 }
 
 gwmMap.on('load', function() {
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(255,255,255,0.35)'); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.2); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.15)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-color', 'rgba(255,255,255,0.7)'); } catch(e){}
+  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(255,255,255,0.65)'); } catch(e){}
+  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.5); } catch(e){}
+  try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.32)'); } catch(e){}
+  try { gwmMap.setPaintProperty('country-label', 'text-color', 'rgba(255,255,255,0.95)'); } catch(e){}
   try { gwmMap.setPaintProperty('country-label', 'text-halo-color', 'rgba(0,0,0,0.6)'); } catch(e){}
   try { gwmMap.setPaintProperty('country-label', 'text-halo-width', 1.5); } catch(e){}
 
@@ -461,8 +488,8 @@ function gwmRenderRankings(countries, generatedAt) {
   }).join('');
   if (metaEl) {
     metaEl.innerHTML = '<a href="https://globalwitnessmonitor.com/persecution-ranking-process/" ' +
-      'style="color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.4);">' +
-      'How we calculate this</a>';
+      'style="color:#fff;font-size:13px;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.4);">' +
+      'How we calculate this &rarr;</a>';
   }
 }
 
