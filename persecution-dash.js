@@ -462,7 +462,7 @@ function gwmRenderRankings(countries, generatedAt) {
   if (metaEl) {
     metaEl.innerHTML = '<a href="https://globalwitnessmonitor.com/persecution-ranking-process/" ' +
       'style="color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.4);">' +
-      'How we calculate this &rarr;</a>';
+      'How we calculate this</a>';
   }
 }
 
