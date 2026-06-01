@@ -460,14 +460,9 @@ function gwmRenderRankings(countries, generatedAt) {
       '</a>';
   }).join('');
   if (metaEl) {
-    if (generatedAt) {
-      var d = new Date(generatedAt);
-      var month = d.toLocaleDateString('en-US', { month: 'long' });
-      var year  = d.getFullYear();
-      metaEl.innerHTML = 'Updated<br>' + month + '<br>' + year;
-    } else {
-      metaEl.textContent = '';
-    }
+    metaEl.innerHTML = '<a href="https://globalwitnessmonitor.com/persecution-ranking-process/" ' +
+      'style="color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.4);">' +
+      'How we calculate this &rarr;</a>';
   }
 }
 
