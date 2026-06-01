@@ -1,9 +1,266 @@
 {
   "feed": "conflict",
-  "updated": "2026-05-31T05:07:17.267220+00:00",
-  "count": 375,
+  "updated": "2026-06-01T12:24:22.748972+00:00",
+  "count": 389,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5751,
+      "wp_link": "https://globalwitnessmonitor.com/managua/",
+      "date": "2026-06-01T12:24:17",
+      "title": "Managua",
+      "body": "A prominent indigenous leader in Nicaragua has died after nearly three years in government detention. He was 73 years old and had founded Yatama, the country's main indigenous rights movement. Officials said he died from physical and neurological deterioration connected to a Covid-19 infection, but rights groups say harsh conditions in custody contributed to his death.\n\nThe government waited 15 hours to confirm the death and, according to opposition media, has refused to release his body to his family. He had been held since September 2023, though the government did not acknowledge his detention until more than a year later. His condition became public only days before his death, when officials admitted he had been hospitalized in Managua since early March with brain swelling, respiratory infection, and kidney failure.\n\nHuman rights organizations including Amnesty International and the Inter-American Legal Assistance Center have condemned his treatment and called for accountability. The US State Department described his imprisonment as unjust. His death adds to a growing number of reported dissident deaths in Nicaraguan government custody.",
+      "country": "Nicaragua",
+      "countries": [
+        "Nicaragua"
+      ],
+      "type": "Other",
+      "lat": 12.14,
+      "lng": -86.274,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cvgzyyrzj1jo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Family of an indigenous leader who died in Nicaraguan government custody after years of detention"
+    },
+    {
+      "wp_id": 5750,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris-2/",
+      "date": "2026-06-01T12:24:04",
+      "title": "Civil Unrest in Paris",
+      "body": "Violent clashes broke out across France after a football club won a major European championship final. Nearly 800 people were arrested and 219 were injured, including 57 police officers. One person died in an accident on the city's ring road, which rioters attempted to block overnight, and a teenager was left in critical condition after a separate brawl.\n\nFootage from the city center showed flares being set off, electric bikes burned in the streets, and at least one shopfront smashed. Police fired tear gas to disperse crowds. Authorities said many of those causing trouble were not connected to the football celebrations at all.\n\nMore than 6,000 officers were deployed for Sunday's victory parade, and the official celebrations near the Eiffel Tower appeared largely peaceful. However, transport services had already been disrupted overnight, and authorities warned their response to any further violence would be firm. Similar unrest followed the same team's championship win the previous year.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Civil Unrest",
+      "lat": 48.853495,
+      "lng": 2.348392,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Hundreds injured and one person dead amid post-match riots across Paris"
+    },
+    {
+      "wp_id": 5749,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dahieh/",
+      "date": "2026-06-01T12:23:49",
+      "title": "Armed Conflict in Dahieh",
+      "body": "Israel's prime minister has ordered strikes on Dahieh, a southern suburb of Beirut and Hezbollah stronghold, citing attacks on Israeli civilians and violations of a ceasefire reached in April. A Lebanese government official told the BBC that Lebanon is relying on US efforts to pressure Israel to halt further civilian casualties. The US Secretary of State spoke with both Israeli and Lebanese leaders over the weekend, proposing that Lebanese officials press Hezbollah to stop attacks on Israel, in exchange for Israel stepping back from escalation in Beirut.\n\nIsraeli troops also crossed the Litani River in southern Lebanon to take control of Beaufort Castle, a historically significant hilltop site. Lebanon's defense minister said the campaign was \"not over.\" Lebanon's prime minister accused Israel of collective punishment.\n\nLebanon was drawn into conflict on March 2 when Hezbollah launched rockets into Israel. Since then, at least 3,371 people have been killed in Lebanon, according to that country's health ministry, with figures not separating combatants from civilians.",
+      "country": "Israel",
+      "countries": [
+        "Israel",
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.903426,
+      "lng": 35.195207,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c4g419e2xlvo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Beirut and southern Lebanon amid ongoing airstrikes and ground fighting"
+    },
+    {
+      "wp_id": 5748,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-middle-east/",
+      "date": "2026-06-01T12:23:36",
+      "title": "Armed Conflict in Middle East",
+      "body": "Satellite images and video analysed by BBC Verify show that Iranian strikes have damaged at least 20 US military sites across eight countries in the Middle East since late February — more than American officials have publicly acknowledged. The affected facilities are located in Saudi Arabia, the UAE, Qatar, Kuwait, Iraq, Jordan, Bahrain, and Oman.\n\nAmong the hardware damaged are three advanced anti-ballistic missile defense systems and multiple refuelling and surveillance aircraft, including an aircraft analysts estimated could cost up to $700 million to replace. Fuel storage bunkers, aircraft hangars, and troop accommodations have also been destroyed or damaged at several sites. The Pentagon has estimated the total cost of the broader conflict at $29 billion, with much expected to go toward replacing destroyed equipment.\n\nThe US has asked a major satellite imagery provider to restrict new images of Iran and much of the Middle East. BBC Verify used images from other international providers to document the damage. Some analysts believe the number of bases hit may be as high as 28.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "United States",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "Qatar",
+        "Kuwait",
+        "Iraq",
+        "Jordan",
+        "Bahrain",
+        "Oman"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Military personnel and civilians near US bases across the Middle East amid ongoing strikes and counter-strikes"
+    },
+    {
+      "wp_id": 5747,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-3/",
+      "date": "2026-06-01T12:23:14",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "Over the weekend, the US military struck Iranian radar and command-and-control sites on Iran's southern coast and on Qeshm Island in the Strait of Hormuz, calling the action self-defense after an American drone was shot down over international waters. Iran's Revolutionary Guard responded by targeting an air base it said the US had used to hit a communications tower on a nearby island. Iran described the US strikes as a ceasefire violation.\n\nKuwait reported that air raid sirens sounded across the country as its military worked to intercept missiles and drones. Kuwait's foreign ministry issued a strong condemnation of what it called \"heinous and repeated Iranian attacks,\" warning it reserves the right to defend itself. Iran had previously targeted a base in Kuwait in response to earlier US strikes.\n\nCeasefire negotiations between the US and Iran stalled over the weekend after reports emerged that the US president had requested changes to the proposed terms, including language on the Strait of Hormuz and Iran's enriched uranium stockpile. No formal agreement has been reached, and the shipping channel remains a flashpoint for both sides.",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran",
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Kuwait and crews on shipping vessels caught in escalating US-Iran strikes near the Strait of Hormuz"
+    },
+    {
+      "wp_id": 5746,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-chimoio/",
+      "date": "2026-06-01T12:23:00",
+      "title": "Civil Unrest in Chimoio",
+      "body": "Two opposition party members were shot and killed in Mozambique in May 2025. One was killed outside his home in Chimoio, Manica province, on May 9. Another was shot in his home in Gaza province on May 15. Witnesses described the attackers as \"ruthless and professional.\" The opposition party ANAMOLA says 56 of its members have been killed since the party was founded in August 2025, with 436 additional incidents of violence recorded, including assaults and arson attacks.\n\nThe killings follow a disputed October 2024 election and nationwide protests. ANAMOLA's leader has accused the government and security forces of being \"at least partly responsible.\" The government denies involvement, calling the incidents isolated cases and saying it does not support extrajudicial killings.\n\nCivil society groups are calling for independent investigations. Human rights observers describe a long pattern of political violence in Mozambique, with allegations of organized groups within the security forces targeting critics and opposition figures going back at least a decade. Represented opposition parties in parliament have also raised alarms about the situation.",
+      "country": "Mozambique",
+      "countries": [
+        "Mozambique"
+      ],
+      "type": "Civil Unrest",
+      "lat": -19.143818,
+      "lng": 33.47888,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/mozambique-are-death-squads-targeting-the-opposition/a-77324093?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Opposition members and civil society voices in Mozambique facing politically motivated killings and threats"
+    },
+    {
+      "wp_id": 5745,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kharkiv/",
+      "date": "2026-06-01T12:22:43",
+      "title": "Armed Conflict in Kharkiv",
+      "body": "Residents of Kharkiv, Ukraine's second-largest city, face daily missile and drone attacks that strike homes, factories, and roads. Air raid sirens interrupt sleep throughout the night, and people rush into metro stations for shelter when bombardments begin.\n\nChildren in the city continue their schooling underground to stay safe from the strikes. Despite the ongoing danger, residents and city officials are working to rebuild and plan for a future after the conflict ends.\n\nThe constant bombardment has made ordinary life deeply unpredictable, with no clear end to the threat for the hundreds of thousands of people still living in the city.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 49.99316,
+      "lng": 36.232075,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167611",
+      "prayer": "Kharkiv residents enduring daily missile strikes, disrupted sleep, and children forced to study underground"
+    },
+    {
+      "wp_id": 5744,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-seaport/",
+      "date": "2026-06-01T12:22:29",
+      "title": "Armed Conflict in Gaza seaport",
+      "body": "An airstrike hit a crowded cafe at Gaza's seaport, killing at least two Palestinians and wounding around a dozen more. Witnesses said people had gathered there to escape the heat and mark a public holiday when the strike occurred.\n\nThe attack took place despite a ceasefire that had been in effect since October. Residents seeking a brief moment of rest in a public space found themselves caught in the strike, highlighting the continued danger facing ordinary civilians in the area.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/israel-airstrike-kills-at-least-two-palestinians-at-gaza-port?traffic_source=rss",
+      "prayer": "Civilians in Gaza killed and wounded at a crowded cafe during a public holiday"
+    },
+    {
+      "wp_id": 5743,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-iran/",
+      "date": "2026-06-01T12:22:16",
+      "title": "Armed Conflict in Iran",
+      "body": "The United States military says it has struck Iranian military sites, and Iran's Revolutionary Guard says it responded by targeting a US base. The strikes are the latest exchange in a conflict now in its 94th day. Kuwait also intercepted missiles during this period, according to the report's headline.\n\nNegotiations to end the war are ongoing, but no deal has been reached. Iran's foreign minister called deal talk \"speculation,\" while the US president said Iran \"really wants to make a deal.\" The two sides appear to be far apart on terms, with the US seeking changes to a proposed memorandum of understanding.\n\nSeparately, Israel has deepened its offensive into southern Lebanon during this same period, widening the broader regional picture for people living across the Middle East.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/iran-war-day-94-us-strikes-iranian-sites-kuwait-intercepts-missiles?traffic_source=rss",
+      "prayer": "Civilians caught in ongoing US-Iran military exchanges as peace talks stall"
+    },
+    {
+      "wp_id": 5742,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dahiyeh-beirut/",
+      "date": "2026-06-01T12:22:04",
+      "title": "Armed Conflict in Dahiyeh, Beirut",
+      "body": "Large numbers of people began leaving Dahiyeh, the southern suburb of Beirut, after Israeli officials announced orders for military strikes on the area early Monday morning. Residents packed belongings and jammed roads leading out of the neighborhood. Government-run shelters are already full, leaving many people with no clear destination and forcing some to wait in their cars.\n\nIsraeli ground forces have also pushed deeper into southern Lebanon, reaching their furthest point in more than 25 years and taking control of a medieval castle just north of the Litani River. Israeli officials stated an intent to establish a military-controlled zone in that river area.\n\nThe United States has put forward a proposal aimed at halting the fighting, which would involve a stop to attacks from both sides in and around Beirut. Separate diplomatic conversations have taken place between Washington and both the Lebanese president and Israeli prime minister, though no agreement has been announced.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.90295,
+      "lng": 35.507088,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/washington-proposes-roadmap-for-de-escalation-in-lebanon-us-official?traffic_source=rss",
+      "prayer": "Residents of southern Beirut fleeing with nowhere to go as strikes are ordered on their neighborhoods"
+    },
+    {
+      "wp_id": 5741,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sirik-island/",
+      "date": "2026-06-01T12:21:50",
+      "title": "Armed Conflict in Sirik Island",
+      "body": "Iran's Revolutionary Guard (IRGC) launched a strike on a military base it said was used for a US attack on a communications tower on Sirik Island in Iran's Hormozgan Province. The IRGC stated that the targeted base was destroyed, though it did not identify its location. US military officials said no American troops were harmed in the Iranian strike.\n\nKuwait reported that its air defences intercepted Iranian missiles and drones as sirens sounded across the country. Kuwait's Foreign Ministry condemned the attacks on its territory, warning that continued strikes undermine efforts to reduce tensions and threaten regional stability.\n\nThe exchange is the latest in several rounds of fire between US and Iranian forces in recent days. Both sides are in indirect talks about extending a fragile ceasefire that took effect in April, though negotiations have been complicated by disputes over a proposed agreement, mixed signals from both governments, and ongoing Israeli military operations in Lebanon.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/irans-irgc-launches-retaliatory-strike-after-us-attacks?traffic_source=rss",
+      "prayer": "Civilians in Kuwait and Iran caught in escalating missile and drone exchanges"
+    },
+    {
+      "wp_id": 5740,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-qeshm/",
+      "date": "2026-06-01T12:21:38",
+      "title": "Armed Conflict in Qeshm",
+      "body": "Despite a ceasefire that took effect on April 8, the United States and Iran continued trading military strikes over the weekend and into Monday. The US military said it hit Iranian radar and drone sites in the city of Goruk and on Qeshm Island on Saturday and Sunday, saying the strikes were a response to Iran shooting down an American drone over international waters. Iran's Revolutionary Guard then said it struck a US airbase used in an earlier attack on a communications tower in southern Iran's Hormozgan Province.\n\nAir defenses in Kuwait intercepted missile and drone attacks on Monday. Separately, Iranian Kurdish opposition groups based in northern Iraq's Erbil province reported that their bases were also struck by Iranian missiles, with one group saying it had been hit more than 81 times since the wider conflict began on February 28.\n\nDiplomatic talks aimed at a lasting agreement are continuing, but sporadic attacks and an Iranian blockade of the Strait of Hormuz have kept tensions high, leaving civilians and regional populations uncertain about what comes next.",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran",
+        "Iraq",
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/us-iran-trade-new-attacks-amid-talks-heres-what-we-know?traffic_source=rss",
+      "prayer": "Civilians in the Gulf region and northern Iraq caught in ongoing US-Iran military exchanges"
+    },
+    {
+      "wp_id": 5739,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wadi-al-hujeir/",
+      "date": "2026-06-01T12:21:23",
+      "title": "Armed Conflict in Wadi al-Hujeir",
+      "body": "A well-known resort and restaurant in Wadi al-Hujeir, southern Lebanon, was destroyed in an Israeli airstrike. The site, called Arch Almoulouk, was owned by a prominent Lebanese chef and was widely considered one of the most beloved landmarks in the south of the country.\n\nDuring the ongoing conflict, the restaurant had been serving free meals to families who had been displaced by the fighting. Images shared after the strike showed the building reduced to rubble.\n\nThe loss removes what had become an informal relief point for civilians already uprooted by the war.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/israel-bombs-a-beloved-lebanese-landmark-chef-husen-fayads-restaurant?traffic_source=rss",
+      "prayer": "Displaced families in southern Lebanon who lost a source of free meals and shelter"
+    },
+    {
+      "wp_id": 5738,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kuwait/",
+      "date": "2026-06-01T12:21:12",
+      "title": "Armed Conflict in Kuwait",
+      "body": "Kuwait activated its air defences after an attack its foreign ministry described as a \"heinous Iranian attack.\" The incident marked a direct strike on Kuwaiti territory amid a broader exchange of military strikes between Iran and the United States.\n\nIran stated it targeted a U.S. base in Kuwait in retaliation for what it described as that base being used to launch recent attacks on Iranian territory. The United States and Iran have been trading strikes, according to the source, though the specific scale and targets of each exchange are not detailed.\n\nKuwait's public condemnation signals the conflict is now directly affecting a third country, raising concerns for civilians and workers living near military installations in the region.",
+      "country": "Kuwait",
+      "countries": [
+        "Kuwait",
+        "Iran",
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 29.341212,
+      "lng": 47.590604,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/kuwait-condemns-iranian-attack-as-iran-us-trade-new-strikes?traffic_source=rss",
+      "prayer": "Civilians in Kuwait caught in escalating strikes between Iran and the United States"
+    },
     {
       "wp_id": 5722,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-ukraine/",
