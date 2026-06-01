@@ -1,9 +1,171 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-01T12:24:22.748972+00:00",
-  "count": 389,
+  "updated": "2026-06-01T21:21:23.275612+00:00",
+  "count": 398,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5780,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-south-africa-2/",
+      "date": "2026-06-01T21:21:17",
+      "title": "Civil Unrest in South Africa",
+      "body": "Anti-migrant protests have been building in South Africa in recent weeks, with demonstrators calling on the government to crack down on undocumented migrants and demanding that they leave the country by June 30. Protesters have accused migrants of straining public services and being linked to crime. South Africa's government has condemned what it called criminal acts against foreign nationals, though authorities have not confirmed specific attacks on foreigners.\n\nNigeria's police force issued a public warning urging citizens not to target South African nationals, businesses, or diplomatic facilities inside Nigeria in retaliation. Officials said any such acts would be treated as crimes, and that extra security has been placed around foreign missions and key sites. Ghana recently evacuated hundreds of its nationals from South Africa, citing safety concerns.\n\nPast episodes of xenophobic violence in South Africa have led to retaliatory attacks on South African-owned businesses in Nigeria, and authorities on both sides appear to be working to prevent a repeat of that cycle.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria",
+        "South Africa"
+      ],
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Nigerian and other African migrants in South Africa facing anti-migrant protests and uncertain safety"
+    },
+    {
+      "wp_id": 5779,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-ouagadougou/",
+      "date": "2026-06-01T21:21:02",
+      "title": "Coup/Crisis in Ouagadougou",
+      "body": "Burkina Faso's military leader, who came to power in a 2022 coup, told citizens in April to \"forget\" about democracy, saying it \"kills.\" Speaking on state television, he argued that fighting jihadist violence and rebuilding the economy must come first. Some residents in the capital agreed, while others were troubled by the statement.\n\nThe remarks come as military takeovers have reshaped much of Africa. Between 2020 and 2025, soldiers seized power in Mali, Burkina Faso, Niger, Guinea, Gabon, and Guinea-Bissau. In January 2025, Niger, Mali, and Burkina Faso formally left the regional bloc ECOWAS and formed their own alliance. Sudan descended into full civil war between rival military factions. A UN development report points to poverty, inequality, weak governance, and public frustration with elected governments as conditions that make coups more likely.\n\nAcross the continent, press freedom is shrinking and opposition voices face persecution in several countries. Civil society organizations note that many governing structures were shaped by colonial-era designs that do not reflect local cultures or meet basic needs for food, water, and education.",
+      "country": "Burkina Faso",
+      "countries": [
+        "Burkina Faso",
+        "Mali",
+        "Niger",
+        "Guinea",
+        "Gabon",
+        "Chad",
+        "Sudan"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 12.363142,
+      "lng": -1.529773,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/coups-and-crises-shake-african-democracy/a-77328510?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Civilians across the Sahel and Central Africa living under military rule amid poverty and unrest"
+    },
+    {
+      "wp_id": 5778,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-beirut-2/",
+      "date": "2026-06-01T21:20:43",
+      "title": "Displacement in Beirut",
+      "body": "Families in Beirut are leaving the city as Israel has threatened to resume strikes targeting Hezbollah, raising fears of a return to open conflict. This comes despite a ceasefire extension that had offered a period of relative calm.\n\nThe United Nations is actively working to support civilians caught in the middle, providing food, protection services, and other forms of humanitarian aid to people displaced by the ongoing tensions.\n\nInternational pressure for a lasting peace agreement continues, but conditions on the ground remain unstable for many Lebanese families who are uncertain whether to stay or go.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": 33.89625,
+      "lng": 35.477367,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+      "prayer": "Families fleeing Beirut amid renewed threat of Israeli strikes on Hezbollah"
+    },
+    {
+      "wp_id": 5777,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dahiye-southern-beirut/",
+      "date": "2026-06-01T21:20:32",
+      "title": "Armed Conflict in Dahiye, southern Beirut",
+      "body": "Iranian officials warned Monday that Israel's escalating attacks in Lebanon and ongoing hostilities in Gaza are jeopardizing ceasefire negotiations with the United States. Iran's foreign minister stated publicly that any ceasefire with the US applies to all fronts, including Lebanon, and that violations would carry consequences. Iranian negotiators also suspended indirect text exchanges with US counterparts, saying talks would not resume until Israeli military operations halt in both Gaza and Lebanon.\n\nOn the ground, Israeli forces issued displacement orders for residents of the Dahiye suburbs in southern Beirut and carried out strikes there. Israeli ground forces had the previous day reached their deepest position inside Lebanon in 26 years. The US president said he intervened, posting that Israeli troops would not advance on Beirut and that an agreement to stop shooting had been reached with Hezbollah.\n\nIran's Revolutionary Guard separately threatened to open new fronts and keep the Strait of Hormuz closed if Israeli military action continues, calling further advances in Lebanon and Gaza a threshold for direct war.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Lebanon",
+        "Israel"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/iran-warns-israeli-attacks-in-lebanon-and-gaza-threaten-us-ceasefire-talks?traffic_source=rss",
+      "prayer": "Residents of southern Beirut suburbs and civilians in Lebanon and Gaza amid deepening military operations"
+    },
+    {
+      "wp_id": 5776,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-lebanon-2/",
+      "date": "2026-06-01T21:20:11",
+      "title": "Displacement in Lebanon",
+      "body": "A community-run grocery store in Lebanon is helping hundreds of families access affordable food, medicine, and basic supplies. The not-for-profit, called \"Man wa Salwa,\" was set up to support people struggling through a combination of displacement and a broader economic crisis.\n\nThe store operates as families continue to face hardship linked to ongoing conflict and economic pressures. Many households have been uprooted from their homes and are relying on community efforts to meet daily needs.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/lebanons-social-grocery-store-fighting-rising-costs-and-displacement?traffic_source=rss",
+      "prayer": "Hundreds of Lebanese families facing displacement and rising costs amid ongoing conflict"
+    },
+    {
+      "wp_id": 5774,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tyre-4/",
+      "date": "2026-06-01T21:19:39",
+      "title": "Armed Conflict in Tyre",
+      "body": "An Israeli strike near Jabal Amel Hospital in Tyre, southern Lebanon, has damaged the facility, destroying wards and medical equipment. The attack was described as deadly.\n\nThe strike is part of a broader escalation of Israeli attacks across southern Lebanon and the capital Beirut. Hospitals and medical infrastructure being damaged raises serious concerns for civilians who depend on these facilities for care in an already dangerous environment.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.273647,
+      "lng": 35.19531,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/israeli-strike-damages-hospital-in-southern-lebanon?traffic_source=rss",
+      "prayer": "Patients and medical staff at Jabal Amel Hospital in Tyre after a strike destroyed wards and equipment"
+    },
+    {
+      "wp_id": 5773,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nanyuki/",
+      "date": "2026-06-01T21:19:27",
+      "title": "Civil Unrest in Nanyuki",
+      "body": "Hundreds of young people in Nanyuki, central Kenya, rallied on Monday against a plan to establish an Ebola quarantine centre for US citizens at nearby Laikipia Air Base. The protest came two days after Kenya's High Court suspended the facility's setup, following a legal challenge arguing that Kenya's fragile health system makes it unsuitable for housing foreign Ebola patients.\n\nUS officials had announced plans to send Americans exposed to Ebola abroad to the Kenyan facility rather than returning them home. The proposed centre was to have 50 quarantine beds and the US pledged $13.5 million toward Kenya's Ebola preparedness. Kenya's health minister stated the facility would serve everyone, not only US nationals, but local officials including the regional governor publicly opposed it, citing risk to residents who work inside the base.\n\nKenya has reported no Ebola cases, though neighbouring Uganda has recorded nine and closed its border with the Democratic Republic of the Congo, where at least 263 confirmed cases of a rare Ebola strain — with no approved vaccine or treatment — have been reported.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Civil Unrest",
+      "lat": 0.022174,
+      "lng": 37.081802,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/gallery/2026/6/1/protest-outside-kenyas-planned-us-ebola-quarantine-centre?traffic_source=rss",
+      "prayer": "Residents of Nanyuki and nearby Laikipia Air Base area amid fears over a proposed Ebola quarantine facility"
+    },
+    {
+      "wp_id": 5772,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nairobi/",
+      "date": "2026-06-01T21:19:14",
+      "title": "Civil Unrest in Nairobi",
+      "body": "Thousands of people marched through central Nairobi on Monday to demand the government declare a national emergency over rising killings of women and disappearances of children. The march, organized by the End Femicide movement along with women's rights and child protection groups, was one of the largest demonstrations against gender-based violence the capital has seen in months. Organizers pointed to the killing of a gospel singer who was set on fire by three men as she walked home on May 16; she died two days later from burns covering more than 85 percent of her body.\n\nProtest groups have given the government 40 days to act or face nationwide demonstrations. Lawyers' organizations report handling roughly 70 gender-based violence cases every week, and official data shows more than 10,500 child protection cases between January 2025 and March 2026, with nearly 2,328 children currently unaccounted for.\n\nAuthorities announced the formation of a dedicated investigative unit combining homicide investigators, forensic experts, and criminal intelligence analysts. Protesters say proper investigations and stronger protections for families are still urgently needed.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Civil Unrest",
+      "lat": -1.289001,
+      "lng": 36.817281,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/1/protesters-call-on-kenyan-government-to-halt-femicide-crisis?traffic_source=rss",
+      "prayer": "Women and children in Kenya amid a surge in gender-based violence and thousands of unaccounted-for children"
+    },
+    {
+      "wp_id": 5771,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-central-kenya/",
+      "date": "2026-06-01T21:19:02",
+      "title": "Civil Unrest in central Kenya",
+      "body": "Hundreds of people gathered in central Kenya to protest a plan that would have American citizens exposed to Ebola quarantined in the country rather than returned home. Protesters opposed the US-funded facility being placed in their communities.\n\nKenya's High Court has temporarily suspended the plan in response to the public outcry, meaning the quarantine centre cannot move forward for now while legal proceedings continue.\n\nResidents remain concerned about what hosting such a facility could mean for local health and safety.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/1/kenyans-protest-ebola-quarantine-centre-for-us-citizens?traffic_source=rss",
+      "prayer": "Kenyan communities facing concerns over a foreign quarantine facility planned in their region"
+    },
     {
       "wp_id": 5751,
       "wp_link": "https://globalwitnessmonitor.com/managua/",
