@@ -474,8 +474,9 @@ function gwmRenderRankings(countries, generatedAt) {
 function gwmUpdateHeaderStamp(generatedAt) {
   var el = document.getElementById('gwm-update-stamp');
   if (!el) return;
-  var d = generatedAt ? new Date(generatedAt) : new Date();
-  el.textContent = 'Updated ' + d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+  el.innerHTML = '<a href="https://globalwitnessmonitor.com/persecution-ranking-process/" ' +
+    'style="color:inherit;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.35);">' +
+    'How we calculate this &rarr;</a>';
 }
 
 // Static fallback ranking — top 50 only
