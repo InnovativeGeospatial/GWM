@@ -657,7 +657,10 @@ document.querySelectorAll('.gwm-nav a').forEach(function(link) {
   var now = new Date();
   var monthStart = new Date(now.getFullYear(), now.getMonth(), 1).toISOString();
   var lastStart = new Date(now.getFullYear(), now.getMonth() - 1, 1).toISOString();
-  var lastEnd = new Date(now.getFullYear(), now.getMonth(), 1).toISOString();
+  // Compare like-for-like: month-to-date vs the SAME day range last month,
+  // so the 1st of a month doesn't read as a ~100% drop against a full month.
+  var lastSamePoint = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate(),
+                               now.getHours(), now.getMinutes()).toISOString();
   var ago48 = new Date(now - 48 * 60 * 60 * 1000).toISOString();
 
   var thisMonth = null, lastMonth = null;
@@ -668,12 +671,12 @@ document.querySelectorAll('.gwm-nav a').forEach(function(link) {
     var diff = thisMonth - lastMonth;
     var pct = Math.round((diff / lastMonth) * 100);
     var arrow = diff >= 0 ? String.fromCharCode(8593) : String.fromCharCode(8595);
-    el.textContent = arrow + ' ' + Math.abs(pct) + '% vs last month';
+    el.textContent = arrow + ' ' + Math.abs(pct) + '% vs same point last month';
     el.className = 'gwm-stat-delta' + (diff < 0 ? ' neutral' : '');
   }
 
   countAll(WP + '&after=' + monthStart, function (n) { thisMonth = n; setText('gwm-stat-month', n); delta(); });
-  countAll(WP + '&after=' + lastStart + '&before=' + lastEnd, function (n) { lastMonth = n; delta(); });
+  countAll(WP + '&after=' + lastStart + '&before=' + lastSamePoint, function (n) { lastMonth = n; delta(); });
   countAll(WP + '&after=' + ago48, function (n) { setText('gwm-stat-48hr', n); });
 
   fetch(RANKINGS, { cache: 'no-store' })
