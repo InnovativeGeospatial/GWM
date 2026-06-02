@@ -204,7 +204,7 @@
     var counts = {1:0, 2:0, 3:0, 4:0};
     var rows = advisories.map(function (a) {
       counts[a.level] = (counts[a.level] || 0) + 1;
-      return {n: a.country, l: a.level, t: levelText[a.level] || "", g: levelGrade[a.level] || "low"};
+      return {n: a.country, l: a.level, t: levelText[a.level] || "", g: levelGrade[a.level] || "low", link: a.link || ""};
     });
     rows.sort(function (a, b) {
       if (b.l !== a.l) return b.l - a.l;
@@ -215,11 +215,11 @@
       var html = "";
       for (var i = 0; i < rows.length; i++) {
         var c = rows[i];
-        html += "<div class='c-row'><div class='c-rank'>" + (i + 1) + "</div>" +
+        html += "<a class='c-row' href='" + escHtml(c.link || '#') + "' target='_blank' rel='noopener' style='text-decoration:none;color:inherit;'><div class='c-rank'>" + (i + 1) + "</div>" +
                 "<div class='c-flag'>" + flagHTML(c.n) + "</div>" +
                 "<div class='c-info'><div class='c-name'>" + escHtml(c.n) + "</div>" +
                 "<div class='c-type'>Level " + c.l + ": " + c.t + "</div></div>" +
-                "<div class='c-score'><div class='c-score-val " + c.g + "'>" + c.l + "</div></div></div>";
+                "<div class='c-score'><div class='c-score-val " + c.g + "'>" + c.l + "</div></div></a>";
       }
       indexEl.innerHTML = html;
     }
