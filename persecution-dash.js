@@ -475,8 +475,8 @@ function gwmRenderRankings(countries, generatedAt) {
   var listEl = document.getElementById('gwm-rankings-list');
   var metaEl = document.getElementById('gwm-rankings-meta');
   if (!listEl) return;
-  var top50 = countries.slice(0, 50);
-  listEl.innerHTML = top50.map(function(c) {
+  var top200 = countries.slice(0, 200);
+  listEl.innerHTML = top200.map(function(c) {
     var cls = gwmTierClass(c.tier);
     var label = c.tier_label || '';
     var rankStr = c.rank < 10 ? '0' + c.rank : '' + c.rank;
@@ -621,7 +621,7 @@ function gwmLoadFeed() {
     })
     .catch(function(err) {
       console.warn('[persecution-dash] feed JSON failed, falling back to WP REST:', err);
-      fetch('https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=7&per_page=50&_fields=id,title,excerpt,link,date&orderby=date&order=desc')
+      fetch('https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=7&per_page=100&_fields=id,title,excerpt,link,date&orderby=date&order=desc')
         .then(function(r) { return r.json(); })
         .then(function(posts) {
           var events = posts.map(function(p) {
