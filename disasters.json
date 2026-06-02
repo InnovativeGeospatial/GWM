@@ -1,9 +1,128 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-01T12:19:49.254427+00:00",
-  "count": 336,
+  "updated": "2026-06-02T12:36:57.589365+00:00",
+  "count": 343,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5802,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states/",
+      "date": "2026-06-02T12:36:46",
+      "title": "Storm in United States",
+      "body": "A powerful hailstorm swept through Denver, Colorado, bringing hailstones as large as golf balls and causing widespread disruption across the area. The storm created hazardous conditions on roads and affected travel throughout the region.\n\nThe severe weather was part of a broader system of storm cells moving through northeastern Colorado. Officials have not yet released details on injuries or the full extent of property damage, but the scale of disruption suggests significant impact on the community.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 39.741681,
+      "lng": -104.986109,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/2/hailstorm-hits-denver-and-causes-widespread-disruption-2?traffic_source=rss",
+      "prayer": "Residents of Denver and northeastern Colorado affected by damaging hailstorm"
+    },
+    {
+      "wp_id": 5801,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-5/",
+      "date": "2026-06-02T12:36:27",
+      "title": "Disease in Congo",
+      "body": "A rare strain of Ebola known as Bundibugyo has killed nearly 250 people and infected more than 1,000 suspected cases in the Democratic Republic of Congo, with nine confirmed cases spreading into neighboring Uganda. This species has only been seen twice before, and no approved vaccine exists for it. Health officials warn the outbreak was not detected until after it had already spread through a conflict zone with limited healthcare, raising fears it could rival the devastating 2014–2016 West Africa outbreak that infected nearly 29,000 people and killed more than 11,000.\n\nThree research groups — IAVI, Moderna, and the University of Oxford — are now racing to develop vaccines against this Ebola strain. Oxford's candidate could reach clinical trials within two to three months, while IAVI's modified version may take seven to nine months. Moderna is applying the same mRNA technology used during the COVID-19 pandemic. Funding is being provided to all three teams, with health leaders stressing that every day matters in this race against a fast-moving disease.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cn8pw93929wo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities in DR Congo and Uganda facing a rapidly spreading Bundibugyo Ebola outbreak with no approved vaccine"
+    },
+    {
+      "wp_id": 5800,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya/",
+      "date": "2026-06-02T12:36:15",
+      "title": "Disease in Kenya",
+      "body": "Two people were shot dead in the central Kenyan town of Nanyuki during protests against a US plan to establish an Ebola isolation centre at a nearby military base. One person was shot close to Laikipia Airbase during a demonstration and was brought to the local hospital by friends, where he died. The other was brought in by soldiers, already dead. Officials have not publicly confirmed the deaths, and a police spokesman said he was unaware of any fatalities.\n\nHundreds had marched through Nanyuki on Monday, blocking roads and burning tyres, prompting police to fire tear gas. The proposed 50-bed facility would be staffed by US medical personnel and intended to treat US citizens affected by the ongoing Ebola outbreak in the Democratic Republic of Congo. Kenya has recorded no Ebola cases.\n\nA court has halted the centre's opening and later ordered the government to disclose details of the plan. Despite the order, military aircraft have continued flying in and out of the base.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Disease",
+      "lat": 0.022174,
+      "lng": 37.081802,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cvgz7zny3pzo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents of Nanyuki amid deadly protests over a proposed Ebola isolation centre"
+    },
+    {
+      "wp_id": 5799,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-31-2026-magnitude-5/",
+      "date": "2026-06-02T12:35:39",
+      "title": "Earthquake in Japan 05/31/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck deep beneath the Bonin Islands region of Japan on May 31. The earthquake occurred at a depth of about 508 kilometers, placing it well into the lower part of the earth's mantle far below the surface.\n\nEarthquakes at this depth are common in this part of the western Pacific, where one tectonic plate slides beneath another. Because the energy must travel such a great distance to reach the surface, deep earthquakes typically cause less shaking and damage than shallower ones of similar size.\n\nNo reports of damage or casualties were immediately available from this remote island region. Residents and those with connections to the area are encouraged to stay informed through local authorities.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 27.4636,
+      "lng": 139.8402,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spp3",
+      "prayer": "Communities near the Bonin Islands after a deep earthquake beneath the western Pacific"
+    },
+    {
+      "wp_id": 5798,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-el-salvador-06-01-2026-magnitude-5/",
+      "date": "2026-06-02T12:35:12",
+      "title": "Earthquake in El Salvador 06/01/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck offshore in the Pacific Ocean on June 1, about 111 kilometers southwest of Intipucá, in southern El Salvador. The quake occurred at a depth of roughly 35 kilometers beneath the seafloor.\n\nAt this magnitude and distance from shore, significant damage is unlikely, though residents in coastal communities may have felt light to moderate shaking. No reports of casualties or damage were included in available information.\n\nEl Salvador sits along the Pacific Ring of Fire and regularly experiences seismic activity. Coastal communities in this region are accustomed to earthquakes, but each event serves as a reminder of the ongoing vulnerability of people living in this seismically active part of Central America.",
+      "country": "El Salvador",
+      "countries": [
+        "El Salvador"
+      ],
+      "type": "Earthquake",
+      "lat": 13.197278,
+      "lng": -88.0541,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sput",
+      "prayer": "Communities near Intipucá, El Salvador, following an offshore earthquake"
+    },
+    {
+      "wp_id": 5797,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-02-2026-magnitude-5/",
+      "date": "2026-06-02T12:34:21",
+      "title": "Earthquake in New Zealand 06/02/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 30 kilometers west-northwest of Titahi Bay, New Zealand, on June 2, 2026. The quake occurred at a depth of roughly 67 kilometers beneath the surface.\n\nA small number of people reported feeling the shaking, though no damage or injuries have been described in available reports. The moderate depth of the earthquake likely reduced its impact at the surface compared to shallower events of similar size.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -41.108868,
+      "lng": 174.8367,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq0j",
+      "prayer": "Residents near Titahi Bay, New Zealand, following an offshore earthquake"
+    },
+    {
+      "wp_id": 5796,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-italy-06-01-2026-magnitude-6/",
+      "date": "2026-06-02T12:34:10",
+      "title": "Earthquake in Italy 06/01/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck about 22 kilometers west-southwest of Scarcelli, in southern Italy, on the evening of June 1, 2026. The quake originated at a depth of roughly 243 kilometers — an unusually deep tremor, which tends to spread shaking across a wide area but often causes less surface damage than shallower earthquakes of similar size.\n\nDozens of people reported feeling the shaking. Because of the great depth, the ground motion experienced at the surface was relatively moderate. No major damage or casualties have been reported in the source material at this time.\n\nResidents across the region were understandably startled. Authorities and local communities will be monitoring conditions in the hours following the event.",
+      "country": "Italy",
+      "countries": [
+        "Italy"
+      ],
+      "type": "Earthquake",
+      "lat": 38.20256,
+      "lng": 15.432037,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxm",
+      "prayer": "Residents near Scarcelli, Italy, shaken by a magnitude 6 earthquake"
+    },
     {
       "wp_id": 5737,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-brazil/",
