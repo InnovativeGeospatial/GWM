@@ -14,8 +14,11 @@ Also runnable standalone for testing:
 import os
 import re
 import json
+import time
 import base64
 import logging
+import unicodedata
+import concurrent.futures
 import requests
 from datetime import datetime, timezone
 
@@ -109,13 +112,108 @@ _ADVISORY_URL_OVERRIDES = {
     'Bosnia and Herzegovina': 'https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bosinia-and-herzegovina-travel-advisory.html',
 }
 
-def _advisory_link(name, feed_link):
+_BROWSER_UA = 'Mozilla/5.0 (compatible; GWM-ConflictPipeline/1.0)'
+_OLD_BASE   = 'https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/'
+_NEW_BASE   = 'https://travel.state.gov/en/international-travel/travel-advisories/'
+_LINK_CACHE = '/opt/conflict-pipeline/data/advisory_link_cache.json'
+_LINK_TTL   = 30 * 24 * 3600   # re-verify a country at most once per 30 days
+
+def _slugify(name):
+    s = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode('ascii').lower()
+    return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
+
+def _candidate_urls(name, feed_link):
+    """Ordered list of URLs to try for a country, best guess first."""
+    slug = _slugify(name)
+    cands = []
     ov = _ADVISORY_URL_OVERRIDES.get(name)
     if ov:
-        return ov
+        cands.append(ov)
     if feed_link:
-        return feed_link
+        cands.append(feed_link)
+    cands.append(_OLD_BASE + slug + '-travel-advisory.html')
+    cands.append(_OLD_BASE + slug + '-advisory.html')
+    cands.append(_NEW_BASE + slug + '.html')
+    seen, out = set(), []
+    for u in cands:
+        if u and u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+def _check(session, url):
+    """Return the final URL if it resolves to a live page (<400), else None."""
+    try:
+        r = session.head(url, allow_redirects=True, timeout=6)
+        if r.status_code == 405:          # some hosts reject HEAD
+            r = session.get(url, allow_redirects=True, timeout=8, stream=True)
+        if r.status_code < 400:
+            return r.url or url
+    except Exception:
+        pass
+    return None
+
+def _resolve_one(name, feed_link):
+    session = requests.Session()
+    session.headers.update({'User-Agent': _BROWSER_UA})
+    for u in _candidate_urls(name, feed_link):
+        final = _check(session, u)
+        if final:
+            return final
     return _ADVISORIES_INDEX
+
+def _load_link_cache():
+    try:
+        with open(_LINK_CACHE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def _save_link_cache(cache):
+    try:
+        os.makedirs(os.path.dirname(_LINK_CACHE), exist_ok=True)
+        with open(_LINK_CACHE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f)
+    except Exception as e:
+        log.warning('Link cache save failed: %s', e)
+
+def resolve_links(advisories):
+    """Set each advisory['link'] to a verified live URL. Cached 30 days so only
+    new/changed countries hit the network. Never returns a dead link."""
+    cache = _load_link_cache()
+    now = time.time()
+    to_check = []
+    for a in advisories:
+        c = cache.get(a['country'])
+        if c and c.get('url') and c.get('ts', 0) and (now - c['ts']) < _LINK_TTL:
+            a['link'] = c['url']
+            a.pop('_feed_link', None)
+        else:
+            to_check.append(a)
+
+    if to_check:
+        log.info('  verifying %d advisory links (live)', len(to_check))
+
+        def work(a):
+            url = _resolve_one(a['country'], a.get('_feed_link') or '')
+            if url == _ADVISORIES_INDEX:
+                prior = (cache.get(a['country']) or {}).get('url')
+                if prior and prior != _ADVISORIES_INDEX:
+                    url = prior            # keep last-known-good on a transient miss
+            a['link'] = url
+            a.pop('_feed_link', None)
+            return (a['country'], url)
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+            results = list(ex.map(work, to_check))
+
+        for country, url in results:
+            # Cache verified URLs for the full TTL; cache index-fallbacks with
+            # ts=0 so they're retried next run instead of sticking for 30 days.
+            cache[country] = {'url': url, 'ts': now if url != _ADVISORIES_INDEX else 0}
+        _save_link_cache(cache)
+
+    return advisories
 
 
 # ---------------------------------------------------------------------------
@@ -163,9 +261,12 @@ def fetch_advisories():
             'country':  country,
             'level':    level,
             'summary':  clean_summary,
-            'link':     _advisory_link(country, feed_link),
+            'link':     feed_link or _ADVISORIES_INDEX,
+            '_feed_link': feed_link,
             'pub_date': pub,
         })
+
+    resolve_links(advisories)
 
     # Stable sort: level desc, then country asc
     advisories.sort(key=lambda a: (-a['level'], a['country'].lower()))
