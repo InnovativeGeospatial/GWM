@@ -105,7 +105,9 @@ document.head.appendChild(mlStyle);
 var gwmTheme = document.createElement('style');
 gwmTheme.innerHTML =
   '#gwm-wrap{--crimson:#ff5a47;--amber:#ffa94d;--gold:#e8c07d;--text-dim:#ffffff;--text-muted:#ffffff;}' +
-  '#gwm-wrap .gwm-panel-header{padding:24px 18px 14px;}' +
+  '#gwm-wrap .gwm-left .gwm-panel-header{padding:38px 18px 14px;}' +
+  '#gwm-wrap .gwm-right .gwm-panel-header{padding:16px 18px 8px;}' +
+  '#gwm-wrap .gwm-sources{display:none !important;}' +
   '#gwm-wrap .gwm-stat-label{color:#fff !important;}' +
   '#gwm-wrap .gwm-stat-value{color:#fff !important;}' +
   '#gwm-wrap .gwm-stat-delta{color:#fff !important;}' +
