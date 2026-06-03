@@ -158,7 +158,18 @@
     "seychelles":"sc",
     "sint maarten":"sx",
     "turks and caicos islands":"tc",
-    "western sahara":"eh"
+    "western sahara":"eh",
+    "democratic republic of the congo":"cd",
+    "republic of the congo":"cg",
+    "cote d ivoire":"ci",
+    "kingdom of denmark":"dk",
+    "the bahamas":"bs",
+    "the gambia":"gm",
+    "cabo verde":"cv",
+    "federated states of micronesia":"fm",
+    "the kyrgyz republic":"kg",
+    "curaçao":"cw",
+    "mainland china, hong kong & macau":"cn"
   };
 
   function flagHTML(country) {
