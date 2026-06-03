@@ -169,7 +169,7 @@
   }
 
   function fetchEvents() {
-    return fetch(JSON_FEED_URL, { cache: 'no-store' })
+    return fetch(JSON_FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
         return r.json();
@@ -218,7 +218,7 @@
   }
 
   function loadAdvisories() {
-    fetch(ADVISORY_URL, { cache: 'no-store' })
+    fetch(ADVISORY_URL + '?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (payload) {
         renderAdvisories(payload.advisories || []);

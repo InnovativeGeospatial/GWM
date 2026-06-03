@@ -429,7 +429,7 @@ gwmMap.on('load', function() {
   gwmMap.on('mouseenter', 'incidents-dot', function() { gwmMap.getCanvas().style.cursor = 'pointer'; });
   gwmMap.on('mouseleave', 'incidents-dot', function() { gwmMap.getCanvas().style.cursor = ''; });
 
-  fetch(GWM_JSON_FEED_URL, { cache: 'no-store' })
+  fetch(GWM_JSON_FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function(r) { if (!r.ok) throw new Error('JSON HTTP ' + r.status); return r.json(); })
     .then(function(data) {
       if (!data || !Array.isArray(data.events)) throw new Error('JSON malformed');
@@ -558,7 +558,7 @@ var GWM_RANKINGS_FALLBACK = [
 ];
 
 function gwmLoadRankings() {
-  fetch(GWM_RANKINGS_URL, { cache: 'no-store' })
+  fetch(GWM_RANKINGS_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function(data) {
       if (!data || !Array.isArray(data.countries)) throw new Error('malformed');
@@ -613,7 +613,7 @@ function gwmRenderFeed(events, feedEl) {
 function gwmLoadFeed() {
   var feed = document.getElementById('gwm-live-feed');
   if (!feed) return;
-  fetch(GWM_JSON_FEED_URL, { cache: 'no-store' })
+  fetch(GWM_JSON_FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function(r) { if (!r.ok) throw new Error('JSON HTTP ' + r.status); return r.json(); })
     .then(function(data) {
       if (!data || !Array.isArray(data.events)) throw new Error('JSON malformed');
@@ -703,7 +703,7 @@ document.querySelectorAll('.gwm-nav a').forEach(function(link) {
   countAll(WP + '&after=' + lastStart + '&before=' + lastSamePoint, function (n) { lastMonth = n; delta(); });
   countAll(WP + '&after=' + ago48, function (n) { setText('gwm-stat-48hr', n); });
 
-  fetch(RANKINGS, { cache: 'no-store' })
+  fetch(RANKINGS + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (d) {
       var n = (d.countries || []).filter(function (c) { return c.tier === 1; }).length;
