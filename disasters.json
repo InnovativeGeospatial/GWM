@@ -1,9 +1,77 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-02T12:36:57.589365+00:00",
-  "count": 343,
+  "updated": "2026-06-03T05:01:29.345932+00:00",
+  "count": 347,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5833,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-6/",
+      "date": "2026-06-03T05:01:24",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in eastern Democratic Republic of Congo has prompted health authorities in Spain to cancel an international football match between DR Congo and Chile that had been planned for 9 June. Officials in La Linea de la Concepcion, a coastal city near Gibraltar, signed a decree blocking the fixture after recommendations from regional and local health services, calling it a \"precautionary measure.\"\n\nThe outbreak is caused by a rare strain of Ebola called Bundibugyo, for which no vaccine currently exists. The World Health Organisation has said a vaccine could take up to nine months to develop. DR Congo's players, who are based in Belgium, are not believed to have recently visited their home country, though some support staff and fans have traveled from there.\n\nThe United States has also responded by barring entry to non-Americans who have recently been in DR Congo, Uganda, or South Sudan.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/sport/football/articles/cm2pd28jnyxo?at_medium=RSS&at_campaign=rss",
+      "prayer": "People in eastern DR Congo amid a growing Ebola outbreak with no available vaccine"
+    },
+    {
+      "wp_id": 5832,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-06-02-2026-magnitude-5/",
+      "date": "2026-06-03T05:01:08",
+      "title": "Earthquake in Fiji 06/02/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 232 kilometers east of Levuka, Fiji, on June 2, 2026. The quake occurred at an exceptionally deep level — roughly 618 kilometers underground — which significantly reduces the energy felt at the surface.\n\nBecause of its great depth, shaking at ground level would have been minimal across the region, and the risk of significant damage or injury is generally low for earthquakes at this depth. No damage or casualties were reported in the available information.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -17.9822,
+      "lng": -178.4887,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sq2c",
+      "prayer": "Communities in Fiji following a deep earthquake east of Levuka"
+    },
+    {
+      "wp_id": 5831,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-united-states-05-30-2026-2/",
+      "date": "2026-06-03T05:00:47",
+      "title": "Other in United States 05/30/2026",
+      "body": "A meteorite event accompanied by a sonic boom was reported over eastern Massachusetts. The event was recorded at the surface with no underground depth, consistent with an atmospheric occurrence rather than a ground-based earthquake. Hundreds of people submitted reports describing what they felt or heard.\n\nSonic booms from space rocks entering the atmosphere can shake windows, rattle buildings, and feel much like an earthquake to those nearby. While such events are dramatic, they typically cause little or no structural damage on the ground.\n\nNo injuries or significant damage have been reported at this time based on available information. Residents across the region are encouraged to check on neighbors and report any unusual findings to local authorities.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 41.664238,
+      "lng": -70.083718,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spjy",
+      "prayer": "Residents of eastern Massachusetts startled by a meteorite and sonic boom event"
+    },
+    {
+      "wp_id": 5830,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-03-2026-magnitude-5/",
+      "date": "2026-06-03T05:00:35",
+      "title": "Earthquake in United States 06/03/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 6 kilometers west-northwest of Kahaluu-Keauhou on the Big Island of Hawaii. The quake occurred in the early morning hours and was centered roughly 34 kilometers below the surface.\n\nOver 700 people reported feeling the shaking. At that depth and magnitude, significant structural damage is unlikely, though residents in the immediate area may have felt a noticeable jolt. Hawaii sits in one of the most seismically active regions of the United States, and earthquakes of this size are not uncommon on the Big Island.\n\nNo tsunami warning was reported in connection with this event. Local residents and those serving in the area are encouraged to stay aware of any aftershocks.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 19.564436,
+      "lng": -155.96199,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74975297",
+      "prayer": "Residents near Kahaluu-Keauhou, Hawaii shaken by a moderate earthquake"
+    },
     {
       "wp_id": 5802,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states/",
