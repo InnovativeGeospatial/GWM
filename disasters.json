@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-03T17:02:36.448265+00:00",
-  "count": 350,
+  "updated": "2026-06-04T05:02:38.633948+00:00",
+  "count": 353,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5878,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-8/",
+      "date": "2026-06-04T05:02:33",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in the Democratic Republic of the Congo is showing early signs of progress, according to the head of the World Health Organization, who said response efforts are beginning to catch up with the disease. Health officials expressed cautious hope while acknowledging that serious obstacles remain.\n\nKey challenges include gaps in testing and disease tracking, the need for continued vaccine development, and difficulty building trust within affected communities. Without community trust, efforts to contain the outbreak and vaccinate people become much harder.\n\nThe situation remains serious, and health authorities are continuing their work across multiple fronts. The DRC has faced Ebola outbreaks before, and experience shows that consistent effort across testing, treatment, and community engagement is essential to bringing an outbreak under control.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167632",
+      "prayer": "People in the Democratic Republic of the Congo amid an ongoing and challenging Ebola outbreak"
+    },
+    {
+      "wp_id": 5877,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-03-2026-magnitude-5-3/",
+      "date": "2026-06-04T05:02:15",
+      "title": "Earthquake in United States 06/03/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 62 kilometers off the coast of Petrolia in northern California on June 3, 2026. The quake occurred at a shallow depth of about 10 kilometers, which tends to make shaking more noticeable at the surface.\n\nOver 120 people reported feeling the quake, with some describing moderate to strong shaking in the area. At this level, loose objects may shift or fall, and some people may find it difficult to stand. No major damage or injuries have been reported at this time, and the overall estimated impact is considered low.\n\nThe northern California coast sits in an active seismic zone, and earthquakes of this size are not uncommon in the region. Residents are encouraged to remain alert to any aftershocks in the days ahead.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 40.324326,
+      "lng": -124.28723,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370186",
+      "prayer": "Residents along the northern California coast shaken by an offshore earthquake"
+    },
+    {
+      "wp_id": 5876,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-06-04-2026-magnitude-5/",
+      "date": "2026-06-04T05:00:50",
+      "title": "Earthquake in Indonesia 06/04/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck about 88 kilometers west of Manokwari, in the West Papua region of Indonesia, on June 4, 2026. The quake occurred at a depth of roughly 38 kilometers beneath the surface.\n\nAt this magnitude and depth, significant damage is unlikely, though residents near the epicenter may have felt noticeable shaking. Indonesia sits along one of the world's most active seismic zones, and earthquakes in this region are common.\n\nNo damage or casualty reports have been issued based on available information. Residents and those working in the area are encouraged to stay alert to any updates from local authorities.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -0.86147,
+      "lng": 134.06201,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqh1",
+      "prayer": "Communities west of Manokwari, Indonesia, following a moderate earthquake"
+    },
     {
       "wp_id": 5859,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-7/",
