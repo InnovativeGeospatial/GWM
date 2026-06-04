@@ -1,9 +1,78 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-04T02:35:18.776236+00:00",
-  "count": 400,
+  "updated": "2026-06-04T05:05:45.201069+00:00",
+  "count": 405,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5887,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-6/",
+      "date": "2026-06-04T05:05:40",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Israel and Lebanon have agreed to a new ceasefire framework, announced by the US State Department. The agreement depends on a complete halt to attacks from Hezbollah and the withdrawal of the group's fighters from southern Lebanon, between the Litani River and the Israeli border. The two sides are set to meet again on June 22 to work toward a fuller agreement.\n\nThe announcement came after a fragile partial ceasefire agreed on Monday was quickly tested. Israeli strikes killed at least nine people in southern Lebanon on Wednesday, including two paramedics whose ambulance was hit in the Chehour area. Hezbollah fired rockets and a drone into northern Israel the same day.\n\nHezbollah has not publicly responded to the new ceasefire framework. A senior member of the group said it does not recognize the Washington talks and will not be bound by their outcomes. At least 3,516 people have been killed in Lebanon since the conflict began.",
+      "country": "Israel",
+      "countries": [
+        "Israel",
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.141733,
+      "lng": 34.314795,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Over 3,500 people killed in Lebanon, civilians caught between ongoing strikes and cross-border attacks"
+    },
+    {
+      "wp_id": 5885,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chehour-tyre-khaldeh/",
+      "date": "2026-06-04T05:05:13",
+      "title": "Armed Conflict in Chehour, Tyre, Khaldeh",
+      "body": "Israeli strikes hit locations across Lebanon on Wednesday, killing nine people and wounding others. Two medics died in the municipality of Chehour, six people were killed near the coastal city of Tyre, and a Lebanese soldier was killed while travelling on a road in the south. A strike in the Khaldeh area on the southern outskirts of Beirut injured two more people. Lebanese health officials said at least ten vehicles were struck, including an ambulance.\n\nA nominal ceasefire agreed in mid-April has failed to hold, with both sides accusing each other of violations. Israel says it will continue operations as long as Hezbollah remains armed; Lebanon insists on a full ceasefire. Hezbollah also launched rockets into northern Israel on Wednesday, which Israeli forces said they intercepted.\n\nIsraeli and Lebanese negotiators continued direct talks in Washington, now in their fourth round. The US Secretary of State expressed hope for a joint statement and action plan, while mediation efforts were also underway in Qatar. Civilians across Lebanon remain exposed to strikes with no clear front line.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.299328,
+      "lng": 35.369644,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/3/israeli-attacks-kill-nine-in-lebanon-reach-beirut-outskirts?traffic_source=rss",
+      "prayer": "Nine people killed and others wounded across Lebanon as strikes reach Beirut outskirts amid stalled ceasefire talks"
+    },
+    {
+      "wp_id": 5884,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-howl-wadaag-district-mogadishu/",
+      "date": "2026-06-04T05:04:59",
+      "title": "Civil Unrest in Howl Wadaag district, Mogadishu",
+      "body": "Heavy gunfire broke out in central Mogadishu after Somalia's former prime minister said government forces attacked his group ahead of planned protests. Witnesses heard RPG explosions and shooting lasting about 15 minutes in the Howl Wadaag district, near where the former official had relocated to join Thursday's demonstrations.\n\nThe violence is rooted in a political standoff over the presidency. Somalia's current president extended his term by one year after it expired on May 15, citing a newly passed constitution. Opposition figures and regional leaders reject the move as a power grab, and large protests were planned for Thursday. A former president also moved into central Mogadishu in solidarity with demonstrators.\n\nSomalia remains deeply unstable, with al-Shabab controlling much of the country and ongoing tensions between rival clans. U.S. and U.K. efforts to broker talks between the government and opposition have not succeeded. Civilians in Mogadishu neighborhoods were caught in the crossfire as the political crisis turned violent.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Civil Unrest",
+      "lat": 3.80979,
+      "lng": 43.24547,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/3/heavy-gunfire-erupts-in-mogadishu-amid-protests-against-presidents-rule?traffic_source=rss",
+      "prayer": "Residents of Mogadishu caught between political gunfire and planned street protests"
+    },
+    {
+      "wp_id": 5883,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-st-petersburg/",
+      "date": "2026-06-04T05:04:42",
+      "title": "Armed Conflict in St Petersburg",
+      "body": "Ukraine launched a series of air strikes near St Petersburg late Tuesday night, hitting an oil facility and a naval air base in the area. The attacks took place hours before international guests were set to arrive in the city for a major economic forum.\n\nNo details were given in the source about casualties or the extent of damage to either site.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/3/ukraine-attacks-st-petersburg-as-russia-hosts-its-own-davos?traffic_source=rss",
+      "prayer": "Civilians near St Petersburg caught in overnight strikes on oil and military facilities"
+    },
     {
       "wp_id": 5875,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-donetsk/",
@@ -186,6 +255,23 @@
       "prayer": "Teachers and schoolchildren in Borno State after a mass abduction from a learning institution"
     },
     {
+      "wp_id": 5864,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kuwait-airport/",
+      "date": "2026-06-03T17:04:48",
+      "title": "Armed Conflict in Kuwait International Airport",
+      "body": "Kuwait's government has described a drone attack on the country's international airport as \"heinous Iranian aggression.\" One person was killed and dozens were injured when drones struck a terminal, causing significant material damage.\n\nKuwait's defence ministry attributed the attack directly to Iran. The strike caused damage at the airport terminal, though the extent of disruption to flights and airport operations was not detailed in available reports.\n\nThe attack marks a serious escalation affecting civilian infrastructure. Travelers, airport staff, and families of those injured or killed are dealing with the immediate aftermath.",
+      "country": "Kuwait",
+      "countries": [
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": 29.340732,
+      "lng": 47.94571,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/3/kuwait-labels-iran-attack-heinous?traffic_source=rss",
+      "prayer": "Dozens injured and one killed in drone strike on Kuwait's international airport"
+    },
+    {
       "wp_id": 5862,
       "wp_link": "https://globalwitnessmonitor.com/sourton-devon/",
       "date": "2026-06-03T17:04:25",
@@ -326,7 +412,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ukraine-5/",
       "date": "2026-06-03T05:05:25",
       "title": "Armed Conflict in Ukraine",
-      "body": "Russia launched another large wave of missile and drone strikes across Ukraine this week, part of an ongoing pattern of escalation now entering its fifth year. The attacks followed a Ukrainian strike on a college dormitory in Starobilsk, in Russian-occupied eastern Ukraine, which Russian officials say killed 21 students.\n\nMore than four years of fighting have taken a heavy toll on both countries. Russia has faced significant battlefield losses, economic strain, a growing budget deficit, and recurring Ukrainian drone strikes reaching targets inside Russian territory, including the Moscow region. A large drone attack last month showed that air defenses around Moscow could be penetrated, and the annual Victory Day parade on Red Square in May was scaled back amid security concerns.\n\nDespite these pressures, Russia's leadership shows no sign of reducing military operations. Russian officials continue to demand that Ukraine hand over the entire Donbas region, and recent large-scale air raids on Ukrainian cities suggest the current trajectory is toward further escalation rather than negotiation.",
+      "body": "Children across Ukraine are growing up under the constant threat of air raid sirens, with many attending classes in underground shelters or learning online because it is too dangerous to be in regular school buildings. A UN child rights envoy has highlighted the deep psychological toll this ongoing war is placing on young people, who live with the daily fear that an alert could mean death for themselves or their families.\n\nThe strain extends beyond physical danger. Years of disrupted schooling and life under threat are leaving lasting marks on children's mental health and development. Many have known nothing but war as a backdrop to their childhood.\n\nThe situation means entire generations of Ukrainian children are growing up without the stability and safety that normal development requires, with no clear end in sight to the conditions driving their daily reality.",
       "country": "Ukraine",
       "countries": [
         "Ukraine"
@@ -334,9 +420,9 @@
       "type": "Armed Conflict",
       "lat": 49.322794,
       "lng": 31.320283,
-      "source_title": "BBC News",
-      "source_url": "https://www.bbc.com/news/articles/cy82339793go?at_medium=RSS&at_campaign=rss",
-      "prayer": "Civilians across Ukraine enduring continued large-scale missile and drone strikes"
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167641",
+      "prayer": "Children across Ukraine living under constant air raid sirens, sheltering in underground schools, and facing lasting psychological harm"
     },
     {
       "wp_id": 5846,
