@@ -1,9 +1,26 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-04T05:02:38.633948+00:00",
-  "count": 353,
+  "updated": "2026-06-04T17:02:30.382179+00:00",
+  "count": 354,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5888,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-06-04-2026-magnitude-5/",
+      "date": "2026-06-04T17:01:38",
+      "title": "Earthquake in China 06/04/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck about 57 kilometers north-northwest of Huocheng, in the Xinjiang region of northwestern China, on June 4, 2026. The quake occurred at a shallow depth of roughly 10 kilometers beneath the surface.\n\nShallow earthquakes tend to be felt more strongly at ground level than deeper ones. Only a small number of shaking reports have been submitted so far, and no details about damage or injuries have been confirmed at this time.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 44.05146,
+      "lng": 80.87848,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqlk",
+      "prayer": "Residents near Huocheng, China, following a shallow earthquake northwest of the city"
+    },
     {
       "wp_id": 5878,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-8/",
