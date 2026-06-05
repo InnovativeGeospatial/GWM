@@ -1,9 +1,94 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-04T17:02:30.382179+00:00",
-  "count": 354,
+  "updated": "2026-06-05T05:02:25.893918+00:00",
+  "count": 359,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5912,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-9/",
+      "date": "2026-06-05T05:02:21",
+      "title": "Disease in Congo",
+      "body": "The United Nations and its partners are working to contain Ebola outbreaks in both the Democratic Republic of the Congo and Uganda. Efforts are ongoing, but officials warn that progress is being slowed by insecurity in affected areas and the spread of misinformation among local populations.\n\nThese two challenges — violence that limits access for health workers and false information that undermines trust in the response — are described as major obstacles. The UN has indicated it is scaling up its response to address the growing threat.\n\nEbola is a serious and often fatal illness that spreads through direct contact with the blood or body fluids of infected people. Communities in both countries remain at risk as responders work to bring the outbreaks under control.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167655",
+      "prayer": "Communities in the DRC and Uganda facing ongoing Ebola outbreaks amid insecurity and misinformation"
+    },
+    {
+      "wp_id": 5911,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-2/",
+      "date": "2026-06-05T05:02:10",
+      "title": "Disease in Kenya",
+      "body": "Kenya's president defended his government's decision to allow the United States to construct an Ebola quarantine facility on a US air force base within the country. The facility is intended to house Americans who may have been exposed to the Ebola virus.\n\nThe announcement has triggered public protests, turning deadly this week when at least two people were killed during demonstrations against the project. The president stated that permitting the facility was the \"right thing\" to do, but the deaths have deepened tensions over the decision.\n\nEbola is a severe and often fatal disease spread through direct contact with the blood or body fluids of infected people. While no Ebola outbreak within Kenya has been reported in the source material, the planned facility has become a flashpoint for public fear and political unrest in the country.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Disease",
+      "lat": 0.529862,
+      "lng": 37.857882,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/4/clip-kenyan-president-ebola-facility?traffic_source=rss",
+      "prayer": "Kenyan communities divided over an Ebola quarantine facility amid deadly unrest"
+    },
+    {
+      "wp_id": 5910,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states/",
+      "date": "2026-06-05T05:01:59",
+      "title": "Disease in United States",
+      "body": "A flesh-eating parasite called the New World Screwworm has been detected in the United States for the first time since 1966. The first case was found in a three-week-old calf in La Pryor, Texas, roughly 30 miles from the Mexico border. Officials have set up a control zone around the site and are enforcing quarantines and movement restrictions in the area.\n\nScrewworm flies lay eggs in open wounds of living animals and people. When the eggs hatch, the larvae burrow through living flesh and can kill the host if untreated. While the threat to people is considered low, cattle ranchers fear a full outbreak could seriously disrupt beef markets.\n\nOfficials are releasing sterile screwworm flies to stop breeding, but current production falls far short of the estimated 600 million sterile flies needed each week. The parasite has been spreading northward through Central America and Mexico since 2022, with over 2,000 human cases reported in that period before reaching the US.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 28.941375,
+      "lng": -99.850075,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Cattle ranchers and communities in southern Texas facing a flesh-eating parasite outbreak"
+    },
+    {
+      "wp_id": 5909,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-06-04-2026-magnitude-5/",
+      "date": "2026-06-05T05:01:00",
+      "title": "Earthquake in Venezuela 06/04/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck about 32 kilometers west-southwest of El Tocuyo, Venezuela on the evening of June 4, 2026. The quake was shallow, occurring at a depth of roughly 10 kilometers, which can allow shaking to be felt more strongly at the surface.\n\nOnly a small number of felt reports have come in so far. No damage or injuries have been reported at this time, though the full picture of any local impact may not yet be known.",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Earthquake",
+      "lat": 9.787942,
+      "lng": -69.791565,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqrk",
+      "prayer": "Residents near El Tocuyo, Venezuela, shaken by a shallow earthquake"
+    },
+    {
+      "wp_id": 5908,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-04-2026-magnitude-4/",
+      "date": "2026-06-05T05:00:50",
+      "title": "Earthquake in United States 06/04/2026 — Magnitude 4",
+      "body": "A magnitude 3.8 earthquake struck about 11 kilometers northwest of Summerlin South, Nevada on the evening of June 4, 2026. The quake occurred at a shallow depth of about 7 kilometers, which tends to make shaking more noticeable at the surface.\n\nMore than 3,000 people reported feeling the earthquake. Shaking in the area reached a light-to-moderate level, enough for people indoors to notice movement and for objects to rattle or shift. Summerlin South is a residential community on the western edge of the Las Vegas metro area, meaning a large number of people were potentially affected.\n\nNo significant damage or injuries have been reported based on available information.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 36.153194,
+      "lng": -115.33119,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919749",
+      "prayer": "Residents near Las Vegas shaken by a shallow earthquake northwest of Summerlin South"
+    },
     {
       "wp_id": 5888,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-06-04-2026-magnitude-5/",
