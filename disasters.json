@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-05T05:02:25.893918+00:00",
-  "count": 359,
+  "updated": "2026-06-05T17:02:02.294858+00:00",
+  "count": 362,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5923,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10/",
+      "date": "2026-06-05T17:01:56",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in the Democratic Republic of Congo's northeastern Ituri Province has recorded 397 confirmed cases and 63 confirmed deaths, according to the African Union's health agency. The town of Mongbwalu is one of the hardest-hit areas. Health workers are battling not only the virus itself — a variant called Bundibugyo for which no vaccine currently exists — but also widespread disbelief and misinformation among residents.\n\nFalse rumors have spread quickly, including claims that coffins, aid vehicles, and outside workers were transmitting the disease. In late May, an angry crowd gathered at Mongbwalu's general hospital, setting fire to a tent belonging to Doctors Without Borders, forcing the organization to withdraw. Eighteen patients under observation disappeared during the unrest, raising fears that the virus spread further through communities sheltering them.\n\nResearchers studying the outbreak say disinformation patterns follow a familiar script seen in past health crises — blaming laboratories, aid agencies, or governments. Economic pressures among local miners are also reportedly discouraging open discussion of the epidemic.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.936693,
+      "lng": 30.045987,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/drc-how-disinformation-worsens-ebola-epidemic/a-77434273?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Communities in northeastern DR Congo amid a spreading Ebola outbreak complicated by fear and false rumors"
+    },
+    {
+      "wp_id": 5922,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-05-15-2025/",
+      "date": "2026-06-05T17:01:42",
+      "title": "Disease in Uganda 05/15/2025",
+      "body": "An Ebola outbreak that began in the Democratic Republic of the Congo on May 15 has spread to neighboring Uganda, where authorities reported three new cases on Friday, bringing Uganda's total to 19 cases and two deaths. The DRC has recorded at least 381 cases and 64 deaths. The outbreak involves the Bundibugyo strain of the virus, a rare form that health officials believe had been spreading undetected for some time. It is now larger than both previous recorded outbreaks of this strain, which occurred in 2007 and 2012.\n\nThe World Health Organization and the African Union's health agency announced a $518 million response plan covering emergency coordination, testing, patient care, and community outreach through November. No approved vaccine currently exists for the Bundibugyo strain, though three vaccines are being fast-tracked for trials.",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/5/who-africa-cdc-unveil-518m-ebola-plan-as-uganda-death-toll-rises?traffic_source=rss",
+      "prayer": "Communities in Uganda and DRC facing a spreading Ebola outbreak with rising deaths and no approved vaccine"
+    },
+    {
+      "wp_id": 5921,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-06-05-2026-magnitude-5/",
+      "date": "2026-06-05T17:00:40",
+      "title": "Earthquake in India 06/05/2026 — Magnitude 5",
+      "body": "A magnitude 4.9 earthquake struck about 37 kilometers west-southwest of Kyelang, a town in the Lahaul and Spiti district of northern India, on June 5, 2026. The quake occurred at a depth of roughly 22 kilometers beneath the surface.\n\nTwenty-three people submitted reports saying they felt the shaking, with some describing a strong level of motion. Kyelang sits in a remote, mountainous part of Himachal Pradesh near the Himalayan range, where earthquakes are not uncommon due to the region's active geology.\n\nNo damage or casualties have been reported from this event at this time.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Earthquake",
+      "lat": 32.581127,
+      "lng": 77.01456,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqxa",
+      "prayer": "Residents near Kyelang, India shaken by a moderate earthquake in the Himalayan region"
+    },
     {
       "wp_id": 5912,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-9/",
