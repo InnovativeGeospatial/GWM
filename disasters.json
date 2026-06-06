@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-06T05:02:22.245587+00:00",
-  "count": 363,
+  "updated": "2026-06-06T16:26:58.753683+00:00",
+  "count": 366,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5964,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-12/",
+      "date": "2026-06-06T16:26:54",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak is spreading in eastern Democratic Republic of the Congo, where health workers face not only the disease itself but also deep fear and hostility from local communities. In one village, health workers who arrived to safely bury a person who had died from Ebola were threatened and forced to leave, with residents warning that armed rebels would be called if they stayed.\n\nSafe burials are critical to stopping Ebola from spreading, since the virus can be transmitted through contact with the body of someone who has died from the disease. When health teams are turned away, the risk of further infections rises sharply.\n\nThe situation reflects a wider challenge in the region, where years of conflict and distrust make it difficult to reach people who need help and contain a disease that is both deadly and frightening.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167667",
+      "prayer": "Communities in eastern DR Congo caught between Ebola and fear of health workers"
+    },
+    {
+      "wp_id": 5963,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-05-23-2025/",
+      "date": "2026-06-06T16:26:41",
+      "title": "Disease in United States 05/23/2025",
+      "body": "A flesh-eating parasite known as the New World Screwworm has been found in cattle in southern Texas for the first time in 60 years. Two infected calves have been identified near the town of La Pryor, close to the Mexican border. The parasite — a fly whose larvae burrow through the living flesh of warm-blooded animals — can kill an animal if left untreated. Texas has declared a state of disaster, warning the outbreak poses an imminent threat to its agricultural industry.\n\nOfficials have set up a control zone around the affected area and put in place quarantines and movement restrictions. Canada has responded by banning livestock from Texas that may have recently crossed the border.\n\nTo slow the spread, authorities plan to release hundreds of millions of sterile flies and deploy detection dogs. The outbreak is part of a wider spread moving northward through Central America and Mexico. Experts warn the parasite is likely to continue spreading through the summer months.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 28.941375,
+      "lng": -99.850075,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cevpv3r7jmpo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Farmers and livestock across Texas facing the spread of flesh-eating screwworm for the first time in decades"
+    },
+    {
+      "wp_id": 5961,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-06-06-2026-magnitude-5/",
+      "date": "2026-06-06T16:25:50",
+      "title": "Earthquake in Tonga 06/06/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck in the ocean about 221 kilometers northeast of Neiafu, in the northern island group of Tonga. The quake was shallow, originating roughly 10 kilometers below the surface, which can cause stronger shaking to be felt at ground level.\n\nNeiafu is the main town of the Vava'u island group, a remote Pacific community where many residents rely on fishing and subsistence farming. Shallow earthquakes in this region are not uncommon, as Tonga sits along one of the most seismically active zones in the world.\n\nNo damage or injuries have been reported from this event at this time.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -17.5707,
+      "lng": -172.2247,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr3u",
+      "prayer": "Communities in Tonga's northern islands near a shallow earthquake in open waters"
+    },
     {
       "wp_id": 5949,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11/",
