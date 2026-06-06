@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-06T00:32:02.591999+00:00",
-  "count": 360,
+  "updated": "2026-06-06T05:02:22.245587+00:00",
+  "count": 363,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5949,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11/",
+      "date": "2026-06-06T05:02:16",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in the Democratic Republic of Congo has reached 397 confirmed cases and 63 confirmed deaths, centered in the small town of Mongbwalu in the northeastern Ituri province. This marks the 17th recorded Ebola epidemic in the country since the virus was first identified in 1976. The strain circulating now is the Bundibugyo variant, for which no vaccine currently exists.\n\nHealth workers face a serious obstacle: widespread distrust of the outbreak itself. Rumors have spread blaming coffins, aid workers' vehicles, and even a conspiracy between government officials for the deaths. In late May, an angry crowd set fire to a tent belonging to Doctors Without Borders, forcing the organization to withdraw. During the chaos, 18 patients under observation disappeared, raising fears the virus spread further.\n\nDisinformation circulating on WhatsApp and through word of mouth has discouraged people from seeking care or cooperating with health teams, making an already difficult response significantly harder.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.936693,
+      "lng": 30.045987,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/how-disinformation-in-congo-is-worsening-ebola-epidemic/a-77434273?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Communities in northeastern Congo amid a spreading Ebola outbreak fueled by fear and distrust"
+    },
+    {
+      "wp_id": 5948,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-06-05-2026-magnitude-5/",
+      "date": "2026-06-06T05:00:56",
+      "title": "Earthquake in Japan 06/05/2026 — Magnitude 5",
+      "body": "A magnitude 4.7 earthquake struck the Izu Islands region of Japan on June 5, 2026. The quake occurred at a shallow depth of about 10 kilometers beneath the surface.\n\nShallow earthquakes at this depth tend to be felt more strongly at the surface than deeper ones. The Izu Islands stretch south of Tokyo into the Pacific Ocean and are home to scattered island communities.\n\nNo damage or casualty reports were included in the available information at this time.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.117924,
+      "lng": 139.50984,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr0h",
+      "prayer": "Communities in the Izu Islands region of Japan following a shallow earthquake"
+    },
+    {
+      "wp_id": 5947,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-06-2026-magnitude-5/",
+      "date": "2026-06-06T05:00:46",
+      "title": "Earthquake in Papua New Guinea 06/06/2026 — Magnitude 5",
+      "body": "A magnitude 4.8 earthquake struck about 82 kilometers west of Ambunti in Papua New Guinea's Sepik region on June 6, 2026. The quake occurred at a depth of roughly 93 kilometers, which means the energy was absorbed through a significant amount of rock before reaching the surface.\n\nDeeper earthquakes like this one typically produce less shaking and damage at the surface compared to shallow quakes of the same size. No damage or casualty reports are available from the source material at this time.\n\nThe Sepik region is a remote, river-dependent area with many rural and isolated communities. Those living and serving in the area are encouraged to stay aware of any follow-up reports from local officials.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.218041,
+      "lng": 142.822534,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr20",
+      "prayer": "Communities near Ambunti, Papua New Guinea, after an earthquake struck the region"
+    },
     {
       "wp_id": 5923,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10/",
