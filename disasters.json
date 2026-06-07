@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-06T16:37:00.945357+00:00",
-  "count": 363,
+  "updated": "2026-06-07T05:02:00.357356+00:00",
+  "count": 366,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 5998,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-13/",
+      "date": "2026-06-07T05:01:47",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak centered in three provinces of eastern DR Congo has now reached 380 confirmed cases and 60 deaths inside the country, with 15 additional confirmed cases and one death in neighboring Uganda. Earlier counts suggested more than 1,000 suspected cases, but laboratories have since ruled out many patients who had fever from other causes such as malaria. The drop in numbers reflects better testing, not a less dangerous situation.\n\nHealth teams face serious obstacles. Only about 45% of people who came into contact with Ebola patients are being traced and monitored, far short of the 90% needed to control an outbreak. The affected area is largely rural, remote, and troubled by armed conflict. This week, a burial team was reportedly attacked in South Kivu province and forced to leave a body behind — raising fears of further spread.\n\nHealth officials warn that without stronger action, this outbreak — caused by a rare strain with no available vaccine — could grow as large as the devastating 2014–2016 West Africa crisis. Rebuilding community trust is seen as essential to stopping the disease.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c0q2q4y09elo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities in eastern DR Congo and Uganda amid a dangerous Ebola outbreak with limited contact tracing"
+    },
+    {
+      "wp_id": 5997,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-06-06-2026-magnitude-5/",
+      "date": "2026-06-07T05:01:14",
+      "title": "Earthquake in Timor Leste 06/06/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 22 kilometers east of Venilale, Timor-Leste on June 6, 2026. The quake was shallow, originating at a depth of approximately 10 kilometers beneath the surface.\n\nShallow earthquakes at this depth tend to produce stronger shaking at ground level than deeper quakes of the same magnitude. Venilale is a small town in the mountainous Baucau region of eastern Timor-Leste. The area has experienced seismic activity before, as the island sits along an active fault zone.\n\nNo casualty or damage information was available at the time of this report. Residents in surrounding communities may have felt the shaking, and conditions on the ground are still being assessed.",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -8.6648,
+      "lng": 126.5825,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr5i",
+      "prayer": "Communities near Venilale, Timor-Leste after a shallow earthquake"
+    },
+    {
+      "wp_id": 5996,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-06-07-2026-magnitude-5/",
+      "date": "2026-06-07T05:00:59",
+      "title": "Earthquake in Fiji 06/07/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck south of the Fiji Islands, originating at a depth of about 507 kilometers below the surface. At that extreme depth, seismic energy is largely absorbed before reaching the surface, greatly reducing the potential for shaking or damage at ground level.\n\nNo significant impacts have been reported in connection with this event. Deep earthquakes of this kind are common in the Fiji region, which sits within one of the most seismically active parts of the Pacific. The depth makes a tsunami or widespread surface damage unlikely.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr6c",
+      "prayer": "Communities in the Fiji Islands region following a deep earthquake to the south"
+    },
     {
       "wp_id": 5964,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-12/",
