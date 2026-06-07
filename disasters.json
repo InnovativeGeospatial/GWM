@@ -1,9 +1,26 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-07T05:02:00.357356+00:00",
-  "count": 366,
+  "updated": "2026-06-07T17:01:39.903992+00:00",
+  "count": 367,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6046,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-07-2026-magnitude-6/",
+      "date": "2026-06-07T17:00:45",
+      "title": "Earthquake in Russia 06/07/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake struck about 139 kilometers southeast of Severo-Kuril'sk, Russia, on June 7, 2026. The quake occurred at a shallow depth of roughly 10 kilometers beneath the seafloor in the Kuril Islands region of the North Pacific.\n\nShallow earthquakes like this one can produce stronger shaking at the surface than deeper events of similar size. No immediate reports of damage or casualties were available from the source material.\n\nThe Kuril Islands sit along one of the world's most seismically active zones, where the Pacific tectonic plate pushes beneath the Eurasian plate. Residents in this remote, sparsely populated island chain are accustomed to frequent seismic activity.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 49.8979,
+      "lng": 157.6645,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr8v",
+      "prayer": "Communities near Severo-Kuril'sk, Russia, after a shallow offshore earthquake"
+    },
     {
       "wp_id": 5998,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-13/",
