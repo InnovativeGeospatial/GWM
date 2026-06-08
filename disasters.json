@@ -1,9 +1,43 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-08T05:04:48.910333+00:00",
-  "count": 370,
+  "updated": "2026-06-08T17:04:12.278905+00:00",
+  "count": 372,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6078,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-08-2026-magnitude-5/",
+      "date": "2026-06-08T17:01:17",
+      "title": "Earthquake in Papua New Guinea 06/08/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 54 kilometers southeast of Angoram, Papua New Guinea, on June 8, 2026. The quake occurred at a depth of roughly 154 kilometers, placing it deep beneath the surface.\n\nBecause of its considerable depth, shaking at the surface was likely limited. No damage or casualties have been reported in the available information. Deep earthquakes typically cause less surface impact than shallow ones, though they can still be felt across a wide area.\n\nAngoram is a remote town in the East Sepik Province, an area where many communities have limited access to outside help. Residents in and around the region are encouraged to stay alert to any official guidance from local authorities.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.056291,
+      "lng": 144.072904,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srgy",
+      "prayer": "Communities southeast of Angoram, Papua New Guinea, following a moderate earthquake"
+    },
+    {
+      "wp_id": 6077,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-5/",
+      "date": "2026-06-08T17:01:01",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 19 kilometers south-southwest of Lumatil in the southern Philippines on June 8, 2026. The quake originated at a depth of roughly 46 kilometers beneath the surface.\n\nAt that depth, shaking is typically spread over a wider area but may be felt less intensely at the surface than shallower earthquakes of similar size. No damage or casualty reports were available from the source material. Residents in the region are accustomed to seismic activity, as the Philippines sits along one of the world's most active earthquake zones.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 5.871721,
+      "lng": 124.90781,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srh8",
+      "prayer": "Communities near Lumatil in the southern Philippines following a mid-sized earthquake"
+    },
     {
       "wp_id": 6062,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-06-07-2026-magnitude-5-2/",
