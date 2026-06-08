@@ -1,9 +1,60 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-07T17:01:39.903992+00:00",
-  "count": 367,
+  "updated": "2026-06-08T05:04:48.910333+00:00",
+  "count": 370,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6062,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-06-07-2026-magnitude-5-2/",
+      "date": "2026-06-08T05:02:10",
+      "title": "Earthquake in Fiji 06/07/2026 — Magnitude 5",
+      "body": "A magnitude 4.5 earthquake struck the Fiji region on June 7, 2026. The quake originated at an extraordinary depth of roughly 592 kilometers — far below the earth's surface — which typically reduces the shaking felt at ground level compared to shallower events.\n\nNo damage reports or casualties were mentioned in the available information. Deep earthquakes of this size in this part of the Pacific are not uncommon, as the Fiji region sits along active tectonic boundaries where plates push deep into the earth.\n\nResidents in nearby island communities may have felt light tremors, but the significant depth likely limited any serious impact on the surface.",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -20.7441,
+      "lng": -178.669,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srat",
+      "prayer": "People across the Fiji region following a deep earthquake beneath the islands"
+    },
+    {
+      "wp_id": 6061,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-italy-06-01-2026-magnitude-6-2/",
+      "date": "2026-06-08T05:00:56",
+      "title": "Earthquake in Italy 06/01/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck about 23 kilometers west-southwest of San Lucido, along the Calabrian coast of southern Italy, on the evening of June 1, 2026. The earthquake originated at an unusually deep point — roughly 243 kilometers underground — which significantly reduces the energy felt at the surface compared to a shallower quake of the same size.\n\nBecause of the great depth, widespread destructive shaking was unlikely, though residents across the region reported feeling the tremor. Deep earthquakes like this one can be felt across a wide area but typically cause less localized damage than shallow events. Authorities were monitoring the situation in the aftermath.",
+      "country": "Italy",
+      "countries": [
+        "Italy"
+      ],
+      "type": "Earthquake",
+      "lat": 39.307507,
+      "lng": 16.049892,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxm",
+      "prayer": "Residents near San Lucido, Italy, shaken by a deep magnitude 6 earthquake"
+    },
+    {
+      "wp_id": 6060,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-7/",
+      "date": "2026-06-08T05:00:39",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 7",
+      "body": "A magnitude 6.5 earthquake struck about 19 kilometers southwest of Balangonan in the southern Philippines on June 8, 2026. The quake was centered at a depth of roughly 66 kilometers underground, which tends to reduce shaking at the surface compared to shallower events.\n\nNo immediate reports of damage or casualties were available from the source material. The relatively deep focus of the earthquake may have limited its impact on communities in the area, though residents in the region likely felt the tremor.\n\nThe southern Philippines sits along an active seismic zone and experiences earthquakes regularly. Local authorities and communities will be monitoring conditions in the hours following the event.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 5.570214,
+      "lng": 125.35438,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcg",
+      "prayer": "Residents near Balangonan in the southern Philippines after a significant earthquake"
+    },
     {
       "wp_id": 6046,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-07-2026-magnitude-6/",
