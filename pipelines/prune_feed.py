@@ -199,6 +199,9 @@ def run(feed_name):
               + '. Aborting to avoid corruption.')
         return
 
+    # Keep the saved feed newest-first (descending by date)
+    kept.sort(key=lambda e: str(e.get('date', '')), reverse=True)
+
     data['events']  = kept
     data['count']   = len(kept)
     data['updated'] = datetime.now(timezone.utc).isoformat()
