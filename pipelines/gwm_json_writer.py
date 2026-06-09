@@ -5,7 +5,7 @@ gwm_json_writer.py v3 — Shared library for Global Witness Monitor pipelines.
 SPLITS storage between two GitHub repos:
 
   PUBLIC repo (e.g. InnovativeGeospatial/GWM):
-    /<feed>.json                        — active feed, last 500 events,
+    /<feed>.json                        — active feed, last 1000 events,
                                           sorted newest-first (drives dashboards)
 
   PRIVATE repo (e.g. InnovativeGeospatial/GWM-archive):
@@ -52,7 +52,7 @@ from datetime import datetime, timezone
 
 log = logging.getLogger(__name__)
 
-ACTIVE_LIMIT = 500
+ACTIVE_LIMIT = 1000
 
 _pending = {}
 _github_cache = {}
