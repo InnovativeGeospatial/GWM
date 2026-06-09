@@ -567,7 +567,12 @@ PRAYER field:
 - Focus on civilians affected, families of victims, or displaced people.
 - Do not assign blame or make political statements.
 
-Only respond with SKIP_NO_EVENT if the source is pure opinion, commentary, or an explainer with no factual event reported."""
+Respond with SKIP_NO_EVENT (and nothing else) if ANY of these apply:
+- The source is pure opinion, commentary, or an explainer with no factual event reported.
+- The piece is about an anniversary, commemoration, memorial, or remembrance of a past event.
+- The piece recounts a historical event rather than reporting something happening now (for example "years ago", "decades ago", "in 19XX", "on this day", "this week in history").
+- The only news hook is a planned or delivered speech, ceremony, statement, hearing, or announcement ABOUT a past event, rather than a new event on the ground.
+- The piece is about espionage, surveillance, intelligence, policy, diplomacy, or institutions, with no specific on-the-ground location where something physically happened."""
 
 
 CANONICAL_COUNTRY_MAP = None
@@ -1124,6 +1129,10 @@ def publish_to_wordpress(item, article_body, parsed=None):
     if status == "no_valid_country":
         log.warning("Skipping (Claude country %r not in registry): %s",
                     parsed.get("raw_country_line", ""), item['title'][:60])
+        return None, None, None, None, None, False
+
+    if not (parsed.get("location") or "").strip():
+        log.info("Skipping (no specific location named): %s", item['title'][:60])
         return None, None, None, None, None, False
 
     countries = parsed["countries"]
