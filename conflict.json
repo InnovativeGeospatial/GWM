@@ -1,9 +1,149 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-08T17:08:24.969418+00:00",
-  "count": 483,
+  "updated": "2026-06-09T05:07:54.833949+00:00",
+  "count": 491,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6116,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-israel-2/",
+      "date": "2026-06-09T05:07:49",
+      "title": "Armed Conflict in Israel",
+      "body": "For the first time in two months, Israel and Iran have exchanged missile strikes, breaking a ceasefire that had been holding since the start of a wider conflict now more than 100 days old. The United States had been involved in the conflict, and one official stated he urged Israel to hold off on the strikes before they occurred.\n\nThe resumption of strikes raises questions about how much influence the US has over Israel's military decisions at this stage of the conflict. The source does not detail where the missiles landed or report specific casualties.\n\nResidents in both countries face renewed uncertainty as the fragile pause in fighting has broken down.",
+      "country": "Israel",
+      "countries": [
+        "Israel",
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/videos/ckg8nke01g5o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Israel and Iran as missile strikes resume after a fragile two-month ceasefire"
+    },
+    {
+      "wp_id": 6115,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nairobi-national-park/",
+      "date": "2026-06-09T05:07:37",
+      "title": "Civil Unrest in Nairobi National Park",
+      "body": "Police in Nairobi broke up a protest near Nairobi National Park on Monday, detaining ten demonstrators — including a former chief justice — who were marching against development plans on protected land. The group had gathered to present a petition opposing a proposed 1,300-vehicle car park and other construction within the 117-square-kilometer wildlife sanctuary. Protesters were filmed sitting in the middle of a road before officers dispersed the crowd and loaded them onto a lorry.\n\nThe former chief justice was later released but refused to leave the police station until the remaining activists were freed. Police have not issued an official statement about the arrests. The Kenya Wildlife Service has defended its plans to build an expanded animal orphanage within the park, saying it will benefit animal welfare and visitor experience, and insisting the public was consulted. The agency has not addressed the car park allegation directly.\n\nAmnesty International, Greenpeace Africa, and several environmental groups jointly condemned the arrests, calling the police response a violent dispersal of peaceful assembly.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Civil Unrest",
+      "lat": -1.26404,
+      "lng": 36.81003,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cwyel0kv0zyo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Peaceful protesters and conservationists in Nairobi facing arrests over national park dispute"
+    },
+    {
+      "wp_id": 6113,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mahshahr/",
+      "date": "2026-06-09T05:07:10",
+      "title": "Armed Conflict in Mahshahr",
+      "body": "Iran and Israel have both announced a halt to strikes against each other following a fresh exchange of fire. Israel's prime minister said his country was holding fire \"at the moment\" but warned the struggle was \"not finished.\" Iran said it had stopped operations after delivering what it called a painful response, while threatening harsher action if Israel struck again, including in Lebanon.\n\nThe latest round of fighting included Israeli airstrikes on a petrochemical complex in Mahshahr, in southwestern Iran, where officials said 14 people were injured. Iran launched missiles toward Jerusalem and other parts of Israel. In Lebanon, an Israeli strike on Tyre killed five people and wounded eight, including four Red Cross rescuers.\n\nUS officials said a phone call between the US president and Israel's prime minister helped bring the strikes to a pause, with the US pressing both sides to stop while nuclear negotiations continue. The broader conflict, which began in late February, has drawn in Lebanon and disrupted regional shipping routes.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Israel",
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 30.564184,
+      "lng": 49.20471,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cj6ge150z5go?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Iran, Israel, and Lebanon caught in ongoing missile strikes and airstrikes as both sides warn of further escalation"
+    },
+    {
+      "wp_id": 6111,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tel-aviv/",
+      "date": "2026-06-09T05:06:44",
+      "title": "Armed Conflict in Tel Aviv",
+      "body": "A day of missile exchanges between Israel and Iran prompted both sides to announce a halt to strikes. Residents in Tel Aviv reacted with mixed feelings — some wanted a stronger response against Iran, while others felt their side had come out worse from the episode.\n\nThose expressing frustration pointed to disruptions to daily life, closed schools, and damage to tourism as signs that ordinary Israelis were bearing the real cost of the confrontation. The ceasing of strikes brought a pause to the immediate danger, but uncertainty remained among the population about what comes next.",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.08532,
+      "lng": 34.7819,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/we-basically-lost-tel-aviv-residents-react-after-israel-iran-strikes?traffic_source=rss",
+      "prayer": "Tel Aviv residents enduring missile exchanges and disruptions to daily life, schools, and tourism"
+    },
+    {
+      "wp_id": 6110,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nuseirat-refugee-camp/",
+      "date": "2026-06-09T05:06:31",
+      "title": "Armed Conflict in Nuseirat refugee camp",
+      "body": "Survivors from Nuseirat refugee camp in Gaza are speaking out about an Israeli military raid that took place in June 2024. The operation was aimed at freeing four captives held in the camp. At least 274 Palestinians were killed during the raid, which involved disguised forces and air strikes.\n\nWitnesses describe watching family members killed in front of them, with some residents saying they were threatened during the assault. The accounts were gathered two years after the events took place.\n\nThe raid remains one of the deadliest single incidents reported in Gaza during the ongoing conflict, and survivors continue to live with its impact.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/survivors-recall-israeli-raid-that-killed-274-in-gaza-refugee-camp?traffic_source=rss",
+      "prayer": "Families in Nuseirat refugee camp who lost loved ones in the June 2024 raid"
+    },
+    {
+      "wp_id": 6108,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-southern-and-eastern-lebanon/",
+      "date": "2026-06-09T05:06:08",
+      "title": "Armed Conflict in Lebanon",
+      "body": "Israeli officials say they have paused direct attacks on Iran but are continuing military operations in Lebanon. The country's prime minister stated that any future Iranian attacks would be met with a forceful response, while Lebanon-focused strikes press on.\n\nIsraeli officials say the Lebanon operations are aimed at Hezbollah targets, though strikes on populated areas continue to affect civilians throughout the country.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/aje-onl-nf_israel-continues-strikes-on-lebanon-halts-on-iran-080626?traffic_source=rss",
+      "prayer": "Lebanese civilians living under ongoing Israeli airstrikes targeting Hezbollah positions"
+    },
+    {
+      "wp_id": 6107,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-israel-2/",
+      "date": "2026-06-09T05:05:57",
+      "title": "Armed Conflict in northern Israel",
+      "body": "A serious flare-up between Israel and Iran began on Sunday when Israeli forces carried out a deadly bombardment of Beirut, Lebanon's capital. Iran responded with a wave of missiles aimed at northern Israel. Despite a U.S. request to hold back, Israel launched strikes early Monday on Iranian air defense systems and a petrochemical facility. Iran then hit a similar facility in the Israeli port city of Haifa and targeted two Israeli airbases. Many missiles were intercepted over the occupied West Bank. No deaths were reported on either side.\n\nThe exchanges strained a ceasefire that had paused major fighting since April. The U.S. president publicly called on both sides to stop and reportedly warned Israel's leader that continued attacks could leave Israel without American support.\n\nDiplomatic contacts are continuing through Pakistan as an intermediary. Iranian officials said they remain at the negotiating table, and Pakistan's prime minister called for restraint as talks move toward a possible agreement.",
+      "country": "Israel",
+      "countries": [
+        "Israel",
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.702307,
+      "lng": 35.318322,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/9/trump-warns-netanyahu-youll-be-on-your-own-if-attacks-on-iran-continue?traffic_source=rss",
+      "prayer": "Civilians in northern Israel and Lebanon caught in missile exchanges as fragile ceasefire fractures"
+    },
+    {
+      "wp_id": 6105,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tyre-6/",
+      "date": "2026-06-09T05:05:33",
+      "title": "Armed Conflict in Tyre",
+      "body": "Israeli strikes hit southern Lebanon on June 9, killing at least 12 people. The strikes were concentrated in and around the city of Tyre, where Israeli forces also issued forced displacement orders for several suburbs, pushing more residents to leave their homes.\n\nA journalist on the ground witnessed the strikes firsthand, describing a wave of attacks across the area. The displacement orders add to the pressure on civilians already living under an ongoing offensive in the south.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.273647,
+      "lng": 35.19531,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/aje-onl-nf_israel-strikes-lebanon-moments-before-on-air-090626?traffic_source=rss",
+      "prayer": "Twelve people killed and residents facing forced displacement orders in and around Tyre"
+    },
     {
       "wp_id": 6091,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-iran-3/",
@@ -27,7 +167,7 @@
       "wp_link": "https://globalwitnessmonitor.com/mindanao/",
       "date": "2026-06-08T17:08:07",
       "title": "Mindanao",
-      "body": "A magnitude-7.8 earthquake struck off the coast of Mindanao island in the southern Philippines on Monday morning, killing at least 32 people and injuring more than 100 others. Nearly two dozen people remain missing. The quake triggered tsunami alerts across the Philippines, Indonesia, Japan, and Australia, though several were later cancelled. Small waves were detected along coastlines in the region, reaching up to 1.4 meters in some locations.\n\nThe coastal province of Sarangani, near the epicentre, suffered the most deaths, with 17 people killed — many in landslides. Ten more died in the nearby city of General Santos. Buildings collapsed, power and communications were temporarily knocked out, and over 130 aftershocks followed the initial quake. Around 10,000 residents were evacuated as a precaution.\n\nThe national government has activated a disaster response, and classes in affected areas have been suspended. Casualty figures are still being verified and are expected to be updated in the coming days.",
+      "body": "A magnitude-7.8 earthquake struck off the coast of Mindanao island in the southern Philippines early Monday morning, killing at least 35 people and injuring more than 134 others. Around 10,000 families have been displaced. Buildings collapsed and landslides were recorded across affected areas. The quake coincided with the first day of the school year, and videos showed terrified children at schools during the shaking.\n\nThe hardest-hit area was the Soccsksargen region, which recorded 31 of the deaths. The remaining four fatalities were in Davao. Twelve people were reported missing. More than 130 aftershocks followed, including one measuring 6.7. The earthquake also triggered tsunami warnings across the Philippines, Indonesia, Japan, and Australia, though these were later cancelled or downgraded after small waves — the largest measuring 1.4 meters — were detected along nearby coastlines.\n\nMindanao is home to around 26 million people. Authorities are still verifying the full casualty count, and the national disaster agency is expected to release an official update in the coming days.",
       "country": "Philippines",
       "countries": [
         "Philippines"
@@ -37,7 +177,7 @@
       "lng": 123.34406,
       "source_title": "BBC News",
       "source_url": "https://www.bbc.com/news/articles/clyel78e6p5o?at_medium=RSS&at_campaign=rss",
-      "prayer": "Tens of thousands of residents in southern Philippines recovering from a deadly earthquake and landslides"
+      "prayer": "Tens of thousands of families in Mindanao displaced and mourning after a devastating earthquake"
     },
     {
       "wp_id": 6089,
