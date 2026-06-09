@@ -1,9 +1,94 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-08T17:04:12.278905+00:00",
-  "count": 372,
+  "updated": "2026-06-09T05:04:17.310147+00:00",
+  "count": 377,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6104,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines/",
+      "date": "2026-06-09T05:04:12",
+      "title": "Earthquake in Philippines",
+      "body": "A powerful earthquake struck the southern Philippine island of Mindanao on a Monday morning, coinciding with the first day of the school year. Millions of children had just returned to class after the summer break when the tremor hit.\n\nThe timing raised immediate concerns about the safety of students and school buildings across the region. Mindanao is no stranger to strong earthquakes, and communities were left to deal with the impact at a moment when schools and public spaces were unusually full.\n\nDetails on casualties and damage were not fully available from this report, though the quake was described as deadly. Families, teachers, and local officials in the affected areas were responding to the disaster as it unfolded on what was meant to be the hopeful start of a new school year.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.644251,
+      "lng": 123.34406,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167672",
+      "prayer": "Children and families across Mindanao shaken by a deadly earthquake on the first day of school"
+    },
+    {
+      "wp_id": 6103,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-05-15-2025/",
+      "date": "2026-06-09T05:03:45",
+      "title": "Disease in Congo 05/15/2025",
+      "body": "The Democratic Republic of the Congo is battling its 17th Ebola outbreak, with 550 confirmed cases and 101 deaths reported so far. The outbreak, caused by the Bundibugyo strain of Ebola — a rarer form for which no approved vaccine or treatment exists — was announced on May 15 but went undetected for weeks before that, leaving health workers struggling to catch up. Cases have spread across 25 health zones in three provinces: Ituri, North Kivu, and South Kivu.\n\nThe response has been severely hampered by armed groups in Ituri, limiting access to affected communities. A burial team was recently attacked at a cemetery in Bunia, seriously injuring two people. Mistrust among local populations has added further difficulty.\n\nThe outbreak has also reached neighboring Uganda, which has reported 19 cases and two deaths. Travel bans and border closures have been introduced by several countries, though health officials have urged authorities to reconsider blanket restrictions as ineffective.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/9/ebola-death-toll-in-dr-congo-climbs-to-101?traffic_source=rss",
+      "prayer": "Communities across eastern DR Congo amid a deadly Ebola outbreak with no approved vaccine or treatment"
+    },
+    {
+      "wp_id": 6102,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-honduras-06-08-2026/",
+      "date": "2026-06-09T05:02:44",
+      "title": "Storm in Honduras 06/08/2026",
+      "body": "Tropical Storm Cristina formed in the Atlantic and was active from June 8 to June 9, 2026. The storm reached maximum wind speeds of 74 km/h — below hurricane strength — and did not produce Category 1 winds of 120 km/h or higher in any affected area.\n\nThe storm is tracking toward Central America, with Honduras, El Salvador, Nicaragua, and Guatemala all identified as countries in its path. All four nations are considered highly vulnerable to tropical weather events.\n\nNo population has been reported as directly affected by damaging wind speeds at this time, though conditions can change quickly as a tropical storm moves over land. Residents in low-lying and coastal areas of these countries are encouraged to monitor local warnings closely.",
+      "country": "Honduras",
+      "countries": [
+        "Honduras"
+      ],
+      "type": "Storm",
+      "lat": 12.5,
+      "lng": -87.8,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001275",
+      "prayer": "Residents of Honduras, El Salvador, Nicaragua, and Guatemala as Tropical Storm Cristina approaches their vulnerable coastlines"
+    },
+    {
+      "wp_id": 6101,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-09-2026-magnitude-5/",
+      "date": "2026-06-09T05:01:24",
+      "title": "Earthquake in Philippines 06/09/2026 — Magnitude 5",
+      "body": "A magnitude 4.6 earthquake struck about 12 kilometers southwest of Burias in the southern Philippines on June 9, 2026. The quake originated at a depth of roughly 72 kilometers underground, which is considered a moderately deep earthquake. Greater depth generally means shaking is spread over a wider area but may feel less intense at the surface.\n\nNo damage or injury reports are available from the source at this time. Residents in the surrounding region may have felt the tremor. The Philippines sits within one of the world's most seismically active zones and experiences earthquakes regularly.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 11.450903,
+      "lng": 122.55266,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srn9",
+      "prayer": "Communities near Burias in the southern Philippines following an undersea earthquake"
+    },
+    {
+      "wp_id": 6100,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-cuba-06-08-2026-magnitude-6/",
+      "date": "2026-06-09T05:01:07",
+      "title": "Earthquake in Cuba 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck about 104 kilometers west-northwest of Mantua, in western Cuba, on June 8, 2026. The quake occurred at a depth of about 26 kilometers beneath the seafloor.\n\nMore than 5,400 people submitted reports saying they felt the shaking, with some describing it as strong. The tremor was felt across a wide area of western Cuba, though no details on damage or casualties were available from the source material.",
+      "country": "Cuba",
+      "countries": [
+        "Cuba"
+      ],
+      "type": "Earthquake",
+      "lat": 22.291368,
+      "lng": -84.28322,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx",
+      "prayer": "Residents of western Cuba shaken by a significant offshore earthquake"
+    },
     {
       "wp_id": 6078,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-08-2026-magnitude-5/",
