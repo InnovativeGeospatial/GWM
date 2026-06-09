@@ -128,7 +128,7 @@ def run(feed_name):
 
     # 2. Sort by date desc and print numbered list
     events_sorted = sorted(
-        events, key=lambda e: str(e.get('date', '')), reverse=True
+        events, key=lambda e: str(e.get('date', '')), reverse=False
     )
     print('\nCurrent events (' + str(len(events_sorted)) + ' total, newest first):\n')
     for i, e in enumerate(events_sorted, start=1):
