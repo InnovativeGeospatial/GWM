@@ -1,9 +1,63 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-10T05:03:31.261285+00:00",
-  "count": 381,
+  "updated": "2026-06-10T17:02:45.782067+00:00",
+  "count": 384,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6152,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-china/",
+      "date": "2026-06-10T17:02:40",
+      "title": "Other in China",
+      "body": "A fire at the Wang Fuk housing complex in Hong Kong last November killed 168 people — the deadliest the city had seen in over 70 years. The blaze also left thousands of residents without homes. Authorities have now laid 25 charges against two companies and seven individuals, including manslaughter, conspiracy to defraud, and corruption.\n\nAn independent investigation found that fire alarms in seven of eight residential blocks had been deactivated, and windows had been boarded up with flammable foam panels during ongoing renovation work. Investigators concluded that nearly all fire safety systems failed on the day of the fire due to human factors. Workers were also reported to have discarded lit cigarette butts across the site.\n\nThirty-five people have been arrested on manslaughter and fraud allegations. A separate anti-corruption body arrested 23 others, including consultants and contractors. The case has been adjourned to September for further investigation.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Other",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c04yldyezyeo?at_medium=RSS&at_campaign=rss",
+      "prayer": "168 families grieving losses in the Wang Fuk Court fire and thousands left homeless",
+      "alert_summary": "A fire at the Wang Fuk housing complex in Hong Kong killed 168 people and left thousands homeless last November."
+    },
+    {
+      "wp_id": 6151,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-10-2026-magnitude-6/",
+      "date": "2026-06-10T17:01:53",
+      "title": "Earthquake in Russia 06/10/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred about 33 kilometers east-southeast of Ol'ga, a coastal town in Russia's Far East. The quake struck at a depth of roughly 343 kilometers beneath the surface.\n\nAt that depth, seismic energy spreads out over a wide area before reaching the surface, which typically reduces the shaking felt by people above. No casualty figures or damage reports are included in the available information.\n\nResidents in the Ol'ga area and surrounding communities are encouraged to stay alert to any local updates from authorities.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 43.743057,
+      "lng": 135.28609,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss03",
+      "prayer": "Residents near Ol'ga, Russia, following a deep earthquake offshore",
+      "alert_summary": "Magnitude 6 earthquake struck about 33 km from Ol'ga, Russia, at a depth of 343 km."
+    },
+    {
+      "wp_id": 6150,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-10-2026-magnitude-5/",
+      "date": "2026-06-10T17:01:04",
+      "title": "Earthquake in United States 06/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck off the eastern coast of Hawaii's Big Island on June 10, centered about 23 kilometers east of Pāpa'ikou. The quake originated at a depth of roughly 39 kilometers.\n\nMore than 850 people submitted felt reports, indicating the shaking was noticed across a wide area. No casualty figures or damage reports were included in the available information.\n\nEarthquakes are common in Hawaii due to ongoing volcanic activity beneath the island chain. Residents in the area are accustomed to periodic seismic activity, though even moderate quakes can cause concern for those living and working nearby.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 19.782947,
+      "lng": -155.092457,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74978947",
+      "prayer": "Residents near Pāpa'ikou, Hawaii, shaken by an offshore earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck about 23 km east of Pāpa'ikou, Hawaii, at a depth of 39 km."
+    },
     {
       "wp_id": 6135,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-10-2026-magnitude-6/",
