@@ -1,9 +1,192 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-09T17:07:10.554283+00:00",
-  "count": 492,
+  "updated": "2026-06-10T05:08:24.096371+00:00",
+  "count": 500,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6149,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-fleurance/",
+      "date": "2026-06-10T05:08:19",
+      "title": "Civil Unrest in Fleurance",
+      "body": "An 11-year-old girl named Lyhanna was found dead at a farm near the town of Fleurance in south-west France after going missing for six days. A 41-year-old man — the father of one of her friends — was taken into custody three days after her disappearance. He has denied involvement but admitted driving her to a local swimming pool. Investigators have since learned the man had been named in multiple allegations of sexual abuse, including one filed nine months earlier by the mother of another young girl.\n\nThe case has sparked widespread anger because the suspect was never questioned in those nine months despite medical evidence supporting the earlier complaint. More than 60,000 people joined protests across France on Monday, many calling for the justice minister's resignation. Officials have acknowledged serious failures and ordered a review of around 70,000 unprocessed complaints involving sexual abuse of minors. Proposals to extend maximum sentences for serial rapists of children to life imprisonment are now moving through parliament.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Civil Unrest",
+      "lat": 43.84925,
+      "lng": 0.662928,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c4gyd1w3e20o?at_medium=RSS&at_campaign=rss",
+      "prayer": "French families and child abuse survivors amid grief over an 11-year-old girl's murder and failures to act",
+      "alert_summary": "More than 60,000 people protested across France after the murder of an 11-year-old girl whose alleged killer had been reported to police nine months earlier."
+    },
+    {
+      "wp_id": 6146,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tyre-7/",
+      "date": "2026-06-10T05:07:35",
+      "title": "Armed Conflict in Tyre",
+      "body": "Tyre, a southern Lebanese city that once had more than 100,000 residents plus around 10,000 displaced people from surrounding areas, is now largely empty following repeated Israeli evacuation orders and continuing strikes. Residents describe the city as a ghost town, with only a handful of shops still open and road access too dangerous for most supply deliveries.\n\nStrikes have continued despite a ceasefire between Iran and Israel, with Israel stating it is targeting the Lebanese militant group Hezbollah. Warnings before strikes are inconsistent — sometimes buildings not warned about are hit, and sometimes warned buildings are struck days later or not at all. A historic family home near a UNESCO world heritage site was destroyed without warning.\n\nIsrael has also issued evacuation orders for Nabatieh, another southern city. Reports indicate Israeli soldiers are operating beyond a self-declared security buffer zone, and statements from Israeli leadership point toward an intent to deepen territorial presence, leaving displaced residents uncertain about when or whether they can return.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.273647,
+      "lng": 35.19531,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/will-israel-s-troops-take-over-more-of-southern-lebanon/a-77478170?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Residents of Tyre and southern Lebanon displaced by ongoing strikes, uncertain if they can return home",
+      "alert_summary": "Ongoing Israeli drone and artillery strikes on Tyre have emptied a city that once held over 100,000 residents."
+    },
+    {
+      "wp_id": 6145,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan/",
+      "date": "2026-06-10T05:07:23",
+      "title": "Armed Conflict in Sudan",
+      "body": "Drone strikes on bridges, roads, and other civilian infrastructure across Sudan are blocking the delivery of humanitarian aid, the United Nations warned. The attacks are cutting off supply routes that aid organizations depend on to reach people in need.\n\nThe UN said the damage is putting civilians at further risk in a country already experiencing one of the world's most serious humanitarian crises. Aid workers are struggling to find alternate ways to reach affected communities.\n\nNo specific casualty figures were reported in connection with the infrastructure strikes, but the disruption leaves many people without access to food, medicine, and other essential supplies.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.831539,
+      "lng": 30.049948,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167688",
+      "prayer": "Civilians in Sudan cut off from aid as drone strikes destroy roads and bridges",
+      "alert_summary": "Drone attacks damaged bridges and roads in Sudan, disrupting humanitarian aid routes, the UN reported."
+    },
+    {
+      "wp_id": 6144,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-gaza/",
+      "date": "2026-06-10T05:06:40",
+      "title": "Displacement in Gaza",
+      "body": "Gaza's Health Ministry says more than 16,500 Palestinians requiring medical treatment abroad have been prevented from leaving the territory, despite a ceasefire nominally in place since October. Officials say delays are costing lives, as most of Gaza's healthcare infrastructure has been destroyed and cannot treat patients locally.\n\nThe Rafah crossing between Gaza and Egypt was partially reopened in February after nearly two years of closure, but has been temporarily shut several times since. Authorities say Israel allows medical evacuations only three days a week through Rafah and one day a week through the Karem Abu Salem crossing. Officials called on human rights organizations to pressure Israel to allow free movement of patients.\n\nThe UN Secretary-General on Tuesday called on Israel to reopen all crossings and allow humanitarian aid to enter without restriction. A joint UN and EU assessment found human development in Gaza had been set back 77 years, with more than $71 billion needed for recovery. Almost 90 percent of Gaza's population remains displaced, with most experiencing food insecurity.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Displacement",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/9/israel-preventing-more-than-16500-palestinians-from-accessing-medical-treatment?traffic_source=rss",
+      "prayer": "16,500 Palestinians in Gaza unable to reach medical treatment while healthcare infrastructure remains destroyed",
+      "alert_summary": "Gaza's Health Ministry says Israel is blocking 16,500 patients from leaving for medical care, with 73,000 killed since October 2023."
+    },
+    {
+      "wp_id": 6142,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-pakistan-administered-kashmir/",
+      "date": "2026-06-10T05:06:05",
+      "title": "Civil Unrest in Pakistan-administered Kashmir",
+      "body": "Protests have broken out in Pakistan-administered Kashmir over a rule that reserves legislative seats for refugees from India-administered Kashmir who live in Pakistan. Demonstrators say this arrangement gives those refugees outsized political influence in the region. The government has responded that changing the rule would require constitutional reform.\n\nThe protests are being led by a group called the Joint Awami Action Committee. Authorities have accused the group of stoking unrest. The dispute has roots in long-running political debates about representation and governance in the divided Kashmir region.\n\nAt least 11 people were killed in clashes between protesters and police. The deaths have raised concerns about whether tensions will continue to grow as the two sides remain at odds over the contested policy.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Civil Unrest",
+      "lat": 34.28446,
+      "lng": 71.827468,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/inside-story/2026/6/9/what-will-the-fallout-be-from-the-unrest-in-pakistan-administered-kashmir?traffic_source=rss",
+      "prayer": "At least 11 people killed and families affected by clashes in Pakistan-administered Kashmir",
+      "alert_summary": "Clashes between protesters and police killed at least 11 people in Pakistan-administered Kashmir."
+    },
+    {
+      "wp_id": 6141,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-western-afghanistan/",
+      "date": "2026-06-10T05:05:53",
+      "title": "Civil Unrest in western Afghanistan",
+      "body": "Authorities in western Afghanistan arrested and detained more than a dozen women for violating dress code rules. When residents gathered to protest the detentions, police opened fire on the crowd. Eyewitnesses reported at least three people were wounded.\n\nThe protest reflects ongoing tension between the population and authorities over enforcement of dress regulations for women. Those detained had reportedly been held for not complying with required dress standards.\n\nThe situation raises concern for civilians in the area, particularly women at risk of detention and those who gathered to speak out on their behalf.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/9/aje-onl-nf_afghan-authorities-open-fire-on-protesters-090626?traffic_source=rss",
+      "prayer": "Protesters wounded and women detained in western Afghanistan over dress code enforcement",
+      "alert_summary": "Police opened fire on protesters in western Afghanistan, injuring at least 3 people."
+    },
+    {
+      "wp_id": 6139,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belfast/",
+      "date": "2026-06-10T05:05:24",
+      "title": "Civil Unrest in Belfast",
+      "body": "Police in Northern Ireland arrested a 30-year-old Sudanese man on suspicion of attempted murder after a knife attack left a man in his 40s with wounds to his eyes, face, and back. Officials described the attack as a \"critical incident\" but said there were no indications of a terrorist motive. Bystanders intervened before police arrived.\n\nThe attack quickly drew calls from far-right figures for anti-immigration protests across the UK. Hundreds gathered in Belfast, where masked youth were seen in multiple locations and a bus was set alight. A few dozen protesters also blocked Parliament Square in London. Officials across Northern Ireland's political leadership urged calm and asked the public to avoid spreading misinformation.\n\nAuthorities noted the attack came roughly a year after a week of riots in Northern Ireland that followed an alleged assault involving migrants. Police said they did not want to see a repeat of that disorder, and political leaders called for facts to be established clearly before public tensions could escalate further.",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Civil Unrest",
+      "lat": 54.596441,
+      "lng": -5.930276,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/northern-ireland-police-urge-calm-after-sickening-belfast-stabbing/a-77479452?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Residents of Belfast amid a stabbing, protests, and fears of renewed unrest",
+      "alert_summary": "A knife attack left one man with serious wounds in Belfast, triggering anti-immigration protests and a bus set alight."
+    },
+    {
+      "wp_id": 6138,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-8/",
+      "date": "2026-06-10T05:05:10",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "Iran's Islamic Revolutionary Guard Corps launched drone attacks on a US naval base in Bahrain and an airbase in Kuwait, along with a long-range missile strike on an airbase in Jordan. The IRGC said it struck 21 US targets and destroyed four, including a fighter jet hangar in Jordan. It also claimed to have shot down a US drone over Iranian territory.\n\nThe strikes came after the US military attacked Qeshm Island and ports along Iran's coast following the downing of a US Apache helicopter. Jordan's military said it intercepted five missiles headed toward its airbase, with shrapnel falling but no injuries reported. Air raid alarms sounded in both Bahrain and Kuwait.\n\nThe exchange is part of a broader conflict that began in late February with US and Israeli strikes on Iran. Neither side is reported to want a return to full-scale war, and both are said to be open to negotiations, though trust between them has been described as diminishing.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Bahrain",
+        "Kuwait",
+        "Jordan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/10/iran-strikes-bahrain-and-jordan-in-retaliation-for-us-attacks-in-hormuz?traffic_source=rss",
+      "prayer": "Civilians in Bahrain, Kuwait, Jordan, and Iran caught in escalating strikes and missile exchanges",
+      "alert_summary": "Iran launched drone and missile strikes on US military bases in Bahrain, Kuwait, and Jordan, claiming 21 targets hit."
+    },
+    {
+      "wp_id": 6137,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-bolivia-2/",
+      "date": "2026-06-10T05:04:53",
+      "title": "Civil Unrest in Bolivia",
+      "body": "Bolivia's president has authorized the use of military force against protesters following weeks of unrest described as the country's worst economic crisis in 40 years. Roadblocks set up by demonstrators have brought movement across the nation to a standstill, cutting off communities and disrupting supply chains.\n\nAt least 10 people have been killed since the protests began. The decision to deploy the military marks a sharp escalation in the government's response to what had been largely civilian-led demonstrations.\n\nResidents in affected areas face disrupted access to goods and services due to the roadblocks. With military forces now authorized to act against protesters, the risk of further casualties remains a serious concern for communities across the country.",
+      "country": "Bolivia",
+      "countries": [
+        "Bolivia"
+      ],
+      "type": "Civil Unrest",
+      "lat": -16.970662,
+      "lng": -64.269605,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/bolivia-approves-military-measures-against-nationwide-protests?traffic_source=rss",
+      "prayer": "Bolivian civilians caught in nationwide protests and military crackdown, at least 10 killed",
+      "alert_summary": "Bolivia's president authorized military force against protesters after roadblocks paralyzed the country, killing at least 10 people."
+    },
+    {
+      "wp_id": 6136,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-west-bank-2/",
+      "date": "2026-06-10T05:04:40",
+      "title": "Civil Unrest in West Bank",
+      "body": "A United Nations report states that Israeli security forces routinely accompany settlers and act as a shield during attacks on Palestinians in the occupied West Bank. The report describes a pattern of security forces present during these incidents rather than intervening to stop them.\n\nIsraeli officials rejected the findings, saying the report relied on unsubstantiated allegations.\n\nThe report's conclusions raise ongoing concerns for Palestinian civilians living in West Bank communities, where such incidents affect daily movement and safety.",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/un-report-israeli-forces-shield-settlers-during-attacks-on-palestinians?traffic_source=rss",
+      "prayer": "Palestinians in the occupied West Bank facing settler attacks and security force presence",
+      "alert_summary": "A UN report says Israeli security forces routinely accompany settlers during attacks on Palestinians in the West Bank."
+    },
     {
       "wp_id": 6131,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-crimea/",
@@ -141,7 +324,6 @@
       "source_url": "https://www.bbc.com/news/articles/c3wypjz3n57o?at_medium=RSS&at_campaign=rss",
       "prayer": "Residents of Nanyuki and Laikipia county amid deadly protest violence over proposed Ebola facility"
     },
-   
     {
       "wp_id": 6115,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nairobi-national-park/",
@@ -8435,23 +8617,6 @@
       "source_title": "",
       "source_url": "",
       "prayer": "Civilians across Lebanon under a fragile ceasefire extension amid ongoing threats of renewed armed conflict"
-    },
-    {
-      "wp_id": 1896,
-      "wp_link": "https://globalwitnessmonitor.com/israel-26-april-2026-2/",
-      "date": "2026-04-27T23:53:57",
-      "title": "Israel 26 April 2026 #2",
-      "body": "<p>According to the International Crisis Group, Israeli military forces conducted strikes against Hezbollah targets in Lebanon on 26 April 2026, hitting what the IDF described as &#8220;terrorists and military infrastructure sites used to advance attacks&#8221; north of the forward defence line. Israel&#8217;s prime minister publicly stated that the IDF remains active in Lebanon &#8220;with force,&#8221; framing continued operations as necessary to counter what he characterized as Hezbollah violations that are &#8220;essentially disintegrating the ceasefire.&#8221; He outlined three categories of authorized military action: responding to attacks, thwarting immediate threats, and neutralizing emerging threats — actions he stated are conducted under rules agreed upon with the United States and Lebanon. The statements suggest ongoing Israeli military activity in southern Lebanon despite a nominal ceasefire framework remaining nominally in place.</p>\n<p>Mission Note: Field workers operating in southern Lebanon or near the forward defence line should treat the area as an active strike zone, with Israeli operations ongoing against Hezbollah infrastructure regardless of ceasefire designations.</p>",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians and field workers in Lebanon navigating ongoing Israeli military strikes amid a fragile ceasefire"
     }
   ]
 }
