@@ -1,9 +1,63 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-09T18:01:54.397701+00:00",
-  "count": 378,
+  "updated": "2026-06-10T05:03:31.261285+00:00",
+  "count": 381,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6135,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-10-2026-magnitude-6/",
+      "date": "2026-06-10T05:01:57",
+      "title": "Earthquake in New Zealand 06/10/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck near the Auckland Islands, a remote subantarctic island group south of New Zealand's South Island. The quake occurred at a shallow depth of about 14 kilometers beneath the seafloor.\n\nThe Auckland Islands are largely uninhabited, with no permanent human population. Because of this, the likelihood of casualties or structural damage is low. No reports of injuries, damage, or tsunami warnings were noted in available source material.\n\nThe remote location means impacts on communities are expected to be minimal, though the quake may have been felt on any vessels or research stations in the surrounding area.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -49.6197,
+      "lng": 164.0984,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srxn",
+      "prayer": "Auckland Islands region residents and communities following an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck near the Auckland Islands, New Zealand, at about 14 km depth."
+    },
+    {
+      "wp_id": 6134,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-06-10-2026-magnitude-5/",
+      "date": "2026-06-10T05:01:34",
+      "title": "Earthquake in Tonga 06/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred roughly 266 kilometers west-northwest of Houma, Tonga, on June 10, 2026. The quake originated at a depth of about 567 kilometers, placing it well within the deep interior of the earth beneath the ocean floor.\n\nEarthquakes at this depth are known as deep-focus events. Because the energy must travel such a great distance to the surface, shaking felt at ground level is typically much weaker than a shallower quake of the same size. No casualty figures, damage reports, or tsunami warnings were included in the available information.\n\nNo impact reports have been issued at this time.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -21.169119,
+      "lng": -175.30415,
+      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sryh",
+      "prayer": "Communities near Houma, Tonga, following a deep earthquake offshore",
+      "alert_summary": "Magnitude 5 earthquake struck about 266 km west-northwest of Houma, Tonga, at a depth of 567 km."
+    },
+    {
+      "wp_id": 6133,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-cuba-06-08-2026-magnitude-6-2/",
+      "date": "2026-06-10T05:01:17",
+      "title": "Earthquake in Cuba 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck in the ocean roughly 100 kilometers off the northwestern coast of Cuba near Mantua on June 8, 2026. The quake occurred at a depth of about 26 kilometers, which is shallow enough to be felt across a wide area on land.\n\nMore than 5,700 people submitted felt reports, indicating the shaking reached communities across the region. No casualty figures or damage details were included in the available source material.\n\nOfficials and residents in western Cuba will likely be assessing any structural impacts in the hours following the event. Those with family or ministry ties in this part of Cuba are encouraged to check in with contacts there.",
+      "country": "Cuba",
+      "countries": [
+        "Cuba"
+      ],
+      "type": "Earthquake",
+      "lat": 22.291368,
+      "lng": -84.28322,
+      "source_title": "USGS Significant Earthquakes, Past Week",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx",
+      "prayer": "Communities near Mantua, Cuba, shaken by an offshore earthquake",
+      "alert_summary": "A magnitude 6 earthquake struck about 100 km off the coast of Mantua, Cuba, at a depth of 26 km."
+    },
     {
       "wp_id": 6118,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-2/",
