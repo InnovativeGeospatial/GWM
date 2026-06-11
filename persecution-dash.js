@@ -592,7 +592,7 @@ function gwmRenderFeed(events, feedEl) {
     feedEl.innerHTML = '<div style="padding:20px;text-align:center;color:var(--text-muted);font-size:12px;">No reports yet.</div>';
     return;
   }
-  feedEl.innerHTML = events.slice(0, 195).map(function(e) {
+  feedEl.innerHTML = events.slice(0, 1000).map(function(e) {
     var title = gwmEscape(e.title || '');
     var excerpt = (e.body || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
     if (excerpt.length > 120) excerpt = excerpt.substring(0, 120) + '...';
