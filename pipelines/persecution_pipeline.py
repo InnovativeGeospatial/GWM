@@ -45,6 +45,34 @@ WP_APP_PASSWORD = os.getenv('WP_APP_PASSWORD')
 SEEN_FILE = '/opt/global-witness/seen_articles.json'
 FEED_NAME = 'persecution'
 
+def _gnews(query, freshness="when:7d"):
+    """Google News RSS search-feed URL. Used for both topic queries and
+    site: queries against persecution-watch orgs without reliable RSS.
+    Links are redirect shells -- the body fetchers resolve or fall back."""
+    return ("https://news.google.com/rss/search?q="
+            + requests.utils.quote(query + " " + freshness)
+            + "&hl=en-US&gl=US&ceid=US:en")
+
+# Topic + country-targeted persecution queries, plus site: queries for orgs
+# whose direct RSS is unreliable (avoids adding dead feeds). Edit freely.
+PERSECUTION_QUERIES = [
+    "Christian killed OR pastor OR church attack",
+    "Christian arrested OR detained faith OR convert",
+    "church burned OR attacked OR demolished",
+    "Christian blasphemy sentenced OR prison",
+    "Christian persecution convert killed",
+    "Nigeria Christians killed OR kidnapped",
+    "China church crackdown OR pastor detained",
+    "India Christians attacked OR pastor arrested",
+    "Pakistan blasphemy Christian",
+    "Iran Christian converts arrested",
+    "Egypt Copts OR Coptic attack",
+    "site:csw.org.uk",
+    "site:articleeighteen.com",
+    "site:releaseinternational.org",
+    "site:meconcern.org",
+]
+
 RSS_FEEDS = [
     'https://morningstarnews.org/feed/',
     'https://www.persecution.org/feed/',
@@ -57,12 +85,7 @@ RSS_FEEDS = [
     'https://cruxnow.com/feed/',
     'https://chinaaid.org/feed/',
     'https://www.copticsolidarity.org/feed/',
-    'https://news.google.com/rss/search?q=christian+killed+pastor+church&hl=en',
-    'https://news.google.com/rss/search?q=christian+arrested+detained+faith&hl=en',
-    'https://news.google.com/rss/search?q=church+burned+attacked+demolished&hl=en',
-    'https://news.google.com/rss/search?q=christian+blasphemy+sentenced+prison&hl=en',
-    'https://news.google.com/rss/search?q=christian+persecution+convert+killed&hl=en',
-]
+] + [_gnews(q) for q in PERSECUTION_QUERIES]
 
 MAINSTREAM_SOURCES = [
     'bbc', 'reuters', 'aljazeera', 'hrw', 'amnesty', 'dw',
@@ -385,10 +408,12 @@ def is_relevant(title, content, feed_url, feed_title):
 def fetch_full_content(url):
     try:
         r = requests.get(
-            url, timeout=8,
-            headers={'User-Agent': 'Mozilla/5.0 (compatible; GlobalWitnessMonitor/1.0)'}
+            url, timeout=12, allow_redirects=True,
+            headers={'User-Agent': ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                                    'AppleWebKit/605.1.15 (KHTML, like Gecko) '
+                                    'Version/17.0 Safari/605.1.15')}
         )
-        if r.status_code == 200:
+        if r.status_code == 200 and 'news.google.com' not in (r.url or url):
             text = re.sub(r'<script[^>]*>.*?</script>', '', r.text, flags=re.DOTALL)
             text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
             text = re.sub(r'<[^>]+>', ' ', text)
@@ -433,7 +458,7 @@ def fetch_articles(seen):
         try:
             feed = feedparser.parse(feed_url)
             feed_title = feed.feed.get('title', feed_url)
-            for entry in feed.entries[:20]:
+            for entry in feed.entries[:40]:
                 stats['fetched'] += 1
                 title = entry.get('title', '').strip()
                 summary = entry.get('summary', '')
@@ -562,10 +587,12 @@ def judge_article(article):
 def fetch_full_article(url):
     try:
         r = requests.get(
-            url, timeout=10,
-            headers={'User-Agent': 'Mozilla/5.0 (compatible; GlobalWitnessMonitor/1.0)'}
+            url, timeout=15, allow_redirects=True,
+            headers={'User-Agent': ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                                    'AppleWebKit/605.1.15 (KHTML, like Gecko) '
+                                    'Version/17.0 Safari/605.1.15')}
         )
-        if r.status_code == 200:
+        if r.status_code == 200 and 'news.google.com' not in (r.url or url):
             text = re.sub(r'<script[^>]*>.*?</script>', '', r.text, flags=re.DOTALL)
             text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
             text = re.sub(r'<[^>]+>', ' ', text)
