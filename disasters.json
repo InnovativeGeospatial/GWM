@@ -1,9 +1,225 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-10T17:02:45.782067+00:00",
-  "count": 384,
+  "updated": "2026-06-11T03:37:02.565956+00:00",
+  "count": 396,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6181,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-indonesia/",
+      "date": "2026-06-11T03:35:55",
+      "title": "Flood in Indonesia",
+      "body": "Flooding in Indonesia has forced hundreds of residents to evacuate their homes, with many houses reported submerged under rising waters. The scale of displacement points to widespread impact across affected communities.\n\nEvacuees have been moved to safer locations as floodwaters inundated residential areas. The number of homes affected underscores the disruption to daily life for those in the region.\n\nNo figures on deaths or injuries were included in available reports. Conditions for displaced families remain difficult as residents wait for waters to recede and for the chance to return home.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Flood",
+      "lat": -6.175554,
+      "lng": 106.827216,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0Y5Wm9PZTlFWWZkekpjRVFuQVlsUEYzenFGdGRRUzZDWjJ0MXdFY3dSUmNERTJRUDVZbDVIVjhoNkc0eVdEdnNjdmlXdy1VeVB4MEVuQnNYODM1QWdWY1NtVmxjOEFBTjlVZ1F3akZDSmFwX3diUXMySFByUUJoV0E4UmdxU0xzUXM4?oc=5",
+      "prayer": "Hundreds of evacuated residents in Indonesia with homes submerged by floodwaters",
+      "alert_summary": "Flooding in Indonesia forced hundreds to evacuate as many houses were submerged; no casualty figure reported."
+    },
+    {
+      "wp_id": 6180,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-3/",
+      "date": "2026-06-11T03:35:37",
+      "title": "Earthquake in Philippines",
+      "body": "An earthquake struck the Philippines, killing at least 37 people and forcing approximately 32,000 residents from their homes. The scale of displacement points to widespread damage across affected communities.\n\nFamilies who lost homes or found them unsafe are among those now sheltering away from their normal lives. Recovery efforts are underway as officials and rescue teams work to reach those affected and assess the full extent of the damage.\n\nThe Philippines sits along one of the world's most seismically active zones and experiences earthquakes regularly. Communities in the affected area face the immediate challenges of finding shelter, reuniting families, and beginning the long process of rebuilding.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVFN1ZXJtVVdNems5cnlVOWRFRW5jQzJSSkY5cTJuMXNSX0JiZGlRSERzQjlHcEFoeTlNWUlsTnNBZUY4dmJOcjlTZ1pIbk9UWHBBMDVHamtldElKTDNVSjR0ZFFlbzE4a2ZIZVBiZXNwLUVBVWZTNnVhZ3FQdUFySEJsODlWXzRlSm9pNC0yMWppa3Vnc2Z3MG13V2FfaU1KWnlSemlDSFl0bmlOMDdZQTV3R2JUZXVaaFlV?oc=5",
+      "prayer": "Thousands of Filipino families displaced and grieving after an earthquake killed at least 37",
+      "alert_summary": "An earthquake in the Philippines killed at least 37 people and displaced about 32,000 residents."
+    },
+    {
+      "wp_id": 6179,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india/",
+      "date": "2026-06-11T03:34:31",
+      "title": "Flood in India",
+      "body": "Floodwaters across the state of Assam in northeastern India have now claimed at least 66 lives, according to officials. The death toll reflects ongoing flood conditions that have affected communities throughout the region.\n\nAssam experiences flooding regularly during the monsoon season, but the cumulative loss of life reported points to widespread impact across multiple areas of the state. Residents in affected communities have faced displacement and damage as waters have risen.\n\nNo specific figure for displaced or evacuated persons was included in the available report, but the scale of deaths suggests many communities remain under pressure. Aid efforts and local response are likely ongoing as the situation develops.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVh5eGNCa3ZkSlEtUTFxaDlQcDhWbEpZMXZmUkRjcGt0STk2Ykx1NnN6ZVdTcnFvN3hfWmhQYmwzc3lOYU53T19XeTBlc05OTmRHZk9ySXV4NXNUc01rTlBOLWVDQms3YzRjVUF2bFE4MnA3UEY5TENDSkRQdnJ5YldR?oc=5",
+      "prayer": "Families across Assam grieving flood losses and communities still facing rising waters",
+      "alert_summary": "Flooding in Assam, India has killed at least 66 people as conditions continue."
+    },
+    {
+      "wp_id": 6178,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-2/",
+      "date": "2026-06-11T03:34:19",
+      "title": "Flood in China",
+      "body": "Heavy rainfall brought flooding to Chongqing, a large city in southwestern China, forcing residents to leave their homes and move to safer ground. Local authorities carried out evacuations in response to the rising water.\n\nNo figures on casualties, injuries, or the number of people displaced have been reported at this time. The full extent of damage to homes and infrastructure is not yet known.\n\nChongqing sits at the junction of two major rivers and is no stranger to seasonal flooding, particularly during the summer months when heavy rain is common across the region.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 29.565673,
+      "lng": 106.547919,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYzBTejRSRlh6NkkydDMwLXNUQk5CeDNyVGRNd2Zpa05Td0l3NzFCYkdHM29ETmY2dXJseFhJZGhoQmlleHhHLXUxWGNvckZ4ZTVRMGlNdXBoRTdFUm5OU09YVl9IM1ZDaFM2VEZDRWZEejlQZGZMOFl1eTBDNEtYcWNJeHYyRnlDVkRpa18walgtQ2pSWjJ3blRDLUZfak5qNkpPQ3ZxTGJtbHNWLWNIZlZ5VmRtQQ?oc=5",
+      "prayer": "Residents of Chongqing displaced by flooding after heavy downpours",
+      "alert_summary": "Flooding triggered by heavy downpours struck Chongqing, China, forcing residents to evacuate; no casualty figure reported."
+    },
+    {
+      "wp_id": 6177,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada/",
+      "date": "2026-06-11T03:33:35",
+      "title": "Flood in Canada",
+      "body": "Flooding caused by a storm struck the community of Grosse Isle, forcing residents to evacuate by boat. One resident described the situation as surreal, saying it was difficult to process that leaving home by boat had become necessary.\n\nNo casualty figures were included in the available report, but the flooding was significant enough to make roads or normal exit routes impassable, requiring water-based rescue or evacuation for those in the affected area.\n\nGrosse Isle is a rural municipality in Manitoba, Canada. Residents in low-lying areas near waterways are among the most at risk when storm systems bring heavy rainfall or rapid water rises to the region.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Flood",
+      "lat": 47.033333,
+      "lng": -70.666667,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQTlqRjFQVzhYWTVwdDlnQ1RwQUZ1R0NrLTh2bVhYdi1iM09BQk1GWjdMWXNwaGxRanMtOXZIN3Fvb1lGU2xpYjE3VGtqLVhvSEtVT3ZJN3pENXdrVkFtQ2ZlMnpfZmZzaFVxTnFFVVlHaFg0TEhYeHVYaEpkZFdYZU9remJfUnln?oc=5",
+      "prayer": "Grosse Isle residents evacuated by boat after storm-driven flooding",
+      "alert_summary": "Storm-driven flooding struck Grosse Isle, forcing at least one resident to evacuate by boat."
+    },
+    {
+      "wp_id": 6176,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states/",
+      "date": "2026-06-11T03:33:14",
+      "title": "Flood in United States",
+      "body": "Flash flooding hit Robertson County, prompting the evacuation of a church camp in the area. The flooding came on quickly, as flash floods typically do, leaving little time for those at the camp to respond before officials moved them to safety.\n\nNo information was provided about injuries, deaths, or the number of people evacuated. The extent of damage to the camp or surrounding area was also not reported in the available source material.\n\nRobertson County is in Tennessee. Those serving or traveling in the region should be aware that flash flooding has recently affected the area.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 38.53175,
+      "lng": -84.03722,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXJiSkV6b3dRY0o2bUphZ0g0NGhsQWxRWlZOMHFUamdxcWZGREk5MHRZcm1PaVB4bk5IMURwZ3pUbmZGUGNjTlU0N2NfNnE2YkZ3TUtaUmdlS3k5dlV2emliUjdieGhfa2VIYmdVcEFNQmZyaUpsOC1aQXFHb3RmbnJoaHI4Yy1udFVvUnpmZGtLc1pxMWxBMw?oc=5",
+      "prayer": "Church camp attendees in Robertson County displaced by sudden flash flooding",
+      "alert_summary": "Flash flooding struck Robertson County, forcing evacuation of a church camp; no casualty figure reported."
+    },
+    {
+      "wp_id": 6175,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-tanzania/",
+      "date": "2026-06-11T03:33:04",
+      "title": "Drought in Tanzania",
+      "body": "Between September 2021 and January 2022, prolonged drought killed at least 306,358 cattle, goats, sheep, and donkeys across Tanzania. In Simanjiro district alone, more than 92,000 animals were lost, stripping many Maasai families of their primary source of food and income.\n\nIn response, Maasai women in the Monduli and Longido districts have organized fodder farms across about 75 hectares of community land, growing drought-resistant grasses that stay green longer than natural pasture. Around 250 women directly manage these farms, while thousands of herding families buy the feed during dry seasons.\n\nThe effort, coordinated by the Pastoral Women's Council, now includes 10 grass seed banks across eight villages. In 2025, one seed bank alone earned roughly $2,500 from seed sales and sold over 1,100 hay bales. What began as a way to keep animals alive through dry spells has grown into a steady source of income for many households across the region.",
+      "country": "Tanzania",
+      "countries": [
+        "Tanzania"
+      ],
+      "type": "Drought",
+      "lat": -6.270353,
+      "lng": 34.823454,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/economy/2026/6/11/maasai-women-turn-drought-into-income-through-fodder-farming-in-tanzania?traffic_source=rss",
+      "prayer": "Maasai pastoral communities in northern Tanzania where drought has destroyed livestock and livelihoods",
+      "alert_summary": "Prolonged drought killed at least 306,358 livestock across Tanzania between September 2021 and January 2022."
+    },
+    {
+      "wp_id": 6174,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-06-07-2026-magnitude-5/",
+      "date": "2026-06-11T03:31:35",
+      "title": "Earthquake in Timor Leste 06/07/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred in the waters northeast of Lospalos, Timor-Leste. The event was recorded approximately 196 kilometers offshore from that coastal town.\n\nNo details about damage, injuries, or displacement were included in the available report. Because the epicenter was located well out to sea, the direct impact on populated areas may have been limited, though communities along this stretch of coastline are no strangers to seismic activity in the region.\n\nResidents in and around Lospalos and nearby coastal areas should stay attentive to any follow-up information from local authorities.",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.4742,
+      "lng": 128.439,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr64",
+      "prayer": "Communities in Timor-Leste near a magnitude 5 offshore earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck 196 km northeast of Lospalos, Timor-Leste; no casualty figure reported."
+    },
+    {
+      "wp_id": 6173,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-10-2026-magnitude-6-2/",
+      "date": "2026-06-11T03:29:35",
+      "title": "Earthquake in New Zealand 06/10/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred in the Auckland Islands region, a remote area south of New Zealand's South Island in the Southern Ocean. The Auckland Islands are uninhabited nature reserves, with no permanent human population in the affected area.\n\nBecause of the isolated location, no casualties or damage to structures have been reported. Earthquakes in this part of the world are relatively common due to tectonic activity along the boundary between the Pacific and Australian plates.\n\nNo tsunami warning or wider impact has been reported from this event.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -49.6197,
+      "lng": 164.0984,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srxn",
+      "prayer": "Remote Auckland Islands region of New Zealand after an offshore earthquake",
+      "alert_summary": "A magnitude 6 earthquake struck the Auckland Islands region of New Zealand."
+    },
+    {
+      "wp_id": 6172,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-06-10-2026-magnitude-5-2/",
+      "date": "2026-06-11T03:28:55",
+      "title": "Earthquake in Tonga 06/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 176 kilometers east-southeast of Neiafu, in the island nation of Tonga. No details about damage, injuries, or displacement were included in the available report.\n\nTonga sits along one of the world's most seismically active zones, and earthquakes in this region are common. Because this event occurred well offshore, its impact on nearby communities is not yet known from this source.",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.651457,
+      "lng": -173.98355,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss4s",
+      "prayer": "Communities near Neiafu, Tonga, following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck about 176 km east-southeast of Neiafu, Tonga; no casualty figure reported."
+    },
+    {
+      "wp_id": 6171,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-07-2026-magnitude-8/",
+      "date": "2026-06-11T03:28:38",
+      "title": "Earthquake in Philippines 06/07/2026 — Magnitude 8",
+      "body": "A magnitude 8 earthquake struck approximately 26 kilometers southwest of Kablalan in the Philippines. Earthquakes of this size can cause widespread structural damage, trigger landslides, and generate tsunamis in coastal areas.\n\nNo casualty figures, damage reports, or additional details were available in the source at the time of this report. The Philippines sits along the Pacific Ring of Fire and experiences frequent seismic activity, making populated areas in the region especially vulnerable to earthquakes of this scale.\n\nUpdates on injuries, displacement, and damage are expected as local officials and emergency teams assess conditions on the ground.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 5.776847,
+      "lng": 125.219185,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1",
+      "prayer": "Residents near Kablalan, Philippines, after a magnitude 8 earthquake",
+      "alert_summary": "Magnitude 8 earthquake struck about 26 km southwest of Kablalan in the Philippines."
+    },
+    {
+      "wp_id": 6170,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-cuba-06-08-2026-magnitude-6-3/",
+      "date": "2026-06-11T03:28:22",
+      "title": "Earthquake in Cuba 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred roughly 102 kilometers west-northwest of Mantua, in western Cuba. The source provides no information on casualties, damage, or displacement at this time.\n\nMantua is a town in Pinar del Río province, near Cuba's western tip. An earthquake of this size occurring relatively close to populated areas has the potential to cause shaking felt by residents, though the extent of any impact is not yet known from available reports.\n\nUpdates may follow as more information becomes available from local officials and response teams.",
+      "country": "Cuba",
+      "countries": [
+        "Cuba"
+      ],
+      "type": "Earthquake",
+      "lat": 22.291368,
+      "lng": -84.28322,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx",
+      "prayer": "Communities near Mantua, Cuba, after an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck about 102 km west-northwest of Mantua, Cuba; no casualty figure reported."
+    },
     {
       "wp_id": 6152,
       "wp_link": "https://globalwitnessmonitor.com/other-in-china/",
