@@ -1,9 +1,297 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-11T03:37:02.565956+00:00",
-  "count": 396,
+  "updated": "2026-06-11T17:10:34.771927+00:00",
+  "count": 412,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6243,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-sri-lanka/",
+      "date": "2026-06-11T17:10:15",
+      "title": "Landslide in Sri Lanka",
+      "body": "A landslide in the Balangoda area of Sri Lanka buried a family of four, who had been reported missing. Rescuers later recovered all four bodies from the site.\n\nLandslides are a recurring danger in Sri Lanka, particularly during periods of heavy rain when hillside communities face heightened risk. Balangoda is located in the Ratnapura District, a hilly inland region known for its vulnerability to such events.\n\nNo further details about the cause or timing of the landslide were available in initial reports. Local authorities and rescue teams worked to recover the victims and assess conditions in the affected area.",
+      "country": "Sri Lanka",
+      "countries": [
+        "Sri Lanka"
+      ],
+      "type": "Landslide",
+      "lat": 6.650495,
+      "lng": 80.69913,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1GeHhaSDRrX3hTVHQwampheXVmaF80X3N1OTFuaklReXEzWTRXc2g4MjR5VzJ0d3lEb01WV3BDdjhMUWxPcUE?oc=5",
+      "prayer": "A family of four in Balangoda lost to a landslide, and those grieving their loss",
+      "alert_summary": "A landslide in Balangoda, Sri Lanka killed a family of four whose bodies were recovered after they went missing."
+    },
+    {
+      "wp_id": 6242,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-4/",
+      "date": "2026-06-11T17:09:32",
+      "title": "Earthquake in Philippines",
+      "body": "An earthquake struck the Philippines, killing at least 37 people and forcing around 20,000 residents from their homes. The scale of displacement points to widespread damage to housing and infrastructure across the affected area.\n\nThousands of people are now without shelter as rescue and recovery efforts continue. Displaced families are relying on emergency support while authorities work to assess the full extent of damage and reach those still in need.\n\nCommunities in the affected region face an uncertain period ahead as they begin to recover from the loss of life and property.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ2VsemlLdG9ZMU5UY2g3eUZaMFNvengwbXduaVZzTW1IU1JVNl9ONTZXSEY4d0NDeUR3YUE0M2pEdEM5Sm9YY01rRXJhNnpHRFFSa0pRNnhvMHB6eUlTcmVwcUFRVjFrT0dBRDhXLUlvanpVa2EzaFdCUlNRVnFqTlVsZEY2X3V6S25ReHhBaTY0bUg3YV9aU0txNXAybGtIc0JrNlhFYUdKZlU3ZUZha3ZuTnpUSWpoaEZONnRKNlJpSU3SAcMBQVVfeXFMUGdlbHppS3RvWTFOVGNoN3lGWjBTb3p4MG13bmlWc01tSFNSVTZfTjU2V0hGOHdDQ3lEd2FBNDNqRHRDOUpvWGNNa0VyYTZ6R0RRUmtKUTZ4bzBwenlJU3JlcHFBUVYxa09HQUQ4Vy1Jb2p6VWthM2hXQlJTUVZxak5VbGRGNl91ektuUXh4QWk2NG1IN2FfWlNLcTVwMmxrSHNCazZYRWFHSmZVN2VGYWt2bk56VElqaGhGTjZ0SjZSaUlN?oc=5",
+      "prayer": "Families across the Philippines displaced and grieving after an earthquake killed at least 37",
+      "alert_summary": "An earthquake in the Philippines killed at least 37 people and displaced about 20,000 residents."
+    },
+    {
+      "wp_id": 6241,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-brazil/",
+      "date": "2026-06-11T17:09:20",
+      "title": "Landslide in Brazil",
+      "body": "Heavy rains and at least one mudslide struck the southern region of Brazil, killing 37 people. The event points to dangerous conditions across the area, where saturated ground and floodwaters can make movement and rescue operations difficult.\n\nCommunities in the affected region are coping with both loss of life and likely damage to homes and infrastructure. Families who have lost loved ones face immediate needs, and those displaced by floodwaters or unstable ground require shelter and support.\n\nRescue and relief efforts are underway, though the scale of the disaster and continued wet conditions may slow the response. People throughout the region remain at risk as long as heavy rainfall continues.",
+      "country": "Brazil",
+      "countries": [
+        "Brazil"
+      ],
+      "type": "Landslide",
+      "lat": -9.588903,
+      "lng": -51.619789,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ21LeERTVEQ5OFlTc1d4clp0Zm9BVHhIbnpIbDBwY0N0NDdDZGtUYm5rbzBiQ1J5QTJLSFhwUG5FeTUzZjF3cE50ZUswcThaX3dISVpvRlliQkF2WFFRY2hXNjhtcHdpS1J3Ny1pVElOOTVFanFUanVQaXltQ2g2ek5xWC13U2NJdS1fdjdIbHNLNEpMZmx6QXNMRnM?oc=5",
+      "prayer": "Families in southern Brazil grieving losses from deadly rains and mudslides",
+      "alert_summary": "Rains and mudslides in southern Brazil killed at least 37 people."
+    },
+    {
+      "wp_id": 6240,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india/",
+      "date": "2026-06-11T17:09:08",
+      "title": "Landslide in India",
+      "body": "A landslide struck a vehicle traveling through Arunachal Pradesh in northeastern India, causing the SUV to plunge into a gorge. Three people were killed in the incident.\n\nArunachal Pradesh sits in a mountainous region prone to landslides, particularly during the monsoon season when heavy rains loosen hillside soil and debris. Roads through this area often run alongside steep slopes and deep valleys, making vehicles vulnerable when slides occur.\n\nNo further details about survivors, the exact location within the state, or rescue operations were available from the source at this time.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 28.3668,
+      "lng": 94.745979,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb1BBWnpUdzJmdU9zWlhsWDAyaUhmZHhNanhaMXM0am03N2VmSlJGc3djY1FZQ3ZmRHF0UHhTc3VydmpNendkUTJNaktFcnoyTEhHZEswbHYyaGZuSzJXRm9wTTVoVGhIT1ZTd1oxbHVoNFFiTGRfMFoyVTBsdDNqcDB3Z1czSC1YdnBiVWJKU3hKWjY0UHktVzZ2OU0tXzJRdGdIcGFhOGRuaTBNVWctR2djbldNdzVua1ZqVmpOeVA1aG5oVXplTUZHQW1SQUXSAdQBQVVfeXFMT1MwYm5uVy1RS0htcXZseGYxbVNKRzJzUlk0ZndkQ1N0bm1aMHNvWnhURFEyY0NqTHNocTRCTmk1MlpYUEtjNVR2N1RsUmlxTU4zb0tSY0x4VVlGcTJlRmZKRFJZa08tSHFmLUZBZld3REFGMldmSWZOMmUyWm53X25pMVVvSWFldmRjLUtOdlZnLWcyUmJSS3Q0UnJubEJIdGNkMWk3dkRPdzU5aWFfdEtQNExtcmVFeHY5MEVjdzRfaFpjelo5YzJkYk1Tb0VjeWloaXE?oc=5",
+      "prayer": "Families in Arunachal Pradesh grieving three lives lost when a vehicle plunged into a gorge",
+      "alert_summary": "A landslide struck an SUV in Arunachal Pradesh, sending it into a gorge and killing 3 people."
+    },
+    {
+      "wp_id": 6239,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-vietnam/",
+      "date": "2026-06-11T17:08:41",
+      "title": "Landslide in Vietnam",
+      "body": "A landslide in northern Vietnam killed three people, according to a report from The Star. No additional details about the specific location, timing, or cause were included in the available source material.\n\nLandslides are a recurring danger in Vietnam's mountainous northern regions, particularly during and after periods of heavy rain. Communities in these areas can face sudden slides with little warning.\n\nNo information was provided about injuries, displaced residents, or ongoing rescue efforts.",
+      "country": "Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "type": "Landslide",
+      "lat": 14.315424,
+      "lng": 108.339537,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTDI0dDZnVVJ0ZldyNXFqNk9aZm5fbVlJMkNjal94TnY1ZkdwN1pxM3U5SHpSR2Y4Rkc4LWg1amJoMGZxanB1NEpPVHhoX2c5UjU1R0RINzVYQXRkYmZnRVVycVo2SElHRVp4MS04dWN1WnhHSUF2QUx0dlBtQ0hoMXBodUhlRGJBWTdyRGtTYlh4Ty1DM1hxUUxYdEhNVjg3Y25JejcyeGNreXl0?oc=5",
+      "prayer": "Three families in northern Vietnam grieving after a fatal landslide",
+      "alert_summary": "A landslide in northern Vietnam killed three people; no further details reported."
+    },
+    {
+      "wp_id": 6238,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-cuba/",
+      "date": "2026-06-11T17:08:30",
+      "title": "Storm in Cuba",
+      "body": "Hurricane Melissa made landfall in Cuba, triggering the evacuation of more than 700,000 residents. Authorities moved people out of affected areas ahead of the storm's arrival, one of the largest evacuation efforts reported for a storm hitting the island.\n\nNo casualty figures were included in available reporting. The full extent of damage to homes, infrastructure, and crops is not yet known.\n\nCuba, already facing economic hardship, can be deeply affected by storms that damage housing and disrupt food supplies. Communities across the island remain in a vulnerable position as the situation continues to develop.",
+      "country": "Cuba",
+      "countries": [
+        "Cuba"
+      ],
+      "type": "Storm",
+      "lat": 21.946872,
+      "lng": -79.236672,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQdUljUkE2NUFoWDZIRjdZQjA5cWxZaUpKQUxMTGVKSWRNaldITXVJV2puQXFKYlJ4bm55YnR6OFd3dks2eTlRWTZ0eGlnRzIydU1YOXRId1lMUEZqbzE3dkFfM0JyVDk5bEx0UFRDcGhfMjN0Q1Y3WExCQnNodVY2UTZ2ejFHMkxzeEVzQVVGZ1JmMkhJVGloNWEzZHFnT2NBWU41cHJ3eW5kWVFDU0Y1bjBQSi1jeXh2MXJ5OFV4UlVzanY3MnVUTTUxeUJMa28xR2I3WW9GVWxwTlpDV1RQeDB3aG9jQXZxdVBOV0NucXdIbl9RY04wZmF5RHBpUHRCdFNaTDhZbThaMGJFUG9vcHEwLXpUaWFUVVlhaU83ZHcxQ3ZNTFNHQlNNZnJ6WTVtU1BVNDhBX3N4UkpWWU1QY3ROVXpQWEo0?oc=5",
+      "prayer": "Over 700,000 evacuated Cubans displaced as Hurricane Melissa strikes their island",
+      "alert_summary": "Hurricane Melissa made landfall in Cuba, prompting the evacuation of over 700,000 residents."
+    },
+    {
+      "wp_id": 6237,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan/",
+      "date": "2026-06-11T17:08:11",
+      "title": "Storm in Japan",
+      "body": "Typhoon Jangmi struck Japan and caused damage to Himeji Castle, one of the country's most recognized historic landmarks. The castle, which holds UNESCO World Heritage status, sustained damage raising concerns about the preservation of the centuries-old structure.\n\nThe impact has also raised questions about heritage tourism in the region, as the site draws visitors from around the world. Officials and preservation groups are expected to assess the extent of the damage before repairs or closures are announced.\n\nHimeji Castle has stood for hundreds of years and survived previous disasters, but each new weather event brings fresh risk to aging structures not built for modern storm conditions. The local community and those connected to Japan's cultural heritage are watching closely as the situation develops.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 34.81631,
+      "lng": 134.68451,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EWmM5Zl8xX0M1MnJfNVhrdzhKUFdxNGx6YlhkVjlQZGNJUEtmbDNWNnY0c0JKUnowRmZuMHZaT08wd1czOE1JM3VzNnFxZ2dZWnZWSm5ScDdEb29CS1AwRFVRNXV4d280SjlnNmZn?oc=5",
+      "prayer": "UNESCO heritage site Himeji Castle and surrounding community affected by Typhoon Jangmi",
+      "alert_summary": "Typhoon Jangmi damaged Himeji Castle, a UNESCO World Heritage site in Japan; no casualty figure reported."
+    },
+    {
+      "wp_id": 6236,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada/",
+      "date": "2026-06-11T17:07:30",
+      "title": "Wildfire in Canada",
+      "body": "A wildfire near Swede Creek, in the Fort St. James area of British Columbia, Canada, prompted an evacuation alert for local residents. Authorities have since lifted that alert, allowing those who had been warned to leave to return to their homes.\n\nNo details about the size of the fire, the number of people affected, or any property damage were included in the available report. The lifting of the alert suggests conditions improved enough for officials to consider the immediate threat reduced.\n\nResidents in this part of northern British Columbia can face wildfire risks during dry seasons, and evacuation alerts are issued when a fire poses a potential but not yet certain threat to nearby communities. The situation appears to be stabilizing at this time.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 54.444004,
+      "lng": -124.25794,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQzN6WUk1YzdtX0M2Z1RwNVVnTkdSY3BvS3NxSy1YU19qeS1mNW90dVlRN29lQ2hfNzlJczMzX2tMNTk2SE91ZHpwT0c2OVBVNlpIQ0xibDZLWmdoMVhQclpVMjJqUVZBcG9mRVZudjhNMk5xd05saExnRzVpYWFlOFB2cWNoQmZmTzRHMXhOMElkdGc?oc=5",
+      "prayer": "Residents near Swede Creek returning home after a wildfire evacuation alert was lifted",
+      "alert_summary": "An evacuation alert for the Swede Creek wildfire near Fort St. James has been lifted; no casualty figure reported."
+    },
+    {
+      "wp_id": 6235,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-2/",
+      "date": "2026-06-11T17:06:21",
+      "title": "Flood in Canada",
+      "body": "Flash floods hit parts of western Manitoba, prompting a response from provincial officials. The infrastructure minister confirmed that everyone affected is safe, though the flooding caused disruption to the region.\n\nNo deaths or injuries were reported, according to officials. The statement from the infrastructure minister suggests emergency services were able to respond before the situation turned fatal, though the extent of damage to roads, homes, or other infrastructure was not detailed in the available report.\n\nWestern Manitoba communities are no strangers to seasonal flooding, and residents and local authorities continue to monitor conditions in the aftermath of the event.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Flood",
+      "lat": 45.941631,
+      "lng": -74.2284,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd0NQSzFUamtndlgzTHl5aXlIZ3JFOGZydng5WWVXR3l0VkNQSUJhVHpXaWFtUUxVVGw0Y1QxRF9haGI4QldwUzVjZEJFc1JXSU0yUjJLc3RRVTNRWUkxd21zRnhrT3lZc2dWQUVhNVBwNXFtR3BrYXBtUEstTGM4UHpaTkxGUE0?oc=5",
+      "prayer": "Residents of western Manitoba after flash floods struck their communities",
+      "alert_summary": "Flash floods struck parts of western Manitoba; officials confirmed no casualties reported."
+    },
+    {
+      "wp_id": 6234,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-14/",
+      "date": "2026-06-11T17:06:08",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in the Democratic Republic of Congo has grown to more than 550 cases, with over 100 people dead. Ongoing armed conflict in the affected areas is slowing the response, making it harder for health workers to reach those who are sick.\n\nDisease outbreaks are difficult to contain under the best conditions, but active conflict creates additional barriers — restricting movement, disrupting supply chains, and putting health workers at risk. These conditions allow the virus to spread further before cases can be identified and isolated.\n\nEbola spreads through direct contact with the bodily fluids of infected people and has a high fatality rate. Communities in and around the affected areas face serious danger, particularly where access to medical care is already limited by violence.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkh2dVU1YU1ObEZrcTNYVFU1amdpMVR2UHBOTll3ZEExay02ZTFWT2E5WnJBMUphZ3U0b0tfVkFxMXI3d0RtcnU3V0RsSkxVNEowYW1VQmRqSDVYMmVYenNpLUtyMmFLenFDblYxdHh3SUl2SE8yNkNWNXM2MkdrSnhQdzB0SUQzXzI4UXB2and0UVgwbDMtLXV5SDZoWDNKVENoMWNMeHFYd3dNeFdKcWpZY0tTOXM?oc=5",
+      "prayer": "Communities in Congo facing an Ebola outbreak amid active conflict slowing medical response",
+      "alert_summary": "An Ebola outbreak in Congo has reached over 550 cases and more than 100 deaths as conflict hampers response efforts."
+    },
+    {
+      "wp_id": 6233,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-2/",
+      "date": "2026-06-11T17:05:49",
+      "title": "Flood in United States",
+      "body": "Flooding prompted the evacuation of RV parks in Georgetown, Texas, as rising water threatened residents in the area. Those living in the affected parks were forced to leave their homes as water levels climbed.\n\nNo casualty figures or specific details about the extent of the flooding were included in the available reporting. Conditions in the region prompted concern for those whose homes are mobile and more vulnerable to rapidly rising water.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.63746,
+      "lng": -97.678058,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXdWdHZ091U3VWZFg3dEZoQTAzRWt6TXlCbUtHc0pKNnNLRU1OSHE4Y01MWFo4ejFfV2cxRnJzWWxxQVZXcHF0VWNZclRaRVZpS0FvajdyeGZKaDQ?oc=5",
+      "prayer": "RV park residents in Georgetown, Texas, displaced by rising floodwaters",
+      "alert_summary": "Flooding forced evacuations of RV parks in Georgetown, Texas, due to rising water; no casualty figure reported."
+    },
+    {
+      "wp_id": 6232,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-05-2026-magnitude-5/",
+      "date": "2026-06-11T17:04:51",
+      "title": "Earthquake in New Zealand 06/05/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred in the Kermadec Islands region, a remote area northeast of New Zealand in the South Pacific Ocean. The Kermadec Islands are largely uninhabited, with no permanent civilian population, which limits the likelihood of casualties or widespread damage from events in this zone.\n\nNo details about depth, casualties, or damage have been reported from this event. The area sits along an active tectonic boundary where seismic activity is common, and earthquakes of this size occur regularly in the region.",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -29.3155,
+      "lng": -176.8622,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr0g",
+      "prayer": "Kermadec Islands region communities after a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck the Kermadec Islands region; no casualty or impact figures reported."
+    },
+    {
+      "wp_id": 6231,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-06-06-2026-magnitude-5-2/",
+      "date": "2026-06-11T17:04:26",
+      "title": "Earthquake in Timor Leste 06/06/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 22 kilometers east of Venilale, in Timor-Leste. No information about casualties, injuries, or damage has been reported from this event.\n\nVenilale is a town in the Baucau municipality in the eastern part of the country. Timor-Leste sits within a seismically active region and experiences earthquakes regularly.\n\nNo further details about depth, timing, or impact were available from the source.",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -8.6648,
+      "lng": 126.5825,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr5i",
+      "prayer": "Communities near Venilale, Timor-Leste, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck about 22 km east of Venilale, Timor-Leste; no casualty figures reported."
+    },
+    {
+      "wp_id": 6230,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-10-2026-magnitude-5/",
+      "date": "2026-06-11T17:02:12",
+      "title": "Earthquake in Russia 06/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 156 kilometers off the coast of Petropavlovsk-Kamchatsky in Russia's Kamchatka Peninsula. The area sits along one of the world's most active seismic zones, where earthquakes of this size occur regularly.\n\nNo details about damage, injuries, or displacement were included in the available source material. Authorities and residents in the region are accustomed to seismic activity, and earthquakes of this size do not always cause significant harm, particularly when centered offshore.\n\nThose with connections to communities in the Kamchatka region are encouraged to check in with contacts there as more information becomes available.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 53.02259,
+      "lng": 158.6476,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss1g",
+      "prayer": "Residents near Petropavlovsk-Kamchatsky following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 156 km off the coast of Petropavlovsk-Kamchatsky, Russia; no casualty figures reported."
+    },
+    {
+      "wp_id": 6229,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-11-2026-magnitude-6/",
+      "date": "2026-06-11T17:01:18",
+      "title": "Earthquake in Chile 06/11/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake occurred approximately 128 kilometers northwest of Vallenar, in northern Chile. No casualty figures or damage reports were available from the source material.\n\nVallenar is a city in Chile's Atacama Region, an area that experiences seismic activity due to its position along the South American tectonic plate boundary. Earthquakes of this size can be felt across a wide area, though they do not always cause significant damage.\n\nNo further details about injuries, displaced residents, or structural damage were included in the available information.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.8038,
+      "lng": -71.7406,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss82",
+      "prayer": "Communities northwest of Vallenar, Chile, following a magnitude 5.5 earthquake",
+      "alert_summary": "A magnitude 5.5 earthquake struck 128 km northwest of Vallenar, Chile; no casualty figures reported."
+    },
+    {
+      "wp_id": 6228,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-7-2/",
+      "date": "2026-06-11T17:01:05",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 7",
+      "body": "A magnitude 6.5 earthquake struck approximately 20 kilometers west-southwest of Balangonan in the Philippines. No casualty or damage figures are available from the source at this time.\n\nBalangonan is located in a seismically active region of the Philippines, a country that regularly experiences earthquakes due to its position along major tectonic fault lines. Residents in and around the affected area may have felt significant shaking.\n\nNo further details on injuries, displaced persons, or structural damage are currently reported. Updates are expected as local authorities and emergency teams assess the situation on the ground.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 5.570214,
+      "lng": 125.35438,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcg",
+      "prayer": "Communities near Balangonan, Philippines, after a magnitude 7 earthquake",
+      "alert_summary": "A magnitude 7 earthquake struck about 20 km west-southwest of Balangonan in the Philippines."
+    },
     {
       "wp_id": 6181,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-indonesia/",
