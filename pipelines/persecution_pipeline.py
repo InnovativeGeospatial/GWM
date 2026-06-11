@@ -804,6 +804,10 @@ def publish_to_wordpress(article, headline, formatted_body):
 
 # --- dedup helpers (added v6) ---
 DEDUP_TITLE_THRESHOLD = 0.75  # higher = fewer auto-dedupes (safer against dropping real events)
+# Looser threshold used ONLY when both titles name the same country, to catch
+# the same event reported by two outlets in different words (e.g. one bishop
+# killing covered by Crux and ACN). Country gate keeps unrelated events safe.
+DEDUP_SAME_COUNTRY_THRESHOLD = 0.40
 
 _NUM_WORDS = {
     "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
@@ -899,11 +903,22 @@ def load_recent_wp_titles(days=30):
     return titles
 
 
-def is_duplicate_of_existing_wp(candidate_title, threshold=DEDUP_TITLE_THRESHOLD):
+def is_duplicate_of_existing_wp(candidate_title, candidate_country=None,
+                                threshold=DEDUP_TITLE_THRESHOLD):
     recent = load_recent_wp_titles()
+    cl = (candidate_country or "").strip().lower()
+    cand_l = candidate_title.lower()
     for existing in recent:
-        if title_similarity(candidate_title, existing) >= threshold:
+        sim = title_similarity(candidate_title, existing)
+        if sim >= threshold:
             print('DEDUP skip: ' + repr(candidate_title[:55]) + ' ~ ' + repr(existing[:55]))
+            return True
+        # Country-gated looser match: same country named in BOTH titles and a
+        # moderate word overlap -> same event told two ways.
+        if (cl and sim >= DEDUP_SAME_COUNTRY_THRESHOLD
+                and cl in cand_l and cl in existing.lower()):
+            print('DEDUP skip (same-country): ' + repr(candidate_title[:55])
+                  + ' ~ ' + repr(existing[:55]))
             return True
     return False
 
@@ -990,7 +1005,7 @@ def run():
                 continue
 
             candidate_title = headline or article['title']
-            if is_duplicate_of_existing_wp(candidate_title):
+            if is_duplicate_of_existing_wp(candidate_title, article.get('country')):
                 print('Skipping (duplicate of recent post): ' + candidate_title[:60])
                 skipped += 1
                 seen.add(article['hash'])
