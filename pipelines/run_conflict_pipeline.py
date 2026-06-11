@@ -70,7 +70,7 @@ WP_CATEGORY_ID  = int(os.environ.get('WP_CATEGORY_ID', 8))
 MAPBOX_TOKEN    = os.environ.get('MAPBOX_TOKEN', '')
 
 SEEN_FILE    = '/opt/conflict-pipeline/data/seen_articles.json'
-MAX_ARTICLES = 50
+MAX_ARTICLES = 120
 FEED_NAME    = "conflict"
 
 # -- SAME-LOCATION ROLLUP --
@@ -133,17 +133,44 @@ for region_countries in REGIONS.values():
     ALL_COUNTRIES.extend(region_countries)
 ALL_COUNTRIES = list(set(ALL_COUNTRIES))
 
+def _gnews(query, freshness="when:3d"):
+    """Build a Google News RSS search-feed URL for a targeted query.
+    Google News aggregates thousands of outlets (incl. regional/local ones)
+    that the curated feeds below miss -- this is what fills geographic gaps
+    like Mexico/cartel coverage. Links are news.google.com redirect shells;
+    fetch_article_body() handles resolving or falling back to the summary."""
+    return ("https://news.google.com/rss/search?q="
+            + requests.utils.quote(query + " " + freshness)
+            + "&hl=en-US&gl=US&ceid=US:en")
+
+# Targeted Google News queries that fill coverage gaps (organized crime +
+# regional conflict). Edit/extend freely -- one line per query.
+GOOGLE_NEWS_QUERIES = [
+    "Mexico cartel violence OR kidnapping OR gunmen",
+    "Haiti gang violence OR kidnapping",
+    "Colombia OR Ecuador armed group OR massacre OR violence",
+    "Nigeria attack OR kidnapping OR bandits OR Boko Haram",
+    "Sahel OR Burkina Faso OR Mali OR Niger attack OR militants",
+    "DR Congo M23 OR rebels OR massacre OR clashes",
+    "Sudan RSF OR fighting OR airstrike OR El Fasher",
+    "Ethiopia OR Somalia al-Shabaab OR clashes OR drone",
+    "Myanmar military OR airstrike OR clashes",
+    "Syria OR Iraq airstrike OR clashes OR militants",
+    "massacre OR coup OR airstrike OR ambush",
+    "cartel OR gang massacre OR kidnapping OR shootout",
+]
+
 RSS_FEEDS = [
     'https://reliefweb.int/updates/rss.xml',
     'https://www.crisisgroup.org/rss.xml',
     'https://www.aljazeera.com/xml/rss/all.xml',
-    'https://feeds.reuters.com/reuters/worldNews',
     'https://www.hrw.org/rss/world/all',
     'https://news.un.org/feed/subscribe/en/news/all/rss.xml',
     'https://feeds.apnews.com/rss/apf-worldnews',
     'https://rss.dw.com/rdf/rss-en-world',
     'https://feeds.bbci.co.uk/news/world/rss.xml',
-]
+    'https://www.france24.com/en/rss',
+] + [_gnews(q) for q in GOOGLE_NEWS_QUERIES]
 
 CONFLICT_TERMS = [
     'armed conflict', 'civil war', 'war', 'combat', 'fighting',
@@ -158,6 +185,12 @@ CONFLICT_TERMS = [
     'terrorist', 'extremist', 'jihadist', 'al-shabaab', 'isis',
     'houthi', 'rsf', 'm23', 'boko haram', 'iswap',
     'explosion', 'bomb', 'strikes', 'troops', 'military operation',
+    'cartel', 'cartels', 'gang', 'gangs', 'gang violence', 'narco',
+    'organized crime', 'drug war', 'kidnapping', 'kidnap', 'abduction',
+    'gunmen', 'gunman', 'shootout', 'gunfight', 'extortion', 'ambush',
+    'armed group', 'armed groups', 'paramilitary', 'vigilante', 'bandit',
+    'bandits', 'militant', 'militants', 'assassination', 'hostage',
+    'disappearance', 'mass grave', 'raid', 'lynching',
 ]
 
 EVENT_SIGNALS = [
@@ -184,6 +217,11 @@ EVENT_SIGNALS = [
     'orders', 'ordered',
     'convict', 'convicted', 'sentence', 'sentenced',
     'execute', 'executed', 'execution',
+    'kidnap', 'kidnapped', 'kidnapping', 'abduct', 'abducted',
+    'ambush', 'ambushed', 'raid', 'raided', 'storm', 'stormed',
+    'assassinate', 'assassinated', 'behead', 'beheaded',
+    'massacre', 'massacred', 'gunned', 'hostage',
+    'disappear', 'disappeared', 'wounded', 'injured', 'torched',
 ]
 
 EXCLUDE_PATTERNS = [
@@ -236,6 +274,8 @@ def extract_country(title, summary):
         'burmese': 'Myanmar', 'filipino': 'Philippines', 'thai': 'Thailand',
         'turkish': 'Turkey', 'egyptian': 'Egypt', 'libyan': 'Libya',
         'tunisian': 'Tunisia', 'algerian': 'Algeria', 'moroccan': 'Morocco',
+        'nigerien': 'Niger', 'burkinabe': 'Burkina Faso', 'salvadoran': 'El Salvador',
+        'honduran': 'Honduras', 'guatemalan': 'Guatemala', 'ecuadorian': 'Ecuador',
     }
     for demonym, country in demonyms.items():
         if demonym in text:
@@ -252,6 +292,23 @@ def extract_country(title, summary):
         'ankara': 'Turkey', 'istanbul': 'Turkey', 'cairo': 'Egypt', 'tripoli': 'Libya',
         'beijing': 'China', 'hong kong': 'China', 'taipei': 'China',
         'strait of hormuz': 'Iran', 'hormuz': 'Iran',
+        'culiacan': 'Mexico', 'culiacán': 'Mexico', 'sinaloa': 'Mexico',
+        'michoacan': 'Mexico', 'michoacán': 'Mexico', 'guerrero': 'Mexico',
+        'acapulco': 'Mexico', 'tamaulipas': 'Mexico', 'juarez': 'Mexico',
+        'juárez': 'Mexico', 'tijuana': 'Mexico', 'jalisco': 'Mexico',
+        'chiapas': 'Mexico', 'zacatecas': 'Mexico', 'guanajuato': 'Mexico',
+        'medellin': 'Colombia', 'medellín': 'Colombia', 'bogota': 'Colombia',
+        'bogotá': 'Colombia', 'guayaquil': 'Ecuador',
+        'san salvador': 'El Salvador', 'tegucigalpa': 'Honduras',
+        'goma': 'Congo', 'ituri': 'Congo', 'maiduguri': 'Nigeria',
+        'ouagadougou': 'Burkina Faso', 'niamey': 'Niger', 'juba': 'South Sudan',
+        'el fasher': 'Sudan', 'port sudan': 'Sudan', 'tigray': 'Ethiopia',
+        'amhara': 'Ethiopia', 'aleppo': 'Syria', 'idlib': 'Syria',
+        'mosul': 'Iraq', 'basra': 'Iraq', 'rafah': 'Palestine',
+        'khan younis': 'Palestine', 'hebron': 'Palestine', 'jenin': 'Palestine',
+        'rakhine': 'Myanmar', 'sagaing': 'Myanmar', 'mandalay': 'Myanmar',
+        'kandahar': 'Afghanistan', 'peshawar': 'Pakistan', 'quetta': 'Pakistan',
+        'manipur': 'India', 'srinagar': 'India',
     }
     for city, country in cities.items():
         if city in text:
@@ -416,7 +473,7 @@ def fetch_rss_feeds(seen, filter_countries):
         log.info('Fetching RSS: %s', feed_url)
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:30]:
+            for entry in feed.entries[:60]:
                 title = entry.get('title', '').strip()
                 summary = entry.get('summary', entry.get('description', '')).strip()
                 url = entry.get('link', '')
@@ -781,9 +838,15 @@ def fetch_article_body(url, max_chars=4000):
     except ImportError:
         return ""
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; GlobalWitnessMonitor/1.0)"}
-        r = requests.get(url, headers=headers, timeout=12)
+        headers = {"User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                                  "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                                  "Version/17.0 Safari/605.1.15")}
+        r = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
         if r.status_code != 200:
+            return ""
+        # Google News RSS links are redirect shells. If we never escaped to a
+        # real publisher, skip extraction and let the RSS summary carry it.
+        if "news.google.com" in (r.url or url):
             return ""
         if "html" not in r.headers.get("content-type", "").lower():
             return ""
