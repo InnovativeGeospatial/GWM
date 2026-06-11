@@ -48,7 +48,19 @@ WP_CATEGORY_ID  = int(os.environ.get("WP_CATEGORY_ID", 38))
 MAPBOX_TOKEN    = os.environ.get("MAPBOX_TOKEN", "")
 
 SEEN_FILE    = "/opt/disaster-pipeline/data/seen_articles.json"
-MAX_ARTICLES = 50
+MAX_ARTICLES = 80
+
+# Earthquakes below this magnitude are dropped (editable). Raise to 5.5 or 6.0
+# to thin seismic coverage further.
+MIN_EARTHQUAKE_MAGNITUDE = 5.0
+
+# USGS earthquakes are pulled as GeoJSON (stable event id + magnitude +
+# coordinates) instead of the old .atom feeds -- this is what kills the
+# title-based earthquake duplicates. See fetch_usgs().
+USGS_GEOJSON_FEEDS = [
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson",
+]
 FEED_NAME    = "disasters"
 
 REGIONS = {
@@ -104,19 +116,38 @@ for region_countries in REGIONS.values():
     ALL_COUNTRIES.extend(region_countries)
 ALL_COUNTRIES = list(set(ALL_COUNTRIES))
 
+def _gnews(query, freshness="when:3d"):
+    """Google News RSS search-feed URL for a targeted query. Fills non-quake
+    coverage gaps (floods, fires, storms, outbreaks) from regional outlets the
+    curated feeds miss. Links are redirect shells -- fetch_article_body()
+    resolves or falls back to the summary."""
+    return ("https://news.google.com/rss/search?q="
+            + requests.utils.quote(query + " " + freshness)
+            + "&hl=en-US&gl=US&ceid=US:en")
+
+GOOGLE_NEWS_QUERIES = [
+    "flood OR flooding deaths OR displaced OR evacuated",
+    "wildfire OR bushfire evacuation OR destroyed",
+    "cyclone OR hurricane OR typhoon landfall OR damage",
+    "landslide OR mudslide killed OR buried",
+    "volcano eruption OR ashfall OR evacuate",
+    "disease outbreak OR cholera OR ebola OR measles OR mpox",
+    "drought OR famine emergency OR crisis",
+    "tornado OR storm damage OR killed",
+]
+
+# Earthquakes now come from USGS_GEOJSON_FEEDS (fetch_usgs). These RSS feeds
+# cover everything else. USGS .atom and the dead Reuters feed were removed.
 RSS_FEEDS = [
-    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom",
-    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
     "https://www.gdacs.org/xml/rss.xml",
     "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
     "https://reliefweb.int/updates/rss.xml",
-    "https://feeds.reuters.com/reuters/worldNews",
     "https://feeds.apnews.com/rss/apf-worldnews",
     "https://feeds.bbci.co.uk/news/world/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
     "https://rss.dw.com/rdf/rss-en-world",
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-]
+] + [_gnews(q) for q in GOOGLE_NEWS_QUERIES]
 
 DISASTER_TERMS = [
     "earthquake", "quake", "seismic", "aftershock", "magnitude", "tremor",
@@ -720,6 +751,147 @@ def extract_coords(entry):
     return None, None
 
 
+_MAG_PATTERNS = [
+    re.compile(r"magnitude\s*([0-9]+(?:\.[0-9]+)?)", re.IGNORECASE),
+    re.compile(r"\bM\s?([0-9]+\.[0-9]+)", re.IGNORECASE),
+    re.compile(r"\b([0-9]+\.[0-9]+)\s*M\b"),
+]
+
+
+def extract_magnitude(text):
+    """Pull a numeric earthquake magnitude from free text, or None."""
+    if not text:
+        return None
+    for pat in _MAG_PATTERNS:
+        m = pat.search(text)
+        if m:
+            try:
+                v = float(m.group(1))
+                if 0.0 < v <= 10.0:
+                    return v
+            except ValueError:
+                pass
+    return None
+
+
+def _eq_signatures(country, lat, lng, mag):
+    """Identity keys for an earthquake so the same event from different sources
+    and title formats collapses to one. Returns coordinate- and country-based
+    signature strings to register/check."""
+    sigs = []
+    magpart = ("%.1f" % mag) if isinstance(mag, (int, float)) else "?"
+    try:
+        if lat is not None and lng is not None:
+            sigs.append("EQ|%.1f|%.1f|%s" % (round(float(lat), 1),
+                                             round(float(lng), 1), magpart))
+    except (TypeError, ValueError):
+        pass
+    if country:
+        sigs.append("EQ|%s|%s" % (str(country).lower(), magpart))
+    return sigs
+
+
+def fetch_usgs(seen, filter_countries, filter_types):
+    """Earthquakes from USGS GeoJSON feeds: applies the magnitude floor and
+    dedups by stable USGS event id (across the two feeds and across runs)."""
+    candidates = []
+    run_ids = set()
+    if not matches_type_filter("Earthquake", filter_types):
+        return candidates
+    for feed_url in USGS_GEOJSON_FEEDS:
+        log.info("Fetching USGS GeoJSON: %s", feed_url)
+        try:
+            r = requests.get(feed_url, timeout=20,
+                             headers={"User-Agent": "GlobalWitnessMonitor/1.0"})
+            if r.status_code != 200:
+                log.warning("USGS feed %s -> %s", feed_url, r.status_code)
+                continue
+            features = (r.json() or {}).get("features", [])
+            for feat in features:
+                props = feat.get("properties") or {}
+                geom = feat.get("geometry") or {}
+                usgs_id = feat.get("id") or props.get("code") or ""
+                if not usgs_id:
+                    continue
+                if ("USGS:" + usgs_id) in seen or usgs_id in run_ids:
+                    continue
+                mag = props.get("mag")
+                try:
+                    mag = float(mag) if mag is not None else None
+                except (TypeError, ValueError):
+                    mag = None
+                if mag is None or mag < MIN_EARTHQUAKE_MAGNITUDE:
+                    continue
+                place = (props.get("place") or "").strip()
+                coords = geom.get("coordinates") or []
+                lat = lng = None
+                if len(coords) >= 2:
+                    try:
+                        lng, lat = float(coords[0]), float(coords[1])
+                    except (TypeError, ValueError):
+                        lat = lng = None
+                country = extract_country(place, "") if place else None
+                if not matches_filter(country, filter_countries):
+                    continue
+                title = "M %.1f earthquake" % mag + ((" - " + place) if place else "")
+                url = props.get("url") or (
+                    "https://earthquake.usgs.gov/earthquakes/eventpage/" + usgs_id)
+                summary = place + ((" (magnitude %.1f)" % mag) if mag else "")
+                published = ""
+                try:
+                    t = props.get("time")
+                    if t:
+                        published = datetime.fromtimestamp(
+                            t / 1000.0, timezone.utc).isoformat()
+                except Exception:
+                    published = ""
+                run_ids.add(usgs_id)
+                candidates.append({
+                    "title": title, "summary": summary, "url": url,
+                    "hash": article_hash(url, title),
+                    "source": "USGS", "published": published,
+                    "country": country, "disaster_type": "Earthquake",
+                    "lat": lat, "lng": lng,
+                    "usgs_id": usgs_id, "magnitude": mag,
+                })
+        except Exception as e:
+            log.warning("USGS fetch error (%s): %s", feed_url, e)
+    log.info("USGS: %d earthquakes >= M%.1f after id-dedup",
+             len(candidates), MIN_EARTHQUAKE_MAGNITUDE)
+    return candidates
+
+
+def _dedup_earthquakes(candidates, seen):
+    """Cross-source earthquake collapse + magnitude floor for non-USGS quakes.
+    USGS items are processed first so their authoritative coords/magnitude
+    define the signature; later news/GDACS reports of the same quake drop."""
+    out = []
+    run_sigs = set()
+    ordered = sorted(candidates, key=lambda c: 0 if c.get("usgs_id") else 1)
+    for c in ordered:
+        if (c.get("disaster_type") or "") != "Earthquake":
+            out.append(c)
+            continue
+        mag = c.get("magnitude")
+        if mag is None:
+            mag = extract_magnitude((c.get("title") or "") + " "
+                                    + (c.get("summary") or ""))
+        if mag is not None and mag < MIN_EARTHQUAKE_MAGNITUDE:
+            log.info("Drop sub-floor quake (M%.1f): %s", mag,
+                     (c.get("title") or "")[:60])
+            continue
+        sigs = _eq_signatures(c.get("country"), c.get("lat"),
+                              c.get("lng"), mag)
+        if any((sg in seen) or (sg in run_sigs) for sg in sigs):
+            log.info("Drop duplicate quake: %s", (c.get("title") or "")[:60])
+            continue
+        for sg in sigs:
+            run_sigs.add(sg)
+        c["_eq_sigs"] = sigs
+        out.append(c)
+    return out
+
+
 def fetch_rss_feeds(seen, filter_countries, filter_types):
     candidates = []
     seen_titles = []
@@ -727,7 +899,7 @@ def fetch_rss_feeds(seen, filter_countries, filter_types):
         log.info("Fetching RSS: %s", feed_url)
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries[:30]:
+            for entry in feed.entries[:50]:
                 title = entry.get("title", "").strip()
                 summary = entry.get("summary", entry.get("description", "")).strip()
                 title = normalize_gdacs_severity(title)
@@ -842,11 +1014,13 @@ def fetch_gdelt(seen, existing_titles, filter_countries, filter_types):
 
 
 def fetch_all_feeds(seen, filter_countries, filter_types):
+    usgs_candidates = fetch_usgs(seen, filter_countries, filter_types)
     rss_candidates = fetch_rss_feeds(seen, filter_countries, filter_types)
     rss_titles = [c["title"] for c in rss_candidates]
     gdelt_candidates = fetch_gdelt(seen, rss_titles, filter_countries, filter_types)
-    all_candidates = rss_candidates + gdelt_candidates
-    log.info("Total candidates: %d", len(all_candidates))
+    all_candidates = usgs_candidates + rss_candidates + gdelt_candidates
+    all_candidates = _dedup_earthquakes(all_candidates, seen)
+    log.info("Total candidates after EQ dedup: %d", len(all_candidates))
     return all_candidates[:MAX_ARTICLES]
 
 
@@ -907,9 +1081,13 @@ def fetch_article_body(url, max_chars=4000):
     except ImportError:
         return ""
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; GlobalWitnessMonitor/1.0)"}
-        r = requests.get(url, headers=headers, timeout=12)
+        headers = {"User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                                  "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                                  "Version/17.0 Safari/605.1.15")}
+        r = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
         if r.status_code != 200:
+            return ""
+        if "news.google.com" in (r.url or url):
             return ""
         if "html" not in r.headers.get("content-type", "").lower():
             return ""
@@ -1309,6 +1487,10 @@ def main():
 
             if post_id:
                 seen.add(item["hash"])
+                if item.get("usgs_id"):
+                    seen.add("USGS:" + item["usgs_id"])
+                for _s in (item.get("_eq_sigs") or []):
+                    seen.add(_s)
                 published += 1
 
                 if JSON_WRITER_AVAILABLE and not args.no_json:
