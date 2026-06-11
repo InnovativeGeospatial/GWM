@@ -1,15 +1,417 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-11T03:52:28.249010+00:00",
+  "updated": "2026-06-11T17:23:22.177105+00:00",
   "count": 500,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6272,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-abuja/",
+      "date": "2026-06-11T17:22:50",
+      "title": "Armed Conflict in Abuja",
+      "body": "Nigerian police carried out a rescue operation in Abuja, freeing five people who had been kidnapped. Officers also seized AK-47 rifles during the operation, indicating the kidnappers were armed.\n\nKidnapping for ransom has remained a persistent problem in Nigeria, including in and around the capital. The recovery of weapons suggests an organized criminal group was involved.\n\nNo further details are available from the source about casualties among suspects or officers, or the condition of those rescued.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 9.073523,
+      "lng": 7.475731,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdlE4aHZBcEljS0xjM1U1ZzVEVE9oX2pnWHl5RF8tazNFQV9vQ0VaR0Jvdm5LTGhIa3BrakNiRkNTR0owVnhIbWtPc1hZWjJYaUZRekQwbnFiU1NUZUZ4YTB3TmI0WjFHTWstTzVCRlZiMXJGRnI4TWNOLTQ5b0NnZWhsVm9iaTJJNGhBWFpNYVN1LXRqMmJPSDNzbVJRMU5CU0Z2aDJMemFKaGJzSG84?oc=5",
+      "prayer": "Five kidnap victims in Abuja and families awaiting their safe return",
+      "alert_summary": "Police rescued five kidnap victims and recovered AK-47 rifles during an operation in Abuja."
+    },
+    {
+      "wp_id": 6271,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-johannesburg/",
+      "date": "2026-06-11T17:22:20",
+      "title": "Armed Conflict in Johannesburg",
+      "body": "A mass shooting in Johannesburg left 12 people dead, with police now searching for the armed group responsible. The attack has prompted an active manhunt, though no arrests had been reported at the time of this report.\n\nDetails on the exact location within Johannesburg and the circumstances of the attack remain limited in early reports. Authorities have not publicly confirmed a motive or identified the suspects.\n\nResidents in the area face uncertainty as the armed group remains at large.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Armed Conflict",
+      "lat": -26.204678,
+      "lng": 28.042114,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWnNOY09XOVdIWEFnSGptanRBZU0zUzM5Q241UG0zRFNQS3VCcGF1dF9vQldfSDNuWE1uMk1fYXFKUWZUUk82cXhOQkxsbml6RTNweVlOSzdTOTJOUHoyZWl0WEcybWdSOVlqR29nMl9IbGRhU3JqenoyNVJqMDVLcVhUTVhnb2JiaHk5Q1N3bEItbUNvRVFVd2pKeVpJRkxaS1RIMHdvdjR1ZUd1VDJ3Uk9MWUJHc3k3a2lxZlFxOUlHdzFNTklzcmtRdUNSUDhxamdDN0JlLWdQdHYtekRpQS1YSHdpMHJRcFdXVmY0dUR3N0tweXBBLUFn?oc=5",
+      "prayer": "Families of 12 people killed in a mass shooting in Johannesburg",
+      "alert_summary": "An armed gang killed 12 people in a mass shooting in Johannesburg; police are searching for suspects."
+    },
+    {
+      "wp_id": 6270,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-the-bronx/",
+      "date": "2026-06-11T17:22:00",
+      "title": "Armed Conflict in The Bronx",
+      "body": "A five-year-old girl was struck by a bullet graze to the head during a gang shootout in the Bronx, according to sources cited in the report. The child was caught in crossfire between gang members.\n\nNo further details about casualties among the other parties involved, the exact location within the borough, or the time of the incident were available in the source material. The girl's condition following the injury was not specified.\n\nResidents in the area would have been present during the exchange of gunfire, raising concerns about public safety in the neighborhood.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 40.804006,
+      "lng": -73.914316,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNm05WkM1aV96QkN5anFLWlJxYW42Qm1IT0pZbGdFbzk1Q096WV9GcWIxUHBGWEdOOUlaQ2ZtZmZXVEFNNkFXVW0yUjRuYzFROEpWRVVhNnJ3aU12TGpwb2gzaVZzN0QwUGlyN2xFTEk5QTE4c1dITWpPWkhwVjRIbDRRMUwwRHVkZmlyb0RsXzEzb3JURExWR1FMMVl6dw?oc=5",
+      "prayer": "A 5-year-old girl and residents in the Bronx caught in gang crossfire",
+      "alert_summary": "A 5-year-old girl was grazed in the head during a gang shootout in the Bronx."
+    },
+    {
+      "wp_id": 6267,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lake-chad-basin/",
+      "date": "2026-06-11T17:21:19",
+      "title": "Armed Conflict in Lake Chad Basin",
+      "body": "The Nigerian Air Force carried out airstrikes in the Lake Chad Basin, killing what officials described as scores of fighters affiliated with armed groups active in the region. The Lake Chad Basin has long been a base for groups operating across Nigeria, Niger, Chad, and Cameroon.\n\nNo date or specific location within the basin was given in the report, and no civilian casualties were mentioned by officials. The area has seen ongoing military operations as Nigerian forces work to reduce the presence of armed groups there.\n\nResidents in communities near the lake and surrounding areas remain caught between military operations and the threat of attacks from armed groups.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODRWUkt3VzZ5UkN2WVhDTy1YLVJFZlM5SjQtTkNybkVqT0xwTXhHMGVyNXdLb1VzSnVrb2E3aWZ5eGVzbUdMR01PZlNBT1gyNHZyVzhqSnY4alNSVEpkLXNyaGNFekNXSjlrMGpCaFF5QS0tanhDWTV2WWd1MjlSZy1KYVJ5LVFKSnJkeA?oc=5",
+      "prayer": "Communities near Lake Chad Basin amid ongoing airstrikes targeting armed groups",
+      "alert_summary": "Nigerian Air Force airstrikes killed an unspecified number of fighters in the Lake Chad Basin area."
+    },
+    {
+      "wp_id": 6266,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-cleveland/",
+      "date": "2026-06-11T17:20:30",
+      "title": "Armed Conflict in Cleveland",
+      "body": "A shooting described as a massacre took place in the Cleveland area, where witnesses say armed men walked through the area firing on people. A survivor spoke from a hospital bed about watching the attackers move methodically as they shot.\n\nThe number of casualties has not been confirmed in the available summary, but the event is being described as a massacre, suggesting multiple people were killed or wounded. Residents in the area are shaken, and at least one injured person remains hospitalized.\n\nCleveland is an area within the Johannesburg metropolitan region. The motive and identity of the attackers have not been reported in available details.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcXljZWsyU0hNaWU0cVExNUMxQzQ4U2ZXeWhqR2t5eU96N3ZZWF84N1NlRVl1TVF0VWZ4c01XcUxVdmdDa0I4LWhqNXVPQVlHWHZYbmtDV3hfU24yMkdwRVNER0pEUkJtREw1dEU5NUxMYzRUUW5xTjRUSDl0WEZ2VFJXRVN4R3JXdjIyVUxYTHd2SmgwSmlELW9uSURtMHhLdHp5T1cwVDZYZTRJOWxuRlNxT1V5cUx1dGJtUlBjUmxURGNmaWkwanJ5RV8?oc=5",
+      "prayer": "Survivors and families of victims in the Cleveland shooting, recovering from gunshot wounds",
+      "alert_summary": "Gunmen opened fire on people in Cleveland, South Africa, with at least one survivor hospitalized with gunshot wounds."
+    },
+    {
+      "wp_id": 6263,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-2/",
+      "date": "2026-06-11T17:19:35",
+      "title": "Armed Conflict in Lebanon",
+      "body": "Israeli airstrikes killed 12 people in Lebanon, according to reporting by France 24. The strikes came as Israeli officials called for continued military action against Hezbollah.\n\nThe source does not specify which towns or districts were hit. Hezbollah, the Lebanese militant group, has been in conflict with Israel across the Lebanon-Israel border area, and strikes have repeatedly affected civilian areas in recent months.\n\nResidents in southern Lebanon and the Bekaa Valley have faced repeated displacement and danger from ongoing strikes. The death of 12 people in this round of strikes adds to a broader pattern of civilian harm in the country.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?oc=5",
+      "prayer": "Twelve people killed in Lebanon amid ongoing Israeli strikes and continued fighting",
+      "alert_summary": "Israeli strikes killed 12 people in Lebanon as fighting with Hezbollah continued."
+    },
+    {
+      "wp_id": 6261,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tyre-8/",
+      "date": "2026-06-11T17:19:05",
+      "title": "Armed Conflict in Tyre",
+      "body": "Israeli airstrikes hit the city of Tyre in southern Lebanon, according to BBC reporting. The strikes came despite warnings from Iran calling on Israel to stop its attacks in the country.\n\nTyre is a coastal city in southern Lebanon with a civilian population. The situation signals continued military activity in the region even as diplomatic pressure from outside parties has increased.\n\nResidents in and around Tyre remain at risk as strikes continue in the area.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.273647,
+      "lng": 35.19531,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pQ2lCMHpqSjhTWFdQZ0dOZ2hBSXoyY1YtV0tiM0NmVVNuQUpNN1hhazFiWUx0MkhCSFNTZF9kNEVxMTNMVlA0cEtGWGR2dnFJRlBVZXk2ZEpMUQ?oc=5",
+      "prayer": "Residents of Tyre, Lebanon, under ongoing airstrikes",
+      "alert_summary": "Israeli airstrikes struck the Lebanese city of Tyre amid warnings from Iran to halt attacks."
+    },
+    {
+      "wp_id": 6260,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-damascus/",
+      "date": "2026-06-11T17:18:29",
+      "title": "Coup/Crisis in Damascus",
+      "body": "Rebel forces seized Syria's capital, Damascus, according to reports, as the country's long-serving president was said to have fled the country. The takeover marks a dramatic shift in control of the Syrian government.\n\nDetails remain limited in available reporting, but the fall of Damascus to opposition forces signals a significant collapse of central authority. Residents of the capital and surrounding areas face deep uncertainty about who now holds power and what comes next for basic services, security, and daily life.\n\nPeople throughout Syria — including many already displaced by years of conflict — are waiting to see whether the change in control brings stability or further unrest. Communities served by international aid organizations and faith-based groups in the country are watching the situation closely.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 33.51307,
+      "lng": 36.309581,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ0NDbExyOFRLRGRScldkS2hVOXYyN2lZbVd1dTlWQ0ZUcno2VkdRb3NzVkVoUlJWa054RXY5UVdRU194enE5N3lOekJGTU85NWNKLTROVHJteE1DYkhBb2pBak1DS21Kdmx3VzNIM2pJTkRZV2Jnc0N1M1dWM0ZOd3lSMnhNOENya1ZzZk5CZ3NsRkZZemREbUtkNW5WSjd1UHFsWEt2TDRFMVVwWjNHbGZDVGxPUUpDdjlzMEVybS1VQkFMVXJJM0FrSjlVTmFuanJwNmIxWXVXdw?oc=5",
+      "prayer": "Syrian civilians in Damascus amid a sudden collapse of government control and reports of the president fleeing",
+      "alert_summary": "Rebel forces took control of Damascus as reports indicated the president had fled the country."
+    },
+    {
+      "wp_id": 6259,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bago/",
+      "date": "2026-06-11T17:18:06",
+      "title": "Armed Conflict in Bago",
+      "body": "Myanmar's military bombed a monastery in the Bago region, according to a human rights organization that says the attack may amount to a war crime under international law.\n\nThe organization cited concerns that striking a religious site could violate protections that apply during armed conflict, though no further details about casualties or timing were available in the source material reviewed.\n\nMonasteries in Myanmar often serve as shelters and community centers, meaning attacks on such sites can affect large numbers of civilians beyond the monastic community itself.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 17.336667,
+      "lng": 96.479722,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZGtzamtaVFdKNVBqWDVGYjBXZjhmVlh2RUZ2eW5aNC1IWXBjd3hOZkFBcWlMVWVZU2I1dTA0T041ZTBfb21lZkgzcXA2cE9yNXRnZHpETG9NQ2Zsd3M5WTZrcUxidGR0bFpYNzZXNXdIUVFMWF82WF9kRE1iTWpKSVhpOGZYdVNpUjg5UFNkWWJ1SGxHNnl6cXZYc3h5NWRpbGJPMmRxdnYwNi1HZ2JSMg?oc=5",
+      "prayer": "Civilians and monks in Bago affected by the bombing of a monastery",
+      "alert_summary": "Myanmar military forces bombed a monastery in Bago, which a human rights group says may constitute a war crime."
+    },
+    {
+      "wp_id": 6258,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-omdurman/",
+      "date": "2026-06-11T17:17:48",
+      "title": "Armed Conflict in Omdurman",
+      "body": "A drone strike suspected to have been carried out by the Rapid Support Forces hit a civilian car in Omdurman, killing five people. Omdurman is a major city across the Nile from Sudan's capital, Khartoum, and has seen repeated attacks since the war between the Sudanese Armed Forces and the RSF began in April 2023.\n\nDrone strikes on civilian vehicles have become a recurring feature of the conflict, raising concern about the safety of ordinary residents trying to move through urban areas. Omdurman has experienced some of the worst fighting of the war, and civilians there face danger from both ground combat and aerial attacks.\n\nThe strike adds to a mounting toll on non-combatants in and around the capital region, where daily life continues under the threat of sudden violence.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 9.592152,
+      "lng": 27.391154,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd2x0NkY3SUFrd2pERi1MYlN3UkdvMUd6VU5EaWF2S1doYUFUMDdfa2JMS1E5V1RYYTZ5aDc0ZGhSZms4cnJOdzJTTkRUVFhKekVZTTYwT0Q4SnB5OUJjcDJtQ1ZDU3l6U0Y1WmxfT3NCT2NXS3dJakVmVmRNR3FKS1QyLU51V1ZPdXVKV0g1dUY4VU1hQ2d5amRkb1NIQU9TX2JkbUxtVWVJYmUwRDA1UXNWaTFsSDVtcnBNQXFZZjR6ZUc5RmRHbWlKM1c?oc=5",
+      "prayer": "Five civilians killed in a drone strike on a car in Omdurman, Sudan",
+      "alert_summary": "A suspected RSF drone strike hit a civilian car in Omdurman, Sudan, killing five people."
+    },
+    {
+      "wp_id": 6255,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mali/",
+      "date": "2026-06-11T17:16:42",
+      "title": "Armed Conflict in Mali",
+      "body": "Mali's defence minister was killed in what officials are calling a terrorist attack, according to reporting from MSN. The killing marks one of the most significant losses for the country's military leadership in recent years.\n\nThe attack is part of a broader pattern of escalating violence across Mali, where armed groups have been active for more than a decade. No additional casualty figures or location details were available in the source material.\n\nThe death of a senior government and military figure raises concerns about stability in a country already under pressure from ongoing insecurity. Civilians in affected areas continue to face risks from armed group activity throughout the region.",
+      "country": "Mali",
+      "countries": [
+        "Mali"
+      ],
+      "type": "Armed Conflict",
+      "lat": 17.350335,
+      "lng": -1.252145,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPcHY1dWx3UEtWaEFHQ2lwa3l1WlcwMzA4VWNpTEdsOVNuaVFNdDZUX09SZTZJZk9LUU5MeVp2Ml9sQUJVNFRYcmFIS3gtWGd6NXZORFM0c0V4c28wbXV3dVhjYktMa01HVTB6SkZWcHBhYXZmWks3NkdqOE9qR3R0c1lyZFR6ZkZzeHZEcGc1UG9ZTUxfRGR0V3I1TkNwbkZOY19LRE94Q1JfLVFURzhqc3dtcDF1QTRaTEpxVXRpX2NETVJybXNQbjV4cFlQSkJ4UDhDcGNoc0RYbHVvWEpVZlRCa3RKZjBzS2ZRcjZ2eV8zdXZoZDdzTmxxbHZHMjdVVkRXWGJKMFlPanhfejY4Vlg5SkxBMnlXR19vXzBDSmc0M3BUZWtKWW1EbTMzZEJqT19KMW5pQmdfSEJ3V3U5Um9Fbzdha0lXMHg5c205Nzc5OG1ZZEdDOVBmenR5czNxYjc5cWRnYzlTbWJOQUJ3WVBFR04?oc=5",
+      "prayer": "Mali's people and government amid ongoing armed attacks across the country",
+      "alert_summary": "Mali's defence minister was killed in what officials described as a terrorist attack; no casualty figures given."
+    },
+    {
+      "wp_id": 6254,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khyber-pakhtunkhwa/",
+      "date": "2026-06-11T17:16:25",
+      "title": "Armed Conflict in Khyber Pakhtunkhwa",
+      "body": "A paramilitary officer was killed in Pakistan's Khyber Pakhtunkhwa province, according to reports. No additional details about the circumstances, location within the province, or those responsible were available from the source.\n\nKhyber Pakhtunkhwa, which borders Afghanistan, has seen recurring attacks on security forces in recent years. Residents and security personnel in the area continue to face risk from such incidents.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 34.012385,
+      "lng": 71.578746,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbF93ZjJsYlNNY3F1RENqNFFxN1p3ZVptMHpRQkVINXVDMl9xZThqWk83N3U0b1pvYktXWXNfb2lUT0JlVnU3UGRWSEhndmhnMDhvamRFTW5iMnkwbWFUTzhxTS1XQ3NRT3Q0MUVBV2ZlM01nY2RHMS0zMzBDMkR4LWYtMllnWlAwcmFXX0ttbG1ldHhEM3hpMGd6WEp0RXR2RXkxMkpuNHJRWlFmNGVYOWxtaGxxM0xSX3FGV2dDbHlvdWpJNXNLbDdtRHNoMmhzV2dVRXZ3RTE4SENXWFFuaWxBT1hScGg2QWdtVTBwalRvNnJi?oc=5",
+      "prayer": "Paramilitary personnel and families in Khyber Pakhtunkhwa amid ongoing armed violence",
+      "alert_summary": "A paramilitary officer was killed in Pakistan's Khyber Pakhtunkhwa region; no further casualty figures reported."
+    },
+    {
+      "wp_id": 6253,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bangkok/",
+      "date": "2026-06-11T17:15:09",
+      "title": "Armed Conflict in Bangkok",
+      "body": "A court in Thailand has convicted two men, both from China's Uyghur minority, for the 2015 bombing at the Erawan shrine in central Bangkok, sentencing them to death. The attack on 17 August 2015 killed 20 people and injured more than 120 others who were gathered at the shrine, which is popular with foreign tourists and Chinese visitors. It remains the worst terrorist attack in Thailand's history.\n\nBoth men pleaded not guilty throughout a ten-year trial and said confessions were obtained through torture, which they later withdrew. Questions remain about the reliability of the investigation — the bombing site was cleaned up and reopened within two days, many nearby security cameras were not working, and police initially said neither man was the person seen on video planting the bomb.\n\nThirteen other suspects named in the case remain at large, and the circumstances and motive behind the attack have never been officially established.",
+      "country": "Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.752494,
+      "lng": 100.493509,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/ckg8v51g9lno?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families of 20 people killed and 120 injured in the Bangkok shrine bombing awaiting justice",
+      "alert_summary": "A Thai court sentenced two men to death for a 2015 bombing at Bangkok's Erawan shrine that killed 20 and injured 120."
+    },
+    {
+      "wp_id": 6252,
+      "wp_link": "https://globalwitnessmonitor.com/tapanuli/",
+      "date": "2026-06-11T17:14:53",
+      "title": "Tapanuli",
+      "body": "A study published this week found that four days of rain and landslides from Cyclone Senyar last November killed at least 58 Tapanuli orangutans in Sumatra, Indonesia. The species has fewer than 800 individuals remaining, and researchers say losing more than 1% of the population each year puts them on a path to extinction. This single event wiped out roughly 7% of the total species — far beyond what the population can absorb.\n\nThe cyclone also killed more than 1,000 people across Southeast Asia. Wildlife workers found at least one orangutan carcass buried in debris in central Tapanuli district. Researchers noted that human-induced climate change contributed to the storm's intensity, and that extreme rainfall in the region is likely to become more frequent.\n\nThe Indonesian government has paused major development projects in the Batang Toru protected forest, giving researchers time to assess further ecological damage. The study's authors say sustained international support will be needed to prevent what could become the first extinction of a great ape species in modern times.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Other",
+      "lat": 1.60217,
+      "lng": 99.273926,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/ce8jde20v83o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Critically endangered Tapanuli orangutans in Sumatra, 58 killed by cyclone-driven landslides",
+      "alert_summary": "Landslides from Cyclone Senyar killed 58 of fewer than 800 Tapanuli orangutans, about 7% of the entire species, in Sumatra last November."
+    },
+    {
+      "wp_id": 6251,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-johannesburg-3/",
+      "date": "2026-06-11T17:14:38",
+      "title": "Displacement in Johannesburg",
+      "body": "A flight carrying 268 Nigerians landed in Lagos after departing Johannesburg, as Nigeria joined Ghana, Zimbabwe, and Malawi in evacuating citizens from South Africa. Around 1,000 Nigerians have registered with the Nigerian consulate for repatriation. Some campaigners had set a June 30 deadline for undocumented migrants to leave.\n\nReturnees described being attacked in taxis and at their businesses, and said fear for their children's safety drove their decision to leave. South Africa's unemployment rate exceeds 30%, and protest marches have taken place in major cities. At least two Mozambican nationals were killed in Western Cape province, though Mozambican officials say the death toll from xenophobic violence is higher.\n\nReturning Nigerians received modest financial assistance and phone credit to help them travel to their home states. Officials note that migrants make up less than 10% of South Africa's population, and that processing delays can leave some people without valid documentation through no immediate fault of their own.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria",
+        "South Africa"
+      ],
+      "type": "Displacement",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cq512vgyzl9o?at_medium=RSS&at_campaign=rss",
+      "prayer": "268 Nigerians and thousands more African migrants fleeing xenophobic attacks in South Africa",
+      "alert_summary": "Nigeria flew 268 citizens from Johannesburg to Lagos amid xenophobic attacks on migrants across South Africa."
+    },
+    {
+      "wp_id": 6250,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-manama/",
+      "date": "2026-06-11T17:14:24",
+      "title": "Armed Conflict in Manama",
+      "body": "The United States and Iran traded strikes across the Middle East for a second straight day, with US forces hitting military, surveillance, and radar sites in southern Iran. Iran responded by firing ballistic missiles at a US airbase in Jordan and launching drone attacks toward Bahrain and Kuwait.\n\nJordan said its air defenses intercepted 20 incoming missiles near the town of Azraq, reporting no casualties or damage. In Bahrain, falling shrapnel from intercepted drones damaged homes and vehicles in the capital and one nearby area; an 11-year-old girl was treated for a minor injury. Kuwait temporarily closed its airspace after intercepting what it described as hostile aerial targets.\n\nIran also announced it had closed the Strait of Hormuz and claimed strikes on two oil tankers in the shipping lane. The US said commercial ships continued to transit the strait. Oil prices rose roughly 2% following the announcements. Both governments accused the other of undermining a ceasefire reached two months earlier.",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran",
+        "Bahrain",
+        "Jordan",
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c4gyp9v0e93o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Bahrain, Jordan, and Kuwait caught between US and Iranian strikes, including an 11-year-old girl injured in Manama",
+      "alert_summary": "US and Iran exchanged strikes for a second day; shrapnel injured an 11-year-old girl in Manama, Bahrain, while Jordan and Kuwait intercepted incoming missiles and drones."
+    },
+    {
+      "wp_id": 6249,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid/",
+      "date": "2026-06-11T17:14:08",
+      "title": "Armed Conflict in el-Obeid",
+      "body": "A drone strike hit a funeral procession in el-Obeid, a city in Sudan's North Kordofan state, according to rights organizations. The attack struck mourners gathered for a burial, killing an unconfirmed number of people.\n\nRights groups reported the strike, though full casualty figures have not been confirmed. El-Obeid is a significant regional hub and has seen growing insecurity since Sudan's civil war intensified in 2023.\n\nAttacks on civilian gatherings such as funerals raise serious concerns under international humanitarian law. Residents in the area already face disrupted access to food, medicine, and basic services, and incidents like this add to the fear and displacement affecting communities across Sudan.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.183366,
+      "lng": 30.222559,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiWXJMRll4R2x0V2UwUGUwb2pXUy03UXFIS2FIQ0dKU3dMeUtoWko2VEJ1Qk9QLVFnbDllQWhtNFJpc1RDVEV5M1BsTDZMeFdJOGljWEtiSWN6QQ?oc=5",
+      "prayer": "Civilians mourning at a funeral in el-Obeid struck by a drone attack",
+      "alert_summary": "A drone strike hit a funeral procession in el-Obeid, Sudan, killing an unknown number, according to rights groups."
+    },
+    {
+      "wp_id": 6248,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-kinshasa/",
+      "date": "2026-06-11T17:13:55",
+      "title": "Coup/Crisis in Kinshasa",
+      "body": "Congo's National Assembly passed a referendum bill on June 9 that could open the door to changes in presidential term limits. The vote happened without opposition lawmakers, who have boycotted parliament for weeks in protest. The bill allows amendments to term limits if a \"major dysfunction\" paralyzes state institutions — a provision critics call a legal workaround designed to keep the current president in power beyond 2028.\n\nThe opposition has labeled the move a \"constitutional coup\" and warned of resistance. An opposition coalition launched in late May is calling on citizens to push back. Religious communities are divided — some evangelical and Pentecostal churches support reform, while Catholic and Protestant churches warn against weakening democratic protections.\n\nLegal scholars say the Constitutional Court may strike down parts of the bill. Meanwhile, the country continues to face an Ebola epidemic and ongoing fighting in the east, conditions that much of the population is navigating alongside the political uncertainty.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Coup or Crisis",
+      "lat": -4.325152,
+      "lng": 15.312853,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/drc-referendum-bill-intensifies-constitutional-standoff/a-77499438?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Congolese civilians and religious communities navigating a deepening constitutional crisis ahead of 2028 elections",
+      "alert_summary": "Congo's National Assembly passed a referendum bill on June 9 that critics say is designed to remove presidential term limits."
+    },
+    {
+      "wp_id": 6247,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-shinas/",
+      "date": "2026-06-11T17:13:29",
+      "title": "Armed Conflict in Shinas",
+      "body": "Three Indian sailors aboard the Palau-flagged tanker MT Settebello — reported missing after a US military strike on Wednesday — were confirmed dead on Thursday after their bodies were located and identified. India's shipping minister said officials were directed to arrange the return of surviving crew and the remains of those killed.\n\nThe same day, US Central Command confirmed a second strike, this time against the Guinea-Bissau-flagged MT Jalveer off the port of Shinas, Oman. A US aircraft fired two missiles into the ship's engine room after the crew did not comply with directions. All 20 Indian sailors on board survived and were being evacuated by helicopter as fire spread through the vessel.\n\nIndia's foreign ministry had already summoned a senior US diplomat to protest the earlier Settebello strike. The attacks are part of a broader US effort to enforce a blockade on Iranian oil shipments in the Gulf of Oman.",
+      "country": "Oman",
+      "countries": [
+        "Oman",
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 24.746479,
+      "lng": 56.44957,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/11/india-says-incident-on-vessel-off-oman-confirms-3-dead-in-seperate-strike?traffic_source=rss",
+      "prayer": "Three Indian sailors killed and crews of multiple tankers struck in the Gulf of Oman",
+      "alert_summary": "US military strikes killed 3 Indian sailors on MT Settebello and disabled a third tanker, MT Jalveer, off Oman with 20 crew aboard."
+    },
+    {
+      "wp_id": 6246,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hamad-town/",
+      "date": "2026-06-11T17:13:13",
+      "title": "Armed Conflict in Hamad Town",
+      "body": "Footage from Hamad Town and Manama shows cars, homes, and buildings damaged following Iranian strikes on Bahrain. Bahrain's Interior Ministry confirmed that an 11-year-old girl was injured by debris falling from missile interceptions.\n\nThe damage visible in the video spans residential and built-up areas of both locations. The injury to the child was linked not to a direct strike but to fragments from missiles intercepted in the air, suggesting defense systems were active during the attack.\n\nResidents in affected neighborhoods are dealing with structural damage to homes and vehicles in the streets.",
+      "country": "Bahrain",
+      "countries": [
+        "Bahrain"
+      ],
+      "type": "Armed Conflict",
+      "lat": 26.127575,
+      "lng": 50.497345,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/11/video-shows-aftermath-of-iranian-attack-in-bahrain?traffic_source=rss",
+      "prayer": "An 11-year-old girl and Bahrain residents caught in missile strikes and falling debris",
+      "alert_summary": "Iranian strikes on Bahrain damaged cars, homes, and buildings; 1 girl, age 11, was injured by falling debris."
+    },
+    {
+      "wp_id": 6245,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-muzaffarabad-2/",
+      "date": "2026-06-11T17:13:01",
+      "title": "Armed Conflict in Muzaffarabad",
+      "body": "A Pakistani army Mi-17 transport helicopter went down near Muzaffarabad, the regional capital of Pakistan-administered Kashmir, after developing a technical fault during take-off. All 22 people on board were killed, including one colonel, two other officers, and 19 soldiers. The military's media wing confirmed the crash and said an inquiry has been ordered to find the exact cause.\n\nThe victims received formal military burials the following day, with flag-draped coffins carried by an artillery unit based in the region.\n\nThe crash took place during a period of heightened security in Kashmir, where violent clashes between security forces and a banned civil society alliance had left at least 11 people dead over the preceding weekend. Officials stated there was no connection between the unrest and the helicopter accident. Pakistan's army has operated Mi-17 helicopters for decades in the country's northern high-altitude terrain, where the fleet has experienced occasional accidents.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 34.373383,
+      "lng": 73.47093,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/11/at-least-22-killed-as-pakistani-military-helicopter-crashes-in-kashmir?traffic_source=rss",
+      "prayer": "22 military families in Pakistan-administered Kashmir grieving sudden loss of soldiers and officers",
+      "alert_summary": "A Pakistani army helicopter crashed near Muzaffarabad, killing all 22 personnel on board including one colonel and two other officers."
+    },
+    {
+      "wp_id": 6244,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kharg-island/",
+      "date": "2026-06-11T17:12:46",
+      "title": "Armed Conflict in Kharg Island",
+      "body": "The United States and Iran have exchanged strikes over two days, with US attacks hitting the port city of Bandar Abbas, Qeshm Island, and the southern towns of Sirik, Minab, and Karaj. Iran has struck US bases in Bahrain, Kuwait, and Jordan, and announced the full closure of the Strait of Hormuz, a key waterway for global oil shipping.\n\nOn Thursday, the US president posted public threats to strike Iran \"very hard\" and to seize Kharg Island, which handles about 90 percent of Iran's crude oil exports. Iran's foreign ministry said the latest US strikes made the existing pause in fighting \"practically meaningless.\"\n\nNegotiations remain ongoing, with disputes reportedly centered on Iran's nuclear programme, control of the Strait of Hormuz, and the release of approximately $100 billion in frozen Iranian funds. Civilians and communities across the region face continued disruption as fighting and diplomacy proceed simultaneously.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 29.245,
+      "lng": 50.31,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/11/trump-says-us-will-be-taking-kharg-island-in-latest-iran-war-threat?traffic_source=rss",
+      "prayer": "Civilians in Iran facing ongoing strikes and the threat of wider conflict affecting energy infrastructure",
+      "alert_summary": "The US struck multiple Iranian sites while Iran closed the Strait of Hormuz, as ceasefire negotiations stalled."
+    },
     {
       "wp_id": 6220,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-afghanistan/",
       "date": "2026-06-11T03:51:23",
       "title": "Armed Conflict in Afghanistan",
-      "body": "Pakistani aircraft carried out strikes inside Afghan territory, killing at least 13 people according to Taliban authorities. The strikes mark an escalation in ongoing tensions between Pakistan and Taliban-governed Afghanistan, which have clashed repeatedly over border security and militant activity.\n\nThe Taliban condemned the strikes as an attack on Afghan soil. Pakistan has previously launched cross-border operations targeting militant groups it says use Afghan territory as a base for attacks inside Pakistan. The Taliban denies supporting those groups.\n\nCivilians in the affected areas face danger from continued air activity, and the situation along the Pakistan-Afghanistan border remains unstable.",
+      "body": "An airstrike in Afghanistan killed 13 people, 11 of them children. The United Nations confirmed the deaths but stopped short of naming which country carried out the strike. The title of the source article references Pakistan as a suspected actor, but the UN did not assign blame.\n\nThe attack drew attention because of the high number of child casualties. Afghanistan has continued to experience airstrikes and armed incidents since the Taliban took control of the country, and cross-border military activity has at times involved neighboring states.\n\nFamilies in the affected area face the loss of children and ongoing uncertainty about safety, with no official accountability named at this stage.",
       "country": "Afghanistan",
       "countries": [
         "Afghanistan"
@@ -18,9 +420,9 @@
       "lat": 33.838806,
       "lng": 66.026471,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR25VMW44d1F3Zzdwd1FjNHlBbnVxN0JkZzFFWllKYXZpN29kdUtFWWd3WkFPbjV6OVQxU25sMVpjalB6ejdHN1cweGt0VUF3RVkwY01TQjFWRkdQTk9SS0piMGRVTWNqejV6OGlwR0NsaVRwUnlQV0hsZzExcHdneTBla1JCNjhGN1BEaFdYb1FGb251?oc=5",
-      "prayer": "Civilians in Afghanistan killed and at risk from cross-border airstrikes along the Pakistani border",
-      "alert_summary": "Pakistani airstrikes killed at least 13 people inside Afghanistan, according to Taliban officials."
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRW5DeUhDRjRuZ1pKa0pHcGszczM5RWNjUXV3R3FPa2tnRDZkdGdJWk9aWWFibm9HVUFSdmtnaklqd0FvVXFGNlMwdWVuRGJ2ZHBuS3dNeERPM2tzdFNHenc4OUdPcGhhM0dhUFk4bEJtcldIZXFWeGZfUmpFdHVydGJBSnFzbWkzZllvcVZ1VmdGeXAzTW5pV2VnQW04WThNQ0Z0N2FET0F3c2dNSGoyYktteG9VNXJSOVNCVktrT2RYTUl2T3ozWG5zYmtOUdIB0wFBVV95cUxOMHhDTWdBMDNsYzRQV3FSN0EyY0JuRWZuckg0b3I3U2ZXWHhyWC1SR3BQZDNtd1NFVnNXOEtTYkZjRHpxVTFxbnNhc1ZoVmlROGxRWUJfeXVCVzFCbmNpV2VmTV96dkt2dldrRGx5bFdkS2w5cmZDM1RheGw5OFhqMm8tTWlqcTRlNWtELS1xZ0pQVkFzSlBreHRwVExGRTN2MmxfS1k0M0UzTXlPZXhrYzJvSTVRbVNmcTk0dGFYT0p3enJZVzFyUVZsY080TzMxQllB?oc=5",
+      "prayer": "Eleven children and two others in Afghanistan killed in an airstrike",
+      "alert_summary": "An airstrike in Afghanistan killed 13 people, including 11 children, according to a UN report."
     },
     {
       "wp_id": 6219,
@@ -152,19 +554,19 @@
       "wp_id": 6211,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-fasher/",
       "date": "2026-06-11T03:48:25",
-      "title": "Armed Conflict in El Fasher",
-      "body": "A drone strike carried out by the Rapid Support Forces (RSF) hit El Fasher, a city in Sudan's Darfur region, killing eight people. El Fasher is the last major city in Darfur not under RSF control and has been under siege for months.\n\nThe city has been a focal point of the wider conflict between Sudan's military and the RSF, which began in April 2023. Civilians in El Fasher have faced repeated attacks, and aid organizations have warned of a worsening humanitarian situation there.\n\nResidents of the city have few options for escape, and those who remain face ongoing danger from strikes and shortages of food and medical supplies.",
+      "title": "Civil Unrest in El Fasher",
+      "body": "Medical workers in El Fasher, Sudan, report that nearly 2,400 people are being held in detention under harsh conditions. The accounts come from medics working in the area, who raised concern about the treatment and circumstances facing those detained.\n\nEl Fasher, the capital of North Darfur, has been a focal point of Sudan's ongoing war. The city has faced fighting and blockades that have made it difficult for civilians and aid workers to operate normally.\n\nDetention on this scale, combined with difficult conditions, puts significant strain on already limited medical and humanitarian resources in the area. Civilians in El Fasher continue to face risks from both the conflict and the conditions it creates on the ground.",
       "country": "Sudan",
       "countries": [
         "Sudan"
       ],
-      "type": "Armed Conflict",
+      "type": "Civil Unrest",
       "lat": 13.623824,
       "lng": 25.355556,
       "source_title": "\"Sudan RSF OR fighting OR airstrike OR El Fasher when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUzlwMmdZWUZtMFZUVGpPQXZzaHl6aUFyczFjN1E2UThWSmFvMmtMYlFNNFFESDhaQWswSmI5OWM2V1BBM3RQMS1aZWs0SHJNOUYxaXVPUXNoTnhlYzRLeGZVTnpCYkc4N3dLUG81ZXFVVlY3SUwxaFItb2ZaRW94NXdRdw?oc=5",
-      "prayer": "Civilians in El Fasher killed and wounded by drone strikes amid ongoing conflict",
-      "alert_summary": "An RSF drone strike on El Fasher, Sudan, killed eight people."
+      "source_url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQdlhMWF9odmNkLTUxMlZCWWx3VnJDQ0hHT2U1SloyYTE4WDB5Tm5lcXJpeGhQcDZ6R1A4MVZKVm0xckxtTVRnWjQtQmZ1a1laYVlOV2JkOWEwc1pvVFZUTG9faUpKRGhVNjMxcDZrVlZOUUFwalVLT3dUQ0R2dmEyODlYWFpRVTRNN0hHX3BtMUVoeFJIb3J5NUlhWVhKV0dDZ1VjM2Q2Nmp1UG5idzFCQkZ6aTNmUVRYZmoyc0lCcmRIbVJicFVhVW1oZ1dYUVFxa2lacXBxX0gwSnh3dnNsWUFnQ0ppN3N5S2ZBVGJ6M3dPVmIxeVJaMEhjbE9ZaDU5T3ktUFFuaEhwSzV2T253MHdYbVBPX0toQmppbzhMUDVpR0NpbGhUb0xURWtnR184aFVSTFZ0WXBEWXI5UG9LS09NQVRJTEtvZ2hqemFPVk1qdko2XzlnMzNUR3VIcjU4SVBmVk1oRXItWGpjUjRxdjFILTRKNU1STWJyaV9GSHAzMUZBSkJNd3hrZmI4MXRHd1E?oc=5",
+      "prayer": "Nearly 2,400 detainees in El Fasher held under harsh conditions during ongoing war",
+      "alert_summary": "Medics report nearly 2,400 people detained in El Fasher, Sudan, under harsh conditions amid ongoing war."
     },
     {
       "wp_id": 6210,
@@ -404,19 +806,19 @@
       "wp_id": 6189,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sidon/",
       "date": "2026-06-11T03:40:25",
-      "title": "Armed Conflict in Sidon",
-      "body": "An Israeli strike hit a vehicle in the southern Lebanese city of Sidon, killing two people. The fire from the struck car spread to nearby vehicles.\n\nThe attack came after a ceasefire was announced by the United States on April 16. Israeli strikes on Lebanon have continued despite that announcement.\n\nSidon is a coastal city in southern Lebanon with a significant civilian population. Residents in areas where strikes are ongoing face ongoing risk from fire and secondary damage spreading beyond the initial target.",
+      "title": "Armed Conflict in south Lebanon",
+      "body": "Airstrikes killed 13 people in southern Lebanon, according to Lebanese sources cited by Reuters. The strikes are part of continued military activity in the south of the country.\n\nResidents in the affected areas face ongoing danger from aerial bombardment. The report gives no further details on the specific locations struck, the identities of those killed, or whether any additional casualties were reported.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
       ],
       "type": "Armed Conflict",
-      "lat": 33.563423,
-      "lng": 35.371685,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/israeli-strike-on-a-car-kills-two-in-sidon-lebanon?traffic_source=rss",
-      "prayer": "Two people killed in an airstrike on a vehicle in Sidon, Lebanon",
-      "alert_summary": "An Israeli airstrike on a vehicle in Sidon killed two people and set nearby cars on fire."
+      "lat": 33.564733,
+      "lng": 35.374978,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaFNfbjUycVFFUU1xa2lGeUcwSk1IR24waTJfWFJqRVNyZURONmRhb3hDbk1LYlhHMVdVMEo0NFByMDZMZlVwVjBxM0RIc0tMMTMzM0F3QVdxU3FvUmtKenRFU1Q4aHZqanBsRnlhcXBHY2NRMTR5WS1fSVN1dFFOd0lwVkpkTnlqVWF4UWF2ams2RnBNS2U5QTktbjRRSnVLcTZsSFVoazc2NVhNaC15SUJPNUZ6dw?oc=5",
+      "prayer": "Thirteen people killed in south Lebanon airstrikes and the communities living under ongoing bombardment",
+      "alert_summary": "Airstrikes killed 13 people in south Lebanon, according to Lebanese sources."
     },
     {
       "wp_id": 6188,
@@ -8292,379 +8694,6 @@
       "source_title": "",
       "source_url": "",
       "prayer": "Civilians across Ukraine killed amid ongoing strikes and deeply uncertain ceasefire negotiations"
-    },
-    {
-      "wp_id": 2228,
-      "wp_link": "https://globalwitnessmonitor.com/un-warns-of-worsening-human-rights-crisis-in-mali-after-deadly-attacks/",
-      "date": "2026-05-05T23:57:49",
-      "title": "UN warns of worsening human rights crisis in Mali after deadly attacks",
-      "body": "<p>The human rights situation in Mali is deteriorating rapidly following coordinated attacks by armed groups across the country. Civilians have been killed, displaced, and cut off from food and humanitarian aid, according to the UN human rights office, OHCHR. The breadth of the attacks across the country signals an escalating pattern of violence affecting the civilian population broadly, compounding existing humanitarian challenges in the region.</p>\n<p>The OHCHR warning underscores the growing difficulty aid organizations and field personnel face in reaching affected populations, as access corridors are increasingly threatened by armed group activity.</p>\n<p>Mission Note: Field workers operating in Mali should assess all travel routes and aid delivery schedules in light of active, coordinated armed group movements that are restricting humanitarian access across multiple areas of the country.</p>",
-      "country": "Mali",
-      "countries": [
-        "Mali"
-      ],
-      "type": "Armed Conflict",
-      "lat": 17.3503,
-      "lng": -1.2521,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians in Mali killed, displaced, and cut off from food and aid amid escalating armed group attacks"
-    },
-    {
-      "wp_id": 2227,
-      "wp_link": "https://globalwitnessmonitor.com/in-lebanon-the-same-fears-and-dangers-persist-despite-ceasefire-unhcr/",
-      "date": "2026-05-05T23:57:37",
-      "title": "In Lebanon, the same fears and dangers persist despite ceasefire: UNHCR",
-      "body": "<p>Despite a ceasefire that took effect on 17 April, death and destruction have continued in Lebanon, with communities still unable to return to their homes. Humanitarian officials, including representatives from UNHCR, reported that the dangers and fears persisting across affected areas remain largely unchanged from active conflict conditions. The ceasefire has not produced the security conditions necessary for displaced populations to safely return to their communities, according to the UN News report.</p>\n<p>The situation signals that a formal ceasefire agreement has not translated into meaningful ground-level stability, leaving humanitarian access and civilian safety unresolved. Displacement remains a critical concern, with residents unable to assess or rebuild amid continued threats.</p>\n<p>Mission Note: Field workers and mission personnel operating in or planning movement into Lebanon should not treat the ceasefire as an indicator of normalized security conditions, as displacement, danger, and ongoing destruction are still being reported by humanitarian monitors on the ground.</p>",
-      "country": "Lebanon",
-      "countries": [
-        "Lebanon"
-      ],
-      "type": "Displacement",
-      "lat": 33.9203,
-      "lng": 35.888,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Hundreds of thousands of displaced civilians in Lebanon unable to return home despite ceasefire"
-    },
-    {
-      "wp_id": 2226,
-      "wp_link": "https://globalwitnessmonitor.com/us-iran-ceasefire-holds-despite-hormuz-standoff-pentagon-chief-hegseth/",
-      "date": "2026-05-05T23:57:25",
-      "title": "US-Iran ceasefire holds despite Hormuz standoff: Pentagon chief Hegseth",
-      "body": "<p>A ceasefire between the United States and Iran is holding, even as a standoff persists at the Strait of Hormuz where maritime traffic remains stalled. The U.S. Secretary of Defense stated that a security &#8220;dome&#8221; has been established to protect ships transiting the strait, though the protective measure has not resolved the broader disruption to commercial shipping through one of the world&#8217;s most critical maritime chokepoints.</p>\n<p>The Strait of Hormuz carries a significant portion of global oil and energy exports, and continued stalling of traffic in the waterway carries major implications for regional stability and international supply chains. The ceasefire appears fragile, with military posturing continuing even as active hostilities have paused, as reported by Al Jazeera.</p>\n<p>Mission Note: Field workers operating in the Gulf region or dependent on supply chains routed through the Strait of Hormuz should monitor developments closely, as a breakdown in the ceasefire or prolonged shipping disruption could rapidly affect logistics, fuel availability, and regional security conditions.</p>",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Fragile US-Iran ceasefire and ongoing Strait of Hormuz shipping disruption threatening regional stability and global supply chains"
-    },
-    {
-      "wp_id": 2225,
-      "wp_link": "https://globalwitnessmonitor.com/sudan-accuses-ethiopia-uae-of-being-behind-recent-drone-attacks/",
-      "date": "2026-05-05T23:57:13",
-      "title": "Sudan accuses Ethiopia, UAE of being behind recent drone attacks",
-      "body": "<p>Sudan has formally accused Ethiopia and the United Arab Emirates of responsibility for a series of recent drone strikes, stating it possesses evidence that four separate drone attacks were launched from Ethiopian territory using UAE-supplied unmanned aerial systems. The accusation represents a significant escalation in regional tensions, drawing two neighboring or Gulf states into direct allegations of involvement in Sudan&#8217;s ongoing conflict environment. As reported by Al Jazeera, the Sudanese government&#8217;s public attribution of these strikes signals an intent to internalize the conflict&#8217;s external dimensions diplomatically, though no immediate international response from Ethiopia or the UAE was noted in the source material.</p>\n<p>Mission Note: Field workers operating in Sudan should treat airspace-related threats as an active and expanding risk, particularly given allegations of cross-border drone operations that suggest conflict dynamics extend well beyond domestic front lines.</p>",
-      "country": "Sudan",
-      "countries": [
-        "Sudan"
-      ],
-      "type": "Armed Conflict",
-      "lat": 13.8315,
-      "lng": 30.0499,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Sudanese civilians facing escalating conflict as cross-border drone strikes intensify across the country"
-    },
-    {
-      "wp_id": 2224,
-      "wp_link": "https://globalwitnessmonitor.com/boko-haram-attack-kills-23-soldiers-in-chads-lake-chad-region/",
-      "date": "2026-05-05T23:56:56",
-      "title": "Boko Haram attack kills 23 soldiers in Chad’s Lake Chad region",
-      "body": "<p>A Boko Haram attack on the island of Barka Tolorom in Chad&#8217;s Lake Chad region killed 23 soldiers, according to the Chadian army. The armed group, described as Nigeria-based, carried out the assault in one of the most persistently volatile zones in the Lake Chad Basin. The Lake Chad region has long been a flashpoint for Boko Haram activity, with the group exploiting the area&#8217;s remote islands and ungoverned waterways to conduct cross-border operations against military and civilian targets in Chad, Nigeria, Niger, and Cameroon. The Chadian army&#8217;s confirmation of the casualty figures, as reported by Al Jazeera, signals a significant tactical strike against government forces in the region.</p>\n<p>Mission Note: Field workers and mission personnel operating in or near the Lake Chad Basin should treat this attack as confirmation of active and lethal insurgent capability in island and lakeside communities, and should review evacuation routes and communication protocols accordingly.</p>",
-      "country": "Chad",
-      "countries": [
-        "Chad"
-      ],
-      "type": "Armed Conflict",
-      "lat": 10.1417,
-      "lng": 15.7349,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Twenty-three soldiers killed in Chad amid ongoing Boko Haram insurgency in the Lake Chad region"
-    },
-    {
-      "wp_id": 2223,
-      "wp_link": "https://globalwitnessmonitor.com/uae-comes-under-iranian-attacks-for-second-consecutive-day-ministry/",
-      "date": "2026-05-05T23:56:43",
-      "title": "UAE comes under Iranian attacks for second consecutive day: Ministry",
-      "body": "<p>The United Arab Emirates has reported incoming missile and drone attacks for a second consecutive day, according to its Ministry, marking a significant escalation in the Gulf region. Iranian authorities have denied involvement, stating that their forces have not carried out any missile or drone operations against the UAE in recent days. The contradiction between UAE government claims and Iran&#8217;s denial leaves the attribution unresolved, though the Ministry&#8217;s statement places responsibility on Iranian forces.</p>\n<p>Two consecutive days of aerial attacks against a Gulf state represent a notable escalation with broad regional implications, as reported by Al Jazeera. The nature and scale of the interceptions, as well as the precise locations targeted within the UAE, are not detailed in the available source material.</p>\n<p>Mission Note: Field workers and mission personnel operating in or transiting through the UAE should monitor official government advisories closely, avoid open-air gatherings, and ensure evacuation and shelter-in-place protocols are current given the active aerial threat environment.</p>",
-      "country": "United Arab Emirates",
-      "countries": [
-        "United Arab Emirates"
-      ],
-      "type": "Armed Conflict",
-      "lat": 23.8521,
-      "lng": 54.2562,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Residents and workers across the UAE facing a second consecutive day of incoming missile and drone attacks"
-    },
-    {
-      "wp_id": 2222,
-      "wp_link": "https://globalwitnessmonitor.com/tehran-3-may-2026-3/",
-      "date": "2026-05-05T23:56:20",
-      "title": "Tehran 3 May 2026 #3",
-      "body": "<p>The United States announced the launch of &#8220;Project Freedom,&#8221; a military-backed naval escort operation through the Strait of Hormuz, framed as a humanitarian initiative to guide international shipping safely through the waterway. U.S. Central Command disclosed the deployment of guided-missile destroyers, over 100 land and sea-based aircraft, multi-domain unmanned platforms, and approximately 15,000 service members in support of the operation. The announcement included a conditional threat of force should the operation be interfered with in any way.</p>\n<p>The announcement followed signals that ongoing nuclear-related negotiations remain stalled, with the U.S. indicating it would likely reject Iran&#8217;s fourteen-point proposal. Iran&#8217;s Revolutionary Guards responded by warning that the U.S. faced a choice between what they called an &#8220;impossible&#8221; military operation or a negotiated deal, as reported by International Crisis Group.</p>\n<p>The Strait of Hormuz remains one of the world&#8217;s most strategically sensitive maritime chokepoints, and the current military posture significantly elevates the risk of confrontation in the region.</p>\n<p>Mission Note: Field workers and organizations operating in Iran, the Persian Gulf region, or dependent on regional supply chains should monitor this situation closely, as any miscalculation between U.S. and Iranian forces could rapidly escalate into broader conflict affecting civilian movement and access.</p>",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Coup or Crisis",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Millions of civilians across the Middle East at risk as US-Iran military tensions escalate in the Strait of Hormuz"
-    },
-    {
-      "wp_id": 2221,
-      "wp_link": "https://globalwitnessmonitor.com/iran-crisis-monitor-4/",
-      "date": "2026-05-05T23:56:06",
-      "title": "Iran Crisis Monitor #4",
-      "body": "<p>A four-week-old ceasefire deteriorated sharply on 4 May as Iranian forces struck oil and gas facilities at the Emirati port of Fujairah, a residential area in Oman, and South Korean and Emirati tankers transiting the Strait of Hormuz, injuring civilians in the UAE and Oman. Iranian forces also reportedly fired on U.S. naval vessels. The U.S. military responded by striking seven Iranian fast boats and announced &#8220;Project Freedom,&#8221; a naval escort initiative to assist commercial shipping through the strait — itself a trigger for the Iranian attacks.</p>\n<p>The escalation occurred against a backdrop of stalled U.S.-Iran nuclear talks mediated by Pakistan. Iran&#8217;s fourteen-point diplomatic framework — which conditions nuclear negotiations on prior cessation of hostilities and lifting of the U.S. naval blockade — was rejected by Washington. Iran&#8217;s currency has fallen to record lows, roughly double the pre-war rate against the dollar, as the blockade constrains hard currency reserves. Crisis Group analysis indicates both sides retain escalatory options, with full resumption of hostilities remaining a credible near-term risk.</p>\n<p>Mission Note: Field personnel and logistics teams operating in or transiting the Gulf region, including the UAE and Oman, should treat civilian infrastructure and coastal areas as active risk zones pending stabilization of the maritime confrontation.</p>",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 27.0675,
-      "lng": 56.46,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians in the UAE and Oman caught in escalating maritime strikes amid rising risk of renewed full conflict"
-    },
-    {
-      "wp_id": 2173,
-      "wp_link": "https://globalwitnessmonitor.com/mali-junta-leader-names-himself-defence-minister-after-predecessor-killed/",
-      "date": "2026-05-05T02:46:45",
-      "title": "Mali junta leader names himself defence minister after predecessor killed",
-      "body": "<p>Mali&#8217;s junta leader has appointed himself defence minister following the death of his predecessor, who was killed during a large-scale offensive conducted by combined jihadist and separatist forces. The former defence minister&#8217;s death in what is described as a massive coordinated attack marks a significant escalation in the ongoing conflict facing the Malian transitional government. The appointment signals an effort by the junta leadership to consolidate control over military affairs in the wake of this high-profile loss, as reported by BBC News. The ability of jihadist and separatist forces to operate jointly at sufficient scale to kill a sitting defence minister underscores the severity of the security environment currently facing Mali.</p>\n<p>Mission Note: The demonstrated capacity of combined jihadist-separatist forces to conduct large-scale offensive operations resulting in senior government casualties indicates a deteriorating security environment; field workers operating in Mali should review movement protocols and coordinate closely with regional security networks.</p>",
-      "country": "Mali",
-      "countries": [
-        "Mali"
-      ],
-      "type": "Armed Conflict",
-      "lat": 17.3503,
-      "lng": -1.2521,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Mali's transitional government and civilian population amid escalating jihadist and separatist attacks threatening national stability"
-    },
-    {
-      "wp_id": 2172,
-      "wp_link": "https://globalwitnessmonitor.com/ukrainian-drone-hits-upmarket-moscow-high-rise-ahead-of-victory-day-celebrations/",
-      "date": "2026-05-05T02:46:34",
-      "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
-      "body": "<p>A Ukrainian drone struck an upmarket high-rise building in Moscow ahead of Victory Day celebrations. The attack occurred against the backdrop of a declared unilateral ceasefire by Russia intended to cover the Victory Day period. Russian authorities warned of a massive retaliatory strike on central Kyiv if the ceasefire were disrupted, as reported by BBC News.</p>\n<p>The incident highlights continued Ukrainian drone capability to reach deep into Russian territory, including the capital. The timing — immediately before a major national commemoration — carries significant political and symbolic weight for both sides.</p>\n<p>Mission Note: Field workers and personnel operating in or transiting through Moscow or Kyiv should maintain heightened situational awareness, as escalatory drone exchanges and threatened large-scale retaliatory strikes represent elevated risk to civilian infrastructure in both capitals.</p>",
-      "country": "Russia",
-      "countries": [
-        "Russia"
-      ],
-      "type": "Armed Conflict",
-      "lat": 55.7505,
-      "lng": 37.6175,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Residents of Moscow and Kyiv facing escalating drone strikes and threatened retaliatory attacks during a fragile ceasefire period"
-    },
-    {
-      "wp_id": 2171,
-      "wp_link": "https://globalwitnessmonitor.com/us-strikes-iranian-fast-boats-as-iran-attacks-uae-oil-facility/",
-      "date": "2026-05-05T02:46:18",
-      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
-      "body": "<p>U.S. military forces struck Iranian fast boats in the Strait of Hormuz as Iranian forces simultaneously attacked an oil facility in the United Arab Emirates, according to reporting by BBC News. A U.S.-flagged commercial vessel operated by a major international shipping company successfully transited the Strait of Hormuz under U.S. military escort amid the exchange. The incident reflects an active and volatile threat environment in one of the world&#8217;s most critical maritime chokepoints, through which a significant share of global oil shipments pass.</p>\n<p>Mission Note: Field workers and mission personnel transiting the Persian Gulf region — particularly those relying on maritime or air routes near the Strait of Hormuz or operating in the UAE — should treat the area as an active conflict zone and monitor official travel advisories closely until the situation stabilizes.</p>",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Workers and civilians in the UAE and Persian Gulf region amid active military strikes and maritime conflict"
-    },
-    {
-      "wp_id": 2170,
-      "wp_link": "https://globalwitnessmonitor.com/russia-offers-ukraine-may-8-9-ceasefire-amid-wwii-anniversary-but-threatens-major-reprisals-in-same-breath/",
-      "date": "2026-05-05T02:46:06",
-      "title": "Russia offers Ukraine May 8-9 ceasefire amid WWII anniversary, but threatens major reprisals in same breath",
-      "body": "<p>Russia has unilaterally declared a two-day ceasefire covering May 8–9, coinciding with commemorations of the end of World War II held in Moscow. Ukraine&#8217;s leadership responded by proposing an alternative truce beginning a couple of days earlier. Despite the ceasefire offer, Russia simultaneously threatened major reprisals, introducing significant ambiguity around the sincerity and durability of any pause in hostilities, as reported by Deutsche Welle.</p>\n<p>The competing ceasefire proposals reflect ongoing diplomatic friction between the two parties, with neither side having reached a coordinated agreement. The simultaneous threat of reprisals from Russia raises doubt about whether any halt in fighting would hold in practice.</p>\n<p>Mission Note: Field workers operating in Ukraine should treat any announced ceasefire with caution given concurrent threats of reprisals, maintain existing security protocols, and avoid assuming reduced risk during the May 8–9 window without verified on-the-ground confirmation.</p>",
-      "country": "Russia",
-      "countries": [
-        "Russia"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians and field workers in Ukraine amid competing ceasefire proposals and ongoing threats of renewed hostilities"
-    },
-    {
-      "wp_id": 2169,
-      "wp_link": "https://globalwitnessmonitor.com/uncertainty-continues-over-safety-in-the-strait-of-hormuz/",
-      "date": "2026-05-05T02:45:55",
-      "title": "Uncertainty continues over safety in the  Strait of Hormuz",
-      "body": "<p>Ongoing uncertainty surrounds navigational safety in the Strait of Hormuz following a series of reported strikes and confrontations between Iranian and U.S. forces. The situation has prompted United Nations maritime officials to issue advisories urging all vessels transiting the strait to exercise &#8220;maximum caution,&#8221; as competing claims and counter-claims from both sides have made independent verification of specific incidents difficult.</p>\n<p>The Strait of Hormuz is one of the world&#8217;s most strategically significant waterways, serving as the primary maritime corridor for a substantial portion of global energy shipments. Continued military tension in this chokepoint carries significant implications for commercial shipping, humanitarian logistics, and regional stability.</p>\n<p>As reported by UN News, neither side&#8217;s claims have been fully corroborated, and the fluid nature of the situation adds to operational risk for any vessels operating in or near the strait.</p>\n<p>Mission Note: Field workers and mission logistics teams relying on maritime supply routes through the Persian Gulf region should monitor UN maritime advisories closely and consider alternative routing until the security situation stabilizes.</p>",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 27.0675,
-      "lng": 56.46,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Shipping crews and humanitarian logistics teams facing heightened danger in the Strait of Hormuz amid unresolved military tensions"
-    },
-    {
-      "wp_id": 2168,
-      "wp_link": "https://globalwitnessmonitor.com/mali-leader-goita-takes-defence-post-after-minister-killed/",
-      "date": "2026-05-05T02:45:33",
-      "title": "Mali leader Goita takes defence post after minister killed",
-      "body": "<p>Mali&#8217;s military leader has assumed the defence portfolio following the death of the country&#8217;s defence minister, who was killed in attacks attributed to al-Qaeda-linked militants and Tuareg separatists. The self-promotion consolidates command authority within the junta at a moment of acute security pressure, signaling both the severity of the threat environment and the leadership&#8217;s effort to maintain direct control over military operations.</p>\n<p>The attacks represent a significant escalation, as reported by Al Jazeera, with armed groups demonstrating the capacity to strike high-value government figures. The convergence of jihadist and separatist forces in these operations underscores the complex, multi-actor nature of Mali&#8217;s ongoing insurgency.</p>\n<p>Mission Note: The killing of a senior government official and the junta&#8217;s emergency consolidation of defence command indicate a deteriorating security environment across Mali; field workers and mission personnel should treat movement throughout the country as high-risk and review evacuation protocols accordingly.</p>",
-      "country": "Mali",
-      "countries": [
-        "Mali"
-      ],
-      "type": "Armed Conflict",
-      "lat": 17.3503,
-      "lng": -1.2521,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians and mission workers across Mali amid escalating militant attacks and a deepening security crisis"
-    },
-    {
-      "wp_id": 2167,
-      "wp_link": "https://globalwitnessmonitor.com/extensive-brutality-rebel-attacks-reap-hell-on-congolese-civilians/",
-      "date": "2026-05-05T02:45:12",
-      "title": "‘Extensive brutality’: Rebel attacks reap hell on Congolese civilians",
-      "body": "<p>An ISIL-linked armed group has carried out a campaign of severe violence against civilians in the Democratic Republic of Congo, including torture, killings, and abductions of children, according to reporting by Al Jazeera. The attacks have been characterized as reflecting extensive brutality targeting non-combatant populations. The group&#8217;s activities represent an ongoing threat to civilian safety across affected areas of the country.</p>\n<p>The pattern of violence — encompassing lethal force, abductions, and torture — indicates an organized and sustained insurgent campaign rather than isolated incidents. Such tactics are consistent with methods used by extremist groups to destabilize communities, suppress resistance, and recruit or coerce local populations.</p>\n<p>Mission Note: Field workers and missionaries operating in affected regions of the DRC should treat the presence of ISIL-affiliated actors as a serious security threat requiring heightened movement protocols, local threat assessment, and coordination with trusted regional contacts before any travel.</p>",
-      "country": "Congo",
-      "countries": [
-        "Congo"
-      ],
-      "type": "Armed Conflict",
-      "lat": -1.1729,
-      "lng": 23.1669,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians in the Democratic Republic of Congo facing killings, torture, and child abductions by an extremist armed group"
-    },
-    {
-      "wp_id": 2166,
-      "wp_link": "https://globalwitnessmonitor.com/hormuz-4-may-2026-2/",
-      "date": "2026-05-05T02:44:59",
-      "title": "Hormuz 4 May 2026 #2",
-      "body": "<p>Iran announced on 4 May 2026 that fifteen crew members from the Touska container ship, previously seized by the United States, had returned to Iran. Pakistan facilitated the return of the crew, according to the announcement. No further details regarding the circumstances of the original seizure or the terms of the crew&#8217;s release were provided in the source material.</p>\n<p>This development represents a partial resolution to a maritime detention incident involving an Iranian-flagged vessel in the Strait of Hormuz region, a strategically critical waterway that has historically been a focal point of U.S.-Iran tensions.</p>\n<p>Mission Note: Field workers operating in or transiting through the Persian Gulf corridor should remain aware that U.S.-Iran maritime tensions in the Strait of Hormuz remain active, and any escalation in this waterway could affect regional air and sea access routes.</p>",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Other",
-      "lat": 27.0675,
-      "lng": 56.46,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Fifteen Iranian crew members recently released after maritime detention in the Strait of Hormuz region"
-    },
-    {
-      "wp_id": 2165,
-      "wp_link": "https://globalwitnessmonitor.com/israel-4-may-2026-1/",
-      "date": "2026-05-05T02:44:49",
-      "title": "Israel 4 May 2026 #1",
-      "body": "<p>Hezbollah&#8217;s Secretary General publicly rejected the validity of the ongoing ceasefire between Israel and Lebanon on 4 May 2026, declaring that &#8220;there is no ceasefire in Lebanon, but rather continuous Israeli-American aggression.&#8221; The statement asserted that Israel has violated the ceasefire agreement more than 10,000 times, resulting in an alleged 500 civilian deaths, hundreds of wounded, and thousands of homes and livelihoods destroyed, with additional displacement of residents from their villages. The remarks signal a hardening of Hezbollah&#8217;s public posture toward the ceasefire framework and suggest the group may be preparing a rhetorical or operational escalation, as reported by the International Crisis Group. The civilian toll and displacement figures cited are Hezbollah&#8217;s own claims and have not been independently verified in this source.</p>\n<p>Mission Note: Field workers operating in southern Lebanon or areas near the Israel-Lebanon border should treat the security situation as unstable and monitor for any shift from rhetorical rejection to active hostilities.</p>",
-      "country": "Lebanon",
-      "countries": [
-        "Lebanon"
-      ],
-      "type": "Armed Conflict",
-      "lat": 33.9203,
-      "lng": 35.888,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians in Lebanon facing ongoing displacement, casualties, and uncertainty as ceasefire tensions sharply escalate"
-    },
-    {
-      "wp_id": 2134,
-      "wp_link": "https://globalwitnessmonitor.com/nigeria-summons-south-african-envoy-over-attacks-on-its-nationals/",
-      "date": "2026-05-03T16:38:37",
-      "title": "Nigeria summons South African envoy over attacks on its nationals",
-      "body": "<p>A wave of anti-migrant protests has swept South Africa, with some incidents escalating into violence targeting foreign nationals, including Nigerians. The unrest prompted Nigeria to summon the South African envoy in a formal diplomatic response to the attacks on its citizens, as reported by BBC News.</p>\n<p>The diplomatic action signals the severity of the situation, with the Nigerian government seeking accountability for the safety of its nationals residing in South Africa. Anti-migrant sentiment has periodically fueled episodes of xenophobic violence in South Africa, and this latest wave appears significant enough to trigger an inter-governmental response.</p>\n<p>Foreign nationals, including missionaries and aid workers from West Africa, face elevated personal security risks during periods of heightened xenophobic unrest in urban and peri-urban South African communities.</p>\n<p>Mission Note: Field workers and missionaries of Nigerian or broader African migrant backgrounds operating in South Africa should exercise heightened caution, monitor local unrest indicators, and consider contingency plans for safe movement or temporary relocation if violence escalates in their area.</p>",
-      "country": "South Africa",
-      "countries": [
-        "South Africa"
-      ],
-      "type": "Civil Unrest",
-      "lat": -28.3783,
-      "lng": 23.9137,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Nigerian nationals in South Africa endangered by escalating xenophobic violence and anti-migrant unrest"
-    },
-    {
-      "wp_id": 2133,
-      "wp_link": "https://globalwitnessmonitor.com/russian-strikes-kill-10-as-zelensky-says-ukraine-hits-oil-tankers-and-terminal/",
-      "date": "2026-05-03T16:38:26",
-      "title": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
-      "body": "<p>Russian strikes have killed at least ten people across Ukraine, while Kyiv simultaneously reported drone strikes against Russian &#8220;shadow fleet&#8221; oil tankers and a terminal. Ukrainian officials stated that drones were used to target the tankers, which are associated with Russia&#8217;s sanctions-circumvention oil export network. The dual developments reflect an ongoing exchange of long-range strikes between the two parties, as reported by BBC News.</p>\n<p>The fatalities, reported across multiple locations in Ukraine, underscore the continued risk to civilian populations from Russian aerial and missile attacks. The Ukrainian strikes on oil infrastructure represent an escalation in targeting Russia&#8217;s energy and maritime logistics.</p>\n<p>Mission Note: Field workers operating anywhere in Ukraine should maintain heightened situational awareness given active Russian strikes causing civilian casualties across multiple regions, and ensure emergency evacuation protocols are current.</p>",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 49.3228,
-      "lng": 31.3203,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians across Ukraine killed and endangered by ongoing Russian aerial and missile strikes"
-    },
-    {
-      "wp_id": 2132,
-      "wp_link": "https://globalwitnessmonitor.com/ukraine-drone-attacks-hit-nuclear-power-plant-baltic-port/",
-      "date": "2026-05-03T16:38:15",
-      "title": "Ukraine drone attacks hit nuclear power plant, Baltic port",
-      "body": "<p>Ukrainian drone attacks struck a Russian Baltic port and a nuclear power plant, according to reporting by Al Jazeera. The Ukrainian head of state publicly hailed the operation as the &#8220;successful destruction&#8221; of the port facility. Russia, in response, issued warnings of potential oil price increases, suggesting the strikes may have affected energy infrastructure or export capacity at the targeted port. The dual-target nature of the attack — simultaneously striking energy export infrastructure and a nuclear facility — marks a significant escalation in long-range drone operations.</p>\n<p>The strike on a nuclear power plant carries particular concern for regional safety, as any damage to nuclear infrastructure introduces radiological risk for surrounding civilian populations, including humanitarian and mission personnel operating in the broader region.</p>\n<p>Mission Note: Field workers and mission personnel operating in or transiting through areas near Russian Baltic coastal regions or nuclear facilities should monitor official safety advisories closely and review evacuation contingency plans in light of escalating long-range drone activity.</p>",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Civilians and mission workers in Russia near a nuclear facility and Baltic port struck by long-range drones"
-    },
-    {
-      "wp_id": 2131,
-      "wp_link": "https://globalwitnessmonitor.com/gaza-aid-flotilla-activists-appear-in-israeli-court-after-abduction/",
-      "date": "2026-05-03T16:38:01",
-      "title": "Gaza aid flotilla activists appear in Israeli court after abduction",
-      "body": "<p>Activists associated with a Gaza-bound aid flotilla appeared before an Israeli court following their detention, with a rights group reporting that a court extended their custody by two days to allow for further interrogation. The detainees reportedly alleged mistreatment while in custody. The development was reported by Al Jazeera, which cited a rights organization for information on the court proceedings.</p>\n<p>The incident reflects continued tension surrounding attempted maritime aid deliveries to Gaza and Israel&#8217;s enforcement posture toward such efforts. The extension of detention suggests ongoing legal and security proceedings connected to the interception of the vessel and its passengers.</p>\n<p>Mission Note: Field workers and humanitarian personnel operating near Israeli maritime enforcement zones or involved in aid delivery efforts should be aware that participants in flotilla activities face detention, interrogation, and potential legal proceedings under Israeli security authority.</p>",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "type": "Civil Unrest",
-      "lat": 31.8473,
-      "lng": 34.842,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2112,
-      "wp_link": "https://globalwitnessmonitor.com/six-injured-in-washington-state-school-stabbing/",
-      "date": "2026-05-02T18:22:17",
-      "title": "Six injured in Washington state school stabbing",
-      "body": "<p>A stabbing at Foss High School in Washington state resulted in six individuals being transported to hospital. Five of the victims were students, and one was a security guard. The incident represents a targeted act of violence within an educational facility, as reported by BBC News.</p>\n<p>While this event does not constitute a geopolitical conflict, it reflects localized violence with implications for institutional security protocols in public schools. Details regarding the perpetrator, motive, and current status of those hospitalized are not available at this time.</p>\n<p>Mission Note: Field workers and mission staff operating in the Pacific Northwest should be aware of elevated community tension following school violence incidents, which can affect local partnership activities and event planning in the immediate aftermath.</p>",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Civil Unrest",
-      "lat": 47.2529,
-      "lng": -122.4443,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Students and school staff in Washington state recovering after a targeted stabbing attack on school grounds"
     }
   ]
 }
