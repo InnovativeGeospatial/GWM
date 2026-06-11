@@ -239,7 +239,7 @@
       node.innerHTML = '<div class="d-empty">No reports match current filter.</div>';
       return;
     }
-    var html = events.slice(0, 500).map(function (e) {
+    var html = events.slice(0, 1000).map(function (e) {
       var color = colorForType(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "")
                                   .replace(/\s+/g, " ").trim();
@@ -272,11 +272,7 @@
       var title = (e.title || "").substring(0, 90);
       return '<span class="d-ticker-item">' +
              '<span class="d-ticker-dot" style="background:' + color + '"></span>' +
-             '<strong style="color:' + color + '">' + escHtml(typeLabel) + '</strong>' +
-             '<span class="d-ticker-sep">·</span>' +
              flagHTML(e.country) +
-             '<span>' + escHtml(e.country || "") + '</span>' +
-             '<span class="d-ticker-sep">·</span>' +
              '<span>' + escHtml(dCapFirst(title)) + '</span>' +
              '</span>';
     });
