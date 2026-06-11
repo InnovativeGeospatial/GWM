@@ -286,7 +286,7 @@
     if (countEl) countEl.textContent = events.length + " REPORTS";
     if (liveEl) liveEl.textContent = events.length;
 
-    var html = events.slice(0, 300).map(function (e) {
+    var html = events.slice(0, 1000).map(function (e) {
       var color = colorForType(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
       if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "\u2026";
@@ -319,8 +319,6 @@
       var title = (e.title || "").substring(0, 90);
       return "<span class='c-ticker-item'>" +
              flagHTML(e.country) +
-             "<span>" + escHtml(e.country || "") + "</span>" +
-             "<span class='c-ticker-sep'>\u00b7</span>" +
              "<span>" + escHtml(title) + "</span>" +
              "</span>";
     });
