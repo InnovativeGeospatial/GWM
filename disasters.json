@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-12T05:10:31.920781+00:00",
-  "count": 428,
+  "updated": "2026-06-12T17:10:01.120018+00:00",
+  "count": 438,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6325,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia-3/",
+      "date": "2026-06-12T17:09:55",
+      "title": "Drought in Somalia",
+      "body": "Drought in Somalia has forced about 62,000 people from their homes, according to a warning from the International Organization for Migration about a worsening situation in the country. Officials describe the crisis as rising, with displacement numbers climbing as dry conditions persist.\n\nFamilies who have lost access to water and food sources are leaving their communities in search of aid and resources. The scale of displacement points to conditions that have grown difficult enough to make staying in place impossible for tens of thousands of people.\n\nHumanitarian organizations are calling attention to the situation as needs continue to grow. Somalia has faced recurring cycles of drought in recent years, and the current conditions are adding fresh pressure on communities that were already vulnerable.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Drought",
+      "lat": 5.786396,
+      "lng": 47.325853,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQT3RISUZBV2dHSU8ya3l3VlVmSW9RVEtWSzh0azZPWjBWVGwzandMSDBfSGpoSWhkT2pac0RDY3ItQXJmUTdrMGhoZVNoYndrWENFUDRPcmlVUUEwT19jWjkwMWhpb2dJOXVDVkZNMFhCMWJuNWIwdGo2RFNRRE9iQUszTjBYZTFsdm43cmxLbWpENlEzZUpydzY1MWo0Vk5NT0dnc01vX0YyN0VRZWFsMXJnTzB5dXNVWE1KTTV1UEpCczMzM1pRT0xRSUFKVFZwS1RUeGRxS2J1YkRNN2dIYV95NlZuX0xxdlMyT2JINWZBLVo4MTMtYmhSRy1IVFlnSGR2TVJJSHk0a2NESm5NeUlmc3N1Mkk?oc=5",
+      "prayer": "Sixty-two thousand displaced Somalis facing worsening drought and rising humanitarian need",
+      "alert_summary": "Drought in Somalia has displaced 62,000 people as humanitarian organizations warn of a growing crisis."
+    },
+    {
+      "wp_id": 6324,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-canada/",
+      "date": "2026-06-12T17:07:55",
+      "title": "Disease in Canada",
+      "body": "Health authorities in Newfoundland and Labrador have issued a public advisory about a meningococcal disease outbreak occurring in the central region of the province. Officials are urging residents to be aware of the situation and take precautions.\n\nMeningococcal disease is a bacterial infection that can cause serious illness, including meningitis — an inflammation of the lining around the brain and spinal cord — and bloodstream infections. It can spread through close contact with an infected person and can become life-threatening if not treated quickly.\n\nResidents are encouraged to watch for symptoms such as sudden fever, headache, stiff neck, and sensitivity to light, and to seek medical attention promptly if these appear. Health services are monitoring the outbreak and working to limit its spread in the affected communities.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Disease",
+      "lat": 47.560449,
+      "lng": -52.714386,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA4RXZhRFp1QWM4ZVR3THBzY2hNTWFEMlN6TS12SkdjcDY3N2YwY0hFbldBUXM3RUdGZzdPMVdxdXFHSzJvWTl2bURTaw?oc=5",
+      "prayer": "Residents of central Newfoundland facing a meningococcal disease outbreak",
+      "alert_summary": "A meningococcal disease outbreak has been reported in central Newfoundland; no casualty figures provided."
+    },
+    {
+      "wp_id": 6323,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-china/",
+      "date": "2026-06-12T17:06:13",
+      "title": "Landslide in China",
+      "body": "A mudslide struck a homestay in Hunan Province, southeastern China, killing at least 15 people. The slide occurred during a period of heavy rainfall in the region.\n\nA homestay is a small guesthouse or lodging, often in a rural or scenic area, where guests stay with or near local residents. The location of the building in a rain-soaked area left it vulnerable when the mudslide hit.\n\nNo further details on the number of people injured, missing, or displaced were available from this report. Rescue and recovery efforts were likely underway following the disaster.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Landslide",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYl9aWEN6TTZfb3dRUEJLQURkLTRPQjRSSFZveHY1YzBvbWY4UkEtTEJvOHJCTk55c2hBSms5cGZKS0x2dThCRFZmelcwTXFONWJzMmxSOU1aZW1GOWtoWmc3ZmZEMHZmN0t3VU1TSmd4ZmM1YmFwSlZqS2Y3ZV9VU0xzdkFUaFFQYXYtSGFxV0U4dVhDdTMxdFFFekFqTTFTTjhaSWlrb2Z0bjJYOWc?oc=5",
+      "prayer": "Families in Hunan Province grieving lives lost when a mudslide struck a homestay",
+      "alert_summary": "A mudslide struck a homestay in Hunan Province, China, killing 15 people amid heavy rains."
+    },
+    {
+      "wp_id": 6322,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-3/",
+      "date": "2026-06-12T17:05:55",
+      "title": "Landslide in India",
+      "body": "A landslide in the Upper Siang district of Arunachal Pradesh, India, has killed three people. The incident occurred as a safety probe into conditions in the area was already underway.\n\nUpper Siang is a remote, hilly district prone to landslides, particularly during periods of heavy rainfall. The overlap of the disaster with an ongoing safety investigation suggests authorities had already identified concerns about ground stability in the region.\n\nNo additional figures on injuries or displacement were available from the source. Rescuers and local officials are responding to the situation as conditions are being assessed.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 28.640537,
+      "lng": 95.02637,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGtfNy10NEttZHpQM3prSm1tREFfVmg0TVIzamZycWNpRWhmLUJuMWJmV0dRYmdZeUhTMjl1N2VYVlR4NHZHSTBzV1djTDJ1T2xabUdycGtZTE1Jbnd3NTVfLUlGUHBYV3NmUDUtYnpPdTdHVWtNOEowMzE4S0IzbFVEeHdKUTRFUDJTeHFNZl8xN1V4MkxmaEU5VnhmWk1yeWFhaTdQZw?oc=5",
+      "prayer": "Three people killed in Upper Siang as a safety investigation continues",
+      "alert_summary": "A landslide in Upper Siang, India, killed three people while a safety investigation is underway."
+    },
+    {
+      "wp_id": 6321,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-6/",
+      "date": "2026-06-12T17:05:42",
+      "title": "Earthquake in Philippines",
+      "body": "An earthquake in the Philippines has killed at least 37 people and forced around 32,000 residents from their homes. The scale of displacement points to widespread damage across the affected area, with many unable to return to their properties.\n\nRescue and relief efforts are underway as displaced families seek shelter. The full extent of injuries and structural damage has not been detailed in available reports, but the death toll and number of those uprooted reflect the impact on local communities.\n\nThose in the affected region — including remote areas where access can be difficult — face uncertainty in the days ahead as assessments continue and recovery begins.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXWWNXZll2MHg5c1hiYkQ3d2h5Qi1WRlhYdVJ1MjNBUkpqYlg1a0F0U3RpRVMxLXhrQWt2YUJ2Q0xaRFRnbmZqOTQ5NVV3ZGV1TldzbW8xYw?oc=5",
+      "prayer": "37 families in the Philippines grieving losses and 32,000 people displaced by an earthquake",
+      "alert_summary": "An earthquake in the Philippines killed at least 37 people and displaced 32,000 residents."
+    },
+    {
+      "wp_id": 6320,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-4/",
+      "date": "2026-06-12T17:04:56",
+      "title": "Flood in United States",
+      "body": "One year after flooding killed 13 people in San Antonio, Texas, local officials and residents are reflecting on what has changed and what remains to be done. The anniversary has prompted a review of the city's response and recovery efforts in the months that followed.\n\nThe source focuses on steps taken since the disaster, including any improvements to flood preparedness and infrastructure. San Antonio has faced recurring flood risks, and the deaths from this event brought renewed attention to how the city handles dangerous water conditions during heavy rain.\n\nNo updated casualty or displacement figures were reported in this anniversary coverage. The focus remains on accountability and long-term changes meant to protect residents from future flooding.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 29.424534,
+      "lng": -98.491484,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbGFBWElkY3VJRnJjS2ttems1YlMwclByZTJyUjdjRHBSY1h3VDR0X256MTFFOWhyOWhvdVdkbjl1Qi1FSW93NGFFVEh4bFE4bUFKTjJ5MjlxOHd2cmVQa2RKNUlaa2V0OWFxLWVlWnI0NGlob1B1Rm5rSS0wYVBTX3hSb1FkRGJDSmNZdjRyR2hyaS1xemppaDNBdTJwd04tRTNpUVdWYTFGMUZQdGVWeWZQbFU1S0NrQ2Fz?oc=5",
+      "prayer": "San Antonio families one year after floods killed 13 residents",
+      "alert_summary": "Flooding in San Antonio killed 13 people; report marks one year since the disaster."
+    },
+    {
+      "wp_id": 6319,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-05-15-2025-2/",
+      "date": "2026-06-12T17:04:38",
+      "title": "Disease in Congo 05/15/2025",
+      "body": "An Ebola outbreak in north-eastern Democratic Republic of Congo is spreading into new communities, including a crowded displacement camp in Ituri province. Since the outbreak was declared on May 15, 676 cases have been confirmed and 136 people have died. A further 119 cases are suspected. Only 32 patients have recovered. The outbreak is caused by the Bundibugyo strain of the virus, for which no approved vaccines or treatments exist.\n\nHealth officials warn that new cases are appearing in previously unaffected areas nearly every day, with signs of local transmission rather than just travel from known hotspots. Isolation bed capacity is far below what is needed, and contact tracing remains insufficient to slow the spread.\n\nConditions in displacement camps, where hundreds of people may share a single toilet, have raised serious fears about rapid contagion. Neighbouring Uganda has confirmed 19 cases and two deaths but is reported to have the situation under control.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.666568,
+      "lng": 29.225652,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/12/alarm-as-ebola-spreads-into-new-areas-of-dr-congo?traffic_source=rss",
+      "prayer": "Displaced communities and aid workers in eastern DR Congo facing a spreading Ebola outbreak with no approved treatment",
+      "alert_summary": "An Ebola outbreak declared May 15 has produced 676 confirmed cases and 136 deaths across three DRC provinces."
+    },
+    {
+      "wp_id": 6318,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-3/",
+      "date": "2026-06-12T17:04:25",
+      "title": "Disease in Kenya",
+      "body": "Protests in the central Kenyan town of Nanyuki have turned deadly after clashes broke out between police and demonstrators opposing a US plan to build an Ebola quarantine centre at a nearby military base. Three people have died in connection with the unrest. One was a 17-year-old who had gone to collect a school uniform from a relative and was caught up in the violence. His body was later found at a local mortuary.\n\nThe proposed 50-bed isolation unit at Laikipia Air Base is intended for US citizens affected by the ongoing Ebola outbreak in the Democratic Republic of Congo. The plan has raised public concern about infection risks and a lack of government transparency. A court ordered construction halted, but satellite images suggest work has continued at the site.\n\nA rights group has accused police of using excessive force, including live ammunition and arbitrary arrests. Authorities have not responded to those allegations.",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Disease",
+      "lat": 0.022174,
+      "lng": 37.081802,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/crlw3w84w30o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families in Nanyuki grieving deaths during protests over an Ebola quarantine centre",
+      "alert_summary": "Protests over a planned Ebola quarantine centre in Nanyuki, Kenya, have left three people dead."
+    },
+    {
+      "wp_id": 6317,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-6/",
+      "date": "2026-06-12T17:02:33",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck about 56 kilometers southwest of Sarangani, in the southern Philippines. No details about casualties, damage, or displacement have been reported from this event.\n\nSarangani is a coastal province on the southern tip of Mindanao. Earthquakes of this size occurring offshore can be felt across nearby coastal communities, though the distance from shore may limit the impact on land.\n\nNo further information is available at this time. Conditions are still being assessed.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srf8",
+      "prayer": "Residents near Sarangani, Philippines, following an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck about 56 kilometers southwest of Sarangani, Philippines; no casualty figure reported."
+    },
+    {
+      "wp_id": 6316,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-11-2026-magnitude-5/",
+      "date": "2026-06-12T17:00:58",
+      "title": "Earthquake in Chile 06/11/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 123 kilometers northwest of Vallenar, in the Atacama region of northern Chile. No casualty or damage figures have been reported at this time.\n\nNorthern Chile sits along one of the world's most active seismic zones, where the Nazca Plate pushes beneath the South American continent. Earthquakes in this region are common, and residents are generally familiar with tremors of this size.\n\nNo further details about local impact are available from current reports.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.8153,
+      "lng": -71.6744,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss7x",
+      "prayer": "Residents northwest of Vallenar, Chile, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck 123 km northwest of Vallenar, Chile; no casualty figure reported."
+    },
     {
       "wp_id": 6288,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda/",
