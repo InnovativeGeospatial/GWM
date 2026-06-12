@@ -1,9 +1,297 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-11T17:10:34.771927+00:00",
-  "count": 412,
+  "updated": "2026-06-12T05:10:31.920781+00:00",
+  "count": 428,
   "limit": 500,
   "events": [
+    {
+      "wp_id": 6288,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda/",
+      "date": "2026-06-12T05:10:26",
+      "title": "Disease in Uganda",
+      "body": "A Bundibugyo virus disease outbreak has been reported in the Bundibugyo region of Uganda. According to a study published in the International Journal of Infectious Diseases, regional warning signals were detected before the outbreak took hold, suggesting early indicators were present in surrounding areas prior to confirmed cases.\n\nBundibugyo virus is related to Ebola and spreads through close contact with infected people or animals. It can cause fever, bleeding, and other serious symptoms, and outbreaks in remote areas are especially difficult to contain.\n\nNo specific casualty figures, displacement numbers, or confirmed case counts are available from this source. The source focuses on early warning signals rather than current outbreak status, so the full scope of the outbreak remains unclear from this report alone.",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Disease",
+      "lat": 0.70742,
+      "lng": 30.063846,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWFkyMnZMM2tBUnRVbUkxYlUwM1prZFhmOG11cDZzUWhNWmNzUnl4eFZ5MTAxdEtxUHJuS1dKT09SSWtCNjZqODJKVGF0N0Fud2lBWEVKLXJiZU9ZbEFEU2Vhd05mMW1MMmt6dFJGdlFpazkwbFVRdWJlZWFqOXNPeXMxWS12Wm8?oc=5",
+      "prayer": "Communities in Bundibugyo, Uganda, affected by a virus disease outbreak",
+      "alert_summary": "A Bundibugyo virus disease outbreak was reported in Uganda; no casualty figures available from this source."
+    },
+    {
+      "wp_id": 6287,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-15/",
+      "date": "2026-06-12T05:10:11",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak is ongoing across the Democratic Republic of the Congo and Uganda, according to an update issued in early June 2026. Both countries are affected, with response efforts underway to contain the spread.\n\nEbola spreads through direct contact with the blood or body fluids of infected people. Outbreaks can move quickly across borders, and the involvement of two neighboring countries signals the need for coordinated response between health authorities in both nations.\n\nFull details on confirmed cases, deaths, and the specific areas affected were not available in the source summary. Residents in affected regions and those working in communities across both countries are encouraged to follow guidance from local health officials.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -4.052526,
+      "lng": 13.759599,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMTlOOW5sZ3RVSVNkaXBzemxweUh4TWhWelhlNnJUNkdWWk9WcXRsNDdSb3FmS0lfZ3JsZmhLOGRONEQtZVRUemswVkNfMUt6ZF9kaGRfWE9MODdGclQyMXJYTG55b3ZfUnlkLTliSUNEV0M1a0gzUkJvVGtvMDJwN0M0TklKc0NDaWNtSDlpOGhSMXU5c095dEg4Skx1cnB1LXlQb3hGQzQzRG1RUDJKWUZ1UGhYTXVYMFB4czhTWGgwZ2dXN1laWGRVdTJjdw?oc=5",
+      "prayer": "Communities in the Democratic Republic of the Congo and Uganda affected by an active Ebola outbreak",
+      "alert_summary": "An Ebola outbreak is active across the Democratic Republic of the Congo and Uganda, with no casualty figure reported in available source material."
+    },
+    {
+      "wp_id": 6286,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-4/",
+      "date": "2026-06-12T05:09:10",
+      "title": "Volcano in Indonesia",
+      "body": "Dukono volcano, located on Halmahera island in eastern Indonesia, experienced a sharp increase in activity, with two eruptions and 190 earthquakes recorded within a single day. The volcano is one of Indonesia's most consistently active.\n\nThe combination of multiple eruptions and a high number of earthquakes in such a short window signals heightened unrest at the volcano. Ash from eruptions at Dukono can affect nearby communities and disrupt daily life for residents in the surrounding area.\n\nIndonesia sits on the Pacific Ring of Fire and is home to dozens of active volcanoes. Communities near Dukono are accustomed to periods of elevated activity, but a day with this level of seismic and eruptive events draws close attention from those living and working in the region.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": 0.65,
+      "lng": 127.9,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Db3ZmY2tveGxDd2xWc01Va0wycDVHeXdmQXhuTi1qdHJ6UHhGelN0bWZ4X1F1Z3ljd09IMmg0NzBRbVVrZnI3TlJXZnE5YXkzYVVLNHEyNVZpczg?oc=5",
+      "prayer": "Communities near Dukono volcano on Halmahera island amid ongoing eruptions and earthquake swarms",
+      "alert_summary": "Dukono volcano on Halmahera island produced two eruptions and 190 earthquakes in a single day."
+    },
+    {
+      "wp_id": 6285,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-2/",
+      "date": "2026-06-12T05:08:11",
+      "title": "Landslide in India",
+      "body": "A landslide in Guwahati, in the northeastern Indian state of Assam, killed four people. No additional details about injuries, displaced residents, or the number of homes affected were included in available reporting.\n\nGuwahati sits in a hilly region prone to landslides, particularly during the monsoon season when heavy rainfall can destabilize slopes. Communities built on or near hillsides face recurring risk during this time of year.\n\nLocal residents and families are affected by this loss. Those serving or connected to communities in the Guwahati area should be aware of the dangerous conditions that can accompany seasonal rains in this region.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 26.178963,
+      "lng": 91.751526,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXU1RjRVhSX1VVZExUSkotcGNYa3VILWMyVS1QMVRLRXZkcWZOSjZraTV0Zk9XLXVRdTItMWRRNXg2YlBXYUlNYlYtZk9KWE1jS1ZCdzQyQ2REOTViQ1NBc1BmLWlYTkY3aVExUGM3ZW40MDg?oc=5",
+      "prayer": "Families in Guwahati grieving four lives lost in a sudden landslide",
+      "alert_summary": "A landslide in Guwahati, India killed four people; no further figures reported."
+    },
+    {
+      "wp_id": 6284,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-magnitude-8/",
+      "date": "2026-06-12T05:07:53",
+      "title": "Earthquake in Philippines — Magnitude 8",
+      "body": "A magnitude 7.9 earthquake struck the Philippines, according to footage circulating from the area. The source material includes stringer-gathered video from the aftermath, showing conditions on the ground following one of the more significant earthquakes to hit the country in recent memory.\n\nThe Philippines sits along the Pacific Ring of Fire, making it one of the most earthquake-prone nations in the world. Earthquakes of this size can cause widespread structural damage, trigger landslides, and in coastal areas may raise tsunami concerns.\n\nNo casualty figures, specific affected locations, or damage totals are available from this source alone. Officials and residents in affected areas are likely still assessing conditions. Those with contacts or ministry partners in the Philippines are encouraged to check in on their wellbeing.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LZGkxZ2hxd2NhTDdqU3ZoUzVzS3lUZW9IT1hvbXdpYlNnODBGOVpTcWFocjhVY19DcTRERjd6QlNkaG13aGU1a01uSDJzSktsX1JzS1hoa1FvelFf0gFcQVVfeXFMTktkaTFnaHF3Y2FMN2pTdmhTNXNLeVRlb0hPWG9td2liU2c4MEY5WlNxYWhyOFVjX0NxNERGN3pCU2RobXdoZTVrTW5IMnNKS2xfUnNLWGhrUW96UV8?oc=5",
+      "prayer": "People across the Philippines in the aftermath of a magnitude 7.9 earthquake",
+      "alert_summary": "A magnitude 7.9 earthquake struck the Philippines; no casualty figure reported in source."
+    },
+    {
+      "wp_id": 6283,
+      "wp_link": "https://globalwitnessmonitor.com/tsunami-in-philippines/",
+      "date": "2026-06-12T05:07:32",
+      "title": "Tsunami in Philippines",
+      "body": "An earthquake struck the Philippines, killing at least 35 people. The tremor also set off a tsunami and a landslide, compounding the destruction across affected communities.\n\nResidents faced multiple simultaneous threats as the ground shaking was followed by coastal waves and hillside collapse. The combination of hazards made rescue and relief efforts more difficult for emergency responders working in the area.\n\nThe full scale of damage to homes and infrastructure has not been detailed in available reports. Affected communities will need continued support as they assess losses and begin recovery.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Tsunami",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUmRHTlhuelg4QWNMRmNyRkNrS2p0dmhuOXFfZHRNZG81d0JTRG9VemJqZWp6dXd2WTBNSnRmbVRCOWgtVFh1MzJPa0RxdS1wTzM0S3ZRM0VkZ3hQa3YxSE5aMUhya24tMGdDQ3AyazIzMHZkQzFnRTlCRXBBU3M4anlnTGJZWk9BX1BtMkZxQ3NyV0dRSHg3UWhDNEQ3Ti1yLS1MLVVrRVdXT2Y4eUlkZXJKTFYwMjBJQnQ5dzVMcFJzVndyR28tX2NjaGo2WS1GVzZjd0QzbXdzQlBpejFJb0JGTVRwZThzaFh5aHZZek4?oc=5",
+      "prayer": "Families in the Philippines grieving 35 deaths after an earthquake, tsunami, and landslide",
+      "alert_summary": "An earthquake in the Philippines killed 35 people and triggered both a tsunami and a landslide."
+    },
+    {
+      "wp_id": 6282,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-5/",
+      "date": "2026-06-12T05:07:21",
+      "title": "Earthquake in Philippines",
+      "body": "An earthquake struck southern Philippines and the death toll is still climbing, according to reports. Rescuers and emergency teams are working to reach affected communities as the situation continues to develop.\n\nNo specific casualty numbers or magnitude details were available in the source material. Communities across the affected region are dealing with the aftermath as officials work to assess the full scale of damage and reach those in need.\n\nPeople in the area are urged to stay alert for aftershocks, which are common following earthquakes and can cause further harm to already weakened structures.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 10.636563,
+      "lng": 124.47051,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DM2cwQ3BwOHlJMjJGdVBJMElFLWlQOG9zMm1SaDBDV3ZTRGl2LVdXLUUzNlpSZGU1Sm51YUtTeWxiODlXNnpVSF9velVVejhZcm5tRmxTZUc?oc=5",
+      "prayer": "Communities in southern Philippines as casualties continue rising after an earthquake",
+      "alert_summary": "An earthquake struck southern Philippines and casualties are continuing to rise; no specific figure reported."
+    },
+    {
+      "wp_id": 6281,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-central-african-republic/",
+      "date": "2026-06-12T05:07:02",
+      "title": "Landslide in Central African Republic",
+      "body": "A landslide in the Central African Republic has killed eight people, with several others reported missing in the aftermath. Rescue efforts are ongoing as teams work to account for those unaccounted for.\n\nThe incident adds to a pattern of deadly landslides that affect communities across Central Africa, particularly during periods of heavy rain. The full scope of damage to homes and property in the area has not yet been confirmed.\n\nResidents in the affected area are facing an uncertain situation as officials and rescuers continue their response. Those with missing family members are waiting for news as search efforts continue.",
+      "country": "Central African Republic",
+      "countries": [
+        "Central African Republic"
+      ],
+      "type": "Landslide",
+      "lat": 6.571341,
+      "lng": 20.482826,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVNV9JSkQ0dG9jTWlWaHAtSVBZU0tScmExUFRxdDlBUzV0aXd6enp1bjkzMmFwVGpqWXZYUlRTSWVRR1h2UVhRNUl1RENxQXA5Zlo5WTNiVjFsUWZiU2swSGpvaFY?oc=5",
+      "prayer": "Eight people killed and others still missing after a landslide in the Central African Republic",
+      "alert_summary": "A landslide in the Central African Republic killed eight people and left several others missing."
+    },
+    {
+      "wp_id": 6280,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-philippines/",
+      "date": "2026-06-12T05:06:37",
+      "title": "Storm in Philippines",
+      "body": "Typhoon Man-yi has made landfall in Catanduanes, an island province in the Bicol region on the main Philippine island of Luzon. The storm, described as a super typhoon, struck the area bringing dangerous winds and rain to communities along this stretch of coastline.\n\nCatanduanes lies in one of the most typhoon-prone corridors in the world, and residents in the Bicol region frequently face storm impacts each season. No casualty or displacement figures were available at the time of reporting.\n\nConditions in the affected area are expected to remain hazardous as the storm moves through. Those with connections to communities in Bicol and surrounding provinces should monitor local updates closely.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Storm",
+      "lat": 14.249645,
+      "lng": 121.114759,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EZ0xCZmgwM0FkcDVhNWszbGlzNU9udlpYR0x3X21hSXJ3azE4c19kNUd2NW80QVA3SDhsZ0tWRzhvOXpReTBpOVo3WXJqcVVRWHhnbnh2OGcxMXlJRXFUZmd6VjdueHlSR3hOQWdRZEY?oc=5",
+      "prayer": "Residents of Catanduanes and the Bicol region sheltering as Typhoon Man-yi makes landfall",
+      "alert_summary": "Typhoon Man-yi made landfall in Catanduanes in the Bicol region of Luzon; no casualty figure reported."
+    },
+    {
+      "wp_id": 6279,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-2/",
+      "date": "2026-06-12T05:05:59",
+      "title": "Wildfire in Canada",
+      "body": "A wildfire broke out near Shellbrook, Saskatchewan, spreading quickly enough to trigger an evacuation order for residents in the area. Authorities moved to clear the zone as the fire advanced, though no casualty figures or details on structures lost have been reported at this time.\n\nShellbrook is a small town in central Saskatchewan, and fires in this region can move rapidly across the landscape, particularly during dry or windy conditions. Residents in the affected area were urged to leave as a precaution while firefighters worked to respond to the blaze.\n\nThe full extent of the fire's spread and any damage to homes or property remains unclear as the situation continues to develop.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 53.219448,
+      "lng": -106.388535,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxNYmwzRy1vbnEyWHl2aTFkcEJDR290VVFwQVpXLXk5bW1ZYUMtOXZ6MHVUMTZDbzM1dkdOS2lhNDF2RG9YaFNGUWt6WkxqWlI3WjY1YTIzdWJPeGxRWW50SGMtclRYa1RQanBCeDFVOTVxTVBTTGRmTU9yX0xZWk1URW5QVWhObkRURl9DZm5Ed2ZDcThLamc3cHVWZ2FNc0RGSS1kTW9LT2stcnhDV0VUZzM0RzFHWFJ3b0VHT1FDQUdWY2oycjhHUkp0RFZkOVZNbGdMU2d2UUlwS2NMZjNtY2Q3Q3VGVXNMX1ZWdnNFQkJXY04yNzFoLW85SGFMSktWMkRPU2E1T1BYUHRQaFQtYUhxQ0twUldOSmdZeVl4UmxiMzJTTkQxRGltS1BpMVk0X3BnNDE0WWRPYWlPZXZsVEtVbElmVEFyNW4tVXA3Z0l3VmtJcTNaUG5fczVyaFhpNk0wU1BWT2pIVGZRVU4wTUVzWFVkODNVaXhFa1FXRVczMS1pZXBzLTVLXzJEQQ?oc=5",
+      "prayer": "Residents near Shellbrook, Saskatchewan displaced by a fast-moving wildfire",
+      "alert_summary": "A wildfire near Shellbrook, Saskatchewan prompted an evacuation order; no casualty or damage figure reported."
+    },
+    {
+      "wp_id": 6278,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-3/",
+      "date": "2026-06-12T05:05:25",
+      "title": "Flood in United States",
+      "body": "The East Fork White River at Seymour, Indiana, has risen to minor flood stage, according to a local report. No injuries, deaths, or evacuations were mentioned in the available information.\n\nMinor flood stage typically means water has spilled beyond the riverbanks into low-lying areas nearby, which can affect roads, farmland, and properties close to the river. Residents in flood-prone areas along the river are likely monitoring conditions.\n\nNo figures on displaced residents or damaged homes were included in the source. Conditions may change depending on further rainfall or upstream water levels in the coming days.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 38.95831,
+      "lng": -85.890056,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORWY2eURlOXBzZFBMQUZwTDVPQzQyQnhlWUF3M0ZlbThhN3V5bVM5MjE5R1NDdWlFT0hNSVB1TXpaa3hmTzJSc3NUbEl1QkRpZ09pMHA2cDhzV1h4TVhhNTVLYjRNR1dza0xBaXpwaW45U0NsT0VqcHAwNXZjNEh5QjBBVmR1aDhK?oc=5",
+      "prayer": "Residents near the East Fork White River in Seymour, Indiana, affected by river flooding",
+      "alert_summary": "Minor flooding struck the East Fork White River at Seymour; no casualty figure reported."
+    },
+    {
+      "wp_id": 6277,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-australia/",
+      "date": "2026-06-12T05:05:12",
+      "title": "Flood in Australia",
+      "body": "Areas of south and south-west Sydney were evacuated following flood warnings, according to available reports. Residents in affected neighborhoods were urged to leave their homes as water levels rose across parts of the city.\n\nNo specific figures on the number of people displaced or the extent of property damage were included in the source material. Conditions in the affected areas remained a concern as authorities responded to the flooding.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Flood",
+      "lat": -25.734968,
+      "lng": 134.489563,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RUlNNSjllTXdFODlpTFZvU1BfZTc2dVdETHVERmNvcnZMYVF2SFpsLVl0dHljdE5oTHd1WldnYlBOU1o0Z3RCYkFjdVlmNThDMW1ZTEZ0b081Zmc?oc=5",
+      "prayer": "Residents of south and south-west Sydney evacuated amid rising floodwaters",
+      "alert_summary": "Flood warnings prompted evacuations across south and south-west Sydney; no casualty figure reported."
+    },
+    {
+      "wp_id": 6276,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-06-05-2026-magnitude-5/",
+      "date": "2026-06-12T05:04:27",
+      "title": "Earthquake in Timor Leste 06/05/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 97 kilometers north-northeast of Lospalos, in the eastern part of Timor-Leste. No casualty figures or damage reports were included in the available information.\n\nTimor-Leste sits in a seismically active region, and earthquakes at this distance offshore can still be felt by communities along the coast. Residents in the area may have experienced shaking, though the extent of any impact is not yet known.",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.6807,
+      "lng": 127.2652,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqvk",
+      "prayer": "Residents near Lospalos, Timor-Leste, following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 97 km north-northeast of Lospalos, Timor-Leste; no casualty figures reported."
+    },
+    {
+      "wp_id": 6275,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-06-10-2026-magnitude-5/",
+      "date": "2026-06-12T05:02:02",
+      "title": "Earthquake in Costa Rica 06/10/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 11 kilometers west-southwest of Sardinal, a town on the northwestern coast of Costa Rica. No casualty figures or damage reports are available from the source material.\n\nSardinal is located in the Guanacaste province, a region that experiences seismic activity regularly due to its position along tectonic plate boundaries in Central America.\n\nNo further details on injuries, displaced residents, or structural damage have been reported at this time.",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Earthquake",
+      "lat": 10.51574,
+      "lng": -85.64741,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sry7",
+      "prayer": "Residents near Sardinal, Costa Rica, following a magnitude 5 earthquake offshore",
+      "alert_summary": "A magnitude 5 earthquake struck about 11 km west-southwest of Sardinal, Costa Rica; no casualty figures reported."
+    },
+    {
+      "wp_id": 6274,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-10-2026-magnitude-6-2/",
+      "date": "2026-06-12T05:01:50",
+      "title": "Earthquake in Russia 06/10/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck roughly 33 kilometers off the coast near Ol'ga, a small coastal town in Russia's Primorsky Krai region along the Sea of Japan. No casualty or damage figures have been reported at this time.\n\nEarthquakes of this size can cause shaking felt across a wide area and may rattle buildings, knock items from shelves, and alarm residents, though outcomes vary depending on depth and local construction.\n\nConditions on the ground are not yet fully known, and further information may emerge as local authorities assess the area.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 43.743057,
+      "lng": 135.28609,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss03",
+      "prayer": "Residents near Ol'ga, Russia, following an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck about 33 km off the coast near Ol'ga, Russia; no casualty figure reported."
+    },
+    {
+      "wp_id": 6273,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-06-11-2026-magnitude-5/",
+      "date": "2026-06-12T05:00:56",
+      "title": "Earthquake in Vanuatu 06/11/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 68 kilometers north-northwest of Isangel, on the island of Tanna in Vanuatu. No damage or casualty information was included in the available report.\n\nVanuatu sits along one of the most seismically active zones in the world, and earthquakes of this size are not uncommon in the region. Residents in and around Isangel may have felt the shaking, though earthquakes at this magnitude do not always cause significant damage.\n\nNo further details on depth, timing, or local impact were provided in the source material.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -19.541086,
+      "lng": 169.281088,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssct",
+      "prayer": "Communities near Isangel, Vanuatu, following a magnitude 5 earthquake offshore",
+      "alert_summary": "A magnitude 5 earthquake struck about 68 km north-northwest of Isangel, Vanuatu; no casualty figure reported."
+    },
     {
       "wp_id": 6243,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-sri-lanka/",
