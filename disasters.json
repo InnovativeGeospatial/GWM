@@ -1,9 +1,81 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-13T17:06:59.324484+00:00",
-  "count": 459,
+  "updated": "2026-06-13T17:57:11.071257+00:00",
+  "count": 463,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6418,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-6/",
+      "date": "2026-06-13T17:56:51",
+      "title": "Landslide in India",
+      "body": "A landslide in Teliamura, a town in the northeastern Indian state of Tripura, killed two people. The event has drawn public attention and criticism regarding how authorities handled the response in the aftermath.\n\nQuestions have been raised about whether the disaster response was adequate, suggesting that residents and observers were not satisfied with how quickly or effectively officials reacted to the situation.\n\nTripura, like much of northeastern India, is prone to landslides during the monsoon season due to hilly terrain and heavy rainfall. Communities in the region often face heightened risk during this time of year, and the ability of local agencies to respond quickly can make a significant difference in lives saved.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 23.84023,
+      "lng": 91.63392,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ180c1d4bHFISF9pamlpNWhoRmZwTzdtczJCV1A4N0VKbnNKb2FSd3hBQjd3UE05NUdkSXVYMl92bllZeUl2SFdVcmVRU1BSV0V3QU1ucnVFMVZOUlpYbTVHX0kzNEhDNU1jb0pIM2lObWRiNU9KdHdhR0oyY3gzNlhTS3c0QzNZWlR6SFBNbjJLTHFxX2RSTXh3X2xsOEowZ2M1VzJ0MTRtd2ZYa0ZHTFNtbzFHSnhyVVFpd2JXS0lqQlFh?oc=5",
+      "prayer": "Two people killed in a landslide at Teliamura, Tripura, as questions arise over disaster response",
+      "alert_summary": "A landslide in Teliamura, Tripura killed two people, prompting questions about the disaster response."
+    },
+    {
+      "wp_id": 6417,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-7/",
+      "date": "2026-06-13T17:56:32",
+      "title": "Flood in United States",
+      "body": "Floodwaters in Texas have forced wildlife rescuers into action, with around 70 wild animals pulled to safety as flooding spread across affected areas. The animals were found in danger as rising waters displaced them from their natural habitats.\n\nRescue teams worked to reach and recover the animals, though conditions on the ground remained difficult. No specific location within Texas was named in the source, and details about the types of animals rescued were not provided.\n\nHuman flooding impacts in the region were not detailed in this report, though the scale of the animal rescue effort points to widespread flooding affecting both communities and wildlife across the state.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 31.803973,
+      "lng": -98.822319,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQc1FYUHdDdmFVZFZnUld5UU5pUVRKOE8wYUJ4QmFtYVpQY1ZlZ3h2dzRIeDN5dzhVQ2dGWkZvaVJfVWFfQ2xpc3JmdzlWNEtwR1doYzQzMU82b0o2aUMzYlE0YUpZdzVZcmVDMzU3WFAtTkg0bTI2R3U1bDY5YTBMNlFxOWF3M0F3R3l3VU1HYkEtTWJacVZjb0lmc2hvcF9aMm5TblFTUVk5UldTZV9fMmdDbUpodFJxYm9EcWhhMHhoZXBLZ2d4SFlmRzRwUVJON01sbjZkazR2bEFRRlp1QzBFM045cElnSU5XdlFFRjROMkJGdTYzWFNsVjRwTFNvU3ZkUzRnN3NiOVFoYmF6NEF1QjJ2MUFZUmlJcTQ3end5NDFkTVZqOENLTmFPNFhLSDVJ?oc=5",
+      "prayer": "Wildlife and communities across flood-stricken Texas amid ongoing rescue efforts",
+      "alert_summary": "Flooding in Texas prompted rescuers to save around 70 wild animals; no human casualty figure reported."
+    },
+    {
+      "wp_id": 6416,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-6-2/",
+      "date": "2026-06-13T17:55:28",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred approximately 54 kilometers south-southwest of Sarangani in the southern Philippines. The event was recorded by monitoring agencies, though no details about casualties, damage, or displacement have been reported from this source.\n\nSarangani is a coastal province in Mindanao. Earthquakes in this region are not uncommon, as the Philippines sits along an active seismic zone. Offshore earthquakes of this size can be felt across nearby communities and occasionally cause localized damage.\n\nNo further information about the depth, timing, or impact of this event is currently available from this source. Residents and those with connections to the area are encouraged to monitor local news for updates as more details emerge.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srds",
+      "prayer": "Residents near Sarangani, Philippines, following an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck about 54 km south-southwest of Sarangani in the Philippines."
+    },
+    {
+      "wp_id": 6415,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-13-2026-magnitude-5/",
+      "date": "2026-06-13T17:53:56",
+      "title": "Earthquake in Chile 06/13/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 24 kilometers west of Ovalle, a city in the Coquimbo Region of north-central Chile. No casualty or damage figures were included in the available report.\n\nChile sits along the Pacific Ring of Fire and experiences frequent seismic activity. Earthquakes of this size can be felt by residents across a wide area and may cause minor damage, though the full impact of this event is not yet known.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -30.605057,
+      "lng": -71.20277,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssp1",
+      "prayer": "Residents near Ovalle, Chile, following a magnitude 5 earthquake west of the city",
+      "alert_summary": "A magnitude 5 earthquake struck about 24 km west of Ovalle, Chile; no casualty figures reported."
+    },
     {
       "wp_id": 6378,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-5/",
