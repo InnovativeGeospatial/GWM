@@ -1,9 +1,118 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-12T17:18:11.549334+00:00",
-  "count": 500,
-  "limit": 500,
+  "updated": "2026-06-13T05:14:44.651402+00:00",
+  "count": 506,
+  "limit": 1000,
   "events": [
+    {
+      "wp_id": 6369,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-johannesburg-2/",
+      "date": "2026-06-13T05:14:19",
+      "title": "Armed Conflict in Johannesburg",
+      "body": "At least 12 people were killed and nine others wounded when armed attackers struck a settlement in Johannesburg late at night. The attack is described as coordinated, suggesting multiple perpetrators acting together rather than a single incident of street violence.\n\nSettlement communities in and around Johannesburg are often informal residential areas with limited security infrastructure, leaving residents with few options for protection during nighttime attacks. The timing — around midnight — limited the ability of residents to escape or seek help quickly.\n\nSouth African authorities were reportedly responding to the scene. The motive for the attack and the identities of those responsible had not been confirmed at the time of reporting. Residents of the affected settlement remain exposed while the investigation continues.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Armed Conflict",
+      "lat": -26.204678,
+      "lng": 28.042114,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlJkOUZZdWFjSzlUYVduelhnVjhiWkM0aG01S0ZKejZ4bTVtV1Rpc0YtZmFLWHBuUWdjcGRYRENkWFQ3SmpnM09YS204TWVWbUpLeFVnY0ZZMlZuY2lORFhCM3hNMXFsZUpuNjVKZVJ1WFRLWWQxLUIyb2dVQmZWNW9iWS1SWjQtNS0xWlAwTFNKMHlFZEdmM29zRnRKYVJ2NVh0YjVNWTNkMkRfQ2tpdtIBtgFBVV95cUxQT3ZvNWxUODVhUE1IRXFsVFU4UU45WDl1R09id3ExUTRhbmJLOWpmU0Z6VEFvd2lHOXFQaldEbHhjNUpXLW5OUm1CVkQzU2llNFZoeFE2dlhPM0ZpLTNnMjZ4Um5SbUxPUWZzczUzTkdwcTVLYXJhZG83YmZqTE9LaFhHS2xHQmt5endzZENldlNhY0pxZFpvWWRlTXRvQUJZLUhmWmVlRXpJLXhPdlFGX3ItWGVuZw?oc=5",
+      "prayer": "Residents of a Johannesburg settlement where 12 people were killed in a late-night attack",
+      "alert_summary": "A coordinated late-night attack on a settlement in Johannesburg killed at least 12 people and wounded nine others."
+    },
+    {
+      "wp_id": 6368,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-myanmar/",
+      "date": "2026-06-13T05:13:20",
+      "title": "Coup/Crisis in Myanmar",
+      "body": "A man from the United States has been detained in Myanmar, according to reports, with the arrest connected to a chronicle documenting the country's military coup. Myanmar's military seized power in February 2021, and authorities have since arrested journalists, activists, and foreign nationals for activities they consider threatening to the ruling junta.\n\nForeign nationals detained in Myanmar have faced prolonged imprisonment, with limited access to consular services or legal representation. The United States government has repeatedly called for the release of Americans held in the country.\n\nFamilies and colleagues of those detained in Myanmar often face uncertainty about their loved ones' conditions, as information from inside military-controlled detention facilities is difficult to obtain.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 21.154319,
+      "lng": 96.506921,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHhkTy05bWdCZl8ySnNJLTJISTVzaVY3LS14N1UxbnRyUTN1WVhvc1l0V20yWjFTNWk3Tkc3dG9fYVlDU0VvVTgydmNYdFhjSW15RFQzNEFJekEybWppaXNfUUJWRjBINWJsMTV4ajk4WXp6Z2pleGZPcC1PcU5KMUZfbzh2TzlnTFNtUzl5RnBlMmRmSmZNVXpaV0RQM0ZHa0VRWmdRNjc5MHcxM1NlTUdNWU9FQdIBuwFBVV95cUxNWG5HR05pM0NyazRVNDh1MllLR21CQXNxejg3a3RpY0JDdmZxZWFGdEMwaG10UU9iMF9UUng2Q2dyM1pfaFU1UVhnVUlCbXgzajV2MS1QQWw3VkM3R25YZ1lWVWxhOHJNaXhBbFVtZTYxVURwSWlGeUkyLVpJcWNJZzFQUXl0QzJjT0I3dGhJZ1NaS3JZVlF1QVFIYXVuX25yN2RMZG83U2h4VkhqSm5pT1RWamdOQWswUkRR?oc=5",
+      "prayer": "American businessman detained in Myanmar, family and associates awaiting news",
+      "alert_summary": "Myanmar authorities detained an American businessman reportedly linked to documenting the military coup; no casualty figures reported."
+    },
+    {
+      "wp_id": 6366,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-3/",
+      "date": "2026-06-13T05:12:19",
+      "title": "Armed Conflict in Lebanon",
+      "body": "Hospitals in Lebanon have been struck as fighting continues between Israeli forces and Hezbollah militants. The attacks on healthcare facilities are adding pressure to an already strained system, leaving civilians with fewer places to seek medical care.\n\nAid organizations report the humanitarian situation is worsening as essential services are disrupted. When hospitals are damaged or forced to close, patients already receiving treatment, as well as people injured in new strikes, have nowhere to go.\n\nThe pattern of strikes on health infrastructure raises concern for communities that depend on those facilities, particularly in areas already short of doctors, medicine, and supplies.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167714",
+      "prayer": "Lebanese civilians losing access to hospitals and healthcare amid ongoing strikes",
+      "alert_summary": "Strikes hit hospitals in Lebanon as fighting between Israeli forces and Hezbollah continues; casualty figures not specified."
+    },
+    {
+      "wp_id": 6365,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nizhnekamsk/",
+      "date": "2026-06-13T05:12:07",
+      "title": "Armed Conflict in Nizhnekamsk",
+      "body": "Ukraine has carried out a series of strikes on oil refineries, fuel depots, and pipelines inside Russia, including an attack on a refinery in Nizhnekamsk. Russia's president publicly acknowledged the strikes are causing economic damage, though he insisted Russia would recover quickly and that the attacks would not divide society or derail the invasion of Ukraine.\n\nUkraine says the strikes are retaliation for Russia's ongoing drone and missile attacks on Ukrainian towns and cities. Analysts note that the long-range strikes are reducing Russia's oil production capacity while shorter-range strikes are cutting fuel supplies into Russian-occupied Crimea, where residents are experiencing the worst fuel shortage since 2014.\n\nRussia's president also promised to escalate attacks on Ukrainian infrastructure in response and called again for improvements to Russian air defenses. Ukraine's military leadership separately reported that Ukrainian forces reclaimed more territory in May than they lost, reversing a recent pattern of Russian gains.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 55.620575,
+      "lng": 51.788956,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/12/putin-admits-ukraine-attacks-hitting-russian-economy-society?traffic_source=rss",
+      "prayer": "Civilians in Russia and Ukraine living under ongoing strikes and infrastructure attacks",
+      "alert_summary": "Ukraine struck an oil refinery in Nizhnekamsk and other Russian infrastructure, prompting Putin to acknowledge economic damage."
+    },
+    {
+      "wp_id": 6364,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-dubai/",
+      "date": "2026-06-13T05:11:52",
+      "title": "Coup/Crisis in Dubai",
+      "body": "Reports emerged that the United Arab Emirates had agreed to release billions of dollars in frozen Iranian funds as part of an arrangement to stop Iranian missile and drone attacks on the UAE. Sources cited by Reuters put the total at between $10 billion and $20 billion, with an initial $3 billion said to have already been delivered. The UAE Foreign Affairs Ministry quickly denied the claims, stating that no funds had been released, transferred, or moved through the UAE to Iran.\n\nThe reported arrangement comes as broader US-Iran negotiations appear to be in their final stages. Those wider talks reportedly involve the release of tens of billions in Iranian oil revenues frozen under US sanctions. A UAE official, without confirming specifics, said the country's foreign policy is guided by reducing tensions and supporting peace efforts.\n\nIranian attacks on the UAE during the ongoing conflict had previously emptied hotels in Dubai and prompted some residents to leave the country. Iran is also said to have approached at least two other Gulf states about similar arrangements.",
+      "country": "United Arab Emirates",
+      "countries": [
+        "United Arab Emirates",
+        "Iran"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 25.25809,
+      "lng": 55.297558,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/12/uae-to-unlock-frozen-iranian-funds-amid-us-ceasefire-push?traffic_source=rss",
+      "prayer": "Civilians in the Gulf region caught between ongoing missile attacks and fragile ceasefire negotiations",
+      "alert_summary": "Reuters reported the UAE agreed to release up to $20 billion in frozen Iranian funds in exchange for a halt to Iranian attacks on the UAE."
+    },
+    {
+      "wp_id": 6363,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-bristol/",
+      "date": "2026-06-13T05:11:37",
+      "title": "Civil Unrest in Bristol",
+      "body": "A UK court has sentenced four members of a pro-Palestine group to prison following a 2024 raid on an Israeli arms factory near Bristol. The charges were brought under terrorism laws.\n\nThe group said their aim was to disable drones and weapons they believed would be used against people in Gaza. The sentencing is the latest legal action against activists in the United Kingdom who have targeted facilities linked to arms production.\n\nThe case has drawn attention because of the terrorism charges applied to what the group described as direct action against military equipment.",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Civil Unrest",
+      "lat": 51.453802,
+      "lng": -2.597298,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/aje-onl-nf_uk-court-jails-palestine-action-activists-130626?traffic_source=rss",
+      "prayer": "Four activists jailed in the UK following a raid on an arms factory near Bristol",
+      "alert_summary": "A UK court sentenced four activists to jail for a 2024 raid on an Israeli arms factory near Bristol."
+    },
     {
       "wp_id": 6342,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-fct/",
@@ -45,7 +154,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mandera-2/",
       "date": "2026-06-12T17:15:44",
       "title": "Armed Conflict in Mandera",
-      "body": "Gunmen suspected to be al Shabaab fighters shot and killed two people in Mandera, a county in northeastern Kenya that borders Somalia and Ethiopia. The attack follows a pattern of violence in the region, where al Shabaab has carried out raids on civilians and security forces over many years.\n\nMandera residents live under ongoing threat from cross-border attacks. The area is remote, and security responses can be slow due to the distances involved. Communities there have long faced pressure from the armed group, which continues to operate across the Kenya-Somalia border.\n\nNo additional figures on wounded or displaced were included in the available reporting.",
+      "body": "Al-Shabaab militants attacked a camp belonging to Kenya's Special Operations Group in Mandera, a county in northeastern Kenya near the Somali border. Three officers were wounded in the attack.\n\nMandera has experienced repeated cross-border attacks by al-Shabaab over the years, and security forces maintain a significant presence in the region. The Special Operations Group is one of Kenya's specialized counter-terrorism units deployed to counter the threat in border areas.\n\nResidents in Mandera and surrounding communities live with the ongoing risk of militant activity in the area.",
       "country": "Kenya",
       "countries": [
         "Kenya"
@@ -54,9 +163,9 @@
       "lat": 3.933833,
       "lng": 41.869465,
       "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVk9vQU5mWUxJaF94V2JNc1ZXYXU2eHVFYi11YjBlVV9PVEVXZXBEWWF6bUpaVGlSV1RiZmNoRjYwd2JNRGZJSEhoVHFBbW9uc0h3b0dHeURvVllzUjZrUzhmbDJKWGFIc3B4TUxrYUNJY2FPd0tPREFKX1piQUgzRnZGNC1pdmF6c1BRSldYUVhHS0JpbGpVbjBhTFhVX1p3WVEtOC1lWGM3WFluamtvcEJNWndSUQ?oc=5",
-      "prayer": "Two people killed in Mandera and residents living under threat of armed attacks",
-      "alert_summary": "Gunmen suspected to be al Shabaab shot and killed two people in Mandera, Kenya."
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdlVxYU83M0hvUXMtQTM4eGVvTnZRZ05ibDd2a2hZUUJEZVRvUVROT0JFRkppSDQzM1ZNNDROcnpfYlpGN2xvbHRWNk1HT09fazFZQl95WjBaR0tmTW10UThjQ0hvTjZ4MnN3UVlyNkM1V2I4c2lCb3NJZGVpMFNKTVRwaXo2TXE4MkhnWGFXYVNwOVBiZEZ5YVp0N3htNk5QQXk3bQ?oc=5",
+      "prayer": "Three officers wounded in an al-Shabaab attack on a security camp in Mandera",
+      "alert_summary": "Al-Shabaab attacked an elite Special Operations Group camp in Mandera, wounding three officers."
     },
     {
       "wp_id": 6338,
