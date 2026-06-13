@@ -1,9 +1,135 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-13T17:57:11.071257+00:00",
-  "count": 463,
+  "updated": "2026-06-13T22:40:21.774218+00:00",
+  "count": 470,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6429,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-united-states-06-15-2025/",
+      "date": "2026-06-13T22:37:36",
+      "title": "Heatwave in United States 06/15/2025",
+      "body": "Parts of northern California are facing dangerous heat from Sunday through Tuesday evening. The warning covers foothill and higher-elevation areas of Shasta County, the Shasta Lake area, the Tehama County Coast Range, and western Shasta County at elevations above 3,000 feet. Temperatures are expected to reach up to 110 degrees Fahrenheit.\n\nHealth officials warn that the risk of heat-related illness rises sharply during conditions like these. Residents are encouraged to drink plenty of water, stay indoors in air-conditioned spaces, and avoid direct sun during the hottest parts of the day. Those who must be outside should wear loose, lightweight clothing and limit strenuous activity to early morning or evening hours.\n\nNeighbors and community members are urged to check on elderly relatives and others who may be more vulnerable to the heat.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Heatwave",
+      "lat": 40.585033,
+      "lng": -122.392586,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.159f63577ed50dafa49ab72411f18aa22be7f04b.002.1",
+      "prayer": "Residents across Shasta and Tehama counties, California, enduring dangerous heat through Tuesday night",
+      "alert_summary": "Temperatures up to 110°F are forecast across parts of Shasta and Tehama counties, California, through Tuesday evening."
+    },
+    {
+      "wp_id": 6428,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-poland-06-13-2026/",
+      "date": "2026-06-13T22:36:45",
+      "title": "Storm in Poland 06/13/2026",
+      "body": "An orange-level storm warning has been issued for the central section of Poland's Baltic coastal zone. Winds are forecast from the west at Beaufort force 4 to 6, with gusts reaching force 7 in some areas. Thunderstorms are possible in places, with gusts up to force 9 during those storms.\n\nAuthorities are advising anyone at sea to secure electrical equipment, especially navigation devices, and to stay below deck rather than remaining near tall masts or metal structures during the period of risk.",
+      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
+      "type": "Storm",
+      "lat": 52.12461,
+      "lng": 19.300636,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-poland/0d8146ec-8f95-43a9-aca4-79b2052f1f75?index_info=1&index_area=0&index_geocode=0",
+      "prayer": "People on the water along Poland's central coastline during storm warnings",
+      "alert_summary": "An orange storm alert was issued for Poland's central coastal zone, with wind gusts reaching Beaufort scale 9."
+    },
+    {
+      "wp_id": 6427,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-costa-rica-06-13-2026/",
+      "date": "2026-06-13T22:35:43",
+      "title": "Storm in Costa Rica 06/13/2026",
+      "body": "A tropical wave is moving toward Costa Rica from the west and is expected to arrive in the early hours of Sunday. It will bring rain and downpours to the Caribbean coast and the Zona Norte region, with lighter rain possible in parts of the northern and eastern Valle Central and Guanacaste.\n\nOfficials are urging particular caution in the Sarapiquí River basin and the lowland plains of the Caribbean North and Zona Norte. Soils in these areas are already saturated, raising the risk of flooding. Drainage systems may also be overwhelmed.\n\nResidents in flood-prone areas are advised to stay alert, take precautions against lightning, and follow updates through official channels.",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Storm",
+      "lat": 10.236885185185185,
+      "lng": -84.03157037037036,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://cap-sources.s3.amazonaws.com/cr-imn-es/2026-06-13-21-43-48.xml",
+      "prayer": "Residents of Costa Rica's Caribbean and northern zones facing incoming heavy rains and flooding risk",
+      "alert_summary": "Tropical wave number 10 is approaching Costa Rica, bringing heavy rain warnings to the Caribbean and northern zones."
+    },
+    {
+      "wp_id": 6426,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-13-2025/",
+      "date": "2026-06-13T22:34:44",
+      "title": "Flood in United States 06/13/2025",
+      "body": "Thunderstorms moved through southeastern Jeff Davis County in southwestern Texas on the afternoon of June 13, dropping between half an inch and one and a half inches of rain in a short period. Flash flooding was already underway or expected to begin shortly across the area, affecting small creeks, streams, roads, and low-lying spots.\n\nThe affected area is mainly rural, but the terrain includes many low water crossings that can become dangerous quickly during heavy rain. Officials warned that flooded roads pose a serious risk, noting that most flood-related deaths happen to people inside vehicles.\n\nResidents were urged not to drive through flooded roads and to seek alternate routes rather than attempt to cross any water over a roadway. The warning was in effect through the early evening hours.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.588007,
+      "lng": -103.89473,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd4a79b0f3eb4ce352b5dab3ea3aa15694f1d39f.001.1",
+      "prayer": "Residents in rural Jeff Davis County, Texas navigating flash-flooded roads and low water crossings",
+      "alert_summary": "Flash flooding hit southeastern Jeff Davis County, Texas after thunderstorms dropped up to 1.5 inches of rain."
+    },
+    {
+      "wp_id": 6425,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-13-2024/",
+      "date": "2026-06-13T22:33:29",
+      "title": "Storm in United States 06/13/2024",
+      "body": "A severe thunderstorm moved through north central Kansas on the afternoon of June 13, passing near Concordia and tracking east at 25 mph. The storm brought hail the size of ping pong balls and wind gusts up to 60 mph.\n\nThe affected area spans parts of Republic, Washington, Clay, and Cloud counties. Communities including Concordia, Clyde, Clifton, and Vining faced risk of hail damage to roofs, siding, windows, and vehicles, as well as wind damage to trees and structures. People and animals caught outdoors were at risk of injury.\n\nA tornado watch remained in place for north central Kansas through late evening on the same day, signaling continued risk of dangerous weather across the region.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 39.571577,
+      "lng": -97.659299,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6a788a7233a2ecc21fe8f173e7822009e9b71091.001.1",
+      "prayer": "Residents of north central Kansas in the path of a thunderstorm with damaging hail and winds",
+      "alert_summary": "A severe thunderstorm near Concordia, Kansas brought ping pong ball-size hail and 60 mph wind gusts on June 13."
+    },
+    {
+      "wp_id": 6424,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-08-2026-magnitude-6-3/",
+      "date": "2026-06-13T22:32:36",
+      "title": "Earthquake in Philippines 06/08/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake struck approximately 25 kilometers off the coast of Sarangani in the southern Philippines. The event was recorded by monitoring agencies, though no details on casualties, damage, or displacement have been reported from the source material.\n\nSarangani is a coastal province in the Davao Occidental region of Mindanao. Earthquakes in this area are not uncommon, as the Philippines sits along active fault lines in the Pacific Rim.\n\nNo further information on injuries, structural damage, or official emergency response was available at the time of this report.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srci",
+      "prayer": "Residents near Sarangani, Philippines, after a magnitude 6 earthquake struck offshore",
+      "alert_summary": "A magnitude 6 earthquake struck about 25 km off the coast of Sarangani in the Philippines; no casualty figure reported."
+    },
+    {
+      "wp_id": 6423,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-06-13-2026-magnitude-5/",
+      "date": "2026-06-13T22:31:03",
+      "title": "Earthquake in Mexico 06/13/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 2 kilometers south of Cerro de Piedra, Mexico. No details about casualties, damage, or displacement were included in the available report.\n\nBecause only basic location and magnitude data were provided, the full impact of this event is not yet known. Residents in the area may have felt the shaking, but no further information is available at this time.",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 20.072648,
+      "lng": -102.235569,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssq9",
+      "prayer": "Residents near Cerro de Piedra, Mexico, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck about 2 km south of Cerro de Piedra, Mexico; no casualty figures reported."
+    },
     {
       "wp_id": 6418,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-6/",
