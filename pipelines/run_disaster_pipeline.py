@@ -906,16 +906,17 @@ def _cap_query(sent_iso, limit, offset):
     urg = ", ".join(CAP_URGENCIES)
     cat = ", ".join(CAP_CATEGORIES)
     q = (
-        "query($sent: DateTime!, $limit: Int!, $offset: Int!) { "
-        "public { alerts("
-        "filters: { sent: { gte: $sent }, infos: { severity: [" + sev + "], "
-        "urgency: [" + urg + "], category: [" + cat + "] } }, "
-        "order: { sent: DESC }, pagination: { offset: $offset, limit: $limit }"
-        ") { count items { identifier sent url country { name iso3 } "
-        "infos { event headline description instruction severity urgency category "
-        "areas { areaDesc circles { value } polygons { value } } } } } }"
+        "{ public { alerts("
+        "filters: { sent: { gte: \"" + sent_iso + "\" }, "
+        "infos: { severity: [" + sev + "], urgency: [" + urg + "], "
+        "category: [" + cat + "] } }, "
+        "order: { sent: DESC }, "
+        "pagination: { offset: " + str(offset) + ", limit: " + str(limit) + " }"
+        ") { items { identifier sent url country { name } "
+        "infos { event headline description instruction "
+        "areas { circles { value } polygons { value } } } } } } }"
     )
-    return {"query": q, "variables": {"sent": sent_iso, "limit": limit, "offset": offset}}
+    return {"query": q}
 
 
 def _cap_point(infos):
