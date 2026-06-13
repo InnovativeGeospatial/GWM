@@ -48,7 +48,14 @@ WP_CATEGORY_ID  = int(os.environ.get("WP_CATEGORY_ID", 38))
 MAPBOX_TOKEN    = os.environ.get("MAPBOX_TOKEN", "")
 
 SEEN_FILE    = "/opt/disaster-pipeline/data/seen_articles.json"
-MAX_ARTICLES = 80
+MAX_ARTICLES = 320          # final hard safety ceiling (sum of budgets below)
+# Per-source budgets: guaranteed slots so no single feed crowds out the others.
+# CAP gets the largest share (it's the global official-alert firehose); the rest
+# keep a floor. Raise/lower these to trade coverage against run time + API cost.
+USGS_BUDGET  = 60
+CAP_BUDGET   = 150
+RSS_BUDGET   = 60
+GDELT_BUDGET = 40
 
 # Earthquakes below this magnitude are dropped (editable). Raise to 5.5 or 6.0
 # to thin seismic coverage further.
@@ -913,7 +920,7 @@ def _cap_query(sent_iso, limit, offset):
         "order: { sent: DESC }, "
         "pagination: { offset: " + str(offset) + ", limit: " + str(limit) + " }"
         ") { items { identifier sent url country { name } "
-        "infos { event headline description instruction "
+        "infos { event headline description instruction severity "
         "areas { circles { value } polygons { value } } } } } } }"
     )
     return {"query": q}
@@ -1014,9 +1021,11 @@ def fetch_cap(seen, filter_countries, filter_types):
                 "source": "IFRC Alert Hub", "published": a.get("sent") or "",
                 "country": country, "disaster_type": dtype,
                 "lat": lat, "lng": lng, "cap_id": ident,
+                "_cap_sev": (info.get("severity") or "").upper(),
             })
         if len(items) < CAP_PAGE_LIMIT:
             break
+    candidates.sort(key=lambda c: 0 if c.get("_cap_sev") == "EXTREME" else 1)
     log.info("CAP: %d alerts after filter/dedup", len(candidates))
     return candidates
 
@@ -1148,6 +1157,13 @@ def fetch_all_feeds(seen, filter_countries, filter_types):
     rss_candidates = fetch_rss_feeds(seen, filter_countries, filter_types)
     rss_titles = [c["title"] for c in rss_candidates]
     gdelt_candidates = fetch_gdelt(seen, rss_titles, filter_countries, filter_types)
+    usgs_candidates  = usgs_candidates[:USGS_BUDGET]
+    cap_candidates   = cap_candidates[:CAP_BUDGET]
+    rss_candidates   = rss_candidates[:RSS_BUDGET]
+    gdelt_candidates = gdelt_candidates[:GDELT_BUDGET]
+    log.info("Per-source budget applied: USGS=%d CAP=%d RSS=%d GDELT=%d",
+             len(usgs_candidates), len(cap_candidates),
+             len(rss_candidates), len(gdelt_candidates))
     all_candidates = usgs_candidates + cap_candidates + rss_candidates + gdelt_candidates
     all_candidates = _dedup_earthquakes(all_candidates, seen)
     log.info("Total candidates after EQ dedup: %d", len(all_candidates))
