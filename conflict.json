@@ -1,9 +1,27 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-13T17:17:14.512259+00:00",
-  "count": 532,
+  "updated": "2026-06-13T17:59:24.730046+00:00",
+  "count": 533,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6420,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-fino-sog-camp/",
+      "date": "2026-06-13T17:58:46",
+      "title": "Armed Conflict in Fino SOG camp",
+      "body": "Armed group al-Shabaab launched an attack on the Fino SOG (Special Operations Group) camp, according to a report from Standard Media. Security officers at the camp repulsed the assault. No further details about the timing, number of attackers, or casualties were available in the source material.\n\nSOG camps are part of Somalia's security infrastructure in areas where al-Shabaab remains active. Attacks on these facilities are not uncommon and can affect surrounding communities, particularly when fighting spills beyond the perimeter.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWFktRndoVlR2b1E5LW5zTzhDNnhNMHIwY3hUZFpxS29pSHB4ODBHMy1fNGU1NVJocnl4WHVXalBxdnlaMmp2cmxhU3QxTmxNYXdxSU9IRFM0ODd6eEEzWXdfOEc2YklfWHpCdndueFpuRjN1WWg1dE1mVHNWQUEwaUZMNkhyRnpuVUItOWtVVWliTzV4RTdtNzN3QmRtNm1kX1FVa3NMTjB6ZmpPMUtGeTA2Q0NDY25VOUJTbW05b1BDejVlWWIxTk5nWkFDREU0TFZfX1d30gHWAUFVX3lxTE5YWS1Gd2hWVHZvUTktbnNPOEM2eE0wcjBjeFRkWnFLb2lIcHg4MEczLV80ZTU1UmhyeXhYdVdqUHF2eVoyanZybGFTdDFObE1hd3FJT0hEUzQ4N3p4QTNZd184RzZiSV9YekJ2d254Wm5GM3VZaDV0TWZUc1ZBQTBpRkw2SHJGem5VQi05a1VVaWJPNXhFN203M3dCZG02bWRfUVVrc0xOMHpmak8xS0Z5MDZDQ0NjblU5QlNtbTlvUEN6NWVZYjFOTmdaQUNERTRMVl9fV3c?oc=5",
+      "prayer": "Security personnel and civilians near the Fino SOG camp during an armed attack",
+      "alert_summary": "Al-Shabaab attacked the Fino SOG security camp but was repelled by officers on duty; no casualty figures reported."
+    },
     {
       "wp_id": 6414,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-byazhin-forest/",
@@ -117,7 +135,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-anbar/",
       "date": "2026-06-13T17:14:17",
       "title": "Armed Conflict in al-Anbar",
-      "body": "Iraqi security forces arrested a senior ISIS financier in al-Anbar province, according to reporting from Shafaq News. No further details about the operation, the individual's role, or the circumstances of the arrest were included in the available source material.\n\nAl-Anbar, a large western province bordering Syria and Jordan, has historically been a stronghold for ISIS activity and continues to be an area of active counterterrorism operations. The arrest of a financier suggests ongoing efforts to dismantle the group's financial networks in the region.\n\nResidents in rural and remote parts of al-Anbar have lived with security operations and the lingering presence of ISIS cells for years. Disruptions to militant funding can reduce attack capacity, but operations in the area can also affect the daily movement and safety of local communities.",
+      "body": "Iraqi forces arrested a senior ISIS financier in the al-Anbar province, according to reports. The individual is described as holding a significant role in funding ISIS operations, though further details about the circumstances of the arrest were not provided in available reports.\n\nAl-Anbar, a large western province bordering Syria and Jordan, has long been an area where ISIS has maintained networks and sought to rebuild after its territorial losses. Security operations targeting financial figures are considered important to disrupting the group's ability to pay fighters and fund attacks.\n\nResidents in the area continue to live under the shadow of periodic ISIS activity, including attacks on villages and security posts.",
       "country": "Iraq",
       "countries": [
         "Iraq"
@@ -126,8 +144,8 @@
       "lat": 33.425986,
       "lng": 43.299922,
       "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3VkYXd2dmtsRjJ1NmdxM3JvT2FuYWdQci1zbUJzX3Z0XzJSUlpEZ0JTcjRHLWVWcGtIOHZaMUpvQ0xBLU1KVnFoUy1sbVYwYW5Wb0paa20zNjljS09kVmstZnFiOFI0aEd6NGxMX3dZVWYzNTNPTEh5MEc4bElxZF9yUjB1dmlDSTZIcg?oc=5",
-      "prayer": "Civilians in al-Anbar province amid ongoing ISIS network disruption efforts",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUVA1NER5NHJsWXRsa0d1ZGY2TFJBUFN3OFFyR3otMnN5TGpjdFR1eU1VMnRTYjlBcWVGbFVDc1k4NG1kM3B0ZmZDQjFnRHM0VkhnTmlzR1BxWU9aZWxLUElNZ1MteXRzQzVKRTFCcFUwVHgzOEwxbFh1UkZiWF9MenVOVUNSWFlyQWxXYmNESndRQQ?oc=5",
+      "prayer": "Communities in al-Anbar affected by ongoing ISIS activity and security operations",
       "alert_summary": "Iraqi forces arrested a senior ISIS financier in al-Anbar province; no casualties reported."
     },
     {
@@ -261,7 +279,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince/",
       "date": "2026-06-13T17:11:07",
       "title": "Armed Conflict in Port-au-Prince",
-      "body": "Armed men seized a senior security official in Haiti's capital in what is being described as an unusual abduction at a high level of government. Kidnappings have been widespread in Haiti in recent years, but the targeting of a top security figure marks a notable escalation.\n\nGang activity has severely disrupted life across Port-au-Prince, with armed groups controlling large portions of the city. Abductions have affected ordinary residents, aid workers, and religious leaders — but the seizure of a senior official points to how far armed groups are willing to push their challenge to state authority.\n\nResidents and government employees in the capital face daily uncertainty as the security situation remains difficult for civilians and public workers alike.",
+      "body": "Armed men seized a senior security official in Haiti's capital, Port-au-Prince, in what is being described as an unusual high-level abduction. Kidnappings have become common in Haiti amid widespread gang activity, but the targeting of a top government security figure marks a notable escalation.\n\nHaiti's capital has struggled with gang control over large portions of the city, limiting movement for residents and officials alike. Security forces have faced ongoing pressure as gangs have expanded their influence across neighborhoods and key infrastructure.\n\nThe abduction of a senior official raises immediate concerns about the safety of government personnel and the capacity of authorities to maintain order in the capital.",
       "country": "Haiti",
       "countries": [
         "Haiti"
@@ -270,9 +288,9 @@
       "lat": 18.539766,
       "lng": -72.33548,
       "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb3RLTVFuMzVHQU56TUpTNm5Ba3lWTjRySkx5S3JkcDVXTFNLQzJ1Tnk0Ty01cjVZTXlWMG9LM1hNSXF3clQyYzEyZ3F1X1Q3ZEx4WG9DLS0yRzRUc1k0UDZzR0N0QVBVTUVZbjg2WjJJcWxxZXFydkRpX1IxZk11U2JBRGpiUktKVGtoVEpyN2YtVlNmdk52RFFVUVNYbThZVHhLZThab0NOajB2dEdUS0IxdXRzTjk0UTFjN2puRVptak82LVRmcFU2b3c?oc=5",
-      "prayer": "Top security official abducted by armed men in Haiti's capital amid ongoing gang violence",
-      "alert_summary": "Armed men abducted a top security official in Haiti's capital in what officials called a rare high-level kidnapping."
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNkF2eWYzakdjdThtTURPQ3FneFhsbGQyVzhqNE5RaWRJZ1dNRWN0dmhodEZnNFNIbFYzUGRGMnlPaUs0R1poOWxIMGVSZHlsRm5uOUJPV0hnTk5ZbXhxLThFOHprRUxRUVNnWGF4U181VG5EN1Rla3lJeENkZXNJTERjTTh6OE9fM2dDREZnajNzSUx1bF9oMHBHbTk2ODFhaWVESjdud1BWZ9IBrwFBVV95cUxNUVMxYUw3THhxY1FVNlp0aU56TTNsY2ZrUExWQzAyQzVlWVlUdkpZOWZfUHM2VFRXMjJiVUxHOUZwWk9SbGFGQlc2V1czWVA5UjhjTjVkWEZYN0hTUVBlYU9Scm5kT2dkLWRQbFF0VWxMdUpDQjNFdWYzTXB2MWMwQkNGQ19ucUZ1YlZXaGZnMWxJWjdiOTA3TVF6ejVVRklMNUR6QTJTSl9kMEU3aGxR?oc=5",
+      "prayer": "A top security official in Haiti's capital held after abduction by armed men",
+      "alert_summary": "Armed men abducted a top security official in Port-au-Prince in what officials described as a rare high-level kidnapping."
     },
     {
       "wp_id": 6390,
@@ -514,7 +532,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-3/",
       "date": "2026-06-13T05:12:19",
       "title": "Armed Conflict in Lebanon",
-      "body": "Hospitals in Lebanon have been struck as fighting continues between Israeli forces and Hezbollah militants. The attacks on healthcare facilities are adding pressure to an already strained system, leaving civilians with fewer places to seek medical care.\n\nAid organizations report the humanitarian situation is worsening as essential services are disrupted. When hospitals are damaged or forced to close, patients already receiving treatment, as well as people injured in new strikes, have nowhere to go.\n\nThe pattern of strikes on health infrastructure raises concern for communities that depend on those facilities, particularly in areas already short of doctors, medicine, and supplies.",
+      "body": "Israeli airstrikes hit Lebanon, according to state media. No specific locations, casualty figures, or details about the scale of the strikes were included in the available summary.\n\nThe report appeared alongside a separate claim from Iran that a deal with the United States is close, though that development is unrelated to the Lebanon strikes.\n\nThe situation remains unclear from available details. Residents in affected areas face ongoing uncertainty about security conditions.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
@@ -522,10 +540,10 @@
       "type": "Armed Conflict",
       "lat": 33.920265,
       "lng": 35.888026,
-      "source_title": "UN News - Global perspective Human stories",
-      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167714",
-      "prayer": "Lebanese civilians losing access to hospitals and healthcare amid ongoing strikes",
-      "alert_summary": "Strikes hit hospitals in Lebanon as fighting between Israeli forces and Hezbollah continues; casualty figures not specified."
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?oc=5",
+      "prayer": "Lebanese civilians in areas struck by airstrikes",
+      "alert_summary": "Israel carried out airstrikes on Lebanon, according to state media reports."
     },
     {
       "wp_id": 6365,
