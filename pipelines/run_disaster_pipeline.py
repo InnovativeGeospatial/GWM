@@ -892,6 +892,134 @@ def _dedup_earthquakes(candidates, seen):
     return out
 
 
+CAP_ENDPOINT   = "https://alerthub-api.ifrc.org/graphql/"
+CAP_WINDOW_HOURS = 48           # only alerts sent within this window
+CAP_PAGE_LIMIT   = 100          # alerts per GraphQL page
+CAP_MAX_PAGES    = 5            # safety cap (=> up to 500 alerts/run)
+CAP_SEVERITIES   = ["EXTREME", "SEVERE"]
+CAP_URGENCIES    = ["IMMEDIATE", "EXPECTED"]
+CAP_CATEGORIES   = ["GEO", "MET", "FIRE", "HEALTH", "ENV"]
+
+
+def _cap_query(sent_iso, limit, offset):
+    sev = ", ".join(CAP_SEVERITIES)
+    urg = ", ".join(CAP_URGENCIES)
+    cat = ", ".join(CAP_CATEGORIES)
+    q = (
+        "query($sent: DateTime!, $limit: Int!, $offset: Int!) { "
+        "public { alerts("
+        "filters: { sent: { gte: $sent }, infos: { severity: [" + sev + "], "
+        "urgency: [" + urg + "], category: [" + cat + "] } }, "
+        "order: { sent: DESC }, pagination: { offset: $offset, limit: $limit }"
+        ") { count items { identifier sent url country { name iso3 } "
+        "infos { event headline description instruction severity urgency category "
+        "areas { areaDesc circles { value } polygons { value } } } } } }"
+    )
+    return {"query": q, "variables": {"sent": sent_iso, "limit": limit, "offset": offset}}
+
+
+def _cap_point(infos):
+    """Best-effort lat/lng from CAP area circles (preferred) or polygon centroid.
+    CAP coordinates are 'lat,lon' (latitude first)."""
+    for info in infos or []:
+        for area in info.get("areas") or []:
+            for c in area.get("circles") or []:
+                v = (c.get("value") or "").strip()
+                if v:
+                    head = v.split()[0]
+                    if "," in head:
+                        try:
+                            la, lo = head.split(",")[:2]
+                            return float(la), float(lo)
+                        except ValueError:
+                            pass
+            for poly in area.get("polygons") or []:
+                v = (poly.get("value") or "").strip()
+                pts = []
+                for pair in v.split():
+                    if "," in pair:
+                        try:
+                            la, lo = pair.split(",")[:2]
+                            pts.append((float(la), float(lo)))
+                        except ValueError:
+                            pass
+                if pts:
+                    return (sum(x[0] for x in pts) / len(pts),
+                            sum(x[1] for x in pts) / len(pts))
+    return None, None
+
+
+def fetch_cap(seen, filter_countries, filter_types):
+    """Pull official national alerts from the IFRC Alert Hub GraphQL API
+    (CAP standard). Severity/urgency/category filtered at the query; deduped by
+    the stable CAP identifier across runs. Returns candidates in the same shape
+    as the other fetchers, so they go through Claude + the writer unchanged."""
+    candidates = []
+    run_ids = set()
+    sent_iso = (datetime.now(timezone.utc)
+                - timedelta(hours=CAP_WINDOW_HOURS)).isoformat()
+    headers = {"Content-Type": "application/json",
+               "User-Agent": "GlobalWitnessMonitor/1.0"}
+    for page in range(CAP_MAX_PAGES):
+        body = _cap_query(sent_iso, CAP_PAGE_LIMIT, page * CAP_PAGE_LIMIT)
+        try:
+            r = requests.post(CAP_ENDPOINT, json=body, headers=headers, timeout=30)
+        except Exception as e:
+            log.warning("CAP request error: %s", e)
+            break
+        if r.status_code != 200:
+            log.warning("CAP endpoint -> %s: %s", r.status_code, r.text[:200])
+            break
+        try:
+            payload = r.json()
+            if payload.get("errors"):
+                log.warning("CAP GraphQL errors: %s", str(payload["errors"])[:200])
+                break
+            alerts = (((payload.get("data") or {}).get("public") or {}).get("alerts") or {})
+            items = alerts.get("items") or []
+        except Exception as e:
+            log.warning("CAP parse error: %s", e)
+            break
+        if not items:
+            break
+        for a in items:
+            ident = a.get("identifier") or ""
+            if not ident:
+                continue
+            if ("CAP:" + ident) in seen or ident in run_ids:
+                continue
+            infos = a.get("infos") or []
+            info = infos[0] if infos else {}
+            event = (info.get("event") or "").strip()
+            headline = (info.get("headline") or event).strip()
+            desc = (info.get("description") or "").strip()
+            instr = (info.get("instruction") or "").strip()
+            if not headline and not event:
+                continue
+            country = ((a.get("country") or {}).get("name") or "").strip() or None
+            dtype = detect_disaster_type(event + " " + headline, desc) or "Other"
+            if not matches_filter(country, filter_countries):
+                continue
+            if not matches_type_filter(dtype, filter_types):
+                continue
+            lat, lng = _cap_point(infos)
+            url = a.get("url") or ""
+            title = headline or event
+            summary = " ".join(x for x in [headline, desc, instr] if x)[:2500]
+            run_ids.add(ident)
+            candidates.append({
+                "title": title, "summary": summary, "url": url,
+                "hash": article_hash(url or ident, title),
+                "source": "IFRC Alert Hub", "published": a.get("sent") or "",
+                "country": country, "disaster_type": dtype,
+                "lat": lat, "lng": lng, "cap_id": ident,
+            })
+        if len(items) < CAP_PAGE_LIMIT:
+            break
+    log.info("CAP: %d alerts after filter/dedup", len(candidates))
+    return candidates
+
+
 def fetch_rss_feeds(seen, filter_countries, filter_types):
     candidates = []
     seen_titles = []
@@ -1015,10 +1143,11 @@ def fetch_gdelt(seen, existing_titles, filter_countries, filter_types):
 
 def fetch_all_feeds(seen, filter_countries, filter_types):
     usgs_candidates = fetch_usgs(seen, filter_countries, filter_types)
+    cap_candidates = fetch_cap(seen, filter_countries, filter_types)
     rss_candidates = fetch_rss_feeds(seen, filter_countries, filter_types)
     rss_titles = [c["title"] for c in rss_candidates]
     gdelt_candidates = fetch_gdelt(seen, rss_titles, filter_countries, filter_types)
-    all_candidates = usgs_candidates + rss_candidates + gdelt_candidates
+    all_candidates = usgs_candidates + cap_candidates + rss_candidates + gdelt_candidates
     all_candidates = _dedup_earthquakes(all_candidates, seen)
     log.info("Total candidates after EQ dedup: %d", len(all_candidates))
     return all_candidates[:MAX_ARTICLES]
@@ -1491,6 +1620,8 @@ def main():
                     seen.add("USGS:" + item["usgs_id"])
                 for _s in (item.get("_eq_sigs") or []):
                     seen.add(_s)
+                if item.get("cap_id"):
+                    seen.add("CAP:" + item["cap_id"])
                 published += 1
 
                 if JSON_WRITER_AVAILABLE and not args.no_json:
