@@ -1,9 +1,279 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-14T17:19:05.213734+00:00",
-  "count": 497,
+  "updated": "2026-06-14T23:50:02.783588+00:00",
+  "count": 512,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6530,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-magnitude-8-2/",
+      "date": "2026-06-14T23:49:48",
+      "title": "Earthquake in Philippines — Magnitude 8",
+      "body": "A magnitude 7.8 earthquake struck off the coast of southern Mindanao in the Philippines, killing at least 61 people and leaving at least 40 others missing. The quake originated near the Cotabato Trench, a seismically active zone about 50 kilometres off the southern coast.\n\nBeyond the human toll, the quake pushed the seabed upward by as much as two metres, a geological effect known as coastal uplift. This extended shorelines by up to 200 metres in some areas along the provinces of Sarangani and Davao Occidental, exposing coral reefs and causing widespread harm to marine life.\n\nOfficials from the Philippine environment department confirmed the damage after local residents first reported the changed coastline two days after the quake. The Cotabato Trench had already drawn attention earlier in the year when thousands of small earthquakes were recorded there in January.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.644251,
+      "lng": 123.34406,
+      "source_title": "scmp.com",
+      "source_url": "https://www.scmp.com/news/asia/southeast-asia/article/3357057/deadly-mindanao-quake-raised-seabed-causing-marine-die",
+      "prayer": "Communities across southern Mindanao amid ongoing loss of life and environmental damage from a major earthquake",
+      "alert_summary": "A magnitude 8 earthquake off Mindanao killed at least 61 people and left 40 missing in the Philippines."
+    },
+    {
+      "wp_id": 6529,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-2/",
+      "date": "2026-06-14T23:49:18",
+      "title": "Flood in Pakistan",
+      "body": "A report has highlighted how Pakistan continues to face overlapping climate-related crises — including floods, drought, and rising temperatures — while government institutions have failed to adequately respond to or prepare for these events.\n\nThe report points to a pattern of recurring disasters that leave communities exposed, with gaps in planning, coordination, and relief systems making the situation harder for ordinary people to recover from.\n\nPakistan has long been among the countries most affected by weather-related disasters. Millions of people, many of them already living in poverty, face repeated disruptions to their homes, farmland, and livelihoods. The report suggests that without stronger institutional action, communities will remain vulnerable to future events of this kind.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Flood",
+      "lat": 28.186385,
+      "lng": 67.695237,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRWMtbmVzQXFEOUF6T19PTVdnUjNqcGE4OW5NbW1oRjc4U1pGbDNMbG5JZG5EMXdHNlhaMXlQeXh3T2NkbE9PV3ByWWtZRjZPSVFidno1ckF0dXBmTkxNblJ2RXZOWnd6eHpKR1dNY19JcVJyYkd2TDUtank0TVM1YlVVOFlmSWlTc1ZFczFwNXBramh5RzY0MXdVWmxzV3I2MTZ4Zm1MRnFfbUZJczVBUTUxaUlJRDNaZmhJTDI3R0FOLVFsNHpqSnJqZVJ3VFQ2cUVLVtIB2gFBVV95cUxOU0VwQWdxSTZsdjRVenExQjUtV0JxbmhObHJSdEpXdGN0QnBSOThRZ1kxMVZwZVlybmdJc0lQcFFWVEUway1lTmV5N3FsMTZGYXJkVE9iZFVYNUp0aVVqZ2l4clRjX1BiMU9IdnNZN3NkcjJzYWNqM25JUkZ1bnpUM0xqUy1Ob3EybFJ6WFVaOFdRaEphbTVRUUk5OHRYTEhxUTZWdkRpSzlTZXYzU0oxVVJhUUF5ZE1Xcm1sRjNlaGk3NWZxWkhaaEhNc1R1Z1N3QTdfeU5mTHE1UQ?oc=5",
+      "prayer": "Communities across Pakistan exposed to floods, drought, and rising temperatures amid institutional failures",
+      "alert_summary": "A report links floods, drought, and rising temperatures in Pakistan to failures in government institutions."
+    },
+    {
+      "wp_id": 6528,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-united-states/",
+      "date": "2026-06-14T23:48:27",
+      "title": "Volcano in United States",
+      "body": "A volcano in Hawaii has erupted, prompting warnings from the National Weather Service about ashfall in surrounding areas. Residents in affected zones are being cautioned to take precautions as ash drifts from the eruption site.\n\nVolcanic ash can irritate the eyes, nose, and lungs, and may settle on roads, rooftops, and crops. Officials have advised people to stay informed through local alerts and to limit time outdoors where ash is falling.\n\nNo casualty figures or displacement numbers were included in the available reporting. The situation is developing, and communities near the volcano are being urged to monitor official guidance closely.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Volcano",
+      "lat": 21.304547,
+      "lng": -157.855676,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZXNTVVdCQV9ZQzBjVWUxeFlZOGhZaExkUTBBVDhBWmkzS19mLUNfN0lFamROemZwUWQ3bWpRRWRfTTlWT3laNGtEcWhNS2V1RmZrTDhROTZtX3Q3d2I4OVpsd2ctQVI2NjNTbjQ1TmJrMjFyb2Uwdk9pM2xGdFU2b05TN1RGbFJVUEk1Tw?oc=5",
+      "prayer": "Residents of Hawaii facing ashfall and volcanic activity near their communities",
+      "alert_summary": "A volcano erupted in Hawaii, prompting the Weather Service to warn residents about ashfall."
+    },
+    {
+      "wp_id": 6527,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-niger/",
+      "date": "2026-06-14T23:47:24",
+      "title": "Flood in Niger",
+      "body": "Flooding and dangerous weather conditions have struck Niger, killing at least seven people. Authorities have issued alerts warning of continued risk as the situation develops across the country.\n\nThe source does not specify which regions are most affected or how many people have been displaced. However, the death toll and active weather alert suggest conditions remain dangerous for communities in the area.\n\nNiger is no stranger to seasonal flooding, particularly during the rainy season when rivers can rise quickly and overwhelm low-lying villages. Residents in affected areas are urged to stay aware of local warnings as further rainfall may worsen conditions in the coming days.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Flood",
+      "lat": 9.59396,
+      "lng": 8.105306,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1VMaTRYR1FtWjc2SFhwNUFVdVhERFhWSXN5WTJYX2ZYTHgyZF9waW00NUcwR0doalhoMkRvenYxZVc0bkxDVl9lTGFBbFB3QWNDSkd2SzhISjJkS00wQWZCc2NxUC13V2JHaTlhT2d2Wi1yeVQwMW8xaWxueUM3cFBZZXQzaGxmamNoOUVET3dGeFZET1BuRUdwVVBWdnVoZ0EtRGFNNV80V3FzdGZ5ZnZqM3h4cFRO?oc=5",
+      "prayer": "Families across Niger affected by flooding and at least seven deaths",
+      "alert_summary": "Flooding and related weather in Niger has killed at least 7 people, with alerts ongoing."
+    },
+    {
+      "wp_id": 6526,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-06-14-2025/",
+      "date": "2026-06-14T23:47:06",
+      "title": "Flood in Malaysia 06/14/2025",
+      "body": "Floodwaters affected three districts in the state of Perak, Malaysia on June 14, prompting local authorities to open a relief centre for displaced residents. Seventeen people were evacuated and brought to safety as conditions made some areas difficult to remain in.\n\nPerak is a state on the northwestern coast of peninsular Malaysia, where seasonal rainfall can cause rivers to overflow and low-lying communities to flood. The evacuations suggest that at least some households were unable to stay in their homes during the flooding.\n\nNo casualties were reported in the available information. The situation was still developing at the time of the report, and the number of those affected could change as waters rise or recede across the three districts.",
+      "country": "Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "type": "Flood",
+      "lat": 4.598682,
+      "lng": 101.090024,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSXlYWTl3VEtQLTdwMTlZTW9ocktvaU52dEdJTUVEem5Ed0ZNWExTaEgzVmM0Z1VQNGw0STZfbkljY0NOeXRNSDluOGxKa01oaURUUWdwZ2hoQVlhWnFvYjI0bWMxVWxrZVpJTkhWWWZXeEVmbkowc3kwcnFTaWYtOVZJeDJUdW5PaU1Vb3c1cmVfLXIyRlpyMGN1OUFwODNNelJwbTVxQ3lPOEdaaVNERXkwYzBvUGJONTV4Yw?oc=5",
+      "prayer": "Families in three Perak districts displaced by flooding and sheltering in relief centres",
+      "alert_summary": "Flooding across three districts in Perak, Malaysia prompted evacuation of 17 residents to a relief centre."
+    },
+    {
+      "wp_id": 6525,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-19/",
+      "date": "2026-06-14T23:46:54",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in eastern Congo continues to grow, with authorities reporting 782 confirmed cases and 181 deaths. The figures mark a continued rise in one of the regions already under strain from ongoing conflict and limited access to healthcare.\n\nEbola spreads through direct contact with the blood or bodily fluids of an infected person, making response efforts especially challenging in areas where medical resources are stretched thin and movement of people is difficult to control.\n\nAid workers and health officials are working to contain the outbreak, but eastern Congo's ongoing instability makes that work difficult. Communities in the affected area face compounding pressures as the disease continues to claim lives.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHZmSTVPenc2cjg3YlY0Q2VhRS1zLVRmdnZiSVdXblFEQnQ5cEtlUFpRdGw4a1pkX2Z2eXhvUGx6d0R1eE9VYlk3ZjRCMktpdFVkTGdJU2tHWHdMcVpTYUsxVzFhalVRa1VSdGdlNUVScFhhRWpSUFk0bmN4SXgxUS1ScVEzRm00TnJCMVQzUHNzdW5RYWdYOGpLME9VLUt1UUpHUVNvY0VJTG10YXNKNi1OVHhRalpzcTN2RU8yVnVXZEk?oc=5",
+      "prayer": "Communities in eastern Congo facing a rising Ebola outbreak with 181 deaths",
+      "alert_summary": "An Ebola outbreak in eastern Congo has reached 782 cases and 181 deaths, authorities report."
+    },
+    {
+      "wp_id": 6524,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-costa-rica-06-14-2026/",
+      "date": "2026-06-14T23:42:21",
+      "title": "Storm in Costa Rica 06/14/2026",
+      "body": "Tropical Wave 10 moved into Costa Rica overnight, bringing storms to coastal and maritime areas off Limón, the Caribbean region, and the Zona Norte. Trade winds are blowing at moderate to strong levels across the Caribbean basin, adding to the unsettled conditions.\n\nAs the wave continues westward toward the Pacific, rain and showers are expected to persist through the morning in the Caribbean and Zona Norte. Thunderstorms are forecast for the afternoon across mountainous areas of the Central and South Pacific, the Nicoya Peninsula, and the southeastern North Pacific.\n\nAuthorities have flagged special concern for the Sarapiquí River basin and the northern Caribbean lowlands, where soils are already saturated. Residents in flood-prone areas and urban zones should watch for drainage and drainage channel overflow, and seek shelter if strong wind gusts or storm clouds approach.",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Storm",
+      "lat": 9.993161,
+      "lng": -83.029761,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://cap-sources.s3.amazonaws.com/cr-imn-es/2026-06-14-17-16-22.xml",
+      "prayer": "Communities along Costa Rica's Caribbean coast and northern zone under Tropical Wave 10",
+      "alert_summary": "Tropical Wave 10 brought storms to Costa Rica's Caribbean coast and northern zone, with flooding risk reported."
+    },
+    {
+      "wp_id": 6523,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-15-2025/",
+      "date": "2026-06-14T23:41:32",
+      "title": "Wildfire in United States 06/15/2025",
+      "body": "A fire weather warning is in effect for parts of far southwestern South Dakota and northeastern Wyoming. Conditions on Monday afternoon and early evening will be especially risky, with dry air pushing into the region and humidity dropping as low as 15 percent.\n\nNorthwest winds of 15 to 30 mph, with gusts reaching 40 mph, will combine with that dry air to create conditions where any fire that starts could spread quickly. The warning covers the Fall River County area, the Pine Ridge area, and the Weston County plains.\n\nOfficials are advising against any outdoor burning during this period. The warning runs through Monday evening, after which conditions are expected to ease.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 43.025751,
+      "lng": -102.555647,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5632f16a25461ac53f865f4a3b66a4c34a02fe72.001.1",
+      "prayer": "Residents across southwestern South Dakota and northeastern Wyoming facing high wildfire risk conditions",
+      "alert_summary": "Red Flag Warning issued for parts of South Dakota and Wyoming due to winds up to 40 mph and 15% humidity."
+    },
+    {
+      "wp_id": 6522,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-israel-06-14-2025/",
+      "date": "2026-06-14T23:40:58",
+      "title": "Other in Israel 06/14/2025",
+      "body": "Israeli authorities issued an orange warning for dangerous swimming conditions along the Mediterranean coast. The alert ran from the evening of June 14 through the morning of June 15, covering waters off Israel's shoreline.\n\nDuring this period, residents and visitors were advised to avoid entering the sea. Orange-level warnings indicate conditions considered unsafe for swimmers, likely due to rough surf or strong currents, though no specific figures on wave height or wind speed were included in the alert.\n\nNo injuries or incidents were reported in the source material. Beachgoers in the region were expected to follow guidance from local authorities until the warning lifted mid-morning on June 15.",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Other",
+      "lat": 32.81622511705882,
+      "lng": 34.94149534588235,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-israel/c409051e-066f-403f-8f3e-5091fecc7639?index_info=0&index_area=1&index_polygon=0",
+      "prayer": "Swimmers and coastal communities along Israel's Mediterranean shore during dangerous sea conditions",
+      "alert_summary": "An orange-level sea swimming danger alert was issued for Israel's Mediterranean coast from the evening of June 14 through the morning of June 15."
+    },
+    {
+      "wp_id": 6521,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-poland-06-14-2026/",
+      "date": "2026-06-14T23:38:19",
+      "title": "Storm in Poland 06/14/2026",
+      "body": "An orange storm alert has been issued for Poland's eastern coastal zone. Forecasters are warning of thunderstorms with strong wind gusts, heavy rainfall, and locally hail. Winds are expected from the west at Beaufort scale force 5 to 6, with gusts reaching force 7 to 8.\n\nThe strong winds and rough seas could cause notable damage to coastal features such as sand dunes, embankments, and quaysides. Navigation conditions along the coast are expected to be difficult during this period.\n\nWhen winds shift to come from the north, there is an added risk of flooding in the coastal zone. Residents and visitors are advised to avoid traveling through coastal areas until conditions improve.",
+      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
+      "type": "Storm",
+      "lat": 52.12461,
+      "lng": 19.300636,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-poland/4285aae3-f004-4751-aa23-1122790bfd02?index_info=1&index_area=0&index_geocode=0",
+      "prayer": "Coastal communities in eastern Poland facing storm winds, flooding risk, and rough seas",
+      "alert_summary": "An orange storm alert has been issued for Poland's eastern coastal zone, with strong winds and flood risk reported."
+    },
+    {
+      "wp_id": 6520,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-14-2025/",
+      "date": "2026-06-14T23:37:52",
+      "title": "Flood in United States 06/14/2025",
+      "body": "Thunderstorms moved through west central Arizona on June 14, dropping between one and two and a quarter inches of rain across Yavapai County. Flash flooding was already underway or expected to begin shortly, threatening creeks, dry washes, urban areas, and highways including a stretch of Interstate 17 near Cordes Junction.\n\nAreas at risk include Cordes Lakes, Agua Fria National Monument, and Arcosanti. Ten waterways were flagged for flooding, among them the Agua Fria River and several local creeks and washes. Dirt roads were expected to become muddy and impassable, with paved roads and underpasses also at risk of going under water.\n\nAn additional half inch to one inch of rain was still possible before the warning expired that evening, keeping the flooding threat active for several hours.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 34.54191,
+      "lng": -112.470146,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d37d4d02b3f970cfaa51105bc80b83a0782ee48b.001.1",
+      "prayer": "Residents near Cordes Junction and Yavapai County facing flash flooding on roads and waterways",
+      "alert_summary": "Flash flooding struck Yavapai County, Arizona, after thunderstorms dropped up to 2.25 inches of rain near Interstate 17."
+    },
+    {
+      "wp_id": 6519,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-kazakhstan-06-14-2026-2/",
+      "date": "2026-06-14T23:31:20",
+      "title": "Wildfire in Kazakhstan 06/14/2026",
+      "body": "An extreme fire danger alert has been issued across Kazakhstan. Conditions in the affected areas have been rated at the highest level of fire risk, meaning that the likelihood of wildfires starting or spreading is very high.\n\nNo specific fires have been confirmed in the source material, but alerts at this level typically mean that dry conditions, high temperatures, or strong winds are combining to create a dangerous environment. Residents in affected areas are urged to take precautions.\n\nNo injuries, deaths, or property damage figures are currently available. Authorities will likely be monitoring the situation closely as conditions that support wildfires can change rapidly.",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Wildfire",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260614-105701-0439732-00-RU.xml",
+      "prayer": "Communities across Kazakhstan facing extreme fire danger conditions",
+      "alert_summary": "An extreme fire danger alert has been issued across Kazakhstan; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 6518,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-14-2024-2/",
+      "date": "2026-06-14T23:31:02",
+      "title": "Storm in United States 06/14/2024",
+      "body": "Thunderstorms capable of producing tornadoes and extensive wind damage moved through northeastern Potter County in north central Pennsylvania. The storms were moving northeast at 45 miles per hour, with several communities in their path including Sweden Valley, Denton Hill State Park, and Ulysses.\n\nFlying debris poses a serious danger to anyone caught without shelter. Mobile homes face a high risk of damage or destruction, and damage to roofs, windows, vehicles, and trees is likely across the affected area.\n\nResidents in the path of the storm were urged to move immediately to a basement or an interior room on the lowest floor of a sturdy building and stay away from windows. Heavy rainfall may prevent the tornado from being visible, making early shelter especially important.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 41.774597,
+      "lng": -78.020996,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.081a357be8741fe2a05c3361ccfdcd7c9a6f552b.001.1",
+      "prayer": "Residents of Potter County, Pennsylvania sheltering from a tornado-producing thunderstorm",
+      "alert_summary": "Tornado warning issued for northeastern Potter County, Pennsylvania, with storms moving northeast at 45 mph."
+    },
+    {
+      "wp_id": 6517,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-08-2026-magnitude-5/",
+      "date": "2026-06-14T23:30:29",
+      "title": "Earthquake in United States 06/08/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck along the southern Mid-Atlantic Ridge, a remote underwater mountain chain running through the Atlantic Ocean. The area is far from populated coastlines, and no damage or casualties have been reported.\n\nBecause this earthquake occurred in a distant oceanic region, there is no immediate indication of threat to coastal communities or mission workers in surrounding areas.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 26.57216,
+      "lng": -80.07922,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srku",
+      "prayer": "Remote ocean region near the southern Mid-Atlantic Ridge following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake occurred along the southern Mid-Atlantic Ridge; no impact reported."
+    },
+    {
+      "wp_id": 6516,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-06-13-2026-magnitude-5/",
+      "date": "2026-06-14T23:29:46",
+      "title": "Earthquake in Peru 06/13/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck near Suyo, a town in northern Peru close to the border with Ecuador. No details about casualties, injuries, or property damage were included in the available report.\n\nBecause the source material is limited, the full impact of this event is not yet known. Residents in rural areas of northern Peru can be vulnerable when earthquakes occur, as some communities have limited access to emergency services.",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -4.512135,
+      "lng": -80.00387,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssms",
+      "prayer": "Residents near Suyo, Peru, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck near Suyo, Peru; no casualty or damage figures reported."
+    },
     {
       "wp_id": 6480,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-2/",
