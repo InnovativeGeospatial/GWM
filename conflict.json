@@ -1,9 +1,225 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-15T05:26:41.541289+00:00",
-  "count": 582,
+  "updated": "2026-06-15T17:34:33.255584+00:00",
+  "count": 594,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6620,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-abuja/",
+      "date": "2026-06-15T17:34:19",
+      "title": "Civil Unrest in Abuja",
+      "body": "Police in Nigeria's capital, Abuja, have arrested four people connected to kidnapping and banditry operations in the area. Those detained include a pregnant woman who worked as a cook, along with three other suspects.\n\nAuthorities did not release details on the number of victims involved or the scale of the criminal activity. The arrests suggest ongoing efforts by Nigerian police to disrupt criminal networks operating in and around the capital.\n\nAbuja and its surrounding areas have seen periodic kidnapping incidents in recent years. Residents in affected communities remain at risk while investigations continue.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 9.073523,
+      "lng": 7.475731,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVEw5dllFQUgwQXFwaWJDSF9TbXQyeWo0UE9WODZ5bll2STNwYzNnZFJPQkh3Sm1FYURVT09mZ18tbGpYbDJ4NjlWazlBYXkyMGtTZWwwbHotajlCTDM5NUJ6aXV6MFU4eHZibVk1cjE0WXp0Ny1hUWgxVTlrcW9hd3B2Qk5mRXNhaEdEVVZGa1l3cDI0MWIyenRKZTBxQXpiS1FMNUNWUEp5QQ?oc=5",
+      "prayer": "Four suspects in Abuja detained amid kidnapping and banditry investigations",
+      "alert_summary": "Police in Abuja arrested four suspects, including a pregnant woman, linked to kidnapping and banditry."
+    },
+    {
+      "wp_id": 6616,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sloviansk-2/",
+      "date": "2026-06-15T17:33:04",
+      "title": "Armed Conflict in Sloviansk",
+      "body": "An airstrike struck Sloviansk, a city in eastern Ukraine, killing three members of the same family and wounding five people.\n\nSloviansk is located in the Donetsk region, an area that has experienced repeated attacks since the early stages of the broader conflict. Residential areas in the city have been hit on multiple occasions, and many civilians who remain do so with limited access to safe shelter.\n\nThe wounded were reported to number five, though no further details about their condition or the exact location of the strike within the city were included in the source.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 48.849857,
+      "lng": 37.60731,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tTUFNTG1HX3FTVkJiY3ZNUXdQMjJfWXphdGQ2bW9XREpEVzYzVWlrd2tnbDZHZ1A1eUU3OFZGaGY3ZHRTWkFlR2pnSExsTGgwM1d2Y3N3OEthU01KcktQSkFlckhQa3NsN190M3cybw?oc=5",
+      "prayer": "Three family members killed and five wounded by an airstrike in Sloviansk",
+      "alert_summary": "A Russian airstrike in Sloviansk killed three family members and wounded five others."
+    },
+    {
+      "wp_id": 6614,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-colombia-venezuela-border/",
+      "date": "2026-06-15T17:31:18",
+      "title": "Armed Conflict in Colombia-Venezuela border",
+      "body": "A journalist was killed near the border between Colombia and Venezuela, according to reports. Authorities have opened an investigation into the case, but no further details about the circumstances or suspects have been made public.\n\nThe Colombia-Venezuela border region has long been affected by the presence of armed groups, making it one of the more dangerous areas in the country for civilians and media workers alike.\n\nNo additional figures on casualties or arrests were available at the time of reporting. The investigation is ongoing.",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 5.349574,
+      "lng": -70.67757,
+      "source_title": "\"Colombia OR Ecuador armed group OR massacre OR violence when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmo3NkFreTFsdjFUWEhWVExBZVNHOHVaYTRDQmk2OGFpc3dMR0tlbGw5S3R6R0syd3hNOWNaRy1VamdEYU5VQXlxbTJ1MzhQb3RUQkRoeGN6eVQxa2J1TkhITXV0cUd5R1JGSVkxQ0lPdVNMalM5OTUxb0dCc3QwcnNoMGlCY1Y1RUlINmVjSURIQlpHdkFSeExJSUdZclJHVXc?oc=5",
+      "prayer": "Colombian journalist and family members near the Venezuela border following a killing",
+      "alert_summary": "A journalist was killed near the Colombia-Venezuela border; authorities are investigating."
+    },
+    {
+      "wp_id": 6613,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-3/",
+      "date": "2026-06-15T17:31:05",
+      "title": "Armed Conflict in Port-au-Prince",
+      "body": "Armed gangs in Port-au-Prince kidnapped Haiti's most senior security official in an attack described as brazen. The incident marks a significant escalation in gang activity targeting government figures in the capital.\n\nHaiti has faced worsening gang violence over recent years, with criminal groups controlling large portions of Port-au-Prince. The kidnapping of a top security official signals that no level of government authority is beyond reach of these groups.\n\nThe impact on civilians is likely to deepen, as the absence or disruption of security leadership leaves communities with even less protection from gang activity across the city.",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Armed Conflict",
+      "lat": 18.539766,
+      "lng": -72.33548,
+      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamNRcmhYSXFFOVN0ejRFOTE4LUhfWEQ5d25SZjJabGxxOS0tZUJZOGZmb2I2cjNsT2hiVVNBaFU5bHE2amo4REhmOU13TFdwRDZ5RlJaZ00yQUdVVXV2Qy0zX2R3LWdaTGQzTjFESnJsY1ZOUmwteklRSnRpOWw5aVlCS1hpcjNUandZZDNnUWQ0MmxGdWlWZQ?oc=5",
+      "prayer": "Haiti's civilians and officials amid gang kidnappings in Port-au-Prince",
+      "alert_summary": "Armed gangs kidnapped Haiti's top security official in an attack in Port-au-Prince; no casualty figures reported."
+    },
+    {
+      "wp_id": 6606,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-haiti-2/",
+      "date": "2026-06-15T17:29:35",
+      "title": "Armed Conflict in Haiti",
+      "body": "The United Nations has reported that gang violence in Haiti has killed at least 2,300 people in 2026. The figure points to a continuing pattern of armed gang activity that has gripped the country for several years.\n\nThe toll reflects conditions that have made daily life dangerous for ordinary Haitians, including families, market workers, and residents in areas where gangs operate. Aid organizations and peacekeeping efforts have struggled to contain the violence.\n\nFor people living in affected communities, the risk of being caught in gang activity remains a daily reality.",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Armed Conflict",
+      "lat": 19.182436,
+      "lng": -72.434515,
+      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVlExeDhCdEt6WlN4cUUwcVNjTGtDaGcxMFZ1R2xpczljSDZXSFdRRHYycVBfcW5oQk1QSThLWnVfdEp5OHR0dklldmdLNHJfeEtGTGJhRHdWYk5lUGhWVTIydVVVWFYwYlNYTUZoMEdfbTJfTHlaTGF6aFR0WXdKM0V4M3lJNU9NVGt2UEZmdUpncTVhLUpwOVZjZG0?oc=5",
+      "prayer": "2,300 people killed and civilians across Haiti living under gang violence in 2026",
+      "alert_summary": "UN reports gang violence has killed 2,300 people across Haiti so far in 2026."
+    },
+    {
+      "wp_id": 6605,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oaxaca-2/",
+      "date": "2026-06-15T17:29:09",
+      "title": "Armed Conflict in Oaxaca",
+      "body": "A mayor in the Mexican state of Oaxaca was shot and killed, according to reports. The official had sought protection from authorities weeks before the attack, suggesting awareness of a threat to their life. The state governor publicly condemned the killing.\n\nThe murder highlights the ongoing danger faced by local elected officials in parts of Mexico where armed groups operate. Mayors and municipal leaders in rural and semi-rural areas are frequently targeted, particularly when they resist or are perceived to stand in the way of criminal organizations.\n\nCommunities in these areas are left with disrupted local government and a climate of fear that makes public service increasingly difficult. Residents in affected areas often have little recourse when violence reaches into local institutions.",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Armed Conflict",
+      "lat": 17.062824,
+      "lng": -96.72438,
+      "source_title": "\"Mexico cartel violence OR kidnapping OR gunmen when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSFAxQ0pDaDBZZGdxNlpKc2R2TDRCS0lDSWxMdFVNdDdZR3BKdGFrUFgyaGFCc2tpQjZoLV80eVpJMHFMOXlYU3dsUk1TYkl4NXFPc3VmckIwbDEtUmM1WkhiNUJINGtSR3VsVF9lcHBONWM5c2dvTWRKNXdWLUZQVC1fWWozY0NNVVAwMFRTeGJUSTRXTmhWVThOWmxkQWMyTGRlcXVXS3kxR0s4VFHSAbMBQVVfeXFMTTA3X213aWczZFlWWVpUN3dkWC13WXo4bmNRcnh2YzFUZVZtdkxtNXE0TG5lTjZsMlBzYVFXWTh4QVRZMFNNZ2x2U1d5TlJQQUhlanEtX3lSRG1GX3MtVjd0UVVPdmdRSFFmdWxfQ0MxWXRoY29obXFfMFQwendlbFJLbUM4OGJKR3UweUs2R19tcGFTX3lCbzJRZE5jY2ZhcE5hSzU1UmIzakprOHlWemdOSDQ?oc=5",
+      "prayer": "Residents of Oaxaca grieving the killing of a local mayor who sought protection",
+      "alert_summary": "A mayor in Oaxaca, Mexico was shot and killed weeks after requesting protection from authorities."
+    },
+    {
+      "wp_id": 6604,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-geneva-2/",
+      "date": "2026-06-15T17:28:48",
+      "title": "Civil Unrest in Geneva",
+      "body": "Protesters clashed with police in Geneva ahead of the G7 summit taking place in neighboring France. Officers deployed tear gas and water cannon to disperse the crowd. During the demonstration, some protesters smashed windows and set a car on fire.\n\nOne protester, who said they were disappointed by the violence, described the demonstration as an attempt to send a message about what they called oppression through money and power.\n\nThe G7 summit was scheduled to begin on June 15 in Évian-les-Bains, France, bringing together leaders from Britain, France, Canada, Germany, Italy, Japan, the United States, and the European Union. Residents near the protest site in Geneva would have faced disruption from the clashes and dispersal measures.",
+      "country": "Switzerland",
+      "countries": [
+        "Switzerland"
+      ],
+      "type": "Civil Unrest",
+      "lat": 46.20477,
+      "lng": 6.146314,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/videos/crkvek3dnrgo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Protesters and police in Geneva amid property damage and crowd dispersal",
+      "alert_summary": "Police used water cannon and tear gas on anti-G7 protesters in Geneva after windows were smashed and a car was set on fire."
+    },
+    {
+      "wp_id": 6601,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-crimea-2/",
+      "date": "2026-06-15T17:28:05",
+      "title": "Armed Conflict in Crimea",
+      "body": "Ukrainian drone strikes have targeted fuel depots, supply routes, and military infrastructure across Russian-occupied Crimea, causing widespread fuel shortages and panic among residents.\n\nLong lines of hundreds of cars stretched for kilometers at gas stations near Simferopol, with one resident waiting nearly seven hours to buy 20 liters of fuel at high prices. Russian tourists cut their holidays short and fled across the Crimean Bridge, and residents expect shortages to worsen.\n\nSince mid-May, Ukrainian drones have attacked trucks carrying fuel and supplies along the land route through occupied Ukrainian territory into Crimea. The Chongar bridge, a key entry point into the peninsula, was damaged and can only handle light vehicles. Cargo ships bringing food and fuel have also been targeted. Analysts quoted in the source say Ukraine has effectively turned Crimea into an isolated zone encircled by the fighting, leaving civilians dependent on shrinking and disrupted supply lines.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 44.952146,
+      "lng": 34.102486,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/15/island-surrounded-by-war-crimeans-panic-amid-ukrainian-strikes?traffic_source=rss",
+      "prayer": "Crimean residents facing fuel shortages, supply disruptions, and daily drone strikes across the peninsula",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 6599,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-17/",
+      "date": "2026-06-15T17:27:38",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "A ceasefire agreement announced between the United States and Iran has raised cautious hopes in Lebanon, where fighting has killed at least 3,783 people and wounded 11,699 since March 2. More than 1.2 million people have been displaced from southern Lebanon, Beirut's southern suburbs, and the Bekaa Valley. Israeli forces continue to occupy parts of southern Lebanon, and officials are warning residents of border villages not to return until conditions are clearer.\n\nSome displaced residents have already begun traveling back to their villages, though many have little to return to. Homes have been destroyed, and residents report serious financial hardship. Two of the south's most populated areas, Tyre and Nabatieh, suffered widespread destruction from recent bombing and evacuation orders.\n\nLebanese officials have welcomed the announcement but expressed uncertainty about its implementation. A previous ceasefire in November 2024 failed to hold, with neither a full Israeli troop withdrawal nor a halt to hostilities following. Residents say they are waiting to see whether this agreement will translate into actual calm on the ground.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/15/is-lebanon-included-country-hopeful-for-us-iran-ceasefire-despite-doubts?traffic_source=rss",
+      "prayer": "Over 1.2 million Lebanese displaced from the south, Beirut suburbs, and Bekaa Valley awaiting ceasefire implementation",
+      "alert_summary": "A US-Iran ceasefire announced Monday has raised hopes in Lebanon, where at least 3,783 have been killed and 1.2 million displaced since March."
+    },
+    {
+      "wp_id": 6598,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-southern-lebanon/",
+      "date": "2026-06-15T17:27:23",
+      "title": "Displacement in southern Lebanon",
+      "body": "People are beginning to return to their homes in southern Lebanon following a ceasefire agreement. The mood among residents is described as cautiously optimistic, though the situation remains fragile.\n\nNo casualty figures or displacement numbers are provided in the source. The ceasefire appears to be holding, allowing movement back into areas that had been evacuated, but the stability of the agreement is uncertain.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/aje-onl-aje_onl_lebanon_wrap-150626?traffic_source=rss",
+      "prayer": "Residents of southern Lebanon returning home under a fragile ceasefire",
+      "alert_summary": "Displaced residents began returning to southern Lebanon as a ceasefire took hold."
+    },
+    {
+      "wp_id": 6597,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-2/",
+      "date": "2026-06-15T17:27:14",
+      "title": "Armed Conflict in Sudan",
+      "body": "The United Nations reports that more than 1,000 civilians in Sudan have been killed in drone strikes in the first five months of 2026. A UN official told the Human Rights Council in Geneva that the country's civil war has expanded, marked by a sharp rise in drone use by both sides. The war began in April 2023 and has spread from the capital across multiple regions.\n\nSudan is now described by the UN as the world's worst humanitarian and displacement crisis. About 13.6 million people are currently displaced, more than 20 million need health assistance, and 21 million are in urgent need of food. Overall death toll estimates range from roughly 56,000 to 150,000 or more.\n\nHuman rights groups and the UN have also documented widespread sexual violence and ethnically motivated killings. Both armed sides are rapidly adapting tactics and increasingly relying on drones, with no indication the conflict is easing.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.831539,
+      "lng": 30.049948,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/15/drone-warfare-kills-over-1000-in-sudan-in-2026-as-strikes-multiply-un?traffic_source=rss",
+      "prayer": "Over 1,000 civilians in Sudan killed by drone strikes in five months of ongoing civil war",
+      "alert_summary": "Drone strikes killed more than 1,000 civilians in Sudan in the first five months of 2026, the UN reported."
+    },
+    {
+      "wp_id": 6596,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-london-2/",
+      "date": "2026-06-15T17:27:02",
+      "title": "Civil Unrest in London",
+      "body": "A British court found two men guilty of conspiracy to commit arson after a series of fires targeted properties and a vehicle connected to Prime Minister Keir Starmer. The attacks took place over five days in May last year. One of the men was also convicted on counts of damaging property by fire and endangering lives.\n\nProsecutors said one of the convicted men was directed by an unidentified Russian-speaking contact online, using the alias \"El Money\" via the Telegram messaging app, and was offered around $4,000 in cryptocurrency to carry out the attacks. Officials said there is no confirmed evidence the attacks were state-sponsored, though Counter Terrorism Policing London said the online handler aimed to create \"unrest\" in the UK.\n\nOn the day of the verdict, the BBC published an investigation claiming the attacks were part of a broader campaign linked to the Russian state, naming a specific individual — claims Al Jazeera could not independently verify. The two convicted men are due to be sentenced Friday.",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Civil Unrest",
+      "lat": 51.5073,
+      "lng": -0.127647,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/15/uk-court-convicts-two-over-pm-targeting-plot-run-by-mysterious-russian?traffic_source=rss",
+      "prayer": "Civilians and public officials in the UK amid arson attacks and suspected foreign interference",
+      "alert_summary": "A London court convicted two men for arson attacks targeting properties linked to the UK prime minister in May 2025."
+    },
     {
       "wp_id": 6575,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-beiruts-southern-suburbs-3/",
@@ -45,18 +261,18 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-6/",
       "date": "2026-06-15T05:25:30",
       "title": "Armed Conflict in Gaza",
-      "body": "The Palestinian death toll in Gaza has passed 73,000, according to reports, even as a ceasefire was reportedly in place. Israeli strikes continued during this period, raising concern among civilians and aid workers in the territory.\n\nThe continuation of strikes during a ceasefire period leaves residents uncertain about their safety and access to assistance. Communities throughout Gaza remain exposed to ongoing danger.",
-      "country": "Palestine",
+      "body": "An airstrike struck near a hospital in Gaza, drawing a public condemnation from Hamas, who called it a clear violation of the ceasefire agreement currently in place. No details about casualties or the specific hospital were available in the source material.\n\nThe incident raises concern for patients, medical staff, and civilians sheltering near medical facilities. Hospitals in Gaza have been points of ongoing tension throughout the conflict, and strikes in their vicinity put vulnerable people at direct risk.\n\nThe ceasefire, if it holds, is critical for allowing aid, medical care, and some degree of normal movement for civilians across Gaza. Events like this put its continuation in doubt and leave residents uncertain about whether the pause in fighting will last.",
+      "country": "Israel",
       "countries": [
-        "Palestine"
+        "Israel"
       ],
       "type": "Armed Conflict",
       "lat": 31.512442,
       "lng": 34.457165,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVlFiemhfbUtzME5ZU0xXUkhwTk9Edy1rYXplUU5ZUkJLZjdZUmJKSkJ0WXdxYnlTZUthUW16WXRuWXFCMnB1eTVLQ1Zva3RJaFltU3VxMG9iRkczVUxPeG9TclhzQm1zNlF0MG1QRDE5Tm16SUNBZGJHLUZPRUQ5M2k0OThpTGNPS2JBQjMzcEdpLXlkNVdjM09yZ2VYUlg0MnVOaUEtQ0FsUU1oZ3lFdmh5RHdPcDhWeVBlVGU4cjViRGw0TDBwYy1OZnJNMXJFeWE5UFRn0gHbAUFVX3lxTE9LeXd2X2xaYzRjZHNkYk1UcVBySzBEU0Jnb0h1cWVPNEwwSlFQd1R5VVFRc2piZy1pR0lhVWlELUtDUVRNTzl1dktiTFl2dGdFZjhCNm5RNE5nVUh5TjRXUzI0cEdIQ2RNeWRhTXhIN0NqS1k3M0VLbmpkVFBTQjRNWEt0emlyaEJ3VFdZWXhISGJPcTlTWkVZRm5OUnBRbmdsRkF2c2IxcnZmdFhwMktva084S1FnWnRiaXBpT2d0bXR2MHFrbmdKVy1icjg0REFOeW14WjdtYS1nNA?oc=5",
-      "prayer": "Palestinian civilians in Gaza as airstrikes continue despite a ceasefire agreement, with 73,000 reported dead",
-      "alert_summary": "Israeli strikes continued in Gaza despite a ceasefire, as the Palestinian death toll surpassed 73,000."
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVF80cWFMTDJGSnZUa25xRXo3TmRGcWtlWUdIVGdPdnR1ME1TOHFTU2NISHl3c1g2ZUVBYllrTDcydThiZFdnOTlJOVRaMWg1N1pLRFZuaWliamhxQ0lxQTdQajcxUlBLdzVBSWV5QjJLMF9aSFVHQndzV2p6Ulg2c19TODYzMTV2OEdIdlk4b3JkeVNSR0JjU0daUmxBY1hpb3VOSnNKazhtMUFZaENrSmZZTjNwb19oamhvdkZR?oc=5",
+      "prayer": "Civilians near Gaza hospitals caught in ongoing airstrikes amid a fragile ceasefire",
+      "alert_summary": "An airstrike hit near a Gaza hospital, which one party called a ceasefire violation; no casualty figures reported."
     },
     {
       "wp_id": 6569,
@@ -81,7 +297,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-nigeria/",
       "date": "2026-06-15T05:24:13",
       "title": "Armed Conflict in northwest Nigeria",
-      "body": "An attack in northwest Nigeria near the border with Niger left 20 people dead, according to reports. No further details about the circumstances, the victims, or who carried out the attack were available in the source material.\n\nNorthwest Nigeria has experienced ongoing violence from armed groups, often called bandits, who raid farming and herding communities, sometimes killing residents and abducting others for ransom. Communities near the Niger border are among the most exposed to this pattern of violence.\n\nNo information was available on whether survivors fled or whether security forces responded.",
+      "body": "An attack near Nigeria's border with Niger killed 20 people, according to reporting from Pakistan Today. No further details about the attackers, the specific community targeted, or the circumstances of the assault are available from the source material.\n\nNorthwest Nigeria has experienced ongoing violence from armed groups, often called bandits, who carry out raids on villages in states such as Zamfara, Sokoto, and Kebbi. Communities in border areas face particular risk due to limited security presence.\n\nNo information on displaced persons, injuries beyond fatalities, or government response was included in the available source material.",
       "country": "Nigeria",
       "countries": [
         "Nigeria"
@@ -90,9 +306,9 @@
       "lat": 12.005684,
       "lng": 8.487286,
       "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPamxobzRJY29CRDR2X0ZiVF9oX2xNUzFpWnVtVUFqQ2J6MnltVmtYSjVVRXZZeFZpTGIzc3o3b1M3SnZZRWtEcG1oRTY5bFlCS25sRmZ0YjR6c2dtNGNSNlA3RmRXRDc2Y2gyaXdxX05jYk5DZUoyd21GWUZ5WkxZNWNVMjBlZ2tkRGVzM0xn0gGWAUFVX3lxTE1hcHU0Tk1LbGlubXFwMnlEWkVXQTJNcWQ1SHBQX0x5NHZDelVPX3lMOWhtaU5CcmtsWjV6aUYtdWhQRVBmVGR3bnB1aU9IamJEWF9pcXE4cVNhSEFILW1uRm5Rd0tZYXJ0Z0lJdlJjNWpzeDR2TFYzcG5Ha0ZWTy10dTJrWFJDVVhta25jcndIN09hUjdYUQ?oc=5",
-      "prayer": "Twenty people killed in northwest Nigeria near the Niger border",
-      "alert_summary": "An attack in northwest Nigeria near the Niger border killed 20 people."
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXZRdGFFbGkxQ2hIUVNjMkpvUThuTzJXQWRabmtKcmI0R2hRdzRZY2xMVDdLVi10aGhqWmF3WUV3Ymx5N2E0XzdpNllsZE1HOXhPTi1DNDhVZlNMSVRFN0hYclF1Q0I4VHhZZWJhNFM4VnU0NFVaMWRZSDF0cW9QVjh3Y0U4Y3E3R3RBbnpReFhwQmhhSTdPR3lKOUM5U0lLSUxXcw?oc=5",
+      "prayer": "Twenty people killed in an attack in northwest Nigeria near the Niger border",
+      "alert_summary": "An attack near the Niger border in northwest Nigeria killed 20 people, according to reports."
     },
     {
       "wp_id": 6566,
@@ -136,7 +352,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-10/",
       "date": "2026-06-15T05:22:32",
       "title": "Armed Conflict in Kyiv",
-      "body": "A Russian airstrike hit Kyiv and started a fire at the Pechersk Lavra Monastery, one of Ukraine's oldest and most significant Orthodox Christian sites. The monastery, sometimes called the Kyiv Monastery of the Caves, dates back nearly a thousand years and holds deep religious and cultural importance for Christians across the region.\n\nNo casualty figures were available in the source material. The fire's extent and whether monks or visitors were present at the time of the strike were not reported.\n\nThe attack adds to a pattern of strikes on the Ukrainian capital. Residents near the monastery and the broader Kyiv area face continued risk from aerial attacks.",
+      "body": "An airstrike on Kyiv wounded 20 people and set fire to a historic monastery in the city. The attack caused damage beyond the casualties, with the fire at the religious site adding to the toll on the capital.\n\nMonasteries and churches in Ukraine have been struck or damaged at various points during the conflict. A fire at a historic site risks permanent loss of cultural and religious heritage that communities have maintained for generations.\n\nResidents near the affected areas would have faced danger from both the initial strike and the resulting fire.",
       "country": "Ukraine",
       "countries": [
         "Ukraine"
@@ -145,9 +361,9 @@
       "lat": 50.450034,
       "lng": 30.524136,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcUN1c1BPXzVVVW51djh6V2tTYy10aDVfcmZIRERWYkhmdkRNTDBXSUtnbG9JZ2tYaDNidDJNd05uZUNveWwtY0ZBaFgwZGRFUnJ1WEItYTlRZ2FLZlhzRnlIcUo0eXRHUlRCRExSX1JveUtNVGROSGhPdm9JT240MlhTYjdLb1dxTjIySDNDeE83N2JFd2xPdzBzcldUcjFNT3ppZVRybUpZRkExSWozNGhScklpYUZoaGJYQ09qMEZDWkpk?oc=5",
-      "prayer": "Monks, residents, and worshippers near Pechersk Lavra Monastery following an airstrike and fire",
-      "alert_summary": "A Russian airstrike struck Kyiv and ignited a fire at the historic Pechersk Lavra Monastery."
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVV9DRzJVcGdsUkhBZHpRcWJLUG9UaGRTRVM1Nm1DNmRiU00wYmM2Q25FLUNGVVdmSXYzcFZCc25HSHN1QWFqa1lhV1NlQUZySmljU3BKenNvdUREQ3BBUWwyLTY1bHROdmh5MUVnTmpWamxLd3g1aXM0VnlKZHpmU3J5MGpaSTc1d2NuLThTWHVlTE1Sc3ZROFkzT3pVbS1VdGdaNzB6cUg?oc=5",
+      "prayer": "20 people wounded in Kyiv and a historic monastery damaged by fire",
+      "alert_summary": "A Russian airstrike injured 20 people in Kyiv and started a fire at a historic monastery."
     },
     {
       "wp_id": 6560,
