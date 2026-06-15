@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-14T23:50:02.783588+00:00",
-  "count": 512,
+  "updated": "2026-06-15T05:20:43.979322+00:00",
+  "count": 525,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6559,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-3/",
+      "date": "2026-06-15T05:20:38",
+      "title": "Flood in Pakistan",
+      "body": "A report has highlighted that Pakistan is facing multiple climate-related pressures at the same time — including flooding, prolonged drought, and climbing temperatures. The findings point to failures within the country's institutions to adequately respond to or prepare for these overlapping threats.\n\nPakistan has experienced some of the most damaging flood seasons in recent years, with large portions of the country also suffering from water scarcity and heat-related stress. The report suggests that communities are being left exposed due to gaps in government preparedness and response systems.\n\nNo specific casualty figures, dates, or affected regions were named in the available summary. The report appears to draw attention to the ongoing and compounding nature of climate pressures in Pakistan, calling for stronger institutional action to protect vulnerable populations across the country.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Flood",
+      "lat": 28.186385,
+      "lng": 67.695237,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNclhteU4yTlNVZDlkQjJ2OFBIS3lHRm1KQmJneUZXb29Vd0lzVTBwOWgzUmRFOEZvSVYtREtCcXBjWGFhS2VPSklsbVRGakFqR2w0Vkh5RnZVSDhBWUJLY2pKY2tjQ3lQa194TGNRRF8zR0ZfN2RNdTJkdk1TSG5wUzZXaDlCSmlyVDhDSU5IdER5TmFDQXFhTVNpQWFpLU1SM0xyeEdVSDNlMUNDenRPaF8xd0xYMTA?oc=5",
+      "prayer": "Pakistani communities facing floods, drought, and rising temperatures amid institutional failures",
+      "alert_summary": "Floods, drought, and rising temperatures in Pakistan have exposed widespread institutional failures, per a report."
+    },
+    {
+      "wp_id": 6558,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-kingdom/",
+      "date": "2026-06-15T05:20:16",
+      "title": "Disease in United Kingdom",
+      "body": "The United Kingdom has launched a one-off vaccination programme targeting meningococcal B (MenB) disease, a bacterial infection that can cause meningitis and blood poisoning. The programme comes in response to what officials describe as the largest outbreak of this strain on record in the country.\n\nMenB can progress rapidly and is particularly dangerous for young children and teenagers. Public health authorities are moving to vaccinate at-risk groups in response to the rising case numbers.\n\nMeningococcal disease can be fatal within hours of symptoms appearing, and survivors sometimes face lasting effects including hearing loss or limb damage. Communities with unvaccinated members, including families in areas with limited healthcare access, face the greatest risk during an active outbreak.",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Disease",
+      "lat": 54.237933,
+      "lng": -2.36967,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEZGOGdOb3pwUVAxcmZxVnd3SFdDa2k0QjB6elc1NXpaV3R5XzUwdmk1ampzaGpwc2V0R0ZRS0ViQUhqOHBIV0s5QXV3TXhOTTZBVDFhem9GSFh4ZnlTbS0tMEpjUVJ6ZDBKTHNxWFctb2FmQk91d24xSkx1SmNWQVJ0cXVKYzd6TW8yV3lWay1qWTRrQUFWeHpGVW5PMlZmOW03a3FoX0ozeGs4TVl3b19oM3lvOENnSWlIUUhCSktNVTlHTEtGcDFoMl95b0JmcGFERU9kci1oZ9IB3wFBVV95cUxPT2ZqX2otT0NxV2todHhkZUtrOTFSaGlSdmRiSWdaYU1UWk1qTjh6OExwdk5sNXZQdG1pUTJJV1lyWjUzeWZyRGN3R0M2TEw1Wkx5dDVidE1WcURUZE1NX1lfT0s1TUZrLXZVMWF1VEt4WVhmTU5EY0w5OTRJZXdtc3k2cFBHUHY1ai1nVDNES29PYmhUOXhhMVM2b2I0WF9MNmdFSE1vQkdxb1RHYVRKbkNnY3Y5QmRXUXNXWlVfY2ZQWGxJcy1tdmZXWDc2eFZGQ3B1eUE4MzJuS1F0Vy0w?oc=5",
+      "prayer": "People across the UK affected by the largest recorded MenB outbreak",
+      "alert_summary": "The UK launched a one-off MenB vaccination programme following the country's largest recorded meningococcal B outbreak."
+    },
+    {
+      "wp_id": 6557,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-india-2/",
+      "date": "2026-06-15T05:19:42",
+      "title": "Disease in India",
+      "body": "A Shigella outbreak has been reported in Kerala state, in southern India. Shigella is a bacterial infection that spreads through contaminated food or water and causes severe diarrhea, stomach cramps, and fever. It can be especially dangerous for young children and those with weakened immune systems.\n\nHealth officials are monitoring the situation, though specific details on the number of cases or deaths were not available from this report. Outbreaks of this kind often follow lapses in water sanitation or food hygiene, and Kerala has seen similar incidents in the past.\n\nResidents in affected areas are advised to use safe drinking water, wash hands thoroughly, and seek medical care promptly if symptoms appear. Those working or serving in the region should be aware of the outbreak and take basic precautions.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Disease",
+      "lat": 10.200603,
+      "lng": 76.574032,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GZHlrOFpSdGk3bEpJSjM3Wnd5OGd5bUZHWWpCZmZZTjRNaExjOXZPOHcxQVdYQ2g4QmNlMnBtc1d2VlNxNENyRHhaWDVCMElEcGhCVzRrN3dCX2VYYk1Uc2pmcGc3UkllNFdFeXBiRGc0RXlPQzJydTlmVkoySVk?oc=5",
+      "prayer": "Residents of Kerala state affected by a Shigella bacterial outbreak",
+      "alert_summary": "A Shigella outbreak has been reported in Kerala state, India; no casualty figure provided."
+    },
+    {
+      "wp_id": 6556,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-united-states-2/",
+      "date": "2026-06-15T05:19:23",
+      "title": "Volcano in United States",
+      "body": "Kīlauea volcano on Hawaii's Big Island has entered its 49th eruptive episode in its ongoing eruption cycle, with lava fountains breaking out and sending molten rock into the air. The eruption is continuing a pattern of repeated activity that has marked this volcanic event over recent months.\n\nKīlauea is one of the world's most active volcanoes and has been in an extended period of episodic eruption. Each new episode draws attention from residents and visitors on the island, as lava activity can shift conditions quickly.\n\nNo casualty figures or evacuation numbers were reported in the available source material for this episode.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Volcano",
+      "lat": 22.212125,
+      "lng": -159.407335,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdkdHenNuUWNIUkVYLXBqUG5XanJ2M01lRzZ6am9aVFpxQmQ1MnVLdDZfV3RSX2RTMGtUb1llX0hmNFFzd3UybkZmSWstSnFiM19wcmlTSjlHSFlHZDVkbVhHdFFZSi1HbmlGME9xS1luSlBhOXBLbE1UUjJCMVh6V3Z0Yi1hMHlZRFByN1Znejl5ek9zM2ttdEwzVVFNdkwxaFdoaTZRbTZmVUtYaUHSAbMBQVVfeXFMT0pCamFTWlJjejV2cVF1dVI5R2pRX2FLS1ZWOXd0X1hXSjJSVENPWWd3YzYxYlh2Z3JCTVB3WTV4T0RHQUtpNG9kdlp6aUwxeE5lS0owQlZieU9ZemtDSjJGV2ZwTEY0dDY2WDN0dVZmNHd2ekFKb3dQd3BfNW5LSHpKQXdQN1pObXJ6NDlsbXR6SzBtanNhRTd4d2Joc2NjUFVIY2tHTll4bFRnSXIzaEFxUHc?oc=5",
+      "prayer": "Residents and communities on Hawaii's Big Island amid continued volcanic activity at Kīlauea",
+      "alert_summary": "Kīlauea volcano produced its 49th eruptive episode, sending lava fountains into the air."
+    },
+    {
+      "wp_id": 6555,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-20/",
+      "date": "2026-06-15T05:18:46",
+      "title": "Disease in Congo",
+      "body": "An Ebola outbreak in eastern Congo has grown to 782 confirmed cases, with 181 people reported dead, according to authorities. The situation continues to develop as officials work to track and contain the spread of the virus across the region.\n\nEbola spreads through direct contact with the blood or bodily fluids of infected people, making it particularly difficult to control in areas with limited medical infrastructure. Eastern Congo has faced repeated outbreaks over the years, and communities there are once again dealing with the fear and loss that come with this disease.\n\nLocal health workers and responders are on the ground, but the rising case count signals that containment remains a challenge. Families in affected communities continue to face grief, isolation, and uncertainty.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSmpGN05ONTh6OU5xbElfNmtXQjA3ZUlLR1RLU01PVTBrN0ZnZVVzNnZnSENLVF9oWDFFenRPTGItR3FkNUV6MXlsRmVZZ014TVNEYVZkemRwaUlJSm5RaExSVnBtcEdLb2xLWFJIRlVKVk9wV1ZEdmZ4U1NpQTRCMVF3S21Hb1pWR1ZhZmtVck91R0lwVmMtZ3oyV0hkYlFZYzZCSFV2LWNTZmZFY3BvU1N3cUstUHhZdTdCTFlqU1JBTEppdEhUU21QQURwZnRZRmtGWGdwanZEZFlsLWdnUV9vWmJTb3VsN0xQYkcyUy1FZHM5VEZubHhSaDE?oc=5",
+      "prayer": "Communities in eastern Congo amid a spreading Ebola outbreak with 181 deaths and rising cases",
+      "alert_summary": "An Ebola outbreak in eastern Congo has reached 782 cases and 181 deaths, authorities report."
+    },
+    {
+      "wp_id": 6554,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia/",
+      "date": "2026-06-15T05:18:33",
+      "title": "Flood in Malaysia",
+      "body": "Floodwaters rising near Taiping, in the state of Perak, Malaysia, prompted officials to evacuate 26 residents from the affected area. The evacuations were carried out as water levels climbed in the locality.\n\nNo casualty figures were reported in connection with this event. Residents were moved to safety as a precaution while floodwaters continued to rise.\n\nTaiping and surrounding areas in Perak have historically been vulnerable to flooding during periods of heavy rainfall. Displaced residents are waiting for conditions to improve before they can return home.",
+      "country": "Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "type": "Flood",
+      "lat": 4.852634,
+      "lng": 100.742325,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYWUwNHJsYTdOWGFnR1ZTdEpkRXpod0RSRE9VOGNScXdObGdnTTNOWWxkd3poc1BPdEpuUG4xMTE0OFZMejRFbDZVSDZ4dkFiMGZyT1Q4blFHWENyckp0bk04Vmh6WXY3MkFMdGt2aTluOEItVTBpOHpEUzlfWlNMelN6anpNZDlfTU50eW5oaDdwRjlxYTRvTG9KWUdod01MWWR3SE1fY2U?oc=5",
+      "prayer": "26 evacuated residents near Taiping displaced by rising floodwaters",
+      "alert_summary": "Flooding near Taiping, Malaysia prompted the evacuation of 26 residents as floodwaters rose."
+    },
+    {
+      "wp_id": 6553,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-16-2026/",
+      "date": "2026-06-15T05:09:56",
+      "title": "Flood in Russia 06/16/2026",
+      "body": "Water levels on the Ob River near the village of Alexandrovskoye are rising and are forecast to continue climbing through June 19. Authorities warn that levels could reach the designated danger mark of 1,030 centimeters, putting nearby residential areas at risk of flooding.\n\nThe communities of Alexandrovskoye, Novonikolskoye, and Svetlaya Protoka are all expected to be affected, with yard areas and property around homes potentially submerged. Residents in low-lying areas near the river are advised to monitor conditions closely as the water continues to rise over the coming days.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 56.48286,
+      "lng": 84.94887,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260615024315-0227806.xml",
+      "prayer": "Residents of Alexandrovskoye, Novonikolskoye, and Svetlaya Protoka facing rising floodwaters along the Ob River",
+      "alert_summary": "Rising water on the Ob River is expected to reach the danger level of 1,030 cm near Alexandrovskoye between June 16–19."
+    },
+    {
+      "wp_id": 6552,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-06-15-2026/",
+      "date": "2026-06-15T05:07:49",
+      "title": "Flood in China 06/15/2026",
+      "body": "An Amber Rainstorm Warning was issued for Hong Kong on the morning of June 15, signaling that heavy rain had already fallen or was expected across the territory. Rainfall rates exceeding 30 millimetres per hour were recorded or anticipated, and the rain was expected to continue.\n\nFlooding was likely in low-lying and poorly drained areas. Officials also warned of the risk of flash floods, urging residents to stay away from watercourses and take steps to protect themselves and reduce losses.\n\nResidents were advised to monitor radio and television broadcasts for traffic updates and further announcements as conditions developed.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 22.53475753532182,
+      "lng": 114.15317880690739,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://alerts.weather.gov.hk/V1/CAP-HK-HKO-METCTR-WRAIN-20260615111000-A.xml",
+      "prayer": "Residents across Hong Kong's low-lying areas facing flash floods and heavy rainfall",
+      "alert_summary": "Heavy rain exceeding 30 millimetres per hour triggered flooding warnings across low-lying areas of Hong Kong."
+    },
+    {
+      "wp_id": 6551,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-15-2025-2/",
+      "date": "2026-06-15T05:06:28",
+      "title": "Wildfire in United States 06/15/2025",
+      "body": "Weather officials have issued a Red Flag Warning for the North Fork Forecast Area in western Colorado, in effect during the afternoon hours on June 15. The warning reflects a combination of dry air, low humidity between 9 and 14 percent, and northwest winds reaching gusts of up to 35 miles per hour.\n\nThese conditions create a high risk that any fire starting in the area could spread rapidly and become difficult to control. Outdoor burning is not recommended during this period.\n\nNo fires have been confirmed in the source, but the warning signals that conditions are dangerous enough that a fire could ignite and grow quickly. Residents in the area are urged to avoid any activity that could spark a flame.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 37.229314,
+      "lng": -119.505212,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0315f04dab9a85b3dff6f170920c24b4e239760b.002.1",
+      "prayer": "Residents and communities in Colorado's North Fork area under elevated wildfire risk",
+      "alert_summary": "A Red Flag Warning was issued for Colorado's North Fork area due to winds up to 35 mph and humidity as low as 9 percent."
+    },
+    {
+      "wp_id": 6550,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-14-2025-2/",
+      "date": "2026-06-15T05:04:16",
+      "title": "Flood in United States 06/14/2025",
+      "body": "Thunderstorms dropped 2 to 4 inches of rain across parts of Blanco, Burnet, and Llano counties in south central Texas late on the night of June 14. An additional 1 to 3 inches were expected before conditions improved. Flooding was already underway or anticipated to begin shortly in the affected area.\n\nCreeks, streams, highways, streets, and underpasses were at risk of dangerous flooding. Communities including Kingsland, Granite Shoals, Horseshoe Bay, and Cottonwood Shores were among those affected.\n\nResidents were warned not to drive through flooded roads, as most flood deaths occur in vehicles. Nighttime conditions make it especially difficult to judge the depth and danger of floodwaters.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.276712,
+      "lng": -98.411995,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00362974bb5ab3db979e6ca33b8e7d68c0e51c4c.001.1",
+      "prayer": "Residents across south central Texas navigating life-threatening flash floods overnight",
+      "alert_summary": "Flash flooding struck three counties in south central Texas after 2 to 4 inches of rain fell overnight."
+    },
+    {
+      "wp_id": 6549,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-06-14-2026-3/",
+      "date": "2026-06-15T05:04:03",
+      "title": "Storm in China 06/14/2026",
+      "body": "A thunderstorm warning is in effect over Hong Kong following squally conditions that brought violent gusts to the area. Wind gusts of around 90 kilometres per hour were recorded at Lau Fau Shan just before 1:00 p.m., and gusts reaching 100 kilometres per hour or above are expected to affect the territory.\n\nAuthorities are urging residents to seek shelter immediately if outdoors and to stay out of the water, avoiding swimming and outdoor water sports. People are advised to stay away from high ground, trees, tall masts, and other conductive objects due to lightning risk.\n\nDrivers on highways and elevated roads are asked to reduce speed and remain alert to sudden gusts. Flying debris and falling objects are also a concern during this period of unsettled weather.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 22.53475753532182,
+      "lng": 114.15317880690739,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://alerts.weather.gov.hk/V1/CAP-HK-HKO-METCTR-WTS-20260615125200-S.xml",
+      "prayer": "Residents of Hong Kong sheltering through squally thunderstorms with gusts reaching 100 kilometres per hour",
+      "alert_summary": "Thunderstorm warning in effect over Hong Kong as gusts of 90 km/h were recorded at Lau Fau Shan."
+    },
+    {
+      "wp_id": 6548,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-kazakhstan-06-14-2026-4/",
+      "date": "2026-06-15T05:02:14",
+      "title": "Wildfire in Kazakhstan 06/14/2026",
+      "body": "An extreme fire danger alert has been issued across Kazakhstan, according to a meteorological warning. The alert signals conditions that significantly raise the risk of wildfires breaking out or spreading across the country.\n\nNo specific locations, casualties, or damage figures are currently available from the source. Residents in affected areas are advised to remain cautious, as dry and potentially windy conditions can allow fires to start and spread quickly.",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Wildfire",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260614-103701-0439721-00-RU.xml",
+      "prayer": "Communities across Kazakhstan facing extreme wildfire danger conditions",
+      "alert_summary": "An extreme fire danger alert has been issued across Kazakhstan; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 6547,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-11-2026-magnitude-5-3/",
+      "date": "2026-06-15T05:00:46",
+      "title": "Earthquake in Philippines 06/11/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck about 59 kilometers south of Sarangani in the southern Philippines. The event occurred offshore, south of the main landmass.\n\nNo casualty figures, damage reports, or displacement numbers are available from the source material at this time. Residents in coastal and inland communities near Sarangani may have felt shaking from the tremor.\n\nThe Philippines sits along the Pacific Ring of Fire and regularly experiences seismic activity. Local authorities would typically assess the area following an event of this size to determine whether any damage or injuries occurred.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss6g",
+      "prayer": "Communities near Sarangani, Philippines, following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck about 59 km south of Sarangani in the Philippines; no casualty figure reported."
+    },
     {
       "wp_id": 6530,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-magnitude-8-2/",
