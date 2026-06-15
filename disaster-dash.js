@@ -239,7 +239,7 @@
       node.innerHTML = '<div class="d-empty">No reports match current filter.</div>';
       return;
     }
-    var html = events.slice(0, 1000).map(function (e) {
+    var html = events.slice(0, 2500).map(function (e) {
       var color = colorForType(e.type);
       var excerpt = (e.body || "").replace(/<[^>]+>/g, "")
                                   .replace(/\s+/g, " ").trim();
