@@ -1,9 +1,135 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-15T17:23:35.549654+00:00",
-  "count": 542,
+  "updated": "2026-06-15T23:10:31.018654+00:00",
+  "count": 549,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6632,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-06-15-2026/",
+      "date": "2026-06-15T23:08:50",
+      "title": "Storm in China 06/15/2026",
+      "body": "Chinese authorities moved about 400,000 people — referred to in South Asian counting as \"4 lakh\" — out of harm's way before Typhoon Yagi reached the country's coastline. The evacuation reflects the scale of the storm's expected impact on coastal communities.\n\nNo details about casualties, property damage, or the specific provinces under threat were included in the source material. Officials ordered the mass evacuation as a precautionary measure while the typhoon approached.\n\nTyphoon Yagi had already affected other parts of Asia before tracking toward China. Residents in low-lying and coastal areas are among those most vulnerable to flooding, storm surge, and high winds that typically accompany storms of this kind.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcDV5U0dPa0ZVNVNxMDRaanRCc0xxamYtMmJIcGpQZ2k2TjRrRC1yYmhBWGVpb2NiTm9MeTMxbTEzRmlKV3llYnBSc3FMVmoybE9FSG53UjFyNXZnbUtoZmZobm9EQnFXUWZHV0hjY2JmcDVJMTEtQkJpNFJ6a3pkNkxVMGxKdw?oc=5",
+      "prayer": "400,000 evacuated residents in China facing Typhoon Yagi's approach",
+      "alert_summary": "China evacuated approximately 400,000 residents ahead of Typhoon Yagi's arrival; no landfall figures yet reported."
+    },
+    {
+      "wp_id": 6631,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-13-2026/",
+      "date": "2026-06-15T23:08:36",
+      "title": "Wildfire in United States 06/13/2026",
+      "body": "A wildfire burning in the Nebraska Panhandle remained only 42% confined as of the latest update, with firefighting crews continuing efforts to bring it under control. Evacuation orders affecting several areas were adjusted, indicating the fire's behavior and boundaries were still shifting.\n\nResidents in the affected communities faced ongoing uncertainty about when it would be safe to return home. The adjustments to evacuation zones suggest some areas may have seen improvement while others remained at risk.\n\nNo casualty figures or acreage totals were included in the available source material. The situation was still active, with crews working to increase containment and protect homes and property across the region.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 42.421722,
+      "lng": -103.854805,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORGZrNDRHQzdia1RoWUdPQ3o1YWRwb0RVOXdvODU1V0hSUXEwWWZRczdaTk9HbkpxWVhlc2FRZ1laQTFNS0taRjFZRWZpQ2xYMV9JRHRibk0za0diQlNKV0NKTUxVYW9TbHZUY3BrajRPS2RGUjZSN0hmYm04MXFUUklKR1NkanpEQ3dQbXJhckNmd1hoNVNvMlhBZzREVmlLRUdHc251WUhkb3VjWlFWdnpQY01vcUwwQ2UxY3hnNy1jUng0cXRNNHloUVJYX0JYdkpoS1V3?oc=5",
+      "prayer": "Residents of the Nebraska Panhandle displaced and under evacuation orders during an ongoing wildfire",
+      "alert_summary": "A wildfire in the Nebraska Panhandle reached 42% confinement as evacuation orders were adjusted for several areas."
+    },
+    {
+      "wp_id": 6630,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-06-15-2026/",
+      "date": "2026-06-15T23:08:00",
+      "title": "Flood in Pakistan 06/15/2026",
+      "body": "Heavy rains, thunderstorms, and flooding have struck Pakistan, killing at least 12 people. The source does not specify which regions were hit hardest or provide details on injuries or displacement.\n\nFlooding is a recurring and serious threat in Pakistan, where seasonal rains can affect communities across multiple provinces at the same time. Residents in affected areas face risks to homes, livelihoods, and personal safety when storms arrive quickly.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Flood",
+      "lat": 28.186385,
+      "lng": 67.695237,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa1BaVzFSMVhwQk9pek14cFhuMml5cTA0VU5HX1MzZHd3Z0M0LTJ2V1BjRFJ3dWRKSG9HalBBS1BpakFKU2Jsd3lJci0tWHFhbDJ2aldqX0tMQWkzTmFON1ZZa2QxdmZCRzVVTkZUNkFMNVpkVDlYNE9LczVhVTF2VlVZTmRWU0p3TWhBSHl5dDZzLU9kb2c?oc=5",
+      "prayer": "Families across Pakistan grieving losses after rains, thunderstorms, and flooding",
+      "alert_summary": "Floods, thunderstorms, and heavy rains across Pakistan have killed 12 people."
+    },
+    {
+      "wp_id": 6629,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-14-2026/",
+      "date": "2026-06-15T23:07:49",
+      "title": "Disease in Congo 06/14/2026",
+      "body": "An Ebola outbreak in eastern Congo continues to grow, with authorities reporting 782 confirmed cases and 181 deaths. The outbreak is centered in the eastern part of the country, a region that has faced repeated disease crises in recent years.\n\nThe rising case count signals that the outbreak remains active and has not yet been brought under control. Health teams are working to respond, though the remote and conflict-affected nature of eastern Congo makes containment efforts difficult.\n\nResidents in affected communities face serious risk, and the situation continues to be closely monitored by health authorities.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQamZ0RV81OXYtQzlYRGhQcVF4UmwwMUVQMzhHX0pPQ2xDLW1Cc3gwMGk5OTVrS1RJNnBPaE9FUW9wdzNVNmZObXlwaHJTRXp0NE1RTWFWT0pWeGtuQk9wRXpSUFo0QThTMjBvVExFUzN3RFZva3NNZjd6Qmp3QTdmVEw0VzRIOE9xT1ZJOWgxVjVSbjl1RmZoMERmMkl3T1FNelo4OXdkSXRiYk5IU0dfZDNfb05xQkZHRHZ4WS12ZE1MNXdZaUtCNzVtb09JSlBwdF91NFZmY3VzSFRoZXlsay15T0lDMGY2RGI4Rlh1VFpSMFU?oc=5",
+      "prayer": "Communities in eastern Congo amid a growing Ebola outbreak with 181 deaths and 782 cases",
+      "alert_summary": "An Ebola outbreak in eastern Congo has reached 782 cases and 181 deaths, authorities report."
+    },
+    {
+      "wp_id": 6628,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-15-2026/",
+      "date": "2026-06-15T23:07:28",
+      "title": "Flood in United States 06/15/2026",
+      "body": "Flooding in Tahlequah, Oklahoma forced the complete evacuation of the local animal shelter. Staff and animals had to be moved out as rising water made the facility unsafe or unusable.\n\nNo information is available from this source about the broader scope of flooding in the area, including whether nearby homes or businesses were also affected. The number of animals evacuated and their destination were not specified.\n\nTahlequah is the county seat of Cherokee County in northeastern Oklahoma, a region that can experience significant flooding from heavy rainfall and rising creeks and rivers.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 35.91554,
+      "lng": -94.96992,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWnZ5RHE1cDhPSlNNT1F6RG5rbHh6UlZsOFlOQlE4QVZFZ3J4MXdELWd4YThDMkt4TWF2TklyNm5zUGZlTjB1dF9hU05CWFV6OUlKcC1KaWtHNjFPMHVXLXc1dGw4MzZaV3lVcjBZY2V6elY0ZU4wWEVlSVZlYnExcWpSSXZib3BWSmZvSkIwMlBVc1FzaEpybWF3X2FEZjFKNExYS1I0NGhKQU9NWWlwWURQOTJBU25NY3ViTEV2eE1PVHhkb3lXTXhKQWtjLUFaUVc4SnRSakY1THhZU21J?oc=5",
+      "prayer": "Animals and staff at Tahlequah Animal Shelter displaced by rising floodwaters",
+      "alert_summary": "Flooding forced the evacuation of the Tahlequah Animal Shelter in Oklahoma; no casualty figure reported."
+    },
+    {
+      "wp_id": 6627,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-06-15-2026/",
+      "date": "2026-06-15T23:07:13",
+      "title": "Disease in Uganda 06/15/2026",
+      "body": "An Ebola outbreak originating in the Democratic Republic of the Congo has spread across the border into Uganda. The head of the World Health Organization praised Uganda's response to the outbreak, while warning that the situation remains serious and requires continued attention.\n\nOfficials stressed that cooperation between Uganda and the DRC is essential to stopping the disease from spreading further. Cross-border transmission makes coordination between neighboring countries especially important in containing an outbreak like this one.\n\nThe WHO called for sustained vigilance, signaling that the outbreak is not yet under control. Communities on both sides of the border remain at risk as health authorities work to track and stop transmission.",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167722",
+      "prayer": "Ugandans and Congolese communities affected by cross-border Ebola transmission",
+      "alert_summary": "Ebola has spread into Uganda from the Democratic Republic of the Congo; no casualty figure reported."
+    },
+    {
+      "wp_id": 6626,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-09-2026-magnitude-5/",
+      "date": "2026-06-15T23:00:47",
+      "title": "Earthquake in Russia 06/09/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 120 kilometers southeast of Kuril'sk, a town on Iturup Island in Russia's Kuril Islands chain. The area sits along one of the world's most active seismic zones, where the Pacific and North American tectonic plates meet.\n\nNo damage or casualty figures were reported in the available information. Earthquakes of this size in offshore or remote island locations sometimes go unfelt by most residents, though those closer to the epicenter may notice shaking.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 44.8123,
+      "lng": 149.2865,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srvk",
+      "prayer": "Residents near Kuril'sk, Russia, following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 120 km southeast of Kuril'sk, Russia; no casualty figure reported."
+    },
     {
       "wp_id": 6592,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-2/",
