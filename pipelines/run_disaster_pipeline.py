@@ -906,6 +906,11 @@ CAP_MAX_PAGES    = 5            # safety cap (=> up to 500 alerts/run)
 CAP_SEVERITIES   = ["EXTREME", "SEVERE"]
 CAP_URGENCIES    = ["IMMEDIATE", "EXPECTED"]
 CAP_CATEGORIES   = ["GEO", "MET", "FIRE", "HEALTH", "ENV"]
+# Source-URL substrings to drop from CAP. US NWS (api.weather.gov) issues
+# thousands of routine county advisories; the US is well covered by the news
+# feeds, so it's muted here. Add more substrings (e.g. "meteoalarm.org") to
+# mute other noisy aggregators without touching code elsewhere.
+CAP_BLOCK_SOURCES = ["api.weather.gov"]
 
 
 def _cap_query(sent_iso, limit, offset):
@@ -964,6 +969,7 @@ def fetch_cap(seen, filter_countries, filter_types):
     as the other fetchers, so they go through Claude + the writer unchanged."""
     candidates = []
     run_ids = set()
+    blocked = 0
     sent_iso = (datetime.now(timezone.utc)
                 - timedelta(hours=CAP_WINDOW_HOURS)).isoformat()
     headers = {"Content-Type": "application/json",
@@ -1012,6 +1018,9 @@ def fetch_cap(seen, filter_countries, filter_types):
                 continue
             lat, lng = _cap_point(infos)
             url = a.get("url") or ""
+            if any(b in url for b in CAP_BLOCK_SOURCES):
+                blocked += 1
+                continue
             title = headline or event
             summary = " ".join(x for x in [headline, desc, instr] if x)[:2500]
             run_ids.add(ident)
@@ -1026,7 +1035,7 @@ def fetch_cap(seen, filter_countries, filter_types):
         if len(items) < CAP_PAGE_LIMIT:
             break
     candidates.sort(key=lambda c: 0 if c.get("_cap_sev") == "EXTREME" else 1)
-    log.info("CAP: %d alerts after filter/dedup", len(candidates))
+    log.info("CAP: %d alerts after filter/dedup (%d blocked by source)", len(candidates), blocked)
     return candidates
 
 
@@ -1369,14 +1378,35 @@ def _to_us_date(any_date_str):
     s = str(any_date_str).strip()
     if not s or s.upper() == "UNKNOWN":
         return ""
+    # US MM/DD/YYYY
     m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})$", s)
     if m:
         mm, dd, yyyy = m.groups()
         return "%02d/%02d/%s" % (int(mm), int(dd), yyyy)
+    # ISO YYYY-MM-DD (optionally with time / offset)
     m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", s)
     if m:
         yyyy, mm, dd = m.groups()
         return "%02d/%02d/%s" % (int(mm), int(dd), yyyy)
+    # GDELT compact: YYYYMMDDTHHMMSSZ
+    m = re.match(r"^(\d{4})(\d{2})(\d{2})T\d{6}Z$", s)
+    if m:
+        yyyy, mm, dd = m.groups()
+        return "%02d/%02d/%s" % (int(mm), int(dd), yyyy)
+    # RFC-822 (RSS feeds): "Sun, 14 Jun 2026 12:00:00 GMT"
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(s)
+        if dt:
+            return "%02d/%02d/%04d" % (dt.month, dt.day, dt.year)
+    except Exception:
+        pass
+    # Last resort: generic ISO parse
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return "%02d/%02d/%04d" % (dt.month, dt.day, dt.year)
+    except Exception:
+        pass
     return ""
 
 
@@ -1385,9 +1415,9 @@ def build_title(parsed, item):
     countries = parsed.get("countries") or []
     country = countries[0] if countries else (item.get("country") or "")
     magnitude = (parsed.get("magnitude") or "").strip()
-    event_date_us = _to_us_date(parsed.get("event_date"))
+    event_date_us = _to_us_date(item.get("published"))
     if not event_date_us:
-        event_date_us = _to_us_date(item.get("published"))
+        event_date_us = _to_us_date(parsed.get("event_date"))
 
     parts = [dtype]
     if country:
