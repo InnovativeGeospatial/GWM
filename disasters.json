@@ -1,9 +1,315 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-15T05:20:43.979322+00:00",
-  "count": 525,
+  "updated": "2026-06-15T17:23:35.549654+00:00",
+  "count": 542,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6592,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-2/",
+      "date": "2026-06-15T17:21:44",
+      "title": "Disease in United States",
+      "body": "A measles outbreak in Utah has stretched on long enough to take a visible emotional toll on both families and the medical staff caring for sick children. Parents have been described as anguished, and doctors have been moved to tears by what they are witnessing.\n\nThe duration and human cost of the outbreak have drawn attention to the strain placed on households and clinics alike. While specific case numbers were not included in the available source material, the language used points to an outbreak serious enough to affect the wider community.\n\nMeasles is a highly contagious viral illness that can cause complications including pneumonia and brain swelling, particularly in young children. Outbreaks often reflect gaps in vaccination coverage within a community.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 39.254817,
+      "lng": -111.6025,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNkV2QXNGRUN0b29mWjFCUG1sdDdlekhidDBpVUNQWTF2VHhVenp1cVpXSWQzWm9EdUpZa1dqckdKWTRNVHktUzc1clJwTHJhUWx1bFJDR2JOQ2FpUnNJWk5MU2dGUmxBaXE3ZF9nellHTy03MzFKMklrdXdJVThPZFl4d3lvRVRKU2NQRFVfenlVcVY4Wmgtc2ZZMHNRdVFuSVhRQmc5LXM1Sk5ZVWRpS0NR?oc=5",
+      "prayer": "Families and healthcare workers in Utah enduring a prolonged measles outbreak",
+      "alert_summary": "A measles outbreak in Utah has continued long enough to cause emotional distress among parents and medical staff; no case count reported."
+    },
+    {
+      "wp_id": 6591,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-6/",
+      "date": "2026-06-15T17:21:10",
+      "title": "Volcano in Indonesia",
+      "body": "Semeru Volcano, located in East Java, Indonesia, released a volcanic ash cloud reaching up to 15,000 feet — about 4,600 meters — above the area. The ash was reported moving in a southwest direction.\n\nSemeru is one of Indonesia's most active volcanoes and regularly produces ash emissions that can affect nearby communities and air travel. Ash fallout can damage crops, contaminate water sources, and cause breathing difficulties for residents living downwind.\n\nNo casualty figures, evacuation orders, or ground-level impact details were included in the available report. Conditions at active volcanoes can change quickly, and those living or working near Semeru should follow guidance from local authorities.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": -6.175554,
+      "lng": 106.827216,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbzM2dG0tc0ZLbEpiWm5jemI3a2VWTXpIYkpWbm1ZQXRTajJkamtYeTdCQ2hlbHFzUlhITDNzSUl6cDk2Y3dvQWlLWUN4OXR6TC1BaUFHX0ZvNFRxdFhSRFc5b3gzUm5BdF9RWkJNUV9KUkVRN2NCcUpVSENzRWJHU1RoTzdjQQ?oc=5",
+      "prayer": "Communities near Semeru Volcano in Indonesia under threat from volcanic ash",
+      "alert_summary": "Semeru Volcano released an ash cloud reaching 15,000 feet, moving southwest."
+    },
+    {
+      "wp_id": 6590,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-9/",
+      "date": "2026-06-15T17:20:36",
+      "title": "Landslide in India",
+      "body": "A landslide struck Guwahati, a city in the northeastern Indian state of Assam, killing four people. No further details about the exact location within the city or the circumstances of the deaths were available from this report.\n\nGuwahati sits in a region prone to landslides, particularly during the monsoon season when heavy rains can destabilize hillsides. Assam and the surrounding northeastern states regularly experience such events during periods of sustained rainfall.\n\nAuthorities have not released additional information on injuries, displaced residents, or the extent of property damage at this time.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 26.178963,
+      "lng": 91.751526,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXU1RjRVhSX1VVZExUSkotcGNYa3VILWMyVS1QMVRLRXZkcWZOSjZraTV0Zk9XLXVRdTItMWRRNXg2YlBXYUlNYlYtZk9KWE1jS1ZCdzQyQ2REOTViQ1NBc1BmLWlYTkY3aVExUGM3ZW40MDg?oc=5",
+      "prayer": "Families in Guwahati grieving four lives lost in a sudden landslide",
+      "alert_summary": "A landslide in Guwahati, India, killed four people."
+    },
+    {
+      "wp_id": 6589,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-8/",
+      "date": "2026-06-15T17:20:25",
+      "title": "Earthquake in Philippines",
+      "body": "An earthquake struck Mindanao in the southern Philippines, leaving 36 people unaccounted for. Officials reported that search efforts have so far detected no signs of life among those still missing.\n\nRescue teams have been working through the affected area, but conditions have made the search difficult. The Office of Civil Defense has been coordinating the response on the ground.\n\nNo additional figures on deaths, injuries, or displacement were available from this report. Communities in the region remain on edge as families wait for any word about their loved ones.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.644251,
+      "lng": 123.34406,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTmd0d0Q1d0ZCdHpHaFNpZXFWMmdhMlV6aDVEUV9NMEZ1OGdvREJYa3hYVEVzeDRCS1dFdFc5TGNMNndwVEhoc3FqakE5ZEtnUzNOdDJPejhvVmJsdktIcDZSY2l5UDczR2NlcXgzOXp0TzVCc2NRWC1LZWNBSF9Vd3c3WHI4Q0dBSzdjdGdIWmpELXRTeVpIc05zU0JEZmNFaTBtRmhpNFBsT0p1NlpCS2Nqc1BreHFsUkxDdkhtMldrWVZYWHljS21jR2I2UjVOWlpDS9IB1AFBVV95cUxNTmd0d0Q1d0ZCdHpHaFNpZXFWMmdhMlV6aDVEUV9NMEZ1OGdvREJYa3hYVEVzeDRCS1dFdFc5TGNMNndwVEhoc3FqakE5ZEtnUzNOdDJPejhvVmJsdktIcDZSY2l5UDczR2NlcXgzOXp0TzVCc2NRWC1LZWNBSF9Vd3c3WHI4Q0dBSzdjdGdIWmpELXRTeVpIc05zU0JEZmNFaTBtRmhpNFBsT0p1NlpCS2Nqc1BreHFsUkxDdkhtMldrWVZYWHljS21jR2I2UjVOWlpDSw?oc=5",
+      "prayer": "Families in Mindanao waiting for news of 36 people missing after an earthquake",
+      "alert_summary": "An earthquake in Mindanao left 36 people missing with no signs of life detected among them."
+    },
+    {
+      "wp_id": 6588,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain/",
+      "date": "2026-06-15T17:19:52",
+      "title": "Wildfire in Spain",
+      "body": "A wildfire in the Galicia region of northern Spain forced residents to evacuate as flames spread across the area. The fire destroyed at least 330 hectares of land before efforts to contain it were underway.\n\nGalicia, located in the northwest corner of Spain, has historically been vulnerable to wildfires, particularly during dry and windy conditions. Evacuations were ordered to protect communities in the path of the advancing flames.\n\nNo casualty figures were reported in available information. Authorities and emergency crews were working to bring the fire under control and assess the full extent of the damage to homes, land, and forests in the affected area.",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 42.880422,
+      "lng": -8.545861,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPemJReDZtQXB1WVdHWWJJT0dtM0VuQkYtY3hvZmZXN19ReWtZMVpBTHlPOVo5b01xcWEybmh5RWw3OEk5SmxnX0lwSFoxY3ZsdHU2TWxKbDV4Ul9QckM0S3ZKU2RLYVU2MHZLYmVhNHZSVmZjYk9rZzNXZDlZM2poMU8yQVNzZGZLbTBtM1JraE1qUG5HS09lRFNfcE9FVXBTd3kyY25jM1hMaG9BbWZvcV9BZTVmT01HZjJnc2VUZmZYa1ZuY19iSzJ2WWdXSXM3?oc=5",
+      "prayer": "Residents of Galicia, Spain, displaced by wildfires burning through their communities",
+      "alert_summary": "A wildfire in Galicia, northern Spain, forced evacuations and destroyed 330 hectares of land."
+    },
+    {
+      "wp_id": 6587,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria/",
+      "date": "2026-06-15T17:19:25",
+      "title": "Flood in Nigeria",
+      "body": "Floodwaters have swept through a community in Gombe, a state in northeastern Nigeria, destroying homes and wiping out farmland. Residents are now assessing what they have lost after the waters receded, with both shelter and food sources damaged by the event.\n\nThe destruction of farms is a particular concern, as many families in the area depend on their crops for both food and income. Losing harvests at this stage could affect households well beyond the immediate emergency.\n\nNo figures were available for the number of people displaced or the total number of structures lost. Residents are counting their losses as the community begins to take stock of the damage and consider what recovery will look like in the weeks ahead.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Flood",
+      "lat": 10.283361,
+      "lng": 11.181059,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQaGpFNHk2V2RtVkhpbDc5Z09jcnBSVWhkQ2Zzc2lVNWRKdVZodkI5X0VYWWc3SXpnUXVORVlRWGRrbWtTUkVRUnhBd0xHTURNUk9XS1ZGcl8tU0tZUlg5Z2c5eTNXVVUtMkVCRmZBcW01RnNzUm44U2xwQ0ZNMGY2NDJSekh2TnF6d2tnaFZSMkg1MFdJX2FZOTdZY01peTJ0RjM3LVNSVjZJRElLN3pyYWt3MGhtMERmcnlDTTYxNGhfc3RIRGlTRmExdnpidm9oS3RtZ2l5S1QwdlVKeU1OTC0tSUE2eE9NZWRtZWdDQTFPUHgyWW9idklvR0czMTFQMFhxQ3ZwVTVyaWJORjhaSDA2cUZtWmFrbGVmMnFWXzVIdml5VG5NOXA3RXRISS1EcDI0RWV6cFMtNzRkTHRNekxtWVFzYVQzQTRLNk1MaTJLYWtYb2lucF9n?oc=5",
+      "prayer": "Residents of Gombe, Nigeria, who lost homes and farmland to flooding",
+      "alert_summary": "Flooding in a Gombe community destroyed houses and farms; no casualty figure reported."
+    },
+    {
+      "wp_id": 6586,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-15-2026/",
+      "date": "2026-06-15T17:18:26",
+      "title": "Disease in Congo 06/15/2026",
+      "body": "The DRC's Ebola outbreak is growing, with 72 new cases and 32 deaths reported in a single day. The total now stands at 782 confirmed infections and 181 deaths. Eastern Ituri province holds nearly 95 percent of all cases and is considered the outbreak's centre, with the virus now spreading into North Kivu, South Kivu, and across the border into Uganda.\n\nThe Bundibugyo strain behind this outbreak has no approved vaccine or treatment. Contact tracing has fallen to 56.5 percent coverage, far below the 95 percent target, and health workers warn that the true scale of the outbreak is unknown due to gaps in testing and surveillance.\n\nOngoing armed conflict has displaced nearly one million residents across Ituri, making containment extremely difficult. Mining communities moving between remote sites are creating additional transmission risks. A $21.5 million funding gap is hampering the response.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/15/record-daily-jump-in-drc-ebola-outbreak-takes-death-toll-to-178?traffic_source=rss",
+      "prayer": "People of eastern DRC amid an Ebola outbreak with no approved vaccine or treatment",
+      "alert_summary": "Ebola caused by the Bundibugyo strain has infected 782 people and killed 181 in the DRC."
+    },
+    {
+      "wp_id": 6585,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-yemen/",
+      "date": "2026-06-15T17:18:06",
+      "title": "Volcano in Yemen",
+      "body": "A free-climber known for acrobatic stunts on social media died after falling into the Hardah Dam volcanic crater in Dhale Province, in Yemen's south-west. The 30-year-old had been climbing the crater's near-vertical rock walls without safety equipment when he lost his grip and fell.\n\nYemen's Civil Defence Authority described the recovery operation as one of its most difficult missions. Rescuers scaled down the crater walls using climbing equipment and lowered a cage to retrieve the body. Divers eventually located him inside the roughly 120-meter-wide crater, about 30 meters below the water surface.\n\nThe Hardah Dam crater has become a tourist destination in recent years, with a hot sulfur lake at its base. Authorities praised the rescue team for working in rugged terrain and high temperatures inside the crater.",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "type": "Volcano",
+      "lat": 13.804346,
+      "lng": 44.848722,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+      "prayer": "A young Yemeni climber's family and community grieving an unexpected loss at a volcanic crater",
+      "alert_summary": "A climber fell into the Hardah Dam volcanic crater in Dhale Province; his body was recovered 30 meters below the water surface."
+    },
+    {
+      "wp_id": 6584,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-ukraine/",
+      "date": "2026-06-15T17:17:53",
+      "title": "Other in Ukraine",
+      "body": "At least 11 people were killed across Ukraine in an overnight wave of strikes. Four died in Kyiv, where residential buildings were hit and more than 140,000 residents lost power. Five rescue workers died fighting a fire caused by a strike on Kharkiv. At least 53 people were injured across the country.\n\nThe 11th-century Dormition Cathedral in Kyiv, part of a UNESCO World Heritage Site, was set ablaze and significantly damaged. A hole was visible in one side of the structure, with flames reaching the partly destroyed roof. The fire has since been extinguished.\n\nAround 70 missiles and 611 drones were launched in the attack, according to Ukrainian officials. Separately, a drone strike in the Russian city of Tula killed three people and wounded three others, including a one-year-old child.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Other",
+      "lat": 50.450034,
+      "lng": 30.524136,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities across Ukraine after strikes killed 11 and damaged a historic cathedral",
+      "alert_summary": "Missile and drone strikes across Ukraine killed at least 11 people and left over 140,000 in Kyiv without electricity."
+    },
+    {
+      "wp_id": 6583,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-russia-06-16-2026/",
+      "date": "2026-06-15T17:14:10",
+      "title": "Wildfire in Russia 06/16/2026",
+      "body": "Fire danger conditions are forecast across Astrakhan Oblast on June 16, with the highest risk — Class 5, the most extreme level — expected in parts of the Chernoyarsky district in the north.\n\nClass 4 fire danger, described as high, is forecast across a wider area, including parts of the Akhtubinsky district in the north, the Yenotayevsky and Krasnoyarsky districts in the center, most southern districts, and the city of Astrakhan itself.\n\nThese conditions mean that fires can start and spread rapidly with little warning. Dry vegetation, low humidity, and warm temperatures typically drive such elevated risk levels across steppe and semi-arid regions like this part of southern Russia.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Wildfire",
+      "lat": 46.349831,
+      "lng": 48.03262,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260615125637-0228144.xml",
+      "prayer": "Residents of Astrakhan Oblast facing extreme fire danger conditions across northern and southern districts",
+      "alert_summary": "Extreme Class 5 fire danger is forecast for Chernoyarsky district and Class 4 fire danger across much of Astrakhan Oblast."
+    },
+    {
+      "wp_id": 6582,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-06-14-2026-4/",
+      "date": "2026-06-15T17:10:50",
+      "title": "Storm in China 06/14/2026",
+      "body": "A thunderstorm warning first issued on the evening of June 14, 2026, has been extended through the early morning hours of June 15 for Hong Kong. Authorities expect a few squally thunderstorms to affect the area during this period.\n\nResidents outdoors are urged to find safe shelter right away. Anyone in or near the water — whether swimming or taking part in other water activities — is advised to leave immediately. People are also told to stay off high ground and keep away from trees, metal masts, and other objects that conduct electricity.\n\nNo injuries or damage figures have been reported at this time.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 22.53475753532182,
+      "lng": 114.15317880690739,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://alerts.weather.gov.hk/V1/CAP-HK-HKO-METCTR-WTS-20260615220000-S.xml",
+      "prayer": "Residents across Hong Kong sheltering as thunderstorms move through the region",
+      "alert_summary": "A thunderstorm warning was extended through 2:00 a.m. over Hong Kong on June 14, 2026."
+    },
+    {
+      "wp_id": 6581,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-15-2024/",
+      "date": "2026-06-15T17:06:41",
+      "title": "Storm in United States 06/15/2024",
+      "body": "A thunderstorm moved through parts of the Florida Panhandle on June 15, affecting southwestern Jackson County and northeastern Washington County. The storm was tracking east at 25 miles per hour and carrying wind gusts up to 60 mph, strong enough to damage roofs, siding, and trees.\n\nCommunities in the path of the storm included Marianna, Chipley, Cottondale, Greenwood, and surrounding towns. Residents in affected areas were advised to move to an interior room on the lowest floor of a building for protection.\n\nNo casualty or damage figures were reported in the warning. The storm's threat window was brief, with the alert expiring at noon local time.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 43.324044,
+      "lng": -88.166773,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45926a468b9cc73180d8a8cf4ff0f7accae0b361.001.1",
+      "prayer": "Residents across Florida's Panhandle counties facing wind damage from a thunderstorm",
+      "alert_summary": "A thunderstorm with 60 mph wind gusts struck parts of Jackson and Washington counties in the Florida Panhandle, threatening roof and tree damage."
+    },
+    {
+      "wp_id": 6580,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-15-2021/",
+      "date": "2026-06-15T17:05:37",
+      "title": "Wildfire in United States 06/15/2021",
+      "body": "Weather forecasters issued a Red Flag Warning for the Colorado River Headwaters area below 8,000 feet in Colorado. The warning covers Tuesday afternoon into the evening, with winds expected to reach 15 to 25 mph and gusts up to 45 mph. Humidity levels are forecast to drop to between 10 and 15 percent.\n\nUnder these conditions, any fire that starts can catch and spread quickly. Residents are urged to use extreme caution with any outdoor burning.\n\nA Fire Weather Watch was also issued for Wednesday afternoon through Wednesday evening, meaning similar dangerous fire weather conditions may return the following day. Forecasters will update the public if conditions warrant additional warnings.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 39.98948,
+      "lng": -104.73842,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.083587fcdb71330fc30a18c4dc7439759cad6e7b.001.4",
+      "prayer": "Residents and firefighters in Colorado's River Headwaters area facing high wildfire risk",
+      "alert_summary": "A Red Flag Warning was issued for Colorado's River Headwaters zone below 8,000 feet due to gusty winds and low humidity."
+    },
+    {
+      "wp_id": 6579,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-15-2025/",
+      "date": "2026-06-15T17:04:38",
+      "title": "Flood in United States 06/15/2025",
+      "body": "Thunderstorms swept across Harris County in southeastern Texas on June 15, dropping between 2 and 3 inches of rain by late morning. Rainfall rates of 3 to 4 inches per hour were expected to continue, with an additional 2 to 3 inches possible before conditions eased in the afternoon.\n\nFlash flooding was already underway or expected to begin shortly across the area. Small creeks, streams, highways, underpasses, and low-lying neighborhoods were at risk. Communities including Bellaire, Humble, Jersey Village, Memorial Park, and several Houston neighborhoods were among those expected to be affected.\n\nResidents were urged not to drive through flooded roads, as most flood-related deaths occur in vehicles.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 29.760496,
+      "lng": -95.363434,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.959774d09f10b8ca750d10ea7f6e2e2d88748bc6.001.1",
+      "prayer": "Residents of Harris County, Texas navigating flooded streets and low-lying areas",
+      "alert_summary": "Flash flooding struck Harris County, Texas after thunderstorms dropped 2 to 3 inches of rain with more expected."
+    },
+    {
+      "wp_id": 6578,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-kazakhstan-06-15-2026/",
+      "date": "2026-06-15T17:01:41",
+      "title": "Wildfire in Kazakhstan 06/15/2026",
+      "body": "Authorities in Kazakhstan have issued an extreme fire danger warning, signaling that conditions across the country are highly favorable for wildfires to start and spread rapidly. The alert was distributed through official meteorological channels, indicating that the risk is significant enough to warrant public notice.\n\nNo specific fires have been confirmed in the available information, and no figures for damage, injuries, or affected communities have been reported. However, extreme fire danger alerts of this level typically reflect a combination of high temperatures, low humidity, and dry vegetation that can allow fires to ignite and move quickly across large areas.\n\nResidents in affected areas are urged to follow local guidance and avoid activities that could spark a fire. Those with contacts or ministries in Kazakhstan should be aware that conditions may change quickly.",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Wildfire",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260615-100701-0440084-00-RU.xml",
+      "prayer": "Communities across Kazakhstan facing extreme fire danger conditions",
+      "alert_summary": "An extreme fire danger alert was issued across Kazakhstan; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 6577,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-11-2026-magnitude-5-2/",
+      "date": "2026-06-15T17:00:53",
+      "title": "Earthquake in Chile 06/11/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred about 117 kilometers northwest of Vallenar, in northern Chile. No details about casualties, damage, or displacement were included in the available source material.\n\nVallenar is a city in the Atacama Region, an area that experiences seismic activity due to its position along the South American tectonic plate boundary. Earthquakes of this size can be felt by residents in nearby areas, though they do not always cause significant damage.\n\nNo further information about local impact is currently available.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.8358,
+      "lng": -71.6196,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss5y",
+      "prayer": "Residents near Vallenar, Chile, following a magnitude 5 earthquake offshore",
+      "alert_summary": "A magnitude 5 earthquake struck 117 km northwest of Vallenar, Chile; no casualty figure reported."
+    },
+    {
+      "wp_id": 6576,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-15-2026-magnitude-6/",
+      "date": "2026-06-15T17:00:42",
+      "title": "Earthquake in Philippines 06/15/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred approximately 67 kilometers off the coast of Pondaguitan in the southern Philippines. The event was recorded by monitoring agencies, though no casualty or damage figures have been reported at this time.\n\nEarthquakes of this size can cause noticeable shaking and some structural damage, particularly in areas close to the epicenter. Communities in the region are likely assessing conditions following the tremor.\n\nNo further details on injuries, displaced residents, or infrastructure damage are currently available from the source. Updates are expected as local officials and residents report in from affected areas.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.358398,
+      "lng": 126.17333,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st1c",
+      "prayer": "Residents near Pondaguitan, Philippines following an offshore earthquake",
+      "alert_summary": "A magnitude 6 earthquake struck about 67 km off the coast of Pondaguitan in the Philippines."
+    },
     {
       "wp_id": 6559,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-3/",
