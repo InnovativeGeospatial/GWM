@@ -1213,7 +1213,12 @@ DISASTER_TYPE field:
 - Use Disease for disease outbreaks (cholera, ebola, mpox, measles, polio, etc.)
 - Use Other if truly unclassifiable.
 
-Only respond with SKIP_NO_EVENT if the source is pure opinion or an explainer with no factual event reported."""
+Respond with ONLY the token SKIP_NO_EVENT (nothing else) when the source is any of the following rather than an actual natural-hazard or disease event that has already occurred:
+- A forecast, outlook, watch, warning, or "danger"/"red flag" advisory where the hazard is only predicted or possible and nothing has happened yet (e.g. "fire danger forecast", "thunderstorm warning issued", "flood watch in effect", "extreme fire danger expected").
+- A personal or individual incident that is not a population-affecting natural hazard (e.g. one person killed or injured in an accident, a fall, or a stunt).
+- Armed conflict, war, missile/drone strikes, shelling, bombing, terrorism, crime, or any human violence — these are not natural disasters and do not belong here.
+- Pure opinion, an explainer, an anniversary or retrospective, or any item with no factual natural-disaster event reported.
+Otherwise, write the report normally."""
 
 
 BAD_RESPONSE_PATTERNS = [

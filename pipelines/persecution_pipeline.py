@@ -856,9 +856,32 @@ _DEDUP_STOPWORDS = {"the", "a", "an", "in", "on", "at", "to", "for",
                     "with", "by", "from", "as", "it", "its", "be"}
 
 
+# Country adjective -> base, so "Eritrean"/"Eritrea", "Russian"/"Russia" match.
+_COUNTRY_ADJ = {
+    "eritrean": "eritrea", "russian": "russia", "chinese": "china",
+    "nigerian": "nigeria", "indian": "india", "pakistani": "pakistan",
+    "iranian": "iran", "egyptian": "egypt", "sudanese": "sudan",
+    "syrian": "syria", "iraqi": "iraq", "afghan": "afghanistan",
+    "somali": "somalia", "ethiopian": "ethiopia", "yemeni": "yemen",
+    "burmese": "myanmar", "vietnamese": "vietnam", "korean": "korea",
+    "indonesian": "indonesia", "turkish": "turkey", "algerian": "algeria",
+}
+
+
+def _stem(w):
+    """Light stemmer so morphological variants match: detained->detain,
+    arrests->arrest, witnesses->witness, plus country adjectives."""
+    if w in _COUNTRY_ADJ:
+        return _COUNTRY_ADJ[w]
+    for suf in ("ing", "ed", "es", "s"):
+        if len(w) - len(suf) >= 4 and w.endswith(suf):
+            return w[:-len(suf)]
+    return w
+
+
 def title_similarity(title1, title2):
-    words1 = set(_normalize_numbers(title1).split()) - _DEDUP_STOPWORDS
-    words2 = set(_normalize_numbers(title2).split()) - _DEDUP_STOPWORDS
+    words1 = {_stem(w) for w in _normalize_numbers(title1).split()} - _DEDUP_STOPWORDS
+    words2 = {_stem(w) for w in _normalize_numbers(title2).split()} - _DEDUP_STOPWORDS
     if not words1 or not words2:
         return 0.0
     return len(words1 & words2) / max(len(words1), len(words2))

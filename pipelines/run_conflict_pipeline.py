@@ -630,7 +630,8 @@ Respond with SKIP_NO_EVENT (and nothing else) if ANY of these apply:
 - The piece is about an anniversary, commemoration, memorial, or remembrance of a past event.
 - The piece recounts a historical event rather than reporting something happening now (for example "years ago", "decades ago", "in 19XX", "on this day", "this week in history").
 - The only news hook is a planned or delivered speech, ceremony, statement, hearing, or announcement ABOUT a past event, rather than a new event on the ground.
-- The piece is about espionage, surveillance, intelligence, policy, diplomacy, or institutions, with no specific on-the-ground location where something physically happened."""
+- The piece is about espionage, surveillance, intelligence, policy, diplomacy, or institutions, with no specific on-the-ground location where something physically happened.
+- The piece is primarily about a court verdict, trial, sentencing, conviction, indictment, or legal ruling concerning events that already happened, rather than a new violent event occurring now on the ground."""
 
 
 CANONICAL_COUNTRY_MAP = None
