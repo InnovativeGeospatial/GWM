@@ -1,9 +1,99 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-15T23:16:30.115217+00:00",
-  "count": 602,
+  "updated": "2026-06-16T05:18:45.023545+00:00",
+  "count": 607,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6666,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-rakhine-state/",
+      "date": "2026-06-16T05:17:39",
+      "title": "Armed Conflict in southern Rakhine State",
+      "body": "Military airstrikes in southern Rakhine State struck a residential area, damaging at least one school and one house and killing livestock, according to a local news report.\n\nNo casualties among civilians were reported in the available summary, but the strikes destroyed property and animals that communities depend on for food and income.\n\nRakhine State has seen ongoing fighting between the military and armed groups, and civilians in rural areas continue to bear the cost of that conflict through damage to homes, schools, and livelihoods.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PbS1JbmtHSzBldzgyX0tzdF9tQ3pyeU5TeXo0STE3enVXUDZJVDl5YUFNQlQ0OXN1QUticm1PTE5jYUw1Z29tdkNfQ3Z6WnZKcGt2WHhqNWNVT1J2Sl8xTzNKRmExRzVjWldSWnp4UQ?oc=5",
+      "prayer": "Villagers in southern Rakhine State whose school, home, and livestock were destroyed in airstrikes",
+      "alert_summary": "Military airstrikes in southern Rakhine State damaged a school and house and killed livestock."
+    },
+    {
+      "wp_id": 6665,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kordofan-2/",
+      "date": "2026-06-16T05:17:16",
+      "title": "Armed Conflict in Kordofan",
+      "body": "Fighters from the Rapid Support Forces and allied rebel groups attacked communities in Sudan's Kordofan province, killing 14 people. The attack adds to a long pattern of violence across Sudan since fighting between the RSF and the Sudanese Armed Forces broke out in April 2023.\n\nKordofan has seen repeated episodes of fighting and has been among the regions affected by displacement and food insecurity as the broader conflict continues. Civilians in the area remain caught between armed groups with little ability to leave or find safety.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.008593,
+      "lng": 29.715575,
+      "source_title": "\"Sudan RSF OR fighting OR airstrike OR El Fasher when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0RBMXEwSmJhUV9FY210ZkFra1VsbDFKeVFKWVFQWEZlcXRTQTlkZWpZN0xrU2c2YmdOaWQ1bFY2enp3bEVFNzJodnpzZlFPUGFvT29CZllMMHY3SXVvcUs0bnNSbGZabnFJVWNnOTc1RE9SUjloMllFOWJJUnRCR3NnSjRsWXotX1pKQnk0YW5FNWdOcVR0RXVkYklMUQ?oc=5",
+      "prayer": "Fourteen people killed in Kordofan as RSF and allied rebels continue attacks",
+      "alert_summary": "RSF forces and allied rebels attacked Kordofan province, killing 14 people."
+    },
+    {
+      "wp_id": 6660,
+      "wp_link": "https://globalwitnessmonitor.com/mongbwalu/",
+      "date": "2026-06-16T05:16:08",
+      "title": "Mongbwalu",
+      "body": "An Ebola outbreak centered in Ituri province in the northeast of the Democratic Republic of Congo has killed more than 140 confirmed people. The rare Bundibugyo strain has a fatality rate of around one in five of known infections, and officials believe the virus may have been spreading undetected for months before the outbreak was formally declared just over a month ago.\n\nHealthcare workers at a hospital in Mongbwalu are working to build trust after misinformation fueled violence. On May 21, a tent set up to treat patients was set on fire. Rumors circulating in the community since February have linked the illness to a local belief called the \"coffin curse,\" and some residents believed treatment centres were causing harm rather than providing help.\n\nRecoveries are beginning to shift community attitudes. Two patients have now left the treatment centre after testing negative for the virus, and hospital staff say more people are coming forward to seek care as a result.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Other",
+      "lat": 1.936693,
+      "lng": 30.045987,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cp3xyvww1lqo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities in Ituri province amid an Ebola outbreak that has killed more than 140 people",
+      "alert_summary": "An Ebola outbreak in Ituri province has killed more than 140 people, with a treatment centre in Mongbwalu attacked by arson on May 21."
+    },
+    {
+      "wp_id": 6659,
+      "wp_link": "https://globalwitnessmonitor.com/canberra/",
+      "date": "2026-06-16T05:15:55",
+      "title": "Canberra",
+      "body": "Four women who were part of a Gaza-bound humanitarian flotilla intercepted by Israeli forces in May met with Australia's Foreign Minister and senior police officials on Monday. The eleven Australians were among hundreds of activists detained when Israeli forces stopped the vessel on May 18. The activists say they were kidnapped, raped, and tortured while in custody.\n\nAustralia's Federal Police confirmed they had begun inquiries into the allegations, describing a \"victim-centred, trauma-informed approach.\" The Foreign Minister said she believes the activists' accounts and has raised the allegations with Israel on multiple occasions, calling for an independent and transparent investigation.\n\nIsrael's embassy in Australia denied the claims, saying no credible evidence had been presented and no formal complaints had been submitted to them. The activists say they intend to pursue the matter fully.",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Other",
+      "lat": -35.279522,
+      "lng": 149.12927,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/clyx4eny41zo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Australian activists alleging assault and torture after flotilla detention in May",
+      "alert_summary": "Australian Federal Police opened an inquiry into assault and torture allegations made by 11 activists detained after a Gaza-bound flotilla was intercepted on 05/18/2025."
+    },
+    {
+      "wp_id": 6658,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jonglei/",
+      "date": "2026-06-16T05:15:39",
+      "title": "Armed Conflict in Jonglei",
+      "body": "In early February, fighting between government forces and opposition armed groups swept through Jonglei State. A bomb struck a hospital in Lankien hours after staff evacuated the last patients, including women in labor. Residents fled into surrounding marshland on February 7 as mortar fire hit the town. When some returned, they found the hospital looted and burned, water systems dismantled, vehicles stripped, and homes on the outskirts destroyed.\n\nSatellite imagery analyzed by the Centre for Information Resilience identified destruction across more than 23 incidents between late January and February, with civilian structures including homes, health facilities, and markets appearing burned and looted. Researchers noted that troop movements from west to east followed a path of burning, though satellite data alone cannot confirm intent or responsibility. Both military and opposition forces have been accused of attacking civilians.\n\nHumanitarian observers say the destruction has pushed tens of thousands of people toward famine conditions. Access to the area remains restricted, limiting independent verification of witness accounts.",
+      "country": "South Sudan",
+      "countries": [
+        "South Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 6.210874,
+      "lng": 31.56144,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/16/south-sudans-jonglei-who-burned-homes-and-silenced-hospitals?traffic_source=rss",
+      "prayer": "Tens of thousands of civilians in Jonglei facing displacement, burned villages, and destroyed hospitals",
+      "alert_summary": ""
+    },
     {
       "wp_id": 6651,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-haris/",
@@ -117,7 +207,7 @@
       "wp_link": "https://globalwitnessmonitor.com/edwards-air-force-base/",
       "date": "2026-06-15T23:13:15",
       "title": "Edwards Air Force Base",
-      "body": "A U.S. Air Force B-52 Stratofortress crashed shortly after takeoff at Edwards Air Force Base in California's Mojave Desert. Emergency crews responded to the scene. It was not immediately clear what caused the crash or whether anyone was killed or injured.\n\nVideo from the area showed a large column of black smoke rising from the desert. The B-52 is typically crewed by five people and has been in service since 1955. Each aircraft is valued at around $110 million.\n\nEdwards Air Force Base sits about 100 miles north of Los Angeles and is home to roughly 10,000 military personnel, contractors, and civilian staff. The situation was described as ongoing at the time of reporting.",
+      "body": "A B-52 bomber crashed and caught fire shortly after takeoff from Edwards Air Force Base in California on Monday, killing all eight people on board. Those killed included a mix of military personnel, government employees, and civilian contractors who were on a routine test flight connected to a radar modernization program.\n\nOfficials described the crash as \"unsurvivable,\" and footage of the site showed little remained of the aircraft. Emergency crews responded quickly but determined there was no one to rescue. The crash was contained within the base perimeter, about 60 miles north of Los Angeles, and the airfield was closed with inbound aircraft diverted.\n\nA safety investigation has been opened. The names of those who died were not being released until all families had been notified, a process officials said could take the rest of the day.",
       "country": "United States",
       "countries": [
         "United States"
@@ -125,10 +215,10 @@
       "type": "Other",
       "lat": 29.355487,
       "lng": -100.797364,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/15/us-air-force-b-52-bomber-crashes-after-takeoff-edwards-air-force-base-says?traffic_source=rss",
-      "prayer": "Crew members and emergency responders at the Edwards Air Force Base crash site",
-      "alert_summary": "A B-52 bomber crashed shortly after takeoff at Edwards Air Force Base in California; casualties unknown."
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/americas/20260616-eight-dead-after-us-b-52-bomber-crashes-at-california-air-force-base",
+      "prayer": "Eight crew members and contractors killed in the B-52 crash at Edwards Air Force Base, and their families awaiting notification",
+      "alert_summary": "A B-52 bomber crashed immediately after takeoff at Edwards Air Force Base in California, killing all eight people on board."
     },
     {
       "wp_id": 6637,
@@ -206,26 +296,26 @@
       "wp_id": 6613,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-3/",
       "date": "2026-06-15T17:31:05",
-      "title": "Armed Conflict in Port-au-Prince",
-      "body": "Armed gangs in Port-au-Prince kidnapped Haiti's most senior security official in an attack described as brazen. The incident marks a significant escalation in gang activity targeting government figures in the capital.\n\nHaiti has faced worsening gang violence over recent years, with criminal groups controlling large portions of Port-au-Prince. The kidnapping of a top security official signals that no level of government authority is beyond reach of these groups.\n\nThe impact on civilians is likely to deepen, as the absence or disruption of security leadership leaves communities with even less protection from gang activity across the city.",
+      "title": "Civil Unrest in Port-au-Prince",
+      "body": "A senior Haitian security official and members of their family were kidnapped in Port-au-Prince, according to reports. No further details about the number of people taken or the circumstances of the abduction were available from the source.\n\nKidnapping has been a persistent threat in Haiti, where armed gangs have extended their reach across much of the capital and surrounding areas. Targeting a government security official signals that gang activity continues to affect people at all levels of Haitian society.\n\nResidents of Port-au-Prince face ongoing risks of abduction, violence, and displacement as armed groups maintain control over large portions of the city.",
       "country": "Haiti",
       "countries": [
         "Haiti"
       ],
-      "type": "Armed Conflict",
+      "type": "Civil Unrest",
       "lat": 18.539766,
       "lng": -72.33548,
-      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamNRcmhYSXFFOVN0ejRFOTE4LUhfWEQ5d25SZjJabGxxOS0tZUJZOGZmb2I2cjNsT2hiVVNBaFU5bHE2amo4REhmOU13TFdwRDZ5RlJaZ00yQUdVVXV2Qy0zX2R3LWdaTGQzTjFESnJsY1ZOUmwteklRSnRpOWw5aVlCS1hpcjNUandZZDNnUWQ0MmxGdWlWZQ?oc=5",
-      "prayer": "Haiti's civilians and officials amid gang kidnappings in Port-au-Prince",
-      "alert_summary": "Armed gangs kidnapped Haiti's top security official in an attack in Port-au-Prince; no casualty figures reported."
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGw4OFJDSG95anY4YWpwSzNxTWZQamxCcUl2cnJDSnhoR2RIU2JTZW54TDZUak00U25zQUJ6ZjZWZHdIcXEwdDBqZFJoaTlBQmg1c0Fha1dzNWo2dTYtRE9VUEF6Ml90cmlRcS1XbmE2Y0FWQXk4LThDNnNXTGdOclZXcExwNTBidDZfNU9VWnA1SVVybXM2UjJYaUpoMzJXRHk2bjFiUERJVHd0ajdPUUpqUQ?oc=5",
+      "prayer": "A senior security official and family members taken by kidnappers in Port-au-Prince",
+      "alert_summary": "Armed kidnappers abducted a senior Haitian security official and family members in Port-au-Prince; no casualty figure reported."
     },
     {
       "wp_id": 6606,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-haiti-2/",
       "date": "2026-06-15T17:29:35",
       "title": "Armed Conflict in Haiti",
-      "body": "The United Nations human rights chief reported that gang violence has claimed at least 2,300 lives in Haiti so far this year. The figure reflects the ongoing breakdown of security across the country, where armed groups have expanded their control over neighborhoods and key infrastructure.\n\nCivilians in affected areas face threats to movement, access to food and medical care, and basic safety. Communities living near gang-controlled zones are especially vulnerable, with little reliable protection available.",
+      "body": "The United Nations' top human rights official has reported that at least 2,300 people have been killed in Haiti by gang violence in 2025. The figure points to a continuing pattern of armed gang activity that has made large parts of the country, including the capital, extremely dangerous for ordinary residents.\n\nGangs in Haiti have expanded their control over neighborhoods and roads in recent years, blocking access to food, medical care, and basic services for many communities. Kidnappings have also remained a serious threat alongside killings.\n\nThe UN statement brings renewed international attention to conditions on the ground, where civilians face daily risk from armed groups that operate with little restraint. Aid organizations and local residents continue to navigate a situation where movement itself can be life-threatening.",
       "country": "Haiti",
       "countries": [
         "Haiti"
@@ -234,9 +324,9 @@
       "lat": 19.182436,
       "lng": -72.434515,
       "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObXFQamh0ZWhSeVhoVlpmbFpEMnQ4ekNaTFJWb0lPSTJQTm5Uaks2U3FqNUl5c2NLcFprdnhNZVNiTFN3RUw3ek1VWUhuOWh3WWM3SHdNOUlFUmFqdS10bVJPbDBPa0hmNnNhMDMxYW1Oa1Foa05rdFVFVHg0c1hidmZqZVIxNThXMFlWdlE0S2NocVNDM2dKUDZ4cjEyaU5fQ3ZKblJsa3NlX2FNdmgzOEVPM21jdTQ3RVhfSG5ZYnY?oc=5",
-      "prayer": "At least 2,300 Haitians killed this year by gang violence, with more at risk",
-      "alert_summary": "Gang violence has killed at least 2,300 people in Haiti this year, according to the UN human rights chief."
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMFZ5eGpwZzV3YlI3Zm11WlIyUU0yb216Y3RCclJUUEdTOGxiMHBabWVObXk5NGZjMlFjU3pIRFB6T0hQWWhKbDRkcjIwaVd2TWxIcm9IY3VLUEMxaklKZ190SGdUaHZuekNCUUN6V1VFN1RBX0Nhang3ZDNmRWVQb0p5dDB5TmxMSEZOSVh1LU5PMFV2emo2TnB4LXg0MVZCZ0JoNTRFNy1BbjFCbkNtWlh0dmxreGlLNDVydEhwdXQ?oc=5",
+      "prayer": "Thousands of Haitians killed or threatened by gang violence this year",
+      "alert_summary": "The UN human rights chief reports at least 2,300 people killed in Haiti by gang violence so far this year."
     },
     {
       "wp_id": 6605,
@@ -423,7 +513,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-leyte/",
       "date": "2026-06-15T05:24:54",
       "title": "Armed Conflict in Leyte",
-      "body": "An ambush in Leyte, Philippines left two people dead and three others wounded. Police responded by launching a pursuit operation against those responsible.\n\nThe source does not provide further details about who carried out the attack, the specific location within Leyte, or the circumstances that led to the ambush.\n\nResidents in the area remain at risk while the pursuit is ongoing.",
+      "body": "Police in Leyte arrested one suspect connected to a deadly ambush and are actively searching for a second gunman believed to be involved in the attack. The arrest was confirmed by authorities, though the exact number of people killed has not been reported in available details.\n\nThe ambush took place in Leyte province in the Eastern Visayas region of the Philippines. At least one person remains at large, and police are continuing their search.\n\nResidents in the area remain at risk while the second suspect is still free.",
       "country": "Philippines",
       "countries": [
         "Philippines"
@@ -432,9 +522,9 @@
       "lat": 11.371111,
       "lng": 124.4879,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUkZfZmw4NHllc1VKTUtKcWF4a3RFclhieFNSbVNrLVR1Vld6Uy1rMVlRT011dENLdnNQWXVvbkxMVmw5MnRWanhTVDQ2ZVctaVVzWXBCMXk0QzRxYzlFQjVpaUhoOURwOWk2cVBldU5nQ0phZjJaTGQ2QU10Ync5cDZXUkRiWk5Oc1p1V09qd2sxNy1YdUJSTV9R0gGfAUFVX3lxTFBnWG80MWppRVZCNmhRWWlSNlBNM0pEMUtNa29Oa0d1NzZFYWhVVDhkbUYxUmVEMFVrREtrZHZ2MzdOdGFjY1BWVXVRcEN1TEVfMG1OMXJENkpwM3lGOHk5a2FxMWoyZ0l5ajZnaG55SXpyb1l4M3RleGdQNHlJcWQ2M0tPdHAzRGNyMlZlYlE4dXN0a252MHBJam5QRGhDYw?oc=5",
-      "prayer": "Two people killed and three wounded in an ambush in Leyte, Philippines",
-      "alert_summary": "An ambush in Leyte killed 2 people and wounded 3; police launched a pursuit of the attackers."
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdEp0WFJuWkYzeTMyQjhPQXVYWjNka3J1RWlfRGxUeDNPUVhSME5Sb21yb25FVFNrMGdGRmdDQktMZkhDWUVOMXJNNlBNVm1UUm5yclNGUGdwS2NwbXUyVWRidVFzMkNoSHc3RXlSOGRKaGZmZ1FVVnlrNmp4OWFfMkIyXzZHTXpKZ3ZGYVAwQm1GYzA4M3hhNW92c0pOaGlaWHfSAacBQVVfeXFMUHgyTVZqOW5tZGRoVGFWRzRDWG1RRmxQZnRPWUVoTV9KNzBJTFRhY21qZzgzeTM5VnYwU3JkdGc1YVU5OEtVSkMwMmM4Vks3LWtzZGZSaUJkYVllcG1SQXo0LUlfVkQ1MjdiYjBnZ2lkZXY2b2k4bmU3eDJkbDNKOW52OHc1a0JaeFFHY2R4TFdYUUVyN3FOMHNzS1lBRklqSTBkbFd4WjQ?oc=5",
+      "prayer": "Residents in Leyte amid an ongoing search for an armed suspect after a deadly ambush",
+      "alert_summary": "One suspect was arrested following a deadly ambush in Leyte; police are searching for a second gunman."
     },
     {
       "wp_id": 6567,
@@ -496,7 +586,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-10/",
       "date": "2026-06-15T05:22:32",
       "title": "Armed Conflict in Kyiv",
-      "body": "The United Nations reported that overnight strikes hit Ukraine's capital, Kyiv, and the city of Kharkiv, killing several civilians and wounding dozens more. The attacks also struck sites tied to the country's history and cultural heritage.\n\nThe UN drew attention not only to the human casualties but also to the damage done to cultural landmarks, raising concern about the loss of irreplaceable heritage alongside the loss of life.\n\nResidents in both cities were affected, with the full extent of damage and casualties still being assessed at the time of the report.",
+      "body": "A historic cathedral in Kyiv — described as one of Ukraine's most important religious landmarks — was set on fire during an overnight Russian attack on June 15. Ukraine's president visited the site following the attack.\n\nThe president called for increased international pressure ahead of his attendance at the G7 summit. No casualty figures were included in the initial reporting.\n\nThe cathedral's damage adds to a pattern of strikes on civilian and cultural sites across Ukraine. Residents near the cathedral and across Kyiv faced another night of attacks on the city.",
       "country": "Ukraine",
       "countries": [
         "Ukraine"
@@ -504,10 +594,10 @@
       "type": "Armed Conflict",
       "lat": 50.450034,
       "lng": 30.524136,
-      "source_title": "UN News - Global perspective Human stories",
-      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167718",
-      "prayer": "Civilians in Kyiv and Kharkiv wounded and killed in overnight strikes, cultural heritage sites damaged",
-      "alert_summary": "Overnight strikes on Kyiv and Kharkiv killed several civilians and injured dozens, also damaging cultural heritage sites."
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/video/20260615-ukraine-kyiv-s-historic-cathedral-set-ablaze-in-russian-attack",
+      "prayer": "Worshippers and residents of Kyiv after an overnight attack struck a historic cathedral",
+      "alert_summary": "A Russian overnight attack set a historic cathedral in Kyiv ablaze on June 15; no casualty figures reported."
     },
     {
       "wp_id": 6560,
