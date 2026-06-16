@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-15T23:10:31.018654+00:00",
-  "count": 549,
+  "updated": "2026-06-16T05:14:00.711308+00:00",
+  "count": 555,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6657,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-15-2026/",
+      "date": "2026-06-16T05:12:34",
+      "title": "Storm in Madagascar 06/15/2026",
+      "body": "Cyclone Gezani made landfall in Madagascar, killing at least 20 people and injuring 33 others. The storm is described as another cyclone to hit the island nation, suggesting it follows earlier storms that also caused damage and casualties this season.\n\nMadagascar is one of the most cyclone-prone countries in the Southern Hemisphere, and repeated storms within a short period stretch the capacity of communities and emergency responders to cope. Those already displaced or weakened by earlier storms face compounding hardship.\n\nNo further breakdown of the affected regions or the extent of property damage was available in the source at this time.",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTY3TVpLVFhiVWFvRW5YMi1sb3FERFlGNENsM2xtckdQR2ZvcHNDeXNBcWZpV1dfQkVPLVVFWktNU0dNOGp4VFdBWENveUVWSnFMcWQ0Y0RqN0lrWl9wdXgyQ3lpTDhIWHg1MUE0cll1dU9PN0Z3ZW5iWWJUSTlKWW5XdUVfbEJlNUhreA?oc=5",
+      "prayer": "Communities across Madagascar struck by Cyclone Gezani, 20 killed and 33 injured",
+      "alert_summary": "Cyclone Gezani struck Madagascar, killing 20 people and injuring 33 others."
+    },
+    {
+      "wp_id": 6656,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-16-2026/",
+      "date": "2026-06-16T05:11:46",
+      "title": "Wildfire in United States 06/16/2026",
+      "body": "A wildfire broke out south of Calimesa, California, burning roughly 1,500 acres and forcing residents to evacuate the area. An evacuation order was issued as the fire continued to spread.\n\nCalimesa is a small city in Riverside County, east of Los Angeles. Residents in the affected zones were directed to leave their homes as firefighters worked to contain the blaze.\n\nNo casualty figures were reported in the available information. Those with ties to communities in this region of Southern California are encouraged to check on the safety of contacts there.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 33.996054,
+      "lng": -117.058427,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOWhJX05OeDQxVXdDS0dhSWJTcF96NXlDTFRqSHgxUHFYZV9XU0RFempSN3N3T1o3dWJ0T1dYcDlmeTJXV2FpdF96QXItOUdMR2pkOUU2Mkt5Y1NEdXoxOTZZYTd6dlo5NHpWcnJtd09EYkVlY0hBX3ZVcDJLSEZKMGJUeFlGWnlCM3RpUS1RSzdwTngyMmJWUkVuSllvU0ZiSDJjTTRZZl9YMGMzS05UZXZqOG5LQ3BzdWc?oc=5",
+      "prayer": "Residents near Calimesa, California under evacuation orders as wildfire spreads across the area",
+      "alert_summary": "A wildfire south of Calimesa, California burned roughly 1,500 acres and prompted an evacuation order."
+    },
+    {
+      "wp_id": 6655,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-16-2026/",
+      "date": "2026-06-16T05:11:32",
+      "title": "Flood in Ghana 06/16/2026",
+      "body": "Flooding struck the Abuakwa South area of Ghana following a heavy downpour on Sunday, displacing thousands of residents and leaving one person feared dead. The floodwaters forced large numbers of people from their homes as the area struggled to cope with the sudden inundation.\n\nThousands of displaced residents are in need of assistance as communities work to recover from the impact of the flooding. The full scale of damage to homes and property was not immediately clear from available reports.",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 6.880854,
+      "lng": -1.167594,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVUxoUXpBR3dBdmFORGY2TUJxbk9qZWVYdFhtVkxVYkhzVWdWQkhMVmNpZ3dZYnJlMlFFOEx6RzA5ZThIZFhGcHp0WnBoX1haelVnTWZWbTU4all4Y25xU1ZpN3BpVXlUclRxNTVSdDlNRnhMbTVLNXNEcDVWUnpNYUxhRWdkMVNQSHVLVjRVYWNKc042Mk0wZGthRjlCZHZ6TjhfYm1nR0hEci10QUVocjZ2TDJrZl9VRHJRa0pCVFNOTXVkdFhHMkN5bXNha3BPTDBRODl2Yw?oc=5",
+      "prayer": "Thousands displaced in Abuakwa South, Ghana, after flooding, one person feared dead",
+      "alert_summary": "Flooding in Abuakwa South, Ghana displaced thousands and left one person feared dead after a Sunday downpour."
+    },
+    {
+      "wp_id": 6654,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-15-2026-2/",
+      "date": "2026-06-16T05:11:18",
+      "title": "Flood in United States 06/15/2026",
+      "body": "Storms moving through the Waco, Texas area on Sunday night brought floodwaters that rushed into at least one home, forcing a family to evacuate. The incident highlights how quickly rising water can make a residence unsafe, even during a single night of heavy rain.\n\nNo casualty figures were reported in connection with this event. The affected family left their home as the water rose inside, and conditions in the area drew attention to the broader flooding risk that accompanies storm systems in central Texas.\n\nResidents in flood-prone neighborhoods are encouraged to remain alert during periods of heavy rain and to have a plan ready if water begins to enter their homes.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 31.54915,
+      "lng": -97.147063,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbmNqeDVYNTk3NVRuYURGeEJ6WjJvVVc4eWFUVUhXVXA4a3hvazVhNE5Qdzc1WDNnNm93LWduam5zMENrOTZGNUVyVEl2dzFoelZzWXlmTzh1bEsyQW4wV0ZhQmkxVTBXV2tpcHg3VEZFX0pqOXg4V1ZSZzRmMXNIOUc3aGYtVGhYXzFLa1NPcFAweWM4ZWhRZHhGdy05MVZjR2FtMHQ4OXM4SC1vOEI4LUpmWUJzTkl3bnAyV2dKMDJ3SG1ZR293WkVhTE5HRWVQWUY1NFhJQUN3TWtlN1VEWWJSeVJYZzQ0d1B5UTdrUFZBQWY5?oc=5",
+      "prayer": "A Waco family displaced after floodwaters entered their home during overnight storms",
+      "alert_summary": "Floodwaters entered a home in Waco, Texas, forcing a family to evacuate during overnight storms."
+    },
+    {
+      "wp_id": 6653,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-15-2026-2/",
+      "date": "2026-06-16T05:11:03",
+      "title": "Disease in Congo 06/15/2026",
+      "body": "An Ebola outbreak in Ituri Province, northeastern Democratic Republic of Congo, has killed more than 140 confirmed people since it was officially declared just over a month ago. The virus involved is the rare Bundibugyo species, which has killed roughly one in five of those known to be infected. Authorities believe the virus may have been spreading undetected for months before the outbreak was confirmed.\n\nHealthcare workers at a treatment center in Mongbwalu are working to build trust in the community, where misinformation has fueled suspicion of medical care. A tent set up to treat patients was set on fire in late May, and myths — including a belief in a so-called \"coffin curse\" — have discouraged some residents from seeking help. Officials note that more people are now coming forward for treatment since early patients recovered and returned home.\n\nRecoveries are bringing a measure of hope. Two patients have left the treatment center free of the virus, and medical staff greeted each discharge with singing and celebration.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.936693,
+      "lng": 30.045987,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cp3xyvww1lqo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities in Ituri Province, DR Congo, facing an Ebola outbreak that has killed more than 140 people",
+      "alert_summary": "An Ebola outbreak in Ituri Province, DR Congo, has killed more than 140 confirmed people since being declared about one month ago."
+    },
+    {
+      "wp_id": 6652,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-06-16-2026-magnitude-7/",
+      "date": "2026-06-16T05:00:40",
+      "title": "Earthquake in Indonesia 06/16/2026 — Magnitude 7",
+      "body": "A magnitude 7 earthquake struck about 43 kilometers east-southeast of Palu, on the island of Sulawesi in Indonesia. No details about casualties, injuries, or damage have been reported in available information at this time.\n\nPalu and the surrounding region have experienced destructive earthquakes in the past, and communities in the area are familiar with the threat. Residents in the affected zone may have felt strong shaking depending on their distance from the epicenter.\n\nFurther updates are expected as local officials and responders assess conditions on the ground.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -0.892638,
+      "lng": 119.872734,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st95",
+      "prayer": "Residents near Palu, Indonesia, after a magnitude 7 earthquake struck the region",
+      "alert_summary": "A magnitude 7 earthquake struck about 43 km east-southeast of Palu, Indonesia; no casualty figure reported."
+    },
     {
       "wp_id": 6632,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-china-06-15-2026/",
