@@ -1,9 +1,45 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-16T05:18:45.023545+00:00",
-  "count": 607,
+  "updated": "2026-06-16T11:16:22.927601+00:00",
+  "count": 609,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6680,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-albuera-leyte/",
+      "date": "2026-06-16T11:16:05",
+      "title": "Armed Conflict in Albuera, Leyte",
+      "body": "An ambush in Albuera, in the province of Leyte, left two people dead and three others wounded. Few additional details are available from the source material beyond the confirmed casualty figures.\n\nAlbuera is a municipality on Leyte island in the Eastern Visayas region of the Philippines, an area that has seen periodic armed incidents in past years. The circumstances of the attack and those responsible had not been identified in the available report.\n\nResidents in the area may face continued uncertainty following the incident.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Armed Conflict",
+      "lat": 10.917149,
+      "lng": 124.69514,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZnZjSXNVZGpDbTFKMDZBT0ZhVHRDOGUySTNKVUhkRnZDRDVRMHM4d1JlTVZUb04wVmIxZC0xMjlkY2wtUllQU3hlVTRIUFFkOTlPeHNPX3dpY3hGS2JOdlpNcXVRQ0w2RlRUN3lDNW5qNUhqcGVwRTBXTnJTRTNOYklrMmE2SXZZWE1mVDNud1c4NXRxY0ctU19DN1RJdw?oc=5",
+      "prayer": "Two people killed and three wounded in an ambush in Albuera, Leyte",
+      "alert_summary": "An ambush in Albuera, Leyte killed 2 people and wounded 3 others."
+    },
+    {
+      "wp_id": 6678,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kismayo/",
+      "date": "2026-06-16T11:15:30",
+      "title": "Armed Conflict in Kismayo",
+      "body": "Security forces in the Jubland regional state of Somalia arrested a number of Al-Shabaab militants in Kismayo, according to the Somali National News Agency. No additional details were given about the circumstances of the arrests, the specific location within the town, or what led to the operation.\n\nKismayo is a port city in southern Somalia and the administrative center of Jubland State. Al-Shabaab has long maintained a presence and carried out attacks across southern Somalia, and security operations against the group are ongoing.\n\nNo casualties or injuries were reported in connection with these arrests. Residents in the area continue to live with the risk of militant activity and security operations in and around the city.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": -0.354974,
+      "lng": 42.54627,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUlYyUFRJTm0yMjhxamM3MERkeUVFTGdGYUVfdDlDVlpxYXlxQWdUcHFMWEdadVVIUFROeEZPNHRRWjdhX2ZjU0ptODdUQ0VBU3c4SFFqRlFKeDJpaUg5ZWNTY2xNc2hsOUZLS09qWGRFTkVTZVZYYklERjBjMll2YWpCZHYwRUNxNG1fUjgyUmswYS0tV1dR?oc=5",
+      "prayer": "Residents of Kismayo living near ongoing Al-Shabaab militant activity",
+      "alert_summary": "Jubland State security forces arrested several Al-Shabaab militants in Kismayo town; no casualty figures reported."
+    },
     {
       "wp_id": 6666,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-rakhine-state/",
@@ -45,7 +81,7 @@
       "wp_link": "https://globalwitnessmonitor.com/mongbwalu/",
       "date": "2026-06-16T05:16:08",
       "title": "Mongbwalu",
-      "body": "An Ebola outbreak centered in Ituri province in the northeast of the Democratic Republic of Congo has killed more than 140 confirmed people. The rare Bundibugyo strain has a fatality rate of around one in five of known infections, and officials believe the virus may have been spreading undetected for months before the outbreak was formally declared just over a month ago.\n\nHealthcare workers at a hospital in Mongbwalu are working to build trust after misinformation fueled violence. On May 21, a tent set up to treat patients was set on fire. Rumors circulating in the community since February have linked the illness to a local belief called the \"coffin curse,\" and some residents believed treatment centres were causing harm rather than providing help.\n\nRecoveries are beginning to shift community attitudes. Two patients have now left the treatment centre after testing negative for the virus, and hospital staff say more people are coming forward to seek care as a result.",
+      "body": "An Ebola outbreak centered in Ituri province in the Democratic Republic of Congo has killed more than 140 confirmed people since being declared about a month ago. Authorities believe the Bundibugyo strain of the virus may have been spreading undetected for months before the outbreak was officially confirmed, and it has killed roughly one in five known cases.\n\nHealthcare workers at a treatment center in Mongbwalu have celebrated the recovery of at least two patients, with staff hoping the visible survivals will encourage more sick residents to seek care rather than rely on traditional medicine. The hospital's medical director says patient numbers are increasing since the first recovery.\n\nThe response has been complicated by local mistrust and misinformation. A treatment tent at the hospital was set on fire on May 21 by people who had been told that burning centers would end the outbreak, echoing similar attacks during the 2018–2020 outbreak in North Kivu. Officials say a burial event in early February may have triggered a large cluster of infections.",
       "country": "Congo",
       "countries": [
         "Congo"
@@ -55,8 +91,8 @@
       "lng": 30.045987,
       "source_title": "BBC News",
       "source_url": "https://www.bbc.com/news/articles/cp3xyvww1lqo?at_medium=RSS&at_campaign=rss",
-      "prayer": "Communities in Ituri province amid an Ebola outbreak that has killed more than 140 people",
-      "alert_summary": "An Ebola outbreak in Ituri province has killed more than 140 people, with a treatment centre in Mongbwalu attacked by arson on May 21."
+      "prayer": "Communities in Ituri province facing an Ebola outbreak that has killed more than 140 people",
+      "alert_summary": "An Ebola outbreak in Ituri province, Congo, has killed more than 140 people, with a treatment center in Mongbwalu attacked by arson on May 21."
     },
     {
       "wp_id": 6659,
@@ -207,7 +243,7 @@
       "wp_link": "https://globalwitnessmonitor.com/edwards-air-force-base/",
       "date": "2026-06-15T23:13:15",
       "title": "Edwards Air Force Base",
-      "body": "A B-52 bomber crashed and caught fire shortly after takeoff from Edwards Air Force Base in California on Monday, killing all eight people on board. Those killed included a mix of military personnel, government employees, and civilian contractors who were on a routine test flight connected to a radar modernization program.\n\nOfficials described the crash as \"unsurvivable,\" and footage of the site showed little remained of the aircraft. Emergency crews responded quickly but determined there was no one to rescue. The crash was contained within the base perimeter, about 60 miles north of Los Angeles, and the airfield was closed with inbound aircraft diverted.\n\nA safety investigation has been opened. The names of those who died were not being released until all families had been notified, a process officials said could take the rest of the day.",
+      "body": "A US Air Force B-52 bomber crashed immediately after take-off from Edwards Air Force Base in southern California on Monday morning, killing all eight people on board. The crew included military personnel, government civilians, and contractors — among them two Boeing employees. The aircraft burst into flames and the crash was confined to the runway area of the base.\n\nOfficials said the crash was deemed \"unsurvivable\" after reviewing initial footage. No cause has been determined yet, and investigations are expected to take up to 30 days, with further analysis potentially running more than six months. The base temporarily grounded flight operations and suspended non-commercial visitor access while emergency response continued.\n\nThe victims' names will be released 24 hours after their next of kin are notified. Families of the eight crew members are now receiving notification from the base.",
       "country": "United States",
       "countries": [
         "United States"
@@ -215,10 +251,10 @@
       "type": "Other",
       "lat": 29.355487,
       "lng": -100.797364,
-      "source_title": "France 24 - International breaking news, top stories and headlines",
-      "source_url": "https://www.france24.com/en/americas/20260616-eight-dead-after-us-b-52-bomber-crashes-at-california-air-force-base",
-      "prayer": "Eight crew members and contractors killed in the B-52 crash at Edwards Air Force Base, and their families awaiting notification",
-      "alert_summary": "A B-52 bomber crashed immediately after takeoff at Edwards Air Force Base in California, killing all eight people on board."
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cqx10yql319o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Eight crew members — military, civilian, and contractor — killed in a bomber crash at Edwards Air Force Base",
+      "alert_summary": "A B-52 bomber crashed on take-off at Edwards Air Force Base in California, killing all eight people on board."
     },
     {
       "wp_id": 6637,
@@ -423,7 +459,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-2/",
       "date": "2026-06-15T17:27:14",
       "title": "Armed Conflict in Sudan",
-      "body": "Drone attacks across Sudan have killed more than 1,000 people so far in 2026, with the United Nations reporting that the number of strikes has been increasing. The figures point to a sharp escalation in aerial warfare affecting civilian populations across the country.\n\nThe UN's warning adds to growing concern about the toll the conflict is taking on ordinary people. Sudan has been gripped by fighting between rival armed forces since April 2023, and the use of drones has become an increasingly common feature of the war. Civilians in affected areas face danger from strikes with little or no warning.",
+      "body": "The United Nations reports that drone strikes in Sudan have killed more than 1,000 people over a five-month period. The scale of casualties points to an ongoing pattern of aerial attacks affecting civilian populations across the country.\n\nSudan has been gripped by fighting between rival military factions since April 2023, and aerial strikes have become a recurring feature of the conflict. The UN figure underscores the toll the war continues to take on ordinary people caught in areas of active fighting.\n\nWith millions already displaced and humanitarian access limited in many parts of the country, the addition of widespread drone strikes raises further concern for communities with little ability to move to safety.",
       "country": "Sudan",
       "countries": [
         "Sudan"
@@ -432,9 +468,9 @@
       "lat": 13.831539,
       "lng": 30.049948,
       "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbkhjTi1JR2JZY1lERHVFQ21PYnlZRk1UcUJrc1RHMEl2ZjQ2SFhlOU1US0dLQ18yNzl2VTVmNnBVNGpsblR4TTZYZGpZaGhUSVRwWkdkSUFFeFA4ZlJ1R0YtRTFHUlpkQkx6cEVPdVZZeldWUVp1WGVEOG5mNTNBT2E4UWhvcXpNejhKcW11TFJpUHowXzhweGYxeklEQ0ViUVdOa2NYal9RYzhMZEJv0gG0AUFVX3lxTE5kUzRDUVBCUWpLbHRyZS1CS1RDVm1ZaHpnNzFqOU5QRG5zOVlWOExjNGtXbDlMampIZFRSTUxIaWlvMEFZS2pEa2kwQjVTbTJpaEswOGdHcnVBbzZIRy00d1ZmNXVoY1AtV1JUS3p4QjYwS1dydUdhdWVSMjI0b3NIN0FKVFJIcHo0bVA4VUVZNVBUNC1VUHlEX1FrLUM5SE4tbjdWYTdoQlhQU2JXUnBhUWFvMg?oc=5",
-      "prayer": "Sudanese civilians killed and wounded in multiplying drone strikes across the country",
-      "alert_summary": "Drone strikes in Sudan killed over 1,000 people in 2026, according to the United Nations."
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOclJmdHUyS1R4RnFkV2lrRktmNVpudVY5VWc3dmRzVjI4NWYtc0FxQ1dUTXVJXzIzTzNmMXNGb3l5M1VnS3FhZzRYRlh2Y2JFaUJMUFdBbDZpbUhoSDFldFlYZkg0alZYVlJxWXRmS2NnX3VXNkFZOU83NG5vaVBoSjdQdHp5RjBESTM3ZjZHczlJYV80OUVfMGp0eEtTVy1OSmJBSnhxa1pCaEE?oc=5",
+      "prayer": "Civilians in Sudan killed by drone strikes over five months of ongoing conflict",
+      "alert_summary": "Drone strikes in Sudan killed over 1,000 people across five months, according to the UN."
     },
     {
       "wp_id": 6596,
