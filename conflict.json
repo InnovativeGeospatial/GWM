@@ -1,9 +1,45 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-17T02:44:42.813911+00:00",
-  "count": 629,
+  "updated": "2026-06-17T05:12:47.439710+00:00",
+  "count": 631,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6751,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-port-au-prince/",
+      "date": "2026-06-17T05:11:36",
+      "title": "Civil Unrest in Port-au-Prince",
+      "body": "More than one in ten Haitians have been forced from their homes as gang violence continues to grip the country. The United Nations reports 2,300 people killed and 100 kidnapped so far this year, with 1.5 million displaced — including over 300,000 across Port-au-Prince alone, a record number. A government official was among those recently abducted.\n\nOver 30 people were killed, injured, or went missing last weekend in Cité Soleil, a seaside slum in the capital. A gang federation estimated to control 70% of Port-au-Prince has been designated a foreign terrorist organization by the United States.\n\nA new international gang-suppression force, approved by the UN Security Council in September, is due to begin operations in coming weeks. Fewer than 1,000 troops from four countries have deployed so far. Haiti has not had a president since its last head of state was killed in July 2021, and elections have yet to be scheduled.",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Civil Unrest",
+      "lat": 18.539766,
+      "lng": -72.33548,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/americas/20260617-un-chief-guterres-visits-haiti-as-gang-violence-surges",
+      "prayer": "1.5 million Haitians displaced by gang violence, thousands killed or kidnapped this year",
+      "alert_summary": "Gang violence in Haiti has killed 2,300, kidnapped 100, and displaced 1.5 million people so far this year."
+    },
+    {
+      "wp_id": 6750,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-zaporizhzhia/",
+      "date": "2026-06-17T05:11:23",
+      "title": "Armed Conflict in Zaporizhzhia",
+      "body": "A drone struck a residential building in Zaporizhzhia, Ukraine, injuring at least seven people. Emergency services responded to a fire burning through the structure following the strike.\n\nThe attack is described as suspected Russian in origin. No deaths were reported in the source, but the strike caused direct harm to civilians in their homes.\n\nZaporizhzhia has been a recurring target during the ongoing conflict. Residents in the city continue to face risk from aerial attacks on civilian infrastructure.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 47.844994,
+      "lng": 35.127964,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/russian-drone-strikes-residential-building-in-ukraine?traffic_source=rss",
+      "prayer": "At least seven residents in Zaporizhzhia wounded in a drone strike on their home",
+      "alert_summary": "A drone strike hit a residential building in Zaporizhzhia, injuring at least seven people and starting a fire."
+    },
     {
       "wp_id": 6746,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-arakan/",
@@ -62,19 +98,19 @@
       "wp_id": 6719,
       "wp_link": "https://globalwitnessmonitor.com/displacement-in-haiti-2/",
       "date": "2026-06-16T23:15:44",
-      "title": "Armed Conflict in Haiti",
-      "body": "The United Nations reports that gang violence in Haiti has killed at least 2,300 people so far this year, according to a new accounting released by the organization.\n\nHaiti has been gripped by widespread gang activity that has disrupted daily life, displaced civilians, and overwhelmed the country's limited security forces. Armed groups have expanded their control over large portions of the capital and other areas, making movement and basic services difficult for ordinary residents.\n\nThe toll reflects deaths recorded over the course of the year to date. Civilians continue to face dangers from ongoing clashes between rival groups and between gangs and security forces. Aid organizations have also reported difficulties reaching people in need due to insecurity in many parts of the country.",
+      "title": "Displacement in Haiti",
+      "body": "The number of people forced from their homes in Haiti has reached 1.5 million as gang violence continues to spread across the country. The UN Secretary-General traveled to Haiti, signaling growing international concern over conditions on the ground.\n\nHaiti has faced a prolonged security crisis, with armed groups controlling large parts of the capital and surrounding areas. Residents have fled their neighborhoods as gangs expand their reach, leaving many without stable shelter, food, or access to basic services.\n\nThe visit draws attention to the scale of the crisis, though humanitarian organizations have struggled to reach those most in need due to ongoing insecurity.",
       "country": "Haiti",
       "countries": [
         "Haiti"
       ],
-      "type": "Armed Conflict",
+      "type": "Displacement",
       "lat": 19.182436,
       "lng": -72.434515,
       "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXBmdVJRUVJpMVpIN3BwR2d3WVpUaFkzZVNQU2xLcUpHRnNTOFZWWkFETTlfcHFZMWQzeG1uWnU4ZlVXd0VTeC1Mc2tmQktwUlpnZ01uclNqMzNSS09jMnFtMDhqcEQ4SGVrTThSYnpLUEVPV25TZVkxQ2EzOHdxV3REM2xkdmxab1BzOG83djFvbDhOTE1TR2I5T2dQM09QNGxnOE82VkV0QVpGZE1mdGFLRFJVT3p5UnNHZ2x5V2FtVWxC?oc=5",
-      "prayer": "At least 2,300 people killed in Haiti by gang violence this year",
-      "alert_summary": "The UN reports at least 2,300 people have been killed in Haiti by gang violence so far this year."
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcXJyVGpUc083RUtiOHBWdVFYd0tQZUljeDRsNW9aWXJpUXVGcjNWQWR6MzQzSVBwaS1Cd3I2REFISmpSTlpTLWM0elU3X3RNTG0ydlE3X2pRc0tkUjhTTTZUVFhrdjR6NkpNa3ZyeWFhMUZJWFpIQUhvWWJpMlpfblNob3U3bE1ZbjFKQ2otd3V0akFyQ1RxbWhnbkZGZ1J1U3hlUk5ZdW1IdUpvVHMzcTBwRzQyaXFuT0VmalotMUd6bUhEbk9COFlEQXFuQTg?oc=5",
+      "prayer": "1.5 million people displaced in Haiti amid ongoing gang violence",
+      "alert_summary": "Gang violence in Haiti has displaced 1.5 million people, prompting a visit by the UN Secretary-General."
     },
     {
       "wp_id": 6718,
