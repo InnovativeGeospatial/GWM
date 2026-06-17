@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-16T23:11:16.880687+00:00",
-  "count": 576,
+  "updated": "2026-06-17T00:40:11.217179+00:00",
+  "count": 582,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6731,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-16-2026-3/",
+      "date": "2026-06-17T00:39:18",
+      "title": "Disease in Congo 06/16/2026",
+      "body": "An Ebola outbreak is continuing to spread across Congo, with health officials warning that the true number of cases is likely higher than reported. Officials stated that ongoing transmission indicates that infected individuals are not being identified and counted, meaning the outbreak is not yet under control.\n\nThe concern over missed cases points to gaps in surveillance and contact tracing, which are critical tools for stopping the spread of Ebola. When cases go undetected, the virus can move silently through communities before health teams are aware.\n\nEbola is a serious and often fatal illness that spreads through direct contact with the bodily fluids of someone who is infected or has died from the disease. Outbreaks in Congo have occurred multiple times in recent decades, and each one places enormous strain on local health systems and the communities they serve.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaXBhcGZJa3duV1VNU0gzd3BSNkRMaXJvTGV6Ry1xbHZQM0pra0luVjhVY3JfcUFva20zb0stQlRUb1FRdDdFOGZxQ2ZmTlVnMWtqTkh4dkhKSWZPZ3JoQUhUSTdVZXYwOVdoVUxsdnV3TWRvS2NMZ0FvZVVZTG5wQ3ZFYWhhZEhBZmc?oc=5",
+      "prayer": "Communities in Congo amid a spreading Ebola outbreak with cases going undetected",
+      "alert_summary": "An Ebola outbreak continues to spread in Congo, with health officials warning that cases are being missed."
+    },
+    {
+      "wp_id": 6730,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-16-2026-2/",
+      "date": "2026-06-17T00:39:00",
+      "title": "Storm in Madagascar 06/16/2026",
+      "body": "Cyclone Gezani made landfall in Madagascar, killing at least 20 people and injuring 33 others. The storm is described as another cyclone to hit the island, suggesting the country has faced multiple systems in a short period.\n\nMadagascar sits in one of the most active cyclone zones in the Southern Hemisphere, and repeated storms can overwhelm communities still recovering from previous events. Residents in affected areas face damaged homes, disrupted access to food and clean water, and the loss of loved ones.\n\nRelief efforts are under way, though conditions on the ground remain difficult. Communities in the hardest-hit areas will need continued support as they work to recover from the storm's impact.",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTY3TVpLVFhiVWFvRW5YMi1sb3FERFlGNENsM2xtckdQR2ZvcHNDeXNBcWZpV1dfQkVPLVVFWktNU0dNOGp4VFdBWENveUVWSnFMcWQ0Y0RqN0lrWl9wdXgyQ3lpTDhIWHg1MUE0cll1dU9PN0Z3ZW5iWWJUSTlKWW5XdUVfbEJlNUhreA?oc=5",
+      "prayer": "Families in Madagascar grieving losses and injuries after Cyclone Gezani",
+      "alert_summary": "Cyclone Gezani struck Madagascar, killing 20 people and injuring 33 others."
+    },
+    {
+      "wp_id": 6729,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-16-2026-2/",
+      "date": "2026-06-17T00:38:27",
+      "title": "Wildfire in Canada 06/16/2026",
+      "body": "A wildfire broke out near West Kelowna, British Columbia, prompting authorities to order the evacuation of hundreds of homes. Residents were forced to leave their properties as the fire spread in the area.\n\nNo casualty figures were reported in available information, but the scale of the evacuation points to a significant threat to residential neighborhoods. Emergency personnel were responding to the situation as conditions developed.\n\nWest Kelowna and the broader Okanagan region of British Columbia have experienced wildfires in past years, and communities there remain vulnerable during dry summer months. Residents displaced by the evacuation order were urged to follow official guidance and move to safety.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 49.859016,
+      "lng": -119.58252,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUW9YU3BneHhjUzRQOWtWX2YzQ3I2WWxKQ19fazJqZ0hpSUdRcFBoOVltWHNHeFlsR09pajZ6Y2toYUNZNGdJVUpzUFl4MlV1VDM1MmFXYzBLdnFMLU5EWGNPT19KVF9YaWRIQzlpRXpPQk9TdmdrYndPeGRrZXd4Wl82RWxOa1pCNUQwMkxvS1J1YmhYNUxwbVVxY3lTNjA1Q0czdmR2U3p2Vkppa2NPbXFyR3AtaTk3SUtyUno3SlljNm5ZYl9TOG1PWHVoQUhOWEJDeU02bU9WN3IxYXE4Y0tILW1IVWt0alp5Q1ZaaDFFelkybjFCcktNV1M?oc=5",
+      "prayer": "Hundreds of households in West Kelowna, British Columbia displaced by an active wildfire",
+      "alert_summary": "A wildfire forced the evacuation of hundreds of homes in West Kelowna, British Columbia; no casualty figure reported."
+    },
+    {
+      "wp_id": 6728,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-16-2026-5/",
+      "date": "2026-06-17T00:37:59",
+      "title": "Wildfire in United States 06/16/2026",
+      "body": "A wildfire in Franklin County has grown beyond 13,000 acres, and authorities have kept an evacuation order in place for affected residents. Those in the evacuation zone have been required to leave their homes as the fire continues to burn.\n\nNo casualty figures or information about structures destroyed were included in the available report. The extent of containment efforts and the cause of the fire were also not noted in the source material.\n\nResidents under the evacuation order remain displaced while firefighters work to bring the blaze under control.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 44.67062,
+      "lng": -70.151276,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMkpiWnNtZGY3UEdoVDE4cG93Wi1WYlF4VWpZalJTRk9ncEpnM0NPTGtmTWJNTGtpdXpwLXAybElzSm84U0QycVdsWUgzem9ic0N1bGZnU1o3V1FoWHdTZFRmVkJVaVNNVElvZVFTd2hMeUM0cDVUWGNkMWpKdm41SDhGTV9uekpxRElLeU1jSGdqem9IWWJTMGZqSldqSWNfYklUbDBGaUVjX01ORVpXTElaaUctdUpVUXFlRVc3VWlRYVFnOTRIZTJocUpOakMxU0xNZmJLV3NDSUt4dl9TamZadmhuNDRObFNoZlZMR1ZFUQ?oc=5",
+      "prayer": "Residents of Franklin County displaced by a wildfire now exceeding 13,000 acres",
+      "alert_summary": "A wildfire in Franklin County has burned more than 13,000 acres with an evacuation order still in effect."
+    },
+    {
+      "wp_id": 6727,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-11-2026-magnitude-6-2/",
+      "date": "2026-06-17T00:30:41",
+      "title": "Earthquake in Chile 06/11/2026 — Magnitude 6",
+      "body": "A magnitude 6 earthquake occurred about 128 kilometers northwest of Vallenar, in northern Chile. No details about casualties, injuries, or property damage are available from the source at this time.\n\nVallenar is a city in the Atacama Region, an area that experiences seismic activity due to its position along the South American tectonic plate boundary. Residents in the surrounding area may have felt shaking, though the remote location northwest of the city could limit the impact on populated areas.\n\nNo further information on local conditions or response efforts has been reported.",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.8038,
+      "lng": -71.7406,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss82",
+      "prayer": "Residents near Vallenar, Chile, following a magnitude 6 earthquake northwest of the region",
+      "alert_summary": "A magnitude 6 earthquake struck 128 km northwest of Vallenar, Chile; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 6726,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-06-16-2026-magnitude-5/",
+      "date": "2026-06-17T00:30:07",
+      "title": "Earthquake in China 06/16/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred 261 kilometers south-southeast of Dunhuang, in the Gansu province region of northwestern China. No casualty or damage figures have been reported from this event.\n\nDunhuang is a remote desert city known as a gateway to the Silk Road. The surrounding area is sparsely populated, which may limit the impact of shaking at this distance from the city.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 37.8819,
+      "lng": 95.4313,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stdb",
+      "prayer": "Communities in the remote Dunhuang region of China near a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck 261 km south-southeast of Dunhuang, China; no casualty figures reported."
+    },
     {
       "wp_id": 6707,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-06-16-2026/",
