@@ -1,9 +1,117 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-17T11:17:13.858784+00:00",
-  "count": 643,
+  "updated": "2026-06-17T17:18:25.312707+00:00",
+  "count": 649,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6787,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jumpers/",
+      "date": "2026-06-17T17:18:04",
+      "title": "Armed Conflict in Jumpers",
+      "body": "The death toll from a massacre in Jumpers has risen to 13, according to reporting from the Daily Sun. No further details about the circumstances, perpetrators, or timing of the attack are available from the source material provided.\n\nBecause the source summary contains only a headline and outlet name, specific details about how the attack occurred, who carried it out, or what community was affected cannot be confirmed. The Daily Sun is a Nigerian publication, suggesting the event likely occurred in Nigeria.\n\nResidents in the affected area face uncertainty as the situation continues to develop. The rising toll suggests the initial reports undercounted the number of people killed.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSUxVSFUwb1NWUTMyOUdKVEtSdTBlU1NWQjE3bllaWHJGZF9PUnhMYkc0THBHYXRKLWhWc2Jwd0k3U01zR0Q1U1BycnFCdHBweHo1azBNcThMbHYtOW1zQkd5VEx4Y3FDOEFDRjUtRGNobmVqYmNRdXE2SldueldVOGthV3Rzd1dTUURn?oc=5",
+      "prayer": "Thirteen people killed in the Jumpers massacre and their grieving families",
+      "alert_summary": "A massacre in Jumpers killed at least 13 people, according to reports."
+    },
+    {
+      "wp_id": 6786,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-damascus/",
+      "date": "2026-06-17T17:17:15",
+      "title": "Armed Conflict in Damascus",
+      "body": "ISIS has claimed responsibility for an attack targeting a government official near Damascus, Syria. The group has continued to carry out sporadic attacks inside the country even after losing its territorial hold in the region years ago.\n\nThe attack is a reminder that ISIS remains an active threat in Syria, particularly as the country navigates a fragile and shifting political situation. Officials and civilians in areas around the capital remain vulnerable to such strikes.\n\nNo casualty figures were available from the source summary. Field workers and ministry personnel operating in or around Damascus should be aware that targeted violence against officials can affect surrounding neighborhoods and civilian movement.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.51307,
+      "lng": 36.309581,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wUXY4VDNvc1V5cFFydlNmT2pGc0FmTzFDNFNhb29Sbkk0MDlEOTdQdEpKOWdzNjNKbkxHTWpYQ3BSOHFnVVVnR1lrWS15OVRyejVtZm5sSTYzN3p3TVNlZjJBUURaYjJDNVktZw?oc=5",
+      "prayer": "Civilians near Damascus living under threat of continued ISIS attacks",
+      "alert_summary": "ISIS claimed responsibility for an attack targeting an official near Damascus, Syria; casualty figures unknown."
+    },
+    {
+      "wp_id": 6785,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-baidoa-2/",
+      "date": "2026-06-17T17:17:02",
+      "title": "Armed Conflict in Baidoa",
+      "body": "A suicide bomber attacked Baidoa town in Somalia, killing four people and wounding six others, according to the Somali National News Agency.\n\nBaidoa is a regional hub in southwestern Somalia and has experienced previous attacks linked to the armed group al-Shabaab, which has carried out bombings across the country. No group claimed responsibility in the available source material.\n\nThe wounded were taken for medical care, though conditions for civilians in the area remain uncertain following the blast.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMFRtWVhiQ3dmSjRRejVpS0d3Q0FuUHhyeXJJcGtpaUFjX25CN1QxN0k5SDVMNjhuQ3RGdmEzUjlNaGtFX1VfRnpQNVJhRkF3czRPdUstUG41NGh4VnhWWENXa0FOME1MemM2Y0pjelJZMkRLSm5BZ05kSGpoZXdmcWsycEdIeF9FOFAxMGo1eWV1dHdOTk9iV25qNWxLQk0?oc=5",
+      "prayer": "Residents of Baidoa wounded and killed in a suicide bombing attack",
+      "alert_summary": "A suicide bomb attack in Baidoa killed 4 people and wounded 6 others."
+    },
+    {
+      "wp_id": 6784,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-nigeria/",
+      "date": "2026-06-17T17:16:38",
+      "title": "Armed Conflict in northern Nigeria",
+      "body": "A wave of attacks across northern Nigeria left at least 50 people dead within one week, according to reports. The violence affected multiple areas across the region, though specific locations and the groups responsible were not detailed in the available summary.\n\nNorthern Nigeria has faced ongoing insecurity from armed groups, including bandits and militants, who regularly target farming communities, travelers, and villages. Residents in affected areas often have little warning before attacks occur.\n\nThe scale of the week's violence — 50 deaths across the region — points to conditions that remain dangerous for civilians living and working in the north.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOXBna3REWE5SN3FiMUp6YVl6b0RVX0VBZWRjVGtSYWdNZjVINXZOT0pzSE1uUkRTajdic3JFandHZkN4d2dudS1DQ09USV9MVmpMMldSSGJPZWdOM096MDhZWV9kZGVqODFzSnF3S1liR0Q3RlMxOXFWZWY2bmNZNzFrVHNNNG16WTlv?oc=5",
+      "prayer": "Communities across northern Nigeria grieving 50 killed in one week of attacks",
+      "alert_summary": "Attacks across northern Nigeria killed at least 50 people within a single week."
+    },
+    {
+      "wp_id": 6782,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-butembo/",
+      "date": "2026-06-17T17:16:03",
+      "title": "Armed Conflict in Butembo",
+      "body": "Armed men stormed Wanamahika Hospital in Butembo, in eastern Democratic Republic of Congo, and took a six-year-old Ebola patient and her mother from the facility. A local health official described the men as \"very angry\" and carrying knives. Health authorities are urging the child and her mother to return to a care center, warning they risk worsening their condition and spreading the virus to family members.\n\nThis incident is part of a broader pattern of attacks on Ebola health facilities during the current outbreak. Last month, police fired warning shots in Mongbwalu after crowds tried to reclaim bodies of patients, and isolation tents were burned in Rwampara after families were prevented from taking a body. Misinformation has fueled the violence, with some communities believing Ebola does not exist and that health organizations are fabricating the outbreak for profit.\n\nThe current outbreak, caused by the Bundibugyo strain of Ebola for which no vaccine yet exists, has confirmed roughly 840 cases and nearly 200 deaths. Conflict in eastern Congo, including areas held by the M23 rebel group, is complicating efforts to trace contacts and contain the spread.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Armed Conflict",
+      "lat": 0.124617,
+      "lng": 29.293558,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cvgep4l397eo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Six-year-old Ebola patient and her mother missing after armed men removed her from hospital care",
+      "alert_summary": "Armed men with knives stormed a hospital in Butembo and removed a six-year-old Ebola patient; she and her mother remain missing."
+    },
+    {
+      "wp_id": 6780,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-poland/",
+      "date": "2026-06-17T17:15:29",
+      "title": "Armed Conflict in Poland",
+      "body": "A Russian artist known for caricatures mocking political figures, including Vladimir Putin, was shot and killed in Poland. The killing came just three days after he staged a performance protest near the Russian embassy in Berlin.\n\nThe artist, who went by the stage name Semyon Skrepetsky, was a vocal critic of the Kremlin and had drawn attention through public demonstrations and satirical artwork targeting both Russian and opposition political figures.\n\nNo suspect or motive has been confirmed in the source. His death raises concern among Russian dissidents and artists living in exile across Europe.",
+      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
+      "type": "Armed Conflict",
+      "lat": 52.12461,
+      "lng": 19.300636,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/russian-artist-and-outspoken-putin-critic-shot-dead-days-after-protest?traffic_source=rss",
+      "prayer": "Family and colleagues of a Russian artist shot dead in Poland following a public protest",
+      "alert_summary": "A Russian artist and political caricaturist was shot dead in Poland three days after a protest near the Russian embassy in Berlin."
+    },
     {
       "wp_id": 6773,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nipss/",
@@ -316,7 +424,7 @@
       "wp_link": "https://globalwitnessmonitor.com/displacement-in-haiti-2/",
       "date": "2026-06-16T23:15:44",
       "title": "Displacement in Haiti",
-      "body": "The number of people forced from their homes in Haiti has reached 1.5 million as gang violence continues to spread across the country. The UN Secretary-General traveled to Haiti in response to the crisis, signaling growing international concern over conditions on the ground.\n\nHaiti has struggled with gang control over large parts of its territory, including significant portions of the capital. Armed groups have taken over neighborhoods, forcing families to flee with little warning and few resources.\n\nThe displacement figure marks a stark indicator of how widespread the crisis has become. Displaced families are often living in overcrowded shelters or with relatives, with limited access to food, clean water, and medical care.",
+      "body": "Gang violence in Haiti has now displaced 1.5 million people, according to the source, as the UN Secretary-General traveled to the country amid the continuing crisis. The visit signals growing international concern over conditions on the ground.\n\nDisplaced residents face shortages of shelter, food, and basic services. Gangs have taken control of significant portions of territory, making movement dangerous for civilians and aid workers alike.\n\nThe UN's presence may bring attention to funding and support needs, but the day-to-day situation for families forced from their homes remains difficult.",
       "country": "Haiti",
       "countries": [
         "Haiti"
@@ -325,9 +433,9 @@
       "lat": 19.182436,
       "lng": -72.434515,
       "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOREl5ZDBBWGhDUzltUmRuWWpRR3lkR25PbTMwQUJTck96RndydGZxNG43dnJueVpYYThTVThZWVdTS05ua3VjQTFqMG04TGJuZEdmWTdkdWFUS1hMQlJmbmVMNWh6aGx6RmZJVUlBS0dYNUZjaDhNUmQwREF0Z1kxVUdOejk0LUI4MXYwa3JFYkE4WUJscHg0dVpDY1pBbURjRExSN3haV0c0X1F6R21xMmc5R3RBMVVJMWlrWjg3UjNIeVhHeWU4dWdqV0F3NDQ?oc=5",
-      "prayer": "1.5 million Haitians displaced by ongoing gang violence with no safe return",
-      "alert_summary": "Gang violence in Haiti has displaced 1.5 million people, prompting a visit from the UN Secretary-General."
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSl9uYTUwcmlOUkF1ZGcxYVRsM2I2RDBEYkE3Q2JoaVI2YW1VZ0xkekItd2w5Rklub1M4OVd0MWtBQUpuOUNYaW1meUFDeUZ6OUdnNFhrVF9KUVZCczZDNWJMX3FvMjRGSDV6Vmk0NVZjVXZrSzQ5a2ZlU01Ldmlyd1g2MU1uUlZQdmdXNUdBNk50eVpPOTJkQmVLRFNJSm5kVE90WTdNOFNwd243c1hKOEw0aEVyamtDd05lSFN2U1Qwc1hLdk1WQlBXd1ZXX3M?oc=5",
+      "prayer": "1.5 million people displaced in Haiti amid ongoing gang violence",
+      "alert_summary": "Gang violence in Haiti has displaced 1.5 million people, prompting a visit by the UN Secretary-General."
     },
     {
       "wp_id": 6718,
@@ -553,7 +661,7 @@
       "wp_link": "https://globalwitnessmonitor.com/displacement-in-nabatieh/",
       "date": "2026-06-16T17:17:23",
       "title": "Armed Conflict in Nabatieh",
-      "body": "At least four people were killed Tuesday when Israeli drones struck vehicles in the Nabatieh governorate of southern Lebanon. Two vehicles were targeted in Mayfadoun, and a third was struck in the nearby village of Shoukin, according to Lebanon's National News Agency.\n\nThe strikes came as negotiations between Iran and the United States were underway to halt fighting across multiple fronts. Pakistan, serving as a mediator, said Monday that an emerging agreement would include an immediate stop to military operations \"on all fronts, including Lebanon.\" Despite this, Israeli officials stated that Israeli forces would remain in southern Lebanon. Iran's military command warned that continued Israeli attacks on Lebanon would draw a response.\n\nSince fighting resumed on March 2, Lebanon's health ministry reports at least 3,826 people have been killed and 11,851 wounded by Israeli attacks. Residents returning to Nabatieh described a prevailing sense of uncertainty about their safety.",
+      "body": "Israeli drones struck multiple towns in southern Lebanon on Wednesday, including areas around Nabatieh, Kfar Tebnit, and Tyre, wounding residents and killing at least four people in earlier attacks. Five Israeli soldiers were wounded when two Hezbollah drones detonated near their positions in the south. Hezbollah also launched at least 10 rockets toward Israeli forces near Kfar Tebnit.\n\nA United Nations spokesperson noted that the number of projectiles fired between Israeli forces and Lebanon dropped from 705 the previous Sunday to 174 on Sunday, with 169 attributed to Israel and five to Hezbollah. Violence has slowed since a US-Iran framework agreement was announced, but has not stopped.\n\nFamilies have begun returning to some villages, but residents expressed doubt about whether the ceasefire would hold. Security sources cited in reports believe Israeli forces are moving to secure strategic high ground around Nabatieh.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
@@ -562,9 +670,9 @@
       "lat": 33.377956,
       "lng": 35.483513,
       "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/16/israeli-strikes-kill-four-in-southern-lebanon-amid-ceasefire-talks?traffic_source=rss",
-      "prayer": "At least four people killed by drone strikes in Nabatieh as ceasefire talks continue",
-      "alert_summary": "Israeli drone strikes killed at least four people in Nabatieh governorate, Lebanon, amid ongoing ceasefire negotiations."
+      "source_url": "https://www.aljazeera.com/news/2026/6/17/israeli-air-strikes-on-lebanon-continue-threatening-us-iran-deal?traffic_source=rss",
+      "prayer": "Residents of southern Lebanon caught between ongoing strikes and uncertain ceasefire",
+      "alert_summary": "Air strikes on towns in Nabatieh district killed at least 4 and wounded at least 5 soldiers amid a fragile US-Iran framework agreement."
     },
     {
       "wp_id": 6691,
