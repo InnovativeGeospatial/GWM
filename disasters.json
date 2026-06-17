@@ -1,9 +1,63 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-17T00:40:11.217179+00:00",
-  "count": 582,
+  "updated": "2026-06-17T01:01:40.553904+00:00",
+  "count": 585,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6737,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-16-2026-4/",
+      "date": "2026-06-17T01:01:25",
+      "title": "Disease in Congo 06/16/2026",
+      "body": "An Ebola outbreak in the Democratic Republic of the Congo has been described by Africa's top public health body as potentially the worst the country has ever seen. Officials have raised serious concern about the scale and spread of the disease, though specific casualty or case figures were not provided in this report.\n\nThe Congo has faced numerous Ebola outbreaks over the decades, making this warning particularly significant. Health authorities are working to respond, but the situation remains deeply concerning.\n\nPeople in affected communities face fear, illness, and the challenge of getting care in areas where health infrastructure is often limited. Pray for those working to contain the outbreak and for families who have lost loved ones.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcE5IWG4zZ2NxSG0tQUs2YmwwclNER3A3OUpXYThGR0pWMGlIcGk5ZUtGMl81QXJpcmNydExCa21vMlNXeElRNVB3ZGNCRG1wSjBnbGlOMmJyLXlDQlpGTTFVSko3M3VkMkhKY3ZKYXE2UHU2RG1CaVlVYWlBclBpdTcwN2huVW81dHRrWmUyT3pRd28?oc=5",
+      "prayer": "Communities across Congo facing what may be the worst Ebola outbreak on record",
+      "alert_summary": "Africa CDC warns Congo's current Ebola outbreak may be the worst ever recorded; no casualty figure provided in source."
+    },
+    {
+      "wp_id": 6736,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-16-2026-3/",
+      "date": "2026-06-17T01:00:54",
+      "title": "Wildfire in Canada 06/16/2026",
+      "body": "A wildfire broke out near West Kelowna, British Columbia, forcing residents to evacuate quickly as the fire threatened the area. Evacuations were described as hurried, suggesting the fire moved quickly and left little time for people to gather belongings before leaving their homes.\n\nWest Kelowna and the broader Okanagan region have faced repeated wildfire threats in recent years, and communities there are familiar with the stress and uncertainty that come with sudden evacuation orders. Residents displaced by the fire are waiting to learn when, or whether, it is safe to return.\n\nNo figures on casualties, structures lost, or the number of people evacuated were included in the available reporting.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 49.859016,
+      "lng": -119.58252,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTQ2RUNGaFRESGRxQTZpYVg2a1JIa0NmdEF3dDY3RS1VRzBPYXhSaVNCQWxCdmJMTEh0VjdUb3RrV3RhNFVoSHNNZjJoZUJxcklxSDB0NnFrYWtYRTI0Nk81Ml9GcUNNV2tzY2d5TkU3al9xaXNZWWYyN3IzbUtYU0R5UDlHYjhnS3c2U3h3a19tVTRONGxFaGZtWQ?oc=5",
+      "prayer": "Residents of West Kelowna, British Columbia, forced from their homes by an approaching wildfire",
+      "alert_summary": "A wildfire forced hurried evacuations in West Kelowna, British Columbia; no casualty figure reported."
+    },
+    {
+      "wp_id": 6735,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-16-2026-6/",
+      "date": "2026-06-17T01:00:33",
+      "title": "Wildfire in United States 06/16/2026",
+      "body": "A wildfire burning along Upriver Drive east of Spokane grew to 50 acres and forced residents in the area to evacuate. Officials ordered people to leave as the fire spread through the surrounding landscape.\n\nNo casualty figures were reported in available information. The evacuations reflect the immediate threat the fire posed to homes and people living near the burn area.\n\nFirefighters were working to bring the blaze under control. Residents in affected neighborhoods were urged to follow evacuation orders and monitor updates from local authorities as conditions continued to develop.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.693625,
+      "lng": -117.313967,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWko5SmZET1VTcUxramJ5RzFiWmZlRUJOSlloVEVuRjNVX3NLcF9ITEw5VkxYdTlsc2k2MmxCZzdZNC00OHdKRGVPN1FSUlU3RERaNjdnUnRndWdKeHlSTUo4YkQwckM5TV96VE5IbENGN1NycElsMHhycmdlUmhCeEtUa0xvWG9ib01FLVMtVUtPV1B5MUw5TVFGQzNLSFhLWkFmWUNLREFlNnd3YmJmRmNudGtueXJlcTJLY0xSS1UyWXFKSVB4NzAxRkcwak4tWHMwVWZrSnM?oc=5",
+      "prayer": "Residents east of Spokane evacuated as a wildfire burns along Upriver Drive",
+      "alert_summary": "A 50-acre wildfire along Upriver Drive east of Spokane prompted evacuations of nearby residents."
+    },
     {
       "wp_id": 6731,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-16-2026-3/",
