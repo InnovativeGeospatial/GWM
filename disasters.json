@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-18T05:11:58.862853+00:00",
-  "count": 615,
+  "updated": "2026-06-18T11:12:05.183959+00:00",
+  "count": 624,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6827,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-18-2026/",
+      "date": "2026-06-18T11:11:36",
+      "title": "Storm in United States 06/18/2026",
+      "body": "Storms that prompted tornado warnings moved across the Tri-State region, leaving behind reports of damage and flooding in their wake. The storms triggered tornado warnings as they passed through the area, though the summary does not confirm whether any tornadoes actually touched down.\n\nResidents in the affected areas reported property damage and flooded locations following the storms. No figures for casualties, displaced persons, or homes destroyed were included in the available source material.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 42.359291,
+      "lng": -71.053937,
+      "source_title": "\"tornado OR storm damage OR killed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHVGTkg3NlJaOEFkblJyRC1nam1JeGdaU1hKRUhHMmZvQWlsOXp3T1FOMG1TcWthUURxaFo4YkVKclRhYTBsZUtUNmRDaGpOZzU0SjRSdXVpZmlGR3dvSGFHc1dFT25uRzNrQUxWaExiS2N5emNHNGwxQTFhRXA5bXItd2xZWEwxdEYwTHd5a0o?oc=5",
+      "prayer": "Tri-State area residents affected by tornado-warned storms and flooding",
+      "alert_summary": "Tornado-warned storms caused damage and flooding across the Tri-State area; no casualty figure reported."
+    },
+    {
+      "wp_id": 6826,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-06-17-2026/",
+      "date": "2026-06-18T11:11:16",
+      "title": "Disease in Uganda 06/17/2026",
+      "body": "An Ebola outbreak caused by the Bundibugyo strain has emerged in Uganda, prompting an emergency response at the highest levels of African leadership. The World Health Organization convened a virtual meeting with African heads of state and international partners to coordinate the response.\n\nBundibugyo Ebola is a strain first identified in Uganda's Bundibugyo district in 2007. It spreads through direct contact with the blood or bodily fluids of infected people and can be fatal. Outbreaks in densely connected communities and near border areas raise concern about spread to neighboring countries.\n\nAfrican governments and global health organizations are working together to contain the outbreak. The scale of confirmed cases and deaths was not detailed in the available source, but the convening of a high-level regional summit signals that authorities consider the situation urgent.",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Disease",
+      "lat": 0.70742,
+      "lng": 30.063846,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNeFl4c0dxaGx6V1owMEpWQUpSRkMybEZGbmRrdWkyYUtsbjd6OFRuVDRrZGZtdm1OTEhka04wdHVDYzNxWm1Xdno5VEdiT1ZBT1F0eU95UWw3ekRMY3N4Z1Z6SEFUcktoUGZ4aUhiRUxjVDRhTW1ZVWtwcnJmaEhjOVNUSHF0SW00S3dmeUtEd0QzU0R1NVEtZWRFT3R5NFdLbGZIOTdFallSa0V2T3hPWWFucVZoWkFfYzVvc2ExVUVTYmRfWFUzMVd2WFZtTmh0WTN2blQyNXJrYkotOEFTa2lEc3RvbGp5dFQtN3p0Mlg4N2gxVGExa1RpOHBwZ3ZDYU44SXptOFF5cnZpNTZ0YURVaktkLWNOSjhRNmk3Q3ZoT1VldkZwd1A5SmxEUWZMVmFvbjRsWk9iTTBCa1doTVBjcXFRZzA?oc=5",
+      "prayer": "Communities in Bundibugyo, Uganda, affected by an active Ebola outbreak",
+      "alert_summary": "A Bundibugyo Ebola outbreak in Uganda prompted a high-level emergency meeting of African heads of state and global health partners."
+    },
+    {
+      "wp_id": 6825,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-18-2026/",
+      "date": "2026-06-18T11:10:54",
+      "title": "Disease in Congo 06/18/2026",
+      "body": "An Ebola outbreak is underway in the Democratic Republic of Congo, and health responders say that building trust with local communities is one of the biggest challenges in bringing it under control. When people do not trust outside workers or health officials, they may avoid treatment centers, hide cases from authorities, or resist vaccination efforts — all of which allow the disease to spread further.\n\nThe International Federation of Red Cross and Red Crescent Societies has highlighted community trust as a central factor in the response. Local volunteers and community leaders play a critical role in reaching people who might otherwise turn away from formal health services.\n\nEbola spreads through direct contact with the bodily fluids of someone who is sick or has died from the disease. Early treatment improves survival rates, making it vital that residents seek care quickly and that responders are welcomed rather than feared.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1BLNWsxSFZxOUFGRkZqTkg2X0llZ3NMSWpfU2RSZncyVTBidnNFTjlpeTJCMmN1MC1fY3lBN3MtZTg5RU1TaklqbmJoRU8zdkpHcmpaYWs0U0U2cFU3NHh3NF9JSUYzNnhNRlRUMi1SdDJHMHQ3U0Fyajc4TFp5SGxncVdVS3VRWVdqMmlpV0pUR3VNOGpBZ21wNFJ0WUxLYnEtUXFxMWRrYWplNU96SFZPRQ?oc=5",
+      "prayer": "Communities in the Democratic Republic of Congo caught in an Ebola outbreak amid distrust of responders",
+      "alert_summary": "An Ebola outbreak is ongoing in the Democratic Republic of Congo; no casualty figure reported in the source."
+    },
+    {
+      "wp_id": 6824,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-15-2026-2/",
+      "date": "2026-06-18T11:10:38",
+      "title": "Earthquake in Philippines 06/15/2026",
+      "body": "An earthquake struck Mindanao in the southern Philippines, leaving 36 people unaccounted for. Officials from the Office of Civil Defense reported that search efforts have detected no signs of life among those still missing, raising fears that all may have perished.\n\nRescue teams have been working through the affected area, but conditions appear to offer little hope for survivors among the missing. The report does not specify the exact location within Mindanao or the number of confirmed deaths beyond the missing persons count.\n\nCommunities across the region are dealing with the aftermath as families wait for word on loved ones. The situation remains difficult for those displaced or affected by the quake, with response teams continuing their work on the ground.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.644251,
+      "lng": 123.34406,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNZ3ZoODNCWWV5QkkxX0xnZ0QydF9QX0F6N3piemQydEd6d3JGUkF0dHYzTjBYSnhsb2FPLVFTZUVnNXFNb2NlOWxuMlFiUUNaMUJJZXRfYlA4VG5SZ2hDRHByWTZ1TlprOFlQX3lNTDVfSHg0cThYUG5VcUVQLXlsb2xXbXMzN1NwclUzSWJ6T21rZ0R5UGVXZ1dqZnU2MWdYajhSTzJFemk1TXFyVWQwRm9zVnhQTGlTSTBqel91X3FTVmVaakxsSXg4QkQxTWZWTzVfc2lFMjQ5Qkw2dDVSMWsyZE81bnlFQ1FjM2JrcHlFd1hBc0RPOE84TDAyOEh5ZzJNLWphX3BKdXZzanNHbkpqN2pZdGNqWC1jQ1BpdF8wYXpzLWZiN2xWTjZ1aWhXdmlMT0hZUXEtVDRUbW5xd0NZQ1VBQndxTDA0eFI1cUlwY18yWmtYZkRnaFRpMzM0TERRV0hvaTV0M04yeUVHWjlzOHdvbDNhRm1uMnpkSHNrLUFXaEt6VFBjWmRwQjRCdWtweDh3?oc=5",
+      "prayer": "Thirty-six people missing in Mindanao with no signs of life detected by rescuers",
+      "alert_summary": "An earthquake in Mindanao left 36 people missing, with officials reporting no signs of life detected."
+    },
+    {
+      "wp_id": 6823,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-17-2026-6/",
+      "date": "2026-06-18T11:10:11",
+      "title": "Wildfire in Canada 06/17/2026",
+      "body": "A wildfire near West Kelowna, British Columbia, has been contained to its current perimeter, with crews now working to extinguish remaining hot spots across the affected area. Although the fire is considered \"held,\" meaning it is no longer expected to spread under current conditions, the threat has not fully passed.\n\nAn evacuation alert remains active for residents in the area, meaning people should be ready to leave on short notice if conditions change. Crews continue to monitor the situation closely as mop-up work proceeds.\n\nThe community has been on edge as firefighters work through the remaining dangers. Residents under the alert are encouraged to stay prepared while authorities work toward a full resolution of the fire.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 49.859016,
+      "lng": -119.58252,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQeVZmdjVmY3FSZC1BY3g4ZGZOM1hnZ2dTb1QzX09DUWNISXphZ01wbVl0U21aRGpjNnBzTFJURlpVQzZTZjFXUFluRzVBRzVJZzcxMklrdDJkdmtoX1pGMkVoNF9idzlyX3c3NXdta0tTN0lKWDVBd2NkV3p1eGNnTTFtMl94RV94eC1mZFJpMFlaekpIUG0wRVFMMG9BWDJudUpieElQYjNZRkhzaWVyYVJ1NkozeGk4RHNqY0czeTNmaXgwcEpDSEZQY0taVWc2UjFLTHQ0LUlBQXc3dU9SM0lyQm5STzJrNnZVRjlPSWlvdTcwbV94TXBGaWZHMHN1eG0xcG41ZkhtRk5HM1E?oc=5",
+      "prayer": "Residents of West Kelowna under evacuation alert as crews work to extinguish a held wildfire",
+      "alert_summary": "A wildfire in West Kelowna has been held while crews work to mop up remaining hot spots; an evacuation alert remains in place."
+    },
+    {
+      "wp_id": 6822,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-16-2026-7/",
+      "date": "2026-06-18T11:09:52",
+      "title": "Wildfire in United States 06/16/2026",
+      "body": "A wildfire near Spokane, Washington, has destroyed at least 15 homes and forced thousands of residents to leave under evacuation orders. One person remains unaccounted for as fire crews work to bring the blaze under control.\n\nEvacuation orders affecting a large number of households remain in effect as conditions continue to threaten additional properties in the area. Residents in affected zones have been urged to leave immediately and not return until officials declare it safe.\n\nThe situation remains active, and the full extent of damage is not yet known. Families who lost homes are now displaced, and community members are working to support those affected while authorities continue search efforts for the missing individual.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.659017,
+      "lng": -117.42503,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQN2UySmp0ZGFPM21LMkRwZGZjTTd3ZFpja2cyS1JwaV9JWThMRUFiMlNuY0NlMDMzQzZ2Ui13eWQ3ZVU0em1sQUR1TWlWRnA0YVBWcXROZG5LSGZjOVFtZWI5c2pjTmtQU2lxS180eDBpQ2h5cERYUlNhT3ljNnRFbThIYlpHMjRhTTd1N0UwaEFJU1lXbnk4dkhaQ0tYUk9xUU91ZGEyN1VQS09QZ2NQbG5SWk16TmFQM3hiUjZpcmJHWklGa3FsRHYtY3lZTExScGtpdkhwWW9TV0xZQzFhdkw0bHJVak1nOTRDY3Nqd3JvRnZKU0NBRGxDSExZMTV4c0dwMG13a0pXWWE2bE5kMEZFaHBZM0p2dEZQSQ?oc=5",
+      "prayer": "Thousands evacuated near Spokane and one person still unaccounted for amid ongoing fires",
+      "alert_summary": "A wildfire in Spokane destroyed 15 homes, left one person missing, and forced thousands to evacuate."
+    },
+    {
+      "wp_id": 6821,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-niger-06-17-2026/",
+      "date": "2026-06-18T11:09:38",
+      "title": "Flood in Niger 06/17/2026",
+      "body": "Flooding and severe weather have struck Niger, killing at least seven people, according to reports from the country. Authorities have issued alerts as conditions continue to pose a threat to residents across affected areas.\n\nNo specific regions or towns were identified in the available information, and further details on the number of people displaced or injured have not yet been released. Flood seasons in Niger typically affect large numbers of people, particularly those in low-lying and rural communities.\n\nResidents in affected areas are likely facing damage to homes, disruption to food supplies, and limited access to clean water. Conditions may continue to deteriorate as the situation develops.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Flood",
+      "lat": 9.59396,
+      "lng": 8.105306,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU2JCanVZWkNNV3piNzQwbjBDSzNGTDJkZnBGam9YaUYzeDZydDhCQVRVQThsemh2NUFXUjhvRmZ4VDYteFJlcXM2X3AyVmQ1dHpzcTloT29Gd2lzWHUxb2wtbHNwd3p6SFFSV01oQ2Z0TERDbnExMEJvVTZfYl9rNVlFeG5CdTBJcnJ0bWNrajNYLVZfLXo5RWQ3akhtQklYR0o2VllxbEFaUkZ1RzdtaV9EMmJvQjQ?oc=5",
+      "prayer": "Families across Niger facing floods and at least seven deaths from severe weather",
+      "alert_summary": "Flooding and severe weather in Niger has killed at least 7 people; no further figures reported."
+    },
+    {
+      "wp_id": 6820,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-africa-06-18-2026/",
+      "date": "2026-06-18T11:09:16",
+      "title": "Flood in South Africa 06/18/2026",
+      "body": "Flooding in South Africa's Garden Route region has resulted in deaths and widespread road closures, according to reports from the area. The situation is described as ongoing, with conditions continuing to affect residents and travel routes throughout the region.\n\nRoads remain closed in parts of the Garden Route, cutting off communities and complicating access for those needing assistance. The disruptions have prompted weather warnings to remain in effect as authorities and residents respond to the ongoing crisis.\n\nNo specific casualty count or displacement figure was available in the source material. Those living in and traveling through the Garden Route are urged to stay informed through local authorities as conditions develop.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Flood",
+      "lat": -28.378272,
+      "lng": 23.913711,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GQUtnU0dIWlotNWlCbkN5cG9lMTVMME1tNUlENzVzQ3M5aVlpcXp1U3dFWGNfQ0ZDdDlYeTRqZTgyblFLM2dqR00yRkVVZFFBel9yNTcyQzZxbV9zQjFSUy1yUk9TazViMXRv?oc=5",
+      "prayer": "Families in South Africa's Garden Route region grieving deaths and cut off by flood-damaged roads",
+      "alert_summary": "Flooding in the Garden Route region of South Africa has caused deaths and road closures; no casualty figure reported."
+    },
+    {
+      "wp_id": 6819,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-06-18-2026/",
+      "date": "2026-06-18T11:08:55",
+      "title": "Flood in China 06/18/2026",
+      "body": "Heavy rains in southern China have triggered a flood response, leading authorities to evacuate nearly 40,000 people from affected areas. Officials moved quickly to relocate residents as rising waters posed a threat to communities across the region.\n\nThe scale of the evacuation reflects the reach of the flooding, though specific details on casualties or the extent of property damage were not included in available reports. Emergency teams have been deployed to assist those displaced.\n\nSouthern China is no stranger to seasonal flooding, particularly during the warmer months when rainfall intensifies. Residents in low-lying and riverside areas are among the most vulnerable during these events, and many have been moved to temporary shelters while water levels are monitored.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00aEFhOUZkUzkzQWk5YlNXX0FMSS1GUHh6QXpsUEZtaGw5ODZaSTNMTXZ6M1hGQ1FaVmVNTW5wak1kZDBFX013aEVhdWpreE93Rzgw?oc=5",
+      "prayer": "Nearly 40,000 evacuated residents in southern China amid ongoing flood response",
+      "alert_summary": "Flooding in southern China prompted the evacuation of nearly 40,000 residents following heavy rains."
+    },
     {
       "wp_id": 6813,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-17-2026-5/",
