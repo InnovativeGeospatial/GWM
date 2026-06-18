@@ -1,9 +1,81 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-17T23:15:46.022702+00:00",
-  "count": 657,
+  "updated": "2026-06-18T05:15:23.546707+00:00",
+  "count": 661,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6818,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-cleveland-gauteng/",
+      "date": "2026-06-18T05:15:07",
+      "title": "Armed Conflict in Cleveland, Gauteng",
+      "body": "A shooting in the Cleveland area of Gauteng, South Africa left 12 people dead. Authorities have described the incident as a massacre, though details about suspects, motive, or the exact circumstances have not been provided in available reporting.\n\nCleveland is a township area within the Johannesburg metro. Incidents of this scale involving multiple victims are relatively uncommon and have drawn significant attention from local media and officials.\n\nResidents in the area are affected by the violence, and families of those killed are now dealing with loss. No information on arrests or suspects was available at the time of reporting.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Armed Conflict",
+      "lat": -26.208555,
+      "lng": 28.11747,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEZmQzRZZi1CQ0RkQWlhakFUWDhZckJqT0JKUll5eDJkQmFSVU4yWk1GTDRRX1FaTU0yeXEzaGEzWUttSTlaMGFGZ3FvZURLMXhVYXBBYTJUQS03UDlXZTRNZE1HaEFmTklYcUVZajJtM19MSWNXclRXQ19zNDBJa3RwNHVPUzBQeVZiQ3BSc0dxSGh5cFdQNEFVdFZPb0VLdWc?oc=5",
+      "prayer": "Twelve people killed in a shooting in Cleveland, Gauteng, and their grieving families",
+      "alert_summary": "A shooting in Cleveland, Gauteng killed 12 people in what authorities are calling a massacre."
+    },
+    {
+      "wp_id": 6817,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-mudug-region/",
+      "date": "2026-06-18T05:14:32",
+      "title": "Armed Conflict in southern Mudug region",
+      "body": "Somali military forces carried out an operation in the southern Mudug region, resulting in the reported deaths of 200 Al-Shabaab fighters, according to the country's national news agency. The report did not specify the exact dates of the operation or provide details on how the figure was confirmed.\n\nNo information was given about civilian casualties, displaced residents, or damage to towns in the area. The source did not describe the methods used in the operation or whether any soldiers were killed or wounded.\n\nMudug is a region in central Somalia where Al-Shabaab has maintained a presence for years. Residents in areas where such operations occur often face disruption to movement and daily life.",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEVOd0QtYmJ1QklKV1FGeW5uZ1dYRW1QT1ZMa240dXlsZ0dSWHpSTGhoTWNqVVVuV1lZVHZVMUpiejcwem41SmhUNjZHMklMUUlsREVJR21BVjR3QWNQQ1FLMDRCUWdybFdrS3ZMY29WZk05ZHBUZHpOTldHTVVUdjZsM0VUV1JuNktnak5hTm9BSUJBd2I0emduMGJnc2FGRzBJZTQ5ako3dw?oc=5",
+      "prayer": "Communities in southern Mudug caught in ongoing military operations against Al-Shabaab",
+      "alert_summary": "A military operation in Somalia's southern Mudug region killed 200 Al-Shabaab militants, according to the Somali National News Agency."
+    },
+    {
+      "wp_id": 6815,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-haiti-3/",
+      "date": "2026-06-18T05:14:00",
+      "title": "Displacement in Haiti",
+      "body": "Gang violence across Haiti has forced 1.5 million people from their homes, according to reports tied to a visit by the head of the United Nations. The displacement figure marks a continued rise in civilians uprooted by armed groups operating across the country.\n\nThe UN chief's visit signals growing international concern over conditions on the ground. Haiti has faced years of instability, but the number of displaced people has climbed sharply as gangs have expanded their control over neighborhoods and key areas.\n\nFor residents still in affected areas, daily life carries significant risk. Access to food, shelter, and basic services remains difficult for those who have fled, and many displaced families are sheltering in overcrowded sites with limited support.",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Displacement",
+      "lat": 19.182436,
+      "lng": -72.434515,
+      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWmtadnVBclYyREh0NE05VkF2VEhJZ29ZeGlHVkctbS1oSXpCZE5LblloVWU3VkpBQXh5Q002bHdtWnUyVUJGRjVnZU1yT2RQa2dsdGpNNkJ4aW9wMUt0WWJqQlV0VzRidUxCbmN2cnZPOWVTU0tmZnVra25rYXpiZXJpaHlQbnZja1E1RHowZmViaTJER200SmZjT090N2hRV3pnWXNEcjZiNTdiRVRJQXUzZDVxMDZhaVFCYVVtN1Vza09xcjVfVTRZazVOOGM?oc=5",
+      "prayer": "1.5 million people displaced in Haiti amid ongoing gang violence",
+      "alert_summary": "Gang violence in Haiti has displaced 1.5 million people, prompting a visit from the UN Secretary-General."
+    },
+    {
+      "wp_id": 6814,
+      "wp_link": "https://globalwitnessmonitor.com/big-cypress-natural-preserve/",
+      "date": "2026-06-18T05:13:44",
+      "title": "Big Cypress Natural Preserve",
+      "body": "All immigrant detainees have been moved out of a Florida detention facility known as Alligator Alcatraz, located on an abandoned airstrip inside Big Cypress Natural Preserve near the Everglades. Authorities said the transfers were made for safety reasons as the Atlantic hurricane season began, with the first named storm of 2026 forming in the Gulf of Mexico.\n\nThe facility, which could hold up to 3,000 people, operated for about a year before closing. During that time, detainees reported being denied access to lawyers, receiving inadequate medical care, and finding worms in their food. Indigenous leaders from the Miccosukee and Seminole nations also opposed the site, saying its construction harmed their homes and ceremonial sites nearby.\n\nIt remains unclear whether the closure is permanent, where the transferred detainees were sent, or how many were moved. Rights groups have called for a permanent shutdown and say the harm caused during its operation cannot be undone.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Other",
+      "lat": 29.9016,
+      "lng": -95.74966,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/18/us-transfers-immigrants-out-of-florida-alligator-alcatraz-detention-centre?traffic_source=rss",
+      "prayer": "Immigrant detainees transferred out of a Florida facility amid reports of neglect and denied legal access",
+      "alert_summary": "U.S. authorities transferred all detainees from Florida's Alligator Alcatraz facility, which was designed to hold up to 3,000 people, citing hurricane season safety concerns."
+    },
     {
       "wp_id": 6809,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-abuja-2/",
@@ -62,19 +134,19 @@
       "wp_id": 6806,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kebbi/",
       "date": "2026-06-17T23:14:28",
-      "title": "Civil Unrest in Kebbi",
-      "body": "Police in Kebbi state, northwestern Nigeria, have arrested individuals suspected of belonging to two armed groups — Boko Haram and Lakurawa. The arrests were carried out by state police, though the number of people detained and the specific circumstances of the operation were not detailed in the available reporting.\n\nLakurawa is a relatively newer armed group that has been active in Nigeria's northwestern states, while Boko Haram has operated across the northeast and beyond for many years. The presence of suspected members from both groups in Kebbi points to continued armed group activity in the region.\n\nResidents in Kebbi and surrounding areas have faced growing insecurity from banditry and armed factions in recent years. The arrests suggest authorities are actively working to counter these groups, though conditions for civilians in affected communities remain uncertain.",
+      "title": "Armed Conflict in Kebbi",
+      "body": "Police in Kebbi State announced the arrest of 12 individuals connected to several armed groups operating in the area, including Lakurawa, Mamudawa, and Boko Haram-affiliated bandits.\n\nKebbi State sits in northwestern Nigeria, a region that has seen growing activity from multiple armed groups in recent years. The presence of groups like Lakurawa — which has been linked to jihadist networks — alongside more localized bandit factions points to a complicated security situation for residents in the area.\n\nNo casualties were reported in connection with the arrests. It is not clear from the available information when the arrests took place or what specific charges the suspects face.",
       "country": "Nigeria",
       "countries": [
         "Nigeria"
       ],
-      "type": "Civil Unrest",
+      "type": "Armed Conflict",
       "lat": 12.457346,
       "lng": 4.200611,
       "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmxSWTZNd3hPYVBRVGZYQlVVRTI4RUNlRnFmdXVSNGctYUk1bnlyZWFqUkQ4anpzZ1lLdFI5a2M4RnYwQUEwNWFyX2ZIZWR4Snl3RFpBblNQQXh5VEx2YUR0UXJDWlcySDRXOXdqSmc1UnpvOVFqeDlPYUlMT1hHNE1tbHozWFnSAYcBQVVfeXFMTVpsUlk2TXd4T2FQUVRmWEJVVUUyOEVDZUZxZnV1UjRnLWFJNW55cmVhalJEOGp6c2dZS3RSOWtjOEZ2MEFBMDVhcl9mSGVkeEp5d0RaQW5TUEF4eVRMdmFEdFFyQ1pXMkg0Vzl3akpnNVJ6bzlRang5T2FJTE9YRzRNbWx6M1hZ?oc=5",
-      "prayer": "Residents of Kebbi state amid ongoing armed group activity and police operations",
-      "alert_summary": "Police in Kebbi state arrested suspected members of Boko Haram and the Lakurawa group; no casualty figures reported."
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjRBVF9NdkdsVFkzUWZFdlZRZDNyMWtYQV9qZDVtOFBwRHpybWJqNUk3ZVRrdVZ5ME9ZMGRVdFZXTEtFYlZSLWxpLW5yVnVwOUEtM2pMbjUxbVRCVUpsMkVDejRxblVqNzFBdGp6cnVGQV9veHJjTnYwNURoZmZJZkZwQXVidGNkTzFvYWNEYWJLOU1MaHl6UFVvYU54QQ?oc=5",
+      "prayer": "Twelve arrested suspects and communities in Kebbi threatened by armed groups",
+      "alert_summary": "Police in Kebbi State arrested 12 suspects linked to Lakurawa, Mamudawa, and Boko Haram groups."
     },
     {
       "wp_id": 6804,
