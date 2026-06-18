@@ -1,9 +1,118 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-18T05:15:23.546707+00:00",
-  "count": 661,
+  "updated": "2026-06-18T11:18:24.002497+00:00",
+  "count": 667,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6841,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-haddatha-bint-jbeil-district/",
+      "date": "2026-06-18T11:17:48",
+      "title": "Armed Conflict in Haddatha, Bint Jbeil district",
+      "body": "A drone carried out an airstrike on the town of Haddatha, located in the Bint Jbeil district of southern Lebanon. No injuries were reported following the strike.\n\nHaddatha lies in a part of southern Lebanon that has seen recurring airstrikes in recent months. The Bint Jbeil district sits close to the border and has been affected by ongoing cross-border activity.\n\nResidents in the area remain exposed to the possibility of further strikes, even when casualties are not immediately reported.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.16634,
+      "lng": 35.39165,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSW5uSmVDUlFhemVlRmM3c2NhNGVDZ01NQ2k5aDJGOTZueFdsSGpfQmU1dWR6eVdtNTRFYnRsVnR1SG85ajBKa2NZZEtjbmRoUTJoclNyb1ROMmZEWnZqYlA5Y2JlOWpNV3htaklZd25pQnNHZWR2UXhLOFRsZDY4NXRrcXlteVdWd3JZWTVkc1NwRDA5RkdrTzdmUElDaFBBRUp6eXU0VlVMc1NGYzBFaGxKRGdCckZQX19pQTFqaGpRUXhMRVpvajlyWEp0X0g1bXRNRmVncDhCR1g1MGxneXBFZU8yNFdDSVVJZGpqSlJFczBvTkJSc01mak85Y19vUEQ4RThhMlQ?oc=5",
+      "prayer": "Residents of Haddatha in the Bint Jbeil district following a drone strike on their town",
+      "alert_summary": "A drone airstrike hit the town of Haddatha in southern Lebanon's Bint Jbeil district; no injuries were reported."
+    },
+    {
+      "wp_id": 6832,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey/",
+      "date": "2026-06-18T11:14:45",
+      "title": "Armed Conflict in Niamey",
+      "body": "Explosions and gunfire erupted near the airport in Niamey, Niger's capital, when militants launched an attack on the facility. Residents in surrounding areas reported hearing loud blasts and sustained shooting.\n\nNo casualty figures or claims of responsibility were immediately available from the source. Security forces were reported to be responding, but the situation remained unclear at the time of reporting.\n\nThe airport serves both military and civilian functions, and an attack there raises immediate concerns for travelers and residents in the capital. People in the area were advised to stay indoors as the situation developed.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGFSLWdfZUhIckRUTzh4NFdUeHhTS0xZNjE4b0NYYk9yc283dGIxNFJ2ZXcwNkhKOVI1bEdoWWNIWVlTM0hoMTg0dkEzT2pEZFZxakdTWjBHQjlBUUxoUWg0NFhuNmU0bnVQS2FReDh3dFByX3JmU0xpMWZtZXFsbnNNb04ySTdNWld4N1RXcGRTcU13a0dBQzBNdlBfdWh5aDVpd2xNS09wOFBFUDVUWVNySHRfU0U2V254OHRHMzR0UQ?oc=5",
+      "prayer": "Residents of Niamey caught in an armed attack near the airport",
+      "alert_summary": "Militants attacked Niamey's airport with explosions and gunfire; casualties unknown."
+    },
+    {
+      "wp_id": 6831,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-guayaquil/",
+      "date": "2026-06-18T11:14:32",
+      "title": "Armed Conflict in Guayaquil",
+      "body": "A man police identified as the leader of a gang called Los Águilas was shot dead outside the arrivals terminal at Guayaquil's airport. Two young men concealed handguns behind stuffed toys and flowers while waiting for him, then fired at close range. One bystander was struck during the attack, and passengers scattered as shots rang out. Police detained two teenagers in connection with the killing.\n\nThe attack came one day after Ecuador's president declared a state of emergency across ten provinces, including Guayas, where Guayaquil is located. That declaration gives security forces expanded powers, including the ability to search homes without a warrant under reasonable suspicion.\n\nLos Águilas was designated a terrorist organization by the government in 2024 and is accused of drug trafficking and extortion. Ecuador sits between the world's two largest coca-producing countries, making it a key smuggling corridor. The country's murder rate reached a record high in 2025.",
+      "country": "Ecuador",
+      "countries": [
+        "Ecuador"
+      ],
+      "type": "Armed Conflict",
+      "lat": -2.189753,
+      "lng": -79.88374,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c4gy2l30dd0o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents of Guayaquil and ten provinces under a state of emergency amid rising gang violence",
+      "alert_summary": "Gunmen shot dead a suspected gang leader outside Guayaquil's airport, wounding one bystander."
+    },
+    {
+      "wp_id": 6830,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-3/",
+      "date": "2026-06-18T11:14:18",
+      "title": "Armed Conflict in Moscow",
+      "body": "Ukraine launched its largest drone attack on Russia since the start of the full-scale war, sending close to 200 drones toward the Moscow region. Seventeen people were wounded there, according to the regional governor. An oil depot in the southern Rostov region was also struck, killing one person.\n\nRussia's defense ministry said nearly 1,000 drones and four Ukrainian cruise missiles were intercepted and destroyed across the country within 24 hours. Ukraine's president described the strikes as \"long-range sanctions,\" a term used by Kyiv for long-distance strikes on Russian territory.\n\nThe scale of the attack has raised questions about whether Russia will change its military approach in response. Civilians in affected areas reported columns of thick smoke rising over the capital region following the strikes.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 55.750541,
+      "lng": 37.617478,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/videos/cgjx87jljqpo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Moscow and Rostov regions caught between drone strikes and escalating conflict",
+      "alert_summary": "Ukrainian drone strikes on Moscow wounded 17 people; one person was killed in a separate strike on an oil depot in the Rostov region."
+    },
+    {
+      "wp_id": 6829,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-biala-podlaska/",
+      "date": "2026-06-18T11:14:02",
+      "title": "Armed Conflict in Biala Podlaska",
+      "body": "A Russian artist living in exile in Poland was shot and killed in Biala Podlaska, a town east of Warsaw near the Ukrainian border. The victim, known for satirical caricatures of Russian, Soviet, Belarusian, and Chechen leaders, was shot five times, including once in the head. The attacker then approached and fired two more shots at close range.\n\nPolish authorities, including the national security agency, have detained at least one suspect traveling on a Georgian passport, along with two Belarusian nationals who were held but not charged. The prime minister described the killing as a \"political murder\" and said investigators are still trying to identify who ordered it.\n\nOfficials have not ruled out involvement by Russian or Chechen actors. The victim had been living in Poland since 2021 and had previously declined a government offer of protection. Three days before his death, he staged a protest outside the Russian embassy in Berlin.",
+      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
+      "type": "Armed Conflict",
+      "lat": 52.033848,
+      "lng": 23.120203,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/poland-arrest-after-russian-artist-and-putin-critic-killed/a-77602774?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Russian exile artist shot dead in Poland; family and community mourning amid unresolved questions",
+      "alert_summary": "A Russian dissident artist was shot five times and killed in Biala Podlaska, Poland; one suspect detained."
+    },
+    {
+      "wp_id": 6828,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-2/",
+      "date": "2026-06-18T11:13:48",
+      "title": "Armed Conflict in Moscow",
+      "body": "Ukrainian drones struck a Moscow oil refinery for the second time in one week, with the facility reported to still be burning after emergency services worked to contain the fires. The refinery supplies about 40 percent of Moscow's fuel. Russia said its air defenses shot down 555 Ukrainian drones overnight, with nearly 200 intercepted near the capital. A shopping center, a high-rise residential building, an industrial facility, and private homes in the surrounding region were also damaged. Moscow's busiest airport suspended flights and evacuated passengers.\n\nRussia struck back at Kyiv with ballistic missiles and drones overnight. Ukrainian officials said at least 239 drones and seven ballistic missiles were launched at Ukraine, hitting nine locations. One person was killed in a drone attack on the northeastern city of Sumy.\n\nEarlier this week, a Russian attack on Kyiv killed 11 people and damaged a centuries-old monastery. Civilians in both countries continue to face repeated overnight strikes with no ceasefire in sight.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine",
+        "Russia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/18/ukraine-hits-moscow-refinery-as-zelenskyy-seeks-trump-support-to-end-war?traffic_source=rss",
+      "prayer": "Civilians in Kyiv and Moscow caught in overnight drone and missile exchanges",
+      "alert_summary": "Ukrainian drones struck a Moscow oil refinery twice this week while Russian missiles and drones hit Kyiv and Sumy, killing at least one person."
+    },
     {
       "wp_id": 6818,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-cleveland-gauteng/",
@@ -117,7 +226,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyauktaw/",
       "date": "2026-06-17T23:14:44",
       "title": "Armed Conflict in Kyauktaw",
-      "body": "Military airstrikes hit the town of Kyauktaw, killing at least 10 civilians and wounding dozens more. The strikes occurred while the country's military leader was traveling abroad on an official visit to China.\n\nKyauktaw is located in Rakhine State, an area that has seen ongoing fighting between military forces and armed groups. Civilian casualties from airstrikes have been a recurring concern in the region.\n\nThe timing of the strikes during a high-profile diplomatic trip drew attention, though operations in conflict areas have continued regardless of such travel. Residents in the area face ongoing danger from aerial attacks.",
+      "body": "A military airstrike struck Kyauktaw, a town in Rakhine State, killing at least seven people. The attack was carried out by Myanmar's military forces.\n\nKyauktaw has seen ongoing conflict as fighting between the military and armed resistance groups has continued across Rakhine State. Airstrikes on towns and villages have become a recurring pattern, with civilian areas frequently affected.\n\nResidents in the area face danger from aerial attacks with little warning or shelter available.",
       "country": "Myanmar",
       "countries": [
         "Myanmar"
@@ -126,27 +235,27 @@
       "lat": 20.843655,
       "lng": 92.9725,
       "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMbHpMTDVPNVNtTDFQQk5sei1oZmJ2SktjQWJYcUx0UnBqM3RQQkJRcnM4QTRoOGV2ZTlEZnF1cHdQeVBEdExTaHlUekJ4aTlrdFpTODhHMENId1Ytb2kxbE5GZGdVS0hlelo1VUpFZw?oc=5",
-      "prayer": "Civilians in Kyauktaw wounded and killed in airstrikes, with dozens more injured",
-      "alert_summary": "Airstrikes killed at least 10 civilians and injured dozens in Kyauktaw, Myanmar."
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3N1dWtEZUhyUHljZFI0UWd4VnVScTIzZ1M2am1aZVpmNk1jbWo2QnVmMldvbW5NaXJDMWUzcERFaklEd2VQLVVRVnE0WG90MG5FVERpY3cyYjN2SnpUZkltd2Jub1N1TVgtUUFfT3hvdFFSb055SXVrSV93QjhwVTloT0I0WFRhMzBhSWZyeUptQQ?oc=5",
+      "prayer": "Civilians in Kyauktaw killed and wounded by a military airstrike",
+      "alert_summary": "A military airstrike in Kyauktaw killed at least 7 people, according to reports."
     },
     {
       "wp_id": 6806,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kebbi/",
       "date": "2026-06-17T23:14:28",
-      "title": "Armed Conflict in Kebbi",
-      "body": "Police in Kebbi State announced the arrest of 12 individuals connected to several armed groups operating in the area, including Lakurawa, Mamudawa, and Boko Haram-affiliated bandits.\n\nKebbi State sits in northwestern Nigeria, a region that has seen growing activity from multiple armed groups in recent years. The presence of groups like Lakurawa — which has been linked to jihadist networks — alongside more localized bandit factions points to a complicated security situation for residents in the area.\n\nNo casualties were reported in connection with the arrests. It is not clear from the available information when the arrests took place or what specific charges the suspects face.",
+      "title": "Civil Unrest in Kebbi",
+      "body": "Security forces in Kebbi state, northwestern Nigeria, have arrested 11 people suspected of ties to the Lakurawa militant group and Boko Haram. Those detained include both suspected fighters and individuals believed to have been passing information to the armed groups.\n\nKebbi state sits near Nigeria's borders with Niger and Benin, an area where Lakurawa — a relatively newer armed group with reported links to jihadist networks in the Sahel — has been expanding its presence alongside longer-established groups like Boko Haram. The arrests suggest security forces are actively working to disrupt local support networks that help these groups operate.\n\nResidents in the region have faced growing pressure from militant activity, including raids and recruitment efforts in rural communities.",
       "country": "Nigeria",
       "countries": [
         "Nigeria"
       ],
-      "type": "Armed Conflict",
+      "type": "Civil Unrest",
       "lat": 12.457346,
       "lng": 4.200611,
       "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjRBVF9NdkdsVFkzUWZFdlZRZDNyMWtYQV9qZDVtOFBwRHpybWJqNUk3ZVRrdVZ5ME9ZMGRVdFZXTEtFYlZSLWxpLW5yVnVwOUEtM2pMbjUxbVRCVUpsMkVDejRxblVqNzFBdGp6cnVGQV9veHJjTnYwNURoZmZJZkZwQXVidGNkTzFvYWNEYWJLOU1MaHl6UFVvYU54QQ?oc=5",
-      "prayer": "Twelve arrested suspects and communities in Kebbi threatened by armed groups",
-      "alert_summary": "Police in Kebbi State arrested 12 suspects linked to Lakurawa, Mamudawa, and Boko Haram groups."
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSjNOMWFUaHJrYnliNHlLanVDNnllT2xKSWlrNFdrSXVFdGpNc3Y5S3I1MHhWZFFKOWpjM2I5dmU5Z3pzRTlsNFF1WE1LS2NWNUs1QXFPZXI0VHA4MXJ6MUdtUHlqdTZ5Nno4YTEzRTZqcHBHalBJSUllajJsQnJ4ZnEzVUpvMFlNbFNpamp5aXNYXzJMNHlRVHV6blkxbTVaUVhzbVBDTEF6b3V6NlFPam9DQi03V3lxb2VMOWItQQ?oc=5",
+      "prayer": "Communities in Kebbi state threatened by Lakurawa and Boko Haram militant networks",
+      "alert_summary": "Police arrested 11 suspected Lakurawa and Boko Haram members and informants in Kebbi state."
     },
     {
       "wp_id": 6804,
