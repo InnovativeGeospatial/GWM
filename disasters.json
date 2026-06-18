@@ -1,9 +1,81 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-17T23:10:32.521180+00:00",
-  "count": 611,
+  "updated": "2026-06-18T05:11:58.862853+00:00",
+  "count": 615,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6813,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-17-2026-5/",
+      "date": "2026-06-18T05:10:48",
+      "title": "Disease in Congo 06/17/2026",
+      "body": "One month after the World Health Organization declared an international public health emergency, efforts to contain an Ebola outbreak in Congo remain under significant pressure. Responders are facing challenges in managing the outbreak as resources and coordination struggle to keep pace with the ongoing crisis.\n\nThe declaration of an international emergency was intended to mobilize greater global support, but the response has not yet reached the level needed to bring the outbreak under control. Officials and health workers continue working in difficult conditions to treat those affected and prevent further spread.\n\nEbola is a serious viral illness that spreads through direct contact with bodily fluids of infected people. Communities in the affected areas remain at risk while the emergency response works to scale up.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcmxNMGhzRmhmVy1NUTF4QU03ZW9RQXhTck10VEM1aGh6STRjQTNXSllURzlZWEx5V2h4czFrNDM0Yno3MktCd2JRVzlPQ3dwN0RFcUFsN3ZYbWVGWEZLWS1YRlBodUgtQVF2Y1lIN2xKVDNlS0UzSWVqLWdYT2dfeHBtSzFtVFR1Tk1DZHhuRElvWnFtQ3ZYSUwtZWdiTHJUak9EMDN1ajhpemctTGwwckNPcTBpcTRVSGVfa0F3ZnVPQjBFaUFmTEVmREdGRkdzdHJPbTZCbjNFYkJqdTNtUmtFUno?oc=5",
+      "prayer": "Communities in Congo facing an Ebola outbreak as the international emergency response struggles",
+      "alert_summary": "Congo's Ebola response is under strain one month after WHO declared an international emergency."
+    },
+    {
+      "wp_id": 6812,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-06-17-2026-2/",
+      "date": "2026-06-18T05:10:29",
+      "title": "Volcano in Indonesia 06/17/2026",
+      "body": "Mount Dukono, a volcano in Indonesia's North Maluku province, erupted recently, prompting an emergency response. Authorities evacuated 17 people from the area and launched a search operation for three hikers who went missing following the eruption.\n\nSearch and rescue teams are working to locate the missing hikers in difficult conditions near the volcano. Officials have been coordinating efforts to ensure the safety of those in the surrounding area while the search continues.\n\nMount Dukono is one of Indonesia's most active volcanoes and sits on Halmahera island. Residents and visitors in the area face ongoing risk as authorities monitor the volcano's activity and work to account for all those who may have been on the mountain at the time of the eruption.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": -6.175554,
+      "lng": 106.827216,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSDNSajRmcFREZHdRUTZHa1RmckIzRDRPYWlUcWJZTDF0Vmc2a0FuMTFhOEdyWklSWkNxcWktS2lVRkNPV2JNTUVyLS0xZ2dmZXIyR2JWQ1NDLVlIeGVVSzVwNjhfWm9SZVVBdzdFanBST1BpQTRmcV9xMHpKUEhhV1hBeW4tbGFVTVpZa3diU0RkejQ4ZlBPMk1HNlB5dlBmdURZVGhLZnozb0pDd3k2UXhQRVBhNC1U?oc=5",
+      "prayer": "Three hikers missing on Mount Dukono as rescuers search amid eruption aftermath",
+      "alert_summary": "Mount Dukono erupted in Indonesia, leaving 3 hikers missing and 17 evacuated."
+    },
+    {
+      "wp_id": 6811,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-18-2026/",
+      "date": "2026-06-18T05:10:14",
+      "title": "Earthquake in Philippines 06/18/2026",
+      "body": "An earthquake in Sarangani, in the southern Philippines, has now killed at least 78 people, according to the latest reports. The rising toll points to ongoing recovery and search efforts in the affected area.\n\nSarangani is a coastal province in the Mindanao region, home to rural communities and indigenous populations who may face added challenges in accessing relief. Rescuers and local officials have been working to account for those still missing or displaced.\n\nPrayers are needed for families who have lost loved ones, for those still waiting for news of missing relatives, and for the relief workers serving in difficult conditions.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MeE9TTkFodVpaajhmb2tHZ29oMGxxLUVPY0R4SGhyb19UOUNoM3lYMDdMSFRTbm1iSlc0cGN5a2hsSHFYU3E1eW1WcS1oakk1RkRMcE5tcWRCc0lVbXROY3d6ZUlpMGIwc2VNSWhRaUZrSVJiZENCc2hTaVTSAYoBQVVfeXFMTk95bFh0WmxaR01ITndmRHpWbUNBdEo2QVpEXzVEd0NmTFljYktvdmQteWMyNUNtellkQ1h2Q1BYYjV2cUYwemVPTUJkZFZiMlZvTFRGYi1OaXVQYURXUlVHcnlNMFR1cFlKajdOMUZ0TFhpZk42Tk9oY0dmem9ZNWJiQWhfdzl0REFR?oc=5",
+      "prayer": "Families in Sarangani grieving 78 deaths following a deadly earthquake",
+      "alert_summary": "An earthquake in Sarangani, Philippines raised the death toll to 78."
+    },
+    {
+      "wp_id": 6810,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-18-2026/",
+      "date": "2026-06-18T05:09:23",
+      "title": "Wildfire in United States 06/18/2026",
+      "body": "A wildfire near Spokane, Washington destroyed at least 15 homes and prompted evacuation orders for thousands of residents. One person remains unaccounted for as of the latest reports.\n\nEvacuees were forced to leave quickly as the fire moved through the area. The full extent of property damage and the number of people displaced are still being assessed.\n\nEmergency crews are working the scene, and officials are urging residents under evacuation orders to stay away until conditions are deemed safe.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.659017,
+      "lng": -117.42503,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQeHBQUFZKSUd0SlcyY2tkby1DMmFnbXlmeWJGWDh2cVg3MklvZjgtanpHcUR3b0J4em83aGxsRlVJSUNZOUk0NDl6OE9BR0hFMHpiUUo5cF9kb3NiaFl6WHBOUG1mcG43VGY5N0dVYUFPaGNvcHN6WTJsanFRZFY4LVd4OFlTMW12VFRBb0tfdG10QnQxTWppcXpMcHRlR3dHUWRmcEd6RmliM1Jyc3ZGa1ZUak5URS1yTWhjdU9HZlFQemliWDJaTVFMYjI3bmtMZDZWRkRoTWZZeVlBNUxtVW1Ic0wwZGE1VmxOZG1HcHFYS01YZlR3MWlUckl5LVNlbEFwaXJ5eXhxdGJzcTRFazdn?oc=5",
+      "prayer": "Spokane residents displaced by wildfire, one person still missing",
+      "alert_summary": "A wildfire near Spokane destroyed 15 homes, left one person missing, and forced thousands to evacuate."
+    },
     {
       "wp_id": 6798,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-15-2026/",
