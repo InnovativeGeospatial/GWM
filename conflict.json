@@ -1,9 +1,299 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-19T05:16:29.469317+00:00",
-  "count": 677,
+  "updated": "2026-06-19T11:19:15.647829+00:00",
+  "count": 693,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 6942,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-4/",
+      "date": "2026-06-19T11:18:40",
+      "title": "Armed Conflict in Lebanon",
+      "body": "Airstrikes killed 18 people in Lebanon, according to a headline published by Daily Finland. No location within Lebanon, no specific date, and no information about who carried out the strikes or what areas were affected were provided in the available source material.\n\nResidents in affected areas face ongoing danger, though the scope of damage and displacement is not known from this report alone.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczlPUWdTSXRRSVlWb3lURUVXRHoxZjY4MGJ6N3lkakYwTDR2c3FmWkFGSUl4NTlES2ppYmV1RHY5SXV3YnBJZ0NtY2FsbS0wLXBhbnRBSmRTejQ4RlFKMlMtYWs1ZTlxanFEclQ4TUx5LWdmYTgtT2ZqOUw3VjZwQjI4N2FzenNMRUVIa2JBWkRtYVRwR0R6NGMwajZ4LTFjWV8xQVI3OVNub2M5TlNqNVNlc0Y0UQ?oc=5",
+      "prayer": "18 people killed in Lebanon by airstrikes, and communities living under ongoing threat",
+      "alert_summary": "Airstrikes killed 18 people in Lebanon, according to a reported headline; no further details are available from the source."
+    },
+    {
+      "wp_id": 6940,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pakistan/",
+      "date": "2026-06-19T11:18:12",
+      "title": "Armed Conflict in Pakistan",
+      "body": "Afghan forces launched airstrikes inside Pakistan, according to reporting by NDTV. The strikes come amid growing tensions between the two neighboring countries, though the source does not specify the exact locations hit within Pakistan or provide casualty figures.\n\nCross-border strikes of this kind put civilians on both sides of the border at risk. The Afghanistan-Pakistan border region is home to many communities, and escalating military activity between the two governments raises concerns about civilian safety in the area.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcVFfdnFPdW5fTHVXWkJRb0RHRjN2OE43UlNuQ3g1Nnc1MVpyT2JHUjZYMko0RTB4Q3NSdUF4OW04c1BUYXVQRGtIU2JRN3J0ODljUlMzX1V4Q0NUc1h4RXA5d3lUY2R6N1hESmp2N3pENjV4dHVKYU0xYVc3dDBFNGJXMkc4bVZVck5qeEpzV2pFSGVYME1XdW5ORnpwUnlwTGQydEpoUXdERDVNWGZ1VTJ2emtMTXVMY0NQZHhqNi1BVERBNHd0Y2lkNGtfS2d0ZHVvcNIB3AFBVV95cUxNWTh5ZVp5SFV2dUlicVdVSlhUY3VfYndIVFhPbW1ONk03dVRxWVVrTC0tZG11OXptMi1WcmNzY0NoUmZueEhlRWFDWWJtRUstM1RsUjdCalluSjE5UVhZWW5iUWxBb2UxS2xUQWx2QjF1MkluZ2tlaXBnT1lseXVnaFVBSVl4SWlPdmFSb1A1NWdHa3hoRk04ZkQyYmJ1eVBuVkxGdi1ZLXV5ZVBPaTNDU3lIUTRhM2lUQTMxRkljbFB5bHZoX05ldXdsT2dVS2tmS2lOYm90ZDJTaVAy?oc=5",
+      "prayer": "Civilians in Pakistan near sites struck by Afghan airstrikes",
+      "alert_summary": "Afghan forces carried out airstrikes inside Pakistan territory amid rising tensions between the two countries."
+    },
+    {
+      "wp_id": 6939,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kholodnogirskyi-district-kharkiv/",
+      "date": "2026-06-19T11:17:49",
+      "title": "Armed Conflict in Kholodnogirskyi district, Kharkiv",
+      "body": "An airstrike hit a residential district of Kharkiv, Ukraine's second-largest city, and rescue workers responding to the scene found human remains. The Kholodnogirskyi district is an urban area within the city.\n\nNo further details on casualties, the number of people affected, or the type of munition used are available from this report. Kharkiv has been subject to repeated strikes due to its location close to the Russian border.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 50.206314,
+      "lng": 36.400614,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tX2ZoY0QwVFNUX1NjZ2VkVkNXejhlZXJNOThWZ2pzV28wU2J4MDBHMkVoVVZnWUZwUVcxZzFITks0MFdlRmtNclVZU0RrdG81MXE3YURFazlEV25DVTFoV3N4V016YXZMakRjYXFHNA?oc=5",
+      "prayer": "Residents of Kharkiv's Kholodnogirskyi district struck by an airstrike, families awaiting word on victims",
+      "alert_summary": "A Russian airstrike hit Kharkiv's Kholodnogirskyi district, where rescuers recovered human remains."
+    },
+    {
+      "wp_id": 6937,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-20/",
+      "date": "2026-06-19T11:17:13",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Airstrikes struck southern Lebanon, killing 18 people and wounding 33 others, according to reports. The strikes were attributed to Israeli forces.\n\nThe casualties add to ongoing pressure on civilian communities in the region. Residents in southern Lebanon have faced repeated rounds of strikes in recent months, and the latest deaths will likely deepen concern among families and aid workers operating in the area.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdzJsY1lHbVZuN3Jld3VNbHpVb0pNcGNOYk1FcTFSODZjNUFpN041b25wd3JBVExDQmdSVlpLRFNKMVR5QnhxdkFlV3N6R3MyN1kyblUtNHY?oc=5",
+      "prayer": "18 people killed and 33 injured in southern Lebanon airstrikes",
+      "alert_summary": "Airstrikes killed 18 people and injured 33 others in southern Lebanon."
+    },
+    {
+      "wp_id": 6936,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kharkiv-2/",
+      "date": "2026-06-19T11:17:02",
+      "title": "Armed Conflict in Kharkiv",
+      "body": "Rescue teams working at the scene of an airstrike in Kharkiv recovered human body fragments, according to a statement from the prosecutor's office. The discovery came during ongoing rescue operations at the site.\n\nKharkiv, located in northeastern Ukraine near the Russian border, has experienced repeated aerial attacks throughout the conflict. Rescue operations of this kind often continue for hours or days as teams search through rubble.\n\nNo specific casualty count was included in the available source material. The find points to the human cost borne by civilians in the city, where residents continue to live under the threat of aerial attack.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 49.99316,
+      "lng": 36.232075,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QQnduZF9vY2MzLUR1WnRSTmFKZ1E3OElGdklVZnhkTGxFMDBXSWZJeWFvX3hUSnppR0xPclZJUXZzd1JhazdDQi03NjBfRm1BT2RlMHVKdU95akJJMGNrUXlB0gFnQVVfeXFMTzMwdDJUdWwxdVA4eWNMdjlRaVlCOWxwZHpzYk56SWpOajdyYzVkaUQ4ZVJJbG1Ia1FfbXRMYzBXWjB6TmxFdkpPZzU1eWlJNGxCcFNuTV9NUnNtRFFndHR3NnJ1YXl1aw?oc=5",
+      "prayer": "Residents of Kharkiv and rescue workers recovering victims from an airstrike site",
+      "alert_summary": "Rescue workers found human body fragments at an airstrike site in Kharkiv, according to prosecutors."
+    },
+    {
+      "wp_id": 6935,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ye-township/",
+      "date": "2026-06-19T11:16:45",
+      "title": "Armed Conflict in Ye Township",
+      "body": "A military airstrike hit a housing complex in Ye Township, destroying five buildings. Among the structures lost was a primary school, along with residential buildings that had been part of a Nippon Foundation housing project.\n\nThe loss of a school means children in the area have lost access to their classroom, adding to the disruption many families in Myanmar already face due to ongoing conflict. Communities living near such facilities are increasingly at risk as airstrikes continue to hit civilian areas across the country.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSaHRkSFdFMGRmU1VmVEY0b3hKZ21YLVg2YzdpVFh4OVlUenlCOU9lSGRIRWdWcjdVR05FQjNMXzlIT1pPcG9LdTV4QWYySVpMb3c?oc=5",
+      "prayer": "Residents near destroyed school and housing in Ye Township, homes and classrooms reduced to rubble",
+      "alert_summary": "An airstrike destroyed five buildings, including a primary school, at a housing complex in Ye Township."
+    },
+    {
+      "wp_id": 6928,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-2/",
+      "date": "2026-06-19T11:15:09",
+      "title": "Armed Conflict in Niamey",
+      "body": "Niger security forces stopped an armed attack on the main airport in Niamey, the country's capital, killing 22 gunmen in the process. The attack was foiled before it could cause further damage, according to reports.\n\nThe airport serves as a key hub in the capital, and an attack of this kind would have posed a direct risk to civilians, travelers, and infrastructure in the city. No further details on casualties among security forces or civilians were available from the source material.\n\nNiger has faced ongoing armed violence in recent years, and the capital itself is not typically the site of direct armed assaults, making this incident notable for those living and working in Niamey.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaExsX2VFMU16VjdMZWxIaV8xQVotZ3lDUEQ0NHJqaG9NRTU2Qm1tYjJpVW1zbDA3SG9pSDNZRXpYaGZJZnJ6aks4QndvZ0w4cERxUDdfSGJzajJybEJtZVdEenpSbU5kb1JKbERwUXFvVDBzcEdFVDlqU1pZbHlCQlJmdU14LWpIbERHM3FBcHdoRkQxYkRNNnNVTzhWSktDckxnaDgtYWxMUTVMLUNILUFSSVhYRlllYUp2cld3SGhfUQ?oc=5",
+      "prayer": "Civilians and airport workers in Niamey following an armed attack on the capital's airport",
+      "alert_summary": "Niger security forces killed 22 gunmen who attempted an attack on Niamey's airport."
+    },
+    {
+      "wp_id": 6927,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-diori-hamani-airport/",
+      "date": "2026-06-19T11:14:56",
+      "title": "Armed Conflict in Diori Hamani airport",
+      "body": "An attack on Niger's Diori Hamani airport left 35 people dead, according to BBC reporting cited by bdnews24.com. The airport is located in Niamey, Niger's capital city.\n\nNo further details about the attackers, the method of attack, or the number of wounded are available from this source summary. It is not clear whether the airport remains operational or whether additional casualties are expected.\n\nNiger has faced ongoing instability since a military coup in 2023, and armed groups have been active across the wider Sahel region. An attack of this scale on a capital city airport would mark a significant escalation for civilians and those traveling through Niamey.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1dWhBTlhuczNNUHdFWHVQdWxFSEVHWl9ydW5OcHNrZEJpVC1rWTk2UGRqaHQ2aGgxV05fb1RiTUtzaEotVjlmUEE4LUhwYWF0SHRTckQtNmRLZw?oc=5",
+      "prayer": "35 people killed in an attack on an airport in Niger",
+      "alert_summary": "An attack on Niger's Diori Hamani airport killed 35 people, according to BBC reporting."
+    },
+    {
+      "wp_id": 6926,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oyo-2/",
+      "date": "2026-06-19T11:14:05",
+      "title": "Armed Conflict in Oyo",
+      "body": "A group of students in Oyo State, Nigeria, were kidnapped and remain in the hands of their captors, according to reporting from Punch Newspapers. Families of those taken are described as being in anguish as the situation continues without a known end.\n\nNo specific number of students, date of abduction, or location within Oyo State was available in the source summary. The identities of those responsible have not been confirmed in the available material.\n\nKidnapping for ransom has affected communities across Nigeria in recent years, and families in these situations often face prolonged uncertainty with little information about the condition or whereabouts of their loved ones.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 7.378606,
+      "lng": 3.896993,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVWhwRkxudHVOQ193ZWNWNHdVZXRENEpDZnZQWWloWWxkRnp4bUdsY29ITGYxeUwtRldpdmszN0FscmRsWTFtQ3BYNXB0Q3N2bUFHZ0ZIVV9BR3htSkFZSHZLRHFuV2NGcmtudUh5WnhZNWJVcnltMTdkTjh6RmhuRkhEWVg1NngxcExtdUhKLWM3OElsMFBqc1M4LTE3bHFVbEhyWUY4dGMtUjdmSjhqcHBzc05YTlBqU2ttVmxHeE9vVDBS?oc=5",
+      "prayer": "Students from Oyo held in captivity while families wait for their return",
+      "alert_summary": "Students were kidnapped in Oyo State, Nigeria; families remain in anguish as captivity continues with no resolution reported."
+    },
+    {
+      "wp_id": 6925,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kebbi/",
+      "date": "2026-06-19T11:13:51",
+      "title": "Armed Conflict in Kebbi",
+      "body": "Authorities in Kebbi State, Nigeria arrested 12 people connected to several armed groups, including Lakurawa, Mamudawa, and Boko Haram. A suspect in a rape case was also among those detained in the operation.\n\nThe arrests point to the presence of multiple armed factions operating in Kebbi, a state in northwestern Nigeria that has faced growing insecurity in recent years. Lakurawa is a relatively recently identified group that has drawn attention for attacks in the region.\n\nNo casualties were reported in connection with the arrests themselves. Residents in areas where these groups are active continue to face risks from armed violence and criminal activity.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 12.457346,
+      "lng": 4.200611,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3JKZEtQcnZ5RjJicjFVTTRxQ3EyMnY1SUtXVEFHQzhQZ0xCM3ZUeDQzVnB3M1JmcXdVbXIxNDIzTzZNY25WZmxyMWhjQlZYMURnSHNORHM2YUUtT0FSdFAyRmRWTUpvVWl2bU1sWFEwU2NHUnJWa0Uzc0c0aW1YTVdVaHF1MnJicGY0azNKc2Ewa0lpblE?oc=5",
+      "prayer": "Communities in Kebbi State affected by armed group activity and violence",
+      "alert_summary": "Police arrested 12 suspects linked to Lakurawa, Mamudawa, and Boko Haram groups in Kebbi State."
+    },
+    {
+      "wp_id": 6924,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kaduna/",
+      "date": "2026-06-19T11:13:36",
+      "title": "Civil Unrest in Kaduna",
+      "body": "A soldier is fighting for his life in a hospital after a crowd in Kaduna attacked him, reportedly believing he was a bandit. The incident highlights the level of fear and tension in communities where armed banditry has become widespread in northwestern Nigeria.\n\nThe soldier survived the attack but remains in serious condition. No additional casualties or arrests are reported in the available source material.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 10.51829,
+      "lng": 7.435986,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcFFwN3liZXo5NGl6cjNrdkNqa0Jqb1YtZmstRS1qQUtCSEJBdUR1dUVLd2xIN2VVVlRueXlsMnU2WV9wWHhhR0RESzNuUkZVMDBOaWRtZGlOVDZwWmhTcEhYTGFmbkxZSmZsS1VNNkhGUmVQOGRaX1JxN1NjX0ExdHVHWUZRckYzb2xDeUFEX0lSQjVwYmlmaTV3MC0zZVp1MzR1UGhYWFZkNTFzTjBtcGl1R0Z2OVI4VTU1bGN0b0dkTU9k?oc=5",
+      "prayer": "A soldier in Kaduna hospitalized after being attacked by a crowd who mistook him for a bandit",
+      "alert_summary": "A mob in Kaduna attacked a soldier after mistaking him for a bandit; he remains hospitalized in critical condition."
+    },
+    {
+      "wp_id": 6923,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-haiti-3/",
+      "date": "2026-06-19T11:13:25",
+      "title": "Armed Conflict in Haiti",
+      "body": "The United Nations human rights chief reported that at least 2,300 people have been killed in Haiti so far this year due to gang violence. The announcement highlights the scale of ongoing armed group activity across the country.\n\nHaiti has faced a prolonged security crisis, with gangs controlling large portions of territory and regularly attacking communities. The violence has forced large numbers of residents from their homes and made daily life extremely difficult for ordinary people.\n\nThe UN figure underscores the toll on civilians, who face threats of killing, injury, and displacement as armed groups continue to operate with little restraint.",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Armed Conflict",
+      "lat": 19.182436,
+      "lng": -72.434515,
+      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOWDNwYmJMZ1hrcVIzRmxQWFh1clRnVnptRmdURW9XUnIwQ0g3U19nRE1nVmNlUHJONDhxT3ZNamNwMjY5NENaeXJUUExTOFpZd2pJb0RKMV9wYW96Sm14QUJzSS00SEEtTjh0a0FKQXpnV01DcnFjMXQ4aDI2bldmMU9FRHpub25tOXpRUGpZZEJrdENVUzhSVVBqLWpFZ2lLNmR6MWs0NE5RazlJNXhHY24zWjB5TEV3cVZzV3J4ejVPSGhfdUtQTlRiYnFfdmxFSVNQYVptRUQ4YUpKcXUyNXhWcld0ZXFWQmJGTjFMZFBjRVZWbXdqOC1pRXJGM1M1RUxFTVhGdThodTc1M042RlRrLUY3MnZZc1lidklFMTdlenRIbWFZcGc4N0J0Q3g4cS1Rd1NSdzhFMEpYeVdUMl83UWRqeV9ENl85T0RlMmhMQWF3c1EyMXlBR1pRaGc?oc=5",
+      "prayer": "Haitian civilians facing ongoing gang violence that has killed at least 2,300 people this year",
+      "alert_summary": "Gang violence has killed at least 2,300 people in Haiti this year, according to the UN human rights chief."
+    },
+    {
+      "wp_id": 6922,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-middle-east-2/",
+      "date": "2026-06-19T11:13:07",
+      "title": "Armed Conflict in Middle East",
+      "body": "Official figures show at least 3,468 Iranians killed since US and Israeli strikes began in late February, including nearly 1,500 civilians. A separate count by a US-based human rights group puts the number higher, at 3,636, and says those figures should be treated as minimum counts. Investigators found that a strike on the first day of the conflict hit a school in the town of Minab, killing 168 people, including 110 children. Another strike hit a sports hall during a girls' volleyball match in Lamerd, killing 20 people.\n\nIn Lebanon, health authorities report 3,912 people killed in Israeli attacks since fighting resumed on March 2, among them 247 children. Analysts warn that the true death toll across the region may be significantly higher than official numbers suggest, due to internet shutdowns, restricted media access, and political pressure on families not to speak publicly about deaths.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cy735xlv50ko?at_medium=RSS&at_campaign=rss",
+      "prayer": "Thousands of civilians, including hundreds of children, killed across Iran and Lebanon since February",
+      "alert_summary": "More than 7,300 people have been killed in Iran and Lebanon since strikes began on February 28, including hundreds of children."
+    },
+    {
+      "wp_id": 6921,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-district/",
+      "date": "2026-06-19T11:12:50",
+      "title": "Armed Conflict in Nabatieh district",
+      "body": "Israeli airstrikes on southern Lebanon's Nabatieh district overnight killed at least 18 people and wounded 33 others, according to Lebanon's health ministry. The Israeli military said it struck 80 targets linked to Hezbollah and that four of its soldiers were killed in a Hezbollah ambush involving guided missiles, rockets, and artillery.\n\nThe strikes came one day after the United States and Iran signed an agreement calling for an end to hostilities across the region, including Lebanon. Both sides have continued fighting since the deal was announced, raising uncertainty about whether any ceasefire can hold. Israel has stated it considers its conflict with Hezbollah separate from the broader US-Iran agreement and has no plans to withdraw forces from Lebanese territory.\n\nSince the current conflict began, Lebanon's health ministry reports at least 3,912 people have been killed and nearly 12,000 wounded. Around one million people remain displaced, and dozens of communities in the south have been completely destroyed.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.398937,
+      "lng": 35.687965,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c23ymz1n9rmo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in southern Lebanon's Nabatieh district killed and wounded in overnight airstrikes, and the one million people still displaced",
+      "alert_summary": "Israeli airstrikes on the Nabatieh district killed at least 18 and wounded 33; four Israeli soldiers were also killed in a Hezbollah ambush."
+    },
+    {
+      "wp_id": 6920,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-4/",
+      "date": "2026-06-19T11:12:36",
+      "title": "Armed Conflict in Sudan",
+      "body": "As Sudan's conflict moves into a fourth year, civilians are caught not only in frontline fighting but also in a growing pattern of fear, forced disappearance, and detention. A UN-appointed fact-finding mission presented these findings to the UN Human Rights Council in Geneva.\n\nThe update highlights that the dangers facing ordinary people go beyond direct violence. Disappearances and arbitrary detention have become additional threats pressing down on civilian life across the country.\n\nNo specific casualty figures were included in the report summary, but the picture drawn by rights experts points to a population under pressure from multiple directions at once.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.831539,
+      "lng": 30.049948,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167719",
+      "prayer": "Civilians in Sudan trapped by frontline violence, disappearances, and detention as conflict continues into a fourth year",
+      "alert_summary": "Rights experts reported Sudan's civilians face frontline violence, disappearances, and detention as conflict enters its fourth year."
+    },
+    {
+      "wp_id": 6919,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-harouf/",
+      "date": "2026-06-19T11:12:07",
+      "title": "Armed Conflict in Harouf",
+      "body": "Residents of southern Lebanon woke just after midnight Thursday to airstrikes on their villages and cities, hours before scheduled talks between the United States and Iran were set to begin in Switzerland. At least 18 people were killed and dozens wounded. The largest number of casualties came from a residential building struck in Harouf village.\n\nIsrael has carried out near-daily attacks on Lebanon since early March, and more than 3,000 people have been killed since fighting intensified. Over one million people have been displaced from their homes. Israel currently occupies roughly one-fifth of Lebanese territory.\n\nThe overnight strikes prompted Iran to say its negotiators were not ready to travel for talks until the existing agreement — which includes Lebanon in a ceasefire — showed signs of being put into effect. Switzerland's Foreign Ministry confirmed the talks have been postponed, with no new date set, even as the 60-day window for reaching a formal agreement has already begun.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.373535,
+      "lng": 35.442406,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/features/2026/6/19/can-us-iran-peace-deal-survive-israeli-bombing-of-lebanon?traffic_source=rss",
+      "prayer": "Residents of southern Lebanon amid ongoing airstrikes, with over one million already displaced",
+      "alert_summary": "Airstrikes on southern Lebanon killed at least 18 people and wounded dozens, with bodies recovered from a residential building in Harouf village."
+    },
     {
       "wp_id": 6909,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-edo/",
@@ -62,8 +352,8 @@
       "wp_id": 6906,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rakhine-state/",
       "date": "2026-06-19T05:15:10",
-      "title": "Armed Conflict in Rakhine state",
-      "body": "A military airstrike struck Rakhine state in Myanmar, killing seven civilians, according to a report by Al Jazeera. The attack is the latest in a pattern of airstrikes carried out by Myanmar's military against areas where fighting has been ongoing between the military and armed resistance groups.\n\nRakhine state has seen repeated conflict between the military and the Arakan Army, an ethnic armed group that controls significant parts of the state. Civilians in the region have faced repeated displacement and violence as fighting has continued across the area.\n\nThe deaths add to a growing civilian toll in Rakhine state, where communities have struggled to access food, medical care, and safety amid ongoing military operations.",
+      "title": "Armed Conflict in Rakhine",
+      "body": "The Myanmar military carried out airstrikes on four cities in Rakhine State, according to a report from the Arakan Army, an ethnic armed group that controls significant territory in the region. The bombings represent continued fighting between military forces and the Arakan Army, which has been engaged in armed conflict with the government for years.\n\nRakhine State has been one of the most conflict-affected areas of Myanmar, with residents caught between military operations and armed resistance groups. Airstrikes on populated areas raise concerns for civilians living in or near the targeted cities.",
       "country": "Myanmar",
       "countries": [
         "Myanmar"
@@ -72,16 +362,16 @@
       "lat": 20.139197,
       "lng": 92.897086,
       "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1hzS01ORS1ldklDZmppV0U1RWJ4dlZOd0VaTXE2MmtpeGh3cmFuLWVvb0JIdjdNVnAzc1lIOHE0d2piQnpkdVdETkMzYkVELW81NmY0bVBoZTBKSHZDTDBhTTg4M3QzRmNBMFJKX2ZROUk2Um5nSkRSb2w3bHRqRExpTEFHZUM0a2hlZFVTZE5BQ3JZSmg1LVpOZUtwSWdrSlNYa2ZyLVVPcHpyU1JOOHBQMmk1eTdLSVFQNkZ30gG-AUFVX3lxTFBvWHNLTU5FLWV2SUNmamlXRTVFYnh2Vk53RVpNcTYya2l4aHdyYW4tZW9vQkh2N01WcDNzWUg4cTR3amJCemR1V0ROQzNiRUQtbzU2ZjRtUGhlMEpIdkNMMGFNODgzdDNGY0EwUkpfZlE5STZSbmdKRFJvbDdsdGpETGlMQUdlQzRraGVkVVNkTkFDcllKaDUtWk5lS3BJZ2tKU1hrZnItVU9wenJTUk44cFAyaTV5N0tJUVA2Rnc?oc=5",
-      "prayer": "Seven civilians in Rakhine state killed in a military airstrike",
-      "alert_summary": "A military airstrike killed seven civilians in Rakhine state, Myanmar."
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zMGdhWHg1N0FfS3BCbjdKVVJkckZ0T2xpVWNYSU5qVzhTNENJMGE2QU1vMzBQTWczX2pjdDBOd1I0STFFa2kyVl9OU0swcTA1UWZIYWJxRHdEbXlvQVZJdGdBWDJ3STcxaWx2b3NpMA?oc=5",
+      "prayer": "Civilians in four Rakhine cities caught between airstrikes and ongoing armed conflict",
+      "alert_summary": "Myanmar's military bombed four cities in Rakhine State, according to an Arakan Army report."
     },
     {
       "wp_id": 6889,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyauktaw-2/",
       "date": "2026-06-18T23:15:53",
       "title": "Armed Conflict in Kyauktaw",
-      "body": "Myanmar's military carried out airstrikes on Kyauktaw, a town in Rakhine State, killing at least 10 civilians and wounding dozens more. The strikes took place while the military's top leader was traveling in China.\n\nKyauktaw has seen repeated military operations as fighting between junta forces and armed groups continues across Rakhine State. Civilian communities in the area have faced ongoing danger from both ground clashes and air attacks.\n\nThe timing of the airstrikes, during a diplomatic trip abroad by the military's commander, drew attention, though operations on the ground continued regardless. Residents in and around Kyauktaw remain at risk.",
+      "body": "Military aircraft struck the town of Kyauktaw, killing eight civilians and destroying at least 30 buildings, according to the Arakan Army. The strikes hit a populated area, leaving residents without shelter and causing casualties among the local civilian population.\n\nKyauktaw is located in Rakhine State, a region that has seen ongoing fighting between the military and the Arakan Army. Airstrikes on towns in this area have been a recurring pattern, with civilians bearing much of the impact.\n\nThirty buildings destroyed represents a significant loss of housing and structures in a town setting, which can displace many families even among those who survive.",
       "country": "Myanmar",
       "countries": [
         "Myanmar"
@@ -90,9 +380,9 @@
       "lat": 20.843655,
       "lng": 92.9725,
       "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMbHpMTDVPNVNtTDFQQk5sei1oZmJ2SktjQWJYcUx0UnBqM3RQQkJRcnM4QTRoOGV2ZTlEZnF1cHdQeVBEdExTaHlUekJ4aTlrdFpTODhHMENId1Ytb2kxbE5GZGdVS0hlelo1VUpFZw?oc=5",
-      "prayer": "Civilians in Kyauktaw wounded and killed in airstrikes, with dozens more injured",
-      "alert_summary": "Airstrikes in Kyauktaw killed at least 10 civilians and injured dozens more."
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNEdzaEZ2WW9UTmRfWG1PaVllUFNwUXg0SzNyYXFKMEY1REYtZzMyQkFnazRYUnNPQjBweHZVN2lEb3ZVWXBkSXBUU3VtcmcxYVBoQVhJLTduQ0kyY1NjZkFGdVdfM2RhbGlYMzV5TzhJWFAwQTQta1g4VlBrU3dTcVYyUUFxMC12T1NndmlWVV9uS2d0RjA5Y2RuZloxc0k4RlhBNll3QQ?oc=5",
+      "prayer": "Eight civilians in Kyauktaw killed in airstrikes, families left without homes",
+      "alert_summary": "Airstrikes killed 8 civilians and destroyed 30 buildings in Kyauktaw, Myanmar."
     },
     {
       "wp_id": 6871,
