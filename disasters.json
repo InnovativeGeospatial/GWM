@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-20T17:06:35.518658+00:00",
-  "count": 691,
+  "updated": "2026-06-20T23:10:23.429597+00:00",
+  "count": 697,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7089,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-19-2026-5/",
+      "date": "2026-06-20T23:09:24",
+      "title": "Disease in Congo 06/19/2026",
+      "body": "An Ebola outbreak in the Democratic Republic of Congo has expanded beyond the country's borders, according to a United Nations report. Response efforts have been stepped up as the outbreak continues to grow.\n\nThe spread of the disease into neighboring areas has raised concerns among health officials, who are working to contain transmission and support affected communities. No specific casualty figures were provided in the available reporting.\n\nEbola spreads through direct contact with the bodily fluids of infected people and can be fatal without prompt medical care. Residents in affected areas face significant disruption, and cross-border spread makes coordination between countries essential to stopping the outbreak.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HRFFPWmN1Rmk4UnBQTkthekhuQ29aWTRQQjBiUDJxRGd2YzhZYzltZUg3VVBQeWV1NVlwSlpuNGlxWERyNjRSZ2V4TC00RVFhNE1qU2JRQQ?oc=5",
+      "prayer": "Communities in DR Congo and neighboring countries caught in an accelerating Ebola outbreak",
+      "alert_summary": "An Ebola outbreak in DR Congo has spread beyond the country's borders, prompting increased response efforts."
+    },
+    {
+      "wp_id": 7088,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-19-2026-6/",
+      "date": "2026-06-20T23:09:07",
+      "title": "Landslide in India 06/19/2026",
+      "body": "A rockfall struck Pavagadh Hill in the state of Gujarat, India, during a period of heavy rain. Two people were killed and several others were injured when rocks came down the hillside. A search operation was underway at the time of reporting, suggesting additional people may have been unaccounted for.\n\nPavagadh Hill is a well-known religious and historical site that draws visitors. The combination of rain-soaked slopes and loose rock created conditions that led to the collapse. Rescuers were working to reach those affected and assess the full extent of the incident.\n\nNo further details on the number of missing persons or the scale of the search were available from the source.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 22.481576,
+      "lng": 73.536093,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGR1VXNjUGRUdEhtQUxmU2FGZWE1WjZETy0tTk9xS1J4YmV6V3RoNU94UW1aU1lzckxRbjZIT0RQUFJIVkdJZEVBRGNhMnJEODRwdFN3dkNaRWNlUmVHREdJMDlNUVNUUTZoamNNc3NQR215MzdTVUItSVE4cU5hLVh2Tjk0b3ZDSktGMXFUM01kVW1ZOGRGRnNXUWJJdjhpNnFLTWFOXzJZVzBHQS1VUlJQSFcyWEdmdWFRbjJpTWFpcXctb2NhVEtFN19KdC1OY3dyNVFzUXdiSWVXa3ZzYg?oc=5",
+      "prayer": "Families near Pavagadh Hill grieving losses and awaiting news of those still missing",
+      "alert_summary": "A rockfall on Pavagadh Hill in Gujarat killed two people and injured several others during heavy rain."
+    },
+    {
+      "wp_id": 7087,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-19-2026/",
+      "date": "2026-06-20T23:08:54",
+      "title": "Storm in Madagascar 06/19/2026",
+      "body": "Cyclone Gezani struck Madagascar, killing at least 20 people and leaving 33 others injured. This is described as another cyclone to hit the island nation, suggesting it follows previous storm activity in the region.\n\nMadagascar sits in a part of the Indian Ocean that sees regular cyclone activity, and communities there are no strangers to the destruction these storms bring. When cyclones strike in quick succession, the ability of residents and relief workers to recover between events is significantly reduced.\n\nDetails on which parts of the island were most affected, how many people were displaced, or the extent of damage to homes and infrastructure have not been reported in available information. Residents across the affected areas are likely facing significant disruption as local authorities and aid organizations respond.",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTY3TVpLVFhiVWFvRW5YMi1sb3FERFlGNENsM2xtckdQR2ZvcHNDeXNBcWZpV1dfQkVPLVVFWktNU0dNOGp4VFdBWENveUVWSnFMcWQ0Y0RqN0lrWl9wdXgyQ3lpTDhIWHg1MUE0cll1dU9PN0Z3ZW5iWWJUSTlKWW5XdUVfbEJlNUhreA?oc=5",
+      "prayer": "Communities across Madagascar struck by Cyclone Gezani, mourning the dead and injured",
+      "alert_summary": "Cyclone Gezani struck Madagascar, killing 20 people and injuring 33 others."
+    },
+    {
+      "wp_id": 7086,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-20-2026-4/",
+      "date": "2026-06-20T23:07:41",
+      "title": "Wildfire in Canada 06/20/2026",
+      "body": "An out-of-control wildfire is threatening the community of Lytton in British Columbia, Canada, forcing dozens of households to evacuate. Residents were ordered to leave their homes as the fire moved toward the area.\n\nLytton is a small town that has faced fire danger before, and the current situation has prompted an urgent evacuation response. Officials have not yet provided figures on structures damaged or destroyed.\n\nConditions in the region remain a concern for those who call the area home, including residents, local workers, and anyone connected to the surrounding communities.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 50.2339,
+      "lng": -121.58086,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVNWZUZFRVhhRkVuTUxwRXJBTE5Sc0IzZ1NOVDdUcjNuQ3ZHWDR6NnR3WWduMVBqcGZPSHNmUUs3NjEwdjExZWY3SDNkNHlsYjRLZk1SeTZ3aUJIVEdTaFlpTU9wMmlTMXkwalh4YVEtWUpzaEV5TDdkMmlPVTRxNUdUMGxLUEMyc2NyVU5ZNlpGUDBobzFqdnVVaw?oc=5",
+      "prayer": "Residents of Lytton, British Columbia forced from homes by an out-of-control wildfire",
+      "alert_summary": "An out-of-control wildfire near Lytton, British Columbia prompted the evacuation of dozens of homes."
+    },
+    {
+      "wp_id": 7085,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-20-2026-2/",
+      "date": "2026-06-20T23:07:28",
+      "title": "Wildfire in United States 06/20/2026",
+      "body": "A wildfire broke out south of Mountainair, New Mexico, prompting evacuation orders for nearby residents. Officials moved people out of the area as the fire burned in the region, though specific details on the size of the fire or the number of people evacuated were not reported.\n\nMountainair is a small community in Torrance County, situated in central New Mexico. Wildfires are a recurring concern in the area, particularly during dry and windy conditions.\n\nNo information was available on injuries, structures lost, or the cause of the fire. Residents in the affected area were urged to follow evacuation instructions from local authorities as the situation developed.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 34.520398,
+      "lng": -106.243138,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NU05iMEY4eERubVQ5TlQ0elFJMDlBV19YVmw1Z0J6eVBjdTdVNURSMGRPbWZDTXlWcjZ0eThPa2thTWd5bEZSajZhZ2NzVGVJcUZ1SXRUX2MyNEE0UTJHTXVjYTNONnZPOU9yeXVIcjBJYjY3OHk3UGl3?oc=5",
+      "prayer": "Residents near Mountainair, New Mexico displaced by a wildfire evacuation",
+      "alert_summary": "A wildfire south of Mountainair, New Mexico prompted evacuations; no casualty or acreage figure reported."
+    },
+    {
+      "wp_id": 7084,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-18-2026-5/",
+      "date": "2026-06-20T23:07:14",
+      "title": "Flood in United States 06/18/2026",
+      "body": "A state investigative report has identified failures at Camp Mystic, a camp in Texas, during flooding that occurred on July 4. The report outlines how the site's response fell short during the flood event, though the full details of those failures were under review by investigators.\n\nThe July 4 flooding caused serious harm at the camp, and authorities have been examining what went wrong and why. The investigation reflects broader concern about how facilities prepare for and respond to fast-moving flood conditions.\n\nFamilies connected to the camp, along with the wider community, continue to process what happened. The release of the state report marks a significant step toward understanding the events of that day and preventing similar tragedies in the future.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.009455,
+      "lng": -99.371344,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQUlsTGFJMkg2NHNpQ1VWbmFFelI4UkhJcDhxM0FiWHFuYU9VbGY0NEdpWGRKSm5ncUVSOFpUajllLTBCNmdsNHRjUVppeGh2UEVqc1pSOGtsbUYxZnlQV3VrZDdSRmhLRldBekgyZ2xtVUs0YmNHX3Bwc1k0S2RjV2xJdFdtYV9vdEpQV2lTcjNlN2lXZHowMkpGR3J3aG84Y29yZGI0T0R4WDBjU1FhNkw0d09PRm1peVhILWJaR0ttY29DbUpwQnJkMlBnY0x4T09SZ2s3Nk1WaVhCc1VSV3lwVDJUTEFSUVI1RzBwdXdwU2dwcE0wVg?oc=5",
+      "prayer": "Families and survivors of the Camp Mystic flood grieving losses and seeking accountability",
+      "alert_summary": "Flooding at Camp Mystic on July 4 prompted a state investigation revealing failures at the site."
+    },
     {
       "wp_id": 7059,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-20-2026/",
