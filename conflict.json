@@ -1,9 +1,279 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-20T05:14:45.980199+00:00",
-  "count": 716,
+  "updated": "2026-06-20T11:20:12.833448+00:00",
+  "count": 731,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7045,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-27/",
+      "date": "2026-06-20T11:19:36",
+      "title": "Armed Conflict in Southern Lebanon",
+      "body": "Airstrikes struck southern Lebanon, killing five people, according to a report from a Jordanian news outlet. No additional details about the specific locations hit or the timing of the strikes were included in the available source material.\n\nResidents in southern Lebanon have faced recurring aerial bombardment in recent months. The deaths add to an ongoing toll on civilians in the region.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWRCLUdOWUJ4Ny1CMEhzVTJmZndsOENqeC15bHREZ1MxWXVXTTNUTEE0VElIR2h5UEVld05CQ2FxZko0bDFLY2JSRFlsS3RnSGN5d2tVbTJkY0dPdmRNTDhBZXhQQ1RkVzRqZkJKTHMzazdyY08wOUNHcC1Db0Z5M3FBWHN2eUI4WmxIV3JvWWVkckFBVExISkx3a0pEdENtMkFxQVRnSkctMjI0b2d3?oc=5",
+      "prayer": "Five people killed in airstrikes on southern Lebanon",
+      "alert_summary": "Airstrikes killed five people in southern Lebanon; no further figures reported."
+    },
+    {
+      "wp_id": 7043,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-5/",
+      "date": "2026-06-20T11:19:07",
+      "title": "Armed Conflict in Lebanon",
+      "body": "An airstrike was reported in Lebanon shortly after a ceasefire went into effect, according to Lebanese officials. The timing raised immediate questions about whether the halt in fighting would hold.\n\nAt the same time, a armed group publicly stated that its weapons remained pointed at Israel, signaling that tensions had not eased despite the ceasefire agreement.\n\nResidents in affected areas remain in an uncertain situation, caught between a ceasefire that has not yet proven stable and continued armed posturing by multiple parties. No casualty figures were available from this report.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM3lMWDc3a1BKN2x5amV5Vy0xQlcwWS1td3lBNXlybHZVNnBFVjB3SEpwSWhmalJ1OXdrOEVPc2lRb1RNQWNnc2dMZHR2RTJxNnBOSUZpY1VrallZbzJlU0h4QXRweTUtalByRHpzX0dXeHBQSVF0VnpheXZ2U2tsX1FtV3psZlZUS0FpTjVKMzdhcWVUcnFlbDhodWFONlFWWlR4SVFnbnYwenI2MkhkZ25hQlpUWG1qQkQxQnE0bEJTUGtJX05abk92eGMzMnJIOV96aXJfWXZ0TG1Xc0FCckhxN3VBMnc10gHuAUFVX3lxTE44eWZucHdLOXVuUXhCdGlQUV9QSVZVUXZScV9RYkNRUmpXcEVnSXNGR3U1M2hKQ2w0ZmVXSERoSzdtaWxXN1EwM0JIWHNneDRFdzBhemNHN0twLUZUemVCSHFSNHdjbzkzTEZUVFlZbTFmQ3lxMkVIRU16MVN1eFhtTnZxUzFSZEN1aDh0d3lkZTJzYUpMaWpvNHpXUGlJdW1ZckF3dVRrYjU0SmE4NUY1SENxUFdoWXhtbV8zT1dUcU9jeXJxZ2ttbHM4YTBZZnVpRjVmeWwxVnliSHpqUU1fdWZUMnlVcXIxdUpuVXc?oc=5",
+      "prayer": "Lebanese civilians caught between an airstrike and an unsteady ceasefire",
+      "alert_summary": "An airstrike was reported in Lebanon after a ceasefire took effect; no casualty figures were available."
+    },
+    {
+      "wp_id": 7042,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-11/",
+      "date": "2026-06-20T11:18:29",
+      "title": "Armed Conflict in Gaza City",
+      "body": "An airstrike struck Gaza City and killed four Palestinians, two of whom were girls, according to the Palestine Chronicle. No further details about the location within the city or the circumstances of the strike were provided in the source.\n\nThe deaths of two children among the four killed underscores the ongoing danger facing civilians in Gaza. No figures for wounded or displaced were included in the available reporting.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzk3T2RBMnJOdDFhZEktbnJUbV9NbHpveDM1ZkpqLTEtR213dWZaMmh2NzdNcFdDVEc4TWdnNm1NdXg2cXpKZTFReEQ5UFVvRF91NlJvTk52bGJoMFlJcmQ2czREcDRacTVXMnh0V0ItdDR4Z2dxc2ZYcGJhd3NTYjJEWUR4MlA2U1RiQVBId24ydkt3emxFdmpEeUJaTlVwUGl3Mjdn?oc=5",
+      "prayer": "Four Palestinians, including two girls, killed in a Gaza City airstrike",
+      "alert_summary": "An airstrike in Gaza City killed four Palestinians, including two girls, according to reports."
+    },
+    {
+      "wp_id": 7041,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-syria-2/",
+      "date": "2026-06-20T11:18:16",
+      "title": "Armed Conflict in northern Syria",
+      "body": "A US-led coalition carried out an airstrike in northern Syria, killing a senior militant. The strike appears to be part of ongoing coalition operations targeting armed groups in the region.\n\nNorthern Syria has seen repeated coalition airstrikes over the years as part of efforts to counter militant activity. Civilians in the area continue to live amid the risk of military operations from multiple armed actors.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLUx0cVFrazR5ME92YlFsWlRzSlhKNEZ2NjJDZmJNU0Jfc2hBdUVZcGVWcVo3ci1YdTVKUFVTV3ZRdW1hZTBXV1dVT1hNbU5nQ0hib3UzbUl3alhrODFUTXBrc01mZmQxM1I2VjRhdmxJWExYRVQyMmt5OExqRnItV293ai1kQTNxYmVZSzBUXzluYlZwaVIySTJXbElmTkZTZWNYRQ?oc=5",
+      "prayer": "Civilians in northern Syria caught in ongoing airstrikes and militant activity",
+      "alert_summary": "A US coalition airstrike in northern Syria killed one senior militant; no further casualties reported."
+    },
+    {
+      "wp_id": 7040,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-3/",
+      "date": "2026-06-20T11:18:06",
+      "title": "Armed Conflict in Niamey",
+      "body": "Gunmen attacked the airport in Niamey, Niger's capital, with explosions reported during the assault. Few additional details are available from the source at this time.\n\nNiamey is the political and population center of Niger, and an attack on its main airport points to continued instability in the country following the 2023 military takeover. Airports are critical civilian infrastructure, and any disruption affects both travelers and aid operations in the region.",
+      "country": "Niger",
+      "countries": [
+        "Niger"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjlQWEJXLWJXRzU3eVpyNDY3Vzd4UXJrRW9GUlVvTF9SazljSEkzRi00UmliYXF2Wm5IN1FpR1pGTGs0RnRIM2xCdjQxc2xhRWlJQmU3Uzl6RF9qanE5Ny1NSVk3MkVtdEU5RkNSeHhrUU9VVTBsS0huWDdoQkVNR3o4MXlaRnI5akFpdVRTalh1Zy14MXBGYzhUUVczeF9qYzZqa19B?oc=5",
+      "prayer": "Civilians and travelers near Niamey's airport during an armed attack",
+      "alert_summary": "Gunmen attacked the airport in Niamey, Niger's capital, with explosions reported during the assault."
+    },
+    {
+      "wp_id": 7039,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chibok-2/",
+      "date": "2026-06-20T11:17:34",
+      "title": "Armed Conflict in Chibok",
+      "body": "A Boko Haram attack in Chibok, the town in Borno State long associated with the 2014 schoolgirl abductions, has claimed the life of a baby who was only about 12 hours old at the time.\n\nDetails on the full scale of the attack, including additional casualties or the number of people displaced, were not specified in available reporting. Chibok remains an area where armed group activity continues to threaten civilian life, including the most vulnerable residents.\n\nThe death of a newborn in such circumstances reflects the ongoing danger faced by families in communities across northeastern Nigeria where Boko Haram and affiliated groups remain active.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 10.870017,
+      "lng": 12.846371,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR2NtZHhEdGdfOGNYVXhsM0FDRTVNVGFQVXhIeVQ4Vk9rcGJCN2RlOThVeGw1Qi1kY1dONnR4bWpMbXJtelNJX05EcTRzS2x5MWItQnRic3ljemhFOVFQcWlpN0Z3UzNlb1M1MDNjTExfWFRrOW5UVXl0OS1reTM4US1xOWpfWEFXTXfSAYoBQVVfeXFMTkdjbWR4RHRnXzhjWFV4bDNBQ0U1TVRhUFV4SHlUOFZPa3BiQjdkZTk4VXhsNUItZGNXTjZ0eG1qTG1ybXpTSV9ORHE0c0tseTFiLUJ0YnN5Y3poRTlRUHFpaTdGd1MzZW9TNTAzY0xMX1hUazluVFV5dDkta3kzOFEtcTlqX1hBV013?oc=5",
+      "prayer": "Newborn and families in Chibok caught in an armed attack",
+      "alert_summary": "A Boko Haram attack in Chibok killed an infant reported to be 12 hours old."
+    },
+    {
+      "wp_id": 7037,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-la-paz-3/",
+      "date": "2026-06-20T11:17:05",
+      "title": "Civil Unrest in La Paz",
+      "body": "Bolivia's president declared a state of emergency on Saturday, giving the government broader powers to deploy the military and clear road blockades that have paralyzed the country for roughly 50 days. The announcement came hours after officials said they had reached a deal with the country's main labor union, though protests continued.\n\nThe unrest began after the president cut long-standing fuel subsidies to reduce the deficit. Despite later moves to stabilize fuel prices and reverse unpopular land reforms, protests grew into wider demands — including wage increases, an end to fuel and dollar shortages, and the president's resignation.\n\nProtesting groups have blocked key roads, stranding trucks and cutting off supplies of food, fuel, and medicine to communities across the country, including the capital. The emergency declaration gives the government constitutional authority to send armed forces to reopen those routes.",
+      "country": "Bolivia",
+      "countries": [
+        "Bolivia"
+      ],
+      "type": "Civil Unrest",
+      "lat": -16.500357,
+      "lng": -68.13408,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/americas/20260620-bolivia-declares-state-of-emergency-as-protests-bring-economy-to-a-halt",
+      "prayer": "Bolivian civilians cut off from food, fuel, and medicine by 50 days of road blockades",
+      "alert_summary": "Bolivia's president declared a state of emergency after 50 days of blockades choked supplies to La Paz and other areas."
+    },
+    {
+      "wp_id": 7036,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-26/",
+      "date": "2026-06-20T11:16:52",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Lebanese official media reported that Israeli strikes hit southern Lebanon on Saturday, killing five people. The strikes came one day after a ceasefire was announced between Israel and Hezbollah, the Iran-backed armed group.\n\nResidents were reported fleeing the area as the strikes continued. It is not yet clear whether the ceasefire has fully broken down or whether these represent isolated violations.\n\nCivilians in the south face an uncertain situation as fighting continues despite the announced halt. The deaths and displacement add to ongoing hardship for communities in the region.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/video/20260620-residents-flee-as-israeli-strikes-target-southern-lebanon",
+      "prayer": "Five people killed in southern Lebanon as residents flee Israeli strikes during ceasefire",
+      "alert_summary": "Israeli strikes on southern Lebanon killed five people on Saturday, one day after a ceasefire was announced."
+    },
+    {
+      "wp_id": 7035,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-bolivia-3/",
+      "date": "2026-06-20T11:16:38",
+      "title": "Civil Unrest in Bolivia",
+      "body": "Bolivia's president declared a state of emergency, opening the door to military deployment across the country. The announcement came after fifty days of blockades brought the economy to a standstill and left residents in the capital struggling to access food, medicine, and fuel.\n\nHours before the emergency declaration, the president reached an agreement with the country's main trade union federation to end the protests. Despite that deal, the state of emergency remains in place, and the military can now be deployed nationally.\n\nCivilians in affected areas are still dealing with shortages that built up over the weeks of disruption. How quickly supplies reach communities will depend on how the agreement between the government and union leaders holds.",
+      "country": "Bolivia",
+      "countries": [
+        "Bolivia"
+      ],
+      "type": "Civil Unrest",
+      "lat": -16.970662,
+      "lng": -64.269605,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/bolivia-declares-state-of-emergency-escalating-a-50-day-blockade-crisis",
+      "prayer": "Bolivians facing food, medicine, and fuel shortages after fifty days of blockades",
+      "alert_summary": "Bolivia's president declared a state of emergency after a fifty-day blockade caused nationwide shortages of food, medicine, and fuel."
+    },
+    {
+      "wp_id": 7033,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-25/",
+      "date": "2026-06-20T11:16:09",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Israeli strikes hit southern Lebanon on Saturday, killing at least seven people, including two children. The strikes came just hours after reports surfaced of a ceasefire agreement, raising questions about whether fighting would stop.\n\nThe continued strikes are putting pressure on a broader diplomatic effort. An interim agreement between the United States and Iran, aimed at ending the wider war in the Middle East, is now reported to be at risk because of the ongoing fighting.\n\nCivilians in the area remain in danger as the situation continues, with no confirmed halt to the strikes at the time of reporting.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/could-israel-lose-donald-trump-s-support-by-continuing-to-drop-bombs-in-lebanon",
+      "prayer": "Seven people, including two children in southern Lebanon, killed hours after ceasefire reports",
+      "alert_summary": "Israeli strikes on southern Lebanon killed at least seven people, including two children, hours after ceasefire reports emerged."
+    },
+    {
+      "wp_id": 7030,
+      "wp_link": "https://globalwitnessmonitor.com/bayahibe/",
+      "date": "2026-06-20T11:15:34",
+      "title": "Bayahibe",
+      "body": "A fire broke out at the Viva Wyndham Dominicus Beach Hotel in Bayahibe, on the southeastern coast of the Dominican Republic. One woman, an Italian national, died in the blaze. Three people were taken to medical facilities and six others received treatment at the scene.\n\nAbout 1,690 tourists were evacuated to other hotels and nearby establishments. Authorities say the fire spread quickly because the resort's roof was made of thatch, and wind conditions made it worse. The flames consumed most of the hotel complex, a popular destination for international visitors.\n\nFire officials brought the blaze under control, and an investigation is underway to find the cause. The hotel franchise had not issued a public statement at the time of reporting.",
+      "country": "Dominican Republic",
+      "countries": [
+        "Dominican Republic"
+      ],
+      "type": "Other",
+      "lat": 18.368709,
+      "lng": -68.839689,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/woman-killed-hundreds-evacuate-in-dominican-republic-hotel-fire/a-77634423?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Tourists and staff caught in the Bayahibe resort fire, and the family of the woman who died",
+      "alert_summary": "A fire at a beach resort in Bayahibe killed one woman and forced about 1,690 tourists to evacuate."
+    },
+    {
+      "wp_id": 7029,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-district-2/",
+      "date": "2026-06-20T11:15:13",
+      "title": "Armed Conflict in Nabatieh district",
+      "body": "Israeli air strikes and drone attacks hit southern Lebanon on Saturday, hours after a ceasefire between Israel and Hezbollah was announced. Lebanon's civil defence agency reported 16 people killed and 12 wounded in the Nabatieh district. In the neighboring Tyre district, a strike on the village of Barish killed four members of one family — a father, mother, and their two children. A Lebanese soldier was also killed in the village of Kfar Reman.\n\nThe strikes are threatening to derail planned diplomatic talks between the United States and Iran. A ceasefire in Lebanon is described as essential to those negotiations, with Iranian officials saying conditions on the ground could \"make or break\" the process. An agreed framework explicitly links an end to fighting in Lebanon with a broader regional ceasefire arrangement.\n\nLebanon's army said the continued strikes are aimed at blocking efforts to restore stability. Talks between Lebanon and Israel are scheduled for late June in Washington, though Hezbollah has not been included in those discussions.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.398937,
+      "lng": 35.687965,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/20/us-envoy-headed-for-switzerland-israeli-strikes-on-lebanon-threaten-talks?traffic_source=rss",
+      "prayer": "Families in southern Lebanon killed and wounded amid strikes following a ceasefire announcement",
+      "alert_summary": "Israeli strikes in southern Lebanon killed at least 21 people and wounded 12 after a ceasefire took effect."
+    },
+    {
+      "wp_id": 7028,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tyre-9/",
+      "date": "2026-06-20T11:14:59",
+      "title": "Armed Conflict in Tyre",
+      "body": "A 77-year-old Lebanese marine ecologist died on Friday after being wounded when an Israeli strike hit her home near Tyre. She had lived and worked on Lebanon's southern coast for decades, protecting the nesting sites of endangered loggerhead and green sea turtles at al-Mansouri beach.\n\nOn the same day she died, Israeli air attacks on southern Lebanon killed at least 50 people and wounded dozens more. Environmental volunteers and colleagues mourned her passing, calling it a loss for all of Lebanon.\n\nShe had helped establish an eco-tourism project at al-Mansouri beach in 2000 and spent years documenting marine life and advocating against coastal pollution. Both loggerhead and green sea turtles face extinction in the eastern Mediterranean from development, plastic pollution, and fishing nets — work she had championed since 1999.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.273647,
+      "lng": 35.19531,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/20/mona-khalil-lebanons-turtle-advocate-dies-after-israeli-attack?traffic_source=rss",
+      "prayer": "Civilians in southern Lebanon killed and wounded amid ongoing airstrikes, including a 77-year-old conservationist",
+      "alert_summary": "Israeli airstrikes on southern Lebanon killed at least 50 people on Friday, including a 77-year-old ecologist wounded in an earlier strike near Tyre."
+    },
+    {
+      "wp_id": 7027,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-10/",
+      "date": "2026-06-20T11:14:47",
+      "title": "Armed Conflict in Gaza City",
+      "body": "A family was killed early Saturday morning when strikes hit a building on al-Thalatini Street in Gaza City around 2:00 am. A father and his two daughters — ages four and fourteen — died in the attack. The mother was wounded and died later that day. A relative said there was no warning before the strike hit their home.\n\nEarlier Friday evening, five people were injured when strikes hit a tent sheltering displaced families in the al-Mawasi area of Khan Younis. Naval gunfire was also reported Saturday off the coast of southern Gaza.\n\nHealth authorities report that since an October ceasefire, at least 1,007 people in Gaza have been killed and 3,165 wounded. Since the war began in October 2023, at least 73,018 people have been killed. About 2.2 million people in Gaza currently face acute humanitarian needs, with food, medical aid, and shelter materials restricted from entry.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/20/family-including-two-daughters-killed-in-israeli-strikes-on-gaza?traffic_source=rss",
+      "prayer": "A family in Gaza City killed overnight, including two young daughters, and thousands facing ongoing strikes",
+      "alert_summary": "Overnight strikes on a residential building in Gaza City killed five people, including a father and his two daughters, aged four and fourteen."
+    },
+    {
+      "wp_id": 7026,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bannu-district/",
+      "date": "2026-06-20T11:14:34",
+      "title": "Armed Conflict in Bannu district",
+      "body": "Two roadside bombs struck Bannu district in Khyber Pakhtunkhwa province on Saturday, killing at least seven people. The first bomb hit a passenger pickup truck. When the wounded were being driven to a hospital, a second bomb exploded along the route, killing and wounding more people. No group has claimed responsibility, though armed groups including the Pakistan Taliban are active in the area.\n\nThe attacks come amid rising tension along the Pakistan-Afghanistan border. Pakistani airstrikes earlier this month killed fighters near the border, according to Pakistani officials, while Afghan authorities said 12 civilians died in those strikes. The border has been largely closed since violence increased in October, cutting off trade and travel between the two countries.\n\nResidents near the border face ongoing risk from roadside bombs, closed crossings, and the broader breakdown in relations between the two governments.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.987717,
+      "lng": 70.604744,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/20/two-roadside-bombs-kill-at-least-seven-in-northwestern-pakistan?traffic_source=rss",
+      "prayer": "Wounded survivors and families of seven killed in Bannu district bomb attacks",
+      "alert_summary": "Two roadside bombs in Bannu district killed at least seven people and wounded three, with the second bomb targeting rescuers."
+    },
     {
       "wp_id": 7016,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pakistan-2/",
@@ -191,7 +461,7 @@
       "wp_link": "https://globalwitnessmonitor.com/bedford/",
       "date": "2026-06-19T23:15:09",
       "title": "Bedford",
-      "body": "Two passenger trains collided on a rail line south of Bedford, about 56 miles north of London, on Friday evening. One person died and an unknown number of passengers were injured. Emergency services, including an air ambulance, responded to the scene. A major incident was declared by British Transport Police.\n\nOne of the trains was travelling from Corby to London St Pancras and collided with another train near Bedford South. Witnesses described being thrown forward on impact, seeing smoke, and encountering passengers with broken limbs and other serious injuries. Bedford hospital was alerted to expect as many as 50 injured people.\n\nTrain services in and out of London St Pancras were suspended for the evening, and passengers were advised not to travel. Thameslink services via London Bridge were also cancelled due to shared track connections.",
+      "body": "Two southbound passenger trains collided near Bedford, England, around 5:15 p.m. on Friday. One train had departed Corby and the other from Nottingham, both heading to London St. Pancras. A train driver was killed in the collision, and 89 passengers were injured — 11 with very serious injuries, 22 with serious injuries, and 56 with minor injuries.\n\nEmergency services responded with air ambulances and a hazardous incident team. Rail services to and from St. Pancras were suspended for the rest of Friday, with no confirmed schedule for Saturday.\n\nPassengers described being thrown forward without warning, seeing others with broken bones and bleeding injuries, and escaping through gaps in the train doors. A railway union said it was monitoring the situation and expressed concern over injuries to both passengers and staff.",
       "country": "United Kingdom",
       "countries": [
         "United Kingdom"
@@ -199,10 +469,10 @@
       "type": "Other",
       "lat": 52.13685,
       "lng": -0.468511,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/19/two-trains-collide-near-bedford-north-of-london?traffic_source=rss",
-      "prayer": "Injured passengers and families of the person killed in the Bedford train collision",
-      "alert_summary": "Two passenger trains collided near Bedford, killing 1 person and injuring an unknown number, with up to 50 casualties expected at hospital."
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/europe/20260620-one-dead-and-dozens-injured-in-train-collision-north-of-london",
+      "prayer": "Train driver killed and dozens of passengers injured in a collision near Bedford",
+      "alert_summary": "Two passenger trains collided near Bedford, killing a driver and injuring 89 people, 11 critically."
     },
     {
       "wp_id": 6981,
@@ -245,7 +515,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-8/",
       "date": "2026-06-19T17:19:58",
       "title": "Armed Conflict in Nabatieh",
-      "body": "The civil defence centre in Nabatieh, a city in southern Lebanon, was destroyed in an Israeli airstrike. Civil defence centres serve as hubs for emergency response, housing equipment and personnel who respond to fires, rescues, and medical emergencies.\n\nThe loss of this facility reduces the ability of local emergency responders to assist civilians in the surrounding area. Southern Lebanon has seen repeated strikes on infrastructure in recent months.\n\nNo casualty figures were available in the source material.",
+      "body": "Israeli airstrikes struck more than a dozen areas of southern Lebanon, many around the city of Nabatieh, killing at least 11 people, according to Lebanon's state news agency. The strikes came within 24 hours of a new ceasefire announcement between Israel and Hezbollah. Israel said it acted after Hezbollah fired over 50 projectiles at Israeli forces in the south.\n\nHezbollah said it would continue responding as long as Israeli attacks persist, and Israel continues to occupy roughly 5% of Lebanese territory in the south. Around one million people remain displaced, and dozens of southern communities have been destroyed.\n\nWashington has criticized the ongoing operations, warning they could threaten a broader US-Iran peace agreement that includes a commitment to end fighting on all fronts, including Lebanon. A US envoy is reported to be traveling to Switzerland for initial talks with Iran aimed at cementing that agreement.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
@@ -253,10 +523,10 @@
       "type": "Armed Conflict",
       "lat": 33.377956,
       "lng": 35.483513,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OSEpOLVFwYWw4dEVkV2dDN2hiMGZFcnVMY25QSW44U0xuTm1Cb05ieGgtSGFRNXFvejU1SzdiS2VQY09YOHQ5RFBORU9CWWtaNnFJRF93Y3BDR2JoMm9GS0dR?oc=5",
-      "prayer": "Civil defence workers and civilians in Nabatieh after an airstrike destroyed their emergency centre",
-      "alert_summary": "An airstrike destroyed the civil defence centre in Nabatieh, Lebanon, according to reports."
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cx240k9l112o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Eleven people killed in southern Lebanon airstrikes, with around one million still displaced",
+      "alert_summary": "Israeli airstrikes killed at least 11 people near Nabatieh in southern Lebanon, less than 24 hours after a ceasefire was announced."
     },
     {
       "wp_id": 6963,
@@ -298,19 +568,19 @@
       "wp_id": 6961,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-8/",
       "date": "2026-06-19T17:17:19",
-      "title": "Armed Conflict in southern Gaza",
-      "body": "An airstrike hit a tent camp in southern Gaza, wounding five people. The camp was sheltering displaced civilians, as much of Gaza's population has been forced from their homes during the ongoing conflict.\n\nTent camps across Gaza have become common shelters for families who have lost their homes or fled fighting. Strikes on or near these areas raise ongoing concerns about the safety of civilians with limited options for shelter or movement.",
-      "country": "Israel",
+      "title": "Armed Conflict in Gaza",
+      "body": "An airstrike struck a residential apartment in Gaza, killing five civilians. The attack was carried out by Israeli forces, according to the source.\n\nNo further details about the specific neighborhood, the identities of those killed, or whether others were wounded are available from this report. Residential buildings in Gaza have frequently been struck during the ongoing conflict, raising ongoing concerns about civilian safety in densely populated areas.",
+      "country": "Palestine",
       "countries": [
-        "Israel"
+        "Palestine"
       ],
       "type": "Armed Conflict",
       "lat": 31.512442,
       "lng": 34.457165,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcURmMGZsYzZsWWU3TGxfbGI4MV9jN0hJWEZMSUF0VWN0T1ZaOWxwT21NWWh1Z0JKa3ltQmZZaEptSnVTS1RjeVMzTzg2WndQSk9VSmhpanI4RnJGLVkwa2tLcFpKNDFXMDVLbW5ocF9OYXVmcWxMQjdyclRxTEhVQ0tEVQ?oc=5",
-      "prayer": "Five people wounded in an airstrike on a tent camp in southern Gaza",
-      "alert_summary": "An airstrike on a tent camp in southern Gaza wounded five people; no deaths reported."
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkgycmplYmROenVYY0h5SEtBREItQnY5b3IzellNOWZ6Y19EQ3dndFZwUDZScG5JVzY1MThLbnBpcUlDYWUtN21xVW9OOVh3dDRsdXN2SzJfR1FRU1hjcW5IbFpzZWRvM3JjaG5UZDhhanQzQ3JOOGdzRmxQY1FXbjVPZmNNdW1XR3BMcEtCUGhicmNKd2lwS3N3V2VHQzNicHJuS0J6M2tlclRpZUg3Mw?oc=5",
+      "prayer": "Five civilians in Gaza killed in an airstrike on a residential apartment",
+      "alert_summary": "An airstrike on a residential apartment in Gaza killed five civilians, according to reports."
     },
     {
       "wp_id": 6960,
@@ -373,7 +643,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-4/",
       "date": "2026-06-19T17:16:21",
       "title": "Armed Conflict in Moscow",
-      "body": "Ukraine struck the Moscow Oil Refinery twice within one week, triggering five simultaneous fires and forcing the facility to shut down. The refinery supplies over 38 percent of the Moscow region's fuel, including aviation fuel to four of the city's airports. The strikes shut down six airports near Moscow and cancelled flights. Residents reported \"oil rain\" and black soot covering surfaces after smoke clouds rose over the city.\n\nThe strikes are part of a months-long Ukrainian campaign targeting Russian oil infrastructure. Fuel rationing is now in effect across 53 Russian regions, including Moscow and Saint Petersburg, where petrol stations began limiting purchases. Russia produced roughly 100,000 barrels per day below its May target, according to the International Energy Agency. Russian oil companies have also restricted canister sales and announced production cuts following infrastructure damage.\n\nUkraine secured approximately 4 billion euros in new military aid commitments during the same week and opened its first formal EU membership negotiation cluster with Brussels.",
+      "body": "One of the largest drone attacks on the Moscow region since Russia's full-scale invasion of Ukraine struck an oil refinery in the city's south-east, setting it ablaze and sending thick smoke over the skyline. Shopping centers and residential buildings were also hit. A girl, eight years old, was killed in a fire caused by one of the strikes, according to the regional governor.\n\nResidents near the refinery described hearing explosions and seeing heavy smoke, though many carried on with daily routines. Russian state television gave the attack little coverage, and the country's president made no public statement about it.\n\nWhen the Kremlin did respond, officials pointed to what they described as far greater damage being inflicted on Ukraine. Russian newspapers carried similar messaging, framing the attack as far less significant than Russian strikes against Ukrainian targets. There is no sign the attacks have changed the course of Russian military operations.",
       "country": "Russia",
       "countries": [
         "Russia"
@@ -381,10 +651,10 @@
       "type": "Armed Conflict",
       "lat": 55.750541,
       "lng": 37.617478,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/19/petrol-shortages-and-oil-rain-bring-russia-ukraine-war-home-to-moscow?traffic_source=rss",
-      "prayer": "Moscow residents and those in 53 Russian regions facing fuel rationing and refinery strike fallout",
-      "alert_summary": "Ukraine struck the Moscow Oil Refinery twice in one week, causing five simultaneous fires and halting operations; six airports closed."
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/cp3xqkxp3x5o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents of Moscow near the oil refinery fire, and the family of an eight-year-old girl killed in the attack",
+      "alert_summary": "A Ukrainian drone strike hit an oil refinery and residential buildings in Moscow, killing one child."
     },
     {
       "wp_id": 6955,
@@ -426,18 +696,18 @@
       "wp_id": 6942,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-4/",
       "date": "2026-06-19T11:18:40",
-      "title": "Displacement in Lebanon",
-      "body": "UNICEF reported that children in Lebanon are being killed or maimed at a rate of about 12 per day, more than 100 days into the conflict that followed Israeli strikes and widespread forced displacement of civilians.\n\nThe figures were shared even as a ceasefire between Hezbollah and Israel remains in place, raising concern that children continue to be harmed despite the truce. UNICEF did not specify the exact causes behind the ongoing casualties in its summary.\n\nThe broader picture described by the UN agency points to an ongoing humanitarian crisis for families across Lebanon, many of whom were displaced during the height of the fighting and are still struggling to recover.",
+      "title": "Armed Conflict in Lebanon",
+      "body": "A ceasefire between Israel and Hezbollah was announced by US officials, with the sitting US president stating he had asked Israel to agree to the halt in fighting. The ceasefire was declared in effect on a Friday afternoon local time.\n\nDespite the announcement, fighting did not stop. Attacks and retaliatory strikes from both sides continued after the ceasefire was supposed to take hold, according to reporters on the ground in Jerusalem and Beirut.\n\nResidents in Lebanon remain in a situation where an agreement exists on paper but the actual conditions on the ground have not changed. No casualty figures were provided in the source material, but the continued exchange of fire means civilians in affected areas face ongoing danger even as a formal halt to hostilities has been declared.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
       ],
-      "type": "Displacement",
+      "type": "Armed Conflict",
       "lat": 33.920265,
       "lng": 35.888026,
-      "source_title": "UN News - Global perspective Human stories",
-      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167736",
-      "prayer": "Children in Lebanon injured or killed daily amid ongoing conflict and displacement",
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/hezbollah-israel-flare-up-in-lebanon-despite-ceasefire-announced-by-the-usa",
+      "prayer": "Civilians in Lebanon caught between ongoing attacks despite a declared ceasefire",
       "alert_summary": ""
     },
     {
