@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-20T05:11:04.776909+00:00",
-  "count": 677,
+  "updated": "2026-06-20T11:13:02.172049+00:00",
+  "count": 686,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7025,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-19-2026-3/",
+      "date": "2026-06-20T11:12:48",
+      "title": "Storm in United States 06/19/2026",
+      "body": "Two tornadoes touched down in the Woodstock region on a Thursday, leaving residents to assess the damage left behind. Community members have been going through affected areas to evaluate what was lost or destroyed.\n\nNo casualty figures or details about the number of homes or structures damaged were included in the available report. Residents in the area have been working through the aftermath as recovery efforts get underway.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 42.041014,
+      "lng": -74.118349,
+      "source_title": "\"tornado OR storm damage OR killed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMDZlYlg2eWx0ZldHWXU1VWM2bmlQV3lvTjd1TXpZcXQ2SGkwSzFMRGR5dlhaRXNxR1dwVmpDV1h0aUR2c2JVT2hEaUY4M2I3dVBPdjZFd09mdnBJTmFzNWVfZnh1OVdYVG0yY2lxNEZ1MFdtNEFPaHRoeDM5cm9DdXFoZURRT0FTRERVYVZWNTkzYzQwQnUtQ3hCQi1kQWt4eExZU1FGVnpvcEN1dUZPbTFXUmE1NGZPQzdwbmN1OTdGNkxU?oc=5",
+      "prayer": "Woodstock residents sorting through damage after two tornadoes struck their community",
+      "alert_summary": "Two tornadoes struck the Woodstock region, leaving residents sorting through damage; no casualty figure reported."
+    },
+    {
+      "wp_id": 7024,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-united-states-06-18-2026/",
+      "date": "2026-06-20T11:12:33",
+      "title": "Drought in United States 06/18/2026",
+      "body": "An ongoing drought across the American West has forced water managers to conduct an emergency drawdown of Flaming Gorge Reservoir, which sits on the Wyoming-Utah border. The water is being released downstream to help stabilize Lake Powell, which has dropped to critically low levels.\n\nThe drawdown is taking a toll on the communities that depend on Flaming Gorge for recreation. Boating, fishing, and tourism businesses along the reservoir are struggling as water levels fall well below normal, making the area far less accessible and appealing to visitors.\n\nLocals describe the situation as devastating. The loss of recreational traffic threatens livelihoods and the broader regional economy that has long relied on Flaming Gorge as a major outdoor destination. No casualty figures were reported, but the economic and environmental strain on the area is ongoing.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Drought",
+      "lat": 40.8873,
+      "lng": -109.48418,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPaVMyQkRuSm9jWHpNeThxX2NSc2k3RmhVVFZubDNGVml6MlZZaFBkWnNjVE84bUZ5bkFnRldPUW5IOE5uQVQzZkk5WTZteW1WaGVDNXllQnRMQzBEWjFPT201T2o3Wk15ZXBJRF84UHh0aml1TTZxME5TOWV3clBEWmltVlJqdlB3VHlWQXVENkEyeVVBM3lRSWIwRzR6SV9KU1RvRWxBRFdYZEpmcktmaGdSUTdwU3RwaG1hLVlQTzd2b2VIMVlvUkpRUUVxNWt6eUg3a3BDTHc4c1l1b1VxQUNHWDZCQ0dpVmVpVWJJUDI3dDRGSE96bkVIQTFnc2RPbnZUdUllYXdNZ2NZX2llTklnRG02d0NIc3N2RC1OeThYWFk?oc=5",
+      "prayer": "Communities near Flaming Gorge, Wyoming and Utah, facing economic loss from drought-driven reservoir drawdown",
+      "alert_summary": "Drought-driven emergency drawdown of Flaming Gorge Reservoir to protect Lake Powell is disrupting the local recreation economy."
+    },
+    {
+      "wp_id": 7023,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-papua-new-guinea-06-20-2026/",
+      "date": "2026-06-20T11:11:33",
+      "title": "Volcano in Papua New Guinea 06/20/2026",
+      "body": "An underwater volcano is erupting in the Bismarck Sea in the Pacific Ocean, captured by NASA satellites from space. Scientists are now watching closely to see whether enough material will build up on the seafloor to break the surface and form a new island — a phenomenon rarely observed as it happens.\n\nThe formation of a new island from an undersea eruption is considered an unusual event to witness in real time. Researchers are monitoring the site as the eruption continues, waiting to see whether the volcano produces enough material to emerge above the water.\n\nNo injuries, evacuations, or damage to communities have been reported in connection with this eruption at this time.",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Volcano",
+      "lat": -6.478378,
+      "lng": 145.241749,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNLUh2dW5jUVBqY0NUZEljMGdaeXdHR3JObjhKQjdYQWFFY25RQ0diR2t2TDQ0bExNdklSTG5xOVkySzJBaEFHV19pOEtlbHJlUF9VbnY2X3hoRUZ6aFYxU2wwMW1KZkJ2U0ZtTEV5aG1PLWxabHM2MC1fWWxWSUxLUV9wNHVYMHdLR0k0ckZ0dTlhMjEwaFkyYWlFSHpCUERTTTVjRTc3RGU4NldpdGszY19CbFFkc2dVemVFVE9FUjdSOXBpa1ZVMml6R2lmeVRpck43MlpqZGhJQzdiSHMyWUhhOTZ0N3VHUXNMWWtpSTVQTjFPUmY1Z3B2RUIwZzVwT1BVQUw5TzQydzJMT09V?oc=5",
+      "prayer": "Scientists and nearby communities as an underwater volcano erupts in the Bismarck Sea",
+      "alert_summary": "An underwater volcano erupted in the Bismarck Sea, with satellite imagery capturing the activity; no casualty figure reported."
+    },
+    {
+      "wp_id": 7022,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-19-2026-5/",
+      "date": "2026-06-20T11:11:21",
+      "title": "Landslide in India 06/19/2026",
+      "body": "Heavy rainfall in West Bengal, India, set off a landslide and caused a bridge to collapse, cutting off access along key highways in the region. Roads became impassable, leaving travelers and communities stranded or forced to find alternate routes.\n\nNo casualty figures were included in the available reporting, but the blocked highways point to significant disruption for people living in and moving through the affected areas. Landslides and bridge failures during heavy rain can isolate villages for days, limiting access to food, medical care, and other essentials.\n\nWest Bengal's hilly and low-lying areas are prone to this kind of event during the monsoon season, when sustained rain weakens slopes and puts aging infrastructure under stress.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 23.822014,
+      "lng": 88.038677,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSWM5SnhJOFJvSlNwNGt1SFRtbDJBZmdJbkMxdUJyOGRGYk40X1pXUVV1ZEd2NHVhTm14SG9oMzcxMlJWZUZWazVUajhjaDFkMU93SS00aTN3YWU5emZRNGZkT040Tk8tdFJHaW1ybWw0QXlTWWp6LWJ0OEZLNHRUQ3NHeFN6d1lGYnE3dU1sMENtOFoySWo4NjZ2UWFxX1RoRmFFRlJQUXNtVFE?oc=5",
+      "prayer": "Travelers and communities in West Bengal cut off after landslides and a bridge collapse",
+      "alert_summary": "Heavy rain triggered a landslide and bridge collapse blocking highways in West Bengal, India; no casualty figure reported."
+    },
+    {
+      "wp_id": 7021,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-19-2026-3/",
+      "date": "2026-06-20T11:11:09",
+      "title": "Earthquake in Philippines 06/19/2026",
+      "body": "An earthquake struck Davao Occidental in the southern Philippines, prompting local authorities to shut down tourism sites in the area. No details about casualties or damage have been reported.\n\nThe closure of tourism sites suggests officials are taking precautions to protect visitors and assess any structural damage caused by the quake. Davao Occidental is a largely rural province on Mindanao island.\n\nResidents and those with ties to the region are encouraged to check on the wellbeing of family and community members there as more information becomes available.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.414375,
+      "lng": 125.610905,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQXlDckFSMnVUd0tUNnRmY3lyNDJ3VzJHZDlITWMyRlp1eGpkVnZ2OFVDNXVvQXUxLWxXRWtNWFZWbWdwTkZZdWxsYXAyVmhYQVpORDZRZFdnYjRYQmNDSWE5RHR5OFBJeEEtcXFsMXV3UElaRlNGaGlNSi1Bd3lPUk5pcW5mZG9kVTkxedIBkgFBVV95cUxPX0xuQUlTYW5YREJRWWZxVGc0TzE5Zms3bGNnNVpMd1B0ek12VkZFTF9YZXBWWFhpaC0yN21nOE42dXdmWm9KWlFRVXNrMmRPUkRaUVZpYVpQeXRpcndKa1FuNENCYXpjb0l3ZjQ3ZGxDanoybzUyM3gzeGVvMGsxRDVHZXdPUVZzV0p3blFMOF94dw?oc=5",
+      "prayer": "Residents of Davao Occidental, Philippines, affected by an earthquake and disruption to local communities",
+      "alert_summary": "An earthquake struck Davao Occidental, Philippines, prompting closure of tourism sites; no casualty figure reported."
+    },
+    {
+      "wp_id": 7020,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-20-2026-2/",
+      "date": "2026-06-20T11:10:34",
+      "title": "Wildfire in Canada 06/20/2026",
+      "body": "A wildfire burning near the Village of Lytton in British Columbia, Canada, has prompted authorities to extend an evacuation order to include the village itself. Residents have been ordered to leave the area as the fire continues to burn nearby.\n\nLytton has faced wildfire danger before — the village was largely destroyed by fire in 2021. The current situation has once again forced the community to flee their homes as crews work to respond to the threat.\n\nNo figures on injuries, deaths, or structures destroyed were included in the available report. Those with connections to this region — including mission workers and churches — are encouraged to stay informed as conditions may continue to change.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 50.2339,
+      "lng": -121.58086,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORzRaWDhvX1k0dFNRLV9uR0pTQmpKVjJlSDRxM2wySzBwNGpDMmt5b2laOXh3V180em5QaXoyaXNUamM1c1MtNXJ4WWxxdG5zdmdBR3dFdzNJVXMxU0hFWktUZ2pNYVlrME14Y3Bobktlel93eHhiREpHUC14VTBUelo0MXplb1dlX2hoM0VBa3M1MGdBZHhzTA?oc=5",
+      "prayer": "Residents of Lytton, British Columbia, evacuated as a nearby wildfire continues to burn",
+      "alert_summary": "A wildfire near Lytton, British Columbia, prompted an evacuation order extended to the village; no casualty figure reported."
+    },
+    {
+      "wp_id": 7019,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-20-2026-2/",
+      "date": "2026-06-20T11:09:37",
+      "title": "Flood in United States 06/20/2026",
+      "body": "Flooding in Avoyelles Parish, Louisiana has forced residents from their homes, prompting efforts to provide shelter and assistance to those affected. Displaced individuals have been directed to local support resources as communities respond to the ongoing situation.\n\nThe source confirms that flood victims are being helped but does not specify the number of people displaced, the extent of property damage, or the cause of the flooding. Recovery efforts appear to be underway at the local level.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 31.127228,
+      "lng": -92.06627,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaGtRMlVocEtIaFliME1uYlJiME1FUW1qb05ZaFhteEdIeDZGUS14WDZxWkNwR3dEM1dXVXk4WUpaQTgxS3JGSUREaUREaXpCdHRNazd5REFrMWdyaU9NSDdRaXVZZTk3MXNHWnNyWVVYTEwxOVNDMmJyb2pCdFZFdmxYdllhdl9ZdHBqQnVmeGx5QW8?oc=5",
+      "prayer": "Flood victims in Avoyelles Parish, Louisiana seeking shelter and rebuilding stability",
+      "alert_summary": "Flooding struck Avoyelles Parish, Louisiana, displacing residents who are now seeking shelter and support; no casualty figure reported."
+    },
+    {
+      "wp_id": 7018,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-19-2026-4/",
+      "date": "2026-06-20T11:09:18",
+      "title": "Disease in Congo 06/19/2026",
+      "body": "An Ebola outbreak declared on May 15 in eastern DR Congo continues to spread, with more than 890 confirmed cases and over 230 deaths recorded. The outbreak is caused by the Bundibugyo species of Ebola, for which no approved vaccine currently exists. Cases are concentrated in the provinces of Ituri, South Kivu, and North Kivu, with Ituri accounting for more than 90% of confirmed infections.\n\nFear and misinformation have fueled attacks on health facilities throughout the outbreak. Armed men removed a six-year-old patient and her mother from a hospital in Butembo; both were later found at a treatment center and the child's condition is reported as stable. Crowds have set fire to isolation tents and confronted police attempting to enforce safe burial practices.\n\nUganda, which borders DR Congo, has reported 19 confirmed cases and 2 deaths but no new cases since early June. The WHO has warned that ongoing armed conflict in eastern DR Congo is hampering the response effort.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 0.124617,
+      "lng": 29.293558,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c0qyg29wpk2o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Communities in eastern DR Congo amid an Ebola outbreak marked by fear, misinformation, and attacks on health workers",
+      "alert_summary": "An Ebola outbreak in eastern DR Congo has confirmed more than 890 cases and 230 deaths, with 75 health workers infected."
+    },
+    {
+      "wp_id": 7017,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-dominican-republic-06-20-2026/",
+      "date": "2026-06-20T11:09:05",
+      "title": "Other in Dominican Republic 06/20/2026",
+      "body": "A fire at the Viva Wyndham Dominicus Beach resort in Bayahibe, Dominican Republic killed one woman and led to the evacuation of nearly 1,700 guests. Three people were taken to medical facilities and six others were treated on site. The woman who died was a 46-year-old Italian tourist.\n\nDrone footage showed widespread destruction across the resort, with thick black smoke rising above multiple buildings. Investigators believe the fire spread quickly due to wind conditions and flammable thatched roofs on some structures. The cause of the blaze has not yet been determined.\n\nAuthorities brought the fire under control and moved guests to other hotels. Around 285 Italian tourists required assistance from their country's embassy, including emergency passports for those whose travel documents were destroyed, and help arranging flights home.",
+      "country": "Dominican Republic",
+      "countries": [
+        "Dominican Republic"
+      ],
+      "type": "Other",
+      "lat": 18.368709,
+      "lng": -68.839689,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.com/news/articles/c932k8010j1o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Guests and families affected by the Bayahibe resort fire, including those who lost belongings and loved ones",
+      "alert_summary": "A resort fire in Bayahibe, Dominican Republic killed one person and forced nearly 1,700 guests to evacuate."
+    },
     {
       "wp_id": 7010,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-19-2026-magnitude-8/",
