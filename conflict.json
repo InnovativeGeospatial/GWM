@@ -1,9 +1,46 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-19T23:19:43.652406+00:00",
-  "count": 714,
+  "updated": "2026-06-20T05:14:45.980199+00:00",
+  "count": 716,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7016,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pakistan-2/",
+      "date": "2026-06-20T05:14:20",
+      "title": "Armed Conflict in Pakistan",
+      "body": "Afghan forces launched strikes against targets inside Pakistan, according to reporting by Al Jazeera. The incident has heightened tensions along the Afghanistan-Pakistan border, a region that has seen repeated cross-border incidents in recent years.\n\nNo casualty figures, specific strike locations within Pakistan, or dates were available from the source summary. Further details on the scale of the strikes and any civilian impact had not been confirmed at the time of this report.\n\nResidents and communities near border areas between the two countries may face continued risk as the situation develops.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQXIwSFhnUm43RV9PRUFkSEpyNU9qT3FVRmFPMnZfM014bldNemF5T3RmbERoUkd5eXZjdjQzaTg2YjRZSTF1YXpJNHBGSjVKdFBEdURfZEtHaGJDZkt5M18zVWdtWUpfWTNORTlYRGJkZjk3dTA3UjQwTTlKcVhFbTNKYjBIM1A0UzIzTzdIdTJESkxVMDBXclhYcE9qT3BFb2VWY3V0WTlJUlN0QWfSAbMBQVVfeXFMUHl6dmFpd2xOTjZMM09UaHYwTEZ1N29ZWEVKY1BzeC1ld1UtOWI1R29Ld3o3M3V0ZkJOUEV1eWVaNmZSSHBFUTdkRnMtOGNTRnVIWHF0TWdQc1MyR3M5ZWU4NW1tV1lSaS1pazZqQ3FoUEZEUmNua3EzSGhNejhfLU9JT25GUV80WTFBMzhPaXlrRnNBLW5wcG1YbkhlaXFOSDl4bldSSElJWjRfVlRRdlBiT2s?oc=5",
+      "prayer": "Civilians in Pakistan near the Afghan border amid cross-border strikes",
+      "alert_summary": "Afghanistan carried out strikes on targets inside Pakistan, raising cross-border tensions between the two countries."
+    },
+    {
+      "wp_id": 7015,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-syria/",
+      "date": "2026-06-20T05:13:59",
+      "title": "Armed Conflict in northern Syria",
+      "body": "A U.S.-led coalition carried out an airstrike in northern Syria, killing a senior militant, according to reports. No further details about the location, the group involved, or the circumstances of the strike were provided in the available summary.\n\nNo information was given about civilian casualties or displacement resulting from the strike. Residents in areas where such operations occur regularly face uncertainty about safety, particularly in communities near militant activity.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORzBucjhCbm5wQzlSeEJkcW14VHdjYUtkQjBTOENEYlNvblBUaWVFdi1QV1A0Y01NUEFMTExOdlh0eGkxbUNWVlQ4c1B1OVZsUGpHRDRTSUNMSGlEOTYzTkRqSzhXczd1T0J0Zk81WG9sdDVUMWtYS0x5SUVzdHk4c25wVXNubklpSlBFZVllVmxXWDYybEVPUkpLRQ?oc=5",
+      "prayer": "Communities in northern Syria amid ongoing coalition airstrikes",
+      "alert_summary": "A U.S. coalition airstrike in northern Syria killed one senior militant; no civilian casualty figures reported."
+    },
     {
       "wp_id": 6996,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-24/",
@@ -63,7 +100,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyauktaw-3/",
       "date": "2026-06-19T23:17:46",
       "title": "Armed Conflict in Kyauktaw",
-      "body": "A military airstrike struck Kyauktaw, a town in Rakhine State, killing seven civilians, according to witnesses on the ground. No further details about the specific target or circumstances of the strike were provided in available reports.\n\nRakhine State has seen ongoing conflict between the Myanmar military and the Arakan Army, an ethnic armed group that has expanded its control across much of the state over the past year. Civilian casualties from airstrikes have been reported repeatedly in the region during this period.\n\nResidents in and around Kyauktaw continue to face risks from aerial attacks, and the situation limits access for humanitarian workers and others trying to reach affected communities.",
+      "body": "An airstrike carried out by the Myanmar military struck the town of Kyauktaw, killing at least seven people. Kyauktaw is located in Rakhine State, an area that has seen ongoing fighting between military forces and armed groups in recent years.\n\nAirstrikes on populated areas have been a recurring feature of the conflict in Myanmar since the military took power in 2021. Rakhine State has faced some of the most active fighting in recent months, with civilian communities caught between armed factions.\n\nThe death toll of at least seven may rise as more information becomes available. Residents in and around Kyauktaw remain at risk from continued military operations in the region.",
       "country": "Myanmar",
       "countries": [
         "Myanmar"
@@ -72,9 +109,9 @@
       "lat": 20.843655,
       "lng": 92.9725,
       "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hZ0twUTN0Z2Y0aDlpX0huYkcwNG9FejRBVlZHdUE1QWw5VjZfZ1FvSG82QWstQ2xmcXlab09YcExjS2NEZDRKaTNXN0RyWlhYa3c?oc=5",
-      "prayer": "Seven civilians in Kyauktaw, Rakhine killed in an airstrike",
-      "alert_summary": "An airstrike killed seven civilians in Kyauktaw, Rakhine State, according to witnesses."
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3N1dWtEZUhyUHljZFI0UWd4VnVScTIzZ1M2am1aZVpmNk1jbWo2QnVmMldvbW5NaXJDMWUzcERFaklEd2VQLVVRVnE0WG90MG5FVERpY3cyYjN2SnpUZkltd2Jub1N1TVgtUUFfT3hvdFFSb055SXVrSV93QjhwVTloT0I0WFRhMzBhSWZyeUptQQ?oc=5",
+      "prayer": "Civilians in Kyauktaw killed and at risk from ongoing military airstrikes",
+      "alert_summary": "A military airstrike in Kyauktaw killed at least 7 people, according to reports."
     },
     {
       "wp_id": 6988,
@@ -389,19 +426,19 @@
       "wp_id": 6942,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-4/",
       "date": "2026-06-19T11:18:40",
-      "title": "Armed Conflict in Lebanon",
-      "body": "Airstrikes struck Lebanese territory shortly after a new ceasefire agreement was supposed to take hold, according to reporting by Al Jazeera. The timing raised immediate questions about the durability of the agreement.\n\nNo casualty figures were available from the source summary. The strikes came within minutes of the ceasefire's start, leaving residents in affected areas with little time to move or take shelter.\n\nThe situation remains fluid. Civilians in areas near the strikes face continued uncertainty about whether the ceasefire will hold or whether further attacks will follow.",
+      "title": "Displacement in Lebanon",
+      "body": "UNICEF reported that children in Lebanon are being killed or maimed at a rate of about 12 per day, more than 100 days into the conflict that followed Israeli strikes and widespread forced displacement of civilians.\n\nThe figures were shared even as a ceasefire between Hezbollah and Israel remains in place, raising concern that children continue to be harmed despite the truce. UNICEF did not specify the exact causes behind the ongoing casualties in its summary.\n\nThe broader picture described by the UN agency points to an ongoing humanitarian crisis for families across Lebanon, many of whom were displaced during the height of the fighting and are still struggling to recover.",
       "country": "Lebanon",
       "countries": [
         "Lebanon"
       ],
-      "type": "Armed Conflict",
+      "type": "Displacement",
       "lat": 33.920265,
       "lng": 35.888026,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGxMWlZ3amg5RWd3RzNnSUxFVlpNQjJ6bnpDdks2amdKV3VZc1kwZFMyc1lId1d3amRzcjJsLTFZcTFOVzJwMENRbWF4WmhmWG90OTI3Z29meEhKX1J5Zk1JVEpON2ItMFM4dWYtYTczWTJJM1hHWVdENnhBQ09LTUFMZzZNeHU3M0N6TWw5cU1aOGo0OHFBY3ZyS3U5ZkhZblY1OHFxMnZUWWRsZU5n0gG0AUFVX3lxTE9aMXQwZkVOTVRjdjVWUVV6Nmc1LWhLejk2SHF4NFdCMXNiZHdQZkg1M0w2XzlCYUVjQmpZRmlkazdZUS1aZ1VhLUhNUUJNaEhaV3lKLVhnS0luSV9zUlNsOGFlN0l3ZElVTlF5MHBUZVVDb2tQX3FGSUNQWk5qbDVVdG9OdWh2OElhanVYY1NXSHd4dGk5Q2F0QXhjUDE1X3ctQ3pFVU56MHo0UUNrNlUzeFN2Wg?oc=5",
-      "prayer": "Lebanese civilians caught in airstrikes minutes after a ceasefire agreement took effect",
-      "alert_summary": "Israeli airstrikes hit Lebanon within minutes of a new ceasefire taking effect; casualty figures not reported in source."
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167736",
+      "prayer": "Children in Lebanon injured or killed daily amid ongoing conflict and displacement",
+      "alert_summary": ""
     },
     {
       "wp_id": 6940,
@@ -499,7 +536,7 @@
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-2/",
       "date": "2026-06-19T11:15:09",
       "title": "Armed Conflict in Niamey",
-      "body": "Armed gunmen attacked the airport in Niamey, the capital of Niger, with explosions reported during the assault. Few additional details are available from the source material at this time.\n\nNiamey's airport serves as a key transit point for the country, and an attack there would affect civilians, travelers, and aid workers moving through the capital. Niger has faced ongoing instability since a military coup in 2023, and attacks in the capital remain rare but significant.\n\nResidents near the airport were likely affected by the explosions. No casualty figures or claim of responsibility were included in the available source material.",
+      "body": "Witnesses reported explosions and sustained gunfire near the airport in Niamey, Niger's capital. The source does not specify who was involved or what triggered the incident.\n\nNo casualty figures or official statements were included in the available reporting. The situation at the airport and surrounding areas remained unclear at the time the report was filed.\n\nResidents near the airport would have been directly affected by the unrest, and travel through the capital could be disrupted.",
       "country": "Niger",
       "countries": [
         "Niger"
@@ -508,9 +545,9 @@
       "lat": 13.52,
       "lng": 2.109,
       "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOWRiZVNiVHhPMEJfWDhXQkhWV1VzeGlybXhoVHI3R2kza3A1Y0JZSGlxNlVBQmdqMWt6anhKYzNkTGF3OG1WckoxVmp5NWh2dlFrQXE1N3RPaHEwd0NhWmR3ZDUyWGVvUzZ2WXdsRHoxZVJfQzVoZVdLX2FiWnpTU3cyMUNDZnpEc1lZMEpxV0NhRFBjQXlhVzNTTE9VdGVYR1puNHgxWkxrdw?oc=5",
-      "prayer": "Civilians and airport workers in Niamey caught in an armed attack",
-      "alert_summary": "Gunmen attacked the airport in Niamey, Niger's capital, with explosions reported during the assault."
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSW1rb1ZheGREQXMxcEZWa2p3Z3VOUEsxX0wxR0FzVExCN29XRWRLOG1COUU2UldibnpsZHNkWmhaRVZvaU1sSUNFN0JmckhmdWd2c1lpbzhwSXBTRnhWYlZoVEtIVmJNbFZUWFRrUGlHdWFVdFhXWVV3VVJmVkhMM0ZZUFlqQ1E0UnRwejBzMDQ4UjBpcFhvZnZPMUpLLXVMVTRiQVNMQzdNdUZPX1dUemFUWmVyMEtEQkVuY0JYaTRDdXlXdmJB0gHHAUFVX3lxTE5JbWtvVmF4ZERBczFwRlZrandndU5QSzFfTDFHQXNUTEI3b1dFZEs4bUI5RTZSV2Juemxkc2RaaFpFVm9pTWxJQ0U3QmZySGZ1Z3ZzWWlvOHBJcFNGeFZiVmhUS0hWYk1sVlRYVGtQaUd1YVV0WFdZVXdVUmZWSEwzRllQWWpDUTRSdHB6MHMwNDhSMGlwWG9mdk8xSkstdUxVNGJBU0xDN011Rk9fV1R6YVRaZXIwS0RCRW5jQlhpNEN1eVd2YkE?oc=5",
+      "prayer": "Residents of Niamey near the airport amid gunfire and explosions",
+      "alert_summary": "Witnesses reported explosions and sustained gunfire at the airport in Niamey, Niger; casualties unknown."
     },
     {
       "wp_id": 6927,
