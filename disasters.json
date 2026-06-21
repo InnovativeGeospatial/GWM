@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-20T23:10:23.429597+00:00",
-  "count": 697,
+  "updated": "2026-06-21T05:12:14.233772+00:00",
+  "count": 703,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7119,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-20-2026/",
+      "date": "2026-06-21T05:12:08",
+      "title": "Storm in United States 06/20/2026",
+      "body": "A tornado struck the Arabi neighborhood with winds reaching 85 miles per hour, catching residents off guard with little to no warning. Witnesses described the twister as coming \"out of nowhere,\" leaving little time to seek shelter before damage was done.\n\nResidents have begun assessing and clearing damage in the aftermath. Reports indicate property damage across the neighborhood, though casualty figures were not included in available reporting.\n\nArabi is a community in St. Bernard Parish, just outside New Orleans, Louisiana. Neighbors and local officials are working to understand the full scope of what was lost and begin the process of recovery.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 29.954529,
+      "lng": -90.006213,
+      "source_title": "\"tornado OR storm damage OR killed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSzBEUDRUSTN0eDQ0SDZRLXZjazQ1N0Noc1hETjgtOXN5V0VSOVA4YzF5UW5HTk1lSURZNjIyNG5DRktKMzFWZXdmT3ZQcklTbW1BN1FoaVhZWU9xaXM0eUhRSm1pSFZMQWhCb2MxSklDMDVMRDhIeFg0cmxvUmE5WEdCNGE2NTg4X0dFVGFOSWYyNW5GZUxEMWxmSXg5UTRLdGFXR2UxNFlTcE1hSEYxT29PanVXOHRybG56UkVieEF5ZFHSAcMBQVVfeXFMT0swRFA0VEkzdHg0NEg2US12Y2s0NTdDaHNYRE44LTlzeVdFUjlQOGMxeVFuR05NZUlEWTYyMjRuQ0ZLSjMxVmV3Zk92UHJJU21tQTdRaGlYWVlPcWlzNHlIUUptaUhWTEFoQm9jMUpJQzA1TEQ4SHhYNHJsb1JhOVhHQjRhNjU4OF9HRVRhTklmMjVuRmVMRDFsZkl4OVE0S3RhV0dlMTRZU3BNYUhGMU9vT2p1Vzh0cmxuelJFYnhBeWRR?oc=5",
+      "prayer": "Arabi neighborhood residents picking up after a tornado struck without warning",
+      "alert_summary": "A tornado with 85 mph winds struck the Arabi neighborhood, causing property damage across the community."
+    },
+    {
+      "wp_id": 7118,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-06-20-2026/",
+      "date": "2026-06-21T05:10:48",
+      "title": "Volcano in Philippines 06/20/2026",
+      "body": "Mayon Volcano in Albay province, Philippines, has shown increased volcanic activity, sending ashfall across parts of the surrounding area. Residents in affected communities have been dealing with ash settling on homes, roads, and farmland.\n\nMayon is one of the most active volcanoes in the Philippines and has a long history of eruptions affecting nearby towns. Ashfall can make breathing difficult, damage crops, and contaminate water sources. Authorities typically advise residents to wear masks outdoors and stay indoors when ash is falling.\n\nNo casualty figures or evacuation numbers were available from the source at the time of this report.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Volcano",
+      "lat": 13.138851,
+      "lng": 123.734575,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYjRMUTlrQUxNUVhZNnZYN2RxalV0eTh5Mi1xMGZvU195N05WQkF2Qm1qbG1OTjhwS09sWW1pSVdlQkJDbzEtcmFRWGgyMjA0XzFPZkVpZUpDNkNCeENSMElPREk0bFJSTmRxTEV3eDFGY1VrWVFSSGIwZ0Z1RWVFUWo5WjNkeFdTSEQ5UDBXVnNMSzRTNVFzYS1DUWRJVWFoT2hpT1BJd3BscWI2VGt1N0swQi1hZ3pvZnJPYlRCb1d1WHNIWS1aRmtCSHF4bWxDdFNkbg?oc=5",
+      "prayer": "Residents of Albay province affected by ashfall from Mayon Volcano's renewed activity",
+      "alert_summary": "Mayon Volcano released ashfall over parts of Albay province in the Philippines; no casualty figure reported."
+    },
+    {
+      "wp_id": 7117,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-21-2026/",
+      "date": "2026-06-21T05:09:23",
+      "title": "Wildfire in United States 06/21/2026",
+      "body": "A wildfire in Douglas County, Colorado has reached 80% containment, and authorities have lifted an evacuation warning for residents in the affected area. The fire prompted evacuations before crews made progress bringing it under control.\n\nNo casualty figures or acreage totals are included in the available source material. Residents who had been displaced are now able to return home as conditions have improved enough for officials to lift the warning.\n\nFirefighting crews continue working to reach full containment. Residents in the area are urged to follow local guidance as work continues.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 33.75099,
+      "lng": -84.74915,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR0RXZDI3YXQ4UGY3eHVhMTV5ejBQRFlmZ1ROS3JpU2lQTnlvb3NlWGNuaC1UUzlrR3JnZWlMMDFzVTNXWGNZeDhfWjY0R3FGekRxUU5nc3R4blBuQm8zZjlfNTkydmd5OV9YeXNRcEV6RTczY19yN1g2ZDFHcVphX1B0SkxscEpWNEpCdWdTZE9GWG85TXhCWg?oc=5",
+      "prayer": "Residents of Douglas County, Colorado returning home after a wildfire evacuation warning",
+      "alert_summary": "A wildfire in Douglas County, Colorado reached 80% containment and an evacuation warning was lifted."
+    },
+    {
+      "wp_id": 7116,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-06-20-2026/",
+      "date": "2026-06-21T05:09:06",
+      "title": "Flood in Canada 06/20/2026",
+      "body": "Flash flooding struck the Pierrefonds area of Montreal, prompting officials to evacuate some residents from their homes. Around 20,000 people lost electrical power as a result of the storm.\n\nPierrefonds is a borough in the western part of the island of Montreal. Residents affected by the flooding were displaced as emergency crews responded to the situation.\n\nNo casualty figures were included in the available reporting. Authorities worked to manage the impact on affected neighborhoods as conditions following the storm were assessed.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Flood",
+      "lat": 53.532528,
+      "lng": -105.95306,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRnbXZ1VVRrUURXelpYTk9KdnNmQkFqNG82cG9aQk1rQ1ZuUmdPbHhDUkpldlYyYXRiR00wUGRTX2xFTHBrR0hYLVZsUWhTekV0aG9RanJJNU5mdVRYQ1RJZ2VHb294b0RabE1xeEV3a2R6YnFRbVhhUWVSR0ZMb0JBTTNGMUZLcGlEU09TVlo3Rl93cE9DN1JoOGc0Wk9zTkVBcng3Zw?oc=5",
+      "prayer": "Pierrefonds residents evacuated amid flash flooding and widespread power outages",
+      "alert_summary": "Flash flooding in Pierrefonds, Montreal forced evacuations and left 20,000 residents without power."
+    },
+    {
+      "wp_id": 7115,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-18-2026-6/",
+      "date": "2026-06-21T05:08:39",
+      "title": "Flood in United States 06/18/2026",
+      "body": "A report has found that Camp Mystic, a camp in the United States, failed to take steps that could have prevented deaths during flooding on July 4. The report states that the camp did not fulfill its responsibilities to those in its care when the floodwaters rose.\n\nThe findings raise serious questions about how the camp responded to the rising water and whether those who died could have survived with better preparation or action. Families of those who lost their lives are now confronting these conclusions.\n\nNo additional figures on the number of deaths or those affected were provided in the available source material.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.009455,
+      "lng": -99.371344,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRzFuTC1ZSFlrbHQtaVJpV0xKd05CN05rejU0bXZTM0hKQzJBZVN5bmlWcTQtVFE0d2p1aWFJbmxoWnlUcGtKZ2VKajQxWXZlYXNqTU5pMkNVRGtoNlBnOVAtQmZSdW96ZmZodWNNckU4SlB0OXJTWUI4X2FEOGpWWUVfY3NDeV80N3J1MlppMzVJOGFuU2RjNGpIQnhLT25RamVDQVdidjdoUG5mOWVwQ2pwc1RoZGp6YXAxYjQwQnhBajdKV25DTEFZdmM2VFo2c2JoUHhqUlVmREJnUEIxRlQxY3FTa2pxejRYMGU3bW9vYjNoc1pz?oc=5",
+      "prayer": "Families grieving loved ones lost in the Camp Mystic flood on July 4",
+      "alert_summary": "Flooding at Camp Mystic on July 4 resulted in deaths that a report says the camp failed to prevent."
+    },
+    {
+      "wp_id": 7114,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-20-2026-2/",
+      "date": "2026-06-21T05:08:27",
+      "title": "Disease in Congo 06/20/2026",
+      "body": "One month after authorities declared a Bundibugyo Ebola outbreak in the Democratic Republic of the Congo and Uganda, the number of confirmed cases continues to climb. Officials and health workers have scaled up their response, but efforts so far have not been enough to contain the spread.\n\nThe outbreak has stretched across both countries, straining health systems and response teams working to reach affected communities. Bundibugyo is one of several known strains of the Ebola virus and can spread through direct contact with the bodily fluids of someone who is sick or has died from the disease.\n\nResidents in affected areas face fear, limited access to care, and the ongoing risk of transmission. Health teams are working to trace contacts, isolate cases, and provide treatment, but conditions remain difficult and the situation has not yet stabilized.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167763",
+      "prayer": "Communities in eastern DRC and Uganda amid a worsening Bundibugyo Ebola outbreak one month after declaration",
+      "alert_summary": "Bundibugyo Ebola cases continue rising in DR Congo and Uganda one month after the outbreak was declared."
+    },
     {
       "wp_id": 7089,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-19-2026-5/",
