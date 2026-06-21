@@ -1,9 +1,153 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-21T05:12:14.233772+00:00",
-  "count": 703,
+  "updated": "2026-06-21T17:12:12.264502+00:00",
+  "count": 711,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7135,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-20-2026-3/",
+      "date": "2026-06-21T17:11:33",
+      "title": "Disease in Congo 06/20/2026",
+      "body": "An Ebola outbreak has reached an orphanage in the Democratic Republic of Congo, where a six-month-old baby has died from the disease. The situation raises concern because orphanages house children in close quarters, making it easier for the virus to spread among already vulnerable young residents.\n\nEbola spreads through direct contact with the bodily fluids of someone who is infected, and children in group care settings face heightened risk. Officials and health workers are working to contain the outbreak and monitor others at the facility who may have been exposed.\n\nThe Democratic Republic of Congo has experienced repeated Ebola outbreaks over the decades, and each new cluster requires rapid response to prevent wider community transmission. Prayers are especially needed for the children and caregivers caught in this outbreak.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlU3OVlaM2p0bC1VdWNVZnMzT1J1LURRcEtpYlJHSUI4eVBmTEpEeHNpNkJLSlEzRGc4b1E3ektIM05FQmtQUTZKRjcyb2MxTGRUTEkteGJ0emt4V1ZmUWV1UGZqUjEtaWhYbXlIbmRxSW9laHpHM1lQd29YbUNwRS10cmZDMXVNNGF0RmlKRVZUSjlBWlh6Z21n?oc=5",
+      "prayer": "Children and caregivers in a Congolese orphanage amid an Ebola outbreak",
+      "alert_summary": "Ebola outbreak struck a Congo orphanage, killing at least one infant six months old."
+    },
+    {
+      "wp_id": 7134,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-20-2026/",
+      "date": "2026-06-21T17:11:07",
+      "title": "Landslide in India 06/20/2026",
+      "body": "Heavy rains triggered a landslide along the route leading to the Pavagadh Temple in India, killing two pilgrims. Several others are feared trapped under debris following the incident.\n\nPavagadh is a well-known religious site that draws pilgrims regularly, making the timing of the landslide particularly concerning. Rescue efforts are likely underway, though the number of those still missing or trapped had not been confirmed at the time of reporting.\n\nThe incident highlights the danger that monsoon rains can pose to those traveling mountain or hillside routes, especially at pilgrimage sites where foot traffic is high.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 22.199166,
+      "lng": 78.476681,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxObC1PVXM5WnhnakhsYkpxYWdCbWdIM1dqMDRySGJxWmFlQzhGdnM5RG5vNXFXMTBlSmhsdGZvM2dYUE5pa0NDSVBkOGZFaVJ6TzhRSjNuanBzZHQ4cFNicGNaaEoyR01KZWlkc3ZmY0RMT0VjZXNsanVncThrUjhDUEVrU0F1QzlMV29tdG9zSm5pZllGcVNROVdId0FoLVR6dDVlbVhSbWQzSGNfTEFrVW1wZ05leC1QQ1F6cVp1Zzh0ZTNyTlpVTWs0TC16a3R5eHVOOWtPZ3AzZ2RPaWdwOEQ0Q3QtWGZrTkVLRUtTN3pBdHdmelJodFRoRGZqMnNRWHlGSnRnWE9sbjk3ai01SkRJWURhSmlRTHg0VkdR?oc=5",
+      "prayer": "Pilgrims at Pavagadh Temple trapped and killed by a landslide amid heavy rains",
+      "alert_summary": "A landslide on the Pavagadh Temple route killed 2 pilgrims, with several others feared trapped."
+    },
+    {
+      "wp_id": 7133,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-06-21-2026/",
+      "date": "2026-06-21T17:10:49",
+      "title": "Landslide in Nepal 06/21/2026",
+      "body": "A landslide in Ramechhap district, Nepal has destroyed at least one house and placed five additional homes in danger of collapse. No casualty figures were reported in available information.\n\nRamechhap is a hilly district in central Nepal where landslides are a known seasonal hazard, particularly during monsoon rains. Families living in at-risk homes face uncertainty as the ground remains unstable.\n\nResidents in the affected area are in a difficult position, potentially unable to return to or remain in their homes while the threat continues. Those serving or traveling in hill districts of Nepal should be aware that landslide conditions can shift quickly in such terrain.",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Landslide",
+      "lat": 27.322563,
+      "lng": 86.0838,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPLW9MbThkY1RocjJBLUltSE0tQjFfa0ZmLW1xRUVDbjJNWUhwdzBzY3ZqYURaLWJGeXRtZXlQVlR2bE9wQjVOM3EzaWJoa1dJVUVsekRyYm14S3dvUGI4V3VZN0FTUzMzckhXdjR0dGRvMEpBYS13NXJaMEg4dFRaWm91N0Y0VFZpWVNEaTQ4dVVka3BXMTMwdFBmaUMwajNERzBSWWpEWTdsY0VIVHZKQ2RsV1UwZ2RvNU45eEVSWjQ4WGFvU3BLNXB4cFVwcEtwWElGUk5leTI0X25YVGNScDZuVzJYYVhxdGpCSVdoN1k1MF85c19DT3BLT3hoNkRVcnNRWUd5SV9IVHNJVVB6cmpLMU1yc3hUdWpEQlNVMTAxSEFDMGtpa1cxMkxnQzJXdFh3UEFuS3o2aGxaZ0JYNW9mRFRBcG1sYWxDVGlUQTdpb1Y2c2M0bXl2NHhhcDVDV3NCNTdORnVkWnJDUDBkeXh2UDBwdHRNMUJnblRmbmJkc1Rl?oc=5",
+      "prayer": "Families in Ramechhap, Nepal whose homes were destroyed or remain at risk from landslide",
+      "alert_summary": "A landslide in Ramechhap, Nepal destroyed one house and left five more at risk; no casualty figure reported."
+    },
+    {
+      "wp_id": 7132,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-indonesia-06-21-2026/",
+      "date": "2026-06-21T17:10:32",
+      "title": "Storm in Indonesia 06/21/2026",
+      "body": "Cyclone Senyar struck the Tapanuli region of Indonesia, killing 58 Tapanuli orangutans and wiping out 12% of their forest habitat. The Tapanuli orangutan is considered one of the rarest great apes in the world, with a total population estimated in the hundreds, making the loss of 58 individuals a significant blow to the species.\n\nThe destruction of 12% of their habitat compounds the threat, as the animals depend on intact forest for food and shelter. Recovering that habitat will take many years.\n\nThe Tapanuli orangutan is found only in this part of North Sumatra, so events that reduce both their numbers and their living space carry long-term consequences for the survival of the species. Conservation workers and local communities face a difficult path toward protecting what remains.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Storm",
+      "lat": 1.60217,
+      "lng": 99.273926,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CTi1aYUR1YkxnMVRrdThoTFpBbHpic0FHbmh0dGltalhhTG4wZ21mRng0cm9XeW1tVjl1UTd2cHh5S2d2Z2NCMVl4a21xbFkwTFlFTXJDMzZXeGZJSk1BUFpjaGgxcXFXenNJ?oc=5",
+      "prayer": "Tapanuli orangutan population and habitat following Cyclone Senyar's destruction",
+      "alert_summary": "Cyclone Senyar struck Tapanuli, Indonesia, killing 58 orangutans and destroying 12% of their habitat."
+    },
+    {
+      "wp_id": 7131,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-21-2026-2/",
+      "date": "2026-06-21T17:09:15",
+      "title": "Wildfire in United States 06/21/2026",
+      "body": "A wildfire burning near Anderson, a small city in Interior Alaska, has forced residents to evacuate. Authorities issued evacuation orders as the fire approached the community, prompting people to leave their homes and seek safety elsewhere.\n\nAnderson is a small community in the interior region of the state, where dry conditions and forests can allow fires to spread quickly. No details about the fire's size, casualties, or the number of people displaced were included in the available source material.\n\nConditions in Interior Alaska during fire season can change rapidly, and evacuated residents face uncertainty about when they may be able to return home.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 64.343599,
+      "lng": -149.191299,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQckZKeU41ZnRFa3JYVkkzTzc1YVppLVFON25oS3dRcWlNb3N3czNpeUI0anZDUFA5Qmw3Z2wzZVFCVUpVY09pYXZtYTJlUW5fcWlsa0N2N3JBa0ZDb01fV0xfN2t0NnBpcEg4aFgtWC14bWxwZ1RIdndZZ2VXbTZWUmJZUEpKanFsY1dwNEhpdFBqSFFfSG41UFZQeU81NmRUWS0wZ0QtdE1WU1RVVGc4V25CSDMzT0k?oc=5",
+      "prayer": "Residents of Anderson, Alaska, under evacuation orders as a wildfire threatens their community",
+      "alert_summary": "A wildfire prompted evacuation orders for the Interior Alaska city of Anderson; no casualty figure reported."
+    },
+    {
+      "wp_id": 7130,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-20-2026-3/",
+      "date": "2026-06-21T17:09:01",
+      "title": "Flood in United States 06/20/2026",
+      "body": "Flooding in Avoyelles Parish, Louisiana, has forced residents from their homes, prompting local shelter and support efforts for those displaced. The parish is working to provide relief to affected community members as they recover from the high water.\n\nNo specific figures on the number of people displaced or the extent of property damage were available from this report. Residents are being directed to available shelters while recovery efforts get underway in the affected areas.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 31.127228,
+      "lng": -92.06627,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdUxoRDc3OWFMOEVNN1BrZ0ZoZWlfbld1WThITldqSEk5dUo5aFF2RWhOekNOYTVnWDFWS0p4eWV0bzdmaG9ZOEhYNDBlQjNFNVhGZnktX0hBVXJNLVZJcXhXWWRwV0VOTlY1R09vdjFfdF9sWFlBaHBsVmRMbktLdVBMX2lyX2xBaXA4UzdKbW1VanM?oc=5",
+      "prayer": "Avoyelles Parish flood victims displaced from their homes and seeking shelter",
+      "alert_summary": "Flooding struck Avoyelles Parish, Louisiana, displacing residents who are now seeking shelter and support; no casualty figure reported."
+    },
+    {
+      "wp_id": 7129,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-06-21-2026/",
+      "date": "2026-06-21T17:08:50",
+      "title": "Flood in Canada 06/21/2026",
+      "body": "Flash flooding struck the Pierrefonds neighbourhood of Montreal following a storm, forcing some residents to leave their homes. The area experienced rapid water accumulation typical of flash flood events, which can overwhelm drainage systems and inundate streets and properties with little warning.\n\nLocal authorities responded by evacuating affected residents as water levels rose. No casualty figures were included in the available reporting, but the displacement of residents points to conditions serious enough to make some homes temporarily unsafe or inaccessible.\n\nPierrefonds is a borough in the western part of the island of Montreal. Residents in the affected areas are encouraged to follow guidance from local officials and to avoid flooded roads and low-lying zones until conditions improve and waters recede.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Flood",
+      "lat": 53.532528,
+      "lng": -105.95306,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRnbXZ1VVRrUURXelpYTk9KdnNmQkFqNG82cG9aQk1rQ1ZuUmdPbHhDUkpldlYyYXRiR00wUGRTX2xFTHBrR0hYLVZsUWhTekV0aG9RanJJNU5mdVRYQ1RJZ2VHb294b0RabE1xeEV3a2R6YnFRbVhhUWVSR0ZMb0JBTTNGMUZLcGlEU09TVlo3Rl93cE9DN1JoOGc0Wk9zTkVBcng3Zw?oc=5",
+      "prayer": "Pierrefonds residents evacuated from their homes after flash flooding",
+      "alert_summary": "Flash flooding from a storm forced evacuations in the Pierrefonds area of Montreal; no casualty figure reported."
+    },
+    {
+      "wp_id": 7128,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-06-19-2026-magnitude-7-2/",
+      "date": "2026-06-21T17:00:46",
+      "title": "Earthquake in Russia 06/19/2026 — Magnitude 7",
+      "body": "A magnitude 6.6 earthquake occurred about 133 kilometers southeast of Petropavlovsk-Kamchatsky, in Russia's Kamchatka Peninsula region. The area sits along one of the world's most active seismic zones, where large earthquakes occur regularly due to the movement of tectonic plates beneath the Pacific Ocean.\n\nNo casualty or damage figures were included in the available report. Offshore earthquakes of this size in the Kamchatka region can be felt strongly in coastal communities and occasionally raise concerns about local sea waves, though no such information was provided here.\n\nThose living and serving in the Kamchatka region are encouraged to follow guidance from local authorities and check on neighbors, particularly elderly residents or those in more isolated communities.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 53.02259,
+      "lng": 158.6476,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sui3",
+      "prayer": "Residents near Petropavlovsk-Kamchatsky, Russia after a magnitude 7 earthquake offshore",
+      "alert_summary": "Magnitude 7 earthquake struck 133 km southeast of Petropavlovsk-Kamchatsky, Russia; no casualty figure reported."
+    },
     {
       "wp_id": 7119,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-20-2026/",
