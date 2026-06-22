@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-22T05:11:58.308928+00:00",
-  "count": 719,
+  "updated": "2026-06-22T17:13:25.955347+00:00",
+  "count": 725,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7183,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-22-2026/",
+      "date": "2026-06-22T17:11:55",
+      "title": "Landslide in India 06/22/2026",
+      "body": "A landslide struck Guwahati, a city in the northeastern Indian state of Assam, killing four people. No further details about the exact location within the city or the circumstances of the deaths were provided in the available report.\n\nGuwahati sits in a hilly region prone to landslides, particularly during the monsoon season when heavy rains can loosen slopes and trigger sudden ground movement. Residents in hillside areas of the city are among the most vulnerable when such events occur.\n\nNo information was available on injuries, displaced families, or damage to homes and property beyond the four fatalities reported.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 26.178963,
+      "lng": 91.751526,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXU1RjRVhSX1VVZExUSkotcGNYa3VILWMyVS1QMVRLRXZkcWZOSjZraTV0Zk9XLXVRdTItMWRRNXg2YlBXYUlNYlYtZk9KWE1jS1ZCdzQyQ2REOTViQ1NBc1BmLWlYTkY3aVExUGM3ZW40MDg?oc=5",
+      "prayer": "Four people killed by a landslide in Guwahati, India",
+      "alert_summary": "A landslide in Guwahati, India killed four people."
+    },
+    {
+      "wp_id": 7182,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-06-22-2026/",
+      "date": "2026-06-22T17:11:13",
+      "title": "Wildfire in Greece 06/22/2026",
+      "body": "A wildfire broke out on the Greek island of Syros, forcing officials to issue an evacuation warning for residents in affected areas. Syros is one of the Cyclades islands in the Aegean Sea and is home to the regional capital Ermoupoli.\n\nFirefighters worked to bring the blaze under control as residents were urged to leave threatened areas. No casualty figures were reported in the available source material.\n\nWildfires have become more frequent across Greece in recent years, particularly during the summer months when dry conditions and wind combine to spread flames quickly across island terrain.",
+      "country": "Greece",
+      "countries": [
+        "Greece"
+      ],
+      "type": "Wildfire",
+      "lat": 37.45,
+      "lng": 24.9,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTS1jN0pmVmRLQkdoN0h2MDBGZVNVQzM2cTAzQWVxdVBlQ25hR0JVbV9TcVU3UmhtVnNXNlNjUVJrejYyZXVvVV92WmlCbkhpX1RZdEp1eXJtbG9rb3RqY05nTEluNjB5YVJaUmdKWGZuVC1JU1ZiNEFjbW1EdzRwdzJxeWZHV0I3RGpkSVlXNXpVempSU1hpWW5KUk9HbHYtX29ha3Y5WnNNWXh1ZVBR0gG0AUFVX3lxTFBqc3l0SXNsajJ6NzlBdmd0QldoUTNhYzNhekFxbUZIb0w1Wmt4QnRHTnZGUE4talhkcDZFcG5XM2V2VlRPUXh3eVBhZVQxRkpNN1Y3UV9sU3RhNGcxYU1vT0poZlltX0cyUGhuRmgySW0zVHdKR2hpeEJnTkVpQmgyYU5OYTJMbGhTbl8xUzltZG1vY1dIRzlsSzVSelJZUGR6MHVnVVNnTm84aVBTcWJUbDdYaA?oc=5",
+      "prayer": "Residents of Syros, Greece, under evacuation warning as wildfire spreads across the island",
+      "alert_summary": "A wildfire broke out on the Greek island of Syros, prompting an evacuation warning for residents."
+    },
+    {
+      "wp_id": 7181,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-22-2026/",
+      "date": "2026-06-22T17:10:15",
+      "title": "Flood in Ghana 06/22/2026",
+      "body": "Flooding in the town of Samreboi in Ghana has displaced more than 1,300 people. A government minister has publicly connected the disaster to illegal mining activity in the area, suggesting that environmental damage from unregulated mining contributed to the flooding.\n\nIllegal mining, locally known as \"galamsey,\" has long been blamed for destroying riverbanks, stripping vegetation, and altering waterways across Ghana. When heavy rain falls, these degraded landscapes are far less able to absorb or redirect water, increasing the risk and scale of flooding in nearby communities.\n\nThousands of residents have been forced from their homes as a result. Authorities are responding to the crisis, but the deeper concern is that continued illegal mining could make communities like Samreboi more vulnerable to future flood events.",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 5.616608,
+      "lng": -2.560749,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxNUVnTUwza1ptaEcyQ29UTlFxWTdKTTUzVWtmVVFaei0xcjJxUlhDUUpkTzVGTXBKUlRzQmppTm5DQ3ZqTE1EV3k0TkR1cDdQVGR1S1lVMHpacE1NbnNzb001d9IBXEFVX3lxTFAwNzdkWjloeDNydHh1bVN2UU9kX0EycmdsdWszTlBoQzdLSmdETGkwSDczMEVHNHBnQnNWcnVqZ0c5SDZKRHdGTmlGdlBFck1hRWRTeTF2QmptWEt3?oc=5",
+      "prayer": "More than 1,300 residents of Samreboi, Ghana displaced by flooding linked to illegal mining",
+      "alert_summary": "Flooding in Samreboi, Ghana displaced over 1,300 residents, with officials linking the disaster to illegal mining activity."
+    },
+    {
+      "wp_id": 7180,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-22-2026/",
+      "date": "2026-06-22T17:09:41",
+      "title": "Flood in United States 06/22/2026",
+      "body": "High water caused flooding at an apartment building in Lexington, Kentucky, forcing five residents to evacuate their homes. No injuries were reported in the available information.\n\nResidents were displaced as water entered the building, requiring them to leave until conditions improved. Local emergency personnel responded to the scene.\n\nNo further details about the cause of the high water or the timeline for residents to return were available from this report.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 38.04569,
+      "lng": -84.498006,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNajJjOXJqTXl2em94bWUyajBna2Y0cnRSMm9wT2xWUGY2Ynh6azdCUEEzOTVhcUIwUzFZSk5hS1JvTEV3Ql9EUDJiQzhCQllrNVB6QXl6b0dSNF9FSmhyTG5SMjYzd0tDQXV4WVRRTElJcWpVcmJPMlZaenF5N2lxY0VyWjVMME9MaGJSclkzeTVyY0pfb05HdNIBrAFBVV95cUxPSG50MktmWEVUaUJHbjVjSnpURE41c1hpWG14cDM2VG1BSW1pc3hFcjU1TGdGMmloTUpGdnZqNjctcE5Na3ZwVkpDaDlQbEJEMnJtYkV6QWtYLVZ2TXd0bzZfaUdmR1dZU3ZFSVJSSDNVYjdsV3JrbGZ0dktMMEREV2wwQXZiQzJzaktFbFcwcmdIcmVRZW5FY3VqYkpKQjhnY2hvMExxTU14bDVD?oc=5",
+      "prayer": "Five residents in Lexington displaced after high water flooded their apartment building",
+      "alert_summary": "High water flooded an apartment building in Lexington, Kentucky, forcing five residents to evacuate."
+    },
+    {
+      "wp_id": 7179,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-22-2026/",
+      "date": "2026-06-22T17:09:31",
+      "title": "Disease in Congo 06/22/2026",
+      "body": "An Ebola outbreak in eastern Democratic Republic of the Congo has passed 1,000 confirmed cases, with 254 deaths recorded since the outbreak was declared on May 15. At least 365 people remain in hospital or isolation, and 100 have recovered. The outbreak involves the Bundibugyo strain, for which no approved vaccine or treatment exists, making it especially difficult to manage.\n\nHealth officials warn that many infections are likely going undetected, and contact tracing has reached only about 55 percent of those who may have been exposed. The true start of the outbreak remains unclear, complicating efforts to control it.\n\nArmed attacks in Ituri have cut off villages and driven thousands into overcrowded displacement camps. At one camp near Bunia, more than 20,000 people are sheltering together, and officials are investigating 10 unexplained deaths reported there last week. Community leaders warn that the crowded conditions could allow disease to spread rapidly if an outbreak reaches the camp.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/gallery/2026/6/22/ebola-cases-surpass-1000-in-congo-amid-violence-and-displacement?traffic_source=rss",
+      "prayer": "Ebola-stricken communities in eastern DR Congo amid displacement, violence, and 254 deaths",
+      "alert_summary": "Ebola in DR Congo's Ituri Province has infected 1,003 people and killed 254 since May 15."
+    },
+    {
+      "wp_id": 7178,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-afghanistan-06-22-2026-magnitude-5/",
+      "date": "2026-06-22T17:00:45",
+      "title": "Earthquake in Afghanistan 06/22/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck approximately 42 kilometers southwest of Jurm, in northeastern Afghanistan's Badakhshan province. No details about casualties, injuries, or damage were available from the source.\n\nBadakhshan is a mountainous and remote region that has experienced destructive earthquakes in recent years. Communities in such areas often face difficulty accessing help after seismic events due to rugged terrain and limited infrastructure.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Earthquake",
+      "lat": 36.865658,
+      "lng": 70.83452,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sv6e",
+      "prayer": "Communities near Jurm, Afghanistan, in the wake of an earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck about 42 km southwest of Jurm, Afghanistan; no casualty figure reported."
+    },
     {
       "wp_id": 7164,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-22-2026/",
