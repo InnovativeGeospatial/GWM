@@ -1,53 +1,50 @@
 {
-  "updated": "2026-06-22T06:30:37.226949+00:00",
+  "updated": "2026-06-23T06:30:34.533031+00:00",
   "window_hours": 48,
   "sections": {
     "persecution": {
-      "event_count": 0,
-      "bullets": []
+      "event_count": 3,
+      "bullets": [
+        "Chinese Christians under renewed police investigation for distributing Scripture and religious materials, facing potential charges despite prior insufficient evidence findings.",
+        "Kenyan Christian laborers and their families living under threat of religiously motivated ambushes, violence, and displacement by militant groups.",
+        "Nigerian Christian communities in central Nigeria grieving more than 20 killed in an overnight militant attack, with survivors facing ongoing insecurity and inadequate protection."
+      ]
     },
     "conflict": {
-      "event_count": 61,
+      "event_count": 47,
       "bullets": [
-        "Civilians across Gaza and Palestine amid ongoing airstrikes killing children, journalists, and entire families with no safe refuge",
-        "Lebanese civilians in the south and inland regions facing deadly airstrikes killing dozens despite a fragile ceasefire agreement",
-        "Millions of Nigerians in the northeast and northwest facing kidnappings, Boko Haram attacks, and armed bandit violence targeting farmers, families, and newborns",
-        "Ukrainian civilians in multiple regions enduring airstrikes on homes, schools, and infrastructure, with fuel shortages compounding daily hardship",
-        "Sudanese civilians in multiple regions killed by drone strikes as conflict spreads and displaces communities from their homes",
-        "Haitian families among 1.5 million displaced by gang violence with no reliable access to food, clean water, or medical care",
-        "Somali civilians in central and southern regions caught between clan clashes and ongoing military operations against armed groups",
-        "Bolivian civilians facing weeks of road blockades causing critical shortages of food, fuel, and medical care, with at least 17 deaths",
-        "Seven people killed and communities endangered following an armed assault on the airport in Niger's capital by an extremist group",
-        "Civilians in Myanmar's western regions killed in military airstrikes destroying homes and schools in areas with active conflict",
-        "Pakistani civilians in the northwest killed by double roadside bomb attacks targeting passengers and emergency responders",
-        "Syrian civilians and soldiers amid continued instability and ambushes across northern and central regions",
-        "Iraqis in western desert regions amid ongoing military operations targeting armed group hideouts near populated areas",
-        "Residents near the Strait of Hormuz and broader Middle East amid diplomatic tensions threatening to escalate into wider regional conflict",
-        "Communities in the Philippines where a family including a toddler and elderly woman were killed in a targeted attack",
-        "Students and young people across India facing systemic exam fraud, institutional failures, and street-level mob violence",
-        "People in Mexico facing ongoing cartel violence resulting in the deaths of foreign nationals traveling in affected regions",
-        "Muslim communities and bystanders in the United Kingdom injured in a string of targeted attacks in a major city"
+        "Millions of civilians across Gaza facing ongoing airstrikes, displacement, and the deaths of children, families, aid workers, and conservationists amid worsening humanitarian conditions",
+        "Thousands of civilians in Iran and Lebanon killed or wounded in ongoing strikes, with restricted communications and limited independent access making the full scale of suffering difficult to document",
+        "Civilians across Ukraine enduring repeated overnight drone and missile strikes killing children and families, with fuel shortages in occupied Crimea adding to widespread hardship",
+        "Hundreds of thousands of civilians in Sudan's Kordofan, White Nile, and Blue Nile regions caught in drone strikes, armed attacks, and an expanding conflict that continues to kill and displace communities",
+        "Communities across Nigeria in multiple states facing kidnappings, armed bandit raids, Boko Haram attacks killing farmers and a newborn, and students held captive with families waiting for their return",
+        "Civilians across Myanmar enduring military airstrikes killing hundreds including children, with mourners struck by a second airstrike while burying victims of the first",
+        "Residents near Niamey facing the aftermath of a deadly armed attack on the capital's airport that killed thirteen people and signals violence reaching previously secure areas",
+        "Civilians in Somalia's Hiiraan and Baidoa regions caught between clan fighting, armed group attacks, and ongoing military operations",
+        "Families and communities in the Philippines grieving after a classroom shooting killed three students and a separate family massacre claimed the lives of a toddler and elderly woman",
+        "Ebola outbreak in eastern Congo surpassing one thousand confirmed cases among displaced civilians crowded into camps with no approved vaccine and limited contact tracing",
+        "Soldiers and border communities in Kenya facing continued armed group attacks near the Somali border",
+        "Bolivian communities beginning to recover after five weeks of road blockades cut off access to food, fuel, and medicine amid a state of emergency",
+        "Millions of young people in India affected by exam paper leaks, score irregularities, and a student mental health crisis, with protesters demanding government accountability",
+        "Residents of a Montreal neighborhood shaken by a deadly ambush on police officers tied to extremist ideology",
+        "Families across Haiti living under the ongoing threat of gang violence and kidnapping",
+        "Opposition supporters and detained legal advocates in Uganda facing restricted access to legal representation"
       ]
     },
     "disaster": {
-      "event_count": 42,
+      "event_count": 30,
       "bullets": [
-        "Residents across multiple United States communities displaced or recovering from tornadoes, wildfires, and flooding affecting homes, families, and livelihoods",
-        "Families grieving loved ones and seeking accountability following a deadly flood at a youth camp in Texas",
-        "Communities in the Democratic Republic of Congo and Uganda amid a worsening Ebola outbreak with over 890 cases, 230 deaths, attacks on health workers, and no approved vaccine",
-        "Orphaned infants and children in a Congolese care facility exposed to Ebola, including the death of a six-month-old baby",
-        "Over 1,300 people displaced by severe flooding in Ghana worsened by environmental damage from illegal mining",
-        "Families in Nepal losing ancestral homes, farmland, and livelihoods to recurring monsoon landslides and floods",
-        "Pilgrims and travelers in India caught in monsoon-triggered landslides and a bridge collapse, with fatalities and people feared trapped",
-        "Communities across Madagascar mourning at least 20 dead and dozens injured following a destructive cyclone",
-        "Residents in Indonesia grieving three killed in a volcanic eruption and facing ongoing risk from one of the country's most active volcanoes",
-        "Residents near an active Philippine volcano dealing with ashfall damaging crops, water sources, and daily life",
-        "Dozens of households in Canada under wildfire evacuation orders, including a community previously devastated by fire in 2021",
-        "Residents of a Canadian neighborhood displaced and tens of thousands left without power following flash flooding",
-        "Families in remote Nepal facing a decade of worsening monsoon floods that have destroyed homes, fields, and income sources",
-        "Tourists and families affected by a deadly resort fire that killed one person, injured others, and displaced nearly 1,700 guests in the Dominican Republic",
-        "Communities in Russia bracing for critical floodwaters expected to inundate homes and properties within days",
-        "Residents near an active Philippine fault zone following an earthquake that prompted precautionary closures"
+        "Families and communities in Indonesia grieving three people killed by a volcanic eruption and facing ongoing risk from one of the country's most active volcanoes.",
+        "Tourists and residents near an active volcano in Guatemala who fled for their lives during a sudden eruption, facing continued danger from one of Central America's most frequently active peaks.",
+        "Communities across Madagascar mourning at least 20 people killed and dozens injured by a cyclone, with families already exhausted from repeated storms this season.",
+        "Residents across multiple United States states displaced by wildfires, tornadoes, and flooding, including evacuees in Alaska threatened by a wildfire near homes and a school, and families uprooted by storms and rising waters in Indiana, Texas, Kentucky, and Louisiana.",
+        "More than 1,300 people displaced in Ghana by severe flooding worsened by years of illegal mining that has degraded riverbanks and stripped the land's ability to absorb rainfall.",
+        "Nearly three million children and adolescents at risk in eastern Democratic Republic of the Congo amid a worsening Ebola outbreak with over 1,000 confirmed cases, 254 deaths, no approved vaccine, and health workers struggling to reach affected and confined populations.",
+        "Pilgrims, residents, and displaced families across India affected by monsoon-season landslides that have killed and trapped people, destroyed homes, and left communities at risk of further collapse.",
+        "Families in Nepal displaced and made homeless by multiple landslides across hilly districts during monsoon rains, with homes destroyed and additional properties at risk of collapse.",
+        "Residents near rivers in Russia facing dangerous flood levels threatening homes, farmland, and properties as waters rise toward critical thresholds in multiple regions.",
+        "Residents in a Montreal neighbourhood displaced after flash flooding struck with little warning, forcing evacuations and damaging homes.",
+        "Rare orangutan population in Indonesia severely diminished after a cyclone killed dozens of the animals and destroyed a significant portion of their already fragile forest habitat."
       ]
     }
   }
