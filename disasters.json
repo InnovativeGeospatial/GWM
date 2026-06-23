@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-23T05:15:18.508964+00:00",
-  "count": 733,
+  "updated": "2026-06-23T17:13:06.052381+00:00",
+  "count": 742,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7246,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-guatemala-06-23-2026-2/",
+      "date": "2026-06-23T17:12:16",
+      "title": "Volcano in Guatemala 06/23/2026",
+      "body": "Guatemala's Volcán de Fuego erupted, sending tourists running for safety as the volcano suddenly became active. Visitors at or near the volcano were caught off guard by the eruption, with accounts describing people scrambling to escape the area.\n\nVolcán de Fuego, one of Central America's most active volcanoes, sits near the colonial city of Antigua and regularly produces eruptive activity. This event prompted rapid evacuation of those nearby.\n\nNo specific casualty figures or details about ash fall extent are available from the source material. Authorities and local communities in the region around the volcano remain alert given the ongoing volcanic activity.",
+      "country": "Guatemala",
+      "countries": [
+        "Guatemala"
+      ],
+      "type": "Volcano",
+      "lat": 15.605589,
+      "lng": -90.390002,
+      "source_title": "\"volcano eruption OR ashfall OR evacuate when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZExnWVRQQUNXUXcxSVVnRlZoNTAyQTNUXzlzdXQ1RGZkY2dHVVFTM2lhUUN5V0w2VEJqSWlEbWVLaURRS1NXNnF0R1FQbTlFRHZnS2lsbm9TN25JS3o0RklJMy1WZ1ViR21BaVNmd0wxWjJHVm8wWFhaVmphVmRpTFFuNWxSZ1VHQk16bGtwU3ktMmlDUnB0dDhIbHNMWXNyTjNMWm9OTnRJZjZsQjhPYzBXY3ZYNFl2X3ZORUhObElNMmZ3bTJQTFdPT3ZoV1gyVEpHY1oxTTBBd9IB2gFBVV95cUxNZExnWVRQQUNXUXcxSVVnRlZoNTAyQTNUXzlzdXQ1RGZkY2dHVVFTM2lhUUN5V0w2VEJqSWlEbWVLaURRS1NXNnF0R1FQbTlFRHZnS2lsbm9TN25JS3o0RklJMy1WZ1ViR21BaVNmd0wxWjJHVm8wWFhaVmphVmRpTFFuNWxSZ1VHQk16bGtwU3ktMmlDUnB0dDhIbHNMWXNyTjNMWm9OTnRJZjZsQjhPYzBXY3ZYNFl2X3ZORUhObElNMmZ3bTJQTFdPT3ZoV1gyVEpHY1oxTTBBdw?oc=5",
+      "prayer": "Tourists and nearby residents near Volcán de Fuego caught in a sudden eruption",
+      "alert_summary": "Volcán de Fuego erupted in Guatemala, forcing tourists to flee; no casualty figure reported."
+    },
+    {
+      "wp_id": 7245,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-22-2026/",
+      "date": "2026-06-23T17:11:47",
+      "title": "Storm in Madagascar 06/22/2026",
+      "body": "A cyclone struck Madagascar, leaving residents in need of medical supplies and basic relief. In response, India dispatched aid materials to support recovery efforts in the affected areas.\n\nThe source confirms that medical aid and relief material have been sent, indicating that the situation on the ground required outside assistance. Details on the number of people affected, displaced, or killed were not available in this report.",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZlVCa2tuN3FxTDVMT1QtdUlFQ1RhcUM4azZGeHFLMF9DTzNCMkJQc3ZXaHNKNml1RFFZOEJYdENMMTkzdUMtakcwYzRzTkx5Z2ZWMnp3WGVSbHZxTHNaMmRnamRyWFg1QVhQQkJsSl8tcjdIQUxSMDNLdWktaF9ENmQ2R2RtcXdGQWZHZ3VvdWVzb2ZuOHc?oc=5",
+      "prayer": "Cyclone-affected communities in Madagascar receiving aid and beginning recovery",
+      "alert_summary": "A cyclone struck Madagascar, prompting India to dispatch medical aid and relief supplies to affected areas."
+    },
+    {
+      "wp_id": 7244,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-23-2026/",
+      "date": "2026-06-23T17:10:59",
+      "title": "Wildfire in United States 06/23/2026",
+      "body": "A wildfire near Coulee City, Washington forced the evacuation of Sun Lake Campground. The fire was described as fast-moving, prompting officials to clear the area quickly.\n\nNo information on casualties, injuries, or structures destroyed was included in the available source material. The situation was ongoing at the time of reporting.\n\nCoulee City is in central Washington state, a region that regularly experiences dry summer conditions that can allow fires to spread quickly across grassland and shrub terrain.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 32.226257,
+      "lng": -89.361176,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOVJlenhJOGFhQ3MzZEg2RzU2aXVpMHA1dUlRd2lVWWJJMnVybUcybUpybl9xcnYtbEE4akgtSEJPYWlfTVJmWHd1ZTZ5RUNMVGRVUXYwcTAzMldGNWkybFVQc3duWHA1S3pfZFJiWjNjNTV1QkNBYk1HbHZheUNreUliR1RuSTBsYncwSlBPeVF6MF9NOUNLaFJjZmlaR29ObFNjbzJVMl9CR05DM092XzY3ek4zUjRDTzdyYk5BanhPd3E5SkNv0gHbAUFVX3lxTE1jZzdyNjZHTlRCTU5ud19NZkN5cTVMaHYwZExlWVdHckhDT1BNVnNzcEFqNzY2c3lnZHBpc2JONmZVRjlGcHJXbXdhZlJGTm05cmlsM19UWUM5bG51cHJZQWphQklhZDEzZW5INkFLNVg0U3hKRDVoZEh3MWtXX3JLd1lsMThsX0pZUFNLT2kxTTdMTC05UHBid1luSjRmeXRTeTIxTjVIU2wwSzdrNlpkVnloSEZRTE50YU9UcnhOajVkWW9KczhocWpfV2lnMERSWlVNVW5XZFdxQQ?oc=5",
+      "prayer": "Campers and residents near Coulee City, Washington displaced by a fast-moving wildfire",
+      "alert_summary": "A wildfire prompted evacuation of Sun Lake Campground near Coulee City, Washington; no casualty figure reported."
+    },
+    {
+      "wp_id": 7243,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-23-2026/",
+      "date": "2026-06-23T17:10:37",
+      "title": "Flood in Ghana 06/23/2026",
+      "body": "Flooding has been worsening in Samreboi, a town in Ghana's Western Region, prompting the country's disaster management agency to call for urgent action. Officials have appealed for rivers in the area to be dredged, suggesting that clogged or silted waterways are making the flooding worse.\n\nThe appeal reflects concern that without work to clear and deepen the rivers, future rains will continue to push water into the community. Dredging is a process of removing sediment from riverbeds to allow water to flow more freely and reduce overflow onto surrounding land.\n\nNo specific figures on deaths, injuries, or displacement were included in the available report. The situation in Samreboi points to a longer-term challenge of managing waterways in flood-prone communities across Ghana's rainy season.",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 5.616608,
+      "lng": -2.560749,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMUdzZVh0TFdPNFM5UmtzaG45Y05RdXhXR09wTEJFMXZUdEhBbTU4RnZtNmhHb3RZMnJqTjNDS1c4NFpzcUI5YjFXVEhKT0RWYmVsY21kczJtd2tKd2lhT0N2RDc3YjlDSFhuN1JmUGNUdkR3V3MwMFJ2aUVKRzRRLVAyQW5TTkg0ZmlBX1hSU0FJNkJGRUpjZHl6cjVvOFZxMmN3TWpLUUNmTUxGUlE?oc=5",
+      "prayer": "Residents of Samreboi, Ghana, as floodwaters worsen and rivers overflow",
+      "alert_summary": "Flooding worsened in Samreboi, Ghana, prompting disaster officials to call for river dredging; no casualty figure reported."
+    },
+    {
+      "wp_id": 7242,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-22-2026-2/",
+      "date": "2026-06-23T17:10:21",
+      "title": "Storm in United States 06/22/2026",
+      "body": "A tornado struck south-central Kansas in the early morning hours, killing one man. The local sheriff's office has since identified the victim. No additional casualty figures were reported in the available information.\n\nCommunities in the affected area are dealing with the aftermath of the storm. Tornadoes that strike overnight can be especially dangerous, as residents may have less warning time to seek shelter.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 37.66439,
+      "lng": -97.32637,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFNZaUJHWHBvUlJ2em00VllZMXFLZllDcy02QVRwdFlQX3BZejRTWXVfR3RhQVBTYTEtVnpfQlZFWWNweVJZUGNqZWlTRzlCSGEwYVVGRXdQLUNhendzS2psYWFBTFR0SW94dnd2QjZjYTZrcmdLd0FHbUtwYm9hb1RYc2x6dExMQ0NSUzZOd0NjVnJOZldKU0lVN1pFdVppZEVQdEU4WnM5bURwb255V3NDbGtja2ttcVQzRlhOaHF1V2s5QzZ0N2pKUkJpd08xUVVVMzNLcVQ5QXByVDNZUTdFNzRzZw?oc=5",
+      "prayer": "Family and community in south-central Kansas grieving one man killed by a tornado",
+      "alert_summary": "A tornado in south-central Kansas killed one man, according to the local sheriff."
+    },
+    {
+      "wp_id": 7241,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-06-22-2026/",
+      "date": "2026-06-23T17:09:52",
+      "title": "Flood in Nigeria 06/22/2026",
+      "body": "Floodwaters have struck the Otukpa community in Benue State, Nigeria, forcing scores of residents from their homes. The flooding caused damage across the community, leaving many people without shelter.\n\nBenue State sits in Nigeria's Middle Belt and is no stranger to seasonal flooding, as rivers regularly overflow during heavy rains. Displaced residents are in need of assistance as they wait for conditions to improve.\n\nLocal officials and community members are responding to the situation, though the full extent of damage to homes and property is still being assessed.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Flood",
+      "lat": 7.192154,
+      "lng": 8.133324,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQzYtMHluMmZSaXVoTndkVzZ6Ti1jY0JITXJFaTFrMldWa3NsdnE3eXZhRlZKYVVOUWNEaTZtd2RsR1o1TEQ0NzNqaXVKN3l1YUlZTHF2bDVzaElHdmdreVM2b0hOS0UwVmYwd2NJdF9NXzFtTWs2TkhiVXJpUjhVM0xHdmxzYWpqMkp5UEFpTzBVc29la0xj?oc=5",
+      "prayer": "Scores of displaced residents in Otukpa, Benue State, Nigeria, after floodwaters struck their community",
+      "alert_summary": "Flooding struck Otukpa community in Benue State, Nigeria, displacing scores of residents."
+    },
+    {
+      "wp_id": 7240,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-23-2026/",
+      "date": "2026-06-23T17:09:36",
+      "title": "Disease in Congo 06/23/2026",
+      "body": "An Ebola outbreak in eastern Democratic Republic of the Congo has recorded more cases in its first month than any previous outbreak in the country over the same period, according to United Nations humanitarian officials. The disease is spreading faster than seen before in the region.\n\nUN humanitarians say fear has become part of everyday life for people in the affected areas. The pace of transmission is raising serious concern among those responding to the crisis.\n\nEfforts to contain the outbreak are underway, but the speed of spread presents significant challenges for health workers and communities already living in a region marked by ongoing difficulty. Residents are navigating daily life under the shadow of both the disease and the anxiety it brings.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167786",
+      "prayer": "Communities in eastern DR Congo living under the threat of a fast-spreading Ebola outbreak",
+      "alert_summary": "Ebola spread at an unprecedented pace in eastern DR Congo, recording the highest case count in the outbreak's first month."
+    },
+    {
+      "wp_id": 7239,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-france-06-23-2026/",
+      "date": "2026-06-23T17:09:14",
+      "title": "Heatwave in France 06/23/2026",
+      "body": "A heatwave has gripped much of Europe, with France, Spain, and Italy among the hardest-hit countries. France recorded its hottest June day ever on Tuesday, reaching an average of 29.8°C, and more than half the country is under a red alert. Forty people have drowned in France since Thursday, many while trying to cool off in unsupervised rivers and canals.\n\nIn Germany, six fatal swimming incidents were recorded over one weekend, with three bodies recovered from the Rhine. In Spain, temperatures exceeded 40°C at over 100 weather stations on Monday, with some areas expected to reach 44–45°C. Italy has issued red heat alerts in 15 cities, including Rome, Milan, and Florence.\n\nOfficials across France have urged the public to avoid swimming in unsupervised water. Italy has reinstated workplace protections for outdoor workers, allowing them to avoid working during the hottest hours of the day.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Heatwave",
+      "lat": 47.824905,
+      "lng": 2.618787,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families and outdoor workers across France, Spain, and Italy enduring record-breaking heat",
+      "alert_summary": "A heatwave across Europe has caused 40 drowning deaths in France since Thursday, with red alerts across multiple countries."
+    },
+    {
+      "wp_id": 7238,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-06-23-2026-magnitude-5/",
+      "date": "2026-06-23T17:00:46",
+      "title": "Earthquake in Vanuatu 06/23/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 126 kilometers south of Isangel, in the southern part of Vanuatu. No details about casualties, damage, or displacement were included in the available report.\n\nVanuatu sits along one of the world's most seismically active zones, and earthquakes in this region are common. Residents in and around the Tanna Island area may have felt some shaking, though no reports of harm have emerged at this time.",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -19.541086,
+      "lng": 169.281088,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7lb",
+      "prayer": "People near Isangel, Vanuatu, following an earthquake south of the island",
+      "alert_summary": "Magnitude 5 earthquake struck about 126 km south of Isangel, Vanuatu; no casualty figures reported."
+    },
     {
       "wp_id": 7213,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-06-21-2026-2/",
