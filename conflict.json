@@ -1,9 +1,101 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-23T17:23:56.932075+00:00",
-  "count": 825,
+  "updated": "2026-06-23T22:43:19.288594+00:00",
+  "count": 828,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7234,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-10/",
+      "date": "2026-06-23T22:43:05",
+      "title": "Armed Conflict in Gaza",
+      "body": "A teenage girl was killed in an Israeli airstrike while on her way to a high school in Gaza, according to her relatives. No date for the incident was given in the available source material.\n\nRelatives confirmed her death, though no further details about the specific location within Gaza or the number of other casualties were provided in the source.\n\nSchools in Gaza have faced repeated disruptions and dangers throughout the conflict, and this report is a reminder that students and families attempting to maintain daily life remain at risk.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lMHlyTTZGU25xTFNydkNyR2htajZnYXBaaUZEUG5wUVJ0aGlMZ3hyTFYxMzdzQTloQWEwdXNqakk4d2hKWlVGQTVoV0tCbHFIS0d4Ujc3V3RKeEJMMWVUSkZMZVY?oc=5",
+      "prayer": "A teenage girl killed in an airstrike while walking to school in Gaza, and her grieving relatives",
+      "alert_summary": "A teenage girl was killed in an Israeli airstrike while traveling to school in Gaza, according to relatives."
+    },
+    {
+      "wp_id": 7284,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-northern-california/",
+      "date": "2026-06-23T22:42:45",
+      "title": "Civil Unrest in Northern California",
+      "body": "An 18-year-old was arrested in connection with a shooting at a library in Northern California, according to a report from KTVU. Authorities described the attack using the term \"Columbine,\" a reference to the 1999 school shooting, suggesting a possible mass-casualty intent. No specific city or date was named in the available source material.\n\nNo figures for casualties or those displaced were included in the source summary. The arrest indicates law enforcement responded and took a suspect into custody. Residents in the area of the affected library may face continued uncertainty as the investigation proceeds.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Civil Unrest",
+      "lat": 34.43886,
+      "lng": -118.452465,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwZ1RnRlFYRnI0NXZEZzdtc0JRM3BlVm1HdFhRQzZPZTJxVkV4RE9tVnEzM3dhdlJkNTY3a3hjRzdjcXRpMGRzZGNwaXhLRXhEdDJpaTlzQVBISG_SAWBBVV95cUxPX01zOUEya0lrSldOTE43dHVfYTdaX2s4bjR1SkxmZ1RKT0xVV2hIejhQS3JIRkt2dFI4QzBxT3JVMHZIX0hTdXZaenBvcXRxeDVZd0pBM2h2ZFRhTDlpR0I?oc=5",
+      "prayer": "Communities near Northern California libraries shaken by an shooting arrest",
+      "alert_summary": "An 18-year-old was arrested for a shooting described as a \"Columbine-style\" attack at a Northern California library."
+    },
+    {
+      "wp_id": 7269,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-2/",
+      "date": "2026-06-23T22:42:22",
+      "title": "Armed Conflict in Myanmar",
+      "body": "The United Nations reported that Myanmar's military killed more than 700 civilians over a six-month period, according to a UN account published by The Straits Times. The report points to a continuing pattern of violence against the civilian population amid the country's ongoing armed conflict.\n\nThe findings reflect the scale of harm facing ordinary people across Myanmar, where fighting between the military and various armed groups has persisted since the 2021 takeover. Communities throughout the country continue to face danger, and the UN figures suggest civilian casualties remain a serious and ongoing concern.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 21.154319,
+      "lng": 96.506921,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWENWYXlJczZTUkxSdXB0TG1LYUxucGtzWWNJSEVpOEIyZlB0bks4TzlZYmlmX1JuZXNBaGYxNUY4WlBrbGhCNlVzTGxqeFQtYUFBZV9LazNoTHZIU0R1T3lqSTcyUzF0Z3NwT3hLVkRLOHNXakRERldDZjlaa1czMUJwYVdfamlqakdfWlhYZmFzZUJUeVBGUkp6TnF2QQ?oc=5",
+      "prayer": "Over 700 civilians in Myanmar killed by military forces in six months of ongoing conflict",
+      "alert_summary": "The United Nations reported Myanmar's army killed over 700 civilians in a six-month period."
+    },
+    {
+      "wp_id": 7282,
+      "wp_link": "https://globalwitnessmonitor.com/congo/",
+      "date": "2026-06-23T22:42:05",
+      "title": "Congo",
+      "body": "Authorities in Congo have confirmed that a current Ebola outbreak has reached more than 1,000 cases, with 254 people reported dead.\n\nEbola spreads through direct contact with the blood or bodily fluids of infected people. Outbreaks in Congo have historically placed enormous strain on local health workers, families caring for the sick, and communities where fear and mistrust can slow response efforts.\n\nNo additional details about the affected region, timeline, or response measures are available from this source. The situation remains active.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Other",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT3dHNUt0SWY0enc2MjBRaW14MGNPbWhqczl6Qmk4RWUtTkp5dmROeXNhSEE3cm80TDVBU1FvbjVqRWRIdXVwOTBtVFcwako0Ui1kMmxPWWxoMEwxS0JNcHl1RXFPSnZMZ3UyVHd6bVJ5ZUxVcjA1bFlWbVJrUkkzUDF0dHRrVmFtWkpNc3E2bjhtMFNGZS1HbnN4cDNsSlo2N3pvUXVsbDFpMFgxcThmOVZ3emFkWlXSAbcBQVVfeXFMUE93RzVLdElmNHp3NjIwUWlteDBjT21oanM5ekJpOEVlLU5KeXZkTnlzYUhBN3JvNEw1QVNRb241akVkSHV1cDkwbVRXMGpKNFItZDJsT1lsaDBMMUtCTXB5dUVxT0p2TGd1MlR3em1SeWVMVXIwNWxZVm1Sa1JJM1AxdHR0a1ZhbVpKTXNxNm44bTBTRmUtR25zeHAzbEpaNjd6b1F1bGwxaTBYMXE4ZjlWd3phZFpV?oc=5",
+      "prayer": "Over 1,000 people sick and 254 dead in the ongoing Ebola outbreak in Congo",
+      "alert_summary": "An Ebola outbreak in Congo has surpassed 1,000 confirmed cases with 254 deaths, authorities say."
+    },
+    {
+      "wp_id": 7281,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-strait-of-hormuz/",
+      "date": "2026-06-23T22:41:45",
+      "title": "Displacement in Strait of Hormuz",
+      "body": "The UN's International Maritime Organization (IMO) announced plans to evacuate more than 11,000 sailors stranded in the Gulf following the closure of the Strait of Hormuz. The agency said the operation would be carried out with cooperation from Iran, Oman, the United States, other coastal states, and the maritime industry. Safety guarantees have been secured, and two temporary routes through the strait are available for evacuation vessels.\n\nThe strait was effectively closed after February 28, when attacks against Iran began, pushing global oil prices past $100 per barrel and cutting off shipments of energy and commodities such as fertilizer. Since it reopened, at least 172 vessels have passed through, including 42 on a single Saturday.\n\nUS Secretary of State Marco Rubio, on a Gulf tour that includes the UAE, Kuwait, and Bahrain, warned that international law prohibits any country from charging tolls on the Strait of Hormuz, responding to reports that Iran had sought to impose fees on passing ships.",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Oman",
+        "United Arab Emirates"
+      ],
+      "type": "Displacement",
+      "lat": 27.0675,
+      "lng": 56.46,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+      "prayer": "More than 11,000 sailors stranded in the Gulf awaiting evacuation through the Strait of Hormuz",
+      "alert_summary": "The UN's maritime agency announced an evacuation plan for more than 11,000 sailors stranded in the Gulf since the Strait of Hormuz was closed."
+    },
     {
       "wp_id": 7272,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-owo/",
@@ -39,24 +131,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWTR0UVl3SFdITDFLVGpVRHJaWTdVQmVPd3FMRjY1SXh4VDl0SnItejcybG1ZbnM3Vno3RHAzTXFnVTRHOGlua2p0eUpUdHNoVjZpRnJnRzFFUEQwVDBUSVFNMHE3bHRJaWF2Y3ktaDZ6RGdLRkp6RUtidXdjV3FyVzlBVE52VkhQXzR2Tg?oc=5",
       "prayer": "Tourists and residents trapped by gang gunfire at a Rio de Janeiro lookout point",
       "alert_summary": "A shootout trapped tourists at a sunrise lookout point in Rio de Janeiro; casualty figures unknown."
-    },
-    {
-      "wp_id": 7269,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-2/",
-      "date": "2026-06-23T17:21:43",
-      "title": "Armed Conflict in Myanmar",
-      "body": "A United Nations report says Myanmar's military killed more than 700 civilians over a six-month period. The findings point to a sustained pattern of violence against ordinary people across the country since the military took power.\n\nThe UN's documentation adds to a growing record of civilian harm in Myanmar, where fighting between the military and various armed resistance groups has continued in multiple regions. Civilians in conflict-affected areas face risks from airstrikes, ground operations, and other forms of attack.\n\nThe report raises serious concerns about the safety of people living in areas where military operations are ongoing. Communities in affected regions continue to face displacement, loss of life, and disruption to daily life.",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Armed Conflict",
-      "lat": 21.154319,
-      "lng": 96.506921,
-      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNi1YUkJVbXZXa2Z3eTZXOWFwZTljM3p3Qkw2a2dIZW5GRWZadXVIS0t2eE9wZVhhcXg4ejVCYmk3VU5UOG5xbC1scUlkNFJJMDhjUGM3aXM1R1BpSmJFbTdKa2FqT3JONlQ2VEFCSVJ6aFRrM2JHSGtIMXRyS3YxR1pibFpJR1BFdEw1UFRMVldKaXVqVEo0d2VmWHRmTzdLUkZCUW1BclhUSGJiOUZ3TlJROGFCV3F3Z1E?oc=5",
-      "prayer": "More than 700 civilians killed by military forces in Myanmar over six months",
-      "alert_summary": "The UN reports Myanmar's army killed over 700 civilians in a six-month period."
     },
     {
       "wp_id": 7266,
@@ -363,24 +437,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUHNLVXRqSUpmV0VSSW1kVVpIakduYndWdExPWlJkSXIxdHJXaEVrZFVWbU1jdG1IV3V4S01oY0lRR250RW51cEhFQ1YtSy1fUnlFUmUyYkdMdjRtNjNFd1ptbGZGd0N4RmdnSXdxMG9MNXBJbHU3alBfWkFvUkNITWFMa2x4RG9TbkpQMnJRa1NZaENEZTJjbWNQZno5M0VGUVVHX3pIZVBsZDRCbDlvS01Ubklfd1NG?oc=5",
       "prayer": "Family and colleagues of a Lebanese conservationist killed in an airstrike on her home",
       "alert_summary": "An Israeli airstrike on a woman's home in Lebanon killed a leading conservationist; no casualty figures reported."
-    },
-    {
-      "wp_id": 7234,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-10/",
-      "date": "2026-06-23T05:23:10",
-      "title": "Armed Conflict in Gaza",
-      "body": "A teenage girl was killed in an Israeli strike while on her way to a high school in Gaza, according to relatives. No further details about her location within Gaza or the timing of the strike were available from the source.\n\nSchools in Gaza have faced repeated closures and damage throughout the conflict, and this report highlights the ongoing danger civilians — including students — face when attempting to carry out daily activities. Families in Gaza continue to make difficult decisions about whether movement for education or basic needs is safe.\n\nThe report comes as the broader conflict continues to affect civilian life throughout the territory.",
-      "country": "Palestine",
-      "countries": [
-        "Palestine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 31.512442,
-      "lng": 34.457165,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMDBIRktPYm0wTkRlcldrdlpUX2FLYmdCVE5ZcmZVbWloTHRaeGRnVEswTlp0TnB3MHZDcVJFSk9IV25CeTR2djNCcTF1NmNVTzhXa3NxT0NqUU51YU5NTjJaQzlnYkR3ZHlZSEVGUXpEZTRJZHVSSTI0SEFWcGotc1BUUDFiallDVGlKOUU5dlhudmZhTlE3MjRGX1JlMnAzN19aVkVsVHdmb1k?oc=5",
-      "prayer": "Teenage girl killed in an airstrike while traveling to school in Gaza, and her grieving family",
-      "alert_summary": "Relatives say an Israeli strike killed a teenage girl traveling to a high school in Gaza."
     },
     {
       "wp_id": 7233,
