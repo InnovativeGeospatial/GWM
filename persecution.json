@@ -1,9 +1,45 @@
 {
   "feed": "persecution",
-  "updated": "2026-06-23T05:16:34.012637+00:00",
-  "count": 192,
+  "updated": "2026-06-23T17:14:35.321351+00:00",
+  "count": 194,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7248,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-killed-by-armed-faction-after-parish-medical-supplies-seized-in-sudan/",
+      "date": "2026-06-23T17:14:30",
+      "title": "Catholic Priest Killed by Armed Faction After Parish Medical Supplies Seized in Sudan",
+      "body": "<p>A Catholic priest in Sudan was shot and killed in his room on the morning of June 19, according to a statement shared with Crux Now by a local bishop. The priest, who served a parish in the Nuba Mountains region, was killed along with one of his guards by armed men from a military faction. A second guard survived the attack and is currently receiving hospital treatment.</p>\n\n<p>According to Crux Now, the killing followed a confrontation over medical supplies stored at the parish. On June 18, armed men demanded and seized supplies from the parish storehouse. When the priest moved to evacuate the remaining supplies the following day, the armed men returned. Suspecting he had reported them to government soldiers, they shot and killed him. A spokesperson for the Sudan and South Sudan Catholic bishops' conference told Crux Now that the priest's death \"is a symbol of the many innocent people dying today in Sudan,\" describing it as emblematic of a deeper moral failure in Sudanese society.</p>\n\n<p>Sudan has been engulfed in civil conflict since 2023, when two rival military factions failed to agree on a power-sharing arrangement and turned against one another. The Nuba Mountains region, which hosts over 700,000 refugees, had largely remained outside the direct fighting, though the consequences of the broader conflict have been continuously felt there.</p>\n\n<p class=\"gwm-prayer-line\"><em>Pray for:</em> Catholic congregation in Sudan mourning their priest killed by armed military faction</p>",
+      "country": "sudan",
+      "countries": [
+        "sudan"
+      ],
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9,
+      "source_title": "Crux Now",
+      "source_url": "https://cruxnow.com/church-in-africa/2026/06/killing-of-sudanese-priest-symbolic-of-moral-failure-as-civil-conflict-continues/",
+      "prayer": "Catholic congregation in Sudan mourning their priest killed by armed military faction",
+      "alert_summary": "A Catholic priest and one guard were killed by an armed military faction in Sudan."
+    },
+    {
+      "wp_id": 7247,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-protesters-block-church-construction-plans-in-indonesia-amid-permit-delays/",
+      "date": "2026-06-23T17:14:07",
+      "title": "Muslim Protesters Block Church Construction Plans in Indonesia Amid Permit Delays",
+      "body": "<p>Muslim residents held a second protest on June 11 against plans to build a church in Indonesia, according to Morning Star News. Demonstrators gathered near the proposed construction site, carrying banners rejecting the plans and a Taliban flag while an orator addressed the crowd through a loudspeaker. Protest letters were also submitted to the mayor, the Ministry of Religious Affairs, and the head of a local Forum for Religious Harmony.</p>\n\n<p>The protesters cited incomplete construction permits, a small local Christian population, and fears of proselytizing as grounds for their opposition. The church's construction committee told Kompas.com that the permit process has been underway since 2023, stalled by bureaucratic delays and election periods during which local officials did not sign required documents. A village official clarified the protest was not an outright rejection but was tied specifically to the incomplete permit status. A committee representative noted that not all Muslims in the area oppose the project, and that churches near mosques are common across Indonesia.</p>\n\n<p>Demonstrators also raised objections to the church site's proximity to a mosque, though the construction committee called this a natural feature of Indonesia's diverse neighborhoods.</p>\n\n<p class=\"gwm-prayer-line\"><em>Pray for:</em> Indonesian Christians in Central Java blocked from building a church amid bureaucratic delays and community opposition</p>",
+      "country": "indonesia",
+      "countries": [
+        "indonesia"
+      ],
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9,
+      "source_title": "Morningstar News",
+      "source_url": "https://morningstarnews.org/2026/06/muslims-protest-against-church-construction-in-indonesia/",
+      "prayer": "Indonesian Christians in Central Java blocked from building a church amid bureaucratic delays and community opposition",
+      "alert_summary": "Muslim residents staged a second protest against a planned church building in Indonesia, with permits stalled since 2023."
+    },
     {
       "wp_id": 7215,
       "wp_link": "https://globalwitnessmonitor.com/christians-face-renewed-interrogations-in-china-over-distribution-of-religious-materials/",
