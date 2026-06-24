@@ -1,15 +1,33 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-24T05:17:12.536445+00:00",
-  "count": 832,
+  "updated": "2026-06-24T17:24:59.729438+00:00",
+  "count": 850,
   "limit": 1000,
   "events": [
     {
+      "wp_id": 7340,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ogun/",
+      "date": "2026-06-24T17:24:49",
+      "title": "Armed Conflict in Ogun",
+      "body": "Police in Ogun State rescued a kidnap victim following a gun battle in which two suspects were killed. Officers also recovered 2.2 million naira, money believed to be connected to the kidnapping.\n\nNo date for the incident was given in the available source material. The rescued person's condition was not reported.\n\nKidnapping for ransom remains a concern across several Nigerian states, and incidents like this one can affect the movement and safety of residents, aid workers, and others living or traveling in affected areas.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 7.161,
+      "lng": 3.348,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUnpTUkJzZXZiUExiUjdFZTBmTHVUY2ZrRVJGejFNbEhYa2loenJpdkR5dVZzajJqUW9FLVJuMUtLVUFTLXVCTVRxTmpTT084YW9IRFUyYThqbWd4c1RpTTV2U1VkNWR4T1BScDg0YnlCd2tWLWxSRlVCR25HZXNhbmx0YTVhdVBzLXdfcGFyRndEd05xbnlELWR1VEFlaEwyXy1LbEphZGtVQzhZQ0FR?oc=5",
+      "prayer": "Kidnapping victim in Ogun rescued; families living under threat of abduction in the region",
+      "alert_summary": "Police in Ogun killed 2 suspects and rescued a kidnap victim, recovering 2.2 million naira."
+    },
+    {
       "wp_id": 7271,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rio-de-janeiro/",
-      "date": "2026-06-24T05:17:04",
+      "date": "2026-06-24T17:24:11",
       "title": "Armed Conflict in Rio de Janeiro",
-      "body": "A gunfight broke out at a popular sunrise lookout point in Rio de Janeiro, leaving tourists trapped and unable to leave the area while shooting continued around them.\n\nThe incident highlights the ongoing risk of gang-related violence in and around Rio's tourist areas, where armed groups frequently clash with each other or with security forces. Visitors found themselves caught in the middle with no safe exit until the shooting subsided.\n\nNo information was available on the number of people injured or killed, or on how long tourists remained trapped at the location.",
+      "body": "A shootout broke out at a popular sunrise lookout point in Rio de Janeiro, trapping tourists at the site. No date for the incident was given in the available source material.\n\nDetails on casualties, the number of people trapped, or which groups were involved were not available from the source. Lookout points in Rio are frequent tourist destinations, and incidents like this leave visitors unable to leave until security forces secure the area.\n\nResidents and visitors in areas affected by gang and police activity in Rio face ongoing risk of being caught in crossfire, particularly at sites near hillside communities where armed groups operate.",
       "country": "Brazil",
       "countries": [
         "Brazil"
@@ -18,16 +36,16 @@
       "lat": -22.909534,
       "lng": -43.209934,
       "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRHJqbzl2Y29BeWs1Z3M1Z3ljQVF2UHFBdC1xMVFHT0FlcHVQWGVVZ0s3MHBaUDVYdzIzbEEzQ05JdFJDMUc0LXR5S04zVXdWUHZxN2ZnZE1ZYTZoVEZyLTZHWWZlT042U2tsVk4taU5uaFYteEhqeEhyNUNvTWJHRDI5V005Zk8tVC1WbnFCbnVrcVNnV25aSQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRUQ5czdmZTNndFoxMVRSX3YyN3dKbEZtV21pbGdWVzk5aXkyLWNuOWw3ZmV3R3RWUVl4UDZiTFR0X2puYXBrQVpGenVDSU9NOFFQcHIyYU9ObndoMUNYMDZabHVXSjl6QVZ0Mnc2YXJ4SXAwazNIVHpsSXEzYmtLR1U2dkRBai1fbzBDZg?oc=5",
       "prayer": "Tourists and residents caught in a shootout at a Rio de Janeiro lookout point",
-      "alert_summary": "A shootout trapped tourists at a sunrise lookout in Rio de Janeiro; no casualty figures reported."
+      "alert_summary": "A shootout trapped tourists at a sunrise lookout in Rio de Janeiro; casualties unknown."
     },
     {
       "wp_id": 7300,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-greenfield/",
-      "date": "2026-06-24T05:16:21",
+      "date": "2026-06-24T17:23:33",
       "title": "Armed Conflict in Greenfield",
-      "body": "A man and a woman were killed at a gas station in Greenfield in what authorities suspect was a gang retaliation ambush. No date was given in the available source material.\n\nInvestigators believe the attack was connected to ongoing gang activity in the area. No information was available on arrests or additional casualties.\n\nResidents near the gas station may be concerned about safety in the area following the attack.",
+      "body": "A man and a woman were killed in what investigators believe was a gang-related ambush at a gas station in Greenfield. The attack appears to have been targeted rather than random.\n\nNo date for the attack was included in the available source material. Authorities are investigating the suspected gang connection, though no further details about arrests or suspects are available from the source.\n\nThe killings leave the surrounding community on edge, as violence connected to gang activity can affect the safety of nearby residents and businesses.",
       "country": "United States",
       "countries": [
         "United States"
@@ -36,9 +54,334 @@
       "lat": 42.587839,
       "lng": -72.600241,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZjFOVFhNWFM0YzY4UGZDN0dLcUUyLTRHYmJaSHctcUQ3V0hIQUxGeU8yeC03bVFRbWQ2bHRmS2laS1RXN0I4ZDVCM1A4RVIwS2ZsY0NIZk96eEVlVDJ3UE56V0M1QnloM0dJLWFYR0gxcUJLa0JOSGczUV9ua3JCcnZoWkRmTkJXTEYzbEJ6SQ?oc=5",
-      "prayer": "Couple killed in a suspected gang retaliation shooting in Greenfield",
-      "alert_summary": "Two people were killed in a suspected gang retaliation ambush at a gas station in Greenfield."
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzIxNldVWngycFIzaExia2xPWmd1Y1psaU9TWlhJYXBlUUlQR1BjSTUwbk1TM2JlbWhDc2tVcEprTkxtakN1RWE0YTNhU2x0akR1czAxLXBIaUd2MkNnbXlZSklKWHRWWnU3Z3d0STNWY3RNRGpiQ09pQ1oyZG9fdERGQUNNUlg3c0NDS0t3?oc=5",
+      "prayer": "A couple and their family after a fatal ambush at a gas station",
+      "alert_summary": "Two people were killed in a suspected gang-related ambush at a gas station in Greenfield."
+    },
+    {
+      "wp_id": 7338,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-zaporizhzhia-2/",
+      "date": "2026-06-24T17:23:21",
+      "title": "Armed Conflict in Zaporizhzhia",
+      "body": "A beach in Zaporizhzhia was struck by an airstrike, leaving six people wounded, including children. The strike hit a civilian area where people had gathered.\n\nThe source provides no additional details about the date, the type of munition used, or the condition of those injured. Zaporizhzhia has faced repeated strikes throughout the broader conflict in Ukraine, and attacks on public civilian spaces such as this continue to affect everyday life in the region.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 47.844994,
+      "lng": 35.127964,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RazZGUURka2V4T0FTVlJKRGVreU4xTHBXbi1MMzFzRnVyckE3TTlxQXNQWVhpaVBGaWd3eUZ5TGNGSXo4aTFycWEtYUx0NlZxYkxnRnpFM0lIVFhXM3lHdk95YjQybHJRcXNTRXFjd0R5bWtPTXc?oc=5",
+      "prayer": "Children and families in Zaporizhzhia wounded in a beach airstrike",
+      "alert_summary": "An airstrike hit a beach in Zaporizhzhia, wounding six people including children."
+    },
+    {
+      "wp_id": 7337,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-33/",
+      "date": "2026-06-24T17:22:45",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Lebanon's state-run news agency reported that an airstrike hit an SUV in southern Lebanon, killing two people. No further details about the location, the identities of those killed, or the circumstances of the strike were provided in the available reporting.\n\nSouthern Lebanon has seen recurring strikes in the period following the 2024 ceasefire agreement, and incidents involving vehicles on roads have raised concerns among civilians traveling in the region.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNYmhOU3ZpbzI3WHNXdHFOS3pZLUdLRnltWWxTdS1wdVpYOUVXUV9NM1Z5dldkMUNXbEV1a3RqUGdhMkpiNUtncng3N3k3TDNIVGZyVzd3SzFkalowRG0zN1B5YVpOQ0doY3FNc2hPeFBhVHJBOG5FbDVaTTQ2YmlBcFZnLVkya25HdFhSUmhWaFlsOEFRR0xvZjVKeUc1RGFLbXNtUzBuMEo5Qm1IU2IycVJXUmIydS1jRTFXY1VaeXpkeTlJYmYwSHJGVms5VU9fUGRja2dDRUh5NVBWOGpHQWdhQ2J0V1BjU2Uxd0pIOGlTVHpYUWU0Qnpqd1NJTTM5dHVMbzRtcDhOajZwd1lTOXh6bEtHNXNQVU1OUE5Tc1lUUG1kQnphaXh3?oc=5",
+      "prayer": "Two people killed in an airstrike on a vehicle in southern Lebanon",
+      "alert_summary": "An airstrike struck an SUV in southern Lebanon, killing 2 people, according to Lebanon's state-run news agency."
+    },
+    {
+      "wp_id": 7336,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria-3/",
+      "date": "2026-06-24T17:22:35",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "A U.S. military airstrike in northwest Syria killed a senior member of the Islamic State group, according to a statement from U.S. Central Command. No date for the strike was given in the available source material.\n\nNorthwest Syria remains an area of active armed group presence, and U.S. forces continue to carry out strikes targeting militant leaders in the region. No information about civilian casualties or damage to surrounding areas was included in the source material.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDFDX25zYk5wVXZZd1BtUjNkVU94UHdBWVJWbW9mMF9KLWVMMGhLNnhfVU9ZVlRDVVVzaC1hSG5mbUh2am9pVVV4ZDJKU1RDT1BIeEtSU0Nmb2o0ZVdVZXV2TG1xYXhqWVluRF9aV1NGTURwakRPWlRPcnJ3RUFyZXkxUVNiLVNjMjRySDJBQkcxNl9tQ2JTcnR1NDhfR3JYSkJJQzdGd0xPejQtMExoQQ?oc=5",
+      "prayer": "Civilians in northwest Syria amid ongoing airstrikes and armed group activity",
+      "alert_summary": "A U.S. airstrike in northwest Syria killed a senior Islamic State member, according to U.S. military officials."
+    },
+    {
+      "wp_id": 7331,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria/",
+      "date": "2026-06-24T17:22:23",
+      "title": "Armed Conflict in Syria",
+      "body": "A U.S. airstrike in Syria killed a senior ISIS leader, according to a statement from U.S. Central Command. The individual was identified as a high-ranking figure within the extremist group.\n\nNo date for the strike was included in the available source material, and no additional details about the location within Syria, civilian casualties, or the circumstances of the operation were provided.\n\nISIS has maintained a presence in parts of Syria and Iraq despite losing its territorial hold in the region in previous years. U.S. forces continue to carry out periodic strikes targeting the group's leadership network. The death of a senior figure can disrupt operations temporarily, though the group has historically replaced leaders over time.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 35.013048,
+      "lng": 38.505592,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPei1YNmsyc3B6RWNSM1BYY3Vwa3ZMYjlVQl9zSV9FQXNocERudXNVd1B2X09SUHFoNk9Rb2lZY3MzTGRVWXBEM1kwOVYtSWJmTFR1WmhFWG9za3JQT2xoY3RnUVdHYklSeGNFOHNhZ0pLMmxDQ0h0Nm9HY0RiNVZvWGN0Z2FBalVsbjF2OGl1WGxGcmJvSTFrQktmdEs4NGxyU2U4SDlfX19pX3NoUkpXUHdsNE9hR0FpeU9xNExB?oc=5",
+      "prayer": "Communities in Syria amid ongoing airstrikes targeting armed group leaders",
+      "alert_summary": "A U.S. airstrike in Syria killed a senior ISIS leader, according to U.S. Central Command."
+    },
+    {
+      "wp_id": 7334,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria-2/",
+      "date": "2026-06-24T17:22:00",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "A U.S. airstrike in northwest Syria killed a senior member of Islamic State, according to reporting from India Today. No date for the strike was given in the available source material, and no further casualty figures were provided.\n\nNorthwest Syria remains an active zone where multiple armed groups operate, and airstrikes in the area carry risk for civilians living nearby. Islamic State has maintained a presence in parts of Syria even after losing its territorial control in earlier years.\n\nNo information was available about civilian casualties or displacement connected to this particular strike.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZEdJaFRpV2dLTmRqZE8xNWNySG01UGgyLTh0LVZnYkF3ZE14SlhPS05aQnV6N1I0aE5uaHdzc0FnUDdBWjZ6RjgzS1haYnpQTDYxUVI2Zl9GN1JSVTdQclk1VUU2dWRYNy1jOFJ6THdTd3BNa2UyZl9zTERtWkZodnEyR0loZHdYN3ZCaGdPbWYwRENGc1hrcUtYY2luSHpKaWZ5emFqWEtGbmhyZWRDd3lVNzN6Ulhoa0xiXzdic3RVMFNaU3NNSEdZTGZuV0xuNEZv0gHTAUFVX3lxTE1kR0loVGlXZ0tOZGpkTzE1Y3JIbTVQaDItOHQtVmdiQXdkTXhKWE9LTlpCdXo3UjRoTm5od3NzQWdQN0FaNnpGODNLWFpielBMNjFRUjZmX0Y3UlJVN1ByWTVVRTZ1ZFg3LWM4UnpMd1N3cE1rZTJmX3NMRG1aRmh2cTJHSWhkd1g3dkJoZ09tZjBEQ0ZzWGtxS1hjaW5IekppZnl6YWpYS0ZuaHJlZEN3eVU3M3pSWGhrTGJfN2JzdFUwU1pTc01IR1lMZm5XTG40Rm8?oc=5",
+      "prayer": "Civilians in northwest Syria living near ongoing airstrikes and armed group activity",
+      "alert_summary": "A U.S. airstrike killed a senior Islamic State member in northwest Syria; no casualty figures reported."
+    },
+    {
+      "wp_id": 7333,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria/",
+      "date": "2026-06-24T17:21:44",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "A U.S. airstrike killed a senior Islamic State leader in northwest Syria, according to reporting from the Ottumwa Courier. No date for the strike was provided in the available source material.\n\nNorthwest Syria remains an active zone of competing armed groups, and U.S. forces periodically carry out strikes targeting Islamic State figures in the region. The area has a significant civilian population, including many who have been displaced from other parts of the country over years of conflict.\n\nNo information was provided about additional casualties, the specific location of the strike within northwest Syria, or any civilian impact.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYjdsQjFfR3VGaUp4MV8yR1U0dEhkUkhLdUVWYXBNNm1ETnZRNlI0YkZ3Z29wN2xQSXFzSXQ3MzhsdXIzdXRtdEhFZUkzTzZxUjFzeUpqMnhTMkVibGNscTgwa3EyU0s0Zl9MazJOcUdoQXpSRXdXX0FuNG9hblpLRTMzbEJ2bWcxbFBsTWpEeU9PcDF5WUxmYV9oamc4TU1oam9rQzhpZUVjNXJuenl4UFRjdWJfdzZjUWdzV2hzbzE3eXA2U0loX1ZLZXpBWEFieUxONVdSSlNtajVPZVF3c0FWS0lVazgyb3dMbzdpNklzWXR0TE9GSnNhQjNldw?oc=5",
+      "prayer": "Civilians in northwest Syria caught in ongoing airstrikes and armed group activity",
+      "alert_summary": "A U.S. airstrike killed a senior Islamic State leader in northwest Syria; no casualty figures reported."
+    },
+    {
+      "wp_id": 7269,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-2/",
+      "date": "2026-06-24T17:20:44",
+      "title": "Armed Conflict in Myanmar",
+      "body": "A United Nations report found that Myanmar's military killed more than 700 civilians over a six-month period tied to the country's election timeline. The killings represent a documented pattern of violence against the civilian population during that window.\n\nThe report draws attention to the ongoing toll that conflict in Myanmar is placing on ordinary people. Civilians caught in areas of active military operations face consistent danger, and the scale recorded across just six months points to conditions that have remained deeply unstable since the military seized power in 2021.\n\nNo specific locations or dates of individual incidents were named in the source summary. Families across the country continue to live under the threat of military action, with limited options for safety or movement.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 21.154319,
+      "lng": 96.506921,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOEpLeS1zSFpfN19TQTM4RW5FM3l0N3BxemR0SXZEbDRwR2E0ZmV0aTRkUUhlVWhaS0k1Zm44LVRnaExKQnhSRml5bkZpSEhwbWJjX1BGMHNidnRTN3c0TXhFR3JiMlhoZ0RSTGpyRV9ycVdHMnN5MTVHZ25GTjB0dllKTG1CZ294SDRqa21HbWNqeGFES0EzcHVoZXVHQ3FhSjZN?oc=5",
+      "prayer": "More than 700 civilians killed in Myanmar during a six-month period of military violence",
+      "alert_summary": "A UN report found Myanmar's military killed over 700 civilians during a six-month election period."
+    },
+    {
+      "wp_id": 7329,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maungdaw-and-gwa-townships/",
+      "date": "2026-06-24T17:20:13",
+      "title": "Armed Conflict in Maungdaw and Gwa Townships",
+      "body": "Military airstrikes struck two separate townships in Myanmar — Maungdaw and Gwa — wounding six people. The strikes were carried out by the military, according to the report.\n\nNo deaths were reported, but the six injured mark the direct toll on civilians or others caught in the strike zones. Maungdaw, located in Rakhine State, has seen ongoing conflict between military forces and armed groups in recent months. Gwa is a coastal township further south.\n\nResidents in both areas face continued risk from air operations as fighting persists across multiple regions of the country.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 20.824133,
+      "lng": 92.36119,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mdkZ5SHFMbW50UUI0eEFYejg2YWlaVUxoS0xSR1NaYzFlVEpVa0VrNWtXRkdkejI5YUJQUm03bzlYcHc1aHZhU0hJOHh0UjZJOTJ0dHlCc1NINkFfYTJJQUU5V3lDOE1EWEJ0ZjY1RQ?oc=5",
+      "prayer": "Six people wounded in airstrikes across two townships in Myanmar",
+      "alert_summary": "Military airstrikes on Maungdaw and Gwa townships left 6 people injured; no deaths reported."
+    },
+    {
+      "wp_id": 7328,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyintali/",
+      "date": "2026-06-24T17:19:52",
+      "title": "Armed Conflict in Kyintali",
+      "body": "A military airstrike struck Kyintali, wounding two civilians, Burma News International reported. No further details about the date or condition of those injured were available in the source.\n\nKyintali is among numerous communities in Myanmar that have experienced airstrikes as the military continues operations against armed opposition groups across the country. Civilians in affected areas face ongoing risk from air attacks with limited access to medical care.",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 18.012873,
+      "lng": 94.487205,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSjcwcGd6VnB5ejAwMmtybGhrWnhQTTZ0SDFaTzBzWVRjbHpBZHdEU1ZoVEtpam5Bb0lKZFU3a3VxUXNRS0gzUXE3bXRwZnRHM1dQT0ZtVmFyWWRNN1MtLWhqdUpyWjZ5emFab0pWQXdzajRya3ZsNHNINWFjVWRKdmZtX2hfaUdaQ2ZKTjVSTVVNZzY4Wmc?oc=5",
+      "prayer": "Two civilians in Kyintali wounded in a military airstrike",
+      "alert_summary": "A military airstrike on Kyintali wounded two civilians, according to Burma News International."
+    },
+    {
+      "wp_id": 7327,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-blue-nile/",
+      "date": "2026-06-24T17:19:26",
+      "title": "Armed Conflict in Blue Nile",
+      "body": "Sudan's army announced it had captured a rebel stronghold in the Blue Nile region, near the border with Ethiopia. The brief report indicates renewed fighting in that area, though no date, casualty figures, or further operational details were provided in the available source material.\n\nThe Blue Nile region has seen conflict involving armed groups over recent years. Residents in border areas between Sudan and Ethiopia can face displacement and disruption to daily life when fighting flares. No information on civilian impact was available from this source.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.807364,
+      "lng": 34.36563,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTFJyZ3lXeWl6UFZjSnA4OHpmODVzd2ZRcS1CSm5mQ09zOWlqMEx2X2tyUlNwRmVQZF95QkFmcklEN1cxSkxiRHBVZHJYalE5dmlwd3ZET0lhRFVKSnhsQ0hJdFo5NndNLUZKd2hmaTI5V0ZicnJmWm40VFE1Vkpld1AwdklRSWx6VXlaemhYVjhEUEF2bGxORWxWM0FOYXJPck0tT19oUG1IeDhXYi1zWmJYcFFOdVBla3AtTDA2eXo0WDBsOTE1RHlmcU1UdlJ4ZHNsbkV3?oc=5",
+      "prayer": "Civilians in Sudan's Blue Nile region caught in fighting near the Ethiopia border",
+      "alert_summary": "Sudan's army reported capturing a rebel stronghold in the Blue Nile region near the Ethiopia border."
+    },
+    {
+      "wp_id": 7326,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid/",
+      "date": "2026-06-24T17:19:07",
+      "title": "Armed Conflict in El-Obeid",
+      "body": "The United States and the United Nations have issued warnings that mass atrocities may be about to occur in El-Obeid, the capital of North Kordofan state in Sudan. The alerts indicate that conditions on the ground have reached a point where large-scale violence against civilians is considered imminent.\n\nEl-Obeid is a major city and a significant hub in central Sudan. The warning comes amid Sudan's ongoing armed conflict between the Sudanese Armed Forces and the Rapid Support Forces, which has already driven millions from their homes and caused widespread suffering across the country.\n\nNo specific casualty figures were attached to this warning, but the involvement of both the US government and the United Nations signals that international observers consider the threat to civilian life in El-Obeid to be serious and urgent. Residents of the city face an uncertain and dangerous situation.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.183366,
+      "lng": 30.222559,
+      "source_title": "\"Sudan RSF OR fighting OR airstrike OR El Fasher when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNVM4aUQtVWd5SmI1cllZUU1SS2JlZmJOcHBrYVZaUW1oOW5lT1dmbFN1am5KTVZ6d1FPcUZqektiby1PQkh3ODhzbmVzRHFabngyR1U1d1BobGdxNXdORTFleEhwN29ydENHeUJSQ0xydFEwSlN1V25nUnlXZlBZU04yNXE5V0ZUMEUwSGZRTllvWGJyZVpJU0tYSGJFMkdEYkRCQy1faURFX1FSaXF5ZEJXX0dKVTZ6dE82clpDZUZVU1dzRWwzTzdyVURJMTgxMGVrRFI4YkJGOENmTWhLdGtBM3hyQ1E?oc=5",
+      "prayer": "Civilians in El-Obeid facing warnings of imminent mass atrocities",
+      "alert_summary": "The US and UN warned of imminent mass atrocities in El-Obeid, Sudan; no casualty figures yet reported."
+    },
+    {
+      "wp_id": 7325,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwestern-syria/",
+      "date": "2026-06-24T17:18:35",
+      "title": "Armed Conflict in northwestern Syria",
+      "body": "A U.S. airstrike in northwestern Syria on Friday, June 20, killed a senior Islamic State (IS) leader, U.S. Central Command announced on Wednesday, June 25. Officials described the strike as part of ongoing efforts to disrupt IS operations abroad and prevent attacks on American soil.\n\nThe Islamic State has declared a new phase of operations inside Syria, carrying out a series of attacks since February against the government of President Ahmed al-Sharaa. On Saturday, the group claimed responsibility for an attack near the city of Manbij in northeastern Aleppo province.\n\nSyria's government joined the U.S.-led anti-IS coalition last year. The IS group once controlled roughly a quarter or more of Syrian territory during the height of the civil war before being pushed out by coalition forces and other armed groups. Ongoing attacks signal the group is attempting to rebuild its foothold in the country.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/middle-east/20260624-us-military-says-senior-islamic-state-group-leader-killed-syria-air-strike",
+      "prayer": "Civilians in Syria caught between ongoing Islamic State attacks and coalition airstrikes",
+      "alert_summary": "A U.S. airstrike in northwestern Syria on June 20 killed one senior Islamic State leader, according to U.S. Central Command."
+    },
+    {
+      "wp_id": 7324,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-albania/",
+      "date": "2026-06-24T17:18:21",
+      "title": "Civil Unrest in Albania",
+      "body": "Protests that began over a luxury resort project linked to former U.S. President Donald Trump have grown into some of the largest demonstrations Albania has seen since the fall of communism in 1991. As of June 24, 2026, protesters are now calling for the prime minister to resign and for sweeping government reforms to address what many describe as deep-rooted corruption.\n\nThe source does not report a specific number of protesters or any casualties. The demonstrations represent a significant shift in public pressure, moving from a single development dispute to broader demands for political accountability.\n\nResidents across the country are watching to see whether the government will respond to the protests or hold its position.",
+      "country": "Albania",
+      "countries": [
+        "Albania"
+      ],
+      "type": "Civil Unrest",
+      "lat": 40.64109,
+      "lng": 20.156691,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/video/20260624-albania-protests-against-trump-linked-luxury-resort-demand-national-reform",
+      "prayer": "Albanian protesters and families amid calls for government reform and anti-corruption action",
+      "alert_summary": "Protesters in Albania demanded the prime minister's resignation and government reform, in some of the country's largest demonstrations since 1991."
+    },
+    {
+      "wp_id": 7323,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sevastopol/",
+      "date": "2026-06-24T17:18:07",
+      "title": "Armed Conflict in Sevastopol",
+      "body": "Ukrainian drones struck the main power substation in Sevastopol, the largest city in Russian-occupied Crimea, knocking out electricity across parts of the city. The Moscow-installed governor said some areas would remain without power until Wednesday evening and placed energy facilities under a \"special regime\" while damage was assessed. All emergency services were put on full alert.\n\nThe attack came as fuel shortages were already affecting Sevastopol. Russian-installed authorities had suspended most petrol sales, reserving supplies mainly for government services. Panic-buying was reported in some shops, with sugar said to be in especially short supply. Residents were advised to conserve mobile phone battery and to check on elderly neighbours during temperatures expected to reach 30°C.\n\nUkraine's drone commander said the overnight operation targeted 48 military sites, and explosions were also reported in Bakhchisarai, Kerch, and near Mount Ai-Petri. Russia's defence ministry said it intercepted more than 300 Ukrainian drones overnight.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 44.605443,
+      "lng": 33.522084,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3ryv72pjqno?at_medium=RSS&at_campaign=rss",
+      "prayer": "Civilians in Sevastopol without power, fuel, or basic supplies amid ongoing drone strikes",
+      "alert_summary": "Ukrainian drones struck Sevastopol's main power substation, cutting electricity across parts of the city with no restoration until Wednesday evening."
+    },
+    {
+      "wp_id": 7322,
+      "wp_link": "https://globalwitnessmonitor.com/central-inter-korean-border/",
+      "date": "2026-06-24T17:17:52",
+      "title": "Central inter-Korean border",
+      "body": "South Korea's military detained a North Korean soldier overnight after he crossed the heavily fortified inter-Korean border near its central section. Officials said the soldier was secured Tuesday night and that relevant authorities were investigating the circumstances. South Korean news agency Yonhap reported, without citing a source, that the soldier was believed to wish to defect.\n\nDirect crossings of the land border are uncommon. The frontier is densely forested, laced with landmines, and closely monitored by both militaries. Most North Koreans who reach the South do so by traveling north through China and then through a third country such as Thailand. In 2024, 236 North Koreans arrived in the South through all routes combined.\n\nYonhap described this as the first such border crossing of 2026 and said there had been four registered cases since last June. Soldiers and civilians who arrive this way are typically handed over to intelligence services for security screening before being considered for citizenship.",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/north-korean-soldier-crosses-border-to-south/a-77687834?maca=en-rss-en-world-4025-rdf",
+      "prayer": "North Korean soldier detained after crossing the inter-Korean border, facing security screening",
+      "alert_summary": "South Korean military detained 1 North Korean soldier after he crossed the inter-Korean border overnight near the central section."
+    },
+    {
+      "wp_id": 7321,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-tehran/",
+      "date": "2026-06-24T17:17:40",
+      "title": "Civil Unrest in Tehran",
+      "body": "Iran is grappling with an economic collapse in the aftermath of its recent war with the US and Israel. A government-linked survey found that 60% of respondents said they can no longer manage the economic pressure, 60% are pessimistic about the future, and around 80% feel they are treated unjustly. The head of the agency that conducted the survey warned political leaders of widespread social tension, and Iran's president separately cautioned that economic problems could lead to unrest.\n\nThe cost of basic goods has surged sharply. A carton of 15 eggs that cost around 70,000 toman a year ago now sells for over 200,000 toman. Rents are climbing, pushing families in Tehran to downsize or move in with relatives. Iran's government estimates the war caused around €229 billion in damages, and officials warn that borrowing from the central bank to cover war costs will likely push inflation higher in the coming months.",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Civil Unrest",
+      "lat": 35.696,
+      "lng": 51.401,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/iran-after-the-war-fragile-peace-shattered-economy/a-77690083?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Iranians facing rising food prices, housing strain, and economic collapse after the recent war",
+      "alert_summary": "A government-linked survey found 60% of Iranians say they can no longer cope with the economic crisis following the recent war."
+    },
+    {
+      "wp_id": 7320,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-mawasi/",
+      "date": "2026-06-24T17:17:16",
+      "title": "Armed Conflict in al-Mawasi",
+      "body": "Israeli forces carried out strikes in Gaza and the occupied West Bank on Wednesday, June 25, 2026, killing at least two Palestinians. A 12-year-old child was killed and at least seven others were wounded when a drone struck a tent in al-Mawasi, west of Khan Younis — an area Israel had designated a \"safe zone.\" A 29-year-old man was also killed by Israeli forces during a raid on the town of al-Yamoun in the northern West Bank; his body was reported to be withheld by troops.\n\nHealth officials noted that treatment for strike victims is made harder because Israeli authorities continue to restrict medical supplies entering Gaza. Since a ceasefire took effect in October 2025, Gaza's Ministry of Health reports at least 1,027 people have been killed and 3,280 injured in Israeli attacks.\n\nIn the West Bank, at least 71 Palestinians have been killed by Israeli forces since the start of 2026, with roughly 23,000 arrested and 33,000 displaced since October 2023.",
+      "country": "Israel",
+      "countries": [
+        "Israel",
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/24/israeli-attacks-on-gaza-and-occupied-west-bank-kill-two-including-child?traffic_source=rss",
+      "prayer": "A 12-year-old child and a young man killed amid ongoing strikes in Gaza and the West Bank",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7319,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-district-3/",
+      "date": "2026-06-24T17:17:04",
+      "title": "Armed Conflict in Nabatieh district",
+      "body": "On June 25, 2026, an Israeli drone strike hit a vehicle on the Tallat al-Dabsha road near Kfar Reman in the Nabatieh district of southern Lebanon, killing at least two people. Shortly after, Israeli artillery struck the outskirts of the town of Yater in the Bint Jbeil area. The attacks came despite a renewed ceasefire reached the previous week and while Israeli and Lebanese officials were meeting in Washington for ongoing talks.\n\nIsrael's defense minister stated on Wednesday that troops will not withdraw from Lebanese territory, even under American pressure, and that around 200,000 displaced residents will not be allowed to return. Israel says it will only leave once Hezbollah is fully disarmed, while Lebanese officials insist withdrawal must happen for the ceasefire to hold.\n\nIn some areas closer to Tyre, residents have begun returning home. In the town of Abbasiyeh, about 80 percent of people have come back in recent days, though many towns still lack basic services, and the threat of further strikes remains.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.398937,
+      "lng": 35.687965,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/24/israeli-attacks-kill-2-in-southern-lebanon-despite-ongoing-washington-talks?traffic_source=rss",
+      "prayer": "Two people killed and 200,000 displaced civilians blocked from returning to southern Lebanon",
+      "alert_summary": "An Israeli drone strike killed at least 2 people near Kfar Reman in Lebanon's Nabatieh district on Wednesday."
     },
     {
       "wp_id": 7299,
@@ -148,24 +491,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwZ1RnRlFYRnI0NXZEZzdtc0JRM3BlVm1HdFhRQzZPZTJxVkV4RE9tVnEzM3dhdlJkNTY3a3hjRzdjcXRpMGRzZGNwaXhLRXhEdDJpaTlzQVBISG_SAWBBVV95cUxPX01zOUEya0lrSldOTE43dHVfYTdaX2s4bjR1SkxmZ1RKT0xVV2hIejhQS3JIRkt2dFI4QzBxT3JVMHZIX0hTdXZaenBvcXRxeDVZd0pBM2h2ZFRhTDlpR0I?oc=5",
       "prayer": "Communities near Northern California libraries shaken by an shooting arrest",
       "alert_summary": "An 18-year-old was arrested for a shooting described as a \"Columbine-style\" attack at a Northern California library."
-    },
-    {
-      "wp_id": 7269,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-2/",
-      "date": "2026-06-23T22:42:22",
-      "title": "Armed Conflict in Myanmar",
-      "body": "The United Nations reported that Myanmar's military killed more than 700 civilians over a six-month period, according to a UN account published by The Straits Times. The report points to a continuing pattern of violence against the civilian population amid the country's ongoing armed conflict.\n\nThe findings reflect the scale of harm facing ordinary people across Myanmar, where fighting between the military and various armed groups has persisted since the 2021 takeover. Communities throughout the country continue to face danger, and the UN figures suggest civilian casualties remain a serious and ongoing concern.",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Armed Conflict",
-      "lat": 21.154319,
-      "lng": 96.506921,
-      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWENWYXlJczZTUkxSdXB0TG1LYUxucGtzWWNJSEVpOEIyZlB0bks4TzlZYmlmX1JuZXNBaGYxNUY4WlBrbGhCNlVzTGxqeFQtYUFBZV9LazNoTHZIU0R1T3lqSTcyUzF0Z3NwT3hLVkRLOHNXakRERldDZjlaa1czMUJwYVdfamlqakdfWlhYZmFzZUJUeVBGUkp6TnF2QQ?oc=5",
-      "prayer": "Over 700 civilians in Myanmar killed by military forces in six months of ongoing conflict",
-      "alert_summary": "The United Nations reported Myanmar's army killed over 700 civilians in a six-month period."
     },
     {
       "wp_id": 7282,
