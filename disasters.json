@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-23T17:13:06.052381+00:00",
-  "count": 742,
+  "updated": "2026-06-24T05:12:27.942757+00:00",
+  "count": 751,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7294,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-22-2026-3/",
+      "date": "2026-06-24T05:12:22",
+      "title": "Storm in United States 06/22/2026",
+      "body": "A tornado tore through southern Illinois, killing two people and injuring several others. The storm caused damage across the affected area, though the full extent of destruction was not detailed in available reports.\n\nResidents in the impacted communities are dealing with the aftermath as local officials and emergency responders work to assess conditions and assist those affected.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 38.919491,
+      "lng": -88.456477,
+      "source_title": "\"tornado OR storm damage OR killed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zTEJaSURSaGozY2VMWmYySXpTUDMtNHNhd3E2YlB3WjExZk1qS1piY3lGamRLZ0tpM2Y5WVZxUXBBRmU3N3F0b3FGczk4M2dRc0dLQjR1dzJZM0tUWjV4QTRyWWJ6ekc0cC1UZFU2S0FTdw?oc=5",
+      "prayer": "Families in southern Illinois grieving losses and injuries after a tornado struck their communities",
+      "alert_summary": "A tornado struck southern Illinois, killing 2 people and injuring several others."
+    },
+    {
+      "wp_id": 7293,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-malawi-06-22-2026/",
+      "date": "2026-06-24T05:11:59",
+      "title": "Drought in Malawi 06/22/2026",
+      "body": "Malawi is experiencing a drought that has left many of its people without enough food. In response, India dispatched 1,000 metric tonnes of rice to help meet the country's food needs during the crisis.\n\nThe shipment represents an international effort to support Malawi's population as the drought continues to strain food supplies across the country.\n\nNo specific date, casualty figures, or additional details about the extent of the drought were included in the available source material.",
+      "country": "Malawi",
+      "countries": [
+        "Malawi"
+      ],
+      "type": "Drought",
+      "lat": -13.215804,
+      "lng": 33.739164,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNTdHMDFrNkdSa2syQzFtWjk2R0djaG9SQ05id0FHNmRRY21Oc2xvQkZrb0JfSmUtZlNXaXIwRTIyOFBsc3pIbnhnUE5qcEw0VmJNaG1kWkl0MW0xSFM2TERsdWxjM2kxODNTN1hiTldZSmNXdEczaGl2Wm5JUTVYRGhFeDYyZnZvYUpURjdpWlZ6bnlWZmc?oc=5",
+      "prayer": "Malawi families facing hunger and food shortages amid ongoing drought conditions",
+      "alert_summary": "Drought in Malawi prompted India to dispatch 1,000 metric tonnes of rice as food relief."
+    },
+    {
+      "wp_id": 7292,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-afghanistan-06-23-2026/",
+      "date": "2026-06-24T05:11:44",
+      "title": "Drought in Afghanistan 06/23/2026",
+      "body": "Bamyan province in central Afghanistan is facing a worsening humanitarian situation driven by ongoing drought. Reduced rainfall and failed harvests have left many families without enough food, pushing some residents to abandon their homes and communities in search of basic resources.\n\nThe displacement has compounded existing hardships in one of Afghanistan's more remote and historically under-resourced regions. Families already struggling with limited access to services now face the added strain of food shortages and loss of livelihoods tied to agriculture and livestock.\n\nHumanitarian needs in the area continue to grow as the dry conditions persist. Aid access and the broader economic situation in Afghanistan have made outside assistance difficult to deliver consistently, leaving many residents in Bamyan with few options as the crisis deepens.",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Drought",
+      "lat": 34.809525,
+      "lng": 67.821884,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUpxejhUREZFM3NkMTlFRDI4SUdrUXRfR29LVzQyNkxzN0lKSkpzTlUtZHpTSGhrX29rZzJHZmttZDVMdmIyOUdBSjJ1QkRpQlllR2xWRkNZakZWWDJlSTBsWE5HZ1pBUi1fcm4wWm1sbWd2dm1aWm9UWTVsZEZ3cUZzRDVMek50UWtGblJEM2ZZbGNqVjZ6YmczZmhORUtZenBmbDdTVHdDLXBfV1NZZ0tNMA?oc=5",
+      "prayer": "Families in Bamyan, Afghanistan, displaced by prolonged drought and deepening food insecurity",
+      "alert_summary": "Drought in Bamyan, central Afghanistan, has triggered displacement and a worsening humanitarian crisis; no casualty figure reported."
+    },
+    {
+      "wp_id": 7291,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-06-23-2026/",
+      "date": "2026-06-24T05:10:46",
+      "title": "Disease in United States 06/23/2026",
+      "body": "An outbreak of Legionnaires' disease has been reported in the Central Harlem neighborhood of New York City. Public health officials have linked the cases to cooling tower systems in the area, which can harbor and spread the bacteria that causes the illness when water is not properly treated.\n\nLegionnaires' disease is a form of pneumonia caused by Legionella bacteria. People typically become infected by breathing in small water droplets containing the bacteria. It is not spread from person to person. Older adults, smokers, and those with weakened immune systems face the greatest risk of serious illness.\n\nAuthorities have issued a public health alert in response to the outbreak. Residents in the affected area who develop symptoms such as cough, fever, or shortness of breath are urged to seek medical attention promptly.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 40.810925,
+      "lng": -73.94701,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSW80VTRNXzhUS3UzSnk3V044ZW1OV3BGNXVIRTdJaENxYUQ1RkZvQkhORndYZ3Y5ZXJDVjBvcVdzUmZrMDFHanZBLUhhYWdNMHVuYjFaUHowYnBFS0xfSklJWjdtektvYkpuUTJJR2paVGFNV09JUjNQa3V3RVU0MDZLUkVveUpOUjNxcWdYbXRXVmpKbUx3WHhZU25aM2pwZWNFNDRWVkZrWEREcGdGU01LNGJwaDROVHdMM1NR?oc=5",
+      "prayer": "Residents of Central Harlem exposed to Legionnaires' disease linked to cooling tower systems",
+      "alert_summary": "A Legionnaires' disease outbreak linked to cooling tower systems was reported in Central Harlem; no casualty figure provided."
+    },
+    {
+      "wp_id": 7290,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-06-22-2026/",
+      "date": "2026-06-24T05:09:32",
+      "title": "Flood in India 06/22/2026",
+      "body": "Heavy rain brought flooding and erosion to Jonai, a town in the Dhemaji district of Assam, India, forcing nine families from their homes. The flooding caused erosion damage alongside the inundation, compounding the impact on affected residents.\n\nDisplaced families were left without stable shelter as a result of the event. Local conditions in Assam during the monsoon season frequently bring this type of flooding to low-lying and riverine communities, leaving residents vulnerable to repeated displacement.\n\nNo casualty figures were reported in connection with this event. Affected families will need temporary shelter, food, and support as they assess damage to their homes and land.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 27.824913,
+      "lng": 95.22372,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONGZFU21wTEI5NHFDczN0QzVtcWFjVXhtcUhVWmVsWUY5V2kySU5EOF9IZ01VZ1lJZmhYTmJ6TGhEeTZpMjRhU05icEFrWU8zdTVlS2lfN2piVzh0QTBaTUZFMUlYQVNkeW5yS0g0SHBQM3hRRUJUeXMta0Jwb3J3aWY1Ni1NdE1BZFJGYnFGdDVJRVQybWx2enE1QjQtQ3dI?oc=5",
+      "prayer": "Nine families in Jonai, Assam displaced by flooding and erosion",
+      "alert_summary": "Heavy rain triggered flooding and erosion in Jonai, Assam, displacing nine families."
+    },
+    {
+      "wp_id": 7289,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-24-2026/",
+      "date": "2026-06-24T05:08:57",
+      "title": "Flood in United States 06/24/2026",
+      "body": "Flooding struck northeast Texas, prompting a rescue response from game wardens who evacuated seven people from the affected area. The wardens used boats or other equipment suited for high-water conditions to reach those who could not safely leave on their own.\n\nThe source does not provide a specific date, the names of towns affected, or details on how many homes were damaged. No fatalities were reported in the available information.\n\nNortheast Texas has historically been vulnerable to flash flooding, particularly when heavy rain falls over already saturated ground. Residents in low-lying areas can find themselves cut off quickly when water levels rise. Local responders, including wildlife and game warden units, often assist during flood emergencies when roads become impassable.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 38.298753,
+      "lng": -95.139079,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMDFmMHpoMTFzS2RVTTdlWW1aeVJPd19heHh4RF8wSVBrVTBUdURzbjJURmJYZ01tZWNadEt5NUJUalFiR0I5YkRJS1Fvdi11VkFwYmNpLWMxLTdZRVVZZ1QtMmphN3ZDRkNOc2FMWmVUT21WVzdkSllmYXhkbjMzNmRKYXdNNVRZRmZvZkxUMTRKLUJEZ2Y1Q1NNQ1NXTzhQbk5MQkI3andzX2hkWkIyM25oMGViUjd0ZUF6UEZ1TG04QmdqSVpnRlVtYlFnMkRNWEoxeUV4S1ZwN2p6bXFZYjAtUVpTYU9ldDNR?oc=5",
+      "prayer": "Seven residents of northeast Texas rescued from floodwaters by game wardens",
+      "alert_summary": "Flooding in northeast Texas prompted game wardens to evacuate 7 people from affected areas."
+    },
+    {
+      "wp_id": 7288,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-05-15-2025-3/",
+      "date": "2026-06-24T05:08:29",
+      "title": "Disease in Congo 05/15/2025",
+      "body": "On May 15, 2025, health authorities formally confirmed an Ebola outbreak in the Democratic Republic of Congo, though experts believe the virus had likely been circulating for weeks or months before that date. The outbreak, caused by the Bundibugyo strain of Ebola, has now surpassed 1,000 confirmed cases and 267 deaths — the highest number of confirmed cases recorded in the first month of any Ebola outbreak in Africa.\n\nThe outbreak is centered in the Bunia area of eastern Congo. At least 25 cases, including 14 deaths, have been confirmed in crowded displacement camps across at least three areas of the war-affected east. Officials say the response is beginning to grow to meet the scale of the outbreak.\n\nIn a related development, Kenya halted construction of a planned Ebola quarantine facility at an air base following a court order and public protests in the country.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.555387,
+      "lng": 30.247854,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/ebola-in-dr-congo-sees-record-first-month-caseload/a-77672493?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Communities across eastern DR Congo facing the largest first-month Ebola caseload ever recorded in Africa",
+      "alert_summary": "An Ebola outbreak in DR Congo has recorded more than 1,000 confirmed cases and 267 deaths in its first month."
+    },
+    {
+      "wp_id": 7287,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-france-06-23-2026-2/",
+      "date": "2026-06-24T05:08:15",
+      "title": "Heatwave in France 06/23/2026",
+      "body": "Since June 18, 2025, a heatwave sweeping across western Europe has claimed at least 40 lives in France, all in heat-related drownings, according to officials. France, Spain, and Italy have been among the hardest-hit countries as temperatures climbed to record levels in several major cities.\n\nIn Nice, a very high heat alert has been issued, with temperatures reaching between 30°C and 35°C (86°F to 95°F) at their peak. Governments across western Europe have introduced measures to help residents cope with the extreme heat.\n\nOfficials continue to urge the public to take precautions, particularly for the most vulnerable, as the heatwave reached its peak across the region.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Heatwave",
+      "lat": 43.710082,
+      "lng": 7.261844,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c30y6qe2qqno?at_medium=RSS&at_campaign=rss",
+      "prayer": "Forty people lost to heat across France and vulnerable residents still enduring record temperatures",
+      "alert_summary": "A heatwave across western Europe has killed 40 people in France since June 18, with temperatures peaking between 30°C and 35°C."
+    },
+    {
+      "wp_id": 7286,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-23-2026/",
+      "date": "2026-06-24T05:04:18",
+      "title": "Flood in Russia 06/23/2026",
+      "body": "On June 23, 2026, the Kamchatka River near the village of Lazо in Milkovsky District reached water levels classified as a dangerous hydrological event. The river rose to 550 centimeters above the reference point on the local gauge, crossing the threshold that authorities use to signal serious flood risk.\n\nNo casualty or displacement figures were included in the available report. Communities along this stretch of the river may be at risk as water levels remain at or near the danger threshold.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260623221335-0230719.xml",
+      "prayer": "Residents near the Kamchatka River at Lazо facing dangerous flood levels",
+      "alert_summary": "The Kamchatka River near Lazо village reached a dangerous flood level of 550 cm above the gauge zero mark."
+    },
     {
       "wp_id": 7246,
       "wp_link": "https://globalwitnessmonitor.com/volcano-in-guatemala-06-23-2026-2/",
