@@ -1,15 +1,33 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-24T17:24:59.729438+00:00",
-  "count": 850,
+  "updated": "2026-06-25T05:25:04.704938+00:00",
+  "count": 860,
   "limit": 1000,
   "events": [
     {
+      "wp_id": 7380,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-edo-2/",
+      "date": "2026-06-25T05:24:54",
+      "title": "Armed Conflict in Edo",
+      "body": "Police in Edo State recovered the bodies of two people who had been kidnapped, and arrested one suspect in connection with the case. No date for the event was given in the available source material.\n\nNo further details about the victims, the circumstances of their deaths, or where in Edo the bodies were found were available from the source. The arrest suggests an active police investigation is underway.\n\nKidnapping remains a serious concern across several Nigerian states, and incidents like this affect both local communities and anyone traveling or working in the region.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 6.333059,
+      "lng": 5.622106,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQjNwUjR6UkhrNEVtcjUzSDhlZXBRY2MzenR6bjNYZkRnTFdJeENHcV9teGZLemUzWTYydklpRlNRcXQzdlAzSHdsUzl5UXNVUUx4X1NsbGdlZ1ZHbWlia05keDkwVlFqWlJuX1JMbklpb3p6bnJvYWpKUXk3V2xRbW11NnFPTkhOeXc?oc=5",
+      "prayer": "Two kidnapping victims in Edo, Nigeria, whose bodies were recovered by police",
+      "alert_summary": "Police in Edo recovered the bodies of two kidnapping victims and arrested one suspect; no further details confirmed."
+    },
+    {
       "wp_id": 7340,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ogun/",
-      "date": "2026-06-24T17:24:49",
+      "date": "2026-06-25T05:24:32",
       "title": "Armed Conflict in Ogun",
-      "body": "Police in Ogun State rescued a kidnap victim following a gun battle in which two suspects were killed. Officers also recovered 2.2 million naira, money believed to be connected to the kidnapping.\n\nNo date for the incident was given in the available source material. The rescued person's condition was not reported.\n\nKidnapping for ransom remains a concern across several Nigerian states, and incidents like this one can affect the movement and safety of residents, aid workers, and others living or traveling in affected areas.",
+      "body": "Police in Ogun State, Nigeria, shot and killed two kidnappers during a rescue operation that ended with the abducted victim freed without injury. The operation appears to have involved a confrontation between officers and the kidnappers, though specific details about how the rescue unfolded are not available in the source material.\n\nKidnapping for ransom has been an ongoing concern in parts of southwestern Nigeria, including Ogun State. The release of the victim unharmed is a relatively uncommon outcome in such incidents.\n\nNo date for the operation was given in the source. Residents in the area may remain on alert given that kidnapping networks often operate in groups larger than those directly encountered by police.",
       "country": "Nigeria",
       "countries": [
         "Nigeria"
@@ -18,9 +36,207 @@
       "lat": 7.161,
       "lng": 3.348,
       "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUnpTUkJzZXZiUExiUjdFZTBmTHVUY2ZrRVJGejFNbEhYa2loenJpdkR5dVZzajJqUW9FLVJuMUtLVUFTLXVCTVRxTmpTT084YW9IRFUyYThqbWd4c1RpTTV2U1VkNWR4T1BScDg0YnlCd2tWLWxSRlVCR25HZXNhbmx0YTVhdVBzLXdfcGFyRndEd05xbnlELWR1VEFlaEwyXy1LbEphZGtVQzhZQ0FR?oc=5",
-      "prayer": "Kidnapping victim in Ogun rescued; families living under threat of abduction in the region",
-      "alert_summary": "Police in Ogun killed 2 suspects and rescued a kidnap victim, recovering 2.2 million naira."
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaVJZVFR5YXNGUk1CTTBQRUhydndnRGIwOWZ0d2RkRk5hT3l5ZzhHMTVjY09FVmZZSWxJVEhyOXdZOC1kVURlODdodVNEV0xHRlpxYTZpRzd2bEZwM1dCNng4Y2NZRUxQOWxyQnlVRC1scllrT2steTBVYlRUQ1o0WFFVclB5TjBUTTlxSktFTm5FU0ZhT0plRXFwcm5vNERXX1M3Mw?oc=5",
+      "prayer": "Kidnapping victims and families in Ogun State facing ongoing abduction threats",
+      "alert_summary": "Police killed 2 kidnappers and rescued 1 victim unharmed in Ogun State, Nigeria."
+    },
+    {
+      "wp_id": 7377,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-gaza/",
+      "date": "2026-06-25T05:23:57",
+      "title": "Armed Conflict in Southern Gaza",
+      "body": "An Israeli airstrike in southern Gaza killed one Palestinian. No date for the strike was given in the source, and no additional casualty figures were reported.\n\nThe strike is one of many that have continued across Gaza. Residents in the southern part of the territory remain at risk from ongoing airstrikes.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNjI4NDlqRm16VUpsMVUyR3k1ZTFHeXhZb2xTWXdZNjdjVEFPVDNBU2E5ck5VZU1sQy1PVjVxa0dCejdHOHQxNFV5LW9adFRrU3dMZWYtaWwxM3pSOHhHYUFhVElBSVZ4YzBRQkMzNFZpaXpLRHJ3S0E5M1lNeE5KdnpRWlJKdDFselh1MHoyQUpXRGh3OHdaOGF5V1VDR0k?oc=5",
+      "prayer": "One Palestinian killed in an airstrike on southern Gaza",
+      "alert_summary": "An Israeli airstrike on southern Gaza killed one Palestinian; no further casualties reported."
+    },
+    {
+      "wp_id": 7376,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-34/",
+      "date": "2026-06-25T05:23:34",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Lebanon's state-run news agency reported that an airstrike struck an SUV in southern Lebanon, killing 2 people. No further details about the location or the identities of those killed were provided in the report.\n\nThe strike adds to ongoing concern for civilians in southern Lebanon, where airstrikes have continued to affect residents and travelers on local roads.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNX08xREdlMTk2UU1xdXBFVzh1eDZ3MVFYU3JTRnBobU9wUE0xREgxRWFVRU9JazZBQVRYYkx0dUZJZHJmNy1JdVhQX3hURkh6OWc3V1JpYkd6RGNucUY2U2s2dm5BUVdGTkZuZXZxNWNKRGhiSWxKNWlLbjZUT3ZrdmJsTVBLd2hIMzRxX3VMc0VkMVNucmZKN1NmLUF0M0lIWURvNE1Ccmc3MXp2d2l6SHRJbTZ0d0JmNzlpQUc4TDhRUkJsbDRJM1N6VmZJMXl0QmlicW10bmxfRVF0eWNCc3lWTjJkbU04ZjV1dWhMUzhqOFBpOF9jQVdCNF9UU2E2cGFUZnNuMEpYdFUwNGZpXzFReFdMYkNfZHBzSC1jdUFBaWZWcHdhVUVPWVU?oc=5",
+      "prayer": "Two people killed by an airstrike on a vehicle in southern Lebanon",
+      "alert_summary": "An airstrike struck an SUV in southern Lebanon, killing 2 people, according to Lebanon's state-run news agency."
+    },
+    {
+      "wp_id": 7375,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-harris-county/",
+      "date": "2026-06-25T05:23:14",
+      "title": "Armed Conflict in Harris County",
+      "body": "At an unspecified date, authorities in Harris County reported that deputy constables were ambushed, and a suspect was subsequently booked into jail. The word \"ambush\" was used by officials themselves to describe the attack, suggesting it was planned rather than a chance encounter.\n\nNo further details about casualties, the location within the county, or the circumstances of the arrest are available from the source material. Readers seeking more information should consult local Texas news outlets covering the Harris County area.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.757854,
+      "lng": -84.875015,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZU5BWGM5Z25oSkh0UmpncjE1ZXBiWWlCajJQMnp4NlZGLUdpYVMxdEROYzRKZmhvYWhMdDNUMTBOVXltbmZTSFVjblpQTmhvZUlCbTFyb3MwS3Q5UnhfTjE3aUV3ZFNJWmNBckN2ZGw3Mko3Ui00LVJDTXBsWFVoNlAxNkxpWHhqa29aLXBwekJ1UGc1dk12b29IclhLd3h1T2pzUTQ4ZmhKOHNldTJvODc2c0Z0MkVNSFg5ODg3akFXSlhzYUVXa3QwQjhEaTRUbmc5QzZTbXVGSER5bWczOVI4TXJ3ODJaVEwwU1MwSDBhQQ?oc=5",
+      "prayer": "Deputy constables ambushed in Harris County and the suspect taken into custody",
+      "alert_summary": "Authorities say a suspect was jailed after an ambush targeting Harris County Precinct 4 deputy constables; casualty figures unknown."
+    },
+    {
+      "wp_id": 7374,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria-5/",
+      "date": "2026-06-25T05:22:59",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "U.S. military officials confirmed that an airstrike in northwest Syria killed a senior member of the Islamic State. The announcement came from U.S. Central Command, which oversees American military operations across the Middle East region.\n\nNo date for the strike was included in the available source material, and no information was provided about civilian casualties, the specific town or district where the strike occurred, or the identity of the individual killed.\n\nNorthwest Syria remains home to millions of displaced people and continues to see periodic military activity. Strikes targeting armed group members in populated or semi-populated areas carry ongoing risk for civilian communities living nearby.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDFDX25zYk5wVXZZd1BtUjNkVU94UHdBWVJWbW9mMF9KLWVMMGhLNnhfVU9ZVlRDVVVzaC1hSG5mbUh2am9pVVV4ZDJKU1RDT1BIeEtSU0Nmb2o0ZVdVZXV2TG1xYXhqWVluRF9aV1NGTURwakRPWlRPcnJ3RUFyZXkxUVNiLVNjMjRySDJBQkcxNl9tQ2JTcnR1NDhfR3JYSkJJQzdGd0xPejQtMExoQQ?oc=5",
+      "prayer": "Civilians in northwest Syria amid ongoing airstrikes targeting armed groups",
+      "alert_summary": "A U.S. airstrike in northwest Syria killed a senior Islamic State member, according to U.S. military officials."
+    },
+    {
+      "wp_id": 7331,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria/",
+      "date": "2026-06-25T05:22:40",
+      "title": "Armed Conflict in Syria",
+      "body": "A U.S. military airstrike killed a senior ISIS leader in Syria, U.S. Central Command (CENTCOM) announced. No further details about the specific location within Syria or the date of the strike were available from the source.\n\nCENTCOM did not report any civilian casualties in connection with the strike. ISIS remains active in parts of Syria, and U.S. forces continue periodic operations against the group's leadership network.\n\nResidents in areas where ISIS operates and where counterterrorism strikes occur face ongoing uncertainty about security conditions.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 35.013048,
+      "lng": 38.505592,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDAyMVFsOTNhZDBFOGlBd3JzbnM4cFhkSU1fTS1kcmlSZmZ3SFRDMm1IUzhZUzVDQ3RqQmt0Mk50YnhUTXhuMUtxUXdINzJJandIUTAtYThzWUg1V21jdmdLbUphcEpiem9ONEZlZkd5S1ZyaGUwRFp5MDhsZVc0WU02aTJ2Q3BYOWVsSmliLURGSmdCRHp3ckU2OGdjNDQ?oc=5",
+      "prayer": "Civilians in Syria amid ongoing U.S. airstrikes targeting ISIS leaders",
+      "alert_summary": "A U.S. airstrike killed a senior ISIS leader in Syria, according to U.S. military officials."
+    },
+    {
+      "wp_id": 7370,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria-4/",
+      "date": "2026-06-25T05:21:43",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "A U.S. airstrike killed a senior Islamic State leader in northwest Syria, according to ABC News. The report does not specify an exact date or the precise location of the strike.\n\nNorthwest Syria has remained an area of ongoing militant activity, and U.S. forces have continued to carry out periodic strikes targeting Islamic State figures in the region. Civilian communities in the area live under the risk of violence from both militant groups and military operations.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN2g4UGdVVFl3UmhDNHViT01JbHdCV282dnN0WHI0M1V2dnZfdWJ1QXl4VEg3NXlrS1YxYkFSQUtfa0RCSjVaYkt1SDRIcGl6SmlSSGY2ZXJXS2pvajQxelRqX21rekVpdDl4UXhqalBYbTJZV1hvcU1ib3JqUDQ1bFVfWkRrbXVhU2RqaS1sU0tPSDlvaVJ2TXFPbE0wa1BpTER6M3dlVHB0bU5SVms5R9IBtgFBVV95cUxPY2R6VnZ5MVpzYVFtSlNGbXdLSjBjQzg3bHpPLTA4RXlwcmYtYS1RU1EzX1BGMTludmM0cV9BVFN2al9JbEVnRnJYMHh1YzdaVXF3dzJrYjN3MTlDbE1hZGp5SFNuMUhnelZqSUdCdThVTno5emRENElBd25JNGppVWVjS2Z1aU1Pd25OdmR4cEFyX3lOUFJqbE02QndqLWFzMlNKR2xBWmg0YWgteWRnUkE0RWFuUQ?oc=5",
+      "prayer": "Civilians in northwest Syria amid ongoing airstrikes targeting militant leaders",
+      "alert_summary": "A U.S. airstrike killed a senior Islamic State leader in northwest Syria; no casualty figures reported."
+    },
+    {
+      "wp_id": 7326,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid/",
+      "date": "2026-06-25T05:21:17",
+      "title": "Armed Conflict in El Obeid",
+      "body": "A regional organization known as IGAD has called for an immediate ceasefire in El Obeid, a city in Sudan's North Kordofan state, following reported fighting and drone attacks in the area. The call reflects growing concern about conditions on the ground for civilians living there.\n\nEl Obeid is a significant urban center, and conflict reaching the city raises concerns for residents, aid workers, and others present in the area. Drone attacks in populated areas can cause civilian casualties and disrupt access to food, medical care, and shelter.\n\nNo specific casualty figures were included in the available report. The ceasefire appeal signals that the situation has drawn enough attention from neighboring governments to prompt a formal response, though whether any parties to the conflict will honor such a call remains unclear.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.183366,
+      "lng": 30.222559,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWmtQU2RreHAzUFRfclJzMXNTSEZYcTNOWDgzOVk4VEV2NHozc3BQcnFkMDRTTnJzY1BWVFBlb2lmdkxOX2tVUHhmMjBBeWg1NGpjRjlZaEVPcWpoRlY2cDNwbE1LZDBOeDFZUzJHcWRxZ0FPcUFfQlRPNGo3WjNoa2JwN0Z5Z0dFRmhZS0NtZXptS0VHRGNqRjVuREgzN0VSQTJ4cl9oaU9JWUVQdE5rMFNQVjVIV2hHTmM5a3JKdDlqa0pzR2lOSkhkclZQMVJqc3c0eGpXUHFHZFdjN3c?oc=5",
+      "prayer": "Civilians in El Obeid, Sudan, caught in ongoing fighting and drone attacks",
+      "alert_summary": "A regional body called for an immediate ceasefire in Sudan's El Obeid region amid reported drone attacks and fighting."
+    },
+    {
+      "wp_id": 7367,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-lagos/",
+      "date": "2026-06-25T05:20:44",
+      "title": "Civil Unrest in Lagos",
+      "body": "Police in Lagos rescued 38 foreign nationals who were targeted in a suspected mob attack. Officers intervened to protect the group and bring them to safety.\n\nNo date for the incident was provided in the source, and details about what triggered the attack or the nationalities of those rescued were not specified. The number of people involved — 38 — suggests a coordinated response was needed to secure the group.\n\nThe foreign nationals were taken to safety by police. It is unclear whether any were injured or what conditions they are now in.",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 6.453928,
+      "lng": 3.38975,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzE3bjhMWlhMOUFfdkx2d0Z2TkYzbzFDeE9LQXdXNDNmd25YNmhBUlZmdjJhVXM0S3dob3EzMkpiWXBKa1VWSENkbVExU3VMYUxudUFTT0kwV2VWWlFiTHk4RjJtT21iVFNTTWd6bXJwUURpZllfLXFCR0FBdHhuRHFrY1VwczJHZG85N2dhQUNoZExiRWpKeHFJNXBza1d3VnZBNQ?oc=5",
+      "prayer": "38 foreign nationals in Lagos caught in a mob attack",
+      "alert_summary": "Police in Lagos rescued 38 foreign nationals from a suspected mob attack; no casualty figures reported."
+    },
+    {
+      "wp_id": 7366,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tacloban-2/",
+      "date": "2026-06-25T05:20:12",
+      "title": "Armed Conflict in Tacloban",
+      "body": "Two teenage students — aged 14 and 15 — allegedly fired handguns inside a classroom at San Jose National High School in Tacloban on Monday, killing three students and wounding 20 others. Police say the attack appeared to be planned, with the two suspects having hidden in a school bathroom beforehand. Both suspects reportedly told police they had been bullied.\n\nThe 9mm pistol one suspect allegedly used belonged to his aunt, a police officer who has since been suspended. The other suspect's firearm was registered to his grandfather's security agency. Murder charges were filed against the 15-year-old. The 14-year-old is below the age of criminal responsibility under Philippine law.\n\nPhilippine authorities temporarily banned the mobile game Gorebox after police linked the younger suspect to the app, though scientific studies have not found a direct link between video games and violent behavior. Senators have signaled they will continue an existing investigation into the effects of violent online content on children.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.243621,
+      "lng": 125.007954,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c14y7738nm8o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Three students killed and 20 wounded in a school shooting in Tacloban, Philippines",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7365,
+      "wp_link": "https://globalwitnessmonitor.com/central-inter-korean-border-2/",
+      "date": "2026-06-25T05:19:56",
+      "title": "Central inter-Korean border",
+      "body": "A North Korean soldier crossed the heavily fortified inter-Korean border near its central section on a Tuesday night and was detained by South Korean forces. South Korea's Joint Chiefs of Staff confirmed the detention and said an investigation is underway. Reports, without a named source, suggest the soldier may have wished to defect.\n\nDirect border crossings are rare. The frontier is densely forested, laced with landmines, and watched closely by both militaries. Most North Koreans who flee the country do so by traveling north into China and then through a third country such as Thailand before reaching the South. In 2024, 236 North Koreans arrived in the South through all routes combined.\n\nThis is reported to be the first such direct crossing of 2026, and the fifth since June of last year. Soldiers who cross are typically handed to intelligence services for security screening before any decision on citizenship is made.",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/north-korean-soldier-crosses-border-to-south/a-77687834?maca=en-rss-en-world-4025-rdf",
+      "prayer": "North Korean soldier detained at the inter-Korean border, facing security screening and uncertain outcome",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7363,
+      "wp_link": "https://globalwitnessmonitor.com/san-felipe/",
+      "date": "2026-06-25T05:19:29",
+      "title": "San Felipe",
+      "body": "On Wednesday, June 25, 2026, two earthquakes struck western Venezuela within seconds of each other — a magnitude 7.2 near San Felipe followed almost immediately by a magnitude 7.5 near Yumare, both roughly 290 kilometers west of Caracas. Buildings and homes collapsed across the capital, with the Altamira neighborhood described as facing an especially alarming situation. Simon Bolivar International Airport shut down after sustaining damage.\n\nVenezuela's acting president declared a state of emergency late Wednesday, while the interior minister confirmed that firefighters, police, and civil emergency teams had been deployed for search and rescue. Officials had not yet released confirmed figures on deaths or injuries.\n\nThe US Geological Survey estimated casualties could range from 10,000 to 100,000 people. Many residents were at home when the quakes hit because Wednesday was a public holiday. Roads were urged to be cleared so emergency crews could reach the injured.",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Other",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared?traffic_source=rss",
+      "prayer": "Venezuelans in Caracas and surrounding regions facing building collapses and feared mass casualties from two earthquakes",
+      "alert_summary": "Two earthquakes of magnitude 7.2 and 7.5 struck near San Felipe and Yumare, Venezuela, with the US Geological Survey estimating 10,000 to 100,000 casualties."
     },
     {
       "wp_id": 7271,
@@ -111,24 +327,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDFDX25zYk5wVXZZd1BtUjNkVU94UHdBWVJWbW9mMF9KLWVMMGhLNnhfVU9ZVlRDVVVzaC1hSG5mbUh2am9pVVV4ZDJKU1RDT1BIeEtSU0Nmb2o0ZVdVZXV2TG1xYXhqWVluRF9aV1NGTURwakRPWlRPcnJ3RUFyZXkxUVNiLVNjMjRySDJBQkcxNl9tQ2JTcnR1NDhfR3JYSkJJQzdGd0xPejQtMExoQQ?oc=5",
       "prayer": "Civilians in northwest Syria amid ongoing airstrikes and armed group activity",
       "alert_summary": "A U.S. airstrike in northwest Syria killed a senior Islamic State member, according to U.S. military officials."
-    },
-    {
-      "wp_id": 7331,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria/",
-      "date": "2026-06-24T17:22:23",
-      "title": "Armed Conflict in Syria",
-      "body": "A U.S. airstrike in Syria killed a senior ISIS leader, according to a statement from U.S. Central Command. The individual was identified as a high-ranking figure within the extremist group.\n\nNo date for the strike was included in the available source material, and no additional details about the location within Syria, civilian casualties, or the circumstances of the operation were provided.\n\nISIS has maintained a presence in parts of Syria and Iraq despite losing its territorial hold in the region in previous years. U.S. forces continue to carry out periodic strikes targeting the group's leadership network. The death of a senior figure can disrupt operations temporarily, though the group has historically replaced leaders over time.",
-      "country": "Syria",
-      "countries": [
-        "Syria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 35.013048,
-      "lng": 38.505592,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPei1YNmsyc3B6RWNSM1BYY3Vwa3ZMYjlVQl9zSV9FQXNocERudXNVd1B2X09SUHFoNk9Rb2lZY3MzTGRVWXBEM1kwOVYtSWJmTFR1WmhFWG9za3JQT2xoY3RnUVdHYklSeGNFOHNhZ0pLMmxDQ0h0Nm9HY0RiNVZvWGN0Z2FBalVsbjF2OGl1WGxGcmJvSTFrQktmdEs4NGxyU2U4SDlfX19pX3NoUkpXUHdsNE9hR0FpeU9xNExB?oc=5",
-      "prayer": "Communities in Syria amid ongoing airstrikes targeting armed group leaders",
-      "alert_summary": "A U.S. airstrike in Syria killed a senior ISIS leader, according to U.S. Central Command."
     },
     {
       "wp_id": 7334,
@@ -237,24 +435,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTFJyZ3lXeWl6UFZjSnA4OHpmODVzd2ZRcS1CSm5mQ09zOWlqMEx2X2tyUlNwRmVQZF95QkFmcklEN1cxSkxiRHBVZHJYalE5dmlwd3ZET0lhRFVKSnhsQ0hJdFo5NndNLUZKd2hmaTI5V0ZicnJmWm40VFE1Vkpld1AwdklRSWx6VXlaemhYVjhEUEF2bGxORWxWM0FOYXJPck0tT19oUG1IeDhXYi1zWmJYcFFOdVBla3AtTDA2eXo0WDBsOTE1RHlmcU1UdlJ4ZHNsbkV3?oc=5",
       "prayer": "Civilians in Sudan's Blue Nile region caught in fighting near the Ethiopia border",
       "alert_summary": "Sudan's army reported capturing a rebel stronghold in the Blue Nile region near the Ethiopia border."
-    },
-    {
-      "wp_id": 7326,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid/",
-      "date": "2026-06-24T17:19:07",
-      "title": "Armed Conflict in El-Obeid",
-      "body": "The United States and the United Nations have issued warnings that mass atrocities may be about to occur in El-Obeid, the capital of North Kordofan state in Sudan. The alerts indicate that conditions on the ground have reached a point where large-scale violence against civilians is considered imminent.\n\nEl-Obeid is a major city and a significant hub in central Sudan. The warning comes amid Sudan's ongoing armed conflict between the Sudanese Armed Forces and the Rapid Support Forces, which has already driven millions from their homes and caused widespread suffering across the country.\n\nNo specific casualty figures were attached to this warning, but the involvement of both the US government and the United Nations signals that international observers consider the threat to civilian life in El-Obeid to be serious and urgent. Residents of the city face an uncertain and dangerous situation.",
-      "country": "Sudan",
-      "countries": [
-        "Sudan"
-      ],
-      "type": "Armed Conflict",
-      "lat": 13.183366,
-      "lng": 30.222559,
-      "source_title": "\"Sudan RSF OR fighting OR airstrike OR El Fasher when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNVM4aUQtVWd5SmI1cllZUU1SS2JlZmJOcHBrYVZaUW1oOW5lT1dmbFN1am5KTVZ6d1FPcUZqektiby1PQkh3ODhzbmVzRHFabngyR1U1d1BobGdxNXdORTFleEhwN29ydENHeUJSQ0xydFEwSlN1V25nUnlXZlBZU04yNXE5V0ZUMEUwSGZRTllvWGJyZVpJU0tYSGJFMkdEYkRCQy1faURFX1FSaXF5ZEJXX0dKVTZ6dE82clpDZUZVU1dzRWwzTzdyVURJMTgxMGVrRFI4YkJGOENmTWhLdGtBM3hyQ1E?oc=5",
-      "prayer": "Civilians in El-Obeid facing warnings of imminent mass atrocities",
-      "alert_summary": "The US and UN warned of imminent mass atrocities in El-Obeid, Sudan; no casualty figures yet reported."
     },
     {
       "wp_id": 7325,
