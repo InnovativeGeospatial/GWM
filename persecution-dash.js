@@ -2,9 +2,10 @@
    GWM Persecution Dashboard — external module (parallel to conflict/disaster)
    Loaded via: <script src="...jsdelivr.../persecution-dash.js?v=YYYYMMDDNN">
    Data feeds read from raw.githubusercontent.com (no jsDelivr lag).
-   Requires Chart.js and maplibre-gl to be loaded BEFORE this file.
+   Requires Chart.js and maplibre-gl (v5+) to be loaded BEFORE this file.
    Contains, in order: (1) 20-year trend chart, (2) map + rankings + news
    feed, (3) header stat counters.
+   GLOBE: requires maplibre-gl v5.0.0+ (globe projection set on map load).
    ============================================================================ */
 
 /* ---- (1) 20-Year Incident Trend Chart -------------------------------------- */
@@ -360,6 +361,11 @@ function gwmPostToFeature(post) {
 }
 
 gwmMap.on('load', function() {
+  // GLOBE: switch from the default (flat Mercator) to the 3D globe projection.
+  // Safe here because the 'load' event fires after the style has finished
+  // loading; calling setProjection before that would throw.
+  gwmMap.setProjection({ type: 'globe' });
+
   try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(255,255,255,0.65)'); } catch(e){}
   try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.5); } catch(e){}
   try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.32)'); } catch(e){}
@@ -367,7 +373,9 @@ gwmMap.on('load', function() {
   try { gwmMap.setPaintProperty('country-label', 'text-halo-color', 'rgba(0,0,0,0.6)'); } catch(e){}
   try { gwmMap.setPaintProperty('country-label', 'text-halo-width', 1.5); } catch(e){}
 
-  gwmMap.fitBounds([[-150, -55], [160, 70]], { padding: 10, duration: 0 });
+  // GLOBE: a flat-map fitBounds rectangle frames poorly on a sphere, so center
+  // the globe on the persecution hotspot band (Africa / Middle East / S. Asia).
+  gwmMap.jumpTo({ center: [20, 15], zoom: 1.3 });
 
   gwmMap.getStyle().layers.forEach(function(layer) {
     var id = layer.id.toLowerCase();
