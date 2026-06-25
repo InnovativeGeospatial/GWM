@@ -1,9 +1,155 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-25T05:25:04.704938+00:00",
-  "count": 860,
+  "updated": "2026-06-25T17:20:31.549513+00:00",
+  "count": 867,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7403,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northwest-syria-6/",
+      "date": "2026-06-25T17:19:26",
+      "title": "Armed Conflict in northwest Syria",
+      "body": "A U.S. military strike killed a senior ISIS leader in northwest Syria, according to reporting from BNO News. No date for the strike was given in the source material.\n\nNo further details were available from the source regarding the exact location within northwest Syria, the method of the strike, or whether any civilians were affected.\n\nNorthwest Syria remains an area where multiple armed groups operate alongside a civilian population that has endured years of displacement and conflict.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGxSUG5TZFlFSURWU0t3emNvdm9kYjA3bHFWWGdTZmtobUZMNEsxYlNBMzNYTXhaTGpUZFQwbFpBVlZEZzBBS2RTcVJ3TXI5b25zS1RyVnRFaFVreHFZTUdMVWxXSE9haHJIeE9YYzVvR2xuV01GT0MxeXZGN2dvNm96MzdxT0hPeFppWUhYVHFpN3kxZWZtSQ?oc=5",
+      "prayer": "Civilians in northwest Syria living near ongoing U.S. strikes targeting ISIS leaders",
+      "alert_summary": "A U.S. strike killed a senior ISIS leader in northwest Syria; no casualty figures beyond that are given."
+    },
+    {
+      "wp_id": 7331,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria/",
+      "date": "2026-06-25T17:19:14",
+      "title": "Armed Conflict in Syria",
+      "body": "U.S. forces carried out an airstrike in Syria that killed a senior ISIS leader, according to reporting by the Cleveland Jewish News. No specific date, location within Syria, or additional casualty figures were provided in the available source material.\n\nISIS remains active in parts of Syria, and U.S. military operations targeting the group's leadership have continued in the region. The removal of senior figures is part of an ongoing effort to disrupt the organization's ability to plan and coordinate attacks.\n\nCivilians in areas where these operations occur can face danger from both militant activity and military strikes, and the broader security situation in Syria continues to affect everyday life for those who remain.",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 35.013048,
+      "lng": 38.505592,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1ZabWVtZ01laFNVNWdMVldsMWZEVTFLNFFVNFZLMWpOYmFiZmtXekd6MVpLdHpNTldOOWJYVnZBV0JqQk9mQnNtR2JhSTZiWlhGTDBXdWhxT1VhTkM2M1dPc3ZxSUNlY1liOVJkTDRXd1ZMbmJDSVBhYUFScldfVldERkwtNDJhQWRHdVBXWmltMktnQjdlb2hhZVNxS0NQcUtBbnNSOFc1V1dRNFExLWxsa2kwbmtnaDNaYVRyQjI1YzczekZmbm5hWlBDOUpL0gHWAUFVX3lxTE9EZVY5N25YX0QzUFBvQ182ZEY5N2g4dlNmS3V4V09rZ0huZXo2RXNhak9SWTJlcldIdmpHMmRzNFljSkxEQ0VRWmhJNERkc1lta1dNd2VwcVhpYW5BWDhkb2ZJVGktZl9qNWlVMldUSHhxdVU0THhDU0doOEktYmFHbk5wM25lSV9pdjVZVEwtWkJaNERlSU9MQ3VOZXRleTNoazVrNERGUnZyY3l5Y1FLd3JOWXZBQk9uQ0UzYTNKc3dvcTRiVWVNU1RLbUdtWFBxZ2tLc3c?oc=5",
+      "prayer": "Civilians in Syria living near ongoing airstrikes and ISIS activity",
+      "alert_summary": "U.S. forces killed a senior ISIS figure in an airstrike in Syria; no casualty figures reported."
+    },
+    {
+      "wp_id": 7401,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-minembwe/",
+      "date": "2026-06-25T17:18:33",
+      "title": "Armed Conflict in Minembwe",
+      "body": "A drone strike hit a hospital in Minembwe, a remote town in eastern Congo. The DR Congo army has been blamed for the attack, though no casualty figures or further details are available from this report.\n\nMinembwe sits in South Kivu province, an area that has seen prolonged fighting involving armed groups and, more recently, M23 rebel activity backed by regional actors. Attacks on medical facilities put already vulnerable communities at greater risk, cutting off care for the sick and wounded in a region where health services are extremely limited.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Armed Conflict",
+      "lat": -3.93442,
+      "lng": 28.73006,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV01HNjltYjlYQ1BjZXdMbkZsVkxYaHVpdGpPVHBtMjFBVjBRUC1nOXptcGlhRE10QVBVZFhVdFpvbE95UjRZcjcwVDZzUS1VNTg3NExyYTNnZ1c0TTBUUjlyLWhXazhlNWM1N2hTNVBzRURuTEFTSnF0S3E3M2VJVFptTUtrdWloTHFWZ0ZjY05tRkQ1Z3prSU5Pd1FsNG5SdzZ2OE9wTDNEellJYnI5bW5wSzLSAbQBQVVfeXFMTldNRzY5bWI5WENQY2V3TG5GbFZMWGh1aXRqT1RwbTIxQVYwUVAtZzl6bXBpYURNdEFQVWRYVXRab2xPeVI0WXI3MFQ2c1EtVTU4NzRMcmEzZ2dXNE0wVFI5ci1oV2s4ZTVjNTdoUzVQc0VEbkxBU0pxdEtxNzNlSVRabU1La3VpaExxVmdGY2NObUZENWd6a0lOT3dRbDRuUnc2djhPcEwzRHpZSWJyOW1ucEsy?oc=5",
+      "prayer": "Patients and staff at Minembwe hospital struck by a drone attack amid ongoing conflict",
+      "alert_summary": "A drone strike hit a hospital in Minembwe; the DR Congo army has been blamed for the attack."
+    },
+    {
+      "wp_id": 7400,
+      "wp_link": "https://globalwitnessmonitor.com/el-junquito/",
+      "date": "2026-06-25T17:17:40",
+      "title": "El Junquito",
+      "body": "Two earthquakes measuring 7.2 and 7.5 struck Venezuela within a minute of each other, killing at least 160 people according to the country's acting president. Caracas and the areas around the capital have experienced some of the worst damage.\n\nIn El Junquito, on the outskirts of Caracas, residents were seen fleeing after a building collapsed. Video footage captured the aftermath of the collapse, showing the scale of destruction in residential areas near the capital.\n\nThe back-to-back nature of the earthquakes left little time for people to respond before the second, larger tremor struck. Residents across the affected areas face displacement as damaged and collapsed structures make many buildings unsafe to return to.",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Other",
+      "lat": 10.461434,
+      "lng": -67.080622,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c78y1e3606vo?at_medium=RSS&at_campaign=rss",
+      "prayer": "At least 160 people killed and many more displaced after back-to-back earthquakes struck Venezuela",
+      "alert_summary": "Back-to-back earthquakes struck Venezuela, killing at least 160 people, with Caracas and surrounding areas among the hardest hit."
+    },
+    {
+      "wp_id": 7399,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gulf-of-oman-2/",
+      "date": "2026-06-25T17:17:22",
+      "title": "Armed Conflict in Gulf of Oman",
+      "body": "On June 9, 2025, the US military struck the Palau-flagged oil and chemical tanker MT Settebello in the Gulf of Oman. Three Indian sailors were killed — an engineering fitter, a chief engineer, and a deck cadet. The other 21 Indian crew members were rescued. US officials said the vessel was carrying Iranian oil and had received repeated warnings; the ship's manager disputes both claims.\n\nThe families of the men killed live in rural Uttar Pradesh and come from farming communities that took on significant debt to fund maritime training. One family sold land and borrowed the equivalent of about $9,000 for a marine engineering course. Relatives say no government official has visited to offer support.\n\nThe strike has shaken confidence in maritime work across nearby villages. Separately, an Indian sailor who survived an Iranian attack on a different tanker on March 1 said the blast killed two crew members. He has been unable to return to sea and now drives a truck on the outskirts of Delhi.",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "India"
+      ],
+      "type": "Armed Conflict",
+      "lat": 41.88548,
+      "lng": -75.04888,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/family-seeks-justice-after-indian-sailor-killed-in-us-strike/a-77706371?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Three Indian sailors' families grieving after a military strike on a commercial tanker in the Gulf of Oman",
+      "alert_summary": "A US strike on the oil tanker MT Settebello in the Gulf of Oman on June 9 killed 3 Indian sailors and left 21 others rescued."
+    },
+    {
+      "wp_id": 7395,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-salfit/",
+      "date": "2026-06-25T17:17:03",
+      "title": "Armed Conflict in Salfit",
+      "body": "On June 25, 2026, Israeli forces raided a home near the town of Salfit in the occupied West Bank and shot and killed a 32-year-old Palestinian man.\n\nSalfit is a town in the northern West Bank. No further details about the circumstances of the raid or the identities of those involved were provided in the report.\n\nThe man's death adds to ongoing fatalities in the West Bank, where military raids on homes have continued to result in civilian casualties.",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 32.082928,
+      "lng": 35.18227,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/israeli-forces-kill-palestinian-man-during-raid-on-his-home?traffic_source=rss",
+      "prayer": "A Palestinian man killed during a home raid near Salfit, and his grieving family",
+      "alert_summary": "Israeli forces killed a 32-year-old Palestinian man during a raid on his home near Salfit in the occupied West Bank."
+    },
+    {
+      "wp_id": 7397,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-6/",
+      "date": "2026-06-25T17:16:52",
+      "title": "Armed Conflict in Nabatieh",
+      "body": "On June 25, 2026, three people were killed and one was wounded when an Israeli strike hit a car traveling between Zawtar and Mayfadoun in Nabatieh Governorate, southern Lebanon. Separately, Israeli forces burned houses in the town of Ain Arab after ordering residents to evacuate before 5pm the previous day.\n\nLebanon's Ministry of Public Health reports that since the conflict began on March 2, 4,230 people have been killed and 12,179 others wounded. A correspondent in Nabatieh described the ceasefire between Israel and Hezbollah as \"fragile,\" noting that Israeli forces continue to target front-line villages they were unable to occupy during weeks of fighting.\n\nWhile the strikes continued, senior Israeli and Lebanese officials wrapped up a third day of US-backed talks in Washington focused on a possible handover of Israeli-held territory to Lebanon's military. Israeli officials stated their forces would not withdraw from southern Lebanon while Hezbollah remains armed, and a Lebanese military official said recent ground activity showed no signs of a pullback.",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.377956,
+      "lng": 35.483513,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/25/israel-kills-three-in-lebanon-as-rubio-praises-progress-in-washington-talks?traffic_source=rss",
+      "prayer": "Three people killed in Nabatieh and residents forced from their homes amid a fragile ceasefire",
+      "alert_summary": "An Israeli strike on a car in Nabatieh Governorate killed 3 and wounded 1 on June 25, 2026."
+    },
+    {
+      "wp_id": 7396,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-orchi-north-darfur/",
+      "date": "2026-06-25T17:16:37",
+      "title": "Displacement in Orchi, North Darfur",
+      "body": "On June 15, 2026, the Rapid Support Forces launched an offensive on the Orchi area of Um Baru locality in North Darfur, Sudan. Fighters on horseback and camels, supported by armed vehicles, burned ten villages to the ground, looted and destroyed the local market, and deliberately cut off the water supply by destroying the Orchi reservoir.\n\nThousands of families fled on foot into eastern Chad, eating tree leaves and drinking contaminated puddle water along the way. Residents report that drones continue to patrol the area, targeting water sources, livestock, and any movement on the ground, making return impossible.\n\nCamps in eastern Chad are receiving up to 80 displaced families each day. Families arrive without food, water, or medicine, sleeping in the open under trees. Children have gone two or more days without eating, and humanitarian networks in the region are overwhelmed by the scale of arrivals.",
+      "country": "Sudan",
+      "countries": [
+        "Sudan",
+        "Chad"
+      ],
+      "type": "Displacement",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/features/2026/6/25/escaping-darfur-mothers-face-starvation-under-trees-in-chad?traffic_source=rss",
+      "prayer": "Thousands of mothers and children from Orchi fleeing without food, water, or shelter into Chad",
+      "alert_summary": "A paramilitary offensive on June 15 burned ten villages in North Darfur, driving thousands of families across the border into Chad with no food or water."
+    },
     {
       "wp_id": 7380,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-edo-2/",
@@ -111,24 +257,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDFDX25zYk5wVXZZd1BtUjNkVU94UHdBWVJWbW9mMF9KLWVMMGhLNnhfVU9ZVlRDVVVzaC1hSG5mbUh2am9pVVV4ZDJKU1RDT1BIeEtSU0Nmb2o0ZVdVZXV2TG1xYXhqWVluRF9aV1NGTURwakRPWlRPcnJ3RUFyZXkxUVNiLVNjMjRySDJBQkcxNl9tQ2JTcnR1NDhfR3JYSkJJQzdGd0xPejQtMExoQQ?oc=5",
       "prayer": "Civilians in northwest Syria amid ongoing airstrikes targeting armed groups",
       "alert_summary": "A U.S. airstrike in northwest Syria killed a senior Islamic State member, according to U.S. military officials."
-    },
-    {
-      "wp_id": 7331,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria/",
-      "date": "2026-06-25T05:22:40",
-      "title": "Armed Conflict in Syria",
-      "body": "A U.S. military airstrike killed a senior ISIS leader in Syria, U.S. Central Command (CENTCOM) announced. No further details about the specific location within Syria or the date of the strike were available from the source.\n\nCENTCOM did not report any civilian casualties in connection with the strike. ISIS remains active in parts of Syria, and U.S. forces continue periodic operations against the group's leadership network.\n\nResidents in areas where ISIS operates and where counterterrorism strikes occur face ongoing uncertainty about security conditions.",
-      "country": "Syria",
-      "countries": [
-        "Syria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 35.013048,
-      "lng": 38.505592,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDAyMVFsOTNhZDBFOGlBd3JzbnM4cFhkSU1fTS1kcmlSZmZ3SFRDMm1IUzhZUzVDQ3RqQmt0Mk50YnhUTXhuMUtxUXdINzJJandIUTAtYThzWUg1V21jdmdLbUphcEpiem9ONEZlZkd5S1ZyaGUwRFp5MDhsZVc0WU02aTJ2Q3BYOWVsSmliLURGSmdCRHp3ckU2OGdjNDQ?oc=5",
-      "prayer": "Civilians in Syria amid ongoing U.S. airstrikes targeting ISIS leaders",
-      "alert_summary": "A U.S. airstrike killed a senior ISIS leader in Syria, according to U.S. military officials."
     },
     {
       "wp_id": 7370,
