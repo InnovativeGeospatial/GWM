@@ -1,185 +1,688 @@
-<!-- wp:html -->
+/* =====================================================================
+ * GWM Conflict & Unrest Dashboard -- JSON feed edition
+ * Reads from: jsDelivr CDN. Pipeline purges jsDelivr after each run.
+ * No ?nocache query string -- jsDelivr /gh/ URLs reject query strings.
+ * No 100-event cap. Falls back to WP REST if JSON feed unreachable.
+ * GLOBE: requires maplibre-gl v5.0.0+ (globe projection set on map load).
+ * ===================================================================== */
+(function () {
+  "use strict";
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
-<link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet"/>
-<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  // -- Config --
+  // Feeds served from jsDelivr. The pipeline purges jsDelivr after each
+  // run so the CDN serves fresh data within minutes. Do NOT append a
+  // query string to jsDelivr /gh/ URLs -- it causes a 404.
+  var JSON_FEED_URL = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/conflict.json";
+  var WP_FALLBACK   = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
+  var ADVISORY_URL  ="https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/travel_advisories.json"
+  var FLAG_BASE     = "https://flagcdn.com/24x18/";
+  var SPREAD_KM     = 5;
 
-<style>
-#conflict-wrap{--bg:#060709;--surface:#0f1117;--surface2:#141720;--border:rgba(255,255,255,0.08);--amber:#f59e0b;--amber-dim:#b45309;--amber-soft:rgba(245,158,11,0.1);--red:#ef4444;--orange:#fb923c;--yellow:#facc15;--green:#22c55e;--blue:#38bdf8;--purple:#a78bfa;--text:#fff;--text-dim:#d0d8e8;--text-muted:#6a7588;font-family:"IBM Plex Sans",sans-serif;background:var(--bg);color:var(--text);width:100%;overflow-x:hidden;}
-#conflict-wrap *{box-sizing:border-box;margin:0;padding:0;}
-#conflict-wrap .c-ticker{background:#0c0e14;border-top:1px solid rgba(245,158,11,0.25);border-bottom:1px solid rgba(245,158,11,0.25);padding:0 20px;height:32px;display:flex;align-items:center;gap:16px;overflow:hidden;}
-#conflict-wrap .c-ticker-label{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--amber);white-space:nowrap;flex-shrink:0;border-right:1px solid var(--amber-dim);padding-right:16px;}
-#conflict-wrap .c-ticker-track{overflow:hidden;flex:1;}
-#conflict-wrap .c-ticker-inner{display:flex;gap:60px;animation:c-scroll 45s linear infinite;white-space:nowrap;}
-#conflict-wrap .c-ticker-item{font-family:"IBM Plex Mono",monospace;font-size:13px;color:#e4eaf0;letter-spacing:0.04em;}
-#conflict-wrap .c-ticker-flag{color:var(--amber);margin-right:6px;}
-#conflict-wrap .c-ticker-sev{margin-left:6px;padding:1px 5px;border-radius:2px;font-size:10px;font-weight:700;letter-spacing:0.06em;}
-#conflict-wrap .sev-crit{background:rgba(239,68,68,0.2);color:#ef4444;border:1px solid rgba(239,68,68,0.4);}
-#conflict-wrap .sev-high{background:rgba(251,146,60,0.2);color:#fb923c;border:1px solid rgba(251,146,60,0.4);}
-@keyframes c-scroll{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
-#conflict-wrap .c-main{display:grid;grid-template-columns:300px 1fr 320px;height:calc(100vh - 94px);overflow:hidden;background:var(--bg);}
-#conflict-wrap .c-panel{background:var(--surface);border:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;}
-#conflict-wrap .c-panel-header{padding:12px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;}
-#conflict-wrap .c-panel-title{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:8px;}
-#conflict-wrap .c-panel-meta{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--text-dim);letter-spacing:0.04em;}
-#conflict-wrap .c-panel-body{flex:1;overflow-y:auto;overflow-x:hidden;}
-#conflict-wrap .c-panel-body::-webkit-scrollbar{width:3px;}
-#conflict-wrap .c-panel-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px;}
-#conflict-wrap .c-stats{padding:14px;border-bottom:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-#conflict-wrap .c-stat{background:var(--surface2);border:1px solid var(--border);border-radius:2px;padding:10px 12px;}
-#conflict-wrap .c-stat-val{font-family:"Space Mono",monospace;font-size:28px;line-height:1;}
-#conflict-wrap .c-stat-val.red{color:var(--red);}
-#conflict-wrap .c-stat-val.orange{color:var(--orange);}
-#conflict-wrap .c-stat-val.yellow{color:var(--yellow);}
-#conflict-wrap .c-stat-val.green{color:var(--green);}
-#conflict-wrap .c-stat-val.amber{color:var(--amber);}
-#conflict-wrap .c-stat-val.blue{color:var(--blue);}
-#conflict-wrap .c-stat-lbl{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--text-dim);letter-spacing:0.08em;text-transform:uppercase;margin-top:4px;}
-#conflict-wrap .c-row{display:flex;align-items:center;padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.04);gap:10px;cursor:pointer;text-decoration:none;color:inherit;}
-#conflict-wrap .c-row:hover{background:var(--surface2);}
-#conflict-wrap .c-rank{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--text-muted);width:20px;flex-shrink:0;text-align:right;}
-#conflict-wrap .c-flag{font-size:18px;width:24px;flex-shrink:0;}
-#conflict-wrap .c-info{flex:1;min-width:0;}
-#conflict-wrap .c-name{font-size:14px;font-weight:500;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-#conflict-wrap .c-type{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--text-dim);margin-top:2px;}
-#conflict-wrap .c-score{flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:3px;}
-#conflict-wrap .c-score-val{font-family:"Space Mono",monospace;font-size:16px;line-height:1;}
-#conflict-wrap .c-score-val.crit{color:var(--red);}
-#conflict-wrap .c-score-val.high{color:var(--orange);}
-#conflict-wrap .c-score-val.med{color:var(--yellow);}
-#conflict-wrap .c-score-val.low{color:var(--green);}
-#conflict-wrap .c-bar-wrap{width:48px;height:2px;background:rgba(255,255,255,0.06);border-radius:1px;overflow:hidden;}
-#conflict-wrap .c-bar{height:100%;border-radius:1px;}
-#conflict-wrap .c-bar.crit{background:var(--red);}
-#conflict-wrap .c-bar.high{background:var(--orange);}
-#conflict-wrap .c-bar.med{background:var(--amber);}
-#conflict-wrap .c-map-panel{position:relative;overflow:hidden;}
-#conflict-wrap .c-map-panel .c-panel-header{position:absolute;top:0;left:0;right:0;z-index:10;background:linear-gradient(180deg,rgba(11,13,17,0.96) 0%,rgba(11,13,17,0.7) 100%);border-bottom-color:rgba(42,48,69,0.5);backdrop-filter:blur(4px);}
-#conflict-wrap #c-map{position:absolute;inset:0;width:100%;height:100%;}
-#conflict-wrap .c-legend{position:absolute;bottom:16px;left:14px;z-index:10;background:rgba(11,13,17,0.9);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:12px 14px;backdrop-filter:blur(6px);}
-#conflict-wrap .c-legend-title{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);margin-bottom:8px;}
-#conflict-wrap .c-legend-item{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--text-dim);}
-#conflict-wrap .c-legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
-#conflict-wrap .c-zoom{position:absolute;bottom:16px;right:14px;z-index:10;display:flex;flex-direction:column;gap:2px;}
-#conflict-wrap .c-zoom-btn{width:30px;height:30px;background:rgba(11,13,17,0.9);border:1px solid rgba(255,255,255,0.1);border-radius:2px;color:var(--text-dim);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
-#conflict-wrap .c-zoom-btn:hover{border-color:var(--amber-dim);color:var(--amber);}
-#conflict-wrap .c-news{padding:12px 14px;border-bottom:1px solid rgba(255,255,255,0.04);cursor:pointer;position:relative;text-decoration:none;display:block;color:inherit;}
-#conflict-wrap .c-news:hover{background:var(--surface2);}
-#conflict-wrap .c-news-meta{display:flex;align-items:center;gap:6px;margin-bottom:6px;}
-#conflict-wrap .c-news-tag{font-family:"IBM Plex Mono",monospace;font-size:12px;padding:2px 7px;border-radius:2px;background:var(--surface2);border:1px solid var(--border);color:var(--text);letter-spacing:0.04em;}
-#conflict-wrap .c-news-time{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#9aa3b8;margin-left:auto;}
-#conflict-wrap .c-news-title{font-size:14px;font-weight:500;color:#fff;line-height:1.4;margin-bottom:5px;}
-#conflict-wrap .c-news-summary{font-size:13px;color:#a8b3c8;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-#conflict-wrap .c-loading{padding:20px 14px;font-family:"IBM Plex Mono",monospace;font-size:13px;color:#9aa3b8;letter-spacing:0.06em;}
-#conflict-wrap .c-footer{background:var(--surface);border-top:1px solid var(--border);padding:0 20px;height:30px;display:flex;align-items:center;justify-content:space-between;}
-#conflict-wrap .c-footer-text{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--text-muted);letter-spacing:0.06em;}
-#conflict-wrap .c-footer a{color:var(--text-muted);text-decoration:none;}
-#conflict-wrap .c-footer a:hover{color:var(--amber);}
+  var TYPE_COLORS = {
+    "armed conflict": "#ef4444",
+    "civil unrest":   "#fb923c",
+    "coup or crisis": "#22c55e",
+    "displacement":   "#a78bfa",
+    "other":          "#94a3b8"
+  };
 
-@media (max-width: 768px) {
-  #conflict-wrap .c-main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    height: auto;
-    overflow: visible;
+  var TYPE_KEY_MAP = {
+    "armed":         "armed conflict",
+    "armed conflict":"armed conflict",
+    "unrest":        "civil unrest",
+    "civil unrest":  "civil unrest",
+    "coup":          "coup or crisis",
+    "coup or crisis":"coup or crisis",
+    "displacement":  "displacement",
+    "other":         "other",
+    "all":           "all"
+  };
+
+  var allEvents = [];
+  var activeFilter = "all";
+  var cMap = null;
+  var expandedKey = null;
+
+  function $id(id) { return document.getElementById(id); }
+  function escHtml(s) {
+    if (s == null) return "";
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   }
-  #conflict-wrap .c-panel {
-    max-height: 460px;
+  function dCapFirst(s) {
+    if (!s) return s;
+    return s.charAt(0).toUpperCase() + s.slice(1);
   }
-  #conflict-wrap .c-map-panel {
-    max-height: none;
-    height: 60vh;
-    min-height: 320px;
+  function timeAgo(iso) {
+    if (!iso) return "";
+    var s = String(iso);
+    if (!/[Zz]|[+-]\d{2}:?\d{2}$/.test(s)) s = s + "Z";
+    var d = new Date(s);
+    if (isNaN(d.getTime())) return "";
+    var diff = Math.floor((Date.now() - d.getTime()) / 1000);
+    if (diff < 0) diff = 0;
+    if (diff < 60) return "now";
+    if (diff < 3600) return Math.floor(diff / 60) + "m";
+    if (diff < 86400) return Math.floor(diff / 3600) + "h";
+    return Math.floor(diff / 86400) + "d";
   }
-  #conflict-wrap #c-map {
-    position: absolute;
-    inset: 0;
+  function typeKey(t) {
+    var k = (t || "other").toString().toLowerCase().trim();
+    return TYPE_KEY_MAP[k] || k;
   }
-  #conflict-wrap .c-stats {
-    grid-template-columns: 1fr 1fr;
+  function colorForType(t) {
+    return TYPE_COLORS[typeKey(t)] || TYPE_COLORS.other;
   }
-  #conflict-wrap .c-ticker {
-    height: auto;
-    min-height: 32px;
-    flex-wrap: wrap;
-    padding: 6px 14px;
+  function countryKey(c) {
+    return (c || "").toString().toLowerCase().trim()
+      .replace(/\s*\([^)]*\)\s*/g, "").trim();
   }
-  #conflict-wrap .c-footer {
-    height: auto;
-    flex-direction: column;
-    gap: 4px;
-    padding: 8px 14px;
+  function displayTypeLabel(t) {
+    var k = typeKey(t);
+    if (k === "other") return "";
+    if (k === "coup or crisis") return "Coup/Crisis";
+    return k.replace(/\b\w/g, function(c) { return c.toUpperCase(); });
   }
-}
 
-</style>
+  var COUNTRY_ISO2 = {
+    "afghanistan":"af","albania":"al","algeria":"dz","andorra":"ad","angola":"ao",
+    "argentina":"ar","armenia":"am","australia":"au","austria":"at","azerbaijan":"az",
+    "bahamas":"bs","bahrain":"bh","bangladesh":"bd","barbados":"bb","belarus":"by",
+    "belgium":"be","belize":"bz","benin":"bj","bhutan":"bt","bolivia":"bo",
+    "bosnia":"ba","bosnia and herzegovina":"ba","botswana":"bw","brazil":"br",
+    "brunei":"bn","bulgaria":"bg","burkina faso":"bf","burundi":"bi","cambodia":"kh",
+    "cameroon":"cm","canada":"ca","cape verde":"cv","central african republic":"cf",
+    "chad":"td","chile":"cl","china":"cn","colombia":"co","comoros":"km",
+    "congo":"cd","democratic republic of congo":"cd","drc":"cd",
+    "republic of congo":"cg","costa rica":"cr","croatia":"hr","cuba":"cu",
+    "cyprus":"cy","czechia":"cz","czech republic":"cz","denmark":"dk",
+    "djibouti":"dj","dominica":"dm","dominican republic":"do","ecuador":"ec",
+    "egypt":"eg","el salvador":"sv","equatorial guinea":"gq","eritrea":"er",
+    "estonia":"ee","eswatini":"sz","ethiopia":"et","fiji":"fj","finland":"fi",
+    "france":"fr","gabon":"ga","gambia":"gm","georgia":"ge","germany":"de",
+    "ghana":"gh","greece":"gr","guatemala":"gt","guinea":"gn","guinea-bissau":"gw",
+    "guyana":"gy","haiti":"ht","honduras":"hn","hungary":"hu","iceland":"is",
+    "india":"in","indonesia":"id","iran":"ir","iraq":"iq","ireland":"ie",
+    "israel":"il","italy":"it","ivory coast":"ci","cote d'ivoire":"ci",
+    "jamaica":"jm","japan":"jp","jordan":"jo","kazakhstan":"kz","kenya":"ke",
+    "kiribati":"ki","kosovo":"xk","kuwait":"kw","kyrgyzstan":"kg","laos":"la",
+    "latvia":"lv","lebanon":"lb","lesotho":"ls","liberia":"lr","libya":"ly",
+    "lithuania":"lt","luxembourg":"lu","madagascar":"mg","malawi":"mw",
+    "malaysia":"my","maldives":"mv","mali":"ml","malta":"mt","mauritania":"mr",
+    "mauritius":"mu","mexico":"mx","moldova":"md","monaco":"mc","mongolia":"mn",
+    "montenegro":"me","morocco":"ma","mozambique":"mz","myanmar":"mm","burma":"mm",
+    "namibia":"na","nepal":"np","netherlands":"nl","new zealand":"nz",
+    "nicaragua":"ni","niger":"ne","nigeria":"ng","north korea":"kp",
+    "north macedonia":"mk","norway":"no","oman":"om","pakistan":"pk",
+    "palestine":"ps","panama":"pa","papua new guinea":"pg","paraguay":"py",
+    "peru":"pe","philippines":"ph","poland":"pl","portugal":"pt","qatar":"qa",
+    "romania":"ro","russia":"ru","rwanda":"rw","samoa":"ws","saudi arabia":"sa",
+    "senegal":"sn","serbia":"rs","sierra leone":"sl","singapore":"sg",
+    "slovakia":"sk","slovenia":"si","solomon islands":"sb","somalia":"so",
+    "south africa":"za","south korea":"kr","south sudan":"ss","spain":"es",
+    "sri lanka":"lk","sudan":"sd","suriname":"sr","sweden":"se",
+    "switzerland":"ch","syria":"sy","taiwan":"tw","tajikistan":"tj",
+    "tanzania":"tz","thailand":"th","timor leste":"tl","timor-leste":"tl",
+    "togo":"tg","tonga":"to","trinidad and tobago":"tt","tunisia":"tn",
+    "turkey":"tr","turkmenistan":"tm","tuvalu":"tv","uganda":"ug","ukraine":"ua",
+    "united arab emirates":"ae","uae":"ae","united kingdom":"gb","uk":"gb",
+    "britain":"gb","united states":"us","usa":"us","u.s.":"us","us":"us",
+    "uruguay":"uy","uzbekistan":"uz","vanuatu":"vu","vatican":"va","venezuela":"ve",
+    "vietnam":"vn","yemen":"ye","zambia":"zm","zimbabwe":"zw",
+    "anguilla":"ai",
+    "antigua and barbuda":"ag",
+    "aruba":"aw",
+    "bermuda":"bm",
+    "british virgin islands":"vg",
+    "cayman islands":"ky",
+    "curacao":"cw",
+    "faroe islands":"fo",
+    "french polynesia":"pf",
+    "gibraltar":"gi",
+    "greenland":"gl",
+    "grenada":"gd",
+    "hong kong":"hk",
+    "liechtenstein":"li",
+    "macao":"mo",
+    "macau":"mo",
+    "marshall islands":"mh",
+    "micronesia":"fm",
+    "montserrat":"ms",
+    "nauru":"nr",
+    "new caledonia":"nc",
+    "palau":"pw",
+    "saint kitts and nevis":"kn",
+    "saint lucia":"lc",
+    "saint vincent and the grenadines":"vc",
+    "san marino":"sm",
+    "sao tome and principe":"st",
+    "seychelles":"sc",
+    "sint maarten":"sx",
+    "turks and caicos islands":"tc",
+    "western sahara":"eh",
+    "democratic republic of the congo":"cd",
+    "republic of the congo":"cg",
+    "cote d ivoire":"ci",
+    "kingdom of denmark":"dk",
+    "the bahamas":"bs",
+    "the gambia":"gm",
+    "cabo verde":"cv",
+    "federated states of micronesia":"fm",
+    "the kyrgyz republic":"kg",
+    "curaçao":"cw",
+    "mainland china, hong kong & macau":"cn"
+  };
 
-<div id="conflict-wrap">
+  function flagHTML(country) {
+    var iso = COUNTRY_ISO2[countryKey(country)];
+    if (!iso) return '<span class="c-country-flag">\uD83C\uDF0D</span>';
+    return '<img class="c-country-flag" src="' + FLAG_BASE + iso + '.png" ' +
+           'alt="" style="width:18px;height:13px;border-radius:2px;vertical-align:middle;">';
+  }
 
-<div class="c-ticker">
-  <div class="c-ticker-label">&#9650; ALERTS</div>
-  <div class="c-ticker-track">
-    <div class="c-ticker-inner" id="c-ticker-content">
-      <span class="c-ticker-item">Loading alerts...</span>
-    </div>
-  </div>
-</div>
+  function fetchEvents() {
+    return fetch(JSON_FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) {
+        if (!r.ok) throw new Error("JSON feed HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        if (!data || !Array.isArray(data.events)) {
+          throw new Error("JSON feed malformed");
+        }
+        console.log("[conflict-dash] loaded " + data.events.length +
+                    " events from JSON feed (updated " + data.updated + ")");
+        return data.events;
+      })
+      .catch(function (err) {
+        console.warn("[conflict-dash] JSON feed failed, falling back to WP REST:", err);
+        return fetch(WP_FALLBACK).then(function (r) { return r.json(); })
+          .then(function (posts) {
+            return posts.map(wpPostToEvent).filter(function (e) { return e; });
+          });
+      });
+  }
 
-<div class="c-main">
+  var META_RE = /data-country="([^"]*)"[^>]*data-type="([^"]*)"[^>]*data-lat="([^"]*)"[^>]*data-lng="([^"]*)"/;
+  function wpPostToEvent(post) {
+    var content = post.content ? post.content.rendered : "";
+    var title = (post.title.rendered || "").replace(/(<([^>]+)>)/gi, "");
+    var excerpt = post.excerpt ? post.excerpt.rendered.replace(/(<([^>]+)>)/gi, "") : "";
+    var m = content.match(META_RE);
+    var country = "", etype = "Other", lat = null, lng = null;
+    if (m) {
+      country = m[1];
+      etype = m[2] || "Other";
+      lat = m[3] ? parseFloat(m[3]) : null;
+      lng = m[4] ? parseFloat(m[4]) : null;
+    }
+    if (!country) return null;
+    return {
+      wp_id: post.id, wp_link: post.link, date: post.date,
+      title: title, body: excerpt, country: country, type: etype,
+      lat: lat, lng: lng, source_title: "", source_url: ""
+    };
+  }
 
-  <div class="c-panel">
-    <div class="c-panel-header">
-      <div class="c-panel-title">&#9658; U.S. State Department<br> Travel Advisories</div>
-      
-    </div>
-    <div class="c-stats">
-      <div class="c-stat"><div class="c-stat-val red" id="c-level4">--</div><div class="c-stat-lbl">Level 4</div></div>
-      <div class="c-stat"><div class="c-stat-val orange" id="c-level3">--</div><div class="c-stat-lbl">Level 3</div></div>
-      <div class="c-stat"><div class="c-stat-val yellow" id="c-level2">--</div><div class="c-stat-lbl">Level 2</div></div>
-      <div class="c-stat"><div class="c-stat-val green" id="c-level1">--</div><div class="c-stat-lbl">Level 1</div></div>
-    </div>
-    <div class="c-panel-body" id="c-index"></div>
-  </div>
+  function filteredEvents() {
+    if (activeFilter === "all") return allEvents.slice();
+    return allEvents.filter(function (e) { return typeKey(e.type) === activeFilter; });
+  }
 
-  <div class="c-panel c-map-panel">
-    <div class="c-panel-header">
-      <div class="c-panel-title">&#9658; Global Conflict Map</div>
-      <div class="c-panel-meta" id="c-map-count">LOADING...</div>
-    </div>
-    <div id="c-map"></div>
-    <div class="c-legend">
-      <div class="c-legend-title">Event Type</div>
-      <div class="c-legend-item"><span class="c-legend-dot" style="background:#ef4444"></span>Armed Conflict</div>
-      <div class="c-legend-item"><span class="c-legend-dot" style="background:#fb923c"></span>Civil Unrest</div>
-      <div class="c-legend-item"><span class="c-legend-dot" style="background:#22c55e"></span>Coup / Crisis</div>
-      <div class="c-legend-item"><span class="c-legend-dot" style="background:#a78bfa"></span>Displacement</div>
-    </div>
-    <div class="c-zoom">
-      <button class="c-zoom-btn" id="c-zin">+</button>
-      <button class="c-zoom-btn" id="c-zout">&#8722;</button>
-    </div>
-  </div>
+  function loadAdvisories() {
+    fetch(ADVISORY_URL + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (payload) {
+        renderAdvisories(payload.advisories || []);
+      })
+      .catch(function (err) {
+        console.error("[conflict-dash] Travel advisory fetch failed:", err);
+        var indexEl = $id("c-index");
+        if (indexEl) indexEl.innerHTML = "<div class='c-loading'>Advisory data unavailable</div>";
+      });
+  }
+  function renderAdvisories(advisories) {
+    var levelText  = {1:"Normal Precautions", 2:"Increased Caution", 3:"Reconsider Travel", 4:"Do Not Travel"};
+    var levelGrade = {1:"low", 2:"med", 3:"high", 4:"crit"};
+    var counts = {1:0, 2:0, 3:0, 4:0};
+    var rows = advisories.map(function (a) {
+      counts[a.level] = (counts[a.level] || 0) + 1;
+      return {n: a.country, l: a.level, t: levelText[a.level] || "", g: levelGrade[a.level] || "low", link: a.link || ""};
+    });
+    rows.sort(function (a, b) {
+      if (b.l !== a.l) return b.l - a.l;
+      return a.n.localeCompare(b.n);
+    });
+    var indexEl = $id("c-index");
+    if (indexEl) {
+      var html = "";
+      for (var i = 0; i < rows.length; i++) {
+        var c = rows[i];
+        html += "<a class='c-row' href='" + escHtml(c.link || '#') + "' target='_blank' rel='noopener' style='text-decoration:none;color:inherit;'><div class='c-rank'>" + (i + 1) + "</div>" +
+                "<div class='c-flag'>" + flagHTML(c.n) + "</div>" +
+                "<div class='c-info'><div class='c-name'>" + escHtml(c.n) + "</div>" +
+                "<div class='c-type'>Level " + c.l + ": " + c.t + "</div></div>" +
+                "<div class='c-score'><div class='c-score-val " + c.g + "'>" + c.l + "</div></div></a>";
+      }
+      indexEl.innerHTML = html;
+    }
+    var l4 = $id("c-level4"), l3 = $id("c-level3"), l2 = $id("c-level2"), l1 = $id("c-level1");
+    if (l4) l4.textContent = counts[4];
+    if (l3) l3.textContent = counts[3];
+    if (l2) l2.textContent = counts[2];
+    if (l1) l1.textContent = counts[1];
+  }
 
-  <div class="c-panel">
-    <div class="c-panel-header">
-      <div class="c-panel-title">&#9658; Incident Reports</div>
-      <div class="c-panel-meta" id="c-news-count">FETCHING...</div>
-    </div>
-    <div class="c-panel-body" id="c-feed">
-      <div class="c-loading">CONNECTING TO FEED...</div>
-    </div>
-  </div>
+  function renderNews(events) {
+    var feed = $id("c-feed");
+    var countEl = $id("c-news-count");
+    var liveEl = $id("c-live-count");
+    if (!feed) return;
+    if (!events.length) {
+      feed.innerHTML = "<div class='c-loading'>No reports match current filter</div>";
+      if (countEl) countEl.textContent = "0 REPORTS";
+      if (liveEl) liveEl.textContent = "0";
+      return;
+    }
+    if (countEl) countEl.textContent = events.length + " REPORTS";
+    if (liveEl) liveEl.textContent = events.length;
 
-</div>
+    var html = events.slice(0, 3000).map(function (e) {
+      var color = colorForType(e.type);
+      var excerpt = (e.body || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+      if (excerpt.length > 140) excerpt = excerpt.substring(0, 140) + "\u2026";
+      var ago = timeAgo(e.date);
 
-<div class="c-footer">
-  <div class="c-footer-text">GWM CONFLICT v1.1 | <span id="c-clock">--:--:-- UTC</span></div>
-  <div class="c-footer-text"><a href="/">globalwitnessmonitor.com</a></div>
-</div>
+      return "<a class='c-news' href='" + escHtml(e.wp_link || "#") + "' target='_blank' rel='noopener' style='display:flex;text-decoration:none;color:inherit;'>" +
+             "<div style='width:3px;flex-shrink:0;background:" + color + ";'></div>" +
+             "<div style='flex:1;min-width:0;padding:10px 14px;'>" +
+             "<div class='c-news-meta'>" +
+             flagHTML(e.country) +
+             "<span class='c-news-country'>" + escHtml(e.country || "") + "</span>" +
+             "<span class='c-news-time'>" + escHtml(ago) + "</span>" +
+             "</div>" +
+             "<div class='c-news-title'>" + escHtml(e.title || "") + "</div>" +
+             (excerpt ? "<div class='c-news-summary'>" + escHtml(excerpt) + "</div>" : "") +
+             "</div></a>";
 
-</div>
+    }).join("");
+    feed.innerHTML = html;
+  }
 
-<script src="https://cdn.jsdelivr.net/gh/InnovativeGeospatial/GWM@df6e1689db8683b8b61cc403a5ee656095769f83/conflict-dash.js"></script>
+  function renderTicker(events) {
+    var node = $id("c-ticker-content");
+    if (!node) return;
+    if (!events.length) {
+      node.innerHTML = "<span class='c-ticker-item'>No active events</span>";
+      return;
+    }
+    var items = events.slice(0, 30).map(function (e) {
+      var title = (e.title || "").substring(0, 90);
+      return "<span class='c-ticker-item'>" +
+             flagHTML(e.country) +
+             "<span>" + escHtml(title) + "</span>" +
+             "</span>";
+    });
 
+    var MIN_ITEMS_FOR_SCROLL = 5;
+    var SPEED_PX_PER_SEC = 250;
 
-<!-- /wp:html -->
+    if (items.length < MIN_ITEMS_FOR_SCROLL) {
+      node.innerHTML = items.join("<span class='c-ticker-sep'>\u00b7</span>");
+      node.style.setProperty("animation", "none", "important");
+      node.style.setProperty("transform", "none", "important");
+      var parent = node.parentElement;
+      if (parent) {
+        parent.style.setProperty("animation", "none", "important");
+      }
+      return;
+    }
+
+    var doubled = items.concat(items).join("");
+    node.innerHTML = doubled;
+    requestAnimationFrame(function () {
+      var distance = node.scrollWidth / 2;
+      if (!distance || !isFinite(distance)) return;
+      var duration = Math.round(distance / SPEED_PX_PER_SEC);
+      node.style.setProperty("animation-duration", duration + "s", "important");
+      var parent = node.parentElement;
+      if (parent) {
+        parent.style.setProperty("animation-duration", duration + "s", "important");
+      }
+    });
+  }
+
+  function initMap() {
+    if (typeof maplibregl === "undefined") {
+      console.error("[conflict-dash] MapLibre not loaded");
+      return;
+    }
+    cMap = new maplibregl.Map({
+      container: "c-map",
+      style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+      center: [20, 15],
+      zoom: 1.4,
+      minZoom: 1,
+      maxZoom: 8,
+      attributionControl: false
+    });
+    cMap.addControl(new maplibregl.AttributionControl({
+      customAttribution: '\u00a9 <a href="https://carto.com" style="color:#555">CARTO</a>',
+      compact: true
+    }), "bottom-right");
+
+    var s = document.createElement("style");
+    s.innerHTML = '.maplibregl-ctrl-attrib{background:rgba(15,17,23,0.5)!important;color:#444!important;font-size:8px!important;}.maplibregl-ctrl-attrib a{color:#555!important;}.maplibregl-ctrl-attrib-button{display:none!important;}.maplibregl-ctrl-zoom-in,.maplibregl-ctrl-zoom-out,.maplibregl-ctrl-compass{background:#161a23!important;border-color:rgba(255,255,255,0.1)!important;}.maplibregl-ctrl-icon{filter:invert(0.7)!important;}.maplibregl-ctrl-group{background:#161a23!important;border:1px solid rgba(255,255,255,0.1)!important;}';
+    document.head.appendChild(s);
+
+    cMap.on("load", function () {
+      // GLOBE: switch from flat Mercator to the 3D globe projection. Safe in
+      // the 'load' handler because the style has finished loading by now.
+      cMap.setProjection({ type: "globe" });
+
+      // GLOBE HALO: bright blue atmosphere ring at the limb of the earth.
+      // atmosphere-blend fades it out as you zoom in.
+      cMap.setSky({
+        "atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 0.8, 4, 0.8, 6, 0],
+        "sky-color": "#1e6fff",
+        "horizon-color": "#9fdcff",
+        "fog-color": "#060709"
+      });
+
+      // Higher-contrast basemap (REAL CARTO Dark Matter layer ids).
+      try { cMap.setPaintProperty("water", "fill-color", "#15436b"); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-color", "rgba(155,208,255,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-width", 1.4); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-opacity", 1); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-color", "#ffffff"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-halo-width", 1.8); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-color", "rgba(236,243,255,0.95)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-halo-width", 1.6); } catch(e){}
+
+      cMap.addSource("c-lines", { type:"geojson", data:{type:"FeatureCollection", features:[]} });
+      cMap.addLayer({ id:"c-spider-legs", type:"line", source:"c-lines",
+        paint:{"line-color":"rgba(255,255,255,0.4)","line-width":1.5,"line-dasharray":[2,2]} });
+      cMap.addSource("cpts", { type:"geojson", data:{type:"FeatureCollection", features:[]} });
+      cMap.addLayer({ id:"cglow", type:"circle", source:"cpts",
+        paint:{"circle-radius":14,"circle-color":["get","color"],"circle-opacity":0.25,"circle-blur":1} });
+      cMap.addLayer({ id:"cdots", type:"circle", source:"cpts",
+        paint:{"circle-radius":7,"circle-color":["get","color"],"circle-opacity":0.9,
+               "circle-stroke-width":1.5,"circle-stroke-color":"rgba(255,255,255,0.6)"} });
+
+      cMap.on("click", "cdots", onDotClick);
+      cMap.on("click", function (e) {
+        var dot = cMap.queryRenderedFeatures(e.point, { layers:["cdots"] });
+        if (!dot.length && expandedKey) collapseAll();
+      });
+      cMap.on("mouseenter", "cdots", function () { cMap.getCanvas().style.cursor = "pointer"; });
+      cMap.on("mouseleave", "cdots", function () { cMap.getCanvas().style.cursor = ""; });
+
+      paintMap(filteredEvents());
+    });
+
+    var zin = $id("c-zin"), zout = $id("c-zout");
+    if (zin) zin.onclick = function () { cMap.zoomIn(); };
+    if (zout) zout.onclick = function () { cMap.zoomOut(); };
+  }
+
+  function eventsToFeatures(events) {
+    return events.filter(function (e) {
+      return typeof e.lat === "number" && typeof e.lng === "number";
+    }).map(function (e) {
+      return {
+        type: "Feature",
+        geometry: { type: "Point", coordinates: [e.lng, e.lat] },
+        properties: {
+          title: e.title || "",
+          country: e.country || "",
+          countryKey: countryKey(e.country),
+          type: typeKey(e.type),
+          color: colorForType(e.type),
+          link: e.wp_link || "#",
+          wp_id: e.wp_id
+        }
+      };
+    });
+  }
+
+  function paintMap(events) {
+    if (!cMap || !cMap.getSource) return;
+    if (!cMap.getSource("cpts")) return;
+    var features = eventsToFeatures(events);
+    cMap.getSource("cpts").setData({ type:"FeatureCollection", features:features });
+    if (cMap.getSource("c-lines")) {
+      cMap.getSource("c-lines").setData({ type:"FeatureCollection", features:[] });
+    }
+    expandedKey = null;
+    var mapCountEl = $id("c-map-count");
+    if (mapCountEl) mapCountEl.textContent = features.length + " EVENTS";
+  }
+
+  function distanceKm(lat1, lng1, lat2, lng2) {
+    var R = 6371;
+    var dLat = (lat2 - lat1) * Math.PI / 180;
+    var dLng = (lng2 - lng1) * Math.PI / 180;
+    var a = Math.sin(dLat/2)*Math.sin(dLat/2) +
+            Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180) *
+            Math.sin(dLng/2)*Math.sin(dLng/2);
+    return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
+
+  function findStackedFeatures(centerFeature, allFeatures) {
+    var cLng = centerFeature.geometry.coordinates[0];
+    var cLat = centerFeature.geometry.coordinates[1];
+    return allFeatures.filter(function (f) {
+      var lng = f.geometry.coordinates[0];
+      var lat = f.geometry.coordinates[1];
+      return distanceKm(lat, lng, cLat, cLng) < SPREAD_KM;
+    });
+  }
+
+  function spread(features, centerLng, centerLat) {
+    if (features.length === 1) return features;
+    var radiusDeg = 0.4;
+    return features.map(function (f, i) {
+      var angle = (2 * Math.PI * i / features.length) - Math.PI / 2;
+      var newLng = centerLng + radiusDeg * Math.cos(angle);
+      var newLat = centerLat + radiusDeg * Math.sin(angle);
+      newLat = Math.max(-80, Math.min(80, newLat));
+      return {
+        type: "Feature",
+        geometry: { type: "Point", coordinates: [newLng, newLat] },
+        properties: f.properties
+      };
+    });
+  }
+
+  function expandStack(centerFeature) {
+    var allF = eventsToFeatures(filteredEvents());
+    var stack = findStackedFeatures(centerFeature, allF);
+    if (stack.length < 2) return false;
+
+    var cLng = centerFeature.geometry.coordinates[0];
+    var cLat = centerFeature.geometry.coordinates[1];
+    var spreadFeatures = spread(stack, cLng, cLat);
+    var stackIds = {};
+    stack.forEach(function (f) { stackIds[f.properties.wp_id] = true; });
+    var others = allF.filter(function (f) { return !stackIds[f.properties.wp_id]; });
+
+    var lines = spreadFeatures.map(function (f) {
+      return {
+        type: "Feature",
+        geometry: { type: "LineString",
+                    coordinates: [[cLng, cLat], f.geometry.coordinates] }
+      };
+    });
+    cMap.getSource("c-lines").setData({ type:"FeatureCollection", features:lines });
+    cMap.getSource("cpts").setData({
+      type:"FeatureCollection", features: others.concat(spreadFeatures)
+    });
+    expandedKey = "" + cLng + "," + cLat;
+    return true;
+  }
+
+  function collapseAll() {
+    if (!cMap.getSource("cpts")) return;
+    cMap.getSource("c-lines").setData({ type:"FeatureCollection", features:[] });
+    cMap.getSource("cpts").setData({
+      type:"FeatureCollection", features: eventsToFeatures(filteredEvents())
+    });
+    expandedKey = null;
+  }
+
+  function showPopup(coords, props) {
+    var typeLabel = displayTypeLabel(props.type);
+    var headerLine = typeLabel
+      ? escHtml(typeLabel) + ' \u00b7 ' + escHtml(props.country)
+      : escHtml(props.country);
+    new maplibregl.Popup({ closeButton:false, offset:12 })
+      .setLngLat(coords)
+      .setHTML(
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:220px;color:#666;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;margin-bottom:5px;">' +
+          headerLine +
+        '</div>' +
+        '<div style="font-size:13px;font-weight:500;line-height:1.4;margin-bottom:8px;">' +
+          escHtml(props.title) +
+        '</div>' +
+        '<a href="' + escHtml(props.link) + '" target="_blank" rel="noopener" ' +
+        'style="font-size:11px;color:#ef4444;text-decoration:none;">Read full report \u2192</a>' +
+        '</div>'
+      )
+      .addTo(cMap);
+  }
+
+  function onDotClick(e) {
+    e.originalEvent.stopPropagation();
+    var feature = e.features[0];
+    var coords = feature.geometry.coordinates.slice();
+    var allF = eventsToFeatures(filteredEvents());
+    var stack = findStackedFeatures(feature, allF);
+
+    if (stack.length < 2) {
+      showPopup(coords, feature.properties);
+      return;
+    }
+
+    showStackList(coords, stack);
+  }
+
+  function showStackList(coords, stack) {
+    // Sort newest first by matching back to allEvents for the date
+    var eventsByWpId = {};
+    allEvents.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
+
+    var items = stack.map(function (f) {
+      var ev = eventsByWpId[f.properties.wp_id] || {};
+      return {
+        wp_id: f.properties.wp_id,
+        title: f.properties.title,
+        country: f.properties.country,
+        type: f.properties.type,
+        color: f.properties.color,
+        link: f.properties.link,
+        date: ev.date || ""
+      };
+    });
+    items.sort(function (a, b) {
+      return (b.date || "").localeCompare(a.date || "");
+    });
+
+    var country = items[0].country;
+    var rows = items.map(function (it) {
+      var d = it.date ? new Date(it.date) : null;
+      var dateStr = d && !isNaN(d.getTime())
+        ? d.toISOString().slice(0, 10)
+        : "";
+      var typeLabel = displayTypeLabel(it.type);
+      return '<a href="' + escHtml(it.link) + '" target="_blank" rel="noopener" ' +
+             'style="display:block;padding:8px 10px;border-bottom:1px solid #eee;text-decoration:none;color:#111;">' +
+             '<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">' +
+             '<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + it.color + ';"></span>' +
+             '<span style="font-size:10px;color:#111;text-transform:uppercase;letter-spacing:0.08em;">' +
+             escHtml(dateStr) + (typeLabel ? ' \u00b7 ' + escHtml(typeLabel) : '') +
+             '</span></div>' +
+             '<div style="font-size:12px;line-height:1.35;font-weight:500;">' +
+             escHtml(it.title) +
+             '</div></a>';
+    }).join("");
+
+    new maplibregl.Popup({ closeButton: true, offset: 12, maxWidth: "320px" })
+      .setLngLat(coords)
+      .setHTML(
+        '<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:260px;max-height:340px;overflow-y:auto;color:#111;">' +
+        '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#111;padding:8px 10px 6px;border-bottom:1px solid #ddd;font-weight:600;">' +
+        items.length + ' events \u00b7 ' + escHtml(country) +
+        '</div>' +
+        rows +
+        '</div>'
+      )
+      .addTo(cMap);
+  }
+
+  function setFilter(t) {
+    activeFilter = typeKey(t);
+    var btns = document.querySelectorAll(".c-fbtn");
+    for (var i = 0; i < btns.length; i++) {
+      var btnText = (btns[i].textContent || "").trim().toLowerCase();
+      if (typeKey(btnText) === activeFilter) {
+        btns[i].classList.add("active");
+      } else {
+        btns[i].classList.remove("active");
+      }
+    }
+    var events = filteredEvents();
+    renderNews(events);
+    renderTicker(events);
+    paintMap(events);
+  }
+
+  function bindFilters() {
+    var btns = document.querySelectorAll(".c-fbtn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var label = (this.textContent || "").trim().toLowerCase();
+        setFilter(label);
+      });
+    }
+  }
+
+  function startClock() {
+    var node = $id("c-clock");
+    if (!node) return;
+    function tick() {
+      var d = new Date();
+      var hh = String(d.getUTCHours()).padStart(2, "0");
+      var mm = String(d.getUTCMinutes()).padStart(2, "0");
+      var ss = String(d.getUTCSeconds()).padStart(2, "0");
+      node.textContent = hh + ":" + mm + ":" + ss + " UTC";
+    }
+    tick();
+    setInterval(tick, 1000);
+  }
+
+  function boot() {
+    startClock();
+    loadAdvisories();
+    bindFilters();
+    initMap();
+    fetchEvents().then(function (events) {
+      allEvents = events || [];
+      var view = filteredEvents();
+      renderNews(view);
+      renderTicker(view);
+      if (cMap && cMap.loaded && cMap.loaded()) paintMap(view);
+    }).catch(function (err) {
+      console.error("[conflict-dash] fetch failed:", err);
+      var f = $id("c-feed"); if (f) f.innerHTML = "<div class='c-loading'>FEED ERROR</div>";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+})();
