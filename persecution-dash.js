@@ -376,13 +376,28 @@ gwmMap.on('load', function() {
     'fog-color': '#0a0c10'
   });
 
-  // Higher-contrast basemap: bright country outlines + crisp white labels.
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(150,205,255,0.85)'); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.6); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.30)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-color', '#ffffff'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-halo-color', 'rgba(0,0,0,0.85)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-halo-width', 1.6); } catch(e){}
+  // Higher-contrast basemap. These are the REAL CARTO Dark Matter layer ids
+  // (verified against the live style.json). The old admin-0-boundary /
+  // country-label ids don't exist in this style, so those calls silently
+  // no-op'd — which is why borders and labels stayed dim.
+
+  // Ocean vs land: lift the ocean to a clear blue so coastlines read crisply
+  // against the near-black land (#0e0e0e).
+  try { gwmMap.setPaintProperty('water', 'fill-color', '#15436b'); } catch(e){}
+
+  // Country borders: bright blue-white outline. boundary_country_inner is the
+  // layer that renders at globe zoom (boundary_country_outline only shows 6+).
+  try { gwmMap.setPaintProperty('boundary_country_inner', 'line-color', 'rgba(155,208,255,0.9)'); } catch(e){}
+  try { gwmMap.setPaintProperty('boundary_country_inner', 'line-width', 1.4); } catch(e){}
+  try { gwmMap.setPaintProperty('boundary_country_inner', 'line-opacity', 1); } catch(e){}
+
+  // Country labels: bright white + strong dark halo so they pop off the globe.
+  try { gwmMap.setPaintProperty('place_country_1', 'text-color', '#ffffff'); } catch(e){}
+  try { gwmMap.setPaintProperty('place_country_1', 'text-halo-color', 'rgba(0,0,0,0.9)'); } catch(e){}
+  try { gwmMap.setPaintProperty('place_country_1', 'text-halo-width', 1.8); } catch(e){}
+  try { gwmMap.setPaintProperty('place_country_2', 'text-color', 'rgba(236,243,255,0.95)'); } catch(e){}
+  try { gwmMap.setPaintProperty('place_country_2', 'text-halo-color', 'rgba(0,0,0,0.9)'); } catch(e){}
+  try { gwmMap.setPaintProperty('place_country_2', 'text-halo-width', 1.6); } catch(e){}
 
   // GLOBE: a flat-map fitBounds rectangle frames poorly on a sphere, so center
   // the globe on the persecution hotspot band (Africa / Middle East / S. Asia).
