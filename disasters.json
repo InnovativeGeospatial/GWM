@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-26T05:09:59.584264+00:00",
-  "count": 786,
+  "updated": "2026-06-26T17:12:16.262170+00:00",
+  "count": 796,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7439,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-united-states-06-25-2026/",
+      "date": "2026-06-26T17:12:08",
+      "title": "Drought in United States 06/25/2026",
+      "body": "Oregon's governor declared a drought emergency in Josephine and Wasco counties, according to a report from KDRV. The declaration signals that water conditions in these two counties have deteriorated to a point requiring a formal state response.\n\nDrought emergencies in Oregon typically allow counties to access additional state resources and expedite water-related decisions for farmers, ranchers, and communities depending on limited water supplies. Josephine County is in southwestern Oregon, while Wasco County lies in the north-central part of the state near the Columbia River Gorge.\n\nNo specific details about water levels, crop losses, or the number of people affected were included in the available source material. Residents and those serving in these areas should monitor local officials for guidance on water use and available assistance.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Drought",
+      "lat": 45.591827,
+      "lng": -120.697783,
+      "source_title": "\"drought OR famine emergency OR crisis when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeFJ0ZllqY0Vya0xXdEg4T0l6N3VkcUkwelBsOFR6WkVZYjlqUmFrS2RXeTBXSTYxZnJZWjZHS2MzcHNxNUc2Qm93R1hfUk42WnU1MDdwYzQ4XzNFZlBaRkNEZ3plN2lyM1ZzMDZmMm1zUm1XNi0wMGI3aXRmMHdUaTJwckYzZXR2UklIbnhxMFNHMnBvN1QxMGZOVWgyRzlLS3pPM1NMZ3ByWGRnN0JUWU5lTDZ1LVhGWVFJTWZFOHpBc2JUWkI0SzBvOXBZaktBVzVSYU1rMjRsU29Od1lz?oc=5",
+      "prayer": "Residents of Josephine and Wasco counties, Oregon, facing declared drought emergency",
+      "alert_summary": "Oregon's governor declared a drought emergency in Josephine and Wasco counties; no casualty or displacement figure reported."
+    },
+    {
+      "wp_id": 7438,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-25-2026-2/",
+      "date": "2026-06-26T17:11:32",
+      "title": "Disease in Congo 06/25/2026",
+      "body": "An Ebola outbreak continues in the Democratic Republic of the Congo and surrounding region, according to a situation report issued on June 24, 2026. This marks the eighth update released on the outbreak, indicating the situation has been developing over a period of time and is still being actively monitored.\n\nThe DRC has experienced multiple Ebola outbreaks over the decades, and the disease poses serious risk to communities, health workers, and neighboring countries. Responders and health officials continue to track and respond to cases.\n\nSpecific figures on confirmed cases, deaths, or geographic spread were not available in the summary provided. People in affected areas, including those in border regions, face the risk of exposure. Those working or serving in the DRC and nearby countries are encouraged to stay informed through updated guidance from health authorities.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS2VSMjk2WC15aHZhVUtBUjR3bldObWx5U01nTWJOT2wtSXZEUWZLUE02Sy1BWnB3X0RPN1RpOGdNeTdHUHdBUk0tUWtYZTBNS3hKN096cUNBSU1CSS02ZGRJU05ZMnQ0UEl1NUNLN2lxT3N1QUIwWDh6SmU3SU00QTVqQ3pJcEg1NmllWjA0bnJqc2J4eUM2c0FwSzVUX0dOVUVDY3RGdUhYcENnNF9qY1d0VElRVjA?oc=5",
+      "prayer": "Communities across DRC and neighboring regions amid an active Ebola outbreak",
+      "alert_summary": "An Ebola outbreak is active in the DRC and surrounding region, per the eighth situation report issued June 24, 2026."
+    },
+    {
+      "wp_id": 7437,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-france-06-26-2026/",
+      "date": "2026-06-26T17:10:59",
+      "title": "Disease in France 06/26/2026",
+      "body": "France has confirmed its first diagnosed case of Ebola, according to reporting from Le Monde. Health authorities have responded by increasing monitoring efforts in the wake of the diagnosis, though no further details about the patient's condition or location within the country were available from the source material.\n\nEbola is a rare but serious viral disease that spreads through direct contact with the blood or bodily fluids of an infected person. Outbreaks have historically been centered in parts of Central and West Africa, making a confirmed case in France an unusual development that has prompted heightened public health attention.\n\nNo casualty figures, exposure estimates, or additional case counts were reported in the available source material. Officials are working to trace contacts and contain any potential spread.",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Disease",
+      "lat": 47.824905,
+      "lng": 2.618787,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdTN6d3hpYUxEa0JzRGhvQkQ2RDNJS0lFWmpjeEpPRzBLcDRLeUt6b0J1eW9ReURjQ2JuWTVsQy1hLV9uOU1Ub0pER2ZHbEFCT0gyU0NJUHNTOVVVUWhUU09kVEpaUF95dTNpblpKWFhseVExTk9UQkotZDFYUkk4MkJIckRMMFdBYnM3ajZZcU5kVVRfNEd2dGdjYnIzNlpCalhvWUxMcE0wM2tlTFBGMzVxTUJMcWtPanJvYlZHN0o3UmpISGFDUV9CdDhQTG4tTjlkdUJCZ1ZZLVhYY1N3?oc=5",
+      "prayer": "People in France and health workers responding to the country's first diagnosed Ebola case",
+      "alert_summary": "France confirmed its first diagnosed Ebola case, prompting increased monitoring; no casualty figure reported."
+    },
+    {
+      "wp_id": 7436,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-24-2026-2/",
+      "date": "2026-06-26T17:10:31",
+      "title": "Landslide in India 06/24/2026",
+      "body": "A cloudburst set off a landslide in Arunachal Pradesh, India, burying a residential area under debris. No date for the event was provided in the available source material.\n\nThe landslide covered homes in the affected neighborhood, though no figures for deaths, injuries, or displaced residents were reported in the available source material.\n\nArunachal Pradesh, located in India's northeast, sits in a region prone to landslides during periods of heavy rainfall, particularly during the monsoon season when sudden, intense downpours can rapidly destabilize hillsides above populated areas.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 28.3668,
+      "lng": 94.745979,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQalZEeGh5bUV6UElHQ1JZVWpSa0Jhajd0SFJ4d0tlQmdqdFJuSVQwVlVKbG8zRUVuRDBVZjByeGpVQTd4V3daVjA0UVRKTFhSd0tHS1lHRnlad25hU0JwME1DekdoVkpkUnFGM21vOGdkRDZKOGdjYlhqa3pSSzZMSFRSaEFZNkMtMEdrYzJMNHdPNElRaF9yUG8wMENRVVhsX0RrUjl5Y2dwY3dHSHRCQk5nOTVoZWJuV2ZmazlvV0JMSTZMSW9BNlZUaklRcUJjaExxbnA4OG1zQ09PSC1fTUI0SVhPb3Fic0hkaUxGY3RYNnFxTU9WY3dfaw?oc=5",
+      "prayer": "Residents of Arunachal Pradesh whose homes were buried under landslide debris",
+      "alert_summary": "A cloudburst triggered a landslide in Arunachal Pradesh, burying a residential area under debris; no casualty figure reported."
+    },
+    {
+      "wp_id": 7435,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-taiwan-06-25-2026-2/",
+      "date": "2026-06-26T17:10:10",
+      "title": "Storm in Taiwan 06/25/2026",
+      "body": "A typhoon passing near Taiwan brought heavy rainfall to the island, with the east coast facing the most direct effects. Authorities ordered around 200 residents on the east coast to evacuate as conditions deteriorated.\n\nHeavy rain associated with the storm raised concerns about flooding and other hazards in vulnerable coastal areas. Officials moved to get residents out of harm's way as a precaution.\n\nNo casualty figures were reported in the available source material. Conditions were being monitored as the typhoon remained in the region.",
+      "country": "Taiwan",
+      "countries": [
+        "Taiwan"
+      ],
+      "type": "Storm",
+      "lat": 23.777978,
+      "lng": 120.930229,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNlVIek1Md2YzOVp4VWZaV3hUUmFCc0R2em03TVdJT0U1Qlh2YXZtSUR3SU5lV1doZ3V4b0xsUk9rVVhGTno5djV2SnJ5ejdyYkNPem5hRm5IY2VhTU5UUUlWQ0R3WnF2TEJ3UjZNbjZ0R0h1T09IWDhDcVBDWGRlT21rQ3NnckdadjdKZWhDOS0yYkxkZEtFZmlLeGNNOVAwN3g0ZS1uVms5Uy04aHF2bm1aWWhJRXpMNC15VjZJTkxpbkNUVXY3VUJ3RdIBVkFVX3lxTFBTSDV4dkdqamJ2amFacFVjLVh0N21TNlFncndnbUVqWHJ2QzVEY0ZFTEhmSUcxcUxSYkMyb1VnMENYT2lRcHRLNUppR29QeHA0VzZ2YU1R?oc=5",
+      "prayer": "Residents along Taiwan's east coast facing evacuations as a nearby typhoon brings torrential rain",
+      "alert_summary": "A nearby typhoon brought heavy rain to Taiwan, prompting evacuation of about 200 people on the east coast."
+    },
+    {
+      "wp_id": 7434,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-24-2026/",
+      "date": "2026-06-26T17:09:39",
+      "title": "Wildfire in Canada 06/24/2026",
+      "body": "The Saw Creek wildfire near Lytton, British Columbia, has destroyed at least one structure, with officials indicating others were likely damaged as well.\n\nThe source material does not provide a specific date for the event or additional details on the number of residents affected or displaced. Lytton is a small community in the interior of British Columbia, a region that has experienced repeated wildfire pressure in recent years.\n\nNo casualty figures were reported in the available source material.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 50.2339,
+      "lng": -121.58086,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRUFtbFVBOW4xUEdGUE5GVkYwTy1PZEVjb3ZBR2VaU1Z3aEt3VVhOVzYtM0J4OTVKRXJtUExDUkN1VWQwWjRYeW9qeHNZOWhNWkFkWVB2QXN5SjNsdVNYQTZ1bUc2NE15NlktcU1SS0JMMzY1dGVibk5lMzNhUl9vaktmMnl2N2VxUWtFNEpXWXlhMUxjbG1aV2E1SDA5UklCcXphbVdyUVQ4VEtVNHYzUW96RHJxbGw2WWRWTkJ3OVdQbmxsNFZSYjlpNjk4dw?oc=5",
+      "prayer": "Residents near Lytton, British Columbia, displaced by the Saw Creek wildfire",
+      "alert_summary": "The Saw Creek wildfire near Lytton, British Columbia, destroyed one structure and likely damaged others."
+    },
+    {
+      "wp_id": 7433,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-24-2026-2/",
+      "date": "2026-06-26T17:09:17",
+      "title": "Flood in Ghana 06/24/2026",
+      "body": "Flooding struck communities in western Ghana, forcing hundreds of people from their homes. Residents were displaced as floodwaters moved through the area, damaging homes and disrupting daily life for those living in the affected communities.\n\nNo specific date was reported in the available source material. Details on the number of homes damaged, injuries, or deaths have not yet been confirmed. Local officials and relief efforts were not described in available reporting.\n\nWestern Ghana has historically faced seasonal flooding, and events like this can leave families without shelter, clean water, or access to basic services for extended periods.",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 4.927456,
+      "lng": -1.749022,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQ0JoNHRMOGZnZ0Z0b0hadzBmYkx1MnBidHd6cmFCcUh3WVNyOXR3RW1VbS1lTm1rYTJ3X1Z1S1lidU9zalRhQ2dOcWV4cTdMYnRkUVpoY19RSDI3SVBkTC1BOXNIbDR6REZF?oc=5",
+      "prayer": "Hundreds of displaced residents in Western Ghana sheltering after floodwaters swept through their communities",
+      "alert_summary": "Flooding displaced hundreds of residents across communities in Western Ghana; no casualty figure reported."
+    },
+    {
+      "wp_id": 7432,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-06-26-2026/",
+      "date": "2026-06-26T17:09:05",
+      "title": "Storm in Japan 06/26/2026",
+      "body": "Typhoon Mekkhala struck Japan, triggering widespread flooding that forced approximately two million people to evacuate their homes. Authorities issued evacuation orders across affected areas as rising waters threatened communities.\n\nThe scale of the evacuation reflects how broadly the storm's rainfall spread across the country. Flooding reached residential areas, pushing large numbers of people to leave before conditions worsened.\n\nNo specific casualty figures were available from the source material. Residents in affected communities were relocating to shelters as officials monitored flood levels and worked to keep people safe.",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 36.386493,
+      "lng": 138.59223,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbkVQT1JQbHZicHhlR1I4bmpyZ0hQN3ZaSkJqcXhCQXJ4QVB3eGJsR3AtNmxZVUE0VmlhdE13ZWZLcGF6MXp6UkRQN2Y2d0kyVkVNU0xLOXZBX3VSaW1pZzlENlNYRUVKWnNqT1prX3FDck9ZTnI2ZHIyLXNmU3h0Qjl6SktQTk93WkNPV1NDZlIzYlJ2NExONmZQNnk?oc=5",
+      "prayer": "Two million evacuated residents across Japan amid Typhoon Mekkhala flooding",
+      "alert_summary": "Typhoon Mekkhala struck Japan, prompting the evacuation of approximately two million people amid widespread flooding."
+    },
+    {
+      "wp_id": 7431,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-26-2026-2/",
+      "date": "2026-06-26T17:08:49",
+      "title": "Flood in United States 06/26/2026",
+      "body": "Flash flooding swept through Ash Grove, Missouri, forcing residents to evacuate their homes. The flooding moved through the area quickly, as flash floods typically do, leaving little time for those in its path to respond.\n\nEvacuations were carried out as water inundated the town. No casualty figures or details on the number of people displaced were available from the source material.\n\nAsh Grove is a small community in southwest Missouri. Residents in the affected area faced the challenge of rapidly rising water, and local response efforts were underway to assist those forced from their homes.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.315327,
+      "lng": -93.584813,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlQ3RG5MNlVMWTBEdkZmVkh5eXJweGNhOGhtVGtGRmNYQ1Y3Rjh6Zk5leHFIYldvUDYwbEFNakNaWWhpbjVpZjdydDRvc0UyMkZOZU5YeGc4bVRISW1NMkNybEIzY3RYRWc3dTBGTndDV2RjY2dmSE0wTGRjUkh0YTNTRG9qaTczNndjMV9BVU90NmZwS0xGM25RRzlzdjJEa2laLWlrRm9QWE5o0gGsAUFVX3lxTFBOVDdEbkw2VUxZMER2RmZWSHl5cnB4Y2E4aG1Ua0ZGY1hDVjdGOHpmTmV4cUhiV29QNjBsQU1qQ1pZaGluNWlmN3J0NG9zRTIyRk5lTlh4ZzhtVEhJbU0yQ3JsQjNjdFhFZzd1MEZOd0NXZGNjZ2ZITTBMZGNSSHRhM1NEb2ppNzM2d2MxX0FVT3Q2ZnBLTEYzblFHOXN2MkRraVotaWtGb1BYTmg?oc=5",
+      "prayer": "Residents of Ash Grove, Missouri, displaced by sudden flash flooding and forced from their homes",
+      "alert_summary": "Flash flooding struck Ash Grove, Missouri, forcing evacuations; no casualty or displacement figure reported."
+    },
+    {
+      "wp_id": 7430,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-26-2026-magnitude-7/",
+      "date": "2026-06-26T17:01:07",
+      "title": "Earthquake in Philippines 06/26/2026 — Magnitude 7",
+      "body": "A magnitude 6.5 earthquake struck about 34 kilometers west-southwest of Sarangani in the southern Philippines. No date for the event was provided in the available source material.\n\nNo details on casualties, injuries, or damage were included in the source. Sarangani is a coastal municipality in the Davao Occidental region, an area that sits within one of the world's most seismically active zones.\n\nThose with contacts in the Sarangani area are encouraged to check in with local partners to learn more about conditions on the ground.",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ec",
+      "prayer": "Residents near Sarangani, Philippines, after a magnitude 7 earthquake struck offshore",
+      "alert_summary": "A magnitude 7 earthquake struck about 34 km west-southwest of Sarangani, Philippines; no casualty figure reported."
+    },
     {
       "wp_id": 7419,
       "wp_link": "https://globalwitnessmonitor.com/drought-in-united-states-06-24-2026/",
