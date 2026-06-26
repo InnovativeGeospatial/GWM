@@ -366,12 +366,23 @@ gwmMap.on('load', function() {
   // loading; calling setProjection before that would throw.
   gwmMap.setProjection({ type: 'globe' });
 
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(255,255,255,0.65)'); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.5); } catch(e){}
-  try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.32)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-color', 'rgba(255,255,255,0.95)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-halo-color', 'rgba(0,0,0,0.6)'); } catch(e){}
-  try { gwmMap.setPaintProperty('country-label', 'text-halo-width', 1.5); } catch(e){}
+  // GLOBE HALO: bright blue atmosphere ring at the limb of the earth. The
+  // atmosphere is only rendered when a sky is set; atmosphere-blend fades it
+  // out as you zoom in (full at globe distance, gone by zoom 6).
+  gwmMap.setSky({
+    'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 4, 1, 6, 0],
+    'sky-color': '#1e6fff',
+    'horizon-color': '#9fdcff',
+    'fog-color': '#0a0c10'
+  });
+
+  // Higher-contrast basemap: bright country outlines + crisp white labels.
+  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-color', 'rgba(150,205,255,0.85)'); } catch(e){}
+  try { gwmMap.setPaintProperty('admin-0-boundary', 'line-width', 1.6); } catch(e){}
+  try { gwmMap.setPaintProperty('admin-1-boundary', 'line-color', 'rgba(255,255,255,0.30)'); } catch(e){}
+  try { gwmMap.setPaintProperty('country-label', 'text-color', '#ffffff'); } catch(e){}
+  try { gwmMap.setPaintProperty('country-label', 'text-halo-color', 'rgba(0,0,0,0.85)'); } catch(e){}
+  try { gwmMap.setPaintProperty('country-label', 'text-halo-width', 1.6); } catch(e){}
 
   // GLOBE: a flat-map fitBounds rectangle frames poorly on a sphere, so center
   // the globe on the persecution hotspot band (Africa / Middle East / S. Asia).
