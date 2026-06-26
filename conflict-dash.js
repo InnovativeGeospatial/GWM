@@ -3,6 +3,7 @@
  * Reads from: jsDelivr CDN. Pipeline purges jsDelivr after each run.
  * No ?nocache query string -- jsDelivr /gh/ URLs reject query strings.
  * No 100-event cap. Falls back to WP REST if JSON feed unreachable.
+ * GLOBE: requires maplibre-gl v5.0.0+ (globe projection set on map load).
  * ===================================================================== */
 (function () {
   "use strict";
@@ -360,7 +361,7 @@
       container: "c-map",
       style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
       center: [20, 15],
-      zoom: 2.2,
+      zoom: 1.4,
       minZoom: 1,
       maxZoom: 8,
       attributionControl: false
@@ -375,6 +376,31 @@
     document.head.appendChild(s);
 
     cMap.on("load", function () {
+      // GLOBE: switch from flat Mercator to the 3D globe projection. Safe in
+      // the 'load' handler because the style has finished loading by now.
+      cMap.setProjection({ type: "globe" });
+
+      // GLOBE HALO: bright blue atmosphere ring at the limb of the earth.
+      // atmosphere-blend fades it out as you zoom in.
+      cMap.setSky({
+        "atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 0.8, 4, 0.8, 6, 0],
+        "sky-color": "#1e6fff",
+        "horizon-color": "#9fdcff",
+        "fog-color": "#060709"
+      });
+
+      // Higher-contrast basemap (REAL CARTO Dark Matter layer ids).
+      try { cMap.setPaintProperty("water", "fill-color", "#15436b"); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-color", "rgba(155,208,255,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-width", 1.4); } catch(e){}
+      try { cMap.setPaintProperty("boundary_country_inner", "line-opacity", 1); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-color", "#ffffff"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_1", "text-halo-width", 1.8); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-color", "rgba(236,243,255,0.95)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { cMap.setPaintProperty("place_country_2", "text-halo-width", 1.6); } catch(e){}
+
       cMap.addSource("c-lines", { type:"geojson", data:{type:"FeatureCollection", features:[]} });
       cMap.addLayer({ id:"c-spider-legs", type:"line", source:"c-lines",
         paint:{"line-color":"rgba(255,255,255,0.4)","line-width":1.5,"line-dasharray":[2,2]} });
