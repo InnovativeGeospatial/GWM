@@ -2,6 +2,7 @@
    GWM Disaster Dashboard -- JSON feed edition
    Reads from: jsDelivr CDN. Pipeline purges jsDelivr after each run.
    No 100-event cap. Falls back to WP REST if JSON feed is unreachable.
+   GLOBE: requires maplibre-gl v5.0.0+ (globe projection set on map load).
    ============================================================================ */
 (function () {
   "use strict";
@@ -317,6 +318,31 @@
     document.head.appendChild(s);
 
     dMap.on("load", function () {
+      // GLOBE: switch from flat Mercator to the 3D globe projection. Safe in
+      // the 'load' handler because the style has finished loading by now.
+      dMap.setProjection({ type: "globe" });
+
+      // GLOBE HALO: bright blue atmosphere ring at the limb of the earth.
+      // atmosphere-blend fades it out as you zoom in.
+      dMap.setSky({
+        "atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 0.8, 4, 0.8, 6, 0],
+        "sky-color": "#1e6fff",
+        "horizon-color": "#9fdcff",
+        "fog-color": "#060709"
+      });
+
+      // Higher-contrast basemap (REAL CARTO Dark Matter layer ids).
+      try { dMap.setPaintProperty("water", "fill-color", "#15436b"); } catch(e){}
+      try { dMap.setPaintProperty("boundary_country_inner", "line-color", "rgba(155,208,255,0.9)"); } catch(e){}
+      try { dMap.setPaintProperty("boundary_country_inner", "line-width", 1.4); } catch(e){}
+      try { dMap.setPaintProperty("boundary_country_inner", "line-opacity", 1); } catch(e){}
+      try { dMap.setPaintProperty("place_country_1", "text-color", "#ffffff"); } catch(e){}
+      try { dMap.setPaintProperty("place_country_1", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { dMap.setPaintProperty("place_country_1", "text-halo-width", 1.8); } catch(e){}
+      try { dMap.setPaintProperty("place_country_2", "text-color", "rgba(236,243,255,0.95)"); } catch(e){}
+      try { dMap.setPaintProperty("place_country_2", "text-halo-color", "rgba(0,0,0,0.9)"); } catch(e){}
+      try { dMap.setPaintProperty("place_country_2", "text-halo-width", 1.6); } catch(e){}
+
       dMap.addSource("incident-lines", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] }
