@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-27T04:40:18.159634+00:00",
-  "count": 796,
+  "updated": "2026-06-27T05:08:25.492103+00:00",
+  "count": 809,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7488,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-26-2026/",
+      "date": "2026-06-27T05:08:10",
+      "title": "Disease in Congo 06/26/2026",
+      "body": "An Ebola outbreak in the Democratic Republic of the Congo has claimed more than 300 lives, according to reports from the region. Ebola is a virus that spreads through direct contact with the blood or body fluids of infected people, making it particularly dangerous in areas with limited medical resources.\n\nThe Congo has experienced multiple Ebola outbreaks over the years, and each recurrence places enormous strain on local health workers, families, and communities already facing other hardships. Containing the virus requires careful isolation of the sick, safe burial practices, and tracing of anyone who may have been exposed.\n\nFamilies are losing loved ones, and health workers are operating under difficult and dangerous conditions. Communities across the country are in need of sustained support as the outbreak continues.",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VkcV8wNTd2NkI1UU5KaWRvOGhrS19TUWpqZDNGakx5Q2Jiaml5MEt0QWlkd0JnSlYwbGtkbVRPTDRBYUZLem1TVk5vWDdwQUpTajlZVFpPZ3dVaWJnMFRTam53TUZwRFRMbHk0R2pqLUNoMWJUM1FJeDJMdEM0Sg?oc=5",
+      "prayer": "Communities across the Congo grieving as the Ebola death toll surpasses 300",
+      "alert_summary": "An Ebola outbreak in the Democratic Republic of the Congo has killed more than 300 people."
+    },
+    {
+      "wp_id": 7487,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-06-24-2026-2/",
+      "date": "2026-06-27T05:07:47",
+      "title": "Landslide in Nepal 06/24/2026",
+      "body": "A landslide struck the Beni-Jomsom Road in Nepal, burying a vehicle traveling along the route. The driver was rescued from the buried vehicle.\n\nThe Beni-Jomsom Road runs through mountainous terrain in western Nepal, where landslides are a recurring hazard, particularly during the monsoon season. Details on casualties beyond the rescued driver, or the extent of road damage, were not reported in the available source material.",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Landslide",
+      "lat": 28.253007,
+      "lng": 83.938548,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeG5DRHhGMlE5azlVTXpnYkh1cnhyUGlJSkFDOWtHRFFDRDRTeVpZVjN2eUdfcERDVVhaM0Z6SVJCYzJtaG9zOUxCODJQZ2ZhQzBMMDROQ3hnaF84ZUE5MG1CbDRmTFBEY3RuZzk2Tmo0a3djY1BPTDdlV2xNNHVqRWxIUHRfV01GeEJsaXBiMHhoQmlKT1RyRG5paERWanQyZVVUSHpn?oc=5",
+      "prayer": "Driver on Nepal's Beni-Jomsom Road surviving after vehicle was buried by landslide",
+      "alert_summary": "A landslide buried a vehicle on the Beni-Jomsom Road in Nepal; the driver was rescued."
+    },
+    {
+      "wp_id": 7486,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-06-26-2026/",
+      "date": "2026-06-27T05:07:29",
+      "title": "Wildfire in Spain 06/26/2026",
+      "body": "A wildfire in the Huesca region of northern Spain burned through 2,500 hectares and forced residents of three villages to evacuate. The source does not provide a specific date for when the fire began.\n\nThe fire spread across a large area, prompting authorities to order evacuations as a precaution for those living nearby. No casualty figures were included in the available information.\n\nConditions in the affected villages remain uncertain as firefighting efforts continue. Displaced residents are waiting to learn when it may be safe to return to their homes.",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 42.13715,
+      "lng": -0.408183,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdHBOd3Z3Q1ZUNDNkOFhPMXFOSThIMHlLc192SXNmWnVDeVJhYnFkZEwxNFVYN1cyTzV4QXljNWZvMXdKcGRkQUx6aVNON1d6eDNIQ1lOUjVsaWQ5eGxHdUx2NERqS0phOTRRUjdyNFU5MFN4ZjVOcnhZSGxDUVpZN2F2bGpsa2Ryb1JOazNyQzdRcmdmZWZiQkFWdHlsUWl4dEFINXBUUXNWZWE1NmtB?oc=5",
+      "prayer": "Residents of three villages near Huesca, Spain, displaced by an ongoing wildfire",
+      "alert_summary": "A wildfire in Huesca, Spain, burned 2,500 hectares and forced evacuation of three villages."
+    },
+    {
+      "wp_id": 7485,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-24-2026-2/",
+      "date": "2026-06-27T05:07:15",
+      "title": "Wildfire in Canada 06/24/2026",
+      "body": "The Saw Creek wildfire near Lytton, British Columbia, has destroyed at least one structure, with officials indicating others were likely damaged as well. The fire's proximity to the community has raised concern for residents in the area.\n\nNo date for the start of the fire was provided in the source material. Casualty figures were not reported, though the loss and damage to structures signals a direct impact on the local community.\n\nLytton has previously experienced wildfire destruction, and the Saw Creek fire serves as a reminder of the ongoing risk facing communities in this region of British Columbia.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 50.2339,
+      "lng": -121.58086,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JaGhEUDZXblRJY1QzeGxIUVdJWk9aOWVTOVFmV1Vlalk2YXFBbkFmYWZMcnFkZjEtY0xBaVZLWlFQY2hwV1BEUGdPczdkd3dmWHh0WFV1S1laUzZYNXB2NG1ocDk0NWtGXzJYSXdzWXR4RVFrRk1qUTQ1TVBLQWs?oc=5",
+      "prayer": "Residents near Lytton, British Columbia, facing home loss and displacement from the Saw Creek wildfire",
+      "alert_summary": "The Saw Creek wildfire near Lytton destroyed one structure and likely damaged others; no casualty figure reported."
+    },
+    {
+      "wp_id": 7484,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-27-2026/",
+      "date": "2026-06-27T05:06:53",
+      "title": "Wildfire in United States 06/27/2026",
+      "body": "A wildfire burning near Alderdale, Washington has forced residents in the area to evacuate. Smoke from the fire spread far enough to reach the Tri-Cities region, affecting air quality for communities at a distance from the fire itself.\n\nNo casualty figures or details on the number of homes destroyed were included in the available report. The extent of the fire's spread and how many people were ordered to leave their homes has not been specified in the source material.\n\nConditions in the region remain a concern for those living and working in the affected communities, including field workers and ministry partners serving in and around the Tri-Cities area of southeastern Washington.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 45.83568,
+      "lng": -119.92522,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObFQ2bm0yWmlnY0V2YmMySTBkbERkcFBDYktOWDhycWxBMm5zeXF1TWxUdmk2WlBFcVJ2cG9ZSUpKcXFWZTBJZUk3eHhjRlZLRXl3NHR6d053MVNWNHBFdHpOam96b1hsV1VCT3dXV1EzOWIxMlFwdUZPMVZvZzhERGVOME83UEpXRWcyeG16OUdKVWlpNFcxWUxvZlN3SjFad0s2MGFaa1VVSGxzMlVNUURFOUd6UWd6NklwQ2RzSllwVVVQZGVFOWtQM0FRaFZnS1E4cHVkay1ESHhGalBWODFNaHE?oc=5",
+      "prayer": "Evacuated residents near Alderdale and Tri-Cities communities breathing smoke-filled air",
+      "alert_summary": "A wildfire near Alderdale, Washington forced evacuations and pushed smoke into the Tri-Cities area."
+    },
+    {
+      "wp_id": 7483,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-26-2026/",
+      "date": "2026-06-27T05:06:21",
+      "title": "Storm in United States 06/26/2026",
+      "body": "Tropical Storm Arthur brought flooding to Avoyelles Parish in Louisiana, leaving residents in need of outside help. In response, officials in neighboring Ouachita Parish organized a relief drive to gather and deliver aid to those affected.\n\nThe source does not provide specific figures on casualties, displacement, or property damage, but the launch of a cross-parish relief effort points to a real need on the ground. Community-level support drives like this are often among the first practical responses when local resources are stretched.\n\nResidents and faith communities in the wider region are stepping in to help neighbors recover, as cleanup and recovery efforts continue across the affected area.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 31.127228,
+      "lng": -92.06627,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNzRxU1lLMFU3RU1MYUxOVGp6cV8wOTFhWmw4ZXJIZ05ySkJLeFJSSEZGNzZZRVltR0FleXdKZjN5RVBsSTYtRUx2Q0RhTWJhT1l1S2NzdEk0XzV4VVpxQ01IZXYzd3ZmcHJ6UGdVVHVSaG8zTnVkbENGWmdFZjZ6RVZrNlMwWkwyR1RZQkFzeU41eW93TzhJSnlOczRZUTBLdExLb3g2NnJEbmwxRVA4TVhJR0tPSkF1S3JlOFY5Sl85Q3dlQkNkSHQ0b3VHaVB5LTV30gHTAUFVX3lxTFA3NHFTWUswVTdFTUxhTE5UanpxXzA5MWFabDhlckhnTnJKQkt4UlJIRkY3NllFWW1HQWV5d0pmM3lFUGxJNi1FTHZDRGFNYmFPWXVLY3N0STRfNXhVWnFDTUhldjN3dmZwcnpQZ1VUdVJobzNOdWRsQ0ZaZ0VmNnpFVms2UzBaTDJHVFlCQXN5TjV5b3dPOElKeU5zNFlRMEt0TEtveDY2ckRubDFFUDhNWElHS09KQXVLcmU4VjlKXzlDd2VCQ2RIdDRvdUdpUHktNXc?oc=5",
+      "prayer": "Flood victims in Avoyelles Parish, Louisiana, receiving aid after Tropical Storm Arthur",
+      "alert_summary": "Tropical Storm Arthur caused flooding in Avoyelles Parish, Louisiana, prompting a neighboring parish to launch a relief drive."
+    },
+    {
+      "wp_id": 7482,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-24-2026-3/",
+      "date": "2026-06-27T05:06:06",
+      "title": "Flood in Ghana 06/24/2026",
+      "body": "Flooding has struck communities in western Ghana, forcing hundreds of people from their homes. Floodwaters swept through residential areas, leaving families without shelter and disrupting daily life across the affected region.\n\nNo specific date was given for the onset of flooding in the available report. Local residents were displaced as the waters inundated homes and surrounding areas. The scale of displacement suggests multiple communities were affected, though the full extent of damage and any casualty figures have not been confirmed in this report.\n\nDisplaced residents are among the most vulnerable in flood situations, often lacking access to clean water, food, and safe shelter. Conditions in western Ghana are being monitored as communities work to recover and return home.",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 4.927456,
+      "lng": -1.749022,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQ0JoNHRMOGZnZ0Z0b0hadzBmYkx1MnBidHd6cmFCcUh3WVNyOXR3RW1VbS1lTm1rYTJ3X1Z1S1lidU9zalRhQ2dOcWV4cTdMYnRkUVpoY19RSDI3SVBkTC1BOXNIbDR6REZF?oc=5",
+      "prayer": "Hundreds of displaced residents in Western Ghana sheltering after floodwaters swept through their communities",
+      "alert_summary": "Flooding displaced hundreds of residents across communities in Western Ghana; no casualty figure reported."
+    },
+    {
+      "wp_id": 7481,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-taiwan-06-26-2026/",
+      "date": "2026-06-27T05:05:53",
+      "title": "Flood in Taiwan 06/26/2026",
+      "body": "Torrential rains struck Taiwan, resulting in two deaths and 487 separate flood incidents logged by authorities. The widespread rainfall affected multiple areas across the island, triggering a large number of emergency responses in a short period.\n\nOfficials recorded the flood incidents as rescue and relief teams worked to respond across affected communities. The volume of incidents points to widespread impact on roads, homes, and neighborhoods throughout the country.\n\nNo specific figures on displaced or evacuated residents were available from the source. Authorities continued to monitor conditions as the rains persisted.",
+      "country": "Taiwan",
+      "countries": [
+        "Taiwan"
+      ],
+      "type": "Flood",
+      "lat": 23.777978,
+      "lng": 120.930229,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uazVUSTZxdGltemFtN1FLTm9Eb3ZoME5DaFp0WlRzM2c4VFpMcDVsc3hseWpoNXBCQzJkMnFuSlNEMW5tRlczNWp3R2Q4YUJuM1JPcTBn?oc=5",
+      "prayer": "Families in Taiwan grieving losses and communities coping with hundreds of flood incidents",
+      "alert_summary": "Torrential rains across Taiwan caused 2 deaths and 487 recorded flood incidents; no displacement figure reported."
+    },
+    {
+      "wp_id": 7480,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-24-2026-5/",
+      "date": "2026-06-27T05:05:41",
+      "title": "Flood in United States 06/24/2026",
+      "body": "Floods struck the Texas Hill Country, killing at least 28 people. In the aftermath, Camp Mystic — a camp operating in the affected area — filed for bankruptcy, reflecting the scale of financial and physical damage left behind by the disaster.\n\nThe source does not provide the specific date of the flooding, detailed casualty breakdowns, or information on how many people were displaced or evacuated. The bankruptcy filing signals that the floods caused losses serious enough to make continued operations financially unsustainable for the camp.\n\nThe Texas Hill Country is a region known for flash flood risk, particularly during heavy rain events when rapidly rising water can overwhelm low-lying areas with little warning. Communities, families, and organizations in the region continue to face the long-term consequences of the disaster.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 30.2752,
+      "lng": -98.872,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbHZiUF9DRUhPTWo2TFBkVVNXaGpsVml6WFlEUENpa1d6MWpOZDlXcGtwRC1VNWQ3c2pIQ2VjX2llUGNYWnJ2Q2xuNjJEVFV2UkhaeEVnWW9vRHVNWTR6LXZjbnpqM1Q0clh0UWVKQWtld0VWbi1URkxpeG9PaXMtdXgydmxiaFdGOUNXd3h0V01Yb3NvSVRGZDhTMjZvWEYxemtjcmU2bU9adTda0gG0AUFVX3lxTFBwS1FYbkpOU0kxSlVaOERGZ014Tlhaek9TSVdCOVc3S0Z4WXJKVHhXTWdxMjNlUkEtMEQ0bHpnYmxjcGQtcjZyR29Pa1NoWm16T1hwcW9TelFkZloxS2ZUeDExZHJnMHd3SlhyR3Q3Umh2Qk9tdUZfUTFlMnh5SEFMUmZWcUtTczVobVBKZ1d6bmNqMUczZjlHRy1mTjEwUGQ2d0dKZnlpdXpBc243YWt3bUdMcw?oc=5",
+      "prayer": "Families grieving 28 lives lost in the Texas Hill Country floods, and survivors rebuilding",
+      "alert_summary": "Flooding in Texas Hill Country killed 28 people, prompting Camp Mystic to file for bankruptcy."
+    },
+    {
+      "wp_id": 7479,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-africa-06-26-2026/",
+      "date": "2026-06-27T05:05:27",
+      "title": "Flood in South Africa 06/26/2026",
+      "body": "Floods across southern Africa have killed or left missing hundreds of people, according to reports from the region. The full scale of the disaster is still emerging, with communities in multiple areas affected by rising and fast-moving waters.\n\nSearch and rescue efforts are underway as officials and emergency workers work to reach those in affected areas. Flooding of this kind can devastate homes, cut off roads, and disrupt access to clean water and food for weeks.\n\nResidents in low-lying and rural communities are often among the hardest hit, with limited resources to recover quickly. Aid organizations are expected to respond as the situation becomes clearer in the coming days.",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Flood",
+      "lat": -29.777993,
+      "lng": 30.786206,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHluMm9uNXlUaTZlZ2ktenRVNmxpU1Y5NXBUck01X2Z0ZTljak52ZnptMzBNRFJPNG9wU1MtXzZLZUdCRGtBeTh1UkNvNHNSWG8tWjhnTUt5XzU0bVJ5MkdaY2R0QWFPWmsxM3dBU2tjd2ZmaXhzaVNsS0F1QXZOakhyNGw0RlN2RF9rT253b3R1TW1GSnNCU1pYTjdNVTlkVUY0?oc=5",
+      "prayer": "Families across southern Africa facing loss of life and missing loved ones amid floods",
+      "alert_summary": "Floods across southern Africa have left hundreds of people killed or missing, no further figures reported."
+    },
+    {
+      "wp_id": 7478,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-germany-06-26-2026/",
+      "date": "2026-06-27T05:05:07",
+      "title": "Heatwave in Germany 06/26/2026",
+      "body": "A heatwave moved slowly north and east across Europe, pushing temperatures to record levels in Germany, Belgium, the Netherlands, and the United Kingdom. Germany's highest temperature ever recorded, 41.3°C, was measured in Saarbrücken. Belgium recorded an unofficial 40°C near Kleine Brogel, and the southern Dutch province of Limburg reached 39.4°C. In the UK, a provisional June record of 37.1°C was set at Cavendish in Suffolk.\n\nDeaths rose in France and Spain. France's health minister named deaths occurring at home as a particular concern, and Paris hospitals were described as \"saturated.\" Public events including a major Paris Pride march and the Solidays music festival were cancelled due to health risks. A Dutch music festival was also shut down after a code red alert was issued across much of the Netherlands.\n\nIn Switzerland, both reactors at the Beznau nuclear plant were taken offline after the River Aare reached 25°C — too warm to cool the reactors adequately. Scientists noted this heatwave was the most severe on record for the region.",
+      "country": "Germany",
+      "countries": [
+        "Germany"
+      ],
+      "type": "Heatwave",
+      "lat": 49.23315,
+      "lng": 6.99592,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents across Europe, especially the elderly and vulnerable, enduring record-breaking heat with hospitals overwhelmed",
+      "alert_summary": "A heatwave across Europe pushed Germany's all-time record to 41.3°C in Saarbrücken, with at least 150 million people facing temperatures above 35°C."
+    },
+    {
+      "wp_id": 7477,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-27-2026/",
+      "date": "2026-06-27T05:03:14",
+      "title": "Flood in Russia 06/27/2026",
+      "body": "On June 27, 2026, water levels on the Chikoy and Selenga rivers in Russia's Buryatia region continued to rise. Near the village of Chikkozavod, the Chikoy River overflowed onto the floodplain by 21 centimeters.\n\nIn the coming day, officials expect floodwaters to spread further onto the floodplain near the village of Povorot on the Chikoy River, and near Novoselenginsk on the Selenga River.\n\nResidents in these low-lying riverside communities are at risk as water levels continue to climb. No casualty figures were reported in the source.",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 51.631927,
+      "lng": 107.412239,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260627034014-0231717.xml",
+      "prayer": "Villages along the Chikoy and Selenga rivers in Russia facing rising floodwaters",
+      "alert_summary": "Flooding on the Chikoy River spilled 21 cm onto the floodplain near Chikkozavod village, with further rises expected."
+    },
+    {
+      "wp_id": 7476,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-pakistan-06-27-2026-magnitude-5/",
+      "date": "2026-06-27T05:00:43",
+      "title": "Earthquake in Pakistan 06/27/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck approximately 63 kilometers north-northeast of Barkhan, Pakistan. No date for the event was provided in the available source material.\n\nNo casualty figures, damage reports, or displacement numbers were included in the source. The full scope of the event's impact on local residents is not yet known from available information.",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Earthquake",
+      "lat": 30.4545,
+      "lng": 69.6859,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8le",
+      "prayer": "Communities near Barkhan, Pakistan, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck about 63 km north-northeast of Barkhan, Pakistan; no casualty figure reported."
+    },
     {
       "wp_id": 7439,
       "wp_link": "https://globalwitnessmonitor.com/drought-in-united-states-06-25-2026/",
