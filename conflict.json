@@ -1,9 +1,227 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-27T04:11:17.939738+00:00",
-  "count": 882,
+  "updated": "2026-06-27T05:15:43.580054+00:00",
+  "count": 889,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7458,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yobe/",
+      "date": "2026-06-27T05:15:37",
+      "title": "Armed Conflict in Ogun",
+      "body": "Police in Ogun State, Nigeria, shot and killed two suspected kidnappers during an operation, recovering a firearm, spent cartridge casings, a mobile phone, and ₦2.2 million in cash. No date was given for when the operati",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.747,
+      "lng": 11.9608,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTU1qd19XUmZHQTlGX2YtVzN1UDh5WmtuTzBMSUdWY3p0T2VVdm9LUFBsTW85aWs0ZnBPM014VkczTUZuSEdaMm1PSDV3bnpFOW1qWU5acGM3cFp2c2dHSTlsT0c4X0RqNDM3dWoySDdVcWs0c2Jtc1ViRS1VM0RBd1NqQ2pkNEM2TDBHdk91YWFlNm1LbTFsek1IaDVXdmhGMVhrVmt0NWI5S2tuTDNsYmZ0djNLZS1nRmpOTG5GeVp1OEhB?oc=5",
+      "prayer": "Families in Ogun State affected by kidnapping and ongoing armed criminal activity",
+      "alert_summary": "Police in Ogun State killed 2 kidnappers and recovered a firearm, ₦2.2 million, a phone, and spent cartridges."
+    },
+    {
+      "wp_id": 7505,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-kyaikto/",
+      "date": "2026-06-27T05:14:55",
+      "title": "Displacement in Kyaikto",
+      "body": "Military airstrikes in Kyaikto prompted residents to flee their homes, according to Burma News International. The source does not provide a specific date for the strikes or detail the number of casualties or displaced pe",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Displacement",
+      "lat": 17.30871,
+      "lng": 97.00906,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUFpleUZnRDVkZnpwM1lFdmNaM1diZHpBYlRRZE1DX1hBZC1ibzlqWVRxRndiQUZwRjZlUGRITGdJT0hZeDhGaXlRRFhzVU9QNzB1NkxaU3VlczNwY1hhdVlkcDBkZkpNNlp2RDFjUGZYeTBtOHdpYlh5NEtWT3RRVUxmRlN1cUJ5SGc?oc=5",
+      "prayer": "Residents of Kyaikto fleeing their homes after military airstrikes",
+      "alert_summary": "Military airstrikes in Kyaikto prompted residents to flee the area; no casualty figures reported."
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-06-27T05:14:27",
+      "title": "Armed Conflict in Kherson",
+      "body": "A Russian airstrike struck energy facilities in the city of Kherson, Ukraine, leaving residents without reliable power and resulting in reported injuries. The source does not specify the exact date of the strike or the n",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQV2huVjM5YTdPMmItRTFZcWdZYWhpdlZfWTBicmNlaFU1ZzFpVlg2QTdNZldKZDQwM1FFZGJHdDRBb1RIMzRQdXIxZTJNZTdjOVVvLWVKRHVzRHhiRjJXVjNGY0pMVFItUHpaeUpIVDlKMzY0WHhpcWpfd2tKYVN4eUNXRmdqSlRYWmZ0RmVISzQ4dVlQU0NlREJGYnpNQlZpcFBxRGViTl93ZDhvT3dyQVlZQ1p3RXUta3I4VlN3U3VIMEJtaUd2TQ?oc=5",
+      "prayer": "Residents of Kherson without power after strikes on energy infrastructure",
+      "alert_summary": "A Russian airstrike hit energy facilities in Kherson, causing injuries and infrastructure damage."
+    },
+    {
+      "wp_id": 7466,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria-2/",
+      "date": "2026-06-27T05:13:39",
+      "title": "Armed Conflict in Syria",
+      "body": "U.S. Central Command announced that American forces carried out an airstrike in Syria that killed a leader of the Islamic State group. No specific date or location within Syria was given in the source. No figures for add",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 35.013,
+      "lng": 38.5056,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13R1hFaUQ4NDlUdGJ2OEIzRGpHbzZBRHZYVExKaGRFNUk1bDVPREwwMXRBdWZDUXh4cWpQRHRwRlZ4bXdsbFJFU1lkUG92Y3Rz0gFWQVVfeXFMT0FVNnVJaEY0S1FnU0hKT1JqdU9IYkhoMmhTdEdVaHVtclBfWExXTHB0X2FBWEVwN0hlR0FoS0g4cERhYjFMVWxxSnpXUUUyMXhUR0x1cEE?oc=5",
+      "prayer": "Civilians in Syria near areas targeted by ongoing airstrikes against armed groups",
+      "alert_summary": "U.S. forces killed an Islamic State leader in Syria in an airstrike, according to Central Command."
+    },
+    {
+      "wp_id": 7462,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gwa-township/",
+      "date": "2026-06-27T05:13:22",
+      "title": "Armed Conflict in Maungdaw and Gwa Townships",
+      "body": "Military airstrikes struck two townships in Myanmar — Maungdaw and Gwa — injuring six people. The report was published by Burma News International, though the exact date of the strikes was not provided in the available s",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 20.824133,
+      "lng": 92.36119,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVAxWTFadEg5V2stNF9XRGNaRE1NYmVaWU1fQ05ZdFFuTkpVTFd3Z0RrZ1NDZkJsUEQtWExnV1J2Mlk1dmEtRlJGX0k4d0N0a3pjdE5XRjNJQTZpVHlRNGVjRUVBTXB5NzRkbHhBUFFUVWhaS2ZyOWdkSWVaeVNuRXFWLVJKdm9XRXFGRjRCWVhjUTRx?oc=5",
+      "prayer": "Six people wounded in airstrikes across Maungdaw and Gwa Townships in Myanmar",
+      "alert_summary": "Military airstrikes on Maungdaw and Gwa Townships left 6 people injured, according to Burma News International."
+    },
+    {
+      "wp_id": 7463,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mon-state-3/",
+      "date": "2026-06-27T05:13:10",
+      "title": "Armed Conflict in Magway Region",
+      "body": "A military airstrike killed five civilians, including two children, in Myanmar's Magway Region. The attack was reported by Mizzima News, a Myanmar-based outlet that covers conflict across the country. Magway Region, in c",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 16.4908,
+      "lng": 97.6285,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tdmY3RWJXMDF6ejlTY2E5UlNXNlhNVWNld0pjYTJMMUxRcWJrWmRrbjlBX3lGLTB0NXk4ZXI4d3JPSDloSldoSjdYODM4OURzbWc?oc=5",
+      "prayer": "Five civilians, including two children, killed in an airstrike in Magway Region",
+      "alert_summary": "A military airstrike killed five civilians, including two children, in Myanmar's Magway Region."
+    },
+    {
+      "wp_id": 7499,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ivory-coast-border-post/",
+      "date": "2026-06-27T05:12:58",
+      "title": "Armed Conflict in Ivory Coast border post",
+      "body": "Militants attacked a border post in Ivory Coast, killing about 10 people, according to security sources. No further details about the exact location or date of the attack were available from the source. Ivory Coast share",
+      "country": "Ivory Coast",
+      "countries": [
+        "Ivory Coast"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12T29wUWkxTm9GaTVIem1lSWhLd185SVNNR19oSkVubHMwQ1g0NzNaaHJ3bEFVZ1hEZHVFekk2dXVjU010Y21ZWTltTnRvSjjSAVRBVV95cUxNTE5adUZLc1FyakJBeEVXQkl6a1k2a1ZyZjd3eDhvOVF4VTlQN2h3elM1eUZYOUZTWXhLMHlxVkVuR3g2QjZDblpicW9KeXRVYzhaSDk?oc=5",
+      "prayer": "Soldiers and civilians at an Ivory Coast border post killed in a militant attack",
+      "alert_summary": "Militants attacked a border post in Ivory Coast, killing about 10 people, according to security sources."
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-27T05:12:06",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "On Friday, the US military launched strikes against Iranian missile and drone storage facilities and coastal radar positions along Iran's coast. The strikes came one day after a drone hit a cargo ship in the Strait of Ho",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Sailors stranded in the Strait of Hormuz region as US-Iran hostilities resume",
+      "alert_summary": "The US struck Iranian missile storage, drone storage, and coastal radar sites on Friday after a drone attacked a cargo ship in the Strait of Hormuz on Thursday."
+    },
+    {
+      "wp_id": 7496,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-artibonite/",
+      "date": "2026-06-27T05:11:54",
+      "title": "Displacement in Artibonite",
+      "body": "Armed group clashes in Haiti's Artibonite department forced more than 2,600 people from their homes last week, according to the UN's Office for the Coordination of Humanitarian Affairs (OCHA). The displacement adds furth",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Displacement",
+      "lat": 19.44606,
+      "lng": -72.688434,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/06/1167823",
+      "prayer": "Over 2,600 people in Haiti's Artibonite region displaced by armed group clashes",
+      "alert_summary": "Clashes between armed groups displaced more than 2,600 people in Haiti's Artibonite department last week."
+    },
+    {
+      "wp_id": 7445,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-8/",
+      "date": "2026-06-27T05:11:42",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "On Friday, June 27, 2026, US forces struck Iranian missile storage facilities, drone storage locations, and coastal radar sites near the southern Iranian port of Sirik. The strikes came one day after an Iranian drone hit",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship?traffic_source=rss",
+      "prayer": "Commercial crews and civilians in Iran and the region amid renewed US-Iran military exchanges",
+      "alert_summary": "US aircraft struck Iranian missile, drone, and radar sites near Sirik after an Iranian drone hit the cargo ship Ever Lovely in the Strait of Hormuz; no crew injuries reported."
+    },
+    {
+      "wp_id": 7494,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-burkina-faso/",
+      "date": "2026-06-27T05:11:30",
+      "title": "Coup/Crisis in Burkina Faso",
+      "body": "On June 26, 2026, Burkina Faso's military government announced it was cutting all diplomatic ties with France, effective immediately. The announcement was read on national television by the communications minister, who a",
+      "country": "Burkina Faso",
+      "countries": [
+        "Burkina Faso"
+      ],
+      "type": "Coup or Crisis",
+      "lat": 12.253836,
+      "lng": -2.38158,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss",
+      "prayer": "Civilians in Burkina Faso caught between armed groups and a military government suppressing political life",
+      "alert_summary": "Burkina Faso's military government severed diplomatic relations with France on June 26, 2026; no casualties reported."
+    },
+    {
+      "wp_id": 7493,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-south-africa-2/",
+      "date": "2026-06-27T05:11:17",
+      "title": "Displacement in South Africa",
+      "body": "Thousands of migrants are leaving South Africa following a wave of xenophobic violence, with further anti-immigrant protests planned for June 30, 2026. Many are camping outside consular offices as they wait to leave. Sev",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Displacement",
+      "lat": -26.104285,
+      "lng": 28.119076,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/thousands-of-migrants-flee-south-africa-ahead-of-anti-immigrant-protests?traffic_source=rss",
+      "prayer": "Thousands of migrants fleeing South Africa amid xenophobic violence, many stranded outside consular offices",
+      "alert_summary": "Thousands of migrants are fleeing South Africa amid xenophobic violence ahead of planned anti-immigrant protests on June 30."
+    },
     {
       "wp_id": 7473,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buccleuch/",
@@ -39,42 +257,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUU0T0ZmRGVCeENKZEN5LWk1eXBXMl9Kc2NDUHNkbzVmblNfTURIMlcwTXNnMmdxaHUtemZLMUY5a3AwVkNyZ0pyQnJnQm0wNDJoT2tLQ3lmQmRodUMzaTJqdTlYRy15NTk4elNpcHpzWW1TanI4QjNzdGZMbEMxZEJRM3F5dWJjSkR4QnB3M29XcG5GOVR2QlptS3o?oc=5",
       "prayer": "Kidnapping victim and families living under threat of abduction in Ogun State",
       "alert_summary": "Police shot and killed 2 suspected kidnappers and rescued a victim in Ogun State, Nigeria."
-    },
-    {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-26T21:47:09",
-      "title": "Armed Conflict in Makiivka",
-      "body": "Ukrainian forces carried out an airstrike targeting a Russian military command post in Makiivka, a city in the Donetsk region currently under Russian control. The strike was reported by Ukrainian media. No casualty figur",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 48.044025,
-      "lng": 37.966064,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVklzckdfNEMzNmttQVZvMG1WcGp3MTd1dFY0dWhiUXgxc3dka0J3MWl6OHNNMWVKUnQ5WFM1X3A2anc4NlJHZ1k0YkVYYTEwbldmRU9hOHpNOVB3ZlNTMnBHVmxZNVByaWh1U3QyaFhVNHFMNWlXYWwzUGNvQk1JbWU4cXVUMEo4cF96SEo5bFBDTHdyUW1tVGZiTWs3MkJrQllGalJXNGt1WnBCd1p4OTJ0NDNDQkk?oc=5",
-      "prayer": "Civilians in Makiivka caught near military targets during ongoing strikes",
-      "alert_summary": "Ukrainian forces launched an airstrike on a Russian army command post in Makiivka."
-    },
-    {
-      "wp_id": 7466,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria-2/",
-      "date": "2026-06-26T21:45:29",
-      "title": "Armed Conflict in Syria",
-      "body": "The U.S. military announced it carried out an airstrike in Syria that killed the top leader of the Islamic State group. The strike targeted a senior figure described as the organization's leader. No additional details we",
-      "country": "Syria",
-      "countries": [
-        "Syria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 35.013048,
-      "lng": 38.505592,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbC1LOGtWZnhqaHNDSXMyT1lCd29wTV9RYUYwT2E3MWtLbWxvNnZaWXBVSnVhN185NnkydDI1eTd4RFM3dFZ6YVY3Q185ZXg1cWd0ZDRvS3c1MmdscTVCUUtPbHNTdlQ5ZWFjRWNHRnNQNWVrVzhZd0ZSUk95VTZrSXZCR1RsbXBJT08yYjlDOFlpQWxaeWpLeW1Zalk1eDB2R3lKanlTU0ZnRkU?oc=5",
-      "prayer": "Civilians in Syria amid continued airstrikes targeting militant leaders",
-      "alert_summary": "A U.S. airstrike in Syria killed the leader of the Islamic State; no casualty figures reported."
     },
     {
       "wp_id": 7465,
@@ -113,24 +295,6 @@
       "alert_summary": "Airstrikes on a Shi'ite paramilitary base in Anbar killed 15, including a regional commander."
     },
     {
-      "wp_id": 7463,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mon-state-3/",
-      "date": "2026-06-26T21:44:32",
-      "title": "Armed Conflict in Mon State",
-      "body": "Myanmar's military carried out 30 airstrikes over four days targeting a gold mining area in Mon State, according to reporting from Mizzima News. The strikes were described as a crackdown on the region, though specific ca",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Armed Conflict",
-      "lat": 16.490803,
-      "lng": 97.628483,
-      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13ZWYyUTJiaXlycUtsalc1MXRrSjJGS2l3akpHMHRSWkNBUUpXdzQ4RmxPMWJaeUN4cnFnUXd0TEpZRnM1dlZVZjNYY2NRRXk3S2c?oc=5",
-      "prayer": "Civilians in Mon State's gold mining zone caught in four days of airstrikes",
-      "alert_summary": "Myanmar's military launched 30 airstrikes over four days targeting a gold mining zone in Mon State."
-    },
-    {
       "wp_id": 7461,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mogadishu/",
       "date": "2026-06-26T21:44:03",
@@ -165,24 +329,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQenlGZHY1dVdpUWI1cUFxNnkwdGZENk5iNG5hcGxFaC15czFRZURUTC1valFqNzFIU3dHaVdBQlloMDB1ZnFsTmgyTzBhM2RqQTByYnZ4Tkt4QklfaFBmV3RVWlN3dDhZSGFxWUQ0TjJHZk9DNUdPWDdRdFV4TV9TMzcwd2JyOUg1OXk5V2U4OHlJSkk3eG5lUXFCS09XWWJ4QnBUSVY5WjBQcUFrNEVPUm5ONklzREtDYWx0eHpvbDUzcmc?oc=5",
       "prayer": "Civilians near the Ethiopia border caught in renewed military offensive in Blue Nile",
       "alert_summary": "Sudan's military reported capturing a rebel stronghold in the Blue Nile region near the Ethiopia border."
-    },
-    {
-      "wp_id": 7458,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yobe/",
-      "date": "2026-06-26T21:42:59",
-      "title": "Armed Conflict in Yobe",
-      "body": "Nigerian troops detained two people believed to be supplying fuel and other resources to Boko Haram fighters in Yobe state, in the country's northeast. Along with the arrests, soldiers confiscated 750 litres of petrol th",
-      "country": "Nigeria",
-      "countries": [
-        "Nigeria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 11.747,
-      "lng": 11.9608,
-      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGVLaVMwSWE3aGg4MkFJMlBmbXJKclViS2RlTWVwYW0zNEJ0NFAzNHJXSU9adXlrM0ZkOGpEaktsQVBSZ3RGZTRWd2dDclFnUnVwb3lsM0lDNmRqaWRtWVJyamw5NmtJMV9ETVhtbWZ0a0hHdXZCSG51X0Q5a0FBU0lyLTZOdzhDeHNreFhZMjFuanl5aXFkdllNQVdpNVF0M0JvY1VtTE54SjVTeHJxeUxPa3JGNkZqSmlR?oc=5",
-      "prayer": "Two detained suspects and communities in Yobe living under threat of armed group activity",
-      "alert_summary": "Soldiers arrested 2 suspected Boko Haram logistics suppliers and seized 750 litres of petrol in Yobe state."
     },
     {
       "wp_id": 7457,
@@ -382,25 +528,6 @@
       "source_url": "https://www.aljazeera.com/news/2026/6/26/israeli-prosecutors-charge-six-settlers-after-west-bank-mosque-attack?traffic_source=rss",
       "prayer": "Palestinian villagers and worshippers in the West Bank facing ongoing settler attacks on homes, vehicles, and mosques",
       "alert_summary": "Six settlers, five of them minors, were charged after attacking two West Bank villages and a mosque on June 14, setting fires and assaulting residents."
-    },
-    {
-      "wp_id": 7445,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-8/",
-      "date": "2026-06-26T21:39:20",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "body": "A drone hit the deck of the Singapore-flagged cargo vessel Ever Lovely in the Strait of Hormuz on Thursday, near the Omani coast. Three additional drones launched in the same coordinated attack were intercepted by US for",
-      "country": "Iran",
-      "countries": [
-        "Iran",
-        "United States"
-      ],
-      "type": "Armed Conflict",
-      "lat": 27.0675,
-      "lng": 56.46,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/26/trump-blames-iran-for-foolish-strike-on-cargo-ship-in-strait-of-hormuz?traffic_source=rss",
-      "prayer": "Over 11,000 seafarers trapped in the Gulf amid escalating US-Iran strikes",
-      "alert_summary": "A drone struck the cargo ship Ever Lovely in the Strait of Hormuz; the US then struck Iranian missile, drone, and radar sites in response."
     },
     {
       "wp_id": 7403,
