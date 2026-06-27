@@ -1,0 +1,58 @@
+{
+  "feed": "conflict",
+  "updated": "2026-06-27T19:44:40.404230+00:00",
+  "count": 5,
+  "limit": 10000,
+  "events": [
+    {
+      "wp_id": 7534,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-assam/",
+      "date": "2026-06-27T19:44:27",
+      "title": "Displacement in Assam",
+      "country": "India",
+      "type": "Displacement",
+      "lat": 26.3444,
+      "lng": 93.0103
+    },
+    {
+      "wp_id": 7467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
+      "date": "2026-06-27T19:43:56",
+      "title": "Armed Conflict in al-Mawasi, Khan Younis",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.343477,
+      "lng": 34.30874
+    },
+    {
+      "wp_id": 7520,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-karachi/",
+      "date": "2026-06-27T19:43:44",
+      "title": "Armed Conflict in Gulistan-i-Jauhar, Karachi",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 24.8554,
+      "lng": 67.0205
+    },
+    {
+      "wp_id": 7549,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nairobi-3/",
+      "date": "2026-06-27T19:43:33",
+      "title": "Civil Unrest in Nairobi",
+      "country": "Kenya",
+      "type": "Civil Unrest",
+      "lat": -1.289001,
+      "lng": 36.817281
+    },
+    {
+      "wp_id": 7453,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-35/",
+      "date": "2026-06-27T19:43:08",
+      "title": "Armed Conflict in southern Lebanon",
+      "country": "Israel",
+      "type": "Armed Conflict",
+      "lat": 31.1417,
+      "lng": 34.3148
+    }
+  ]
+}
