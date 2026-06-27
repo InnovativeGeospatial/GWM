@@ -1,9 +1,45 @@
 {
   "feed": "persecution",
-  "updated": "2026-06-27T04:42:20.736940+00:00",
-  "count": 215,
+  "updated": "2026-06-27T05:09:43.141748+00:00",
+  "count": 217,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7490,
+      "wp_link": "https://globalwitnessmonitor.com/monk-shot-and-wounded-outside-egyptian-monastery-amid-land-dispute/",
+      "date": "2026-06-27T05:09:38",
+      "title": "Monk Shot and Wounded Outside Egyptian Monastery Amid Land Dispute",
+      "body": "<p>On June 26, 2026, a monk was wounded by shotgun fire outside a monastery in Egypt amid an ongoing land dispute, according to Coptic Solidarity. Two men approached a pickup truck carrying two monks as they were leaving the monastery, and one of the assailants fired a shotgun, striking one monk in the leg. Fellow monks subsequently apprehended one individual connected to the shooting, who was handed over to police, and authorities later arrested both alleged shooters and referred them to the Public Prosecution.</p>\n\n<p>The wounded monk was transferred to a hospital where shotgun pellets were removed from his leg; his condition is reported to be stable. The attack is linked to a long-running land dispute in which the monastery had submitted a renewed request to legalize ownership of approximately 41.5 acres of adjacent land, but the request was rejected and negotiations remain unresolved. A church source clarified that the attack occurred outside the monastery walls and that the disputed land is subject to ongoing litigation between a government urban authority and the monastery. Forensic examinations and witness interviews are continuing, and a statement on the investigation's outcome is expected.</p>",
+      "country": "egypt",
+      "countries": [
+        "egypt"
+      ],
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8,
+      "source_title": "Coptic Solidarity",
+      "source_url": "https://www.copticsolidarity.org/2026/06/26/monk-wounded-in-shooting-near-monastery-amid-ongoing-land-dispute-in-fayoum/",
+      "prayer": "Egyptian Coptic monks endangered by unresolved land disputes and ongoing legal uncertainty",
+      "alert_summary": "A monk in Egypt was shot and wounded outside a monastery during an ongoing land dispute."
+    },
+    {
+      "wp_id": 7489,
+      "wp_link": "https://globalwitnessmonitor.com/christian-hospitalized-after-violent-attack-during-evangelistic-outreach-in-uganda/",
+      "date": "2026-06-27T05:09:26",
+      "title": "Christian Hospitalized After Violent Attack During Evangelistic Outreach in Uganda",
+      "body": "<p>On June 14, 2026, a Christian man and his wife were attacked by a group of approximately nine Muslims while returning to their lodging after participating in street evangelism in Uganda, according to Morning Star News. The assailants confronted the couple over their distribution of Christian materials and their preaching about Christ, and an altercation ensued. The man was struck on the head with blunt objects, pushed to the ground, stomped on, and kicked until he lost consciousness. He sustained fractures to his left leg and right hand, and his Bible was torn apart during the assault.</p>\n\n<p>The attackers fled when a passing vehicle approached, and its occupants transported the injured man to a medical facility, where he was still receiving treatment at the time of reporting. A pastor associated with the church the couple had attended stated that the matter would be reported to police once the man is discharged. Authorities had not issued any official statement. Morning Star News notes that Uganda's constitution guarantees religious freedom, including the right to propagate one's faith, and that this attack is among many instances of Christian persecution the outlet has documented in the country.</p>",
+      "country": "uganda",
+      "countries": [
+        "uganda"
+      ],
+      "type": "displacement",
+      "lat": 1.4,
+      "lng": 32.3,
+      "source_title": "Morningstar News",
+      "source_url": "https://morningstarnews.org/2026/06/christian-attacked-for-evangelistic-outreach-in-uganda/",
+      "prayer": "Ugandan believer hospitalized after violent attack during evangelistic outreach and his wife",
+      "alert_summary": "A Christian man was beaten unconscious by a group of about nine attackers in Uganda during evangelistic outreach."
+    },
     {
       "wp_id": 7442,
       "wp_link": "https://globalwitnessmonitor.com/blind-christian-man-acquitted-after-10-months-in-pakistani-jail-on-blasphemy-charges/",
