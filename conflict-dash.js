@@ -13,6 +13,7 @@
   // run so the CDN serves fresh data within minutes. Do NOT append a
   // query string to jsDelivr /gh/ URLs -- it causes a 404.
   var JSON_FEED_URL = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/conflict.json";
+  var POINTS_URL    = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/conflict.points.json";
   var WP_FALLBACK   = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=8&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var ADVISORY_URL  ="https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/travel_advisories.json"
   var FLAG_BASE     = "https://flagcdn.com/24x18/";
@@ -39,6 +40,7 @@
   };
 
   var allEvents = [];
+  var mapEvents = [];
   var activeFilter = "all";
   var cMap = null;
   var expandedKey = null;
@@ -227,6 +229,29 @@
   function filteredEvents() {
     if (activeFilter === "all") return allEvents.slice();
     return allEvents.filter(function (e) { return typeKey(e.type) === activeFilter; });
+  }
+
+  function filteredMapEvents() {
+    var src = mapEvents.length ? mapEvents : allEvents;
+    if (activeFilter === "all") return src.slice();
+    return src.filter(function (e) { return typeKey(e.type) === activeFilter; });
+  }
+
+  function fetchPoints() {
+    return fetch(POINTS_URL + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) {
+        if (!r.ok) throw new Error("points HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        if (!data || !Array.isArray(data.events)) throw new Error("points malformed");
+        console.log("[dash] loaded " + data.events.length + " map points");
+        return data.events;
+      })
+      .catch(function (err) {
+        console.warn("[dash] points feed failed, map falls back to news feed:", err);
+        return [];
+      });
   }
 
   function loadAdvisories() {
@@ -419,7 +444,7 @@
       cMap.on("mouseenter", "cdots", function () { cMap.getCanvas().style.cursor = "pointer"; });
       cMap.on("mouseleave", "cdots", function () { cMap.getCanvas().style.cursor = ""; });
 
-      paintMap(filteredEvents());
+      paintMap(filteredMapEvents());
     });
 
     var zin = $id("c-zin"), zout = $id("c-zout");
@@ -497,7 +522,7 @@
   }
 
   function expandStack(centerFeature) {
-    var allF = eventsToFeatures(filteredEvents());
+    var allF = eventsToFeatures(filteredMapEvents());
     var stack = findStackedFeatures(centerFeature, allF);
     if (stack.length < 2) return false;
 
@@ -527,7 +552,7 @@
     if (!cMap.getSource("cpts")) return;
     cMap.getSource("c-lines").setData({ type:"FeatureCollection", features:[] });
     cMap.getSource("cpts").setData({
-      type:"FeatureCollection", features: eventsToFeatures(filteredEvents())
+      type:"FeatureCollection", features: eventsToFeatures(filteredMapEvents())
     });
     expandedKey = null;
   }
@@ -558,7 +583,7 @@
     e.originalEvent.stopPropagation();
     var feature = e.features[0];
     var coords = feature.geometry.coordinates.slice();
-    var allF = eventsToFeatures(filteredEvents());
+    var allF = eventsToFeatures(filteredMapEvents());
     var stack = findStackedFeatures(feature, allF);
 
     if (stack.length < 2) {
@@ -572,7 +597,8 @@
   function showStackList(coords, stack) {
     // Sort newest first by matching back to allEvents for the date
     var eventsByWpId = {};
-    allEvents.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
+    var _src = mapEvents.length ? mapEvents : allEvents;
+    _src.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
 
     var items = stack.map(function (f) {
       var ev = eventsByWpId[f.properties.wp_id] || {};
@@ -636,7 +662,7 @@
     var events = filteredEvents();
     renderNews(events);
     renderTicker(events);
-    paintMap(events);
+    paintMap(filteredMapEvents());
   }
 
   function bindFilters() {
@@ -668,12 +694,13 @@
     loadAdvisories();
     bindFilters();
     initMap();
-    fetchEvents().then(function (events) {
-      allEvents = events || [];
+    Promise.all([fetchEvents(), fetchPoints()]).then(function (res) {
+      allEvents = res[0] || [];
+      mapEvents = res[1] || [];
       var view = filteredEvents();
       renderNews(view);
       renderTicker(view);
-      if (cMap && cMap.loaded && cMap.loaded()) paintMap(view);
+      if (cMap && cMap.loaded && cMap.loaded()) paintMap(filteredMapEvents());
     }).catch(function (err) {
       console.error("[conflict-dash] fetch failed:", err);
       var f = $id("c-feed"); if (f) f.innerHTML = "<div class='c-loading'>FEED ERROR</div>";
