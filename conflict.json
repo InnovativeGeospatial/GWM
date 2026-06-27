@@ -1,9 +1,45 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-27T17:19:55.111238+00:00",
+  "updated": "2026-06-27T17:56:02.836468+00:00",
   "count": 893,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7466,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria-2/",
+      "date": "2026-06-27T17:55:49",
+      "title": "Armed Conflict in Syria-Turkey border",
+      "body": "A U.S. airstrike killed a senior leader of ISIS near the Syria-Turkey border region, according to reporting from MSN. No specific date for the strike was given in the source material. No further details were available fr",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 35.013,
+      "lng": 38.5056,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSGZ6SWlwVjY0cVpmMjVNLVR3cUQxYnVPWFdtdEtBZVBVVnh6V2ItY0x6bUlIVTlvZkRyNlhaaXByX2UySzZxaHZIbGZJZVdrd25FcnVqM1VXYjVKVmN4WXJUSzBab2dCOTZGQmlKYnFvTzVBWE5yT2RhYklQVHIxQ1ZITVpoVmxtYlUtMGxfR2NlalV4X3Jjem1zZHBuLU1kQnh5dEtZc3dJNzBnT2tTLUNIeGxPRWs0MmRKLVZ5bTItUXh1VDdKNFNPaE1vREJZTml3M0lpbHZDMnVZblQxSEMySzFYaWxuLVpabExaaTUyNWhuZkpz?oc=5",
+      "prayer": "Communities near the Syria-Turkey border amid ongoing airstrikes targeting armed groups",
+      "alert_summary": "A U.S. airstrike killed a senior ISIS leader near the Syria-Turkey border; no casualty figures reported."
+    },
+    {
+      "wp_id": 7464,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-anbar-3/",
+      "date": "2026-06-27T17:55:38",
+      "title": "Armed Conflict in Anbar",
+      "body": "Airstrikes hit a base belonging to Iraq's Shi'ite Popular Mobilization Forces (PMF) in Anbar province, killing 15 people. Among those killed was the PMF commander for the Anbar region. The PMF is an umbrella group of mos",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.425986,
+      "lng": 43.299922,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYlhIRUk0d1QwWjctTUphekVwTDBSTWVDS0s4cWMwal8tVjZPNWJoVGZSNzVMNGdHMmdveWlzbU85WG5YNUNwM3ZnaFFGbkd6ZUdraDYwcFU4THJRSVl3Mk1DZndYaXhOdG1NSkQ3NV90N3RsUUhuOFVsMzRjNm9mNlVfdG5sdTI1VEVjdUlsYzhDamdKTlI0UHdmMA?oc=5",
+      "prayer": "Families of 15 killed in airstrikes on a militia site in Anbar province",
+      "alert_summary": "Airstrikes on a Shi'ite PMF site in Anbar killed 15 people, including a regional commander."
+    },
     {
       "wp_id": 7458,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yobe/",
@@ -224,24 +260,6 @@
       "alert_summary": "Military airstrikes in Kyaikto prompted residents to flee the area; no casualty figures reported."
     },
     {
-      "wp_id": 7466,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-syria-2/",
-      "date": "2026-06-27T05:13:39",
-      "title": "Armed Conflict in Syria",
-      "body": "U.S. Central Command announced that American forces carried out an airstrike in Syria that killed a leader of the Islamic State group. No specific date or location within Syria was given in the source. No figures for add",
-      "country": "Syria",
-      "countries": [
-        "Syria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 35.013,
-      "lng": 38.5056,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13R1hFaUQ4NDlUdGJ2OEIzRGpHbzZBRHZYVExKaGRFNUk1bDVPREwwMXRBdWZDUXh4cWpQRHRwRlZ4bXdsbFJFU1lkUG92Y3Rz0gFWQVVfeXFMT0FVNnVJaEY0S1FnU0hKT1JqdU9IYkhoMmhTdEdVaHVtclBfWExXTHB0X2FBWEVwN0hlR0FoS0g4cERhYjFMVWxxSnpXUUUyMXhUR0x1cEE?oc=5",
-      "prayer": "Civilians in Syria near areas targeted by ongoing airstrikes against armed groups",
-      "alert_summary": "U.S. forces killed an Islamic State leader in Syria in an airstrike, according to Central Command."
-    },
-    {
       "wp_id": 7462,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gwa-township/",
       "date": "2026-06-27T05:13:22",
@@ -403,24 +421,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVZOZ3REbEp1b3dTNUtyQ1o5QVcyc1hBeGN6WHQ4OHB0Yjdoa2RHTERJYUYyRE5WVUVPMzlmWVhaM24yNE5kSDFzVGNuZFBvNE9RZHgxNXpVZlNnckMwcVNiQW9IaXBLc0ZmcGdjejl6bHVIZHhqVnREZGJZbVdNSUdIOEplZ1c0eFBiZVhhXzg4bWw2WC1obDdVWEZDaHZG?oc=5",
       "prayer": "Civilians in northwest Syria caught amid ongoing airstrikes and armed group activity",
       "alert_summary": "A U.S. military airstrike in northwest Syria killed a senior ISIS leader; no casualty figures reported."
-    },
-    {
-      "wp_id": 7464,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-anbar-3/",
-      "date": "2026-06-26T21:44:49",
-      "title": "Armed Conflict in Anbar",
-      "body": "Airstrikes hit a site belonging to Iraq's Popular Mobilization Forces (PMF), a network of armed groups, in the western Anbar region. Fifteen people were killed, among them the PMF commander for Anbar province. The PMF, a",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYlhIRUk0d1QwWjctTUphekVwTDBSTWVDS0s4cWMwal8tVjZPNWJoVGZSNzVMNGdHMmdveWlzbU85WG5YNUNwM3ZnaFFGbkd6ZUdraDYwcFU4THJRSVl3Mk1DZndYaXhOdG1NSkQ3NV90N3RsUUhuOFVsMzRjNm9mNlVfdG5sdTI1VEVjdUlsYzhDamdKTlI0UHdmMA?oc=5",
-      "prayer": "Families of the 15 killed in airstrikes on a militia site in Anbar",
-      "alert_summary": "Airstrikes on a Shi'ite paramilitary base in Anbar killed 15, including a regional commander."
     },
     {
       "wp_id": 7460,
