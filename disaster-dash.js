@@ -11,6 +11,7 @@
   // Switched from jsDelivr to raw GitHub. Raw GitHub respects no-cache headers
   // and edge-propagates within ~5 min. jsDelivr was caching for hours.
   var JSON_FEED_URL = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/disasters.json";
+  var POINTS_URL    = "https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/disasters.points.json";
   var WP_FALLBACK    = "https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=38&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc";
   var FLAG_BASE      = "https://flagcdn.com/24x18/";
   var SPREAD_KM      = 5;
@@ -24,6 +25,7 @@
 
   // -- State --
   var allEvents = [];
+  var mapEvents = [];
   var activeFilter = "all";
   var dMap = null;
   var expandedKey = null;
@@ -152,6 +154,23 @@
       title: title, body: excerpt, country: country, type: type,
       lat: lat, lng: lng, source_title: "", source_url: ""
     };
+  }
+
+  function filteredMapEvents() {
+    var src = mapEvents.length ? mapEvents : allEvents;
+    if (activeFilter === "all") return src.slice();
+    return src.filter(function (e) { return typeKey(e.type) === activeFilter; });
+  }
+
+  function fetchPoints() {
+    return fetch(POINTS_URL + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('points HTTP ' + r.status); return r.json(); })
+      .then(function (data) {
+        if (!data || !Array.isArray(data.events)) throw new Error("points malformed");
+        console.log("[dash] loaded " + data.events.length + " map points");
+        return data.events;
+      })
+      .catch(function (err) { console.warn("[dash] points feed failed; map uses news feed:", err); return []; });
   }
 
   function filteredEvents() {
@@ -387,7 +406,7 @@
         dMap.getCanvas().style.cursor = "";
       });
 
-      paintMap(filteredEvents());
+      paintMap(filteredMapEvents());
     });
   }
 
@@ -463,7 +482,7 @@
   }
 
   function expandStack(centerFeature) {
-    var allFeatures = eventsToFeatures(filteredEvents());
+    var allFeatures = eventsToFeatures(filteredMapEvents());
     var stack = findStackedFeatures(centerFeature, allFeatures);
     if (stack.length < 2) return false;
 
@@ -502,7 +521,7 @@
     });
     dMap.getSource("incidents").setData({
       type: "FeatureCollection",
-      features: eventsToFeatures(filteredEvents())
+      features: eventsToFeatures(filteredMapEvents())
     });
     expandedKey = null;
   }
@@ -529,7 +548,7 @@
     e.originalEvent.stopPropagation();
     var feature = e.features[0];
     var coords = feature.geometry.coordinates.slice();
-    var allF = eventsToFeatures(filteredEvents());
+    var allF = eventsToFeatures(filteredMapEvents());
     var stack = findStackedFeatures(feature, allF);
 
     if (stack.length < 2) {
@@ -542,7 +561,8 @@
 
   function showStackList(coords, stack) {
     var eventsByWpId = {};
-    allEvents.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
+    var _src = mapEvents.length ? mapEvents : allEvents;
+    _src.forEach(function (ev) { eventsByWpId[ev.wp_id] = ev; });
 
     var items = stack.map(function (f) {
       var ev = eventsByWpId[f.properties.wp_id] || {};
@@ -607,7 +627,7 @@
     renderCountries(events);
     renderNews(events);
     renderTicker(events);
-    paintMap(events);
+    paintMap(filteredMapEvents());
   }
 
   function bindFilters() {
@@ -659,14 +679,15 @@
     bindFilters();
     bindCountryList();
     initMap();
-    fetchEvents().then(function (events) {
-      allEvents = events || [];
+    Promise.all([fetchEvents(), fetchPoints()]).then(function (res) {
+      allEvents = res[0] || [];
+      mapEvents = res[1] || [];
       var view = filteredEvents();
       renderStats(view);
       renderCountries(view);
       renderNews(view);
       renderTicker(view);
-      if (dMap && dMap.loaded && dMap.loaded()) paintMap(view);
+      if (dMap && dMap.loaded && dMap.loaded()) paintMap(filteredMapEvents());
     }).catch(function (err) {
       console.error("[disaster-dash] fetch failed:", err);
       var s = $id("d-stats"); if (s) s.innerHTML = '<div class="d-empty">Failed to load events.</div>';
