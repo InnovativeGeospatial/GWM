@@ -1,9 +1,99 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-27T20:04:32.564518+00:00",
-  "count": 1072,
+  "updated": "2026-06-28T05:13:09.795798+00:00",
+  "count": 1073,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7473,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buccleuch/",
+      "date": "2026-06-28T05:13:00",
+      "title": "Armed Conflict in Buccleuch Interchange",
+      "country": "South Africa",
+      "type": "Armed Conflict",
+      "lat": -26.058,
+      "lng": 28.1021
+    },
+    {
+      "wp_id": 7458,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yobe/",
+      "date": "2026-06-28T05:12:48",
+      "title": "Armed Conflict in Oyo",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.747,
+      "lng": 11.9608
+    },
+    {
+      "wp_id": 7522,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-markaba/",
+      "date": "2026-06-28T05:12:31",
+      "title": "Armed Conflict in southern Lebanon",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 33.2348,
+      "lng": 35.5167
+    },
+    {
+      "wp_id": 7461,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mogadishu/",
+      "date": "2026-06-28T05:11:52",
+      "title": "Armed Conflict in southeastern Somalia",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 2.0354,
+      "lng": 45.3428
+    },
+    {
+      "wp_id": 7456,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-katsina/",
+      "date": "2026-06-28T05:11:39",
+      "title": "Civil Unrest in Katsina airport",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 12.9891,
+      "lng": 7.5994
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-28T05:11:02",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987
+    },
+    {
+      "wp_id": 7467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
+      "date": "2026-06-28T05:10:49",
+      "title": "Armed Conflict in al-Mawasi",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 7564,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belgrade-3/",
+      "date": "2026-06-28T05:10:35",
+      "title": "Civil Unrest in Belgrade",
+      "country": "Serbia",
+      "type": "Civil Unrest",
+      "lat": 44.817813,
+      "lng": 20.456897
+    },
+    {
+      "wp_id": 7445,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-8/",
+      "date": "2026-06-28T05:10:03",
+      "title": "Armed Conflict in Kuwait, Bahrain",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46
+    },
     {
       "wp_id": 7534,
       "wp_link": "https://globalwitnessmonitor.com/displacement-in-assam/",
@@ -13,16 +103,6 @@
       "type": "Displacement",
       "lat": 26.3444,
       "lng": 93.0103
-    },
-    {
-      "wp_id": 7467,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-27T19:43:56",
-      "title": "Armed Conflict in al-Mawasi, Khan Younis",
-      "country": "Palestine",
-      "type": "Armed Conflict",
-      "lat": 31.343477,
-      "lng": 34.30874
     },
     {
       "wp_id": 7520,
@@ -75,26 +155,6 @@
       "lng": 43.299922
     },
     {
-      "wp_id": 7458,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yobe/",
-      "date": "2026-06-27T17:19:45",
-      "title": "Armed Conflict in Ogun",
-      "country": "Nigeria",
-      "type": "Armed Conflict",
-      "lat": 11.747,
-      "lng": 11.9608
-    },
-    {
-      "wp_id": 7473,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buccleuch/",
-      "date": "2026-06-27T17:19:24",
-      "title": "Armed Conflict in Buccleuch interchange",
-      "country": "South Africa",
-      "type": "Armed Conflict",
-      "lat": -26.058,
-      "lng": 28.1021
-    },
-    {
       "wp_id": 7468,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
       "date": "2026-06-27T17:18:29",
@@ -103,46 +163,6 @@
       "type": "Armed Conflict",
       "lat": 48.044,
       "lng": 37.9661
-    },
-    {
-      "wp_id": 7461,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mogadishu/",
-      "date": "2026-06-27T17:17:31",
-      "title": "Armed Conflict in Middle Shabelle",
-      "country": "Somalia",
-      "type": "Armed Conflict",
-      "lat": 2.0354,
-      "lng": 45.3428
-    },
-    {
-      "wp_id": 7456,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-katsina/",
-      "date": "2026-06-27T17:16:32",
-      "title": "Civil Unrest in Katsina airport",
-      "country": "Nigeria",
-      "type": "Civil Unrest",
-      "lat": 12.9891,
-      "lng": 7.5994
-    },
-    {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-27T17:15:09",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "country": "United States",
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987
-    },
-    {
-      "wp_id": 7522,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-markaba/",
-      "date": "2026-06-27T17:14:55",
-      "title": "Armed Conflict in Nabatiyeh",
-      "country": "Lebanon",
-      "type": "Armed Conflict",
-      "lat": 33.2348,
-      "lng": 35.5167
     },
     {
       "wp_id": 7505,
@@ -193,16 +213,6 @@
       "type": "Displacement",
       "lat": 19.44606,
       "lng": -72.688434
-    },
-    {
-      "wp_id": 7445,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-8/",
-      "date": "2026-06-27T05:11:42",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "country": "Iran",
-      "type": "Armed Conflict",
-      "lat": 27.0675,
-      "lng": 56.46
     },
     {
       "wp_id": 7494,
