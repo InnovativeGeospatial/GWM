@@ -1,9 +1,69 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-27T20:04:43.142439+00:00",
-  "count": 850,
+  "updated": "2026-06-28T05:08:39.306577+00:00",
+  "count": 856,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7561,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-25-2026-2/",
+      "date": "2026-06-28T05:08:24",
+      "title": "Wildfire in United States 06/25/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 39.254817,
+      "lng": -111.6025
+    },
+    {
+      "wp_id": 7560,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-27-2026-2/",
+      "date": "2026-06-28T05:08:03",
+      "title": "Wildfire in Canada 06/27/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 56.852688,
+      "lng": -101.045336
+    },
+    {
+      "wp_id": 7559,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-taiwan-06-25-2026-3/",
+      "date": "2026-06-28T05:07:34",
+      "title": "Storm in Taiwan 06/25/2026",
+      "country": "Taiwan",
+      "type": "Storm",
+      "lat": 23.777978,
+      "lng": 120.930229
+    },
+    {
+      "wp_id": 7558,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-27-2026-2/",
+      "date": "2026-06-28T05:07:05",
+      "title": "Storm in United States 06/27/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 37.531088,
+      "lng": -85.289397
+    },
+    {
+      "wp_id": 7557,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026/",
+      "date": "2026-06-28T05:06:09",
+      "title": "Flood in United States 06/28/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.531088,
+      "lng": -85.289397
+    },
+    {
+      "wp_id": 7556,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-27-2026-2/",
+      "date": "2026-06-28T05:05:14",
+      "title": "Flood in Russia 06/27/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082
+    },
     {
       "wp_id": 7544,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-27-2026/",
