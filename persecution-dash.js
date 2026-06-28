@@ -72,6 +72,7 @@
    listing every report — matching the conflict/disaster dashboards. */
 
 var GWM_JSON_FEED_URL    = 'https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/persecution.json';
+var GWM_POINTS_URL       = 'https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/persecution.points.json';
 var GWM_WP_FALLBACK      = 'https://globalwitnessmonitor.com/wp-json/wp/v2/posts?categories=7&per_page=100&_fields=id,title,excerpt,link,date,content&orderby=date&order=desc';
 var GWM_RANKINGS_URL     = 'https://raw.githubusercontent.com/InnovativeGeospatial/GWM/main/rankings.json';
 
@@ -463,11 +464,11 @@ gwmMap.on('load', function() {
   gwmMap.on('mouseenter', 'incidents-dot', function() { gwmMap.getCanvas().style.cursor = 'pointer'; });
   gwmMap.on('mouseleave', 'incidents-dot', function() { gwmMap.getCanvas().style.cursor = ''; });
 
-  fetch(GWM_JSON_FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
+  fetch(GWM_POINTS_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function(r) { if (!r.ok) throw new Error('JSON HTTP ' + r.status); return r.json(); })
     .then(function(data) {
       if (!data || !Array.isArray(data.events)) throw new Error('JSON malformed');
-      console.log('[persecution-dash] loaded ' + data.events.length + ' events from JSON feed');
+      console.log('[persecution-dash] loaded ' + data.events.length + ' map points');
       var features = data.events.map(gwmEventToFeature).filter(function(f) { return f; });
       gwmOriginalFeatures = features;
       gwmMap.getSource('incidents').setData({
