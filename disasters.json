@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-28T05:08:37.787193+00:00",
-  "count": 831,
+  "updated": "2026-06-28T17:10:57.526314+00:00",
+  "count": 836,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7581,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-28-2026/",
+      "date": "2026-06-28T17:10:04",
+      "title": "Wildfire in Canada 06/28/2026",
+      "body": "A wildfire forced the evacuation of Lynn Lake, a town in northwestern Manitoba. No casualty figures or details about the fire's size or containment status are available from the source.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 56.852688,
+      "lng": -101.045336,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN043eGF0NFg0a1Z5V1JYT2RmaGh6bndwZkgySmFOaVhnQjZUR0NoOXU2cnJ2Ml9abXcyeFQzNkQ2OWdkR1VEMkxReWpOVExDQjk3TkhmSmt4a0tRUDVoU0EtWG9YLUZnRllmcTJkUC1LZkE2dnpsSVRTSUprLVFEZXp1LURWVFNkdWZLM0lBM1JoR2dIOFY4Vm4yS0ZLQUhwSzEzWnZCREZxRGQ5bUE?oc=5",
+      "prayer": "Residents of Lynn Lake, Manitoba displaced by a wildfire evacuation",
+      "alert_summary": "A wildfire prompted the evacuation of Lynn Lake in northwestern Manitoba; no casualty figure reported."
+    },
+    {
+      "wp_id": 7580,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-27-2026/",
+      "date": "2026-06-28T17:09:29",
+      "title": "Flood in United States 06/27/2026",
+      "body": "Flooding across Kentucky killed at least 4 people, according to the source. No date for the event was provided in the available material. No figures for injuries, displaced residents, or damaged homes were included in th",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.531088,
+      "lng": -85.289397,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamVySVBnMGhObUFDOUNJZTlXS3lqZ0RmS0NvLU5MN3JaTVc4ZzBHUS1oRlh3MEEzcXdRSEJsQ282N1VHNS1qZU16djNDUUhJZl96QjlYMmZWaDB2UF82dUlnWTRfd2R5MmR1cllWanM1VWlHbElWU0l4MU90SEpScVM3SHdFZ0dlS0NNbGJIb3R3Ty1GQmfSAZsBQVVfeXFMTVRRZ25mbHJ5SmU4Q2QwNWJhQ3lFNDhtM1VXdGttWXZ3ZnVMaS1FV3ZCdTdVUzVoTTNXb1o3QkJxX3RyVTRxNklwdFdoN21sTzd0VjZ4bzFtLTMtMHdfUkM4VDF1Ry12aVN1dVJ6SVBFNWdMSXAtcHItc2VHbjV2UVdJYlM4RWxsMDdwWnN1YWUyb1RKNmFCcU40RG8?oc=5",
+      "prayer": "Families across Kentucky grieving deaths and displacement from widespread flooding",
+      "alert_summary": "Flooding across Kentucky killed at least 4 people; no displacement figure reported."
+    },
+    {
+      "wp_id": 7578,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-28-2026/",
+      "date": "2026-06-28T17:08:53",
+      "title": "Disease in Congo 06/28/2026",
+      "body": "An Ebola outbreak is ongoing in eastern Democratic Republic of the Congo, where close to two million people are living in displacement camps without reliable access to food, water, or medicine. Health workers cannot reac",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/28/qa-why-humanitarian-aid-is-crucial-to-stopping-the-ebola-outbreak?traffic_source=rss",
+      "prayer": "Nearly two million displaced people in eastern DRC cut off from Ebola care and basic services",
+      "alert_summary": "An Ebola outbreak in eastern Democratic Republic of the Congo has reached a 25 percent case fatality rate amid a humanitarian crisis affecting close to two million people."
+    },
+    {
+      "wp_id": 7577,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-28-2026/",
+      "date": "2026-06-28T17:08:40",
+      "title": "Wildfire in United States 06/28/2026",
+      "body": "On June 28, 2026, three firefighters died and two others were injured while responding to the Knowles and Gore fires along the Utah-Colorado border. The US Wildland Fire Service confirmed the deaths and said further deta",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 38.470555,
+      "lng": -102.297392,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/28/three-firefighters-killed-in-us-wildfires-along-colorado-utah?traffic_source=rss",
+      "prayer": "Three firefighters killed and two injured battling wildfires along the Utah-Colorado border",
+      "alert_summary": "Wildfires along the Utah-Colorado border killed three firefighters and injured two others responding to the Knowles and Gore fires."
+    },
+    {
+      "wp_id": 7576,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-germany-06-28-2026/",
+      "date": "2026-06-28T17:08:29",
+      "title": "Heatwave in Germany 06/28/2026",
+      "body": "A heatwave moving across Europe has been linked to more than 1,300 excess deaths since June 21, according to the head of the World Health Organization. France alone recorded around 1,000 more deaths than expected in roug",
+      "country": "Germany",
+      "countries": [
+        "Germany"
+      ],
+      "type": "Heatwave",
+      "lat": 52.019924,
+      "lng": 14.717845,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Europeans — especially the elderly — dying in an early summer heatwave with no adequate shelter",
+      "alert_summary": "A heatwave across Europe has been linked to more than 1,300 excess deaths since June 21, with Germany recording 41.7°C."
+    },
     {
       "wp_id": 7561,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-25-2026-2/",
