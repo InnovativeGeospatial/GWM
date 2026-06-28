@@ -1,9 +1,117 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-27T17:53:33.840534+00:00",
-  "count": 825,
+  "updated": "2026-06-28T05:08:37.787193+00:00",
+  "count": 831,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7561,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-25-2026-2/",
+      "date": "2026-06-28T05:08:24",
+      "title": "Wildfire in United States 06/25/2026",
+      "body": "A wildfire burned through 24,000 hectares in Utah, forcing residents to evacuate the affected area. No casualty figures were reported in the source material. The source provides no additional details on specific location",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 39.254817,
+      "lng": -111.6025,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM0IwTFhpYTJneXJkR01ETG5McEdEeGRZenNUSWdpczY2RUx0aW9IemJmenZDOEFkTmFWazJDa1FhTUgxRmZtVk12S29jQlFLdjYzbmV0VG1xbHJaWnFYb3c4QzNKS1VBaWxIbmJ5ZDl4NTRlZVRNeGxfTWdCWWN6bkg5MTNqZk9SaDBWZjFzQVpDRjJEbUdxaXE0NkE?oc=5",
+      "prayer": "Residents of Utah displaced by wildfire evacuations and ongoing fire threat",
+      "alert_summary": "A wildfire burned 24,000 hectares in Utah, forcing evacuations; no casualty figure reported."
+    },
+    {
+      "wp_id": 7560,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-27-2026-2/",
+      "date": "2026-06-28T05:08:03",
+      "title": "Wildfire in Canada 06/27/2026",
+      "body": "A wildfire prompted a mandatory evacuation order for Lynn Lake, a community in northern Manitoba. No date for the event was provided in the source. No casualty figures, property damage totals, or fire size details were i",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 56.852688,
+      "lng": -101.045336,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN1FiVjN0ZVZLdl93eENCT3kxb1lrRUhyOVRGUHpSS2RKWUVIOWk1SlVWMjI2dmFsVWt5cEJvajljUk5HQ3AyRjlVYVRwNnFfbWRsOEU1YlEyM1g2aFRwT0Z3aW9qTkpmNlNVSS1PblBHMWluNFNJOEhrNkFTWEFRUTlDNjQ1MFRQY2RqcDkzWS1Ya0FVbFFHTGlzX0JaeHlqUDFrOTMxdHZCbzIxOC1Sd3lXYm5CUkFzZHQtYjNNajJFcTVDSGJURjZB?oc=5",
+      "prayer": "Residents of Lynn Lake under mandatory evacuation as wildfire threatens their community",
+      "alert_summary": "A wildfire prompted a mandatory evacuation order for Lynn Lake; no casualty or damage figure reported."
+    },
+    {
+      "wp_id": 7559,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-taiwan-06-25-2026-3/",
+      "date": "2026-06-28T05:07:34",
+      "title": "Storm in Taiwan 06/25/2026",
+      "body": "Heavy rains driven by a nearby typhoon struck Taiwan, prompting authorities to order the evacuation of about 200 people on the east coast. The source provides no casualty figures, and no specific towns or districts are n",
+      "country": "Taiwan",
+      "countries": [
+        "Taiwan"
+      ],
+      "type": "Storm",
+      "lat": 23.777978,
+      "lng": 120.930229,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWnZ0LXU3bDhlSUVXbXV6LVZGdVFlRXpPTkl1cHNqelg0c0Z0dzFxTE5VemRXMzdZcnhCSUNoTldKUHhXa25rc3JZdEo1bENXS3RZQ0oxbDVCaGxpOHNuZER5eTlxYXNBcHo2R0doWUNTTXZKTThIbV9kd2tMTjBvaUtnUWtHMUd5VVo5ZUFpM3NyVEJwUHNqaTlNdU55NzlweDNUMTd4QmM2cjBiaHcxRTc2RGtiUm5KN28zNWpkb2R5SV9zdG03NTVsczkzQ1Fi?oc=5",
+      "prayer": "About 200 residents on Taiwan's east coast facing evacuation due to typhoon-driven rains",
+      "alert_summary": "Heavy rains from a nearby typhoon struck Taiwan, prompting evacuation of about 200 people on the east coast."
+    },
+    {
+      "wp_id": 7558,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-27-2026-2/",
+      "date": "2026-06-28T05:07:05",
+      "title": "Storm in United States 06/27/2026",
+      "body": "Severe weather moving across Kentucky has killed at least 3 people, with officials confirming the deaths and reporting that multiple others may also be storm-related. No additional details about locations within the stat",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 37.531088,
+      "lng": -85.289397,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQ2Z4SnoyOGdKeHFCelBnTm5oZHpFa3BBNTNqbGhjbDFVSlh5YmFnMF9PdmplOXB2YV85NlpEOTAxc3ZMZGZBWTZCQ1d3d2dlM2FTN0FYMEVmZE5uMlVCa2cxckc2ajZZeC1fTUVodk5xZTEycDMzbjNiNUstTUlyRTNnRW1WbWxNeWRCTFo5RVRDb0tvYjlYQUR3T2lzbEZJM1FsSEZWU2cwakd5czFLZHNrRk9EVkZGak50S29JNk5UV0pJTVNnVjUtb1hBQjdfQ3pQUVVpR0Q?oc=5",
+      "prayer": "Kentucky residents amid storm-related deaths as severe weather moves across the state",
+      "alert_summary": "Severe weather moving across Kentucky has killed at least 3 people, with multiple additional deaths reported."
+    },
+    {
+      "wp_id": 7557,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026/",
+      "date": "2026-06-28T05:06:09",
+      "title": "Flood in United States 06/28/2026",
+      "body": "Flooding in Kentucky has killed four people, according to the state's governor, who has declared a state of emergency in response. The source provides no additional details on specific locations within Kentucky, the numb",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.531088,
+      "lng": -85.289397,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQThBZnJWOHlZR0NnekpZaU03OElTYlpCU0dVOHlMb0xETEhITEVrOVlIVUNfcVBVbTV6NFoyQ2lJYWQ3MjhzMzVrTzNPN0tWR2RuS252bE5JZUZRcFhiSGtmQjVQVV9wT0h6SjdrWDh5WkhDV04zWXhPRGVINEhoYUZkcGtVeDZuQ2Z6d3c4UlphTmhwVDdPM0c3ZFcyNUFNS2fSAacBQVVfeXFMTzlmVUZTZFN0VkxobTVBTy1wci04MWY5bzU2eUNvazQweURfMGVnWG44SW81ZGxRbmM3dzY1WEVnS05fRmhCNzdFQ0dLVHZ0WC1HRG9oU1pwcnQ2dk5BbC1Ca0JQTmJrS2xEUUVtUW03RFR0RTdkcktxNkhxMk5NN0g1LTllQ3ZKWmRyLXVHc3ZVY3FuNmlSOU5tRUtGam45MHZRdVJGQW8?oc=5",
+      "prayer": "Kentucky residents and families affected by flooding after four people killed",
+      "alert_summary": "Flooding in Kentucky killed 4 people, prompting the governor to declare a state of emergency."
+    },
+    {
+      "wp_id": 7556,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-27-2026-2/",
+      "date": "2026-06-28T05:05:14",
+      "title": "Flood in Russia 06/27/2026",
+      "body": "The Kamchatka River near the village of Lazо in Milkovsky District has reached a water level of 550 centimeters above the gauge baseline — the threshold classified as a dangerous hydrological event. No casualty or displa",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260627221812-0231970.xml",
+      "prayer": "Residents near the Kamchatka River in Milkovsky District facing dangerous flood conditions",
+      "alert_summary": "The Kamchatka River near Lazо village reached a dangerous flood level of 550 cm above the gauge baseline."
+    },
     {
       "wp_id": 7544,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-27-2026/",
