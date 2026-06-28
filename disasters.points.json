@@ -1,9 +1,59 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-28T05:08:39.306577+00:00",
-  "count": 856,
+  "updated": "2026-06-28T17:10:59.254314+00:00",
+  "count": 861,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7581,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-28-2026/",
+      "date": "2026-06-28T17:10:04",
+      "title": "Wildfire in Canada 06/28/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 56.852688,
+      "lng": -101.045336
+    },
+    {
+      "wp_id": 7580,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-27-2026/",
+      "date": "2026-06-28T17:09:29",
+      "title": "Flood in United States 06/27/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.531088,
+      "lng": -85.289397
+    },
+    {
+      "wp_id": 7578,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-28-2026/",
+      "date": "2026-06-28T17:08:53",
+      "title": "Disease in Congo 06/28/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 7577,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-28-2026/",
+      "date": "2026-06-28T17:08:40",
+      "title": "Wildfire in United States 06/28/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 38.470555,
+      "lng": -102.297392
+    },
+    {
+      "wp_id": 7576,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-germany-06-28-2026/",
+      "date": "2026-06-28T17:08:29",
+      "title": "Heatwave in Germany 06/28/2026",
+      "country": "Germany",
+      "type": "Heatwave",
+      "lat": 52.019924,
+      "lng": 14.717845
+    },
     {
       "wp_id": 7561,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-25-2026-2/",
