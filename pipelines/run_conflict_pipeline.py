@@ -24,6 +24,19 @@ v6.1 (same-location rollup):
   all hold ONE record per location instead of several.
 - Events with LOCATION: UNKNOWN never geocode, so they never merge -- they
   post individually, as before.
+
+v6.2 (quality fixes - 2026-06):
+- RELEVANCE GATE: events Claude classifies as EVENT_TYPE "Other" are no longer
+  published to the conflict feed (Other = not a conflict category). Obvious
+  natural-disaster / accident items are also dropped before generation so they
+  do not burn API calls (they belong to the disaster pipeline).
+- IDENTITY DEDUP: merge is keyed on (primary country + event_type) within the
+  window instead of exact coordinates. This collapses the same escalation that
+  arrives under different place labels ("Iran" / "Tehran" / "Beirut") and the
+  null-coordinate duplicates that the coord-only merge used to miss entirely.
+- GEOCODE GUARD: the geocoder now queries "<location>, <country>" so an
+  ambiguous place name no longer resolves to a same-named US town. Mismatches
+  are rejected and the event posts without a map pin rather than a wrong one.
 """
 
 import re
@@ -78,6 +91,24 @@ FEED_NAME    = "conflict"
 # post. "Same place" = coords rounded to COORD_MATCH_PRECISION decimals.
 COORD_MATCH_PRECISION = 2   # ~1.1 km
 MERGE_WINDOW_HOURS    = 24
+
+# -- v6.2 IDENTITY DEDUP / RELEVANCE --
+# A post is treated as the same event as a recent one when it shares the same
+# primary country AND event_type within MERGE_WINDOW_HOURS and either side is
+# missing coords, the coords are within MERGE_COORD_DEG, or the titles overlap
+# at least MERGE_TITLE_SIM.
+MERGE_COORD_DEG = 0.75      # ~80 km (sum of abs lat/lng deltas)
+MERGE_TITLE_SIM = 0.50
+# Per-event suppression list (written by prune_feed.py). Blocks a SPECIFIC
+# deleted event from re-publishing for a bounded window -- not a permanent
+# place/topic block. Lives beside this script on the droplet.
+SUPPRESS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             "suppressed_conflict.json")
+SUPPRESS_DEFAULT_WINDOW_DAYS = 21
+# Only these event types belong in the conflict feed. "Other" is dropped.
+ALLOWED_EVENT_TYPES = {
+    "Armed Conflict", "Civil Unrest", "Coup or Crisis", "Displacement",
+}
 
 REGIONS = {
     'middle-east': [
@@ -240,16 +271,36 @@ EXCLUDE_PATTERNS = [
     'live updates', 'live blog', 'live:',
 ]
 
+# v6.2: natural-disaster / accident items belong to the disaster pipeline,
+# never the conflict feed. Reject these at the title before generation so
+# they do not consume an API call. Kept deliberately narrow (clear physical
+# disasters/accidents only) to avoid dropping real conflict reports.
+NATURAL_NONCONFLICT_TERMS = [
+    'earthquake', 'quake', 'magnitude', 'aftershock', 'tsunami',
+    'volcano', 'volcanic', 'eruption', 'wildfire', 'bushfire',
+    'landslide', 'mudslide', 'avalanche',
+    'cyclone', 'hurricane', 'typhoon', 'tornado',
+    'shark attack', 'plane crash', 'helicopter crash', 'air crash',
+    'bus crash', 'car crash', 'train crash', 'derailment', 'derailed',
+    'capsized', 'capsize', 'ferry sank',
+]
+
 
 def is_relevant(title, summary):
     text = (title + ' ' + summary).lower()
+    title_lower = title.lower()
+    # v6.2: drop obvious natural-disaster / accident items (disaster pipeline
+    # owns these). Title-only check to avoid catching conflict pieces that
+    # merely mention a disaster word in passing.
+    for term in NATURAL_NONCONFLICT_TERMS:
+        if term in title_lower:
+            return False
     has_conflict = any(term in text for term in CONFLICT_TERMS)
     if not has_conflict:
         return False
     has_event = any(signal in text for signal in EVENT_SIGNALS)
     if not has_event:
         return False
-    title_lower = title.lower()
     for pattern in EXCLUDE_PATTERNS:
         if pattern in title_lower:
             return False
@@ -591,11 +642,14 @@ WRITING STYLE - VERY IMPORTANT:
 - Plain language for general public. NO technical jargon, NO intelligence-briefing tone.
 - DO NOT include "Mission Note:", "Field teams should...", "Operational significance...", or any boilerplate operational language at the end.
 - DO NOT editorialize about geopolitics or assign blame beyond what sources state.
-- Length: 100-180 words.
+- Length: only as long as the source supports. At most 100-180 words when the source is detailed; when the source is thin, write 2 to 4 factual sentences and then stop. Never pad to reach a length with background, history, or restatement (e.g. do NOT add filler such as 'the situation continues to develop', 'officials continue to monitor', or 'this is the Nth update').
+- Lead with the concrete figures the source provides (deaths, injured, displaced, arrested, affected, magnitude, or similar). If the source provides no such figure, state that plainly in one sentence and do not imply a scale.
+- NEVER name a city, town, village, district, or region that does not appear in the source material. If the source names no specific place, use the country or write UNKNOWN. Do not invent, guess, or infer a place name.
 - Two or three short paragraphs. Use blank lines between paragraphs (the WordPress editor will turn those into proper paragraph spacing).
 - Do not include personal names; use "a man", "a woman", "residents", "officials", "soldiers", "protesters", etc.
 - Do not include the source URL in the body.
 - Do not include a title in your response - only the article body.
+- State when the event happened in the body, using the event date in plain language (for example, "On June 18, 2026, ..."). If the source does not give a date, do not invent one.
 - End naturally with the last fact or implication for civilians - no boilerplate.
 - DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
 
@@ -631,7 +685,8 @@ Respond with SKIP_NO_EVENT (and nothing else) if ANY of these apply:
 - The piece recounts a historical event rather than reporting something happening now (for example "years ago", "decades ago", "in 19XX", "on this day", "this week in history").
 - The only news hook is a planned or delivered speech, ceremony, statement, hearing, or announcement ABOUT a past event, rather than a new event on the ground.
 - The piece is about espionage, surveillance, intelligence, policy, diplomacy, or institutions, with no specific on-the-ground location where something physically happened.
-- The piece is primarily about a court verdict, trial, sentencing, conviction, indictment, or legal ruling concerning events that already happened, rather than a new violent event occurring now on the ground."""
+- The piece is primarily about a court verdict, trial, sentencing, conviction, indictment, or legal ruling concerning events that already happened, rather than a new violent event occurring now on the ground.
+- The event is a natural disaster or accident (earthquake, flood, storm, wildfire, landslide, plane/vehicle crash, shark attack, building fire) with no armed-conflict, unrest, or political-violence dimension."""
 
 
 CANONICAL_COUNTRY_MAP = None
@@ -814,26 +869,52 @@ def parse_claude_response(raw_text):
     return result
 
 
-BAD_RESPONSE_PATTERNS = [
-    'i cannot write', 'i cannot provide',
-    'i am unable to', 'skip_no_event',
+REFUSAL_PATTERNS = [
+    'i cannot write', 'i cannot provide', 'i am unable to',
+    "i can't write", 'i can not write', 'i will not write',
 ]
+SKIP_TOKEN = 'skip_no_event'
+MIN_WORDS = 30
+SKIP_LOG = '/opt/conflict-pipeline/skips.log'
+
+
+def log_skip(title, reason):
+    """Append every dropped candidate to a skip log so drops stay inspectable
+    without anyone having to watch the run."""
+    try:
+        with open(SKIP_LOG, 'a') as f:
+            f.write(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
+                    + '\t' + (reason or '?') + '\t' + (title or '')[:120] + '\n')
+    except Exception as e:
+        log.warning('skip-log write failed: %s', e)
+
+
+def is_refusal(article_body):
+    """True only for an actual model refusal -- NOT the deliberate
+    SKIP_NO_EVENT signal, which is a correct rejection."""
+    lower = article_body.lower()
+    if SKIP_TOKEN in lower:
+        return False
+    return any(p in lower for p in REFUSAL_PATTERNS)
 
 
 def is_valid_article(article_body):
     lower = article_body.lower()
-    for pattern in BAD_RESPONSE_PATTERNS:
+    if SKIP_TOKEN in lower:
+        log.info("INVALID_REASON: skip_no_event")
+        return False
+    for pattern in REFUSAL_PATTERNS:
         if pattern in lower:
-            log.info("INVALID_REASON: matched bad pattern '%s'", pattern)
+            log.info("INVALID_REASON: matched refusal '%s'", pattern)
             return False
     word_count = len(article_body.split())
-    if word_count < 60:
+    if word_count < MIN_WORDS:
         log.info("INVALID_REASON: word_count=%d", word_count)
         return False
     return True
 
 
-def fetch_article_body(url, max_chars=4000):
+def fetch_article_body(url, max_chars=6000):
     try:
         from bs4 import BeautifulSoup
     except ImportError:
@@ -842,7 +923,7 @@ def fetch_article_body(url, max_chars=4000):
         headers = {"User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                                   "AppleWebKit/605.1.15 (KHTML, like Gecko) "
                                   "Version/17.0 Safari/605.1.15")}
-        r = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+        r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
         if r.status_code != 200:
             return ""
         # Google News RSS links are redirect shells. If we never escaped to a
@@ -852,22 +933,38 @@ def fetch_article_body(url, max_chars=4000):
         if "html" not in r.headers.get("content-type", "").lower():
             return ""
         soup = BeautifulSoup(r.text, "html.parser")
-        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form", "figure", "figcaption"]):
             tag.decompose()
+        def _extract(scope):
+            if not scope:
+                return ""
+            blocks = []
+            for el in scope.find_all(["p", "li", "tr", "h2", "h3"]):
+                t = el.get_text(" ", strip=True)
+                if not t:
+                    continue
+                if el.name in ("li", "tr"):
+                    if len(t) > 25 or any(c.isdigit() for c in t):
+                        blocks.append(t)
+                elif len(t) > 25:
+                    blocks.append(t)
+            return " ".join(blocks)
+
         node = soup.find("article") or soup.find("main") or soup.body
-        if not node:
-            return ""
-        paragraphs = [p.get_text(" ", strip=True) for p in node.find_all("p")]
-        text = " ".join(p for p in paragraphs if len(p) > 30)
+        text = _extract(node)
+        if len(text) < 400:
+            full = _extract(soup.body or soup)
+            if len(full) > len(text):
+                text = full
         if not text:
-            text = node.get_text(" ", strip=True)
+            text = (node or soup).get_text(" ", strip=True)
         return " ".join(text.split())[:max_chars]
     except Exception as e:
         log.info("body fetch failed for %s: %s", url[:60], e)
         return ""
 
 
-def generate_article(item):
+def generate_article(item, firmer=False):
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     body_text = fetch_article_body(item['url'])
     body_section = ""
@@ -884,6 +981,15 @@ def generate_article(item):
         "SOURCE OUTLET: " + item['source'] + "\n\n"
         "Use only facts present in the source material above."
     )
+    if firmer:
+        user_prompt = (
+            "The item below is a factual news event already publicly reported "
+            "by the outlet named. Summarize it for a conflict-monitoring service "
+            "read by missionaries and churches. Do not decline and do not refuse; "
+            "if the source is thin, write only what it supports. If it genuinely "
+            "describes no real-world event, reply with SKIP_NO_EVENT. Follow the "
+            "header format exactly.\n\n"
+        ) + user_prompt
     log.info('Generating article for: %s', item['title'][:70])
     message = client.messages.create(
         model='claude-sonnet-4-6',
@@ -900,8 +1006,14 @@ def geocode_mapbox(location, country_hint=None):
     if not location or not MAPBOX_TOKEN:
         return None, None
     try:
+        # v6.2: bias the geocoder to the event's own country by appending it to
+        # the query. Stops ambiguous place names ("Sinai Peninsula", "Sea of
+        # Oman", "Pentagon") from resolving to same-named US towns.
+        query = location.strip()
+        if country_hint and country_hint.strip():
+            query = query + ", " + country_hint.strip()
         url = ("https://api.mapbox.com/geocoding/v5/mapbox.places/"
-               + requests.utils.quote(location.strip()) + ".json")
+               + requests.utils.quote(query) + ".json")
         params = {
             "access_token": MAPBOX_TOKEN, "limit": 5,
             "types": "place,locality,region,district,country,neighborhood,address",
@@ -1045,14 +1157,6 @@ def format_body_for_wordpress(body_text, prayer=""):
         p = re.sub(r"\s*\n\s*", " ", p)
         p = re.sub(r"\s+", " ", p).strip()
         cleaned.append("<p>" + p + "</p>")
-    if prayer:
-        pr = html.unescape(prayer).strip()
-        pr = re.sub(r"\s+", " ", pr)
-        pr = _prayer_with_for(pr)
-        cleaned.append(
-            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr + '</p>'
-
-        )
     return "\n\n".join(cleaned)
 
 
@@ -1099,6 +1203,14 @@ def _extract_meta_coords(content):
     return _coord_key(m.group(1).strip(), m.group(2).strip())
 
 
+def _meta_field(content, field):
+    """Pull a single data-<field> value out of a post's hidden meta div."""
+    if not content:
+        return ""
+    m = re.search(r'data-' + field + r'="([^"]*)"', content)
+    return m.group(1).strip() if m else ""
+
+
 def _strip_meta_div(body):
     """Remove the hidden gwm-conflict-meta div from a body fragment."""
     if not body:
@@ -1108,11 +1220,8 @@ def _strip_meta_div(body):
 
 
 def find_recent_conflict_post(lat, lng, auth):
-    """Find a category-8 post published within MERGE_WINDOW_HOURS whose hidden
-    meta coords match (rounded). Returns dict (id, content, date, title) or None.
-
-    Looks across already-published posts, so it merges across separate pipeline
-    runs in the same day."""
+    """Legacy coord-only lookup. Retained for reference; superseded by
+    find_recent_conflict_post_v2, which keys on event identity."""
     key = _coord_key(lat, lng)
     if key is None:
         return None
@@ -1151,6 +1260,84 @@ def find_recent_conflict_post(lat, lng, auth):
     return None
 
 
+def find_recent_conflict_post_v2(primary_country, event_type, clean_title,
+                                 lat, lng, auth):
+    """Identity-based merge lookup. Finds a recent category-8 post that is the
+    SAME event as the incoming one and returns it for merging.
+
+    Same event = published within MERGE_WINDOW_HOURS AND same primary country
+    (data-country) AND same event_type (data-type) AND any of:
+      - either side has no coordinates  (collapses the null-coord duplicates
+        that the old coord-only merge missed -- this is what spammed the feed
+        with one post per place label for a single escalation), OR
+      - both have coords within MERGE_COORD_DEG, OR
+      - the cleaned titles overlap at least MERGE_TITLE_SIM.
+    """
+    if not primary_country or not event_type:
+        return None
+    after = (datetime.now(timezone.utc)
+             - timedelta(hours=MERGE_WINDOW_HOURS)).isoformat()
+    have_new = isinstance(lat, (int, float)) and isinstance(lng, (int, float))
+    try:
+        r = requests.get(
+            WP_URL + '/wp-json/wp/v2/posts',
+            params={
+                'categories': WP_CATEGORY_ID,
+                'after': after,
+                'per_page': 50,
+                'orderby': 'date',
+                'order': 'desc',
+                'context': 'edit',
+                '_fields': 'id,content,date,date_gmt,title',
+            },
+            auth=auth, timeout=20,
+        )
+        if r.status_code != 200:
+            log.warning('Rollup lookup failed (%s)', r.status_code)
+            return None
+        for post in r.json():
+            c = post.get('content') or {}
+            raw = c.get('raw') or c.get('rendered', '')
+            if _meta_field(raw, 'country') != primary_country:
+                continue
+            if _meta_field(raw, 'type') != event_type:
+                continue
+            t = (post.get('title') or {})
+            existing_title = t.get('raw') or t.get('rendered') or ''
+            old_lat = _meta_field(raw, 'lat')
+            old_lng = _meta_field(raw, 'lng')
+            have_old = bool(old_lat) and bool(old_lng)
+
+            merge = False
+            if not (have_new and have_old):
+                merge = True
+            else:
+                try:
+                    dist = abs(float(old_lat) - lat) + abs(float(old_lng) - lng)
+                    if dist <= MERGE_COORD_DEG:
+                        merge = True
+                except ValueError:
+                    merge = True
+            if not merge:
+                etitle_plain = re.sub(r"<[^>]+>", "", html.unescape(existing_title))
+                if title_similarity(clean_title, etitle_plain) >= MERGE_TITLE_SIM:
+                    merge = True
+
+            if merge:
+                log.info("Identity merge: %r/%s -> existing post %s (%r)",
+                         primary_country, event_type, post.get('id'),
+                         existing_title[:50])
+                return {
+                    'id': post.get('id'),
+                    'content': raw,
+                    'date': post.get('date_gmt') or post.get('date') or '',
+                    'title': existing_title,
+                }
+    except Exception as e:
+        log.warning('Rollup lookup error: %s', e)
+    return None
+
+
 def _build_merged_content(existing_content, new_body_html):
     """Append a new incident to an existing post. Keeps the existing post's
     hidden meta div (and its map coordinates) so the map point is unchanged;
@@ -1174,8 +1361,57 @@ def _rollup_title(existing_title, location, country, total):
     return base + " \u2014 " + str(total) + " Conflict Reports"
 
 
+def _load_suppressions():
+    """Local, per-event suppression list written by prune_feed.py. Each entry
+    blocks re-publication of one specific deleted event (matched on
+    country + type + location) for a bounded number of days."""
+    try:
+        with open(SUPPRESS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f).get("suppressed", [])
+    except Exception:
+        return []
+
+
+_SUPPRESSIONS = _load_suppressions()
+
+
+def _is_suppressed(country, event_type, lat, lng, clean_title):
+    """Return the matching suppression entry, or None. Matches when an active
+    (non-expired) entry shares country+type AND either coords within
+    MERGE_COORD_DEG or title overlap >= MERGE_TITLE_SIM."""
+    if not _SUPPRESSIONS:
+        return None
+    today = datetime.now(timezone.utc).date()
+    c = (country or "").strip().lower()
+    t = (event_type or "").strip().lower()
+    for s in _SUPPRESSIONS:
+        if str(s.get("country", "")).strip().lower() != c:
+            continue
+        if str(s.get("type", "")).strip().lower() != t:
+            continue
+        wd = s.get("window_days", SUPPRESS_DEFAULT_WINDOW_DAYS)
+        try:
+            sdate = datetime.fromisoformat(str(s.get("date", ""))[:10]).date()
+            if (today - sdate).days > int(wd):
+                continue   # expired -- a genuinely new event here is allowed
+        except Exception:
+            pass           # unparseable date -> treat as still active
+        if s.get("broad"):
+            return s
+        slat, slng = s.get("lat"), s.get("lng")
+        if (isinstance(lat, (int, float)) and isinstance(lng, (int, float))
+                and isinstance(slat, (int, float))
+                and isinstance(slng, (int, float))):
+            if abs(lat - slat) + abs(lng - slng) <= MERGE_COORD_DEG:
+                return s
+        st = str(s.get("title", ""))
+        if st and clean_title and title_similarity(clean_title, st) >= MERGE_TITLE_SIM:
+            return s
+    return None
+
+
 def publish_to_wordpress(item, article_body, parsed=None):
-    """Publish a new post OR merge into a recent same-location post.
+    """Publish a new post OR merge into a recent same-event post.
 
     Returns (post_id, post_link, lat, lng, post_date, merged) where merged is
     True when the event was rolled into an existing post."""
@@ -1206,12 +1442,20 @@ def publish_to_wordpress(item, article_body, parsed=None):
                     parsed.get("raw_country_line", ""), item['title'][:60])
         return None, None, None, None, None, False
 
+    etype = parsed.get("event_type", "Other")
+    # v6.2 relevance backstop: only the four conflict categories belong in this
+    # feed. "Other" (and anything unexpected) is dropped here as well as in
+    # main(), so it can never reach the feed even if called directly.
+    if etype not in ALLOWED_EVENT_TYPES:
+        log.info("Skipping (event_type %r not a conflict category): %s",
+                 etype, item['title'][:60])
+        return None, None, None, None, None, False
+
     if not (parsed.get("location") or "").strip():
         log.info("Skipping (no specific location named): %s", item['title'][:60])
         return None, None, None, None, None, False
 
     countries = parsed["countries"]
-    etype = parsed.get("event_type", "Other")
     prayer = parsed.get("prayer", "")
 
     structured_title = build_title(parsed, item)
@@ -1246,33 +1490,60 @@ def publish_to_wordpress(item, article_body, parsed=None):
     formatted_body = format_body_for_wordpress(article_body, prayer)
     final_content = _meta_div + formatted_body
 
-    # --- Same-location rollup: merge into a recent post at identical coords ---
-    if _final_lat is not None and _final_lng is not None:
-        _match = find_recent_conflict_post(_final_lat, _final_lng, auth)
-        if _match and _match.get('id'):
-            merged_content = _build_merged_content(_match['content'], formatted_body)
-            total = _match['content'].count('gwm-incident-sep') + 2
-            merged_title = sanitize_title(
-                _rollup_title(_match.get('title'), _claude_loc,
-                              countries[0] if countries else "", total)
-            )
-            ur = requests.post(
-                endpoint + '/' + str(_match['id']),
-                json={'title': merged_title, 'content': merged_content},
-                auth=auth, timeout=30,
-            )
-            if ur.status_code in (200, 201):
-                post = ur.json()
-                post_date = _match.get('date') or post.get('date_gmt') or post.get('date') or ''
-                log.info("Merged into post ID %s at %s,%s (now %d reports): %s",
-                         _match['id'], _lat_str, _lng_str, total, clean_title[:50])
-                # Return existing post's id/date so the JSON writer overwrites
-                # the SAME feed entry (one record per location).
-                return (_match['id'], post.get('link'),
-                        _final_lat, _final_lng, post_date, True)
-            log.error("Merge update failed (%s); creating a new post instead: %s",
-                      ur.status_code, ur.text[:200])
-            # fall through to normal create
+    # --- Per-event suppression: a specific event the operator deleted must not
+    # resurrect (including via merge into a lingering WP post). Checked BEFORE
+    # the merge logic so a matched event writes nothing to WordPress or feed.
+    _sup = _is_suppressed(countries[0] if countries else "", etype,
+                          _final_lat, _final_lng, clean_title)
+    if _sup:
+        log.info("Skipping (suppressed event): %s", item['title'][:60])
+        log_skip(item['title'], 'suppressed')
+        return None, None, None, None, None, False
+
+    # --- Identity rollup: merge into a recent SAME-EVENT post (country+type) ---
+    # Attempted even when coords are missing, which is exactly the case the old
+    # coord-only merge skipped and that flooded the feed with duplicates.
+    _primary_country = countries[0] if countries else ""
+    _match = find_recent_conflict_post_v2(
+        _primary_country, etype, clean_title, _final_lat, _final_lng, auth)
+    if _match and _match.get('id'):
+        # Replace the existing post with the freshly written article, marked as
+        # an update -- do NOT stack another copy underneath. Keep the existing
+        # post's meta div (and its map coordinates) so the map point is stable.
+        _today_lbl = datetime.now(timezone.utc).strftime('%B %d, %Y')
+        _meta_m = re.search(r'<div class="gwm-conflict-meta".*?</div>',
+                            _match['content'], flags=re.DOTALL)
+        _keep_meta = (_meta_m.group(0) + '\n') if _meta_m else _meta_div
+        _updated_label = ('<p class="gwm-update-label"><strong>Updated:</strong> '
+                          + _today_lbl + '</p>\n')
+        _new_inner = _strip_meta_div(formatted_body).strip()
+        merged_content = _keep_meta + _updated_label + _new_inner
+        _now_iso = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
+        # Reuse the existing post's coords for the returned lat/lng so the JSON
+        # feed entry keeps the original map point.
+        _ex_lat = _meta_field(_match['content'], 'lat')
+        _ex_lng = _meta_field(_match['content'], 'lng')
+        try:
+            _ret_lat = float(_ex_lat) if _ex_lat else _final_lat
+            _ret_lng = float(_ex_lng) if _ex_lng else _final_lng
+        except ValueError:
+            _ret_lat, _ret_lng = _final_lat, _final_lng
+        ur = requests.post(
+            endpoint + '/' + str(_match['id']),
+            json={'title': clean_title, 'content': merged_content,
+                  'date_gmt': _now_iso},
+            auth=auth, timeout=30,
+        )
+        if ur.status_code in (200, 201):
+            post = ur.json()
+            post_date = post.get('date_gmt') or post.get('date') or _now_iso
+            log.info("Updated post ID %s [%s / %s]: %s",
+                     _match['id'], _primary_country, etype, clean_title[:50])
+            return (_match['id'], post.get('link'),
+                    _ret_lat, _ret_lng, post_date, True)
+        log.error("Update failed (%s); creating a new post instead: %s",
+                  ur.status_code, ur.text[:200])
+        # fall through to normal create
 
     tag_ids = []
     for c in countries:
@@ -1373,7 +1644,30 @@ def main():
             article_body = parsed["body"] if (parsed and parsed.get("body")) else raw_response
 
             if not is_valid_article(article_body):
-                log.info('Skipping (invalid): %s', item['title'][:60])
+                if is_refusal(article_body):
+                    log.info('Refusal; retrying once (firmer): %s', item['title'][:60])
+                    _gen = generate_article(item, firmer=True)
+                    if isinstance(_gen, tuple):
+                        raw_response, parsed = _gen
+                    else:
+                        raw_response, parsed = _gen, None
+                    article_body = parsed["body"] if (parsed and parsed.get("body")) else raw_response
+                if not is_valid_article(article_body):
+                    log.info('Skipping (invalid): %s', item['title'][:60])
+                    log_skip(item['title'], 'invalid_or_refusal')
+                    seen.add(item['hash'])
+                    skipped += 1
+                    continue
+
+            # v6.2 relevance gate: only the four conflict categories are
+            # published. "Other" (shark attacks, fires, anniversaries,
+            # explainers, espionage/policy pieces) is dropped here before any
+            # geocoding or WP work.
+            _etype = (parsed.get("event_type") if parsed else "Other") or "Other"
+            if _etype not in ALLOWED_EVENT_TYPES:
+                log.info('Skipping (event_type %r not a conflict category): %s',
+                         _etype, item['title'][:60])
+                log_skip(item['title'], 'event_type_other')
                 seen.add(item['hash'])
                 skipped += 1
                 continue
@@ -1394,7 +1688,13 @@ def main():
                     prayer = parsed.get("prayer", "") if parsed else ""
                     alert_summary = parsed.get("alert_summary", "") if parsed else ""
                     structured_title = build_title(parsed, item) if parsed else item['title']
-                    feed_body = html.unescape(article_body or "")
+                    # Feed carries only a short excerpt, not the full article.
+                    # The full text lives on the WordPress post (wp_link). This
+                    # keeps conflict.json small; the dashboard truncates to ~140
+                    # chars anyway. Strip HTML, collapse whitespace, cap length.
+                    _ftxt = re.sub(r'<[^>]+>', ' ', html.unescape(article_body or ""))
+                    _ftxt = re.sub(r'\s+', ' ', _ftxt).strip()
+                    feed_body = _ftxt[:220]
                     feed_prayer = _prayer_with_for(html.unescape(prayer or "").strip()) if prayer else ""
                     # On a merge, reuse the existing post's wp_id and date so the
                     # writer overwrites the SAME feed entry (one record per place).
@@ -1423,6 +1723,7 @@ def main():
 
                 time.sleep(3)
             else:
+                log_skip(item['title'], 'publish_skip')
                 seen.add(item['hash'])
                 skipped += 1
 
