@@ -1,9 +1,279 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-29T00:53:22.209206+00:00",
-  "count": 840,
+  "updated": "2026-06-29T04:38:02.508465+00:00",
+  "count": 855,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7637,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-26-2026-3/",
+      "date": "2026-06-29T04:34:55",
+      "title": "Disease in Congo 06/26/2026",
+      "body": "The Bundibugyo strain of Ebola has infected over 1,200 people in Congo — including 321 deaths — and reached 20 cases in neighboring Uganda, marking the highest first-month total of any Ebola episode on record, according ",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSmVlNlBOc2NRalkzTTJQMFUyMFlfVm45UXVjUk96YVdBdlZNTURvczhsbWhPSVd5ZVF1TjlBdGVmQUlWVVhmWXJOLW9wOTNhV25vZzRwMVl1WmVYWk9CNXRMSjJpdnl2VDNocVlqUDNIdTRKMjRscERyNlREN1YxTmhOT3cxSlFBZElZOThEUEdVT1g4bWppV0lxM2Y0U0VNVGg5OF83SmpCNWJha2hDOEZ0VExWOTRpTHJPbWFZWF9OcV9kdWZhZHhMbDlZdnBkQ0Z6bVowWlV4LTg4bXBqMQ?oc=5",
+      "prayer": "Communities across Congo and Uganda amid a rapidly spreading Ebola outbreak that has killed hundreds",
+      "alert_summary": "Ebola outbreak in the Democratic Republic of Congo has infected over 1,200 people and killed at least 321, with 20 additional cases in Uganda."
+    },
+    {
+      "wp_id": 7636,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-belgium-06-28-2026/",
+      "date": "2026-06-29T04:34:08",
+      "title": "Disease in Belgium 06/28/2026",
+      "body": "A cluster of mpox cases has been identified in Brussels, Belgium. The exact date of the cluster and the number of individuals confirmed infected were not specified in available reporting, though the outbreak has been des",
+      "country": "Belgium",
+      "countries": [
+        "Belgium"
+      ],
+      "type": "Disease",
+      "lat": 50.8551,
+      "lng": 4.35121,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQU9JRTlPWjcwMmdCcm9RN2hxX3pIR1N2V0NsTjhKRGg2b2FyUVZUcUZOYlVYR0JkLWJIcXRyOVhWUE1wSzVoZElPSzN2MG43VkxPUXI5d3gzZ1g4R0J6RjdEdXdKa2VqSC11RllaQTlGazBFQ1F0cUV5RG5MUE5qdFRUUmVlZXVKVlRQY3NCU3hTT1dBMVhUc2w5VENfaV9iYUE?oc=5",
+      "prayer": "Residents of Brussels and health workers responding to an mpox cluster amid rising case counts in Belgium",
+      "alert_summary": "A cluster of mpox cases described as a \"small outbreak\" has been detected in Brussels; no specific case count reported."
+    },
+    {
+      "wp_id": 7635,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-06-26-2026-2/",
+      "date": "2026-06-29T04:32:20",
+      "title": "Disease in United States 06/26/2026",
+      "body": "As of the most recent CDC data, 2,134 confirmed measles cases have been reported across 41 jurisdictions in 2026, with 30 new outbreaks identified this year. The affected jurisdictions span the country from Alaska to Wyo",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 33.918412,
+      "lng": -80.900773,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kU2puTzAxZ3ktbE1vNzU0RU9xZTlMYzIyb3JRaENuSnJJdnllQUJDeWs3TElwZmJmYU84dkFsc1ZKaEw0N2dTUHFVSlktVE91ejM0TG10YkRVellCcXo2X3VR?oc=5",
+      "prayer": "Unvaccinated children and families across the United States amid a rapidly spreading measles outbreak",
+      "alert_summary": "Measles cases in the United States reached 2,134 confirmed cases across 41 jurisdictions in 2026, with 30 new outbreaks reported."
+    },
+    {
+      "wp_id": 7634,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-06-29-2026/",
+      "date": "2026-06-29T04:31:31",
+      "title": "Flood in India 06/29/2026",
+      "body": "On June 24, 2026, flash floods triggered by heavy rainfall struck Arunachal Pradesh's Keyi Panyor district. Floodwaters swept through the NEEPCO project colony near Poosa, under the Yazali circle of Keyi Panyor. Five peo",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 28.3668,
+      "lng": 94.745979,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQS2txc0U4cVk5UFE1OWkwNEJiRTJFZ2FsRkpyc1RZUnB5ck9mSzdDbWV0TUlrbGxxVmRRWUxxWlNuZ05ibjRLdW1UTU01MGRJMXY4WEpTWEZWSFNPbDJMT1JFQWdaaVVWN3dzb2VhRGM4R2pCQjBHMmcyS2NEemhSaWpSbEswdXZ6VmZQZ0c1OTFRdG92dWZqblJMdm9HUWw4SzJia1huM0pEME1zZmxOUGlHVkRSa0tQRUJyZ0JGbFRpX3BLRGc0THk1VzZOQTBxOFpoMElnd1JlQdIB3wFBVV95cUxQSzh5VjlHNjNNUlg4ekZnQnlVRnJSN0tXdWpCSnNVTjhxQVVjcnQzeTM1bS13dW96dEZTeW1mYXVwbVN0QjBJSS1ZY3pZbGRiQXdKLWhaWEE4S0Y3Q2JodV85TkFKcEdYSmUyV0pTYTdvMENzUnpCdERCUGliakNIVjF5cE9QbnpMMG9NTjRhYWdLRGRMQnkwMjN4MWstb0VRZXVKOVZTTDJpUXBrVVJGLW14Y3FrUE4wU2tJQjNhQkU5NmkyUlpGOHhwZVlYME1ySFlZRURvQ2ZPTnNFdkY0?oc=5",
+      "prayer": "Families in Keyi Panyor district displaced by flash floods, with missing persons still unaccounted for",
+      "alert_summary": "Flash floods and landslides struck Keyi Panyor district on June 24, killing 3, injuring 20, and leaving 2 people missing across 10 affected districts."
+    },
+    {
+      "wp_id": 7633,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-06-26-2026-magnitude-7/",
+      "date": "2026-06-29T04:31:05",
+      "title": "Earthquake in Venezuela 06/26/2026 — Magnitude 7",
+      "body": "Two earthquakes — magnitude 7.2 and 7.5 — struck northern Venezuela late on June 24, 2026. Both were centered near Morón on the Caribbean coast, about 170 kilometers west of Caracas. By June 26, the human toll had climbe",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWHhvalI4dXhMMUd6YUMyZ3Azempka29QelJ4UV9sVkNGMzluaFNjOXZ6S2EtNDFvblJzRUJkdTQxdG95cC1ma1FRci1ucU10VWJ2amRfdHhoZXpVRER3d0NCZjM4SFZXVFd4RVFjZFBNbHhPQWp0bTB1NkRUdDBlaXE5Wk5HTjMtNmdWcF9wVmg5aWlPekNPaXotU1NLV0lzYXFQNWQ1U2hDLXlWblUwcnZrS19TdHRwZU9hMHpKWHd2NHhvRUE?oc=5",
+      "prayer": "Venezuelans in La Guaira and Caracas — hundreds confirmed dead, tens of thousands missing, buried beneath collapsed buildings",
+      "alert_summary": "Two earthquakes of magnitude 7.2 and 7.5 struck northern Venezuela on June 24, killing at least 920 and leaving more than 51,000 missing."
+    },
+    {
+      "wp_id": 7632,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-06-26-2026-4/",
+      "date": "2026-06-29T04:30:41",
+      "title": "Storm in Japan 06/26/2026",
+      "body": "On June 26, 2026, Japan evacuated more than two million people and issued flood and landslide warnings as Typhoon Mekkhala approached, while torrential rain from the storm as it passed neighboring Taiwan shut down parts ",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 31.596793,
+      "lng": 130.557195,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXE2dGtLY3p3VXRaeXVBeTBaNGJYbWZ5bURMeGRHUmhkb3IyMno5NFVvSzd6ekZQaXp0MnZYTHItbzNocmtxX0RVSllBUENldmJpMWxoTEd3RG16YU5iY2dBY29GUmltR3Ywa1dpN1Y1cU5fTnN3VDE4TjJqazc4eWF2djAxOVZ4bEtEcXJFVDRuQ2ljZTE2bFFRZlJGeWZraDIwc0k4bVRYVzlLU2tYYUpUQQ?oc=5",
+      "prayer": "Residents across southern and western Japan and Taiwan facing floods, landslides, and displacement from Typhoon Mekkhala",
+      "alert_summary": "Typhoon Mekkhala forced evacuation of 2.2 million residents across 13 prefectures in Japan while killing two people in Taiwan on June 26, 2026"
+    },
+    {
+      "wp_id": 7631,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-29-2026/",
+      "date": "2026-06-29T04:30:16",
+      "title": "Wildfire in Canada 06/29/2026",
+      "body": "On June 28, 2026, Fort Simpson — a remote community in the Northwest Territories — was ordered to evacuate as an out-of-control wildfire burned nearby. The fire, known as the Dehcho fire, was roughly seven kilometres wes",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 61.86141,
+      "lng": -121.35231,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZVhPS2ZrVE5xUHJ4cDh6Tl9FS241X24zSG1Ca19tYXkzdXhkc0FOWV8tcjJLUXBzRXF4Q0tJTjZBTUlKU09UVUhDZC1CRHA1aUJxN2wxdHpHa2owUko1bFN1ZENPemtITG9yVHNYUC0wY2VXRTlPazR1bHYwRUVZZ0Y5T25EdTdmTVE?oc=5",
+      "prayer": "About 1,300 residents of Fort Simpson ordered to flee as wildfire burns nearby",
+      "alert_summary": "Wildfire forced evacuation of about 1,300 residents from Fort Simpson, Northwest Territories on June 28, 2026."
+    },
+    {
+      "wp_id": 7630,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-29-2026-2/",
+      "date": "2026-06-29T04:27:53",
+      "title": "Wildfire in United States 06/29/2026",
+      "body": "The fire, known as the Lyle Hill Fire, was reported around 1:40 p.m. on June 28, 2026, west of Lyle and expanded rapidly under gusty wind conditions. By 3 p.m., it had traveled approximately 2 miles from its point of ori",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 45.693207,
+      "lng": -121.283812,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjJkdDFwQ2FQeU82VmRPVFpjdTJRSEtJWmNLZk9YNkNqbmJESkswQ0FkNUFfVUt1LURvOElmaHVhTzVKcVFSdmJxS1BuWnVRUWdHRXpPY3Y0amlCZXVFMjlodnltTUJaaV9KUFBOdXZ2cVBNMEV5X2ZhZzBtVjZJQ2FYVkV6VmUtQUVR?oc=5",
+      "prayer": "Residents of Lyle, Washington under evacuation orders as a wildfire advances toward their community",
+      "alert_summary": "Wildfire burning near Lyle, Washington on June 28, 2026 triggered evacuation orders for parts of the community; no injuries or structure losses reported."
+    },
+    {
+      "wp_id": 7629,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026-3/",
+      "date": "2026-06-29T04:26:23",
+      "title": "Flood in United States 06/28/2026",
+      "body": "Four people were killed in flash floods caused by thunderstorms in Kentucky on June 27, 2026. Three fatalities occurred in Madison County and one in Jackson County. Of the three deaths in Madison County, two — one man an",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.74771,
+      "lng": -84.29507,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSXpFdWlZaWlJVVZNNndBVHB2a0lxaG9pNWxOLTJlN3IzdXZGN2ZyVG9IZDZHSWd6UjhXbENKdnA5MlF1VUg2akJ1a2FZaDVLREtIeVVJYUVUYzVFcVUyQklYWkd0ZmF2Zk5TV2JPVFlyZW5VNFdYLXJIT3JhUGExQkdiYzMwMTA5YnlFa0F4d0syclFHYkJhLW15U1BOODJ6?oc=5",
+      "prayer": "Families in Madison and Jackson Counties, Kentucky grieving four flood deaths amid ongoing rescues",
+      "alert_summary": "Flash flooding killed 4 people across Kentucky on June 27, 2026, with a state of emergency declared and multiple water rescues underway."
+    },
+    {
+      "wp_id": 7628,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-25-2026-magnitude-6/",
+      "date": "2026-06-29T04:12:52",
+      "title": "Earthquake in Papua New Guinea 06/25/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake struck about 74 km east of Kokopo, East New Britain Province, Papua New Guinea, on June 25, 2026. The quake registered at a depth of about 33 km. The earthquake occurred in the afternoon local ",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.343031,
+      "lng": 152.281275,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t81q",
+      "prayer": "Residents of East New Britain Province, Papua New Guinea, shaken by a magnitude 5.5 earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5.5 earthquake struck about 73 km east of Kokopo, East New Britain Province; no casualties or damage reported."
+    },
+    {
+      "wp_id": 7627,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-dominican-republic-06-26-2026-magnitude-5/",
+      "date": "2026-06-29T04:11:43",
+      "title": "Earthquake in Dominican Republic 06/26/2026 — Magnitude 5",
+      "body": "On June 26, 2026, a magnitude 5.0 earthquake occurred approximately 51 km south of Boca de Yuma, in La Altagracia Province, Dominican Republic. The earthquake was centered at a depth of about 82 km beneath the seafloor. ",
+      "country": "Dominican Republic",
+      "countries": [
+        "Dominican Republic"
+      ],
+      "type": "Earthquake",
+      "lat": 18.378152,
+      "lng": -68.610004,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026177000",
+      "prayer": "Residents near Boca de Yuma, Dominican Republic, following a magnitude 5 offshore earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck 51 km south of Boca de Yuma, Dominican Republic, on June 26, 2026; no casualty figures reported."
+    },
+    {
+      "wp_id": 7626,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-06-27-2026-magnitude-5/",
+      "date": "2026-06-29T04:10:27",
+      "title": "Earthquake in Solomon Islands 06/27/2026 — Magnitude 5",
+      "body": "On June 27, 2026, a magnitude 5.2 earthquake struck approximately 139 km east of Kirakira in the Solomon Islands, at a shallow depth of about 10 km. No casualties, injuries, or structural damage have been reported. The r",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.655,
+      "lng": 163.1809,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ny",
+      "prayer": "Residents of the Solomon Islands near the remote Makira-Ulawa Province coast after an offshore earthquake",
+      "alert_summary": "A magnitude 5.2 earthquake struck 139 km east of Kirakira, Solomon Islands; no casualties or damage reported."
+    },
+    {
+      "wp_id": 7625,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-06-27-2026-magnitude-6/",
+      "date": "2026-06-29T04:09:34",
+      "title": "Earthquake in Japan 06/27/2026 — Magnitude 6",
+      "body": "A magnitude 5.8 earthquake struck in the North Pacific Ocean near the coast of Iwate, Japan, in the early morning of Sunday, June 28, 2026, at 5:21 a.m. local time. The epicenter was located approximately 51 km east-nort",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 39.400833,
+      "lng": 141.09862,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8qd",
+      "prayer": "Residents along the Iwate coast after a magnitude 6 offshore earthquake struck early morning",
+      "alert_summary": "Magnitude 6 earthquake struck 51 km off the coast of Noda, Iwate, Japan; no casualties reported."
+    },
+    {
+      "wp_id": 7624,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-28-2026-magnitude-5/",
+      "date": "2026-06-29T04:08:17",
+      "title": "Earthquake in Philippines 06/28/2026 — Magnitude 5",
+      "body": "On June 28, 2026, a magnitude 5.0 earthquake occurred off the coast of Ilocos, approximately 68 kilometers west-northwest of Catuday in northern Luzon, Philippines. The quake was centered at a depth of 10 kilometers. No ",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.65121,
+      "lng": 125.31944,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ux",
+      "prayer": "Residents near Catuday, Ilocos facing ongoing earthquake swarm activity off the Luzon coast",
+      "alert_summary": "Magnitude 5 earthquake struck 68 km west-northwest of Catuday, Philippines; no casualty figure reported."
+    },
+    {
+      "wp_id": 7623,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-24-2026-magnitude-6/",
+      "date": "2026-06-29T04:07:23",
+      "title": "Earthquake in United States 06/24/2026 — Magnitude 6",
+      "body": "On June 24, 2026, a magnitude 5.6 earthquake struck northern California at 8:10 a.m. local time, centered 11 kilometers north of Redwood Valley in Mendocino County. It occurred at a depth of about 5 miles (roughly 8 kilo",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 39.265222,
+      "lng": -123.204078,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382936",
+      "prayer": "Residents of Mendocino County injured and without power after the June 24 earthquake",
+      "alert_summary": "Magnitude 5.6 earthquake struck near Redwood Valley, California, injuring some residents and cutting power to about 8,000 customers."
+    },
     {
       "wp_id": 7606,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-27-2026/",
