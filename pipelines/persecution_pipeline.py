@@ -140,6 +140,12 @@ RSS_FEEDS = [
     'https://cruxnow.com/feed/',
     'https://chinaaid.org/feed/',
     'https://www.copticsolidarity.org/feed/',
+    # --- vetted persecution feeds added 2026-06-28 ---
+    'https://worthynews.com/feed/',
+    'https://www.christiantoday.com/rss.xml',
+    'https://christiannews.net/feed/',
+    'https://releaseinternational.org/feed/',
+    'https://vomcanada.com/feed/',
 ] + [_gnews(q) for q in PERSECUTION_QUERIES]
 
 MAINSTREAM_SOURCES = [
