@@ -1,18 +1,228 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-29T17:32:50.203874+00:00",
-  "count": 1103,
+  "updated": "2026-06-29T20:18:01.093751+00:00",
+  "count": 1114,
   "limit": 10000,
   "events": [
     {
+      "wp_id": 7784,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-asaba/",
+      "date": "2026-06-29T20:17:39",
+      "title": "Armed Conflict in Asaba",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 8.952953,
+      "lng": 7.37967
+    },
+    {
+      "wp_id": 7744,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ebinpejo-village-lanlate-ibarapa-east/",
+      "date": "2026-06-29T20:17:12",
+      "title": "Armed Conflict in Ebinpejo Village, Lanlate",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 7.5368,
+      "lng": 3.4156
+    },
+    {
       "wp_id": 7687,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northeast-nigeria/",
-      "date": "2026-06-29T17:32:39",
-      "title": "Armed Conflict in Abuja",
+      "date": "2026-06-29T20:16:28",
+      "title": "Armed Conflict in Lassa, Borno State",
       "country": "Nigeria",
       "type": "Armed Conflict",
       "lat": 12.0338,
       "lng": 8.5295
+    },
+    {
+      "wp_id": 7652,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar/",
+      "date": "2026-06-29T20:15:42",
+      "title": "Armed Conflict in Paktia, Paktika, and Kunar provinces",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 34.6181,
+      "lng": 75.802
+    },
+    {
+      "wp_id": 7724,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar-provinces/",
+      "date": "2026-06-29T20:15:18",
+      "title": "Armed Conflict in Paktia, Paktika, and Kunar provinces",
+      "country": "Afghanistan",
+      "type": "Armed Conflict",
+      "lat": 33.6015,
+      "lng": 69.2236
+    },
+    {
+      "wp_id": 7738,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chamkani-district-paktia-province/",
+      "date": "2026-06-29T20:14:35",
+      "title": "Armed Conflict in Chamkani district, Paktia province",
+      "country": "Afghanistan",
+      "type": "Armed Conflict",
+      "lat": 33.8036,
+      "lng": 69.8159
+    },
+    {
+      "wp_id": 7467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
+      "date": "2026-06-29T20:12:30",
+      "title": "Armed Conflict in Deir al-Balah",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.417446,
+      "lng": 34.35114
+    },
+    {
+      "wp_id": 7697,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kholodnogirskyi-district-kharkiv-2/",
+      "date": "2026-06-29T20:11:46",
+      "title": "Armed Conflict in Kholodnogirskyi district, Kharkiv",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.2063,
+      "lng": 36.4006
+    },
+    {
+      "wp_id": 7732,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mushere-district-bokkos/",
+      "date": "2026-06-29T20:09:28",
+      "title": "Armed Conflict in Kawel village, Mushere District, Bokkos",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.3014,
+      "lng": 8.9945
+    },
+    {
+      "wp_id": 7766,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-eastern-congo-5/",
+      "date": "2026-06-29T20:08:43",
+      "title": "Armed Conflict in eastern Congo",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -11.638865,
+      "lng": 27.520095
+    },
+    {
+      "wp_id": 7713,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-syria/",
+      "date": "2026-06-29T20:08:13",
+      "title": "Armed Conflict in Nabatieh",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 36.2168,
+      "lng": 37.1444
+    },
+    {
+      "wp_id": 7764,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-mogadishu/",
+      "date": "2026-06-29T20:07:31",
+      "title": "Coup/Crisis in Mogadishu",
+      "country": "Somalia",
+      "type": "Coup or Crisis",
+      "lat": 2.035447,
+      "lng": 45.34276
+    },
+    {
+      "wp_id": 7693,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-north-kivu-ituri/",
+      "date": "2026-06-29T20:06:37",
+      "title": "Armed Conflict in North Kivu, Ituri, South Kivu",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -1.6666,
+      "lng": 29.2257
+    },
+    {
+      "wp_id": 7691,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-katsina-airport/",
+      "date": "2026-06-29T20:05:36",
+      "title": "Civil Unrest in Katsina",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 13.0004,
+      "lng": 7.6625
+    },
+    {
+      "wp_id": 7723,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-dakar/",
+      "date": "2026-06-29T20:01:40",
+      "title": "Civil Unrest in Dakar",
+      "country": "Senegal",
+      "type": "Civil Unrest",
+      "lat": 14.712,
+      "lng": -17.4572
+    },
+    {
+      "wp_id": 7615,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kwazulu-natal/",
+      "date": "2026-06-29T20:01:28",
+      "title": "Civil Unrest in Durban",
+      "country": "South Africa",
+      "type": "Civil Unrest",
+      "lat": -29.6,
+      "lng": 30.3789
+    },
+    {
+      "wp_id": 7677,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-kunar/",
+      "date": "2026-06-29T20:00:58",
+      "title": "Armed Conflict in Afghanistan",
+      "country": "Afghanistan",
+      "type": "Armed Conflict",
+      "lat": 34.8728,
+      "lng": 71.1508
+    },
+    {
+      "wp_id": 7719,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-krasnodar/",
+      "date": "2026-06-29T19:59:56",
+      "title": "Armed Conflict in Crimea",
+      "country": "Russia",
+      "type": "Armed Conflict",
+      "lat": 45.0284,
+      "lng": 38.9718
+    },
+    {
+      "wp_id": 7678,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-36/",
+      "date": "2026-06-29T19:59:38",
+      "title": "Armed Conflict in southern Lebanon, Gaza Strip, Strait of Hormuz",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 33.920265,
+      "lng": 35.888026
+    },
+    {
+      "wp_id": 7717,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-13/",
+      "date": "2026-06-29T19:59:02",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-06-29T19:58:31",
+      "title": "Armed Conflict in Dnipro",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661
+    },
+    {
+      "wp_id": 7609,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
+      "date": "2026-06-29T19:57:25",
+      "title": "Armed Conflict in Khan Younis",
+      "country": "Israel",
+      "type": "Armed Conflict",
+      "lat": 31.3435,
+      "lng": 34.3087
     },
     {
       "wp_id": 7452,
@@ -23,26 +233,6 @@
       "type": "Armed Conflict",
       "lat": 40.847,
       "lng": -73.8972
-    },
-    {
-      "wp_id": 7697,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kholodnogirskyi-district-kharkiv-2/",
-      "date": "2026-06-29T17:31:58",
-      "title": "Armed Conflict in Kharkiv Oblast",
-      "country": "Ukraine",
-      "type": "Armed Conflict",
-      "lat": 50.2063,
-      "lng": 36.4006
-    },
-    {
-      "wp_id": 7467,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-29T17:31:45",
-      "title": "Armed Conflict in Gaza",
-      "country": "Palestine",
-      "type": "Armed Conflict",
-      "lat": 31.512442,
-      "lng": 34.457165
     },
     {
       "wp_id": 7658,
@@ -65,26 +255,6 @@
       "lng": 67.0205
     },
     {
-      "wp_id": 7677,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-kunar/",
-      "date": "2026-06-29T17:30:49",
-      "title": "Armed Conflict in border provinces",
-      "country": "Afghanistan",
-      "type": "Armed Conflict",
-      "lat": 34.8728,
-      "lng": 71.1508
-    },
-    {
-      "wp_id": 7609,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
-      "date": "2026-06-29T17:30:38",
-      "title": "Armed Conflict in Gaza",
-      "country": "Israel",
-      "type": "Armed Conflict",
-      "lat": 31.3435,
-      "lng": 34.3087
-    },
-    {
       "wp_id": 7694,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southeastern-somalia/",
       "date": "2026-06-29T17:28:03",
@@ -95,26 +265,6 @@
       "lng": null
     },
     {
-      "wp_id": 7693,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-north-kivu-ituri/",
-      "date": "2026-06-29T17:27:47",
-      "title": "Armed Conflict in North Kivu, Ituri",
-      "country": "Congo",
-      "type": "Armed Conflict",
-      "lat": -1.666568,
-      "lng": 29.225652
-    },
-    {
-      "wp_id": 7691,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-katsina-airport/",
-      "date": "2026-06-29T17:27:19",
-      "title": "Civil Unrest in Katsina Airport",
-      "country": "Nigeria",
-      "type": "Civil Unrest",
-      "lat": 13.000353,
-      "lng": 7.662544
-    },
-    {
       "wp_id": 7686,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oaxaca/",
       "date": "2026-06-29T17:26:09",
@@ -123,16 +273,6 @@
       "type": "Armed Conflict",
       "lat": 17.062824,
       "lng": -96.72438
-    },
-    {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-29T17:24:43",
-      "title": "Armed Conflict in Dnipro",
-      "country": "Ukraine",
-      "type": "Armed Conflict",
-      "lat": 48.044,
-      "lng": 37.9661
     },
     {
       "wp_id": 7681,
@@ -165,16 +305,6 @@
       "lng": 35.4835
     },
     {
-      "wp_id": 7678,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-36/",
-      "date": "2026-06-29T17:23:55",
-      "title": "Armed Conflict in southern Lebanon",
-      "country": "Lebanon",
-      "type": "Armed Conflict",
-      "lat": null,
-      "lng": null
-    },
-    {
       "wp_id": 7653,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktika/",
       "date": "2026-06-29T05:22:07",
@@ -205,16 +335,6 @@
       "lng": 45.34276
     },
     {
-      "wp_id": 7652,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar/",
-      "date": "2026-06-29T05:20:53",
-      "title": "Armed Conflict in Paktia, Paktika, and Kunar",
-      "country": "Pakistan",
-      "type": "Armed Conflict",
-      "lat": 34.618077,
-      "lng": 75.801955
-    },
-    {
       "wp_id": 7617,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-carrefour-feuilles/",
       "date": "2026-06-29T00:57:32",
@@ -233,16 +353,6 @@
       "type": "Civil Unrest",
       "lat": 33.475696,
       "lng": 36.336098
-    },
-    {
-      "wp_id": 7615,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kwazulu-natal/",
-      "date": "2026-06-29T00:57:00",
-      "title": "Civil Unrest in KwaZulu-Natal",
-      "country": "South Africa",
-      "type": "Civil Unrest",
-      "lat": -29.6,
-      "lng": 30.378889
     },
     {
       "wp_id": 7613,
