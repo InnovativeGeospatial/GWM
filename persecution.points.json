@@ -1,9 +1,39 @@
 {
   "feed": "persecution",
-  "updated": "2026-06-29T05:19:34.596956+00:00",
-  "count": 221,
+  "updated": "2026-06-29T17:22:37.729481+00:00",
+  "count": 224,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7676,
+      "wp_link": "https://globalwitnessmonitor.com/north-korean-believer-sentenced-to-indefinite-imprisonment-after-bible-found-among-repatriated-group/",
+      "date": "2026-06-29T17:22:24",
+      "title": "North Korean Believer Sentenced to Indefinite Imprisonment After Bible Found Among Repatriated Group",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
+    {
+      "wp_id": 7675,
+      "wp_link": "https://globalwitnessmonitor.com/christian-among-30-detained-after-bible-discovery-sentenced-to-indefinite-political-prison-camp/",
+      "date": "2026-06-29T17:22:13",
+      "title": "Christian Among 30 Detained After Bible Discovery Sentenced to Indefinite Political Prison Camp",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
+    {
+      "wp_id": 7674,
+      "wp_link": "https://globalwitnessmonitor.com/christian-among-30-detained-and-sentenced-to-indefinite-imprisonment-after-bible-discovered-during-forced-return-from-china/",
+      "date": "2026-06-29T17:22:02",
+      "title": "Christian among 30 detained and sentenced to indefinite imprisonment after Bible discovered during forced return from China",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
     {
       "wp_id": 7650,
       "wp_link": "https://globalwitnessmonitor.com/pakistani-court-issues-second-blasphemy-acquittal-for-christian-in-days/",
