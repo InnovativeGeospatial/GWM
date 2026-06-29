@@ -1,9 +1,69 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-29T00:59:12.573731+00:00",
-  "count": 1087,
+  "updated": "2026-06-29T05:22:46.052199+00:00",
+  "count": 1092,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7658,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lanao-del-sur/",
+      "date": "2026-06-29T05:22:22",
+      "title": "Armed Conflict in Lanao del Sur",
+      "country": "Philippines",
+      "type": "Armed Conflict",
+      "lat": 8.004726,
+      "lng": 124.285435
+    },
+    {
+      "wp_id": 7653,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktika/",
+      "date": "2026-06-29T05:22:07",
+      "title": "Armed Conflict in eastern Afghanistan",
+      "country": "Afghanistan",
+      "type": "Armed Conflict",
+      "lat": 33.1714,
+      "lng": 68.7852
+    },
+    {
+      "wp_id": 7655,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gwa-township-2/",
+      "date": "2026-06-29T05:21:39",
+      "title": "Armed Conflict in Gwa Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 17.596872,
+      "lng": 94.5813
+    },
+    {
+      "wp_id": 7654,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-mogadishu/",
+      "date": "2026-06-29T05:21:27",
+      "title": "Civil Unrest in Mogadishu",
+      "country": "Somalia",
+      "type": "Civil Unrest",
+      "lat": 2.035447,
+      "lng": 45.34276
+    },
+    {
+      "wp_id": 7652,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar/",
+      "date": "2026-06-29T05:20:53",
+      "title": "Armed Conflict in Paktia, Paktika, and Kunar",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 34.618077,
+      "lng": 75.801955
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-29T05:20:37",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987
+    },
     {
       "wp_id": 7467,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
@@ -83,16 +143,6 @@
       "type": "Civil Unrest",
       "lat": 44.8178,
       "lng": 20.4569
-    },
-    {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-29T00:55:58",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "country": "United States",
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987
     },
     {
       "wp_id": 7610,
