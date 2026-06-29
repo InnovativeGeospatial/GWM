@@ -51,6 +51,10 @@ import requests
 import feedparser
 import travel_advisories
 from datetime import datetime, timezone, timedelta
+
+# Max age (days) of an event's stated EVENT_DATE before it is treated as
+# stale and skipped. UNKNOWN/unparseable dates are unaffected (still publish).
+MAX_EVENT_AGE_DAYS = 45
 from dotenv import load_dotenv
 import anthropic
 import html
@@ -1671,6 +1675,22 @@ def main():
                 seen.add(item['hash'])
                 skipped += 1
                 continue
+
+            # stale-event gate: skip events whose stated EVENT_DATE is older than
+            # MAX_EVENT_AGE_DAYS. UNKNOWN/unparseable dates publish (fail-open).
+            _edate = ((parsed.get('event_date') if parsed else '') or '').strip()
+            if _edate and _edate.upper() != 'UNKNOWN':
+                try:
+                    _ed = datetime.strptime(_edate, '%m/%d/%Y').replace(tzinfo=timezone.utc)
+                    _age_days = (datetime.now(timezone.utc) - _ed).days
+                except Exception:
+                    _age_days = None
+                if _age_days is not None and _age_days > MAX_EVENT_AGE_DAYS:
+                    log.info('Skipping (stale event %s, %d days old): %s', _edate, _age_days, item['title'][:60])
+                    log_skip(item['title'], 'stale_event')
+                    seen.add(item['hash'])
+                    skipped += 1
+                    continue
 
             _result = publish_to_wordpress(item, article_body, parsed=parsed)
             post_id, post_link, lat, lng, post_date, was_merged = _result
