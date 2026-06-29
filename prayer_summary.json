@@ -1,61 +1,53 @@
 {
-  "updated": "2026-06-28T06:30:32.916160+00:00",
+  "updated": "2026-06-29T06:30:33.618462+00:00",
   "window_hours": 48,
   "sections": {
     "persecution": {
-      "event_count": 5,
+      "event_count": 1,
       "bullets": [
-        "Egyptian Coptic monks endangered by unresolved land disputes, armed attacks, and ongoing legal uncertainty.",
-        "Ugandan Christian couple recovering from a violent mob assault that occurred during evangelistic outreach.",
-        "Pakistani Christian minority facing ongoing abuse of blasphemy laws, including wrongful imprisonment of vulnerable individuals.",
-        "Catholic missionaries in Cameroon caught in a decade-long separatist conflict with no peace in sight.",
-        "Tribal Christian families in India recovering from a mob assault on a worship gathering, including injured children and a pregnant woman."
+        "Pakistani Christians remaining vulnerable to misused blasphemy laws despite recent acquittals after years of wrongful detention."
       ]
     },
     "conflict": {
-      "event_count": 31,
+      "event_count": 35,
       "bullets": [
-        "Civilians in Palestine, including displaced families sheltering in makeshift tents, facing ongoing drone strikes and deepening humanitarian crisis.",
-        "Civilians across Ukraine, including those near active front lines in the south and in cities struck by Russian airstrikes, facing casualties, displacement, and worsening access to food and medical care.",
-        "Communities throughout Myanmar facing repeated military airstrikes causing civilian deaths, including children, and mass displacement across multiple regions.",
-        "Populations across Nigeria living under persistent threat of kidnapping, armed group attacks, and Boko Haram and ISWAP activity across multiple states.",
-        "US military personnel and civilians in Kuwait and Bahrain, and Iranian civilians, caught in ongoing US-Iran military exchanges following ceasefire violations.",
-        "Civilians in Lebanon living under renewed airstrikes and prolonged military presence amid unresolved disarmament conditions.",
-        "Families in Iraq mourning those killed in airstrikes on a militia base, and communities navigating ongoing armed group activity.",
-        "Civilians in Sudan's Blue Nile region near the Ethiopian border amid a renewed military offensive and displacement.",
-        "Civilians near the Syria-Turkey border and in northwest Syria amid continued airstrikes and active ISIS presence.",
-        "Thousands of migrants fleeing South Africa amid xenophobic violence, many stranded outside consular offices awaiting departure.",
-        "Over 2,600 people displaced in Haiti by armed group clashes, adding to an already severe humanitarian crisis.",
-        "Communities in Ivory Coast near the border region following a deadly militant attack on a border post.",
-        "Civilians in Burkina Faso caught between armed groups and a military government amid deepening diplomatic and security isolation.",
-        "Civilians in Somalia in areas targeted by ongoing military airstrikes against armed groups.",
-        "Women from Myanmar held for years in an Indian detention facility and alleging abuse, amid unclear legal and humanitarian status.",
-        "Civilians in Venezuela, including thousands of families, searching for survivors and mourning losses following devastating twin earthquakes near the capital.",
-        "Soldiers and security forces in Pakistan following a deadly armed assault on a paramilitary compound in a major city.",
-        "Protesters and detainees in Kenya allegedly subjected to abuse in custody following arrests at a memorial gathering.",
-        "Families of victims of the Magdeburg Christmas market attack in Germany, as the judicial process concludes and grief continues.",
-        "Serbian citizens navigating political uncertainty and transition following a presidential resignation amid months of mass protests.",
-        "Palestinian communities in the West Bank facing settler violence targeting homes, vehicles, and places of worship."
+        "Civilians in eastern Afghanistan and communities along the Pakistan-Afghanistan border amid cross-border airstrikes and ground operations causing casualties.",
+        "Civilians across Gaza facing ongoing airstrikes, displacement camp conditions overrun with rats and sewage, and families losing loved ones in repeated attacks.",
+        "Palestinians in the occupied West Bank losing access to farmland and livelihoods amid escalating restrictions and attacks.",
+        "Residents of southern Lebanon unable to return home amid continued military presence, fresh strikes, and over one million people struggling to access identity documents and basic services.",
+        "Civilians and shipping crews in and around the Strait of Hormuz and Bahrain caught in drone strikes and naval exchanges between major powers.",
+        "Families and communities across Ukraine and Russia caught in ongoing drone, missile, and airstrike exchanges with mounting civilian casualties.",
+        "Displaced women and children in Haiti sheltering in makeshift camps under ongoing gang violence and reports of sexual assault.",
+        "Transgender women in Syria facing attacks, forced detention, and isolation under the new governing authorities.",
+        "Immigrants and foreign nationals in South Africa facing vigilante attacks and displacement, including thousands of Malawian migrants forced to flee with nothing.",
+        "Civilians in Myanmar injured in repeated military airstrikes on residential areas.",
+        "Somali civilians in the capital caught between security forces and political tensions, and communities in the southeast amid ongoing military operations against armed groups.",
+        "Kidnapping victims and threatened communities in Nigeria amid militant attacks and the arrest of commanders linked to armed extremist groups.",
+        "Families of soldiers and civilians killed or wounded in armed attacks in the Philippines.",
+        "Communities in Yemen's tribal regions wounded in ambushes carried out by armed forces.",
+        "Security personnel and border communities in Kenya following an armed attack on a security installation.",
+        "Myanmar women held for approximately five years in an Indian detention facility and alleging abuse in custody.",
+        "Families of those killed in airstrikes on militia installations in Iraq, and officials and lawmakers detained in anti-corruption raids in the capital.",
+        "Thousands of protesters in Serbia and Albania enduring weeks of demonstrations amid detentions and calls for political accountability.",
+        "Civilians in Nairobi allegedly tortured in custody following arrests at a peaceful memorial gathering.",
+        "Displaced communities in Lebanon unable to return to their homes amid ongoing uncertainty and unresolved conflict terms."
       ]
     },
     "disaster": {
-      "event_count": 45,
+      "event_count": 58,
       "bullets": [
-        "Families across Venezuela's northern coast grieving over 900 deaths, thousands injured, and hundreds still trapped under rubble after a catastrophic magnitude 7.5 earthquake",
-        "Two million residents across Japan displaced from their homes as typhoon-driven flooding spreads through affected communities",
-        "Communities across the Democratic Republic of the Congo and Uganda facing a worsening Ebola outbreak that has claimed more than 300 lives and is outpacing relief efforts",
-        "Residents of Taiwan displaced, grieving two deaths, and coping with nearly 500 flood incidents as successive tropical storms bring torrential rainfall and landslide risk",
-        "Families across the southern African region grieving deaths and searching for missing loved ones as widespread flooding continues",
-        "Families in the Texas Hill Country and Kentucky grieving deaths from flooding, with survivors facing displacement and long-term recovery",
-        "Vulnerable people across Western Europe, particularly the elderly and young, enduring record-breaking heat that has already claimed lives in multiple countries",
-        "Residents across the United States facing simultaneous disasters including wildfires in multiple states, tornado damage, drought conditions, volcanic ashfall in Hawaii, and an active measles outbreak in Pennsylvania",
-        "Hundreds of residents displaced by flooding in western Ghana, sheltering as floodwaters recede and recovery begins",
-        "Communities in Canada facing mandatory evacuations as multiple wildfires burn near residential areas across different regions",
-        "Residents in rural riverside communities across Russia's eastern regions facing dangerous and rising floodwaters",
-        "Residents near active fault zones in the Philippines and Pakistan following significant earthquakes whose full impact remains unknown",
-        "Families in mountainous areas of India and Nepal affected by landslides triggered by heavy seasonal rains",
-        "Residents of three evacuated communities in northern Spain displaced as a wildfire burns through thousands of hectares",
-        "Health workers and residents in France responding to the country's first confirmed Ebola case amid ongoing outbreak concerns across the region"
+        "Venezuelans in northern coastal regions amid catastrophic twin earthquakes, with over 920 confirmed dead, thousands injured, and hundreds still trapped under collapsed buildings",
+        "Communities across the Democratic Republic of Congo and Uganda amid a record-breaking Ebola outbreak with over 1,200 infected and 321 deaths, including nearly two million displaced people cut off from medical care",
+        "Families across Western Europe \u2014 especially the elderly and young \u2014 amid a record-breaking heatwave linked to over 1,300 excess deaths, with all-time national temperature records broken across multiple countries",
+        "Residents across Japan and Taiwan displaced, flooded, and facing landslide danger as a typhoon brings catastrophic rainfall and mass evacuations affecting over two million people",
+        "Families across the United States mourning deaths and displacement from simultaneous disasters \u2014 flash floods killing at least four in Kentucky, wildfires killing three firefighters along the Utah-Colorado border, storm damage across multiple states, measles spreading across 41 jurisdictions, and volcanic ashfall threatening Hawaiian communities",
+        "About 1,300 residents of a remote community in Canada's Northwest Territories and hundreds more in Manitoba displaced by out-of-control wildfires with no confirmed return timeline",
+        "Families in Taiwan mourning flood deaths and facing widespread inundation after typhoon-driven rains submerged homes and neighborhoods",
+        "Residents of Madagascar grieving 20 deaths and recovering from widespread destruction left by a cyclone",
+        "Families across Afghanistan's northeastern regions following a magnitude 6.1 earthquake in a remote and underserved area with uncertain access to shelter and aid",
+        "Communities in Belgium and health workers responding to a growing mpox cluster amid rising case counts",
+        "Residents near the Kamchatka River in Russia facing dangerous and rising floodwaters with no confirmed relief response",
+        "Workers and families in India affected by flash floods and a landslide, with missing persons still unaccounted for and one person critically injured"
       ]
     }
   }
