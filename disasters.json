@@ -1,9 +1,81 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-28T17:10:57.526314+00:00",
-  "count": 836,
+  "updated": "2026-06-29T00:53:22.209206+00:00",
+  "count": 840,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7606,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-27-2026/",
+      "date": "2026-06-29T00:53:09",
+      "title": "Storm in Madagascar 06/27/2026",
+      "body": "Cyclone Gezani struck Madagascar, killing 20 people and injuring 33 others. The source does not specify a date or the particular regions affected. No further details on displacement, infrastructure damage, or relief effo",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTY3TVpLVFhiVWFvRW5YMi1sb3FERFlGNENsM2xtckdQR2ZvcHNDeXNBcWZpV1dfQkVPLVVFWktNU0dNOGp4VFdBWENveUVWSnFMcWQ0Y0RqN0lrWl9wdXgyQ3lpTDhIWHg1MUE0cll1dU9PN0Z3ZW5iWWJUSTlKWW5XdUVfbEJlNUhreA?oc=5",
+      "prayer": "People of Madagascar grieving losses and recovering after Cyclone Gezani",
+      "alert_summary": "Cyclone Gezani struck Madagascar, killing 20 people and injuring 33 others."
+    },
+    {
+      "wp_id": 7605,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-29-2026/",
+      "date": "2026-06-29T00:52:48",
+      "title": "Wildfire in United States 06/29/2026",
+      "body": "A wildfire near Winthrop prompted evacuations and knocked out power to the area. No restoration timeline has been provided. The source does not report casualties, a confirmed ignition date, or the number of people affect",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 42.374623,
+      "lng": -70.982598,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWlhJYWEzZmNucmIwMnFLMFNUYWxjejMwdTluckc5alhUMlVvUEgtU1ltYTBZTzEzYUk2c09KbjNSNFcxbHFhZnlmTzVyZVNLcllqSGtqd0E2OTNEMWl3ZXZPOExNLWZIczUwS3R2VDJyWUtQRlBSSVNlSVdyWlRrdG5LX191S213c0NtbF9MQUJwamJ1Rnp1WUg0cXdXZnZFQmtEWjcyazJfS1BEZDJuczQ2Z3ZIa2pURUNLa3FBemkxcV8tMmdPaFdJTFg2WDhpWXpGTw?oc=5",
+      "prayer": "Residents of Winthrop displaced by wildfire and without power",
+      "alert_summary": "A wildfire near Winthrop forced evacuations and caused a power outage with no restoration timeline given."
+    },
+    {
+      "wp_id": 7604,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026-2/",
+      "date": "2026-06-29T00:51:49",
+      "title": "Flood in United States 06/28/2026",
+      "body": "Flooding forced four people to evacuate their home in Jefferson County, according to the sheriff's office. No date was given in the source, and no injuries or additional damage figures were reported.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 39.73136,
+      "lng": -105.20776,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaHZpQy1wRkNaUGpnMzEyMGk2Z2RyQmVpYWI4WW9Oa2RSRlRTV3hPT0lkTkJ3bC1vM0lxamduWWt6QklqbmZDTmZYUUJYcm9Yb1ZIekM3TE5xTkhiM1hCMmZuekhEUWJVakdwU1NFbmlzcVp3TlY2eXpWR3VrbGstMlpNUVU3NmEtNWU1eEVWaThCZFQydXFnZVNDNFAtNjRxeEhIWHJOM2tyOWoxMFVBSjln?oc=5",
+      "prayer": "Four residents of Jefferson County evacuated from their home due to flooding",
+      "alert_summary": "Flooding forced 4 people to evacuate a home in Jefferson County, according to the sheriff's office."
+    },
+    {
+      "wp_id": 7603,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-28-2026/",
+      "date": "2026-06-29T00:46:55",
+      "title": "Flood in Russia 06/28/2026",
+      "body": "Water levels on the Kamchatka River near the settlement of Lazo in Milkovsky District have reached the threshold defined as a dangerous hydrological event — 550 centimeters above the gauge's zero mark. No casualty or dis",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260628222136-0232300.xml",
+      "prayer": "Residents near the Kamchatka River in Milkovsky District facing dangerous flood levels",
+      "alert_summary": "Flood on the Kamchatka River near Lazо reached the dangerous hydrological threshold of 550 cm; no casualty figure reported."
+    },
     {
       "wp_id": 7581,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-28-2026/",
