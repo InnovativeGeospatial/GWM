@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-29T04:38:03.999387+00:00",
-  "count": 880,
+  "updated": "2026-06-29T05:18:31.485227+00:00",
+  "count": 892,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7649,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-06-29-2026/",
+      "date": "2026-06-29T05:17:48",
+      "title": "Storm in United States 06/29/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 48.146544,
+      "lng": -103.621816
+    },
+    {
+      "wp_id": 7648,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-27-2026/",
+      "date": "2026-06-29T05:16:09",
+      "title": "Disease in Congo 06/27/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 7647,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-26-2026/",
+      "date": "2026-06-29T05:14:24",
+      "title": "Landslide in India 06/26/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 28.3668,
+      "lng": 94.745979
+    },
+    {
+      "wp_id": 7646,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-29-2026-2/",
+      "date": "2026-06-29T05:13:35",
+      "title": "Wildfire in Canada 06/29/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 61.86141,
+      "lng": -121.35231
+    },
+    {
+      "wp_id": 7645,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-06-26-2026-5/",
+      "date": "2026-06-29T05:12:36",
+      "title": "Storm in Japan 06/26/2026",
+      "country": "Japan",
+      "type": "Storm",
+      "lat": 27.941786,
+      "lng": 128.200727
+    },
+    {
+      "wp_id": 7644,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026-4/",
+      "date": "2026-06-29T05:11:12",
+      "title": "Flood in United States 06/28/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 35.576713,
+      "lng": -88.825422
+    },
+    {
+      "wp_id": 7643,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-24-2026-magnitude-5/",
+      "date": "2026-06-29T05:05:49",
+      "title": "Earthquake in Papua New Guinea 06/24/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -6.304784,
+      "lng": 155.488166
+    },
+    {
+      "wp_id": 7642,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-06-27-2026-magnitude-5-2/",
+      "date": "2026-06-29T05:04:30",
+      "title": "Earthquake in Solomon Islands 06/27/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174
+    },
+    {
+      "wp_id": 7641,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-afghanistan-06-27-2026-magnitude-6/",
+      "date": "2026-06-29T05:03:34",
+      "title": "Earthquake in Afghanistan 06/27/2026 — Magnitude 6",
+      "country": "Afghanistan",
+      "type": "Earthquake",
+      "lat": 36.865658,
+      "lng": 70.83452
+    },
+    {
+      "wp_id": 7640,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-06-28-2026-magnitude-5/",
+      "date": "2026-06-29T05:02:17",
+      "title": "Earthquake in New Zealand 06/28/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -40.461105,
+      "lng": 175.22214
+    },
+    {
+      "wp_id": 7639,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-29-2026-magnitude-5/",
+      "date": "2026-06-29T05:01:29",
+      "title": "Earthquake in Philippines 06/29/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 4.4724,
+      "lng": 125.1893
+    },
+    {
+      "wp_id": 7638,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-06-24-2026-magnitude-8-2/",
+      "date": "2026-06-29T05:00:53",
+      "title": "Earthquake in Venezuela 06/24/2026 — Magnitude 8",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.597494,
+      "lng": -68.673864
+    },
     {
       "wp_id": 7637,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-26-2026-3/",
