@@ -1,9 +1,49 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-28T17:10:59.254314+00:00",
-  "count": 861,
+  "updated": "2026-06-29T00:53:23.651476+00:00",
+  "count": 865,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7606,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-27-2026/",
+      "date": "2026-06-29T00:53:09",
+      "title": "Storm in Madagascar 06/27/2026",
+      "country": "Madagascar",
+      "type": "Storm",
+      "lat": -19.373534,
+      "lng": 46.705984
+    },
+    {
+      "wp_id": 7605,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-29-2026/",
+      "date": "2026-06-29T00:52:48",
+      "title": "Wildfire in United States 06/29/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 42.374623,
+      "lng": -70.982598
+    },
+    {
+      "wp_id": 7604,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026-2/",
+      "date": "2026-06-29T00:51:49",
+      "title": "Flood in United States 06/28/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.73136,
+      "lng": -105.20776
+    },
+    {
+      "wp_id": 7603,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-28-2026/",
+      "date": "2026-06-29T00:46:55",
+      "title": "Flood in Russia 06/28/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082
+    },
     {
       "wp_id": 7581,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-28-2026/",
