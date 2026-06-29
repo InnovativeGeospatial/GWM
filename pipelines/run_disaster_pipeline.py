@@ -1420,7 +1420,33 @@ def _enrich_too_old(parsed):
         return False
 
 
+ENRICH_PREFILTER_ALERT = (
+    "weather warning", "thunderstorm warning", "storm warning", "wind warning",
+    "rain warning", "frost warning", "heat warning", "fire weather", "fire danger",
+    "high-temperature warning", "high temperature warning", "temperature warning",
+    "unwetterwarnung", "amtliche", "pomara", "alert na", "vigilance", "advisory",
+    "пожарная опасность", "forestfire",
+)
+ENRICH_PREFILTER_EXPLAINER = (
+    "q&a", "q & a", "explainer", "analysis:", "opinion:", "here's why", "heres why",
+    "what you need to know", "why humanitarian", "how biotech", "balancing the risks",
+)
+
+
+def _enrich_prefilter(item):
+    t = (item.get("title") or "").lower()
+    if any(tok in t for tok in ENRICH_PREFILTER_ALERT):
+        return "alert"
+    if any(t.startswith(tok) or (tok in t) for tok in ENRICH_PREFILTER_EXPLAINER):
+        return "explainer"
+    return None
+
+
 def generate_article_enriched(item, firmer=False):
+    _pf = _enrich_prefilter(item)
+    if _pf:
+        log.info("enrichment PREFILTER skip (%s): %s", _pf, item["title"][:60])
+        return "SKIP_NO_EVENT", None
     raw, parsed = generate_article(item, firmer=firmer)
     if not _enrich_is_thin(raw, parsed):
         return raw, parsed
