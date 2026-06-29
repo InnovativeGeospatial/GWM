@@ -1,26 +1,226 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-28T17:18:11.976903+00:00",
-  "count": 901,
+  "updated": "2026-06-29T00:59:11.033790+00:00",
+  "count": 909,
   "limit": 1000,
   "events": [
     {
       "wp_id": 7467,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-28T17:17:39",
-      "title": "Armed Conflict in Southern Gaza Strip",
-      "body": "An airstrike on the southern Gaza Strip killed one person and wounded others, according to the Qatar News Agency. No date or additional details were provided in the available source material.",
+      "date": "2026-06-29T00:58:53",
+      "title": "Armed Conflict in Central Gaza",
+      "body": "An airstrike struck a civilian vehicle in central Gaza, killing three people and wounding others, according to Yafa News Network. No date for the strike was given in the source. No further details about the location with",
       "country": "Palestine",
       "countries": [
         "Palestine"
       ],
       "type": "Armed Conflict",
-      "lat": 31.512868,
-      "lng": 34.458136,
+      "lat": 31.467109,
+      "lng": 34.399305,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZFlzUEZBV3lpak1jc0h4eEdLdE4tQ0E4bXdYZjEtaWhneDhBYlBBQ3FuOWhCLVBmLWlUVkVWTkpTTHZ1eVdkWHpoVmY3cHNxVkFhRmxNUEM4MF8wWUR0MDZZeTlpeS01cFU5S3dtVWk4bV9pVU5ic0ZpeUxMaGhKc3NKSXNBOTYwSWhfSER1VExoU1pOX1RjbjhJNUgyTTZBSmRZUTBoMlF1WkhDMWJEdWdyczV0RnlPcHAyQWhSQXVWek5tV2RDZkNsaFRLdXlzTGJn?oc=5",
-      "prayer": "Civilians in southern Gaza killed and wounded in an airstrike",
-      "alert_summary": "An airstrike on the southern Gaza Strip killed one person and injured others; no further figures reported."
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zczFuTXRKWFpvVTFmYVlDQ2RqZXh2OWhFSDNZNVhSZnZXZFZwS0pscGtIVG1YX0dCam01YUJmUkgyaS1EWFJmWnhhaTd0WDNf?oc=5",
+      "prayer": "Civilians in central Gaza killed and wounded in an airstrike on a civilian vehicle",
+      "alert_summary": "An airstrike on a civilian vehicle in central Gaza killed 3 people and injured others."
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-06-29T00:58:31",
+      "title": "Armed Conflict in Zaporizhia",
+      "body": "An airstrike on Zaporizhia killed 2 people and left 16 others wounded, according to reports. No further details about the strike's target, timing, or the condition of the injured were available in the source.",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fUU1XQnR6am85TlpwSjYtSkNxR3FXbzZLNlpsaE55amNVQUUxLVdsb1NxY19EeVg2ei03YXNaMnRYYUYzTFFSLTgyRGx1NUR0SjlrY1pFN0xwU2ZXUW1La0w2VjZSZFVrNkNVNUZn?oc=5",
+      "prayer": "Two people killed and 16 wounded in an airstrike on Zaporizhia",
+      "alert_summary": "An airstrike on Zaporizhia killed 2 people and wounded 16 others."
+    },
+    {
+      "wp_id": 7617,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-carrefour-feuilles/",
+      "date": "2026-06-29T00:57:32",
+      "title": "Armed Conflict in Carrefour-Feuilles",
+      "body": "On August 17, 2023, armed gangs entered the Carrefour-Feuilles neighborhood in the southern suburbs of Port-au-Prince. Gang members set homes on fire, looted businesses, destroyed vehicles, and razed schools, hospitals, ",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Armed Conflict",
+      "lat": 18.534172,
+      "lng": -72.39484,
+      "source_title": "Global Voices",
+      "source_url": "https://globalvoices.org/2026/06/25/haiti-fleeing-is-not-enough-in-port-au-prince-and-other-major-cities/",
+      "prayer": "Displaced women and children in Port-au-Prince sheltering in makeshift camps under ongoing gang violence and sexual assault",
+      "alert_summary": "Armed gangs invaded Carrefour-Feuilles on August 17, 2023, killing and injuring dozens, burning homes, and forcing thousands to flee."
+    },
+    {
+      "wp_id": 7616,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-jaramana/",
+      "date": "2026-06-29T00:57:16",
+      "title": "Civil Unrest in Jaramana",
+      "body": "Since a coalition of Islamist rebel groups took power in Syria in December 2024, an advocacy organization called the Guardians of Equality Movement (GEM) has documented around 15 attacks against transgender women. GEM no",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 33.475696,
+      "lng": 36.336098,
+      "source_title": "Global Voices",
+      "source_url": "https://globalvoices.org/2026/06/26/living-better-living-hidden-the-struggle-of-trans-women-in-syria/",
+      "prayer": "Transgender women in Syria facing attacks, detention, and forced isolation under the new government",
+      "alert_summary": "Since December 2024, at least 15 attacks against transgender women in Syria have been documented, with a 60 percent rise in emergency assistance requests in 2025."
+    },
+    {
+      "wp_id": 7615,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kwazulu-natal/",
+      "date": "2026-06-29T00:57:00",
+      "title": "Civil Unrest in KwaZulu-Natal",
+      "body": "Anti-immigrant groups have set a June 30 deadline for all undocumented foreign nationals to leave South Africa, alongside a call for a national shutdown on that date. In many areas, vigilantes have attacked people and ev",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Civil Unrest",
+      "lat": -29.6,
+      "lng": 30.378889,
+      "source_title": "AllAfrica News: Africa",
+      "source_url": "https://allafrica.com/stories/202606250358.html",
+      "prayer": "Immigrants and foreign nationals in South Africa facing vigilante attacks and displacement ahead of June 30 deadline",
+      "alert_summary": "Three foreign nationals have been killed and journalists assaulted amid anti-immigrant unrest across South Africa."
+    },
+    {
+      "wp_id": 7614,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-nabatieh/",
+      "date": "2026-06-29T00:56:38",
+      "title": "Displacement in Nabatieh",
+      "body": "More than a million people forced from their homes by airstrikes and evacuation orders in southern Lebanon are now struggling to obtain basic identity documents. Many fled with no time to pack anything, and Lebanon requi",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": 33.377956,
+      "lng": 35.483513,
+      "source_title": "The New Humanitarian",
+      "source_url": "https://www.thenewhumanitarian.org/news-feature/2026/06/24/lebanon-documentation-system-collapses-war",
+      "prayer": "Over one million people displaced in Lebanon struggling to access documents, employment, and services",
+      "alert_summary": "Ongoing conflict has displaced over one million people in Lebanon, with at least 4,192 reported killed."
+    },
+    {
+      "wp_id": 7613,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-beirut/",
+      "date": "2026-06-29T00:56:24",
+      "title": "Civil Unrest in Beirut",
+      "body": "Protesters took to the streets of Beirut on Friday after Lebanon and Israel signed a United States-brokered framework agreement that critics say does not require Israeli forces to withdraw from the areas of southern Leba",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Civil Unrest",
+      "lat": 33.89625,
+      "lng": 35.477367,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/features/2026/6/28/in-lebanon-framework-agreement-signed-with-israel-spurs-protest-criticism?traffic_source=rss",
+      "prayer": "Hundreds of thousands displaced in Lebanon amid continued Israeli military presence and unresolved conflict",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7564,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belgrade-3/",
+      "date": "2026-06-29T00:56:09",
+      "title": "Civil Unrest in Kraljevo",
+      "body": "Thousands of demonstrators gathered in Kraljevo on Sunday, June 29, 2026, refusing to back down despite the president's announcement the day before that he would resign within weeks and allow early elections. Many protes",
+      "country": "Serbia",
+      "countries": [
+        "Serbia"
+      ],
+      "type": "Civil Unrest",
+      "lat": 44.8178,
+      "lng": 20.4569,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/28/serbias-protesters-press-on-even-after-vucic-promises-to-step-aside?traffic_source=rss",
+      "prayer": "Thousands of Serbian protesters and hundreds detained during months of demonstrations demanding accountability",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-29T00:55:58",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "The United States and Iran exchanged strikes on or around June 28, 2026, just days after the two countries signed a memorandum of understanding. The US says Iran broke the agreement by attacking ships. Iran says ships mu",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-and-iran-trade-strikes-days-after-peace-agreement?traffic_source=rss",
+      "prayer": "Ships and crews caught in strikes between US and Iranian forces in the Strait of Hormuz",
+      "alert_summary": "The US and Iran exchanged strikes in the Strait of Hormuz days after signing a memorandum of understanding; no casualty figures were reported."
+    },
+    {
+      "wp_id": 7610,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-gaza-2/",
+      "date": "2026-06-29T00:55:49",
+      "title": "Displacement in Gaza",
+      "body": "Rats have spread into displacement camps across Gaza, where garbage and overflowing sewage are worsening conditions for families already living without adequate sanitation. Overcrowded shelters are making it harder to co",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Displacement",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/gazas-displaced-families-face-worsening-living-conditions?traffic_source=rss",
+      "prayer": "Displaced families in Gaza living without sanitation amid rats, sewage, and overcrowded shelters",
+      "alert_summary": "Displaced families in Gaza face worsening public health conditions as rats, sewage, and overcrowded shelters spread disease."
+    },
+    {
+      "wp_id": 7609,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
+      "date": "2026-06-29T00:55:38",
+      "title": "Armed Conflict in Khan Younis",
+      "body": "Israeli attacks killed at least four Palestinians and wounded several others across the Gaza Strip. In northern Gaza, a drone struck the al-Salatin area west of Beit Lahiya, killing at least two people and wounding at le",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.343477,
+      "lng": 34.30874,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/28/israel-kills-three-palestinians-in-gaza-as-attacks-on-tents-continue?traffic_source=rss",
+      "prayer": "Palestinians in Gaza killed and wounded in strikes on tents, displaced families in Khan Younis and northern Gaza",
+      "alert_summary": "Israeli strikes killed at least four Palestinians, including a 13-year-old girl, and wounded several others across Gaza on June 28, 2026."
+    },
+    {
+      "wp_id": 7607,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-luchenza/",
+      "date": "2026-06-29T00:55:10",
+      "title": "Displacement in Luchenza",
+      "body": "Anti-foreigner protests and attacks in South Africa have forced thousands of Malawian migrants to flee, many leaving behind years of work, possessions, and unfinished plans. South African authorities say 15,162 Malawian ",
+      "country": "South Africa",
+      "countries": [
+        "South Africa",
+        "Malawi"
+      ],
+      "type": "Displacement",
+      "lat": -28.378272,
+      "lng": 23.913711,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/29/if-i-am-to-die-let-it-be-here-malawians-fleeing-unrest-in-south-africa?traffic_source=rss",
+      "prayer": "Thousands of Malawians displaced by anti-foreigner violence, returning home with nothing",
+      "alert_summary": "Anti-foreigner violence in South Africa has displaced at least 6,936 Malawians home, with 15,162 processed for deportation or repatriation."
     },
     {
       "wp_id": 7601,
@@ -60,24 +260,6 @@
       "alert_summary": "Iranian drones struck Bahrain and a ship was hit in the strait following U.S. airstrikes on Iran; no casualty figures given."
     },
     {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-28T17:16:58",
-      "title": "Armed Conflict in Zaporizhzhia",
-      "body": "An airstrike struck the city of Zaporizhzhia, Ukraine. Casualty figures rose following the attack, and rescuers recovered body fragments at the scene. The source does not provide a specific date, total confirmed death to",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 48.044,
-      "lng": 37.9661,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KNGt5NC1Ccms0YTlMNGNkenpScVRpWnV5bW5zSG9LSy15QktKZXJ0OTdCdVF3UGR3dVJiZ201R1REODZvbENiZjdBT2Y2bXRFUkF2X3ZnM3VSNGd6Wml1c2hNVHVhM1o4RFJV?oc=5",
-      "prayer": "Civilians in Zaporizhzhia wounded or killed in an airstrike, families receiving remains",
-      "alert_summary": "A Russian airstrike struck Zaporizhzhia, killing an unknown number of people; casualties rose and body fragments were recovered."
-    },
-    {
       "wp_id": 7596,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-fafi/",
       "date": "2026-06-28T17:16:01",
@@ -112,24 +294,6 @@
       "source_url": "https://www.france24.com/en/israel-attacks-lebanon-despite-truce",
       "prayer": "Residents of southern Lebanon and Israel living amid continued fighting despite a ceasefire agreement",
       "alert_summary": "Israeli forces struck a rocket launcher and killed Hezbollah fighters near Nabatieh in southern Lebanon on Sunday, despite a framework agreement signed Friday."
-    },
-    {
-      "wp_id": 7564,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belgrade-3/",
-      "date": "2026-06-28T17:14:53",
-      "title": "Civil Unrest in Serbia",
-      "body": "On June 28, 2026, Serbia's president announced he would resign within weeks, opening the door to early elections. The announcement follows more than a year of political tensions in the country, driven in part by universi",
-      "country": "Serbia",
-      "countries": [
-        "Serbia"
-      ],
-      "type": "Civil Unrest",
-      "lat": 44.8178,
-      "lng": 20.4569,
-      "source_title": "France 24 - International breaking news, top stories and headlines",
-      "source_url": "https://www.france24.com/en/video/20260628-serbia-s-vu%C4%8Di%C4%87-to-resign-opening-path-to-early-elections-amid-political-tensions",
-      "prayer": "Students and citizens in Serbia who have protested for more than a year seeking political change",
-      "alert_summary": "Serbia's president announced his resignation on June 28, 2026, amid more than a year of student-led protests demanding political change."
     },
     {
       "wp_id": 7587,
@@ -275,27 +439,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOGtodW9MTFpxUk01NXdMS1YzRzcyTG9FLXJhX2RLTGpTUzF3M3ZzSDhIckZqeUxqZzdab0pCQlJocGxqRWJCeklaMWRRdzBNdW1jaV9SdXFEeW1UVjgtWWtIQjY5V3dxalRDMFMtcVFzVGNBNVZWZXdyQXBRWGVNWUFkQkxpTmQzSlJUN1VkbGlzUlhMakU4V0tmbE96MFJP0gGmAUFVX3lxTFBHZWdpWVIyaTFONGUyOFhtbXYtdS1QZldhOVFtN0U2Vzg0OFJocmRNQTdRWmFyck5UbEg4cTV0NWtZUWFDcDRjNk1QTmFhcFZEdF8xNGFsdGhBOEpIMXNrOFRsMUxlRVdUQXl5cDhlN1VzX2NNMFZzU29Wb0R2and1bTdpd1BObWFRMVRJWk9wS0trNzRSakw2MExBZ3JYR002dHJBc0E?oc=5",
       "prayer": "Seven arrested commanders and the communities threatened by Boko Haram and ISWAP in Nigeria",
       "alert_summary": "Nigerian authorities arrested seven Boko Haram and ISWAP commanders at Katsina airport upon their return from Hajj."
-    },
-    {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-28T05:11:02",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "body": "On June 28, 2026, the US and Iran exchanged strikes and accused each other of violating a ceasefire agreement reached on June 17. US Central Command said it struck 10 Iranian military targets — including air defense site",
-      "country": "United States",
-      "countries": [
-        "United States",
-        "Iran",
-        "Kuwait",
-        "Bahrain"
-      ],
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987,
-      "source_title": "BBC News",
-      "source_url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
-      "prayer": "Civilians in Kuwait and Bahrain caught between US and Iranian missile and drone exchanges",
-      "alert_summary": "The US struck 10 Iranian military targets near the Strait of Hormuz; Iran retaliated with missiles and drones at US bases in Kuwait and Bahrain."
     },
     {
       "wp_id": 7534,
