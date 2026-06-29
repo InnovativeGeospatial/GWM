@@ -54,6 +54,12 @@ log = logging.getLogger(__name__)
 
 ACTIVE_LIMIT = 1000
 
+# Slim "points" feed: map markers only. Same field names as the full feed
+# so dashboard map code needs no change; far smaller per record so the map
+# can show many more events than ACTIVE_LIMIT without bloating the download.
+SLIM_LIMIT = int(os.environ.get("GWM_SLIM_LIMIT", "10000"))
+SLIM_FIELDS = ("wp_id", "wp_link", "date", "title", "country", "type", "lat", "lng")
+
 _pending = {}
 _github_cache = {}
 
@@ -316,6 +322,39 @@ def finalize(feed):
         written["active"] = active_path
         log.info("Active feed written: %s (%d events)",
                  active_path, len(sorted_events))
+
+    # -- Rebuild slim points feed (PUBLIC repo) -- map markers only --
+    slim_path = feed + ".points.json"
+    sha_slim, existing_slim = _gh_get("active", slim_path)
+    slim_pool = {}
+    for e in existing_slim:
+        k = _event_key(e)
+        if k:
+            slim_pool[k] = e
+    for k, e in pending["active"].items():
+        slim_pool[k] = {f: e.get(f) for f in SLIM_FIELDS}
+    slim_sorted = sorted(
+        slim_pool.values(),
+        key=lambda e: e.get("date", ""),
+        reverse=True,
+    )[:SLIM_LIMIT]
+    slim_body = {
+        "feed": feed,
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "count": len(slim_sorted),
+        "limit": SLIM_LIMIT,
+        "events": slim_sorted,
+    }
+    ok_slim = _gh_put(
+        "active",
+        slim_path,
+        json.dumps(slim_body, ensure_ascii=False, indent=2),
+        sha_slim,
+        "Slim points feed update: " + feed + " (" + str(len(slim_sorted)) + ")",
+    )
+    if ok_slim:
+        written["points"] = slim_path
+        log.info("Slim points feed written: %s (%d points)", slim_path, len(slim_sorted))
 
     _pending[feed] = {"active": {}, "archives": {}}
 
