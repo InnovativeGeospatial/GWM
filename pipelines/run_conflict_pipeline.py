@@ -201,12 +201,6 @@ RSS_FEEDS = [
     'https://rss.dw.com/rdf/rss-en-world',
     'https://feeds.bbci.co.uk/news/world/rss.xml',
     'https://www.france24.com/en/rss',
-    # --- regional aggregators added 2026-06-28: widen small-country coverage ---
-    'https://www.thenewhumanitarian.org/rss/all.xml',
-    'https://allafrica.com/tools/headlines/rdf/africa/headlines.rdf',
-    'https://globalvoices.org/feed/',
-    'https://eurasianet.org/rss.xml',
-    'https://sudantribune.com/feed/',
 ] + [_gnews(q) for q in GOOGLE_NEWS_QUERIES]
 
 CONFLICT_TERMS = [
