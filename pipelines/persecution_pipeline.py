@@ -45,6 +45,61 @@ WP_APP_PASSWORD = os.getenv('WP_APP_PASSWORD')
 SEEN_FILE = '/opt/global-witness/seen_articles.json'
 FEED_NAME = 'persecution'
 
+def _gwm_is_suppressed(event):
+    """True if this event matches a suppression entry recorded by prune_feed.py.
+    Same country+type, within the entry's day window, and (broad => country+type
+    +window alone; else coords within 0.75deg OR title similarity >= 0.50).
+    Fails open (returns False) on any error so it can never block all events."""
+    import os, json
+    from datetime import datetime, timezone
+    from difflib import SequenceMatcher
+    try:
+        path = "/opt/conflict-pipeline/suppressed_" + FEED_NAME + ".json"
+        if not os.path.exists(path):
+            return False
+        with open(path, encoding="utf-8") as _f:
+            entries = json.load(_f)
+        if not isinstance(entries, list) or not entries:
+            return False
+        ec = (event.get("country") or "").strip().lower()
+        et = (event.get("type") or "").strip().lower()
+        etitle = (event.get("title") or "").strip().lower()
+        try:
+            elat = float(event.get("lat")); elng = float(event.get("lng")); have = True
+        except (TypeError, ValueError):
+            elat = elng = 0.0; have = False
+        now = datetime.now(timezone.utc)
+        for s in entries:
+            if (s.get("country") or "").strip().lower() != ec:
+                continue
+            if (s.get("type") or "").strip().lower() != et:
+                continue
+            added = s.get("added")
+            if added:
+                try:
+                    a = datetime.fromisoformat(str(added).replace("Z", "+00:00"))
+                    if a.tzinfo is None:
+                        a = a.replace(tzinfo=timezone.utc)
+                    if (now - a).days > int(s.get("window_days", 21)):
+                        continue
+                except Exception:
+                    pass
+            if s.get("broad"):
+                return True
+            try:
+                if have and s.get("lat") is not None and s.get("lng") is not None:
+                    if abs(float(s["lat"]) - elat) <= 0.75 and abs(float(s["lng"]) - elng) <= 0.75:
+                        return True
+            except (TypeError, ValueError):
+                pass
+            st = (s.get("title") or "").strip().lower()
+            if st and etitle and SequenceMatcher(None, st, etitle).ratio() >= 0.50:
+                return True
+        return False
+    except Exception:
+        return False
+
+
 def _gnews(query, freshness="when:7d"):
     """Google News RSS search-feed URL. Used for both topic queries and
     site: queries against persecution-watch orgs without reliable RSS.
@@ -593,11 +648,13 @@ def fetch_full_article(url):
                                     'Version/17.0 Safari/605.1.15')}
         )
         if r.status_code == 200 and 'news.google.com' not in (r.url or url):
-            text = re.sub(r'<script[^>]*>.*?</script>', '', r.text, flags=re.DOTALL)
-            text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
+            text = r.text
+            for _bp in ("script", "style", "nav", "header", "footer", "aside", "form"):
+                text = re.sub(r'<' + _bp + r'[^>]*>.*?</' + _bp + r'>', ' ', text,
+                              flags=re.DOTALL | re.IGNORECASE)
             text = re.sub(r'<[^>]+>', ' ', text)
             text = re.sub(r'\s+', ' ', text).strip()
-            return text[:4000]
+            return text[:6000]
     except Exception:
         pass
     return ''
@@ -627,16 +684,18 @@ def generate_article(article):
         '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
         '- Use UNKNOWN only if no country can be reasonably determined.\n'
         '- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n'
-        'Write a factual 100-250 word news report (total across all PARA sections) based ONLY on the source material below.\n\n'
+        'Write a factual news report (total across all PARA sections) based ONLY on the source material below. Write only as long as the source supports: up to 100-250 words when the source is detailed; when the source is thin, write 1 to 2 short PARA sections and then stop. Never pad to reach a length with background, history, or restatement (e.g. do NOT add filler such as "the situation continues to develop", "officials continue to monitor", or "this is the Nth update").\n\n'
         'STRICT RULES:\n'
         '- Only include facts present in the source material\n'
+        '- Lead with the concrete figures the source provides (number detained, arrested, killed, displaced, churches closed, or similar). If the source provides no such figure, state that plainly and do not imply a scale.\n'
         '- Never invent names, statistics, dates, or locations\n'
         '- Never fabricate quotes\n'
         '- Redact identifying details to protect local communities:\n'
         "  - No personal names (replace with: man, woman, pastor, bishop, girl, boy, family, group, convert, believer)\n"
         "  - No specific church names (e.g. 'Linfen Covenant Home Church' -> 'a house church')\n"
         "  - No specific local ministry or denomination names within the country\n"
-        "  - No towns, villages, counties, districts, or provinces (use the country only)\n"
+        "  - No sub-national places of any kind: no city, town, village, county, district, province, state, region, territory, named geographic area, or mountain range (e.g. 'Nuba Mountains', 'Plateau State'). Use the COUNTRY only.\n"
+        "  - No parish, diocese, archdiocese, mission station, seminary, or congregation names.\n"
         "  - You MAY name the external reporting watchdog (e.g. 'according to ChinaAid', 'according to Open Doors')\n"
         '- These redaction rules apply EVEN IF the source material includes the specific names. Redaction is required, not optional.\n'
         '- Mention the source naturally in the text\n'
@@ -644,6 +703,7 @@ def generate_article(article):
         '- No headers or sections inside paragraphs\n'
         '- Never repeat the same point twice\n'
         '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
+        '- State when the event occurred in the body, using the date from the source (e.g. "On June 19, 2026, ..."). If the source gives no date, do not invent one.\n'
         '- PRAYER: line should be a short noun phrase naming a specific prayer point, not a full sentence\n\n'
         'SOURCE: ' + article['source'] + '\n'
         'TITLE: ' + article['title'] + '\n\n'
@@ -751,14 +811,6 @@ def format_body_for_wordpress(paragraphs, prayer):
         p_clean = html.unescape(p).strip()
         p_clean = re.sub(r'\s+', ' ', p_clean)
         parts.append('<p>' + p_clean + '</p>')
-    if prayer:
-        pr_clean = html.unescape(prayer).strip()
-        pr_clean = re.sub(r'\s+', ' ', pr_clean)
-        pr_clean = _prayer_with_for(pr_clean)
-        parts.append(
-            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr_clean + '</p>'
-
-        )
     return '\n\n'.join(parts)
 
 
@@ -946,6 +998,95 @@ def is_duplicate_of_existing_wp(candidate_title, candidate_country=None,
     return False
 
 
+_RECENT_WP_POSTS_CACHE = None
+
+
+def load_recent_wp_posts(days=30):
+    """Like load_recent_wp_titles but keeps post IDs, so a duplicate can be
+    UPDATED in place (rewrite-on-update) instead of skipped."""
+    global _RECENT_WP_POSTS_CACHE
+    if _RECENT_WP_POSTS_CACHE is not None:
+        return _RECENT_WP_POSTS_CACHE
+    posts = []
+    try:
+        cat_id = get_or_create_category('Persecution Reports', 'persecution-reports')
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        page = 1
+        while page <= 5:
+            url = (WP_URL + '/wp-json/wp/v2/posts'
+                   '?categories=' + str(cat_id) +
+                   '&per_page=100&page=' + str(page) +
+                   '&_fields=id,title,date_gmt' +
+                   '&after=' + cutoff +
+                   '&orderby=date&order=desc')
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                break
+            batch = r.json()
+            if not batch:
+                break
+            for p in batch:
+                t = p.get('title', {}).get('rendered', '')
+                t = html.unescape(t)
+                t = re.sub(r'<[^>]+>', '', t).strip()
+                if t and p.get('id'):
+                    posts.append({'id': p['id'], 'title': t})
+            page += 1
+        print('WP posts cache: loaded ' + str(len(posts)) + ' recent posts')
+    except Exception as e:
+        print('WP posts cache load failed: ' + str(e))
+    _RECENT_WP_POSTS_CACHE = posts
+    return posts
+
+
+def find_existing_post_id(candidate_title, candidate_country=None,
+                          threshold=DEDUP_TITLE_THRESHOLD):
+    """Return the WP id of a recent post that is the same story, else None.
+    Mirrors is_duplicate_of_existing_wp but yields the id so we can rewrite."""
+    recent = load_recent_wp_posts()
+    cl = (candidate_country or "").strip().lower()
+    cand_l = candidate_title.lower()
+    for p in recent:
+        existing = p['title']
+        sim = title_similarity(candidate_title, existing)
+        if sim >= threshold:
+            return p['id']
+        if (cl and sim >= DEDUP_SAME_COUNTRY_THRESHOLD
+                and cl in cand_l and cl in existing.lower()):
+            return p['id']
+    return None
+
+
+def update_existing_post(post_id, article, headline, formatted_body):
+    """Rewrite an existing post as an update: bold 'Updated:' label on top,
+    fresh body, refreshed map meta, bumped timestamp so it resurfaces."""
+    auth = (WP_USER, WP_APP_PASSWORD)
+    meta_html = (
+        '<div class="gwm-meta" style="display:none;"' +
+        ' data-country="' + (article['country'] or '') + '"' +
+        ' data-type="' + article['incident_type'] + '"' +
+        ' data-lat="' + str(article['lat'] or '') + '"' +
+        ' data-lng="' + str(article['lng'] or '') + '"></div>'
+    )
+    today = datetime.now(timezone.utc).strftime('%B %d, %Y')
+    updated_label = ('<p class="gwm-update-label"><strong>Updated:</strong> '
+                     + today + '</p>')
+    now_iso = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
+    title = headline or article['title']
+    post_data = {
+        'title': title,
+        'content': updated_label + '\n\n' + formatted_body + meta_html,
+        'date_gmt': now_iso,
+    }
+    r = requests.post(WP_URL + '/wp-json/wp/v2/posts/' + str(post_id),
+                      auth=auth, json=post_data)
+    if r.status_code in (200, 201):
+        print('Updated existing post ' + str(post_id) + ': ' + title[:55])
+        return r.json()
+    print('Update failed (' + str(r.status_code) + '): ' + r.text[:200])
+    return None
+
+
 # --- end dedup helpers ---
 
 
@@ -1028,24 +1169,26 @@ def run():
                 continue
 
             candidate_title = headline or article['title']
-            if is_duplicate_of_existing_wp(candidate_title, article.get('country')):
-                print('Skipping (duplicate of recent post): ' + candidate_title[:60])
-                skipped += 1
-                seen.add(article['hash'])
-                continue
-
             formatted_body = format_body_for_wordpress(paragraphs, prayer)
 
             print('FORMAT: paragraphs=' + str(len(paragraphs)) +
                   ' prayer=' + ('yes' if prayer else 'no') +
                   ' total_chars=' + str(total_len))
 
-            result = publish_to_wordpress(article, headline, formatted_body)
+            _existing_id = find_existing_post_id(candidate_title, article.get('country'))
+            if _existing_id:
+                result = update_existing_post(_existing_id, article, headline, formatted_body)
+            else:
+                result = publish_to_wordpress(article, headline, formatted_body)
             if result:
                 published += 1
                 seen.add(article['hash'])
                 if _RECENT_WP_TITLES_CACHE is not None:
                     _RECENT_WP_TITLES_CACHE.append(headline or article['title'])
+                if _RECENT_WP_POSTS_CACHE is not None and result.get('id'):
+                    _RECENT_WP_POSTS_CACHE.append(
+                        {'id': result.get('id'),
+                         'title': headline or article['title']})
 
                 if JSON_WRITER_AVAILABLE:
                     try:
@@ -1059,7 +1202,7 @@ def run():
                             'wp_link': post_link,
                             'date': post_date or datetime.now(timezone.utc).isoformat(),
                             'title': headline or article['title'],
-                            'body': html.unescape(formatted_body),
+                            'body': re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(formatted_body or ""))).strip()[:220],
                             'country': primary,
                             'countries': parsed['countries'],
                             'type': article['incident_type'],
@@ -1070,7 +1213,10 @@ def run():
                             'prayer': feed_prayer,
                             'alert_summary': alert_summary,
                         }
-                        gwm_json_writer.write_event(FEED_NAME, event)
+                        if _gwm_is_suppressed(event):
+                            print("Suppressed (skipped feed write): " + str(event.get("title", "")))
+                        else:
+                            gwm_json_writer.write_event(FEED_NAME, event)
                         json_writes += 1
                     except Exception as e:
                         print('JSON write_event failed: ' + str(e))
