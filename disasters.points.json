@@ -1,9 +1,159 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-29T00:53:23.651476+00:00",
-  "count": 865,
+  "updated": "2026-06-29T04:38:03.999387+00:00",
+  "count": 880,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7637,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-26-2026-3/",
+      "date": "2026-06-29T04:34:55",
+      "title": "Disease in Congo 06/26/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 7636,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-belgium-06-28-2026/",
+      "date": "2026-06-29T04:34:08",
+      "title": "Disease in Belgium 06/28/2026",
+      "country": "Belgium",
+      "type": "Disease",
+      "lat": 50.8551,
+      "lng": 4.35121
+    },
+    {
+      "wp_id": 7635,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-06-26-2026-2/",
+      "date": "2026-06-29T04:32:20",
+      "title": "Disease in United States 06/26/2026",
+      "country": "United States",
+      "type": "Disease",
+      "lat": 33.918412,
+      "lng": -80.900773
+    },
+    {
+      "wp_id": 7634,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-06-29-2026/",
+      "date": "2026-06-29T04:31:31",
+      "title": "Flood in India 06/29/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 28.3668,
+      "lng": 94.745979
+    },
+    {
+      "wp_id": 7633,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-06-26-2026-magnitude-7/",
+      "date": "2026-06-29T04:31:05",
+      "title": "Earthquake in Venezuela 06/26/2026 — Magnitude 7",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641
+    },
+    {
+      "wp_id": 7632,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-06-26-2026-4/",
+      "date": "2026-06-29T04:30:41",
+      "title": "Storm in Japan 06/26/2026",
+      "country": "Japan",
+      "type": "Storm",
+      "lat": 31.596793,
+      "lng": 130.557195
+    },
+    {
+      "wp_id": 7631,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-29-2026/",
+      "date": "2026-06-29T04:30:16",
+      "title": "Wildfire in Canada 06/29/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 61.86141,
+      "lng": -121.35231
+    },
+    {
+      "wp_id": 7630,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-29-2026-2/",
+      "date": "2026-06-29T04:27:53",
+      "title": "Wildfire in United States 06/29/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 45.693207,
+      "lng": -121.283812
+    },
+    {
+      "wp_id": 7629,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-28-2026-3/",
+      "date": "2026-06-29T04:26:23",
+      "title": "Flood in United States 06/28/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.74771,
+      "lng": -84.29507
+    },
+    {
+      "wp_id": 7628,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-25-2026-magnitude-6/",
+      "date": "2026-06-29T04:12:52",
+      "title": "Earthquake in Papua New Guinea 06/25/2026 — Magnitude 6",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.343031,
+      "lng": 152.281275
+    },
+    {
+      "wp_id": 7627,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-dominican-republic-06-26-2026-magnitude-5/",
+      "date": "2026-06-29T04:11:43",
+      "title": "Earthquake in Dominican Republic 06/26/2026 — Magnitude 5",
+      "country": "Dominican Republic",
+      "type": "Earthquake",
+      "lat": 18.378152,
+      "lng": -68.610004
+    },
+    {
+      "wp_id": 7626,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-06-27-2026-magnitude-5/",
+      "date": "2026-06-29T04:10:27",
+      "title": "Earthquake in Solomon Islands 06/27/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.655,
+      "lng": 163.1809
+    },
+    {
+      "wp_id": 7625,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-06-27-2026-magnitude-6/",
+      "date": "2026-06-29T04:09:34",
+      "title": "Earthquake in Japan 06/27/2026 — Magnitude 6",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 39.400833,
+      "lng": 141.09862
+    },
+    {
+      "wp_id": 7624,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-28-2026-magnitude-5/",
+      "date": "2026-06-29T04:08:17",
+      "title": "Earthquake in Philippines 06/28/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 6.65121,
+      "lng": 125.31944
+    },
+    {
+      "wp_id": 7623,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-24-2026-magnitude-6/",
+      "date": "2026-06-29T04:07:23",
+      "title": "Earthquake in United States 06/24/2026 — Magnitude 6",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 39.265222,
+      "lng": -123.204078
+    },
     {
       "wp_id": 7606,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-06-27-2026/",
