@@ -1,18 +1,128 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-28T17:18:13.560484+00:00",
-  "count": 1079,
+  "updated": "2026-06-29T00:59:12.573731+00:00",
+  "count": 1087,
   "limit": 10000,
   "events": [
     {
       "wp_id": 7467,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-28T17:17:39",
-      "title": "Armed Conflict in Southern Gaza Strip",
+      "date": "2026-06-29T00:58:53",
+      "title": "Armed Conflict in Central Gaza",
       "country": "Palestine",
       "type": "Armed Conflict",
-      "lat": 31.512868,
-      "lng": 34.458136
+      "lat": 31.467109,
+      "lng": 34.399305
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-06-29T00:58:31",
+      "title": "Armed Conflict in Zaporizhia",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661
+    },
+    {
+      "wp_id": 7617,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-carrefour-feuilles/",
+      "date": "2026-06-29T00:57:32",
+      "title": "Armed Conflict in Carrefour-Feuilles",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.534172,
+      "lng": -72.39484
+    },
+    {
+      "wp_id": 7616,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-jaramana/",
+      "date": "2026-06-29T00:57:16",
+      "title": "Civil Unrest in Jaramana",
+      "country": "Syria",
+      "type": "Civil Unrest",
+      "lat": 33.475696,
+      "lng": 36.336098
+    },
+    {
+      "wp_id": 7615,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kwazulu-natal/",
+      "date": "2026-06-29T00:57:00",
+      "title": "Civil Unrest in KwaZulu-Natal",
+      "country": "South Africa",
+      "type": "Civil Unrest",
+      "lat": -29.6,
+      "lng": 30.378889
+    },
+    {
+      "wp_id": 7614,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-nabatieh/",
+      "date": "2026-06-29T00:56:38",
+      "title": "Displacement in Nabatieh",
+      "country": "Lebanon",
+      "type": "Displacement",
+      "lat": 33.377956,
+      "lng": 35.483513
+    },
+    {
+      "wp_id": 7613,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-beirut/",
+      "date": "2026-06-29T00:56:24",
+      "title": "Civil Unrest in Beirut",
+      "country": "Lebanon",
+      "type": "Civil Unrest",
+      "lat": 33.89625,
+      "lng": 35.477367
+    },
+    {
+      "wp_id": 7564,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belgrade-3/",
+      "date": "2026-06-29T00:56:09",
+      "title": "Civil Unrest in Kraljevo",
+      "country": "Serbia",
+      "type": "Civil Unrest",
+      "lat": 44.8178,
+      "lng": 20.4569
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-29T00:55:58",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987
+    },
+    {
+      "wp_id": 7610,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-gaza-2/",
+      "date": "2026-06-29T00:55:49",
+      "title": "Displacement in Gaza",
+      "country": "Palestine",
+      "type": "Displacement",
+      "lat": 31.512442,
+      "lng": 34.457165
+    },
+    {
+      "wp_id": 7609,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
+      "date": "2026-06-29T00:55:38",
+      "title": "Armed Conflict in Khan Younis",
+      "country": "Israel",
+      "type": "Armed Conflict",
+      "lat": 31.343477,
+      "lng": 34.30874
+    },
+    {
+      "wp_id": 7607,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-luchenza/",
+      "date": "2026-06-29T00:55:10",
+      "title": "Displacement in Luchenza",
+      "country": "South Africa",
+      "type": "Displacement",
+      "lat": -28.378272,
+      "lng": 23.913711
     },
     {
       "wp_id": 7601,
@@ -35,16 +145,6 @@
       "lng": 56.46
     },
     {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-28T17:16:58",
-      "title": "Armed Conflict in Zaporizhzhia",
-      "country": "Ukraine",
-      "type": "Armed Conflict",
-      "lat": 48.044,
-      "lng": 37.9661
-    },
-    {
       "wp_id": 7596,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-fafi/",
       "date": "2026-06-28T17:16:01",
@@ -63,16 +163,6 @@
       "type": "Armed Conflict",
       "lat": 33.2348,
       "lng": 35.5167
-    },
-    {
-      "wp_id": 7564,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belgrade-3/",
-      "date": "2026-06-28T17:14:53",
-      "title": "Civil Unrest in Serbia",
-      "country": "Serbia",
-      "type": "Civil Unrest",
-      "lat": 44.8178,
-      "lng": 20.4569
     },
     {
       "wp_id": 7587,
@@ -153,16 +243,6 @@
       "type": "Civil Unrest",
       "lat": 12.9891,
       "lng": 7.5994
-    },
-    {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-28T05:11:02",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "country": "United States",
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987
     },
     {
       "wp_id": 7534,
