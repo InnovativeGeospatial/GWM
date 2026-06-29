@@ -1,9 +1,121 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-29T00:59:11.033790+00:00",
-  "count": 909,
+  "updated": "2026-06-29T05:22:44.430643+00:00",
+  "count": 914,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7658,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lanao-del-sur/",
+      "date": "2026-06-29T05:22:22",
+      "title": "Armed Conflict in Lanao del Sur",
+      "body": "An ambush in Lanao del Sur killed a soldier and a teacher, according to a report from Inquirer.net. No date for the attack was provided in the available source material. No further details on the number of wounded, those",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Armed Conflict",
+      "lat": 8.004726,
+      "lng": 124.285435,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd1RfazhoSC1fb3dtRjEyTUJYRXdsaVdDM0FHRU1jekR5RXQ5QmRWakVJVi1aelhudmZiRlhyVVd5empsODVudUNPWXdRVW9MX2RZSmVncF92aXQ0SHRzcDZoZVBuVkxSeUVFSnBKcFE5Z2NTRExJMVZDTnpwTkc0cWlmaEkzNUx3X1hHatIBkgFBVV95cUxOWldDNG50NHJWMlhxWmRqSzhyMnB1UDBDVVU1UkRRTTF2ZFU0NElGRmFqSktXU1RXV1M5eWp2QVNjY21NZjc4cWhNM1BPV2dhQkVwczNZTFM3d0lveFZ3VHFGYmpwVTFMcGpYUDFjS211eUJDc0JOUXdsT3I4S1JmdWZnbmRKWlZrSndZLVd5Q0xFUQ?oc=5",
+      "prayer": "Families of a soldier and teacher killed in an ambush in Lanao del Sur",
+      "alert_summary": "An ambush in Lanao del Sur killed one soldier and one teacher; no additional figures reported."
+    },
+    {
+      "wp_id": 7653,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktika/",
+      "date": "2026-06-29T05:22:07",
+      "title": "Armed Conflict in eastern Afghanistan",
+      "body": "Pakistan carried out airstrikes in eastern Afghanistan, according to the source headline. No details about the date, specific location, number of people killed or injured, or stated targets are available from the materia",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 33.1714,
+      "lng": 68.7852,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1E3Y28wMUVTcTdrMzljYkxiMF9tZEtKZWlhYno5UHlia0V1VjBsZGkwZ2FvVEdJMDFzaVFPSWZaZVlxZ3NWTmJuWWo0TzZKSlFmd3Y3ckxrSW1TbWc0WmRQMHdTS2M4c2FTbmV2Sm00d3NFRDN6a2l6Tmo1RUZVOXc5NTNYMVIyREJnMThMRVJSZzBt?oc=5",
+      "prayer": "Civilians in eastern Afghanistan struck by airstrikes from across the border",
+      "alert_summary": "Pakistan carried out airstrikes in eastern Afghanistan; no casualty figures available from this source."
+    },
+    {
+      "wp_id": 7655,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gwa-township-2/",
+      "date": "2026-06-29T05:21:39",
+      "title": "Armed Conflict in Gwa Township",
+      "body": "Myanmar's military carried out airstrikes on Gwa Township, injuring six people. The source notes this was not the first time the area has been struck, indicating a pattern of repeated attacks on the township. No further ",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 17.596872,
+      "lng": 94.5813,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xSk1NZ0VZUFJKZnlkRVJINzVaNk1vcjkzUlpWeWtvemJYWWtMZlNqa0JlbTh6bDJCN1BLY2ZOVnJHMElWUmtCMmQ1bGYtWnFUMTJFY2kteVpwd3dIbEp3WnNlUmY2c2ZQUDJLLVFFZw?oc=5",
+      "prayer": "Six people injured in repeated airstrikes on Gwa Township, Myanmar",
+      "alert_summary": "Airstrikes by Myanmar's military hit Gwa Township again, injuring six people."
+    },
+    {
+      "wp_id": 7654,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-mogadishu/",
+      "date": "2026-06-29T05:21:27",
+      "title": "Civil Unrest in Mogadishu",
+      "body": "A gunfight broke out in Mogadishu involving Somali police and forces connected to a political figure, with both sides blaming the other for the incident. The confrontation occurred ahead of a planned protest. No further ",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Civil Unrest",
+      "lat": 2.035447,
+      "lng": 45.34276,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSDdwX2MwZ2ZVOC1DdWtzOUY2SU52MkdQSFFKVkt6Um5JbUpfUDN0anl4azlENzZjYUlXdkY2aVNMS3pQT3hDdG9UNklKN0JPYmJNMFB4ZHViRTFNTm5xZVpnMkZ0MWFkVHlsS1RtY0xCU25kODg1RW1yRl81UWNKUWQ4T0xLTFJrNklZXzNvQnlsTlhQWmhNWkQ4YTJxOUhLRUJPemhtSkNYcEdTYURmZF9zNmR5UXJiMnVpbXlvR0Z2ZTM4QW1z?oc=5",
+      "prayer": "Civilians in Mogadishu caught between security forces and political tensions ahead of protests",
+      "alert_summary": "Somali police and a political figure exchanged blame following a gunfight in Mogadishu before a planned protest; no casualty figures available."
+    },
+    {
+      "wp_id": 7652,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar/",
+      "date": "2026-06-29T05:20:53",
+      "title": "Armed Conflict in Paktia, Paktika, and Kunar",
+      "body": "On June 29, 2026, Pakistan's security forces launched a ground operation and air strikes along the Pakistan-Afghanistan border, killing 29 fighters. Strikes hit targets in three eastern Afghanistan provinces — Paktia, Pa",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan",
+        "Afghanistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 34.618077,
+      "lng": 75.801955,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border?traffic_source=rss",
+      "prayer": "Civilians in eastern Afghanistan and Pakistan caught in cross-border strikes and armed attacks",
+      "alert_summary": "Pakistani forces killed 29 fighters in ground and air strikes across the Pakistan-Afghanistan border on June 29, 2026."
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-29T05:20:37",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "body": "Over the weekend of June 28–29, 2026, the United States and Iran exchanged strikes in and around the Strait of Hormuz. US Central Command said it carried out strikes on Friday and Saturday in response to Iranian attacks ",
+      "country": "United States",
+      "countries": [
+        "United States",
+        "Iran",
+        "Bahrain",
+        "Kuwait"
+      ],
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
+      "prayer": "Civilians and shipping crews in the Strait of Hormuz amid ongoing US-Iran strikes",
+      "alert_summary": "US and Iranian forces exchanged strikes over the weekend; Iran launched missiles and drones at US military assets in Bahrain and Kuwait after US strikes on Friday and Saturday."
+    },
     {
       "wp_id": 7467,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
@@ -147,25 +259,6 @@
       "source_url": "https://www.aljazeera.com/news/2026/6/28/serbias-protesters-press-on-even-after-vucic-promises-to-step-aside?traffic_source=rss",
       "prayer": "Thousands of Serbian protesters and hundreds detained during months of demonstrations demanding accountability",
       "alert_summary": ""
-    },
-    {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-29T00:55:58",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "body": "The United States and Iran exchanged strikes on or around June 28, 2026, just days after the two countries signed a memorandum of understanding. The US says Iran broke the agreement by attacking ships. Iran says ships mu",
-      "country": "United States",
-      "countries": [
-        "United States",
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-and-iran-trade-strikes-days-after-peace-agreement?traffic_source=rss",
-      "prayer": "Ships and crews caught in strikes between US and Iranian forces in the Strait of Hormuz",
-      "alert_summary": "The US and Iran exchanged strikes in the Strait of Hormuz days after signing a memorandum of understanding; no casualty figures were reported."
     },
     {
       "wp_id": 7610,
