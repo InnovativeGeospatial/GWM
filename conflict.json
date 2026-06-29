@@ -1,26 +1,315 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-29T05:22:44.430643+00:00",
-  "count": 914,
+  "updated": "2026-06-29T17:32:48.431213+00:00",
+  "count": 925,
   "limit": 1000,
   "events": [
     {
+      "wp_id": 7687,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northeast-nigeria/",
+      "date": "2026-06-29T17:32:39",
+      "title": "Armed Conflict in Abuja",
+      "body": "Police killed 2 bandits and freed 5 kidnap victims during an operation in Abuja, Nigeria. No further details about the location within the city, the circumstances of the kidnapping, or when it occurred were provided in t",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 12.0338,
+      "lng": 8.5295,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXFRYVQ2UTY1YVA0TEJqRlE4bFU2c3U4V3NaeGk0eGFnelhtSGlJVHV5X2tMUVdDcjdOdFpCVmEtUWxUQnQ1NzE3X1FHSmI0QllLTWYyVk1GVHg1RWo4VHY1VXhiaHlyY0lnTktJQXhFVnFLRHI0VVFSdWEzUkVWVUdxOWJEUjVvMy15Z3dB?oc=5",
+      "prayer": "Five kidnap victims rescued in Abuja and families still affected by banditry in the region",
+      "alert_summary": "Police killed 2 bandits and rescued 5 kidnap victims in Abuja; no civilian casualties reported."
+    },
+    {
+      "wp_id": 7452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
+      "date": "2026-06-29T17:32:10",
+      "title": "Armed Conflict in Bronx",
+      "body": "A 5-year-old girl was struck by a bullet graze to the head during a gang shootout in the Bronx, according to sources cited in the report. No date for the incident is given in the available source material. No additional ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Armed Conflict",
+      "lat": 40.847,
+      "lng": -73.8972,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNm05WkM1aV96QkN5anFLWlJxYW42Qm1IT0pZbGdFbzk1Q096WV9GcWIxUHBGWEdOOUlaQ2ZtZmZXVEFNNkFXVW0yUjRuYzFROEpWRVVhNnJ3aU12TGpwb2gzaVZzN0QwUGlyN2xFTEk5QTE4c1dITWpPWkhwVjRIbDRRMUwwRHVkZmlyb0RsXzEzb3JURExWR1FMMVl6dw?oc=5",
+      "prayer": "Five-year-old girl and bystanders caught in a gang shootout in the Bronx",
+      "alert_summary": "A 5-year-old girl was grazed in the head during a gang shootout in the Bronx; no further casualties are reported in the source."
+    },
+    {
+      "wp_id": 7697,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kholodnogirskyi-district-kharkiv-2/",
+      "date": "2026-06-29T17:31:58",
+      "title": "Armed Conflict in Kharkiv Oblast",
+      "body": "A Russian airstrike struck during a civilian evacuation in Kharkiv Oblast, killing one police officer and wounding a female colleague. The two officers were engaged in evacuating civilians at the time of the attack. The ",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 50.2063,
+      "lng": 36.4006,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVHBLcHV5RVRkcDJ6dW5FYlZzaHJGY2NvWm43WVUwRTM5R1JOQlNJY0tiMFljVjNxNXFwWmZMWHM4QVg3dEtqZnNQNVhLTXg5elR5MEkzaTlqeS1paEs1Z1M3ZG1ESHlYZTdsYjB0eC11WjFxSXctbmlRZi1rZXgtV005ek5JLU90NEVVbV8wSUo1ekpEZW9HU3cwN2ppX1NBcUl3dFNibUFadnVpRDh1Um53U1pmbDBVeUxKV1h1b1FzRWJGWi0yZGNoSTJ0QdIBygFBVV95cUxNOHlYcC1YZHFtanBzalk2Z2ZBRGRCSTFzOXlmMGxHNE42Y3M1b1Q2Z3hMM01scjRibE54RUVsOWFPWlZhSk5uV0hxSmlfMHVndGVrckJQblp5Sm5FQlFvSzF5dDZ3enNKSFI2Y3BxaXRfMWN4UDlNaDhWeFN2aWJZTDNfYWtJakNzT21DdDN0REdJVl92Zkk1TjdUVklhZFRrVXhDQWZYOEhzcFhkMVdSQVZ5QlVDaTVmNTh4YS02dHltZG9TUDltZDFn?oc=5",
+      "prayer": "Police officers killed and wounded during civilian evacuation in Kharkiv Oblast",
+      "alert_summary": "A Russian airstrike during a civilian evacuation in Kharkiv Oblast killed one police officer and wounded a second."
+    },
+    {
+      "wp_id": 7467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
+      "date": "2026-06-29T17:31:45",
+      "title": "Armed Conflict in Gaza",
+      "body": "Israeli strikes and shelling in Gaza killed at least 4 Palestinians, health workers reported. No further details about the locations within Gaza, the circumstances, or the number of wounded were available from this sourc",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.512442,
+      "lng": 34.457165,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMDJWRXI0MUZBRlliNXM5RkxWWEdiUktQLVlnYmZZMTlISE4tVnBTaHZHVV9zUm1weGhvTnJRQmpsQWRKcWgzMFFENFd4NHZabDAzRUFDdzRyZ0E1b0JocHhvM3lIODk2VWpzXzkwS1p2NzdicllZU0ZJOVRrZFZOSG1UalhLZkZrdmpLbjl2U2ZzbWZFQUdma1ZYVGlaZFg2N1p4TXEtb3JseGdnZlhTUVV5c1Bmd2ZRY3lpMGdBUGlYdzDSAcgBQVVfeXFMUEhkcGtSOEtPWjkzNG5SdDV4TlUyM2kyLTJWZjJGTjZxcGJYQWVZSjB2OWJ6TGNqaldpeEhUelhLazFQSEt3OWVEb1ZESkxsQTcxWWp5VEtPS0pyZTlGWWE2N2V1UWRRRElJRERYcmNfUWNraXBRY1J0Qnp0aVNwV05ucXJYZmFLSE0wbUJfSnptOVktYkd3a190bjV5cjRUNlRZQzQtRURMV3QzU0lRcDhmajh1YUJuRHVYRTkzb2tRTTdWNTQxXzQ?oc=5",
+      "prayer": "Palestinians in Gaza killed in ongoing strikes and shelling",
+      "alert_summary": "Israeli strikes and shelling in Gaza killed at least 4 Palestinians, according to health workers."
+    },
+    {
       "wp_id": 7658,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lanao-del-sur/",
-      "date": "2026-06-29T05:22:22",
+      "date": "2026-06-29T17:31:36",
       "title": "Armed Conflict in Lanao del Sur",
-      "body": "An ambush in Lanao del Sur killed a soldier and a teacher, according to a report from Inquirer.net. No date for the attack was provided in the available source material. No further details on the number of wounded, those",
+      "body": "A soldier and a teacher were killed in an ambush in Lanao del Sur, in the southern Philippines. No date for the attack was stated in the source. No further details about the number of wounded, the circumstances of the am",
       "country": "Philippines",
       "countries": [
         "Philippines"
       ],
       "type": "Armed Conflict",
-      "lat": 8.004726,
-      "lng": 124.285435,
+      "lat": 8.0047,
+      "lng": 124.2854,
       "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd1RfazhoSC1fb3dtRjEyTUJYRXdsaVdDM0FHRU1jekR5RXQ5QmRWakVJVi1aelhudmZiRlhyVVd5empsODVudUNPWXdRVW9MX2RZSmVncF92aXQ0SHRzcDZoZVBuVkxSeUVFSnBKcFE5Z2NTRExJMVZDTnpwTkc0cWlmaEkzNUx3X1hHatIBkgFBVV95cUxOWldDNG50NHJWMlhxWmRqSzhyMnB1UDBDVVU1UkRRTTF2ZFU0NElGRmFqSktXU1RXV1M5eWp2QVNjY21NZjc4cWhNM1BPV2dhQkVwczNZTFM3d0lveFZ3VHFGYmpwVTFMcGpYUDFjS211eUJDc0JOUXdsT3I4S1JmdWZnbmRKWlZrSndZLVd5Q0xFUQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaEdYUEEtUjJnQ3JfLVoyNDdfVmJHWVQyODRYNFhyTm9meXJYUFNwbWV3YWFMNGdqV0llSFNiRnMtUmZmcFYwNEs2Y3NnTExUVkZ5LUxvOGhCQ1RYcTJtYXA5RVgzcnBzUkNCRUswSlN4N0NzOF9PWnF0WS1NNDhaNWxHWnE4U2ttVER4U2ZlQzBudDdIbzNpTjRR0gGgAUFVX3lxTE5ab1ctS2s0R2JMcXE4VTZmQ3VHc0s2NU8xdFlxUWFfLTlpZnV4Qm55VS1UNVhsajFzbTY5ZUlRMWxwRDRHdE5VXzBla3RRRGNRSWVtT3F1ODczS3JTRXdsODdQOWVaY2tfZDllWndIZ09LNUU4ZUI3X2F6aXY2ZlNJVzJJdWRlZDJueXBQXzQwQmlzWW4xS2hlNUxZYlE4OXI?oc=5",
       "prayer": "Families of a soldier and teacher killed in an ambush in Lanao del Sur",
-      "alert_summary": "An ambush in Lanao del Sur killed one soldier and one teacher; no additional figures reported."
+      "alert_summary": "An ambush in Lanao del Sur killed one soldier and one teacher; no further figures reported."
+    },
+    {
+      "wp_id": 7683,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-karachi-2/",
+      "date": "2026-06-29T17:31:01",
+      "title": "Armed Conflict in Afghanistan",
+      "body": "Pakistani air operations inside Afghanistan killed at least 28 people, according to the United Nations. The source does not specify the date of the strikes or name the exact locations targeted. The UN's report marks one ",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan",
+        "Afghanistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 24.8554,
+      "lng": 67.0205,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONDBEb3RoRkpwRmltQ3BHNkVvNHNJTFpEbVdnbkhNdmtiYUxhOTZTMkEzWlFsTTRLNnBMUi1FVkNFQ25teGd0NUNaYkhXN3dYQjhMTjBfVUwzWWZYTHpDRHd1clBhaVYteHJ2SEQ1N1BiWDlFRmZNWnJrOVFhd2U3a1Q3UV92ekN1d0NCNWtiN0t3T2RJemJxZkpYai0zV1NFTXlwZjVSWVVheTNLei1xdTZEdTVhTjg?oc=5",
+      "prayer": "At least 28 people killed in Pakistani air operations over Afghan territory",
+      "alert_summary": "Pakistani air operations in Afghanistan killed at least 28 people, according to the UN."
+    },
+    {
+      "wp_id": 7677,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-kunar/",
+      "date": "2026-06-29T17:30:49",
+      "title": "Armed Conflict in border provinces",
+      "body": "Pakistani airstrikes killed 36 people in Afghanistan's border provinces, according to Afghan officials, as reported by Xinhua. No specific date for the strikes was provided in the available source material. No further de",
+      "country": "Afghanistan",
+      "countries": [
+        "Afghanistan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 34.8728,
+      "lng": 71.1508,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaU1yOUJ3MEdiWkRibXNDRkxwUUxmVUZhSkdFMksxZDA0UVFacEJsaUJpUGU4YkJPZVQyYjZmYkdvLTdLZXlIM3dQcFlhc0FKYlo4M0NXcnBlLUM4WFJGY0FQWTAtZWJlZW03SzMySVlRaHdqNTRlcGJpbUlVT0xyV1JrS1UxSm00N1F1cQ?oc=5",
+      "prayer": "36 civilians killed in Pakistani airstrikes on Afghanistan's border provinces",
+      "alert_summary": "Pakistani airstrikes killed 36 people in Afghanistan's border provinces, according to Afghan officials."
+    },
+    {
+      "wp_id": 7609,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
+      "date": "2026-06-29T17:30:38",
+      "title": "Armed Conflict in Gaza",
+      "body": "A strike hit a tent in Gaza, killing a child, according to a headline report. The incident occurred during what was described as a ceasefire period. No additional details — including the date, specific location within Ga",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Armed Conflict",
+      "lat": 31.3435,
+      "lng": 34.3087,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmhhdUV1c29QdWZldWhKdjN2cGp5bG5xNUtiRmV4Z2pDRm1BalkxMVlmRkhLTHdzdThZSW9TUERnVTVCaXA4ZUtTZGZJcVN3cXFzNF9YWHk2NnpmUGJJQXJQemhmUnRYRHYzUFZ5NWM2T2JyZ0F4Mkhha2RfQVU3aXFsNmJ0T0hOYVJwY1RDbDAzU3NMcmR2OFVtXzVscTlNcFZjQjRONi1tRzVxZC1GN2c3d2lNSGdGaF81bjE5Wi1SQzFyUXhoUGM1V2xtVFRUUkJZdldR0gHWAUFVX3lxTE1maGF1RXVzb1B1ZmV1aEp2M3ZwanlsbnE1S2JGZXhnakNGbUFqWTExWWZGSEtMd3N1OFlJb1NQRGdVNUJpcDhlS1NkZklxU3dxcXM0X1hYeTY2emZQYklBclB6aGZSdFhEdjNQVnk1YzZPYnJnQXgySGFrZF9BVTdpcWw2YnRPSE5hUnBjVENsMDNTc0xyZHY4VW1fNWxxOU1wVmNCNE42LW1HNXFkLUY3Zzd3aU1IZ0ZoXzVuMTlaLVJDMXJReGhQYzVXbG1UVFRSQll2V1E?oc=5",
+      "prayer": "Child and civilians in Gaza killed in strike during ceasefire period",
+      "alert_summary": "An airstrike on a tent in Gaza killed one child during a ceasefire period; no further figures are available from the source."
+    },
+    {
+      "wp_id": 7694,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southeastern-somalia/",
+      "date": "2026-06-29T17:28:03",
+      "title": "Armed Conflict in southeastern Somalia",
+      "body": "Somali military airstrikes killed 30 al-Shabaab operatives in the southeastern part of the country, according to Qatar News Agency. No date for the strikes was given in the available source material. No further details a",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa3VfbHNYUDlnbVg4T09NZkhmbG1vYjhsSld6WnRBUWpjdHpXaEU0WDAzaVR1MHlqV3NEUVRvNjlOQlpVQnNzSDB1ZXAzTE5DVzFLakI0Q2J4U1NoNWtDQm43ZUp5NmdoRUppalRJZFZRXzNTQm5zR3lUaUVHNHJOc0xpa1Rvd3JNcGJvdnJTaGdrTG5VWUlqb0x1aU8xV0N3bV9BLURERU1iRDJma19ITmxmOHl6RVExUURSLTlkd1VIT3RsdGc?oc=5",
+      "prayer": "Al-Shabaab fighters and civilians in southeastern Somalia amid ongoing airstrikes",
+      "alert_summary": "Somali military airstrikes killed 30 al-Shabaab operatives in southeastern Somalia; no civilian casualties reported."
+    },
+    {
+      "wp_id": 7693,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-north-kivu-ituri/",
+      "date": "2026-06-29T17:27:47",
+      "title": "Armed Conflict in North Kivu, Ituri",
+      "body": "The United Nations mission in Congo (MONUSCO) reported that at least 632 civilians were killed across North Kivu and Ituri within a three-month period. The source does not specify the exact months covered or the date the",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Armed Conflict",
+      "lat": -1.666568,
+      "lng": 29.225652,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNm1HcXh2Z2gydFI0V2N1SnFnNzVpZWFPMm9BSHNXalNKM0pfZDk4OGdIaW9LbUFMaEpET2V5SDFwWGNXUENXaUY4Z1VwZXNCU2pnU2l3M3loTDdTY09yb0hKaFNzVE9nNUg5Mk56MjFJOENuWjNhM0lJcW8ybnV2cjhjYWRsdUlUZ1dpVXhhMWZ0TTlmUVRvWHlJVnZjR0ZMQkNYOG50TmFJNW82UFRSRkpFSlgtWnJmWjZieg?oc=5",
+      "prayer": "632 civilians killed in North Kivu and Ituri over three months of ongoing violence",
+      "alert_summary": "At least 632 civilians were killed in North Kivu and Ituri over a three-month period, according to MONUSCO."
+    },
+    {
+      "wp_id": 7691,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-katsina-airport/",
+      "date": "2026-06-29T17:27:19",
+      "title": "Civil Unrest in Katsina Airport",
+      "body": "Security forces arrested seven commanders linked to Boko Haram and ISWAP at Katsina Airport as they returned from the Hajj pilgrimage in Saudi Arabia. An official identified as Tunji-Ojo was cited in connection with the ",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 13.000353,
+      "lng": 7.662544,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQm5mVnR3RTQ0bnpHLVBRNU1DMUpaakFoRnJra3c3eURvSThWeU5xLUdYbm5LSkNJaW5LWUFDQy1VV2FuSktYOV9wNW0xWXg2ZFo1NXZoT0E0ZlFTTWd3eHlSaEFIMTUxTTJ6R3duN0xXX3Q2QWthblI5N3VCeEU1QlFZNWpsb1pGamZsYkhBVFFDZC1QRHpXbTdjY1p1WnBPZGNvb1BGazRhaXREaGFtM1NaaXRaZGU2eE1qR1NSYTNXclFKLUVxNGctSQ?oc=5",
+      "prayer": "Seven armed group commanders arrested at Katsina Airport after returning from Hajj",
+      "alert_summary": "Authorities arrested seven Boko Haram and ISWAP commanders at Katsina Airport upon their return from Hajj."
+    },
+    {
+      "wp_id": 7686,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oaxaca/",
+      "date": "2026-06-29T17:26:09",
+      "title": "Armed Conflict in Oaxaca",
+      "body": "Two mayors were shot and killed within 24 hours in the state of Oaxaca, Mexico, according to the report. The killings mark a sharp rise in political violence targeting local officials in the region. No further details ab",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Armed Conflict",
+      "lat": 17.062824,
+      "lng": -96.72438,
+      "source_title": "\"Mexico cartel violence OR kidnapping OR gunmen when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPamNNZkxpUTJEZHlQTEdEV3ZKam9Kd3QzZ3lMb0x0WnFNbHhQYkJrUVdWTEZ2c080Ul9ETjh3TXhTRGJBckoxb20tRG52cV9rYmwzZzJXS2ctd3N4Qzd0bld1MHZ6WFhzd0R1X3g5ZVZKVV94QkxkaVQ4Y29DMWM5NnlWR2hqcXhrNFl0bDBPeFpzOXktSFBYcU1PbDYyVFFoUFcxdDBnNl9mWXNUV2VOY3V3c1BaMXVMbHdaanU1R1RMN0VzLXdEb3hUY0tRUHIzRlE?oc=5",
+      "prayer": "Two mayors and their communities in Oaxaca amid ongoing political killings",
+      "alert_summary": "Gunmen shot and killed two mayors in Oaxaca within 24 hours amid a surge in political violence."
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-06-29T17:24:43",
+      "title": "Armed Conflict in Dnipro",
+      "body": "On June 29, 2026, Russian missile and drone strikes killed at least eight people and wounded 34 others across Ukraine. In Dnipro, at least five people were killed and 28 wounded in a missile attack; one of the victims wa",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/6/29/russian-missile-and-drone-attacks-kill-at-least-eight-in-ukraine?traffic_source=rss",
+      "prayer": "Eight people killed and dozens wounded in Dnipro and Zaporizhzhia, including children, amid ongoing strikes",
+      "alert_summary": "Russian missile and drone strikes killed at least 8 and wounded 34 across Ukraine, including 5 killed in Dnipro and 3 in Zaporizhzhia."
+    },
+    {
+      "wp_id": 7681,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid-2/",
+      "date": "2026-06-29T17:24:32",
+      "title": "Armed Conflict in el-Obeid",
+      "body": "The Rapid Support Forces, after attacking el-Fasher, have now surrounded el-Obeid, a city in Sudan's North Kordofan state. The United Nations has warned that el-Obeid could face mass atrocities similar to those that stru",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.183366,
+      "lng": 30.222559,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/sudans-el-obeid-life-on-the-edge-of-collapse?traffic_source=rss",
+      "prayer": "Civilians in el-Obeid surviving a siege as community support systems collapse around them",
+      "alert_summary": "The RSF is besieging el-Obeid, Sudan, as the UN warns of potential mass atrocities similar to el-Fasher in 2025."
+    },
+    {
+      "wp_id": 7680,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-stade/",
+      "date": "2026-06-29T17:24:20",
+      "title": "Civil Unrest in Stade",
+      "body": "A shooting at a youth welfare centre in Stade, northern Germany on June 29, 2026 left five people dead. Police arrested two people, including the suspected gunman. Authorities said there is no ongoing threat to the publi",
+      "country": "Germany",
+      "countries": [
+        "Germany"
+      ],
+      "type": "Civil Unrest",
+      "lat": 53.60103,
+      "lng": 9.476173,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/five-killed-in-shooting-at-german-youth-centre?traffic_source=rss",
+      "prayer": "Five people killed in a shooting at a youth welfare centre in Stade",
+      "alert_summary": "A shooting at a youth welfare centre in Stade, Germany killed five people and led to two arrests."
+    },
+    {
+      "wp_id": 7614,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-nabatieh/",
+      "date": "2026-06-29T17:24:09",
+      "title": "Displacement in Beirut waterfront",
+      "body": "A ceasefire framework signed between Israel and Lebanon on June 27, 2026, has prompted many of Lebanon's displaced to begin returning home, but thousands remain unable to do so because their homes were destroyed. Displac",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Displacement",
+      "lat": 33.378,
+      "lng": 35.4835,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/features/2026/6/29/lebanons-displaced-begin-to-return-home-but-some-have-nowhere-to-go?traffic_source=rss",
+      "prayer": "More than 1.2 million Lebanese displaced by conflict, many with homes destroyed and no place to return",
+      "alert_summary": "Israeli strikes since March 2 have killed at least 4,247 people, wounded more than 12,000, and displaced over 1.2 million in Lebanon."
+    },
+    {
+      "wp_id": 7678,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-36/",
+      "date": "2026-06-29T17:23:55",
+      "title": "Armed Conflict in southern Lebanon",
+      "body": "Israeli strikes continued in southern Lebanon on June 29, 2026, even as an Israel-Lebanon agreement remained in place. Hezbollah publicly condemned the deal. The source provides no figures for casualties or displacement ",
+      "country": "Lebanon",
+      "countries": [
+        "Lebanon"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/aje-onl-aje_onl_lebanon_wrap-290626?traffic_source=rss",
+      "prayer": "Civilians in southern Lebanon exposed to ongoing Israeli strikes amid a disputed ceasefire agreement",
+      "alert_summary": "Israeli strikes continued in southern Lebanon despite an active Israel-Lebanon agreement, with Hezbollah opposing the deal."
     },
     {
       "wp_id": 7653,
@@ -96,63 +385,6 @@
       "alert_summary": "Pakistani forces killed 29 fighters in ground and air strikes across the Pakistan-Afghanistan border on June 29, 2026."
     },
     {
-      "wp_id": 7452,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-12/",
-      "date": "2026-06-29T05:20:37",
-      "title": "Armed Conflict in Strait of Hormuz",
-      "body": "Over the weekend of June 28–29, 2026, the United States and Iran exchanged strikes in and around the Strait of Hormuz. US Central Command said it carried out strikes on Friday and Saturday in response to Iranian attacks ",
-      "country": "United States",
-      "countries": [
-        "United States",
-        "Iran",
-        "Bahrain",
-        "Kuwait"
-      ],
-      "type": "Armed Conflict",
-      "lat": 41.568185,
-      "lng": -87.295987,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
-      "prayer": "Civilians and shipping crews in the Strait of Hormuz amid ongoing US-Iran strikes",
-      "alert_summary": "US and Iranian forces exchanged strikes over the weekend; Iran launched missiles and drones at US military assets in Bahrain and Kuwait after US strikes on Friday and Saturday."
-    },
-    {
-      "wp_id": 7467,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-29T00:58:53",
-      "title": "Armed Conflict in Central Gaza",
-      "body": "An airstrike struck a civilian vehicle in central Gaza, killing three people and wounding others, according to Yafa News Network. No date for the strike was given in the source. No further details about the location with",
-      "country": "Palestine",
-      "countries": [
-        "Palestine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 31.467109,
-      "lng": 34.399305,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zczFuTXRKWFpvVTFmYVlDQ2RqZXh2OWhFSDNZNVhSZnZXZFZwS0pscGtIVG1YX0dCam01YUJmUkgyaS1EWFJmWnhhaTd0WDNf?oc=5",
-      "prayer": "Civilians in central Gaza killed and wounded in an airstrike on a civilian vehicle",
-      "alert_summary": "An airstrike on a civilian vehicle in central Gaza killed 3 people and injured others."
-    },
-    {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-29T00:58:31",
-      "title": "Armed Conflict in Zaporizhia",
-      "body": "An airstrike on Zaporizhia killed 2 people and left 16 others wounded, according to reports. No further details about the strike's target, timing, or the condition of the injured were available in the source.",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 48.044,
-      "lng": 37.9661,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fUU1XQnR6am85TlpwSjYtSkNxR3FXbzZLNlpsaE55amNVQUUxLVdsb1NxY19EeVg2ei03YXNaMnRYYUYzTFFSLTgyRGx1NUR0SjlrY1pFN0xwU2ZXUW1La0w2VjZSZFVrNkNVNUZn?oc=5",
-      "prayer": "Two people killed and 16 wounded in an airstrike on Zaporizhia",
-      "alert_summary": "An airstrike on Zaporizhia killed 2 people and wounded 16 others."
-    },
-    {
       "wp_id": 7617,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-carrefour-feuilles/",
       "date": "2026-06-29T00:57:32",
@@ -207,24 +439,6 @@
       "alert_summary": "Three foreign nationals have been killed and journalists assaulted amid anti-immigrant unrest across South Africa."
     },
     {
-      "wp_id": 7614,
-      "wp_link": "https://globalwitnessmonitor.com/displacement-in-nabatieh/",
-      "date": "2026-06-29T00:56:38",
-      "title": "Displacement in Nabatieh",
-      "body": "More than a million people forced from their homes by airstrikes and evacuation orders in southern Lebanon are now struggling to obtain basic identity documents. Many fled with no time to pack anything, and Lebanon requi",
-      "country": "Lebanon",
-      "countries": [
-        "Lebanon"
-      ],
-      "type": "Displacement",
-      "lat": 33.377956,
-      "lng": 35.483513,
-      "source_title": "The New Humanitarian",
-      "source_url": "https://www.thenewhumanitarian.org/news-feature/2026/06/24/lebanon-documentation-system-collapses-war",
-      "prayer": "Over one million people displaced in Lebanon struggling to access documents, employment, and services",
-      "alert_summary": "Ongoing conflict has displaced over one million people in Lebanon, with at least 4,192 reported killed."
-    },
-    {
       "wp_id": 7613,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-beirut/",
       "date": "2026-06-29T00:56:24",
@@ -277,24 +491,6 @@
       "source_url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/gazas-displaced-families-face-worsening-living-conditions?traffic_source=rss",
       "prayer": "Displaced families in Gaza living without sanitation amid rats, sewage, and overcrowded shelters",
       "alert_summary": "Displaced families in Gaza face worsening public health conditions as rats, sewage, and overcrowded shelters spread disease."
-    },
-    {
-      "wp_id": 7609,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-younis/",
-      "date": "2026-06-29T00:55:38",
-      "title": "Armed Conflict in Khan Younis",
-      "body": "Israeli attacks killed at least four Palestinians and wounded several others across the Gaza Strip. In northern Gaza, a drone struck the al-Salatin area west of Beit Lahiya, killing at least two people and wounding at le",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "type": "Armed Conflict",
-      "lat": 31.343477,
-      "lng": 34.30874,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/6/28/israel-kills-three-palestinians-in-gaza-as-attacks-on-tents-continue?traffic_source=rss",
-      "prayer": "Palestinians in Gaza killed and wounded in strikes on tents, displaced families in Khan Younis and northern Gaza",
-      "alert_summary": "Israeli strikes killed at least four Palestinians, including a 13-year-old girl, and wounded several others across Gaza on June 28, 2026."
     },
     {
       "wp_id": 7607,
