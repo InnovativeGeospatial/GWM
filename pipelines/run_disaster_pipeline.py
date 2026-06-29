@@ -209,10 +209,6 @@ RSS_FEEDS = [
     "https://www.aljazeera.com/xml/rss/all.xml",
     "https://rss.dw.com/rdf/rss-en-world",
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-    # --- regional aggregators added 2026-06-28: widen small-country coverage ---
-    "https://www.thenewhumanitarian.org/rss/all.xml",
-    "https://allafrica.com/tools/headlines/rdf/africa/headlines.rdf",
-    "https://globalvoices.org/feed/",
 ] + [_gnews(q) for q in GOOGLE_NEWS_QUERIES]
 
 DISASTER_TERMS = [
