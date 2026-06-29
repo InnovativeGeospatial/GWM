@@ -70,6 +70,61 @@ USGS_GEOJSON_FEEDS = [
 ]
 FEED_NAME    = "disasters"
 
+def _gwm_is_suppressed(event):
+    """True if this event matches a suppression entry recorded by prune_feed.py.
+    Same country+type, within the entry's day window, and (broad => country+type
+    +window alone; else coords within 0.75deg OR title similarity >= 0.50).
+    Fails open (returns False) on any error so it can never block all events."""
+    import os, json
+    from datetime import datetime, timezone
+    from difflib import SequenceMatcher
+    try:
+        path = "/opt/conflict-pipeline/suppressed_" + FEED_NAME + ".json"
+        if not os.path.exists(path):
+            return False
+        with open(path, encoding="utf-8") as _f:
+            entries = json.load(_f)
+        if not isinstance(entries, list) or not entries:
+            return False
+        ec = (event.get("country") or "").strip().lower()
+        et = (event.get("type") or "").strip().lower()
+        etitle = (event.get("title") or "").strip().lower()
+        try:
+            elat = float(event.get("lat")); elng = float(event.get("lng")); have = True
+        except (TypeError, ValueError):
+            elat = elng = 0.0; have = False
+        now = datetime.now(timezone.utc)
+        for s in entries:
+            if (s.get("country") or "").strip().lower() != ec:
+                continue
+            if (s.get("type") or "").strip().lower() != et:
+                continue
+            added = s.get("added")
+            if added:
+                try:
+                    a = datetime.fromisoformat(str(added).replace("Z", "+00:00"))
+                    if a.tzinfo is None:
+                        a = a.replace(tzinfo=timezone.utc)
+                    if (now - a).days > int(s.get("window_days", 21)):
+                        continue
+                except Exception:
+                    pass
+            if s.get("broad"):
+                return True
+            try:
+                if have and s.get("lat") is not None and s.get("lng") is not None:
+                    if abs(float(s["lat"]) - elat) <= 0.75 and abs(float(s["lng"]) - elng) <= 0.75:
+                        return True
+            except (TypeError, ValueError):
+                pass
+            st = (s.get("title") or "").strip().lower()
+            if st and etitle and SequenceMatcher(None, st, etitle).ratio() >= 0.50:
+                return True
+        return False
+    except Exception:
+        return False
+
+
 REGIONS = {
     "middle-east": [
         "Iran", "Iraq", "Syria", "Yemen", "Israel", "Palestine", "Lebanon",
@@ -1201,11 +1256,14 @@ WRITING STYLE:
 - Round depth to the nearest whole kilometer or describe qualitatively.
 - DO NOT include exposure estimates like "30,000 in MMI VI".
 - DO NOT include UTC times in the body.
-- Length: 100-180 words.
+- Length: only as long as the source supports. At most 100-180 words when the source is detailed; when the source is thin, write 2 to 4 factual sentences and then stop. Never pad to reach a length with background, history, or restatement (e.g. do NOT add filler such as 'the situation continues to develop', 'officials continue to monitor', or 'this is the Nth update').
+- Lead with the concrete figures the source provides (deaths, injured, displaced, arrested, affected, magnitude, or similar). If the source provides no such figure, state that plainly in one sentence and do not imply a scale.
+- NEVER name a city, town, village, district, or region that does not appear in the source material. If the source names no specific place, use the country or write UNKNOWN. Do not invent, guess, or infer a place name.
 - Two or three short paragraphs separated by blank lines.
 - Do not include personal names; use "a man", "a woman", "residents", "officials", "rescuers".
 - Do not include the source URL in the body.
 - Do not include a title. Body only.
+- State when the event occurred in the body, using the event date from the source (e.g. "On June 14, 2026, ..."). If the source gives no date, do not invent one.
 - End naturally - no Mission Note, no Field Teams advisory.
 - DO NOT include the prayer line in the body.
 
@@ -1221,21 +1279,46 @@ Respond with ONLY the token SKIP_NO_EVENT (nothing else) when the source is any 
 Otherwise, write the report normally."""
 
 
-BAD_RESPONSE_PATTERNS = [
-    "i cannot write", "i cannot provide",
-    "i am unable to", "skip_no_event",
+REFUSAL_PATTERNS = [
+    "i cannot write", "i cannot provide", "i am unable to",
+    "i can't write", "i can not write", "i will not write",
 ]
+SKIP_TOKEN = "skip_no_event"
+MIN_WORDS = 30
+SKIP_LOG = "/opt/disaster-pipeline/skips.log"
+
+
+def log_skip(title, reason):
+    """Append every dropped candidate to a skip log so drops stay inspectable
+    without anyone having to watch the run."""
+    try:
+        with open(SKIP_LOG, "a") as f:
+            f.write(datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+                    + "\t" + (reason or "?") + "\t" + (title or "")[:120] + "\n")
+    except Exception as e:
+        log.warning("skip-log write failed: %s", e)
+
+
+def is_refusal(article_body):
+    """True only for an actual model refusal -- NOT the deliberate
+    SKIP_NO_EVENT signal, which is a correct rejection."""
+    lower = article_body.lower()
+    if SKIP_TOKEN in lower:
+        return False
+    return any(p in lower for p in REFUSAL_PATTERNS)
 
 
 def is_valid_article(article_body):
     lower = article_body.lower()
-    for pattern in BAD_RESPONSE_PATTERNS:
+    if SKIP_TOKEN in lower:
+        return False
+    for pattern in REFUSAL_PATTERNS:
         if pattern in lower:
             return False
-    return len(article_body.split()) >= 60
+    return len(article_body.split()) >= MIN_WORDS
 
 
-def fetch_article_body(url, max_chars=4000):
+def fetch_article_body(url, max_chars=6000):
     try:
         from bs4 import BeautifulSoup
     except ImportError:
@@ -1244,7 +1327,7 @@ def fetch_article_body(url, max_chars=4000):
         headers = {"User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                                   "AppleWebKit/605.1.15 (KHTML, like Gecko) "
                                   "Version/17.0 Safari/605.1.15")}
-        r = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+        r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
         if r.status_code != 200:
             return ""
         if "news.google.com" in (r.url or url):
@@ -1252,15 +1335,33 @@ def fetch_article_body(url, max_chars=4000):
         if "html" not in r.headers.get("content-type", "").lower():
             return ""
         soup = BeautifulSoup(r.text, "html.parser")
-        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form", "figure", "figcaption"]):
             tag.decompose()
+        def _extract(scope):
+            if not scope:
+                return ""
+            blocks = []
+            for el in scope.find_all(["p", "li", "tr", "h2", "h3"]):
+                t = el.get_text(" ", strip=True)
+                if not t:
+                    continue
+                if el.name in ("li", "tr"):
+                    # figures are short; keep rows/items that are long
+                    # OR carry a number (case/death/displaced counts)
+                    if len(t) > 25 or any(c.isdigit() for c in t):
+                        blocks.append(t)
+                elif len(t) > 25:
+                    blocks.append(t)
+            return " ".join(blocks)
+
         node = soup.find("article") or soup.find("main") or soup.body
-        if not node:
-            return ""
-        paragraphs = [p.get_text(" ", strip=True) for p in node.find_all("p")]
-        text = " ".join(p for p in paragraphs if len(p) > 30)
+        text = _extract(node)
+        if len(text) < 400:
+            full = _extract(soup.body or soup)
+            if len(full) > len(text):
+                text = full
         if not text:
-            text = node.get_text(" ", strip=True)
+            text = (node or soup).get_text(" ", strip=True)
         text = " ".join(text.split())
         return text[:max_chars]
     except Exception as e:
@@ -1268,7 +1369,7 @@ def fetch_article_body(url, max_chars=4000):
         return ""
 
 
-def generate_article(item):
+def generate_article(item, firmer=False):
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     body_text = fetch_article_body(item["url"])
     body_section = ""
@@ -1285,6 +1386,14 @@ def generate_article(item):
         "DETECTED DISASTER TYPE: " + item.get("disaster_type", "Other") + "\n\n"
         "Use only facts present in the source material above."
     )
+    if firmer:
+        user_prompt = (
+            "The item below is a factual event already publicly reported by the "
+            "outlet named. Summarize it as a plain-language natural-disaster report. "
+            "Do not decline and do not refuse; if the source is thin, write only what "
+            "it supports. If it genuinely describes no natural-hazard or disease event, "
+            "reply with SKIP_NO_EVENT. Follow the header format exactly.\n\n"
+        ) + user_prompt
     log.info("Generating article for: %s", item["title"][:70])
     message = client.messages.create(
         model="claude-sonnet-4-6",
@@ -1463,12 +1572,6 @@ def format_body_for_wordpress(body_text, prayer=""):
         p = re.sub(r"\s*\n\s*", " ", p)
         p = re.sub(r"\s+", " ", p).strip()
         cleaned.append("<p>" + p + "</p>")
-    if prayer:
-        pr = html.unescape(prayer).strip()
-        pr = re.sub(r"\s+", " ", pr)
-        cleaned.append(
-            '<p class="gwm-prayer-line"><em>Pray for:</em> ' + pr + '</p>'
-        )
     return "\n\n".join(cleaned)
 
 
@@ -1658,10 +1761,20 @@ def main():
             article_body = parsed["body"] if (parsed and parsed.get("body")) else raw_response
 
             if not is_valid_article(article_body):
-                log.info("Skipping (invalid): %s", item["title"][:60])
-                seen.add(item["hash"])
-                skipped += 1
-                continue
+                if is_refusal(article_body):
+                    log.info("Refusal; retrying once (firmer): %s", item["title"][:60])
+                    _gen = generate_article(item, firmer=True)
+                    if isinstance(_gen, tuple):
+                        raw_response, parsed = _gen
+                    else:
+                        raw_response, parsed = _gen, None
+                    article_body = parsed["body"] if (parsed and parsed.get("body")) else raw_response
+                if not is_valid_article(article_body):
+                    log.info("Skipping (invalid): %s", item["title"][:60])
+                    log_skip(item["title"], "invalid_or_refusal")
+                    seen.add(item["hash"])
+                    skipped += 1
+                    continue
 
             _result = publish_to_wordpress(item, article_body, parsed=parsed)
             post_id, post_link, lat, lng, post_date = _result
@@ -1687,7 +1800,7 @@ def main():
                         "wp_link": post_link,
                         "date": post_date or datetime.now(timezone.utc).isoformat(),
                         "title": sanitize_title(structured_title),
-                        "body": article_body,
+                        "body": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(article_body or ""))).strip()[:220],
                         "country": countries[0] if countries else "",
                         "countries": countries,
                         "type": dtype,
@@ -1699,13 +1812,17 @@ def main():
                         "alert_summary": alert_summary,
                     }
                     try:
-                        gwm_json_writer.write_event(FEED_NAME, event)
+                        if _gwm_is_suppressed(event):
+                            print("Suppressed (skipped feed write): " + str(event.get("title", "")))
+                        else:
+                            gwm_json_writer.write_event(FEED_NAME, event)
                         json_writes += 1
                     except Exception as e:
                         log.error("JSON write_event failed: %s", e)
 
                 time.sleep(3)
             else:
+                log_skip(item["title"], "publish_skip")
                 seen.add(item["hash"])
                 skipped += 1
 
