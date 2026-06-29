@@ -1373,6 +1373,88 @@ def fetch_article_body(url, max_chars=6000):
         return ""
 
 
+ENRICH_MAX_AGE_DAYS = 5
+ENRICH_HEDGE = ("source does not specify", "does not specify a date", "no specific date",
+                "no further details", "no further information", "no additional details",
+                "the source does not", "are available from this report", "no details on")
+ENRICH_SYSTEM = SYSTEM_PROMPT + (
+    "\n\nYou also have a web_search tool. When the single source is thin, use it to confirm THIS "
+    "event and fill in the date and key figures (deaths, injured, displaced, magnitude) by cross-"
+    "checking other reporting on the SAME event. Every fact must come from the source or a result "
+    "you actually retrieved - never guess or use memory. Do not merge two different events. "
+    "Begin your reply at the COUNTRY: line with no preamble or commentary before it. If you cannot "
+    "confirm from search that this is a single, real event, reply SKIP_NO_EVENT.")
+
+
+def _enrich_strip(text):
+    i = text.find("COUNTRY:")
+    return text[i:].strip() if i != -1 else text.strip()
+
+
+def _enrich_is_thin(raw, parsed):
+    low = raw.lower()
+    if any(h in low for h in ENRICH_HEDGE):
+        return True
+    ed = ((parsed.get("event_date") if parsed else "") or "").strip()
+    if (not ed) or ed.upper() == "UNKNOWN":
+        return True
+    return len(raw.split()) < 25
+
+
+def _enrich_extract(msg):
+    parts = []
+    for b in msg.content:
+        if getattr(b, "type", "") == "text":
+            parts.append(b.text)
+    return "".join(parts).strip()
+
+
+def _enrich_too_old(parsed):
+    ed = ((parsed.get("event_date") if parsed else "") or "").strip()
+    if (not ed) or ed.upper() == "UNKNOWN":
+        return False
+    try:
+        d = datetime.strptime(ed, "%m/%d/%Y").replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - d).days > ENRICH_MAX_AGE_DAYS
+    except Exception:
+        return False
+
+
+def generate_article_enriched(item, firmer=False):
+    raw, parsed = generate_article(item, firmer=firmer)
+    if not _enrich_is_thin(raw, parsed):
+        return raw, parsed
+    try:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
+        body_text = fetch_article_body(item["url"]) or item.get("summary", "")
+        up = ("Write a natural disaster report about the event below. The single source is thin, so "
+              "use web_search to confirm the event and fill in the date and key figures from other "
+              "reporting on the SAME event. Begin at COUNTRY: with no preamble.\n\n"
+              "SOURCE TITLE: " + item["title"] + "\n"
+              "SOURCE SUMMARY: " + item.get("summary", "") + "\n"
+              "SOURCE BODY: " + (body_text or "")[:4000] + "\n"
+              "SOURCE URL: " + item.get("url", "") + "\n"
+              "SOURCE OUTLET: " + item.get("source", "") + "\n")
+        msg = client.messages.create(
+            model="claude-sonnet-4-6", max_tokens=1500, system=ENRICH_SYSTEM,
+            messages=[{"role": "user", "content": up}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
+        )
+        text = _enrich_strip(_enrich_extract(msg))
+        if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
+            log.info("enrichment SKIP (unconfirmed): %s", item["title"][:60])
+            return "SKIP_NO_EVENT", None
+        p2 = parse_claude_response(text)
+        if _enrich_too_old(p2):
+            log.info("enrichment SKIP (event > %d days old): %s", ENRICH_MAX_AGE_DAYS, item["title"][:60])
+            return "SKIP_NO_EVENT", None
+        log.info("enriched thin item via web search: %s", item["title"][:60])
+        return text, p2
+    except Exception as e:
+        log.warning("enrichment pass failed (%s); using source-only output", e)
+        return raw, parsed
+
+
 def generate_article(item, firmer=False):
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     body_text = fetch_article_body(item["url"])
@@ -1757,7 +1839,7 @@ def main():
 
     for item in candidates:
         try:
-            _gen = generate_article(item)
+            _gen = generate_article_enriched(item)
             if isinstance(_gen, tuple):
                 raw_response, parsed = _gen
             else:
