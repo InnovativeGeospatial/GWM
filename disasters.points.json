@@ -1,9 +1,89 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-29T17:21:04.586355+00:00",
-  "count": 907,
+  "updated": "2026-06-30T01:58:31.509544+00:00",
+  "count": 915,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7792,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-29-2026-2/",
+      "date": "2026-06-30T01:57:02",
+      "title": "Landslide in India 06/29/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 26.178062,
+      "lng": 90.622154
+    },
+    {
+      "wp_id": 7791,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-06-29-2026-4/",
+      "date": "2026-06-30T01:54:40",
+      "title": "Wildfire in Canada 06/29/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 56.852688,
+      "lng": -101.045336
+    },
+    {
+      "wp_id": 7790,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-29-2026-2/",
+      "date": "2026-06-30T01:48:11",
+      "title": "Flood in United States 06/29/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 48.499508,
+      "lng": -113.98294
+    },
+    {
+      "wp_id": 7789,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-italy-06-29-2026/",
+      "date": "2026-06-30T01:47:47",
+      "title": "Heatwave in Italy 06/29/2026",
+      "country": "Italy",
+      "type": "Heatwave",
+      "lat": 46.49959,
+      "lng": 11.352507
+    },
+    {
+      "wp_id": 7788,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-06-29-2026/",
+      "date": "2026-06-30T01:45:47",
+      "title": "Flood in Russia 06/29/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 55.54131,
+      "lng": 159.76082
+    },
+    {
+      "wp_id": 7787,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-30-2026/",
+      "date": "2026-06-30T01:45:15",
+      "title": "Wildfire in United States 06/30/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 38.07523,
+      "lng": -104.988413
+    },
+    {
+      "wp_id": 7786,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-06-28-2026-magnitude-5/",
+      "date": "2026-06-30T01:42:50",
+      "title": "Earthquake in Vanuatu 06/28/2026 — Magnitude 5",
+      "country": "Vanuatu",
+      "type": "Earthquake",
+      "lat": -14.7852,
+      "lng": 167.4024
+    },
+    {
+      "wp_id": 7785,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-29-2026-magnitude-5/",
+      "date": "2026-06-30T01:42:29",
+      "title": "Earthquake in United States 06/29/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 60.544608,
+      "lng": -145.758535
+    },
     {
       "wp_id": 7673,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-06-29-2026/",
