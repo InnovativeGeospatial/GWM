@@ -976,6 +976,7 @@ ENRICH_PREFILTER = (
     "q&a", "q & a", "explainer", "explained:", "analysis:", "opinion:", "live updates",
     "live blog", "what we know", "what to know", "here's why", "heres why", "timeline:",
     "who are the", "profile:", "in pictures", "in photos",
+    "fact sheet", "press briefing", "what we know", "editorial", "commentary", "roundup", "faq", "explainer:",
 )
 ENRICH_SYSTEM = SYSTEM_PROMPT + (
     "\n\nYou also have a web_search tool. When the single source is thin, use it to confirm THIS "
@@ -1027,11 +1028,57 @@ def _enrich_too_old(parsed):
         return False
 
 
+import atexit as _atexit, json as _json
+_REJECT_PATH = "/opt/conflict-pipeline/reject_cache.json"
+_REJECT_TTL_H = 48
+
+
+def _reject_load():
+    try:
+        _d = _json.load(open(_REJECT_PATH))
+    except Exception:
+        _d = {}
+    _cut = datetime.now(timezone.utc) - timedelta(hours=_REJECT_TTL_H)
+    _out = {}
+    for _k, _v in _d.items():
+        try:
+            if datetime.fromisoformat(_v) > _cut:
+                _out[_k] = _v
+        except Exception:
+            pass
+    return _out
+
+
+REJECT_CACHE = _reject_load()
+
+
+def _reject_save():
+    try:
+        _json.dump(REJECT_CACHE, open(_REJECT_PATH, "w"))
+    except Exception:
+        pass
+
+
+_atexit.register(_reject_save)
+
+
+def _reject_known(item):
+    return item.get("hash") in REJECT_CACHE
+
+
+def _reject_remember(item):
+    _h = item.get("hash")
+    if _h:
+        REJECT_CACHE[_h] = datetime.now(timezone.utc).isoformat()
+
+
 def generate_article_enriched(item, firmer=False):
+    if _reject_known(item):
+        return "SKIP_NO_EVENT", None
     _pf = _enrich_prefilter(item)
     if _pf:
         log.info("enrichment PREFILTER skip (%s): %s", _pf, item["title"][:60])
-        return "SKIP_NO_EVENT", None
+        _reject_remember(item); return "SKIP_NO_EVENT", None
     raw, parsed = generate_article(item, firmer=firmer)
     if not _enrich_is_thin(raw, parsed):
         return raw, parsed
@@ -1049,16 +1096,16 @@ def generate_article_enriched(item, firmer=False):
         msg = client.messages.create(
             model="claude-sonnet-4-6", max_tokens=1500, system=ENRICH_SYSTEM,
             messages=[{"role": "user", "content": up}],
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}],
         )
         text = _enrich_strip(_enrich_extract(msg))
         if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
             log.info("enrichment SKIP (unconfirmed): %s", item["title"][:60])
-            return "SKIP_NO_EVENT", None
+            _reject_remember(item); return "SKIP_NO_EVENT", None
         p2 = parse_claude_response(text)
         if _enrich_too_old(p2):
             log.info("enrichment SKIP (event > %d days old): %s", ENRICH_MAX_AGE_DAYS, item["title"][:60])
-            return "SKIP_NO_EVENT", None
+            _reject_remember(item); return "SKIP_NO_EVENT", None
         log.info("enriched thin item via web search: %s", item["title"][:60])
         return text, p2
     except Exception as e:
