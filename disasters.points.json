@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-30T05:16:09.319078+00:00",
-  "count": 923,
+  "updated": "2026-06-30T17:17:39.932440+00:00",
+  "count": 932,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7861,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-06-30-2026/",
+      "date": "2026-06-30T17:16:38",
+      "title": "Disease in Uganda 06/30/2026",
+      "country": "Uganda",
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218
+    },
+    {
+      "wp_id": 7860,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-italy-06-28-2026/",
+      "date": "2026-06-30T17:16:08",
+      "title": "Volcano in Italy 06/28/2026",
+      "country": "Italy",
+      "type": "Volcano",
+      "lat": 38.111227,
+      "lng": 13.352443
+    },
+    {
+      "wp_id": 7859,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-06-30-2026/",
+      "date": "2026-06-30T17:14:37",
+      "title": "Volcano in Philippines 06/30/2026",
+      "country": "Philippines",
+      "type": "Volcano",
+      "lat": 14.586788,
+      "lng": 120.981779
+    },
+    {
+      "wp_id": 7858,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-austria-06-30-2026/",
+      "date": "2026-06-30T17:13:09",
+      "title": "Landslide in Austria 06/30/2026",
+      "country": "Austria",
+      "type": "Landslide",
+      "lat": 47.031693,
+      "lng": 10.747322
+    },
+    {
+      "wp_id": 7857,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-29-2026-4/",
+      "date": "2026-06-30T17:10:31",
+      "title": "Wildfire in United States 06/29/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 39.248714,
+      "lng": -106.291878
+    },
+    {
+      "wp_id": 7856,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-30-2026/",
+      "date": "2026-06-30T17:06:22",
+      "title": "Flood in United States 06/30/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 48.499508,
+      "lng": -113.98294
+    },
+    {
+      "wp_id": 7855,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026/",
+      "date": "2026-06-30T17:05:07",
+      "title": "Flood in Ghana 06/30/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 5.58505,
+      "lng": -0.210768
+    },
+    {
+      "wp_id": 7854,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-06-27-2026-magnitude-5-2/",
+      "date": "2026-06-30T17:01:23",
+      "title": "Earthquake in Indonesia 06/27/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -8.049767,
+      "lng": 111.70907
+    },
+    {
+      "wp_id": 7853,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-06-30-2026-magnitude-5/",
+      "date": "2026-06-30T17:00:52",
+      "title": "Earthquake in Papua New Guinea 06/30/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.545937,
+      "lng": 150.142797
+    },
     {
       "wp_id": 7832,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-06-29-2026-2/",
