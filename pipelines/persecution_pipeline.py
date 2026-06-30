@@ -538,14 +538,17 @@ def fetch_articles(seen):
                     stats['already_seen'] += 1
                     continue
                 clean = re.sub(r'<[^>]+>', ' ', content).strip()
+                _thin = False
                 if len(clean) < 200:
                     fetched = fetch_full_content(link)
                     if fetched and len(fetched) > 200:
                         clean = fetched
                     else:
+                        _thin = True
+                        if not clean:
+                            clean = re.sub(r'<[^>]+>', ' ', summary).strip() or title
                         stats['thin'] += 1
-                        print('Skipping thin: ' + title[:60])
-                        continue
+                        print('Thin (will enrich): ' + title[:60])
                 if not is_relevant(title, clean, feed_url, feed_title):
                     stats['not_relevant'] += 1
                     continue
@@ -567,6 +570,7 @@ def fetch_articles(seen):
                     'hash': h,
                     'country': country,
                     'incident_type': inc_type,
+                    'thin': _thin,
                     'lat': lat,
                     'lng': lng,
                 })
@@ -1096,6 +1100,86 @@ def update_existing_post(post_id, article, headline, formatted_body):
 # --- end dedup helpers ---
 
 
+ENRICH_MODEL = 'claude-sonnet-4-6'
+
+
+def _enrich_extract(msg):
+    return "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
+
+
+def _enrich_strip(text):
+    i = text.find("COUNTRY:")
+    return text[i:].strip() if i != -1 else text.strip()
+
+
+def _persecution_enrich(article):
+    body_text = fetch_full_article(article['link'])
+    sys_prompt = (
+        "You are a journalist for Global Witness Monitor, a Christian persecution "
+        "intelligence platform. You have a web_search tool. The source below is only a "
+        "headline or short snippet, so use web_search to confirm THIS specific incident "
+        "and gather the country, date, who was affected, and figures from other reporting "
+        "on the SAME event. Every fact must come from the source or a search result you "
+        "actually retrieved -- never guess or use prior knowledge. Only report an incident "
+        "that genuinely occurred within roughly the last 30 days. Begin your reply at the "
+        "COUNTRY: line with no preamble. If you cannot confirm from search that this is a "
+        "single, real, recent persecution incident, reply with exactly SKIP_NO_EVENT."
+    )
+    prompt = (
+        'STRUCTURED OUTPUT REQUIRED. Your response MUST follow this exact format:\n\n'
+        'COUNTRY: <country_name | MULTIPLE: c1, c2 | UNKNOWN>\n'
+        '---\n'
+        'PARA: <first paragraph - what happened>\n'
+        'PARA: <second paragraph - context or pattern, OPTIONAL>\n'
+        'PRAYER: <bare situation phrase, 8-25 words, no leading verb; do not start with Pray/Lift/Ask/May/Lord/Let/Grant/for>\n'
+        'HEADLINE: <short descriptive headline, no personal names>\n'
+        'ALERT_SUMMARY: <one factual sentence with the single most important figure; country-level only; no names of people, churches, towns, or provinces; 8-20 words>\n\n'
+        'REDACTION (required even if the source names them): no personal names '
+        '(use man, woman, pastor, family, convert, believer); no specific church, ministry, '
+        'or denomination names (use "a house church"); no sub-national places of any kind '
+        '(city, town, village, district, province, state, region) -- use the COUNTRY only. '
+        'You MAY name the reporting watchdog (e.g. "according to Open Doors").\n'
+        '- Lead with concrete figures if confirmed; if none, state plainly and imply no scale.\n'
+        '- State when it occurred using the confirmed date (e.g. "On June 19, 2026, ...").\n'
+        '- 1 to 2 PARA sections; never pad.\n\n'
+        'SOURCE OUTLET: ' + article.get('source', '') + '\n'
+        'HEADLINE/SNIPPET: ' + article['title'] + '\n'
+        + (("KNOWN BODY: " + body_text + "\n") if body_text else "")
+        + 'NOTES: ' + (article.get('content', '') or '')[:600] + '\n\nWrite now:'
+    )
+    try:
+        msg = client.messages.create(
+            model=ENRICH_MODEL, max_tokens=1200, system=sys_prompt,
+            messages=[{'role': 'user', 'content': prompt}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}],
+        )
+        text = _enrich_strip(_enrich_extract(msg))
+        if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
+            print('enrichment SKIP (unconfirmed): ' + article['title'][:60])
+            return "SKIP_NO_EVENT", {'status': 'skip', 'countries': [], 'body': '', 'raw_country': ''}
+        parsed = parse_claude_response(text)
+        if parsed.get('status') == 'ok':
+            print('enriched thin item via web search: ' + article['title'][:60])
+        return text, parsed
+    except Exception as e:
+        print('enrichment pass failed (' + str(e) + ')')
+        return "SKIP_NO_EVENT", {'status': 'skip', 'countries': [], 'body': '', 'raw_country': ''}
+
+
+def generate_article_enriched(article):
+    if article.get('thin'):
+        return _persecution_enrich(article)
+    raw, parsed = generate_article(article)
+    low = (raw or "").lower()
+    weak = (len(raw.split()) < 40) or ("does not specify" in low) or ("no further" in low)
+    if parsed.get('status') == 'ok' and not weak:
+        return raw, parsed
+    enr_raw, enr_parsed = _persecution_enrich(article)
+    if enr_parsed.get('status') == 'ok':
+        return enr_raw, enr_parsed
+    return raw, parsed
+
+
 def run():
     print('=== Global Witness Monitor - Persecution Pipeline v5 ===')
     if not JSON_WRITER_AVAILABLE:
@@ -1121,7 +1205,7 @@ def run():
                 continue
 
             print('Processing: ' + article['title'][:60])
-            raw, parsed = generate_article(article)
+            raw, parsed = generate_article_enriched(article)
 
             claude_country = ','.join(parsed['countries']) if parsed['countries'] else '-'
             detected_country = article.get('country') or '-'
