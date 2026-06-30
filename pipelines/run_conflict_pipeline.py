@@ -561,21 +561,48 @@ def fetch_rss_feeds(seen, filter_countries):
     return candidates
 
 
+GDELT_EVENT_TERMS = "(attack OR clashes OR killed OR coup OR militants OR insurgency OR violence OR airstrike OR protest OR massacre OR kidnapped OR offensive)"
+GDELT_MAX = 70
+
+
+GDELT_REGIONS = {
+    "West Africa": ["Nigeria", "Mali", "Niger", "Burkina Faso", "Chad", "Cameroon", "Benin", "Togo", "Senegal", "Guinea"],
+    "Coastal West Africa": ["Ghana", "Ivory Coast", "Liberia", "Sierra Leone", "Guinea-Bissau", "Gambia", "Mauritania"],
+    "Central Africa": ["Democratic Republic of Congo", "Congo", "Central African Republic", "Gabon", "Angola", "Equatorial Guinea"],
+    "Horn & East Africa": ["Sudan", "South Sudan", "Ethiopia", "Eritrea", "Somalia", "Kenya", "Uganda", "Djibouti", "Tanzania"],
+    "Great Lakes": ["Rwanda", "Burundi", "Zambia", "Malawi"],
+    "Southern Africa": ["Mozambique", "Zimbabwe", "Madagascar", "South Africa", "Namibia", "Botswana", "Lesotho", "Eswatini"],
+    "North Africa": ["Egypt", "Libya", "Tunisia", "Algeria", "Morocco", "Western Sahara"],
+    "Middle East": ["Syria", "Iraq", "Iran", "Israel", "Palestine", "Lebanon", "Jordan", "Yemen"],
+    "Arabian Peninsula": ["Saudi Arabia", "Oman", "Kuwait", "Bahrain", "Qatar", "United Arab Emirates"],
+    "South Asia": ["Afghanistan", "Pakistan", "India", "Bangladesh", "Sri Lanka", "Nepal", "Myanmar", "Bhutan", "Maldives"],
+    "Southeast Asia": ["Thailand", "Indonesia", "Philippines", "Malaysia", "Cambodia", "Laos", "Vietnam", "Timor-Leste", "Papua New Guinea"],
+    "East Asia": ["China", "Taiwan", "North Korea", "South Korea", "Japan", "Mongolia"],
+    "Central Asia & Caucasus": ["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Turkmenistan", "Uzbekistan", "Azerbaijan", "Armenia", "Georgia"],
+    "Eastern Europe": ["Ukraine", "Russia", "Belarus", "Moldova", "Romania", "Serbia", "Kosovo", "Bosnia"],
+    "Latin America": ["Mexico", "Guatemala", "Honduras", "El Salvador", "Nicaragua", "Colombia", "Venezuela", "Ecuador", "Peru", "Bolivia", "Haiti"],
+    "South America & Pacific": ["Brazil", "Argentina", "Chile", "Paraguay", "Fiji", "Solomon Islands", "Vanuatu", "Tonga"],
+}
+
+
+def _build_regional_queries():
+    out = []
+    for _region, _cs in GDELT_REGIONS.items():
+        _grp = " OR ".join(('"%s"' % c) if " " in c else c for c in _cs)
+        out.append(GDELT_EVENT_TERMS + " (" + _grp + ")")
+    return out
+
+
 def fetch_gdelt(seen, existing_titles, filter_countries):
     log.info('Fetching GDELT...')
     candidates = []
-    query_terms = [
-        'armed conflict massacre killed attack',
-        'coup military junta crackdown',
-        'civil war insurgency rebel offensive',
-        'humanitarian crisis displaced siege',
-    ]
+    query_terms = _build_regional_queries()
     for query in query_terms:
         try:
             url = (
                 'https://api.gdeltproject.org/api/v2/doc/doc'
                 '?query=' + requests.utils.quote(query) +
-                '&mode=artlist&maxrecords=10&timespan=24h'
+                '&mode=artlist&maxrecords=6&timespan=24h'
                 '&sort=DateDesc&format=json'
             )
             r = requests.get(url, timeout=15)
@@ -615,7 +642,7 @@ def fetch_gdelt(seen, existing_titles, filter_countries):
         except Exception as e:
             log.warning('GDELT error: %s', e)
     log.info('GDELT: found %d additional articles', len(candidates))
-    return candidates
+    return candidates[:GDELT_MAX]
 
 
 def fetch_all_feeds(seen, filter_countries):
