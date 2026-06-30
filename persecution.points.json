@@ -1,9 +1,59 @@
 {
   "feed": "persecution",
-  "updated": "2026-06-29T17:22:37.729481+00:00",
-  "count": 224,
+  "updated": "2026-06-30T05:19:30.643597+00:00",
+  "count": 229,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7838,
+      "wp_link": "https://globalwitnessmonitor.com/nine-house-church-members-released-in-china-as-nine-leaders-face-escalated-criminal-charges/",
+      "date": "2026-06-30T05:19:22",
+      "title": "Nine House Church Members Released in China as Nine Leaders Face Escalated Criminal Charges",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 7834,
+      "wp_link": "https://globalwitnessmonitor.com/china-police-raid-house-church-mid-service-detain-33-believers/",
+      "date": "2026-06-30T05:18:58",
+      "title": "China Raids House Church Service, Detains 33 Believers and Jails Two Elders",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 7836,
+      "wp_link": "https://globalwitnessmonitor.com/rights-group-documents-over-1400-christians-killed-and-1800-abducted-in-nigeria-in-96-days/",
+      "date": "2026-06-30T05:18:18",
+      "title": "Rights Group Documents Over 1,400 Christians Killed and 1,800 Abducted in Nigeria in 96 Days",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 7835,
+      "wp_link": "https://globalwitnessmonitor.com/young-christians-detained-six-months-in-laos-amid-wave-of-faith-based-expulsions/",
+      "date": "2026-06-30T05:17:57",
+      "title": "Young Christians Detained Six Months in Laos Amid Wave of Faith-Based Expulsions",
+      "country": "laos",
+      "type": "arrest",
+      "lat": 18.2,
+      "lng": 103.0
+    },
+    {
+      "wp_id": 7833,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militants-kill-22-christians-including-a-pastor-in-nigeria-attack/",
+      "date": "2026-06-30T05:17:05",
+      "title": "Fulani Militants Kill 22 Christians, Including a Pastor, in Nigeria Attack",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
     {
       "wp_id": 7676,
       "wp_link": "https://globalwitnessmonitor.com/north-korean-believer-sentenced-to-indefinite-imprisonment-after-bible-found-among-repatriated-group/",
