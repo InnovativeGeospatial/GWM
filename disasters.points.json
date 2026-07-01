@@ -1,9 +1,79 @@
 {
   "feed": "disasters",
-  "updated": "2026-06-30T17:17:39.932440+00:00",
-  "count": 932,
+  "updated": "2026-07-01T13:27:11.260798+00:00",
+  "count": 939,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7916,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026-2/",
+      "date": "2026-07-01T13:19:40",
+      "title": "Flood in Ghana 06/30/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 6.547199,
+      "lng": 0.69721
+    },
+    {
+      "wp_id": 7915,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-29-2026-3/",
+      "date": "2026-07-01T13:17:48",
+      "title": "Flood in United States 06/29/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.747712,
+      "lng": -84.295065
+    },
+    {
+      "wp_id": 7914,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-belgium-07-01-2026/",
+      "date": "2026-07-01T13:16:52",
+      "title": "Other in Belgium 07/01/2026",
+      "country": "Belgium",
+      "type": "Other",
+      "lat": 51.223583,
+      "lng": 4.386059
+    },
+    {
+      "wp_id": 7913,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-06-30-2026/",
+      "date": "2026-07-01T13:16:33",
+      "title": "Wildfire in Greece 06/30/2026",
+      "country": "Greece",
+      "type": "Wildfire",
+      "lat": 40.736175,
+      "lng": 22.98664
+    },
+    {
+      "wp_id": 7912,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-06-27-2026-2/",
+      "date": "2026-07-01T13:16:13",
+      "title": "Wildfire in United States 06/27/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 40.780212,
+      "lng": -111.92542
+    },
+    {
+      "wp_id": 7911,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-italy-07-01-2026/",
+      "date": "2026-07-01T13:15:01",
+      "title": "Flood in Italy 07/01/2026",
+      "country": "Italy",
+      "type": "Flood",
+      "lat": 38.907635,
+      "lng": 16.596047
+    },
+    {
+      "wp_id": 7910,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-06-30-2026-magnitude-5/",
+      "date": "2026-07-01T13:00:52",
+      "title": "Earthquake in China 06/30/2026 — Magnitude 5",
+      "country": "China",
+      "type": "Earthquake",
+      "lat": 37.8295,
+      "lng": 95.3273
+    },
     {
       "wp_id": 7861,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-06-30-2026/",
