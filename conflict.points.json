@@ -1,9 +1,239 @@
 {
   "feed": "conflict",
-  "updated": "2026-06-30T17:47:10.413924+00:00",
-  "count": 1131,
+  "updated": "2026-07-01T14:07:51.741082+00:00",
+  "count": 1144,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7897,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-marachi-estate-busia-town/",
+      "date": "2026-07-01T14:07:17",
+      "title": "Armed Conflict in Marachi Estate, Busia Town",
+      "country": "Kenya",
+      "type": "Armed Conflict",
+      "lat": 0.3292,
+      "lng": 34.3148
+    },
+    {
+      "wp_id": 7974,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-marachi-estate-busia-town/",
+      "date": "2026-07-01T14:06:14",
+      "title": "Civil Unrest in Marachi Estate, Busia Town",
+      "country": "Kenya",
+      "type": "Civil Unrest",
+      "lat": 0.329163,
+      "lng": 34.314754
+    },
+    {
+      "wp_id": 7933,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jos/",
+      "date": "2026-07-01T14:05:46",
+      "title": "Armed Conflict in Gbagalape",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.3133,
+      "lng": 9.767
+    },
+    {
+      "wp_id": 7958,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-3/",
+      "date": "2026-07-01T14:02:15",
+      "title": "Armed Conflict in Magway",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 21.1543,
+      "lng": 96.5069
+    },
+    {
+      "wp_id": 7467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
+      "date": "2026-07-01T13:59:53",
+      "title": "Armed Conflict in Al Muwasi, Khan Younis",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.343477,
+      "lng": 34.30874
+    },
+    {
+      "wp_id": 7967,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-inkadewane-menaka-region/",
+      "date": "2026-07-01T13:58:24",
+      "title": "Armed Conflict in Inkadewane, Menaka region",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 16.486641,
+      "lng": 2.1829
+    },
+    {
+      "wp_id": 7926,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-duk-county-jonglei-state-2/",
+      "date": "2026-07-01T13:56:32",
+      "title": "Armed Conflict in Duk County, Jonglei State",
+      "country": "South Sudan",
+      "type": "Armed Conflict",
+      "lat": 6.2109,
+      "lng": 31.5614
+    },
+    {
+      "wp_id": 7713,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-syria/",
+      "date": "2026-07-01T13:56:04",
+      "title": "Armed Conflict in Deir Hassan, northwestern Syria",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 36.2168,
+      "lng": 37.1444
+    },
+    {
+      "wp_id": 7888,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-talaing-village-sagaing-township/",
+      "date": "2026-07-01T13:54:14",
+      "title": "Armed Conflict in Htee Hlaing (Ta Line) village, Sagaing Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 21.8831,
+      "lng": 95.9833
+    },
+    {
+      "wp_id": 7960,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-chin-state/",
+      "date": "2026-07-01T13:53:37",
+      "title": "Armed Conflict in southern Chin State",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 22.642755,
+      "lng": 93.609622
+    },
+    {
+      "wp_id": 7884,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-somalia/",
+      "date": "2026-07-01T13:52:18",
+      "title": "Armed Conflict in Godey, Lower Shabelle",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.7864,
+      "lng": 47.3259
+    },
+    {
+      "wp_id": 7952,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bab-al-mandab-strait/",
+      "date": "2026-07-01T13:49:49",
+      "title": "Armed Conflict in Bab al-Mandab Strait",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 13.851818,
+      "lng": 44.344228
+    },
+    {
+      "wp_id": 7949,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid-3/",
+      "date": "2026-07-01T13:48:34",
+      "title": "Armed Conflict in El-Obeid",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 13.1834,
+      "lng": 30.2226
+    },
+    {
+      "wp_id": 7948,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paveh-baneh-marivan/",
+      "date": "2026-07-01T13:47:11",
+      "title": "Armed Conflict in Paveh, Baneh, Marivan",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 35.896018,
+      "lng": 45.890678
+    },
+    {
+      "wp_id": 7879,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-johannesburg-durban-cape-town-mossel-bay-pietermaritzburg/",
+      "date": "2026-07-01T13:46:47",
+      "title": "Civil Unrest in Durban, Pietermaritzburg, Cape Town, Johannesburg",
+      "country": "South Africa",
+      "type": "Civil Unrest",
+      "lat": -34.184,
+      "lng": 22.1369
+    },
+    {
+      "wp_id": 7877,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-2/",
+      "date": "2026-07-01T13:46:21",
+      "title": "Armed Conflict in Inates",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109
+    },
+    {
+      "wp_id": 7784,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-asaba/",
+      "date": "2026-07-01T13:45:55",
+      "title": "Armed Conflict in Lassa, Askira-Uba",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 8.953,
+      "lng": 7.3797
+    },
+    {
+      "wp_id": 7929,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-veracruz/",
+      "date": "2026-07-01T13:36:32",
+      "title": "Armed Conflict in Veracruz",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 19.198362,
+      "lng": -96.1379
+    },
+    {
+      "wp_id": 7724,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar-provinces/",
+      "date": "2026-07-01T13:36:07",
+      "title": "Armed Conflict in Balochistan",
+      "country": "Afghanistan",
+      "type": "Armed Conflict",
+      "lat": 33.6015,
+      "lng": 69.2236
+    },
+    {
+      "wp_id": 7927,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-ankara-4/",
+      "date": "2026-07-01T13:35:50",
+      "title": "Civil Unrest in Ankara",
+      "country": "Turkey",
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 7925,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-balochistan/",
+      "date": "2026-07-01T13:34:42",
+      "title": "Armed Conflict in Balochistan",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 30.195768,
+      "lng": 67.017245
+    },
+    {
+      "wp_id": 7468,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
+      "date": "2026-07-01T13:34:27",
+      "title": "Armed Conflict in Dnipropetrovsk region",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.044,
+      "lng": 37.9661
+    },
+    {
+      "wp_id": 7923,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-talbot-street-dublin/",
+      "date": "2026-07-01T13:34:03",
+      "title": "Civil Unrest in Talbot Street, Dublin",
+      "country": "Ireland",
+      "type": "Civil Unrest",
+      "lat": 53.350801,
+      "lng": -6.254076
+    },
     {
       "wp_id": 7905,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-holbox-island/",
@@ -13,16 +243,6 @@
       "type": "Civil Unrest",
       "lat": 21.530833,
       "lng": -87.286111
-    },
-    {
-      "wp_id": 7897,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-marachi-estate-busia-town/",
-      "date": "2026-06-30T17:46:31",
-      "title": "Armed Conflict in Marachi Estate, Busia Town",
-      "country": "Kenya",
-      "type": "Armed Conflict",
-      "lat": 0.3292,
-      "lng": 34.3148
     },
     {
       "wp_id": 7744,
@@ -65,56 +285,6 @@
       "lng": 9.4762
     },
     {
-      "wp_id": 7884,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-somalia/",
-      "date": "2026-06-30T17:42:11",
-      "title": "Armed Conflict in Godey area, Lower Shabelle",
-      "country": "Somalia",
-      "type": "Armed Conflict",
-      "lat": 5.7864,
-      "lng": 47.3259
-    },
-    {
-      "wp_id": 7724,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-paktia-paktika-and-kunar-provinces/",
-      "date": "2026-06-30T17:41:32",
-      "title": "Armed Conflict in Paktia",
-      "country": "Afghanistan",
-      "type": "Armed Conflict",
-      "lat": 33.6015,
-      "lng": 69.2236
-    },
-    {
-      "wp_id": 7468,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-makiivka/",
-      "date": "2026-06-30T17:39:52",
-      "title": "Armed Conflict in Sumy region",
-      "country": "Ukraine",
-      "type": "Armed Conflict",
-      "lat": 48.044,
-      "lng": 37.9661
-    },
-    {
-      "wp_id": 7467,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-14/",
-      "date": "2026-06-30T17:39:11",
-      "title": "Armed Conflict in Maghazi refugee camp",
-      "country": "Palestine",
-      "type": "Armed Conflict",
-      "lat": 31.42744,
-      "lng": 34.38114
-    },
-    {
-      "wp_id": 7713,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-syria/",
-      "date": "2026-06-30T17:37:28",
-      "title": "Armed Conflict in northwestern Syria",
-      "country": "Syria",
-      "type": "Armed Conflict",
-      "lat": 36.2168,
-      "lng": 37.1444
-    },
-    {
       "wp_id": 7890,
       "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-baghdad/",
       "date": "2026-06-30T17:37:13",
@@ -135,16 +305,6 @@
       "lng": 97.214096
     },
     {
-      "wp_id": 7888,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-talaing-village-sagaing-township/",
-      "date": "2026-06-30T17:36:00",
-      "title": "Armed Conflict in Talaing village, Sagaing Township",
-      "country": "Myanmar",
-      "type": "Armed Conflict",
-      "lat": 21.88307,
-      "lng": 95.98327
-    },
-    {
       "wp_id": 7885,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-godey-lower-shabelle/",
       "date": "2026-06-30T17:34:26",
@@ -153,16 +313,6 @@
       "type": "Armed Conflict",
       "lat": 1.714836,
       "lng": 44.769933
-    },
-    {
-      "wp_id": 7877,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-2/",
-      "date": "2026-06-30T17:33:14",
-      "title": "Armed Conflict in Niamey",
-      "country": "Niger",
-      "type": "Armed Conflict",
-      "lat": 13.52,
-      "lng": 2.109
     },
     {
       "wp_id": 7882,
@@ -193,26 +343,6 @@
       "type": "Armed Conflict",
       "lat": 27.0675,
       "lng": 56.46
-    },
-    {
-      "wp_id": 7879,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-johannesburg-durban-cape-town-mossel-bay-pietermaritzburg/",
-      "date": "2026-06-30T17:31:43",
-      "title": "Civil Unrest in Johannesburg, Durban, Cape Town, Mossel Bay, Pietermaritzburg",
-      "country": "South Africa",
-      "type": "Civil Unrest",
-      "lat": -34.184043,
-      "lng": 22.136879
-    },
-    {
-      "wp_id": 7784,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-asaba/",
-      "date": "2026-06-30T17:30:05",
-      "title": "Armed Conflict in Lassa, Askira/Uba",
-      "country": "Nigeria",
-      "type": "Armed Conflict",
-      "lat": 8.953,
-      "lng": 7.3797
     },
     {
       "wp_id": 7615,
