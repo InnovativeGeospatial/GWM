@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-01T13:27:09.311047+00:00",
-  "count": 914,
+  "updated": "2026-07-02T13:32:58.819573+00:00",
+  "count": 927,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 7996,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-07-01-2026/",
+      "date": "2026-07-02T13:30:25",
+      "title": "Wildfire in Greece 07/01/2026",
+      "body": "A man's body was found on Tuesday outside a property in a woodland area northeast of Thessaloniki. The following day, firefighters identified a second body found inside a home destroyed by the fire as that of the man's 1",
+      "country": "Greece",
+      "countries": [
+        "Greece"
+      ],
+      "type": "Wildfire",
+      "lat": 40.633987,
+      "lng": 22.944689,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHJDVjJISGcyUWxGbjU2cmhjV3pYb2o4anY4aXhTRjZON3hBOVNJTkMzeEE0LWswMTFDVDg3Y1FZNUUwa1JicWRoTy0tYjlkSGFhSFFaSENwYXo0T3lQbDJVZ3k1b0JST3RrMHZnaFhpT0U4Y1l0eVNNNFpPQVBoVHZWbm1OdDFreUU0NklVTU9oeTlCVk1vclR5VnN3ZnQzTzliWl9YQS1kSjctZlJFR1h2akVxMkx00gG-AUFVX3lxTFBuWFBhN3JKbU1LSXo4ci1sYlU1UWNzQUhsZjlTTUI0RDBPMzZsZ0xzLXpvbG8yYlhaaEJzbV91RWYzT2t6clRWX1hyNGtDQ0hwSTRFNG95SFNRaFRNMjJjVXRKWmxOTHZpVjhWdkwwemI4XzdtNXhXamJ3ZC00aUlHemJEYm5ETVlZdWpvZFQwa3BRcTVNNWNPbHdjNnAxd01nQm5EX3owTktRS3M2SXJQTTB2Q1RrQ2pNdmVTN1E?oc=5",
+      "prayer": "A family near Thessaloniki killed by wildfire and two villages evacuating in central Greece",
+      "alert_summary": "Wildfires in Greece killed 2 people — a father and his 12-year-old son — northeast of Thessaloniki on July 1, 2026."
+    },
+    {
+      "wp_id": 7995,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-cote-divoire-07-02-2026/",
+      "date": "2026-07-02T13:29:22",
+      "title": "Flood in Cote d'Ivoire 07/02/2026",
+      "body": "Several days of torrential rainfall beginning on June 27, 2026 triggered flooding and landslides across multiple communities in Abidjan. Most of the deaths occurred in the municipalities of Attécoubé and Yopougon in the ",
+      "country": "Cote d'Ivoire",
+      "countries": [
+        "Cote d'Ivoire"
+      ],
+      "type": "Flood",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlJUM2hWZUZnci1Vcm1JeDljdm5mclZwYkg4OEdTRHhXT25TZkJTeld0WG9PZERoNEh5aDY5YkdOSEhDZkNScUx4elZfNUFQMlRFdHRxaWtHTHhqa3ZtZjRMb1J0dDI4cGdkZ3l1ZkkwTEV0c1N1MmRtYWFJSXMyeEF1NW10VElfQU5KOVViR0VVRUJUOUZRWjBR?oc=5",
+      "prayer": "Families in Abidjan grieving losses and communities still at risk as flood searches continue",
+      "alert_summary": "Flooding and landslides in Abidjan, Ivory Coast killed at least 59 people, with the toll expected to rise."
+    },
+    {
+      "wp_id": 7994,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026-3/",
+      "date": "2026-07-02T13:26:35",
+      "title": "Flood in Ghana 06/30/2026",
+      "body": "On June 29, 2026, flash flooding submerged major parts of Accra and surrounding areas. Officials confirmed 12 deaths — eight men, three women, and a child — while emergency responders rescued over 470 trapped residents. ",
+      "country": "Ghana",
+      "countries": [
+        "Ghana"
+      ],
+      "type": "Flood",
+      "lat": 5.661083,
+      "lng": -0.202815,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RUU5Pa0E2dXprRzBlU0lHZENHemd5TlRsamhlS1hyYVdiNlBaYmtrdWV4akMtN0t0QzdUZUc4SUdkN2VOUURzU250M05VVk9FX3VydVBlYzdNbFFZWTBMcnA3cTPSAVxBVV95cUxQVmxzMHI2dHBUd0pVckpqYkk4cFNJZXNwMUxKVzNSSUMweXhubGM3QzkzbEg5YTBBbjNHMnBTNXZwcUtlWjFLTzJ5Y0VPa3dSemhnMC13dHJqM0hHNA?oc=5",
+      "prayer": "Families in Accra grieving 12 deaths and thousands displaced after historic rainfall submerged communities across the city",
+      "alert_summary": "Flooding across Accra on June 29, 2026 killed 12 people and displaced 38,802 residents across 7,761 households."
+    },
+    {
+      "wp_id": 7993,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-29-2026-4/",
+      "date": "2026-07-02T13:23:46",
+      "title": "Flood in United States 06/29/2026",
+      "body": "Three people died after flash flooding swept through Richmond on June 27, 2026. Two of the victims — a man and a woman — drowned in a home that was underwater, while a third was killed when a vehicle was swept away. A fo",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.74771,
+      "lng": -84.29507,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oUDltVTVLNmFwcVk0cWd2OVoyeVFfQjM3dHA4d2swOVBDZl9nRHpZWUJrXzNCMTBHS3lGcHRnM2d6cFZLZDJyZE9SNzRjZGF6SUxxbkdFdFZIVTFGaVVfR2MxNjJteEkzZzhjYXNJQndNd9IBckFVX3lxTFBhbHNqd3B6S3U5aG9nSUl5cU96Yml2RWh1ZDdIYnJKSXFVZUVvUlVCSlY4dzgyLXFpVjE4N3hhTEw0LWJYb2VRRS16Z1RSRVc5UUNQSjJxdjNkcklsbTJjX3JCUGs3UHB5ODByaUxJYnZKdw?oc=5",
+      "prayer": "Families in Madison County and across Kentucky grieving four flood deaths and facing damaged homes and roads",
+      "alert_summary": "Flash flooding across Kentucky on June 27, 2026 killed four people — three in Madison County and one in Jackson County."
+    },
+    {
+      "wp_id": 7992,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-07-01-2026/",
+      "date": "2026-07-02T13:23:22",
+      "title": "Flood in Canada 07/01/2026",
+      "body": "On July 1, 2026, Dauphin declared a local state of emergency as flooding rapidly worsened following heavy rain across Manitoba's Parkland region. The city received about 115 millimeters of rain since Sunday night — descr",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Flood",
+      "lat": 51.14965,
+      "lng": -100.04991,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeTU4SmcyRU53bkxKVDR1Y2dMM3lqZlhUSXhEcWNzWTdybTJBa01GdW1MOFBfcFdQZVZDQkRoLWk0OGJDbDZ6Q3dOV3hUNUdUczZxRFpQWWhFbGltM1FYYXg3RlRsLXF2VG1tb0VoNVNkVG9jYWUxVHRxVWhJOTNTZElIVVgxbzlwazJSMF9n?oc=5",
+      "prayer": "Residents of Dauphin, Manitoba displaced and cut off from hospital care by historic flooding",
+      "alert_summary": "Flooding in Dauphin, Manitoba prompted a local state of emergency after 115 millimeters of rain fell since late June, displacing residents and closing the hospital emergency department."
+    },
+    {
+      "wp_id": 7991,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-germany-07-02-2026/",
+      "date": "2026-07-02T13:22:12",
+      "title": "Other in Germany 07/02/2026",
+      "body": "A fire broke out early on Thursday at the only hospital in the northeastern German town of Ludwigslust, killing two patients and injuring 34 others. The fire started in a patient's room and spread to the roof above the r",
+      "country": "Germany",
+      "countries": [
+        "Germany"
+      ],
+      "type": "Other",
+      "lat": 53.322857,
+      "lng": 11.497273,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/2/two-reported-killed-dozens-hurt-in-hospital-fire-in-germany?traffic_source=rss",
+      "prayer": "Two patients killed and 34 injured in a hospital fire in Ludwigslust, Germany",
+      "alert_summary": "A hospital fire in Ludwigslust, Germany killed 2 patients and injured 34 others, with 82 evacuated."
+    },
+    {
+      "wp_id": 7990,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-07-02-2026/",
+      "date": "2026-07-02T13:21:58",
+      "title": "Volcano in Philippines 07/02/2026",
+      "body": "On July 2, 2026, Taal Volcano in the Philippines erupted, sending a column of ash and steam 1,200 metres into the air. The eruption lasted nearly five minutes. The blast also triggered waves across the volcano's crater l",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Volcano",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/philippines-volcano-erupts-blasting-plumes-of-ash-and-steam?traffic_source=rss",
+      "prayer": "Communities near Taal Volcano in the Philippines after an ash and steam eruption",
+      "alert_summary": "Taal Volcano erupted on July 2, 2026, sending an ash and steam column 1,200 metres into the air."
+    },
+    {
+      "wp_id": 7989,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-canada-07-02-2026/",
+      "date": "2026-07-02T13:21:48",
+      "title": "Disease in Canada 07/02/2026",
+      "body": "An 11-year-old boy was at a cottage in northern Ontario in the summer of 2024 when he was awoken by a bat lying on his nose and mouth. He swatted the bat away, and his father caught it and later released it outside. Beca",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Disease",
+      "lat": 52.201201,
+      "lng": -90.405751,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c982m1m95q9o?at_medium=RSS&at_campaign=rss",
+      "prayer": "An 11-year-old boy in Northern Ontario and his family after his death from bat-transmitted rabies",
+      "alert_summary": "A bat-transmitted rabies infection killed an 11-year-old boy in Northern Ontario; he is the first locally acquired case in the province since 1967."
+    },
+    {
+      "wp_id": 7988,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-07-02-2026/",
+      "date": "2026-07-02T13:20:17",
+      "title": "Flood in Thailand 07/02/2026",
+      "body": "On July 1, 2026, heavy rainfall beginning in the early morning caused flooding in several parts of Phuket. Flooding was reported in Patong in Kathu district and at multiple locations across Phuket's Muang district. Water",
+      "country": "Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "type": "Flood",
+      "lat": 7.88346,
+      "lng": 98.38732,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103996",
+      "prayer": "Residents in Phuket and surrounding Thai provinces displaced by monsoon flooding",
+      "alert_summary": "Flooding struck Phuket and multiple Thai provinces on July 1, 2026, displacing at least 67 people with no deaths reported."
+    },
+    {
+      "wp_id": 7987,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-02-2026/",
+      "date": "2026-07-02T13:05:11",
+      "title": "Wildfire in United States 07/02/2026",
+      "body": "The Aspen Acres Fire has been burning along the Pueblo and Custer County line in southern Colorado. As of the evening of July 1, 2026, the fire had grown to approximately 47,953 acres with 0% containment. An estimated 12",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 38.270638,
+      "lng": -104.61009,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://apps.fema.gov/IPAWSOPEN_EAS_SERVICE/rest/eas/300130406974",
+      "prayer": "Residents of Pueblo and Custer Counties displaced or threatened by the Aspen Acres Fire, and families who have lost their homes",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7986,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-portugal-07-02-2026/",
+      "date": "2026-07-02T13:04:50",
+      "title": "Heatwave in Portugal 07/02/2026",
+      "body": "A heatwave began affecting mainland Portugal in early July 2026, with temperatures already nearing 40°C by July 1. Portugal's national weather institute forecast a \"prolonged spell of very hot, dry weather,\" with maximum",
+      "country": "Portugal",
+      "countries": [
+        "Portugal"
+      ],
+      "type": "Heatwave",
+      "lat": 41.14789,
+      "lng": -8.611286,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-portugal/19613fec-a274-4584-b62e-17a262b9752b?index_info=1&index_area=0&index_geocode=0",
+      "prayer": "Residents across Portugal enduring a prolonged heatwave with temperatures reaching 44°C",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 7985,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-06-30-2026-magnitude-5/",
+      "date": "2026-07-02T13:03:01",
+      "title": "Earthquake in Mexico 06/30/2026 — Magnitude 5",
+      "body": "On June 30, 2026, an earthquake with a magnitude of 5.3 struck about 84 km SSW of El Progreso, Mexico. The earthquake occurred at a depth of 10 km. The quake was reported felt by some people near the epicenter. The magni",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 23.36444,
+      "lng": -106.133845,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9a4",
+      "prayer": "Residents near the Gulf of California after a shallow earthquake and its aftershocks on June 30, 2026",
+      "alert_summary": "Magnitude 5.3 earthquake struck about 84 km SSW of El Progreso, Sinaloa, with no damage or casualties reported."
+    },
+    {
+      "wp_id": 7984,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-07-01-2026-magnitude-6/",
+      "date": "2026-07-02T13:01:57",
+      "title": "Earthquake in Tonga 07/01/2026 — Magnitude 6",
+      "body": "On July 1, 2026, a magnitude 5.7 earthquake struck about 155 km southwest of Hihifo, Tonga, at a depth of approximately 259 km. The event was reviewed and carries a green estimated impact level, indicating minimal expect",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -21.136373,
+      "lng": -175.206101,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9hu",
+      "prayer": "Residents near Hihifo, Tonga, after a deep offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck 155 km southwest of Hihifo, Tonga, at a depth of about 259 km; no casualties reported."
+    },
     {
       "wp_id": 7916,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026-2/",
