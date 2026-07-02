@@ -1,9 +1,49 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-01T13:30:18.050412+00:00",
-  "count": 236,
+  "updated": "2026-07-02T13:36:14.116713+00:00",
+  "count": 240,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8000,
+      "wp_link": "https://globalwitnessmonitor.com/christian-man-dies-in-pakistani-custody-after-nearly-a-year-held-on-blasphemy-charges/",
+      "date": "2026-07-02T13:36:05",
+      "title": "Elderly Catholic Man Dies in Pakistani Custody After Nearly a Year on False Blasphemy Charge",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 7999,
+      "wp_link": "https://globalwitnessmonitor.com/egyptian-christian-converts-terrorism-trial-adjourned-to-september-after-more-than-a-year-in-detention/",
+      "date": "2026-07-02T13:35:05",
+      "title": "Egyptian Christian Convert's Terrorism Trial Adjourned to September After More Than a Year in Detention",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 7998,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-convert-attacked-inside-south-sudan-refugee-camp-church/",
+      "date": "2026-07-02T13:34:36",
+      "title": "Muslim Convert Attacked Inside South Sudan Refugee Camp Church",
+      "country": "sudan",
+      "type": "displacement",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 7997,
+      "wp_link": "https://globalwitnessmonitor.com/mob-attacks-christian-prayer-house-in-indonesia-threatens-to-burn-it-down/",
+      "date": "2026-07-02T13:34:17",
+      "title": "Mob Attacks Christian Prayer House in Indonesia, Threatens to Burn It Down",
+      "country": "indonesia",
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9
+    },
     {
       "wp_id": 7922,
       "wp_link": "https://globalwitnessmonitor.com/pakistani-court-orders-medical-exam-in-case-of-abducted-13-year-old-christian-girl/",
