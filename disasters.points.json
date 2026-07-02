@@ -1,9 +1,139 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-01T13:27:11.260798+00:00",
-  "count": 939,
+  "updated": "2026-07-02T13:33:00.596166+00:00",
+  "count": 952,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 7996,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-07-01-2026/",
+      "date": "2026-07-02T13:30:25",
+      "title": "Wildfire in Greece 07/01/2026",
+      "country": "Greece",
+      "type": "Wildfire",
+      "lat": 40.633987,
+      "lng": 22.944689
+    },
+    {
+      "wp_id": 7995,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-cote-divoire-07-02-2026/",
+      "date": "2026-07-02T13:29:22",
+      "title": "Flood in Cote d'Ivoire 07/02/2026",
+      "country": "Cote d'Ivoire",
+      "type": "Flood",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 7994,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026-3/",
+      "date": "2026-07-02T13:26:35",
+      "title": "Flood in Ghana 06/30/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 5.661083,
+      "lng": -0.202815
+    },
+    {
+      "wp_id": 7993,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-06-29-2026-4/",
+      "date": "2026-07-02T13:23:46",
+      "title": "Flood in United States 06/29/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.74771,
+      "lng": -84.29507
+    },
+    {
+      "wp_id": 7992,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-07-01-2026/",
+      "date": "2026-07-02T13:23:22",
+      "title": "Flood in Canada 07/01/2026",
+      "country": "Canada",
+      "type": "Flood",
+      "lat": 51.14965,
+      "lng": -100.04991
+    },
+    {
+      "wp_id": 7991,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-germany-07-02-2026/",
+      "date": "2026-07-02T13:22:12",
+      "title": "Other in Germany 07/02/2026",
+      "country": "Germany",
+      "type": "Other",
+      "lat": 53.322857,
+      "lng": 11.497273
+    },
+    {
+      "wp_id": 7990,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-07-02-2026/",
+      "date": "2026-07-02T13:21:58",
+      "title": "Volcano in Philippines 07/02/2026",
+      "country": "Philippines",
+      "type": "Volcano",
+      "lat": 14.586788,
+      "lng": 120.981779
+    },
+    {
+      "wp_id": 7989,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-canada-07-02-2026/",
+      "date": "2026-07-02T13:21:48",
+      "title": "Disease in Canada 07/02/2026",
+      "country": "Canada",
+      "type": "Disease",
+      "lat": 52.201201,
+      "lng": -90.405751
+    },
+    {
+      "wp_id": 7988,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-07-02-2026/",
+      "date": "2026-07-02T13:20:17",
+      "title": "Flood in Thailand 07/02/2026",
+      "country": "Thailand",
+      "type": "Flood",
+      "lat": 7.88346,
+      "lng": 98.38732
+    },
+    {
+      "wp_id": 7987,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-02-2026/",
+      "date": "2026-07-02T13:05:11",
+      "title": "Wildfire in United States 07/02/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 38.270638,
+      "lng": -104.61009
+    },
+    {
+      "wp_id": 7986,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-portugal-07-02-2026/",
+      "date": "2026-07-02T13:04:50",
+      "title": "Heatwave in Portugal 07/02/2026",
+      "country": "Portugal",
+      "type": "Heatwave",
+      "lat": 41.14789,
+      "lng": -8.611286
+    },
+    {
+      "wp_id": 7985,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-06-30-2026-magnitude-5/",
+      "date": "2026-07-02T13:03:01",
+      "title": "Earthquake in Mexico 06/30/2026 — Magnitude 5",
+      "country": "Mexico",
+      "type": "Earthquake",
+      "lat": 23.36444,
+      "lng": -106.133845
+    },
+    {
+      "wp_id": 7984,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-07-01-2026-magnitude-6/",
+      "date": "2026-07-02T13:01:57",
+      "title": "Earthquake in Tonga 07/01/2026 — Magnitude 6",
+      "country": "Tonga",
+      "type": "Earthquake",
+      "lat": -21.136373,
+      "lng": -175.206101
+    },
     {
       "wp_id": 7916,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-30-2026-2/",
