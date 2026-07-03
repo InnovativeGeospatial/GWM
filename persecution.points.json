@@ -1,9 +1,109 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-02T13:36:14.116713+00:00",
-  "count": 240,
+  "updated": "2026-07-03T13:34:00.131544+00:00",
+  "count": 250,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8111,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-and-peace-mediator-killed-in-armed-attack-amid-worsening-security-crisis/",
+      "date": "2026-07-03T13:33:54",
+      "title": "Catholic Priest and Peace Mediator Killed in Armed Attack Amid Worsening Security Crisis",
+      "country": "central african republic",
+      "type": "killing",
+      "lat": 6.6,
+      "lng": 20.9
+    },
+    {
+      "wp_id": 8110,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militias-drive-christian-farming-communities-from-nigerias-kaduna-in-sustained-campaign-of-killing-and-abduction/",
+      "date": "2026-07-03T13:33:29",
+      "title": "Fulani Militias Drive Christian Farming Communities from Nigeria's Kaduna in Sustained Campaign of Killing and Abduction",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8109,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-state-affiliate-beheads-14-believers-in-two-attacks-as-drc-campaign-expands-to-new-territory/",
+      "date": "2026-07-03T13:33:03",
+      "title": "Islamic State Affiliate Beheads 14 Believers in Two Attacks as DRC Campaign Expands to New Territory",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 8101,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-man-dies-in-pakistani-custody-after-nearly-a-year-on-false-blasphemy-charge/",
+      "date": "2026-07-03T13:32:43",
+      "title": "Catholic Man Dies in Pakistani Custody After Nearly a Year Held on False Blasphemy Charge",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8100,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-flees-false-charges-as-church-and-home-burned-in-india/",
+      "date": "2026-07-03T13:32:22",
+      "title": "Pastor's church and home burned in India after religiously motivated arson; family displaced, false charges filed",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8106,
+      "wp_link": "https://globalwitnessmonitor.com/armed-gunmen-kill-31-christians-in-coordinated-attacks-on-rural-farming-communities/",
+      "date": "2026-07-03T13:31:50",
+      "title": "Armed Gunmen Kill 31 Christians in Coordinated Attacks on Rural Farming Communities",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8105,
+      "wp_link": "https://globalwitnessmonitor.com/israeli-authorities-seize-century-old-church-land-in-disputed-east-jerusalem-operation/",
+      "date": "2026-07-03T13:31:29",
+      "title": "Israeli authorities seize century-old church land in disputed East Jerusalem operation",
+      "country": "israel",
+      "type": "arrest",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 8104,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-prosecutors-accused-of-blocking-defense-access-in-house-church-crackdown-case/",
+      "date": "2026-07-03T13:30:54",
+      "title": "Chinese Prosecutors Accused of Blocking Defense Access in House Church Crackdown Case",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8103,
+      "wp_link": "https://globalwitnessmonitor.com/coalition-urges-u-s-intervention-for-syrian-christian-detained-without-charges/",
+      "date": "2026-07-03T13:30:25",
+      "title": "Coalition Urges U.S. Intervention for Syrian Christian Detained Without Charges",
+      "country": "syria",
+      "type": "killing",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 8102,
+      "wp_link": "https://globalwitnessmonitor.com/ethiopian-convert-beaten-and-displaced-after-refusing-to-renounce-christianity/",
+      "date": "2026-07-03T13:30:12",
+      "title": "Ethiopian Convert Beaten and Displaced After Refusing to Renounce Christianity",
+      "country": "ethiopia",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 40.5
+    },
     {
       "wp_id": 8000,
       "wp_link": "https://globalwitnessmonitor.com/christian-man-dies-in-pakistani-custody-after-nearly-a-year-held-on-blasphemy-charges/",
