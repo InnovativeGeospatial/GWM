@@ -1,9 +1,572 @@
 {
   "feed": "conflict",
-  "updated": "2026-07-02T14:13:48.721293+00:00",
-  "count": 991,
+  "updated": "2026-07-03T14:09:02.628798+00:00",
+  "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8163,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-defence-lahore/",
+      "date": "2026-07-03T14:07:18",
+      "title": "Civil Unrest in Lahore",
+      "body": "On June 29, 2026, two foreign women were abducted and taken to a location in Lahore, where they were held captive by five suspects. The women were forcibly taken to a residential location in the Defence area, held at gun",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Civil Unrest",
+      "lat": 31.5656,
+      "lng": 74.3142,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbFk4eTE4Sk12QVI3R2dfaDZWZTM2TkhKOFFNNVZDeDgweFNzRDBmRnRMbUhlNE1iWGRweThUbE5iRFZ6NjNZX01JRmhBRHVUZGViaVE4d3h6WnNCendwbnlpRVQ1NS10TENMYWh5djBSNHZKamVXdnNDVHFQa3hZSlhnWTRKYU13SjR3UXNIODFaaG5LakJrMTlzUHQ5ZnJ2NmFLZ0J1WlNCbnZYR0ZxMVAtcXpkUnZhSkw2d0h0MzdwV003MUE2NTlVcTVGZ3dFMzdRRHdYWHY4MkRvd3FvVHZR0gHnAUFVX3lxTE1XZUtuUEtpTXhMZ2I2NUEzR2RjY2JDSWV0bFZuX0JCVzA1LWlYaUFiQzY4Q1YzSy13NUh1d3dPOEptck1MSkloUEJLMXJUMDB2RzNWYzNiY0JRTGxVdXh2RnNyYkFMOGFQVkpwU3RmTzJXZ3dMNC12akRRSl8tbXIwaWRULTA1cVRkTXJFeVgwZk9oQUdJU0o4Y2pLRHBlS3cyNXRKY2ZyeDNUN3JQN1VIWmFZVS1JT01uenRUSUZBNGUyRUpRYmNQRjZ2b2hVMkpvY251YTlBUTB0YlVnQzhDYWZCaGpoUQ?oc=5",
+      "prayer": "Two foreign women kidnapped and assaulted in Lahore, and the families awaiting justice",
+      "alert_summary": "Four men, including a relative of Pakistan's Deputy Prime Minister, were arrested in Lahore after two foreign women were kidnapped and sexually assaulted on June 29, 2026."
+    },
+    {
+      "wp_id": 7933,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jos/",
+      "date": "2026-07-03T14:06:44",
+      "title": "Armed Conflict in Gbagalape",
+      "body": "Nigerian police dismantled a kidnapping syndicate operating along the Federal Capital Territory–Nasarawa border, arresting two suspected members and recovering an AK-47 rifle, ammunition, and livestock. The coordinated o",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 10.3133,
+      "lng": 9.767,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONktIeDdIRFU1cUIwSW1pckptSVdxNXJmb2o3VWcxa3hjV1JtdHNDcE9OSnNzckczR1J3ZVBFU1pSWUlTVFN6U3pWTTRTMTYwWlpLUW1ENmtucHRjdlhmMEZFVU5wXzNPMTA1VFREck5ZTjcwdWlNbkhCS000REUxdGl5d2dqVmZ5RF9qZV9vNE5SdnN2WnVDeFdtZlJaVWQ5TFJxcTdDSGNkZ1ZvY1hTcVZsT2M4YXE3M0MxUzZn?oc=5",
+      "prayer": "Communities along the FCT–Nasarawa border exposed to kidnapping, violent attacks, and killings",
+      "alert_summary": "Police arrested 2 suspected syndicate members and recovered an AK-47, ammunition, and livestock during operations in the FCT–Nasarawa border area between June 24–26, 2026."
+    },
+    {
+      "wp_id": 8164,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-ohaji-egbema/",
+      "date": "2026-07-03T14:06:26",
+      "title": "Civil Unrest in Ohaji/Egbema",
+      "body": "On June 27, 2026, five passengers were abducted from a commuter bus along Obokofia Road in Egbema, and a second person was separately kidnapped in New Owerri the same day. Investigators say the gang had already collected",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Civil Unrest",
+      "lat": 5.356668,
+      "lng": 6.950386,
+      "source_title": "\"cartel OR gang massacre OR kidnapping OR shootout when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3VQZ3VBSURhb0NlRXptUmxrS0E4NHp5dW1YbkJlZHVKNEY4MGdLYmlVQWx0N2NmTFF0M29BTjFMS2RQSTgtZWRKTHp1SldQQWlxaV9EVFh4WWdkeWVvTTIzM0hxNFZBUXRONDlNUkZTejkwWlM5eEFMM2FyaE5pdGg2a2RvSUhRRVZUd9IBkgFBVV95cUxPOFFtbE05bWJXa0FUeFhXOEJhYTV0QnJ6ZF90cGlvbDkxNjY3cUlsMEVaRktiU3U1OTBxRTJDNkZQMmVYemZfTmRWcGN3a3dZMTlhZkZXN1g0RWxVSW5QT0VhZGNkZXp1TlFsR3BMOFV1YllyNTVOT2I2bU9uWHhlcWhfa1IzNkMtTlVTRWM0OHhOQQ?oc=5",
+      "prayer": "Kidnapping victims and commuters in Imo State targeted by armed gangs demanding ransom",
+      "alert_summary": "Police in Imo State arrested 12 suspects, rescued 3 kidnapping victims, and recovered an AK-47 and other firearms in operations between June 27–30, 2026."
+    },
+    {
+      "wp_id": 8004,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-9/",
+      "date": "2026-07-03T14:03:22",
+      "title": "Armed Conflict in Kyiv",
+      "body": "On July 2, 2026, at least 22 people were killed and several dozen injured in a Russian missile and drone attack on Kyiv. According to the Ukrainian Air Force, Russian forces launched 656 long-range drones and 73 missiles",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 50.45,
+      "lng": 30.5241,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR0tGXzUzTFhXR0gyTUx0N0kxOEo2bldYNnFVUTJ5X3J2R29VX1p1WXdEb2RpR19jcVpUZUtPZDdJcDNlZHhaS3I3WklkUkFLc1E5WXRnU0JCa19pZEhQTUwxb2F3LVNVeENHX2pSeWhyS3ZKS2hQZm5iTjdYSS1MWk9ybWhOTkRPRFp5YXoyNkVWbWFFNlN4djZHT0FoNDZwNXlDODg5Mmd5TzN6Y2lWZE9pSnJfNF9MaGpmcm9WX3lyNEs4VUHSAcIBQVVfeXFMTnhIV19IdlJYM1dTQTF2SDd3WXYtZjM4Nm1mNVozMlFsa012M1dUOG1LYmhLZkp3ci0zdWFCMXVkUklqZlpuT2NMTURhbUY2akF2WWFsc3hsNFRBckN1UjMtWVRoYXVra3hSdTItVS1FbHJOY2htNTIzMHV2bTNxeC02QWJwcE43V3lIbEExak1VOE9PajYtWjV4enV3ejdnUnV6M2ZSczBwUW9lai1yUUJDczE4NlY5VHlINU8tTEs3dmc?oc=5",
+      "prayer": "Civilians in Kyiv killed and wounded in their homes during an overnight missile and drone attack",
+      "alert_summary": "A Russian missile and drone attack on Kyiv on July 2, 2026 killed at least 22 people and injured dozens, striking residential buildings and a medical facility."
+    },
+    {
+      "wp_id": 8160,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-duk-county/",
+      "date": "2026-07-03T14:02:32",
+      "title": "Armed Conflict in Duk County",
+      "body": "On June 29, 2026, a humanitarian convoy operated by the John Dau Foundation was ambushed in Duk County, Jonglei State, while returning from a joint training organized by the World Food Programme and Action Against Hunger",
+      "country": "South Sudan",
+      "countries": [
+        "South Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 8.824648,
+      "lng": 32.611635,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUkdUZzlxM0liZl84Y0hFeTFqYW41OE9wVGdqNEtKYnFzOEhZODJVOERWd1Z0c2lkTTk5c1VfdTVkcmtJN2NmU2YxemY4OVNjSkNkTzQtZ2E1eVEyZFE1R1lyTncwVUV6ZkxIT0NxRkJRMXExZUc3b1loSnlvbDBORHZCX0tfeFVHQ3ZwTHRRVjBWTjVFYjhLOHB0VWplMDdnUnd2bFRXOWM0dHk1WkRF?oc=5",
+      "prayer": "Aid workers and civilians killed in an ambush on a humanitarian convoy in Duk County, Jonglei State",
+      "alert_summary": "Armed assailants ambushed a humanitarian convoy in Duk County on June 29, killing at least 17 people, including 5 aid workers, and wounding 9 others."
+    },
+    {
+      "wp_id": 8159,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gero-rafin-bauna-jos-south/",
+      "date": "2026-07-03T14:02:10",
+      "title": "Armed Conflict in Gero-Rafin Bauna, Jos South",
+      "body": "Three herders were killed and one other wounded after gunmen ambushed them while they were grazing cattle in the Gero-Rafin Bauna area of Jos South Local Government Area, Plateau State. The herding community said the att",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 9.788139,
+      "lng": 8.860461,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfaHA4OTFjM1FqUHJ2T0NUOGZHT0RZTVNfdG15M3BISm9MSWxzaVZ6NzJVNGxwNExKdXliYnl4TkJPRVc0eUt5RkV4MENfa3AweVZoQXJR?oc=5",
+      "prayer": "Three herders killed in ambush in Plateau State, and a fourth injured, amid recurring attacks on grazing communities",
+      "alert_summary": "Gunmen ambushed cattle herders in Jos South, Plateau State, killing 3 and wounding 1 on July 1, 2026."
+    },
+    {
+      "wp_id": 8158,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oleksandrivka-donetsk-region/",
+      "date": "2026-07-03T14:00:49",
+      "title": "Armed Conflict in Oleksandrivka, Donetsk region",
+      "body": "On the evening of July 2, 2026, seven aerial bombs were dropped on Oleksandrivka in the Donetsk region. At least one person was killed and two more were injured. Three houses were completely destroyed, and 56 private hom",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 48.70447,
+      "lng": 36.914604,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMWZqTkpITW9pcU15bG5EbGtYN2hYbnBHOVVMd0V1cU4yV1dPX3hJMjVQbmhQbFFMOTk4elNFQVBiWTlfRTZYU0xiZEYxNGFjOVB6c2xjSUYzVzlVRGNlZXFGd20tOVozTS1rSWIwLUMzRjJRaERlamt2ZHFBcTY2Qm9SRktEWk51cmZWdV83Y0Q4WWw1M0ZXd1RhaW1xd2N5aU5NLUZSa3ZSaDVNMmZETm03UTJ2S1lBR01MMG11YWxQUQ?oc=5",
+      "prayer": "Residents of Oleksandrivka in Donetsk region wounded and displaced by aerial bombing",
+      "alert_summary": "An airstrike on Oleksandrivka in Donetsk region on July 2, 2026, killed 1 person, injured 2, and damaged 56 homes."
+    },
+    {
+      "wp_id": 8156,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid-north-kordofan/",
+      "date": "2026-07-03T14:00:27",
+      "title": "Armed Conflict in el-Obeid",
+      "body": "El-Obeid, the capital of Sudan's North Kordofan state, is on the edge of a humanitarian catastrophe as Rapid Support Forces (RSF) tighten their siege on the city. About 500,000 residents live there, and the city has also",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.1834,
+      "lng": 30.2226,
+      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdjBNWW9RRHgzR3pNOEV3YUlzZk42TXYzTlBaVkVQdlpvVXFpY1AxVi05b2dnZktGNFdZYXFUbVFFaW8wVDA2MEpjQ1RaNS1pWTBSeXEwa2ZSbl9IQ0ZyWjd3ZzFEVGc?oc=5",
+      "prayer": "About 500,000 civilians in el-Obeid, Sudan, facing an imminent RSF offensive and risk of mass atrocities",
+      "alert_summary": "RSF forces have encircled el-Obeid, trapping about 500,000 residents and 100,000 displaced people as drone strikes hit civilian areas."
+    },
+    {
+      "wp_id": 8002,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-marjah-district-damascus/",
+      "date": "2026-07-03T13:58:00",
+      "title": "Armed Conflict in al-Hijaz area, Damascus",
+      "body": "On July 2, 2026, a bomb blast tore through a crowded cafe in central Damascus, killing at least nine people and wounding 22. The explosion hit a popular cafe on al-Nasr Street in the al-Hijaz area of Damascus, about 100 ",
+      "country": "Syria",
+      "countries": [
+        "Syria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 36.9797,
+      "lng": 41.9917,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczV6THYxV1pPUng0UjAzd3JycTZWWFNTYkpjVi1BTE5ncFczODRkZ3kzUWpfNm5fcEdRc0duczZCUFhiTWhWazlfbXd0VWVvbWduM21pdVUxSWhLZlhNcktlS2Z3TElwWlB2dmxpRFMzckw5cmYtUHpUeTcycTkwWDNvcU1YSDg?oc=5",
+      "prayer": "Civilians killed and wounded in a bomb attack at a Damascus cafe near a courthouse",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8154,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-baghdad-3/",
+      "date": "2026-07-03T13:57:38",
+      "title": "Civil Unrest in Baghdad",
+      "body": "In the early hours of June 28, 2026, Iraqi security forces — including elite Counter-Terrorism Service units — raided homes inside Baghdad's heavily fortified Green Zone as part of a broad anti-corruption campaign ordere",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "type": "Civil Unrest",
+      "lat": 33.30617,
+      "lng": 44.387221,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbWY0SWh4RnFTdUlNYm1xeVkwWTJ1TzJTMEh6WjliTXJVQkt4TDhxb2M4Y3R0S01neVpSejIyUDl6NThuVmFYZ1hvaVkzNm42M1JETEpma203cFZSbC1OdWs2ZDg3eVBadHhwRFJLVWllUHZyRW5OYTJ1ZTBlZjVySDYtRG1YbG9pM2xrV3ZB?oc=5",
+      "prayer": "47 officials detained in Baghdad amid Iraq's largest anti-corruption sweep in years",
+      "alert_summary": "Iraqi security forces arrested 47 politicians, lawmakers, and officials in Baghdad on June 28 in an anti-corruption operation; about $86 million in cash was seized this month."
+    },
+    {
+      "wp_id": 8153,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-piranshahr-mahabad-baneh-paveh-degala/",
+      "date": "2026-07-03T13:57:16",
+      "title": "Armed Conflict in Piranshahr, Mahabad, Baneh, Paveh, Degala",
+      "body": "Ten members of the Democratic Party of Iranian Kurdistan (PDKI) and the Kurdistan Free Life Party (PJAK) were killed in separate clashes with Iran's Islamic Revolutionary Guard Corps (IRGC) on July 1 and on the evening o",
+      "country": "Iran",
+      "countries": [
+        "Iran",
+        "Iraq"
+      ],
+      "type": "Armed Conflict",
+      "lat": 36.7666,
+      "lng": 45.72183,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtMVl4ZDJ3aV9UMVhacE5VbXRmZDUzaThIVUNIcV9SUDlnTnV1RXpRTDgwdlNRVVZtQ2JleTJVSXZ6Xzh4SHBPbXNjQXI5ZTVLQm5sUm5LS2lnTFcyb1kxcmlkTGx0X0JjekE?oc=5",
+      "prayer": "Kurdish fighters and civilians in western Iran amid rising clashes between opposition groups and security forces",
+      "alert_summary": "IRGC clashes with Kurdish PDKI and PJAK fighters killed at least 10 Kurdish fighters and several Iranian security personnel across western Iran around July 1, 2026; a drone also struck a KDPI base in Iraq."
+    },
+    {
+      "wp_id": 8045,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-west-azerbaijan-province/",
+      "date": "2026-07-03T13:56:31",
+      "title": "Armed Conflict in Piranshahr, West Azerbaijan Province",
+      "body": "Iran's Revolutionary Guard Corps said it killed five members of the banned Democratic Party of Iranian Kurdistan (PDKI) in the country's northwest. The IRGC said the group was ambushed after entering Iranian territory in",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 37.5483,
+      "lng": 45.0667,
+      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcnFuQ0N2b1ZoU2pNRzdYMTBvQlZFWlZHdUVyRGVTNTV0SFBSaHVBVVI0QlppT2JrdDI1MGQyNDdzX0RGdE1Dcm91dlJZbEFKM3B5VElCdjZQY01vdGxKM0hyZ0tsVUhJQzh3X25IZ2JWZFlRd0FEZTh1aU9HSjh0VlZ5OUYxQU1CejhJYkV5NGVIZ3UtWTE1MWlscWtOOGRR?oc=5",
+      "prayer": "Kurdish fighters and civilians in Iran's western borderlands amid spreading armed clashes",
+      "alert_summary": "Iran's Revolutionary Guards killed five to six Kurdish fighters near Piranshahr in an ambush on July 1, 2026; casualty count is disputed."
+    },
+    {
+      "wp_id": 8034,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maungdaw-rakhine-state/",
+      "date": "2026-07-03T13:56:08",
+      "title": "Armed Conflict in Maungdaw, Rakhine State",
+      "body": "Myanmar's military carried out airstrikes intermittently throughout Wednesday, July 1, targeting Maungdaw town and surrounding areas in Rakhine State, across the border from Shah Porir Dwip in Teknaf, Bangladesh. The aer",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar",
+        "Bangladesh"
+      ],
+      "type": "Armed Conflict",
+      "lat": 20.8241,
+      "lng": 92.3612,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTWpxbTE1ckFNajhKanJBQ1p2NkZVb0JwdU5MbmdOZVFHN2V1QzIzalJPNnFsWFIyb2JUc3FRaDZTdktFT1dSZ09jOWtMSEwtVEZZS0JjOEx4YlpLclVWb0NqcGlOWVZqSTVmd3lReFY0NE1Hak1GZXhja0ZRWk1Hb2NKdU1obGF5T2tMM2lDNndkdXRTbjNlMjZSVXRpS3g5dmp0N2RsRzRzaUVUM3NUdDM4QkE?oc=5",
+      "prayer": "Border communities in Teknaf and Maungdaw facing renewed airstrikes and shelling for a second consecutive day",
+      "alert_summary": "Myanmar military airstrikes on Maungdaw in Rakhine State shook homes across the Teknaf border area of Bangladesh on July 1–2, 2026; no confirmed casualties reported."
+    },
+    {
+      "wp_id": 7958,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-3/",
+      "date": "2026-07-03T13:55:42",
+      "title": "Armed Conflict in Myanmar",
+      "body": "On July 1, 2026, a conflict monitor reported that more than 100,000 people have been killed across all sides in Myanmar since a military coup five years ago set off a civil war. The exact figure recorded by the Armed Con",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Armed Conflict",
+      "lat": 21.1543,
+      "lng": 96.5069,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOF9DSWtIVnYtRk9QQ2dUdGdPQkUyR3BGZHJMME9QV0l6YzdaQ2I5by1LR3VWeDF6SkotenlUemRycTFWLWR3TTkzSTJhV3p1ZTFQcjVVdW5FSHlCbjF2SDR0dlR0UHVjcjNxdWxCUC1pRUdJU0d0ZFhqY2dQSmtBbmNGOGtzUQ?oc=5",
+      "prayer": "Over 100,000 people killed and 3.5 million displaced across Myanmar since the 2021 coup",
+      "alert_summary": "A conflict monitor reported 100,114 killed in Myanmar's civil war as of July 1, 2026, with over 3.5 million people internally displaced."
+    },
+    {
+      "wp_id": 8148,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-thai-myanmar-border/",
+      "date": "2026-07-03T13:54:52",
+      "title": "Displacement in Thai-Myanmar border",
+      "body": "More than 100,000 people have been killed in Myanmar since a military coup triggered a civil war, according to conflict monitor ACLED. To replenish battlefield losses, Myanmar's military enacted a conscription policy in ",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar",
+        "Thailand"
+      ],
+      "type": "Displacement",
+      "lat": 20.84941,
+      "lng": 96.05874,
+      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QQm9ydlFMTmZGT0ZVNnBOR20wWGZ1NktwMGdTT05PU2J5ZjQ3OE8tWGJod19SVW1HVzl3bGRrVEJyZmNFQk5CYUlfMFVSeURQeGFrMTRGRGM4VkFLeEt2UmVSLTI0TGfSAVxBVV95cUxQX3VIU2VmQmJPT2xrYUZ5S1pENDN5djg1ZFgwM1FWS3hBbUI5bklpMjJoenVOdXRVU2NxbktkWGMyelVoZDlDcnNCTUlyU3ZLcVMxRkZYUEpsWDdRWg?oc=5",
+      "prayer": "Young men and women in Myanmar facing forced conscription, flight across the border, and frontline deployment",
+      "alert_summary": "Myanmar's military conscription law has driven thousands to flee to Thailand while an estimated 100,000 have been forcibly drafted since 2024."
+    },
+    {
+      "wp_id": 8026,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-godey-area-lower-shabelle/",
+      "date": "2026-07-03T13:52:05",
+      "title": "Armed Conflict in Godey, Lower Shabelle",
+      "body": "On June 30, 2026, the Somali National Army, supported by international security partners, carried out a series of airstrikes in the Godey area of southern Somalia, killing 35 al-Shabaab militants, according to Somalia's ",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 2.8434,
+      "lng": 44.0967,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM0pBT0FyckFhR1RzUXJ3VmdpOERNcnY2aTJsT0VwLWRuSVk3TDRvZ2xnY0xSU1g5NGlaaFZmeTRQUjdkYmNLay1XOHd4QmxyaWNRbmhIM0ZURFpyZUt3aWhCaDIzV3N3OXI2dGtNc3lYcjBNcXhFbXdBSEw5OGxRM29Wc1Z6ckdGWFY1blVR?oc=5",
+      "prayer": "Civilians in Somalia's Lower Shabelle region amid ongoing airstrikes and armed conflict",
+      "alert_summary": "Airstrikes in the Godey area of Lower Shabelle killed 35 al-Shabaab militants and wounded 20 others on June 30, 2026."
+    },
+    {
+      "wp_id": 8140,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tawakal-nuun-garre-and-ugunji/",
+      "date": "2026-07-03T13:51:00",
+      "title": "Armed Conflict in Tawakal, Nuun Garre, and Ugunji",
+      "body": "On July 2, 2026, Somali forces carried out airstrikes targeting al-Shabaab positions in the areas of Tawakal, Nuun Garre, and Ugunji. The strikes killed 27 al-Shabaab fighters, wounded dozens more, and destroyed vehicles",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 2.0803,
+      "lng": 44.898602,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnh6ZjlJVGxSR01PWk44NFhfZzFEOUpYTjM2OGx1M0I5Q2VKOTBkTnNXOHo2SVBCNVRSX3dlRW1oY3VmZklYZVVaUWhuNmc2Q0MyZHA0TjdzbnBZWW1vTGVYM2dtQk52UERaclU2R20tdFgwLW9tZmNoM3o5S2NmTmZqNHd5UHZXR0hUQU13aU54dmpacFBfejAwRGJVMnJtYW0wS1BvYmMyRlBHYi10aGJvSnBqMGVU?oc=5",
+      "prayer": "Al-Shabaab fighters and civilians in Tawakal, Nuun Garre, and Ugunji amid ongoing airstrikes",
+      "alert_summary": "Airstrikes on July 2, 2026 killed 27 al-Shabaab fighters and wounded dozens more across three locations in Somalia."
+    },
+    {
+      "wp_id": 8139,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bab-al-mandab-strait-2/",
+      "date": "2026-07-03T13:50:38",
+      "title": "Armed Conflict in Bab al-Mandab Strait",
+      "body": "Yemen's pro-government Giants Brigades intercepted a boat in the Bab al-Mandab Strait carrying equipment suspected of being intended for manufacturing drones and explosive-laden boats destined for Houthi-controlled terri",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.851818,
+      "lng": 44.344228,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV2tYMzVQbXZURVg5aWR6M1dMdmVNS01JSHZjdG9pWEs0MDBjQ0JwdkhKVk40V2pNdVJwVlNSS0RIcmtMMTAtYlNUVnVOQTBrc2Ita3p2bzduelhad2VNUGRoZmhZUGpLcW1FWE1EMG9GRmcxNkYxdkI5UVhKOWExYTUzUXpnb3dReXFLVGJ2anI?oc=5",
+      "prayer": "Three sailors detained and civilians along Yemen's Red Sea coast amid ongoing weapons smuggling networks",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8135,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-tirana-4/",
+      "date": "2026-07-03T13:50:12",
+      "title": "Civil Unrest in Tirana",
+      "body": "On July 2, 2026, several hundred protesters gathered outside the Albanian parliament in Tirana, demanding the prime minister's resignation. The gathering was part of daily protests, dubbed the \"flamingo revolution,\" that",
+      "country": "Albania",
+      "countries": [
+        "Albania"
+      ],
+      "type": "Civil Unrest",
+      "lat": 41.3205,
+      "lng": 19.8161,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbV9nM3gwd2FoNkZ0WlJ3NjBzcTlVY1pCWmZPTEZTY05EWlpDY0ZpZUgxM1R3TzdYaEo2czh3X3hEemM1ZW5qdkU3X2RBUDRxVkpubjhMQmNXdG1oMnltcHVFTFB2VGhzRXVzc01Jam84NWxaZVlla2M1V1F1aklYRFpPV1ZuTTdlb09tak03ekdHcDJWM25WaEhENWFjUlRCN0tkUlI4WklPM09EajlkVmNycmo3S0U?oc=5",
+      "prayer": "Protesters and police officers injured in clashes outside Albania's parliament in Tirana",
+      "alert_summary": "Police used tear gas, pepper spray, and water cannon on protesters in Tirana on July 2, 2026; 18 detained and up to 12 officers injured."
+    },
+    {
+      "wp_id": 8137,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yahukimo/",
+      "date": "2026-07-03T13:49:53",
+      "title": "Armed Conflict in Yahukimo",
+      "body": "On Thursday, July 3, 2026, separatist rebels in the Papua region of Indonesia claimed they shot an American pilot dead and burned a civilian plane. A spokesperson for the West Papua National Liberation Army (TPNPB) said ",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Armed Conflict",
+      "lat": -4.867146,
+      "lng": 139.4813,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGR5elZSRnJwQ1lxeUVvYnJQOWlZS0l2QWRqTjlGc29wOHMzakVWLUlnLWd2Z1Q4ZUNKNUUxUDRpY3o2MVczdnJMdmlwY2RFaVE0TnNGbFJrN1BlODQtUGJSb0ozQlRjdkNaN2otQ09jdUdrcGNlOXJQZF91dGpOSFV5UXBLcV96YTIzZ3R2ZnNCYXZXaG5SVHFiSFRlZ2JUQUZrRHFGU1RzMDQ3S3djbmFkcw?oc=5",
+      "prayer": "American pilot and seven passengers caught in rebel attack in Yahukimo, Highland Papua province",
+      "alert_summary": "Papuan separatist rebels shot and killed an American pilot and burned his aircraft in Yahukimo, Highland Papua; seven passengers were also on board."
+    },
+    {
+      "wp_id": 8050,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-western-iran/",
+      "date": "2026-07-03T13:49:08",
+      "title": "Armed Conflict in Piranshahr",
+      "body": "On July 1, 2026, IRGC forces ambushed a vehicle carrying six Kurdish fighters near the village of Qezqapan in Piranshahr, killing all six. The IRGC claimed five fighters killed, while the Democratic Party of Iranian Kurd",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Armed Conflict",
+      "lat": 27.2055,
+      "lng": 60.6862,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmlrTEhoS1piSzJkektPZHpCSFdUZjhnR0hnX1BtMnpRU2ZBdUw4QmFPS0dvRFhCeTdLOVBiT1YtV25XTU81V2lkVi1CZkhkdGJiUjdNenpaQTVjaDZIQjJqd1dFM202cGtzbm11LVQwaEo5amZIUHAtV19WNHBOWnFjWmFRQnhSdldNVnVNanA0TWROeFZjS0xSekgtV3FNMF9lOUFfOA?oc=5",
+      "prayer": "Six Kurdish fighters and their families amid armed clashes in Iran's West Azerbaijan Province",
+      "alert_summary": "An IRGC ambush near Piranshahr killed 6 Kurdish fighters on July 1, 2026; broader clashes in western Iran killed at least 10 Kurdish fighters across multiple locations."
+    },
+    {
+      "wp_id": 8020,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gayeri-solhan-sebba/",
+      "date": "2026-07-03T13:47:31",
+      "title": "Armed Conflict in Gayeri, Solhan, Sebba",
+      "body": "On June 30, 2026, armed groups launched coordinated attacks on multiple military positions, targeting posts of the national armed forces and civilian defense volunteers in the localities of Gayeri, in the Sirba Region, a",
+      "country": "Burkina Faso",
+      "countries": [
+        "Burkina Faso"
+      ],
+      "type": "Armed Conflict",
+      "lat": 13.4417,
+      "lng": 0.5264,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQzZOakE3SXJ2M24tZnN1U3ZuSDBfNVBMcVNLTlNKR1J5RG9RMU9nX1F5cW9zRWFpdVMxUXJ0b0VqWUFoSkljM0NTSks3Mk9pR0pfQ2JUVlY3S0QyQUtSSS1PTzlCYVZOVHJOaG01U09kWFppYndjajhlRi1lejZzQTNoazA1b1RRYkpqNUF2dVh3ZS1CcDc5YldVcENUQ2NycHJZN203c3NrV2dmX2VjNjR2X09oZXZEWjZCaDBqVnpTajdzalhqSTlVSFh6ZVJ0RzZwLWZpUDlaNWZhOWx2bkl2YVM?oc=5",
+      "prayer": "Soldiers and civilians in Gayeri, Solhan, and Sebba caught in coordinated militant assaults on military positions",
+      "alert_summary": "Burkina Faso forces killed more than 400 militants and lost 3 soldiers repelling coordinated attacks on June 30 in Gayeri, Solhan, and Sebba."
+    },
+    {
+      "wp_id": 8013,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lassa-borno-state/",
+      "date": "2026-07-03T13:45:23",
+      "title": "Armed Conflict in Lassa, Askira-Uba, Borno",
+      "body": "On June 30, 2026, gunmen raided Lassa Day Secondary School in the Askira-Uba area of Borno state in northeastern Nigeria, killing at least one teacher. Twenty-five girls and 11 boys, along with three teachers, were abduc",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.8395,
+      "lng": 13.1536,
+      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSEUwbEJORFVCQ092aDZfQU1WUjlVN05WUGptd21veXBGZVVCOXhhenNrRmJwT0pGRTA2MG5MbEVEZnMxMzVHZllWZmJTSVFKLUdxSV9lOWRMc1ZzZGkyeU8wRDBHbUJZcW9wV0lRUG9ETHFXM0hLdjlZM0FMTjNiVTRZbEJUXzVtQTQzVTFnRnJzQW1LZnRzalBtNFBHdkU2NHZzVjZ3?oc=5",
+      "prayer": "36 students and 3 teachers abducted from a school in Borno, families awaiting their return",
+      "alert_summary": "Gunmen raided Lassa Day Secondary School in Borno, abducting 36 students and 3 teachers and killing 1 teacher."
+    },
+    {
+      "wp_id": 8124,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-port-au-prince-2/",
+      "date": "2026-07-03T13:42:25",
+      "title": "Civil Unrest in Port-au-Prince",
+      "body": "On July 1, 2026, dozens of medical students organized a protest in Port-au-Prince to demand that the government relocate and reopen one of Haiti's largest public hospitals, noting they need to train there to become docto",
+      "country": "Haiti",
+      "countries": [
+        "Haiti"
+      ],
+      "type": "Civil Unrest",
+      "lat": 18.539766,
+      "lng": -72.33548,
+      "source_title": "\"Haiti gang violence OR kidnapping when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXNmLXR3d1Z3M1pSdHJDc3R4cjZLQTI5SmFXRV9ubmhXdkcyQ0lGa0lSUnE1M1Y2anRiYjRhcDVISm8ycUc5MnJUQW5yYm9yU0JlZExTVG9VTU5DTDlWelpfR2duZ0tQRzY5MVpnUUVTVEp2WldDenNWanRWLTNBVWxYRHZ4d3ZjbW9PdDRpaWxCX2Q4Qm5rMw?oc=5",
+      "prayer": "Medical students in Port-au-Prince shot and tear-gassed while demanding a safe hospital to train and serve patients",
+      "alert_summary": "Police shot one student in the arm and used tear gas to disperse protesters in Port-au-Prince on July 1, 2026."
+    },
+    {
+      "wp_id": 8012,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yautepec-morelos/",
+      "date": "2026-07-03T13:41:57",
+      "title": "Armed Conflict in Sinaloa",
+      "body": "Ten mine workers were kidnapped in Sinaloa, Mexico, and were later found dead. Officials said one cartel faction may have mistaken the workers for members of a rival group; the two factions of the Sinaloa Cartel have bee",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Armed Conflict",
+      "lat": 18.8869,
+      "lng": -99.0635,
+      "source_title": "\"Mexico cartel violence OR kidnapping OR gunmen when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa3RFcTJlU3k5dmFQNmVuSE03cmNYSlY0SFdpemI5RURZU04zeFZ4RVRaMm4xSEZHMUpyTFhQVVBYZ1dzNWNzWEFfZTh6d0RLS0oxTmdRVjJMcXp1aWpJSDYzSzdTMFF1TV9HazJFMzByY0EzLU0xTDRxTWtmZDFrdmJQSVRZMlZFeE5iVVV5NEZnamdzc2drSmpCTm0wWWRsMXM1aGhIZ0RyMjFibUlIU3VwY0N4d3dXVkxnb2lGTnpsamtyMFE?oc=5",
+      "prayer": "Ten mine workers in Sinaloa killed after being kidnapped by cartel gunmen, and families awaiting answers",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8114,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-monaco-2/",
+      "date": "2026-07-03T13:41:32",
+      "title": "Armed Conflict in Monaco",
+      "body": "An explosive device left in the entrance hall of a small apartment building in Monaco on Monday evening wounded three people — a couple and a 13-year-old child — as they were entering the building. The child was admitted",
+      "country": "Monaco",
+      "countries": [
+        "Monaco"
+      ],
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/europe/20260703-monaco-identifies-suspect-in-parcel-bombing-prosecutors",
+      "prayer": "A 13-year-old child and two adults wounded by a parcel bomb in Monaco, one still in unstable condition",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8119,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-hossana/",
+      "date": "2026-07-03T13:40:34",
+      "title": "Civil Unrest in Hossana",
+      "body": "Community groups issued orders to residents of Hossana after three children died from dog bites and 80 other people were hospitalized. Residents were told they would be fined and arrested if their dogs were not killed — ",
+      "country": "Ethiopia",
+      "countries": [
+        "Ethiopia"
+      ],
+      "type": "Civil Unrest",
+      "lat": 7.550165,
+      "lng": 37.852815,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c1wy4d5p4pxo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Residents of Hossana coerced into killing their own dogs under threat of arrest or fines",
+      "alert_summary": "Community groups in Hossana threatened residents with arrest and fines, resulting in an estimated 400–450 dogs killed; 3 children died and 80 people were hospitalized from dog bites."
+    },
+    {
+      "wp_id": 8024,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-durban/",
+      "date": "2026-07-03T13:40:05",
+      "title": "Civil Unrest in Khayelitsha",
+      "body": "On July 1, 2026, anti-migrant groups in South Africa had set an unofficial deadline for undocumented foreigners to leave the country. Thousands marched across major cities, and police reported about 900 arrests, mostly f",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Civil Unrest",
+      "lat": -29.8587,
+      "lng": 31.0218,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c982k1j3d70o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Ghanaian and other foreign nationals in South Africa facing violence and forced displacement amid anti-migrant protests",
+      "alert_summary": "Anti-migrant protests across South Africa led to about 900 arrests and at least one Ghanaian killed in Cape Town; roughly 25,000 migrants have left the country."
+    },
+    {
+      "wp_id": 8115,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-tehran-2/",
+      "date": "2026-07-03T13:38:56",
+      "title": "Civil Unrest in Tehran",
+      "body": "Iran began days of public mourning on July 3, 2026, for its former Supreme Leader, Ali Khamenei, who was killed in Tehran on February 28, 2026, during a series of Israeli airstrikes aimed at high-ranking Iranian official",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "type": "Civil Unrest",
+      "lat": 35.696,
+      "lng": 51.401,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx2k4k7jqeno?at_medium=RSS&at_campaign=rss",
+      "prayer": "Millions of Iranians and mourners gathering in Tehran for days of funeral ceremonies amid a fragile ceasefire",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8113,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sumy-kryvyi-rih-kyiv-zaporizhzhia-belgorod-bryansk-smolensk/",
+      "date": "2026-07-03T13:38:10",
+      "title": "Armed Conflict in Sumy, Kryvyi Rih, Kyiv, Zaporizhzhia, Belgorod, Bryansk, Smolensk",
+      "body": "On July 3, 2026, Russian drone and missile attacks killed at least five people and injured ten others across Ukraine. In the Sumy region, a drone struck a residential apartment building, killing two women, an elderly man",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine",
+        "Russia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 47.909794,
+      "lng": 33.391857,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/3/four-killed-in-ukraine-a-day-after-deadliest-russian-attacks-this-year?traffic_source=rss",
+      "prayer": "Civilians in Ukraine and Russia's border regions killed and injured in ongoing drone and missile strikes",
+      "alert_summary": "Russian strikes killed at least 5 in Ukraine on July 3, while Ukrainian drone attacks killed at least 10 in Russian-held and border areas."
+    },
+    {
+      "wp_id": 8003,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-3/",
+      "date": "2026-07-03T13:37:53",
+      "title": "Armed Conflict in Moscow",
+      "body": "Ukraine has been running a sustained drone campaign against oil refineries and fuel storage sites across Russia, and the effects are now being felt by ordinary civilians. An AP count shows over 50 reported attacks by Ukr",
+      "country": "Russia",
+      "countries": [
+        "Russia",
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 55.7505,
+      "lng": 37.6175,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/3/russias-triumphant-tone-shifts-as-ukraine-deploys-asymmetrical-tactics?traffic_source=rss",
+      "prayer": "Russian civilians facing fuel shortages and families fearing new military conscription as the war continues",
+      "alert_summary": ""
+    },
     {
       "wp_id": 8055,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dallas-chicago/",
@@ -39,60 +602,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzBCbWM5NWFtelNaT0t1TFNadGRJSlJ2YWxVN25WVUFHX3Y4VnVzc0ZCSndTUGFObDJQZ2ZiaGJDN2JfSGtGamVPZTZzWlRVZ0lSU01jYWpKVXpzRjFON0VQUV90dDk3RVEzQWdQajJFNmVSYVIzWjRTSHZRZkxwb2Iyc3hVQ3BmOU9vd3NaZGVvRVMybkc5aC1jdklrVTJLblRuSnd4S2lpN3g2NVpXY05tNFdMck9MdTBTLTFoSDJVNmpzeDV3WWZuRWhwVUdMVHZB0gHbAUFVX3lxTE8xOUdMMUkxUWIwZWR4OHhVLXNsbFFRclo3bnd6VGVlbzVneE5ncFRwM0pwZ3ZVZmR4aVFwTy1YTG9uWlNEMGIxZWFDT3RyUFB1MFlHRm9uTl9XZUxqYmNEN29sd2FScWRCMzBGOFlmdjMzRDhyR2x5bkJRZ2t4UnljLUFCcEh1TTE4TE5RRnFoMUJwOER0c0d0TzNaR1V6SjgwR0RjblhkTTBQd01Sd2U5V3p2VENBSE10ZzBqWjQ2QUlrbkRWSXhsLTl0MHk1dnNDbEp3MDhVUC1Cdw?oc=5",
       "prayer": "A man's family in Chicago's Englewood neighborhood, and the community, following a kidnapping and murder linked to Tren de Aragua",
       "alert_summary": "Federal prosecutors charged 3 alleged Tren de Aragua members with kidnapping and murdering a man in Chicago's Englewood neighborhood; arrests announced July 1, 2026."
-    },
-    {
-      "wp_id": 7958,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myanmar-3/",
-      "date": "2026-07-02T14:11:06",
-      "title": "Armed Conflict in Myanmar",
-      "body": "On July 1, 2026, conflict monitoring group ACLED reported that there have been 100,114 conflict-related fatalities since the coup — a toll that makes the half-decade civil war Asia's deadliest active conflict. There is n",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Armed Conflict",
-      "lat": 21.1543,
-      "lng": 96.5069,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0VOMmhNNVVwY2VRbjA3QUgyaW9oUTlCMWVEZ3lVa1VHOHlUbGNZNDNZMDlldFVaRk5hNkQxZDVVZUlwNGlSMV9ucDlNWDFGMUloY0RrVlJaTVBpcktNeDFPVk8zMFU4SkRVTnpOWFZUVWNGa1BOS3E4TUctdFpOd1BXOGhXTUROMTlfbU9TQWFDeThTV095dUhpVWRiRWVEckNveG8zOGNoNzNNU2lDdVZRY1VLNWVWWDNweXZ1QjbSAccBQVVfeXFMT1dhSnFNSVlMNnY3MWxwN0tMeC1KS3djV19TUmFnTDJ5cHF3eDVvalhteW85QUx1MGJsY3BQZHhkcXlKcDlkVlk1czdhQ09YLUN2dmR1bklZNTR3WGxVWGZ1SmhSMjJzMGRxQmhSdkFtRW85eHdlWGRiNW9hSTlzbjJWNC0tNXBuQ1R1TGFPMU0ydVR2a19TZjllSlNxY05DRHRVOEcyNnNGTHFuQmJpODdnV0pXYWZEWGxVcF9zRmtjcG1NbDBfdw?oc=5",
-      "prayer": "Over 100,000 people killed and 3.7 million displaced across Myanmar in five years of civil war",
-      "alert_summary": "Conflict monitor ACLED recorded 100,114 deaths across Myanmar since the February 2021 coup, with 3.7 million people internally displaced."
-    },
-    {
-      "wp_id": 8004,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-9/",
-      "date": "2026-07-02T14:10:34",
-      "title": "Armed Conflict in Kharkiv",
-      "body": "On July 1, 2026, Russian forces launched airstrikes on Kharkiv, dropping seven guided aerial bombs on the city. Strikes were recorded at five locations within three districts — Kyivskyi, Osnovyanskyi, and Novobavarskyi. ",
-      "country": "Ukraine",
-      "countries": [
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 50.45,
-      "lng": 30.5241,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOGcyTEoxV2lsTVNoMEpiQV83bmN6UnROUEhrUFI3NXlDVnAwLXVVa3N3Ykd2NE1OMC15ek5Nc3BIWHpBRlVsNXdCLVg1bFBmSk9JR0w0REJHRHRHN21kTzVYWmJMVFllZ3czd2RQcVhXV1BjeTlUTTBPZmE0ZDR4Y1g0OHBGdmFyRDNjYi1BeHRpOXRGY2pEWGdnSG9aRWVsSEoxcFpNZGU?oc=5",
-      "prayer": "Residents of Kharkiv's Kyivskyi, Osnovyanskyi, and Novobavarskyi districts wounded or killed in guided bomb strikes, including children",
-      "alert_summary": "Russian airstrikes on Kharkiv on July 1, 2026, killed at least one person and wounded 32, including children aged one to 17."
-    },
-    {
-      "wp_id": 8050,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-western-iran/",
-      "date": "2026-07-02T14:09:09",
-      "title": "Armed Conflict in western Iran",
-      "body": "On July 2, 2026, five KDPI Peshmerga were killed in an IRGC ambush in western Iran. The Kurdistan Democratic Party of Iran (KDPI) is one of the main Iranian Kurdish opposition groups with fighters based in the Kurdistan ",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 27.205538,
-      "lng": 60.68619,
-      "source_title": "\"massacre OR coup OR airstrike OR ambush when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51bnVvRHBuVnFlcWNDN21WUGc0ZDBla2JMSm1BdUpmM19Kc09hS09WRU01Sms0RFJJaWl0ck5ybE42TV8xTzNtOG9kWlRTV0JDVmg2QWxtOFhBcU5TMG4zVFZydw?oc=5",
-      "prayer": "Five Kurdish Peshmerga fighters killed in an IRGC ambush in western Iran, and their families",
-      "alert_summary": ""
     },
     {
       "wp_id": 8047,
@@ -131,24 +640,6 @@
       "alert_summary": ""
     },
     {
-      "wp_id": 8045,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-west-azerbaijan-province/",
-      "date": "2026-07-02T14:04:09",
-      "title": "Armed Conflict in West Azerbaijan province",
-      "body": "A series of armed clashes broke out across western Iran between Kurdish armed groups and the Iranian Revolutionary Guard Corps (IRGC) in the final days of June 2026. At least seven people were killed — including three Ir",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 37.548341,
-      "lng": 45.066711,
-      "source_title": "\"Syria OR Iraq airstrike OR clashes OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDalAzaFZjN2pCRWFUd2tiUFFiT0VicFN4SlBici1zOUdSU1BoMGdLdW56QXh3LXBRMW8tTHdnNC1UQUlCaUJ3NFptMDBYRW5XT0FEc0tjRzRYdVNDaHBocnMtYlF3YUc5aFE?oc=5",
-      "prayer": "Kurdish fighters and IRGC personnel killed in clashes across western Iran's Kurdish border region",
-      "alert_summary": "Clashes between Kurdish armed groups and the IRGC across western Iran killed at least 7 people — 3 Iranian security personnel and 4 Kurdish fighters — over several days ending June 30, 2026."
-    },
-    {
       "wp_id": 8044,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rojhelat-iranian-kurdistan/",
       "date": "2026-07-02T14:03:43",
@@ -165,25 +656,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB6OFNHRXltSmpSaVFiMEw1T2VDQnl5NHJFQjQtem1qeGU1NVZEMTBuM0xLYnliUFRaMklyWVI2V1N1X245b0h2UWYxdw?oc=5",
       "prayer": "Five Kurdish fighters and multiple Iranian security personnel killed in overnight clashes across Rojhelat",
       "alert_summary": ""
-    },
-    {
-      "wp_id": 8034,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maungdaw-rakhine-state/",
-      "date": "2026-07-02T14:01:04",
-      "title": "Armed Conflict in Maungdaw and Buthidaung townships, Rakhine State",
-      "body": "Airstrikes in Myanmar's Rakhine State near the Bangladesh border resumed after nearly seven months, according to local residents and officials. A local official confirmed that the airstrikes were carried out in Maungdaw ",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar",
-        "Bangladesh"
-      ],
-      "type": "Armed Conflict",
-      "lat": 20.8241,
-      "lng": 92.3612,
-      "source_title": "\"Myanmar military OR airstrike OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8zUmxGT00wb2VQcFFWRkRMVVpjMk51bWw3UDJKSlBDeE1CUTJUMThhOUd2eGNfbTE2eXpPbGR1eTR3Q1c1XzMySWt3?oc=5",
-      "prayer": "Residents along the Teknaf border shaken by renewed airstrikes, and civilians in Rakhine's Maungdaw and Buthidaung townships caught in renewed fighting",
-      "alert_summary": "Myanmar military airstrikes in Rakhine's Maungdaw and Buthidaung townships resumed after seven months, sending four large explosions across the Bangladesh border into Teknaf."
     },
     {
       "wp_id": 8036,
@@ -203,24 +675,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfdUhTZWZCYk9PbGthRnlLWkQ0M3l2ODVkWDAzUVZLeEFtQjluSWkyMmh6dU51dFVTY3FuS2RYYzJ6VWhkOUNyc0JNSXJTdktxUzFGRlhQSmxYN1Fa0gFcQVVfeXFMUF91SFNlZkJiT09sa2FGeUtaRDQzeXY4NWRYMDNRVkt4QW1COW5JaTIyaHp1TnV0VVNjcW5LZFhjMnpVaGQ5Q3JzQk1JclN2S3FTMUZGWFBKbFg3UVo?oc=5",
       "prayer": "Thousands of Myanmar civilians fleeing forced conscription, facing deportation and forced military service",
       "alert_summary": "Myanmar's military conscription law has driven thousands to flee to Thailand, with over 3,500 forcibly returned and immediately conscripted since early 2024."
-    },
-    {
-      "wp_id": 8026,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-godey-area-lower-shabelle/",
-      "date": "2026-07-02T13:56:50",
-      "title": "Armed Conflict in Lower Shabelle",
-      "body": "Turkish F-16 fighter jets, operating alongside the Somali National Armed Forces, carried out a series of airstrikes in the Godey area of the Lower Shabelle region. The strikes eliminated approximately 35 Al-Shabaab fight",
-      "country": "Somalia",
-      "countries": [
-        "Somalia"
-      ],
-      "type": "Armed Conflict",
-      "lat": 2.8434,
-      "lng": 44.0967,
-      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81cTVtXzB3OGJIVHlWWWpoUHBOZEJTQWNkTlljOVViX25xaEo1dzh3ZGhiaTdpQ3gzMjNlY2hzbURwcFBBSkdWUW9aZ1AyYzNmbzdMb2pXMHROa19GYTJEYU9Gb1E?oc=5",
-      "prayer": "Somali civilians in Lower Shabelle region amid ongoing airstrikes and Al-Shabaab armed presence",
-      "alert_summary": "Joint Somalia-Türkiye airstrikes killed approximately 35 Al-Shabaab fighters and wounded more than 20 in Lower Shabelle."
     },
     {
       "wp_id": 8028,
@@ -259,24 +713,6 @@
       "alert_summary": "Drone strikes in El-Obeid killed at least 50 civilians across North Kordofan in ten consecutive days as Rapid Support Forces tightened their encirclement of the city of 600,000."
     },
     {
-      "wp_id": 8024,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-durban/",
-      "date": "2026-07-02T13:53:35",
-      "title": "Civil Unrest in Durban",
-      "body": "Anti-immigrant protesters marched across cities in South Africa on June 30, 2026, to mark an unofficial deadline they had set for undocumented migrants to leave, with some marches hit by violence and looting. At least fo",
-      "country": "South Africa",
-      "countries": [
-        "South Africa"
-      ],
-      "type": "Civil Unrest",
-      "lat": -29.858688,
-      "lng": 31.021832,
-      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLVBnTklqZDdwanhVdlllTFN6T1RSWndCSWZ5SVhpaGY1NDBMbmZ5SVZJdlpkaTB4M3BDRXFQQ09GRm9qVTFURWdUR3ZubHZTWUwweWlHQ2ZPMEpJX09QTUMwQjFPT2RFUzZIOGJDVmtPTmI2d2Z2V1V1TldZZ2x2enJ5SU8?oc=5",
-      "prayer": "Thousands of foreign nationals in South Africa fleeing vigilante violence and forced from their homes",
-      "alert_summary": "Anti-immigrant vigilante groups drove thousands of foreign nationals from their homes across South Africa, killing at least 4 people."
-    },
-    {
       "wp_id": 7926,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-duk-county-jonglei-state-2/",
       "date": "2026-07-02T13:52:35",
@@ -293,78 +729,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pZS1TZXZjUDF1M0hwY1hManNqS3RTQjZOVUxoSVE0MEpUNGFvWkstd1lHMUxubk8wTC0zcjRYSnpvTmhrS3BwOFFRalFSX1k1bmJGZ1k0VQ?oc=5",
       "prayer": "Families of the 17 people killed in the Duk County convoy ambush, and aid workers still serving in Jonglei State",
       "alert_summary": "Unidentified assailants ambushed a marked aid convoy in Duk County, killing 17 people including 5 humanitarian workers and injuring at least 5 others."
-    },
-    {
-      "wp_id": 8020,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gayeri-solhan-sebba/",
-      "date": "2026-07-02T13:52:13",
-      "title": "Armed Conflict in Gayeri, Solhan, Sebba",
-      "body": "On June 30, 2026, armed groups launched coordinated attacks on several military positions across Burkina Faso. The army says it repelled all assaults during counteroffensives supported by airstrikes, claiming more than 4",
-      "country": "Burkina Faso",
-      "countries": [
-        "Burkina Faso"
-      ],
-      "type": "Armed Conflict",
-      "lat": 13.4417,
-      "lng": 0.5264,
-      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UaE9mWm4zM0N0V3l3ZkE0WER5RWQ0cnJOMWo2clJ6eVl1V01DUDJwS0laVUFIa1JaUEV3LVlXYzBzeFBFU2pzUnMzTklNMlJpcndvSzFPMWc?oc=5",
-      "prayer": "Civilians in Gayeri, Solhan, and Sebba caught in coordinated armed group attacks and ongoing military operations",
-      "alert_summary": "Burkina Faso's military says coordinated attacks on June 30 on multiple positions killed over 400 armed fighters, with 3 soldiers also killed."
-    },
-    {
-      "wp_id": 7933,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jos/",
-      "date": "2026-07-02T13:50:38",
-      "title": "Armed Conflict in Lassa, Askira/Uba",
-      "body": "On June 29, 2026, suspected Boko Haram and ISWAP insurgents attacked Government Day Secondary School in Lassa, Askira/Uba Local Government Area of Borno State, abducting an unspecified number of students who were sitting",
-      "country": "Nigeria",
-      "countries": [
-        "Nigeria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 10.3133,
-      "lng": 9.767,
-      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOanJ5Tml6MlVONV92Q0JaeDRZTWltUWVoQTFPZjdjSVJCY1B3S2tUOUlpM3ZxcUhmazNYbU9BNTBLSkppMzQyVlltYlJlUk5yNG45Ym8wSDlOcUtDUng5ekRDbFkzNVVNczNIa1lSc3FxVFdhWEUzUFBVTFJGcE5VemJsQ2FLMGFqalg1c2pYa3AtaDNTTVRMY0pEUnJZQQ?oc=5",
-      "prayer": "Students and teachers in Lassa, Borno State, abducted during school exams, with 36 still held captive",
-      "alert_summary": "Armed attack on a secondary school in Lassa, Borno State, killed at least 1 teacher and left 36 students in captivity after 10 were rescued."
-    },
-    {
-      "wp_id": 8013,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lassa-borno-state/",
-      "date": "2026-07-02T13:47:59",
-      "title": "Armed Conflict in Lassa, Askira-Uba",
-      "body": "On June 29, 2026, armed fighters attacked Government Day Secondary School in Lassa, in the Askira-Uba area of Borno State, killing two teachers and abducting at least 45 students and two staff members. The attack is beli",
-      "country": "Nigeria",
-      "countries": [
-        "Nigeria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 11.8395,
-      "lng": 13.1536,
-      "source_title": "\"Nigeria attack OR kidnapping OR bandits OR Boko Haram when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3V6NEo1QUJNaFdvVHJPSEdKYVluTHFTdTlxTzIwcHdCdW5CVzJ2VFNLV2kxX2RaTWptYmttSDhrWVpkZF9iWTB4MW5lMi10emttTVFWckFmc2lDRzMzZXNvNDkxbGJqS2QtUmFyUHlCZVZsLXN4dGlrMjV4a050YVhlNmlaQzV5WmJUc2czYTBkVU5NRlZCWDh2VjVCUzBIckswN2lXNGlPa0JTYnc?oc=5",
-      "prayer": "36 students and a staff member held captive after a school attack in Lassa, Borno State",
-      "alert_summary": "Suspected ISWAP fighters attacked a secondary school in Lassa, Borno State on June 29, killing 2 teachers and abducting at least 45 people; 36 students remain missing."
-    },
-    {
-      "wp_id": 8012,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yautepec-morelos/",
-      "date": "2026-07-02T13:46:37",
-      "title": "Armed Conflict in Yautepec, Morelos",
-      "body": "On the night of June 30, 2026, an armed group stormed a community sports court in the Rancho Nuevo neighborhood of Yautepec, Morelos, where dozens of families — including children — had gathered to watch Mexico's World C",
-      "country": "Mexico",
-      "countries": [
-        "Mexico"
-      ],
-      "type": "Armed Conflict",
-      "lat": 18.886934,
-      "lng": -99.06352,
-      "source_title": "\"Colombia OR Ecuador armed group OR massacre OR violence when:3d\" - Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd0swX2lYWVFRZkluNTlFRUpnRGhhcHhEZFRTR2txNEtRbTVxMjhaY3NoRTV4NGFpbElMNjhuQWg0M3ZtdnNidmFhYXNlRURvbjRiYWE5Nk44cjhKT0luZ3JHMTVnNnVKbHhWWUNDeTZHZF9xTGN5aS14ZzBJUGgwcVhNY2N4Y0JCS2I3YktmVXV5RklHYThDSHpqSGl2TndCaE9YR0tQTHNkU0hHZVc1dFd4NS01NTAwWkttMXNVTUVnNDJneU12b1ZiblI?oc=5",
-      "prayer": "Families and children in Yautepec caught in a shooting at a community gathering",
-      "alert_summary": "Armed gunmen opened fire on a crowd watching a World Cup match in Yautepec, killing 3 and wounding 9, including a mayoral candidate."
     },
     {
       "wp_id": 8011,
@@ -438,42 +802,6 @@
       "source_url": "https://news.un.org/feed/view/en/story/2026/07/1167852",
       "prayer": "Civilians in Gaza concentrated into shrinking areas as 196 verified deaths occur near Israeli-controlled zones",
       "alert_summary": "The UN verified 196 Palestinians killed near Israeli-controlled zones in Gaza between October 2025 and early April 2026, including 43 children and 18 women."
-    },
-    {
-      "wp_id": 8003,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-3/",
-      "date": "2026-07-02T13:40:47",
-      "title": "Armed Conflict in Moscow",
-      "body": "Ukrainian drone strikes have disabled an estimated quarter of Russia's oil refining capacity, according to an analyst cited in the source report, triggering widespread fuel shortages across the country. Ukrainian officia",
-      "country": "Russia",
-      "countries": [
-        "Russia"
-      ],
-      "type": "Armed Conflict",
-      "lat": 55.750541,
-      "lng": 37.617478,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/7/2/the-crisis-is-deep-the-view-from-russia-as-fuel-shortages-worsen?traffic_source=rss",
-      "prayer": "Civilians across Russia facing fuel shortages and rising prices caused by ongoing drone strikes on refineries",
-      "alert_summary": "Ukrainian drone strikes have disabled roughly a quarter of Russia's oil refining capacity, causing fuel shortages and rationing across the country."
-    },
-    {
-      "wp_id": 8002,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-marjah-district-damascus/",
-      "date": "2026-07-02T13:39:41",
-      "title": "Armed Conflict in al-Marjah district, Damascus",
-      "body": "On July 2, 2026, an explosive device detonated inside a cafe on al-Nasser Street in the al-Marjah district of central Damascus at around 3:24 p.m. local time. Syria's Ministry of Health confirmed at least five people wer",
-      "country": "Syria",
-      "countries": [
-        "Syria"
-      ],
-      "type": "Armed Conflict",
-      "lat": 36.979722,
-      "lng": 41.991667,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/7/2/explosion-heard-in-syrias-capital-damascus-state-media?traffic_source=rss",
-      "prayer": "Five people killed and 16 wounded in a cafe bombing in central Damascus",
-      "alert_summary": "An explosive device at a Damascus cafe killed at least five people and injured 16 on July 2, 2026."
     },
     {
       "wp_id": 7897,
@@ -17448,162 +17776,6 @@
       "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "source_url": "https://www.aljazeera.com/news/2026/5/10/syria-sees-first-government-reshuffle-since-al-assads-ouster-state-media?traffic_source=rss",
       "prayer": "Syrians amid government reshuffling tensions, economic hardship, minority representation concerns, and ongoing transitional justice trials"
-    },
-    {
-      "wp_id": 2781,
-      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-iran-05-10-2026-strait-of-hormuz/",
-      "date": "2026-05-10T16:34:59",
-      "title": "Coup/Crisis in Iran 05/10/2026 — Strait of Hormuz",
-      "body": "An Iranian military spokesman issued a public warning that any future attack on Iran would be met with what he called \"surprising\" new methods of warfare and retaliation in arenas not previously used. The statement did n",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Coup or Crisis",
-      "lat": 27.0675,
-      "lng": 56.46,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/iran-military-warns-of-surprising-methods-of-warfare-if-attacked-again?traffic_source=rss",
-      "prayer": "Civilians and supply chains across the Persian Gulf region threatened by potential Strait of Hormuz closure amid rising tensions in Iran"
-    },
-    {
-      "wp_id": 2780,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-qatar-05-10-2026-mesaieed/",
-      "date": "2026-05-10T16:34:48",
-      "title": "Armed Conflict in Qatar 05/10/2026 — Mesaieed",
-      "body": "A drone struck a cargo ship in Qatari waters on Sunday, starting a fire that crews brought under control before the vessel reached the port of Mesaieed. Kuwait reported detecting several hostile drones in its airspace at",
-      "country": "Qatar",
-      "countries": [
-        "Qatar",
-        "Kuwait",
-        "United Arab Emirates",
-        "Iran"
-      ],
-      "type": "Armed Conflict",
-      "lat": 24.995947,
-      "lng": 51.54646,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks?traffic_source=rss",
-      "prayer": "Gulf region nations facing drone attacks on ships and airspace amid fragile ceasefire and escalating tensions"
-    },
-    {
-      "wp_id": 2779,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-lebanon-lebanon/",
-      "date": "2026-05-10T16:34:35",
-      "title": "Armed Conflict in Lebanon — Lebanon",
-      "body": "At least 39 people were killed in a single day of Israeli airstrikes across Lebanon, according to reporting by Al Jazeera. The strikes wiped out entire families in attacks described as occurring during a so-called ceasef",
-      "country": "Lebanon",
-      "countries": [
-        "Lebanon"
-      ],
-      "type": "Armed Conflict",
-      "lat": 33.920265,
-      "lng": 35.888026,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/stories-of-those-killed-in-a-single-day-of-israeli-strikes-on-lebanon?traffic_source=rss",
-      "prayer": "Dozens of civilians in Lebanon killed by airstrikes, with entire families lost during a ceasefire period"
-    },
-    {
-      "wp_id": 2778,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-palestine-10-11-2024-jabalia-refugee-camp/",
-      "date": "2026-05-10T16:34:27",
-      "title": "Armed Conflict in Palestine 10/11/2024 — Jabalia refugee camp",
-      "body": "An Israeli airstrike on a multistorey home in the Jabalia refugee camp in northern Gaza killed an entire family on October 11, 2024, leaving a teenage boy as the sole survivor and caregiver for his elderly grandmother. T",
-      "country": "Palestine",
-      "countries": [
-        "Palestine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 31.528114,
-      "lng": 34.48394,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/features/2026/5/10/football-on-ruins-gazas-orphans-find-refuge-on-the-pitch?traffic_source=rss"
-    },
-    {
-      "wp_id": 2777,
-      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-iran-05-10-2026-tehran/",
-      "date": "2026-05-10T16:34:15",
-      "title": "Coup/Crisis in Iran 05/10/2026 — Tehran",
-      "body": "Iran has sent its response to a United States ceasefire proposal through Pakistan, which is acting as a go-between in the talks. The message was relayed through state media in Tehran. Iranian officials have said any nego",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Coup or Crisis",
-      "lat": 35.696,
-      "lng": 51.401,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/10/iran-sends-response-to-us-ceasefire-proposal-via-pakistan?traffic_source=rss",
-      "prayer": "Civilians in Iran amid ongoing conflict and uncertain ceasefire negotiations with the United States"
-    },
-    {
-      "wp_id": 2776,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-russia-05-10-2026-donbas/",
-      "date": "2026-05-10T16:34:06",
-      "title": "Armed Conflict in Russia 05/10/2026 — Donbas",
-      "body": "Russia and Ukraine are observing a short three-day ceasefire backed by the United States, even as fighting continues. Ukrainian officials reported that Russian attacks killed at least three people on Sunday, and nearly 1",
-      "country": "Russia",
-      "countries": [
-        "Russia",
-        "Ukraine"
-      ],
-      "type": "Armed Conflict",
-      "lat": 55.118594,
-      "lng": 61.373213,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/5/10/putin-hints-at-ending-russias-war-in-ukraine-but-why-now?traffic_source=rss",
-      "prayer": "Civilians and soldiers in Ukraine enduring ongoing combat and casualties despite a fragile ceasefire in Donbas"
-    },
-    {
-      "wp_id": 2744,
-      "wp_link": "https://globalwitnessmonitor.com/other-in-united-states-denver-international-airport/",
-      "date": "2026-05-09T19:08:05",
-      "title": "Other in United States — Denver International Airport",
-      "body": "A person was killed Friday night at Denver International Airport after jumping a perimeter fence onto an active runway and being struck by a departing Frontier Airlines plane. The aircraft was accelerating for takeoff to",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Other",
-      "lat": 39.780834,
-      "lng": -104.794682,
-      "source_title": "BBC News",
-      "source_url": "https://www.bbc.com/news/articles/c5y95782wyko?at_medium=RSS&at_campaign=rss",
-      "prayer": "Family of a person killed at a United States airport after breaching runway perimeter and being struck by an aircraft"
-    },
-    {
-      "wp_id": 2743,
-      "wp_link": "https://globalwitnessmonitor.com/displacement-in-lebanon-sidon/",
-      "date": "2026-05-09T19:07:44",
-      "title": "Displacement in Lebanon — Sidon",
-      "body": "More than 1.5 million people in Lebanon remain displaced even though a ceasefire is in place. Many are from southern Lebanon, where residents of around 80 towns have been told not to return home. The United Nations point",
-      "country": "Lebanon",
-      "countries": [
-        "Lebanon"
-      ],
-      "type": "Displacement",
-      "lat": 33.563423,
-      "lng": 35.371685,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/5/9/displaced-lebanese-children-keep-learning-amid-displacement-2?traffic_source=rss",
-      "prayer": "Over 1.5 million displaced people in Lebanon unable to return home amid ongoing insecurity and lack of basic services"
-    },
-    {
-      "wp_id": 2742,
-      "wp_link": "https://globalwitnessmonitor.com/coup-or-crisis-in-iran-05-09-2026/",
-      "date": "2026-05-09T19:07:35",
-      "title": "Coup or Crisis in Iran 05/09/2026",
-      "body": "Iran's football federation has confirmed the national men's team intends to play in the 2026 World Cup, but issued a list of conditions that the host countries — the United States, Mexico, and Canada — must meet. The con",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Coup or Crisis",
-      "lat": null,
-      "lng": null,
-      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "source_url": "https://www.aljazeera.com/sports/2026/5/9/iran-says-it-will-play-at-2026-world-cup-if-hosts-address-concerns?traffic_source=rss",
-      "prayer": "Iran's national football team and staff facing uncertain World Cup participation amid ongoing conflict and visa concerns"
     }
   ]
 }
