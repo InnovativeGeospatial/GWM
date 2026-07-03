@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-02T13:33:00.596166+00:00",
-  "count": 952,
+  "updated": "2026-07-03T13:28:44.924001+00:00",
+  "count": 961,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8099,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-02-2026/",
+      "date": "2026-07-03T13:27:19",
+      "title": "Wildfire in France 07/02/2026",
+      "country": "France",
+      "type": "Wildfire",
+      "lat": 42.724953,
+      "lng": 3.016082
+    },
+    {
+      "wp_id": 8098,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-07-01-2026-2/",
+      "date": "2026-07-03T13:25:56",
+      "title": "Wildfire in Greece 07/01/2026",
+      "country": "Greece",
+      "type": "Wildfire",
+      "lat": 40.633987,
+      "lng": 22.944689
+    },
+    {
+      "wp_id": 8097,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-01-2026/",
+      "date": "2026-07-03T13:25:17",
+      "title": "Wildfire in United States 07/01/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 47.889898,
+      "lng": -120.21476
+    },
+    {
+      "wp_id": 8096,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-07-01-2026/",
+      "date": "2026-07-03T13:21:55",
+      "title": "Flood in Ghana 07/01/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 5.58505,
+      "lng": -0.210768
+    },
+    {
+      "wp_id": 8095,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-07-02-2026/",
+      "date": "2026-07-03T13:20:52",
+      "title": "Flood in Canada 07/02/2026",
+      "country": "Canada",
+      "type": "Flood",
+      "lat": 51.516667,
+      "lng": -101.8
+    },
+    {
+      "wp_id": 8094,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-07-03-2026/",
+      "date": "2026-07-03T13:19:12",
+      "title": "Disease in Congo 07/03/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -3.511863,
+      "lng": 29.104251
+    },
+    {
+      "wp_id": 8093,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-portugal-07-03-2026/",
+      "date": "2026-07-03T13:04:36",
+      "title": "Heatwave in Portugal 07/03/2026",
+      "country": "Portugal",
+      "type": "Heatwave",
+      "lat": 38.7173,
+      "lng": -9.14305
+    },
+    {
+      "wp_id": 8092,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-07-01-2026-magnitude-5/",
+      "date": "2026-07-03T13:03:03",
+      "title": "Earthquake in Peru 07/01/2026 — Magnitude 5",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -8.930772,
+      "lng": -74.705605
+    },
+    {
+      "wp_id": 8091,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-07-03-2026-magnitude-6/",
+      "date": "2026-07-03T13:00:50",
+      "title": "Earthquake in Russia 07/03/2026 — Magnitude 6",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 50.67055,
+      "lng": 156.11896
+    },
     {
       "wp_id": 7996,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-07-01-2026/",
