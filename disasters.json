@@ -1,9 +1,207 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-07T03:03:27.338245+00:00",
-  "count": 949,
+  "updated": "2026-07-07T04:41:31.449222+00:00",
+  "count": 960,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8258,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-vietnam-07-07-2026/",
+      "date": "2026-07-07T04:39:19",
+      "title": "Storm in Vietnam 07/07/2026",
+      "body": "On July 6, 2026, Typhoon Maysak struck northern Vietnam, making landfall along the northern coast before moving into China. In the border town of Mong Cai, the storm brought down trees and ripped metal roofs from buildin",
+      "country": "Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "type": "Storm",
+      "lat": 21.963205,
+      "lng": 104.63321,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUXpjYVFhWV9aMXo0UnhET3A3N2pjMy1ueXJJN1ltV2xieTlQaXFOcTdmWnM4MDhfSUt5bC1yTzQxVTVoZUV1eWN0UzBIRjFQbHFVQ25lTEZKb0daY1FJUk5hU3JGQzBTOGJ6R3JGSmVheDJQc0tqVGFSODJTZ3lVVXZVVmhmTW02T2lKQ2NhYlJWdm9RcVotSWlRbDM0Wksy?oc=5",
+      "prayer": "Northern Vietnamese communities in Mong Cai, Quang Ninh, Lao Cai, and Cao Bang hit by Typhoon Maysak floods and landslides",
+      "alert_summary": "Typhoon Maysak made landfall in northern Vietnam on July 6, 2026, damaging at least 107 homes and destroying over 79 hectares of crops across Lao Cai and Cao Bang provinces."
+    },
+    {
+      "wp_id": 8257,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-06-2026-2/",
+      "date": "2026-07-07T04:32:32",
+      "title": "Wildfire in France 07/06/2026",
+      "body": "On July 6, 2026, French authorities evacuated around 10,000 people from 24 towns and villages in the country's southwest near the Spanish border as wildfires continued to spread. The blaze injured 16 people, including fo",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Wildfire",
+      "lat": 42.69949,
+      "lng": 2.894455,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMLTJwOW5KVkdnTkhSNElTeVVkTmJlai03U2tMbm9NY056cTE3cjh6SEFIdXlxOHFoM0FFazNsTXg0aVk4bWNTb2ZXSHpJcm43ZFRBQkFlSml3UQ?oc=5",
+      "prayer": "Residents of 24 towns and villages in the French Pyrenees displaced by an out-of-control wildfire",
+      "alert_summary": "A wildfire near Trévillach, Pyrénées-Orientales forced the evacuation of 10,000 people from 24 towns and villages, injuring 16."
+    },
+    {
+      "wp_id": 8256,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-07-2026/",
+      "date": "2026-07-07T04:32:00",
+      "title": "Wildfire in United States 07/07/2026",
+      "body": "The Mora Fire ignited at approximately 11:16 p.m. on July 5, 2026, spreading rapidly through dry grass and sagebrush on the hillsides near Kuna Butte, Idaho. Strong winds fueled active fire behavior overnight, creating d",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 43.490697,
+      "lng": -116.417967,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa28td1UzVFpqaUNPdDM1WEpwalRac3JJOU9vb1BNX29abDQ1WTNiWmRoaUhsUEZRbWJkdFR3T0lGREpqUUx1bVk0Rm0xa3ZUdVd4WEg3ai1yLWhLeVBUdHpnWGVIZFpjaEFtZVFkb1BCVEo5amlpUzFMX2FNVmo5cHFRZDNhVzlKV1czbGkyazFWcmZLVm5iNWFZdw?oc=5",
+      "prayer": "Residents near Kuna Butte, Idaho, after a wildfire destroyed structures and threatened homes",
+      "alert_summary": "A wildfire near Kuna Butte, Idaho burned 2,426 acres, destroying one livestock structure and damaging an outbuilding."
+    },
+    {
+      "wp_id": 8255,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-07-06-2026/",
+      "date": "2026-07-07T04:30:58",
+      "title": "Flood in Nepal 07/06/2026",
+      "body": "Following heavy rainfall on Saturday, July 5, 2026, floodwater entered the temporary tents at the Radhaswami Holding Centre in Kirtipur, affecting 167 people from 67 displaced families who have been sleeping on the groun",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 27.674793,
+      "lng": 85.277756,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoTTFQVkVTekp2eXY2ZGNTdlFaNzQ5QkViNDRVTE1jc1lxYlF3MVhFZm96REhIclB4d2VVQ0FUY1RWS1ZzT29mb1pOR2ZXRTNZeVE2aHhEWmo?oc=5",
+      "prayer": "Landless families in Kirtipur — including infants, new mothers, and the elderly — sheltering in flood-inundated tents with no permanent home in sight",
+      "alert_summary": "Monsoon flooding entered tents at the Radhaswami Holding Centre in Kirtipur, affecting 167 people from 67 displaced families."
+    },
+    {
+      "wp_id": 8254,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-06-2026/",
+      "date": "2026-07-07T04:30:34",
+      "title": "Storm in China 07/06/2026",
+      "body": "On July 6, 2026, flooding triggered by Typhoon Maysak killed at least two people in Nanning, the capital of China's Guangxi Zhuang Autonomous Region, as rivers and reservoirs swelled with the storm's passage. Around 55,0",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS3pxbjhNRy1Xd0dTT2hiSjZzWDhxWkxVVE9TV3pHSFBZUlpoZW9VeFlGLW8taTdJdG9HajRKdlM0bHZtZjlmUXZmU3I0eWhUNU5uLWhUR290NmZ3b3ZSb0FKRVpxT0d1RTlZTlJMeGZzZXZlanM4RU1aZWMzdkw2ZFRpWGR2a254NjVKVm9xMk1jTFlmalhUdExSbzF1V2gwdWROTlc1Vkt4R0UxbTYyNmtVVzVLTU1ENWNVSHJxQS1vRHhDZWFkUVRVdFVCMURR?oc=5",
+      "prayer": "Residents of Guangxi facing deaths, reservoir breaches, and displacement from Typhoon Maysak floodwaters",
+      "alert_summary": "Typhoon Maysak triggered flooding across Guangxi, killing at least 2 in Nanning and prompting evacuation of approximately 48,000 people."
+    },
+    {
+      "wp_id": 8253,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-06-2026-2/",
+      "date": "2026-07-07T04:28:14",
+      "title": "Flood in United States 07/06/2026",
+      "body": "On July 3, 2026, flash flooding struck Des Moines, Iowa after more than a foot of rain fell in some parts of central Iowa, causing creeks to rise several feet in a matter of hours. Most of the rain fell overnight Thursda",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 41.584997,
+      "lng": -93.624273,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaURUaks0bzhxSjdqMzNoNzlQVWg0VVFEaDRQRGdtNjd4Zm5lajR2RUFGU0FFTldaZWtSRTdSUkIzYk5PT2dnTUVIM181bWNNbzQ2cEwzVUlsOWl4LXNOMHpwNG1JMjBhWnhCNXpFUVF2R2hyeGl4QkQ2aDNkYlV5TGt4UnJOeF9YS05lN251eEhib1huVnZ5LUtEOXZfNnNhdWMtZWRXRDlXUnVJall4ZkNjenVjMHZzamJJM1llM0xQTlU2UUZYc1VXTTBIYzdMYlJaSFVPTVcwZGtJeTNpWG1mVng4QVp0Rlh0eDYweVJoUUk?oc=5",
+      "prayer": "Residents of Des Moines evacuated from homes and neighborhoods after Fourmile Creek flooded",
+      "alert_summary": "Flash flooding from Fourmile Creek in Des Moines forced evacuations of apartments and a hospice facility on July 3, 2026; over 100 people were evacuated."
+    },
+    {
+      "wp_id": 8252,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-united-states-07-05-2026-2/",
+      "date": "2026-07-07T04:27:53",
+      "title": "Heatwave in United States 07/05/2026",
+      "body": "At least 25 people are suspected to have died in New Jersey from a multi-day heatwave that enveloped a large portion of the country leading up to and over the Fourth of July holiday weekend. The 25 confirmed deaths as of",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Heatwave",
+      "lat": 40.150248,
+      "lng": -74.389317,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX2lEMnZ2Zk9INVBUbWhkYkY2bTExMDIzZGhzTGR6OFN6WjR6Um9DOTlPWWRTNmY3cnFpRjN2clEtcThyZ2hIMEE0djg0c2NrTl9HV3hUQzRaWDhVRlpmWnRObUFULUp1NnNrSHgxUWhKMm5tTWl4QTA1NU4tcG1uQU9DMUIyaG1xbmNORF92Ty11WERQc2NfVUpSc3MxRTlVTGI1QVVzYUxkby1nYUZKaVBtMDBycjM00gG-AUFVX3lxTE5iUFZ0OTMyRXpzY2VOR3g3T2RhTnkyZnV3OGdpRTlFb05RNGE4YW01U0xoMW15X2NvcXNHci1OUE5LQk5iZGVIeTlDNVdVcF9KNlBqQUZDUXU0cnQ4ck5jVFYzU3dHSVNCbjhLalNaMlVDZDg0bVozYVkxeDNwMEE1MWxxZVRaRGl2cjdZR0NzS0p5VjB5aDJWR2poWTNRaktoYWdLeWxwX1J6a2xway1mWWdmNldwcG8zVmdidmc?oc=5",
+      "prayer": "New Jersey residents — including those without air conditioning — who lost their lives or remain at risk in the July 4th weekend heatwave",
+      "alert_summary": "A multi-day heatwave across New Jersey killed at least 25 people over the July 4th weekend, with the death toll spread across 10 counties."
+    },
+    {
+      "wp_id": 8251,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-china-07-07-2026/",
+      "date": "2026-07-07T04:26:43",
+      "title": "Landslide in China 07/07/2026",
+      "body": "On Tuesday, July 7, 2026, a landslide struck a mountainous area of Gansu province in western China, trapping 33 people. Seventeen have been pulled out alive, but 16 remain buried. The cause of the landslide was not confi",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Landslide",
+      "lat": 38.242432,
+      "lng": 102.262904,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/7/at-least-people-buried-following-landslide-in-china?traffic_source=rss",
+      "prayer": "16 people still buried under a landslide in Gansu, China, and families awaiting news",
+      "alert_summary": "A landslide in Gansu province buried 33 people; 16 remain trapped and 17 have been rescued."
+    },
+    {
+      "wp_id": 8250,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-russia-07-06-2026/",
+      "date": "2026-07-07T04:23:47",
+      "title": "Heatwave in Russia 07/06/2026",
+      "body": "On July 6, 2026, Russia's national weather authority issued an alert stating that anomalously hot conditions with temperatures at or above 30°C would persist across the country. No casualty or displacement figures were i",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Heatwave",
+      "lat": 61.994573,
+      "lng": 96.669705,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260706130239-0235109.xml",
+      "prayer": "Residents across Russia enduring an anomalous heatwave with temperatures at or above 30°C",
+      "alert_summary": "A heatwave with temperatures reaching 30°C and above is affecting Russia; no casualty figure reported."
+    },
+    {
+      "wp_id": 8249,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-07-05-2026-magnitude-6/",
+      "date": "2026-07-07T04:19:23",
+      "title": "Earthquake in Fiji 07/05/2026 — Magnitude 6",
+      "body": "On July 5, 2026, a magnitude 5.8 earthquake was detected 274 km southeast of Levuka, Fiji. The earthquake occurred at a depth of approximately 686 kilometers. Because of that very great depth, the shaking at the surface ",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Earthquake",
+      "lat": -19.9807,
+      "lng": -179.03,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta9m",
+      "prayer": "Communities in Fiji's southern islands after a deep-focus earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5.8 earthquake struck 274 km southeast of Levuka, Fiji, at a depth of about 686 km; no casualties reported."
+    },
+    {
+      "wp_id": 8248,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-07-06-2026-magnitude-5/",
+      "date": "2026-07-07T04:18:32",
+      "title": "Earthquake in Philippines 07/06/2026 — Magnitude 5",
+      "body": "On July 6, 2026, a magnitude 5.4 earthquake struck at a depth of about 35 km, with its epicenter near Malapatan, in the Province of Sarangani, Soccsksargen region of the Philippines. The quake occurred about 30 minutes a",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadj",
+      "prayer": "Residents near Sarangani, Philippines after a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5.4 earthquake struck 65 km south-southwest of Sarangani, Philippines on July 6, 2026; no casualties reported."
+    },
     {
       "wp_id": 8211,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-05-2026/",
