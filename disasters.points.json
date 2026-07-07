@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-07T03:03:29.144566+00:00",
-  "count": 974,
+  "updated": "2026-07-07T04:41:33.150426+00:00",
+  "count": 985,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8258,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-vietnam-07-07-2026/",
+      "date": "2026-07-07T04:39:19",
+      "title": "Storm in Vietnam 07/07/2026",
+      "country": "Vietnam",
+      "type": "Storm",
+      "lat": 21.963205,
+      "lng": 104.63321
+    },
+    {
+      "wp_id": 8257,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-06-2026-2/",
+      "date": "2026-07-07T04:32:32",
+      "title": "Wildfire in France 07/06/2026",
+      "country": "France",
+      "type": "Wildfire",
+      "lat": 42.69949,
+      "lng": 2.894455
+    },
+    {
+      "wp_id": 8256,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-07-2026/",
+      "date": "2026-07-07T04:32:00",
+      "title": "Wildfire in United States 07/07/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 43.490697,
+      "lng": -116.417967
+    },
+    {
+      "wp_id": 8255,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-07-06-2026/",
+      "date": "2026-07-07T04:30:58",
+      "title": "Flood in Nepal 07/06/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 27.674793,
+      "lng": 85.277756
+    },
+    {
+      "wp_id": 8254,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-06-2026/",
+      "date": "2026-07-07T04:30:34",
+      "title": "Storm in China 07/06/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875
+    },
+    {
+      "wp_id": 8253,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-06-2026-2/",
+      "date": "2026-07-07T04:28:14",
+      "title": "Flood in United States 07/06/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 41.584997,
+      "lng": -93.624273
+    },
+    {
+      "wp_id": 8252,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-united-states-07-05-2026-2/",
+      "date": "2026-07-07T04:27:53",
+      "title": "Heatwave in United States 07/05/2026",
+      "country": "United States",
+      "type": "Heatwave",
+      "lat": 40.150248,
+      "lng": -74.389317
+    },
+    {
+      "wp_id": 8251,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-china-07-07-2026/",
+      "date": "2026-07-07T04:26:43",
+      "title": "Landslide in China 07/07/2026",
+      "country": "China",
+      "type": "Landslide",
+      "lat": 38.242432,
+      "lng": 102.262904
+    },
+    {
+      "wp_id": 8250,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-russia-07-06-2026/",
+      "date": "2026-07-07T04:23:47",
+      "title": "Heatwave in Russia 07/06/2026",
+      "country": "Russia",
+      "type": "Heatwave",
+      "lat": 61.994573,
+      "lng": 96.669705
+    },
+    {
+      "wp_id": 8249,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-07-05-2026-magnitude-6/",
+      "date": "2026-07-07T04:19:23",
+      "title": "Earthquake in Fiji 07/05/2026 — Magnitude 6",
+      "country": "Fiji",
+      "type": "Earthquake",
+      "lat": -19.9807,
+      "lng": -179.03
+    },
+    {
+      "wp_id": 8248,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-07-06-2026-magnitude-5/",
+      "date": "2026-07-07T04:18:32",
+      "title": "Earthquake in Philippines 07/06/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 6.102783,
+      "lng": 125.292031
+    },
     {
       "wp_id": 8211,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-05-2026/",
