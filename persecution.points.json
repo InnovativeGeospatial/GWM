@@ -1,9 +1,209 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-03T13:34:00.131544+00:00",
-  "count": 250,
+  "updated": "2026-07-07T05:00:35.774044+00:00",
+  "count": 270,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8271,
+      "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-after-nine-months-eight-co-workers-remain-imprisoned-in-china/",
+      "date": "2026-07-07T05:00:27",
+      "title": "China releases detained house church pastor after nearly nine months; eight co-leaders remain imprisoned",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8282,
+      "wp_link": "https://globalwitnessmonitor.com/elderly-catholic-bishop-detained-after-defying-mass-ban-in-nicaragua-2/",
+      "date": "2026-07-07T05:00:08",
+      "title": "Catholic Bishop and Three Church Leaders Arbitrarily Detained in Nicaragua After Public Prayer for Persecuted Church",
+      "country": "nicaragua",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": -85.2
+    },
+    {
+      "wp_id": 8319,
+      "wp_link": "https://globalwitnessmonitor.com/irans-irgc-moves-to-seize-nations-oldest-protestant-church-threatening-20-christian-families-with-eviction/",
+      "date": "2026-07-07T04:59:48",
+      "title": "Iran's IRGC Moves to Seize Nation's Oldest Protestant Church, Threatening 20 Christian Families With Eviction",
+      "country": "iran",
+      "type": "displacement",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8318,
+      "wp_link": "https://globalwitnessmonitor.com/iranian-appeals-court-upholds-combined-55-year-sentence-against-five-christian-converts/",
+      "date": "2026-07-07T04:59:22",
+      "title": "Iranian Appeals Court Upholds Combined 55-Year Sentence Against Five Christian Converts",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8275,
+      "wp_link": "https://globalwitnessmonitor.com/advocates-call-for-independent-probe-into-blasphemy-laws-after-christian-dies-in-custody-in-pakistan/",
+      "date": "2026-07-07T04:59:03",
+      "title": "Christian man dies in Pakistani custody after nearly a year detained on unproven blasphemy charge",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8296,
+      "wp_link": "https://globalwitnessmonitor.com/underground-house-church-pastor-released-after-nine-months-in-chinese-detention/",
+      "date": "2026-07-07T04:58:02",
+      "title": "Underground Church Pastor Released After Nine Months in Chinese Detention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8311,
+      "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-from-chinese-detention-after-8-plus-months-dozens-still-held/",
+      "date": "2026-07-07T04:57:08",
+      "title": "Underground Church Pastor Released from Chinese Detention After 8-Plus Months; Dozens Still Held",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8303,
+      "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-after-nine-months-in-chinese-detention-eight-believers-still-held/",
+      "date": "2026-07-07T04:54:58",
+      "title": "Underground Church Pastor Released After Nine Months in Chinese Detention, Eight Believers Still Held",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8301,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-released-after-months-in-detention-as-8-co-believers-remain-jailed/",
+      "date": "2026-07-07T04:54:26",
+      "title": "House Church Pastor Released After Months in Detention as 8 Co-Believers Remain Jailed",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8272,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-released-after-nine-months-in-chinese-detention-following-u-s-diplomatic-pressure/",
+      "date": "2026-07-07T04:51:55",
+      "title": "Underground Church Pastor Released After Nine Months in Chinese Detention Following U.S. Diplomatic Pressure",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8259,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-acquitted-after-two-years-in-pakistani-blasphemy-detention-family-remains-displaced/",
+      "date": "2026-07-07T04:51:13",
+      "title": "Pakistani Catholic Dies in Custody After Nearly a Year Under False Blasphemy Charge",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8288,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-demolish-unregistered-church-detain-dozens-of-believers-force-out-foreign-press/",
+      "date": "2026-07-07T04:50:35",
+      "title": "Chinese Authorities Demolish Unregistered Church, Detain Dozens of Believers, Force Out Foreign Press",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8286,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-freed-after-250-days-in-chinese-detention-members-still-held/",
+      "date": "2026-07-07T04:49:57",
+      "title": "House Church Pastor Freed After 250 Days in Chinese Detention; Members Still Held",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8285,
+      "wp_link": "https://globalwitnessmonitor.com/underground-house-church-pastor-released-from-chinese-prison-at-least-8-members-remain-detained/",
+      "date": "2026-07-07T04:49:42",
+      "title": "Underground House Church Pastor Released from Chinese Prison; At Least 8 Members Remain Detained",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8279,
+      "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-after-months-in-chinese-custody-dozens-still-detained/",
+      "date": "2026-07-07T04:47:53",
+      "title": "Underground Church Pastor Released After Months in Chinese Custody; Dozens Still Detained",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8277,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-church-worshippers-freed-after-67-days-pastor-killed-one-captive-dead/",
+      "date": "2026-07-07T04:47:09",
+      "title": "Nigerian Church Worshippers Freed After 67 Days; Pastor Killed, One Captive Dead",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8276,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-abduct-eight-christians-return-two-weeks-later-to-seize-elderly-believer-in-nigeria/",
+      "date": "2026-07-07T04:46:49",
+      "title": "Fulani Militia Abduct Eight Christians, Return Two Weeks Later to Seize Elderly Believer in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8262,
+      "wp_link": "https://globalwitnessmonitor.com/woman-among-19-christians-detained-in-north-korea-for-underground-church-remains-imprisoned-after-two-decades/",
+      "date": "2026-07-07T04:44:29",
+      "title": "Woman Among 19 Christians Detained Since 2004 Remains Imprisoned in North Korea",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
+    {
+      "wp_id": 8261,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-pastor-released-after-eight-months-eight-co-leaders-remain-imprisoned-2/",
+      "date": "2026-07-07T04:43:06",
+      "title": "Chinese Pastor Released After Eight Months, Eight Co-Leaders Remain Imprisoned",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8260,
+      "wp_link": "https://globalwitnessmonitor.com/eight-christian-campus-fellowship-leaders-missing-three-weeks-after-abduction-in-nigeria/",
+      "date": "2026-07-07T04:42:53",
+      "title": "Eight Christian Campus Fellowship Leaders Missing Three Weeks After Abduction in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
     {
       "wp_id": 8111,
       "wp_link": "https://globalwitnessmonitor.com/catholic-priest-and-peace-mediator-killed-in-armed-attack-amid-worsening-security-crisis/",
