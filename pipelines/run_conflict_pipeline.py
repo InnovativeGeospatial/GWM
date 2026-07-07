@@ -1123,7 +1123,7 @@ def generate_article_enriched(item, firmer=False):
         msg = client.messages.create(
             model="claude-sonnet-4-6", max_tokens=1500, system=ENRICH_SYSTEM,
             messages=[{"role": "user", "content": up}],
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
         )
         text = _enrich_strip(_enrich_extract(msg))
         if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
