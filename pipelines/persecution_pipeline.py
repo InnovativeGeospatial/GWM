@@ -1049,6 +1049,28 @@ def load_recent_wp_posts(days=30):
     return posts
 
 
+_COUNTRY_ADJ = {
+    "china": ("china", "chinese"), "iran": ("iran", "iranian"),
+    "india": ("india", "indian"), "nigeria": ("nigeria", "nigerian"),
+    "pakistan": ("pakistan", "pakistani"), "russia": ("russia", "russian"),
+    "north korea": ("north korea", "north korean"),
+    "afghanistan": ("afghanistan", "afghan"), "sudan": ("sudan", "sudanese"),
+    "egypt": ("egypt", "egyptian"), "turkey": ("turkey", "turkish"),
+    "syria": ("syria", "syrian"), "iraq": ("iraq", "iraqi"),
+    "myanmar": ("myanmar", "burma", "burmese"), "eritrea": ("eritrea", "eritrean"),
+    "somalia": ("somalia", "somali"), "yemen": ("yemen", "yemeni"),
+    "libya": ("libya", "libyan"), "algeria": ("algeria", "algerian"),
+    "ethiopia": ("ethiopia", "ethiopian"), "vietnam": ("vietnam", "vietnamese"),
+    "laos": ("laos", "laotian"), "indonesia": ("indonesia", "indonesian"),
+}
+
+
+def _country_in(country_lower, title):
+    tl = title.lower()
+    forms = _COUNTRY_ADJ.get(country_lower, (country_lower,))
+    return any(f in tl for f in forms)
+
+
 def find_existing_post_id(candidate_title, candidate_country=None,
                           threshold=DEDUP_TITLE_THRESHOLD):
     """Return the WP id of a recent post that is the same story, else None.
@@ -1061,8 +1083,7 @@ def find_existing_post_id(candidate_title, candidate_country=None,
         sim = title_similarity(candidate_title, existing)
         if sim >= threshold:
             return p['id']
-        if (cl and sim >= DEDUP_SAME_COUNTRY_THRESHOLD
-                and cl in cand_l and cl in existing.lower()):
+        if cl and sim >= DEDUP_SAME_COUNTRY_THRESHOLD and _country_in(cl, existing):
             return p['id']
     return None
 
