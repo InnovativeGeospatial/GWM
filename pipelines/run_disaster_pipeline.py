@@ -845,15 +845,11 @@ def _eq_signatures(country, lat, lng, mag):
     and title formats collapses to one. Returns coordinate- and country-based
     signature strings to register/check."""
     sigs = []
-    magpart = ("%.1f" % mag) if isinstance(mag, (int, float)) else "?"
     try:
         if lat is not None and lng is not None:
-            sigs.append("EQ|%.1f|%.1f|%s" % (round(float(lat), 1),
-                                             round(float(lng), 1), magpart))
+            sigs.append("EQ|%.0f|%.0f" % (round(float(lat)), round(float(lng))))
     except (TypeError, ValueError):
         pass
-    if country:
-        sigs.append("EQ|%s|%s" % (str(country).lower(), magpart))
     return sigs
 
 
@@ -1534,7 +1530,7 @@ def generate_article_enriched(item, firmer=False):
         msg = client.messages.create(
             model="claude-sonnet-4-6", max_tokens=1500, system=ENRICH_SYSTEM,
             messages=[{"role": "user", "content": up}],
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
         )
         text = _enrich_strip(_enrich_extract(msg))
         if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
