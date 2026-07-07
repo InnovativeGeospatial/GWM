@@ -1151,7 +1151,7 @@ def _persecution_enrich(article):
         msg = client.messages.create(
             model=ENRICH_MODEL, max_tokens=1200, system=sys_prompt,
             messages=[{'role': 'user', 'content': prompt}],
-            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 2}],
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
         )
         text = _enrich_strip(_enrich_extract(msg))
         if (not text) or text.upper().startswith("SKIP_NO_EVENT"):
