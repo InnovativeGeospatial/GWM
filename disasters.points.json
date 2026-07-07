@@ -1,9 +1,139 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-03T13:28:44.924001+00:00",
-  "count": 961,
+  "updated": "2026-07-07T03:03:29.144566+00:00",
+  "count": 974,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8211,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-05-2026/",
+      "date": "2026-07-07T03:03:06",
+      "title": "Flood in Philippines 07/05/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 6.220032,
+      "lng": 125.06454
+    },
+    {
+      "wp_id": 8210,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-united-states-07-05-2026/",
+      "date": "2026-07-07T02:57:00",
+      "title": "Heatwave in United States 07/05/2026",
+      "country": "United States",
+      "type": "Heatwave",
+      "lat": 40.150248,
+      "lng": -74.389317
+    },
+    {
+      "wp_id": 8209,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-07-06-2026/",
+      "date": "2026-07-07T02:55:25",
+      "title": "Flood in China 07/06/2026",
+      "country": "China",
+      "type": "Flood",
+      "lat": 22.818563,
+      "lng": 108.3631
+    },
+    {
+      "wp_id": 8208,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-06-2026/",
+      "date": "2026-07-07T02:54:13",
+      "title": "Flood in United States 07/06/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 41.584997,
+      "lng": -93.624273
+    },
+    {
+      "wp_id": 8207,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-01-2026-magnitude-7/",
+      "date": "2026-07-07T02:53:27",
+      "title": "Earthquake in Venezuela 07/01/2026 — Magnitude 7",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641
+    },
+    {
+      "wp_id": 8206,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-01-2026/",
+      "date": "2026-07-07T02:53:12",
+      "title": "Earthquake in Venezuela 07/01/2026",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641
+    },
+    {
+      "wp_id": 8205,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-07-06-2026-cat-4/",
+      "date": "2026-07-07T02:50:41",
+      "title": "Storm in United States 07/06/2026 — Cat 4",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 39.381266,
+      "lng": -97.922211
+    },
+    {
+      "wp_id": 8204,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-06-2026/",
+      "date": "2026-07-07T02:50:18",
+      "title": "Wildfire in France 07/06/2026",
+      "country": "France",
+      "type": "Wildfire",
+      "lat": 42.70829,
+      "lng": 2.530257
+    },
+    {
+      "wp_id": 8203,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-italy-07-06-2026/",
+      "date": "2026-07-07T02:49:30",
+      "title": "Volcano in Italy 07/06/2026",
+      "country": "Italy",
+      "type": "Volcano",
+      "lat": 38.111227,
+      "lng": 13.352443
+    },
+    {
+      "wp_id": 8202,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-new-zealand-07-06-2026/",
+      "date": "2026-07-07T02:41:01",
+      "title": "Flood in New Zealand 07/06/2026",
+      "country": "New Zealand",
+      "type": "Flood",
+      "lat": -42.399475,
+      "lng": 173.67992
+    },
+    {
+      "wp_id": 8201,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-07-04-2026-magnitude-5/",
+      "date": "2026-07-07T02:37:11",
+      "title": "Earthquake in Papua New Guinea 07/04/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.5049,
+      "lng": 147.103
+    },
+    {
+      "wp_id": 8200,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-07-06-2026-magnitude-5/",
+      "date": "2026-07-07T02:34:34",
+      "title": "Earthquake in Chile 07/06/2026 — Magnitude 5",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -32.448963,
+      "lng": -71.231346
+    },
+    {
+      "wp_id": 8199,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-07-07-2026-magnitude-6/",
+      "date": "2026-07-07T02:34:14",
+      "title": "Earthquake in Argentina 07/07/2026 — Magnitude 6",
+      "country": "Argentina",
+      "type": "Earthquake",
+      "lat": -57.3319,
+      "lng": -66.7593
+    },
     {
       "wp_id": 8099,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-02-2026/",
