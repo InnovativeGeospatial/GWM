@@ -736,17 +736,20 @@ def is_duplicate_published_event(country, dtype, candidate_title):
                  "magnitude", "earthquake", "quake", "flood", "storm",
                  "wildfire", "volcano", "tsunami", "landslide", "drought"}
     candidate_tokens -= stopwords
+    country_l = country.lower()
     for existing in recent:
         existing_lower = existing.lower()
-        if existing_lower.startswith(expected_prefix):
-            existing_tokens = set(existing_lower.split()) - stopwords
-            if not candidate_tokens or not existing_tokens:
-                continue
-            overlap = len(candidate_tokens & existing_tokens)
-            if overlap >= 1:
-                log.info("WP event-sig dedup match: %r ~ %r (country=%s type=%s)",
-                         candidate_title[:60], existing[:60], country, dtype)
-                return True
+        same_country = existing_lower.startswith(expected_prefix) or country_l in existing_lower
+        if not same_country:
+            continue
+        existing_tokens = set(existing_lower.split()) - stopwords
+        if not candidate_tokens or not existing_tokens:
+            continue
+        overlap = len(candidate_tokens & existing_tokens)
+        if overlap >= 1:
+            log.info("WP event-sig dedup match: %r ~ %r (country=%s type=%s)",
+                     candidate_title[:60], existing[:60], country, dtype)
+            return True
     return False
 
 
