@@ -1,9 +1,129 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-07T05:00:35.774044+00:00",
-  "count": 270,
+  "updated": "2026-07-08T23:21:11.304759+00:00",
+  "count": 282,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8417,
+      "wp_link": "https://globalwitnessmonitor.com/iran-appeals-court-upholds-combined-55-year-sentences-against-five-christian-converts/",
+      "date": "2026-07-08T23:20:56",
+      "title": "Iran Appeals Court Upholds Combined 55-Year Sentences Against Five Christian Converts",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8394,
+      "wp_link": "https://globalwitnessmonitor.com/iran-moves-to-seize-oldest-protestant-church-orders-20-christian-families-to-vacate/",
+      "date": "2026-07-08T23:20:37",
+      "title": "Iran Moves to Seize Oldest Protestant Church, Orders 20 Christian Families to Leave",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8391,
+      "wp_link": "https://globalwitnessmonitor.com/blasphemy-accusation-forces-dozens-of-christian-families-to-flee-in-pakistan/",
+      "date": "2026-07-08T23:20:14",
+      "title": "Over Two Dozen Christian Families Flee Homes in Pakistan After Blasphemy Accusations Spread via Mosque Loudspeakers",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8396,
+      "wp_link": "https://globalwitnessmonitor.com/china-denies-bail-for-detained-house-church-member-nine-months-after-arrest/",
+      "date": "2026-07-08T23:19:55",
+      "title": "China Frees Underground House Church Pastor After Nine Months; Dozens From Same Congregation Remain Detained",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8403,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-catholic-dies-in-custody-after-nearly-a-year-awaiting-blasphemy-trial/",
+      "date": "2026-07-08T23:18:00",
+      "title": "Christian Man Dies in Pakistani Prison Amid Disputed Blasphemy Charge",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8406,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-hears-final-appeal-of-two-christians-facing-death-on-blasphemy-charges/",
+      "date": "2026-07-08T23:17:24",
+      "title": "Pakistan's Supreme Court Hears Final Appeal of Two Christians Facing Death on Blasphemy Charges",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8393,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-court-acquits-visually-impaired-christian-man-after-ten-months-on-falsified-blasphemy-charges/",
+      "date": "2026-07-08T23:17:01",
+      "title": "Pakistani Court Acquits Christian Man in Rare Blasphemy Ruling, Citing Evidence Failures",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8400,
+      "wp_link": "https://globalwitnessmonitor.com/tribal-christian-families-driven-from-demolished-homes-into-monsoon-rains-in-india/",
+      "date": "2026-07-08T23:15:21",
+      "title": "Tribal Christian Families Driven From Demolished Homes Into Monsoon Rains in India",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8399,
+      "wp_link": "https://globalwitnessmonitor.com/christian-acquitted-after-19-months-in-pakistani-blasphemy-case-as-family-home-torched/",
+      "date": "2026-07-08T23:14:46",
+      "title": "Christian Acquitted After 19 Months in Pakistani Blasphemy Case as Family Home Torched",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8397,
+      "wp_link": "https://globalwitnessmonitor.com/coptic-christians-attacked-during-prayer-as-children-are-taught-to-hate/",
+      "date": "2026-07-08T23:14:22",
+      "title": "Coptic Christians Attacked During Prayer as Children Are Taught to Hate",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 8395,
+      "wp_link": "https://globalwitnessmonitor.com/attacks-against-christians-in-israel-nearly-double-in-first-half-of-2026/",
+      "date": "2026-07-08T23:13:49",
+      "title": "Attacks Against Christians in Israel Nearly Double in First Half of 2026",
+      "country": "israel",
+      "type": "arrest",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 8392,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-attack-kills-christian-worker-amid-wave-of-violence-against-nigerian-farming-communities/",
+      "date": "2026-07-08T23:13:08",
+      "title": "Fulani Militia Attack Kills Christian Worker Amid Wave of Violence Against Nigerian Farming Communities",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
     {
       "wp_id": 8271,
       "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-after-nine-months-eight-co-workers-remain-imprisoned-in-china/",
