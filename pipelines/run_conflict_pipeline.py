@@ -606,8 +606,12 @@ def fetch_gdelt(seen, existing_titles, filter_countries):
                 '&sort=DateDesc&format=json'
             )
             r = requests.get(url, timeout=15)
+            if r.status_code == 429:
+                log.warning('GDELT rate limited (429). Stopping GDELT for this run.')
+                break
             if r.status_code != 200:
                 log.warning('GDELT returned %s', r.status_code)
+                time.sleep(5)
                 continue
             data = r.json()
             articles = data.get('articles', [])
@@ -638,7 +642,7 @@ def fetch_gdelt(seen, existing_titles, filter_countries):
                     'country': country,
                 })
                 existing_titles.append(title)
-            time.sleep(1)
+            time.sleep(10)
         except Exception as e:
             log.warning('GDELT error: %s', e)
     log.info('GDELT: found %d additional articles', len(candidates))
