@@ -687,8 +687,15 @@ def generate_article(article):
         'PARA: <third paragraph - additional context, OPTIONAL>\n'
         'PRAYER: <a bare situation phrase naming what to pray for; NOT a sentence; no leading verb; never start with Pray, Lift up, Ask God, May, Lord, Let, Grant, or "for"; name the country, people affected, and circumstance, 8-25 words, e.g. "Detained believers in China awaiting release and their congregation" or "Adivasi Christian families in India denied water and livelihoods">\n'
         'HEADLINE: <short descriptive headline, no personal names>\n'
-        'ALERT_SUMMARY: <one factual sentence: what happened and the single most important figure (number detained, arrested, killed, displaced, churches closed). Quantitative descriptors only; NEVER powerful, massive, severe, devastating, deadly, major. Country-level only, NO names of people, churches, towns, villages, or provinces. If the source gives no figure, state plainly with no intensifier. 8-20 words, e.g. "About 30 believers detained in China awaiting release" or "Authorities closed 12 house churches nationwide">\n\n'
-        'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE: or ALERT_SUMMARY:) on its own line. Do not merge paragraphs. Do not skip the PRAYER: or ALERT_SUMMARY: section.\n\n'
+        'ALERT_SUMMARY: <one factual sentence: what happened and the single most important figure (number detained, arrested, killed, displaced, churches closed). Quantitative descriptors only; NEVER powerful, massive, severe, devastating, deadly, major. Country-level only, NO names of people, churches, towns, villages, or provinces. If the source gives no figure, state plainly with no intensifier. 8-20 words, e.g. "About 30 believers detained in China awaiting release" or "Authorities closed 12 house churches nationwide">\n'
+        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement>\n\n'
+        'INCIDENT_TYPE rules -- choose the category that describes the PRIMARY harm in THIS incident:\n'
+        '- killing: a person or people were killed, murdered, executed, beheaded, martyred, or died in custody.\n'
+        '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use this even if people were also detained during it.\n'
+        '- displacement: people were forced from their homes, evicted, expelled, fled, or made refugees.\n'
+        '- arrest: a person or people were arrested, detained, imprisoned, sentenced, or abducted, and no one was killed and no church building was attacked.\n'
+        'If two apply, pick the more severe: killing > church > displacement > arrest. Output only the single lowercase word.\n\n'
+        'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE: or ALERT_SUMMARY: or INCIDENT_TYPE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER:, ALERT_SUMMARY:, or INCIDENT_TYPE: section.\n\n'
         'COUNTRY rules:\n'
         '- Use the country where the persecution event occurred, not the country of the outlet.\n'
         '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
@@ -746,7 +753,7 @@ def parse_tokenized_body(body_text):
     PRAY, so a 'PRAYER:' line fell through and was appended to the preceding
     PARA, leaving the prayer field empty.
     """
-    out = {'paragraphs': [], 'prayer': '', 'headline': None, 'alert_summary': ''}
+    out = {'paragraphs': [], 'prayer': '', 'headline': None, 'alert_summary': '', 'incident_type': ''}
     if not body_text:
         return out
 
@@ -771,10 +778,15 @@ def parse_tokenized_body(body_text):
             out['headline'] = text
         elif current_label == 'ALERT_SUMMARY':
             out['alert_summary'] = text
+        elif current_label == 'INCIDENT_TYPE':
+            t = text.strip().lower()
+            t = re.sub(r'[^a-z]', '', t)
+            if t in ('killing', 'arrest', 'church', 'displacement'):
+                out['incident_type'] = t
 
     for line in lines:
         stripped = line.strip()
-        m = re.match(r'^(PARA|PRAYER|PRAY|HEADLINE|ALERT_SUMMARY)\s*:\s*(.*)$', stripped, re.IGNORECASE)
+        m = re.match(r'^(PARA|PRAYER|PRAY|HEADLINE|ALERT_SUMMARY|INCIDENT_TYPE)\s*:\s*(.*)$', stripped, re.IGNORECASE)
         if m:
             flush()
             label = m.group(1).upper()
@@ -1154,7 +1166,14 @@ def _persecution_enrich(article):
         'PARA: <second paragraph - context or pattern, OPTIONAL>\n'
         'PRAYER: <bare situation phrase, 8-25 words, no leading verb; do not start with Pray/Lift/Ask/May/Lord/Let/Grant/for>\n'
         'HEADLINE: <short descriptive headline, no personal names>\n'
-        'ALERT_SUMMARY: <one factual sentence with the single most important figure; country-level only; no names of people, churches, towns, or provinces; 8-20 words>\n\n'
+        'ALERT_SUMMARY: <one factual sentence with the single most important figure; country-level only; no names of people, churches, towns, or provinces; 8-20 words>\n'
+        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement>\n\n'
+        'INCIDENT_TYPE rules -- the PRIMARY harm in THIS incident:\n'
+        '- killing: someone was killed, murdered, executed, beheaded, martyred, or died in custody.\n'
+        '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use even if people were also detained.\n'
+        '- displacement: people were forced from homes, evicted, expelled, fled, or made refugees.\n'
+        '- arrest: people were arrested, detained, imprisoned, sentenced, or abducted, with no killing and no church building attacked.\n'
+        'If two apply, pick the more severe: killing > church > displacement > arrest. Output only the single lowercase word.\n\n'
         'REDACTION (required even if the source names them): no personal names '
         '(use man, woman, pastor, family, convert, believer); no specific church, ministry, '
         'or denomination names (use "a house church"); no sub-national places of any kind '
@@ -1265,6 +1284,19 @@ def run():
             prayer = tokens['prayer']
             alert_summary = tokens.get('alert_summary', '')
             headline = tokens['headline']
+
+            # Claude classifies the incident from the full story it just wrote.
+            # detect_type() (keyword scan of raw scraped text) is only a fallback
+            # when Claude omits the field -- it defaults nearly everything to
+            # 'arrest' and almost never fires 'church'.
+            _claude_type = tokens.get('incident_type', '')
+            if _claude_type:
+                if _claude_type != article['incident_type']:
+                    print('TYPE: claude=' + _claude_type +
+                          ' keyword=' + str(article['incident_type']) + ' -> using claude')
+                article['incident_type'] = _claude_type
+            else:
+                print('TYPE: claude omitted; keeping keyword=' + str(article['incident_type']))
 
             if not paragraphs:
                 print('No PARA tokens found - using sentence-split fallback')
