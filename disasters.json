@@ -1,9 +1,279 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-08T23:11:26.560934+00:00",
-  "count": 971,
+  "updated": "2026-07-11T21:50:53.105576+00:00",
+  "count": 986,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8491,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-07-09-2026/",
+      "date": "2026-07-11T21:49:55",
+      "title": "Flood in United Kingdom 07/09/2026",
+      "body": "On July 8, 2026, a burst water main flooded the area around the Lord Morpeth pub on Old Ford Road in Bow, East London, at around 10:30 pm. Water reached a depth of one metre along the road, submerging cars. Five people w",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Flood",
+      "lat": 51.52384,
+      "lng": -0.022857,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSkpiQUhDSUFWbW5zNFdFWmctVjZiUXdHTWVPUEF5Sl9YRGZSYUwyTmlfN3duNUNiSmRJMVp4bk1iNXIxVVNNMDB0RDU2MnNuYlEwZ3Zjem1rSjJuQXZGMERCTWpJWnM4Wk05X2R6eHk0OXBvREFWa1BqdVBIYTFJTndNRXNib1luQzZNOEN2TDPSAZYBQVVfeXFMT0I2V3BtOWtpRUFaUXZlME5fR0lOaUMtbGI3ZlVZd1k2MFdzbm1UWWpNVG8zYUNEMmEyMHZTZDJWU05XYW1RenBOVjNoZkx2ODJJOWlJc0xQaUFQdVNiWFV3MWVtNEZkbWg3TXFyYXliby1CNDNJWWlZbDhrRC1DeDc3ZDhWdElRNzNhdUZRcGhULTRtajZR?oc=5",
+      "prayer": "Up to 650 households in Bow, East London, displaced overnight after a burst water main",
+      "alert_summary": "A burst water main in Bow flooded streets to 1 metre depth, evacuating 5 people and cutting utilities to up to 650 households."
+    },
+    {
+      "wp_id": 8490,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-09-2026/",
+      "date": "2026-07-11T21:46:09",
+      "title": "Flood in South Korea 07/09/2026",
+      "body": "Monsoon rains continued through central and other parts of South Korea on July 9, 2026, causing widespread damage, including flooded homes and fallen trees. Cumulative rainfall from Wednesday through Thursday morning exc",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Flood",
+      "lat": 33.220497,
+      "lng": 126.251854,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOG0tUGlVSXVxSER5NUtjZ2U2RkRpdzZ2eEZSYm9wZXN2MGFJbnJOZUdNdVBmMmxPMDZkZHBvZUVGdHZZdE5xWWl1bUFVYWhlWl9ESWRuNHVhZFMtUjczcUVMRGI2TzNaXzk2ZjEtZVk5R3FDVE9xTzRaVFp0dTFNZ1pPN3FPbmp5?oc=5",
+      "prayer": "Residents across central South Korea displaced by monsoon flooding and landslides",
+      "alert_summary": "Monsoon flooding inundated homes across central South Korea on July 9, 2026, damaging more than 450 facilities nationwide."
+    },
+    {
+      "wp_id": 8489,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-myanmar-07-09-2026/",
+      "date": "2026-07-11T21:45:33",
+      "title": "Flood in Myanmar 07/09/2026",
+      "body": "Monsoon rains caused a dam to overflow, inundating Swar Township and surrounding villages in Myanmar's Bago Region. Residents were evacuated from the affected area. No figures for deaths, injuries, or displaced persons w",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Flood",
+      "lat": 21.154319,
+      "lng": 96.506921,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZmlmM193U1duZkJ6M3Q1dFhCemtCVFFRdGF2SW1GS0VxSmZNR3QyVDU5THA0RWpTTzcwcXdFY1NrNDVGcFJXYnFtV1BLUTZDaEtPM0FNSlFVU2JKZUF5N3pDUHBvMVotYVVkNWpvUG8zbFVpbU92eF82VXZCWG1QajFlRjc5VDVzMlJSbFN5SlBfTnhJcVNwMHJCNkZoVWdab0lGMmRWQm9sYW9jX2Zhb0w3N1h1ZWQ0OTkySDNtOHc2RVJOdlhzUlFJeTQ3NmZFMG9CWkhJaHZUR253c05HdDZvVWt2MXNwWUNqcUFn?oc=5",
+      "prayer": "Residents of Swar Township and surrounding villages in Myanmar's Bago Region displaced by dam overflow flooding",
+      "alert_summary": "A dam overflow from monsoon rains flooded Swar Township and surrounding villages in Bago Region, Myanmar; no casualty figure reported."
+    },
+    {
+      "wp_id": 8488,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-07-10-2026/",
+      "date": "2026-07-11T21:41:10",
+      "title": "Flood in China 07/10/2026",
+      "body": "Flooding tied to Typhoon Maysak killed at least two people in China's southern Guangxi region. Officials confirmed two deaths, and around 48,000 people had been evacuated as of that evening. Officials in Nanning, Guangxi",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 22.818563,
+      "lng": 108.3631,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQREV3VndiRTFvNnJHUl9XVDl3c2t1WW9NVW9MWHBDTjB5eUxURDNMeEFxRjZpeGw5dlJhSHVhdUN4SGUxcnpCTEtpSUxtUVNNUUZQVXVnLVMyRWVXUnNKYTZpNUtJUUZCU1JNNTA1cWxwWDR2SDZ5cWFXTjk4MjVYbnBQMU9KblJoTHVFQUVqbGNKcUZ1N1plNlhwWVhNVmxubFVqc2NEUld0N3FsUDFzLUZZaWR3YTZST1dCeWZjOEFxZW02ZEF3MFVVeFdqY2E5bWRkYVZEeHV3R1pvVzRBbTRB?oc=5",
+      "prayer": "Residents of southern China's Guangxi region facing flood deaths, burst dams, and mass evacuations",
+      "alert_summary": "Flooding linked to Typhoon Maysak killed at least 2 people in Guangxi, China, and forced 48,000 to evacuate."
+    },
+    {
+      "wp_id": 8487,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-10-2026/",
+      "date": "2026-07-11T21:39:53",
+      "title": "Flood in United States 07/10/2026",
+      "body": "Flash flooding struck parts of Missouri on July 10, 2026, forcing the helicopter evacuation of more than 150 children and staff from a summer camp and the rescue of about 20 people from a campground building that collaps",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.4358,
+      "lng": -90.959816,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOem42blRYdFM1di1vVnp6SHJOZXE2VEI1SzZ2YmV2SF83WE9vbktNbFZnc2t2UlB0c0JTc2RTcncwLW5GSlRWdHRRUmxtOW5VcXdvd0JKcHppOHZhUjVyM3RSbDA5ZDA4cjRGQ3RsUkJxZ0xKekZfTXZfZTM2YUh2SGItdVotZXFJSzZkSmw1UjVsdjZaZkx6YTJxbG5qYnfSAaQBQVVfeXFMTWlXTDVwVkVoM1kxM1k2QjRzYU9Da0FvSDFlMWxDakR1MWdUT2xXVHI2WWd6WGl6ekVZeEViMGRlSWNzcjlGMjFoQmlkMW1udkcyUDBEcWp4RTFXX1pCd0Y5U3hGVlNnQzlNRG5PemhKNGwxMzVERDd3U3l1MzlMM3B5QUdXcS1RQjZ4NDlueWlCM3ZiSTRsZnY4SXg1SEFxbGFGSkQ?oc=5",
+      "prayer": "Campers, children, and residents in Reynolds County, Missouri rescued from flash floodwaters",
+      "alert_summary": "Flash flooding in Reynolds County, Missouri triggered more than 90 water rescues and the helicopter evacuation of more than 150 people from a summer camp on July 10, 2026."
+    },
+    {
+      "wp_id": 8486,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-sudan-07-10-2026/",
+      "date": "2026-07-11T21:38:50",
+      "title": "Disease in Sudan 07/10/2026",
+      "body": "A new cholera outbreak is affecting several states in western Sudan, primarily in the Darfurs and the Kordofans, with more than 1,330 confirmed cases and 114 deaths reported. This is Sudan's third wave of cholera in as m",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Disease",
+      "lat": 13.183366,
+      "lng": 30.222559,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/07/1167913",
+      "prayer": "Displaced and war-affected communities across Sudan's Kordofan and Darfur regions facing a cholera outbreak with worsening access to care",
+      "alert_summary": "A new cholera outbreak across Sudan's Kordofan and Darfur regions has recorded 1,330 confirmed cases and 114 deaths as of July 10, 2026."
+    },
+    {
+      "wp_id": 8485,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-07-11-2026/",
+      "date": "2026-07-11T21:38:18",
+      "title": "Landslide in India 07/11/2026",
+      "body": "A landslide tore through Shimla, a hill town in India, during heavy monsoon rains, forcing residents to leave their homes over fears that further collapse could follow. Residents say a construction company had been excav",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 31.10511,
+      "lng": 77.172676,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/evacuations-as-landslide-threatens-indian-village-construction-firm-blamed?traffic_source=rss",
+      "prayer": "Villagers in Shimla evacuated after a landslide amid fears of further collapse",
+      "alert_summary": "A landslide struck the hill town of Shimla during monsoon rains, forcing residents to evacuate their homes."
+    },
+    {
+      "wp_id": 8484,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-11-2026/",
+      "date": "2026-07-11T21:38:07",
+      "title": "Earthquake in Venezuela 07/11/2026",
+      "body": "On June 24, 2026, back-to-back earthquakes struck La Guaira state along Venezuela's coast, killing more than 4,300 people. The United Nations has estimated that 50,000 Venezuelans remain missing beneath the rubble. Inter",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/11/all-we-see-is-decay-covering-the-human-toll-of-venezuelas-earthquakes?traffic_source=rss",
+      "prayer": "Families in La Guaira searching for loved ones among rubble after back-to-back earthquakes, with 50,000 still missing",
+      "alert_summary": "Back-to-back earthquakes struck Venezuela's La Guaira state on June 24, 2026, killing more than 4,300 people and leaving 50,000 missing."
+    },
+    {
+      "wp_id": 8483,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-11-2026/",
+      "date": "2026-07-11T21:37:30",
+      "title": "Wildfire in Spain 07/11/2026",
+      "body": "A wildfire broke out on Thursday afternoon near the village of Bedar in the Los Gallardos area of Almería, southeastern Spain. At least 12 people were killed, including four Britons found in a burnt-out car. Another 23 p",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 37.189161,
+      "lng": -1.981971,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families near Bedar grieving losses and the 23 still missing after a wildfire in Almería",
+      "alert_summary": "A wildfire near Bedar, Almería killed at least 12 people and left 23 missing after burning 6,600 hectares."
+    },
+    {
+      "wp_id": 8482,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-11-2026-cat-1/",
+      "date": "2026-07-11T21:37:16",
+      "title": "Storm in China 07/11/2026 — Cat 1",
+      "body": "On the evening of July 12, 2026, Typhoon Bavi came ashore at the coastal city of Taizhou before making a second landfall at Wenzhou around midnight. More than 1.7 million people were evacuated in Zhejiang province, with ",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.009426,
+      "lng": 120.659775,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Nearly two million people evacuated across eastern China's Zhejiang province as Typhoon Bavi makes landfall",
+      "alert_summary": "Typhoon Bavi made landfall in Taizhou and Wenzhou, prompting evacuation of more than 1.7 million people in Zhejiang province."
+    },
+    {
+      "wp_id": 8481,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-07-10-2026/",
+      "date": "2026-07-11T21:35:44",
+      "title": "Volcano in Philippines 07/10/2026",
+      "body": "A moderately explosive eruption occurred at the summit crater of Kanlaon Volcano on July 9, 2026. The eruption lasted three minutes and generated a dark gray ash plume that rose two to three kilometers above the crater b",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Volcano",
+      "lat": 10.412,
+      "lng": 123.132,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000143",
+      "prayer": "Residents of Negros Island living near an active volcano as eruptions continue in 2026",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 8480,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-07-11-2026/",
+      "date": "2026-07-11T21:34:28",
+      "title": "Flood in Russia 07/11/2026",
+      "body": "On July 11, 2026, floodwaters began inundating the floodplains of the Ikura, Bolshaya Bira, and Tunguska rivers in the Jewish Autonomous Oblast of Russia's Far East. Water depths of 0.2 to 0.6 meters were recorded across",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 48.790462,
+      "lng": 132.93115,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260711001956-0236657.xml",
+      "prayer": "Residents near the Ikura, Bolshaya Bira, and Tunguska rivers facing rising floodwaters around Birobidzhan",
+      "alert_summary": "Flooding inundated river floodplains near Birobidzhan to depths of 0.2–0.6 meters; no casualty figure reported."
+    },
+    {
+      "wp_id": 8479,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-11-2026/",
+      "date": "2026-07-11T21:28:30",
+      "title": "Heatwave in Kazakhstan 07/11/2026",
+      "body": "On July 11, 2026, a widespread heatwave gripped Kazakhstan, with officials issuing hazardous weather alerts across the country. Daytime highs of 35–39°C were forecast for the West Kazakhstan, Atyrau, Aktobe, Kostanay, No",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260711-095701-0450937-00-RU.xml",
+      "prayer": "Residents across Kazakhstan enduring dangerous heat reaching 46 degrees Celsius",
+      "alert_summary": "Temperatures of 35–46°C struck Kazakhstan on July 11, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 8478,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-11-2026/",
+      "date": "2026-07-11T21:23:28",
+      "title": "Wildfire in United States 07/11/2026",
+      "body": "A wildfire in Chelan County, Washington prompted a Level 2 evacuation advisory for residents in the Stemilt Creek area. The advisory covered Stemilt Creek Road, Stemilt Creek Loop, and all side roads including the Clear ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.34418,
+      "lng": -120.276492,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://apps.fema.gov/IPAWSOPEN_EAS_SERVICE/rest/eas/300130719940",
+      "prayer": "Residents along Stemilt Creek Road and surrounding areas under wildfire evacuation in Chelan County, Washington",
+      "alert_summary": "A wildfire prompted a Level 2 evacuation advisory for the Stemilt Creek area of Chelan County, Washington; no casualty or acreage figure reported."
+    },
+    {
+      "wp_id": 8477,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-07-11-2026-magnitude-5/",
+      "date": "2026-07-11T21:18:46",
+      "title": "Earthquake in Peru 07/11/2026 — Magnitude 5",
+      "body": "On July 11, 2026, at 2:58 a.m. local time, a magnitude 5 earthquake was recorded with its epicenter approximately 170 kilometers southwest of Huarmey, in the province of Huarmey, Áncash region. Peru's Geophysical Institu",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -10.068585,
+      "lng": -78.15255,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sznq",
+      "prayer": "Residents near Huarmey, Áncash after an offshore earthquake rattled the coast in the early morning hours",
+      "alert_summary": "Magnitude 5 earthquake struck about 170 km southwest of Huarmey, Áncash; no casualties reported."
+    },
     {
       "wp_id": 8390,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-08-2026/",
