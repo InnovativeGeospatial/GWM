@@ -1,9 +1,319 @@
 {
   "feed": "conflict",
-  "updated": "2026-07-09T00:00:09.270665+00:00",
-  "count": 1241,
+  "updated": "2026-07-11T22:33:56.450583+00:00",
+  "count": 1272,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8582,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-39/",
+      "date": "2026-07-11T22:33:38",
+      "title": "Armed Conflict in southern Lebanon",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 8580,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sumy-2/",
+      "date": "2026-07-11T22:33:03",
+      "title": "Armed Conflict in Sloviansk",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.9098,
+      "lng": 34.7988
+    },
+    {
+      "wp_id": 8579,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-damascus-3/",
+      "date": "2026-07-11T22:31:08",
+      "title": "Armed Conflict in Damascus",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 33.51307,
+      "lng": 36.309581
+    },
+    {
+      "wp_id": 8578,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-idlib-deir-ez-zor-aleppo-hama/",
+      "date": "2026-07-11T22:30:43",
+      "title": "Armed Conflict in Idlib, Deir ez-Zor, Aleppo, Hama",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 35.333334,
+      "lng": 40.15
+    },
+    {
+      "wp_id": 8575,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kut-wasit/",
+      "date": "2026-07-11T22:30:16",
+      "title": "Civil Unrest in Kut",
+      "country": "Iraq",
+      "type": "Civil Unrest",
+      "lat": 32.501,
+      "lng": 45.8296
+    },
+    {
+      "wp_id": 8574,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-iran-bahrain-kuwait-qatar/",
+      "date": "2026-07-11T22:29:30",
+      "title": "Armed Conflict in Iran; Bahrain, Kuwait, Qatar",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 32.565838,
+      "lng": 54.301374
+    },
+    {
+      "wp_id": 8572,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-yegyi-township/",
+      "date": "2026-07-11T22:28:20",
+      "title": "Armed Conflict in south of Myawaddy",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 17.3388,
+      "lng": 95.1144
+    },
+    {
+      "wp_id": 8571,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-chiang-mai-2/",
+      "date": "2026-07-11T22:27:32",
+      "title": "Civil Unrest in Chiang Mai",
+      "country": "Myanmar",
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 8570,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myit-chay-magway/",
+      "date": "2026-07-11T22:27:04",
+      "title": "Armed Conflict in Myit Chay, Magway",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.148008,
+      "lng": 94.92699
+    },
+    {
+      "wp_id": 8569,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maungdaw-township-rakhine-state/",
+      "date": "2026-07-11T22:26:42",
+      "title": "Armed Conflict in Maungdaw Township, Rakhine State",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.824133,
+      "lng": 92.36119
+    },
+    {
+      "wp_id": 8562,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kuntuwaarey-lower-juba/",
+      "date": "2026-07-11T22:26:12",
+      "title": "Armed Conflict in Baghdad (near Hosingow, Lower Juba)",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": -0.3602,
+      "lng": 42.5409
+    },
+    {
+      "wp_id": 8560,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-baghdad-town-near-hosingow/",
+      "date": "2026-07-11T22:25:48",
+      "title": "Armed Conflict in Baghdad, near Hosingow",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.7864,
+      "lng": 47.3259
+    },
+    {
+      "wp_id": 8563,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-qeshm-island-bandar-abbas-sirik/",
+      "date": "2026-07-11T22:24:42",
+      "title": "Armed Conflict in Qeshm Island, Bandar Abbas, Sirik",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 34.107664,
+      "lng": -97.228055
+    },
+    {
+      "wp_id": 8561,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-lagos-2/",
+      "date": "2026-07-11T22:23:48",
+      "title": "Civil Unrest in Lagos",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 6.453928,
+      "lng": 3.38975
+    },
+    {
+      "wp_id": 8522,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-north-kordofan/",
+      "date": "2026-07-11T22:22:52",
+      "title": "Armed Conflict in El Fasher",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 13.1834,
+      "lng": 30.2226
+    },
+    {
+      "wp_id": 8519,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-15/",
+      "date": "2026-07-11T22:21:13",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46
+    },
+    {
+      "wp_id": 8555,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kinshasa-2/",
+      "date": "2026-07-11T22:20:55",
+      "title": "Civil Unrest in Kinshasa",
+      "country": "Congo",
+      "type": "Civil Unrest",
+      "lat": -4.325152,
+      "lng": 15.312853
+    },
+    {
+      "wp_id": 8549,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tabankort/",
+      "date": "2026-07-11T22:20:30",
+      "title": "Armed Conflict in Tabankort",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 15.3912,
+      "lng": 2.1055
+    },
+    {
+      "wp_id": 8541,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maiduguri-monguno-highway-borno/",
+      "date": "2026-07-11T22:17:43",
+      "title": "Armed Conflict in Logomani, Ngala",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.3193,
+      "lng": 13.1337
+    },
+    {
+      "wp_id": 8540,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-middle-belt-2/",
+      "date": "2026-07-11T22:13:27",
+      "title": "Armed Conflict in Middle Belt",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 7.301246,
+      "lng": 5.136194
+    },
+    {
+      "wp_id": 8538,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-oriire-local-government-area-oyo-state-2/",
+      "date": "2026-07-11T22:13:00",
+      "title": "Armed Conflict in Oriire, Oyo State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 8.0493,
+      "lng": 4.146
+    },
+    {
+      "wp_id": 8536,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-manta/",
+      "date": "2026-07-11T22:11:47",
+      "title": "Armed Conflict in Manabí",
+      "country": "Ecuador",
+      "type": "Armed Conflict",
+      "lat": -0.9481,
+      "lng": -80.7211
+    },
+    {
+      "wp_id": 8534,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tibu/",
+      "date": "2026-07-11T22:11:07",
+      "title": "Armed Conflict in Tibú",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 8.6369,
+      "lng": -72.7346
+    },
+    {
+      "wp_id": 8533,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-ganthier-and-kenscoff/",
+      "date": "2026-07-11T22:09:54",
+      "title": "Displacement in Ganthier and Kenscoff",
+      "country": "Haiti",
+      "type": "Displacement",
+      "lat": 18.451225,
+      "lng": -72.28857
+    },
+    {
+      "wp_id": 8529,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-guajes-de-ayala-guerrero/",
+      "date": "2026-07-11T22:09:30",
+      "title": "Armed Conflict in Guajes de Ayala, Guerrero",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 17.7247,
+      "lng": -99.9857
+    },
+    {
+      "wp_id": 8528,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bucha-district-kyiv-oblast/",
+      "date": "2026-07-11T22:07:27",
+      "title": "Armed Conflict in Bucha district, Kyiv Oblast",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.54946,
+      "lng": 30.212479
+    },
+    {
+      "wp_id": 8526,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-southern-lebanon-5/",
+      "date": "2026-07-11T22:05:51",
+      "title": "Displacement in southern Lebanon",
+      "country": "Lebanon",
+      "type": "Displacement",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 8525,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-16/",
+      "date": "2026-07-11T22:05:19",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 41.568185,
+      "lng": -87.295987
+    },
+    {
+      "wp_id": 8524,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-fizi-and-mwenga-territories-south-kivu/",
+      "date": "2026-07-11T22:04:39",
+      "title": "Armed Conflict in Fizi and Mwenga territories, South Kivu",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -4.301027,
+      "lng": 28.94438
+    },
+    {
+      "wp_id": 8521,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-gaza-city/",
+      "date": "2026-07-11T22:04:07",
+      "title": "Displacement in Al Mawasi, Khan Younis",
+      "country": "Palestine",
+      "type": "Displacement",
+      "lat": 31.4671,
+      "lng": 34.3993
+    },
+    {
+      "wp_id": 8520,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-deir-el-balah/",
+      "date": "2026-07-11T22:02:16",
+      "title": "Armed Conflict in Deir el-Balah",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.417446,
+      "lng": 34.35114
+    },
     {
       "wp_id": 8419,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-14/",
