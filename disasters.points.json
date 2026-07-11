@@ -1,9 +1,159 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-08T23:11:28.471409+00:00",
-  "count": 996,
+  "updated": "2026-07-11T21:50:54.831098+00:00",
+  "count": 1011,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8491,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-07-09-2026/",
+      "date": "2026-07-11T21:49:55",
+      "title": "Flood in United Kingdom 07/09/2026",
+      "country": "United Kingdom",
+      "type": "Flood",
+      "lat": 51.52384,
+      "lng": -0.022857
+    },
+    {
+      "wp_id": 8490,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-09-2026/",
+      "date": "2026-07-11T21:46:09",
+      "title": "Flood in South Korea 07/09/2026",
+      "country": "South Korea",
+      "type": "Flood",
+      "lat": 33.220497,
+      "lng": 126.251854
+    },
+    {
+      "wp_id": 8489,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-myanmar-07-09-2026/",
+      "date": "2026-07-11T21:45:33",
+      "title": "Flood in Myanmar 07/09/2026",
+      "country": "Myanmar",
+      "type": "Flood",
+      "lat": 21.154319,
+      "lng": 96.506921
+    },
+    {
+      "wp_id": 8488,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-07-10-2026/",
+      "date": "2026-07-11T21:41:10",
+      "title": "Flood in China 07/10/2026",
+      "country": "China",
+      "type": "Flood",
+      "lat": 22.818563,
+      "lng": 108.3631
+    },
+    {
+      "wp_id": 8487,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-10-2026/",
+      "date": "2026-07-11T21:39:53",
+      "title": "Flood in United States 07/10/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.4358,
+      "lng": -90.959816
+    },
+    {
+      "wp_id": 8486,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-sudan-07-10-2026/",
+      "date": "2026-07-11T21:38:50",
+      "title": "Disease in Sudan 07/10/2026",
+      "country": "Sudan",
+      "type": "Disease",
+      "lat": 13.183366,
+      "lng": 30.222559
+    },
+    {
+      "wp_id": 8485,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-07-11-2026/",
+      "date": "2026-07-11T21:38:18",
+      "title": "Landslide in India 07/11/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 31.10511,
+      "lng": 77.172676
+    },
+    {
+      "wp_id": 8484,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-11-2026/",
+      "date": "2026-07-11T21:38:07",
+      "title": "Earthquake in Venezuela 07/11/2026",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641
+    },
+    {
+      "wp_id": 8483,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-11-2026/",
+      "date": "2026-07-11T21:37:30",
+      "title": "Wildfire in Spain 07/11/2026",
+      "country": "Spain",
+      "type": "Wildfire",
+      "lat": 37.189161,
+      "lng": -1.981971
+    },
+    {
+      "wp_id": 8482,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-11-2026-cat-1/",
+      "date": "2026-07-11T21:37:16",
+      "title": "Storm in China 07/11/2026 — Cat 1",
+      "country": "China",
+      "type": "Storm",
+      "lat": 28.009426,
+      "lng": 120.659775
+    },
+    {
+      "wp_id": 8481,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-07-10-2026/",
+      "date": "2026-07-11T21:35:44",
+      "title": "Volcano in Philippines 07/10/2026",
+      "country": "Philippines",
+      "type": "Volcano",
+      "lat": 10.412,
+      "lng": 123.132
+    },
+    {
+      "wp_id": 8480,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-07-11-2026/",
+      "date": "2026-07-11T21:34:28",
+      "title": "Flood in Russia 07/11/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 48.790462,
+      "lng": 132.93115
+    },
+    {
+      "wp_id": 8479,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-11-2026/",
+      "date": "2026-07-11T21:28:30",
+      "title": "Heatwave in Kazakhstan 07/11/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 8478,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-11-2026/",
+      "date": "2026-07-11T21:23:28",
+      "title": "Wildfire in United States 07/11/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 47.34418,
+      "lng": -120.276492
+    },
+    {
+      "wp_id": 8477,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-07-11-2026-magnitude-5/",
+      "date": "2026-07-11T21:18:46",
+      "title": "Earthquake in Peru 07/11/2026 — Magnitude 5",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -10.068585,
+      "lng": -78.15255
+    },
     {
       "wp_id": 8390,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-08-2026/",
