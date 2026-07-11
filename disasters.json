@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-11T21:50:53.105576+00:00",
-  "count": 986,
+  "updated": "2026-07-11T22:54:05.280554+00:00",
+  "count": 995,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8589,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-11-2026/",
+      "date": "2026-07-11T22:51:08",
+      "title": "Storm in China 07/11/2026",
+      "body": "Typhoon Bavi — the ninth typhoon of the year — came ashore on the coast of Zhejiang Province at around 11:20 p.m. on Saturday, July 12, 2026, first striking Yuhuan City before making a second landfall in Yueqing City nea",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWkZNR25uandJaE95Ui0td3B5bE5hRDE3b05RaHloWXRvUUk0Y0JkaF81MDdwSVRoZ2pScjlUTkZQQl9BeUZkMUVfUDlrNGhwaFZMWEx3TUxSNXF3ZWJ2WlNrWWhVVE1Ka3hMSXJGcTVFM3FnNzlyYUl2TUJ1OFYxVzNkeWFSdlgwVDFrbkY5V0RoMTl0N3FYNWMxZXY5ZTctV3h5TThKYWtIenJpazRwa1h5RmVacENhX29VTFZPUjhzejZvbGZoMXB5c0E3MFJZMUhtSGowSFZYeDJY?oc=5",
+      "prayer": "Residents of Zhejiang and Fujian provinces facing landfall of Typhoon Bavi, with millions displaced from their homes",
+      "alert_summary": "Typhoon Bavi made landfall at Yuhuan in Zhejiang province on July 12, 2026, prompting the evacuation of more than 1.7 million residents."
+    },
+    {
+      "wp_id": 8588,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-10-2026/",
+      "date": "2026-07-11T22:46:15",
+      "title": "Wildfire in United States 07/10/2026",
+      "body": "A wildfire ignited late Thursday near Timpooneke Campground at the base of Mount Timpanogos in American Fork Canyon, Utah, and had grown to five acres with 0% containment by Friday morning. Fire crews were first dispatch",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 40.523939,
+      "lng": -111.608241,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWERnUF80ZDNKZ1NGWHdhM2tmQktobXI2WFYzQTlMZWE4enpMRkNGbUdQdkFueWFzb2otTEtWMENEVVNOdWItQ0ZmMFRlYzF0bTZLajJjR0tpS1BkSmoxOXJRYkhha0M0SmZNOWJsakpXVExfOFBwc3VDVUdvTnZVajRnN3JnVm9KOWdaQnNWVXR2SUd1N3JfODZoTk1fYl9TTGM0OVNDWWgwdw?oc=5",
+      "prayer": "Campers and firefighters near Mount Timpanogos as the Timp Fire burns in American Fork Canyon",
+      "alert_summary": "Wildfire ignited in American Fork Canyon near Timpooneke Campground, burning 5 acres at 0% containment as of July 10, 2026."
+    },
+    {
+      "wp_id": 8587,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-11-2026-2/",
+      "date": "2026-07-11T22:44:52",
+      "title": "Wildfire in Spain 07/11/2026",
+      "body": "The fire broke out late on Thursday, July 10, 2026, in a semi-arid area near the Sierra de Los Filabres mountains in Almería province. At least 12 people were killed and at least 8 were injured, four of them seriously. A",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 37.48151,
+      "lng": -3.619405,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUV2NU1EZ3J5UW1FYU44SnN3WURzekRKWHhuSjdsVENwQTRGZElwTVhDQzFNZFN3YnpncS1KcHBaaTR3TE1UczRUTVlrMHhvNkppRzl2QlF0Q1hqMHFJV3NzN0cyNFpTR0VteG9zRXpsY0VVZ29SLXNyc1FhMnRiUUkxWi1YcVJxbTZLdkdKR0lxQ3FJdldBODhBQ2xEX2d2TVE?oc=5",
+      "prayer": "Families of the 12 killed in the Almería wildfire, the injured, and those still missing",
+      "alert_summary": "A wildfire near Los Gallardos in Almería province killed at least 12 people, injured 8, and left 23 missing."
+    },
+    {
+      "wp_id": 8586,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-11-2026/",
+      "date": "2026-07-11T22:41:20",
+      "title": "Flood in Philippines 07/11/2026",
+      "body": "Heavy rains from the enhanced southwest monsoon, known locally as *habagat*, began swamping low-lying areas in the provinces of Maguindanao del Norte and Maguindanao del Sur on July 8, 2026. By July 10, the flooding had ",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 6.71662,
+      "lng": 124.786594,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUXZjTHdSMHRNdEJWTTkwWlJSQWhRcmdtcTc2S205TlVJc1NKVHZ1Zk9RVGwxZUhGRGRTdU9lWUxCWWxKSnVSaWpLdHh0WUlNYS1OZmJnX0JwYm9NTUNPYmFQMnJqeTIxajdmMWROZEhINy1xSjRZWWlxY2JGZTYwaHJibWU5X01GcXdQWGJNUzQ4Tm9HRG1JR9IBnwFBVV95cUxQMS1JVl9JeWt1ZzhGT0pCd3ZDSF8wZmtFYm9tT1U3X0NWZkNoTEdvU1VJdlZ6alVmMnlxOE5FX1MtYmVOSmktNGlRTGE2Njh4bTROVlBqTEJxcXpmb25NT1ZzRnVZSFM3UXl1YUJUT3I3Z18xdXdsdDF6aXFmVXZxN2NCWEtoeG1RYlJRc0k5bFZrelRkeVl3VnBPWEp1OEk?oc=5",
+      "prayer": "Tens of thousands of families in Maguindanao displaced by monsoon flooding, with at least eight lives lost",
+      "alert_summary": "Monsoon flooding in BARMM displaced about 220,000 people across Maguindanao del Norte and Maguindanao del Sur, killing at least 8."
+    },
+    {
+      "wp_id": 8585,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-11-2026-cat-1-2/",
+      "date": "2026-07-11T22:40:27",
+      "title": "Storm in China 07/11/2026 — Cat 1",
+      "body": "China evacuated more than 1.8 million people on Saturday, July 11, 2026, as Typhoon Bavi churned toward the eastern city of Wenzhou after passing Japan's southern Sakishima island chain and brushing past northern Taiwan.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.009426,
+      "lng": 120.659775,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNejRwcFBZMHpEMDN1LTBrRFYzSkZfcEVhRGdpY2Jac0pkd3owcEF4U2t5Qnd5VGxkc3IwS1VuY2hpY0w2MTlqYkVtWFBEcngtcTFISXBLbVJsNTVxSUNzMDBYXzl1bG40eEF1a1BhTFdxTXp3VGMxZDVlWXlOcjVUaG1nU0lELXFVNXhidkdhcTk0MjVTY1E?oc=5",
+      "prayer": "More than 1.8 million evacuated residents in eastern China awaiting Typhoon Bavi's landfall",
+      "alert_summary": "Typhoon Bavi prompted evacuation of more than 1.8 million people across Zhejiang and Fujian provinces as it approached Wenzhou on July 11, 2026."
+    },
+    {
+      "wp_id": 8584,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-11-2026/",
+      "date": "2026-07-11T22:39:20",
+      "title": "Flood in United States 07/11/2026",
+      "body": "On July 10, 2026, flash flooding across parts of Missouri forced the helicopter evacuation of more than 200 children and staff from a summer camp, and the rescue of about 20 people from a campground building that collaps",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.453723,
+      "lng": -90.842328,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVXZWQUxfSS1kMUU4cTRBVnZTSmJqSTNFYUs1UUZnX1YwUHRiMVIzS2NtbldzbjdpZkRnT1JaampmQ2pxUmdZa0YtUFpreVFZOUJDM24wQk5QV0g0bVNwYUZXM0ZOdC1MUDdBd3N0MHdzdVhyUHNKNWhBTlYwdHVHc1FjNWFGSEVCeTM4aF95UVE0bVZqUXdEOVI3YzItUjlvMXNjX2plaXdPTG1XSWlqa1VmVkhScHA2N2hGb1hzQVo?oc=5",
+      "prayer": "Children and families in Lesterville, Missouri caught in flash flooding, and a woman still missing in Crawford County",
+      "alert_summary": "Flash flooding in southeastern Missouri on July 10 prompted helicopter evacuation of more than 200 children and staff; one person remains missing."
+    },
+    {
+      "wp_id": 8583,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-russia-07-11-2026/",
+      "date": "2026-07-11T22:35:58",
+      "title": "Heatwave in Russia 07/11/2026",
+      "body": "A heatwave gripping Russia in early July 2026 has been described by forecasters as record-breaking, with one meteorologist calling this the \"hottest in the entire era of global warming\" — surpassing even early July 2010,",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Heatwave",
+      "lat": 47.588959,
+      "lng": 38.401981,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260711053415-0236751.xml",
+      "prayer": "Residents across Russia enduring record-breaking heat, including the elderly, children, and outdoor workers",
+      "alert_summary": "A heatwave brought temperatures at or above 30°C across Russia, with some southern areas exceeding 40°C, threatening public health."
+    },
+    {
+      "wp_id": 8577,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-10-2026/",
+      "date": "2026-07-11T22:30:32",
+      "title": "Heatwave in Kazakhstan 07/10/2026",
+      "body": "On July 10, 2026, Kazakhstan's national meteorological service issued an alert reporting temperatures of 40–42°C across the country. Highs of 33–42°C were recorded in western and southeastern Kazakhstan, with the south s",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260710-102701-0450454-00-RU.xml",
+      "prayer": "Residents across Kazakhstan enduring dangerous heat reaching 40 to 42 degrees Celsius",
+      "alert_summary": "A heatwave with temperatures reaching 40–42°C was reported across Kazakhstan on July 10, 2026; no casualty or displacement figure reported."
+    },
+    {
+      "wp_id": 8568,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-07-11-2026-magnitude-5/",
+      "date": "2026-07-11T22:26:16",
+      "title": "Earthquake in Tonga 07/11/2026 — Magnitude 5",
+      "body": "On July 11, 2026, a magnitude 5 earthquake occurred in the South Pacific Ocean, approximately 299 km west of Neiafu, Tonga, at a depth of roughly 368 km. The closest larger town, Neiafu — about 3,800 inhabitants — was th",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.2136,
+      "lng": -176.783,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szmb",
+      "prayer": "Communities near Neiafu, Tonga, after a deep-focus earthquake in the South Pacific",
+      "alert_summary": "Magnitude 5 earthquake struck 299 km west of Neiafu, Tonga; no casualties or damage reported."
+    },
     {
       "wp_id": 8491,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-07-09-2026/",
