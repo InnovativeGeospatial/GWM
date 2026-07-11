@@ -1,9 +1,209 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-08T23:21:11.304759+00:00",
-  "count": 282,
+  "updated": "2026-07-11T22:00:17.045678+00:00",
+  "count": 302,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8518,
+      "wp_link": "https://globalwitnessmonitor.com/mob-stones-coptic-church-building-in-egypt-several-believers-injured/",
+      "date": "2026-07-11T22:00:10",
+      "title": "Mob Stones Coptic Church Building in Egypt, Several Believers Injured",
+      "country": "egypt",
+      "type": "church",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 8517,
+      "wp_link": "https://globalwitnessmonitor.com/iran-escalates-crackdown-on-christians-with-church-seizure-bible-bans-and-mass-custodial-sentences/",
+      "date": "2026-07-11T21:59:51",
+      "title": "Iran escalates crackdown on Christians with church seizure, Bible bans, and mass custodial sentences",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8508,
+      "wp_link": "https://globalwitnessmonitor.com/underground-church-pastor-released-from-china-after-9-months-8-co-leaders-remain-detained/",
+      "date": "2026-07-11T21:59:30",
+      "title": "Underground House Church Pastor Released After Nine Months in Chinese Detention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8492,
+      "wp_link": "https://globalwitnessmonitor.com/christian-family-evacuated-after-fabricated-blasphemy-accusation-triggers-mob-protest-in-pakistan/",
+      "date": "2026-07-11T21:59:14",
+      "title": "Over Two Dozen Christian Families Flee Homes in Pakistan After Blasphemy Accusations Spark Mob Fears",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8513,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-catechist-and-five-others-killed-after-months-in-captivity-following-mass-kidnapping-in-nigeria/",
+      "date": "2026-07-11T21:58:30",
+      "title": "Catholic Catechist and Five Others Killed After Months in Captivity Following Mass Kidnapping in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8512,
+      "wp_link": "https://globalwitnessmonitor.com/eight-christian-fellowship-leaders-freed-after-three-week-armed-kidnapping-in-nigeria/",
+      "date": "2026-07-11T21:58:07",
+      "title": "Eight Christian Fellowship Leaders Freed After Three-Week Armed Kidnapping in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8511,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-convert-on-hunger-strike-in-iranian-prison-as-christian-arrests-nearly-double-year-over-year/",
+      "date": "2026-07-11T21:57:50",
+      "title": "Catholic convert on hunger strike in Iranian prison as Christian arrests nearly double year-over-year",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8507,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-service-detain-33-believers-including-two-elders/",
+      "date": "2026-07-11T21:56:26",
+      "title": "Chinese Authorities Raid House Church Service, Detain 33 Believers Including Two Elders",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8506,
+      "wp_link": "https://globalwitnessmonitor.com/china-denies-bail-to-detained-house-church-member-nine-others-still-facing-prosecution/",
+      "date": "2026-07-11T21:56:05",
+      "title": "China Denies Bail to Detained House Church Member, Nine Others Still Facing Prosecution",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8505,
+      "wp_link": "https://globalwitnessmonitor.com/christian-lawyer-defending-persecuted-believers-arrested-in-iran-on-national-security-charges/",
+      "date": "2026-07-11T21:55:45",
+      "title": "Christian lawyer defending persecuted believers arrested in Iran on national security charges",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8504,
+      "wp_link": "https://globalwitnessmonitor.com/wave-of-church-vandalism-and-worship-disruptions-targets-christian-minority-in-eastern-india/",
+      "date": "2026-07-11T21:55:27",
+      "title": "Wave of Church Vandalism and Worship Disruptions Targets Christian Minority in Eastern India",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8503,
+      "wp_link": "https://globalwitnessmonitor.com/two-christian-men-shot-dead-by-gunmen-during-cricket-match-in-pakistan/",
+      "date": "2026-07-11T21:55:05",
+      "title": "Two Christian men shot dead by gunmen during cricket match in Pakistan",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8502,
+      "wp_link": "https://globalwitnessmonitor.com/arson-attack-destroys-only-church-building-in-sudans-nuba-mountains-area/",
+      "date": "2026-07-11T21:54:40",
+      "title": "Arson Attack Destroys Only Church Building in Sudan's Nuba Mountains Area",
+      "country": "sudan",
+      "type": "church",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 8501,
+      "wp_link": "https://globalwitnessmonitor.com/european-parliament-votes-510-1-to-condemn-massacre-of-over-20-christians-in-nigeria/",
+      "date": "2026-07-11T21:54:21",
+      "title": "European Parliament votes 510–1 to condemn massacre of over 20 Christians in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8493,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-kills-22-in-attack-on-nigerian-christian-community/",
+      "date": "2026-07-11T21:54:01",
+      "title": "30 Christians killed in coordinated Fulani herdsmen attacks across Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8497,
+      "wp_link": "https://globalwitnessmonitor.com/report-documents-over-2550-christians-killed-in-nigeria-in-six-months/",
+      "date": "2026-07-11T21:53:45",
+      "title": "Report Documents Over 28,000 Christians Killed in Nigeria Over Six Years",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8498,
+      "wp_link": "https://globalwitnessmonitor.com/over-35000-sign-petition-for-release-of-christian-convert-tried-in-egypts-terrorism-court/",
+      "date": "2026-07-11T21:53:34",
+      "title": "Over 35,000 Sign Petition for Release of Christian Convert Tried in Egypt's Terrorism Court",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 8496,
+      "wp_link": "https://globalwitnessmonitor.com/mob-attacks-and-intimidation-target-christian-communities-across-eastern-indian-state/",
+      "date": "2026-07-11T21:52:57",
+      "title": "Mob Attacks and Intimidation Target Christian Communities Across Eastern Indian State",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8495,
+      "wp_link": "https://globalwitnessmonitor.com/teenage-christian-girl-abducted-forcibly-converted-and-hidden-court-dismisses-familys-petition/",
+      "date": "2026-07-11T21:52:40",
+      "title": "Teenage Christian Girl Abducted, Forcibly Converted, and Hidden — Court Dismisses Family's Petition",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8494,
+      "wp_link": "https://globalwitnessmonitor.com/elderly-bishop-detained-twice-after-praying-about-persecution-during-mass/",
+      "date": "2026-07-11T21:52:28",
+      "title": "Elderly Bishop Detained Twice After Praying About Persecution During Mass",
+      "country": "nicaragua",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": -85.2
+    },
     {
       "wp_id": 8417,
       "wp_link": "https://globalwitnessmonitor.com/iran-appeals-court-upholds-combined-55-year-sentences-against-five-christian-converts/",
