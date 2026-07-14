@@ -1,9 +1,261 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-11T22:54:05.280554+00:00",
-  "count": 995,
+  "updated": "2026-07-14T19:41:33.414346+00:00",
+  "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8647,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-14-2026/",
+      "date": "2026-07-14T19:38:30",
+      "title": "Wildfire in United States 07/14/2026",
+      "body": "The Camp Fire spread more than 4 miles in a half-day on Monday, July 13, 2026, amid hot and dry conditions in northeastern Minnesota. As of Tuesday morning, the fire had burned 1,500 acres and was 0% contained. Seventeen",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.903261,
+      "lng": -91.866919,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOanBkOHhuUjQ5bjlXdHJ3RXMtOHdPMXVFYlNxa2h0ZEdjODRJTjA2bXhnSzlKQjQxdXpjakprbHQ3TlRUR0s2cGRtMllVMTUtMFlGQkZzWjgtbGJteWkwTXZ4UkdxblFFQ1ZLUnhwTzc1NlE0aWMtUTQwMTdXNnc4QVNETmdtX3V2LWQ2eFdvWWxUTlJoLVBpbVAtVEJNTTlpZkxtWg?oc=5",
+      "prayer": "Residents, campers, and lodge guests near Ely and Winton fleeing wildfires across northeastern Minnesota",
+      "alert_summary": "The Camp Fire northeast of Ely burned 1,500 acres, spread over 4 miles in a single day, and prompted mandatory evacuation orders across Lake and St. Louis counties."
+    },
+    {
+      "wp_id": 8646,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-07-12-2026/",
+      "date": "2026-07-14T19:38:09",
+      "title": "Flood in Nepal 07/12/2026",
+      "body": "The holding center at the Radha Soami Beas shelter in Kirtipur, where squatters from riverside settlements had been relocated, was inundated after the Bagmati River swelled following continuous rainfall. The Bagmati Rive",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 27.674793,
+      "lng": 85.277756,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFZ2R0lzQnBvYVl1UkdIN3lveFVPTUVnb0F1VDluQlpsS0ltS3RSQzZUdm92UnUtQzZLNi0xT3JmWTFONktmX0c0M040Q2ZqMjlRR0FNRWdsamJqYWEzVFF1VWI2U1pZOEVyeDZKVVlyU2F4SDY5SzJrcWVYM2w2Zll6bGFfeHRyQ05DcXFjb2t3ek94UGFKaWsxdGczZVNRcEIwVGVjMEJxUm42NWhESC1KSFV2V05x?oc=5",
+      "prayer": "Squatter families in Kirtipur and Bhaktapur uprooted twice, belongings destroyed, children's schooling disrupted",
+      "alert_summary": "Bagmati River flooding inundated a squatter holding center in Kirtipur, displacing 89 people from 31 families."
+    },
+    {
+      "wp_id": 8645,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-12-2026-cat-1/",
+      "date": "2026-07-14T19:37:00",
+      "title": "Storm in China 07/12/2026 — Cat 1",
+      "body": "Typhoon Bavi made landfall in the coastal city of Taizhou in eastern China on July 12, 2026, with nearly two million people evacuated ahead of the storm. The typhoon first came ashore in Taizhou before making a second la",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.725902,
+      "lng": 120.071318,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOEgwNEc5MTJpMW5JYnRiSGtnNlVoMFpCRHdWVlVxTEg0LUVxYjhBaGNnVGVLcHByV0lZaHB2aFliLUlrS2FFcjZPalBobTN4OHEtUlpYcW9GSkxacW43U3E3eko3c0V2QXVEM1ktS3FTSjBRS0h4WVlCUzNNZ0FyN3pGNFdWQlJPMXU1cVlCMVBxUE1vUEhYVQ?oc=5",
+      "prayer": "Nearly two million people evacuated across eastern China as Typhoon Bavi makes landfall",
+      "alert_summary": "Typhoon Bavi made landfall in Zhejiang province on July 12, 2026, prompting the evacuation of nearly two million people."
+    },
+    {
+      "wp_id": 8644,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-bangladesh-07-12-2026/",
+      "date": "2026-07-14T19:35:45",
+      "title": "Landslide in Bangladesh 07/12/2026",
+      "body": "Three more people — a woman and two children — died in separate rain-related incidents in Cox's Bazar on July 11, 2026, as monsoon rains continued to trigger landslides and flooding across the district. With these deaths",
+      "country": "Bangladesh",
+      "countries": [
+        "Bangladesh"
+      ],
+      "type": "Landslide",
+      "lat": 21.452524,
+      "lng": 92.01849,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcGxYc3h2TE1uTlJBYWVmMnB2YmUzcGNwWU4yRDFEVkRQSEpqR2dReWs0MXRLU2xfeXZaUkFwaWh6Z0RsbUY0TGZvUTNLY0YtUjgyc2VWbjlIRGdsM3VfUWRMd095VXF1TGVjdzVIMDZhYk94TzFfZDlxRm9BTUxHMk5ITjFmTXptS3VKS2FCNk9oOWFzM2ptRFV5OE1YcF9FQ2ZYQ2M1RzRmX3V4a01iWElEUlpETWxMdGVSUWFqeU84VzJMSGJXYkJGWTMzdEl2eVhPMA?oc=5",
+      "prayer": "Residents and Rohingya refugees in Cox's Bazar district caught between landslides and floodwaters with a rising death toll",
+      "alert_summary": "Landslides and floods in Cox's Bazar killed at least 3 more people on July 11, bringing the district's cumulative toll to 26 dead, including 13 Rohingya refugees."
+    },
+    {
+      "wp_id": 8643,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-myanmar-07-13-2026/",
+      "date": "2026-07-14T19:34:40",
+      "title": "Flood in Myanmar 07/13/2026",
+      "body": "Floodwaters swept across western Myanmar's Rakhine and Chin states around July 11, 2026, killing at least three people according to figures released by the humanitarian services of the Arakan Army, an ethnic minority reb",
+      "country": "Myanmar",
+      "countries": [
+        "Myanmar"
+      ],
+      "type": "Flood",
+      "lat": 20.843655,
+      "lng": 92.9725,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUmotcWNncXhJZGp3emRTQ09ILVVPOEVSRmxOZkdTLUhRUC1GbTFRZkM5TXEzOTZxaDAzZ05tUjBPZVdXZG5YdGFUNWF3UGtSYnhEcENndnBMbUJMN2U2N2RtU2FmMFpoZVJPMkN6bkk5Um9qVHdjRkF5QmlVbmUxdXRTcGNiek5KcXZoTFptRDlYaVZkMFNfQmk5THY?oc=5",
+      "prayer": "Residents of Rakhine and Chin states displaced by rising floodwaters, including the elderly, sick, and pregnant",
+      "alert_summary": "Flooding in western Myanmar killed at least 3 people and forced over 1,600 to evacuate across Rakhine and Chin states."
+    },
+    {
+      "wp_id": 8642,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-14-2026/",
+      "date": "2026-07-14T19:34:00",
+      "title": "Flood in Philippines 07/14/2026",
+      "body": "Around 420 families, or 1,272 people, evacuated from seven barangays in four local government units in Negros Occidental on Thursday, July 10, 2026, as flooding was caused by heavy rains amid Super Typhoon Inday. The Pro",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 10.677067,
+      "lng": 123.009098,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUNGUnZIdUJMZlAzb2o0Ul9EVW5lUFNaWmZELU1Pc1llMXlLSFI4OVBOdjBlTXRENldrLUc0RGZjV1l1RWJJSTNOT0t5Rmh3UUV6U3p5eGtaNUZORzVlZm9xNmhmdm9NQlhaOW9uWko3RUNvS3h0UmcxcE1xSzhVREJOSXdHX0VTdktaTUtudGh2elA2OXc?oc=5",
+      "prayer": "Families in Bacolod and Negros Occidental displaced by flooding amid Typhoon Inday",
+      "alert_summary": "Flooding triggered by Typhoon Inday displaced about 420 families across four local government units in Negros Occidental, including Bacolod."
+    },
+    {
+      "wp_id": 8641,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-13-2026/",
+      "date": "2026-07-14T19:28:56",
+      "title": "Flood in United States 07/13/2026",
+      "body": "On July 11, 2026, flash flooding struck several Tennessee counties, with Greene County among the hardest hit. The flooding led to damaged homes, closed roads, at least one collapsed bridge, and a search for a possibly mi",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 36.162243,
+      "lng": -82.83146,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS19OSFlqLUJDZ3d5RktaTHVvVThOUkN0ZUlLeHY5bkFRVVhFdVl1a1BQaHBuWDFuYW5Od2cyVVEyU2RMX2huSUk3NUR5VVItcTlLYWUwcGIybHdfY1NQQkM1YnJ2SS1mcDF3Z2FnRzlwTHE5TmI4NzdHVElLRzhBUnZyTXBpdWppVThwdw?oc=5",
+      "prayer": "Residents of Greene County, Tennessee displaced by flooding, a missing man, and families facing home condemnation",
+      "alert_summary": "Weekend flooding in Greene County, Tennessee damaged homes, closed roads, collapsed a bridge, and displaced an unknown number of residents."
+    },
+    {
+      "wp_id": 8640,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-14-2026/",
+      "date": "2026-07-14T19:28:32",
+      "title": "Storm in China 07/14/2026",
+      "body": "Typhoon Bavi made landfall twice along the coast of Zhejiang Province — at 11:20 p.m. Saturday and again around midnight — before moving inland. By the afternoon of July 14, more than 260,000 people had been relocated to",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1USFRUWXA2ME9MS1dydE9CRDhERDRkQlZ5RjMwclpvYTJjbVlpb2ZqMGNNNmdBQW5kdGdBRVZ3UVJfekR4LTNfV2lyRjhJY3ptTnFhMjhfa2NMZTh5VmNj?oc=5",
+      "prayer": "More than 260,000 residents of Liaoning Province uprooted by Typhoon Bavi's floods and rain",
+      "alert_summary": "Typhoon Bavi forced more than 260,000 people to evacuate Liaoning Province, northeastern China, as of July 14, 2026."
+    },
+    {
+      "wp_id": 8639,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-12-2026/",
+      "date": "2026-07-14T19:27:41",
+      "title": "Wildfire in France 07/12/2026",
+      "body": "On July 12, 2026, a wildfire broke out in Fontainebleau Forest in Seine-et-Marne, about 60 kilometers southeast of Paris. A second blaze in the area began on Monday afternoon. The fires that erupted Sunday have now scorc",
+      "country": "France",
+      "countries": [
+        "France"
+      ],
+      "type": "Wildfire",
+      "lat": 48.404385,
+      "lng": 2.70058,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/france-arrests-arson-suspects-amid-fontainebleau-forest-fire/a-77946073?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Residents of Fontainebleau and the surrounding communities displaced by ongoing wildfires in a historic forest near Paris",
+      "alert_summary": "Two wildfires in Fontainebleau Forest burned more than 2,000 hectares and forced evacuation of about 1,000 residents south of Paris."
+    },
+    {
+      "wp_id": 8638,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-13-2026/",
+      "date": "2026-07-14T19:26:52",
+      "title": "Wildfire in Spain 07/13/2026",
+      "body": "On Thursday, July 10, 2026, a wildfire fueled by high winds, dry land, and high temperatures swept through the village of Bédar in Almeria province, Spain, killing at least 13 people. Eight bodies were found on a path ne",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 37.190002,
+      "lng": -1.981707,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cp9ld3p324jo?at_medium=RSS&at_campaign=rss",
+      "prayer": "British expatriates and international residents of Bédar, Spain, grieving losses after a wildfire",
+      "alert_summary": "Wildfire swept through Bédar, Almeria province on July 10, 2026, killing at least 13 people."
+    },
+    {
+      "wp_id": 8637,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-14-2026/",
+      "date": "2026-07-14T19:25:59",
+      "title": "Wildfire in Canada 07/14/2026",
+      "body": "A wildfire outbreak across western Ontario, Canada, and Minnesota sent thick plumes of smoke toward the Great Lakes and Northeast, bringing hazardous air quality to a wide area. Multiple wildfires were burning across wes",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 49.451564,
+      "lng": -84.253981,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029508",
+      "prayer": "Residents across western Ontario and northern Minnesota affected by an active wildfire outbreak",
+      "alert_summary": "Wildfires burning across western Ontario and northern Minnesota sent smoke plumes into the Great Lakes and Northeast; no single casualty figure reported."
+    },
+    {
+      "wp_id": 8636,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-14-2026/",
+      "date": "2026-07-14T19:22:15",
+      "title": "Heatwave in Kazakhstan 07/14/2026",
+      "body": "On July 14, 2026, a heatwave gripped Kazakhstan, with temperatures climbing well above normal across much of the country. Kazakhstan's national hydrometeorological service, Kazhydromet, reported that temperatures peaked ",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 51.128221,
+      "lng": 71.430668,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260714-113701-0452255-00-RU.xml",
+      "prayer": "Residents across Kazakhstan enduring record-breaking heat with temperatures far above normal",
+      "alert_summary": "A heatwave pushed temperatures to 39.5°C in Astana on July 14, breaking the previous record for that date by more than 4°C."
+    },
+    {
+      "wp_id": 8635,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-07-14-2026-magnitude-5/",
+      "date": "2026-07-14T19:16:57",
+      "title": "Earthquake in Philippines 07/14/2026 — Magnitude 5",
+      "body": "On July 14, 2026, a magnitude 5 earthquake struck near Sugal in the Davao Region of Mindanao, Philippines. The quake occurred at a depth of about 24 kilometers. The earthquake was reported felt by some people near the ep",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.644251,
+      "lng": 123.34406,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0bm",
+      "prayer": "Residents near Sugal in Mindanao's Davao Region shaken by a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck near Sugal in the Davao Region of Mindanao on July 14, 2026; no casualty figures reported."
+    },
+    {
+      "wp_id": 8634,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-07-13-2026-magnitude-6/",
+      "date": "2026-07-14T19:16:09",
+      "title": "Earthquake in Papua New Guinea 07/13/2026 — Magnitude 6",
+      "body": "On July 13, 2026, a magnitude 6.4 earthquake struck the Bismarck Sea off Papua New Guinea. The quake occurred at a depth of about 10 kilometers, placing the rupture close to the seafloor. The epicenter was approximately ",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.032957,
+      "lng": 147.278918,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szzy",
+      "prayer": "Residents of Manus Province and surrounding coastal communities after an offshore earthquake",
+      "alert_summary": "Magnitude 6.4 earthquake struck the Bismarck Sea offshore of Lorengau, Manus Province; no casualties or damage reported."
+    },
     {
       "wp_id": 8589,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-11-2026/",
@@ -17293,150 +17545,6 @@
       "type": "Earthquake",
       "lat": -6.4784,
       "lng": 145.2417,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2058,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-7-104-km-nne-of-hihifo-tonga/",
-      "date": "2026-05-01T03:23:55",
-      "title": "M 4.7 &#8211; 104 km NNE of Hihifo, Tonga",
-      "body": "A magnitude 4.7 earthquake was recorded approximately 104 kilometers north-northeast of Hihifo, Tonga, at 01:44 UTC on April 29, 2026, according to USGS data. The event occurred at a shallow depth of 10 kilometers, which",
-      "country": "Tonga",
-      "countries": [
-        "Tonga"
-      ],
-      "type": "Earthquake",
-      "lat": -15.9568,
-      "lng": -173.7921,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2057,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-5-106-km-ene-of-kuji-japan/",
-      "date": "2026-05-01T03:23:33",
-      "title": "M 4.5 &#8211; 106 km ENE of Kuji, Japan",
-      "body": "A magnitude 4.5 earthquake struck approximately 106 kilometers east-northeast of Kuji, Japan, on April 30, 2026, at 08:43 UTC, according to USGS reporting. The epicenter was recorded at coordinates 40.631°N, 142.886°E, w",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 40.19,
-      "lng": 141.7686,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2056,
-      "wp_link": "https://globalwitnessmonitor.com/m-5-0-135-km-wnw-of-neiafu-tonga/",
-      "date": "2026-05-01T03:23:22",
-      "title": "M 5.0 &#8211; 135 km WNW of Neiafu, Tonga",
-      "body": "A magnitude 5.0 earthquake occurred approximately 135 kilometers west-northwest of Neiafu, Tonga, on April 30, 2026, at 09:07 UTC, according to USGS data. The event was recorded at a depth of approximately 249 kilometers",
-      "country": "Tonga",
-      "countries": [
-        "Tonga"
-      ],
-      "type": "Earthquake",
-      "lat": -18.6515,
-      "lng": -173.9836,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2055,
-      "wp_link": "https://globalwitnessmonitor.com/m-5-7-234-km-se-of-lorengau-papua-new-guinea/",
-      "date": "2026-05-01T03:23:11",
-      "title": "M 5.7 &#8211; 234 km SE of Lorengau, Papua New Guinea",
-      "body": "A magnitude 5.7 earthquake occurred approximately 234 kilometers southeast of Lorengau, Papua New Guinea, on April 30, 2026, at 13:27 UTC, according to USGS reporting. The event was recorded at a shallow depth of 10 kilo",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -2.033,
-      "lng": 147.2789,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2054,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-8-85-km-ese-of-kokopo-papua-new-guinea/",
-      "date": "2026-05-01T03:22:55",
-      "title": "M 4.8 &#8211; 85 km ESE of Kokopo, Papua New Guinea",
-      "body": "A magnitude 4.8 earthquake struck approximately 85 kilometers east-southeast of Kokopo, Papua New Guinea, on April 30, 2026, at 22:58 UTC, according to USGS reporting. The event was recorded at a shallow depth of 10 kilo",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2050,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-australia-2/",
-      "date": "2026-04-30T00:57:56",
-      "title": "forest fire notification in Australia",
-      "body": "A forest fire was reported in Australia, beginning on 25 April 2026 and continuing through 28 April 2026, according to the Global Disaster Alert and Coordination System (GDACS). No specific region, state, or locality is ",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -16.2936,
-      "lng": 125.2545,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2048,
-      "wp_link": "https://globalwitnessmonitor.com/m-5-0-26-km-e-of-aras-asan-philippines/",
-      "date": "2026-04-30T00:57:23",
-      "title": "M 5.0 &#8211; 26 km E of Aras-asan, Philippines",
-      "body": "A magnitude 5.0 earthquake struck approximately 26 kilometers east of Aras-asan in the Philippines on April 29, 2026, at 22:04 UTC, according to USGS reporting. The event occurred at a shallow depth of 10 kilometers, whi",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 8.8893,
-      "lng": 126.3101,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2047,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-united-kingdom/",
-      "date": "2026-04-29T19:20:44",
-      "title": "forest fire notification in United Kingdom",
-      "body": "A forest fire was reported in the United Kingdom, with initial reports indicating the event began on 25 April 2026 and continued through 29 April 2026. No specific geographic location within the country, casualty figures",
-      "country": "United Kingdom",
-      "countries": [
-        "United Kingdom"
-      ],
-      "type": "Wildfire",
-      "lat": 52.304,
-      "lng": -3.6908,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2046,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-australia/",
-      "date": "2026-04-29T19:20:34",
-      "title": "forest fire notification in Australia",
-      "body": "A forest fire was reported in Australia, beginning on 27 April 2026 and continuing through 28 April 2026, according to an alert issued via the Global Disaster Alerting Coordination System (GDACS). No specific region, loc",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -19.9183,
-      "lng": 120.5277,
       "source_title": "",
       "source_url": ""
     }
