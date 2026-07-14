@@ -1,9 +1,109 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-11T22:55:21.809969+00:00",
-  "count": 303,
+  "updated": "2026-07-14T19:46:46.668446+00:00",
+  "count": 313,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8658,
+      "wp_link": "https://globalwitnessmonitor.com/iran-seizes-historic-protestant-church-complex-orders-20-christian-families-evicted/",
+      "date": "2026-07-14T19:46:40",
+      "title": "Iran seizes historic Protestant church complex, orders 20 Christian families evicted",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 8657,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-acquits-final-convicts-in-mob-killing-of-christian-couple-church-raises-alarm/",
+      "date": "2026-07-14T19:46:17",
+      "title": "Pakistan's Supreme Court Acquits Final Convicts in Mob Killing of Christian Couple, Church Raises Alarm",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8656,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-held-three-days-after-extremists-storm-home-worship-service-on-false-conversion-charges/",
+      "date": "2026-07-14T19:45:46",
+      "title": "Pastor Held Three Days After Extremists Storm Home Worship Service on False Conversion Charges",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8653,
+      "wp_link": "https://globalwitnessmonitor.com/two-catholic-men-killed-by-islamist-gunmen-while-playing-cricket-in-pakistan/",
+      "date": "2026-07-14T19:45:24",
+      "title": "Islamic State affiliate kills two Catholic men during cricket match in Pakistan",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8654,
+      "wp_link": "https://globalwitnessmonitor.com/armed-attackers-kill-18-christians-in-36-hour-double-strike-in-nigerias-benue-state/",
+      "date": "2026-07-14T19:45:06",
+      "title": "Armed Attackers Kill 18 Christians in 36-Hour Double Strike in Nigeria's Benue State",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 8652,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-court-issues-rare-10-year-sentence-for-participant-in-anti-christian-riots/",
+      "date": "2026-07-14T19:44:22",
+      "title": "Pakistani court issues rare 10-year sentence for participant in anti-Christian riots",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 8651,
+      "wp_link": "https://globalwitnessmonitor.com/mob-beats-60-christians-with-axes-and-sickles-thirteen-hospitalized/",
+      "date": "2026-07-14T19:44:02",
+      "title": "Mob Beats 60 Christians With Axes and Sickles, Thirteen Hospitalized",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 8650,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-gathering-detain-33-believers-and-hold-two-elders/",
+      "date": "2026-07-14T19:43:38",
+      "title": "Chinese Authorities Raid House Church Gathering, Detain 33 Believers and Hold Two Elders",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8649,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-transferred-to-detention-center-after-sentence-concludes-wifes-status-unknown/",
+      "date": "2026-07-14T19:43:10",
+      "title": "House Church Pastor Transferred to Detention Center After Sentence Concludes, Wife's Status Unknown",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 8648,
+      "wp_link": "https://globalwitnessmonitor.com/beijing-house-church-leaders-face-trial-as-crackdown-enters-judicial-phase/",
+      "date": "2026-07-14T19:42:56",
+      "title": "Beijing House Church Leaders Face Trial as Crackdown Enters Judicial Phase",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
     {
       "wp_id": 8590,
       "wp_link": "https://globalwitnessmonitor.com/catholic-convert-on-hunger-strike-in-iranian-prison-after-nearly-10-year-sentence-for-practicing-faith/",
