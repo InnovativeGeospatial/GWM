@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-14T19:41:35.199552+00:00",
-  "count": 1034,
+  "updated": "2026-07-16T17:48:10.318477+00:00",
+  "count": 1045,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8737,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-07-15-2026/",
+      "date": "2026-07-16T17:44:29",
+      "title": "Flood in Nigeria 07/15/2026",
+      "country": "Nigeria",
+      "type": "Flood",
+      "lat": 6.466138,
+      "lng": 3.58544
+    },
+    {
+      "wp_id": 8736,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-14-2026-2/",
+      "date": "2026-07-16T17:39:38",
+      "title": "Storm in China 07/14/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875
+    },
+    {
+      "wp_id": 8735,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-16-2026/",
+      "date": "2026-07-16T17:36:56",
+      "title": "Flood in United States 07/16/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 30.2752,
+      "lng": -98.872
+    },
+    {
+      "wp_id": 8734,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-07-16-2026/",
+      "date": "2026-07-16T17:35:37",
+      "title": "Disease in Uganda 07/16/2026",
+      "country": "Uganda",
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218
+    },
+    {
+      "wp_id": 8733,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-16-2026/",
+      "date": "2026-07-16T17:35:20",
+      "title": "Wildfire in Canada 07/16/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 49.451564,
+      "lng": -84.253981
+    },
+    {
+      "wp_id": 8732,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-07-16-2026/",
+      "date": "2026-07-16T17:26:42",
+      "title": "Flood in Russia 07/16/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 57.67354,
+      "lng": 63.062523
+    },
+    {
+      "wp_id": 8731,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-16-2026/",
+      "date": "2026-07-16T17:23:40",
+      "title": "Heatwave in Kazakhstan 07/16/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 47.810421,
+      "lng": 67.674138
+    },
+    {
+      "wp_id": 8730,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-07-14-2026-magnitude-6/",
+      "date": "2026-07-16T17:19:09",
+      "title": "Earthquake in Fiji 07/14/2026 — Magnitude 6",
+      "country": "Fiji",
+      "type": "Earthquake",
+      "lat": -20.748,
+      "lng": -178.5092
+    },
+    {
+      "wp_id": 8729,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-07-15-2026-magnitude-5/",
+      "date": "2026-07-16T17:18:36",
+      "title": "Earthquake in Russia 07/15/2026 — Magnitude 5",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 52.931564,
+      "lng": 158.40579
+    },
+    {
+      "wp_id": 8728,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-07-16-2026-magnitude-6/",
+      "date": "2026-07-16T17:17:17",
+      "title": "Earthquake in New Zealand 07/16/2026 — Magnitude 6",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -45.415012,
+      "lng": 167.71806
+    },
+    {
+      "wp_id": 8727,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-16-2026-magnitude-5/",
+      "date": "2026-07-16T17:16:47",
+      "title": "Earthquake in United States 07/16/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 61.432693,
+      "lng": -142.92172
+    },
     {
       "wp_id": 8647,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-14-2026/",
