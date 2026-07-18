@@ -1,9 +1,149 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-16T17:48:10.318477+00:00",
-  "count": 1045,
+  "updated": "2026-07-18T15:48:41.728706+00:00",
+  "count": 1059,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8827,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-18-2026/",
+      "date": "2026-07-18T15:46:34",
+      "title": "Wildfire in United States 07/18/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 37.977135,
+      "lng": -122.032936
+    },
+    {
+      "wp_id": 8826,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-18-2026/",
+      "date": "2026-07-18T15:43:53",
+      "title": "Flood in South Korea 07/18/2026",
+      "country": "South Korea",
+      "type": "Flood",
+      "lat": 36.536236,
+      "lng": 128.168944
+    },
+    {
+      "wp_id": 8825,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-16-2026/",
+      "date": "2026-07-18T15:35:17",
+      "title": "Earthquake in Venezuela 07/16/2026",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 7.61957,
+      "lng": -65.801997
+    },
+    {
+      "wp_id": 8824,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-17-2026/",
+      "date": "2026-07-18T15:35:02",
+      "title": "Flood in United States 07/17/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 29.209595,
+      "lng": -99.786156
+    },
+    {
+      "wp_id": 8823,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-norway-07-18-2026/",
+      "date": "2026-07-18T15:34:34",
+      "title": "Wildfire in Norway 07/18/2026",
+      "country": "Norway",
+      "type": "Wildfire",
+      "lat": 59.750144,
+      "lng": 10.057599
+    },
+    {
+      "wp_id": 8822,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-algeria-07-17-2026/",
+      "date": "2026-07-18T15:34:08",
+      "title": "Other in Algeria 07/17/2026",
+      "country": "Algeria",
+      "type": "Other",
+      "lat": 36.729362,
+      "lng": 3.148378
+    },
+    {
+      "wp_id": 8821,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-14-2026-2/",
+      "date": "2026-07-18T15:33:46",
+      "title": "Wildfire in Canada 07/14/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 51.973239,
+      "lng": -116.742777
+    },
+    {
+      "wp_id": 8820,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-07-18-2026/",
+      "date": "2026-07-18T15:32:51",
+      "title": "Flood in Vietnam 07/18/2026",
+      "country": "Vietnam",
+      "type": "Flood",
+      "lat": 22.38621,
+      "lng": 103.470244
+    },
+    {
+      "wp_id": 8819,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-18-2026/",
+      "date": "2026-07-18T15:23:16",
+      "title": "Heatwave in Kazakhstan 07/18/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 8818,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-14-2026-magnitude-5/",
+      "date": "2026-07-18T15:20:15",
+      "title": "Earthquake in United States 07/14/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 54.854749,
+      "lng": -163.414368
+    },
+    {
+      "wp_id": 8817,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-07-16-2026-magnitude-6/",
+      "date": "2026-07-18T15:19:24",
+      "title": "Earthquake in Japan 07/16/2026 — Magnitude 6",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 22.8589,
+      "lng": 144.3909
+    },
+    {
+      "wp_id": 8816,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-07-16-2026-magnitude-5/",
+      "date": "2026-07-18T15:19:06",
+      "title": "Earthquake in New Zealand 07/16/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -37.593536,
+      "lng": 178.29216
+    },
+    {
+      "wp_id": 8815,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-turkey-07-18-2026-magnitude-5/",
+      "date": "2026-07-18T15:17:37",
+      "title": "Earthquake in Turkey 07/18/2026 — Magnitude 5",
+      "country": "Turkey",
+      "type": "Earthquake",
+      "lat": 38.2608,
+      "lng": 38.4814
+    },
+    {
+      "wp_id": 8814,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-07-17-2026-magnitude-7/",
+      "date": "2026-07-18T15:16:34",
+      "title": "Earthquake in Mexico 07/17/2026 — Magnitude 7",
+      "country": "Mexico",
+      "type": "Earthquake",
+      "lat": 14.719043,
+      "lng": -92.42215
+    },
     {
       "wp_id": 8737,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-07-15-2026/",
