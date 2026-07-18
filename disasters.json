@@ -1,9 +1,261 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-16T17:48:08.538447+00:00",
+  "updated": "2026-07-18T15:48:40.007819+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8827,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-18-2026/",
+      "date": "2026-07-18T15:46:34",
+      "title": "Wildfire in United States 07/18/2026",
+      "body": "On July 17, 2026, a wildfire broke out near Marsh Creek Road and Morgan Territory Road in eastern Contra Costa County, California. The Morgan Fire started near the intersection of Morgan Territory Road and Marsh Creek Ro",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 37.977135,
+      "lng": -122.032936,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVU5LeXgxb1cyUjRqWVRpaXVvanpqWHp0QkNuRmJNRTFWLWxZTUJ0b3JPZFk5VHR0OWhqWDhuY0w1dXNBdkNWdGpra2JDZlZQdGR1MHJwRGtrdTRocTNGSGpVQUJXTjV6Mkx0SDFQUy1LRlROVEVHcU93V2Q2enVVZXRPbklzODRJX0U0Q0dkSjhJVzZoWGxVYlRYYVJJcjBudWhfOGxNLWptUWRLcE0tZEhab2RRNHhPbHFBdw?oc=5",
+      "prayer": "Residents near Mount Diablo facing evacuation warnings as the Morgan Fire burns through rugged terrain",
+      "alert_summary": "A wildfire burned approximately 50 acres on the east side of Mount Diablo in Contra Costa County, California, triggering evacuation warnings for nearby residents."
+    },
+    {
+      "wp_id": 8826,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-18-2026/",
+      "date": "2026-07-18T15:43:53",
+      "title": "Flood in South Korea 07/18/2026",
+      "body": "Overnight rains struck the Seoul metropolitan area and the eastern province of Gangwon, flooding homes and roads and causing about 540 cases of property damage. Rainfall of nearly 200 millimeters fell between midnight an",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Flood",
+      "lat": 36.536236,
+      "lng": 128.168944,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd29PUldtdUw5VEJNdWpOazZxLWlCeU1ZeHVWLXp1ajhIbDVXeFRGVi1KeERtbEY1MWtpMEg5YzE4OXVGOFlLMmlLd1dXYzBCLXFpTHVEVTBkdDJhRTFMWEg4eC1ITGlpSXZ2QjBRejdwcktCN0ZwZzNONmJtaWhCck9yenJxYWk3?oc=5",
+      "prayer": "Residents of Seoul and Gangwon Province displaced or damaged by overnight flooding and fallen trees",
+      "alert_summary": "Flooding struck the Seoul metropolitan area and Gangwon Province on July 18, 2026, causing 540 property damage cases and evacuating 95 people."
+    },
+    {
+      "wp_id": 8825,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-16-2026/",
+      "date": "2026-07-18T15:35:17",
+      "title": "Earthquake in Venezuela 07/16/2026",
+      "body": "Twin earthquakes struck Venezuela on June 24, 2026, killing more than 4,000 people according to authorities and causing damage across several states. Three weeks later, thousands of people remain displaced and humanitari",
+      "country": "Venezuela",
+      "countries": [
+        "Venezuela"
+      ],
+      "type": "Earthquake",
+      "lat": 7.61957,
+      "lng": -65.801997,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/07/1167964",
+      "prayer": "Thousands of displaced Venezuelan families three weeks after twin earthquakes, facing uncertain recovery and a potential El Niño threat",
+      "alert_summary": "Twin earthquakes on June 24 killed more than 4,000 people across Venezuela, leaving thousands still displaced three weeks later."
+    },
+    {
+      "wp_id": 8824,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-17-2026/",
+      "date": "2026-07-18T15:35:02",
+      "title": "Flood in United States 07/17/2026",
+      "body": "At least two people died in overnight flooding that prompted evacuations and damaged homes, schools, and roads across the Texas Hill Country. A man died about four miles north of Uvalde after his vehicle was swept away b",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 29.209595,
+      "lng": -99.786156,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c36d1n6g3x9o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families in Uvalde County and Texas Hill Country displaced and bereaved after flash flooding destroyed homes and swept away vehicles",
+      "alert_summary": "Flash flooding across Texas Hill Country beginning July 15–16, 2026 killed at least 2 people and prompted more than 230 rescues across Uvalde County and surrounding areas."
+    },
+    {
+      "wp_id": 8823,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-norway-07-18-2026/",
+      "date": "2026-07-18T15:34:34",
+      "title": "Wildfire in Norway 07/18/2026",
+      "body": "On July 17, 2026, a fire that began in a townhouse in Drammen, southern Norway, around 3:30 p.m. quickly spread, destroying more than 100 homes and forcing hundreds of residents to evacuate. The fire struck Krokstadelva,",
+      "country": "Norway",
+      "countries": [
+        "Norway"
+      ],
+      "type": "Wildfire",
+      "lat": 59.750144,
+      "lng": 10.057599,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c4gj5944n4ko?at_medium=RSS&at_campaign=rss",
+      "prayer": "Hundreds of evacuated residents in Drammen whose homes were destroyed by wildfire",
+      "alert_summary": "Wildfire in Krokstadelva, Drammen destroyed more than 100 homes and forced hundreds to evacuate on July 17, 2026."
+    },
+    {
+      "wp_id": 8822,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-algeria-07-17-2026/",
+      "date": "2026-07-18T15:34:08",
+      "title": "Other in Algeria 07/17/2026",
+      "body": "On July 17, 2026, a fire broke out in the early hours of the morning at a children's orphanage in Mohammadia, an eastern suburb of Algiers, killing 11 people and injuring 19 others. Forensic investigators determined the ",
+      "country": "Algeria",
+      "countries": [
+        "Algeria"
+      ],
+      "type": "Other",
+      "lat": 36.729362,
+      "lng": 3.148378,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Children and caregivers killed and injured in an orphanage fire in Algiers",
+      "alert_summary": "A fire at a children's orphanage in Mohammadia, Algiers killed 11 people and injured 19 others on July 17, 2026."
+    },
+    {
+      "wp_id": 8821,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-14-2026-2/",
+      "date": "2026-07-18T15:33:46",
+      "title": "Wildfire in Canada 07/14/2026",
+      "body": "Over 888 active wildfires were reported across Canada in mid-July 2026, primarily in Alberta, British Columbia, Northwestern Ontario, and Saskatchewan, with fires recorded in at least eight provinces and two territories.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 51.973239,
+      "lng": -116.742777,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029497",
+      "prayer": "Communities across Canada and the northern United States facing active wildfires, evacuations, and smoke-driven health crises",
+      "alert_summary": "Wildfires burning across at least eight Canadian provinces and two territories have forced evacuations and pushed smoke into the United States; four firefighters have died."
+    },
+    {
+      "wp_id": 8820,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-07-18-2026/",
+      "date": "2026-07-18T15:32:51",
+      "title": "Flood in Vietnam 07/18/2026",
+      "body": "A flash flood swept through a mountainous village in northern Lai Chau province on July 18, 2026, killing at least four people and leaving four others missing. The flooding struck Muong Than village in the early hours of",
+      "country": "Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "type": "Flood",
+      "lat": 22.38621,
+      "lng": 103.470244,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104029",
+      "prayer": "Families in Lai Chau province grieving losses and those still missing after flash flooding",
+      "alert_summary": "Flash flooding in Lai Chau province killed at least 4 people, left 4 missing, and injured 7 others."
+    },
+    {
+      "wp_id": 8819,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-18-2026/",
+      "date": "2026-07-18T15:23:16",
+      "title": "Heatwave in Kazakhstan 07/18/2026",
+      "body": "Astana recorded a temperature of 39.5°C on July 14, 2026, breaking the previous record for that date by more than 4°C. On July 18, Kazhydromet issued a warning that critical weather conditions would persist across Kazakh",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/en/2.49.0.0.398.0-20260718-100701-0453685-00-EN.xml",
+      "prayer": "Residents across Kazakhstan enduring record-breaking heat with rising wildfire risk",
+      "alert_summary": "A heatwave across Kazakhstan reached 39.5°C in Astana on July 14, with southern regions forecast to hit 45–48°C; no casualty figure reported."
+    },
+    {
+      "wp_id": 8818,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-14-2026-magnitude-5/",
+      "date": "2026-07-18T15:20:15",
+      "title": "Earthquake in United States 07/14/2026 — Magnitude 5",
+      "body": "A magnitude 5.4 earthquake struck near False Pass, Alaska on July 14, 2026. The quake occurred in the Gulf of Alaska near Sanak Island, in the morning local time. It had a shallow depth of about 47 km and was felt by som",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 54.854749,
+      "lng": -163.414368,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0fu",
+      "prayer": "Remote Alaskan communities near the Aleutian Peninsula after a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5.4 earthquake struck 90 km south-southeast of False Pass, Alaska, with no confirmed casualties or damage reported."
+    },
+    {
+      "wp_id": 8817,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-07-16-2026-magnitude-6/",
+      "date": "2026-07-18T15:19:24",
+      "title": "Earthquake in Japan 07/16/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake struck near the Volcano Islands, Japan region on July 16, 2026. The event occurred in the North Pacific Ocean, approximately 262 km from the Northern Mariana Islands. The quake was shallow, at ",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 22.8589,
+      "lng": 144.3909,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x0",
+      "prayer": "Remote island communities near the Volcano Islands region after a shallow earthquake",
+      "alert_summary": "Magnitude 5.5 earthquake struck the Volcano Islands, Japan region at a depth of about 13 km on July 16, 2026."
+    },
+    {
+      "wp_id": 8816,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-07-16-2026-magnitude-5/",
+      "date": "2026-07-18T15:19:06",
+      "title": "Earthquake in New Zealand 07/16/2026 — Magnitude 5",
+      "body": "On July 16, 2026, a magnitude 5.0 earthquake struck 141 km east-northeast of Hicks Bay, New Zealand, at a shallow depth of 10 km. The epicenter was recorded at 141 km east-northeast of Hicks Bay. No felt reports were sub",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -37.593536,
+      "lng": 178.29216,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0x8",
+      "prayer": "Residents near Hicks Bay, New Zealand after a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 141 km east-northeast of Hicks Bay, New Zealand at a depth of 10 km; no casualties reported."
+    },
+    {
+      "wp_id": 8815,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-turkey-07-18-2026-magnitude-5/",
+      "date": "2026-07-18T15:17:37",
+      "title": "Earthquake in Turkey 07/18/2026 — Magnitude 5",
+      "body": "On July 18, 2026, a magnitude 5.0 earthquake struck the Battalgazi district of Malatya Province in eastern Turkey at 6:20 a.m. local time. The quake was centered at a depth of about 16 kilometers. The tremor was felt in ",
+      "country": "Turkey",
+      "countries": [
+        "Turkey"
+      ],
+      "type": "Earthquake",
+      "lat": 38.2608,
+      "lng": 38.4814,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1j0",
+      "prayer": "Residents of Battalgazi, Malatya shaken by an earthquake with no reported casualties or damage",
+      "alert_summary": "Magnitude 5 earthquake struck the Battalgazi district of Malatya province; no casualties or damage reported."
+    },
+    {
+      "wp_id": 8814,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-07-17-2026-magnitude-7/",
+      "date": "2026-07-18T15:16:34",
+      "title": "Earthquake in Mexico 07/17/2026 — Magnitude 7",
+      "body": "On July 17, 2026, a magnitude 7.3 earthquake struck off the southern Mexican Pacific coast, with the epicenter about 30 miles southwest of Aquiles Serdán near Chiapas, at a depth of roughly 9 miles. The quake was felt fr",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 14.719043,
+      "lng": -92.42215,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu",
+      "prayer": "Residents of coastal Chiapas shaken by an offshore earthquake and tsunami warning",
+      "alert_summary": "Magnitude 7.3 earthquake struck off the coast of Chiapas near Puerto Madero on July 17, 2026; one person injured, no deaths reported."
+    },
     {
       "wp_id": 8737,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-07-15-2026/",
@@ -17343,230 +17595,6 @@
       "type": "Earthquake",
       "lat": 8.0204,
       "lng": 91.7969,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2096,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-near-severo-kurilsk-russia/",
-      "date": "2026-05-02T18:17:27",
-      "title": "Magnitude 5.1 Earthquake Strikes Near Severo-Kuril&#8217;sk Russia",
-      "body": "A magnitude 5.1 earthquake struck approximately 70 km east-northeast of Severo-Kuril’sk in Russia’s Kuril Islands region on 1 May 2026 at 04:03 UTC. The event occurred at a depth of 76 km, placing it in the intermediate-",
-      "country": "Russia",
-      "countries": [
-        "Russia"
-      ],
-      "type": "Earthquake",
-      "lat": 50.6705,
-      "lng": 156.119,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2095,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-near-sijunjung-indonesia/",
-      "date": "2026-05-02T18:17:16",
-      "title": "Magnitude 4.5 Earthquake Strikes Near Sijunjung, Indonesia",
-      "body": "A magnitude 4.5 earthquake occurred approximately 48 kilometers east-southeast of Sijunjung, Indonesia, on May 1, 2026, at 05:17 UTC. The USGS recorded the event at a depth of approximately 197 kilometers — a deep-focus ",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -0.6996,
-      "lng": 100.9778,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2094,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-ransiki-indonesia/",
-      "date": "2026-05-02T18:17:05",
-      "title": "Magnitude 4.9 Earthquake Strikes Near Ransiki Indonesia",
-      "body": "A magnitude 4.9 earthquake struck approximately 14 kilometers east-southeast of Ransiki, Indonesia on 1 May 2026 at 09:24 UTC. The event was recorded at a shallow depth of 10 kilometers, which can increase ground shaking",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -1.504,
-      "lng": 134.1681,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2093,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-off-hasaki-coast/",
-      "date": "2026-05-02T18:16:54",
-      "title": "Magnitude 4.9 Earthquake Strikes Off Hasaki Coast",
-      "body": "A magnitude 4.9 earthquake occurred approximately 75 kilometers east-northeast of Hasaki, Japan, on 1 May 2026 at 13:00 UTC. The USGS recorded the event at a depth of 35 kilometers, placing it in the shallow-to-intermedi",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 35.7483,
-      "lng": 140.824,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2092,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-south-of-nemuro-japan/",
-      "date": "2026-05-02T18:16:44",
-      "title": "Magnitude 4.8 Earthquake Strikes South of Nemuro Japan",
-      "body": "A magnitude 4.8 earthquake occurred approximately 47 kilometers south of Nemuro, Japan, on 1 May 2026 at 17:19 UTC. The event was recorded at a depth of 38.77 kilometers (approximately 24 miles), placing it in the interm",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 43.3346,
-      "lng": 145.5802,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2091,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-northeast-of-lospalos/",
-      "date": "2026-05-02T18:16:33",
-      "title": "Magnitude 4.8 Earthquake Strikes Northeast of Lospalos",
-      "body": "A magnitude 4.8 earthquake occurred approximately 198 km northeast of Lospalos, Timor-Leste, on 1 May 2026 at 18:52 UTC. The event was recorded at a depth of 172 km, placing it in the deep intermediate range — a depth th",
-      "country": "Timor-Leste",
-      "countries": [
-        "Timor-Leste"
-      ],
-      "type": "Earthquake",
-      "lat": -8.522,
-      "lng": 126.9987,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2090,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-deep-south-of-fiji/",
-      "date": "2026-05-02T18:16:22",
-      "title": "Magnitude 5.1 Earthquake Strikes Deep South of Fiji",
-      "body": "A magnitude 5.1 earthquake occurred south of the Fiji Islands on 2 May 2026 at 02:06 UTC. The event was recorded at a depth of approximately 533 kilometers, classifying it as a deep-focus earthquake. At such depths, seis",
-      "country": "Fiji",
-      "countries": [
-        "Fiji"
-      ],
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2089,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-deep-beneath-northwestern-argentina/",
-      "date": "2026-05-02T18:16:12",
-      "title": "Magnitude 4.5 Earthquake Strikes Deep Beneath Northwestern Argentina",
-      "body": "A magnitude 4.5 earthquake occurred approximately 111 kilometers west of San Antonio de los Cobres in northwestern Argentina on 2 May 2026 at 03:57 UTC. The event was recorded at a significant depth of approximately 211 ",
-      "country": "Argentina",
-      "countries": [
-        "Argentina"
-      ],
-      "type": "Earthquake",
-      "lat": -24.2175,
-      "lng": -66.3209,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2088,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-0-earthquake-strikes-near-chamical-argentina/",
-      "date": "2026-05-02T18:16:02",
-      "title": "Magnitude 5.0 Earthquake Strikes Near Chamical Argentina",
-      "body": "A magnitude 5.0 earthquake struck approximately 43 kilometers north-northwest of Chamical, Argentina on 2 May 2026 at 05:04 UTC. The event occurred at a shallow depth of 10 kilometers, which can increase the potential fo",
-      "country": "Argentina",
-      "countries": [
-        "Argentina"
-      ],
-      "type": "Earthquake",
-      "lat": -30.3585,
-      "lng": -66.3126,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2087,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-north-of-calama/",
-      "date": "2026-05-02T18:15:52",
-      "title": "Magnitude 4.6 Earthquake Strikes North of Calama",
-      "body": "A magnitude 4.6 earthquake occurred approximately 79 kilometers north of Calama, Chile, on 2 May 2026 at 06:22 UTC. The event was recorded at a depth of approximately 116 kilometers, placing it in the intermediate-depth ",
-      "country": "Chile",
-      "countries": [
-        "Chile"
-      ],
-      "type": "Earthquake",
-      "lat": -22.4633,
-      "lng": -68.9255,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2086,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-deep-beneath-izu-islands/",
-      "date": "2026-05-02T18:15:40",
-      "title": "Magnitude 4.6 Earthquake Strikes Deep Beneath Izu Islands",
-      "body": "A magnitude 4.6 earthquake occurred in the Izu Islands region of Japan on 2 May 2026 at 08:36 UTC. The event was recorded at an unusually deep focal depth of approximately 396 kilometers, placing it well within the subdu",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 34.9786,
-      "lng": 138.9495,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2085,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-near-koya-japan/",
-      "date": "2026-05-02T18:15:29",
-      "title": "Magnitude 5.7 Earthquake Strikes Near Kōya Japan",
-      "body": "A magnitude 5.7 earthquake struck approximately 17 kilometers southwest of Kōya, Japan, on May 2, 2026, at 09:28 UTC. The USGS recorded a focal depth of 59.09 kilometers, placing this in the intermediate-depth range, whi",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 34.2154,
-      "lng": 135.5862,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2084,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-2-earthquake-strikes-remote-waters-west-of-tual/",
-      "date": "2026-05-02T18:15:17",
-      "title": "Magnitude 5.2 Earthquake Strikes Remote Waters West of Tual",
-      "body": "A magnitude 5.2 earthquake occurred approximately 217 kilometers west of Tual, Indonesia, on 2 May 2026 at 10:27 UTC. The event was recorded at a depth of approximately 131 kilometers, placing it in the intermediate-dept",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -5.6376,
-      "lng": 132.7451,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2083,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-deep-northwest-of-neiafu/",
-      "date": "2026-05-02T18:15:00",
-      "title": "Magnitude 4.9 Earthquake Strikes Deep Northwest of Neiafu",
-      "body": "A magnitude 4.9 earthquake occurred approximately 153 kilometers west-northwest of Neiafu, Tonga, on 2 May 2026 at 11:30 UTC. The event was recorded at a depth of approximately 247 kilometers, classifying it as a deep-fo",
-      "country": "Tonga",
-      "countries": [
-        "Tonga"
-      ],
-      "type": "Earthquake",
-      "lat": -18.6515,
-      "lng": -173.9836,
       "source_title": "",
       "source_url": ""
     }
