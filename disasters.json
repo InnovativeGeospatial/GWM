@@ -1,9 +1,207 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-18T15:48:40.007819+00:00",
+  "updated": "2026-07-20T13:48:42.171493+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 8936,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-19-2026/",
+      "date": "2026-07-20T13:48:36",
+      "title": "Wildfire in Canada 07/19/2026",
+      "body": "An evacuation alert was issued for parts of the Village of Pemberton on July 15, 2026, as the Signal Hill wildfire (V30852) was believed to be located just outside the village boundary. An evacuation order for the commun",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 50.32243,
+      "lng": -122.80772,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb1JKUjMwaEJKNW1BRF9ZV3ZKRWZnUUh3Y3FqSVBFcHozNjEtM3hIM0wtVWRrSGRhaDV5NEUySURDV2l2am1OTHd2SHNPb29fbEcxU2Q0cHdad0YwcmlRRTRySjY1YWhuMG5YaXpCTEYyUm1PeDFsSmJrYloxbDdMRWxVYlBlaVFOQlQ5eU5fVGpzSUVZR285RkVQQ0Vodw?oc=5",
+      "prayer": "Residents of Pemberton, British Columbia, displaced by the Signal Hill wildfire and communities across British Columbia still under evacuation orders",
+      "alert_summary": "The Signal Hill wildfire near Pemberton, British Columbia burned under one square kilometre and prompted evacuations beginning July 15, 2026."
+    },
+    {
+      "wp_id": 8935,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-20-2026/",
+      "date": "2026-07-20T13:46:47",
+      "title": "Flood in India 07/20/2026",
+      "body": "On July 19, 2026, torrential rains and cloudburst-triggered flash floods struck several parts of Jammu and Kashmir, resulting in at least 10 to 11 people killed. Seven others went missing as torrential rains triggered la",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 33.76702,
+      "lng": 74.09244,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSGw2RWxCeW9KY2tERmMzQW9oTEQxSDd1Y0ZyUy1SRXpGTWc1LXhlRjVpMzF1RG9CWm5vM0RBaWpQNWxfQ1VuZHdwMG15emZvbTdWSUl0d2dfWVNaX25PS0xhSzhMc0p4Y0dIcFVITFZieXRSa01HM240NXFXY0RZNUZvSXB5OUF4Z2JjcUk4cmVBM3N3alFFbzlOOHNNS21scmswXzJZM1JUUldlQmxLM2c5TE5IOHRJaVI2VGNDd0VNUy1u?oc=5",
+      "prayer": "Families in Poonch and Rajouri, Jammu and Kashmir, grieving losses and awaiting rescue after flash floods",
+      "alert_summary": "Flash floods and landslides struck Poonch and Rajouri districts on July 19, 2026, killing at least 11 people with several others missing."
+    },
+    {
+      "wp_id": 8934,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-07-17-2026/",
+      "date": "2026-07-20T13:46:01",
+      "title": "Flood in Vietnam 07/17/2026",
+      "body": "Flooding and landslides struck Khánh Hòa province in Vietnam, killing at least 10 people and leaving 2 missing. Nearly 9,000 homes in 14 communes and wards were inundated, with flood depths reaching up to 1.5 meters in p",
+      "country": "Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "type": "Flood",
+      "lat": 12.234877,
+      "lng": 109.194144,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObjY1MWtEN0pjOUUtSFk0cjNxdjZIN0RMOUFYVk5CUUhTUWxHblQzOTF2Q09sME5ORVB2LTRoLW56NmdDZGVxNk9sTGI3RFhWUlRsZHF2WFpBb1UtbXphLVdvNm9neXNXTmlBSU92VFFFSnlLQTJQMWtvTDRYNUg4eGdGbDU4Nm55M0ZTRXlGWTRpR2pEbVlhYXZXNFFSb2lxUFRlQ0QtTnYtV1d4MUpEQ0FNcUtPcktxWnBueUtlOA?oc=5",
+      "prayer": "Families across flood-stricken Khánh Hòa province, many still hesitating to evacuate amid rising waters",
+      "alert_summary": "Flooding and landslides in Khánh Hòa killed 10 people, left 2 missing, and prompted evacuation of more than 6,500 residents."
+    },
+    {
+      "wp_id": 8933,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-19-2026/",
+      "date": "2026-07-20T13:44:18",
+      "title": "Flood in Philippines 07/19/2026",
+      "body": "On July 19, 2026, a flash flood struck Barangay Mapagong in Calamba City, Laguna, sweeping away two children — aged 11 and seven. Three individuals were rescued during the incident, but the two children remain missing. N",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 14.214961,
+      "lng": 121.182874,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT3RnRDFwa3hVdmN3ZlFKTlZjdnAxZnVRUGx2cDEzWnBzcm01cnBoZGs3VEoyaDF4Q0FVUkg0aDhoWFplTFE1XzdaQmdqbFpXRFRCQmJoU1VPcURBZmsxdHV6UE5GRXhtLWVwbmpGZ25pMHlneVhuZTNOekNmNFc4Q2VlNmxRMnlPU0xsTHJDN3pySkdqUERpSnFsTmhWUkJ4TDV1NFV3MTJJMkxHRUdBeFJlTkltYjg?oc=5",
+      "prayer": "Two children still missing after a flash flood swept through Barangay Mapagong, Calamba City",
+      "alert_summary": "Flash flood in Barangay Mapagong, Calamba City, Laguna swept away homes and left two children missing, displacing 46 families or 190 individuals."
+    },
+    {
+      "wp_id": 8932,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-20-2026/",
+      "date": "2026-07-20T13:38:52",
+      "title": "Flood in United States 07/20/2026",
+      "body": "Five family members who had set out for a day of hiking were killed after a flash flood swept through canyons of southern Utah on Friday. The family had arrived at Sunglow Campground in a red rock canyon near Bicknell fo",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 38.341832,
+      "lng": -111.520472,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFNIcUE3U1RBeVN5M0wzMEdscTVFR2NZT3dJMXQzTGctODB6OS1EcmdEc3piNFdEN2kzXzhsaW5IRGFKOFZxbDA4SUdkSU5NYmlaSHFUbGJndmlOWkRGUzR1bWhoNmdrX0NudUtNSjZXQUFxaFc5WFVPZzkxYXF1Y2I0M0pnUXZWLXhrSFd0UGItRmRiWERUQjJXc29HUkJlQjdVYQ?oc=5",
+      "prayer": "A family of five lost to flash flooding near Sunglow Campground in Wayne County, Utah, leaving one daughter without her parents and brothers",
+      "alert_summary": "A flash flood near Sunglow Campground in Bicknell, Utah killed five members of one family on July 18, 2026."
+    },
+    {
+      "wp_id": 8931,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia-07-03-2026/",
+      "date": "2026-07-20T13:36:24",
+      "title": "Drought in Somalia 07/03/2026",
+      "body": "After four consecutive failed rainy seasons, Somalia's federal government declared a national drought emergency in November 2025. Across Somalia, Ethiopia, and Kenya, nearly 26 million people are facing extreme hunger as",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Drought",
+      "lat": 6.545,
+      "lng": 44.618,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027450",
+      "prayer": "Millions of people across Somalia, Ethiopia, and Kenya facing hunger, displacement, and water scarcity amid ongoing drought",
+      "alert_summary": "Drought across Somalia, Ethiopia, and Kenya has left nearly 26 million people facing acute hunger, with over 135,000 displaced in Somalia alone"
+    },
+    {
+      "wp_id": 8930,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-19-2026/",
+      "date": "2026-07-20T13:35:01",
+      "title": "Flood in South Korea 07/19/2026",
+      "body": "Heavy rains struck Seoul on July 18, 2026, triggering flood warnings across multiple wards and closing a key road along an eastern stream. By early Sunday, authorities had received 837 reports of rain-related damage, inc",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Flood",
+      "lat": 36.563489,
+      "lng": 128.72608,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104032",
+      "prayer": "Residents across South Korea evacuated by monsoon flooding and landslides, including wildfire survivors whose temporary homes were swept away",
+      "alert_summary": "Monsoon flooding beginning July 18, 2026 displaced at least 441 people across six regions of South Korea, with one person reported missing."
+    },
+    {
+      "wp_id": 8929,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-07-19-2026/",
+      "date": "2026-07-20T13:34:32",
+      "title": "Storm in United States 07/19/2026",
+      "body": "Tropical Depression Two formed over the northeastern Gulf of Mexico on July 19, 2026, marking the Atlantic's second tropical cyclone of the 2026 hurricane season. As of the latest advisory, the center was located about 1",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 27.6993,
+      "lng": -97.15475,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001290",
+      "prayer": "Gulf Coast communities — Florida Panhandle, Alabama, Mississippi, Louisiana, and Texas — in the path of a slow-moving tropical depression",
+      "alert_summary": "Tropical Depression Two formed in the northeastern Gulf of Mexico on July 19, 2026; no casualty figures reported, with Tropical Storm Watches issued for parts of the Florida Panhandle."
+    },
+    {
+      "wp_id": 8928,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-19-2026/",
+      "date": "2026-07-20T13:21:55",
+      "title": "Heatwave in Kazakhstan 07/19/2026",
+      "body": "On July 14, 2026, Astana reached 39.5°C — a new temperature record for that date, surpassing the previous record by more than 4°C. On July 18, Kazakhstan's national weather service issued a severe weather warning, noting",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/en/2.49.0.0.398.0-20260719-060701-0453986-00-EN.xml",
+      "prayer": "Residents across Kazakhstan enduring record-breaking heat and the wildfire risk it brings",
+      "alert_summary": "A heatwave across Kazakhstan pushed temperatures to 39.5°C in Astana on July 14, with southern regions forecast to reach 45–48°C."
+    },
+    {
+      "wp_id": 8927,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-07-20-2026-magnitude-5/",
+      "date": "2026-07-20T13:17:40",
+      "title": "Earthquake in Indonesia 07/20/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred approximately 83 kilometers west of Tobelo, in the North Maluku region of Indonesia. No date for the event was available in the source, and no casualty, injury, or displacement figures h",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.6021,
+      "lng": 127.2659,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1wm",
+      "prayer": "Residents near Tobelo, Indonesia, following an offshore earthquake west of the city",
+      "alert_summary": "A magnitude 5 earthquake struck about 83 km west of Tobelo, Indonesia; no casualty or displacement figure reported."
+    },
+    {
+      "wp_id": 8926,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-07-19-2026-magnitude-6/",
+      "date": "2026-07-20T13:16:43",
+      "title": "Earthquake in Peru 07/19/2026 — Magnitude 6",
+      "body": "On Saturday, July 18, 2026, a magnitude 5.5 earthquake struck at 9:24 p.m., with its epicenter located 2 kilometers west-southwest of Sicaya in Huancayo Province. The quake was 10 kilometers deep. At least six people wer",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -12.059098,
+      "lng": -77.004313,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q7",
+      "prayer": "Families in Peru's Andes near Sicaya grieving deaths, injuries, and loss of homes after an earthquake",
+      "alert_summary": "Magnitude 5.5 earthquake near Sicaya killed at least 6 people, injured over 30, and displaced around 300 residents."
+    },
     {
       "wp_id": 8827,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-18-2026/",
@@ -17419,182 +17617,6 @@
       "type": "Wildfire",
       "lat": -17.2902,
       "lng": 124.5618,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2125,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-japan-at-moderate-depth-2/",
-      "date": "2026-05-03T16:36:24",
-      "title": "Magnitude 5.7 Earthquake Strikes Japan at Moderate Depth",
-      "body": "A magnitude 5.7 earthquake struck Japan on 2 May 2026 at 09:28 UTC, with a focal depth of approximately 59 km. Initial assessments indicate roughly 140,000 people were exposed to shaking at MMI intensity V — a moderate l",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 36.3865,
-      "lng": 138.5922,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2124,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-near-hicks-bay/",
-      "date": "2026-05-03T16:35:54",
-      "title": "Magnitude 5.1 Earthquake Strikes Near Hicks Bay",
-      "body": "A magnitude 5.1 earthquake struck approximately 9 kilometers west-northwest of Hicks Bay on the North Island’s East Cape region on 2 May 2026 at 21:19 UTC. The USGS recorded the event at a depth of 35 kilometers. Estimat",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -37.5935,
-      "lng": 178.2922,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2123,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-kokopo-region/",
-      "date": "2026-05-03T16:35:43",
-      "title": "Magnitude 4.9 Earthquake Strikes Near Kokopo Region",
-      "body": "A magnitude 4.9 earthquake occurred approximately 51 kilometers south-southeast of Kokopo, Papua New Guinea, on 3 May 2026 at 04:40 UTC. The event was recorded at a shallow depth of 10 kilometers, which can increase the ",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2122,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-east-of-bitung-indonesia/",
-      "date": "2026-05-03T16:35:33",
-      "title": "Magnitude 4.8 Earthquake Strikes East of Bitung Indonesia",
-      "body": "A magnitude 4.8 earthquake occurred approximately 127 kilometers east of Bitung, Indonesia, on 3 May 2026 at 06:57 UTC. The event was recorded at a depth of 35 kilometers, placing it in the shallow-to-intermediate range.",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": 1.4443,
-      "lng": 125.1895,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2121,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-bonin-islands-region/",
-      "date": "2026-05-03T16:35:21",
-      "title": "Magnitude 4.5 Earthquake Strikes Bonin Islands Region",
-      "body": "A magnitude 4.5 earthquake struck the Bonin Islands region of Japan on 3 May 2026 at 07:07 UTC. The epicenter was located at approximately 28.993°N, 142.515°E, with a shallow focal depth of 10 kilometers. No casualty fig",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 28.9934,
-      "lng": 142.5152,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2120,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-southwest-of-turpan/",
-      "date": "2026-05-03T16:35:10",
-      "title": "Magnitude 5.1 Earthquake Strikes Southwest of Turpan",
-      "body": "A magnitude 5.1 earthquake occurred approximately 111 kilometers southwest of Turpan, China, on 3 May 2026 at 10:00 UTC. The USGS recorded the event at a shallow depth of 10 kilometers, which can increase the potential f",
-      "country": "China",
-      "countries": [
-        "China"
-      ],
-      "type": "Earthquake",
-      "lat": 42.9708,
-      "lng": 89.2483,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2103,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-united-kingdom-late-april-2026/",
-      "date": "2026-05-02T18:18:52",
-      "title": "Forest Fire Reported in United Kingdom Late April 2026",
-      "body": "A forest fire was recorded in the United Kingdom beginning 25 April 2026, with the event continuing through 1 May 2026, according to a GDACS monitoring alert. The notification was classified at a green alert level, indic",
-      "country": "United Kingdom",
-      "countries": [
-        "United Kingdom"
-      ],
-      "type": "Wildfire",
-      "lat": 52.3123,
-      "lng": -3.6964,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2101,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-burns-in-australia-through-early-may-2026/",
-      "date": "2026-05-02T18:18:29",
-      "title": "Forest Fire Burns in Australia Through Early May 2026",
-      "body": "A forest fire ignited in Australia on 29 April 2026 and continued burning through 2 May 2026, according to a green-level alert issued via GDACS. A green classification indicates a lower-severity event on the GDACS impact",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -23.6232,
-      "lng": 151.1169,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2100,
-      "wp_link": "https://globalwitnessmonitor.com/flooding-in-india-kills-eight-over-three/",
-      "date": "2026-05-02T18:18:15",
-      "title": "Flooding in India Kills Eight Over Three Days",
-      "body": "A flood event occurred in India beginning 29 April 2026 and continuing through at least 1 May 2026, resulting in eight reported fatalities. No displacement figures were recorded in association with the event. No specific",
-      "country": "India",
-      "countries": [
-        "India"
-      ],
-      "type": "Flood",
-      "lat": 12.9833,
-      "lng": 77.6047,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2098,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-japan-at-moderate-depth/",
-      "date": "2026-05-02T18:17:52",
-      "title": "Magnitude 5.7 Earthquake Strikes Japan at Moderate Depth",
-      "body": "A magnitude 5.7 earthquake struck Japan on 2 May 2026 at 09:28 UTC, occurring at a depth of approximately 59 km. Initial assessments indicate roughly 310,000 people were exposed to shaking at MMI intensity V — a level ge",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 36.3865,
-      "lng": 138.5922,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2097,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-nicobar-islands-region/",
-      "date": "2026-05-02T18:17:39",
-      "title": "Magnitude 4.8 Earthquake Strikes Nicobar Islands Region",
-      "body": "A magnitude 4.8 earthquake struck the Nicobar Islands region of India on 1 May 2026 at 03:12 UTC. The event was recorded at a shallow depth of 10 kilometers, with an epicenter at approximately 8.0°N, 91.8°E. Shallow-focu",
-      "country": "India",
-      "countries": [
-        "India"
-      ],
-      "type": "Earthquake",
-      "lat": 8.0204,
-      "lng": 91.7969,
       "source_title": "",
       "source_url": ""
     }
