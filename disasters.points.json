@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-18T15:48:41.728706+00:00",
-  "count": 1059,
+  "updated": "2026-07-20T13:48:44.664843+00:00",
+  "count": 1070,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 8936,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-19-2026/",
+      "date": "2026-07-20T13:48:36",
+      "title": "Wildfire in Canada 07/19/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 50.32243,
+      "lng": -122.80772
+    },
+    {
+      "wp_id": 8935,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-20-2026/",
+      "date": "2026-07-20T13:46:47",
+      "title": "Flood in India 07/20/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 33.76702,
+      "lng": 74.09244
+    },
+    {
+      "wp_id": 8934,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-07-17-2026/",
+      "date": "2026-07-20T13:46:01",
+      "title": "Flood in Vietnam 07/17/2026",
+      "country": "Vietnam",
+      "type": "Flood",
+      "lat": 12.234877,
+      "lng": 109.194144
+    },
+    {
+      "wp_id": 8933,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-07-19-2026/",
+      "date": "2026-07-20T13:44:18",
+      "title": "Flood in Philippines 07/19/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 14.214961,
+      "lng": 121.182874
+    },
+    {
+      "wp_id": 8932,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-20-2026/",
+      "date": "2026-07-20T13:38:52",
+      "title": "Flood in United States 07/20/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 38.341832,
+      "lng": -111.520472
+    },
+    {
+      "wp_id": 8931,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia-07-03-2026/",
+      "date": "2026-07-20T13:36:24",
+      "title": "Drought in Somalia 07/03/2026",
+      "country": "Somalia",
+      "type": "Drought",
+      "lat": 6.545,
+      "lng": 44.618
+    },
+    {
+      "wp_id": 8930,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-07-19-2026/",
+      "date": "2026-07-20T13:35:01",
+      "title": "Flood in South Korea 07/19/2026",
+      "country": "South Korea",
+      "type": "Flood",
+      "lat": 36.563489,
+      "lng": 128.72608
+    },
+    {
+      "wp_id": 8929,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-07-19-2026/",
+      "date": "2026-07-20T13:34:32",
+      "title": "Storm in United States 07/19/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 27.6993,
+      "lng": -97.15475
+    },
+    {
+      "wp_id": 8928,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-19-2026/",
+      "date": "2026-07-20T13:21:55",
+      "title": "Heatwave in Kazakhstan 07/19/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 8927,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-07-20-2026-magnitude-5/",
+      "date": "2026-07-20T13:17:40",
+      "title": "Earthquake in Indonesia 07/20/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 1.6021,
+      "lng": 127.2659
+    },
+    {
+      "wp_id": 8926,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-07-19-2026-magnitude-6/",
+      "date": "2026-07-20T13:16:43",
+      "title": "Earthquake in Peru 07/19/2026 — Magnitude 6",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -12.059098,
+      "lng": -77.004313
+    },
     {
       "wp_id": 8827,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-18-2026/",
