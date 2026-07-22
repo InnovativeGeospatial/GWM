@@ -1,9 +1,169 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-20T13:51:58.492819+00:00",
-  "count": 348,
+  "updated": "2026-07-22T11:56:16.763682+00:00",
+  "count": 364,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9052,
+      "wp_link": "https://globalwitnessmonitor.com/iran-seizes-last-presbyterian-church-compound-evicts-dozens-of-christian-residents/",
+      "date": "2026-07-22T11:56:11",
+      "title": "Iran Seizes Last Presbyterian Church Compound, Evicts Dozens of Christian Residents",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 9029,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-top-court-to-review-ruling-upholding-forced-marriage-of-underage-christian-girl/",
+      "date": "2026-07-22T11:55:48",
+      "title": "Pakistani Court Set to Hear Review Petition for Abducted Christian Girl Forced Into Conversion and Marriage",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9050,
+      "wp_link": "https://globalwitnessmonitor.com/afghan-christian-convert-faces-death-sentence-and-deportation-risk-after-fleeing-taliban-pursuit/",
+      "date": "2026-07-22T11:55:18",
+      "title": "Afghan Christian Convert Faces Death Sentence and Deportation Risk After Fleeing Taliban Pursuit",
+      "country": "afghanistan",
+      "type": "displacement",
+      "lat": 33.9,
+      "lng": 65.0
+    },
+    {
+      "wp_id": 9049,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-clears-all-remaining-convicts-in-2014-mob-burning-of-christian-family/",
+      "date": "2026-07-22T11:54:55",
+      "title": "Pakistan Supreme Court Clears All Remaining Convicts in 2014 Mob Burning of Christian Family",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9048,
+      "wp_link": "https://globalwitnessmonitor.com/congregation-attacked-and-church-burned-during-worship-in-south-sudan/",
+      "date": "2026-07-22T11:54:33",
+      "title": "Congregation Attacked and Church Burned During Worship in South Sudan",
+      "country": "south sudan",
+      "type": "church",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 9043,
+      "wp_link": "https://globalwitnessmonitor.com/church-elder-and-worship-leader-killed-in-wave-of-militant-attacks-targeting-eastern-drc-christians/",
+      "date": "2026-07-22T11:54:12",
+      "title": "Over 20 Christians Killed in Wave of Islamist Attacks Targeting Church Leaders in Eastern DRC",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 9045,
+      "wp_link": "https://globalwitnessmonitor.com/armed-militants-kill-at-least-25-christians-including-infant-in-weekend-nigeria-attacks/",
+      "date": "2026-07-22T11:53:24",
+      "title": "Armed Militants Kill At Least 25 Christians, Including Infant, in Weekend Nigeria Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9044,
+      "wp_link": "https://globalwitnessmonitor.com/church-leader-and-worship-leader-among-20-killed-in-wave-of-coordinated-attacks-in-eastern-drc/",
+      "date": "2026-07-22T11:53:02",
+      "title": "Church Leader and Worship Leader Among 20+ Killed in Wave of Coordinated Attacks in Eastern DRC",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 9042,
+      "wp_link": "https://globalwitnessmonitor.com/philippine-journalist-arrested-after-publishing-criticism-of-influential-independent-christian-group/",
+      "date": "2026-07-22T11:52:02",
+      "title": "Philippine journalist arrested after publishing criticism of influential independent Christian group",
+      "country": "philippines",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": 122.9
+    },
+    {
+      "wp_id": 9034,
+      "wp_link": "https://globalwitnessmonitor.com/north-korean-christian-detained-since-1998-for-bible-distribution-remains-imprisoned/",
+      "date": "2026-07-22T11:51:45",
+      "title": "Christian Woman Detained Since 2013 for Bible Possession Remains Imprisoned in North Korea",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
+    {
+      "wp_id": 9037,
+      "wp_link": "https://globalwitnessmonitor.com/north-korean-christian-woman-detained-over-two-decades-after-forced-return-from-china/",
+      "date": "2026-07-22T11:51:06",
+      "title": "North Korean Christian Woman Detained Over Two Decades After Forced Return from China",
+      "country": "north korea",
+      "type": "arrest",
+      "lat": 40.3,
+      "lng": 127.5
+    },
+    {
+      "wp_id": 9033,
+      "wp_link": "https://globalwitnessmonitor.com/christian-brick-kiln-worker-killed-for-drinking-from-co-workers-cooler-in-pakistan/",
+      "date": "2026-07-22T11:50:27",
+      "title": "Christian Brick Kiln Worker Killed for Drinking from Co-Worker's Cooler in Pakistan",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9032,
+      "wp_link": "https://globalwitnessmonitor.com/indonesian-congregation-files-human-rights-complaint-after-eight-year-church-building-obstruction/",
+      "date": "2026-07-22T11:50:13",
+      "title": "Indonesian Congregation Files Human Rights Complaint After Eight-Year Church Building Obstruction",
+      "country": "indonesia",
+      "type": "church",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 9031,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-mob-shuts-down-church-worship-service-amid-nine-year-permit-struggle-in-indonesia/",
+      "date": "2026-07-22T11:49:55",
+      "title": "Muslim Mob Shuts Down Church Worship Service Amid Nine-Year Permit Struggle in Indonesia",
+      "country": "indonesia",
+      "type": "church",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 9030,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-extremists-abduct-pastors-wife-and-three-children-in-nigeria/",
+      "date": "2026-07-22T11:49:41",
+      "title": "Islamic Extremists Abduct Pastor's Wife and Three Children in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9028,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-in-somaliland-poisoned-to-death-by-muslim-relatives/",
+      "date": "2026-07-22T11:49:13",
+      "title": "Christian Convert in Somaliland Poisoned to Death by Muslim Relatives",
+      "country": "somalia",
+      "type": "killing",
+      "lat": 6.1,
+      "lng": 46.2
+    },
     {
       "wp_id": 8941,
       "wp_link": "https://globalwitnessmonitor.com/six-church-leaders-remain-detained-after-coordinated-house-church-raids-bibles-confiscated/",
