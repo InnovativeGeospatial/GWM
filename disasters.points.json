@@ -1,9 +1,139 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-20T13:48:44.664843+00:00",
-  "count": 1070,
+  "updated": "2026-07-22T11:48:11.578792+00:00",
+  "count": 1083,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9027,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-bangladesh-07-20-2026/",
+      "date": "2026-07-22T11:45:19",
+      "title": "Disease in Bangladesh 07/20/2026",
+      "country": "Bangladesh",
+      "type": "Disease",
+      "lat": 22.334938,
+      "lng": 91.833405
+    },
+    {
+      "wp_id": 9026,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-21-2026/",
+      "date": "2026-07-22T11:44:02",
+      "title": "Flood in India 07/21/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 26.986383,
+      "lng": 94.63568
+    },
+    {
+      "wp_id": 9025,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-07-20-2026/",
+      "date": "2026-07-22T11:39:34",
+      "title": "Flood in Ghana 07/20/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 6.880854,
+      "lng": -1.167594
+    },
+    {
+      "wp_id": 9024,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-20-2026-2/",
+      "date": "2026-07-22T11:37:58",
+      "title": "Flood in United States 07/20/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 27.502862,
+      "lng": -99.507568
+    },
+    {
+      "wp_id": 9023,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-venezuela-07-20-2026-magnitude-7/",
+      "date": "2026-07-22T11:36:43",
+      "title": "Earthquake in Venezuela 07/20/2026 — Magnitude 7",
+      "country": "Venezuela",
+      "type": "Earthquake",
+      "lat": 10.600038,
+      "lng": -66.929641
+    },
+    {
+      "wp_id": 9022,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-costa-rica-07-22-2026/",
+      "date": "2026-07-22T11:35:06",
+      "title": "Flood in Costa Rica 07/22/2026",
+      "country": "Costa Rica",
+      "type": "Flood",
+      "lat": 10.098898,
+      "lng": -83.50566
+    },
+    {
+      "wp_id": 9021,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-moldova-07-22-2026/",
+      "date": "2026-07-22T11:34:27",
+      "title": "Flood in Moldova 07/22/2026",
+      "country": "Moldova",
+      "type": "Flood",
+      "lat": 47.02416,
+      "lng": 28.837374
+    },
+    {
+      "wp_id": 9020,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-07-19-2026-2/",
+      "date": "2026-07-22T11:34:01",
+      "title": "Storm in United States 07/19/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 29.813936,
+      "lng": -85.30421
+    },
+    {
+      "wp_id": 9019,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-22-2026/",
+      "date": "2026-07-22T11:32:41",
+      "title": "Heatwave in Kazakhstan 07/22/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 9018,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-21-2026/",
+      "date": "2026-07-22T11:22:15",
+      "title": "Wildfire in United States 07/21/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 36.978233,
+      "lng": -118.25403
+    },
+    {
+      "wp_id": 9017,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-07-21-2026-magnitude-6/",
+      "date": "2026-07-22T11:17:38",
+      "title": "Earthquake in New Zealand 07/21/2026 — Magnitude 6",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -29.5116,
+      "lng": -176.9951
+    },
+    {
+      "wp_id": 9016,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-07-22-2026-magnitude-5/",
+      "date": "2026-07-22T11:16:53",
+      "title": "Earthquake in Chile 07/22/2026 — Magnitude 5",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -27.8666,
+      "lng": -71.7009
+    },
+    {
+      "wp_id": 9015,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-07-17-2026-magnitude-6/",
+      "date": "2026-07-22T11:16:33",
+      "title": "Earthquake in Mexico 07/17/2026 — Magnitude 6",
+      "country": "Mexico",
+      "type": "Earthquake",
+      "lat": 14.719043,
+      "lng": -92.42215
+    },
     {
       "wp_id": 8936,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-07-19-2026/",
