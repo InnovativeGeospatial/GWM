@@ -1,9 +1,149 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-22T11:56:16.763682+00:00",
-  "count": 364,
+  "updated": "2026-07-24T09:55:31.548528+00:00",
+  "count": 378,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9153,
+      "wp_link": "https://globalwitnessmonitor.com/iran-seizes-oldest-protestant-church-evicts-20-christian-families-bans-all-gatherings/",
+      "date": "2026-07-24T09:55:24",
+      "title": "Iran Seizes Oldest Protestant Church, Evicts 20 Christian Families, Bans All Gatherings",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 9152,
+      "wp_link": "https://globalwitnessmonitor.com/iran-criminalises-christian-satellite-tv-viewing-labelling-broadcasters-as-hostile-organisations/",
+      "date": "2026-07-24T09:55:00",
+      "title": "Iran criminalises Christian satellite TV viewing, labelling broadcasters as hostile organisations",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 9136,
+      "wp_link": "https://globalwitnessmonitor.com/seven-christians-begin-five-year-sentences-in-india-under-anti-conversion-law/",
+      "date": "2026-07-24T09:54:38",
+      "title": "Seven Christians Begin Five-Year Prison Terms Under India's Anti-Conversion Law",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9148,
+      "wp_link": "https://globalwitnessmonitor.com/suicide-bomber-kills-dozens-at-syrian-church-during-sunday-worship-in-deadliest-attack-on-christians-in-over-a-century/",
+      "date": "2026-07-24T09:53:09",
+      "title": "Suicide bomber kills dozens at Syrian church during Sunday worship in deadliest attack on Christians in over a century",
+      "country": "syria",
+      "type": "church",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 9147,
+      "wp_link": "https://globalwitnessmonitor.com/church-elder-and-worship-leader-among-six-killed-in-triple-adf-attack-on-christian-community/",
+      "date": "2026-07-24T09:52:50",
+      "title": "Church Elder and Worship Leader Among Six Killed in Triple ADF Attack on Christian Community",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 9146,
+      "wp_link": "https://globalwitnessmonitor.com/iraqi-monastery-loses-thousands-of-dunams-to-land-seizures-as-property-dispute-deepens/",
+      "date": "2026-07-24T09:52:10",
+      "title": "Iraqi Monastery Loses Thousands of Dunams to Land Seizures as Property Dispute Deepens",
+      "country": "iraq",
+      "type": "church",
+      "lat": 33.2,
+      "lng": 43.7
+    },
+    {
+      "wp_id": 9145,
+      "wp_link": "https://globalwitnessmonitor.com/egypt-acknowledges-anti-coptic-discrimination-in-football-amid-broader-pattern-of-exclusion/",
+      "date": "2026-07-24T09:51:55",
+      "title": "Egypt Acknowledges Anti-Coptic Discrimination in Football Amid Broader Pattern of Exclusion",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 9144,
+      "wp_link": "https://globalwitnessmonitor.com/china-adds-second-charge-against-detained-house-church-preacher-as-case-moves-toward-trial/",
+      "date": "2026-07-24T09:51:40",
+      "title": "China adds second charge against detained house church preacher as case moves toward trial",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9143,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-nun-sentenced-to-eight-months-for-humanitarian-work-in-myanmar/",
+      "date": "2026-07-24T09:51:24",
+      "title": "Catholic Nun Sentenced to Eight Months for Humanitarian Work in Myanmar",
+      "country": "myanmar",
+      "type": "arrest",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 9141,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-believer-sentenced-to-over-six-years-in-russian-penal-colony/",
+      "date": "2026-07-24T09:51:12",
+      "title": "Jehovah's Witness Believer Sentenced to Over Six Years in Russian Penal Colony",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 9140,
+      "wp_link": "https://globalwitnessmonitor.com/ethiopian-teen-flees-home-and-faces-death-threats-after-converting-to-christianity/",
+      "date": "2026-07-24T09:50:49",
+      "title": "Ethiopian Teen Flees Home and Faces Death Threats After Converting to Christianity",
+      "country": "ethiopia",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 40.5
+    },
+    {
+      "wp_id": 9139,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-killed-day-after-baptizing-175-displaced-believers-in-central-african-republic/",
+      "date": "2026-07-24T09:50:38",
+      "title": "Catholic Priest Killed Day After Baptizing 175 Displaced Believers in Central African Republic",
+      "country": "central african republic",
+      "type": "killing",
+      "lat": 6.6,
+      "lng": 20.9
+    },
+    {
+      "wp_id": 9138,
+      "wp_link": "https://globalwitnessmonitor.com/released-pastor-details-prison-conditions-eight-believers-remain-detained-in-china/",
+      "date": "2026-07-24T09:50:27",
+      "title": "Released Pastor Details Prison Conditions, Eight Believers Remain Detained in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9137,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-protesters-oppose-legally-permitted-church-construction-in-indonesia/",
+      "date": "2026-07-24T09:50:14",
+      "title": "Muslim Protesters Oppose Legally Permitted Church Construction in Indonesia",
+      "country": "indonesia",
+      "type": "church",
+      "lat": -0.8,
+      "lng": 113.9
+    },
     {
       "wp_id": 9052,
       "wp_link": "https://globalwitnessmonitor.com/iran-seizes-last-presbyterian-church-compound-evicts-dozens-of-christian-residents/",
