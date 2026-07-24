@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-22T11:48:11.578792+00:00",
-  "count": 1083,
+  "updated": "2026-07-24T09:48:59.054743+00:00",
+  "count": 1095,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9135,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-23-2026/",
+      "date": "2026-07-24T09:47:42",
+      "title": "Wildfire in United States 07/23/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 37.648392,
+      "lng": -121.881032
+    },
+    {
+      "wp_id": 9134,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-07-24-2026/",
+      "date": "2026-07-24T09:35:56",
+      "title": "Flood in United States 07/24/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 38.993776,
+      "lng": -80.231962
+    },
+    {
+      "wp_id": 9133,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-24-2026/",
+      "date": "2026-07-24T09:35:31",
+      "title": "Flood in India 07/24/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266
+    },
+    {
+      "wp_id": 9132,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-afghanistan-07-22-2026/",
+      "date": "2026-07-24T09:35:06",
+      "title": "Flood in Afghanistan 07/22/2026",
+      "country": "Afghanistan",
+      "type": "Flood",
+      "lat": 35.420644,
+      "lng": 70.922612
+    },
+    {
+      "wp_id": 9131,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-24-2026/",
+      "date": "2026-07-24T09:34:25",
+      "title": "Wildfire in France 07/24/2026",
+      "country": "France",
+      "type": "Wildfire",
+      "lat": 44.841225,
+      "lng": -0.580036
+    },
+    {
+      "wp_id": 9130,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-pakistan-07-23-2026/",
+      "date": "2026-07-24T09:34:08",
+      "title": "Flood in Pakistan 07/23/2026",
+      "country": "Pakistan",
+      "type": "Flood",
+      "lat": 34.012385,
+      "lng": 71.578746
+    },
+    {
+      "wp_id": 9129,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-north-macedonia-07-23-2026/",
+      "date": "2026-07-24T09:33:43",
+      "title": "Storm in North Macedonia 07/23/2026",
+      "country": "North Macedonia",
+      "type": "Storm",
+      "lat": 41.996182,
+      "lng": 21.431921
+    },
+    {
+      "wp_id": 9128,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-philippines-07-23-2026-cat-1/",
+      "date": "2026-07-24T09:32:34",
+      "title": "Storm in Philippines 07/23/2026 — Cat 1",
+      "country": "Philippines",
+      "type": "Storm",
+      "lat": 18.8,
+      "lng": 121.8
+    },
+    {
+      "wp_id": 9127,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-07-17-2026-magnitude-5/",
+      "date": "2026-07-24T09:22:55",
+      "title": "Earthquake in Solomon Islands 07/17/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174
+    },
+    {
+      "wp_id": 9126,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-07-22-2026-magnitude-5-2/",
+      "date": "2026-07-24T09:19:11",
+      "title": "Earthquake in Chile 07/22/2026 — Magnitude 5",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -22.911633,
+      "lng": -68.19988
+    },
+    {
+      "wp_id": 9125,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-07-23-2026-magnitude-6/",
+      "date": "2026-07-24T09:17:44",
+      "title": "Earthquake in Indonesia 07/23/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 0.78721,
+      "lng": 127.381386
+    },
+    {
+      "wp_id": 9124,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-23-2026-magnitude-5/",
+      "date": "2026-07-24T09:17:05",
+      "title": "Earthquake in United States 07/23/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 36.1982,
+      "lng": -101.192919
+    },
     {
       "wp_id": 9027,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-bangladesh-07-20-2026/",
