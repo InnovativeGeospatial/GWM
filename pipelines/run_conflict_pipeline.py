@@ -689,7 +689,14 @@ WRITING STYLE - VERY IMPORTANT:
 - DO NOT include the prayer line in the body. The PRAYER: field at the top of the header is the only place the prayer appears.
 
 COUNTRY field rules:
-- Country where the event physically occurred, NOT the news outlet's country.
+- Country where the event PHYSICALLY occurred (where the ground, sea, or air space is), NOT the news outlet's country and NOT the nationality of any party involved.
+- CRITICAL: a country is NOT the location just because its military, government, citizens, or interests are involved. Report the country whose territory the event happened on or over.
+    - "US airstrike on militants in Iraq" -> COUNTRY: Iraq (event is in Iraq).
+    - "US base in Jordan attacked" -> COUNTRY: Jordan (base sits in Jordan).
+    - "US-Iran naval clash in Strait of Hormuz" -> COUNTRY: Iran (Hormuz is Iranian/Omani waters, never the US).
+    - "American hostage freed in Nigeria" -> COUNTRY: Nigeria.
+    - Only output COUNTRY: United States when the event physically happened ON US soil (a city or place inside the USA).
+- The Strait of Hormuz, Persian Gulf, Gulf of Oman, Red Sea, and Bab-el-Mandeb are NEVER in the United States. If the event is there and no better country is named, use COUNTRY: Iran for Hormuz/Persian Gulf, or COUNTRY: UNKNOWN for open international waters.
 - For events affecting multiple countries: COUNTRY: MULTIPLE: Country1, Country2
 - For events in international waters or unknown: COUNTRY: UNKNOWN
 - Use common country names: "Iran", "United States", "United Kingdom", "Myanmar", "Congo".
@@ -1205,12 +1212,29 @@ def geocode_mapbox(location, country_hint=None):
         if not features:
             return None, None
         hint_lower = (country_hint or "").strip().lower() if country_hint else None
+        # Backstop: certain location names are NEVER in the United States.
+        # If a US feature comes back for one of these, reject it outright so a
+        # foreign event can't be planted on a same-named US town.
+        _never_us = ("hormuz", "persian gulf", "gulf of oman", "red sea",
+                     "bab-el-mandeb", "bab el mandeb", "arabian sea",
+                     "gaza", "west bank", "sinai", "sea of oman")
+        _loc_low = (location or "").lower()
+        _loc_is_foreign_water = any(m in _loc_low for m in _never_us)
         for feat in features:
             center = feat.get("center")
             if not center or len(center) < 2:
                 continue
             lng, lat = float(center[0]), float(center[1])
             feat_country = ""
+            # reject US resolutions for locations that can't be in the US
+            _fc_probe = ""
+            if "country" in (feat.get("place_type") or []):
+                _fc_probe = (feat.get("text") or "").lower()
+            for _ctx in (feat.get("context") or []):
+                if isinstance(_ctx, dict) and _ctx.get("id", "").startswith("country."):
+                    _fc_probe = (_ctx.get("text") or "").lower()
+            if _loc_is_foreign_water and _fc_probe in ("united states", "usa", "united states of america"):
+                continue
             if "country" in (feat.get("place_type") or []):
                 feat_country = (feat.get("text") or "").lower()
             for ctx in (feat.get("context") or []):
