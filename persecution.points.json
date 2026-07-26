@@ -1,9 +1,99 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-24T09:55:31.548528+00:00",
-  "count": 378,
+  "updated": "2026-07-26T07:57:27.441436+00:00",
+  "count": 387,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9255,
+      "wp_link": "https://globalwitnessmonitor.com/nine-christian-family-members-including-infant-massacred-in-nigeria-after-pastor-named-as-target/",
+      "date": "2026-07-26T07:57:18",
+      "title": "Nine Christians, Including Infant, Massacred by Militia as U.S. Demands Justice from Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9254,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-kills-nine-from-nigerian-pastors-family-u-s-condemns-attack-amid-ongoing-middle-belt-violence/",
+      "date": "2026-07-26T07:56:39",
+      "title": "Fulani Militia Kills Nine from Nigerian Pastor's Family; U.S. Condemns Attack Amid Ongoing Middle Belt Violence",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9245,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-killed-in-uganda-following-interfaith-debate-and-muslim-conversions/",
+      "date": "2026-07-26T07:56:15",
+      "title": "Ugandan pastor killed by suspected Islamic extremist after interfaith debate leads two Muslim women to Christ",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 9251,
+      "wp_link": "https://globalwitnessmonitor.com/russia-bans-child-evangelism-ministry-as-detained-missionary-faces-trial/",
+      "date": "2026-07-26T07:55:40",
+      "title": "Russia Bans Child Evangelism Ministry as Detained Missionary Faces Trial",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 9250,
+      "wp_link": "https://globalwitnessmonitor.com/six-church-leaders-remain-detained-after-house-church-raids-across-china/",
+      "date": "2026-07-26T07:55:26",
+      "title": "Six Church Leaders Remain Detained After House Church Raids Across China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9249,
+      "wp_link": "https://globalwitnessmonitor.com/christian-woman-released-on-bail-after-month-in-detention-over-religious-materials-case/",
+      "date": "2026-07-26T07:55:09",
+      "title": "Christian Woman Released on Bail After Month in Detention Over Religious Materials Case",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9248,
+      "wp_link": "https://globalwitnessmonitor.com/caste-discrimination-forces-three-day-burial-standoff-for-dalit-catholic-in-india/",
+      "date": "2026-07-26T07:54:50",
+      "title": "Caste discrimination forces three-day burial standoff for Dalit Catholic in India",
+      "country": "india",
+      "type": "displacement",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9247,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-acquits-all-suspects-in-decade-old-brick-kiln-murder-of-christian-couple/",
+      "date": "2026-07-26T07:54:33",
+      "title": "Pakistan Supreme Court Acquits All Suspects in Decade-Old Brick Kiln Murder of Christian Couple",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9246,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-court-awards-custody-of-abducted-christian-minor-to-unrelated-muslim-woman/",
+      "date": "2026-07-26T07:54:19",
+      "title": "Pakistani Court Awards Custody of Abducted Christian Minor to Unrelated Muslim Woman",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 9153,
       "wp_link": "https://globalwitnessmonitor.com/iran-seizes-oldest-protestant-church-evicts-20-christian-families-bans-all-gatherings/",
