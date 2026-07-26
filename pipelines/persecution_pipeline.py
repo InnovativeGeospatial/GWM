@@ -626,7 +626,7 @@ def judge_article(article):
         msg = client.messages.create(
             model='claude-haiku-4-5-20251001',
             max_tokens=120,
-            system=JUDGE_SYSTEM,
+            system=[{"type": "text", "text": JUDGE_SYSTEM, "cache_control": {"type": "ephemeral"}}],
             messages=[{'role': 'user', 'content': prompt}],
         )
         raw = msg.content[0].text.strip()
@@ -1189,7 +1189,7 @@ def _persecution_enrich(article):
     )
     try:
         msg = client.messages.create(
-            model=ENRICH_MODEL, max_tokens=1200, system=sys_prompt,
+            model=ENRICH_MODEL, max_tokens=1200, system=[{"type": "text", "text": sys_prompt, "cache_control": {"type": "ephemeral"}}],
             messages=[{'role': 'user', 'content': prompt}],
             tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
         )
