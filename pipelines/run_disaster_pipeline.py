@@ -1188,7 +1188,7 @@ def fetch_gdelt(seen, existing_titles, filter_countries, filter_types):
             url = (
                 "https://api.gdeltproject.org/api/v2/doc/doc"
                 "?query=" + requests.utils.quote(query) +
-                "&mode=artlist&maxrecords=6&timespan=24h"
+                "&mode=artlist&maxrecords=25&timespan=72h"
                 "&sort=DateDesc&format=json"
             )
             r = requests.get(url, timeout=15)
