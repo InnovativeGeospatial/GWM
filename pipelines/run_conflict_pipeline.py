@@ -1132,7 +1132,7 @@ def generate_article_enriched(item, firmer=False):
               "SOURCE URL: " + item.get("url", "") + "\n"
               "SOURCE OUTLET: " + item.get("source", "") + "\n")
         msg = client.messages.create(
-            model="claude-sonnet-4-6", max_tokens=1500, system=ENRICH_SYSTEM,
+            model="claude-sonnet-4-6", max_tokens=1500, system=[{"type": "text", "text": ENRICH_SYSTEM, "cache_control": {"type": "ephemeral"}}],
             messages=[{"role": "user", "content": up}],
             tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
         )
@@ -1182,7 +1182,7 @@ def generate_article(item, firmer=False):
         model='claude-sonnet-4-6',
         max_tokens=800,
         messages=[{'role': 'user', 'content': user_prompt}],
-        system=SYSTEM_PROMPT,
+        system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
     )
     raw_response = message.content[0].text.strip()
     parsed = parse_claude_response(raw_response)
