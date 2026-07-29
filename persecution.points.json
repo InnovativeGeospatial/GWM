@@ -1,9 +1,159 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-26T07:57:27.441436+00:00",
-  "count": 387,
+  "updated": "2026-07-29T00:54:36.050918+00:00",
+  "count": 402,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9356,
+      "wp_link": "https://globalwitnessmonitor.com/uyghur-christian-congregation-faces-forced-closure-family-members-targeted-by-authorities/",
+      "date": "2026-07-29T00:54:26",
+      "title": "Uyghur Christian Congregation Faces Forced Closure, Family Members Targeted by Authorities",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9351,
+      "wp_link": "https://globalwitnessmonitor.com/nine-christians-slaughtered-in-targeted-attack-on-pastors-family-in-nigeria/",
+      "date": "2026-07-29T00:54:02",
+      "title": "Nine Members of Nigerian Pastor's Family Slaughtered in Targeted Attack; U.S. Issues Condemnation",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9354,
+      "wp_link": "https://globalwitnessmonitor.com/over-two-dozen-christians-killed-in-early-morning-militia-attack-in-nigeria/",
+      "date": "2026-07-29T00:53:46",
+      "title": "Over Two Dozen Christians Killed in Early Morning Militia Attack in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9353,
+      "wp_link": "https://globalwitnessmonitor.com/militia-kills-30-christians-in-overnight-village-attack-nigerias-president-orders-manhunt/",
+      "date": "2026-07-29T00:53:27",
+      "title": "Militia kills 30 Christians in overnight village attack; Nigeria's president orders manhunt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9352,
+      "wp_link": "https://globalwitnessmonitor.com/wave-of-attacks-on-christians-and-churches-sparks-national-and-international-outcry/",
+      "date": "2026-07-29T00:53:07",
+      "title": "Wave of attacks on Christians and churches sparks national and international outcry",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9340,
+      "wp_link": "https://globalwitnessmonitor.com/rebel-militants-kill-pastor-and-abduct-church-leaders-in-sudan/",
+      "date": "2026-07-29T00:52:17",
+      "title": "Islamist-backed militants kill pastor, abduct church leaders in Sudan",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9349,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militia-kills-nine-christian-family-members-in-targeted-attack-issues-death-threat-against-pastor/",
+      "date": "2026-07-29T00:52:01",
+      "title": "Islamist Militia Kills Nine Christian Family Members in Targeted Attack, Issues Death Threat Against Pastor",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9348,
+      "wp_link": "https://globalwitnessmonitor.com/christian-businessman-vanishes-in-pakistan-as-forced-conversion-certificate-surfaces/",
+      "date": "2026-07-29T00:51:35",
+      "title": "Christian Businessman Vanishes in Pakistan as Forced Conversion Certificate Surfaces",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9347,
+      "wp_link": "https://globalwitnessmonitor.com/mob-attacks-coptic-church-in-egypt-four-believers-briefly-detained/",
+      "date": "2026-07-29T00:51:22",
+      "title": "Mob Attacks Coptic Church in Egypt, Four Believers Briefly Detained",
+      "country": "egypt",
+      "type": "church",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 9346,
+      "wp_link": "https://globalwitnessmonitor.com/u-s-condemns-killing-of-nine-family-members-of-nigerian-pastor-amid-escalating-middle-belt-violence/",
+      "date": "2026-07-29T00:51:05",
+      "title": "U.S. Condemns Killing of Nine Family Members of Nigerian Pastor Amid Escalating Middle Belt Violence",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9345,
+      "wp_link": "https://globalwitnessmonitor.com/eight-house-church-members-face-trial-in-china-as-prosecutors-bypass-defense-attorneys/",
+      "date": "2026-07-29T00:50:47",
+      "title": "Eight House Church Members Face Trial in China as Prosecutors Bypass Defense Attorneys",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9344,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-pastor-released-after-266-days-in-detention-following-u-s-diplomatic-intervention/",
+      "date": "2026-07-29T00:50:25",
+      "title": "Chinese Pastor Released After 266 Days in Detention Following U.S. Diplomatic Intervention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9343,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-extremists-kill-30-christians-including-eight-children-in-nigeria/",
+      "date": "2026-07-29T00:49:39",
+      "title": "Islamic Extremists Kill 30 Christians, Including Eight Children, in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9342,
+      "wp_link": "https://globalwitnessmonitor.com/drone-strike-kills-eight-worshippers-at-ethiopian-monastery-during-conflict/",
+      "date": "2026-07-29T00:49:25",
+      "title": "Drone Strike Kills Eight Worshippers at Ethiopian Monastery During Conflict",
+      "country": "ethiopia",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 40.5
+    },
+    {
+      "wp_id": 9341,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-constitutional-court-agrees-to-review-forced-marriage-ruling-on-13-year-old-christian-girl/",
+      "date": "2026-07-29T00:49:12",
+      "title": "Pakistan's Constitutional Court Agrees to Review Forced Marriage Ruling on 13-Year-Old Christian Girl",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 9255,
       "wp_link": "https://globalwitnessmonitor.com/nine-christian-family-members-including-infant-massacred-in-nigeria-after-pastor-named-as-target/",
