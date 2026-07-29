@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-26T07:53:18.245810+00:00",
-  "count": 1105,
+  "updated": "2026-07-29T00:48:03.241185+00:00",
+  "count": 1117,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9339,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-26-2026-2/",
+      "date": "2026-07-29T00:40:31",
+      "title": "Storm in China 07/26/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 22.984879,
+      "lng": 114.715546
+    },
+    {
+      "wp_id": 9338,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-28-2026/",
+      "date": "2026-07-29T00:39:59",
+      "title": "Flood in India 07/28/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266
+    },
+    {
+      "wp_id": 9337,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-07-28-2026/",
+      "date": "2026-07-29T00:37:26",
+      "title": "Disease in Uganda 07/28/2026",
+      "country": "Uganda",
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218
+    },
+    {
+      "wp_id": 9336,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-28-2026/",
+      "date": "2026-07-29T00:36:39",
+      "title": "Wildfire in Spain 07/28/2026",
+      "country": "Spain",
+      "type": "Wildfire",
+      "lat": 40.421345,
+      "lng": -3.701219
+    },
+    {
+      "wp_id": 9335,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-07-27-2026/",
+      "date": "2026-07-29T00:35:24",
+      "title": "Flood in China 07/27/2026",
+      "country": "China",
+      "type": "Flood",
+      "lat": 35.137238,
+      "lng": 104.21293
+    },
+    {
+      "wp_id": 9334,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-russia-07-28-2026/",
+      "date": "2026-07-29T00:34:06",
+      "title": "Storm in Russia 07/28/2026",
+      "country": "Russia",
+      "type": "Storm",
+      "lat": 55.750541,
+      "lng": 37.617478
+    },
+    {
+      "wp_id": 9333,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-28-2026/",
+      "date": "2026-07-29T00:26:35",
+      "title": "Heatwave in Kazakhstan 07/28/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 9332,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-07-24-2026-magnitude-6/",
+      "date": "2026-07-29T00:23:51",
+      "title": "Earthquake in Argentina 07/24/2026 — Magnitude 6",
+      "country": "Argentina",
+      "type": "Earthquake",
+      "lat": -57.3066,
+      "lng": -66.8383
+    },
+    {
+      "wp_id": 9331,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-07-27-2026-magnitude-5/",
+      "date": "2026-07-29T00:20:38",
+      "title": "Earthquake in Tonga 07/27/2026 — Magnitude 5",
+      "country": "Tonga",
+      "type": "Earthquake",
+      "lat": -24.7784,
+      "lng": -175.2557
+    },
+    {
+      "wp_id": 9330,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-07-28-2026-magnitude-5/",
+      "date": "2026-07-29T00:18:36",
+      "title": "Earthquake in Papua New Guinea 07/28/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.7602,
+      "lng": 153.5437
+    },
+    {
+      "wp_id": 9329,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-28-2026-magnitude-5/",
+      "date": "2026-07-29T00:18:10",
+      "title": "Earthquake in United States 07/28/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 63.73356,
+      "lng": -148.91658
+    },
+    {
+      "wp_id": 9328,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-07-28-2026-magnitude-7/",
+      "date": "2026-07-29T00:17:35",
+      "title": "Earthquake in Japan 07/28/2026 — Magnitude 7",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 34.9632,
+      "lng": 138.409
+    },
     {
       "wp_id": 9244,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-26-2026/",
