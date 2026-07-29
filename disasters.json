@@ -1,9 +1,225 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-26T07:53:16.718872+00:00",
+  "updated": "2026-07-29T00:48:01.533706+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 9339,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-07-26-2026-2/",
+      "date": "2026-07-29T00:40:31",
+      "title": "Storm in China 07/26/2026",
+      "body": "Typhoon Noul reached southern China on July 27, 2026, bringing strong winds and heavy rain. The storm made landfall on the coast of Huidong County in Huizhou, Guangdong province, at approximately 3:50 a.m. local time. Xi",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 22.984879,
+      "lng": 114.715546,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdnNrMWxfTjYtMzE1MjZsUVhtaHFnSTdlZmpiTmNwQkNtZ3JlRnV6MGM5eXBLaGIxQVpnMGJva3Fuc1ZXWG82N2hnZGZaTVJCOWs0bzlYWjdRNG1QTTdoaU1hYkt2bEtudkRIOWhsOTRraUdIUUlWRHdWTWNsN2hHVFhORzJnaGs3U3JHSG03TjlqTWVyRXVNSFBXWHJMdGJ3a1M2Q19URC1YdXg5S2lpUHh2TnI?oc=5",
+      "prayer": "Residents of Guangdong province and Hong Kong displaced and affected by Typhoon Noul's landfall",
+      "alert_summary": "Typhoon Noul made landfall in Huizhou, Guangdong on July 27, 2026, prompting the evacuation of more than 715,000 residents."
+    },
+    {
+      "wp_id": 9338,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-07-28-2026/",
+      "date": "2026-07-29T00:39:59",
+      "title": "Flood in India 07/28/2026",
+      "body": "The flood death toll in Assam reached 75 on Tuesday after seven more deaths were recorded in the previous 24 hours — all from Sivasagar district. Seven districts — Sivasagar, Charaideo, Golaghat, Jorhat, Nagaon, Sonitpur",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNN0lWVS0yNmVCU0VMVG9ZSTZCblhkYjZRaUkyYWZ3QnAwdS1UUUluUkJMQkpqbVZ3TmZ5ZklQTGRDNER3NXhycU84TUVHX2FlaEZMeDlORzd5MFY0LTRkYXZraFlCeGpPQVpVN3VYeGxsR0FueldrTkRUTDYtWWNVeExTbWFudDdqMF9jOEJ1VndreEsyZ2M5TUtVNTdPR3h3aEVwWEtBX1RoVFRtVEFjcjJWcmt6RExvMFh0RTNocVUtTmZsMURlMW9Pc2Z4V1FqM1Jzc0owd25SaERRZ0lucVprczVUM0dTaWMwN0ZORQ?oc=5",
+      "prayer": "Flood-affected families across Assam's seven districts, including 32,000 sheltering in relief camps",
+      "alert_summary": "Flooding across seven districts of Assam has killed 75 people and affected 332,639 residents, with 622 villages submerged."
+    },
+    {
+      "wp_id": 9337,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-07-28-2026/",
+      "date": "2026-07-29T00:37:26",
+      "title": "Disease in Uganda 07/28/2026",
+      "body": "Uganda's health minister announced on July 28, 2026 that the country is free of Ebola after completing the mandatory 42-day monitoring period. Of the 20 confirmed cases, 18 patients were discharged and 2 died — both of w",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Disease",
+      "lat": 1.279964,
+      "lng": 32.386218,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak?traffic_source=rss",
+      "prayer": "Ugandans remaining alert after an Ebola outbreak ends, while millions in the DRC face the fastest-spreading outbreak on record",
+      "alert_summary": "Uganda declared its Ebola outbreak over after 20 confirmed cases and 2 deaths, both from the DRC."
+    },
+    {
+      "wp_id": 9336,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-07-28-2026/",
+      "date": "2026-07-29T00:36:39",
+      "title": "Wildfire in Spain 07/28/2026",
+      "body": "For about a week beginning around July 21, 2026, wildfires have burned roughly 77,000 hectares (about 190,000 acres) across Spain. More than 56,500 people have been evacuated from the Madrid region alone, with a further ",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Wildfire",
+      "lat": 40.421345,
+      "lng": -3.701219,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Tens of thousands evacuated across Spain's Madrid region, Ávila, Toledo, and Valencia amid ongoing wildfires",
+      "alert_summary": "Wildfires across Spain have burned about 77,000 hectares and forced more than 84,000 people to evacuate or shelter in place."
+    },
+    {
+      "wp_id": 9335,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-07-27-2026/",
+      "date": "2026-07-29T00:35:24",
+      "title": "Flood in China 07/27/2026",
+      "body": "On July 26, 2026, flash floods swept through the Shuangshimen Scenic Area in Weiyuan County, Dingxi City, Gansu Province, killing at least 10 people and injuring 23 others. Sudden heavy rainfall generated mountain torren",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 35.137238,
+      "lng": 104.21293,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
+      "prayer": "Campers and tourists at Weiyuan County's Shuangshimen Scenic Area killed and injured by flash flooding",
+      "alert_summary": "A flash flood in Weiyuan County, Gansu Province killed 10 people and injured 23 on July 26, 2026."
+    },
+    {
+      "wp_id": 9334,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-russia-07-28-2026/",
+      "date": "2026-07-29T00:34:06",
+      "title": "Storm in Russia 07/28/2026",
+      "body": "On July 28, 2026, heavy hail, thunderstorms, and heavy rain hit Moscow, with poor weather conditions expected to continue through July 29. Residents were seen running through Red Square in pouring rain. No casualty or di",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Storm",
+      "lat": 55.750541,
+      "lng": 37.617478,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260728104443-0242897.xml",
+      "prayer": "Residents of Moscow and surrounding areas of Russia enduring heavy rain, hail, and thunderstorms",
+      "alert_summary": "Heavy rain, thunderstorms, and hail struck Moscow and parts of Russia on July 28, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 9333,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-28-2026/",
+      "date": "2026-07-29T00:26:35",
+      "title": "Heatwave in Kazakhstan 07/28/2026",
+      "body": "On July 28, 2026, Kazakhstan's meteorological authority issued an alert for temperatures of 38–43°C across the country. Heatwaves this summer have driven temperatures to record extremes both in the capital, Astana, and i",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260728-105701-0458488-00-RU.xml",
+      "prayer": "Residents across Kazakhstan enduring record-breaking heat, with health systems, electricity, and infrastructure under strain",
+      "alert_summary": "A heatwave brought temperatures of 38–43°C across Kazakhstan, with road surfaces warping and electricity demand outpacing domestic supply."
+    },
+    {
+      "wp_id": 9332,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-07-24-2026-magnitude-6/",
+      "date": "2026-07-29T00:23:51",
+      "title": "Earthquake in Argentina 07/24/2026 — Magnitude 6",
+      "body": "On July 24, 2026, a magnitude 5.7 earthquake struck the South Atlantic Ocean on the evening of that day, with its center located 292 km south-southeast of Ushuaia, at a depth of about 10 km beneath the water. The quake o",
+      "country": "Argentina",
+      "countries": [
+        "Argentina"
+      ],
+      "type": "Earthquake",
+      "lat": -57.3066,
+      "lng": -66.8383,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t387",
+      "prayer": "Communities near Ushuaia, Argentina, and the southern tip of South America after an undersea earthquake in the Drake Passage",
+      "alert_summary": "Magnitude 6 earthquake struck the South Atlantic Ocean 292 km south-southeast of Ushuaia, Argentina; no casualties reported."
+    },
+    {
+      "wp_id": 9331,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-07-27-2026-magnitude-5/",
+      "date": "2026-07-29T00:20:38",
+      "title": "Earthquake in Tonga 07/27/2026 — Magnitude 5",
+      "body": "On July 28, 2026, a magnitude 5.1 earthquake struck south of Tonga. The epicenter was located at a depth of 10 km below the surface. No reports of casualties, injuries, or damage have been issued in connection with this ",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -24.7784,
+      "lng": -175.2557,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg95",
+      "prayer": "Residents south of Tonga following a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5.1 earthquake struck south of Tonga on July 28, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 9330,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-07-28-2026-magnitude-5/",
+      "date": "2026-07-29T00:18:36",
+      "title": "Earthquake in Papua New Guinea 07/28/2026 — Magnitude 5",
+      "body": "A magnitude 5.4 earthquake struck in the area southeast of Kokopo, East New Britain Province, Papua New Guinea. The quake had a shallow depth of approximately 41 km and was reported felt by some people near the epicenter",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -5.7602,
+      "lng": 153.5437,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tggm",
+      "prayer": "Communities southeast of Kokopo, Papua New Guinea, following a magnitude 5 earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 211 km southeast of Kokopo, Papua New Guinea; no casualty figure reported."
+    },
+    {
+      "wp_id": 9329,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-28-2026-magnitude-5/",
+      "date": "2026-07-29T00:18:10",
+      "title": "Earthquake in United States 07/28/2026 — Magnitude 5",
+      "body": "On July 29, 2026, a magnitude 5 earthquake struck 52 km east of Denali National Park, Alaska. The epicenter was recorded at a shallow depth of about 5 km. No casualties, injuries, or damage figures have been reported fro",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 63.73356,
+      "lng": -148.91658,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ovufno",
+      "prayer": "Residents near Denali National Park, Alaska following a shallow magnitude 5 earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 52 km east of Denali National Park, Alaska, at a depth of 5 km."
+    },
+    {
+      "wp_id": 9328,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-07-28-2026-magnitude-7/",
+      "date": "2026-07-29T00:17:35",
+      "title": "Earthquake in Japan 07/28/2026 — Magnitude 7",
+      "body": "A magnitude 6.8 earthquake struck near Uto, Japan, on July 28, 2026. The quake was centered about 5 km east of Uto, Kumamoto, at a depth of 10 km. A hospital in Yatsushiro accepted about 40 people with earthquake-related",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.9632,
+      "lng": 138.409,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
+      "prayer": "Residents of Kumamoto Prefecture injured and displaced after a shallow earthquake near Uto",
+      "alert_summary": "Magnitude 6.8 earthquake struck near Uto, Kumamoto Prefecture on July 28, 2026, injuring dozens and collapsing buildings."
+    },
     {
       "wp_id": 9244,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-26-2026/",
@@ -17496,198 +17712,6 @@
       "type": "Flood",
       "lat": -6.6088,
       "lng": 106.8068,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2216,
-      "wp_link": "https://globalwitnessmonitor.com/flooding-in-tajikistan-kills-three-displaces-hundreds/",
-      "date": "2026-05-05T23:54:17",
-      "title": "Flooding in Tajikistan Kills Three, Displaces Hundreds",
-      "body": "A flood event in Tajikistan beginning May 1, 2026 resulted in at least three deaths and approximately 500 displaced persons, according to GDACS reporting. The event was ongoing through May 3, 2026, the date of the last u",
-      "country": "Tajikistan",
-      "countries": [
-        "Tajikistan"
-      ],
-      "type": "Flood",
-      "lat": 38.8385,
-      "lng": 71.042,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2215,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-burns-in-guinea-over-several-days/",
-      "date": "2026-05-05T23:54:04",
-      "title": "Forest Fire Burns in Guinea Over Several Days",
-      "body": "A forest fire ignited in Guinea on 2 May 2026, with activity continuing through 5 May 2026. The event was classified at a green notification level by the Global Disaster Alert and Coordination System, indicating a lower-",
-      "country": "Guinea",
-      "countries": [
-        "Guinea"
-      ],
-      "type": "Wildfire",
-      "lat": 1.6121,
-      "lng": 10.5258,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2214,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-6-earthquake-strikes-philippines-at-moderate-depth-2/",
-      "date": "2026-05-05T23:53:52",
-      "title": "Magnitude 6 Earthquake Strikes Philippines at Moderate Depth",
-      "body": "A magnitude 6.0 earthquake struck the Philippines on 4 May 2026 at 06:09 UTC, at a depth of approximately 73 km. Initial assessments indicate that around 30,000 people are located within the MMI VI shaking intensity zone",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 14.5868,
-      "lng": 120.9818,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2213,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-indonesia-at-moderate-depth/",
-      "date": "2026-05-05T23:53:38",
-      "title": "Magnitude 5.8 Earthquake Strikes Indonesia at Moderate Depth",
-      "body": "A magnitude 5.8 earthquake struck Indonesia on 5 May 2026 at 06:44 UTC, at a depth of approximately 35.5 kilometers. Initial assessments indicate an estimated 740,000 people may have been exposed to shaking at MMI IV int",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -6.1756,
-      "lng": 106.8272,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2212,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-new-zealand-at-shallow-depth/",
-      "date": "2026-05-05T23:53:25",
-      "title": "Magnitude 5.8 Earthquake Strikes New Zealand at Shallow Depth",
-      "body": "A magnitude 5.8 earthquake struck New Zealand on 5 May 2026 at 08:00 UTC, with a shallow focal depth of 10 kilometers. Initial assessments indicate approximately 70,000 people were exposed to shaking at Modified Mercalli",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -41.8389,
-      "lng": 171.7799,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2211,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-near-darab-iran/",
-      "date": "2026-05-05T23:53:05",
-      "title": "Magnitude 4.5 Earthquake Strikes Near Dārāb, Iran",
-      "body": "A magnitude 4.5 earthquake struck approximately 51 kilometers south-southwest of Dārāb, Iran on May 4, 2026, at 20:39 UTC. The event was recorded at a shallow depth of 10 kilometers, which can increase the potential for ",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "type": "Earthquake",
-      "lat": 28.7534,
-      "lng": 54.5491,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2210,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-off-miyako-coast/",
-      "date": "2026-05-05T23:52:52",
-      "title": "Magnitude 4.8 Earthquake Strikes Off Miyako Coast",
-      "body": "A magnitude 4.8 earthquake occurred approximately 123 kilometers east-northeast of Miyako, in the offshore Pacific region of northeastern Japan, on 4 May 2026 at 21:42 UTC. The event was recorded at a relatively shallow ",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 31.7261,
-      "lng": 131.0643,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2209,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-remote-central-australia/",
-      "date": "2026-05-05T23:52:38",
-      "title": "Magnitude 4.5 Earthquake Strikes Remote Central Australia",
-      "body": "A magnitude 4.5 earthquake occurred approximately 78 kilometers south of Yulara, in Australia’s remote interior, on 5 May 2026 at 00:16 UTC. The event was recorded at a shallow depth of 10 kilometers, which can increase ",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Earthquake",
-      "lat": -25.242,
-      "lng": 130.9902,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2208,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-7-earthquake-strikes-south-of-akutan-alaska/",
-      "date": "2026-05-05T23:52:25",
-      "title": "Magnitude 4.7 Earthquake Strikes South of Akutan Alaska",
-      "body": "A magnitude 4.7 earthquake occurred approximately 55 kilometers south-southeast of Akutan, Alaska, on May 5, 2026, at 02:38 UTC. The USGS recorded the epicenter at 53.649°N, 165.556°W, with a depth of approximately 57.79",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 54.1337,
-      "lng": -165.7744,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2207,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-northeast-of-tonopah-nevada/",
-      "date": "2026-05-05T23:52:11",
-      "title": "Magnitude 4.5 Earthquake Strikes Northeast of Tonopah Nevada",
-      "body": "A magnitude 4.5 earthquake occurred approximately 77 kilometers northeast of Tonopah, Nevada, on 5 May 2026 at 02:39 UTC. The event was recorded at a shallow depth of 10 kilometers. USGS PAGER assessment assigned a Green",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 38.067,
-      "lng": -117.2296,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2206,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-northwest-of-myitkyina/",
-      "date": "2026-05-05T23:51:59",
-      "title": "Magnitude 4.5 Earthquake Strikes Northwest of Myitkyina",
-      "body": "A magnitude 4.5 earthquake occurred approximately 95 kilometers west of Myitkyina, Myanmar, on 5 May 2026 at 04:10 UTC. The USGS recorded the event at a shallow depth of 10 kilometers, which can increase the potential fo",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Earthquake",
-      "lat": 25.3879,
-      "lng": 97.3995,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2205,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-south-of-tambolaka-indonesia/",
-      "date": "2026-05-05T23:51:47",
-      "title": "Magnitude 5.8 Earthquake Strikes South of Tambolaka Indonesia",
-      "body": "A magnitude 5.8 earthquake struck approximately 76 kilometers south of Tambolaka, Indonesia on May 5, 2026, at 06:44 UTC. The USGS recorded the event at coordinates 10.114°S, 119.325°E, with a depth of 35.54 kilometers (",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -10.1135,
-      "lng": 119.3245,
       "source_title": "",
       "source_url": ""
     }
