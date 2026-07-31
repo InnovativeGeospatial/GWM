@@ -1,9 +1,209 @@
 {
   "feed": "persecution",
-  "updated": "2026-07-29T00:54:36.050918+00:00",
-  "count": 402,
+  "updated": "2026-07-31T17:51:56.029539+00:00",
+  "count": 422,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9446,
+      "wp_link": "https://globalwitnessmonitor.com/court-awards-custody-of-abducted-christian-girl-to-her-alleged-abductor-in-pakistan/",
+      "date": "2026-07-31T17:51:48",
+      "title": "Pakistani Court Awards Custody of Minor Christian Girl to Her Alleged Kidnapper",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9473,
+      "wp_link": "https://globalwitnessmonitor.com/kurdish-christian-pastor-detained-in-syria-on-social-media-incitement-charges/",
+      "date": "2026-07-31T17:51:32",
+      "title": "Kurdish Christian Pastor Detained in Syria on Social Media \"Incitement\" Charges",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 9470,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-house-church-pastor-freed-after-9-months-at-least-8-co-believers-remain-detained/",
+      "date": "2026-07-31T17:51:07",
+      "title": "Underground Church Pastor Released from Chinese Prison, Arrives in U.S. as Fellow Believers Remain Detained",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9471,
+      "wp_link": "https://globalwitnessmonitor.com/rural-house-church-in-china-placed-under-ongoing-government-surveillance/",
+      "date": "2026-07-31T17:50:52",
+      "title": "Rural house church in China placed under ongoing government surveillance",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9460,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-30-christians-including-children-killed-in-suspected-militant-attack-in-nigeria/",
+      "date": "2026-07-31T17:50:01",
+      "title": "Fulani Militia Kill Dozens of Christians in Coordinated Attacks Across Nigeria's Middle Belt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9468,
+      "wp_link": "https://globalwitnessmonitor.com/ugandan-pastor-killed-after-interfaith-debate-in-which-muslim-women-convert-to-christianity/",
+      "date": "2026-07-31T17:49:41",
+      "title": "Ugandan pastor killed after interfaith debate in which Muslim women convert to Christianity",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 9467,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-woman-raises-alarm-over-surge-in-forced-conversions-and-marriages-of-minority-girls-in-pakistan/",
+      "date": "2026-07-31T17:49:24",
+      "title": "Catholic woman raises alarm over surge in forced conversions and marriages of minority girls in Pakistan",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9466,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-top-court-acquits-all-defendants-in-mob-killing-of-christian-couple-leaving-no-one-convicted/",
+      "date": "2026-07-31T17:49:05",
+      "title": "Pakistan's Top Court Acquits All Defendants in Mob Killing of Christian Couple, Leaving No One Convicted",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9465,
+      "wp_link": "https://globalwitnessmonitor.com/anglican-pastor-killed-scores-of-christians-abducted-in-sudan-rebel-attack/",
+      "date": "2026-07-31T17:48:41",
+      "title": "Anglican Pastor Killed, Scores of Christians Abducted in Sudan Rebel Attack",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9464,
+      "wp_link": "https://globalwitnessmonitor.com/six-believers-held-for-months-in-laos-after-authorities-raid-unauthorised-worship-gathering/",
+      "date": "2026-07-31T17:48:16",
+      "title": "Six believers held for months in Laos after authorities raid unauthorised worship gathering",
+      "country": "laos",
+      "type": "arrest",
+      "lat": 18.2,
+      "lng": 103.0
+    },
+    {
+      "wp_id": 9445,
+      "wp_link": "https://globalwitnessmonitor.com/militia-abducts-pastor-and-family-members-as-church-leaders-face-growing-targeting-in-sudan/",
+      "date": "2026-07-31T17:47:56",
+      "title": "Rebel militia kill pastor and abduct church leaders in wave of attacks targeting Christians",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9459,
+      "wp_link": "https://globalwitnessmonitor.com/three-christian-men-released-after-false-blasphemy-charge-dismissed-in-pakistan/",
+      "date": "2026-07-31T17:46:37",
+      "title": "Three Christian Men Released After False Blasphemy Charge Dismissed in Pakistan",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 9458,
+      "wp_link": "https://globalwitnessmonitor.com/over-60-christians-feared-dead-in-coordinated-village-attacks-in-nigeria/",
+      "date": "2026-07-31T17:46:21",
+      "title": "Over 60 Christians Feared Dead in Coordinated Village Attacks in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9457,
+      "wp_link": "https://globalwitnessmonitor.com/u-s-presses-egypt-on-religious-freedom-amid-attacks-on-christians-and-jailing-of-convert/",
+      "date": "2026-07-31T17:46:01",
+      "title": "U.S. presses Egypt on religious freedom amid attacks on Christians and jailing of convert",
+      "country": "egypt",
+      "type": "church",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 9456,
+      "wp_link": "https://globalwitnessmonitor.com/church-demolished-more-than-20-christians-jailed-in-chinese-government-crackdown/",
+      "date": "2026-07-31T17:45:42",
+      "title": "Church demolished, more than 20 Christians jailed in Chinese government crackdown",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9455,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-gatherings-in-widening-crackdown/",
+      "date": "2026-07-31T17:45:29",
+      "title": "Chinese Authorities Raid House Church Gatherings in Widening Crackdown",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9454,
+      "wp_link": "https://globalwitnessmonitor.com/detained-house-church-pastor-in-china-alleges-authorities-used-his-children-as-pressure-to-confess/",
+      "date": "2026-07-31T17:45:14",
+      "title": "Detained House Church Pastor in China Alleges Authorities Used His Children as Pressure to Confess",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9453,
+      "wp_link": "https://globalwitnessmonitor.com/two-former-officials-sentenced-to-death-over-deadly-easter-sunday-church-bombings/",
+      "date": "2026-07-31T17:44:55",
+      "title": "Two former officials sentenced to death over deadly Easter Sunday church bombings",
+      "country": "sri lanka",
+      "type": "church",
+      "lat": 7.9,
+      "lng": 80.7
+    },
+    {
+      "wp_id": 9447,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-believer-sentenced-to-over-six-years-in-russia-for-religious-activity/",
+      "date": "2026-07-31T17:44:40",
+      "title": "Jehovah's Witness Believer Arrested in Russia After Mass Searches",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 9448,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-man-arrested-in-russia-following-mass-searches-remains-detained/",
+      "date": "2026-07-31T17:44:31",
+      "title": "Jehovah's Witness Arrested in Russia Following Mass Searches, Remains Detained",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
     {
       "wp_id": 9356,
       "wp_link": "https://globalwitnessmonitor.com/uyghur-christian-congregation-faces-forced-closure-family-members-targeted-by-authorities/",
