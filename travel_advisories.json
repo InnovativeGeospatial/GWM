@@ -1,12 +1,12 @@
 {
   "source": "US Department of State",
   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
-  "updated_at": "2026-07-29T00:54:42Z",
+  "updated_at": "2026-07-31T17:52:05Z",
   "total": 210,
   "counts": {
     "1": 80,
-    "2": 80,
-    "3": 27,
+    "2": 81,
+    "3": 26,
     "4": 23
   },
   "advisories": [
@@ -62,7 +62,7 @@
     {
       "country": "Haiti",
       "level": 4,
-      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated to reflect changes to U.S. embassy operations. Do Not Travel to Haiti due to the risk of crime , kidnapping , terrorism , unrest , and limited health care . Read the entire Travel Advisory. Advisory summary Haiti has been under a national state of emergency since March 2024. This state of emergency remains in effect. U.S. government employee travel restrictions U.S. government employees working in Haiti are not allowed to travel away from the U.S. embassy for non-essential reasons due to safety risks. The U.S. government has an extremely limited ability to provide emergency services to U.S. citizens in Haiti because of security-related travel restrictions. Due to safety risks , family members...",
+      "summary": "Do not travel to Haiti due to the risk of crime , kidnapping , terrorism , unrest , and limited health care . Read the entire Travel Advisory. Haiti has been under a national state of emergency since March 2024. This state of emergency remains in effect. U.S. government employee travel restrictions U.S. government employees working in Haiti are not allowed to travel away from the U.S. embassy for non-essential reasons due to safety risks. The U.S. government has an extremely limited ability to provide emergency services to U.S. citizens in Haiti because of security-related travel restrictions. Due to safety risks, family members cannot join U.S. government employees who work in Haiti. Air Travel U.S. commercial flights are not currently operating to or from Port-au-Prince. The Federal...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.hti.html",
       "pub_date": "2026-07-09T20:00:00-04:00"
     },
@@ -184,13 +184,6 @@
       "summary": "Reconsider travel to Bahrain due to terrorism and armed conflict . On March 2, 2026, the Department of State ordered non-emergency U.S. government employees and family members of U.S. government employees to leave Bahrain due to safety risks. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights. Terrorism There is a risk of terrorist violence, including terrorist attacks and other activity in Bahrain. Visit the U.S. Department of State’s country reports on terrorism to learn more. Terrorist groups continue plotting possible attacks in Bahrain. Terrorists may attack with little or no warning. Targets may include tourist...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.bhr.html",
       "pub_date": "2026-03-01T19:00:00-05:00"
-    },
-    {
-      "country": "Bangladesh",
-      "level": 3,
-      "summary": "Reconsider travel in Bangladesh due to kidnapping , unrest , crime , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Unrest and violence have decreased since summer 2024. Occasional protests continue with the potential for violent clashes. Conditions may change on short notice. U.S. citizens should avoid all gatherings, even peaceful ones. They can turn violent quickly without warning. Crime In Bangladesh’s major cities, common crimes include muggings, burglaries, assaults, and illegal drug trafficking. Stay aware of petty crime, such as pickpocketing, in crowded areas. These crimes tend to be situational, based on time and location. There is no evidence that foreigners are targeted because of their nationality. Terrorism Terrorist violence is a...",
-      "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.bgd.html",
-      "pub_date": "2026-01-19T19:00:00-05:00"
     },
     {
       "country": "Burundi",
@@ -396,9 +389,16 @@
       "pub_date": "2025-09-04T20:00:00-04:00"
     },
     {
+      "country": "Bangladesh",
+      "level": 2,
+      "summary": "Exercise increased caution in Bangladesh due to unrest , crime , terrorism , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Unrest Protests can occur and turn violent without notice. Avoid all gatherings, even peaceful ones. Crime In Bangladesh’s major cities, common crimes include muggings, burglaries, assaults, and illegal drug trafficking. Stay aware of petty crime in crowded areas, such as pickpocketing. These crimes tend to be based on time and location. There is no evidence that foreigners are targeted because of their country of origin. Terrorism There is risk of terrorist violence, including terrorist attacks and other terrorist activity, in Bangladesh. Visit the U.S. Department of State's country reports on terrorism to learn more Kidnapping...",
+      "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.bgd.html",
+      "pub_date": "2026-07-29T20:00:00-04:00"
+    },
+    {
       "country": "Belgium",
       "level": 2,
-      "summary": "There was no change to the advisory level. The \"crime and unrest risk indicators were added. Advisory summary was updated. Advisory summary Exercise increased caution in Belgium due to crime , terrorism , and unrest . Crime Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocketing. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Belgium. Visit the U.S. Department of State's country reports on terrorism to learn more. Unrest Large-scale, generally peaceful demonstrations related to the local political situation may occur. Demonstrations may disrupt transportation and other essential services. Review our...",
+      "summary": "Exercise increased caution in Belgium due to crime , terrorism , and unrest . Crime Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocketing. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Belgium. Visit the U.S. Department of State's country reports on terrorism to learn more. Unrest Large-scale, generally peaceful demonstrations related to the local political situation may occur. Demonstrations may disrupt transportation and other essential services. Review our Travel Guidance for Belgium to learn how to prepare for a safe trip.",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.bel.html",
       "pub_date": "2026-07-22T20:00:00-04:00"
     },
@@ -480,18 +480,18 @@
       "pub_date": "2026-04-01T20:00:00-04:00"
     },
     {
+      "country": "Cote d Ivoire",
+      "level": 2,
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Cte dIvoire due to crime, terrorism, unrest, health , and piracy in nearby waters. Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to the northern border region due to risks of crime and terrorism . Advisory summary Do not travel to the northern border region of Cte dIvoire for any reason. U.S. government employee travel restrictions The U.S. government has a limited ability to provide routine or emergency services to U.S. citizens outside of Abidjan. U.S. government employees working in Cte dIvoire are not allowed to drive outside major cities at night and require two-car convoys for official travel outside of coastal and major...",
+      "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.civ.html",
+      "pub_date": "2026-02-17T19:00:00-05:00"
+    },
+    {
       "country": "Cuba",
       "level": 2,
       "summary": "Updated to reflect information on power grid failures and Department of the Treasury Office of Foreign Assets Control (OFAC) licenses for travel. Exercise increased caution in Cuba due to crime and unreliable electrical power . Country Summary: Petty crime is a risk for travelers in Cuba. This includes pick pocketing, purse snatchings, and car break-ins. Violent crime, including armed robbery and homicide, is also on the rise in Cuba. U.S. law and regulation prohibit travel to, from, or within Cuba for tourist activities. OFAC regulates travel to, from, and within Cuba by persons subject to U.S. jurisdiction, defined to include, among other things, all U.S. citizens or residents (wherever located) and anyone in the United States, regardless of their citizenship and nationality. Failure...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.cub.html",
       "pub_date": "2025-05-06T20:00:00-04:00"
-    },
-    {
-      "country": "Côte d’Ivoire",
-      "level": 2,
-      "summary": "Exercise increased caution in Côte d’Ivoire due to crime , terrorism , unrest , health , and piracy in nearby waters . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions The U.S. government has a limited ability to provide routine or emergency services to U.S. citizens outside of Abidjan. U.S. government employees working in Côte d’Ivoire are not allowed to drive outside major cities at night and require two-car convoys for official travel outside of coastal and major north/south highways. U.S. citizens are advised to take the same precautions. Crime Crime continues to be a concern in Côte d’Ivoire. Violent crime, including carjacking, robbery, and home invasion, is common in some areas. Local police often lack resources to...",
-      "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
-      "pub_date": "2026-02-17T19:00:00-05:00"
     },
     {
       "country": "Djibouti",
@@ -538,7 +538,7 @@
     {
       "country": "Eswatini",
       "level": 2,
-      "summary": "Exercise increased caution in Eswatini due to crime and unrest . Crime Crime is common in Eswatini. Sporadic armed robberies and carjackings occur. Local police may lack the resources to deal effectively with criminal incidents. Unrest Demonstrations and protests occur sporadically in Eswatini. Americans should avoid all public gatherings, even peaceful ones. They could turn violent with little or no warning.",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Eswatini due to crime and civil unrest . Advisory Summary Crime Crime is common in Eswatini. Sporadic armed robberies and carjackings occur. Local police may lack the resources to deal effectively with criminal incidents. Unrest Demonstrations and protests occur sporadically in Eswatini. Americans should avoid all public gatherings, even peaceful ones. They could turn violent with little or no warning. If you decide to travel to Eswatini: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency....",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.swz.html",
       "pub_date": "2026-07-09T20:00:00-04:00"
     },
@@ -566,7 +566,7 @@
     {
       "country": "Ghana",
       "level": 2,
-      "summary": "Exercise increased caution when traveling to Ghana due to crime, poor health infrastructure, violence against women, and violence against lesbian and gay travelers . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime, such as carjacking, street mugging, assault, and rape occurs in Ghana. These crimes often happen at night and in remote locations. Criminal groups may use blockades to slow down or stop vehicles. Stay aware of your surroundings, especially when walking or driving at night. Do not physically resist any robbery attempt. Crimes of opportunity, including petty theft, are a serious problem in Ghana. Thieves often target people who seem wealthy or vulnerable. These crimes usually happen at night and in remote places. Always stay aware of your...",
+      "summary": "There was no change to the advisory level. The health risk indicator was added. The unrest indicator was removed from the area of increased risk. Advisory summary was updated. Exercise increased caution when traveling to Ghana due to crime, poor health infrastructure, violence against women, and violence against lesbian and gay travelers . Some areas have increased risk. Read the entire Travel Advisory. Reconsider travel to the northern border in the Upper East Region, the Northeast Region, the Upper West Region, and areas west of the N12 highway in the Savannah Region due to crime. Advisory Summary Crime Violent crime, such as carjacking, street mugging, assault, and rape occurs in Ghana. These crimes often happen at night and in remote locations. Criminal groups may use blockades to...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.gha.html",
       "pub_date": "2026-07-06T20:00:00-04:00"
     },
@@ -608,7 +608,7 @@
     {
       "country": "Indonesia",
       "level": 2,
-      "summary": "Exercise increased caution in Indonesia due to risk of natural disasters , unrest , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. Unrest Demonstrations occur frequently in Indonesia, and they are a normal part of the political landscape, but the type, size, and impact vary significantly, and some demonstrations can turn violent. Avoid demonstrations and crowds. Natural disasters Indonesia regularly experiences natural disasters such as earthquakes, tsunamis, and volcanic eruptions. These may result in disruptions to transportation, infrastructure, sanitation, and health services. Review our information on Weather and Natural Disasters in Indonesia. Terrorism There is a risk of terrorist violence, including terrorist attacks and other activity in...",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise increased caution in Indonesia due to risk of natural disasters, unrest, and terrorism. Some areas have increased risk. Read the entire Travel Advisory. Do not travel to the provinces of Central Papua , or Papua Tengah, and Highland Papua , or Papua Pegunungan, due to civil unrest . Advisory summary Unrest Demonstrationsoccur frequently in Indonesia, and they are a normal part of the political landscape, but the type, size, and impact vary significantly, and some demonstrations can turn violent.Avoid demonstrations and crowds. Natural disasters Indonesia regularly experiences natural disasters such as earthquakes, tsunamis, and volcanic eruptions. These may result in disruptions to...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.idn.html",
       "pub_date": "2026-07-06T20:00:00-04:00"
     },
@@ -629,7 +629,7 @@
     {
       "country": "Kenya",
       "level": 2,
-      "summary": "There was no change to the advisory level. The other risk indicator was added. Advisory summary was updated. Increased Risk Areas: Do Not Travel to the Nairobi neighborhoods of Eastleigh and Kibera due to risk of crime and kidnapping . Do Not Travel to the counties of Garissa, Wajir, Mandera, Lamu, Tana River (except Tsavo National Park), Kilifi (north of highway C103), and coastal areas north of Malindi , due to risk of kidnapping and terrorism . Do Not Travel to West Pokot County and western Turkana County due to risk of crime . Do Not Travel to Marsabit and Turkana Counties within 30 miles (50 kilometers) of the border with Ethiopia due to risk of unrest . Advisory Summary: Crime Violent crime can occur at any time. Violent crimes include armed carjacking, mugging, home invasion,...",
+      "summary": "Exercise increased caution in Kenya due to risk of crime , kidnapping , terrorism , unrest , health , and traffic safety . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime can occur at any time. Violent crimes include armed carjacking, mugging, home invasion, sexual assault, and kidnapping for ransom. Petty crime is common. Criminal fraud targeting Americans is a concern. Local police often are unable to respond effectively to crimes. Crimes like robbery are common. They are often committed by individuals riding motorcycles. Solo travelers in particular should exercise caution. Some Americans have been victims of sexual assault in bars and resorts/hotels. Petty crimes often occur in crowded areas or when people are distracted. Schemes to defraud...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.ken.html",
       "pub_date": "2026-07-27T20:00:00-04:00"
     },
@@ -650,7 +650,7 @@
     {
       "country": "Laos",
       "level": 2,
-      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary updated. Increased Risk Areas: Reconsider Travel to Xaisomboun Province due to civil unrest Exercise Increased Caution in areas on the Border with Burma, Savannakhet, Xieng Khouang, Salavan, Khammouane, Sekong, Champasak, Houaphanh, Attapeu, Luang Prabang, and Vientiane provinces, along Route 7 (from Route 13 to the Vietnam border), Route 9 (Savannakhet to the Vietnam border), and Route 20 (Pakse to Salavan) due to crime . Exercise Increased Caution in areas of Savannakhet, Xieng Khouang, Salavan, Khammouane, Sekong, Champasak, Houaphanh, Attapeu, Luang Prabang, and Vientiane provinces, as well as along Route 7 due to unexploded ordnances. Advisory summary: Exercise increased caution due to crime, unrest,...",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary updated. Exercise increased caution in Laos due to crime, unrest, and unexploded ordnances . Some areas have increased risk. Read the entire Travel Advisory. Increased Risk Areas: Reconsider Travel to Xaisomboun Province due to civil unrest Exercise Increased Caution in areas on the Border with Burma, Savannakhet, Xieng Khouang, Salavan, Khammouane, Sekong, Champasak, Houaphanh, Attapeu, Luang Prabang, and Vientiane provinces, along Route 7 (from Route 13 to the Vietnam border), Route 9 (Savannakhet to the Vietnam border), and Route 20 (Pakse to Salavan) due to crime . Exercise Increased Caution in areas of Savannakhet, Xieng Khouang, Salavan, Khammouane, Sekong, Champasak, Houaphanh, Attapeu, Luang...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.lao.html",
       "pub_date": "2026-07-27T20:00:00-04:00"
     },
@@ -678,7 +678,7 @@
     {
       "country": "Mainland China, Hong Kong & Macau",
       "level": 2,
-      "summary": "Updated to reflect a shift to Level 2 Exercise increased caution for Mainland China. Summary: Exercise increased caution when traveling to Mainland China due to arbitrary enforcement of local laws, including in relation to exit bans. Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws. Reconsider travel to the Macau Special Administrative Region (SAR) due to a limited ability to provide emergency consular services. Exercised increased caution when traveling to the Macau SAR due to the arbitrary enforcement of local laws. See specific risks and conditions in each jurisdiction. Hong Kong Exercise increased caution due to the arbitrary enforcement of local laws. Summary: Hong Kong SAR authorities...",
+      "summary": "Updated to reflect a shift to Level 2 Exercise increased caution for Mainland China. Summary: Exercise increased caution when traveling to Mainland China due to arbitrary enforcement of local laws, including in relation to exit bans. Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws. Reconsider travel to the Macau Special Administrative Region (SAR) due to a limited ability to provide emergency consular services. Exercised increased caution when traveling to the Macau SAR due to the arbitrary enforcement of local laws. See specific risks and conditions in each jurisdiction. Macau Reconsider travel due to a limited ability to provide emergency consular services. Exercise increased caution due to...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.chn.html",
       "pub_date": "2024-11-26T19:00:00-05:00"
     },
@@ -713,7 +713,7 @@
     {
       "country": "Moldova",
       "level": 2,
-      "summary": "Exercise increased caution in Moldova due to risk of unexploded ordnance (UXO) . Some areas have increased risk. Read the entire travel advisory. There are ongoing security threats related to Russia’s war against Ukraine. Petty crime such as purse snatching and pickpocketing is common, especially in popular tourist locations. Stay aware of your surroundings. Be wary of people posing as police officers demanding fines. Take safety precautions against ATM \"skimming\" devices and online scams. Unexploded Ordnance (UXO) Although Moldova declared itself \"mine-safe\" in March 2001, some areas have increased risk. Unexploded ordnance and landmines exist in central Moldova: These unexploded ordnances and landmines are primarily found in agricultural fields, forests, and along the banks of the...",
+      "summary": "There was no change to the advisory level. The other risk indicator was added for landmine risk and the unrest indicator for Transnistria. Advisory summary was updated. Exercise Increased Caution in Moldova due to risk of unexploded ordnance (UXO) . Some areas have increased risk. Read the entire travel advisory. Reconsider Travel to Transnistria due to risk of armed conflict. Advisory Summary There are ongoing security threats related to Russias war against Ukraine. Petty crime such as purse snatching and pickpocketing is common, especially in popular tourist locations. Stay aware of your surroundings. Be wary of people posing as police officers demanding fines. Take safety precautions against ATM \"skimming\" devices and online scams. Unexploded Ordnance (UXO) Although Moldova declared...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.mda.html",
       "pub_date": "2026-07-06T20:00:00-04:00"
     },
@@ -874,7 +874,7 @@
     {
       "country": "Togo",
       "level": 2,
-      "summary": "There was no change to the advisory level. The \"health risk indicator was added. Advisory summary was updated. Exercise Increased Caution in Togo due to risk of crime, terrorism, unrest, kidnapping, and health . Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to: Northern border region near Burkina Faso due to risk of terrorism and kidnapping. Areas north of Kande due to risk of terrorism. Advisory summary The U.S. government has limited ability to offer emergency or routine services to U.S. citizens outside of Lome due to the safety risks . U.S. government employees working in Togo need special authorization to travel to these areas due to safety risks: North of Dapaong Highways N24 and N28 Kpendjal and Kpendjal-Ouest district U.S. government employees...",
+      "summary": "Exercise increased caution in Togo due to risk of crime, terrorism, unrest, kidnapping , and health . Some areas have increased risk. Read the entire Travel Advisory. The U.S. government has limited ability to offer emergency or routine services to U.S. citizens outside of Lome due to the safety risks. U.S. government employees working in Togo need special authorization to travel to these areas due to safety risks: North of Dapaong Highways N24 and N28 Kpendjal and Kpendjal-Ouest district U.S. government employees working in Togo are not allowed to stay overnight in areas north of Mango due to safety risks. Crime Violent crime may occur anywhere in Togo. This includes carjacking, robbery, and home invasion. Local police often lack resources to respond to serious crimes. Violent attacks...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.tgo.html",
       "pub_date": "2026-03-08T20:00:00-04:00"
     },
@@ -930,7 +930,7 @@
     {
       "country": "Anguilla",
       "level": 1,
-      "summary": "There are no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Anguilla . Advisory summary Anguilla is generally a safe destination for travelers. Anguilla regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Anguilla. Review our Travel Guidance for Anguilla to learn how to prepare for a safe trip. If you decide to travel to Anguilla: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for the Eastern Caribbean. Before you leave the United States for Anguilla, carefully check...",
+      "summary": "Exercise normal precaution in Anguilla . Anguilla is generally a safe destination for travelers. Anguilla regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Anguilla. Review our Travel Guidance for Anguilla to learn how to prepare for a safe trip.",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.aia.html",
       "pub_date": "2026-05-21T20:00:00-04:00"
     },
@@ -1070,7 +1070,7 @@
     {
       "country": "Dominica",
       "level": 1,
-      "summary": "Exercise normal precaution in Dominica . Dominica is generally a safe destination for travelers. Dominica regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Dominica. Review our Travel Guidance for Dominica to learn how to prepare for a safe trip.",
+      "summary": "There are no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Dominica. Exercise normal precautions in Dominica . Advisory summary Dominica is generally a safe destination for travelers. Dominica regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Dominica. Review our Travel Guidance for Dominica to learn how to prepare for a safe trip. If you decide to travel to Dominica: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for the Eastern Caribbean. Visit the Centers for...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.dma.html",
       "pub_date": "2026-05-19T20:00:00-04:00"
     },
@@ -1112,7 +1112,7 @@
     {
       "country": "French Guiana",
       "level": 1,
-      "summary": "There were no changes to the advisory level or risk indicators. The Advisory summary was updated. Advisory summary French Guiana is generally a safe destination for travelers. There is no official U.S. consular representation in French Guiana. Consular services are provided by the U.S. Embassy in Paramaribo, Suriname . Review our Travel Guidance for French Guiana to learn how to prepare for a safe trip. If you decide to travel to French Guiana: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Visit the Centers for Disease Control and Prevention (CDC) website for the latest Travel Health Information for French...",
+      "summary": "Exercise normal precaution in French Guiana. French Guiana is generally a safe destination for travelers. There is no official U.S. consular representation in French Guiana. Consular services are provided by the U.S. Embassy in Paramaribo, Suriname . Review our Travel Guidance for French Guiana to learn how to prepare for a safe trip.",
       "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
       "pub_date": "2026-07-07T20:00:00-04:00"
     },
@@ -1238,9 +1238,9 @@
     {
       "country": "Mongolia",
       "level": 1,
-      "summary": "Reissued after periodic review without changes. Exercise normal precautions in Mongolia. Read the country information page for additional information on travel to Mongolia. If you travel to Mongolia, you should: Enroll in the Smart Traveler Enrollment Program (STEP) to receive Alerts and make it easier to locate you in an emergency. Monitor local media for breaking events and adjust your plans based on new information. Follow the Department of State on Facebook and X . Review the Country Security Report for Mongolia. Visit the CDC page for the latest Travel Health Information related to your travel. Prepare a contingency plan for emergency situations. Review the Travelers Checklist .",
+      "summary": "Exercise normal precaution in Mongolia. Mongolia is generally a safe destination for travelers. Review our Travel Guidance for Mongolia to learn how to prepare for a safe trip.",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.mng.html",
-      "pub_date": "2025-01-21T19:00:00-05:00"
+      "pub_date": "2026-07-28T20:00:00-04:00"
     },
     {
       "country": "Montenegro",
@@ -1252,7 +1252,7 @@
     {
       "country": "Montserrat",
       "level": 1,
-      "summary": "There are no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Montserrat. Advisory summary Montserrat is generally a safe destination for travelers. Montserrat regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Montserrat. Soufrire Hills volcano The Soufrire Hills volcano has been active since 1995. The last major volcanic activity occurred in 2010. There are 5 exclusion zones around the volcano. Visitors must obtain special permission to enter the most restricted zone in southern Montserrat. Do not enter these zones without a special permit. Review our Travel Guidance for Montserrat to learn how to prepare for a safe trip. If you decide to travel to Montserrat: Enroll in the Smart...",
+      "summary": "Exercise normal precaution in Montserrat . Montserrat is generally a safe destination for travelers. Montserrat regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Montserrat. Soufrière Hills volcano The Soufrière Hills volcano has been active since 1995. The last major volcanic activity occurred in 2010. There are 5 exclusion zones around the volcano. Visitors must obtain special permission to enter the most restricted zone in southern Montserrat. Do not enter these zones without a special permit. Review our Travel Guidance for Montserrat to learn how to prepare for a safe trip.",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.msr.html",
       "pub_date": "2026-07-06T20:00:00-04:00"
     },
@@ -1280,7 +1280,7 @@
     {
       "country": "Norway",
       "level": 1,
-      "summary": "Exercise normal precaution in Norway . Norway is generally a safe destination for travelers. Be aware of landslides and avalanches. Norway’s steep mountains make these common. Heavy summer rain or winter snow accumulation can cause them. A special kind of clay called “quick clay” (kvikkleire) can cause ground to collapse in some areas where people live. Keep your belongings safe. Watch your wallet, phone, and bags in busy tourist spots like hotels and transit stations. Review our Travel Guidance for Norway to learn how to prepare for a safe trip.",
+      "summary": "There was no change to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Norway. Advisory Summary Norway is generally a safe destination for travelers. Be aware of landslides and avalanches. Norways steep mountains make these common. Heavy summer rain or winter snow accumulation can cause them. A special kind of clay called quick clay (kvikkleire) can cause ground to collapse in some areas where people live. Keep your belongings safe. Watch your wallet, phone, and bags in busy tourist spots like hotels and transit stations. Review our Travel Guidance for Norway to learn how to prepare for a safe trip. If you decide to travel to Norway: Enroll in the Smart Traveler Enrollment Program ( STEP ) to get important updates and alerts from the...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.nor.html",
       "pub_date": "2026-07-05T20:00:00-04:00"
     },
@@ -1343,7 +1343,7 @@
     {
       "country": "Samoa",
       "level": 1,
-      "summary": "Exercise normal precaution in Samoa . Samoa is generally a safe destination for travelers. Review our Travel Guidance for Samoa to learn how to prepare for a safe trip.",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Samoa. Samoa is generally a safe destination for travelers. Review our Travel Guidance for Samoa to learn how to prepare for a safe trip. If you decide to travel to Samoa: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for Samoa. Review local laws and conditions before traveling. Visit the Centers for Disease Control and Prevention (CDC) website for the latest Travel Health Information for Samoa. Whether youre a first time or frequent traveler, use...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.wsm.html",
       "pub_date": "2026-07-06T20:00:00-04:00"
     },
@@ -1469,7 +1469,7 @@
     {
       "country": "Vietnam",
       "level": 1,
-      "summary": "Exercise normal precaution in Vietnam . Vietnam is generally a safe destination for travelers. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Landmines and unexploded ordnance exist in Vietnam. Areas of greatest risk are construction sites. Landmine risk is low in urban and populated areas, including tourist destinations. The locations of landmines and unexploded ordnance are often unmarked and difficult to recognize. Do not pick up or approach unknown metal objects in the ground. Review our Travel Guidance for Vietnam to learn how to prepare for a safe trip.",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Vietnam. Exercise Normal Precautions in Vietnam. Advisory summary Vietnam is generally a safe destination for travelers. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Landmines and unexploded ordnance exist in Vietnam. Areas of greatest risk are construction sites. Landmine risk is low in urban and populated areas, including tourist destinations. The locations of landmines and unexploded ordnance are often unmarked and difficult to recognize. Do not pick up or approach unknown metal objects in the ground. Review our Travel Guidance for Vietnam to learn how to prepare for a safe trip. If you decide to travel to...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.vnm.html",
       "pub_date": "2026-06-23T20:00:00-04:00"
     },
