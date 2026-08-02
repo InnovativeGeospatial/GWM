@@ -506,6 +506,11 @@ def detect_type(title, content):
     if any(k in text for k in ['displace', 'flee', 'fled', 'refugee', 'expel',
                                 'evict', 'forced from home']):
         return 'displacement'
+    if any(k in text for k in ['court', 'convict', 'sentenc', 'blasphemy', 'apostasy',
+                                'tribunal', 'ban ', 'banned', 'deregister', 'confiscat',
+                                'fine', 'fired', 'dismiss', 'lawsuit', 'ruling', 'ordered closed',
+                                'closure', 'restrict', 'denied registration']):
+        return 'restriction'
     return 'arrest'
 
 
@@ -585,32 +590,51 @@ def fetch_articles(seen):
 
 
 JUDGE_SYSTEM = (
-    "You decide whether a news article describes an actual incident of "
-    "Christian persecution suitable for Global Witness Monitor, a platform "
-    "tracking persecution against Christians worldwide.\n\n"
-    "An article QUALIFIES if it reports a specific event in which Christians, "
-    "churches, clergy, missionaries, converts, or Christian institutions were "
-    "harmed, threatened, restricted, arrested, attacked, killed, displaced, "
-    "evicted, banned, or otherwise persecuted because of their faith or "
-    "religious activity.\n\n"
-    "An article DOES NOT QUALIFY if it is:\n"
-    "- A policy/legislative debate (e.g. parliament debating a bill, even if "
-    "Christian leaders weigh in for or against it)\n"
-    "- An advocacy or opinion piece by Christians on social/political issues\n"
-    "- Religious commentary, sermons, devotionals, theology, or worship news\n"
-    "- General news where Christianity is incidental (e.g. a Christian was a "
-    "victim of generic crime unrelated to their faith)\n"
-    "- A roundup, anniversary piece, explainer, or background analysis\n"
-    "- Coverage of Christian holidays, services, or events without an incident\n"
-    "- News about Christian denominations' internal politics or appointments\n"
-    "- Stories where the persecution happened to non-Christians\n\n"
+    "You decide whether a news article reports an ACTUAL EVENT of Christian "
+    "persecution suitable for Global Witness Monitor, a platform tracking "
+    "persecution against Christians worldwide. The platform is GLOBAL: events "
+    "in Western/developed countries (Europe, North America, Australia, etc.) "
+    "count exactly the same as events anywhere else. Never reject an item just "
+    "because it happened in a wealthy or Western country.\n\n"
+    "The ONE test that matters: does the article report a SPECIFIC, DATABLE "
+    "THING THAT HAPPENED to Christians, churches, clergy, missionaries, "
+    "converts, or Christian institutions because of their faith or religious "
+    "activity? If yes, it QUALIFIES. If the article is mainly TALK ABOUT such "
+    "things rather than a report of one occurring, it does NOT qualify.\n\n"
+    "QUALIFYING events (any country) include: a killing, assault, beating, "
+    "abduction, or attack; an arrest, detention, imprisonment, charge, "
+    "conviction, or sentencing; a church or Christian building burned, bombed, "
+    "demolished, vandalised, seized, raided, or ordered closed; a displacement, "
+    "eviction, or expulsion; a legal or administrative action -- a court "
+    "ruling, blasphemy or apostasy charge, ban, deregistration, confiscation, "
+    "denial of registration, firing, tribunal decision, or officially imposed "
+    "restriction. A concrete legal case IS an event: the ruling, charge, or "
+    "ban that occurred is the event. Report it.\n\n"
+    "DOES NOT QUALIFY (these are commentary ABOUT events, or no event at all):\n"
+    "- Opinion, op-ed, editorial, advocacy, or a column reacting to or arguing "
+    "about an event or issue (even a real one) -- the reaction is not the event\n"
+    "- Analysis, explainer, background, 'what this means', or a Q&A\n"
+    "- A roundup, listicle, year-in-review, or anniversary/retrospective piece "
+    "about something that happened long ago\n"
+    "- A policy or legislative DEBATE where a bill is only being discussed and "
+    "nothing has yet been enacted or applied to anyone (but an ENACTED law, or "
+    "a bill actually USED against Christians, IS a qualifying event)\n"
+    "- Sermons, devotionals, theology, worship, holidays, or services with no "
+    "incident\n"
+    "- Church internal politics, appointments, or denominational business\n"
+    "- General news where Christianity is incidental, or where the victims were "
+    "not targeted for their faith\n"
+    "- An event that happened years ago and is only being recounted now, with "
+    "no new development\n\n"
     "Respond with EXACTLY one line in this format:\n"
     "VERDICT: YES | reason: <short reason>\n"
     "or\n"
     "VERDICT: NO | reason: <short reason>\n"
     "\n"
-    "Be strict. When in doubt, answer NO. False positives hurt the platform "
-    "more than missing a borderline story."
+    "Decide on the EVENT-VS-COMMENTARY line, not on severity or country. If a "
+    "real, recent, faith-related incident occurred -- however small, and "
+    "wherever it happened -- answer YES. If the piece is essentially someone "
+    "talking about an event rather than reporting a fresh one, answer NO."
 )
 
 
@@ -688,13 +712,14 @@ def generate_article(article):
         'PRAYER: <a bare situation phrase naming what to pray for; NOT a sentence; no leading verb; never start with Pray, Lift up, Ask God, May, Lord, Let, Grant, or "for"; name the country, people affected, and circumstance, 8-25 words, e.g. "Detained believers in China awaiting release and their congregation" or "Adivasi Christian families in India denied water and livelihoods">\n'
         'HEADLINE: <short descriptive headline, no personal names>\n'
         'ALERT_SUMMARY: <one factual sentence: what happened and the single most important figure (number detained, arrested, killed, displaced, churches closed). Quantitative descriptors only; NEVER powerful, massive, severe, devastating, deadly, major. Country-level only, NO names of people, churches, towns, villages, or provinces. If the source gives no figure, state plainly with no intensifier. 8-20 words, e.g. "About 30 believers detained in China awaiting release" or "Authorities closed 12 house churches nationwide">\n'
-        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement>\n\n'
+        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement | restriction>\n\n'
         'INCIDENT_TYPE rules -- choose the category that describes the PRIMARY harm in THIS incident:\n'
         '- killing: a person or people were killed, murdered, executed, beheaded, martyred, or died in custody.\n'
         '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use this even if people were also detained during it.\n'
         '- displacement: people were forced from their homes, evicted, expelled, fled, or made refugees.\n'
         '- arrest: a person or people were arrested, detained, imprisoned, sentenced, or abducted, and no one was killed and no church building was attacked.\n'
-        'If two apply, pick the more severe: killing > church > displacement > arrest. Output only the single lowercase word.\n\n'
+        '- restriction: a non-physical legal or administrative action against Christians or a church -- a court ruling, blasphemy/apostasy charge, ban, deregistration, confiscation, fine, firing, tribunal decision, forced closure by order, or other officially imposed restriction, where no one was physically harmed, arrested, or displaced and no building was attacked.\n'
+        'If two apply, pick the more severe: killing > church > displacement > arrest > restriction. Output only the single lowercase word.\n\n'
         'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE: or ALERT_SUMMARY: or INCIDENT_TYPE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER:, ALERT_SUMMARY:, or INCIDENT_TYPE: section.\n\n'
         'COUNTRY rules:\n'
         '- Use the country where the persecution event occurred, not the country of the outlet.\n'
@@ -781,7 +806,7 @@ def parse_tokenized_body(body_text):
         elif current_label == 'INCIDENT_TYPE':
             t = text.strip().lower()
             t = re.sub(r'[^a-z]', '', t)
-            if t in ('killing', 'arrest', 'church', 'displacement'):
+            if t in ('killing', 'arrest', 'church', 'displacement', 'restriction'):
                 out['incident_type'] = t
 
     for line in lines:
@@ -1167,13 +1192,14 @@ def _persecution_enrich(article):
         'PRAYER: <bare situation phrase, 8-25 words, no leading verb; do not start with Pray/Lift/Ask/May/Lord/Let/Grant/for>\n'
         'HEADLINE: <short descriptive headline, no personal names>\n'
         'ALERT_SUMMARY: <one factual sentence with the single most important figure; country-level only; no names of people, churches, towns, or provinces; 8-20 words>\n'
-        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement>\n\n'
+        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement | restriction>\n\n'
         'INCIDENT_TYPE rules -- the PRIMARY harm in THIS incident:\n'
         '- killing: someone was killed, murdered, executed, beheaded, martyred, or died in custody.\n'
         '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use even if people were also detained.\n'
         '- displacement: people were forced from homes, evicted, expelled, fled, or made refugees.\n'
         '- arrest: people were arrested, detained, imprisoned, sentenced, or abducted, with no killing and no church building attacked.\n'
-        'If two apply, pick the more severe: killing > church > displacement > arrest. Output only the single lowercase word.\n\n'
+        '- restriction: a non-physical legal/administrative action -- court ruling, blasphemy/apostasy charge, ban, deregistration, confiscation, fine, firing, tribunal decision, or forced closure by order -- with no one physically harmed, arrested, or displaced and no building attacked.\n'
+        'If two apply, pick the more severe: killing > church > displacement > arrest > restriction. Output only the single lowercase word.\n\n'
         'REDACTION (required even if the source names them): no personal names '
         '(use man, woman, pastor, family, convert, believer); no specific church, ministry, '
         'or denomination names (use "a house church"); no sub-national places of any kind '
