@@ -212,6 +212,7 @@ var typeColors = {
   arrest: '#9b59b6',
   church: '#1abc9c',
   displacement: '#d4aa6e',
+  restriction: '#e8833a',
   default: '#e04535'
 };
 
