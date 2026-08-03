@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-31T17:42:16.532054+00:00",
+  "updated": "2026-08-03T10:46:30.655738+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 9560,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-08-02-2026/",
+      "date": "2026-08-03T10:45:55",
+      "title": "Wildfire in Greece 08/02/2026",
+      "body": "Two Greek firefighting helicopters collided in midair on Sunday as they were battling a wind-driven wildfire west of Athens, sending one aircraft crashing to the ground. The aircraft were Bell helicopters operating over ",
+      "country": "Greece",
+      "countries": [
+        "Greece"
+      ],
+      "type": "Wildfire",
+      "lat": 37.97757,
+      "lng": 23.729275,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVVmOGN3UkdYdHBLWVhmMlFheVFwZkplU2xkekoybWZtRi0tbXFRMHBwVHpBTUlwU1RfdFVBTUhuSEVVYnQ0TFVLYXFTWlFNbDZ6Q3JhQUwtMTk0R25HRlZ4OVNKOWtwN2FzYW5Ia2NKdWFsd1U2OFdXVWFyb290dGFUT2VDREhreE5CbUxUQWlmRi1KaWlNdGVuRF80NThpckZ2c2VsSlVRTzU0aUFUVTI4RQ?oc=5",
+      "prayer": "Families of two crew members killed in the Psatha helicopter collision, and communities west of Athens under wildfire threat",
+      "alert_summary": "Two firefighting helicopters collided near Psatha west of Athens on August 3, 2026, killing 2 crew members and injuring 2 others."
+    },
+    {
+      "wp_id": 9559,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-01-2026/",
+      "date": "2026-08-03T10:43:04",
+      "title": "Flood in United Kingdom 08/01/2026",
+      "body": "Residents heard a loud blast from the direction of Taff's Well quarry at around 12:30 on Thursday, July 31, 2026. Floodwater began rushing down the hillside, with reports of water reaching 1.5 metres deep inside some hom",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Flood",
+      "lat": 51.539597,
+      "lng": -3.272779,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MUJpVHM3RjEwVmVzUEw0TGZVRkhpdzZOQmpvM1I0WmlzeFJ3TmVMdFVpa2NSMWdfZEJyRjRvVUt2T1VJWmNpZGZZbnh4MUVVUXlidnlDN1BfX01u?oc=5",
+      "prayer": "Families in Gwaelod-y-Garth displaced after floodwater from a quarry blast swept through their homes",
+      "alert_summary": "A quarry blast triggered flooding in Gwaelod-y-Garth near Cardiff, with 15 properties affected and 13 homes evacuated."
+    },
+    {
+      "wp_id": 9558,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-08-02-2026/",
+      "date": "2026-08-03T10:37:27",
+      "title": "Flood in Nigeria 08/02/2026",
+      "body": "A heavy downpour triggered flash floods in parts of Damaturu, the Yobe State capital, destroying several houses and displacing many families. Residents of the affected communities said floodwaters submerged their homes o",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Flood",
+      "lat": 11.742856,
+      "lng": 11.962385,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQem1VakQ2Nk9sRVF6TFZXT3dhckRhcW5XN1Q1OE05WE5ncEowSHJXMVgzOVl5eHJTaHZDeTJVWFFtX3RUZlhFRFJsVVQ0VDhoT0NMTlE4ang0a1pTVlB3RmhEcl83bUs3MXZWLVBXa2owZjFHcWtTMUt2UERhd282MEd3TC1RM2M?oc=5",
+      "prayer": "Families in Damaturu, Yobe State displaced by flash flooding and left without shelter",
+      "alert_summary": "Flash flooding in Damaturu, Yobe State destroyed residential buildings and displaced multiple families; casualty figures are still being verified."
+    },
+    {
+      "wp_id": 9557,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-03-2026/",
+      "date": "2026-08-03T10:36:48",
+      "title": "Flood in India 08/03/2026",
+      "body": "Flooding in Kuttanad, in Kerala's Alappuzha district, has forced hundreds of residents to evacuate as water levels rose. No date for the event was given in the available reporting. Houses and roads in the Kuttanad region",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 9.436721,
+      "lng": 76.428894,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmtPNXFSTXJJZlkxWmdmeTlLNFBXUzU0UmNVNVNDRzQyQm5QcUxhbDdVSFhXanREb18wZWlnUm9DdlRSTFBneWJQZnBNY2JhYTNJbHVEOWpSQ3FMSG1QWnA3b0YxVGE4a00wNjVLRWNLQVBndzBxQk9KZm5BV0NTWm5zNFlxNXlsNGFJRWszQkVfRmtTVXFWdDJxZ2MtZWtjS2VjWVJB?oc=5",
+      "prayer": "Hundreds of evacuated residents in Kuttanad, Kerala, as floodwaters rise",
+      "alert_summary": "Flooding in Kuttanad, Kerala prompted the evacuation of hundreds of residents; no casualty figure reported."
+    },
+    {
+      "wp_id": 9556,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-australia-08-03-2026/",
+      "date": "2026-08-03T10:34:59",
+      "title": "Disease in Australia 08/03/2026",
+      "body": "On Friday, helicopter surveillance found 49 dead and 35 sick greater crested terns on rocks off Cape Jaffa, about 250 kilometers south of Adelaide. Testing confirmed the deaths were caused by H5N1 bird flu — the country'",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Disease",
+      "lat": -36.946938,
+      "lng": 139.68817,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/8/3/australia-warns-h5n1-likely-to-spread-after-first-mass-mortality-episode?traffic_source=rss",
+      "prayer": "Wildlife and farming communities in Australia facing the country's first H5N1 bird flu outbreak",
+      "alert_summary": "H5N1 bird flu killed 49 greater crested terns and sickened 35 more off Cape Jaffa, south of Adelaide."
+    },
+    {
+      "wp_id": 9555,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-02-2026/",
+      "date": "2026-08-03T10:34:05",
+      "title": "Wildfire in United States 08/02/2026",
+      "body": "On August 1, 2026, wildfires burning across more than 250,000 acres in Washington state prompted widespread evacuations and power outages in the Spokane area. About 60,000 people were left without electricity in the Spok",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 47.659017,
+      "lng": -117.42503,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Spokane-area residents who have lost homes and thousands displaced by the Washington wildfires",
+      "alert_summary": "Wildfires across more than 250,000 acres in Washington state forced 60,000 evacuations and destroyed at least 640 structures near Spokane."
+    },
+    {
+      "wp_id": 9554,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-pakistan-08-03-2026/",
+      "date": "2026-08-03T10:33:37",
+      "title": "Other in Pakistan 08/03/2026",
+      "body": "On July 30, 2026, an avalanche struck a group of 10 climbers on Pakistan's Broad Peak at around 9 a.m. The avalanche occurred at about 6,600 meters, on the slope between Camp 2 and Camp 3, sweeping the climbers down the ",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Other",
+      "lat": 35.92081,
+      "lng": 74.314044,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c07rvy4e7mno?at_medium=RSS&at_campaign=rss",
+      "prayer": "Ten mountaineers from Nepal, Pakistan, the United States, China, and Oman killed on Broad Peak",
+      "alert_summary": "An avalanche on Broad Peak killed all 10 members of a climbing expedition on July 30, 2026."
+    },
+    {
+      "wp_id": 9553,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-canada-08-01-2026-magnitude-6/",
+      "date": "2026-08-03T10:21:39",
+      "title": "Earthquake in Canada 08/01/2026 — Magnitude 6",
+      "body": "On August 1, 2026, a magnitude 5.6 earthquake struck about 200 km southwest of Port McNeill, Canada. The epicenter was located at a depth of 10 kilometers, well offshore of northern Vancouver Island in the Pacific Ocean.",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Earthquake",
+      "lat": 50.590034,
+      "lng": -127.08632,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thej",
+      "prayer": "Coastal communities near Vancouver Island after an offshore earthquake with no reported casualties",
+      "alert_summary": "Magnitude 6 earthquake struck about 200 km offshore of Port McNeill, British Columbia; no casualties or damage reported."
+    },
+    {
+      "wp_id": 9552,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-08-02-2026-magnitude-6/",
+      "date": "2026-08-03T10:19:53",
+      "title": "Earthquake in New Zealand 08/02/2026 — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck near Hicks Bay, New Zealand on August 2, 2026. The quake struck 14 kilometers south of Hicks Bay, a coastal area near the northeastern tip of the North Island, within the Gisborne region",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -37.593536,
+      "lng": 178.29216,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl3",
+      "prayer": "Residents near Hicks Bay, Gisborne shaken by an offshore earthquake with no confirmed damage reports",
+      "alert_summary": "Magnitude 6 earthquake struck 14 km south of Hicks Bay, Gisborne, New Zealand; no injuries or damage confirmed."
+    },
+    {
+      "wp_id": 9551,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-08-03-2026-magnitude-5/",
+      "date": "2026-08-03T10:18:20",
+      "title": "Earthquake in Peru 08/03/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck approximately 66 kilometers west-northwest of San Alejandro in Peru. The region sits within a seismically active zone where earthquakes occur as a result of internal deformation within the",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -8.5724,
+      "lng": -75.7603,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpt",
+      "prayer": "People near San Alejandro, Peru, following a magnitude 5 earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 66 km west-northwest of San Alejandro, Peru; no casualty or impact figures reported."
+    },
     {
       "wp_id": 9444,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-sudan-07-30-2026/",
@@ -17572,170 +17752,6 @@
       "source_title": "",
       "source_url": "",
       "prayer": "Fifty displaced residents across Uganda facing localized flooding and community disruption"
-    },
-    {
-      "wp_id": 2257,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-reported-in-australia-on-6-may-2026/",
-      "date": "2026-05-06T23:35:37",
-      "title": "Forest Fire Reported in Australia on 6 May 2026",
-      "body": "A forest fire was reported in Australia on 6 May 2026, according to a GDACS alert classified at green notification level. The green alert designation indicates a lower-severity event, though no additional details regardi",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -13.1045,
-      "lng": 131.5613,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2256,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-6-earthquake-strikes-south-of-kermadec-islands-2/",
-      "date": "2026-05-06T23:35:26",
-      "title": "Magnitude 5.6 Earthquake Strikes South of Kermadec Islands",
-      "body": "A magnitude 5.6 earthquake occurred south of the Kermadec Islands on 6 May 2026 at 11:46 UTC, at a shallow depth of 10 kilometres. The Kermadec Islands form part of New Zealand’s territorial waters, located in a seismica",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -32.1671,
-      "lng": -177.9339,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Remote New Zealand territorial waters struck by a 5.6 magnitude earthquake with low humanitarian impact expected"
-    },
-    {
-      "wp_id": 2255,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-united-states-at-shallow-depth/",
-      "date": "2026-05-06T23:35:11",
-      "title": "Magnitude 5.8 Earthquake Strikes United States at Shallow Depth",
-      "body": "A magnitude 5.8 earthquake struck the United States on 6 May 2026 at 14:15 UTC, with a shallow focal depth of 10 kilometers. Initial assessments indicate that few people were affected, with shaking intensity recorded at ",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 52.2595,
-      "lng": 176.518,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Residents across the United States affected by a magnitude 5.8 shallow earthquake and potential localized damage"
-    },
-    {
-      "wp_id": 2254,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-5-earthquake-strikes-philippines-at-shallow-depth/",
-      "date": "2026-05-06T23:34:58",
-      "title": "Magnitude 5.5 Earthquake Strikes Philippines at Shallow Depth",
-      "body": "A magnitude 5.5 earthquake struck the Philippines on 6 May 2026 at 15:35 UTC, with a shallow focal depth of 10 kilometers. Initial assessments indicate approximately 40,000 people are located within the MMI V shaking int",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 14.5868,
-      "lng": 120.9818,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2253,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-3-earthquake-strikes-banda-sea-region/",
-      "date": "2026-05-06T23:34:44",
-      "title": "Magnitude 5.3 Earthquake Strikes Banda Sea Region",
-      "body": "A magnitude 5.3 earthquake occurred in the Banda Sea on 5 May 2026 at 02:38 UTC. The epicenter was located at approximately 6.4°S, 130.2°E, placing it within the seismically active Banda Sea zone of eastern Indonesia. Th",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -6.4335,
-      "lng": 130.1627,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Communities in eastern Indonesia near a magnitude 5.3 undersea earthquake monitoring for aftershocks and potential infrastructure impact"
-    },
-    {
-      "wp_id": 2252,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-northeast-of-pauanui/",
-      "date": "2026-05-06T23:34:32",
-      "title": "Magnitude 5.8 Earthquake Strikes Northeast of Pauanui",
-      "body": "A magnitude 5.8 earthquake occurred approximately 127 km east-northeast of Pauanui, New Zealand, on 5 May 2026 at 08:00 UTC. The event was recorded at a shallow depth of 10 km, which can increase ground shaking intensity",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -37.0242,
-      "lng": 175.86,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Residents of New Zealand near a coastal region shaken by a magnitude 5.8 shallow earthquake"
-    },
-    {
-      "wp_id": 2251,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-near-zorritos-peru/",
-      "date": "2026-05-06T23:34:20",
-      "title": "Magnitude 5.1 Earthquake Strikes Near Zorritos, Peru",
-      "body": "A magnitude 5.1 earthquake struck approximately 14 kilometers north of Zorritos, Peru on May 5, 2026, at 15:58 UTC. The USGS recorded the event at a depth of 50.70 kilometers (31.50 miles), placing it in the intermediate",
-      "country": "Peru",
-      "countries": [
-        "Peru"
-      ],
-      "type": "Earthquake",
-      "lat": -3.6805,
-      "lng": -80.6789,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2250,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-northeast-of-kinablangan/",
-      "date": "2026-05-06T23:34:08",
-      "title": "Magnitude 4.6 Earthquake Strikes Northeast of Kinablangan",
-      "body": "A magnitude 4.6 earthquake occurred approximately 45 kilometers northeast of Kinablangan, Philippines, on May 5, 2026, at 23:10 UTC. The USGS recorded the event at a depth of 35 kilometers (approximately 21.75 miles), pl",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 7.6916,
-      "lng": 126.552,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2249,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-east-of-kokopo/",
-      "date": "2026-05-06T23:33:54",
-      "title": "Magnitude 4.5 Earthquake Strikes East of Kokopo",
-      "body": "A magnitude 4.5 earthquake occurred approximately 152 kilometers east of Kokopo, Papua New Guinea, on 6 May 2026 at 00:08 UTC. The USGS recorded the epicenter at 4.606°S, 153.616°E, with a depth of approximately 105 kilo",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2248,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-izu-islands-region/",
-      "date": "2026-05-06T23:33:42",
-      "title": "Magnitude 4.8 Earthquake Strikes Izu Islands Region",
-      "body": "A magnitude 4.8 earthquake occurred in the Izu Islands region of Japan on 6 May 2026 at 03:03 UTC. The event was recorded at a shallow depth of 10 kilometers, with the epicenter located at approximately 29.3°N, 142.5°E, ",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 34.9786,
-      "lng": 138.9495,
-      "source_title": "",
-      "source_url": ""
     }
   ]
 }
