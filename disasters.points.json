@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-07-31T17:42:18.274088+00:00",
-  "count": 1128,
+  "updated": "2026-08-03T10:46:32.464947+00:00",
+  "count": 1138,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9560,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-08-02-2026/",
+      "date": "2026-08-03T10:45:55",
+      "title": "Wildfire in Greece 08/02/2026",
+      "country": "Greece",
+      "type": "Wildfire",
+      "lat": 37.97757,
+      "lng": 23.729275
+    },
+    {
+      "wp_id": 9559,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-01-2026/",
+      "date": "2026-08-03T10:43:04",
+      "title": "Flood in United Kingdom 08/01/2026",
+      "country": "United Kingdom",
+      "type": "Flood",
+      "lat": 51.539597,
+      "lng": -3.272779
+    },
+    {
+      "wp_id": 9558,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-08-02-2026/",
+      "date": "2026-08-03T10:37:27",
+      "title": "Flood in Nigeria 08/02/2026",
+      "country": "Nigeria",
+      "type": "Flood",
+      "lat": 11.742856,
+      "lng": 11.962385
+    },
+    {
+      "wp_id": 9557,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-03-2026/",
+      "date": "2026-08-03T10:36:48",
+      "title": "Flood in India 08/03/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 9.436721,
+      "lng": 76.428894
+    },
+    {
+      "wp_id": 9556,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-australia-08-03-2026/",
+      "date": "2026-08-03T10:34:59",
+      "title": "Disease in Australia 08/03/2026",
+      "country": "Australia",
+      "type": "Disease",
+      "lat": -36.946938,
+      "lng": 139.68817
+    },
+    {
+      "wp_id": 9555,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-02-2026/",
+      "date": "2026-08-03T10:34:05",
+      "title": "Wildfire in United States 08/02/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 47.659017,
+      "lng": -117.42503
+    },
+    {
+      "wp_id": 9554,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-pakistan-08-03-2026/",
+      "date": "2026-08-03T10:33:37",
+      "title": "Other in Pakistan 08/03/2026",
+      "country": "Pakistan",
+      "type": "Other",
+      "lat": 35.92081,
+      "lng": 74.314044
+    },
+    {
+      "wp_id": 9553,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-canada-08-01-2026-magnitude-6/",
+      "date": "2026-08-03T10:21:39",
+      "title": "Earthquake in Canada 08/01/2026 — Magnitude 6",
+      "country": "Canada",
+      "type": "Earthquake",
+      "lat": 50.590034,
+      "lng": -127.08632
+    },
+    {
+      "wp_id": 9552,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-08-02-2026-magnitude-6/",
+      "date": "2026-08-03T10:19:53",
+      "title": "Earthquake in New Zealand 08/02/2026 — Magnitude 6",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -37.593536,
+      "lng": 178.29216
+    },
+    {
+      "wp_id": 9551,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-08-03-2026-magnitude-5/",
+      "date": "2026-08-03T10:18:20",
+      "title": "Earthquake in Peru 08/03/2026 — Magnitude 5",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -8.5724,
+      "lng": -75.7603
+    },
     {
       "wp_id": 9444,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-sudan-07-30-2026/",
