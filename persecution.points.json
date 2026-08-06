@@ -1,9 +1,239 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-03T10:51:04.222977+00:00",
-  "count": 431,
+  "updated": "2026-08-06T03:58:31.416953+00:00",
+  "count": 454,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9700,
+      "wp_link": "https://globalwitnessmonitor.com/scottish-christian-missionary-killed-in-greece-afghan-boxer-charged-with-murder/",
+      "date": "2026-08-06T03:58:22",
+      "title": "Scottish Christian Missionary Killed in Greece; Afghan Boxer Charged with Murder",
+      "country": "greece",
+      "type": "killing",
+      "lat": 39.1,
+      "lng": 21.8
+    },
+    {
+      "wp_id": 9698,
+      "wp_link": "https://globalwitnessmonitor.com/syrian-kurdish-christian-pastor-detained-over-social-media-posts-released-after-two-weeks/",
+      "date": "2026-08-06T03:57:56",
+      "title": "Syrian authorities detain, then release Kurdish Christian pastor over social media posts",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 9695,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-killed-in-machete-ambush-in-nigeria/",
+      "date": "2026-08-06T03:57:13",
+      "title": "Catholic Priest Killed in Roadside Machete Ambush in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9696,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-killed-three-seized-during-mass-in-back-to-back-nigeria-attacks/",
+      "date": "2026-08-06T03:56:55",
+      "title": "Catholic Priest Killed, Three Seized During Mass in Back-to-Back Nigeria Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9693,
+      "wp_link": "https://globalwitnessmonitor.com/russian-drone-strike-destroys-ukraines-last-surviving-18th-century-cossack-wooden-church/",
+      "date": "2026-08-06T03:56:13",
+      "title": "Russian Drone Strike Destroys Ukraine's Last Surviving 300-Year-Old Wooden Cossack Church",
+      "country": "ukraine",
+      "type": "church",
+      "lat": 48.4,
+      "lng": 31.2
+    },
+    {
+      "wp_id": 9692,
+      "wp_link": "https://globalwitnessmonitor.com/armed-men-storm-nigerian-church-during-sunday-mass-abduct-three-worshippers/",
+      "date": "2026-08-06T03:55:35",
+      "title": "Armed Men Storm Nigerian Church During Sunday Mass, Abduct Three Worshippers",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9691,
+      "wp_link": "https://globalwitnessmonitor.com/13-christians-arrested-and-held-after-hindu-nationalists-disrupt-tribal-worship-convention/",
+      "date": "2026-08-06T03:55:05",
+      "title": "13 Christians arrested and held after Hindu nationalists disrupt tribal worship convention",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9689,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militants-kill-dozens-of-christians-in-ongoing-wave-of-violence-across-nigerias-middle-belt/",
+      "date": "2026-08-06T03:54:44",
+      "title": "At Least 52 Christians Killed in Wave of Coordinated Middle Belt Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9688,
+      "wp_link": "https://globalwitnessmonitor.com/settlers-stone-armenian-church-and-abuse-onlooker-in-jerusalems-old-city/",
+      "date": "2026-08-06T03:54:04",
+      "title": "Settlers Stone Armenian Church and Abuse Onlooker in Jerusalem's Old City",
+      "country": "israel",
+      "type": "church",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 9666,
+      "wp_link": "https://globalwitnessmonitor.com/funeral-services-held-for-30-christians-killed-in-nigeria-terrorist-attack/",
+      "date": "2026-08-06T03:53:42",
+      "title": "30 Christians Massacred in Midnight Attack, Funerals Held Across Two Services",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9686,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-extremists-kill-over-20-christians-including-church-leaders-in-twin-raids-in-eastern-drc/",
+      "date": "2026-08-06T03:53:23",
+      "title": "Islamic Extremists Kill Over 20 Christians, Including Church Leaders, in Twin Raids in Eastern DRC",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 9685,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-30-christians-including-11-children-massacred-in-nigeria-village-attack/",
+      "date": "2026-08-06T03:53:04",
+      "title": "At Least 30 Christians, Including 11 Children, Massacred in Nigeria Village Attack",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9683,
+      "wp_link": "https://globalwitnessmonitor.com/iraqi-court-upholds-christian-womans-right-to-correct-forced-muslim-registration/",
+      "date": "2026-08-06T03:52:15",
+      "title": "Iraqi Court Upholds Christian Woman's Right to Correct Forced Muslim Registration",
+      "country": "iraq",
+      "type": "restriction",
+      "lat": 33.2,
+      "lng": 43.7
+    },
+    {
+      "wp_id": 9682,
+      "wp_link": "https://globalwitnessmonitor.com/satanist-sentenced-for-religiously-aggravated-harassment-of-churches-with-dead-animals/",
+      "date": "2026-08-06T03:52:00",
+      "title": "Satanist sentenced for religiously aggravated harassment of churches with dead animals",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 9681,
+      "wp_link": "https://globalwitnessmonitor.com/three-house-church-members-face-criminal-charges-after-police-raid-in-china/",
+      "date": "2026-08-06T03:51:43",
+      "title": "Three house church members face criminal charges after police raid in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9680,
+      "wp_link": "https://globalwitnessmonitor.com/china-fast-tracks-trial-of-eight-house-church-leaders-amid-diplomatic-pressure-concerns/",
+      "date": "2026-08-06T03:51:28",
+      "title": "China fast-tracks trial of eight house church leaders amid diplomatic pressure concerns",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9679,
+      "wp_link": "https://globalwitnessmonitor.com/pastors-wife-jailed-in-china-after-police-swap-arrest-target-leaving-two-toddlers-without-parents/",
+      "date": "2026-08-06T03:51:10",
+      "title": "Pastor's wife jailed in China after police swap arrest target, leaving two toddlers without parents",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9678,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-communities-in-india-face-coordinated-ultimatums-and-intimidation-from-hindu-nationalist-groups/",
+      "date": "2026-08-06T03:50:56",
+      "title": "Catholic Communities in India Face Coordinated Ultimatums and Intimidation from Hindu Nationalist Groups",
+      "country": "india",
+      "type": "restriction",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9677,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-and-evangelical-writer-receive-death-threats-after-criticising-powerful-philippine-denomination/",
+      "date": "2026-08-06T03:50:32",
+      "title": "Catholic Priest and Evangelical Writer Receive Death Threats After Criticising Powerful Philippine Denomination",
+      "country": "philippines",
+      "type": "restriction",
+      "lat": 12.9,
+      "lng": 122.9
+    },
+    {
+      "wp_id": 9668,
+      "wp_link": "https://globalwitnessmonitor.com/seven-christians-sentenced-to-five-years-under-anti-conversion-law-after-birthday-party-raid/",
+      "date": "2026-08-06T03:50:14",
+      "title": "Pastor Sentenced to Five Years Under India's Anti-Conversion Law After Arrest at Birthday Party",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9669,
+      "wp_link": "https://globalwitnessmonitor.com/ugandan-convert-flees-after-family-threatens-death-over-conversion-to-christianity/",
+      "date": "2026-08-06T03:49:01",
+      "title": "Ugandan Convert Flees After Family Threatens Death Over Conversion to Christianity",
+      "country": "uganda",
+      "type": "displacement",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 9667,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-and-two-others-killed-in-armed-attack-on-sudan-parish/",
+      "date": "2026-08-06T03:48:32",
+      "title": "Catholic Priest and Two Others Killed in Armed Attack on Sudan Parish",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9665,
+      "wp_link": "https://globalwitnessmonitor.com/algerias-evangelical-christians-forced-underground-as-46-of-47-churches-remain-sealed/",
+      "date": "2026-08-06T03:48:03",
+      "title": "Algeria's Evangelical Christians Forced Underground as 46 of 47 Churches Remain Sealed",
+      "country": "algeria",
+      "type": "restriction",
+      "lat": 28.0,
+      "lng": 2.6
+    },
     {
       "wp_id": 9570,
       "wp_link": "https://globalwitnessmonitor.com/egypt-executes-killer-of-coptic-priest-more-than-four-years-after-fatal-stabbing/",
