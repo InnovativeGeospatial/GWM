@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-03T10:46:32.464947+00:00",
-  "count": 1138,
+  "updated": "2026-08-06T03:46:51.290185+00:00",
+  "count": 1150,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9664,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-05-2026/",
+      "date": "2026-08-06T03:46:17",
+      "title": "Wildfire in United States 08/05/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 45.53879,
+      "lng": -121.56797
+    },
+    {
+      "wp_id": 9663,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-08-03-2026/",
+      "date": "2026-08-06T03:42:04",
+      "title": "Flood in Nigeria 08/03/2026",
+      "country": "Nigeria",
+      "type": "Flood",
+      "lat": 9.59396,
+      "lng": 8.105306
+    },
+    {
+      "wp_id": 9662,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-05-2026/",
+      "date": "2026-08-06T03:40:08",
+      "title": "Flood in India 08/05/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 9.590026,
+      "lng": 76.52179
+    },
+    {
+      "wp_id": 9661,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-04-2026/",
+      "date": "2026-08-06T03:37:58",
+      "title": "Flood in Philippines 08/04/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 16.616268,
+      "lng": 120.317104
+    },
+    {
+      "wp_id": 9660,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-sierra-leone-08-05-2026/",
+      "date": "2026-08-06T03:36:00",
+      "title": "Flood in Sierra Leone 08/05/2026",
+      "country": "Sierra Leone",
+      "type": "Flood",
+      "lat": 8.462246,
+      "lng": -13.178415
+    },
+    {
+      "wp_id": 9659,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-south-korea-08-05-2026/",
+      "date": "2026-08-06T03:33:28",
+      "title": "Heatwave in South Korea 08/05/2026",
+      "country": "South Korea",
+      "type": "Heatwave",
+      "lat": 35.341145,
+      "lng": 129.03387
+    },
+    {
+      "wp_id": 9658,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-guatemala-08-05-2026/",
+      "date": "2026-08-06T03:31:10",
+      "title": "Volcano in Guatemala 08/05/2026",
+      "country": "Guatemala",
+      "type": "Volcano",
+      "lat": 14.487938,
+      "lng": -90.804115
+    },
+    {
+      "wp_id": 9657,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-06-2026/",
+      "date": "2026-08-06T03:25:30",
+      "title": "Flood in Russia 08/06/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 48.769954545454546,
+      "lng": 132.41468181818183
+    },
+    {
+      "wp_id": 9656,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-08-01-2026-magnitude-6/",
+      "date": "2026-08-06T03:23:18",
+      "title": "Earthquake in Japan 08/01/2026 — Magnitude 6",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 41.29403,
+      "lng": 141.18256
+    },
+    {
+      "wp_id": 9655,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-05-2026-magnitude-5/",
+      "date": "2026-08-06T03:19:32",
+      "title": "Earthquake in Indonesia 08/05/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 1.725178,
+      "lng": 128.0002
+    },
+    {
+      "wp_id": 9654,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-05-2026-magnitude-5/",
+      "date": "2026-08-06T03:19:12",
+      "title": "Earthquake in Papua New Guinea 08/05/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -6.282291,
+      "lng": 143.990989
+    },
+    {
+      "wp_id": 9653,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-08-05-2026-magnitude-6/",
+      "date": "2026-08-06T03:18:28",
+      "title": "Earthquake in New Zealand 08/05/2026 — Magnitude 6",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -33.8063,
+      "lng": 179.4727
+    },
     {
       "wp_id": 9560,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-08-02-2026/",
