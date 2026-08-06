@@ -1,9 +1,225 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-03T10:46:30.655738+00:00",
+  "updated": "2026-08-06T03:46:49.310607+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 9664,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-05-2026/",
+      "date": "2026-08-06T03:46:17",
+      "title": "Wildfire in United States 08/05/2026",
+      "body": "The Grasshopper Fire, a lightning-caused blaze, had burned approximately 34,700 acres and was 19 percent contained as of Tuesday, August 4. As fire conditions worsened, the fire continued pushing west toward Mount Hood, ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 45.53879,
+      "lng": -121.56797,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd00wY2lvbjd3NGRMaVc3NnB0R0xGOU9nSFp6WUJOTldlcU9KUk85MUFNT2hYdlZSVC1xZHprSVd1S015YUd0M29GY2N1NklmSFF4dzkwaHNtdFJYby1mT1labFVQMm43NTdKUXJIUWVlTDB5SG50Y1AwUzJoOGNIYnNEbjgwYm5rallna1FkODNMU2huRHdiMklLdzQ?oc=5",
+      "prayer": "Residents, workers, and visitors near Mount Hood facing a fast-moving wildfire threatening historic landmarks and nearby communities",
+      "alert_summary": "The Grasshopper Fire burned over 36,600 acres on Mount Hood and was 19 percent contained as of August 5, 2026."
+    },
+    {
+      "wp_id": 9663,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-08-03-2026/",
+      "date": "2026-08-06T03:42:04",
+      "title": "Flood in Nigeria 08/03/2026",
+      "body": "Flooding in the Ondo South area of Nigeria has drawn urgent public alarm, with a local political figure warning that the situation has become a full humanitarian crisis. The source provides no confirmed figures for death",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Flood",
+      "lat": 9.59396,
+      "lng": 8.105306,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUWVhNGxhbnl5MDFDMjFrcXVPaWtjc182cXVFd2pBTzZGZTdKV0dGa21HaExMLVlOejhHc3pOZXhRSmVTQXJCdzlZZHJMU211UERYaDd5ZE1lc1kwWWlySDExd3JfZ2I3bGphQjBqY0NITi1EV1Jkc2dQbFBsRTNpZUxGUHVwc3JEWVdRaWRBVTdFRFp1Ni1jZ1cxdXhuYmtuUklfaUg3LWZibGU0eHhnRU5lYVE3Qll3NzFSOERCRnJYMWNHMEE?oc=5",
+      "prayer": "Communities in Ondo South, Nigeria, amid worsening floods described as a humanitarian crisis",
+      "alert_summary": "Flooding in Ondo South, Nigeria has reached a scale described as a humanitarian crisis; no casualty or displacement figure confirmed."
+    },
+    {
+      "wp_id": 9662,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-05-2026/",
+      "date": "2026-08-06T03:40:08",
+      "title": "Flood in India 08/05/2026",
+      "body": "Flash floods and landslides struck parts of Kerala beginning in the early hours of August 1, 2026, submerging shops and homes in Kottayam and Pathanamthitta districts and bringing everyday life to a standstill. Eight peo",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 9.590026,
+      "lng": 76.52179,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWxEb01mVHhqYmJreVVxclZMYXR4aFVHVUhtNXphakdvNHVhUFZEZFhGVFNrU2Z3WVNXcDAwUHdDdWxCYjBTZWZzdzBtV1N0UDAxcUdCYldIQkNibDVTTVNuZExuSEpveU5GVV8zVG9sZTF4OFlBYkVmUUxOSWtaMXpKRldnWC04cy03NEFwdVVIRGZEM21YUEVROWpHZWk1U29qUG9pUUd3VGpWYjBhdUZjQlJ5RnNTN3pXaXZiSzA1RFd0ZEtOcNIB1gFBVV95cUxQU3BXczNTVnVvZEtIUUFCaWtiT2xXZnhLRHMzd3ZnNHY0VDJ4dF9Eb2lOMUFUZDFVRnBrT2J6YkRvai1FQVVTNGNmNDhhSEhNN3RmRXRnek94YU0zWDREdE1URDR2ZHZSU05ONVNSZC01SWlMc0JIRHB2T0hwbDE4SDBNYk9EQTZPbmxwQmtPanZOUGNlOXJSX0ZpM1BHcXVnX0JfUWRmVG9PcXJodEJFQ2JXZm5ISS1iMW9BdXIwRkozR2FqbkVVSm92UTlodURZcmxNM3NR?oc=5",
+      "prayer": "Families in Kerala's Kottayam and Pathanamthitta districts displaced by flash floods and landslides",
+      "alert_summary": "Flash floods and landslides across Kerala killed at least 15 people and displaced nearly 5,800 residents beginning August 1, 2026."
+    },
+    {
+      "wp_id": 9661,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-04-2026/",
+      "date": "2026-08-06T03:37:58",
+      "title": "Flood in Philippines 08/04/2026",
+      "body": "On the evening of August 3, 2026, Tropical Depression Luis brought flooding to several parts of the Philippines, including La Union, where around 200 families were initially forced to evacuate their homes. By the followi",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 16.616268,
+      "lng": 120.317104,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY19qWE5hMk5ZT09lWkVhYS1GaEdheDYyNVUyZU03QXMzejcyaHhPTXp4YmhuTGVJWGhBYTFnWjlkUVozOFd5VlhwOERVZ1Vxal9yWWx4M3I5N0hNejd4TFhjTjVld040NW9QZ1B0Vlo3TXd6dmVfbGE2WEp5QnljREFDazc2QzBVSWRJRGlWRjk3YVhORGg2NkhaeFhtTHVlaU9aenhkY3R4WHM2MExIV3dMTDVDTmdWNVVxd0hlQnNvRWRWWm54VUZScm5SdmZNcy14TDk0TGFoS2PSAdYBQVVfeXFMUDZ4cmx1aE82Q2RQZ3N3T05EN3hpeHV2WUlsTU1Xd1oxc01Tcm1raVYxbzhUZDU1Q21iUnJ5c1BVdEFWREJGRl9xUkRsUkRQM1hHWG1nS1VsR0lUelQ2OWdDcEpzZ1NHUUZ2c0NnWjBBdmMtb1dnV0dwYldrVjdfeGVfSHBlZ0lMOUZGNHdiT3FJRF8tSk1YdE9EUllJVlZSUVNqbGh1alpQZkZZdnJmVGhhbGtZRVljcWlzaWpYZHAzUmRPV2ZCV05ueXNVaWxQSEZyZENZUQ?oc=5",
+      "prayer": "Families displaced in La Union and across Luzon after flooding triggered by Tropical Depression Luis",
+      "alert_summary": "Flooding triggered by Tropical Depression Luis displaced about 260 families in La Union province on August 3–4, 2026."
+    },
+    {
+      "wp_id": 9660,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-sierra-leone-08-05-2026/",
+      "date": "2026-08-06T03:36:00",
+      "title": "Flood in Sierra Leone 08/05/2026",
+      "body": "On Monday, August 4, 2026, a girl aged five, her mother, and her grandmother died after a wall collapsed at Metchem during hours of heavy rain. In nearby Juba, about 9 km from central Freetown, over 300 homes were report",
+      "country": "Sierra Leone",
+      "countries": [
+        "Sierra Leone"
+      ],
+      "type": "Flood",
+      "lat": 8.462246,
+      "lng": -13.178415,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1QxdTUtVThSaFFLSVR3RllXN1FjZzNycE1LRS1BbWxwejNPN0RKNkVpa3MwVHp1Y2NfcHhOMmdtMGR5UWF1QS1EZlBXTkVlejUwQkNpQXJoZkw3LUViM2JEMC1mamhIay1FSndSWHhRS2NrRkxIOFdoSkpucDI4UktJZ2FwSmZRTUhYWVUyellnSXpTV0UwOVNEUEhualUwd1l3V3Vn?oc=5",
+      "prayer": "Families in Freetown who lost loved ones and hundreds displaced by flash flooding",
+      "alert_summary": "Flooding in Freetown killed 3 people and displaced hundreds, with over 300 homes flooded in Juba."
+    },
+    {
+      "wp_id": 9659,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-south-korea-08-05-2026/",
+      "date": "2026-08-06T03:33:28",
+      "title": "Heatwave in South Korea 08/05/2026",
+      "body": "On August 2, 2026, the south-eastern city of Yangsan recorded 42.5°C — the highest temperature in South Korea since modern meteorological records began in 1904. Yangsan experienced temperatures exceeding 40°C for five co",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Heatwave",
+      "lat": 35.341145,
+      "lng": 129.03387,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss",
+      "prayer": "People across South Korea, especially the elderly and outdoor workers, enduring a record-breaking heatwave",
+      "alert_summary": "A heatwave brought a record high of 42.5°C to Yangsan, South Korea, killing at least 19 people and hospitalizing over 2,000."
+    },
+    {
+      "wp_id": 9658,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-guatemala-08-05-2026/",
+      "date": "2026-08-06T03:31:10",
+      "title": "Volcano in Guatemala 08/05/2026",
+      "body": "On August 4, 2026, Guatemalan authorities issued the country's second-highest emergency alert level after Fuego volcano erupted. The eruption intensified by nightfall, with lava flows and ash plumes rising about six kilo",
+      "country": "Guatemala",
+      "countries": [
+        "Guatemala"
+      ],
+      "type": "Volcano",
+      "lat": 14.487938,
+      "lng": -90.804115,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
+      "prayer": "Villages near Fuego volcano evacuated as eruption continues with lava flows and ash",
+      "alert_summary": "Fuego volcano erupted on August 4, 2026, forcing the evacuation of at least 1,700 people from villages on its flanks."
+    },
+    {
+      "wp_id": 9657,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-06-2026/",
+      "date": "2026-08-06T03:25:30",
+      "title": "Flood in Russia 08/06/2026",
+      "body": "On August 6, 2026, water levels on the Middle Amur River between the villages of Lenskoye and Nizhnespasskoye reached unfavorable thresholds. At Lenskoye, the level stood at 838 cm, just below the dangerous threshold of ",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 48.769954545454546,
+      "lng": 132.41468181818183,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260806005942-0245527.xml",
+      "prayer": "Villages along Russia's Middle Amur River already inundated with rising floodwaters expected to worsen",
+      "alert_summary": "Flooding has inundated the Middle Amur floodplain between Lenskoye and Nizhnespasskoye with water depths reaching 2.2 meters."
+    },
+    {
+      "wp_id": 9656,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-08-01-2026-magnitude-6/",
+      "date": "2026-08-06T03:23:18",
+      "title": "Earthquake in Japan 08/01/2026 — Magnitude 6",
+      "body": "On August 1, 2026, a magnitude 5.5 earthquake occurred in the North Pacific Ocean, 57 km east of Mutsu, Aomori, Japan. The quake struck at a depth of approximately 80 kilometers. Japan's Meteorological Agency confirmed t",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 41.29403,
+      "lng": 141.18256,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thdk",
+      "prayer": "Residents of Mutsu, Aomori and surrounding coastal communities shaken by an offshore earthquake",
+      "alert_summary": "Magnitude 5.5 earthquake struck 57 km off the coast of Mutsu, Aomori, Japan, with no tsunami threat reported."
+    },
+    {
+      "wp_id": 9655,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-05-2026-magnitude-5/",
+      "date": "2026-08-06T03:19:32",
+      "title": "Earthquake in Indonesia 08/05/2026 — Magnitude 5",
+      "body": "On August 6, 2026, an earthquake occurred in the early morning hours near Tobelo, North Halmahera Regency, North Maluku, Indonesia, in the Maluku Sea. The event was recorded at magnitude 5.3 by one agency, while other re",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.725178,
+      "lng": 128.0002,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tics",
+      "prayer": "Residents near Tobelo, North Maluku shaken by an earthquake in the Maluku Sea",
+      "alert_summary": "Magnitude 5 earthquake struck the Maluku Sea about 62 km west of Tobelo, Indonesia on August 6, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 9654,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-05-2026-magnitude-5/",
+      "date": "2026-08-06T03:19:12",
+      "title": "Earthquake in Papua New Guinea 08/05/2026 — Magnitude 5",
+      "body": "On August 6, 2026, a magnitude 5 earthquake struck near Ialibu in Southern Highlands Province, Papua New Guinea. The earthquake occurred in the early morning hours at a moderately shallow depth of about 57 kilometers. Th",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.282291,
+      "lng": 143.990989,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tie5",
+      "prayer": "Residents of Southern Highlands Province, Papua New Guinea after an earthquake struck their region",
+      "alert_summary": "Magnitude 5 earthquake struck near Ialibu in Southern Highlands Province, Papua New Guinea; no casualties reported."
+    },
+    {
+      "wp_id": 9653,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-08-05-2026-magnitude-6/",
+      "date": "2026-08-06T03:18:28",
+      "title": "Earthquake in New Zealand 08/05/2026 — Magnitude 6",
+      "body": "A magnitude 6.3 earthquake struck south of the Kermadec Islands on August 5, 2026. The quake occurred at a depth of about 226 kilometers — deep enough that shaking at the surface was significantly reduced compared to a s",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -33.8063,
+      "lng": 179.4727,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i",
+      "prayer": "Remote island communities near the Kermadec Islands after a deep-focus earthquake with no reported casualties",
+      "alert_summary": "Magnitude 6.3 earthquake struck south of the Kermadec Islands on August 5, 2026; no casualties or tsunami reported."
+    },
     {
       "wp_id": 9560,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-greece-08-02-2026/",
@@ -17555,203 +17771,6 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swcc",
       "prayer": "Communities in Fiji following a deep-focus magnitude 4.5 earthquake with minimal reported impact"
-    },
-    {
-      "wp_id": 2697,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-08-2026-magnitude-5/",
-      "date": "2026-05-09T03:21:44",
-      "title": "Earthquake in Papua New Guinea 05/08/2026 — Magnitude 5",
-      "body": "A magnitude 4.9 earthquake struck roughly 100 kilometers south-southeast of Lorengau, Papua New Guinea on May 8, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shak",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -2.032957,
-      "lng": 147.278918,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swcg"
-    },
-    {
-      "wp_id": 2696,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-09-2026-magnitude-5/",
-      "date": "2026-05-09T03:21:33",
-      "title": "Earthquake in Indonesia 05/09/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck a remote area about 177 kilometers west-northwest of Abepura, Indonesia, on May 9, 2026. The quake registered magnitude 4.6 and was shallow, occurring only about 10 kilometers below the surfa",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -2.614546,
-      "lng": 140.67255,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swe0",
-      "prayer": "Communities in Indonesia near a shallow magnitude 4.6 earthquake with uncertain damage and impact"
-    },
-    {
-      "wp_id": 2695,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-6m-depth73-268km-in-philippines-04-05-2026-0609-utc-30-thousand-in-mmi-vi/",
-      "date": "2026-05-07T19:28:44",
-      "title": "Minor earthquake (Magnitude 6M, Depth:73.268km) in Philippines 04/05/2026 06:09 UTC, 30 thousand in MMI VI.",
-      "body": "A magnitude 6.0 earthquake struck the Philippines on May 4, 2026, at approximately 06:09 UTC, occurring at a depth of 73.268 kilometers. The intermediate depth of the event suggests the seismic energy was partially atten",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 11.7774,
-      "lng": 125.3718,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2694,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-7m-depth22-194km-in-mexico-04-05-2026-1519-utc-80-thousand-in-mmi-v/",
-      "date": "2026-05-07T19:28:30",
-      "title": "Minor earthquake (Magnitude 5.7M, Depth:22.194km) in Mexico 04/05/2026 15:19 UTC, 80 thousand in MMI V.",
-      "body": "A magnitude 5.7 earthquake struck Mexico on May 4, 2026, at 15:19 UTC, occurring at a depth of approximately 22.2 kilometers. According to reporting from the Global Disaster Alert and Coordination System (GDACS), an esti",
-      "country": "Mexico",
-      "countries": [
-        "Mexico"
-      ],
-      "type": "Earthquake",
-      "lat": 16.6223,
-      "lng": -97.9846,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2693,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth35-536km-in-indonesia-05-05-2026-0644-utc-740-thousand-in-mmi-iv/",
-      "date": "2026-05-07T19:28:17",
-      "title": "Minor earthquake (Magnitude 5.8M, Depth:35.536km) in Indonesia 05/05/2026 06:44 UTC, 740 thousand in MMI IV.",
-      "body": "A magnitude 5.8 earthquake struck Indonesia on May 5, 2026, at 06:44 UTC, with a recorded depth of approximately 35.5 kilometers. According to automated monitoring data, an estimated 740,000 people were exposed to shakin",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -10.1135,
-      "lng": 119.3245,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2692,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth10km-in-new-zealand-05-05-2026-0800-utc-70-thousand-in-mmi-iv/",
-      "date": "2026-05-07T19:27:59",
-      "title": "Minor earthquake (Magnitude 5.8M, Depth:10km) in New Zealand 05/05/2026 08:00 UTC, 70 thousand in MMI IV.",
-      "body": "A magnitude 5.8 earthquake struck New Zealand on May 5, 2026, at 08:00 UTC, with a shallow focal depth of 10 kilometers. Shallow-depth seismic events are generally associated with stronger ground shaking relative to thei",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -36.7452,
-      "lng": 177.2617,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2691,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-8m-depth10km-in-united-states-06-05-2026-1415-utc-few-people-affected-in-mmi-iii/",
-      "date": "2026-05-07T19:27:35",
-      "title": "Minor earthquake (Magnitude 5.8M, Depth:10km) in United States 06/05/2026 14:15 UTC, Few people affected in MMI III.",
-      "body": "A magnitude 5.8 earthquake struck the United States on 6 May 2026 at 14:15 UTC, with a recorded depth of 10 kilometers. According to the Global Disaster Alert and Coordination System (GDACS), the event registered a Modif",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 52.2595,
-      "lng": 176.518,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2690,
-      "wp_link": "https://globalwitnessmonitor.com/minor-earthquake-magnitude-5-5m-depth10km-in-philippines-06-05-2026-1535-utc-40-thousand-in-mmi-v/",
-      "date": "2026-05-07T19:27:20",
-      "title": "Minor earthquake (Magnitude 5.5M, Depth:10km) in Philippines 06/05/2026 15:35 UTC, 40 thousand in MMI V.",
-      "body": "A magnitude 5.5 earthquake struck the Philippines on 6 May 2026 at 15:35 UTC, with a shallow focal depth of 10 kilometers. According to reporting from the Global Disaster Alert and Coordination System (GDACS), approximat",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 7.6333,
-      "lng": 126.7818,
-      "source_title": "",
-      "source_url": ""
-    },
-    {
-      "wp_id": 2689,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-6-25-km-ne-of-la-troncal-ecuador/",
-      "date": "2026-05-07T19:27:06",
-      "title": "M 4.6 &#8211; 25 km NE of La Troncal, Ecuador",
-      "body": "A magnitude 4.6 earthquake struck approximately 25 kilometers northeast of La Troncal, Ecuador, on May 6, 2026, at 22:06 UTC. The event was recorded at coordinates 2.261°S, 79.181°W, with a depth of approximately 96.81 k",
-      "country": "Ecuador",
-      "countries": [
-        "Ecuador"
-      ],
-      "type": "Earthquake",
-      "lat": -2.4248,
-      "lng": -79.3416,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Communities in Ecuador experiencing ongoing seismic activity amid a moderate earthquake and regional tremor risk"
-    },
-    {
-      "wp_id": 2260,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-3-earthquake-strikes-near-gisborne-north-island/",
-      "date": "2026-05-06T23:36:25",
-      "title": "Magnitude 5.3 Earthquake Strikes Near Gisborne, North Island",
-      "body": "A magnitude 5.3 earthquake struck at a shallow depth of approximately 25 kilometers near Gisborne on New Zealand’s North Island. The tremor was felt across a wide area, including Cambridge, Hunterville, Dannevirke, and W",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -38.6654,
-      "lng": 178.0272,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Communities across New Zealand's North Island shaken by a shallow 5.3 magnitude earthquake with aftershock uncertainty"
-    },
-    {
-      "wp_id": 2259,
-      "wp_link": "https://globalwitnessmonitor.com/alaska-megatsunami-ranks-second-tallest-ever-recorded/",
-      "date": "2026-05-06T23:36:12",
-      "title": "Alaska Megatsunami Ranks Second Tallest Ever Recorded",
-      "body": "A megatsunami reaching nearly 500 metres in height struck Tracy Arm Fjord in southeast Alaska last summer, ranking it the second largest ever recorded. The event was triggered when approximately 64 million cubic metres o",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Tsunami",
-      "lat": 43.4902,
-      "lng": -72.4191,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Communities and maritime travelers in Alaska facing increased megatsunami risk as glacier retreat destabilizes coastal mountain terrain"
-    },
-    {
-      "wp_id": 2258,
-      "wp_link": "https://globalwitnessmonitor.com/flooding-displaces-fifty-residents-across-uganda-in-may/",
-      "date": "2026-05-06T23:35:57",
-      "title": "Flooding Displaces Fifty Residents Across Uganda in May",
-      "body": "A flood event affecting Uganda began on 3 May 2026 and remained active through 5 May 2026, according to the most recent update available. The event has been classified at a green alert level, indicating a lower-severity ",
-      "country": "Uganda",
-      "countries": [
-        "Uganda"
-      ],
-      "type": "Flood",
-      "lat": 0.7408,
-      "lng": 34.1027,
-      "source_title": "",
-      "source_url": "",
-      "prayer": "Fifty displaced residents across Uganda facing localized flooding and community disruption"
     }
   ]
 }
