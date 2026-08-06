@@ -1,9 +1,319 @@
 {
   "feed": "conflict",
-  "updated": "2026-08-03T11:29:29.383911+00:00",
-  "count": 1598,
+  "updated": "2026-08-06T04:36:27.113060+00:00",
+  "count": 1629,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9775,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-eastern-iraq-3/",
+      "date": "2026-08-06T04:35:29",
+      "title": "Armed Conflict in eastern Iraq",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 36.183333,
+      "lng": 44.0
+    },
+    {
+      "wp_id": 9774,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-masyaf-hama/",
+      "date": "2026-08-06T04:34:10",
+      "title": "Armed Conflict in Masyaf, Hama",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 35.066604,
+      "lng": 36.344761
+    },
+    {
+      "wp_id": 9773,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ngapali-thandwe-township/",
+      "date": "2026-08-06T04:33:45",
+      "title": "Armed Conflict in Ngapali, Thandwe Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 18.46708,
+      "lng": 94.36381
+    },
+    {
+      "wp_id": 9772,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mrauk-u/",
+      "date": "2026-08-06T04:32:22",
+      "title": "Armed Conflict in Mrauk-U",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.598059,
+      "lng": 93.19225
+    },
+    {
+      "wp_id": 9751,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-shererina-shirena-western-tigray/",
+      "date": "2026-08-06T04:31:35",
+      "title": "Armed Conflict in Shererina, western Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 9755,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-shererina-western-tigray-2/",
+      "date": "2026-08-06T04:31:15",
+      "title": "Displacement in Shererina, western Tigray",
+      "country": "Ethiopia",
+      "type": "Displacement",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 9758,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-qadarif-state/",
+      "date": "2026-08-06T04:30:51",
+      "title": "Armed Conflict in Al-Qadarif State",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 14.0409,
+      "lng": 35.3988
+    },
+    {
+      "wp_id": 9753,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-teedaan-hiiraan/",
+      "date": "2026-08-06T04:28:54",
+      "title": "Armed Conflict in Galkayo",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 4.7368,
+      "lng": 45.2039
+    },
+    {
+      "wp_id": 9757,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mandera-county-3/",
+      "date": "2026-08-06T04:28:10",
+      "title": "Armed Conflict in Mandera County",
+      "country": "Kenya",
+      "type": "Armed Conflict",
+      "lat": 3.9384,
+      "lng": 41.8573
+    },
+    {
+      "wp_id": 9761,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-basro-lower-shabelle/",
+      "date": "2026-08-06T04:27:46",
+      "title": "Armed Conflict in Basro, Lower Shabelle",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 1.714836,
+      "lng": 44.769933
+    },
+    {
+      "wp_id": 9750,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-goma-4/",
+      "date": "2026-08-06T04:22:53",
+      "title": "Armed Conflict in Goma",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -1.666705,
+      "lng": 29.225677
+    },
+    {
+      "wp_id": 9749,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ogun-enugu-plateau-oyo-delta-benue-and-katsina-states/",
+      "date": "2026-08-06T04:22:30",
+      "title": "Armed Conflict in Ogun, Enugu, Plateau, Oyo, Delta, Benue, and Katsina states",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 6.185883,
+      "lng": 6.729707
+    },
+    {
+      "wp_id": 9710,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ghara-al-zawiya-north-darfur/",
+      "date": "2026-08-06T04:21:22",
+      "title": "Armed Conflict in Garra al-Zawaya, North Darfur",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 14.5069,
+      "lng": 24.4731
+    },
+    {
+      "wp_id": 9730,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buni-yadi-gujba-local-government-area-yobe-state/",
+      "date": "2026-08-06T04:20:58",
+      "title": "Armed Conflict in Ajaokuta, Kogi State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.2789,
+      "lng": 12.0101
+    },
+    {
+      "wp_id": 9746,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maina-daya-village-marte/",
+      "date": "2026-08-06T04:20:36",
+      "title": "Armed Conflict in Maina Daya Village, Marte",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.363511,
+      "lng": 13.826881
+    },
+    {
+      "wp_id": 9729,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-abuja-3/",
+      "date": "2026-08-06T04:20:07",
+      "title": "Armed Conflict in Geidam, Monguno",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.0735,
+      "lng": 7.4757
+    },
+    {
+      "wp_id": 9741,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-woro-and-nuku-kaiama-local-government-area/",
+      "date": "2026-08-06T04:19:23",
+      "title": "Armed Conflict in Woro and Nuku communities, Kaiama Local Government Area",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.594,
+      "lng": 8.1053
+    },
+    {
+      "wp_id": 9736,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kasuwar-daji-zamfara/",
+      "date": "2026-08-06T04:16:26",
+      "title": "Armed Conflict in Kasuwar Daji, Zamfara",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.165836,
+      "lng": 6.66064
+    },
+    {
+      "wp_id": 9704,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kainji-lake-national-park-new-bussa/",
+      "date": "2026-08-06T04:14:31",
+      "title": "Armed Conflict in Naridon, Sokoto, Otukpo",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.0186,
+      "lng": 8.537
+    },
+    {
+      "wp_id": 9726,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-cucuta-2/",
+      "date": "2026-08-06T04:10:33",
+      "title": "Armed Conflict in Cúcuta",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 7.886615,
+      "lng": -72.499565
+    },
+    {
+      "wp_id": 9703,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-culiacan/",
+      "date": "2026-08-06T04:09:53",
+      "title": "Armed Conflict in Culiacán",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 24.8074,
+      "lng": -107.3944
+    },
+    {
+      "wp_id": 9723,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-los-reyes-michoacan/",
+      "date": "2026-08-06T04:09:08",
+      "title": "Armed Conflict in Los Reyes, Michoacán",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 19.577164,
+      "lng": -102.47878
+    },
+    {
+      "wp_id": 9720,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-atotonilco-el-alto-jalisco-3/",
+      "date": "2026-08-06T04:08:03",
+      "title": "Armed Conflict in Atotonilco El Alto, Jalisco",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 20.551329,
+      "lng": -102.508286
+    },
+    {
+      "wp_id": 9706,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-13/",
+      "date": "2026-08-06T04:06:43",
+      "title": "Armed Conflict in Kherson",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.45,
+      "lng": 30.5241
+    },
+    {
+      "wp_id": 9707,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-isfahan-2/",
+      "date": "2026-08-06T04:05:31",
+      "title": "Civil Unrest in Isfahan",
+      "country": "Iran",
+      "type": "Civil Unrest",
+      "lat": 32.6699,
+      "lng": 51.6654
+    },
+    {
+      "wp_id": 9714,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-new-delhi-6/",
+      "date": "2026-08-06T04:05:18",
+      "title": "Civil Unrest in New Delhi",
+      "country": "India",
+      "type": "Civil Unrest",
+      "lat": 28.548699,
+      "lng": 77.252673
+    },
+    {
+      "wp_id": 9711,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-deir-al-balah-khan-younis-lebanon/",
+      "date": "2026-08-06T04:04:35",
+      "title": "Armed Conflict in Tibnin and Mansouri, southern Lebanon",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 33.83355,
+      "lng": 35.544566
+    },
+    {
+      "wp_id": 9709,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-belgorod-krasnodar-dnipropetrovsk-sumy/",
+      "date": "2026-08-06T04:02:18",
+      "title": "Armed Conflict in Belgorod, Krasnodar, Dnipropetrovsk, Sumy",
+      "country": "Russia",
+      "type": "Armed Conflict",
+      "lat": 45.02835,
+      "lng": 38.97175
+    },
+    {
+      "wp_id": 9705,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-qalandiya-refugee-camp/",
+      "date": "2026-08-06T04:01:44",
+      "title": "Armed Conflict in Gaza City, Beit Lahia, Masafer Yatta",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.512442,
+      "lng": 34.457165
+    },
+    {
+      "wp_id": 9702,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-leipzig-halle-airport/",
+      "date": "2026-08-06T03:59:31",
+      "title": "Armed Conflict in Leipzig/Halle Airport",
+      "country": "Germany",
+      "type": "Armed Conflict",
+      "lat": 51.34083,
+      "lng": 12.375101
+    },
+    {
+      "wp_id": 9701,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tehran-2/",
+      "date": "2026-08-06T03:59:05",
+      "title": "Armed Conflict in Tehran",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 35.696,
+      "lng": 51.401
+    },
     {
       "wp_id": 9646,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kirkuk-to-basra/",
