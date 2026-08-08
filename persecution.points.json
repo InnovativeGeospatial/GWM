@@ -1,9 +1,99 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-06T03:58:31.416953+00:00",
-  "count": 454,
+  "updated": "2026-08-08T20:55:03.860905+00:00",
+  "count": 463,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9799,
+      "wp_link": "https://globalwitnessmonitor.com/eight-house-church-leaders-held-for-nearly-a-year-as-families-torn-apart-in-china/",
+      "date": "2026-08-08T20:54:54",
+      "title": "Eight House Church Leaders Held for Nearly a Year as Families Torn Apart in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9798,
+      "wp_link": "https://globalwitnessmonitor.com/kurdish-baptist-pastor-detained-two-weeks-in-syria-over-social-media-posts-released-amid-religious-freedom-concerns/",
+      "date": "2026-08-08T20:54:24",
+      "title": "Kurdish Baptist pastor detained two weeks in Syria over social media posts, released amid religious freedom concerns",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 9797,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militants-abduct-and-kill-pastor-seize-dozens-of-christians-in-sudan/",
+      "date": "2026-08-08T20:54:06",
+      "title": "Islamist Militants Abduct and Kill Pastor, Seize Dozens of Christians in Sudan",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9789,
+      "wp_link": "https://globalwitnessmonitor.com/rebel-militants-abduct-second-church-leader-in-sudan-within-days-as-targeted-attacks-on-clergy-escalate/",
+      "date": "2026-08-08T20:53:44",
+      "title": "Multiple Church Leaders Abducted and Killed in Coordinated Sudan Attacks",
+      "country": "sudan",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9794,
+      "wp_link": "https://globalwitnessmonitor.com/iraqs-highest-court-orders-recognition-of-christian-womans-faith-in-state-records/",
+      "date": "2026-08-08T20:52:59",
+      "title": "Iraq's Highest Court Orders Recognition of Christian Woman's Faith in State Records",
+      "country": "iraq",
+      "type": "restriction",
+      "lat": 33.2,
+      "lng": 43.7
+    },
+    {
+      "wp_id": 9793,
+      "wp_link": "https://globalwitnessmonitor.com/wives-of-three-detained-house-church-leaders-appeal-to-trump-ahead-of-u-s-china-summit/",
+      "date": "2026-08-08T20:52:44",
+      "title": "Wives of three detained house church leaders appeal to Trump ahead of U.S.-China summit",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9792,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-six-christians-vanish-following-police-raid-in-china/",
+      "date": "2026-08-08T20:52:30",
+      "title": "Pastor and six Christians vanish following police raid in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9791,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-killed-another-abducted-as-armed-fighters-attack-christian-community-in-sudan/",
+      "date": "2026-08-08T20:52:04",
+      "title": "Pastor Killed, Another Abducted as Armed Fighters Attack Christian Community in Sudan",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9790,
+      "wp_link": "https://globalwitnessmonitor.com/christian-girl-rescued-after-six-months-of-captivity-and-forced-conversion-in-pakistan/",
+      "date": "2026-08-08T20:51:50",
+      "title": "Christian Girl Rescued After Six Months of Captivity and Forced Conversion in Pakistan",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 9700,
       "wp_link": "https://globalwitnessmonitor.com/scottish-christian-missionary-killed-in-greece-afghan-boxer-charged-with-murder/",
