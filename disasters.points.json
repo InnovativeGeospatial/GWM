@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-08T20:50:23.957393+00:00",
-  "count": 1163,
+  "updated": "2026-08-11T13:42:39.435341+00:00",
+  "count": 1173,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9892,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-09-2026/",
+      "date": "2026-08-11T13:37:06",
+      "title": "Flood in Philippines 08/09/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 14.420899,
+      "lng": 121.045269
+    },
+    {
+      "wp_id": 9891,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-10-2026/",
+      "date": "2026-08-11T13:34:11",
+      "title": "Storm in China 08/10/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859
+    },
+    {
+      "wp_id": 9890,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-09-2026-cat-1/",
+      "date": "2026-08-11T13:33:14",
+      "title": "Storm in China 08/09/2026 — Cat 1",
+      "country": "China",
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859
+    },
+    {
+      "wp_id": 9889,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-10-2026/",
+      "date": "2026-08-11T13:32:17",
+      "title": "Flood in India 08/10/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266
+    },
+    {
+      "wp_id": 9888,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-11-2026/",
+      "date": "2026-08-11T13:31:54",
+      "title": "Flood in United States 08/11/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.767676,
+      "lng": -82.099638
+    },
+    {
+      "wp_id": 9887,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-08-11-2026/",
+      "date": "2026-08-11T13:27:06",
+      "title": "Heatwave in Kazakhstan 08/11/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774
+    },
+    {
+      "wp_id": 9886,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-11-2026/",
+      "date": "2026-08-11T13:23:50",
+      "title": "Flood in Russia 08/11/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 58.313927,
+      "lng": 47.08445
+    },
+    {
+      "wp_id": 9885,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-08-08-2026-magnitude-6/",
+      "date": "2026-08-11T13:20:51",
+      "title": "Earthquake in Chile 08/08/2026 — Magnitude 6",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -27.147003,
+      "lng": -109.43021
+    },
+    {
+      "wp_id": 9884,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-09-2026-magnitude-5/",
+      "date": "2026-08-11T13:19:50",
+      "title": "Earthquake in Indonesia 08/09/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -5.344878,
+      "lng": 102.268135
+    },
+    {
+      "wp_id": 9883,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-10-2026-magnitude-7/",
+      "date": "2026-08-11T13:18:41",
+      "title": "Earthquake in Colombia 08/10/2026 — Magnitude 7",
+      "country": "Colombia",
+      "type": "Earthquake",
+      "lat": 4.896325,
+      "lng": -76.23444
+    },
     {
       "wp_id": 9788,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-06-2026/",
