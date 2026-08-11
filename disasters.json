@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-09T21:03:34.664973+00:00",
-  "count": 996,
+  "updated": "2026-08-11T13:42:37.329335+00:00",
+  "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 9892,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-09-2026/",
+      "date": "2026-08-11T13:37:06",
+      "title": "Flood in Philippines 08/09/2026",
+      "body": "Flooding spread across multiple parts of Metro Manila beginning the weekend of August 8–9, 2026, as the enhanced southwest monsoon — locally called *habagat* — intensified by Tropical Depression Maymay inundated key road",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Flood",
+      "lat": 14.420899,
+      "lng": 121.045269,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcWF3eS1aZndVUHY5Y0RrSk9UNUhkZ0NGWUlSWF95NVYyVHN3TUVXYl9nblVaUWxGazJfRnBKeUxYTjg0UlRidUZtc1dpaHI5Y2taSFk5cUFoR1pGNW5yb3NyaURRNEhzSXNpZzE0cFMwdFZ6QVJlekdqQkJDSnBuYnNfLVUwMTlzV0RoajJCSlM3Wkt3UWfSAZwBQVVfeXFMUG40d2NhU0JkSHhIeEpGb2NYMHUzMUExWlNmVWFHdmVmeFREMm8yWkQ4dEoxZTk2eW5rWkNhM3l2VXRkMk5HN2JTc2FJVFNXcDN0WjJvZV9vZDlQUGI5SEdhd0JvZ1k0Y0VVYnlZRW1vc0h1SmJsZDNmQVA5RGZtMGdOM29STVdqV01IaWlrTmRodWdkQkM5dE9FMUhE?oc=5",
+      "prayer": "Thousands of families across Metro Manila displaced by monsoon flooding, including those in Marikina, Parañaque, Las Piñas, and Muntinlupa",
+      "alert_summary": "Monsoon flooding across Metro Manila displaced thousands of residents, with at least 239 families evacuated in Manila alone and 1,900 in Marikina."
+    },
+    {
+      "wp_id": 9891,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-10-2026/",
+      "date": "2026-08-11T13:34:11",
+      "title": "Storm in China 08/10/2026",
+      "body": "Typhoon Dolphin made landfall on the evening of August 9, 2026, in Taizhou, Zhejiang province, with winds of 151 kph (93 mph). By the following day, the typhoon had weakened into a tropical storm as it moved inland, but ",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVPNWRVeUlBM25FNno1MlNXQ3BhbzgzSXAxSzN2MUtDdW5fWDFqUjU2WmdCWkxzV0lLN2RNdlFscXFRQ2lJd3dpZ2FkWk00ZlAyX0ZaQUxWbG1tWDgySUNPbXBfNE4yUklPQTctd3E3dW1SbFZRRlhYVWFTVkRuMGZaZ21ZdVZEaXM1djNjbnJ1V3dCUGVIOUdZSXN2MlXSAaQBQVVfeXFMTThYY1E4VUxjUDVoVDNydWp2bjdBWDFUZ0pBeVNMSGZfSmduZ2pWTDBDOFFsSlpRTE4yQnlOWkRCbXVTQXZ2czFMcERBTC1hazk4MkVyYUxjZG9FT3J2cHdMNm1MNmJrQmFkWXgyYUVtbGw1c1FfWld4SkFWajdMeXg5T2h6ZTZWVFBTVnp5RHpVQlNDLVNrOEJBeGZOci1vREh5NXU?oc=5",
+      "prayer": "Residents across eastern China's Zhejiang, Anhui, Jiangsu, and Shandong provinces uprooted by Typhoon Dolphin's flooding and landslides",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 9890,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-09-2026-cat-1/",
+      "date": "2026-08-11T13:33:14",
+      "title": "Storm in China 08/09/2026 — Cat 1",
+      "body": "Typhoon Dolphin made landfall near Yuhuan in eastern Zhejiang province at around 5:30 p.m. local time on Sunday, August 9, 2026, according to China's meteorological authorities. The storm carried maximum sustained winds ",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc0NJaTlXRGh6TjB6dlhxVVM0bjRvRzZrZFV0a1c5TnVFU3BnNzlGamVlT1RHejdlM1ZVa0lPYjBUVGFsWExlRUJZTUZIZGZ4dGxFcGxwOGg4aGVTS3JaYk9zQmZSanF1STRKc1Y3SE56Ym41TVlOZHFKNmFSS1ZQbE9pVHYySjE3RFFhOERfSF9FQlNqd3hodGhlZzFUVVVrc1dUbkhiU00?oc=5",
+      "prayer": "Over one million residents across eastern China's Zhejiang and Shanghai displaced by Typhoon Dolphin's landfall",
+      "alert_summary": "Typhoon Dolphin made landfall near Yuhuan, Zhejiang, on August 9, 2026, prompting evacuation of more than 1 million residents."
+    },
+    {
+      "wp_id": 9889,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-10-2026/",
+      "date": "2026-08-11T13:32:17",
+      "title": "Flood in India 08/10/2026",
+      "body": "As of August 10, 2026, the death toll from flooding in India's northeastern Assam state reached 100, with two more people dying overnight. Days of monsoon rain caused the Brahmaputra and other rivers to overflow, inundat",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 26.344367,
+      "lng": 93.010266,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR0E1YXZDSFF3THBBMlRKX2tOdk50aHkyY0pfYmlwNzltc1BIVG9iaVlIVWJZS3U3RXR2ejVaaUZBc25ZZ3VfdzBrQUV0akpWTU1aSUVIaE5adkNvSHQ2aHlLR3d0VklRTk40WVp3eWxIYmlLZl9MdHFKX21HV1pCdGRtdWIzWkg2enY3b3duaXRNZnJvZUI4TFFUWXIzSGxkQTh2cHJBTThPZTNBaTB5M19UUENHeWFz?oc=5",
+      "prayer": "Families across Assam who lost homes, livestock, and livelihoods in monsoon flooding",
+      "alert_summary": "Monsoon flooding in Assam killed at least 100 people and displaced more than 700,000 residents."
+    },
+    {
+      "wp_id": 9888,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-11-2026/",
+      "date": "2026-08-11T13:31:54",
+      "title": "Flood in United States 08/11/2026",
+      "body": "On August 11, 2026, multiple fire departments were deployed in Perry County as several areas flooded. A flash flood emergency — the highest level of flash flood alert — was issued after over 4 inches of rain fell within ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 39.767676,
+      "lng": -82.099638,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYlAzaTdabFRIa0lnOXp0N3ZJZkRnZ2dWSDNOSTY3dEFHSDZESDJ2QS1za0hKRDF1M05zUnBrMklYQWZ6UVlHZHVHLTc4eHByWFFNcEJydjl0WWIzS1g1U3B4MVI5U0FpVDhDMDc4WFVDdnFwM1pSbXhFYVJMaTFHaXRRT2NuaHFLRVQzOVZMeDZwNXhTX0EtcFR3YWgwdkRqSVZwT21zX3JMUFZTM2lGRHdnQXZtMURZaDJsZHA3YnF6dTliNlBj?oc=5",
+      "prayer": "Residents of Crooksville, Ohio, rescued from floodwaters and displaced from their homes",
+      "alert_summary": "Flash flooding triggered multiple water rescues in Crooksville, Perry County, Ohio, after over 4 inches of rain fell in 12 hours."
+    },
+    {
+      "wp_id": 9887,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-08-11-2026/",
+      "date": "2026-08-11T13:27:06",
+      "title": "Heatwave in Kazakhstan 08/11/2026",
+      "body": "On August 11, 2026, a meteorological alert was issued for Kazakhstan reporting temperatures of at least 35°C. This alert came amid a broader pattern of hotter-than-normal conditions that dominated Central Asia from late ",
+      "country": "Kazakhstan",
+      "countries": [
+        "Kazakhstan"
+      ],
+      "type": "Heatwave",
+      "lat": 48.160088,
+      "lng": 67.301774,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/2.49.0.0.398.0-20260811-093702-0463960-00-RU.xml",
+      "prayer": "Residents across Kazakhstan enduring a prolonged summer heatwave with temperatures well above normal",
+      "alert_summary": "A heatwave alert was issued for Kazakhstan on August 11, 2026, with temperatures reaching at least 35°C."
+    },
+    {
+      "wp_id": 9886,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-11-2026/",
+      "date": "2026-08-11T13:23:50",
+      "title": "Flood in Russia 08/11/2026",
+      "body": "On August 11, 2026, the Middle Amur River was running above the hazardous threshold near the village of Leninskoye, with water levels recorded at 890 cm — 40 cm above the danger mark. Near the village of Nizhnespasskoye,",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 58.313927,
+      "lng": 47.08445,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260811013747-0247311.xml",
+      "prayer": "Floodplain communities along the Middle Amur River between Nagibovo and Nizhnespasskoye facing rising floodwaters",
+      "alert_summary": "Flooding along the Middle Amur submerged the floodplain between Nagibovo and Nizhnespasskoye to depths of up to 2.7 meters; no casualty figure reported."
+    },
+    {
+      "wp_id": 9885,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-08-08-2026-magnitude-6/",
+      "date": "2026-08-11T13:20:51",
+      "title": "Earthquake in Chile 08/08/2026 — Magnitude 6",
+      "body": "On August 8, 2026, a magnitude 5.6 earthquake occurred in the open ocean southeast of Easter Island, at a depth of about 10 kilometers. The event was reviewed by seismologists and received a green estimated-impact rating",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.147003,
+      "lng": -109.43021,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8t",
+      "prayer": "Residents of Easter Island after an open-ocean earthquake in surrounding waters",
+      "alert_summary": "Magnitude 6 earthquake struck in open ocean southeast of Easter Island; no casualties or damage reported."
+    },
+    {
+      "wp_id": 9884,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-09-2026-magnitude-5/",
+      "date": "2026-08-11T13:19:50",
+      "title": "Earthquake in Indonesia 08/09/2026 — Magnitude 5",
+      "body": "A magnitude 5.3 earthquake struck the Indian Ocean near the coast of Bengkulu, Indonesia, on the evening of August 9, 2026. The epicenter was about 80 km southeast of Pulau Enggano Island, with the nearest larger town — ",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -5.344878,
+      "lng": 102.268135,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfj",
+      "prayer": "Communities near Bengkulu, Indonesia, after a magnitude 5 earthquake struck offshore",
+      "alert_summary": "A magnitude 5 earthquake struck the Indian Ocean off Bengkulu, Indonesia, on August 9, 2026; no casualties reported."
+    },
+    {
+      "wp_id": 9883,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-10-2026-magnitude-7/",
+      "date": "2026-08-11T13:18:41",
+      "title": "Earthquake in Colombia 08/10/2026 — Magnitude 7",
+      "body": "On August 10, 2026, a magnitude 7.4 earthquake struck western Colombia. The epicenter was in San José del Palmar, in the department of Chocó, at a depth of 107 kilometers, at 7:34 a.m. local time. At least 21 aftershocks",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Earthquake",
+      "lat": 4.896325,
+      "lng": -76.23444,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
+      "prayer": "Families across western Colombia grieving losses and searching for survivors after a deadly earthquake",
+      "alert_summary": "A magnitude 7.4 earthquake near San José del Palmar, Colombia killed at least 164 people and injured more than 570 on August 10, 2026."
+    },
     {
       "wp_id": 9788,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-06-2026/",
@@ -17612,107 +17792,6 @@
       "source_title": "GDACS RSS information",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539381",
       "prayer": "Communities across the United States shaken by a magnitude 5.8 shallow earthquake with limited reported impact"
-    },
-    {
-      "wp_id": 2716,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-05-2026-magnitude-5-5/",
-      "date": "2026-05-09T03:25:16",
-      "title": "Earthquake in Philippines 06/05/2026 — Magnitude 5.5",
-      "body": "A magnitude 5.5 earthquake struck the Philippines on June 5, 2026. The quake was shallow, originating about 10 kilometers underground, which typically means shaking is felt more strongly at the surface than deeper earthq",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 7.6333,
-      "lng": 126.7818,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539398",
-      "prayer": "Residents across the Philippines recovering after a shallow magnitude 5.5 earthquake with uncertain damage"
-    },
-    {
-      "wp_id": 2715,
-      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-08-05-2026/",
-      "date": "2026-05-09T03:25:07",
-      "title": "Wildfire in Australia 08/05/2026",
-      "body": "A forest fire broke out in Australia on May 8, 2026, and continued burning through May 9, 2026. No further details about the fire's location, size, or impact were included in the available report. Because specific detail",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -14.033758110933256,
-      "lng": 131.1449836504336,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028620"
-    },
-    {
-      "wp_id": 2714,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia/",
-      "date": "2026-05-09T03:24:50",
-      "title": "Volcano in Indonesia",
-      "body": "The Dukono volcano in Indonesia is currently erupting, sending ash clouds into the air. Aviation authorities have raised the alert level to Orange, meaning the ash poses a potential hazard to aircraft in the area. Dukono",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Volcano",
-      "lat": -2.765811,
-      "lng": 107.65157,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000140",
-      "prayer": "Communities in Indonesia near an active volcano facing ongoing eruptions and disruptive ash clouds"
-    },
-    {
-      "wp_id": 2713,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-05-2026-magnitude-6/",
-      "date": "2026-05-09T03:24:40",
-      "title": "Earthquake in Papua New Guinea 08/05/2026 — Magnitude 6",
-      "body": "A magnitude 5.6 earthquake struck Papua New Guinea on August 5, 2026. The quake was shallow, originating about 10 kilometers underground, which can increase the amount of shaking felt at the surface. No specific town or ",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -2.9127,
-      "lng": 147.7321,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539709",
-      "prayer": "Tens of thousands of people in Papua New Guinea shaken by a magnitude 5.6 earthquake with aftershock risk"
-    },
-    {
-      "wp_id": 2712,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-07-2026-magnitude-5/",
-      "date": "2026-05-09T03:24:27",
-      "title": "Earthquake in Papua New Guinea 05/07/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck about 151 kilometers west-northwest of Panguna, Papua New Guinea on May 7, 2026. The quake occurred deep underground, at roughly 142 kilometers below the surface, which typically reduces t",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -6.304784,
-      "lng": 155.488166,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svu7",
-      "prayer": "Communities in Papua New Guinea in a seismically active region experiencing frequent earthquake activity"
-    },
-    {
-      "wp_id": 2711,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-07-2026-magnitude-5-3/",
-      "date": "2026-05-09T03:24:17",
-      "title": "Earthquake in Japan 05/07/2026 — Magnitude 5",
-      "body": "A magnitude 4.7 earthquake struck an area about 88 kilometers north-northwest of Tatsugō, Japan, on May 7, 2026. The quake was shallow, occurring at a depth of about 10 kilometers beneath the surface. No damage or injuri",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 28.417921,
-      "lng": 129.57501,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000svvf",
-      "prayer": "Communities in Japan shaken by a shallow magnitude 4.7 earthquake with damage and injury risks assessed"
     }
   ]
 }
