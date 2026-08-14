@@ -1,9 +1,219 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-11T13:48:14.765398+00:00",
-  "count": 473,
+  "updated": "2026-08-14T07:02:20.674007+00:00",
+  "count": 494,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10013,
+      "wp_link": "https://globalwitnessmonitor.com/american-missionary-pilot-released-after-nearly-10-months-in-captivity-in-niger/",
+      "date": "2026-08-14T07:01:49",
+      "title": "American Missionary Pilot Released After Nearly 10 Months in Captivity in Niger",
+      "country": "niger",
+      "type": "arrest",
+      "lat": 17.6,
+      "lng": 8.1
+    },
+    {
+      "wp_id": 9988,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-sentenced-to-two-years-under-indonesias-blasphemy-law-in-sharia-province/",
+      "date": "2026-08-14T07:01:25",
+      "title": "Christian Pastor Given Two-Year Prison Sentence Under Indonesia's Blasphemy Law",
+      "country": "indonesia",
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 9992,
+      "wp_link": "https://globalwitnessmonitor.com/montagnard-pastor-sentenced-to-seven-and-a-half-years-for-leading-unregistered-church-in-vietnam/",
+      "date": "2026-08-14T07:01:04",
+      "title": "Vietnamese Court Sentences Montagnard Pastor to 7.5 Years for Leading Unregistered Church",
+      "country": "vietnam",
+      "type": "arrest",
+      "lat": 14.1,
+      "lng": 108.3
+    },
+    {
+      "wp_id": 10010,
+      "wp_link": "https://globalwitnessmonitor.com/seminarian-and-worshipper-released-after-armed-raid-on-nigerian-church-during-sunday-mass/",
+      "date": "2026-08-14T07:00:43",
+      "title": "Seminarian and worshipper released after armed raid on Nigerian church during Sunday Mass",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 9999,
+      "wp_link": "https://globalwitnessmonitor.com/gangs-target-haitis-catholic-church-as-dozens-of-parishes-forced-to-close/",
+      "date": "2026-08-14T07:00:21",
+      "title": "Gangs Force Dozens of Parish Closures and Attack Church Properties Across Haiti",
+      "country": "haiti",
+      "type": "church",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10008,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-court-rules-islamic-religious-police-have-no-authority-over-christian-convert/",
+      "date": "2026-08-14T07:00:00",
+      "title": "Nigerian Court Rules Islamic Religious Police Have No Authority Over Christian Convert",
+      "country": "nigeria",
+      "type": "restriction",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10007,
+      "wp_link": "https://globalwitnessmonitor.com/kurdish-baptist-pastor-released-after-two-week-detention-in-syria-over-faith-related-posts/",
+      "date": "2026-08-14T06:59:41",
+      "title": "Kurdish Baptist Pastor Released After Two-Week Detention in Syria Over Faith-Related Posts",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 10006,
+      "wp_link": "https://globalwitnessmonitor.com/convert-detained-in-china-after-police-discover-bible-audio-in-car-at-checkpoint/",
+      "date": "2026-08-14T06:59:23",
+      "title": "Convert detained in China after police discover Bible audio in car at checkpoint",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10005,
+      "wp_link": "https://globalwitnessmonitor.com/europe-records-40-anti-christian-hate-crimes-in-july-as-attacks-on-churches-and-worshipers-continue/",
+      "date": "2026-08-14T06:59:00",
+      "title": "Europe records 40 anti-Christian hate crimes in July as attacks on churches and worshipers continue",
+      "country": "germany",
+      "type": "church",
+      "lat": 51.2,
+      "lng": 10.5
+    },
+    {
+      "wp_id": 10004,
+      "wp_link": "https://globalwitnessmonitor.com/armed-gunmen-storm-catholic-church-during-sunday-mass-abduct-five-worshippers/",
+      "date": "2026-08-14T06:58:41",
+      "title": "Armed Gunmen Storm Catholic Church During Sunday Mass, Abduct Five Worshippers",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10002,
+      "wp_link": "https://globalwitnessmonitor.com/pastors-killed-dozens-of-christians-kidnapped-in-wave-of-militant-attacks-in-sudan/",
+      "date": "2026-08-14T06:57:56",
+      "title": "Pastors Killed, Dozens of Christians Kidnapped in Wave of Militant Attacks in Sudan",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 10000,
+      "wp_link": "https://globalwitnessmonitor.com/family-alleges-christian-grandmother-euthanised-in-canada-despite-faith-objections-and-lack-of-consent/",
+      "date": "2026-08-14T06:57:18",
+      "title": "Family alleges Christian grandmother euthanised in Canada despite faith objections and lack of consent",
+      "country": "canada",
+      "type": "restriction",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 9998,
+      "wp_link": "https://globalwitnessmonitor.com/egypts-highest-court-to-review-blasphemy-conviction-of-coptic-christian-researcher-in-november/",
+      "date": "2026-08-14T06:55:31",
+      "title": "Egypt's Highest Court to Review Blasphemy Conviction of Coptic Christian Researcher in November",
+      "country": "egypt",
+      "type": "restriction",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 9997,
+      "wp_link": "https://globalwitnessmonitor.com/family-of-disappeared-chinese-rights-lawyer-marks-nine-years-without-answers/",
+      "date": "2026-08-14T06:55:15",
+      "title": "Family of disappeared Chinese rights lawyer marks nine years without answers",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9996,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-of-state-sanctioned-church-missing-for-nearly-five-months-in-china/",
+      "date": "2026-08-14T06:54:58",
+      "title": "Pastor of State-Sanctioned Church Missing for Nearly Five Months in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 9995,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-british-citizen-serving-20-year-hong-kong-sentence-as-bishop-urges-new-u-k-prime-minister-to-act/",
+      "date": "2026-08-14T06:54:46",
+      "title": "Catholic British citizen serving 20-year Hong Kong sentence as bishop urges new U.K. Prime Minister to act",
+      "country": "united kingdom",
+      "type": "arrest",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 9994,
+      "wp_link": "https://globalwitnessmonitor.com/anglican-church-in-england-damaged-by-fire-receives-message-of-solidarity-from-vatican/",
+      "date": "2026-08-14T06:53:44",
+      "title": "Anglican church in England damaged by fire receives message of solidarity from Vatican",
+      "country": "united kingdom",
+      "type": "church",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 9993,
+      "wp_link": "https://globalwitnessmonitor.com/christian-advocate-arrested-in-india-over-social-media-comments-remains-detained/",
+      "date": "2026-08-14T06:53:02",
+      "title": "Christian Advocate Arrested in India Over Social Media Comments, Remains Detained",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 9991,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-executed-and-church-leaders-abducted-as-sudans-civil-war-targets-christians/",
+      "date": "2026-08-14T06:52:38",
+      "title": "Pastor Executed and Church Leaders Abducted as Sudan's Civil War Targets Christians",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 9990,
+      "wp_link": "https://globalwitnessmonitor.com/armenian-church-leader-and-six-clerics-face-criminal-trial-amid-government-pressure/",
+      "date": "2026-08-14T06:52:24",
+      "title": "Armenian Church Leader and Six Clerics Face Criminal Trial Amid Government Pressure",
+      "country": "armenia",
+      "type": "restriction",
+      "lat": 40.1,
+      "lng": 45.0
+    },
+    {
+      "wp_id": 9989,
+      "wp_link": "https://globalwitnessmonitor.com/ugandan-court-sentences-nine-for-murder-of-christian-woman-kidnapped-for-ransom/",
+      "date": "2026-08-14T06:52:05",
+      "title": "Ugandan Court Sentences Nine for Murder of Christian Woman Kidnapped for Ransom",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
     {
       "wp_id": 9895,
       "wp_link": "https://globalwitnessmonitor.com/vietnam-sentences-montagnard-protestant-pastor-to-7-5-years-for-unregistered-religious-activity/",
