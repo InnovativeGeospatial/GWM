@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-11T13:42:39.435341+00:00",
-  "count": 1173,
+  "updated": "2026-08-14T06:50:34.634822+00:00",
+  "count": 1185,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 9987,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-12-2026-cat-1/",
+      "date": "2026-08-14T06:45:15",
+      "title": "Storm in China 08/12/2026 — Cat 1",
+      "country": "China",
+      "type": "Storm",
+      "lat": 28.138756,
+      "lng": 121.22859
+    },
+    {
+      "wp_id": 9986,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-13-2026/",
+      "date": "2026-08-14T06:43:47",
+      "title": "Flood in Philippines 08/13/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 14.995444,
+      "lng": 120.77918
+    },
+    {
+      "wp_id": 9985,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-08-13-2026/",
+      "date": "2026-08-14T06:40:16",
+      "title": "Storm in United States 08/13/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 42.351906,
+      "lng": -83.12705
+    },
+    {
+      "wp_id": 9984,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-14-2026/",
+      "date": "2026-08-14T06:39:35",
+      "title": "Flood in United States 08/14/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.931213,
+      "lng": -85.37027
+    },
+    {
+      "wp_id": 9983,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-08-13-2026/",
+      "date": "2026-08-14T06:36:06",
+      "title": "Disease in Congo 08/13/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 9982,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-11-2026-magnitude-7/",
+      "date": "2026-08-14T06:34:49",
+      "title": "Earthquake in Colombia 08/11/2026 — Magnitude 7",
+      "country": "Colombia",
+      "type": "Earthquake",
+      "lat": 3.455469,
+      "lng": -76.53364
+    },
+    {
+      "wp_id": 9981,
+      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-08-13-2026/",
+      "date": "2026-08-14T06:27:22",
+      "title": "Heatwave in Kazakhstan 08/13/2026",
+      "country": "Kazakhstan",
+      "type": "Heatwave",
+      "lat": 47.810421,
+      "lng": 67.674138
+    },
+    {
+      "wp_id": 9980,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-14-2026/",
+      "date": "2026-08-14T06:25:29",
+      "title": "Flood in Russia 08/14/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 48.769954545454546,
+      "lng": 132.41468181818183
+    },
+    {
+      "wp_id": 9979,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-08-12-2026-magnitude-5/",
+      "date": "2026-08-14T06:22:21",
+      "title": "Earthquake in United States 08/12/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 19.060598,
+      "lng": -155.586316
+    },
+    {
+      "wp_id": 9978,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-el-salvador-08-13-2026-magnitude-6/",
+      "date": "2026-08-14T06:21:11",
+      "title": "Earthquake in El Salvador 08/13/2026 — Magnitude 6",
+      "country": "El Salvador",
+      "type": "Earthquake",
+      "lat": 13.22004,
+      "lng": -88.13844
+    },
+    {
+      "wp_id": 9977,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-13-2026-magnitude-5/",
+      "date": "2026-08-14T06:20:13",
+      "title": "Earthquake in Papua New Guinea 08/13/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.056291,
+      "lng": 144.072904
+    },
+    {
+      "wp_id": 9976,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-australia-08-13-2026-magnitude-5/",
+      "date": "2026-08-14T06:19:29",
+      "title": "Earthquake in Australia 08/13/2026 — Magnitude 5",
+      "country": "Australia",
+      "type": "Earthquake",
+      "lat": -56.8562,
+      "lng": 147.2281
+    },
     {
       "wp_id": 9892,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-09-2026/",
