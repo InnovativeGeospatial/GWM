@@ -1,9 +1,399 @@
 {
   "feed": "conflict",
-  "updated": "2026-08-11T14:29:15.631194+00:00",
-  "count": 1702,
+  "updated": "2026-08-14T07:41:57.000204+00:00",
+  "count": 1741,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10087,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-south-seattle/",
+      "date": "2026-08-14T07:41:34",
+      "title": "Civil Unrest in South Seattle",
+      "country": "United States",
+      "type": "Civil Unrest",
+      "lat": 47.5616,
+      "lng": -122.3105
+    },
+    {
+      "wp_id": 10086,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sardis-burke-county/",
+      "date": "2026-08-14T07:40:35",
+      "title": "Armed Conflict in Sardis, Burke County",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 32.975283,
+      "lng": -81.757843
+    },
+    {
+      "wp_id": 10085,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-daquq-district-kirkuk-province/",
+      "date": "2026-08-14T07:39:57",
+      "title": "Armed Conflict in Daquq district, Kirkuk province",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 35.137923,
+      "lng": 44.446382
+    },
+    {
+      "wp_id": 10084,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-camp-taji-2/",
+      "date": "2026-08-14T07:39:10",
+      "title": "Armed Conflict in Camp Taji",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 34.249152,
+      "lng": 44.810904
+    },
+    {
+      "wp_id": 10072,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sagaing-mandalay-magway-ayeyarwady/",
+      "date": "2026-08-14T07:38:41",
+      "title": "Armed Conflict in Nyaunglebin",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 22.1182,
+      "lng": 95.1325
+    },
+    {
+      "wp_id": 10081,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-thandwe-township-ngapali/",
+      "date": "2026-08-14T07:38:13",
+      "title": "Armed Conflict in Thandwe Township, Rakhine State",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 18.4671,
+      "lng": 94.3638
+    },
+    {
+      "wp_id": 10075,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-pyarsakhan-village-taungoo-thandaunggyi-highway-karen-state-2/",
+      "date": "2026-08-14T07:34:46",
+      "title": "Displacement in Pyarsakhan Village, Taungoo-Thandaunggyi Highway, Karen State",
+      "country": "Myanmar",
+      "type": "Displacement",
+      "lat": 19.071686,
+      "lng": 96.67824
+    },
+    {
+      "wp_id": 10068,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sagaing-rakhine-chin-state/",
+      "date": "2026-08-14T07:32:54",
+      "title": "Armed Conflict in Rakhine state",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 22.6428,
+      "lng": 93.6096
+    },
+    {
+      "wp_id": 10070,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-samee-town-sami-town/",
+      "date": "2026-08-14T07:32:31",
+      "title": "Armed Conflict in Samee Town (Sami Town)",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 21.292928,
+      "lng": 93.096186
+    },
+    {
+      "wp_id": 10025,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rakhine-kachin-chin-kayin-sagaing-magway-mandalay-kayah/",
+      "date": "2026-08-14T07:31:03",
+      "title": "Armed Conflict in Sagaing Region",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.1392,
+      "lng": 92.8971
+    },
+    {
+      "wp_id": 10055,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-tigray/",
+      "date": "2026-08-14T07:30:09",
+      "title": "Armed Conflict in Merewa, southern Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 10053,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-omdurman-2/",
+      "date": "2026-08-14T07:29:46",
+      "title": "Armed Conflict in Khartoum",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 15.6446,
+      "lng": 32.4777
+    },
+    {
+      "wp_id": 10063,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-janaale/",
+      "date": "2026-08-14T07:29:22",
+      "title": "Armed Conflict in Janaale",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.786396,
+      "lng": 47.325853
+    },
+    {
+      "wp_id": 10061,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-zawiya-benghazi/",
+      "date": "2026-08-14T07:28:19",
+      "title": "Armed Conflict in Zawiya, Benghazi",
+      "country": "Libya",
+      "type": "Armed Conflict",
+      "lat": 32.120017,
+      "lng": 20.081217
+    },
+    {
+      "wp_id": 10060,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-baidoa-2/",
+      "date": "2026-08-14T07:27:29",
+      "title": "Displacement in Baidoa",
+      "country": "Somalia",
+      "type": "Displacement",
+      "lat": 5.786396,
+      "lng": 47.325853
+    },
+    {
+      "wp_id": 10056,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mubarak-lower-shabelle/",
+      "date": "2026-08-14T07:27:05",
+      "title": "Armed Conflict in Tawakal area, Lower Shabelle",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 1.7148,
+      "lng": 44.7699
+    },
+    {
+      "wp_id": 10021,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-geisan-el-obeid/",
+      "date": "2026-08-14T07:26:32",
+      "title": "Armed Conflict in Geisan, Blue Nile state",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 13.1834,
+      "lng": 30.2226
+    },
+    {
+      "wp_id": 10054,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-geissan-blue-nile-state/",
+      "date": "2026-08-14T07:24:56",
+      "title": "Displacement in Geissan, Blue Nile state",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 11.807364,
+      "lng": 34.36563
+    },
+    {
+      "wp_id": 10052,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-eastern-democratic-republic-of-the-congo/",
+      "date": "2026-08-14T07:23:26",
+      "title": "Displacement in Eastern Democratic Republic of the Congo",
+      "country": "Congo",
+      "type": "Displacement",
+      "lat": -4.201138,
+      "lng": 12.675661
+    },
+    {
+      "wp_id": 10051,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-north-kivu/",
+      "date": "2026-08-14T07:23:01",
+      "title": "Displacement in North Kivu",
+      "country": "Congo",
+      "type": "Displacement",
+      "lat": -1.666568,
+      "lng": 29.225652
+    },
+    {
+      "wp_id": 10045,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-3/",
+      "date": "2026-08-14T07:22:37",
+      "title": "Armed Conflict in Niamey",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109
+    },
+    {
+      "wp_id": 10014,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-mali/",
+      "date": "2026-08-14T07:22:18",
+      "title": "Armed Conflict in San",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 13.304307,
+      "lng": -4.895727
+    },
+    {
+      "wp_id": 10037,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ofu-local-government-area/",
+      "date": "2026-08-14T07:21:23",
+      "title": "Armed Conflict in Inoyi-Affa, Udi Local Government Area",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 7.2362,
+      "lng": 6.923
+    },
+    {
+      "wp_id": 10043,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-oriire-2/",
+      "date": "2026-08-14T07:19:30",
+      "title": "Civil Unrest in Oriire",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 8.049292,
+      "lng": 4.14599
+    },
+    {
+      "wp_id": 10034,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rafin-makuku-kebbi-state/",
+      "date": "2026-08-14T07:19:08",
+      "title": "Armed Conflict in Sakaba, Kebbi State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.4573,
+      "lng": 4.2006
+    },
+    {
+      "wp_id": 10041,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jwak-maitumbi-community-mangu/",
+      "date": "2026-08-14T07:18:47",
+      "title": "Armed Conflict in Jwak Maitumbi community, Mangu",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.485832,
+      "lng": 9.140769
+    },
+    {
+      "wp_id": 10035,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-antioquia/",
+      "date": "2026-08-14T07:14:56",
+      "title": "Armed Conflict in Antioquia",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 6.244338,
+      "lng": -75.573553
+    },
+    {
+      "wp_id": 10033,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-4/",
+      "date": "2026-08-14T07:13:17",
+      "title": "Armed Conflict in Port-au-Prince",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.539766,
+      "lng": -72.33548
+    },
+    {
+      "wp_id": 10030,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-port-au-prince-2/",
+      "date": "2026-08-14T07:12:54",
+      "title": "Displacement in Port-au-Prince",
+      "country": "Haiti",
+      "type": "Displacement",
+      "lat": 18.5398,
+      "lng": -72.3355
+    },
+    {
+      "wp_id": 10029,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gros-mornes-artibonite/",
+      "date": "2026-08-14T07:11:45",
+      "title": "Armed Conflict in Gros-Mornes, Artibonite",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 19.667555,
+      "lng": -72.674774
+    },
+    {
+      "wp_id": 10027,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-michoacan-2/",
+      "date": "2026-08-14T07:11:21",
+      "title": "Civil Unrest in Michoacan",
+      "country": "Mexico",
+      "type": "Civil Unrest",
+      "lat": 19.1681,
+      "lng": -101.8309
+    },
+    {
+      "wp_id": 10026,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-baghdad-4/",
+      "date": "2026-08-14T07:09:44",
+      "title": "Civil Unrest in Baghdad",
+      "country": "Iraq",
+      "type": "Civil Unrest",
+      "lat": 33.30617,
+      "lng": 44.387221
+    },
+    {
+      "wp_id": 10024,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ituri/",
+      "date": "2026-08-14T07:08:34",
+      "title": "Armed Conflict in Ituri",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": 1.562053,
+      "lng": 30.247884
+    },
+    {
+      "wp_id": 10023,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tonj-north-county-warrap-state/",
+      "date": "2026-08-14T07:08:05",
+      "title": "Armed Conflict in Tonj North County, Warrap State",
+      "country": "South Sudan",
+      "type": "Armed Conflict",
+      "lat": 7.275176,
+      "lng": 28.681872
+    },
+    {
+      "wp_id": 10016,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-marib-hadramout-taiz-al-makha/",
+      "date": "2026-08-14T07:07:27",
+      "title": "Armed Conflict in Bab al-Mandeb Strait",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 13.7418,
+      "lng": 43.8249
+    },
+    {
+      "wp_id": 10020,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-qusra-south-of-nablus/",
+      "date": "2026-08-14T07:06:04",
+      "title": "Civil Unrest in Qusra, south of Nablus",
+      "country": "Palestine",
+      "type": "Civil Unrest",
+      "lat": 32.08421,
+      "lng": 35.33036
+    },
+    {
+      "wp_id": 10019,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-15/",
+      "date": "2026-08-14T07:05:26",
+      "title": "Armed Conflict in Kyiv",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.450034,
+      "lng": 30.524136
+    },
+    {
+      "wp_id": 10017,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-17/",
+      "date": "2026-08-14T07:05:05",
+      "title": "Armed Conflict in Khan Younis",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.4671,
+      "lng": 34.3993
+    },
+    {
+      "wp_id": 10015,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-4/",
+      "date": "2026-08-14T07:03:47",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46
+    },
     {
       "wp_id": 9975,
       "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-pretoria/",
