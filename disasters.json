@@ -1,9 +1,135 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-14T06:50:32.886244+00:00",
+  "updated": "2026-08-16T23:43:54.839233+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 10095,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-16-2026/",
+      "date": "2026-08-16T23:34:14",
+      "title": "Flood in United States 08/16/2026",
+      "body": "Beginning on August 11, 2026, Indiana was struck by several rounds of thunderstorms and heavy rainfall, causing widespread and historic flooding across central and southern parts of the state. Some areas received more th",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 39.768602,
+      "lng": -86.16166,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96N2J2UmxQRXhGb1ZqaU5MY3J1LVpnY3VsNk1HdndVcjltWVJIUHhaTVVEb0U5Z1ltNkdxRDVIenQ3ekRQajFERnRyOUhRUTduZnE2WWFKcHJNU25NLWc1S0NhdFdCOFhkaENjOFFWU20wcFRpcTBR?oc=5",
+      "prayer": "Indiana families and communities grieving six deaths and widespread flood damage across multiple counties",
+      "alert_summary": "Flooding across Indiana beginning August 11 killed at least six people and left about 130,000 without power."
+    },
+    {
+      "wp_id": 10094,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-08-13-2026-1/",
+      "date": "2026-08-16T23:32:14",
+      "title": "Storm in United States 08/13/2026 — 1",
+      "body": "On August 12, 2026, the Central Pacific Hurricane Center designated the system Potential Tropical Cyclone One-C, with the disturbance originating about 935 miles east-southeast of Hilo. The system was subsequently named ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 21.304547,
+      "lng": -157.855676,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001303",
+      "prayer": "Residents across Hawaii facing flash flooding and rainfall from Tropical Storm Lala",
+      "alert_summary": "Tropical Storm Lala tracked toward Hawaii with maximum winds of 130 km/h, affecting about 11,938 residents."
+    },
+    {
+      "wp_id": 10093,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-16-2026/",
+      "date": "2026-08-16T23:27:28",
+      "title": "Flood in Russia 08/16/2026",
+      "body": "On August 16, 2026, the Amur River was running well above flood thresholds at two points along its middle course in Russia's Far East. The Amur has been rising above adverse-condition thresholds in this region, part of a",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 49.25487,
+      "lng": 129.94495,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260816014445-0248687.xml",
+      "prayer": "Residents of Leninskoye and Nizhnespaskoye along the flooded Middle Amur River floodplain",
+      "alert_summary": "Amur River flooding has submerged the floodplain between Leninskoye and Nizhnespaskoye to a depth of 2.3–2.6 metres with no casualty figure reported."
+    },
+    {
+      "wp_id": 10092,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-08-16-2026-magnitude-6/",
+      "date": "2026-08-16T23:21:35",
+      "title": "Earthquake in Vanuatu 08/16/2026 — Magnitude 6",
+      "body": "On August 16, 2026, a magnitude 6.1 earthquake struck 56 km north-northeast of Port-Olry, Vanuatu, at a depth of about 188 km. Port-Olry is a small town on the island of Espiritu Santo. At that depth, the quake's energy ",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -14.5474,
+      "lng": 167.1934,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl4w",
+      "prayer": "Residents near Port-Olry, Vanuatu, following an offshore earthquake with no reported damage",
+      "alert_summary": "Magnitude 6.1 earthquake struck 56 km northeast of Port-Olry, Vanuatu; no casualties or damage reported."
+    },
+    {
+      "wp_id": 10091,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-16-2026-magnitude-5/",
+      "date": "2026-08-16T23:20:52",
+      "title": "Earthquake in Papua New Guinea 08/16/2026 — Magnitude 5",
+      "body": "A magnitude 5.1 earthquake struck the Bismarck Sea near Long Island, Madang Province, Papua New Guinea, on the evening of August 16, 2026. The quake registered at a depth of about 139 km. Based on preliminary seismic dat",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -5.5481,
+      "lng": 146.7476,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7p",
+      "prayer": "Residents of Madang Province, Papua New Guinea after a magnitude 5 earthquake in the Bismarck Sea",
+      "alert_summary": "A magnitude 5.1 earthquake struck the Bismarck Sea near Madang Province, Papua New Guinea; no casualties reported."
+    },
+    {
+      "wp_id": 10090,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-spain-08-14-2026-magnitude-5/",
+      "date": "2026-08-16T23:20:13",
+      "title": "Earthquake in Spain 08/14/2026 — Magnitude 5",
+      "body": "A magnitude 5.2 earthquake struck southern Spain early on August 15, 2026, with its epicenter in the province of Granada, waking numerous residents and causing rockfalls and material damage to various buildings. The epic",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Earthquake",
+      "lat": 37.150523,
+      "lng": -3.603197,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
+      "prayer": "Residents of Granada province shaken awake by a nighttime earthquake, with rockfalls and building damage reported",
+      "alert_summary": "Magnitude 5 earthquake struck near Otura in Granada province, causing rockfalls and material damage to buildings."
+    },
+    {
+      "wp_id": 10089,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-15-2026-magnitude-7/",
+      "date": "2026-08-16T23:19:43",
+      "title": "Earthquake in Indonesia 08/15/2026 — Magnitude 7",
+      "body": "On August 15, 2026, a magnitude 6.9 earthquake hit North Sumatra, Indonesia. The epicenter was located about 15 km north-northwest of Pematangsiantar, a city of roughly 268,000 people, and approximately 70 km southeast o",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 2.957286,
+      "lng": 99.06286,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyk",
+      "prayer": "Residents near Pematangsiantar, North Sumatra shaken by a deep magnitude 6.9 earthquake",
+      "alert_summary": "A magnitude 6.9 earthquake struck near Pematangsiantar, North Sumatra, Indonesia on August 15, 2026; no casualties reported for this event."
+    },
     {
       "wp_id": 9987,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-12-2026-cat-1/",
@@ -17687,124 +17813,6 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swf4",
       "prayer": "Remote Alaskan island community near a shallow offshore earthquake with no reported damage or injuries"
-    },
-    {
-      "wp_id": 2772,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-4-9/",
-      "date": "2026-05-10T16:31:41",
-      "title": "Earthquake in United States 05/09/2026 — Magnitude 4.9",
-      "body": "A magnitude 4.9 earthquake struck off the northern California coast on May 9, 2026, centered about 96 kilometers west-southwest of Crescent City. The quake was shallow, occurring at a depth of about 10 kilometers beneath",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 41.752676,
-      "lng": -124.196966,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357576"
-    },
-    {
-      "wp_id": 2771,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:31:30",
-      "title": "Earthquake in Papua New Guinea 05/09/2026 — Magnitude 5",
-      "body": "A magnitude 5.0 earthquake struck about 113 kilometers south-southeast of Lorengau, Papua New Guinea. The quake was shallow, occurring only about 10 kilometers below the surface, which can make shaking more noticeable at",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -2.032957,
-      "lng": 147.278918,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swg6",
-      "prayer": "Communities in Papua New Guinea experiencing a shallow magnitude 5.0 earthquake with no reported injuries"
-    },
-    {
-      "wp_id": 2770,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:31:16",
-      "title": "Earthquake in Japan 05/09/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck off the coast of Ishigaki, a small island in southwestern Japan, on May 9, 2026. The quake had a magnitude of 4.6 and occurred about 44 kilometers west-northwest of the island, at a depth of ",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 24.3464,
-      "lng": 124.18535,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhc",
-      "prayer": "Residents of Japan near a moderate offshore earthquake with no reported damage or injuries"
-    },
-    {
-      "wp_id": 2769,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:31:05",
-      "title": "Earthquake in Panama 05/09/2026 — Magnitude 5",
-      "body": "A magnitude 4.5 earthquake struck about 5 kilometers northwest of Paso Canoas Arriba, Panama on May 9, 2026. The quake occurred at a depth of about 30 kilometers beneath the surface. Paso Canoas sits on the border betwee",
-      "country": "Panama",
-      "countries": [
-        "Panama"
-      ],
-      "type": "Earthquake",
-      "lat": 8.5964,
-      "lng": -82.8661,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhx",
-      "prayer": "Communities in Panama and Costa Rica near the border shaken by a magnitude 4.5 earthquake with damage unknown"
-    },
-    {
-      "wp_id": 2768,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:30:54",
-      "title": "Earthquake in Fiji 05/09/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck south of the Fiji Islands on May 9, 2026. The quake measured magnitude 5.3 and occurred at a shallow depth of about 10 kilometers beneath the seafloor. Shallow earthquakes like this one can b",
-      "country": "Fiji",
-      "countries": [
-        "Fiji"
-      ],
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swhy",
-      "prayer": "Communities in Fiji rattled by a shallow magnitude 5 earthquake with potential for surface impact"
-    },
-    {
-      "wp_id": 2767,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:30:44",
-      "title": "Earthquake in New Zealand 05/09/2026 — Magnitude 5",
-      "body": "A magnitude 4.9 earthquake struck about 57 kilometers west-northwest of Turangi, New Zealand on May 9, 2026. The quake was very deep, occurring roughly 225 kilometers underground, which typically causes shaking to spread",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -38.98885,
-      "lng": 175.80905,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swi4",
-      "prayer": "Communities in New Zealand following a deep magnitude 4.9 earthquake with minimal but widespread shaking reported"
-    },
-    {
-      "wp_id": 2766,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-10-2026-magnitude-5/",
-      "date": "2026-05-10T16:30:34",
-      "title": "Earthquake in Philippines 05/10/2026 — Magnitude 5",
-      "body": "A magnitude 4.6 earthquake struck about 78 kilometers south-southeast of Pondaguitan in the southern Philippines on May 10, 2026. The quake occurred roughly 99 kilometers below the surface, placing it in the deeper range",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 6.358398,
-      "lng": 126.17333,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swjc",
-      "prayer": "Communities in the Philippines near a magnitude 4.6 earthquake with no reported casualties but ongoing seismic vulnerability"
     }
   ]
 }
