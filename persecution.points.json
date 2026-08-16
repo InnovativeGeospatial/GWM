@@ -1,9 +1,149 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-14T07:02:20.674007+00:00",
-  "count": 494,
+  "updated": "2026-08-16T23:51:20.754924+00:00",
+  "count": 508,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10112,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militants-kill-at-least-31-christians-including-children-and-clergy-in-central-nigeria/",
+      "date": "2026-08-16T23:51:15",
+      "title": "Fulani Militants Kill At Least 31 Christians, Including Children and Clergy, in Central Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10111,
+      "wp_link": "https://globalwitnessmonitor.com/dozens-of-christians-killed-in-wave-of-fulani-militant-attacks-across-nigerias-middle-belt/",
+      "date": "2026-08-16T23:50:53",
+      "title": "Dozens of Christians Killed in Wave of Fulani Militant Attacks Across Nigeria's Middle Belt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10108,
+      "wp_link": "https://globalwitnessmonitor.com/american-missionary-freed-after-nine-months-in-jihadist-captivity-in-niger/",
+      "date": "2026-08-16T23:50:26",
+      "title": "American Missionary Freed After Nine Months of Captivity in Niger",
+      "country": "niger",
+      "type": "arrest",
+      "lat": 17.6,
+      "lng": 8.1
+    },
+    {
+      "wp_id": 10107,
+      "wp_link": "https://globalwitnessmonitor.com/eight-of-37-christians-abducted-at-easter-confirmed-dead-in-nigeria-as-captivity-stretches-into-fourth-month/",
+      "date": "2026-08-16T23:49:25",
+      "title": "Eight of 37 Christians abducted at Easter confirmed dead in Nigeria as captivity stretches into fourth month",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10106,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-pastor-sentenced-to-two-years-under-indonesias-blasphemy-law-over-tiktok-video/",
+      "date": "2026-08-16T23:49:03",
+      "title": "Christian Convert Pastor Sentenced to Two Years Under Indonesia's Blasphemy Law Over TikTok Video",
+      "country": "indonesia",
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 10103,
+      "wp_link": "https://globalwitnessmonitor.com/garo-christian-village-looted-and-vandalized-in-bangladesh-amid-land-and-community-tensions/",
+      "date": "2026-08-16T23:48:24",
+      "title": "Garo Christian Village Looted and Vandalized in Bangladesh; Residents Demand Justice",
+      "country": "bangladesh",
+      "type": "arrest",
+      "lat": 23.7,
+      "lng": 90.4
+    },
+    {
+      "wp_id": 10104,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-anti-terrorism-court-issues-first-conviction-in-2023-anti-christian-riots/",
+      "date": "2026-08-16T23:48:01",
+      "title": "Pakistan Anti-Terrorism Court Issues First Conviction in 2023 Anti-Christian Riots",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10102,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-christians-face-blasphemy-detentions-mob-assault-and-suspected-killing-in-bonded-labor-case/",
+      "date": "2026-08-16T23:47:21",
+      "title": "Pakistan Christians Face Blasphemy Detentions, Mob Assault, and Suspected Killing in Bonded Labor Case",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10101,
+      "wp_link": "https://globalwitnessmonitor.com/elderly-christian-leader-arrested-in-india-over-disputed-facebook-comment/",
+      "date": "2026-08-16T23:46:56",
+      "title": "Elderly Christian Leader Arrested in India Over Disputed Facebook Comment",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10100,
+      "wp_link": "https://globalwitnessmonitor.com/three-house-church-leaders-in-china-sentenced-to-prison-for-illegal-gatherings/",
+      "date": "2026-08-16T23:46:43",
+      "title": "Three house church leaders in China sentenced to prison for 'illegal gatherings'",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10099,
+      "wp_link": "https://globalwitnessmonitor.com/christians-in-israel-face-rising-harassment-amid-regional-conflict/",
+      "date": "2026-08-16T23:46:26",
+      "title": "Christians in Israel face rising harassment amid regional conflict",
+      "country": "israel",
+      "type": "restriction",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 10098,
+      "wp_link": "https://globalwitnessmonitor.com/kurdish-baptist-pastor-released-after-two-week-detention-in-syria/",
+      "date": "2026-08-16T23:45:39",
+      "title": "Kurdish Baptist Pastor Released After Two-Week Detention in Syria",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 10097,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-first-riot-conviction-undermined-by-mass-acquittals-and-police-failures/",
+      "date": "2026-08-16T23:45:23",
+      "title": "Pakistan's First Riot Conviction Undermined by Mass Acquittals and Police Failures",
+      "country": "pakistan",
+      "type": "church",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10096,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-herdsmen-kill-at-least-31-christians-across-three-nigerian-states/",
+      "date": "2026-08-16T23:45:07",
+      "title": "Fulani Herdsmen Kill At Least 31 Christians Across Three Nigerian States",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
     {
       "wp_id": 10013,
       "wp_link": "https://globalwitnessmonitor.com/american-missionary-pilot-released-after-nearly-10-months-in-captivity-in-niger/",
