@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-16T23:43:56.453741+00:00",
-  "count": 1192,
+  "updated": "2026-08-19T16:42:34.411232+00:00",
+  "count": 1203,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10191,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-19-2026/",
+      "date": "2026-08-19T16:39:58",
+      "title": "Flood in United Kingdom 08/19/2026",
+      "country": "United Kingdom",
+      "type": "Flood",
+      "lat": 51.062103,
+      "lng": -0.328071
+    },
+    {
+      "wp_id": 10190,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-17-2026/",
+      "date": "2026-08-19T16:34:25",
+      "title": "Flood in United States 08/17/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.886234,
+      "lng": -86.12856
+    },
+    {
+      "wp_id": 10189,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-08-13-2026-2/",
+      "date": "2026-08-19T16:32:23",
+      "title": "Disease in Congo 08/13/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 10188,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-costa-rica-08-18-2026/",
+      "date": "2026-08-19T16:30:55",
+      "title": "Flood in Costa Rica 08/18/2026",
+      "country": "Costa Rica",
+      "type": "Flood",
+      "lat": 10.3223888,
+      "lng": -84.4317688
+    },
+    {
+      "wp_id": 10187,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-08-17-2026/",
+      "date": "2026-08-19T16:30:12",
+      "title": "Flood in South Korea 08/17/2026",
+      "country": "South Korea",
+      "type": "Flood",
+      "lat": 34.889503,
+      "lng": 128.62256
+    },
+    {
+      "wp_id": 10186,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-poland-08-19-2026/",
+      "date": "2026-08-19T16:29:23",
+      "title": "Flood in Poland 08/19/2026",
+      "country": "Poland",
+      "type": "Flood",
+      "lat": 50.317677,
+      "lng": 17.383953
+    },
+    {
+      "wp_id": 10185,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-18-2026/",
+      "date": "2026-08-19T16:26:06",
+      "title": "Flood in Russia 08/18/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 53.48171,
+      "lng": 123.89831
+    },
+    {
+      "wp_id": 10184,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-08-15-2026-magnitude-5/",
+      "date": "2026-08-19T16:23:50",
+      "title": "Earthquake in Russia 08/15/2026 — Magnitude 5",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 50.67055,
+      "lng": 156.11896
+    },
+    {
+      "wp_id": 10183,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-17-2026-magnitude-5/",
+      "date": "2026-08-19T16:22:36",
+      "title": "Earthquake in Papua New Guinea 08/17/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -6.207424,
+      "lng": 149.547644
+    },
+    {
+      "wp_id": 10182,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-14-2026-magnitude-8/",
+      "date": "2026-08-19T16:20:33",
+      "title": "Earthquake in Indonesia 08/14/2026 — Magnitude 8",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -8.674722,
+      "lng": 121.384444
+    },
+    {
+      "wp_id": 10181,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-08-18-2026-magnitude-6/",
+      "date": "2026-08-19T16:19:55",
+      "title": "Earthquake in China 08/18/2026 — Magnitude 6",
+      "country": "China",
+      "type": "Earthquake",
+      "lat": 37.8208,
+      "lng": 95.6095
+    },
     {
       "wp_id": 10095,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-16-2026/",
