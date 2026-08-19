@@ -1,9 +1,139 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-16T23:51:20.754924+00:00",
-  "count": 508,
+  "updated": "2026-08-19T16:52:03.652687+00:00",
+  "count": 521,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10194,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-six-believers-vanish-after-police-raid-on-unregistered-house-church-in-china/",
+      "date": "2026-08-19T16:51:53",
+      "title": "Seven Christians Vanish Into Incommunicado Detention After Cross-Province House Church Raid in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10212,
+      "wp_link": "https://globalwitnessmonitor.com/armed-rebel-group-orders-mass-closure-of-christian-churches-over-cult-infiltration-fears/",
+      "date": "2026-08-19T16:51:30",
+      "title": "Armed Rebel Group Orders Mass Closure of Christian Churches Over Cult Infiltration Fears",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 10207,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-freed-after-months-in-chinese-detention-at-least-8-fellow-leaders-remain-imprisoned/",
+      "date": "2026-08-19T16:49:54",
+      "title": "House church pastor freed after months in Chinese detention; at least 8 fellow leaders remain imprisoned",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10193,
+      "wp_link": "https://globalwitnessmonitor.com/u-s-missionary-pilot-freed-after-nine-months-in-captivity-in-niger/",
+      "date": "2026-08-19T16:49:35",
+      "title": "American Christian Missionary Released After Nine Months of Jihadist Captivity in Niger",
+      "country": "niger",
+      "type": "arrest",
+      "lat": 17.6,
+      "lng": 8.1
+    },
+    {
+      "wp_id": 10204,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-31-christians-killed-in-wave-of-fulani-herdsmen-attacks-across-nigeria/",
+      "date": "2026-08-19T16:48:48",
+      "title": "At Least 31 Christians Killed in Wave of Fulani Herdsmen Attacks Across Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10201,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-acquits-all-defendants-in-2014-mob-burning-of-christian-couple-2/",
+      "date": "2026-08-19T16:48:18",
+      "title": "Pakistan's Highest Court Acquits Final Convicts in Mob Burning of Christian Couple, Ending Case With Zero Accountability",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10202,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-acquits-all-convicts-in-mob-killing-of-christian-couple-ending-12-year-case-with-no-one-held-accountable/",
+      "date": "2026-08-19T16:47:57",
+      "title": "Pakistan's Supreme Court Acquits All Convicts in Mob Killing of Christian Couple, Ending 12-Year Case with No One Held Accountable",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10200,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-physically-assaulted-and-vehicle-vandalised-after-sunday-mass-in-nigeria/",
+      "date": "2026-08-19T16:47:03",
+      "title": "Catholic Priest Physically Assaulted and Vehicle Vandalised After Sunday Mass in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10199,
+      "wp_link": "https://globalwitnessmonitor.com/gangs-burn-seize-and-close-dozens-of-parishes-as-church-becomes-primary-target-in-haiti/",
+      "date": "2026-08-19T16:46:29",
+      "title": "Gangs Burn, Seize, and Close Dozens of Parishes as Church Becomes Primary Target in Haiti",
+      "country": "haiti",
+      "type": "church",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10198,
+      "wp_link": "https://globalwitnessmonitor.com/churches-shuttered-in-myanmars-wa-region-amid-cross-border-cult-crackdown/",
+      "date": "2026-08-19T16:46:06",
+      "title": "Churches Shuttered in Myanmar's Wa Region Amid Cross-Border Cult Crackdown",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 10196,
+      "wp_link": "https://globalwitnessmonitor.com/mob-storms-church-during-sunday-service-assaults-pastor-and-congregation-loots-premises/",
+      "date": "2026-08-19T16:45:27",
+      "title": "Mob storms church during Sunday service, assaults pastor and congregation, loots premises",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10195,
+      "wp_link": "https://globalwitnessmonitor.com/priest-and-two-religious-brothers-abducted-and-released-in-cameroons-conflict-torn-english-speaking-region/",
+      "date": "2026-08-19T16:45:01",
+      "title": "Priest and two religious brothers abducted and released in Cameroon's conflict-torn English-speaking region",
+      "country": "cameroon",
+      "type": "arrest",
+      "lat": 3.9,
+      "lng": 12.4
+    },
+    {
+      "wp_id": 10192,
+      "wp_link": "https://globalwitnessmonitor.com/south-korean-missionary-faces-17-year-prison-term-in-russia/",
+      "date": "2026-08-19T16:43:46",
+      "title": "South Korean Missionary Faces 17-Year Prison Term in Russia",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
     {
       "wp_id": 10112,
       "wp_link": "https://globalwitnessmonitor.com/fulani-militants-kill-at-least-31-christians-including-children-and-clergy-in-central-nigeria/",
