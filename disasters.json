@@ -1,9 +1,207 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-16T23:43:54.839233+00:00",
+  "updated": "2026-08-19T16:42:32.478966+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 10191,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-19-2026/",
+      "date": "2026-08-19T16:39:58",
+      "title": "Flood in United Kingdom 08/19/2026",
+      "body": "Residents of a retirement housing complex in Horsham, West Sussex were evacuated after flooding affected the whole building. A witness reported finding emergency services on scene, with flooding affecting the entire buil",
+      "country": "United Kingdom",
+      "countries": [
+        "United Kingdom"
+      ],
+      "type": "Flood",
+      "lat": 51.062103,
+      "lng": -0.328071,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb1dLVC1VQTRBc0R0RTE3ZUd1Z0Z1SGlJUjdvanV5OEZENi0tQW9ya3RCYnBRZ3p0aFRTUG8ySzFDTC1nU19HVG1wMEdSdlBXSHhQcXJNWWJvekFIaVVGMUZUSklHZk1yVnlWTjZyUFJYNG9FYWNGUm05dURNdVAyZkFyOElmUE1UYjRjTnpEeHA2Tzd1LXpDZm93RmtDdFd4cm9RSEdmRDlvWlowSFBQczNoQkIxUW9fWC1uQkVxYlVCd0hE?oc=5",
+      "prayer": "Elderly residents of a Horsham retirement complex displaced by flooding and dependent on multi-agency care",
+      "alert_summary": "Flooding affected an entire retirement housing complex in Horsham, West Sussex, prompting evacuation of residents on August 18, 2026."
+    },
+    {
+      "wp_id": 10190,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-17-2026/",
+      "date": "2026-08-19T16:34:25",
+      "title": "Flood in United States 08/17/2026",
+      "body": "Floodwaters from the White River displaced residents and damaged property in parts of Indianapolis on August 15, 2026. Fire department special operations teams used rescue boats to help residents evacuate flooded homes i",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 39.886234,
+      "lng": -86.12856,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LQVFaejM4RTVTSjVkSGdUOFc3dlZKdjBSYzJPSmtvMDl5REYzakE3RS1pTjI4X1NZZFVSS3JsYm05Z1gxZmNUUkRsTDFpenVvWDNQZmNYTUtWZlZjMnl2LVhRalBKOHRzTmhxTkpjVQ?oc=5",
+      "prayer": "Indianapolis residents in the Ravenswood neighborhood recovering from White River flooding, facing home damage and displacement",
+      "alert_summary": "White River flooding displaced residents and damaged homes in the Ravenswood neighborhood of Indianapolis on August 15, 2026; no death toll reported."
+    },
+    {
+      "wp_id": 10189,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-08-13-2026-2/",
+      "date": "2026-08-19T16:32:23",
+      "title": "Disease in Congo 08/13/2026",
+      "body": "The Ebola epidemic was reported in Ituri Province of the Democratic Republic of the Congo in May 2026. It is caused by the Bundibugyo virus, which has complicated response efforts because existing Ebola treatments were c",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/08/1168137",
+      "prayer": "Communities across eastern DRC facing an Ebola epidemic outpacing health workers' ability to find and isolate the sick",
+      "alert_summary": "Ebola has killed at least 2,061 people among 4,449 confirmed cases in eastern DRC, with treatment centres overwhelmed across five provinces."
+    },
+    {
+      "wp_id": 10188,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-costa-rica-08-18-2026/",
+      "date": "2026-08-19T16:30:55",
+      "title": "Flood in Costa Rica 08/18/2026",
+      "body": "Two tropical waves crossed Costa Rica within three days, leaving nearly 500 people in emergency shelters and 862 schools closed, with an orange alert still in effect for the Caribbean coast, the Northern Zone, and Turria",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Flood",
+      "lat": 10.3223888,
+      "lng": -84.4317688,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104101",
+      "prayer": "Nearly 500 residents in Costa Rica's Caribbean coast and Northern Zone sheltering after flooding and school closures",
+      "alert_summary": "Flooding across Costa Rica's Caribbean coast and Northern Zone placed nearly 500 people in emergency shelters and closed 862 schools."
+    },
+    {
+      "wp_id": 10187,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-korea-08-17-2026/",
+      "date": "2026-08-19T16:30:12",
+      "title": "Flood in South Korea 08/17/2026",
+      "body": "Heavy rains across southern South Korea killed one person and injured four, triggering more than 2,500 emergency response cases since Saturday, August 15. One resident was killed and two were injured when a landslide str",
+      "country": "South Korea",
+      "countries": [
+        "South Korea"
+      ],
+      "type": "Flood",
+      "lat": 34.889503,
+      "lng": 128.62256,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104095",
+      "prayer": "Residents of southern South Korea—one killed, hundreds evacuated—amid ongoing floods and landslides",
+      "alert_summary": "Flooding and landslides across southern South Korea killed 1 person and injured 4, with about 390 evacuated, beginning August 15, 2026."
+    },
+    {
+      "wp_id": 10186,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-poland-08-19-2026/",
+      "date": "2026-08-19T16:29:23",
+      "title": "Flood in Poland 08/19/2026",
+      "body": "On August 18, 2026, flash floods hit southern Poland after a storm swept through the town of Głuchołazy, with a downpour lasting just 20 minutes. Streets and basements were inundated, prompting more than 50 emergency cal",
+      "country": "Poland",
+      "countries": [
+        "Poland"
+      ],
+      "type": "Flood",
+      "lat": 50.317677,
+      "lng": 17.383953,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104102",
+      "prayer": "Residents of Głuchołazy in southern Poland after flash flooding inundated streets and basements",
+      "alert_summary": "Flash flooding struck Głuchołazy in southern Poland on August 17–18, 2026, triggering more than 50 emergency calls; no casualty figures reported."
+    },
+    {
+      "wp_id": 10185,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-18-2026/",
+      "date": "2026-08-19T16:26:06",
+      "title": "Flood in Russia 08/18/2026",
+      "body": "On August 18, 2026, floodwaters along the Upper Amur River near the village of Dzhalinda reached 731 cm, approaching the threshold for a dangerous-level event. On the Olekma River near the village of Ust-Nyukzha, the wat",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 53.48171,
+      "lng": 123.89831,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260818040825-0249329.xml",
+      "prayer": "Residents along the Olekma and Upper Amur rivers as floodwaters continue rising",
+      "alert_summary": "Flooding has inundated the Upper Amur floodplain and Olekma River to depths of 0.8–2.5 meters near Dzhalinda and Ust-Nyukzha in Russia's Amur region."
+    },
+    {
+      "wp_id": 10184,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-08-15-2026-magnitude-5/",
+      "date": "2026-08-19T16:23:50",
+      "title": "Earthquake in Russia 08/15/2026 — Magnitude 5",
+      "body": "On August 15, 2026, a magnitude 5.4 earthquake struck 38 km south-southeast of Severo-Kuril'sk, Russia, at a depth of about 79 km. Estimated fatality and economic loss assessments came back at the lowest level, suggestin",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 50.67055,
+      "lng": 156.11896,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvj",
+      "prayer": "Residents near Severo-Kuril'sk, Russia after a magnitude 5 earthquake struck the Kuril Islands",
+      "alert_summary": "Magnitude 5 earthquake struck 38 km south-southeast of Severo-Kuril'sk, Russia; no casualties reported."
+    },
+    {
+      "wp_id": 10183,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-17-2026-magnitude-5/",
+      "date": "2026-08-19T16:22:36",
+      "title": "Earthquake in Papua New Guinea 08/17/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake struck approximately 28 kilometers southwest of Kandrian, in West New Britain Province, Papua New Guinea. No date for this event has been confirmed across available reporting, and no casualties, ",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.207424,
+      "lng": 149.547644,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edb",
+      "prayer": "Communities near Kandrian, Papua New Guinea, following a shallow-area earthquake with no confirmed impact reports",
+      "alert_summary": "A magnitude 5 earthquake struck about 28 km southwest of Kandrian, Papua New Guinea; no casualty or damage figures have been reported."
+    },
+    {
+      "wp_id": 10182,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-14-2026-magnitude-8/",
+      "date": "2026-08-19T16:20:33",
+      "title": "Earthquake in Indonesia 08/14/2026 — Magnitude 8",
+      "body": "On August 15, 2026, a magnitude 7.7 earthquake struck off Flores Island in eastern Indonesia, killing at least two people initially and sending thousands running after authorities issued a tsunami warning. The death toll",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -8.674722,
+      "lng": 121.384444,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2",
+      "prayer": "Families across Flores Island grieving losses and displaced after a shallow offshore earthquake and tsunami",
+      "alert_summary": "Magnitude 7.7 earthquake off Flores Island killed at least 53 people, destroyed 157 homes, and displaced about 2,000 residents near Ende."
+    },
+    {
+      "wp_id": 10181,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-08-18-2026-magnitude-6/",
+      "date": "2026-08-19T16:19:55",
+      "title": "Earthquake in China 08/18/2026 — Magnitude 6",
+      "body": "On August 18, 2026, a magnitude 5.9 earthquake struck 270 km west-southwest of Yanglong, China. The epicenter was in a remote area, and no casualty or displacement figures have been reported at this time. Authorities ass",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 37.8208,
+      "lng": 95.6095,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrj",
+      "prayer": "Communities in the Yanglong region of China after a magnitude 6 earthquake struck nearby",
+      "alert_summary": "A magnitude 6 earthquake struck 270 km WSW of Yanglong, China on August 18, 2026; no casualty figures reported."
+    },
     {
       "wp_id": 10095,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-16-2026/",
@@ -17626,193 +17824,6 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swr8",
       "prayer": "Residents of Tonga unsettled by a shallow magnitude 5 offshore earthquake and awaiting damage assessments"
-    },
-    {
-      "wp_id": 2810,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-myanmar-05-10-2026-magnitude-5/",
-      "date": "2026-05-11T15:27:11",
-      "title": "Earthquake in Myanmar 05/10/2026 — Magnitude 5",
-      "body": "A magnitude 5.0 earthquake struck about 74 kilometers west of Yenangyaung, Myanmar on May 10, 2026. The quake occurred at a depth of about 59 kilometers beneath the surface. No damage or injuries have been reported at th",
-      "country": "Myanmar",
-      "countries": [
-        "Myanmar"
-      ],
-      "type": "Earthquake",
-      "lat": 20.460146,
-      "lng": 94.87288,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sws5",
-      "prayer": "Residents across Myanmar shaken by a magnitude 5.0 earthquake with no reported injuries or damage"
-    },
-    {
-      "wp_id": 2809,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-10-2026-magnitude-5/",
-      "date": "2026-05-11T15:27:00",
-      "title": "Earthquake in Solomon Islands 05/10/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck the waters southeast of Gizo, Solomon Islands on May 10, 2026. The quake measured magnitude 4.9 and occurred at a shallow depth of about 10 kilometers beneath the seabed. At this magnitude an",
-      "country": "Solomon Islands",
-      "countries": [
-        "Solomon Islands"
-      ],
-      "type": "Earthquake",
-      "lat": -8.078264,
-      "lng": 156.83718,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swv6",
-      "prayer": "Residents of the Solomon Islands experiencing seismic activity following a shallow magnitude 4.9 offshore earthquake"
-    },
-    {
-      "wp_id": 2808,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-greece-05-10-2026-magnitude-5/",
-      "date": "2026-05-11T15:26:50",
-      "title": "Earthquake in Greece 05/10/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck about 22 kilometers west of Kéfalos, Greece on May 10, 2026. The quake registered magnitude 4.7 and occurred at a depth of roughly 159 kilometers, making it a deep event. At that depth, shaki",
-      "country": "Greece",
-      "countries": [
-        "Greece"
-      ],
-      "type": "Earthquake",
-      "lat": 36.74412,
-      "lng": 26.96022,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swsg",
-      "prayer": "Communities in Greece experiencing a moderate earthquake in a seismically active Aegean region"
-    },
-    {
-      "wp_id": 2806,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-10-2026-magnitude-5-2/",
-      "date": "2026-05-11T15:26:38",
-      "title": "Earthquake in United States 05/10/2026 — Magnitude 5",
-      "body": "A magnitude 4.6 earthquake struck in the Pacific Ocean about 292 kilometers north of Saipan in the Northern Mariana Islands on May 10, 2026. The quake was centered at a depth of about 175 kilometers, making it a deep eve",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 17.8567,
-      "lng": 145.6782,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swss",
-      "prayer": "Residents of the Northern Mariana Islands monitoring a deep-sea earthquake with minimal reported impact"
-    },
-    {
-      "wp_id": 2805,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-10-2026-magnitude-5/",
-      "date": "2026-05-11T15:26:28",
-      "title": "Earthquake in Fiji 05/10/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck south of the Fiji Islands, occurring at an extreme depth of about 542 kilometers below the surface. Earthquakes this deep rarely cause significant surface shaking or damage, as the enormou",
-      "country": "Fiji",
-      "countries": [
-        "Fiji"
-      ],
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swte",
-      "prayer": "Communities in Fiji following a magnitude 5 deep-focus earthquake with no reported damage or casualties"
-    },
-    {
-      "wp_id": 2804,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-11-2026-magnitude-5-2/",
-      "date": "2026-05-11T15:26:17",
-      "title": "Earthquake in Japan 05/11/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck off the eastern coast of Japan on May 11, 2026, centered about 146 kilometers east of Miyako, in the northeastern part of the country. The quake had a magnitude of roughly 4.9 and was shallow",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 31.72605,
-      "lng": 131.06433,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swtm",
-      "prayer": "Communities in Japan monitoring a shallow magnitude 5 earthquake off the northeastern coast"
-    },
-    {
-      "wp_id": 2803,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-11-2026-magnitude-5/",
-      "date": "2026-05-11T15:26:03",
-      "title": "Earthquake in Japan 05/11/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck about 60 kilometers east-southeast of Isen, Japan on May 11, 2026. The quake was shallow, occurring about 10 kilometers below the surface, which can cause stronger shaking to be felt at gr",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 27.668804,
-      "lng": 128.95003,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swtz",
-      "prayer": "Residents in Japan rattled by a shallow magnitude 5 earthquake with impact still being assessed"
-    },
-    {
-      "wp_id": 2802,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-11-2026-magnitude-5/",
-      "date": "2026-05-11T15:25:50",
-      "title": "Earthquake in Solomon Islands 05/11/2026 — Magnitude 5",
-      "body": "A magnitude 5.2 earthquake struck the Solomon Islands on May 11, 2026, centered about 72 kilometers northwest of Malango. The quake was shallow, occurring only about 10 kilometers beneath the surface, which can allow sha",
-      "country": "Solomon Islands",
-      "countries": [
-        "Solomon Islands"
-      ],
-      "type": "Earthquake",
-      "lat": -9.2967,
-      "lng": 159.1915,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swvm",
-      "prayer": "Residents of the Solomon Islands shaken by a shallow magnitude 5 earthquake with damage still being assessed"
-    },
-    {
-      "wp_id": 2775,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-2/",
-      "date": "2026-05-10T16:32:26",
-      "title": "Volcano in Indonesia",
-      "body": "Three hikers — two foreigners and one local resident — were killed after Mount Dukono, an active volcano on the island of Halmahera in eastern Indonesia, erupted on Friday morning. The eruption sent ash plumes roughly 10",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Volcano",
-      "lat": 1.539476,
-      "lng": 127.60065,
-      "source_title": "BBC News",
-      "source_url": "https://www.bbc.com/news/videos/c5y7gmmp8pdo?at_medium=RSS&at_campaign=rss",
-      "prayer": "Hikers and rescue teams in Indonesia amid deadly volcanic eruption on an active mountain"
-    },
-    {
-      "wp_id": 2774,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-05-2026-magnitude-5-8/",
-      "date": "2026-05-10T16:32:07",
-      "title": "Earthquake in United States 09/05/2026 — Magnitude 5.8",
-      "body": "A magnitude 5.8 earthquake struck the Rat Islands area of the Aleutian Islands chain in Alaska. The quake occurred in the early morning hours and was centered about 26 kilometers below the surface — a moderate depth that",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 51.788056,
-      "lng": 178.302778,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1539839",
-      "prayer": "Remote Alaska communities near a seismically active island chain following a magnitude 5.8 earthquake"
-    },
-    {
-      "wp_id": 2773,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-09-2026-magnitude-5-8/",
-      "date": "2026-05-10T16:31:51",
-      "title": "Earthquake in United States 05/09/2026 — Magnitude 5.8",
-      "body": "A magnitude 5.8 earthquake struck a remote stretch of the North Pacific Ocean about 292 kilometers west-southwest of Adak, Alaska. The quake occurred at a shallow depth of about 26 kilometers beneath the seafloor. Adak i",
-      "country": "United States",
-      "countries": [
-        "United States"
-      ],
-      "type": "Earthquake",
-      "lat": 51.873833,
-      "lng": -176.639163,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swf4",
-      "prayer": "Remote Alaskan island community near a shallow offshore earthquake with no reported damage or injuries"
     }
   ]
 }
