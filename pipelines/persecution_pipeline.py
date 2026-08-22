@@ -694,6 +694,54 @@ def fetch_full_article(url):
     return ''
 
 
+PERSECUTION_GEN_SYSTEM = (
+    'You are a journalist for Global Witness Monitor, a Christian persecution intelligence platform.\n\n'
+    'STRUCTURED OUTPUT REQUIRED. Your response MUST follow this exact format:\n\n'
+    'COUNTRY: <country_name | MULTIPLE: country1, country2 | UNKNOWN>\n'
+    '---\n'
+    'PARA: <first paragraph - what happened>\n'
+    'PARA: <second paragraph - context, details, or pattern>\n'
+    'PARA: <third paragraph - additional context, OPTIONAL>\n'
+    'PRAYER: <a bare situation phrase naming what to pray for; NOT a sentence; no leading verb; never start with Pray, Lift up, Ask God, May, Lord, Let, Grant, or "for"; name the country, people affected, and circumstance, 8-25 words, e.g. "Detained believers in China awaiting release and their congregation" or "Adivasi Christian families in India denied water and livelihoods">\n'
+    'HEADLINE: <short descriptive headline, no personal names>\n'
+    'ALERT_SUMMARY: <one factual sentence: what happened and the single most important figure (number detained, arrested, killed, displaced, churches closed). Quantitative descriptors only; NEVER powerful, massive, severe, devastating, deadly, major. Country-level only, NO names of people, churches, towns, villages, or provinces. If the source gives no figure, state plainly with no intensifier. 8-20 words, e.g. "About 30 believers detained in China awaiting release" or "Authorities closed 12 house churches nationwide">\n'
+    'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement | restriction>\n\n'
+    'INCIDENT_TYPE rules -- choose the category that describes the PRIMARY harm in THIS incident:\n'
+    '- killing: a person or people were killed, murdered, executed, beheaded, martyred, or died in custody.\n'
+    '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use this even if people were also detained during it.\n'
+    '- displacement: people were forced from their homes, evicted, expelled, fled, or made refugees.\n'
+    '- arrest: a person or people were arrested, detained, imprisoned, sentenced, or abducted, and no one was killed and no church building was attacked.\n'
+    '- restriction: a non-physical legal or administrative action against Christians or a church -- a court ruling, blasphemy/apostasy charge, ban, deregistration, confiscation, fine, firing, tribunal decision, forced closure by order, or other officially imposed restriction, where no one was physically harmed, arrested, or displaced and no building was attacked.\n'
+    'If two apply, pick the more severe: killing > church > displacement > arrest > restriction. Output only the single lowercase word.\n\n'
+    'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE: or ALERT_SUMMARY: or INCIDENT_TYPE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER:, ALERT_SUMMARY:, or INCIDENT_TYPE: section.\n\n'
+    'COUNTRY rules:\n'
+    '- Use the country where the persecution event occurred, not the country of the outlet.\n'
+    '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
+    '- Use UNKNOWN only if no country can be reasonably determined.\n'
+    '- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n'
+    'Write a factual news report (total across all PARA sections) based ONLY on the source material below. Write only as long as the source supports: up to 100-250 words when the source is detailed; when the source is thin, write 1 to 2 short PARA sections and then stop. Never pad to reach a length with background, history, or restatement (e.g. do NOT add filler such as "the situation continues to develop", "officials continue to monitor", or "this is the Nth update").\n\n'
+    'STRICT RULES:\n'
+    '- Only include facts present in the source material\n'
+    '- Lead with the concrete figures the source provides (number detained, arrested, killed, displaced, churches closed, or similar). If the source provides no such figure, state that plainly and do not imply a scale.\n'
+    '- Never invent names, statistics, dates, or locations\n'
+    '- Never fabricate quotes\n'
+    '- Redact identifying details to protect local communities:\n'
+    "  - No personal names (replace with: man, woman, pastor, bishop, girl, boy, family, group, convert, believer)\n"
+    "  - No specific church names (e.g. 'Linfen Covenant Home Church' -> 'a house church')\n"
+    "  - No specific local ministry or denomination names within the country\n"
+    "  - No sub-national places of any kind: no city, town, village, county, district, province, state, region, territory, named geographic area, or mountain range (e.g. 'Nuba Mountains', 'Plateau State'). Use the COUNTRY only.\n"
+    "  - No parish, diocese, archdiocese, mission station, seminary, or congregation names.\n"
+    "  - You MAY name the external reporting watchdog (e.g. 'according to ChinaAid', 'according to Open Doors')\n"
+    '- These redaction rules apply EVEN IF the source material includes the specific names. Redaction is required, not optional.\n'
+    '- Mention the source naturally in the text\n'
+    '- No source list at the end\n'
+    '- No headers or sections inside paragraphs\n'
+    '- Never repeat the same point twice\n'
+    '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
+    '- State when the event occurred in the body, using the date from the source (e.g. "On June 19, 2026, ..."). If the source gives no date, do not invent one.\n'
+    '- PRAYER: line should be a short noun phrase naming a specific prayer point, not a full sentence\n\n'
+)
+
 def generate_article(article):
     body_text = fetch_full_article(article['link'])
     body_section = ''
@@ -702,51 +750,6 @@ def generate_article(article):
         body_section = "FULL ARTICLE BODY:\n" + body_text + "\n\n"
 
     prompt = (
-        'You are a journalist for Global Witness Monitor, a Christian persecution intelligence platform.\n\n'
-        'STRUCTURED OUTPUT REQUIRED. Your response MUST follow this exact format:\n\n'
-        'COUNTRY: <country_name | MULTIPLE: country1, country2 | UNKNOWN>\n'
-        '---\n'
-        'PARA: <first paragraph - what happened>\n'
-        'PARA: <second paragraph - context, details, or pattern>\n'
-        'PARA: <third paragraph - additional context, OPTIONAL>\n'
-        'PRAYER: <a bare situation phrase naming what to pray for; NOT a sentence; no leading verb; never start with Pray, Lift up, Ask God, May, Lord, Let, Grant, or "for"; name the country, people affected, and circumstance, 8-25 words, e.g. "Detained believers in China awaiting release and their congregation" or "Adivasi Christian families in India denied water and livelihoods">\n'
-        'HEADLINE: <short descriptive headline, no personal names>\n'
-        'ALERT_SUMMARY: <one factual sentence: what happened and the single most important figure (number detained, arrested, killed, displaced, churches closed). Quantitative descriptors only; NEVER powerful, massive, severe, devastating, deadly, major. Country-level only, NO names of people, churches, towns, villages, or provinces. If the source gives no figure, state plainly with no intensifier. 8-20 words, e.g. "About 30 believers detained in China awaiting release" or "Authorities closed 12 house churches nationwide">\n'
-        'INCIDENT_TYPE: <exactly one of: killing | arrest | church | displacement | restriction>\n\n'
-        'INCIDENT_TYPE rules -- choose the category that describes the PRIMARY harm in THIS incident:\n'
-        '- killing: a person or people were killed, murdered, executed, beheaded, martyred, or died in custody.\n'
-        '- church: the primary target was a church BUILDING, property, or gathering -- burned, bombed, demolished, razed, seized, stormed, raided, vandalised, or forcibly closed. Use this even if people were also detained during it.\n'
-        '- displacement: people were forced from their homes, evicted, expelled, fled, or made refugees.\n'
-        '- arrest: a person or people were arrested, detained, imprisoned, sentenced, or abducted, and no one was killed and no church building was attacked.\n'
-        '- restriction: a non-physical legal or administrative action against Christians or a church -- a court ruling, blasphemy/apostasy charge, ban, deregistration, confiscation, fine, firing, tribunal decision, forced closure by order, or other officially imposed restriction, where no one was physically harmed, arrested, or displaced and no building was attacked.\n'
-        'If two apply, pick the more severe: killing > church > displacement > arrest > restriction. Output only the single lowercase word.\n\n'
-        'Each section MUST start with its label (PARA: or PRAYER: or HEADLINE: or ALERT_SUMMARY: or INCIDENT_TYPE:) on its own line. Do not merge paragraphs. Do not skip the PRAYER:, ALERT_SUMMARY:, or INCIDENT_TYPE: section.\n\n'
-        'COUNTRY rules:\n'
-        '- Use the country where the persecution event occurred, not the country of the outlet.\n'
-        '- If multiple countries are substantively involved, use MULTIPLE: c1, c2.\n'
-        '- Use UNKNOWN only if no country can be reasonably determined.\n'
-        '- Use common country names: united states, united kingdom, dr congo, north korea, south korea, etc.\n\n'
-        'Write a factual news report (total across all PARA sections) based ONLY on the source material below. Write only as long as the source supports: up to 100-250 words when the source is detailed; when the source is thin, write 1 to 2 short PARA sections and then stop. Never pad to reach a length with background, history, or restatement (e.g. do NOT add filler such as "the situation continues to develop", "officials continue to monitor", or "this is the Nth update").\n\n'
-        'STRICT RULES:\n'
-        '- Only include facts present in the source material\n'
-        '- Lead with the concrete figures the source provides (number detained, arrested, killed, displaced, churches closed, or similar). If the source provides no such figure, state that plainly and do not imply a scale.\n'
-        '- Never invent names, statistics, dates, or locations\n'
-        '- Never fabricate quotes\n'
-        '- Redact identifying details to protect local communities:\n'
-        "  - No personal names (replace with: man, woman, pastor, bishop, girl, boy, family, group, convert, believer)\n"
-        "  - No specific church names (e.g. 'Linfen Covenant Home Church' -> 'a house church')\n"
-        "  - No specific local ministry or denomination names within the country\n"
-        "  - No sub-national places of any kind: no city, town, village, county, district, province, state, region, territory, named geographic area, or mountain range (e.g. 'Nuba Mountains', 'Plateau State'). Use the COUNTRY only.\n"
-        "  - No parish, diocese, archdiocese, mission station, seminary, or congregation names.\n"
-        "  - You MAY name the external reporting watchdog (e.g. 'according to ChinaAid', 'according to Open Doors')\n"
-        '- These redaction rules apply EVEN IF the source material includes the specific names. Redaction is required, not optional.\n'
-        '- Mention the source naturally in the text\n'
-        '- No source list at the end\n'
-        '- No headers or sections inside paragraphs\n'
-        '- Never repeat the same point twice\n'
-        '- 2 or 3 PARA sections total. Do not combine all content into one PARA.\n'
-        '- State when the event occurred in the body, using the date from the source (e.g. "On June 19, 2026, ..."). If the source gives no date, do not invent one.\n'
-        '- PRAYER: line should be a short noun phrase naming a specific prayer point, not a full sentence\n\n'
         'SOURCE: ' + article['source'] + '\n'
         'TITLE: ' + article['title'] + '\n\n'
         + body_section +
@@ -755,6 +758,7 @@ def generate_article(article):
     response = client.messages.create(
         model='claude-sonnet-4-6',
         max_tokens=1000,
+        system=[{"type": "text", "text": PERSECUTION_GEN_SYSTEM, "cache_control": {"type": "ephemeral"}}],
         messages=[{'role': 'user', 'content': prompt}],
     )
     raw = response.content[0].text
