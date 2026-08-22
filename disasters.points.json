@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-19T16:42:34.411232+00:00",
-  "count": 1203,
+  "updated": "2026-08-22T09:53:40.468021+00:00",
+  "count": 1215,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10308,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-19-2026-2/",
+      "date": "2026-08-22T09:48:20",
+      "title": "Flood in United Kingdom 08/19/2026",
+      "country": "United Kingdom",
+      "type": "Flood",
+      "lat": 51.062103,
+      "lng": -0.328071
+    },
+    {
+      "wp_id": 10307,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-myanmar-08-19-2026/",
+      "date": "2026-08-22T09:45:52",
+      "title": "Flood in Myanmar 08/19/2026",
+      "country": "Myanmar",
+      "type": "Flood",
+      "lat": 21.154319,
+      "lng": 96.506921
+    },
+    {
+      "wp_id": 10306,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-20-2026/",
+      "date": "2026-08-22T09:43:05",
+      "title": "Flood in United States 08/20/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.995087,
+      "lng": -82.675203
+    },
+    {
+      "wp_id": 10305,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-sudan-08-21-2026/",
+      "date": "2026-08-22T09:42:39",
+      "title": "Flood in Sudan 08/21/2026",
+      "country": "Sudan",
+      "type": "Flood",
+      "lat": 13.623824,
+      "lng": 25.355556
+    },
+    {
+      "wp_id": 10304,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-08-22-2026/",
+      "date": "2026-08-22T09:40:59",
+      "title": "Flood in India 08/22/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 26.986383,
+      "lng": 94.63568
+    },
+    {
+      "wp_id": 10303,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-08-21-2026/",
+      "date": "2026-08-22T09:40:12",
+      "title": "Storm in United States 08/21/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 40.805805,
+      "lng": -73.253616
+    },
+    {
+      "wp_id": 10302,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-philippines-08-20-2026/",
+      "date": "2026-08-22T09:39:09",
+      "title": "Flood in Philippines 08/20/2026",
+      "country": "Philippines",
+      "type": "Flood",
+      "lat": 14.609075,
+      "lng": 121.007948
+    },
+    {
+      "wp_id": 10301,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-08-22-2026/",
+      "date": "2026-08-22T09:32:54",
+      "title": "Drought in Russia 08/22/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 65.11422,
+      "lng": 57.167133
+    },
+    {
+      "wp_id": 10300,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-18-2026-magnitude-6/",
+      "date": "2026-08-22T09:25:26",
+      "title": "Earthquake in Indonesia 08/18/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 0.568104,
+      "lng": 97.81917
+    },
+    {
+      "wp_id": 10299,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-20-2026-magnitude-5/",
+      "date": "2026-08-22T09:23:29",
+      "title": "Earthquake in Papua New Guinea 08/20/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.3709,
+      "lng": 153.5631
+    },
+    {
+      "wp_id": 10298,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-08-22-2026-magnitude-5/",
+      "date": "2026-08-22T09:21:33",
+      "title": "Earthquake in Philippines 08/22/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 9.454649,
+      "lng": 125.57488
+    },
+    {
+      "wp_id": 10297,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-08-20-2026-magnitude-7/",
+      "date": "2026-08-22T09:20:12",
+      "title": "Earthquake in Peru 08/20/2026 — Magnitude 7",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -14.6414,
+      "lng": -73.5236
+    },
     {
       "wp_id": 10191,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-19-2026/",
