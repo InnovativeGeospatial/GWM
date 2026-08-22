@@ -1577,7 +1577,7 @@ def generate_article(item, firmer=False):
         ) + user_prompt
     log.info("Generating article for: %s", item["title"][:70])
     message = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-haiku-4-5-20251001",
         max_tokens=800,
         messages=[{"role": "user", "content": user_prompt}],
         system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
