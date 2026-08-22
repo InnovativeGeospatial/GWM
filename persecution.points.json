@@ -1,9 +1,259 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-19T16:52:03.652687+00:00",
-  "count": 521,
+  "updated": "2026-08-22T10:05:15.741315+00:00",
+  "count": 546,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10341,
+      "wp_link": "https://globalwitnessmonitor.com/six-christians-jailed-after-mob-storms-prayer-gathering-in-india/",
+      "date": "2026-08-22T10:05:09",
+      "title": "Six Christians Jailed After Mob Storms Prayer Gathering in India",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10340,
+      "wp_link": "https://globalwitnessmonitor.com/27-christians-massacred-in-overnight-raids-as-reporter-fears-targeting-for-faith-coverage/",
+      "date": "2026-08-22T10:04:45",
+      "title": "27 Christians Massacred in Overnight Raids as Reporter Fears Targeting for Faith Coverage",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10339,
+      "wp_link": "https://globalwitnessmonitor.com/ten-catholic-men-freed-on-bail-after-104-days-jailed-under-indias-anti-conversion-law/",
+      "date": "2026-08-22T10:04:24",
+      "title": "Ten Catholic men freed on bail after 104 days jailed under India's anti-conversion law",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10310,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-pastor-sentenced-to-two-years-under-indonesias-blasphemy-laws/",
+      "date": "2026-08-22T10:04:03",
+      "title": "Christian Pastor Sentenced to Two Years Under Indonesia's Blasphemy Law",
+      "country": "indonesia",
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 10337,
+      "wp_link": "https://globalwitnessmonitor.com/british-christian-detained-in-india-under-disputed-anti-conversion-law-after-speaking-at-church-gathering/",
+      "date": "2026-08-22T10:03:44",
+      "title": "British Christian detained in India under disputed anti-conversion law after speaking at church gathering",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10336,
+      "wp_link": "https://globalwitnessmonitor.com/armed-militants-kill-at-least-30-christians-torch-over-50-structures-during-sunday-worship-hour-in-nigeria/",
+      "date": "2026-08-22T10:03:14",
+      "title": "Armed militants kill at least 30 Christians, torch over 50 structures during Sunday worship hour in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10332,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-27-christians-killed-in-jihadist-nighttime-raids-on-nigerian-villages/",
+      "date": "2026-08-22T10:02:54",
+      "title": "At Least 27 Christians Killed in Wave of Overnight Attacks on Nigerian Farming Communities",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10334,
+      "wp_link": "https://globalwitnessmonitor.com/dozens-of-christians-killed-in-overnight-house-to-house-machete-attack-in-central-nigeria/",
+      "date": "2026-08-22T10:02:35",
+      "title": "Dozens of Christians Killed in Overnight House-to-House Machete Attack in Central Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10333,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-church-vandalized-statues-and-crosses-destroyed-amid-escalating-attacks-on-christians-in-israel/",
+      "date": "2026-08-22T10:02:03",
+      "title": "Catholic church vandalized, statues and crosses destroyed amid escalating attacks on Christians in Israel",
+      "country": "israel",
+      "type": "church",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 10331,
+      "wp_link": "https://globalwitnessmonitor.com/vietnamese-ethnic-minority-pastor-sentenced-to-seven-and-a-half-years-for-unregistered-church-activities/",
+      "date": "2026-08-22T10:00:51",
+      "title": "Vietnamese ethnic minority pastor sentenced to seven-and-a-half years for unregistered church activities",
+      "country": "vietnam",
+      "type": "arrest",
+      "lat": 14.1,
+      "lng": 108.3
+    },
+    {
+      "wp_id": 10330,
+      "wp_link": "https://globalwitnessmonitor.com/finlands-christian-mp-barred-from-uk-after-hate-speech-conviction-for-biblical-views/",
+      "date": "2026-08-22T10:00:34",
+      "title": "Finland's Christian MP Barred from UK After Hate-Speech Conviction for Biblical Views",
+      "country": "finland",
+      "type": "restriction",
+      "lat": 64.0,
+      "lng": 26.0
+    },
+    {
+      "wp_id": 10329,
+      "wp_link": "https://globalwitnessmonitor.com/finnish-christian-politician-barred-from-uk-after-northern-ireland-political-pressure/",
+      "date": "2026-08-22T09:59:56",
+      "title": "Finnish Christian politician barred from UK after Northern Ireland political pressure",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 10328,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-acquittals-leave-no-one-convicted-for-2014-burning-deaths-of-christian-couple/",
+      "date": "2026-08-22T09:59:42",
+      "title": "Pakistan Supreme Court Acquittals Leave No One Convicted for 2014 Burning Deaths of Christian Couple",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10327,
+      "wp_link": "https://globalwitnessmonitor.com/european-parliament-members-press-commission-over-legal-threats-to-ancient-egyptian-monastery/",
+      "date": "2026-08-22T09:59:21",
+      "title": "European Parliament Members Press Commission Over Legal Threats to Ancient Egyptian Monastery",
+      "country": "egypt",
+      "type": "restriction",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 10326,
+      "wp_link": "https://globalwitnessmonitor.com/three-house-church-leaders-in-china-face-fraud-charges-over-voluntary-offerings/",
+      "date": "2026-08-22T09:59:07",
+      "title": "Three house church leaders in China face fraud charges over voluntary offerings",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10325,
+      "wp_link": "https://globalwitnessmonitor.com/three-chinese-pastors-sentenced-terminally-ill-pastor-barred-from-family-as-crackdown-intensifies/",
+      "date": "2026-08-22T09:58:55",
+      "title": "Three Chinese Pastors Sentenced; Terminally Ill Pastor Barred from Family as Crackdown Intensifies",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10324,
+      "wp_link": "https://globalwitnessmonitor.com/mob-loots-christian-indigenous-village-in-bangladesh-five-remain-detained-after-communal-attack/",
+      "date": "2026-08-22T09:58:41",
+      "title": "Mob loots Christian indigenous village in Bangladesh; five remain detained after communal attack",
+      "country": "bangladesh",
+      "type": "arrest",
+      "lat": 23.7,
+      "lng": 90.4
+    },
+    {
+      "wp_id": 10323,
+      "wp_link": "https://globalwitnessmonitor.com/latin-patriarch-visits-last-entirely-christian-west-bank-village-amid-escalating-settler-violence-and-military-closure/",
+      "date": "2026-08-22T09:58:22",
+      "title": "Latin Patriarch visits last entirely Christian West Bank village amid escalating settler violence and military closure",
+      "country": "palestine",
+      "type": "displacement",
+      "lat": 31.9,
+      "lng": 35.2
+    },
+    {
+      "wp_id": 10314,
+      "wp_link": "https://globalwitnessmonitor.com/two-jehovahs-witnesses-detained-in-russia-one-placed-under-house-arrest-on-extremism-charges/",
+      "date": "2026-08-22T09:57:40",
+      "title": "Russian Jehovah's Witness Placed Under House Arrest for Religious Activity",
+      "country": "russia",
+      "type": "restriction",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 10319,
+      "wp_link": "https://globalwitnessmonitor.com/married-jehovahs-witness-couple-detained-in-russia-for-religious-activity/",
+      "date": "2026-08-22T09:57:20",
+      "title": "Jehovah's Witness Couple Detained in Russia on Extremism Charges",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 10316,
+      "wp_link": "https://globalwitnessmonitor.com/russian-authorities-place-jehovahs-witness-woman-under-house-arrest-after-mass-raids/",
+      "date": "2026-08-22T09:56:34",
+      "title": "Russian Authorities Place Jehovah's Witness Woman Under House Arrest After Mass Raids",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 10313,
+      "wp_link": "https://globalwitnessmonitor.com/mob-demolishes-christian-familys-home-over-refusal-to-reconvert/",
+      "date": "2026-08-22T09:56:02",
+      "title": "Mob Demolishes Christian Family's Home Over Refusal to Reconvert",
+      "country": "india",
+      "type": "displacement",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10312,
+      "wp_link": "https://globalwitnessmonitor.com/blasphemy-cases-drop-in-pakistan-but-christians-remain-vulnerable-under-unchanged-law/",
+      "date": "2026-08-22T09:55:49",
+      "title": "Blasphemy Cases Drop in Pakistan but Christians Remain Vulnerable Under Unchanged Law",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10311,
+      "wp_link": "https://globalwitnessmonitor.com/court-rules-islamic-police-arrest-of-christian-convert-unlawful-sheltering-family-still-faces-charges/",
+      "date": "2026-08-22T09:55:35",
+      "title": "Court Rules Islamic Police Arrest of Christian Convert Unlawful, Sheltering Family Still Faces Charges",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10309,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-extremists-beat-christian-convert-mother-unconscious-at-bible-study-in-somalia/",
+      "date": "2026-08-22T09:55:07",
+      "title": "Muslim Extremists Beat Christian Convert Mother Unconscious at Bible Study in Somalia",
+      "country": "somalia",
+      "type": "killing",
+      "lat": 6.1,
+      "lng": 46.2
+    },
     {
       "wp_id": 10194,
       "wp_link": "https://globalwitnessmonitor.com/pastor-and-six-believers-vanish-after-police-raid-on-unregistered-house-church-in-china/",
