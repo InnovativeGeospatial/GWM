@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-22T09:53:40.468021+00:00",
-  "count": 1215,
+  "updated": "2026-08-25T02:46:21.898501+00:00",
+  "count": 1225,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10427,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-24-2026/",
+      "date": "2026-08-25T02:43:23",
+      "title": "Storm in China 08/24/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 23.657149,
+      "lng": 108.712813
+    },
+    {
+      "wp_id": 10426,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-spain-08-22-2026/",
+      "date": "2026-08-25T02:40:26",
+      "title": "Flood in Spain 08/22/2026",
+      "country": "Spain",
+      "type": "Flood",
+      "lat": 41.163846,
+      "lng": 1.442323
+    },
+    {
+      "wp_id": 10425,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-philippines-08-22-2026/",
+      "date": "2026-08-25T02:39:48",
+      "title": "Disease in Philippines 08/22/2026",
+      "country": "Philippines",
+      "type": "Disease",
+      "lat": 14.590449,
+      "lng": 120.980362
+    },
+    {
+      "wp_id": 10424,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-08-23-2026/",
+      "date": "2026-08-25T02:38:52",
+      "title": "Flood in Vietnam 08/23/2026",
+      "country": "Vietnam",
+      "type": "Flood",
+      "lat": 21.851054,
+      "lng": 106.762181
+    },
+    {
+      "wp_id": 10423,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-24-2026/",
+      "date": "2026-08-25T02:35:09",
+      "title": "Wildfire in United States 08/24/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 39.525781,
+      "lng": -119.812917
+    },
+    {
+      "wp_id": 10422,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-france-08-25-2026/",
+      "date": "2026-08-25T02:34:38",
+      "title": "Storm in France 08/25/2026",
+      "country": "France",
+      "type": "Storm",
+      "lat": 43.111595,
+      "lng": 2.291985
+    },
+    {
+      "wp_id": 10421,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-08-24-2026/",
+      "date": "2026-08-25T02:28:37",
+      "title": "Flood in Russia 08/24/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 48.47513,
+      "lng": 135.06187
+    },
+    {
+      "wp_id": 10420,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-08-21-2026-magnitude-5/",
+      "date": "2026-08-25T02:23:30",
+      "title": "Earthquake in Philippines 08/21/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 9.4833,
+      "lng": 125.5784
+    },
+    {
+      "wp_id": 10419,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-08-24-2026-magnitude-6/",
+      "date": "2026-08-25T02:20:35",
+      "title": "Earthquake in Timor Leste 08/24/2026 — Magnitude 6",
+      "country": "Timor Leste",
+      "type": "Earthquake",
+      "lat": -6.6264,
+      "lng": 127.4598
+    },
+    {
+      "wp_id": 10418,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-08-22-2026-magnitude-6/",
+      "date": "2026-08-25T02:20:06",
+      "title": "Earthquake in Japan 08/22/2026 — Magnitude 6",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 35.910137,
+      "lng": 140.05032
+    },
     {
       "wp_id": 10308,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-kingdom-08-19-2026-2/",
