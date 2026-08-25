@@ -1,9 +1,109 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-22T10:05:15.741315+00:00",
-  "count": 546,
+  "updated": "2026-08-25T02:51:44.792721+00:00",
+  "count": 556,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10429,
+      "wp_link": "https://globalwitnessmonitor.com/british-pastor-charged-under-law-not-yet-in-force-in-india/",
+      "date": "2026-08-25T02:51:38",
+      "title": "Church Leader Charged in India Under Anti-Conversion Law Not Yet in Force",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10439,
+      "wp_link": "https://globalwitnessmonitor.com/boko-haram-kidnaps-two-christians-in-northern-cameroon-attack/",
+      "date": "2026-08-25T02:51:08",
+      "title": "Boko Haram Kidnaps Two Christians in Northern Cameroon Attack",
+      "country": "cameroon",
+      "type": "arrest",
+      "lat": 3.9,
+      "lng": 12.4
+    },
+    {
+      "wp_id": 10438,
+      "wp_link": "https://globalwitnessmonitor.com/gang-massacres-dozens-of-displaced-people-sheltering-inside-church-near-haitian-capital/",
+      "date": "2026-08-25T02:50:39",
+      "title": "Gang massacres dozens of displaced people sheltering inside church near Haitian capital",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10437,
+      "wp_link": "https://globalwitnessmonitor.com/five-christians-detained-after-hindu-mob-storms-sunday-prayer-gathering-in-india/",
+      "date": "2026-08-25T02:50:20",
+      "title": "Five Christians Detained After Hindu Mob Storms Sunday Prayer Gathering in India",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10428,
+      "wp_link": "https://globalwitnessmonitor.com/christian-relief-worker-held-five-months-by-rebel-militants-in-sudan/",
+      "date": "2026-08-25T02:49:59",
+      "title": "Christian Relief Worker Held Five Months by Armed Militants in Sudan",
+      "country": "sudan",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 10434,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-27-christians-killed-in-jihadist-raids-targeting-christian-villages-in-nigeria/",
+      "date": "2026-08-25T02:49:41",
+      "title": "Armed Attackers Kill At Least 24 in Overnight Raid on Christian Village in Central Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10433,
+      "wp_link": "https://globalwitnessmonitor.com/sudan-church-leaders-killed-and-abducted-as-christians-mark-un-religious-freedom-day/",
+      "date": "2026-08-25T02:48:55",
+      "title": "Sudan Church Leaders Killed and Abducted as Christians Mark UN Religious Freedom Day",
+      "country": "sudan",
+      "type": "killing",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 10432,
+      "wp_link": "https://globalwitnessmonitor.com/christian-man-hospitalised-after-group-attack-in-pakistan/",
+      "date": "2026-08-25T02:48:39",
+      "title": "Christian Man Hospitalised After Group Attack in Pakistan",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10431,
+      "wp_link": "https://globalwitnessmonitor.com/christian-detained-in-china-for-listening-to-bible-on-usb-drive-during-family-journey/",
+      "date": "2026-08-25T02:48:25",
+      "title": "Christian Detained in China for Listening to Bible on USB Drive During Family Journey",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10430,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-worship-systematically-restricted-across-china-as-bibles-vanish-and-gatherings-are-curtailed/",
+      "date": "2026-08-25T02:48:06",
+      "title": "Catholic worship systematically restricted across China as Bibles vanish and gatherings are curtailed",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
     {
       "wp_id": 10341,
       "wp_link": "https://globalwitnessmonitor.com/six-christians-jailed-after-mob-storms-prayer-gathering-in-india/",
