@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-25T02:46:21.898501+00:00",
-  "count": 1225,
+  "updated": "2026-08-27T19:49:34.346207+00:00",
+  "count": 1235,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10541,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-26-2026/",
+      "date": "2026-08-27T19:47:23",
+      "title": "Flood in China 08/26/2026",
+      "country": "China",
+      "type": "Flood",
+      "lat": 22.138096,
+      "lng": 107.06728
+    },
+    {
+      "wp_id": 10540,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-new-zealand-08-27-2026/",
+      "date": "2026-08-27T19:45:43",
+      "title": "Flood in New Zealand 08/27/2026",
+      "country": "New Zealand",
+      "type": "Flood",
+      "lat": -45.032063,
+      "lng": 168.66133
+    },
+    {
+      "wp_id": 10539,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-haiti-08-25-2026/",
+      "date": "2026-08-27T19:39:26",
+      "title": "Other in Haiti 08/25/2026",
+      "country": "Haiti",
+      "type": "Other",
+      "lat": 18.451225,
+      "lng": -72.28857
+    },
+    {
+      "wp_id": 10538,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-08-27-2026/",
+      "date": "2026-08-27T19:36:58",
+      "title": "Flood in Nepal 08/27/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.599503,
+      "lng": 82.29167
+    },
+    {
+      "wp_id": 10537,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-08-27-2026-5-2/",
+      "date": "2026-08-27T19:36:46",
+      "title": "Flood in Nepal 08/27/2026 — 5.2",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.25,
+      "lng": 85.5
+    },
+    {
+      "wp_id": 10536,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-08-27-2026/",
+      "date": "2026-08-27T19:33:09",
+      "title": "Wildfire in United States 08/27/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 43.310975,
+      "lng": -113.945881
+    },
+    {
+      "wp_id": 10535,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-08-24-2026-magnitude-5/",
+      "date": "2026-08-27T19:28:06",
+      "title": "Earthquake in Timor Leste 08/24/2026 — Magnitude 5",
+      "country": "Timor Leste",
+      "type": "Earthquake",
+      "lat": -6.6912,
+      "lng": 127.5019
+    },
+    {
+      "wp_id": 10534,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-08-25-2026-magnitude-6/",
+      "date": "2026-08-27T19:27:07",
+      "title": "Earthquake in Fiji 08/25/2026 — Magnitude 6",
+      "country": "Fiji",
+      "type": "Earthquake",
+      "lat": -18.1456,
+      "lng": 178.4406
+    },
+    {
+      "wp_id": 10533,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-27-2026-magnitude-5/",
+      "date": "2026-08-27T19:25:10",
+      "title": "Earthquake in Indonesia 08/27/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -8.492535,
+      "lng": 119.877335
+    },
+    {
+      "wp_id": 10532,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-08-26-2026/",
+      "date": "2026-08-27T19:24:38",
+      "title": "Landslide in Nepal 08/26/2026",
+      "country": "Nepal",
+      "type": "Landslide",
+      "lat": 28.271,
+      "lng": 85.515
+    },
     {
       "wp_id": 10427,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-china-08-24-2026/",
