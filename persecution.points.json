@@ -1,9 +1,169 @@
 {
   "feed": "persecution",
-  "updated": "2026-08-27T19:57:32.532316+00:00",
-  "count": 570,
+  "updated": "2026-08-30T12:46:05.142460+00:00",
+  "count": 586,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10645,
+      "wp_link": "https://globalwitnessmonitor.com/baptist-pastor-and-chin-christian-killed-in-military-custody-in-myanmar/",
+      "date": "2026-08-30T12:45:54",
+      "title": "Baptist Pastor Extrajudicially Killed in Myanmar Military Detention After 25 Years of Ministry",
+      "country": "myanmar",
+      "type": "killing",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 10658,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-and-pastor-sentenced-to-two-years-under-indonesias-blasphemy-law/",
+      "date": "2026-08-30T12:45:32",
+      "title": "Christian Convert and Pastor Sentenced to Two Years Under Indonesia's Blasphemy Law",
+      "country": "indonesia",
+      "type": "restriction",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 10657,
+      "wp_link": "https://globalwitnessmonitor.com/gang-massacres-47-at-church-shelter-executes-22-inside-sanctuary/",
+      "date": "2026-08-30T12:45:13",
+      "title": "Gang Massacres 47 at Church Shelter, Executes 22 Inside Sanctuary",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10656,
+      "wp_link": "https://globalwitnessmonitor.com/historic-catholic-church-razed-in-suspected-arson-attack-in-canada/",
+      "date": "2026-08-30T12:44:56",
+      "title": "Historic Catholic church razed in suspected arson attack in Canada",
+      "country": "canada",
+      "type": "church",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 10655,
+      "wp_link": "https://globalwitnessmonitor.com/three-christians-detained-under-anti-conversion-law-following-healing-prayer-service-in-india/",
+      "date": "2026-08-30T12:44:36",
+      "title": "Three Christians detained under anti-conversion law following healing prayer service in India",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10654,
+      "wp_link": "https://globalwitnessmonitor.com/iranian-christian-convert-deported-from-u-s-granted-asylum-in-canada-after-two-year-ordeal/",
+      "date": "2026-08-30T12:44:19",
+      "title": "Iranian Christian Convert Deported from U.S. Granted Asylum in Canada After Two-Year Ordeal",
+      "country": "iran",
+      "type": "displacement",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 10653,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-31-christians-killed-in-wave-of-suspected-militant-attacks-across-nigerias-middle-belt/",
+      "date": "2026-08-30T12:43:56",
+      "title": "At Least 31 Christians Killed in Wave of Suspected Militant Attacks Across Nigeria's Middle Belt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10652,
+      "wp_link": "https://globalwitnessmonitor.com/gang-massacres-dozens-sheltering-in-church-abducts-more-than-50-in-haiti/",
+      "date": "2026-08-30T12:43:37",
+      "title": "Gang Massacres Dozens Sheltering in Church, Abducts More Than 50 in Haiti",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10651,
+      "wp_link": "https://globalwitnessmonitor.com/three-house-church-members-face-trial-in-china-amid-health-crisis-in-detention/",
+      "date": "2026-08-30T12:43:12",
+      "title": "Three house church members face trial in China amid health crisis in detention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10650,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-detain-investigate-house-church-leaders-nationwide/",
+      "date": "2026-08-30T12:42:59",
+      "title": "Chinese Authorities Detain, Investigate House Church Leaders Nationwide",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10649,
+      "wp_link": "https://globalwitnessmonitor.com/court-acquits-attacker-of-catholic-nun-on-insanity-grounds-orders-psychiatric-care/",
+      "date": "2026-08-30T12:42:41",
+      "title": "Court acquits attacker of Catholic nun on insanity grounds, orders psychiatric care",
+      "country": "israel",
+      "type": "restriction",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 10648,
+      "wp_link": "https://globalwitnessmonitor.com/christian-boy-abducted-and-forcibly-converted-in-pakistan-court-denies-familys-petition/",
+      "date": "2026-08-30T12:42:20",
+      "title": "Christian Boy Abducted and Forcibly Converted in Pakistan, Court Denies Family's Petition",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10647,
+      "wp_link": "https://globalwitnessmonitor.com/militia-ambushes-leave-27-christian-farmers-dead-in-nigeria-as-fields-go-untended/",
+      "date": "2026-08-30T12:42:09",
+      "title": "Militia Ambushes Leave 27 Christian Farmers Dead in Nigeria as Fields Go Untended",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10646,
+      "wp_link": "https://globalwitnessmonitor.com/hindu-leaders-press-nepal-government-for-hindu-nation-status-as-churches-face-threats/",
+      "date": "2026-08-30T12:41:54",
+      "title": "Hindu Leaders Press Nepal Government for Hindu Nation Status as Churches Face Threats",
+      "country": "nepal",
+      "type": "restriction",
+      "lat": 28.4,
+      "lng": 84.1
+    },
+    {
+      "wp_id": 10644,
+      "wp_link": "https://globalwitnessmonitor.com/gang-targets-evangelical-church-in-haiti-killing-dozens-including-displaced-families/",
+      "date": "2026-08-30T12:41:30",
+      "title": "Gang Targets Evangelical Church in Haiti, Killing Dozens Including Displaced Families",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10643,
+      "wp_link": "https://globalwitnessmonitor.com/u-s-congress-urges-pakistan-to-protect-christian-woman-allegedly-abducted-and-forcibly-converted/",
+      "date": "2026-08-30T12:41:17",
+      "title": "U.S. Congress Urges Pakistan to Protect Christian Woman Allegedly Abducted and Forcibly Converted",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 10559,
       "wp_link": "https://globalwitnessmonitor.com/christian-activist-denied-bail-in-india-over-unverified-facebook-comment-about-hindu-deity/",
