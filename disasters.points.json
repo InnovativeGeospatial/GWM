@@ -1,9 +1,79 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-29T12:48:28.112079+00:00",
-  "count": 1219,
+  "updated": "2026-08-30T12:40:20.960429+00:00",
+  "count": 1226,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10642,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-30-2026/",
+      "date": "2026-08-30T12:32:56",
+      "title": "Flood in United States 08/30/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 36.054098,
+      "lng": -112.142028
+    },
+    {
+      "wp_id": 10641,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-28-2026-magnitude-7/",
+      "date": "2026-08-30T12:31:01",
+      "title": "Earthquake in Colombia 08/28/2026 — Magnitude 7",
+      "country": "Colombia",
+      "type": "Earthquake",
+      "lat": 4.297305,
+      "lng": -75.83897
+    },
+    {
+      "wp_id": 10640,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-08-28-2026-5-2/",
+      "date": "2026-08-30T12:30:50",
+      "title": "Landslide in Nepal 08/28/2026 — 5.2",
+      "country": "Nepal",
+      "type": "Landslide",
+      "lat": 28.253007,
+      "lng": 83.938548
+    },
+    {
+      "wp_id": 10639,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-08-28-2026/",
+      "date": "2026-08-30T12:29:53",
+      "title": "Flood in Nepal 08/28/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548
+    },
+    {
+      "wp_id": 10638,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-29-2026/",
+      "date": "2026-08-30T12:29:42",
+      "title": "Flood in China 08/29/2026",
+      "country": "China",
+      "type": "Flood",
+      "lat": 35.486703,
+      "lng": 101.901875
+    },
+    {
+      "wp_id": 10637,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-somalia-08-27-2026-magnitude-6/",
+      "date": "2026-08-30T12:26:12",
+      "title": "Earthquake in Somalia 08/27/2026 — Magnitude 6",
+      "country": "Somalia",
+      "type": "Earthquake",
+      "lat": 11.964926,
+      "lng": 50.756516
+    },
+    {
+      "wp_id": 10636,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-29-2026-magnitude-5/",
+      "date": "2026-08-30T12:24:45",
+      "title": "Earthquake in Indonesia 08/29/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -0.627237,
+      "lng": 127.48015
+    },
     {
       "wp_id": 10541,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-26-2026/",
