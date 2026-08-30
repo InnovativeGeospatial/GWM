@@ -1,9 +1,135 @@
 {
   "feed": "disasters",
-  "updated": "2026-08-29T12:48:25.877783+00:00",
-  "count": 999,
+  "updated": "2026-08-30T12:40:18.808995+00:00",
+  "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 10642,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-30-2026/",
+      "date": "2026-08-30T12:32:56",
+      "title": "Flood in United States 08/30/2026",
+      "body": "Floodwaters surged through Bright Angel Canyon at around 2:30 p.m. on August 29, 2026. Roughly 50 individuals were evacuated from the Phantom Ranch area, with rescuers conducting those evacuations by air because of the f",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 36.054098,
+      "lng": -112.142028,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQT1BSQ3FGZ0ZMdmlNRzJ6YjJlRkFidzhLd205ZUVJc1ZJaVhnX0prNVRYWjEtbHNWSkhlYllkaTBKb2lJbHNyRUNXRl9zQW9DUFhMd0VNd0tzWHF4VkZPcmJJTFJRVEY1anE3d25sT05tRjB1eHNMR2lpaG1sREZOb09selVKeWhoM2I3WUVsYWVPZDItYmRtTUpfNTBTOXJVZ3JOcG1KTWFxNHBLRF9pcWY2U2ptb2RzM2VQRlVyTlFXRkViWXpVaXFSWDFpTk52T2pnSWxocHhVbGNDSUZEZ3FCcFQxOTdCRFBjQUtqZXFPS0xLRWUwd3kzTGsxcW8?oc=5",
+      "prayer": "Visitors and park workers at Phantom Ranch after flash flooding cut off the canyon bottom",
+      "alert_summary": "Flash flooding in Bright Angel Canyon prompted the air evacuation of about 50 visitors from the Phantom Ranch area of Grand Canyon on August 29, 2026."
+    },
+    {
+      "wp_id": 10641,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-28-2026-magnitude-7/",
+      "date": "2026-08-30T12:31:01",
+      "title": "Earthquake in Colombia 08/28/2026 — Magnitude 7",
+      "body": "On August 10, a magnitude 7 earthquake struck Colombia, killing 331 people, injuring 4,449, and leaving 219 missing. More than 406,000 people were affected across 15 departments. The quake caused serious damage to school",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Earthquake",
+      "lat": 4.297305,
+      "lng": -75.83897,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/08/1168224",
+      "prayer": "Children displaced from school in earthquake-damaged Colombian communities; vulnerable youth in conflict-affected regions",
+      "alert_summary": "A magnitude 7 earthquake on August 10 killed 331 people, injured 4,449, and damaged more than 3,800 schools across Colombia, affecting over one million students."
+    },
+    {
+      "wp_id": 10640,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-08-28-2026-5-2/",
+      "date": "2026-08-30T12:30:50",
+      "title": "Landslide in Nepal 08/28/2026 — 5.2",
+      "body": "On Wednesday, August 6, 2026, bedrock beneath a glacier high in the Himalayas failed, sending roughly 1,200 meters of ice and rock into the Lhende Khola, a tributary of the Bhotekoshi River. The collapse generated a wall",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Landslide",
+      "lat": 28.253007,
+      "lng": 83.938548,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/08/1168227",
+      "prayer": "More than 500 dead and 1,500 missing after mountain collapse triggered catastrophic flood in Himalayan valleys along Nepal-China border",
+      "alert_summary": "A mountainside collapse registered as magnitude 5.2 sent ice and rock into a river valley; over 500 people reported dead and more than 1,500 missing across Nepal and Tibet."
+    },
+    {
+      "wp_id": 10639,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-08-28-2026/",
+      "date": "2026-08-30T12:29:53",
+      "title": "Flood in Nepal 08/28/2026",
+      "body": "On Wednesday, 28 August 2026, a glacier collapse in Nepal triggered a devastating flash flood along the Trishuli River valley. Satellite imagery and verified videos show entire villages washed away, including the communi",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cd68vpjv21do?at_medium=RSS&at_campaign=rss",
+      "prayer": "Hundreds killed and thousands missing in Nepal's glacier-collapse flood; families searching for loved ones along Trishuli River",
+      "alert_summary": "A glacier collapse triggered a flash flood on Nepal's Trishuli River on Wednesday; hundreds killed and thousands missing, with villages, bridges, and a border crossing destroyed."
+    },
+    {
+      "wp_id": 10638,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-29-2026/",
+      "date": "2026-08-30T12:29:42",
+      "title": "Flood in China 08/29/2026",
+      "body": "A torrent of water swept through Gyirong Port on Wednesday, one of the main border crossings between Nepal and Tibet, destroying buildings and forcing hundreds of people to flee. Dramatic footage from CCTV cameras captur",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Hundreds dead and missing in Tibet flash floods; survivors and anxious families separated by censorship and restricted communication",
+      "alert_summary": "Flash flooding at Gyirong Port, a Nepal-Tibet border crossing, claimed hundreds of lives with hundreds more unaccounted for since Wednesday."
+    },
+    {
+      "wp_id": 10637,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-somalia-08-27-2026-magnitude-6/",
+      "date": "2026-08-30T12:26:12",
+      "title": "Earthquake in Somalia 08/27/2026 — Magnitude 6",
+      "body": "On August 28, 2026, a magnitude 6.0 earthquake struck the Gulf of Aden at shallow depth, occurring just after midnight local time. The epicenter was placed at approximately 10 km depth. The closest population center was ",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Earthquake",
+      "lat": 11.964926,
+      "lng": 50.756516,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcf3",
+      "prayer": "Residents near Caluula and Bari, Somalia after a shallow earthquake with no confirmed damage reports",
+      "alert_summary": "Magnitude 6 earthquake struck the Gulf of Aden 145 km north of Caluula, Somalia; no casualties or damage reported as of publication."
+    },
+    {
+      "wp_id": 10636,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-08-29-2026-magnitude-5/",
+      "date": "2026-08-30T12:24:45",
+      "title": "Earthquake in Indonesia 08/29/2026 — Magnitude 5",
+      "body": "On August 29, 2026, a magnitude 5.0 earthquake struck near Labuha in North Maluku, Indonesia, at a depth of approximately 41 km. The epicenter was located about 64 km west of the town. No casualties, injuries, or damage ",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -0.627237,
+      "lng": 127.48015,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsu",
+      "prayer": "Residents near Labuha, North Maluku, following an earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5 earthquake struck about 64 km west of Labuha, North Maluku; no casualties or damage reported."
+    },
     {
       "wp_id": 10541,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-26-2026/",
@@ -17741,107 +17867,6 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx5k",
       "prayer": "Communities in the Solomon Islands rattled by a magnitude 5.6 earthquake with no reported casualties yet"
-    },
-    {
-      "wp_id": 2967,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-nicaragua-05-13-2026-magnitude-5/",
-      "date": "2026-05-13T15:09:57",
-      "title": "Earthquake in Nicaragua 05/13/2026 — Magnitude 5",
-      "body": "A magnitude 4.5 earthquake struck about 35 kilometers southwest of Masachapa, Nicaragua, in the early morning hours. The quake was centered about 68 kilometers underground, which typically reduces the intensity of shakin",
-      "country": "Nicaragua",
-      "countries": [
-        "Nicaragua"
-      ],
-      "type": "Earthquake",
-      "lat": 11.5397,
-      "lng": -86.7186,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxc7",
-      "prayer": "Residents in Nicaragua jolted by a magnitude 4.5 earthquake with potential for localized shaking"
-    },
-    {
-      "wp_id": 2966,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-13-2026-magnitude-5/",
-      "date": "2026-05-13T15:09:48",
-      "title": "Earthquake in Russia 05/13/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck about 137 kilometers east of Ozernovskiy, a remote coastal town on Russia's Kamchatka Peninsula, on May 13, 2026. The quake registered magnitude 4.6 and occurred about 57 kilometers below the",
-      "country": "Russia",
-      "countries": [
-        "Russia"
-      ],
-      "type": "Earthquake",
-      "lat": 51.497,
-      "lng": 156.507,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxcz",
-      "prayer": "Communities in Russia's Kamchatka region amid a moderate earthquake with no reported damage or injuries"
-    },
-    {
-      "wp_id": 2965,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-13-2026-magnitude-5/",
-      "date": "2026-05-13T15:09:37",
-      "title": "Earthquake in New Zealand 05/13/2026 — Magnitude 5",
-      "body": "A magnitude 4.6 earthquake struck the Kermadec Islands region, a remote stretch of the South Pacific northeast of New Zealand. The quake occurred at a very deep level — about 348 kilometers below the surface — which typi",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -30.153,
-      "lng": -179.4729,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxd9",
-      "prayer": "Remote New Zealand region experiencing a deep-focus magnitude 4.6 earthquake with no reported harm"
-    },
-    {
-      "wp_id": 2964,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-el-salvador-05-13-2026-magnitude-5/",
-      "date": "2026-05-13T15:09:23",
-      "title": "Earthquake in El Salvador 05/13/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck about 17 kilometers south-southeast of Conchagua, El Salvador. The quake measured magnitude 4.5 and was centered very deep underground — roughly 198 kilometers down. At that depth, seismic en",
-      "country": "El Salvador",
-      "countries": [
-        "El Salvador"
-      ],
-      "type": "Earthquake",
-      "lat": 13.307942,
-      "lng": -87.86248,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxdu",
-      "prayer": "Communities in El Salvador experiencing a moderate earthquake and awaiting confirmation of any damage or injuries"
-    },
-    {
-      "wp_id": 2963,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-taiwan-05-13-2026-magnitude-5/",
-      "date": "2026-05-13T15:09:11",
-      "title": "Earthquake in Taiwan 05/13/2026 — Magnitude 5",
-      "body": "A magnitude 4.7 earthquake struck about 5 kilometers east-southeast of Hualien City, Taiwan on May 13, 2026. The quake originated at a depth of about 18 kilometers underground. At least one person reported feeling the sh",
-      "country": "Taiwan",
-      "countries": [
-        "Taiwan"
-      ],
-      "type": "Earthquake",
-      "lat": 23.977873,
-      "lng": 121.60618,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxef",
-      "prayer": "Residents of Taiwan near active fault zones experiencing renewed seismic activity and tremors"
-    },
-    {
-      "wp_id": 2936,
-      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-11-05-2026-2/",
-      "date": "2026-05-13T03:57:45",
-      "title": "Wildfire in Australia 11/05/2026",
-      "body": "A forest fire broke out in Australia on November 5, 2026, and continued burning through at least November 12, 2026. No further details about the fire's location, size, or impact were included in the available report. Bec",
-      "country": "Australia",
-      "countries": [
-        "Australia"
-      ],
-      "type": "Wildfire",
-      "lat": -14.931697392301363,
-      "lng": 130.60657049407453,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1028658"
     }
   ]
 }
