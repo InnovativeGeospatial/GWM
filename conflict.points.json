@@ -1,9 +1,269 @@
 {
   "feed": "conflict",
-  "updated": "2026-08-27T20:45:37.573277+00:00",
-  "count": 1882,
+  "updated": "2026-08-30T13:33:13.590367+00:00",
+  "count": 1908,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10741,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-taung-maw-oo-kyaukphyu-township/",
+      "date": "2026-08-30T13:33:05",
+      "title": "Armed Conflict in Taung Maw Oo, Kyaukphyu Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 19.42745,
+      "lng": 93.54861
+    },
+    {
+      "wp_id": 10740,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-falam-chin-state/",
+      "date": "2026-08-30T13:32:39",
+      "title": "Armed Conflict in Falam, Chin State",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 22.912994,
+      "lng": 93.67775
+    },
+    {
+      "wp_id": 10732,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-raya-azebo-endabaguna-tigray/",
+      "date": "2026-08-30T13:31:54",
+      "title": "Armed Conflict in Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.5655,
+      "lng": 38.2811
+    },
+    {
+      "wp_id": 10738,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sowdari-north-kordofan/",
+      "date": "2026-08-30T13:31:22",
+      "title": "Armed Conflict in Sowdari, North Kordofan",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 13.183366,
+      "lng": 30.222559
+    },
+    {
+      "wp_id": 10731,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-blue-nile-state-2/",
+      "date": "2026-08-30T13:30:57",
+      "title": "Armed Conflict in Blue Nile state",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 11.8074,
+      "lng": 34.3656
+    },
+    {
+      "wp_id": 10671,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gulf-of-aden-2/",
+      "date": "2026-08-30T13:30:34",
+      "title": "Armed Conflict in Baidoa",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.786396,
+      "lng": 47.325853
+    },
+    {
+      "wp_id": 10735,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wantey-dam-lafey-sub-county-mandera-county/",
+      "date": "2026-08-30T13:30:11",
+      "title": "Armed Conflict in Wantey Dam, Lafey Sub-County, Mandera County",
+      "country": "Kenya",
+      "type": "Armed Conflict",
+      "lat": 3.150733,
+      "lng": 41.186153
+    },
+    {
+      "wp_id": 10730,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-blue-nile-state-2/",
+      "date": "2026-08-30T13:27:25",
+      "title": "Displacement in Blue Nile State",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 11.807364,
+      "lng": 34.36563
+    },
+    {
+      "wp_id": 10712,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-niamey-2/",
+      "date": "2026-08-30T13:25:36",
+      "title": "Coup/Crisis in Niamey",
+      "country": "Niger",
+      "type": "Coup or Crisis",
+      "lat": 13.52,
+      "lng": 2.109
+    },
+    {
+      "wp_id": 10724,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-niamey-6/",
+      "date": "2026-08-30T13:22:20",
+      "title": "Armed Conflict in Niamey",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 13.52,
+      "lng": 2.109
+    },
+    {
+      "wp_id": 10706,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kopre-mountain-hong-local-government-area/",
+      "date": "2026-08-30T13:16:03",
+      "title": "Armed Conflict in Kopre Mountain, Hong Local Government Area, Adamawa",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.594,
+      "lng": 8.1053
+    },
+    {
+      "wp_id": 10700,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-northern-nigeria-3/",
+      "date": "2026-08-30T13:15:38",
+      "title": "Armed Conflict in Kukawa, Borno",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.0338,
+      "lng": 8.5295
+    },
+    {
+      "wp_id": 10704,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nigeria-nationwide-incidents-concentrated-in-borno-niger-zamfara-sokoto-and-kaduna-states/",
+      "date": "2026-08-30T13:11:48",
+      "title": "Armed Conflict in Nigeria (nationwide; incidents concentrated in Borno, Niger, Zamfara, Sokoto, and Kaduna states)",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.839538,
+      "lng": 13.153621
+    },
+    {
+      "wp_id": 10699,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-retorno-guaviare/",
+      "date": "2026-08-30T13:09:11",
+      "title": "Armed Conflict in El Retorno, Guaviare",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 2.331434,
+      "lng": -72.62962
+    },
+    {
+      "wp_id": 10675,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kenscoff-3/",
+      "date": "2026-08-30T13:07:52",
+      "title": "Armed Conflict in Kenscoff, Port-au-Prince",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.4512,
+      "lng": -72.2886
+    },
+    {
+      "wp_id": 10674,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rio-grande-valley/",
+      "date": "2026-08-30T12:56:50",
+      "title": "Armed Conflict in Rio Grande Valley",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 37.643153,
+      "lng": -106.658016
+    },
+    {
+      "wp_id": 10673,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-west-bank-2/",
+      "date": "2026-08-30T12:56:29",
+      "title": "Armed Conflict in West Bank",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 32.285004,
+      "lng": 35.300669
+    },
+    {
+      "wp_id": 10663,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-myla/",
+      "date": "2026-08-30T12:56:04",
+      "title": "Armed Conflict in Myla, Bucha district",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.4415,
+      "lng": 30.1631
+    },
+    {
+      "wp_id": 10670,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-rasuwa-district/",
+      "date": "2026-08-30T12:54:56",
+      "title": "Displacement in Rasuwa district",
+      "country": "Nepal",
+      "type": "Displacement",
+      "lat": 28.110853,
+      "lng": 85.297035
+    },
+    {
+      "wp_id": 10669,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-bissau-2/",
+      "date": "2026-08-30T12:54:31",
+      "title": "Coup/Crisis in Bissau",
+      "country": "Guinea-Bissau",
+      "type": "Coup or Crisis",
+      "lat": 11.860353,
+      "lng": -15.583228
+    },
+    {
+      "wp_id": 10661,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nabatieh-8/",
+      "date": "2026-08-30T12:54:04",
+      "title": "Armed Conflict in Nabatieh",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 33.378,
+      "lng": 35.4835
+    },
+    {
+      "wp_id": 10667,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-region-donetsk-region/",
+      "date": "2026-08-30T12:53:28",
+      "title": "Armed Conflict in Kyiv region, Donetsk region",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.511259,
+      "lng": 37.742822
+    },
+    {
+      "wp_id": 10662,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-deir-el-balah-2/",
+      "date": "2026-08-30T12:52:55",
+      "title": "Armed Conflict in Deir al-Balah",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.4174,
+      "lng": 34.3511
+    },
+    {
+      "wp_id": 10665,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-aarau/",
+      "date": "2026-08-30T12:52:28",
+      "title": "Armed Conflict in Aarau",
+      "country": "Switzerland",
+      "type": "Armed Conflict",
+      "lat": 47.39236,
+      "lng": 8.045639
+    },
+    {
+      "wp_id": 10664,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-buenos-aires/",
+      "date": "2026-08-30T12:52:11",
+      "title": "Civil Unrest in Buenos Aires",
+      "country": "Argentina",
+      "type": "Civil Unrest",
+      "lat": -34.609558,
+      "lng": -58.38879
+    },
+    {
+      "wp_id": 10660,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mourdi-department-ennedi-est-province/",
+      "date": "2026-08-30T12:51:12",
+      "title": "Armed Conflict in Mourdi department, Ennedi-Est province",
+      "country": "Chad",
+      "type": "Armed Conflict",
+      "lat": 15.766667,
+      "lng": 22.733333
+    },
     {
       "wp_id": 10634,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-rakhine-state-and-chin-state/",
