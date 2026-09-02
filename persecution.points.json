@@ -1,9 +1,149 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-02T00:49:31.395124+00:00",
-  "count": 583,
+  "updated": "2026-09-02T05:57:18.661362+00:00",
+  "count": 597,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10858,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-killed-after-abduction-by-armed-militants-second-clergyman-remains-in-captivity/",
+      "date": "2026-09-02T05:57:12",
+      "title": "Pastor Killed After Abduction by Armed Militants; Second Clergyman Remains in Captivity",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10857,
+      "wp_link": "https://globalwitnessmonitor.com/historic-wooden-church-destroyed-in-confirmed-arson-attack/",
+      "date": "2026-09-02T05:56:37",
+      "title": "Historic Wooden Church Destroyed in Confirmed Arson Attack",
+      "country": "canada",
+      "type": "church",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 10844,
+      "wp_link": "https://globalwitnessmonitor.com/iranian-christian-convert-deported-from-u-s-receives-asylum-in-canada-after-months-in-limbo/",
+      "date": "2026-09-02T05:56:08",
+      "title": "Iranian Christian Convert Deported from U.S. Granted Asylum in Canada After Months of Displacement",
+      "country": "iran",
+      "type": "displacement",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 10854,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-killed-second-cleric-abducted-amid-coordinated-wave-of-attacks-on-christian-communities/",
+      "date": "2026-09-02T05:55:24",
+      "title": "Pastor killed, second cleric abducted amid coordinated wave of attacks on Christian communities",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10852,
+      "wp_link": "https://globalwitnessmonitor.com/russian-strike-destroys-christian-humanitarian-warehouse-in-ukraine-erasing-four-years-of-relief-operations/",
+      "date": "2026-09-02T05:55:01",
+      "title": "Russian strike destroys Christian mission's humanitarian warehouse used to aid displaced families and veterans",
+      "country": "ukraine",
+      "type": "church",
+      "lat": 48.4,
+      "lng": 31.2
+    },
+    {
+      "wp_id": 10851,
+      "wp_link": "https://globalwitnessmonitor.com/three-tribal-christian-leaders-killed-in-ambush-returning-from-peace-conference-in-india/",
+      "date": "2026-09-02T05:54:12",
+      "title": "Three tribal Christian leaders killed in ambush returning from peace conference in India",
+      "country": "india",
+      "type": "killing",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 10850,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-christians-face-wave-of-violence-deaths-abductions-and-forced-conversion-cases/",
+      "date": "2026-09-02T05:53:51",
+      "title": "Pakistan Christians Face Wave of Violence, Deaths, Abductions, and Forced Conversion Cases",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10849,
+      "wp_link": "https://globalwitnessmonitor.com/iran-kills-dozens-of-christian-ministers-imprisons-hundreds-in-underground-church-crackdown/",
+      "date": "2026-09-02T05:53:30",
+      "title": "Iran Kills Dozens of Christian Ministers, Imprisons Hundreds in Underground Church Crackdown",
+      "country": "iran",
+      "type": "killing",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 10848,
+      "wp_link": "https://globalwitnessmonitor.com/christian-brick-kiln-worker-alleges-beating-chaining-and-bonded-labor-in-pakistan/",
+      "date": "2026-09-02T05:53:10",
+      "title": "Christian Brick-Kiln Worker Alleges Beating, Chaining, and Bonded Labor in Pakistan",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10847,
+      "wp_link": "https://globalwitnessmonitor.com/gang-massacre-kills-dozens-sheltering-in-church-displacing-thousands-in-haiti/",
+      "date": "2026-09-02T05:52:56",
+      "title": "Gang Massacre Kills Dozens Sheltering in Church, Displacing Thousands in Haiti",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10846,
+      "wp_link": "https://globalwitnessmonitor.com/imprisoned-house-church-pastors-health-deteriorates-after-nearly-three-years-in-chinese-custody/",
+      "date": "2026-09-02T05:52:40",
+      "title": "Imprisoned house church pastor's health deteriorates after nearly three years in Chinese custody",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10845,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-bishops-denounce-nationwide-wave-of-killings-kidnappings-and-church-destruction/",
+      "date": "2026-09-02T05:52:24",
+      "title": "Nigerian Bishops Denounce Nationwide Wave of Killings, Kidnappings, and Church Destruction",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10843,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-governor-orders-crackdown-on-unauthorized-islamic-enforcement-group/",
+      "date": "2026-09-02T05:51:31",
+      "title": "Nigerian Governor Orders Crackdown on Unauthorized Islamic Enforcement Group",
+      "country": "nigeria",
+      "type": "restriction",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10842,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-court-awards-custody-of-christian-girl-to-alleged-abductor-advocates-condemn-ruling/",
+      "date": "2026-09-02T05:51:17",
+      "title": "Pakistani Court Awards Custody of Christian Girl to Alleged Abductor, Advocates Condemn Ruling",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 10645,
       "wp_link": "https://globalwitnessmonitor.com/baptist-pastor-and-chin-christian-killed-in-military-custody-in-myanmar/",
