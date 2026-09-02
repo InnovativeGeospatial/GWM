@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-02T00:51:22.435571+00:00",
-  "count": 911,
+  "updated": "2026-09-02T05:50:06.962419+00:00",
+  "count": 921,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 10841,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-01-2026/",
+      "date": "2026-09-02T05:40:15",
+      "title": "Flood in United States 09/01/2026",
+      "body": "The flooding began on the canyon floor on August 29, 2026, after waves of rainfall struck Bright Angel Canyon and Phantom Ranch — the only lodging under the rim of the Grand Canyon. About half an inch to an inch of rain ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 36.053917,
+      "lng": -112.14471,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ2RCN3VoTFBCeTVicU53elBpZ1NKVzRYZWU5T2ZuVDdKdGxhdVpaM1VnQjBWWDQ1WXdCcHNsdm1YSWRhU2J3REZWUjVqdmxORDFNVmRfQ3RneEVsTGQyZV95WmpuZ09nQmw5S29Tb0wxa0dGVUJmSUN5REJMMFE3eXBJeUx1Skc4eWJYNDA4NnhLdGJmQ25vRU1jSQ?oc=5",
+      "prayer": "Families of those killed and still missing after flash flooding at the Grand Canyon",
+      "alert_summary": "Flash flooding struck the Grand Canyon's Bright Angel Canyon area on August 29, 2026, killing 2 people and prompting air evacuation of more than 60 others."
+    },
+    {
+      "wp_id": 10840,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-colombia-08-28-2026-magnitude-7-2/",
+      "date": "2026-09-02T05:39:25",
+      "title": "Earthquake in Colombia 08/28/2026 — Magnitude 7",
+      "body": "The earthquake damaged educational infrastructure across 15 departments and 496 municipalities. Nearly 178,000 students attend schools with serious structural damage. In Chocó, rural schools were completely destroyed, ot",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Earthquake",
+      "lat": 4.297305,
+      "lng": -75.83897,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/08/1168224",
+      "prayer": "Children displaced from school in earthquake-affected Colombia at risk in conflict zones; families rebuilding across 15 departments",
+      "alert_summary": "A magnitude 7 earthquake on August 10 killed 331 people, injured 4,449, and affected over 406,000 across Colombia; damage to 3,800 schools disrupted education for more than one million students."
+    },
+    {
+      "wp_id": 10839,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-china-08-26-2026-2/",
+      "date": "2026-09-02T05:38:21",
+      "title": "Flood in China 08/26/2026",
+      "body": "On August 26, a catastrophic flash flood and mudslide swept through the China-Nepal border region, destroying Gyirong Port, a major trade hub. Hundreds were killed and thousands were reported missing in Nepal, with damag",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Flood",
+      "lat": 35.486703,
+      "lng": 101.901875,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/how-china-buried-tibet-flood-images-after-nepal-disaster/a-78576472?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Survivors and missing persons along the China-Nepal border following a catastrophic flash flood and mudslide",
+      "alert_summary": "A flash flood and mudslide on August 26 destroyed Gyirong Port on the China-Nepal border; hundreds dead and thousands missing reported in Nepal."
+    },
+    {
+      "wp_id": 10838,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-01-2026/",
+      "date": "2026-09-02T05:36:44",
+      "title": "Flood in Nepal 09/01/2026",
+      "body": "On the morning of September 1, 2026, a section of glacier collapsed in the mountains above the Nepal-China border, triggering a torrent of water, mud, boulders, ice and rock that reached the Rasuwagadhi border crossing i",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c0qxw1qw3g7o?at_medium=RSS&at_campaign=rss",
+      "prayer": "More than 100 Indian nationals missing at Nepal-China border after glacial collapse triggered devastating flood",
+      "alert_summary": "Glacier collapse triggered a flood that swept through the Rasuwagadhi border crossing on September 1; more than 100 Indians are missing."
+    },
+    {
+      "wp_id": 10837,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-01-2026/",
+      "date": "2026-09-02T05:35:02",
+      "title": "Drought in Russia 09/01/2026",
+      "body": "Water levels on the Pechora River at Ust-Tsylma and on the Usa River at Petrun have dropped below the thresholds that limit safe navigation. Meteorologists describe this as a recurring seasonal low-water period — known i",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 65.11422,
+      "lng": 57.167133,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260901100222-0253900.xml",
+      "prayer": "River communities in Russia's Komi Republic where low water levels are limiting river transport",
+      "alert_summary": "Water levels on the Pechora and Usa rivers fell below navigation thresholds at two gauge stations in Russia's Komi Republic"
+    },
+    {
+      "wp_id": 10836,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-09-02-2026/",
+      "date": "2026-09-02T05:30:30",
+      "title": "Flood in Russia 09/02/2026",
+      "body": "As of September 2, 2026, the Middle Amur River between the villages of Leninskoe and Nizhnespaskoe is experiencing elevated water levels. Water levels in the \"unfavorable phenomenon\" category have been recorded on the Mi",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 44.000976,
+      "lng": 131.86528,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260902023212-0254025.xml",
+      "prayer": "Residents along the Middle Amur River in Russia's Far East living amid rising floodwaters",
+      "alert_summary": "Flooding inundated the Amur River floodplain between Nagibovo and Nizhnespaskoe villages to depths of up to 2.2 metres; no casualty figure reported."
+    },
+    {
+      "wp_id": 10835,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-08-28-2026-magnitude-5/",
+      "date": "2026-09-02T05:26:59",
+      "title": "Earthquake in Papua New Guinea 08/28/2026 — Magnitude 5",
+      "body": "On August 29, 2026, a magnitude 5 earthquake struck 191 km east-southeast of Kimbe, Papua New Guinea. No injuries, deaths, or displacement figures have been reported at this time. Papua New Guinea sits within a region sh",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.211,
+      "lng": 151.7381,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcp5",
+      "prayer": "People near Kimbe, Papua New Guinea, after a magnitude 5 earthquake in a seismically active region",
+      "alert_summary": "Magnitude 5 earthquake struck 191 km ESE of Kimbe, Papua New Guinea; no casualty figures reported."
+    },
+    {
+      "wp_id": 10834,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-08-30-2026-magnitude-6/",
+      "date": "2026-09-02T05:26:13",
+      "title": "Earthquake in New Zealand 08/30/2026 — Magnitude 6",
+      "body": "On August 30, 2026, a magnitude 5.8 earthquake struck the Kermadec Islands, New Zealand. The earthquake occurred at a depth of approximately 35 km. The reported location was the Kermadec Islands, and earthquake parameter",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -30.1462,
+      "lng": -177.8882,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxn",
+      "prayer": "Kermadec Islands communities and any affected residents following the August 30 earthquake",
+      "alert_summary": "Magnitude 5.8 earthquake struck the Kermadec Islands at about 35 km depth; no casualty figures reported."
+    },
+    {
+      "wp_id": 10833,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-09-01-2026-magnitude-5/",
+      "date": "2026-09-02T05:25:06",
+      "title": "Earthquake in Vanuatu 09/01/2026 — Magnitude 5",
+      "body": "On September 1, 2026, a magnitude 5.0 earthquake struck near Isangel in Tafea Province, Vanuatu, at a depth of 122 kilometers. The epicenter was located approximately 118 km SSE of Isangel, placing it well offshore. No c",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -19.541086,
+      "lng": 169.281088,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdey",
+      "prayer": "Residents of Tafea Province, Vanuatu, following an offshore earthquake with no reported impact",
+      "alert_summary": "Magnitude 5 earthquake struck 118 km SSE of Isangel, Vanuatu; no casualties or damage reported."
+    },
+    {
+      "wp_id": 10832,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-02-2026-magnitude-6/",
+      "date": "2026-09-02T05:24:44",
+      "title": "Earthquake in Indonesia 09/02/2026 — Magnitude 6",
+      "body": "On September 1, 2026, a magnitude 5.6 earthquake struck approximately 159 kilometers west-southwest of Abepura, in Papua, Indonesia, at a depth of about 69 kilometers. At that depth, shaking at the surface is typically l",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -3.2239,
+      "lng": 139.3456,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhl",
+      "prayer": "Communities near Abepura, Papua, Indonesia, following an offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck 159 km WSW of Abepura, Indonesia; no casualties or damage reported."
+    },
     {
       "wp_id": 10642,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-08-30-2026/",
