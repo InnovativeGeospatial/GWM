@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-02T05:50:08.875402+00:00",
-  "count": 1137,
+  "updated": "2026-09-04T22:41:57.952442+00:00",
+  "count": 1146,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10954,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-02-2026/",
+      "date": "2026-09-04T22:40:44",
+      "title": "Flood in India 09/02/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943
+    },
+    {
+      "wp_id": 10953,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-03-2026/",
+      "date": "2026-09-04T22:35:10",
+      "title": "Flood in United States 09/03/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 41.241535,
+      "lng": -77.003555
+    },
+    {
+      "wp_id": 10952,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-04-2026/",
+      "date": "2026-09-04T22:32:25",
+      "title": "Flood in Nepal 09/04/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.131453,
+      "lng": 83.89468
+    },
+    {
+      "wp_id": 10951,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-09-03-2026/",
+      "date": "2026-09-04T22:30:08",
+      "title": "Volcano in Indonesia 09/03/2026",
+      "country": "Indonesia",
+      "type": "Volcano",
+      "lat": 3.101017,
+      "lng": 98.489136
+    },
+    {
+      "wp_id": 10950,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-04-2026/",
+      "date": "2026-09-04T22:29:21",
+      "title": "Drought in Russia 09/04/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 46.084686,
+      "lng": 38.969425
+    },
+    {
+      "wp_id": 10949,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-01-2026-magnitude-6/",
+      "date": "2026-09-04T22:25:19",
+      "title": "Earthquake in Indonesia 09/01/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 0.1685,
+      "lng": 128.8054
+    },
+    {
+      "wp_id": 10948,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-09-04-2026-magnitude-5/",
+      "date": "2026-09-04T22:21:51",
+      "title": "Earthquake in New Zealand 09/04/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -28.5616,
+      "lng": -176.6452
+    },
+    {
+      "wp_id": 10947,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-03-2026-magnitude-6/",
+      "date": "2026-09-04T22:21:08",
+      "title": "Earthquake in United States 09/03/2026 — Magnitude 6",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 52.939177,
+      "lng": -168.861013
+    },
+    {
+      "wp_id": 10946,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-09-03-2026-magnitude-5/",
+      "date": "2026-09-04T22:20:46",
+      "title": "Earthquake in China 09/03/2026 — Magnitude 5",
+      "country": "China",
+      "type": "Earthquake",
+      "lat": 31.77906,
+      "lng": 104.734055
+    },
     {
       "wp_id": 10841,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-01-2026/",
