@@ -1,9 +1,129 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-02T05:57:18.661362+00:00",
-  "count": 597,
+  "updated": "2026-09-04T22:49:04.460167+00:00",
+  "count": 609,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 10959,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-lawyer-who-defended-underground-house-church-flees-to-taiwan-seeking-asylum-after-state-pressure/",
+      "date": "2026-09-04T22:48:53",
+      "title": "Lawyer for Underground Church Flees China Under State Pressure, Seeks Asylum",
+      "country": "china",
+      "type": "displacement",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10956,
+      "wp_link": "https://globalwitnessmonitor.com/two-christians-arrested-on-blasphemy-charges-in-pakistan-weeks-apart/",
+      "date": "2026-09-04T22:48:31",
+      "title": "Two Christians Arrested Under Pakistan's Blasphemy Laws in Separate Incidents",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10970,
+      "wp_link": "https://globalwitnessmonitor.com/gang-massacres-dozens-sheltering-in-church-kidnaps-over-50-in-haiti/",
+      "date": "2026-09-04T22:48:17",
+      "title": "Gang Massacres Dozens Sheltering in Church, Kidnaps Over 50 in Haiti",
+      "country": "haiti",
+      "type": "killing",
+      "lat": 19.0,
+      "lng": -72.3
+    },
+    {
+      "wp_id": 10964,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-junta-executes-pastor-and-fellow-christian-after-weeks-in-detention/",
+      "date": "2026-09-04T22:47:53",
+      "title": "Myanmar Military Executes Baptist Pastor and Fellow Christian After Month in Detention",
+      "country": "myanmar",
+      "type": "killing",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 10966,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-executed-during-abduction-as-second-captive-remains-held-for-ransom/",
+      "date": "2026-09-04T22:46:54",
+      "title": "Pastor Executed During Abduction as Second Captive Remains Held for Ransom",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10965,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-terrorists-execute-pastor-during-abduction-in-nigeria-despite-wifes-pleas/",
+      "date": "2026-09-04T22:46:36",
+      "title": "Islamist Terrorists Execute Pastor During Abduction in Nigeria Despite Wife's Pleas",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 10963,
+      "wp_link": "https://globalwitnessmonitor.com/two-believers-abducted-by-boko-haram-militants-in-northern-cameroon/",
+      "date": "2026-09-04T22:45:55",
+      "title": "Two Believers Abducted by Boko Haram Militants in Northern Cameroon",
+      "country": "cameroon",
+      "type": "arrest",
+      "lat": 3.9,
+      "lng": 12.4
+    },
+    {
+      "wp_id": 10962,
+      "wp_link": "https://globalwitnessmonitor.com/christian-family-freed-from-11-years-of-alleged-bonded-labor-at-pakistani-brick-kiln/",
+      "date": "2026-09-04T22:45:31",
+      "title": "Christian Family Freed from 11 Years of Alleged Bonded Labor at Pakistani Brick Kiln",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 10960,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-detain-pastor-for-seven-days/",
+      "date": "2026-09-04T22:44:53",
+      "title": "Chinese Authorities Raid House Church, Detain Pastor for Seven Days",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10958,
+      "wp_link": "https://globalwitnessmonitor.com/sudanese-pastors-son-held-over-a-year-despite-repeated-findings-of-innocence/",
+      "date": "2026-09-04T22:43:54",
+      "title": "Sudanese Pastor's Son Held Over a Year Despite Repeated Findings of Innocence",
+      "country": "sudan",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 10957,
+      "wp_link": "https://globalwitnessmonitor.com/elderly-chinese-pastor-remains-missing-months-after-arrest-family-has-no-information/",
+      "date": "2026-09-04T22:43:39",
+      "title": "Elderly Chinese Pastor Remains Missing Months After Arrest, Family Has No Information",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 10955,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-background-convert-in-uganda-beaten-by-five-sons-after-leaving-islam/",
+      "date": "2026-09-04T22:43:06",
+      "title": "Muslim-Background Convert in Uganda Beaten by Five Sons After Leaving Islam",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
     {
       "wp_id": 10858,
       "wp_link": "https://globalwitnessmonitor.com/pastor-killed-after-abduction-by-armed-militants-second-clergyman-remains-in-captivity/",
