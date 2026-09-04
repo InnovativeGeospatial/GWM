@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-02T05:50:06.962419+00:00",
-  "count": 921,
+  "updated": "2026-09-04T22:41:55.960684+00:00",
+  "count": 930,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 10954,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-02-2026/",
+      "date": "2026-09-04T22:40:44",
+      "title": "Flood in India 09/02/2026",
+      "body": "As of September 2–3, 2026, flooding persisted across Uttar Pradesh, with 16,784 people evacuated to safety — including 3,042 rescued in a single day — as 23 districts remained affected out of 35 impacted so far. Three pe",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNckhpdzFmbDFRVURJYlFOUmlxLXFGXzFsNEpvRHZldFJJRUxLOGdoSmlIYjN4QUI3XzMxOGN3OUdYOVFTa3NIbzhGNk05QmZ3dllkOUVFejJQUTR1RkF3RGR3alNjNVlfM2VUdkt3dVZreHpLM2dpWnBxZHVyeGNERjhHaURfQTBVZTlVRllBUlJNd2ZrNDBKajc5QWd3UWkwTjFjbXlDVdIBrwFBVV95cUxPdWRMMlVWSk9VelNMNFJxU1hCTEhGNzVzRVJDWkxhVmZWWkN3dmVXLUNXNnF2YmY5cTVmRzJ4WU5CdEh5Snl1dndnWVpVLURCQTlGRkplVVJ0RGphR3M3a2xGdm9WYmwwY0NnWWlYbHNiZ1pTalFKWU5NRXgyQktpdFpiTEdFXzRlVTkwd1VNNkZwOWtqNVUyR21TZUtPazNobTR6R0p3bS1DQjc0ell3?oc=5",
+      "prayer": "Families across 23 flood-hit districts of Uttar Pradesh, including those who lost loved ones",
+      "alert_summary": "Monsoon flooding in Uttar Pradesh killed 3 people and forced evacuation of over 16,784 residents across 23 districts."
+    },
+    {
+      "wp_id": 10953,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-03-2026/",
+      "date": "2026-09-04T22:35:10",
+      "title": "Flood in United States 09/03/2026",
+      "body": "A downpour overnight dropping 4 to 7 inches of rain caused flash flooding in parts of Lycoming and Clinton counties in Pennsylvania. No injuries were reported, though at least two families in South Williamsport were affe",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 41.241535,
+      "lng": -77.003555,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX1Iwb2VwVmVlejhpZ3VWT2d1SVg1MktuMDJnMjFEd3ZxcV9NUHpTMHlrXy1FYWEzNkNydlpNNWZraGxvZGRKY05ycjYyTnlhbE83MGdqbGNTT0k5M0M1OHhnYXpISXdqRWlZMzZydmpRV2dYVEZRbUt5TEtRWkgwSEZ6aEVuell6NHRYSkU3amg?oc=5",
+      "prayer": "Families in Lycoming County, Pennsylvania, displaced and affected by flash flooding after a heavy overnight downpour",
+      "alert_summary": "Flash flooding struck parts of Lycoming and Clinton counties after 4 to 7 inches of rain fell overnight; no injuries reported."
+    },
+    {
+      "wp_id": 10952,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-04-2026/",
+      "date": "2026-09-04T22:32:25",
+      "title": "Flood in Nepal 09/04/2026",
+      "body": "On August 26, a glacier on the border between Nepal and Tibet collapsed, triggering catastrophic floods across northern Nepal. The disaster has claimed more than 1,250 lives, left thousands missing, and affected 84,270 p",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 28.131453,
+      "lng": 83.89468,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/09/1168281",
+      "prayer": "More than 84,000 Nepalis affected by glacier-triggered floods; thousands missing and over 1,250 dead",
+      "alert_summary": "Glacier collapse on August 26 triggered floods in Nepal killing over 1,250 people and affecting 84,270 residents across three northern regions."
+    },
+    {
+      "wp_id": 10951,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-09-03-2026/",
+      "date": "2026-09-04T22:30:08",
+      "title": "Volcano in Indonesia 09/03/2026",
+      "body": "On August 31, 2026, Mount Sinabung in Karo district, North Sumatra, erupted at 10:17 a.m. local time, sending a thick black ash column 3,500 meters above the summit toward the east and southeast. There were no immediate ",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Volcano",
+      "lat": 3.101017,
+      "lng": 98.489136,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000147",
+      "prayer": "Residents of Karo district, North Sumatra, living under ash fall as Mount Sinabung erupts after years of quiet",
+      "alert_summary": "Mount Sinabung erupted on August 31, 2026, sending an ash column 3,500 meters above the summit over Karo district, North Sumatra; no casualties reported."
+    },
+    {
+      "wp_id": 10950,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-04-2026/",
+      "date": "2026-09-04T22:29:21",
+      "title": "Drought in Russia 09/04/2026",
+      "body": "On September 4, 2026, Russian meteorological authorities issued a hazardous-phenomenon alert for an ongoing atmospheric drought affecting parts of Krasnodar Krai in southern Russia. The drought is present in several nort",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 46.084686,
+      "lng": 38.969425,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260904110215-0254870.xml",
+      "prayer": "Farmers and rural communities across drought-affected districts of Krasnodar Krai, Russia",
+      "alert_summary": "Atmospheric drought persists across five districts of Krasnodar Krai; no casualty or displacement figure reported."
+    },
+    {
+      "wp_id": 10949,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-01-2026-magnitude-6/",
+      "date": "2026-09-04T22:25:19",
+      "title": "Earthquake in Indonesia 09/01/2026 — Magnitude 6",
+      "body": "On September 1, 2026, a magnitude 5.6 earthquake struck 82 km southeast of Maba, Indonesia. The depth was recorded at approximately 10 kilometers — shallow enough that shaking can be felt at the surface over a wide area.",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 0.1685,
+      "lng": 128.8054,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdav",
+      "prayer": "Residents near Maba, Indonesia following a shallow offshore earthquake with no immediate damage reports",
+      "alert_summary": "Magnitude 5.6 earthquake struck 82 km southeast of Maba, Indonesia; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 10948,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-09-04-2026-magnitude-5/",
+      "date": "2026-09-04T22:21:51",
+      "title": "Earthquake in New Zealand 09/04/2026 — Magnitude 5",
+      "body": "A magnitude 5.4 earthquake occurred in the Kermadec Islands region, at a shallow depth of approximately 10 kilometers. The Kermadec Islands are a remote, uninhabited New Zealand territory in the southwestern Pacific Ocea",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -28.5616,
+      "lng": -176.6452,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te9t",
+      "prayer": "Kermadec Islands region shaken by a magnitude 5 earthquake in a remote Pacific zone",
+      "alert_summary": "Magnitude 5 earthquake struck the Kermadec Islands region; no casualties or damage reported."
+    },
+    {
+      "wp_id": 10947,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-03-2026-magnitude-6/",
+      "date": "2026-09-04T22:21:08",
+      "title": "Earthquake in United States 09/03/2026 — Magnitude 6",
+      "body": "On September 3, 2026, a magnitude 6.3 earthquake struck 84 km (52 miles) south-southwest of Nikolski, Alaska. The earthquake had a depth of about 35 kilometers (22 miles). Nikolski itself has a population of only 18 peop",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.939177,
+      "lng": -168.861013,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvt",
+      "prayer": "Residents near the Aleutian Islands after a magnitude 6 earthquake struck off the Alaska coast",
+      "alert_summary": "A magnitude 6.3 earthquake struck 84 km south-southwest of Nikolski, Alaska on September 3, 2026; no damage or tsunami threat was reported."
+    },
+    {
+      "wp_id": 10946,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-09-03-2026-magnitude-5/",
+      "date": "2026-09-04T22:20:46",
+      "title": "Earthquake in China 09/03/2026 — Magnitude 5",
+      "body": "A magnitude 5.4 earthquake struck approximately 22 km from Jiangyou, in Sichuan Province, China, on September 3, 2026, in the late afternoon local time. The quake was recorded at a depth of 10 km. No casualties or damage",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Earthquake",
+      "lat": 31.77906,
+      "lng": 104.734055,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6",
+      "prayer": "Residents near Jiangyou, Sichuan, shaken by a magnitude 5 earthquake with no confirmed casualty reports yet",
+      "alert_summary": "Magnitude 5 earthquake struck about 21 km from Jiangyou, Sichuan, China; no casualty figures reported."
+    },
     {
       "wp_id": 10841,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-01-2026/",
