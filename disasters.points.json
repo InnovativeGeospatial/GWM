@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-04T22:41:57.952442+00:00",
-  "count": 1146,
+  "updated": "2026-09-07T15:43:50.830582+00:00",
+  "count": 1158,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11066,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-albania-09-04-2026/",
+      "date": "2026-09-07T15:43:26",
+      "title": "Wildfire in Albania 09/04/2026",
+      "country": "Albania",
+      "type": "Wildfire",
+      "lat": 40.107997,
+      "lng": 19.757275
+    },
+    {
+      "wp_id": 11065,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-06-2026/",
+      "date": "2026-09-07T15:41:22",
+      "title": "Wildfire in United States 09/06/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 33.201585,
+      "lng": -117.243442
+    },
+    {
+      "wp_id": 11064,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-07-2026/",
+      "date": "2026-09-07T15:36:13",
+      "title": "Flood in India 09/07/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943
+    },
+    {
+      "wp_id": 11063,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-05-2026/",
+      "date": "2026-09-07T15:35:11",
+      "title": "Flood in Nepal 09/05/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548
+    },
+    {
+      "wp_id": 11062,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-china-09-07-2026/",
+      "date": "2026-09-07T15:31:48",
+      "title": "Storm in China 09/07/2026",
+      "country": "China",
+      "type": "Storm",
+      "lat": 35.486703,
+      "lng": 101.901875
+    },
+    {
+      "wp_id": 11061,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo/",
+      "date": "2026-09-07T15:31:17",
+      "title": "Disease in Congo",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 11060,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-09-05-2026/",
+      "date": "2026-09-07T15:30:24",
+      "title": "Volcano in Indonesia 09/05/2026",
+      "country": "Indonesia",
+      "type": "Volcano",
+      "lat": -6.1009,
+      "lng": 105.4233
+    },
+    {
+      "wp_id": 11059,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-02-2026-magnitude-5/",
+      "date": "2026-09-07T15:26:33",
+      "title": "Earthquake in Papua New Guinea 09/02/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -7.1321,
+      "lng": 146.175
+    },
+    {
+      "wp_id": 11058,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-kingdom-09-02-2026-magnitude-6/",
+      "date": "2026-09-07T15:25:44",
+      "title": "Earthquake in United Kingdom 09/02/2026 — Magnitude 6",
+      "country": "United Kingdom",
+      "type": "Earthquake",
+      "lat": -56.2062,
+      "lng": -27.9085
+    },
+    {
+      "wp_id": 11057,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-09-04-2026-magnitude-5-2/",
+      "date": "2026-09-07T15:23:27",
+      "title": "Earthquake in New Zealand 09/04/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -28.5616,
+      "lng": -176.6452
+    },
+    {
+      "wp_id": 11056,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-05-2026-magnitude-5/",
+      "date": "2026-09-07T15:22:09",
+      "title": "Earthquake in Indonesia 09/05/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 1.738995,
+      "lng": 98.7804
+    },
+    {
+      "wp_id": 11055,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-07-2026-magnitude-5/",
+      "date": "2026-09-07T15:21:04",
+      "title": "Earthquake in United States 09/07/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 45.516452,
+      "lng": -123.643163
+    },
     {
       "wp_id": 10954,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-02-2026/",
