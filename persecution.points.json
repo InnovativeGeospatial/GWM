@@ -1,9 +1,89 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-04T22:49:04.460167+00:00",
-  "count": 609,
+  "updated": "2026-09-07T15:48:36.741994+00:00",
+  "count": 617,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11074,
+      "wp_link": "https://globalwitnessmonitor.com/three-christian-leaders-killed-in-ambush-in-india-no-arrests-after-100-days/",
+      "date": "2026-09-07T15:48:30",
+      "title": "Three Christian Leaders Killed in Ambush in India; No Arrests After 100+ Days",
+      "country": "india",
+      "type": "killing",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 11073,
+      "wp_link": "https://globalwitnessmonitor.com/six-christians-imprisoned-after-hindu-mob-raids-prayer-gathering-in-eastern-india/",
+      "date": "2026-09-07T15:48:08",
+      "title": "Six Christians Imprisoned After Hindu Mob Raids Prayer Gathering in Eastern India",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 11072,
+      "wp_link": "https://globalwitnessmonitor.com/christian-defense-lawyer-flees-china-after-authorities-threaten-to-dissolve-her-firm/",
+      "date": "2026-09-07T15:47:47",
+      "title": "Christian Defense Lawyer Flees China After Authorities Threaten to Dissolve Her Firm",
+      "country": "china",
+      "type": "displacement",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11071,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-detain-leader-for-seven-days/",
+      "date": "2026-09-07T15:47:23",
+      "title": "Chinese Authorities Raid House Church, Detain Leader for Seven Days",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11070,
+      "wp_link": "https://globalwitnessmonitor.com/three-die-in-captivity-as-nigerias-easter-church-abduction-crisis-deepens-five-months-on/",
+      "date": "2026-09-07T15:46:54",
+      "title": "Three die in captivity as Nigeria's Easter church abduction crisis deepens five months on",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11069,
+      "wp_link": "https://globalwitnessmonitor.com/christian-pastor-sentenced-to-two-years-under-indonesias-blasphemy-law-over-tiktok-video/",
+      "date": "2026-09-07T15:46:28",
+      "title": "Christian Pastor Sentenced to Two Years Under Indonesia's Blasphemy Law Over TikTok Video",
+      "country": "indonesia",
+      "type": "arrest",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 11068,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-33-christian-ministers-killed-over-130-arrested-in-iran-crackdown/",
+      "date": "2026-09-07T15:46:06",
+      "title": "At Least 33 Christian Ministers Killed, Over 130 Arrested in Iran Crackdown",
+      "country": "iran",
+      "type": "killing",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 11067,
+      "wp_link": "https://globalwitnessmonitor.com/christian-pro-democracy-activist-faces-life-sentence-after-second-national-security-guilty-plea-in-hong-kong/",
+      "date": "2026-09-07T15:45:30",
+      "title": "Christian pro-democracy activist faces life sentence after second national security guilty plea in Hong Kong",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
     {
       "wp_id": 10959,
       "wp_link": "https://globalwitnessmonitor.com/chinese-lawyer-who-defended-underground-house-church-flees-to-taiwan-seeking-asylum-after-state-pressure/",
