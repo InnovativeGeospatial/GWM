@@ -1,9 +1,319 @@
 {
   "feed": "conflict",
-  "updated": "2026-09-04T23:32:50.037231+00:00",
-  "count": 1958,
+  "updated": "2026-09-07T16:38:04.678633+00:00",
+  "count": 1989,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11078,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kfar-roummane-nabatieh-district/",
+      "date": "2026-09-07T16:37:55",
+      "title": "Armed Conflict in Kfar Rumman",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 33.3898,
+      "lng": 35.5033
+    },
+    {
+      "wp_id": 11075,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-deir-el-balah-3/",
+      "date": "2026-09-07T16:37:32",
+      "title": "Armed Conflict in Gaza City",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.4174,
+      "lng": 34.3511
+    },
+    {
+      "wp_id": 11152,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-suwayda/",
+      "date": "2026-09-07T16:36:42",
+      "title": "Armed Conflict in Suwayda",
+      "country": "Syria",
+      "type": "Armed Conflict",
+      "lat": 32.709388,
+      "lng": 36.56875
+    },
+    {
+      "wp_id": 11143,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kuhestak/",
+      "date": "2026-09-07T16:36:14",
+      "title": "Armed Conflict in Strait of Hormuz",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 26.8025,
+      "lng": 57.0261
+    },
+    {
+      "wp_id": 11150,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khan-bani-saad-district-diyala/",
+      "date": "2026-09-07T16:35:52",
+      "title": "Armed Conflict in Khan Bani Saad district, Diyala",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 33.569909,
+      "lng": 44.544798
+    },
+    {
+      "wp_id": 11076,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-jawf-2/",
+      "date": "2026-09-07T16:33:17",
+      "title": "Armed Conflict in Al-Jawf",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 16.1634,
+      "lng": 44.7766
+    },
+    {
+      "wp_id": 11144,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-erbil-4/",
+      "date": "2026-09-07T16:32:58",
+      "title": "Armed Conflict in Erbil",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 36.182917,
+      "lng": 44.00976
+    },
+    {
+      "wp_id": 11138,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ponnagyun-township-arakan/",
+      "date": "2026-09-07T16:29:41",
+      "title": "Armed Conflict in Ponnagyun Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.3319,
+      "lng": 93.0044
+    },
+    {
+      "wp_id": 11140,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-southern-ponnagyun-township/",
+      "date": "2026-09-07T16:29:11",
+      "title": "Displacement in southern Ponnagyun Township",
+      "country": "Myanmar",
+      "type": "Displacement",
+      "lat": 20.331856,
+      "lng": 93.00443
+    },
+    {
+      "wp_id": 11139,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pantawgyi-village-lay-myint-township-ayeyarwady-region/",
+      "date": "2026-09-07T16:26:07",
+      "title": "Armed Conflict in Pantawgyi village, Lay Myint Township, Ayeyarwady Region",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 16.783333,
+      "lng": 94.733333
+    },
+    {
+      "wp_id": 11137,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chin-state-2/",
+      "date": "2026-09-07T16:25:16",
+      "title": "Armed Conflict in Chin State",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 22.642755,
+      "lng": 93.609622
+    },
+    {
+      "wp_id": 11125,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buula-fulaay-bay-region/",
+      "date": "2026-09-07T16:24:44",
+      "title": "Armed Conflict in Doolow, Gedo region",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 3.0463,
+      "lng": 43.301
+    },
+    {
+      "wp_id": 11123,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-doolow-gedo-region/",
+      "date": "2026-09-07T16:24:19",
+      "title": "Civil Unrest in Kismayo",
+      "country": "Somalia",
+      "type": "Civil Unrest",
+      "lat": 4.1637,
+      "lng": 42.0762
+    },
+    {
+      "wp_id": 11127,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-baidoa-6/",
+      "date": "2026-09-07T16:20:28",
+      "title": "Armed Conflict in Baidoa",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.7864,
+      "lng": 47.3259
+    },
+    {
+      "wp_id": 11126,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sanka-north-wollo-zone/",
+      "date": "2026-09-07T16:18:21",
+      "title": "Armed Conflict in Sanka, North Wollo zone",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 11.896153,
+      "lng": 39.458668
+    },
+    {
+      "wp_id": 11122,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-lubumbashi/",
+      "date": "2026-09-07T16:14:54",
+      "title": "Civil Unrest in Lubumbashi",
+      "country": "Congo",
+      "type": "Civil Unrest",
+      "lat": -11.671,
+      "lng": 27.482
+    },
+    {
+      "wp_id": 11120,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tangaza-sokoto-state/",
+      "date": "2026-09-07T16:13:15",
+      "title": "Armed Conflict in Tangaza, Sokoto State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 13.368443,
+      "lng": 4.937881
+    },
+    {
+      "wp_id": 11119,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tillaberi/",
+      "date": "2026-09-07T16:12:28",
+      "title": "Armed Conflict in Tillabéri",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 14.209013,
+      "lng": 1.454601
+    },
+    {
+      "wp_id": 11118,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dourtenga-2/",
+      "date": "2026-09-07T16:11:50",
+      "title": "Armed Conflict in Dourtenga",
+      "country": "Burkina Faso",
+      "type": "Armed Conflict",
+      "lat": 11.588589,
+      "lng": -0.010875
+    },
+    {
+      "wp_id": 11113,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-niamey-5/",
+      "date": "2026-09-07T16:11:20",
+      "title": "Coup/Crisis in Niamey",
+      "country": "Niger",
+      "type": "Coup or Crisis",
+      "lat": 13.5248,
+      "lng": 2.1098
+    },
+    {
+      "wp_id": 11105,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kareto-gubio-kareto-damasak-highway/",
+      "date": "2026-09-07T16:08:49",
+      "title": "Armed Conflict in Kareto-Damasak highway, Borno State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.778,
+      "lng": 9.5538
+    },
+    {
+      "wp_id": 11098,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kopre-mountain-hong-local-government-area-adamawa-state/",
+      "date": "2026-09-07T16:07:40",
+      "title": "Armed Conflict in Zaranga village, Gombi Local Government Area",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.2311,
+      "lng": 12.9299
+    },
+    {
+      "wp_id": 11107,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kareto-damasak-road-northern-borno/",
+      "date": "2026-09-07T16:05:11",
+      "title": "Armed Conflict in Kareto–Damasak Road, northern Borno",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.505774,
+      "lng": 7.426508
+    },
+    {
+      "wp_id": 11095,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maiduguri-borno-state/",
+      "date": "2026-09-07T16:03:51",
+      "title": "Armed Conflict in North-East",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.8397,
+      "lng": 13.1543
+    },
+    {
+      "wp_id": 11099,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sambisa-forest-chingolo-axis-bama-local-government-area/",
+      "date": "2026-09-07T16:03:00",
+      "title": "Armed Conflict in Chingolo axis, Bama Local Government Area, Sambisa Forest",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.5299,
+      "lng": 13.6863
+    },
+    {
+      "wp_id": 11096,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-abuja-5/",
+      "date": "2026-09-07T16:02:32",
+      "title": "Armed Conflict in Kukawa",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.0735,
+      "lng": 7.4757
+    },
+    {
+      "wp_id": 11100,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-plateau-and-benue-states/",
+      "date": "2026-09-07T16:02:06",
+      "title": "Armed Conflict in Plateau and Benue states",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 7.731263,
+      "lng": 8.538425
+    },
+    {
+      "wp_id": 11083,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ocana-norte-de-santander/",
+      "date": "2026-09-07T15:59:03",
+      "title": "Armed Conflict in Ocaña, Norte de Santander",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 8.2348,
+      "lng": -73.3535
+    },
+    {
+      "wp_id": 11080,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-ojocaliente-zacatecas-3/",
+      "date": "2026-09-07T15:54:21",
+      "title": "Armed Conflict in Tocumbo, Michoacán",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 22.5724,
+      "lng": -102.2525
+    },
+    {
+      "wp_id": 11079,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-18/",
+      "date": "2026-09-07T15:53:07",
+      "title": "Armed Conflict in Kyiv",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.450034,
+      "lng": 30.524136
+    },
+    {
+      "wp_id": 11077,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kordofan-blue-nile-north-darfur-south-darfur-khartoum/",
+      "date": "2026-09-07T15:51:53",
+      "title": "Armed Conflict in Kordofan, Blue Nile, North Darfur, South Darfur, Khartoum",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 15.588,
+      "lng": 32.525
+    },
     {
       "wp_id": 10976,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-taiz/",
