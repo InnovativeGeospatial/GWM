@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-07T15:43:50.830582+00:00",
-  "count": 1158,
+  "updated": "2026-09-10T08:44:59.350193+00:00",
+  "count": 1168,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11165,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-10-2026/",
+      "date": "2026-09-10T08:42:31",
+      "title": "Wildfire in United States 09/10/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 34.05194,
+      "lng": -118.47453
+    },
+    {
+      "wp_id": 11164,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-07-2026-2/",
+      "date": "2026-09-10T08:42:12",
+      "title": "Flood in India 09/07/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 25.201756,
+      "lng": 85.52006
+    },
+    {
+      "wp_id": 11163,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-08-2026/",
+      "date": "2026-09-10T08:35:54",
+      "title": "Flood in United States 09/08/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 33.795941,
+      "lng": -118.189261
+    },
+    {
+      "wp_id": 11162,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-japan-09-09-2026/",
+      "date": "2026-09-10T08:34:57",
+      "title": "Flood in Japan 09/09/2026",
+      "country": "Japan",
+      "type": "Flood",
+      "lat": 35.1687,
+      "lng": 136.90338
+    },
+    {
+      "wp_id": 11161,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-10-2026/",
+      "date": "2026-09-10T08:32:43",
+      "title": "Flood in Nepal 09/10/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548
+    },
+    {
+      "wp_id": 11160,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-10-2026/",
+      "date": "2026-09-10T08:28:18",
+      "title": "Drought in Russia 09/10/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 52.537937,
+      "lng": 85.21134
+    },
+    {
+      "wp_id": 11159,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-09-04-2026-magnitude-6/",
+      "date": "2026-09-10T08:24:18",
+      "title": "Earthquake in Russia 09/04/2026 — Magnitude 6",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 44.9418,
+      "lng": 149.9838
+    },
+    {
+      "wp_id": 11158,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-09-05-2026-magnitude-5/",
+      "date": "2026-09-10T08:23:56",
+      "title": "Earthquake in Costa Rica 09/05/2026 — Magnitude 5",
+      "country": "Costa Rica",
+      "type": "Earthquake",
+      "lat": 3.5071,
+      "lng": -83.151
+    },
+    {
+      "wp_id": 11157,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-09-06-2026-magnitude-6/",
+      "date": "2026-09-10T08:23:13",
+      "title": "Earthquake in Solomon Islands 09/06/2026 — Magnitude 6",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174
+    },
+    {
+      "wp_id": 11156,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-09-10-2026-magnitude-5/",
+      "date": "2026-09-10T08:20:50",
+      "title": "Earthquake in Peru 09/10/2026 — Magnitude 5",
+      "country": "Peru",
+      "type": "Earthquake",
+      "lat": -3.873,
+      "lng": -77.5027
+    },
     {
       "wp_id": 11066,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-albania-09-04-2026/",
