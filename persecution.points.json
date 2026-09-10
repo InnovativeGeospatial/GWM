@@ -1,9 +1,169 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-07T15:48:36.741994+00:00",
-  "count": 617,
+  "updated": "2026-09-10T08:52:44.396709+00:00",
+  "count": 633,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11167,
+      "wp_link": "https://globalwitnessmonitor.com/christian-woman-killed-by-muslim-neighbor-after-rejecting-his-advances-in-pakistan/",
+      "date": "2026-09-10T08:52:36",
+      "title": "Christian Woman Shot Dead in Pakistan After Rejecting Neighbor's Advances",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 11183,
+      "wp_link": "https://globalwitnessmonitor.com/lawyer-who-defended-underground-church-members-flees-china-seeks-refuge-abroad/",
+      "date": "2026-09-10T08:52:15",
+      "title": "Lawyer Who Defended Underground Church Members Flees China, Seeks Refuge Abroad",
+      "country": "china",
+      "type": "displacement",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11182,
+      "wp_link": "https://globalwitnessmonitor.com/christian-defense-lawyer-forced-to-flee-china-after-authorities-threaten-to-shut-down-her-firm/",
+      "date": "2026-09-10T08:51:54",
+      "title": "Christian Defense Lawyer Forced to Flee China After Authorities Threaten to Shut Down Her Firm",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11181,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-terrorists-abduct-and-kill-christian-pastor-taunt-his-wife-at-roadside/",
+      "date": "2026-09-10T08:51:32",
+      "title": "Fulani Terrorists Abduct and Kill Christian Pastor, Taunt His Wife at Roadside",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11180,
+      "wp_link": "https://globalwitnessmonitor.com/armed-islamist-assault-on-church-in-northeastern-nigeria-kills-at-least-twelve/",
+      "date": "2026-09-10T08:51:14",
+      "title": "Armed Islamist assault on church in northeastern Nigeria kills at least twelve",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11179,
+      "wp_link": "https://globalwitnessmonitor.com/church-razed-in-late-night-operation-despite-alleged-court-stay-order/",
+      "date": "2026-09-10T08:50:48",
+      "title": "Church razed in late-night operation despite alleged court stay order",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 11178,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-unregistered-house-church-detain-leader-for-seven-days/",
+      "date": "2026-09-10T08:50:26",
+      "title": "Chinese Authorities Raid Unregistered House Church, Detain Leader for Seven Days",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11177,
+      "wp_link": "https://globalwitnessmonitor.com/vietnamese-montagnard-pastor-sentenced-to-7-5-years-for-leading-unregistered-house-church/",
+      "date": "2026-09-10T08:50:08",
+      "title": "Vietnamese Montagnard Pastor Sentenced to 7.5 Years for Leading Unregistered House Church",
+      "country": "vietnam",
+      "type": "arrest",
+      "lat": 14.1,
+      "lng": 108.3
+    },
+    {
+      "wp_id": 11176,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militants-kill-12-christians-and-abduct-schoolgirl-in-seven-hour-night-raid-in-northeast-nigeria/",
+      "date": "2026-09-10T08:49:46",
+      "title": "Islamist Militants Kill 12 Christians and Abduct Schoolgirl in Seven-Hour Night Raid in Northeast Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11175,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-sons-beat-father-for-converting-to-christianity-in-uganda/",
+      "date": "2026-09-10T08:49:22",
+      "title": "Muslim Sons Beat Father for Converting to Christianity in Uganda",
+      "country": "uganda",
+      "type": "displacement",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 11166,
+      "wp_link": "https://globalwitnessmonitor.com/more-than-30-christians-killed-in-wave-of-attacks-across-nigerian-county/",
+      "date": "2026-09-10T08:48:58",
+      "title": "More Than 30 Christians Killed in Month-Long Wave of Attacks in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11173,
+      "wp_link": "https://globalwitnessmonitor.com/mass-disrupted-and-pastor-convicted-amid-pro-life-march-in-uk/",
+      "date": "2026-09-10T08:48:41",
+      "title": "Mass Disrupted and Pastor Convicted Amid Pro-Life March in UK",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 11172,
+      "wp_link": "https://globalwitnessmonitor.com/china-withholds-passport-of-imprisoned-pastor-now-fighting-stage-4-cancer-blocking-return-to-family-in-u-s/",
+      "date": "2026-09-10T08:47:54",
+      "title": "China Withholds Passport of Imprisoned Pastor Now Fighting Stage 4 Cancer, Blocking Return to Family in U.S.",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11171,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-arrested-in-iran-for-faith-and-religious-freedom-advocacy/",
+      "date": "2026-09-10T08:47:21",
+      "title": "Christian Convert Arrested in Iran for Faith and Religious Freedom Advocacy",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 11170,
+      "wp_link": "https://globalwitnessmonitor.com/iranian-convert-sentenced-to-10-years-for-house-church-participation/",
+      "date": "2026-09-10T08:47:10",
+      "title": "Iranian Convert Sentenced to 10 Years for House Church Participation",
+      "country": "iran",
+      "type": "arrest",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 11169,
+      "wp_link": "https://globalwitnessmonitor.com/christian-teenager-beaten-unconscious-after-defending-women-from-religious-harassment-in-pakistan/",
+      "date": "2026-09-10T08:46:56",
+      "title": "Christian Teenager Beaten Unconscious After Defending Women from Religious Harassment in Pakistan",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 11074,
       "wp_link": "https://globalwitnessmonitor.com/three-christian-leaders-killed-in-ambush-in-india-no-arrests-after-100-days/",
