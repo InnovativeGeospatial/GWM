@@ -1,9 +1,189 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-07T15:43:48.891256+00:00",
-  "count": 942,
+  "updated": "2026-09-10T08:44:57.034173+00:00",
+  "count": 952,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 11165,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-10-2026/",
+      "date": "2026-09-10T08:42:31",
+      "title": "Wildfire in United States 09/10/2026",
+      "body": "On September 9, 2026, firefighters responded to a brush fire near the Getty Center in Brentwood, reported just after 4:15 p.m. in the hills above the 405 Freeway. The blaze grew to roughly 25 acres before crews stopped i",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 34.05194,
+      "lng": -118.47453,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82U0VIMnZJS29YaHhmVVZVMWw3dDZfLUhxOVN0LVRZQTlTVEhXRXJtZlhuRzRBaHFEYlp6alpwajd5WU5TVzJSQmFTLUs4WjVXZ3FVd2staWszZ2FUWVBkVVROUHpjVzV5TjlNdDVmWURwY0dJcmdreA?oc=5",
+      "prayer": "Residents in Brentwood and the Sepulveda Pass area under evacuation warnings as a brush fire burns near their homes",
+      "alert_summary": "Brush fire burned approximately 25 acres near the Getty Center in Brentwood, Los Angeles, prompting evacuation warnings for surrounding neighborhoods."
+    },
+    {
+      "wp_id": 11164,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-07-2026-2/",
+      "date": "2026-09-10T08:42:12",
+      "title": "Flood in India 09/07/2026",
+      "body": "More than 4 million people across 514 gram panchayats in 14 districts of Bihar have been affected after the Ganga River broke its own all-time high-water records at three gauge stations at the same time — an event descri",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 25.201756,
+      "lng": 85.52006,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWk45VUUzeWRSOVdmZXgtQmR6YWFQWTRsZkNjbHNqVFk4UGI1RVEzb3J5eXBDNFBBSWVFQktlN0tKYnU5YlM3N21NX0tTeV95NUU1ZzduWlBKN0lkejhFVlliV2RpRmxMbVpNWkM0UUNsRkNFWEtCeEtweXdXMXJfb005QzR6VE1MRGJ5S3haVkRWTXVvMC0tQXczZnZRaTBYQ01JMTRlREFMUUlEV1V4OVVjbFlOeklURkhGaHU2RGYxNER6NDZUZHo1RWxlSms4dlBkbmN3?oc=5",
+      "prayer": "Millions of people across 14 districts of Bihar displaced as the Ganga River reaches record levels",
+      "alert_summary": "Flooding across 14 districts of Bihar has displaced more than 4 million people after the Ganga River broke all-time high-water records at three gauge stations."
+    },
+    {
+      "wp_id": 11163,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-08-2026/",
+      "date": "2026-09-10T08:35:54",
+      "title": "Flood in United States 09/08/2026",
+      "body": "Tropical Storm Marie battered the Southern California coast, with Long Beach among the hardest-hit areas. By Monday, September 7, it was the third straight day of large waves crashing into the seawall in front of the Lon",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 33.795941,
+      "lng": -118.189261,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUtIOUVGV2Z2UFBXVUtiQ3VLSDE0VGx5UHpxVm44TjR6S0xqcURwampHUlNiMVJ2aTBfWWlFZ0lDcFBzcVV2OXJoTmliLU8zRjhSX3psSXBzdFJRMTNHR0NCYjg5ZDB0WU5Pb19UNW5LV0tDRlUyanFvRklXaklPbFFjRmFma0YxUWNpbkZBZDYxZzJ1UG9xMjdCcw?oc=5",
+      "prayer": "Residents of the Long Beach Peninsula displaced after surf and flooding damaged their seawall homes",
+      "alert_summary": "Storm-driven surf and flooding forced evacuation of about 20 homes along the Long Beach Peninsula on September 7, 2026."
+    },
+    {
+      "wp_id": 11162,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-japan-09-09-2026/",
+      "date": "2026-09-10T08:34:57",
+      "title": "Flood in Japan 09/09/2026",
+      "body": "On Tuesday, September 9, 2026, Nagoya received around 104mm of rain in a single hour, flooding streets, rail lines, and reaching some competition venues. The rainfall — the heaviest recorded in the city since 1890 — trig",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Flood",
+      "lat": 35.1687,
+      "lng": 136.90338,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbjBibmdoMHl0U1kwN1BGbl95eTJkNUtuY0tTaHl4ay1MYVVEYVN6QjhCTjNXYkRXTjRoaVB2eUlGbXlVa3JsQnBna1ZwUW85M0NfenMxN09DOXBNdnBkcFBmbE91UVNENUtoblNZRnAzZGFvTkFyQXVUdGVlTWNMaGRDeHUzOTJkaHpBMUNET1Q5UjdrcW5Md25CdWdQT25QOW0waGo1YTluYVJwcWdldzlNRDI4Y0pEYkd0S2h6QWZjdFpkdXB3RFVPSVo?oc=5",
+      "prayer": "Nagoya residents displaced by flooding as the city prepares to host the Asian Games",
+      "alert_summary": "Record rainfall of 104mm in one hour flooded roads and homes across Nagoya, with about 3,500 residents sheltering at evacuation centres."
+    },
+    {
+      "wp_id": 11161,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-10-2026/",
+      "date": "2026-09-10T08:32:43",
+      "title": "Flood in Nepal 09/10/2026",
+      "body": "On August 26, flash floods swept through Syafrubesi, a market town near the Nepal-Tibet border, destroying hotels and homes in minutes. More than 1,200 bodies have been recovered since the disaster, with at least 4,000 p",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/features/2026/9/10/gone-in-a-blink-nepal-floods-sweep-away-indian-workers-who-built-hotels?traffic_source=rss",
+      "prayer": "Indian migrant workers and families in Nepal affected by flash floods in Syafrubesi; at least 4,000 people still missing",
+      "alert_summary": "Flash floods in Syafrubesi on August 26 killed more than 1,200 people; at least 4,000 remain missing and over 13,000 were rescued."
+    },
+    {
+      "wp_id": 11160,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-10-2026/",
+      "date": "2026-09-10T08:28:18",
+      "title": "Drought in Russia 09/10/2026",
+      "body": "As of September 10, 2026, abnormally low water levels continue on two rivers in Russia's Altai Krai region. Critical low water levels have been recorded in Altai and other Russian regions, with the Ob River showing abnor",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 52.537937,
+      "lng": 85.21134,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260910045657-0256281.xml",
+      "prayer": "River communities near Fominskoye and Biysk in Russia's Altai region enduring prolonged low water conditions",
+      "alert_summary": "Low water levels persist on the Ob River near Fominskoye and the Biya River near Biysk, Altai Krai, Russia; no casualty figure reported."
+    },
+    {
+      "wp_id": 11159,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-09-04-2026-magnitude-6/",
+      "date": "2026-09-10T08:24:18",
+      "title": "Earthquake in Russia 09/04/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake occurred approximately 168 kilometers east-southeast of Kuril'sk, in Russia's Kuril Islands chain. No date has been confirmed by available reporting, and no casualties, injuries, or damage figu",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 44.9418,
+      "lng": 149.9838,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx",
+      "prayer": "Residents near the Kuril Islands following a magnitude 5.5 offshore earthquake",
+      "alert_summary": "A magnitude 5.5 earthquake struck 168 km east-southeast of Kuril'sk, Russia; no casualty or displacement figures have been reported."
+    },
+    {
+      "wp_id": 11158,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-09-05-2026-magnitude-5/",
+      "date": "2026-09-10T08:23:56",
+      "title": "Earthquake in Costa Rica 09/05/2026 — Magnitude 5",
+      "body": "A magnitude 5 earthquake occurred off the coast of Central America on September 5, 2026. The epicenter was located in the Pacific Ocean, and the earthquake originated at a depth of 10 kilometers. No felt reports were sub",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Earthquake",
+      "lat": 3.5071,
+      "lng": -83.151,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehe",
+      "prayer": "Coastal communities of Central America after an offshore earthquake with no reported impact",
+      "alert_summary": "Magnitude 5 earthquake struck off the coast of Central America on September 5, 2026; no casualties or damage reported."
+    },
+    {
+      "wp_id": 11157,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-09-06-2026-magnitude-6/",
+      "date": "2026-09-10T08:23:13",
+      "title": "Earthquake in Solomon Islands 09/06/2026 — Magnitude 6",
+      "body": "A magnitude 5.6 earthquake struck about 93 km southeast of Kirakira, Solomon Islands, on September 6, 2026. The earthquake's epicenter was at a depth of approximately 39 km. No injuries, deaths, or displaced persons have",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.456896,
+      "lng": 161.920174,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000temi",
+      "prayer": "Residents of Makira-Ulawa Province, Solomon Islands, after a magnitude 6 earthquake offshore",
+      "alert_summary": "A magnitude 6 earthquake struck 93 km southeast of Kirakira, Solomon Islands on September 6, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 11156,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-09-10-2026-magnitude-5/",
+      "date": "2026-09-10T08:20:50",
+      "title": "Earthquake in Peru 09/10/2026 — Magnitude 5",
+      "body": "A magnitude 5.3 earthquake struck 126 km west-southwest of Alianza Cristiana, Peru. No date has been confirmed by available reporting, and no casualty or damage figures have been reported at this time. The epicenter plac",
+      "country": "Peru",
+      "countries": [
+        "Peru"
+      ],
+      "type": "Earthquake",
+      "lat": -3.873,
+      "lng": -77.5027,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8v",
+      "prayer": "Residents near Alianza Cristiana, Peru, in the wake of an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 126 km west-southwest of Alianza Cristiana, Peru; no casualty figures reported."
+    },
     {
       "wp_id": 11066,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-albania-09-04-2026/",
