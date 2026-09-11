@@ -1344,7 +1344,7 @@ def is_valid_article(article_body):
     return len(article_body.split()) >= MIN_WORDS
 
 
-def fetch_article_body(url, max_chars=6000):
+def fetch_article_body(url, max_chars=4500):
     try:
         from bs4 import BeautifulSoup
     except ImportError:
@@ -1756,6 +1756,36 @@ def format_body_for_wordpress(body_text, prayer=""):
     return "\n\n".join(cleaned)
 
 
+# --- same country+type+event-day duplicate guard (added) ---
+# Collapses the "two Nepal floods same day, different coords/title" case that
+# the coord- and title-based guards miss. At most one <type>-in-<country> per
+# event-day, matching the granularity the generated title already uses.
+_PUBLISHED_DAYKEYS = set()
+
+
+def _day_signature(parsed, item):
+    countries = parsed.get("countries") or []
+    country = (countries[0] if countries else (item.get("country") or "")).strip().lower()
+    dtype = (parsed.get("disaster_type") or "Other").strip().lower()
+    event_day = _to_us_date(item.get("published")) or _to_us_date(parsed.get("event_date"))
+    if not country or not dtype or dtype == "other" or not event_day:
+        return None
+    return (country, dtype, event_day)
+
+
+def _is_same_day_duplicate(sig):
+    if sig is None:
+        return False
+    if sig in _PUBLISHED_DAYKEYS:
+        return True
+    country, dtype, event_day = sig
+    prefix = dtype + " in " + country + " " + event_day
+    for existing in load_recent_wp_titles():
+        if existing.lower().startswith(prefix):
+            return True
+    return False
+
+
 def publish_to_wordpress(item, article_body, parsed=None):
     endpoint = WP_URL + "/wp-json/wp/v2/posts"
     auth = (WP_USER, WP_APP_PASSWORD)
@@ -1797,6 +1827,12 @@ def publish_to_wordpress(item, article_body, parsed=None):
     if is_duplicate_of_existing_wp(candidate_published_title):
         log.info("Skipping (post-Claude WP dedup match): %s",
                  candidate_published_title[:60])
+        return None, None, None, None, None
+
+    _sig = _day_signature(parsed, item)
+    if _is_same_day_duplicate(_sig):
+        log.info("Skipping (same country+type+day already posted): %s",
+                 item["title"][:60])
         return None, None, None, None, None
 
     tag_ids = []
@@ -1868,6 +1904,8 @@ def publish_to_wordpress(item, article_body, parsed=None):
                  clean_title[:60], countries[0], dtype, post_id)
         if _RECENT_WP_TITLES_CACHE is not None:
             _RECENT_WP_TITLES_CACHE.append(clean_title)
+        if _sig:
+            _PUBLISHED_DAYKEYS.add(_sig)
         return post_id, post_link, _final_lat, _final_lng, post_date
     else:
         log.error("Publish failed (%s): %s", r.status_code, r.text[:300])
