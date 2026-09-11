@@ -956,7 +956,7 @@ def is_valid_article(article_body):
     return True
 
 
-def fetch_article_body(url, max_chars=6000):
+def fetch_article_body(url, max_chars=4500):
     try:
         from bs4 import BeautifulSoup
     except ImportError:
