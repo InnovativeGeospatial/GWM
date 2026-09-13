@@ -1,9 +1,379 @@
 {
   "feed": "conflict",
-  "updated": "2026-09-10T13:47:18.156634+00:00",
-  "count": 1950,
+  "updated": "2026-09-13T02:21:39.361152+00:00",
+  "count": 1987,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11353,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-riyadh-and-medina-areas/",
+      "date": "2026-09-13T02:21:31",
+      "title": "Armed Conflict in Bab el-Mandeb Strait",
+      "country": "Saudi Arabia",
+      "type": "Armed Conflict",
+      "lat": 24.6333,
+      "lng": 46.7167
+    },
+    {
+      "wp_id": 11318,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bab-al-mandeb-strait/",
+      "date": "2026-09-13T02:21:08",
+      "title": "Armed Conflict in Bab al-Mandab Strait",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 13.8518,
+      "lng": 44.3442
+    },
+    {
+      "wp_id": 11374,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kobane/",
+      "date": "2026-09-13T02:20:18",
+      "title": "Civil Unrest in Kobane",
+      "country": "Syria",
+      "type": "Civil Unrest",
+      "lat": 35.013,
+      "lng": 38.5056
+    },
+    {
+      "wp_id": 11388,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mocha-and-perim-island/",
+      "date": "2026-09-13T02:19:58",
+      "title": "Armed Conflict in Mocha and Perim Island",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 12.65975,
+      "lng": 43.421092
+    },
+    {
+      "wp_id": 11314,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-strait-of-hormuz-9/",
+      "date": "2026-09-13T02:19:29",
+      "title": "Armed Conflict in Bakhshan, Saravan",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.0675,
+      "lng": 56.46
+    },
+    {
+      "wp_id": 11383,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wadi-al-shay-southern-kirkuk/",
+      "date": "2026-09-13T02:18:12",
+      "title": "Armed Conflict in Kirkuk",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 35.4681,
+      "lng": 44.3775
+    },
+    {
+      "wp_id": 11319,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maysan-province/",
+      "date": "2026-09-13T02:15:06",
+      "title": "Armed Conflict in Missan province",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 34.9189,
+      "lng": 45.6205
+    },
+    {
+      "wp_id": 11373,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kanbalu-township-sagaing-region/",
+      "date": "2026-09-13T02:14:00",
+      "title": "Armed Conflict in Kanbalu Township, Sagaing Region",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 23.207285,
+      "lng": 95.51496
+    },
+    {
+      "wp_id": 11356,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-arakan-state-rakhine-state/",
+      "date": "2026-09-13T02:13:31",
+      "title": "Armed Conflict in Western Magway",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.1392,
+      "lng": 92.8971
+    },
+    {
+      "wp_id": 11355,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mandalay/",
+      "date": "2026-09-13T02:13:08",
+      "title": "Armed Conflict in Tada-U International Airport, Mandalay",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 21.9611,
+      "lng": 96.0947
+    },
+    {
+      "wp_id": 11357,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-kyaukphyu-2/",
+      "date": "2026-09-13T02:06:40",
+      "title": "Displacement in Kyaukphyu",
+      "country": "Myanmar",
+      "type": "Displacement",
+      "lat": 19.42745,
+      "lng": 93.54861
+    },
+    {
+      "wp_id": 11354,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-elram-mandera-county-and-milimani-lamu-east-sub-county/",
+      "date": "2026-09-13T02:04:49",
+      "title": "Armed Conflict in Elram (Mandera County) and Milimani (Lamu East Sub-County)",
+      "country": "Kenya",
+      "type": "Armed Conflict",
+      "lat": -1.793991,
+      "lng": 40.8083
+    },
+    {
+      "wp_id": 11345,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tigray-2/",
+      "date": "2026-09-13T02:03:17",
+      "title": "Armed Conflict in MyShumet area near Freweyni, Hintalo District, southeastern Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 11347,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-somalia-5/",
+      "date": "2026-09-13T02:02:56",
+      "title": "Armed Conflict in Somalia",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.7864,
+      "lng": 47.3259
+    },
+    {
+      "wp_id": 11348,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-quumbi-west-of-mogadishu/",
+      "date": "2026-09-13T02:02:36",
+      "title": "Armed Conflict in Quumbi; west of Mogadishu",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 2.035447,
+      "lng": 45.34276
+    },
+    {
+      "wp_id": 11346,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-doolow-kismayo-dangoroyo-afmadow-garbaharrey/",
+      "date": "2026-09-13T02:01:41",
+      "title": "Civil Unrest in Doolow, Kismayo, Dangoroyo, Afmadow, Garbaharrey",
+      "country": "Somalia",
+      "type": "Civil Unrest",
+      "lat": 2.82217,
+      "lng": 45.26912
+    },
+    {
+      "wp_id": 11344,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-tawila-north-darfur/",
+      "date": "2026-09-13T02:00:25",
+      "title": "Displacement in Tawila, North Darfur",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 13.513868,
+      "lng": 24.861229
+    },
+    {
+      "wp_id": 11343,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bukavu/",
+      "date": "2026-09-13T01:59:27",
+      "title": "Armed Conflict in Bukavu",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -2.502264,
+      "lng": 28.857573
+    },
+    {
+      "wp_id": 11342,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-riyom-local-government-area/",
+      "date": "2026-09-13T01:58:25",
+      "title": "Armed Conflict in Riyom Local Government Area",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.635981,
+      "lng": 8.871598
+    },
+    {
+      "wp_id": 11337,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kaka-mopti/",
+      "date": "2026-09-13T01:58:01",
+      "title": "Armed Conflict in Dioura, Mopti region",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 14.0166,
+      "lng": -4.2412
+    },
+    {
+      "wp_id": 11339,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-agadez/",
+      "date": "2026-09-13T01:57:41",
+      "title": "Armed Conflict in Agadez",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 16.9726,
+      "lng": 7.9907
+    },
+    {
+      "wp_id": 11338,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-niamey-7/",
+      "date": "2026-09-13T01:56:43",
+      "title": "Coup/Crisis in Niamey",
+      "country": "Niger",
+      "type": "Coup or Crisis",
+      "lat": 13.524834,
+      "lng": 2.109823
+    },
+    {
+      "wp_id": 11331,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dzangola-gombi-local-government-area/",
+      "date": "2026-09-13T01:55:21",
+      "title": "Armed Conflict in Zaranga village, Gombi",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.1662,
+      "lng": 12.7365
+    },
+    {
+      "wp_id": 11334,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tumbunma-baba-borno-state/",
+      "date": "2026-09-13T01:54:59",
+      "title": "Armed Conflict in Monguno, Gwoza-Limankara Road, Borno State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.8916,
+      "lng": 13.0984
+    },
+    {
+      "wp_id": 11333,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-ngoshe-borno-state-2/",
+      "date": "2026-09-13T01:53:51",
+      "title": "Coup/Crisis in Ngoshe, Borno State",
+      "country": "Nigeria",
+      "type": "Coup or Crisis",
+      "lat": 11.839538,
+      "lng": 13.153621
+    },
+    {
+      "wp_id": 11332,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-mabera-sokoto/",
+      "date": "2026-09-13T01:53:28",
+      "title": "Civil Unrest in Mabera, Sokoto",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 13.030464,
+      "lng": 5.259347
+    },
+    {
+      "wp_id": 11330,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-northern-nigeria/",
+      "date": "2026-09-13T01:51:56",
+      "title": "Displacement in northern Nigeria",
+      "country": "Nigeria",
+      "type": "Displacement",
+      "lat": 12.0338,
+      "lng": 8.52948
+    },
+    {
+      "wp_id": 11329,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-plateau-benue-southern-kaduna-taraba-adamawa/",
+      "date": "2026-09-13T01:51:33",
+      "title": "Armed Conflict in Plateau, Benue, Southern Kaduna, Taraba, Adamawa",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.208926,
+      "lng": 12.480249
+    },
+    {
+      "wp_id": 11328,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-middle-belt-5/",
+      "date": "2026-09-13T01:51:06",
+      "title": "Armed Conflict in Middle Belt",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 7.301246,
+      "lng": 5.136194
+    },
+    {
+      "wp_id": 11322,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maysan-governorate/",
+      "date": "2026-09-13T01:49:31",
+      "title": "Armed Conflict in Jazan region",
+      "country": "Saudi Arabia",
+      "type": "Armed Conflict",
+      "lat": 20.7386,
+      "lng": 40.8391
+    },
+    {
+      "wp_id": 11324,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tihamah/",
+      "date": "2026-09-13T01:48:49",
+      "title": "Armed Conflict in Tihamah",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 14.744242,
+      "lng": 44.300357
+    },
+    {
+      "wp_id": 11323,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-nairobi-4/",
+      "date": "2026-09-13T01:48:34",
+      "title": "Civil Unrest in Nairobi",
+      "country": "Kenya",
+      "type": "Civil Unrest",
+      "lat": -1.289001,
+      "lng": 36.817281
+    },
+    {
+      "wp_id": 11321,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-hong-kong/",
+      "date": "2026-09-13T01:48:00",
+      "title": "Civil Unrest in Hong Kong",
+      "country": "China",
+      "type": "Civil Unrest",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 11320,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-mokha-taiz-west-coast-governorate/",
+      "date": "2026-09-13T01:47:04",
+      "title": "Displacement in Mokha, Taiz, West Coast governorate",
+      "country": "Yemen",
+      "type": "Displacement",
+      "lat": 13.317916,
+      "lng": 43.250109
+    },
+    {
+      "wp_id": 11317,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-southern-lebanon-3/",
+      "date": "2026-09-13T01:45:55",
+      "title": "Armed Conflict in southern Lebanon",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 11316,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-berlin-hamburg-munich/",
+      "date": "2026-09-13T01:45:44",
+      "title": "Civil Unrest in Berlin, Hamburg, Munich",
+      "country": "Germany",
+      "type": "Civil Unrest",
+      "lat": 52.517389,
+      "lng": 13.395131
+    },
+    {
+      "wp_id": 11315,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-al-tuwal-governorate-jazan/",
+      "date": "2026-09-13T01:45:31",
+      "title": "Armed Conflict in al-Tuwal governorate, Jazan",
+      "country": "Saudi Arabia",
+      "type": "Armed Conflict",
+      "lat": 16.530962,
+      "lng": 42.968784
+    },
     {
       "wp_id": 11260,
       "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-semnan/",
