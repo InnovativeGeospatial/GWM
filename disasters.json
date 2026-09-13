@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-10T08:44:57.034173+00:00",
-  "count": 952,
+  "updated": "2026-09-13T01:40:16.703967+00:00",
+  "count": 965,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 11303,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-09-11-2026/",
+      "date": "2026-09-13T01:39:32",
+      "title": "Wildfire in Canada 09/11/2026",
+      "body": "This year's fire season produced 1,380 fires that scorched about 4,750 square kilometres — a notable decrease from the past three years, particularly 2023, when a record 29,000 square kilometres burned. Despite the small",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 55.171215,
+      "lng": -125.022797,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMW50NnBJVW5hSG5Ub2RmQzAxZzhndVVscEhlM1Q4YnN0TkZoeXh0bXExMEZYV0FiLVk3QzUwSm80eGxnVTZHdXQ3VmtRUlA3QU9CUXF0ejlfcWRucWtFek9tcXBhMjdIaFBwTU5KVkowUFlRTVNkbDVCRE1xcVZ3eVhiallhVFg3eHlsQ2lWUnRWcXFKRTZZVTdEVGRBVWdxWEpqUk1QUmc0bnhFSnB1aDJ4VS1QYTIyZWszdnFZTUlUU3pwek5LTQ?oc=5",
+      "prayer": "Residents of British Columbia's Okanagan and Cariboo regions who lost homes to wildfires this season",
+      "alert_summary": "British Columbia's 2026 wildfire season damaged or destroyed more than 500 structures across the province, with one fatality confirmed."
+    },
+    {
+      "wp_id": 11302,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-12-2026/",
+      "date": "2026-09-13T01:36:43",
+      "title": "Wildfire in United States 09/12/2026",
+      "body": "The Lucas Fire spread across Lake and Mendocino Counties in Northern California, growing from roughly 10 acres to 3,476 acres within about 30 hours. Officials reported the blaze at 5% containment, with evacuation orders ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 39.305581,
+      "lng": -123.798311,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUEJHQWJNYXQ1UFMyVVo4X0NGTG9CZ2Rpbm1KOUhMMUlXbHpXVEpQbUF6LTlUVjB4akxLZm03V2dRR2tCYkJjYjJQNXpSYVVHNWd4M00wSXdiWmZDSUtzZDVhcnU4SFdHUE14NllQQ0YxdkZBRlZpcjlMTkw3THRySHNZMlNoWXl6U0FmRGZUdVpTdUhGZlQ0Mklrcm5oZl9qWS15SndrM3N1RVVzcl9nNTNnM2hDZDl3?oc=5",
+      "prayer": "Residents of Lake and Mendocino Counties under evacuation orders as the Lucas Fire burns with little containment",
+      "alert_summary": "The Lucas Fire burned 3,476 acres across Lake and Mendocino Counties at 5% containment, with eight evacuation zones under mandatory orders."
+    },
+    {
+      "wp_id": 11301,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-philippines-09-11-2026/",
+      "date": "2026-09-13T01:34:57",
+      "title": "Disease in Philippines 09/11/2026",
+      "body": "Health data for Iloilo Province showed 13 people died from leptospirosis among 121 recorded cases from January 4 to September 5, 2026. During the same period last year, the province logged 125 cases and eight deaths — me",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Disease",
+      "lat": 14.426424,
+      "lng": 120.955821,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdVpSdUZMZkxqaC1lQzlRUE9YVEVFMW9sUnFXZXJxVThyLU5qcExRTXl2TDFIQTNEeFlTZ29RbUdwNGJjMzRDMVNlbGxLUFdtSG5xZTVQYkpGbHN5QTliRncxY283WDBibkVBY3VNSHZRcHJfYWd0MUpqY2xuanNjQ1E0WWMweHVGS1JiR1VGS0k3Q0VfQlUxd0loZXlxejd4b0VScXBaZDBrbFJjX29VU0Z3?oc=5",
+      "prayer": "Families in Iloilo Province facing rising leptospirosis deaths amid ongoing rains and floodwater exposure",
+      "alert_summary": "Leptospirosis killed 13 people among 121 cases in Iloilo Province from January to September 5, 2026, a 62.5 percent rise in fatalities over the same period last year."
+    },
+    {
+      "wp_id": 11300,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-maldives-09-12-2026/",
+      "date": "2026-09-13T01:33:05",
+      "title": "Flood in Maldives 09/12/2026",
+      "body": "More than 70 homes in Feydhoo, Addu City, reported flooding and varying levels of damage as heavy rain continued across parts of the Maldives. On the previous day, about 30 homes in Feydhoo had already been flooded, with",
+      "country": "Maldives",
+      "countries": [
+        "Maldives"
+      ],
+      "type": "Flood",
+      "lat": -0.682098,
+      "lng": 73.1348,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yWEhlN0M0ZmFpODV5ek5aZHRnZ08xRE9CMFh2NDE5QkhGc3BSOFlwRkxoNDAzd1BMVXJLUEVFaDR4MmxLQXJkbnd0cEFqZzRYcVVF?oc=5",
+      "prayer": "Families in Feydhoo, Addu City displaced after heavy rain flooded more than 70 homes",
+      "alert_summary": "Heavy rain flooded more than 70 homes in Feydhoo, Addu City, displacing at least one household of eight people."
+    },
+    {
+      "wp_id": 11299,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-11-2026/",
+      "date": "2026-09-13T01:32:08",
+      "title": "Flood in India 09/11/2026",
+      "body": "On Friday, September 11, 2026, rain continued to fall across parts of Uttar Pradesh as authorities stepped up rescue and relief work in flood-hit districts, with 21,350 people evacuated to safer places and 2,972 remainin",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcWRaOWswZDV2ZGt2MmVXbzdia293a25YTVc2YVV5U0d4Mm41QWF5RDZNd2lHd3lxbUhVdlFUaExVYUU2U2JHQWxnVkQxdWItQ3V5dG5rdE40dU5hQzV6Tmp4WUVlM082YzBsdmZZUTh0bUhxWFJ0SVQzN3Fxd2MybldJQ2NkUU5wdW1ybjgtOGdZX081VXVqMktPeEdSclQ3X2x6Rnl5TVEwUDgtX0w1ekcwNDJCSGJ6QXfSAboBQVVfeXFMTnFkWjlrMGQ1dmRrdjJlV283Ymtvd2tuWE1XNmFVeVNHeDJuNUFheUQ2TXdpR3d5cW1IVXZRVGhMVWFFNlNiR0FsZ1ZEMXViLUN1eXRua3RONHVOYUM1ek5qeFlFZTNPNmMwbHZmWVE4dG1IcVhSdElUMzdxcXdjMm5XSUNjZFFOcHVtcm44LThnWV9PNVV1ajJLT3hHUnJUN19sekZ5eU1RMFA4LV9MNXpHMDQyQkhiekF3?oc=5",
+      "prayer": "Tens of thousands of residents across flood-hit Uttar Pradesh displaced by monsoon floodwaters",
+      "alert_summary": "Monsoon flooding across 26 districts of Uttar Pradesh displaced 21,350 people, with 2,972 sheltering in relief camps as of September 11, 2026."
+    },
+    {
+      "wp_id": 11298,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-09-12-2026/",
+      "date": "2026-09-13T01:29:46",
+      "title": "Disease in Congo 09/12/2026",
+      "body": "On September 11, 2026, the Ebola outbreak in the Democratic Republic of Congo crossed into a seventh province, reaching Sud-Ubangi in the country's northwest. This makes Sud-Ubangi the seventh province affected by the ou",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 3.254929,
+      "lng": 19.775083,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-drc-ebola-spread-clip-mp4?traffic_source=rss",
+      "prayer": "Communities across seven DRC provinces amid an Ebola outbreak that has claimed over 3,000 lives",
+      "alert_summary": "Ebola reached a seventh DRC province, Sud-Ubangi, as the outbreak surpassed 7,000 cases and 3,349 deaths."
+    },
+    {
+      "wp_id": 11297,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-pakistan-09-11-2026/",
+      "date": "2026-09-13T01:29:23",
+      "title": "Other in Pakistan 09/11/2026",
+      "body": "On July 30, 2026, an avalanche swept down Broad Peak in Pakistan's Karakoram range, killing two experienced climbers, Nirmal Purja and Kili Pemba Sherpa, who were ascending with a group of 10. Witnesses—trekkers on the m",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Other",
+      "lat": 28.186385,
+      "lng": 67.695237,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c1wx8gg7xw1o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Families of climbers killed on Broad Peak, and mountaineers grieving lost companions",
+      "alert_summary": "An avalanche on Broad Peak killed two climbers on July 30; recovery teams later retrieved their bodies."
+    },
+    {
+      "wp_id": 11296,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-09-13-2026/",
+      "date": "2026-09-13T01:25:23",
+      "title": "Flood in Russia 09/13/2026",
+      "body": "Flooding is ongoing along the Middle Amur River in Russia's Far East, with water levels in the stretch between the villages of Leninskoye and Nizhnespasskoye remaining above the threshold classified as an \"unfavorable ph",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 49.25487,
+      "lng": 129.94495,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260913004518-0256928.xml",
+      "prayer": "Residents along the Middle Amur floodplain between Leninskoye and Nizhnespasskoye as rivers remain above warning levels",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 11295,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-09-10-2026-magnitude-5/",
+      "date": "2026-09-13T01:22:39",
+      "title": "Earthquake in Costa Rica 09/10/2026 — Magnitude 5",
+      "body": "A magnitude 5.0 earthquake struck 45 kilometers south-southeast of Quepos, Costa Rica, at 2:26 a.m. local time on September 10, 2026. The earthquake was recorded at a depth of 10 kilometers. At that shallow depth, shakin",
+      "country": "Costa Rica",
+      "countries": [
+        "Costa Rica"
+      ],
+      "type": "Earthquake",
+      "lat": 9.431603,
+      "lng": -84.162735,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg98",
+      "prayer": "Residents near Quepos, Costa Rica, shaken by a shallow offshore earthquake with no confirmed casualty report",
+      "alert_summary": "Magnitude 5 earthquake struck 45 km south-southeast of Quepos, Costa Rica; no injuries or damage reported."
+    },
+    {
+      "wp_id": 11294,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-11-2026-magnitude-5/",
+      "date": "2026-09-13T01:21:55",
+      "title": "Earthquake in United States 09/11/2026 — Magnitude 5",
+      "body": "On September 11, 2026, a magnitude 5.3 earthquake was recorded about 151 km west-southwest of Adak, Alaska. The quake struck at a depth of approximately 41 km — shallow enough that shaking can be felt at the surface. It ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 51.873833,
+      "lng": -176.639163,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky",
+      "prayer": "Remote Aleutian Islands communities near the epicenter of the September 11 earthquake sequence",
+      "alert_summary": "Magnitude 5.3 earthquake struck 151 km west-southwest of Adak, Alaska, at about 41 km depth on September 11, 2026."
+    },
+    {
+      "wp_id": 11293,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-11-2026-magnitude-6/",
+      "date": "2026-09-13T01:21:37",
+      "title": "Earthquake in Timor Leste 09/11/2026 — Magnitude 6",
+      "body": "A magnitude 5.9 earthquake struck 253 km ENE of Lospalos, Timor-Leste, at a depth of about 112 kilometers. The event occurred approximately two days ago, consistent with a date of September 11, 2026. Damage or injury inf",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.2863,
+      "lng": 128.9383,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgl2",
+      "prayer": "Communities near Lospalos, Timor-Leste, after an offshore earthquake with no confirmed impact report",
+      "alert_summary": "Magnitude 6 earthquake struck 253 km ENE of Lospalos, Timor-Leste; no casualties or damage reported"
+    },
+    {
+      "wp_id": 11292,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-09-12-2026-magnitude-5/",
+      "date": "2026-09-13T01:21:08",
+      "title": "Earthquake in Japan 09/12/2026 — Magnitude 5",
+      "body": "On September 12, 2026, a magnitude 5.1 earthquake was recorded approximately 101 kilometers south of Yudomari, Japan. The quake occurred at a depth of about 46 kilometers — shallow enough that shaking would typically be ",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 29.3244,
+      "lng": 130.3787,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th1q",
+      "prayer": "Residents near Yudomari, Japan, in the wake of an offshore earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5 earthquake struck 101 km south of Yudomari, Japan; no casualties or damage reported."
+    },
+    {
+      "wp_id": 11291,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-11-2026-magnitude-7/",
+      "date": "2026-09-13T01:20:47",
+      "title": "Earthquake in Indonesia 09/11/2026 — Magnitude 7",
+      "body": "On September 12, 2026, a magnitude 6.6 earthquake struck near Teluknaga in Indonesia's northeastern Java province at 4:23 a.m. local time, at a depth of approximately 359 kilometers. Because the earthquake originated so ",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -6.093305,
+      "lng": 106.637596,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk",
+      "prayer": "Residents of northeastern Java, Indonesia shaken by a deep earthquake with no reported casualties or damage",
+      "alert_summary": "Magnitude 7 earthquake struck near Teluknaga in northeastern Java, Indonesia; no casualties or damage reported."
+    },
     {
       "wp_id": 11165,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-10-2026/",
