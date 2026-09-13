@@ -1,9 +1,89 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-10T08:52:44.396709+00:00",
-  "count": 633,
+  "updated": "2026-09-13T01:44:15.680494+00:00",
+  "count": 641,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11304,
+      "wp_link": "https://globalwitnessmonitor.com/christian-man-arrested-on-blasphemy-charges-in-pakistan-mob-attack-precedes-detention/",
+      "date": "2026-09-13T01:44:04",
+      "title": "Christian man arrested on blasphemy charges in Pakistan amid claims of false implication",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 11311,
+      "wp_link": "https://globalwitnessmonitor.com/hindu-mob-storms-worship-service-abducts-pastor-and-assaults-believers/",
+      "date": "2026-09-13T01:43:26",
+      "title": "Hindu Mob Storms Worship Service, Abducts Pastor and Assaults Believers",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 11310,
+      "wp_link": "https://globalwitnessmonitor.com/three-christians-killed-in-armed-ambush-in-papuas-highlands/",
+      "date": "2026-09-13T01:43:06",
+      "title": "Three Christians killed in armed ambush in Papua's highlands",
+      "country": "indonesia",
+      "type": "killing",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 11309,
+      "wp_link": "https://globalwitnessmonitor.com/report-nearly-300-christians-killed-and-over-200-abducted-in-nigeria-in-july-alone/",
+      "date": "2026-09-13T01:42:49",
+      "title": "Report: Nearly 300 Christians Killed and Over 200 Abducted in Nigeria in July Alone",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11308,
+      "wp_link": "https://globalwitnessmonitor.com/street-preacher-acquitted-after-prosecution-over-gospel-tract-in-lgbt-safe-space-area/",
+      "date": "2026-09-13T01:42:26",
+      "title": "Street preacher acquitted after prosecution over gospel tract in LGBT 'safe space' area",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 11307,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-released-after-four-year-fraud-case-two-co-defendants-status-unknown/",
+      "date": "2026-09-13T01:42:06",
+      "title": "House church pastor released after four-year fraud case; two co-defendants' status unknown",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11306,
+      "wp_link": "https://globalwitnessmonitor.com/eight-house-church-detainees-face-harsh-conditions-as-china-trial-stalls/",
+      "date": "2026-09-13T01:41:52",
+      "title": "Eight house church detainees face harsh conditions as China trial stalls",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11305,
+      "wp_link": "https://globalwitnessmonitor.com/christian-woman-killed-by-muslim-neighbor-in-pakistan-after-rejecting-his-advances/",
+      "date": "2026-09-13T01:41:31",
+      "title": "Christian Woman Killed by Muslim Neighbor in Pakistan After Rejecting His Advances",
+      "country": "pakistan",
+      "type": "killing",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 11167,
       "wp_link": "https://globalwitnessmonitor.com/christian-woman-killed-by-muslim-neighbor-after-rejecting-his-advances-in-pakistan/",
