@@ -1,9 +1,119 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-13T01:44:15.680494+00:00",
-  "count": 641,
+  "updated": "2026-09-15T18:45:46.925809+00:00",
+  "count": 652,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11416,
+      "wp_link": "https://globalwitnessmonitor.com/cuban-pastor-freed-after-over-three-months-of-incommunicado-detention-faces-ongoing-charges/",
+      "date": "2026-09-15T18:45:18",
+      "title": "Cuban pastor freed after over three months of incommunicado detention, faces ongoing charges",
+      "country": "cuba",
+      "type": "arrest",
+      "lat": 21.5,
+      "lng": -79.5
+    },
+    {
+      "wp_id": 11415,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-released-in-china-after-torture-fraud-charges-and-forced-confession-campaign/",
+      "date": "2026-09-15T18:44:55",
+      "title": "House Church Pastor Released in China After Torture, Fraud Charges, and Forced-Confession Campaign",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11414,
+      "wp_link": "https://globalwitnessmonitor.com/historic-church-building-destroyed-by-fire-in-uk-part-of-growing-pattern-of-church-blazes/",
+      "date": "2026-09-15T18:44:24",
+      "title": "Historic Church Building Destroyed by Fire in UK, Part of Growing Pattern of Church Blazes",
+      "country": "united kingdom",
+      "type": "church",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 11413,
+      "wp_link": "https://globalwitnessmonitor.com/families-sound-alarm-over-health-of-eight-house-church-believers-held-in-chinese-detention/",
+      "date": "2026-09-15T18:44:05",
+      "title": "Families sound alarm over health of eight house-church believers held in Chinese detention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11405,
+      "wp_link": "https://globalwitnessmonitor.com/police-arrest-12-christians-during-worship-at-humanitarian-shelter-in-algeria/",
+      "date": "2026-09-15T18:43:40",
+      "title": "12 Christians arrested during worship raid at humanitarian shelter in Algeria",
+      "country": "algeria",
+      "type": "arrest",
+      "lat": 28.0,
+      "lng": 2.6
+    },
+    {
+      "wp_id": 11411,
+      "wp_link": "https://globalwitnessmonitor.com/women-attacked-and-abducted-during-house-church-worship-in-india-amid-growing-anti-christian-violence/",
+      "date": "2026-09-15T18:43:21",
+      "title": "Women attacked and abducted during house church worship in India amid growing anti-Christian violence",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 11410,
+      "wp_link": "https://globalwitnessmonitor.com/one-pastor-killed-one-released-after-targeted-kidnapping-of-two-christian-clerics-in-nigeria/",
+      "date": "2026-09-15T18:42:58",
+      "title": "One pastor killed, one released after targeted kidnapping of two Christian clerics in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11409,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-prosecutors-seek-over-12-years-imprisonment-for-house-church-pastor-over-offerings/",
+      "date": "2026-09-15T18:42:39",
+      "title": "Chinese prosecutors seek over 12 years' imprisonment for house church pastor over offerings",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11408,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-police-detain-11-elderly-house-church-members-at-reading-gathering/",
+      "date": "2026-09-15T18:42:24",
+      "title": "Chinese police detain 11 elderly house church members at reading gathering",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11407,
+      "wp_link": "https://globalwitnessmonitor.com/sudanese-convert-flees-abuse-faces-ongoing-threats-in-south-sudan-refugee-camp/",
+      "date": "2026-09-15T18:41:40",
+      "title": "Sudanese Convert Flees Abuse, Faces Ongoing Threats in South Sudan Refugee Camp",
+      "country": "south sudan",
+      "type": "displacement",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 11406,
+      "wp_link": "https://globalwitnessmonitor.com/court-challenge-filed-against-indias-maharashtra-anti-conversion-law-amid-rising-christian-persecution/",
+      "date": "2026-09-15T18:41:24",
+      "title": "Court Challenge Filed Against India's Maharashtra Anti-Conversion Law Amid Rising Christian Persecution",
+      "country": "india",
+      "type": "restriction",
+      "lat": 20.6,
+      "lng": 78.7
+    },
     {
       "wp_id": 11304,
       "wp_link": "https://globalwitnessmonitor.com/christian-man-arrested-on-blasphemy-charges-in-pakistan-mob-attack-precedes-detention/",
