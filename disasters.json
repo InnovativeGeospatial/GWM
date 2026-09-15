@@ -1,9 +1,225 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-13T01:40:16.703967+00:00",
-  "count": 965,
+  "updated": "2026-09-15T18:39:52.951634+00:00",
+  "count": 977,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 11404,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-13-2026/",
+      "date": "2026-09-15T18:39:09",
+      "title": "Wildfire in Croatia 09/13/2026",
+      "body": "The evacuation began on the evening of September 12, 2026, after authorities received reports of people in danger along the island's western coast as the fire advanced toward the town of Milna. By early the following mor",
+      "country": "Croatia",
+      "countries": [
+        "Croatia"
+      ],
+      "type": "Wildfire",
+      "lat": 45.664952,
+      "lng": 16.679107,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5OVZGM0tsREFDeWRVdmxDLTZUbWRNSnN6czllMG9SUXMyZl9nMVI0cVpiUTVidFd5ZC1hX081T0JPam9NQllxVGtmTVJVaElIVkQ0ejluemJ2TUNDajIyakR0RUZpME1XakcwcTU5WXpPMk1iaFc4LWdJUEI?oc=5",
+      "prayer": "Residents and tourists on Brač Island displaced by wildfire, two people injured during evacuation",
+      "alert_summary": "Wildfire on Croatia's Brač Island burned about 3,500 hectares, prompting the evacuation of nearly 700 residents and tourists from the Milna area."
+    },
+    {
+      "wp_id": 11403,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-philippines-09-13-2026/",
+      "date": "2026-09-15T18:35:21",
+      "title": "Disease in Philippines 09/13/2026",
+      "body": "The Philippines Department of Health recorded 8,317 leptospirosis cases nationwide from January 4 to September 5, 2026. The number of fatalities stood at 457, which is 41 percent lower than the 772 deaths recorded during",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Disease",
+      "lat": 14.586788,
+      "lng": 120.981779,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qMm54alRXZFZCc3oydV9vTF9YaWtoSzFDN1RtenAtdVk3RDVNejVfLTFxOWN1eXF0MnhiNWN1bEg0Q0xueVNWZnhlVDZzQm5YQzdBblJEbFlCcXpveUpnazVYaHNnUEdVZFVJQjdwQTU3eElZNUhCOHVLUjRFQQ?oc=5",
+      "prayer": "Filipinos in flooded communities facing a surge of leptospirosis infections and deaths across Luzon",
+      "alert_summary": "Leptospirosis cases in the Philippines reached 8,317 from January to September 5, 2026, with 457 deaths recorded nationwide."
+    },
+    {
+      "wp_id": 11402,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-vietnam-09-13-2026/",
+      "date": "2026-09-15T18:33:22",
+      "title": "Flood in Vietnam 09/13/2026",
+      "body": "On September 13, 2026, authorities in Quang Tri reported that widespread rainfall associated with a tropical depression had caused flooding across several areas of Lao Bao Commune. Floodwaters on the Se Pon River rose ra",
+      "country": "Vietnam",
+      "countries": [
+        "Vietnam"
+      ],
+      "type": "Flood",
+      "lat": 16.617634,
+      "lng": 106.60107,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjdVSVZBOW1zb3ZrcU1KUmJRSHpIQ3dFMXhEREl5bG5Jb3VmRFZZOGRlVG11WEhrQkFXWEkxdnNxX3dzbUZySGxrbWo0X3BaMWp0U2MyWXNYMmQxRFYzdFhLT2dOUDBNV1h3a3RRRWNlSWlXRElBMURqZEVrdEoyM1ljTXVZQkRpNWRkMDNERkxiT0x5d3ZWTzFzc2V3UDhKOGhHSnBmbkVXOEFjOTFjdFh5ckJtYmFzcktadFRaSQ?oc=5",
+      "prayer": "Families in Lao Bao Commune, Quang Tri Province, displaced by flooding along the Se Pon River",
+      "alert_summary": "Flooding along the Se Pon River inundated at least 321 homes in Lao Bao Commune, Quang Tri Province, and forced the evacuation of nearly 500 residents overnight."
+    },
+    {
+      "wp_id": 11401,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-09-14-2026/",
+      "date": "2026-09-15T18:32:14",
+      "title": "Landslide in India 09/14/2026",
+      "body": "Landslide incidents in Gyalshing district, Sikkim, were first reported on September 12, 2026, affecting residential areas and public infrastructure. Following heavy rainfall and flooding on September 14, a fresh assessme",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 27.301122,
+      "lng": 88.236146,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSzdOZXkxTlltTTNUNm5CUnYzTkVPTjV3YkNpR3hpS3h1V0RhUVlJdmRhRk1iMXhvS08xS2dxMzVNVlJFQnY5c0hLcnRPWGs4anlZdHcySXZ3dEpDMldIeUVjY0g4a0NWLTVSMUsyakwyc1dCUHVZQURySF9SZERwWkk4WVlGWE1yX0NDanY5QnE3Rno4NFp6bE5JY2FXRXNfVVRzS1BrUTZDTC1PcEgzc3dZZGgtd1FyTTZDX2lySWg2NzRYVlHSAcsBQVVfeXFMTmZlMjNRb2tzel8yVUF5UWtMU3lTMFR1TVNZakF3T2Q5SS1pbDVwTXZsb2hVZFZ5Z01VRTI3bnV1NVhSeERqMHBuUjJzUEMtdm16VFk5MGM5Yk5qREhFVGhEaHpOb2dZUXNZYU1vdG5EOEt0WDZLMEZ3Vm1aVzNLRDVxY3RvNXBGTE9TeWNrbzM0ZjVJN1ZibU0xRjBnRUwtQzBUcmZ4SjdSNk9kQVN0QXdJVVV2V3RrSnE2TS1uY1NueVNpRjl1bTV6c0k?oc=5",
+      "prayer": "Residents of Rimbi and Singlitam in Sikkim displaced by landslides and flooding, including elderly and children in relief shelters",
+      "alert_summary": "Landslides and flooding in Sikkim's Gyalshing district prompted the evacuation of 128 people from 28 houses on September 14, 2026."
+    },
+    {
+      "wp_id": 11400,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-14-2026/",
+      "date": "2026-09-15T18:29:30",
+      "title": "Flood in United States 09/14/2026",
+      "body": "Flash flooding brought on by heavy rains prompted road closures, water rescues, and commuter rail problems across the tristate area on Sunday, September 13, 2026. The coastal stretch from Norwalk to Westport was among th",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 41.106179,
+      "lng": -73.394622,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMHYzR205Nml2cHdHcUpQeHRoZ21abk9GVmxTak13ZjVReGMwZ3A1d0gycmNHTzFTOVBvcmZEbk8wOXZ4a0FVdHlmNVJNaGlVc25ubzA5WlhZbFhrMHF1ZnNUN1MtckVHTW83SlpWWTdnWlN6a0FmaWJwSzJkS0NwN2hFRUN2SlVtb0lYYlJHMWhvdWJpQ3V4bTBBT2wxQjhZMnpXRExFUnNlc2hnOFo5cWtqOV9PYmo2TGJJOQ?oc=5",
+      "prayer": "Residents of coastal Connecticut towns recovering after flash flooding overwhelmed roads, rail lines, and businesses",
+      "alert_summary": "Flash flooding struck Connecticut's Fairfield County shoreline on September 13, 2026, prompting 120 emergency calls, 13 vehicle rescues, and no reported fatalities."
+    },
+    {
+      "wp_id": 11399,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-09-15-2026/",
+      "date": "2026-09-15T18:29:04",
+      "title": "Disease in Congo 09/15/2026",
+      "body": "As of September 12, the Ebola Bundibugyo virus continues spreading across the Democratic Republic of the Congo despite containment efforts. The outbreak, declared in mid-May, now spans seven provinces covering a vast geo",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.562053,
+      "lng": 30.247884,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/09/1168338",
+      "prayer": "Health workers and communities across Democratic Republic of the Congo battling widening Ebola outbreak with limited resources and insecurity",
+      "alert_summary": "Ebola outbreak in Democratic Republic of the Congo has caused 7,200 reported cases and nearly 3,500 deaths across 62 health zones in seven provinces."
+    },
+    {
+      "wp_id": 11398,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-15-2026/",
+      "date": "2026-09-15T18:28:52",
+      "title": "Flood in Nepal 09/15/2026",
+      "body": "Three weeks after the August 26 flash floods, about 17,000 children require urgent mental health and psychosocial support in Nepal, according to UNICEF. The floods, triggered by glacier collapse, damaged critical roads, ",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 27.915101,
+      "lng": 85.164707,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/09/1168340",
+      "prayer": "Children and families in northern Nepal recovering from glacier-triggered floods and processing trauma and loss",
+      "alert_summary": "Flash floods triggered by glacier collapse on August 26 killed more than 1,300 in Nepal and affected over 84,000 people including 32,000 children."
+    },
+    {
+      "wp_id": 11397,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-15-2026/",
+      "date": "2026-09-15T18:26:50",
+      "title": "Drought in Russia 09/15/2026",
+      "body": "As of September 15, 2026, soil drought conditions are present on pastureland across parts of central, southeastern, and southwestern districts of Russia. No figures for affected livestock, crop losses, or displaced peopl",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 46.72025531914893,
+      "lng": 44.484351063829784,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260915082510-0257704.xml",
+      "prayer": "Pastoralists and farming communities across drought-affected Russian grasslands facing dry soil conditions",
+      "alert_summary": "Soil drought is affecting pastureland across central, southeastern, and southwestern districts of Russia; no casualty or displacement figures reported."
+    },
+    {
+      "wp_id": 11396,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-15-2026/",
+      "date": "2026-09-15T18:24:50",
+      "title": "Wildfire in United States 09/15/2026",
+      "body": "A wildfire broke out in northern Caddo County, Oklahoma, near the community of Scott, along the Caddo-Canadian County Line. The fire was spreading rapidly to the east-northeast, and an immediate evacuation order was issu",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 35.376637,
+      "lng": -98.23648,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://apps.fema.gov/IPAWSOPEN_EAS_SERVICE/rest/eas/300132773241",
+      "prayer": "Residents near Scott and the Caddo-Canadian County Line forced to flee an out-of-control wildfire",
+      "alert_summary": "Wildfire burning out of control in northern Caddo County near Scott, Oklahoma, prompted immediate evacuation orders; no casualty or acreage figure reported."
+    },
+    {
+      "wp_id": 11395,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-10-2026-magnitude-5/",
+      "date": "2026-09-15T18:23:31",
+      "title": "Earthquake in Timor Leste 09/10/2026 — Magnitude 5",
+      "body": "On September 10, 2026, a magnitude 5.3 earthquake struck approximately 83 kilometers east of Lospalos, in the Lautém region of Timor-Leste. The earthquake occurred at a depth of 10 kilometers. With a focal depth of about",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -8.5914,
+      "lng": 127.7505,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgf2",
+      "prayer": "Residents near Lospalos, Timor-Leste, following a shallow earthquake in a seismically active region",
+      "alert_summary": "Magnitude 5 earthquake struck 83 km east of Lospalos, Timor-Leste, at a depth of about 10 km; no casualty figure reported."
+    },
+    {
+      "wp_id": 11394,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-mexico-09-14-2026-magnitude-5/",
+      "date": "2026-09-15T18:22:02",
+      "title": "Earthquake in Mexico 09/14/2026 — Magnitude 5",
+      "body": "On September 14, 2026, a magnitude 5.3 earthquake struck off the coast of Michoacan, Mexico. The epicenter was located at approximately 15.09°N, 104.44°W, with a depth of 10 kilometers. At that shallow depth, shaking is ",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Earthquake",
+      "lat": 15.0879,
+      "lng": -104.4352,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thgs",
+      "prayer": "Coastal communities off Michoacan, Mexico after a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5.3 earthquake struck off the coast of Michoacan, Mexico at a depth of 10 kilometers; no casualty figure reported."
+    },
+    {
+      "wp_id": 11393,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-14-2026-magnitude-5/",
+      "date": "2026-09-15T18:21:29",
+      "title": "Earthquake in Papua New Guinea 09/14/2026 — Magnitude 5",
+      "body": "On September 14, 2026, a magnitude 5 earthquake struck approximately 69 kilometers northwest of Lae, Papua New Guinea, at a depth of about 120 kilometers. The event was reviewed and confirmed by the USGS National Earthqu",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.3071,
+      "lng": 146.5257,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thhd",
+      "prayer": "Communities near Lae, Papua New Guinea, after a magnitude 5 earthquake at depth",
+      "alert_summary": "Magnitude 5 earthquake struck 69 km northwest of Lae, Papua New Guinea, at approximately 120 km depth; no casualty figures reported."
+    },
     {
       "wp_id": 11303,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-09-11-2026/",
