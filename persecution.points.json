@@ -1,9 +1,139 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-15T18:45:46.925809+00:00",
-  "count": 652,
+  "updated": "2026-09-18T11:46:33.554257+00:00",
+  "count": 665,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11516,
+      "wp_link": "https://globalwitnessmonitor.com/china-withholds-passport-of-terminally-ill-pastor-blocking-return-to-family-in-u-s/",
+      "date": "2026-09-18T11:46:16",
+      "title": "China Withholds Passport of Terminally Ill Pastor, Blocking Return to Family in U.S.",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11515,
+      "wp_link": "https://globalwitnessmonitor.com/defense-lawyer-for-detained-church-pastors-flees-china-to-taiwan-under-government-pressure/",
+      "date": "2026-09-18T11:45:53",
+      "title": "Defense Lawyer for Detained Church Pastors Flees China to Taiwan Under Government Pressure",
+      "country": "china",
+      "type": "displacement",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11513,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-bishop-reveals-200-churches-destroyed-thousands-killed-in-nigerias-northeast-insurgency/",
+      "date": "2026-09-18T11:45:30",
+      "title": "Catholic Bishop Decries Thousands Killed and Over 200 Churches Destroyed in Northeastern Nigeria",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11509,
+      "wp_link": "https://globalwitnessmonitor.com/explosive-device-damages-greek-orthodox-cathedral-in-syria-during-holy-feast-day/",
+      "date": "2026-09-18T11:44:39",
+      "title": "Masked Assailants Bomb Orthodox Cathedral in Syria on Christian Holy Day",
+      "country": "syria",
+      "type": "church",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 11511,
+      "wp_link": "https://globalwitnessmonitor.com/over-30-christians-killed-in-nigeria-in-four-weeks-of-suspected-militant-attacks/",
+      "date": "2026-09-18T11:44:21",
+      "title": "Over 30 Christians Killed in Nigeria in Four Weeks of Suspected Militant Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11510,
+      "wp_link": "https://globalwitnessmonitor.com/un-demands-answers-as-iran-seizes-oldest-protestant-church-and-evicts-20-christian-families/",
+      "date": "2026-09-18T11:44:01",
+      "title": "UN demands answers as Iran seizes oldest Protestant church and evicts 20 Christian families",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 11508,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-court-extends-deadline-in-detained-pastors-case-for-second-time/",
+      "date": "2026-09-18T11:43:22",
+      "title": "Chinese court extends deadline in detained pastor's case for second time",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11507,
+      "wp_link": "https://globalwitnessmonitor.com/three-house-church-leaders-face-trial-in-china-on-fraud-charges-tied-to-church-offerings/",
+      "date": "2026-09-18T11:43:08",
+      "title": "Three house church leaders face trial in China on fraud charges tied to church offerings",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11501,
+      "wp_link": "https://globalwitnessmonitor.com/russian-court-sentences-jehovahs-witness-to-six-years-for-religious-membership/",
+      "date": "2026-09-18T11:42:52",
+      "title": "Jehovah's Witness Sentenced to Six Years for Bible Study in Russia",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 11500,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-detained-in-russia-for-online-religious-meetings/",
+      "date": "2026-09-18T11:42:19",
+      "title": "Russian Jehovah's Witness Sentenced to Six Years for Online Religious Discussion",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 11499,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-believer-sentenced-to-seven-years-after-mass-raid/",
+      "date": "2026-09-18T11:41:36",
+      "title": "Jehovah's Witness Believer Sentenced to Seven Years After Mass Raid",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 11498,
+      "wp_link": "https://globalwitnessmonitor.com/father-burns-home-of-two-daughters-who-converted-to-christianity/",
+      "date": "2026-09-18T11:41:23",
+      "title": "Father Burns Home of Two Daughters Who Converted to Christianity",
+      "country": "uganda",
+      "type": "displacement",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 11497,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-shoots-and-kills-pastor-part-of-growing-pattern-of-clergy-killings/",
+      "date": "2026-09-18T11:41:08",
+      "title": "Myanmar Military Shoots and Kills Pastor, Part of Growing Pattern of Clergy Killings",
+      "country": "myanmar",
+      "type": "killing",
+      "lat": 17.1,
+      "lng": 95.9
+    },
     {
       "wp_id": 11416,
       "wp_link": "https://globalwitnessmonitor.com/cuban-pastor-freed-after-over-three-months-of-incommunicado-detention-faces-ongoing-charges/",
