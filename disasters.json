@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-15T18:39:52.951634+00:00",
-  "count": 977,
+  "updated": "2026-09-18T11:39:50.043210+00:00",
+  "count": 986,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 11496,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-15-2026/",
+      "date": "2026-09-18T11:38:09",
+      "title": "Wildfire in Croatia 09/15/2026",
+      "body": "Around 500 people were evacuated from the island of Brač, near the coastal city of Split, with many of those affected being guests at the Gava Waterman Milna Resort. A fleet of roughly 50 boats crewed by local residents ",
+      "country": "Croatia",
+      "countries": [
+        "Croatia"
+      ],
+      "type": "Wildfire",
+      "lat": 45.664952,
+      "lng": 16.679107,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkphTzYyc01mUjl1bUxBeGQ5dXJXUjBSX3NtYURKSzZMVzIyd3NhT3FsZFIzRUNqUElmNVlPRlhac3VOTm5vNUtZZFdvdVN3TzBTdGVWMm5iaGFMZ1FOcHZrTHdnaUthc1YwYmJBN2Q4WDZFSzI3TEFNMGNNTE41SnQ4N28yblZGOXVFOE52a0xwYzVVeTVxMDFZOHp3R1UwdkExU3dxbUxLcmZDU0FZNkh0M2oxQQ?oc=5",
+      "prayer": "Tourists and residents of Brač island displaced after a wind-driven wildfire swept through a coastal resort",
+      "alert_summary": "Wildfire on the Croatian island of Brač forced the evacuation of nearly 700 people, with no injuries reported."
+    },
+    {
+      "wp_id": 11495,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-16-2026/",
+      "date": "2026-09-18T11:33:58",
+      "title": "Wildfire in United States 09/16/2026",
+      "body": "The fire began on Sunday north of State Highway 152 between Binger and Cogar. A lawn mower started the blaze, with drought, extreme heat, and dry vegetation helping flames spread quickly. As firefighters battled the fire",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 35.376637,
+      "lng": -98.23648,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2x5M1lhV2tPa21pRTdHdDViZ0JLY0owdnFrejc2dDRJRzdMMy1CTXRERWVHQW5fc0VIaDUyeDlFbjZUWC1jdGtpQno4dzBwcmVOMDRVYzAtYjJDWF9YUEoydTV6Y2tYWmhuZFROQ3JSZGQ5RTVoVFIxTTJWUmN0LUJnU1JCbm1GRlI1QnBlaVo3U0ZVUmxuT1VZNnM?oc=5",
+      "prayer": "Residents near Scott and Caddo County, Oklahoma displaced by a fast-moving wildfire and facing losses of homes and property",
+      "alert_summary": "The Gracemont Fire burned more than 3,000 acres in Caddo County, Oklahoma, destroying at least nine homes and prompting evacuation orders near Scott."
+    },
+    {
+      "wp_id": 11494,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-09-16-2026/",
+      "date": "2026-09-18T11:32:21",
+      "title": "Landslide in India 09/16/2026",
+      "body": "On September 16, 2026, at least 161 people were evacuated from vulnerable areas of Sikkim's Gyalshing district following rainfall, flooding, and fresh landslides. The situation had been escalating since continuous rainfa",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Landslide",
+      "lat": 27.289513,
+      "lng": 88.25697,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFlQSTJ2eWZMQ1J4QVpBZTdwOWR4T3lrX0FYWmEySENWZy1qaW50cERoNk10a2JRVXh0T0dvcXN3MG14Nzg5UkFRYVBhb3VKaUdnVm5JaGtoQ1N0akk1aVFqM080QWY4UG1hd2h1SFVDeDlNcHJHdTdYbkh0N2Z4elY2aF9tOGt1eUpQZWRFY2FmVEp5a0FfcW1yS2pLSW04bFJpNVNPRFpHRzdiRF9WYWxvTl8ydw?oc=5",
+      "prayer": "Residents of Rimbi and Singlitam in Sikkim's Gyalshing district displaced by landslides and flooding",
+      "alert_summary": "Landslides and flooding in Gyalshing district, Sikkim prompted evacuation of 161 residents from at-risk villages."
+    },
+    {
+      "wp_id": 11493,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-17-2026/",
+      "date": "2026-09-18T11:29:15",
+      "title": "Flood in United States 09/17/2026",
+      "body": "Three people were swept away and killed by floodwaters in the early morning hours of September 17, 2026, near the community of Newcomb in northwestern New Mexico. Tribal police received the initial report around 12:30 a.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 36.282547,
+      "lng": -108.706985,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhcUlWY3ZDdGV6eEg3TmgzNVY5MFFPWUJkV3FSWDNNN2R1c2MzbFpMZWpLSHo4akJPR3ViclAyNFVkWjAyMmN0aTE5WlBjM01VOXZwVDkweHVJVklVWTFURTUtWm5SY1JNVTdTQ0FCWFJBYktBWjV6Q3dB?oc=5",
+      "prayer": "Navajo Nation community near Newcomb grieving three family members lost to floodwaters",
+      "alert_summary": "Flash flooding on the Navajo Nation near Newcomb, New Mexico killed three people — two adults and a child — swept away overnight on September 17, 2026."
+    },
+    {
+      "wp_id": 11492,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-11-2026-magnitude-6-2/",
+      "date": "2026-09-18T11:25:08",
+      "title": "Earthquake in Timor Leste 09/11/2026 — Magnitude 6",
+      "body": "A magnitude 5.9 earthquake struck near Lospalos, Timor-Leste at a depth of about 112 kilometers. The epicenter was located 253 km ENE of Lospalos, placing it well offshore in the Banda Sea region. At that depth and dista",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.2863,
+      "lng": 128.9383,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgl2",
+      "prayer": "People of Timor-Leste near the epicenter of a magnitude 6 offshore earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck 253 km ENE of Lospalos, Timor-Leste; no casualty figure reported."
+    },
+    {
+      "wp_id": 11491,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-14-2026-magnitude-6/",
+      "date": "2026-09-18T11:23:43",
+      "title": "Earthquake in Indonesia 09/14/2026 — Magnitude 6",
+      "body": "On September 14, 2026, a magnitude 5.6 earthquake struck approximately 78 kilometers north-northeast of Tobelo, in North Maluku, Indonesia. The earthquake occurred at a depth of about 162 kilometers. At that depth, the e",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 2.4223,
+      "lng": 128.1704,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thcs",
+      "prayer": "Residents near Tobelo, North Maluku, following a magnitude 6 earthquake deep beneath the sea",
+      "alert_summary": "Magnitude 6 earthquake struck 78 km NNE of Tobelo, Indonesia; no casualties reported."
+    },
+    {
+      "wp_id": 11490,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-09-14-2026-magnitude-5/",
+      "date": "2026-09-18T11:23:27",
+      "title": "Earthquake in Solomon Islands 09/14/2026 — Magnitude 5",
+      "body": "On September 14, 2026, a magnitude 5.2 earthquake occurred 135 km southeast of Gizo, Solomon Islands, at a depth of about 10 km. The shallow depth means shaking can be felt more strongly at the surface, though the remote",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -8.9454,
+      "lng": 157.7415,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thea",
+      "prayer": "Communities near Gizo in the Solomon Islands after a shallow offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 135 km southeast of Gizo, Solomon Islands; no casualties reported."
+    },
+    {
+      "wp_id": 11489,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-09-18-2026-magnitude-5/",
+      "date": "2026-09-18T11:21:27",
+      "title": "Earthquake in Japan 09/18/2026 — Magnitude 5",
+      "body": "On September 18, 2026, a magnitude 5 earthquake struck the Izu Islands region of Japan, at a depth of about 35 kilometers. No felt reports were submitted for the event, and no casualties, injuries, or damage have been re",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 34.117924,
+      "lng": 139.50984,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti89",
+      "prayer": "People of the Izu Islands, Japan following an offshore earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5 earthquake struck the Izu Islands region of Japan; no casualties or damage reported."
+    },
+    {
+      "wp_id": 11488,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-17-2026-magnitude-7/",
+      "date": "2026-09-18T11:21:05",
+      "title": "Earthquake in United States 09/17/2026 — Magnitude 7",
+      "body": "On September 17, 2026, a magnitude 6.5 earthquake struck the Fox Islands region of the Aleutian Islands, Alaska. The quake occurred at 5:19 a.m. local time, about 101 miles west-southwest of Nikolski, Alaska, at a depth ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.939177,
+      "lng": -168.861013,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
+      "prayer": "Remote Aleutian Islands communities after an offshore earthquake with no reported harm",
+      "alert_summary": "Magnitude 6.5 earthquake struck offshore near Nikolski, Alaska; no injuries or damage reported."
+    },
     {
       "wp_id": 11404,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-13-2026/",
