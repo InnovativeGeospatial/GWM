@@ -1,12 +1,12 @@
 {
   "source": "US Department of State",
   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
-  "updated_at": "2026-09-15T18:45:51Z",
-  "total": 214,
+  "updated_at": "2026-09-18T11:46:38Z",
+  "total": 215,
   "counts": {
-    "1": 83,
-    "2": 80,
-    "3": 29,
+    "1": 84,
+    "2": 81,
+    "3": 28,
     "4": 22
   },
   "advisories": [
@@ -263,16 +263,9 @@
       "pub_date": "2026-09-03T20:00:00-04:00"
     },
     {
-      "country": "Mainland China, Hong Kong & Macau",
-      "level": 3,
-      "summary": "Reissued statement: There were no changes to the advisory level or risk indicators. Advisory summary was updated. Level 2: Exercise Increased Caution in mainland China and Hong Kong Exercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and transparent process under the law, and the risk of unjust arrest or detention. Exercise increased caution in Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws. Some areas have increased risk. Read the entire Travel Advisory. Level 3: Reconsider Travel to Macau Special Administrative Region (SAR) Reconsider travel to Macau SAR due to a limited ability to provide emergency consular services and arbitrary enforcement of local laws....",
-      "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.chn.html",
-      "pub_date": "2026-09-03T20:00:00-04:00"
-    },
-    {
       "country": "Mauritania",
       "level": 3,
-      "summary": "Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions The U.S. government has limited ability to offer emergency services to American citizens in Mauritania due to safety risks. U.S. government employees working in Mauritania are not allowed to travel outside Nouakchott at night. They cannot walk alone outside of specific areas and times. U.S. government employees working in Mauritania need special authorization to travel outside Nouakchott. American citizens in Mauritania are advised to take similar precautions. Crime Violent crimes occur frequently outside the Tevragh Zeina neighborhoods in Nouakchott. This includes mugging, armed...",
+      "summary": "There was no change to the advisory level. The \"health risk indicator was added. Advisory summary was updated. Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel Advisory. Do Not Travel to areas marked off-limits by the Mauritanian military. These areas are unsafe due to security risks and terrorist activities. All areas north of the Tropic of Cancer All areas within 60 miles of the Mali and Algeria border Advisory Summary U.S. government employee travel restrictions The U.S. government has limited ability to offer emergency services to American citizens in Mauritania due to safety risks. U.S. government employees working in Mauritania are not allowed to travel outside Nouakchott at night....",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.mrt.html",
       "pub_date": "2026-08-17T20:00:00-04:00"
     },
@@ -503,7 +496,7 @@
     {
       "country": "Djibouti",
       "level": 2,
-      "summary": "Exercise increased caution in Djibouti due to terrorism . Some areas have increased risk. Read the entire Travel Advisory. Terrorists may attack with little or no warning. Terrorists target public areas including: Tourist locations Transportation centers (airports) Government buildings Markets and shopping malls Hotels, clubs, and restaurants Places of worship and schools Parks and public areas Major sporting and cultural events Hospitals Read the Travel Guidance for more information on travel to Djibouti. Reconsider travel to areas bordering Eritrea due to border tensions .",
+      "summary": "Updated to remove Crime indicator and to include area-specific Level 3 advisory for the border with Eritrea. Exercise increased caution in Djibouti due to terrorism . Some areas have increased risk. Read the entire Travel Advisory. Reconsider travel to: Areas bordering Eritrea due to border tensions Terrorists may attack with little or no warning. Terrorists target public areas including: Tourist locations Transportation centers (airports) Government buildings Markets and shopping malls Hotels, clubs, and restaurants Places of worship and schools Parks and public areas Major sporting and cultural events Hospitals Read the Country Information Page for more information on travel to Djibouti. If you decide to travel to Djibouti: Stay aware of your surroundings. Check local media for...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.dji.html",
       "pub_date": "2025-03-05T19:00:00-05:00"
     },
@@ -681,6 +674,13 @@
       "summary": "The advisory level was decreased from 3 to 2. The health risk indicator was added. Advisory summary was updated. Exercise increased caution when traveling to Madagascar due to crime, unrest, and health . Some areas have increased risk. Read the entire Travel Advisory. Reconsider travel to the following areas due to crime: The area in and around the city of Tsaratanana in the Betsiboka Region. The area along the unnamed road connecting the city of Tsiroanomandidy in the Bongolava Region with the coastal city of Maintirano in the Melaky Region. The area in and around the city of Betroka in the Anosy Region. The area along the road from Miandrivazo to Malaimbandy. This road is part of the National Road number 34 (RN34) that connects Antsirabe-Miandrivazo-Malaimbandy-Morondava and is...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.mdg.html",
       "pub_date": "2025-12-03T19:00:00-05:00"
+    },
+    {
+      "country": "Mainland China, Hong Kong & Macau",
+      "level": 2,
+      "summary": "Reissued Statement: There were no changes to the advisory level or risk indicators. Advisory summary was updated. Level 2: Exercise Increased Caution in mainland China and Hong Kong Exercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and transparent process under the law, and the risk of unjust arrest or detention. Level 3: Reconsider Travel to Macau Some areas have increased risk. Read the entire Travel Advisory. Level 2: Exercise Increased Caution to Hong Kong Special Administrative Region (SAR) Exercise increased caution in Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws. Advisory summary Exercise increased caution due to the arbitrary enforcement of local laws....",
+      "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.chn.html",
+      "pub_date": "2026-09-03T20:00:00-04:00"
     },
     {
       "country": "Malawi",
@@ -1000,7 +1000,7 @@
     {
       "country": "Bonaire",
       "level": 1,
-      "summary": "Exercise normal precaution in Bonaire . Bonaire is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sites have tourist police available to help in uncomfortable situations. Crime rates are low. However, armed robberies occur at businesses storing large amounts of cash or involved in drug or gang activity. It is illegal to bring guns, ammunition, and even spent shells or casings into Bonaire. You may face arrest and detention for long periods of time. Review our Travel Guidance for Bonaire to...",
+      "summary": "There was no change to the advisory level. Advisory summary was updated. Exercise normal precautions in Bonaire. Advisory summary Bonaire is generally a safe destination for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sites have tourist police available to help in uncomfortable situations. Crime rates are low. However, armed robberies occur at businesses storing large amounts of cash or involved in drug or gang activity. It is illegal to bring guns, ammunition, and even spent shells or casings into Bonaire. You may face...",
       "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
       "pub_date": "2026-08-19T20:00:00-04:00"
     },
@@ -1217,7 +1217,7 @@
     {
       "country": "Lithuania",
       "level": 1,
-      "summary": "Exercise normal precaution in Lithuania . Lithuania is generally a safe destination for travelers. Review our Travel Guidance for Lithuania to learn how to prepare for a safe trip.",
+      "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Lithuania . Advisory summary Lithuania is generally a safe destination for travelers. Review our travel guidance for Lithuania to learn how to prepare for a safe trip. If you decide to travel to Lithuania: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for Lithuania. Be aware of your surroundings when traveling to tourist locations and crowded public venues. Follow the instructions of local authorities. Monitor local media for breaking news. Be...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.ltu.html",
       "pub_date": "2026-04-27T20:00:00-04:00"
     },
@@ -1341,9 +1341,9 @@
       "pub_date": "2025-10-13T20:00:00-04:00"
     },
     {
-      "country": "Saba and Sint Eustatius",
+      "country": "Saba",
       "level": 1,
-      "summary": "Exercise normal precaution in Saba and Sint Eustatius . Saba and Sint Eustatius are generally safe destinations for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sites have tourist police available to help in uncomfortable situations. Crime rates are low. However, armed robberies occur at businesses storing large amounts of cash or involved in drug or gang activity. It is illegal to bring guns, ammunition, and even spent shells or casings into Saba and Sint Eustatius. You may face arrest and detention for long periods of...",
+      "summary": "There was no change to the advisory level. Advisory summary was updated. Exercise normal precautions in Saba. Advisory summary Saba is generally safe destinations for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sites have tourist police available to help in uncomfortable situations. Crime rates are low. However, armed robberies occur at businesses storing large amounts of cash or involved in drug or gang activity. It is illegal to bring guns, ammunition, and even spent shells or casings into Saba. You may face arrest and...",
       "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
       "pub_date": "2026-08-19T20:00:00-04:00"
     },
@@ -1395,6 +1395,13 @@
       "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated. Exercise normal precautions in Singapore . Advisory summary Singapore is generally a safe destination for travelers. Review our travel guidance for Singapore to learn how to prepare for a safe trip. If you decide to travel to Singapore: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy. Enrolling helps the U.S. embassy contact you make it easier to locate you in an emergency. Review the Country Security Report for Singapore. You are subject to local laws when traveling overseas. The U.S. government cannot guarantee your release when you are detained or arrested abroad. Visit the Centers for Disease Control and Prevention (CDC)...",
       "link": "https://travel.state.gov/en/international-travel/travel-advisories/destination.sgp.html",
       "pub_date": "2026-03-08T20:00:00-04:00"
+    },
+    {
+      "country": "Sint Eustatius",
+      "level": 1,
+      "summary": "Reissued after periodic review without changes. Exercise normal precautions in Sint Eustatius. There was no change to the advisory level. Advisory summary was updated. Advisory summary Sint Eustatius is generally safe destinations for travelers. Petty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle break-ins. Beware of overcharges and scams in tourist areas. Some sellers may be aggressive. Most sites have tourist police available to help in uncomfortable situations. Crime rates are low. However, armed robberies occur at businesses storing large amounts of cash or involved in drug or gang activity. It is illegal to bring guns, ammunition,...",
+      "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+      "pub_date": "2026-08-19T20:00:00-04:00"
     },
     {
       "country": "Sint Maarten",
