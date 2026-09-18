@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-15T18:39:54.920134+00:00",
-  "count": 1193,
+  "updated": "2026-09-18T11:39:52.062634+00:00",
+  "count": 1202,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11496,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-15-2026/",
+      "date": "2026-09-18T11:38:09",
+      "title": "Wildfire in Croatia 09/15/2026",
+      "country": "Croatia",
+      "type": "Wildfire",
+      "lat": 45.664952,
+      "lng": 16.679107
+    },
+    {
+      "wp_id": 11495,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-16-2026/",
+      "date": "2026-09-18T11:33:58",
+      "title": "Wildfire in United States 09/16/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 35.376637,
+      "lng": -98.23648
+    },
+    {
+      "wp_id": 11494,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-09-16-2026/",
+      "date": "2026-09-18T11:32:21",
+      "title": "Landslide in India 09/16/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 27.289513,
+      "lng": 88.25697
+    },
+    {
+      "wp_id": 11493,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-17-2026/",
+      "date": "2026-09-18T11:29:15",
+      "title": "Flood in United States 09/17/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 36.282547,
+      "lng": -108.706985
+    },
+    {
+      "wp_id": 11492,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-11-2026-magnitude-6-2/",
+      "date": "2026-09-18T11:25:08",
+      "title": "Earthquake in Timor Leste 09/11/2026 — Magnitude 6",
+      "country": "Timor Leste",
+      "type": "Earthquake",
+      "lat": -7.2863,
+      "lng": 128.9383
+    },
+    {
+      "wp_id": 11491,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-14-2026-magnitude-6/",
+      "date": "2026-09-18T11:23:43",
+      "title": "Earthquake in Indonesia 09/14/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 2.4223,
+      "lng": 128.1704
+    },
+    {
+      "wp_id": 11490,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-09-14-2026-magnitude-5/",
+      "date": "2026-09-18T11:23:27",
+      "title": "Earthquake in Solomon Islands 09/14/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -8.9454,
+      "lng": 157.7415
+    },
+    {
+      "wp_id": 11489,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-09-18-2026-magnitude-5/",
+      "date": "2026-09-18T11:21:27",
+      "title": "Earthquake in Japan 09/18/2026 — Magnitude 5",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 34.117924,
+      "lng": 139.50984
+    },
+    {
+      "wp_id": 11488,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-17-2026-magnitude-7/",
+      "date": "2026-09-18T11:21:05",
+      "title": "Earthquake in United States 09/17/2026 — Magnitude 7",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 52.939177,
+      "lng": -168.861013
+    },
     {
       "wp_id": 11404,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-13-2026/",
