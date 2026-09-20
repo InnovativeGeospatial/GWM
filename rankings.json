@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "2.0",
-    "generated_at": "2026-05-18T15:44:40Z",
+    "version": "2.1",
+    "generated_at": "2026-09-20T21:28:23Z",
     "country_count": 192,
     "methodology": "GWM 5-dimension persecution scoring. See globalwitnessmonitor.com/methodology"
   },
@@ -82,47 +82,47 @@
       "rank": 5
     },
     {
-      "name": "Libya",
-      "slug": "libya",
-      "tier": 2,
-      "tier_label": "Very High",
-      "score": 71.0,
-      "sub_scores": {
-        "state": 13,
-        "non_state": 15,
-        "legal": 15,
-        "indigenous": 15,
-        "trajectory": 13
-      },
-      "rank": 6
-    },
-    {
       "name": "Sudan",
       "slug": "sudan",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 70.0,
+      "score": 73.0,
       "sub_scores": {
         "state": 14,
-        "non_state": 14,
+        "non_state": 16,
         "legal": 12,
         "indigenous": 13,
-        "trajectory": 17
+        "trajectory": 18
       },
-      "rank": 7
+      "rank": 5
     },
     {
       "name": "Iran",
       "slug": "iran",
       "tier": 2,
       "tier_label": "Very High",
-      "score": 69.0,
+      "score": 70.0,
       "sub_scores": {
         "state": 18,
         "non_state": 4,
         "legal": 17,
         "indigenous": 15,
-        "trajectory": 15
+        "trajectory": 16
+      },
+      "rank": 7
+    },
+    {
+      "name": "Libya",
+      "slug": "libya",
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 69.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 14,
+        "legal": 15,
+        "indigenous": 15,
+        "trajectory": 12
       },
       "rank": 8
     },
@@ -202,6 +202,21 @@
       "rank": 13
     },
     {
+      "name": "Syria",
+      "slug": "syria",
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 66.0,
+      "sub_scores": {
+        "state": 9,
+        "non_state": 18,
+        "legal": 8,
+        "indigenous": 15,
+        "trajectory": 16
+      },
+      "rank": 13
+    },
+    {
       "name": "India",
       "slug": "india",
       "tier": 2,
@@ -214,7 +229,22 @@
         "indigenous": 10,
         "trajectory": 16
       },
-      "rank": 14
+      "rank": 15
+    },
+    {
+      "name": "Algeria",
+      "slug": "algeria",
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 64.0,
+      "sub_scores": {
+        "state": 16,
+        "non_state": 4,
+        "legal": 14,
+        "indigenous": 15,
+        "trajectory": 15
+      },
+      "rank": 16
     },
     {
       "name": "China",
@@ -229,65 +259,35 @@
         "indigenous": 14,
         "trajectory": 17
       },
-      "rank": 15
-    },
-    {
-      "name": "Algeria",
-      "slug": "algeria",
-      "tier": 2,
-      "tier_label": "Very High",
-      "score": 61.0,
-      "sub_scores": {
-        "state": 15,
-        "non_state": 4,
-        "legal": 14,
-        "indigenous": 13,
-        "trajectory": 15
-      },
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Nigeria",
       "slug": "nigeria",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 59.0,
+      "tier": 2,
+      "tier_label": "Very High",
+      "score": 63.0,
       "sub_scores": {
-        "state": 4,
+        "state": 6,
         "non_state": 20,
         "legal": 7,
-        "indigenous": 11,
-        "trajectory": 17
+        "indigenous": 12,
+        "trajectory": 18
       },
       "rank": 17
-    },
-    {
-      "name": "Syria",
-      "slug": "syria",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 56.0,
-      "sub_scores": {
-        "state": 8,
-        "non_state": 15,
-        "legal": 7,
-        "indigenous": 13,
-        "trajectory": 13
-      },
-      "rank": 18
     },
     {
       "name": "Bangladesh",
       "slug": "bangladesh",
       "tier": 3,
       "tier_label": "High",
-      "score": 55.0,
+      "score": 57.0,
       "sub_scores": {
         "state": 9,
-        "non_state": 13,
+        "non_state": 14,
         "legal": 11,
         "indigenous": 10,
-        "trajectory": 12
+        "trajectory": 13
       },
       "rank": 19
     },
@@ -296,13 +296,28 @@
       "slug": "burkina-faso",
       "tier": 3,
       "tier_label": "High",
-      "score": 54.0,
+      "score": 56.0,
       "sub_scores": {
         "state": 4,
         "non_state": 18,
         "legal": 4,
-        "indigenous": 11,
-        "trajectory": 17
+        "indigenous": 12,
+        "trajectory": 18
+      },
+      "rank": 20
+    },
+    {
+      "name": "Mali",
+      "slug": "mali",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 56.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 18,
+        "legal": 4,
+        "indigenous": 12,
+        "trajectory": 18
       },
       "rank": 20
     },
@@ -319,7 +334,7 @@
         "indigenous": 11,
         "trajectory": 11
       },
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Iraq",
@@ -334,7 +349,7 @@
         "indigenous": 13,
         "trajectory": 11
       },
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Laos",
@@ -349,22 +364,7 @@
         "indigenous": 11,
         "trajectory": 13
       },
-      "rank": 21
-    },
-    {
-      "name": "Mali",
-      "slug": "mali",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 53.0,
-      "sub_scores": {
-        "state": 4,
-        "non_state": 17,
-        "legal": 4,
-        "indigenous": 11,
-        "trajectory": 17
-      },
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Morocco",
@@ -379,7 +379,7 @@
         "indigenous": 11,
         "trajectory": 11
       },
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Egypt",
@@ -427,6 +427,21 @@
       "rank": 28
     },
     {
+      "name": "Nepal",
+      "slug": "nepal",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 47.0,
+      "sub_scores": {
+        "state": 11,
+        "non_state": 5,
+        "legal": 12,
+        "indigenous": 7,
+        "trajectory": 12
+      },
+      "rank": 29
+    },
+    {
       "name": "Tajikistan",
       "slug": "tajikistan",
       "tier": 3,
@@ -454,50 +469,35 @@
         "indigenous": 7,
         "trajectory": 10
       },
-      "rank": 30
-    },
-    {
-      "name": "Vietnam",
-      "slug": "vietnam",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 46.0,
-      "sub_scores": {
-        "state": 13,
-        "non_state": 3,
-        "legal": 9,
-        "indigenous": 10,
-        "trajectory": 11
-      },
-      "rank": 30
-    },
-    {
-      "name": "Nepal",
-      "slug": "nepal",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 45.0,
-      "sub_scores": {
-        "state": 10,
-        "non_state": 5,
-        "legal": 12,
-        "indigenous": 7,
-        "trajectory": 11
-      },
-      "rank": 32
+      "rank": 31
     },
     {
       "name": "Azerbaijan",
       "slug": "azerbaijan",
       "tier": 3,
       "tier_label": "High",
-      "score": 44.0,
+      "score": 45.0,
       "sub_scores": {
         "state": 12,
         "non_state": 2,
         "legal": 10,
-        "indigenous": 9,
+        "indigenous": 10,
         "trajectory": 11
+      },
+      "rank": 32
+    },
+    {
+      "name": "DR Congo",
+      "slug": "dr-congo",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 44.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 16,
+        "legal": 3,
+        "indigenous": 7,
+        "trajectory": 14
       },
       "rank": 33
     },
@@ -517,6 +517,21 @@
       "rank": 33
     },
     {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 44.0,
+      "sub_scores": {
+        "state": 13,
+        "non_state": 2,
+        "legal": 9,
+        "indigenous": 10,
+        "trajectory": 10
+      },
+      "rank": 33
+    },
+    {
       "name": "Malaysia",
       "slug": "malaysia",
       "tier": 3,
@@ -529,21 +544,6 @@
         "indigenous": 7,
         "trajectory": 9
       },
-      "rank": 35
-    },
-    {
-      "name": "DR Congo",
-      "slug": "dr-congo",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 42.0,
-      "sub_scores": {
-        "state": 4,
-        "non_state": 15,
-        "legal": 3,
-        "indigenous": 7,
-        "trajectory": 13
-      },
       "rank": 36
     },
     {
@@ -551,10 +551,10 @@
       "slug": "niger",
       "tier": 3,
       "tier_label": "High",
-      "score": 42.0,
+      "score": 43.0,
       "sub_scores": {
         "state": 4,
-        "non_state": 14,
+        "non_state": 15,
         "legal": 4,
         "indigenous": 7,
         "trajectory": 13
@@ -574,7 +574,22 @@
         "indigenous": 8,
         "trajectory": 10
       },
-      "rank": 36
+      "rank": 38
+    },
+    {
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "tier": 3,
+      "tier_label": "High",
+      "score": 41.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 14,
+        "legal": 3,
+        "indigenous": 7,
+        "trajectory": 13
+      },
+      "rank": 39
     },
     {
       "name": "Ethiopia",
@@ -622,21 +637,6 @@
       "rank": 39
     },
     {
-      "name": "Cameroon",
-      "slug": "cameroon",
-      "tier": 3,
-      "tier_label": "High",
-      "score": 40.0,
-      "sub_scores": {
-        "state": 4,
-        "non_state": 14,
-        "legal": 3,
-        "indigenous": 7,
-        "trajectory": 12
-      },
-      "rank": 42
-    },
-    {
       "name": "Central African Republic",
       "slug": "central-african-republic",
       "tier": 3,
@@ -649,7 +649,7 @@
         "indigenous": 8,
         "trajectory": 11
       },
-      "rank": 42
+      "rank": 43
     },
     {
       "name": "Cuba",
@@ -664,7 +664,7 @@
         "indigenous": 7,
         "trajectory": 13
       },
-      "rank": 42
+      "rank": 43
     },
     {
       "name": "Russia",
@@ -679,7 +679,7 @@
         "indigenous": 5,
         "trajectory": 14
       },
-      "rank": 42
+      "rank": 43
     },
     {
       "name": "Turkey",
@@ -757,6 +757,21 @@
       "rank": 48
     },
     {
+      "name": "Mozambique",
+      "slug": "mozambique",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 34.0,
+      "sub_scores": {
+        "state": 3,
+        "non_state": 13,
+        "legal": 2,
+        "indigenous": 4,
+        "trajectory": 12
+      },
+      "rank": 51
+    },
+    {
       "name": "Sri Lanka",
       "slug": "sri-lanka",
       "tier": 4,
@@ -770,21 +785,6 @@
         "trajectory": 8
       },
       "rank": 51
-    },
-    {
-      "name": "Mozambique",
-      "slug": "mozambique",
-      "tier": 4,
-      "tier_label": "Medium",
-      "score": 32.0,
-      "sub_scores": {
-        "state": 3,
-        "non_state": 12,
-        "legal": 2,
-        "indigenous": 4,
-        "trajectory": 11
-      },
-      "rank": 52
     },
     {
       "name": "Bahrain",
@@ -952,6 +952,21 @@
       "rank": 62
     },
     {
+      "name": "Tanzania",
+      "slug": "tanzania",
+      "tier": 4,
+      "tier_label": "Medium",
+      "score": 24.0,
+      "sub_scores": {
+        "state": 4,
+        "non_state": 7,
+        "legal": 3,
+        "indigenous": 3,
+        "trajectory": 7
+      },
+      "rank": 62
+    },
+    {
       "name": "Ivory Coast",
       "slug": "ivory-coast",
       "tier": 4,
@@ -964,22 +979,7 @@
         "indigenous": 4,
         "trajectory": 6
       },
-      "rank": 64
-    },
-    {
-      "name": "Tanzania",
-      "slug": "tanzania",
-      "tier": 4,
-      "tier_label": "Medium",
-      "score": 23.0,
-      "sub_scores": {
-        "state": 4,
-        "non_state": 7,
-        "legal": 3,
-        "indigenous": 3,
-        "trajectory": 6
-      },
-      "rank": 64
+      "rank": 65
     },
     {
       "name": "Chad",
@@ -1001,15 +1001,15 @@
       "slug": "lebanon",
       "tier": 4,
       "tier_label": "Medium",
-      "score": 21.0,
+      "score": 22.0,
       "sub_scores": {
         "state": 3,
         "non_state": 5,
         "legal": 3,
         "indigenous": 3,
-        "trajectory": 7
+        "trajectory": 8
       },
-      "rank": 67
+      "rank": 66
     },
     {
       "name": "Ukraine",
@@ -1024,7 +1024,7 @@
         "indigenous": 2,
         "trajectory": 9
       },
-      "rank": 67
+      "rank": 68
     },
     {
       "name": "Haiti",
@@ -1072,6 +1072,21 @@
       "rank": 71
     },
     {
+      "name": "Benin",
+      "slug": "benin",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 18.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 5,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 7
+      },
+      "rank": 72
+    },
+    {
       "name": "Venezuela",
       "slug": "venezuela",
       "tier": 5,
@@ -1087,21 +1102,6 @@
       "rank": 72
     },
     {
-      "name": "Benin",
-      "slug": "benin",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 16.0,
-      "sub_scores": {
-        "state": 2,
-        "non_state": 4,
-        "legal": 2,
-        "indigenous": 2,
-        "trajectory": 6
-      },
-      "rank": 73
-    },
-    {
       "name": "Guinea",
       "slug": "guinea",
       "tier": 5,
@@ -1114,7 +1114,7 @@
         "indigenous": 3,
         "trajectory": 4
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "name": "Kosovo",
@@ -1129,7 +1129,7 @@
         "indigenous": 3,
         "trajectory": 4
       },
-      "rank": 73
+      "rank": 74
     },
     {
       "name": "Ghana",
@@ -1222,6 +1222,21 @@
       "rank": 79
     },
     {
+      "name": "Guinea-Bissau",
+      "slug": "guinea-bissau",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 13.0,
+      "sub_scores": {
+        "state": 2,
+        "non_state": 3,
+        "legal": 2,
+        "indigenous": 2,
+        "trajectory": 4
+      },
+      "rank": 79
+    },
+    {
       "name": "Angola",
       "slug": "angola",
       "tier": 5,
@@ -1234,7 +1249,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "Bulgaria",
@@ -1249,7 +1264,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "Cambodia",
@@ -1264,7 +1279,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "France",
@@ -1279,22 +1294,7 @@
         "indigenous": 1,
         "trajectory": 4
       },
-      "rank": 82
-    },
-    {
-      "name": "Guinea-Bissau",
-      "slug": "guinea-bissau",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 12.0,
-      "sub_scores": {
-        "state": 2,
-        "non_state": 3,
-        "legal": 2,
-        "indigenous": 2,
-        "trajectory": 3
-      },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "Philippines",
@@ -1309,7 +1309,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "Senegal",
@@ -1324,7 +1324,7 @@
         "indigenous": 2,
         "trajectory": 3
       },
-      "rank": 82
+      "rank": 83
     },
     {
       "name": "Brazil",
@@ -1627,6 +1627,21 @@
       "rank": 102
     },
     {
+      "name": "Madagascar",
+      "slug": "madagascar",
+      "tier": 5,
+      "tier_label": "Lower",
+      "score": 8.0,
+      "sub_scores": {
+        "state": 1,
+        "non_state": 2,
+        "legal": 1,
+        "indigenous": 1,
+        "trajectory": 3
+      },
+      "rank": 102
+    },
+    {
       "name": "Mongolia",
       "slug": "mongolia",
       "tier": 5,
@@ -1759,7 +1774,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Australia",
@@ -1774,7 +1789,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Canada",
@@ -1789,7 +1804,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Chile",
@@ -1804,7 +1819,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Finland",
@@ -1819,7 +1834,7 @@
         "indigenous": 1,
         "trajectory": 3
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Gabon",
@@ -1834,7 +1849,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Greece",
@@ -1849,7 +1864,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Italy",
@@ -1864,7 +1879,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Liberia",
@@ -1879,22 +1894,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
-    },
-    {
-      "name": "Madagascar",
-      "slug": "madagascar",
-      "tier": 5,
-      "tier_label": "Lower",
-      "score": 7.0,
-      "sub_scores": {
-        "state": 1,
-        "non_state": 2,
-        "legal": 1,
-        "indigenous": 1,
-        "trajectory": 2
-      },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Malawi",
@@ -1909,7 +1909,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Papua New Guinea",
@@ -1924,7 +1924,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Peru",
@@ -1939,7 +1939,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Sierra Leone",
@@ -1954,7 +1954,7 @@
         "indigenous": 1,
         "trajectory": 2
       },
-      "rank": 117
+      "rank": 118
     },
     {
       "name": "Austria",
