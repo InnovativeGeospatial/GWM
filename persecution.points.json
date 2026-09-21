@@ -1,9 +1,69 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-18T11:46:33.554257+00:00",
-  "count": 665,
+  "updated": "2026-09-21T04:45:14.644919+00:00",
+  "count": 671,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 11804,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-authorities-re-arrest-human-rights-lawyers-who-defended-blasphemy-accused-hours-after-supreme-court-orders-release/",
+      "date": "2026-09-21T04:45:07",
+      "title": "Pakistani Authorities Re-Arrest Human Rights Lawyers Who Defended Blasphemy Accused Hours After Supreme Court Orders Release",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 11803,
+      "wp_link": "https://globalwitnessmonitor.com/eleven-elderly-christians-arrested-at-teahouse-gathering-in-china/",
+      "date": "2026-09-21T04:44:41",
+      "title": "Eleven Elderly Christians Arrested at Teahouse Gathering in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 11802,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-kill-11-in-raid-on-predominantly-christian-farming-community-in-nigeria/",
+      "date": "2026-09-21T04:44:23",
+      "title": "Fulani Militia Kill 11 in Raid on Predominantly Christian Farming Community in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11801,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militants-issue-convert-or-leave-ultimatum-to-nigerian-christian-community/",
+      "date": "2026-09-21T04:44:02",
+      "title": "Islamist militants issue convert-or-leave ultimatum to Nigerian Christian community",
+      "country": "nigeria",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 11800,
+      "wp_link": "https://globalwitnessmonitor.com/christian-grandmother-euthanised-against-her-will-under-canadas-assisted-dying-programme/",
+      "date": "2026-09-21T04:43:40",
+      "title": "Christian Grandmother Euthanised Against Her Will Under Canada's Assisted Dying Programme",
+      "country": "canada",
+      "type": "killing",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 11799,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-christian-detained-under-blasphemy-charges-carrying-death-penalty/",
+      "date": "2026-09-21T04:42:52",
+      "title": "Pakistani Christian Detained Under Blasphemy Charges Carrying Death Penalty",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 11516,
       "wp_link": "https://globalwitnessmonitor.com/china-withholds-passport-of-terminally-ill-pastor-blocking-return-to-family-in-u-s/",
