@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-18T11:39:50.043210+00:00",
-  "count": 986,
+  "updated": "2026-09-21T04:39:46.864653+00:00",
+  "count": 999,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 11798,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-09-19-2026/",
+      "date": "2026-09-21T04:39:12",
+      "title": "Storm in Japan 09/19/2026",
+      "body": "Typhoon Dujuan, the 25th typhoon of the year, was moving northwest over the sea south of Japan on Sunday, September 20. The storm carried maximum sustained winds of 126 km/h near its centre and gusts of up to 180 km/h. I",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Storm",
+      "lat": 35.609818,
+      "lng": 140.12024,
+      "source_title": "\"cyclone OR hurricane OR typhoon landfall OR damage when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMVIwWXlnU3V5YXRyTm9fM1l2VzZsLTNsanJWdDRaUFM2R3lFSDM5NnQtQUcwZUVMNFc5UlhjWkN5SUxYMlU2WEJEUzhZdlI0STFDX0VINnZJZlpxWlJ4Q19fMUFTWno4NkV4Tnc4c09uM2VyM3NyTlBfMFBVeGtYWkpvUFBmMlNYUGlIQmNuVFItcnRvQXdJNEdNTFVkVEpZd1U2WHdERmY5T3FVVnl1bklFcExBRnJPTVVldVZR?oc=5",
+      "prayer": "Residents of the Kanto region and Izu Islands in the path of Typhoon Dujuan",
+      "alert_summary": "Typhoon Dujuan approached the Boso Peninsula in Chiba Prefecture on September 21, bringing rain totals above 300 mm in some coastal areas; no casualty figures yet reported."
+    },
+    {
+      "wp_id": 11797,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-09-20-2026/",
+      "date": "2026-09-21T04:38:11",
+      "title": "Wildfire in Australia 09/20/2026",
+      "body": "On September 20, 2026, residents of a town in Victoria's East Gippsland were told to evacuate as an out-of-control bushfire threatened their community. The warning came as the fire burned uncontrolled in the state's far ",
+      "country": "Australia",
+      "countries": [
+        "Australia"
+      ],
+      "type": "Wildfire",
+      "lat": -38.104703,
+      "lng": 145.374537,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNkFobW1ZUUtkb09uOVZBUU1SR3dTa2YwWVY4Vml3b3M2OWxnOGZZdGloZldCVlp6TzB6czVxeVpscEtyRnNEYXRTUTZlQU9pcV9jTEhSV01Fb1BzWndvQ0MtYmhELWJVZ290a3d1NmYtS2E3WkJxNXZucUhyQy1vbWJ4djh1SzJENFRkM3NqMkJ2UzUzZUN3MDJHN2JUMmFmLS00a0JMQm1nbXot?oc=5",
+      "prayer": "Residents of East Gippsland, Victoria, ordered to evacuate as an out-of-control bushfire threatens their town",
+      "alert_summary": "An out-of-control bushfire prompted an evacuation warning for a town in East Gippsland, Victoria; no casualty or size figures reported."
+    },
+    {
+      "wp_id": 11796,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-19-2026/",
+      "date": "2026-09-21T04:35:22",
+      "title": "Wildfire in United States 09/19/2026",
+      "body": "On September 19, 2026, an evacuation order was issued around 5 p.m. for the area of New Blaine, including the Shoal Bay Park area, Mountain Springs Road, and the eastern part of River Mountain Road. The fire was burning ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 35.289415,
+      "lng": -93.420041,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRE9fcXVVVmdEWjg2NTE2RmR3SXB6S1pjYTFfa1BvNXpCb0E2NXRCR1dmcU9HOVF1b1FMd2pibVMwY2hOT2laSUdwLTIxaTNtU3hOVlY3bVRMWnY3THAzSUFWNTAzWG9CUWJySkV6NFFZdVNLR29zVURnSktfR2xUNEMteUZaSWQxdHNvZg?oc=5",
+      "prayer": "Residents near New Blaine, Arkansas, displaced by a wildfire now returning home",
+      "alert_summary": "A wildfire in eastern Logan County, Arkansas, burned 372 acres before being fully contained; evacuation orders have since been lifted."
+    },
+    {
+      "wp_id": 11795,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-09-20-2026/",
+      "date": "2026-09-21T04:32:46",
+      "title": "Flood in Malaysia 09/20/2026",
+      "body": "On September 20, 2026, flooding triggered by heavy rain hit Gua Musang, in Kelantan state, prompting authorities to open five temporary relief centres housing 221 victims from 57 families. Three districts were affected b",
+      "country": "Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "type": "Flood",
+      "lat": 4.877778,
+      "lng": 101.965065,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTW9rMXlZVVpSWThpV0MzVjVJNUhIUE9BNmx4V2ZtWDRMV3NpNEVPSVFUX2tIeUMxNjAySEdxeVRqUGJrYUduQzJXekhZTDZlbDJYcWdXaC02ZmNtRERqNjNERFlpMWs0X0xuNUxBYi1La0lrcWVlNC1oVVFTaEhXMVZmVmVKNkZkNmxvRkpOYkdOazdtU1hlOVUtZXpCcjBsTG1NRTFCQQ?oc=5",
+      "prayer": "Families displaced by flooding in Gua Musang, including Orang Asli communities cut off from road access",
+      "alert_summary": "Flooding in Gua Musang, Malaysia displaced 221 residents from 57 families across five relief centres on September 20, 2026."
+    },
+    {
+      "wp_id": 11794,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-united-states-09-18-2026/",
+      "date": "2026-09-21T04:32:11",
+      "title": "Landslide in United States 09/18/2026",
+      "body": "On September 19, 2026, an overflowing swimming pool caused a partial hillside collapse and the evacuation of eight apartments in the Hollywood Hills. An unattended hose filling the pool overflowed with approximately 7,00",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Landslide",
+      "lat": 34.122154,
+      "lng": -118.34587,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd1VpUVA3ajl5bWNYaHVJUzFhRHd1a21ueTh2WkdzMmJMNm51NWV3NkF5SlY5VWdCWGJWVlRvWGdQOW8xN1VQOUtLbzBwUjFTNk4xektQSV9QMkhwSGxKYWVJcXF4dk1yMWNFNU44X2swOTRHb3VBN0hMWm83YTJtd2JrMnVqZlBVeWxjWkZZZkYwUVZfdVlhaFU5RWhiNzFEcE8yT2xEOWlJLTMtVlVUYzZhWGlNZE9ZZUZpSFRNZTM2MUxy?oc=5",
+      "prayer": "Residents of Hollywood Hills displaced by a hillside collapse and those whose property was damaged",
+      "alert_summary": "A partial hillside collapse at North Wilcox Avenue in Hollywood Hills evacuated eight apartment units; no injuries reported."
+    },
+    {
+      "wp_id": 11793,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-21-2026/",
+      "date": "2026-09-21T04:30:43",
+      "title": "Flood in United States 09/21/2026",
+      "body": "On September 20, 2026, residents of the Washington Estates community in Canton Township, Pennsylvania were evacuated as floodwaters rose, with first responders going door to door urging people to move their cars and leav",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 40.172382,
+      "lng": -80.2688,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNW9LblZ6Y2JBSFo3cVNnQ3U4ZDhXaUhXWnZ1WTgxdUNzN2ppa3ZVVXNleHdxQmdMLUJGYk9MbndpR0lDRXVQLWtNTlJjRnYzaTBHQl9veTVHV2J6MU5pVHBqckw5bU95cTJQVXExV2ZoZXJYTEszQTJ0ZGFDNjIybVRLTmFpeEwxWFZoYWRnQ24xd3Rkc3ptWGJDRmxnVk51TWJEV1dFVG5jUE9YSlFsR0QybDFCUdIBygFBVV95cUxQUklNb0ZTQ3NKTG5tNG81VkZMN0RuZjNBUWVzRWRydUJBQ01Rbkk3STBjVUh6ZHVkaGx3WVBFTkZGVFBHSGJYSEVBMmtOaUtjRmtLOGUwbGRId0dwbDJZT0g2SnVBQVBrV3NpYXp3QjZOMmI3YjVjeHo0SjQtSEtDOUZFODQ0NGViNW1ZWVctaUVuOGVzNDlodGk1U2JZT3lBcTZ5eFN0SU9XRjA3TUdzc3BHdmJyanFwUGhlVm94YWpZUE1RYU1abmNB?oc=5",
+      "prayer": "Canton Township residents in Washington Estates displaced by flash flooding as waters rose through their community",
+      "alert_summary": "Flash flooding struck Canton Township, Pennsylvania on September 20, 2026, prompting evacuations at Washington Estates and a local state of emergency."
+    },
+    {
+      "wp_id": 11792,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-09-18-2026/",
+      "date": "2026-09-21T04:30:22",
+      "title": "Flood in Nepal 09/18/2026",
+      "body": "The catastrophic flooding that struck northern Nepal in late August was triggered by a glacier collapse, which unleashed flash floods and landslides. More than 1,200 people died. The wall of water and mud obliterated ent",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 28.066923,
+      "lng": 81.62625,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "prayer": "Families in northern Nepal who lost loved ones and homes in catastrophic flooding; displaced children experiencing trauma in emergency shelters",
+      "alert_summary": "Flash floods and landslides triggered by glacier collapse killed more than 1,200 people in northern Nepal in late August; entire villages swept away."
+    },
+    {
+      "wp_id": 11791,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-09-21-2026/",
+      "date": "2026-09-21T04:27:01",
+      "title": "Flood in Russia 09/21/2026",
+      "body": "In Khabarovsk Krai, 18 communities entered the flood zone along the Amur and Ussuri rivers, with water reaching 20 residential plots, 452 garden plots, and sections of roads both within and between settlements. Water lev",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 49.85405,
+      "lng": 136.76233,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20260921014516-0259066.xml",
+      "prayer": "Villages along the Lower Amur River in Khabarovsk Krai as floodwaters remain above warning levels",
+      "alert_summary": "Flooding along the Lower Amur River submerged floodplains of the Bureya and Amgun rivers to depths of 0.1–2.8 meters; 18 communities affected in Khabarovsk Krai."
+    },
+    {
+      "wp_id": 11790,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-09-18-2026-magnitude-6/",
+      "date": "2026-09-21T04:24:03",
+      "title": "Earthquake in New Zealand 09/18/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake struck near the Kermadec Islands region on September 18, 2026. The quake occurred at a depth of about 94 kilometers. Authorities reviewed the event and estimated no significant economic losses ",
+      "country": "New Zealand",
+      "countries": [
+        "New Zealand"
+      ],
+      "type": "Earthquake",
+      "lat": -27.8581,
+      "lng": -177.2286,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tigd",
+      "prayer": "People in the Kermadec Islands region after a magnitude 6 earthquake struck at depth",
+      "alert_summary": "Magnitude 6 earthquake struck the Kermadec Islands region on September 18, 2026; no casualties or damage reported."
+    },
+    {
+      "wp_id": 11789,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-09-20-2026-magnitude-5/",
+      "date": "2026-09-21T04:22:26",
+      "title": "Earthquake in Tonga 09/20/2026 — Magnitude 5",
+      "body": "On September 20, 2026, a magnitude 5.2 earthquake struck in the South Pacific Ocean, about 109 km west of Hihifo in northern Tonga, at a shallow depth of 10 km. No felt reports were recorded, and no casualty, injury, or ",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -15.95679,
+      "lng": -173.79214,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirq",
+      "prayer": "Residents near Hihifo, Tonga following a shallow offshore earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5 earthquake struck 109 km west of Hihifo, Tonga; no casualties or damage reported."
+    },
+    {
+      "wp_id": 11788,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-09-21-2026-magnitude-6/",
+      "date": "2026-09-21T04:21:47",
+      "title": "Earthquake in Indonesia 09/21/2026 — Magnitude 6",
+      "body": "A magnitude 5.5 earthquake struck approximately 35 kilometers north-northeast of Ruteng, in the East Nusa Tenggara province of Indonesia. No specific casualty or displacement figures have been reported for this event. Th",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -8.591754,
+      "lng": 120.37607,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiur",
+      "prayer": "People near Ruteng, East Nusa Tenggara, enduring ongoing aftershocks after a deadly earthquake sequence",
+      "alert_summary": "Magnitude 6 earthquake struck about 35 km north-northeast of Ruteng, Indonesia, with no casualty figures reported for this specific event."
+    },
+    {
+      "wp_id": 11787,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-17-2026-magnitude-7-2/",
+      "date": "2026-09-21T04:21:25",
+      "title": "Earthquake in United States 09/17/2026 — Magnitude 7",
+      "body": "On September 17, 2026, a magnitude 6.5 earthquake struck the Fox Islands region of the Aleutian Islands, Alaska. The earthquake struck at 5:19 a.m. local time, about 101 miles west-southwest of Nikolski, Alaska, at a dep",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 52.939177,
+      "lng": -168.861013,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
+      "prayer": "Remote Aleutian Islands communities near Nikolski after an offshore earthquake",
+      "alert_summary": "Magnitude 6.5 earthquake struck about 165 km west of Nikolski, Alaska, with no injuries or damage reported."
+    },
+    {
+      "wp_id": 11786,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-20-2026-magnitude-6/",
+      "date": "2026-09-21T04:21:07",
+      "title": "Earthquake in Papua New Guinea 09/20/2026 — Magnitude 6",
+      "body": "On September 20, 2026, a magnitude 6.4 earthquake was recorded 49 km north-northeast of Kainantu, Papua New Guinea. The quake struck at a depth of about 104 kilometers. It was felt across the island country. There is no ",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -6.268845,
+      "lng": 145.894405,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
+      "prayer": "Residents near Kainantu in Papua New Guinea's Eastern Highlands after a magnitude 6.4 earthquake",
+      "alert_summary": "A magnitude 6 earthquake struck about 49 km north-northeast of Kainantu, Papua New Guinea; no casualties reported."
+    },
     {
       "wp_id": 11496,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-croatia-09-15-2026/",
