@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Cameroon
 TITLE: Cameroon — Christianity & Persecution Profile
 SLUG: country-profiles/cameroon
@@ -56,7 +55,6 @@ The October 2025 election and its aftermath added a further layer of unrest to a
 
 -----
 
-# ================================================================================
 COUNTRY: Canada
 TITLE: Canada — Christianity & Persecution Profile
 SLUG: country-profiles/canada
@@ -94,7 +92,6 @@ The residential school system is the heaviest item in Canadian church history. C
 
 -----
 
-# ================================================================================
 COUNTRY: Central African Republic
 TITLE: Central African Republic — Christianity & Persecution Profile
 SLUG: country-profiles/central-african-republic
@@ -136,7 +133,6 @@ The Catholic Church is the most trusted national institution and runs much of th
 
 -----
 
-# ================================================================================
 COUNTRY: Chad
 TITLE: Chad — Christianity & Persecution Profile
 SLUG: country-profiles/chad
@@ -179,7 +175,6 @@ Chad is a secular state on paper, and the government has resisted Islamist polit
 
 -----
 
-# ================================================================================
 COUNTRY: Chile
 TITLE: Chile — Christianity & Persecution Profile
 SLUG: country-profiles/chile
@@ -210,7 +205,6 @@ Churches were burned and vandalized during the 2019 and 2020 social unrest, incl
 
 -----
 
-# ================================================================================
 COUNTRY: China
 TITLE: China — Christianity & Persecution Profile
 SLUG: country-profiles/china
@@ -267,7 +261,6 @@ Registered churches function openly under supervision and are often full. Unregi
 
 -----
 
-# ================================================================================
 COUNTRY: Colombia
 TITLE: Colombia — Christianity & Persecution Profile
 SLUG: country-profiles/colombia
@@ -308,7 +301,6 @@ Some indigenous reserves operate under legally recognized autonomous jurisdictio
 
 -----
 
-# ================================================================================
 COUNTRY: Comoros
 TITLE: Comoros — Christianity & Persecution Profile
 SLUG: country-profiles/comoros
@@ -344,7 +336,6 @@ The Catholic and Protestant congregations that exist serve foreign residents fro
 
 -----
 
-# ================================================================================
 COUNTRY: Democratic Republic of Congo
 TITLE: Democratic Republic of Congo — Christianity & Persecution Profile
 SLUG: country-profiles/democratic-republic-of-congo
@@ -390,7 +381,6 @@ The Catholic Church holds unusual political weight here. Its election observatio
 
 -----
 
-# ================================================================================
 COUNTRY: Republic of Congo
 TITLE: Republic of Congo — Christianity & Persecution Profile
 SLUG: country-profiles/republic-of-congo
@@ -422,7 +412,6 @@ Registration is required for religious organizations, and the government has clo
 
 -----
 
-# ================================================================================
 COUNTRY: Costa Rica
 TITLE: Costa Rica — Christianity & Persecution Profile
 SLUG: country-profiles/costa-rica
@@ -452,7 +441,6 @@ Evangelical churches have grown substantially and have become a political force,
 
 -----
 
-# ================================================================================
 COUNTRY: Côte d'Ivoire (Ivory Coast)
 TITLE: Côte d'Ivoire — Christianity & Persecution Profile
 SLUG: country-profiles/cote-divoire
@@ -492,7 +480,6 @@ Attacks by groups tied to JNIM began in the north in 2020, including a raid on t
 
 -----
 
-# ================================================================================
 COUNTRY: Croatia
 TITLE: Croatia — Christianity & Persecution Profile
 SLUG: country-profiles/croatia
@@ -524,7 +511,6 @@ Churches on all sides were destroyed during the wars of the 1990s, and reconstru
 
 -----
 
-# ================================================================================
 COUNTRY: Cuba
 TITLE: Cuba — Christianity & Persecution Profile
 SLUG: country-profiles/cuba
@@ -567,7 +553,6 @@ Economic collapse and blackouts have hollowed out congregations as members emigr
 
 -----
 
-# ================================================================================
 COUNTRY: Cyprus
 TITLE: Cyprus — Christianity & Persecution Profile
 SLUG: country-profiles/cyprus
@@ -605,7 +590,6 @@ Regional conflict touched the island directly when a drone struck a building on 
 
 -----
 
-# ================================================================================
 COUNTRY: Czechia (Czech Republic)
 TITLE: Czechia — Christianity & Persecution Profile
 SLUG: country-profiles/czechia
@@ -642,7 +626,6 @@ Freedom came in 1989 and the church did not recover numerically. Decline has con
 
 -----
 
-# ================================================================================
 COUNTRY: Denmark
 TITLE: Denmark — Christianity & Persecution Profile
 SLUG: country-profiles/denmark
@@ -674,7 +657,6 @@ Public debate touches religion at the edges. A 2017 law barred preaching that ex
 
 -----
 
-# ================================================================================
 COUNTRY: Djibouti
 TITLE: Djibouti — Christianity & Persecution Profile
 SLUG: country-profiles/djibouti
@@ -708,7 +690,6 @@ Djibouti's stability matters regionally. It borders Somalia and Eritrea and host
 
 -----
 
-# ================================================================================
 COUNTRY: Dominican Republic
 TITLE: Dominican Republic — Christianity & Persecution Profile
 SLUG: country-profiles/dominican-republic
@@ -741,7 +722,6 @@ Haitian migrants and Dominicans of Haitian descent face discrimination and mass 
 
 -----
 
-# ================================================================================
 COUNTRY: Ecuador
 TITLE: Ecuador — Christianity & Persecution Profile
 SLUG: country-profiles/ecuador
@@ -775,5 +755,3 @@ Ecuador's Amazonian and highland indigenous communities include large evangelica
 
 -----
 
-*End of Batch 2 Revised 2026 — Cameroon through Ecuador, 20 Countries*
-*Next: Batch 3*
