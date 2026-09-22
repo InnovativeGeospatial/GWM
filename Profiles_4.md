@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Haiti
 TITLE: Haiti — Christianity & Persecution Profile
 SLUG: country-profiles/haiti
@@ -53,7 +52,6 @@ A Kenyan-led multinational security mission deployed from 2024 without restoring
 
 -----
 
-# ================================================================================
 COUNTRY: Honduras
 TITLE: Honduras — Christianity & Persecution Profile
 SLUG: country-profiles/honduras
@@ -88,7 +86,6 @@ Evangelical churches hold considerable political influence, and church leaders h
 
 -----
 
-# ================================================================================
 COUNTRY: Hungary
 TITLE: Hungary — Christianity & Persecution Profile
 SLUG: country-profiles/hungary
@@ -124,7 +121,6 @@ Communist suppression from 1948 shaped the older generation. Cardinal József Mi
 
 -----
 
-# ================================================================================
 COUNTRY: Iceland
 TITLE: Iceland — Christianity & Persecution Profile
 SLUG: country-profiles/iceland
@@ -156,7 +152,6 @@ A parish-tax system distributes funds to registered religious and secular life-s
 
 -----
 
-# ================================================================================
 COUNTRY: India
 TITLE: India — Christianity & Persecution Profile
 SLUG: country-profiles/india
@@ -211,7 +206,6 @@ The Kandhamal violence in Odisha in 2008 killed around 100 Christians, destroyed
 
 -----
 
-# ================================================================================
 COUNTRY: Indonesia
 TITLE: Indonesia — Christianity & Persecution Profile
 SLUG: country-profiles/indonesia
@@ -260,7 +254,6 @@ Article 156a criminalizes insulting religion and has been used against Christian
 
 -----
 
-# ================================================================================
 COUNTRY: Iran
 TITLE: Iran — Christianity & Persecution Profile
 SLUG: country-profiles/iran
@@ -316,7 +309,6 @@ Hostilities between the United States and Iran that began in February 2026 have 
 
 -----
 
-# ================================================================================
 COUNTRY: Iraq
 TITLE: Iraq — Christianity & Persecution Profile
 SLUG: country-profiles/iraq
@@ -366,7 +358,6 @@ Iran-aligned militias within the Popular Mobilization Forces control parts of th
 
 -----
 
-# ================================================================================
 COUNTRY: Ireland
 TITLE: Ireland — Christianity & Persecution Profile
 SLUG: country-profiles/ireland
@@ -398,7 +389,6 @@ Referendums removed the constitutional ban on divorce in 1995, legalized same-se
 
 -----
 
-# ================================================================================
 COUNTRY: Israel and the Palestinian Territories
 TITLE: Israel and the Palestinian Territories — Christianity & Persecution Profile
 SLUG: country-profiles/israel-and-palestinian-territories
@@ -446,7 +436,6 @@ Clergy in Jerusalem have reported an increase in spitting and verbal abuse by so
 
 -----
 
-# ================================================================================
 COUNTRY: Italy
 TITLE: Italy — Christianity & Persecution Profile
 SLUG: country-profiles/italy
@@ -481,7 +470,6 @@ Pope Francis died on 21 April 2025 and Leo XIV was elected on 8 May 2025.
 
 -----
 
-# ================================================================================
 COUNTRY: Jamaica
 TITLE: Jamaica — Christianity & Persecution Profile
 SLUG: country-profiles/jamaica
@@ -513,7 +501,6 @@ Violent crime touches churches. Congregations have been robbed during services a
 
 -----
 
-# ================================================================================
 COUNTRY: Japan
 TITLE: Japan — Christianity & Persecution Profile
 SLUG: country-profiles/japan
@@ -555,7 +542,6 @@ Christianity carries cultural influence out of proportion to its numbers, throug
 
 -----
 
-# ================================================================================
 COUNTRY: Jordan
 TITLE: Jordan — Christianity & Persecution Profile
 SLUG: country-profiles/jordan
@@ -602,7 +588,6 @@ Jordan sits between Israel, Syria, Iraq, and Saudi Arabia and has absorbed shock
 
 -----
 
-# ================================================================================
 COUNTRY: Kazakhstan
 TITLE: Kazakhstan — Christianity & Persecution Profile
 SLUG: country-profiles/kazakhstan
@@ -645,7 +630,6 @@ Kazakhstan hosts a triennial Congress of Leaders of World and Traditional Religi
 
 -----
 
-# ================================================================================
 COUNTRY: Kenya
 TITLE: Kenya — Christianity & Persecution Profile
 SLUG: country-profiles/kenya
@@ -688,7 +672,6 @@ The Shakahola forest case in 2023, in which more than 400 bodies were exhumed af
 
 -----
 
-# ================================================================================
 COUNTRY: Laos
 TITLE: Laos — Christianity & Persecution Profile
 SLUG: country-profiles/laos
@@ -733,5 +716,3 @@ Hmong communities carry the added burden of the Vietnam War, when many Hmong fou
 
 -----
 
-*End of Batch 4 Revised 2026 — Haiti through Laos, 17 Countries*
-*Next: Batch 5*
