@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Afghanistan
 TITLE: Afghanistan — Christianity & Persecution Profile
 SLUG: country-profiles/afghanistan
@@ -86,7 +85,6 @@ The country has no seminary, no church building, no legal Christian broadcaster,
 
 -----
 
-# ================================================================================
 COUNTRY: Albania
 TITLE: Albania — Christianity & Persecution Profile
 SLUG: country-profiles/albania
@@ -137,7 +135,6 @@ Albania is not a persecution country by any standard measure. Its challenge is m
 
 -----
 
-# ================================================================================
 COUNTRY: Algeria
 TITLE: Algeria — Christianity & Persecution Profile
 SLUG: country-profiles/algeria
@@ -199,7 +196,6 @@ Estimates of Algeria's Christian population run from 50,000 to 130,000, with mos
 
 -----
 
-# ================================================================================
 COUNTRY: Angola
 TITLE: Angola — Christianity & Persecution Profile
 SLUG: country-profiles/angola
@@ -243,7 +239,6 @@ The government restricts new and unregistered religious movements. In 2018 it mo
 
 -----
 
-# ================================================================================
 COUNTRY: Argentina
 TITLE: Argentina — Christianity & Persecution Profile
 SLUG: country-profiles/argentina
@@ -281,7 +276,6 @@ The constitution gives the Catholic Church a formally recognized status, which f
 
 -----
 
-# ================================================================================
 COUNTRY: Armenia
 TITLE: Armenia — Christianity & Persecution Profile
 SLUG: country-profiles/armenia
@@ -337,7 +331,6 @@ The Azerbaijani offensive of September 2023 displaced almost the entire Armenian
 
 -----
 
-# ================================================================================
 COUNTRY: Azerbaijan
 TITLE: Azerbaijan — Christianity & Persecution Profile
 SLUG: country-profiles/azerbaijan
@@ -388,7 +381,6 @@ Physical violence against Christians in Azerbaijan is rare. Pressure comes throu
 
 -----
 
-# ================================================================================
 COUNTRY: Bahrain
 TITLE: Bahrain — Christianity & Persecution Profile
 SLUG: country-profiles/bahrain
@@ -429,7 +421,6 @@ Regional conflict has reshaped daily life since hostilities between the United S
 
 -----
 
-# ================================================================================
 COUNTRY: Bangladesh
 TITLE: Bangladesh — Christianity & Persecution Profile
 SLUG: country-profiles/bangladesh
@@ -492,7 +483,6 @@ Sheikh Hasina's government fell in August 2024 after mass protests, and an inter
 
 -----
 
-# ================================================================================
 COUNTRY: Belarus
 TITLE: Belarus — Christianity & Persecution Profile
 SLUG: country-profiles/belarus
@@ -541,7 +531,6 @@ Belarus is not on the Open Doors World Watch List top 50. Christians in the reco
 
 -----
 
-# ================================================================================
 COUNTRY: Benin
 TITLE: Benin — Christianity & Persecution Profile
 SLUG: country-profiles/benin
@@ -584,7 +573,6 @@ The northern departments of Alibori and Atacora, along the borders with Burkina 
 
 -----
 
-# ================================================================================
 COUNTRY: Bhutan
 TITLE: Bhutan — Christianity & Persecution Profile
 SLUG: country-profiles/bhutan
@@ -638,7 +626,6 @@ The situation is stable rather than improving. The constitutional framework that
 
 -----
 
-# ================================================================================
 COUNTRY: Bolivia
 TITLE: Bolivia — Christianity & Persecution Profile
 SLUG: country-profiles/bolivia
@@ -669,7 +656,6 @@ The Jesuit missions among the Chiquitano people, now UNESCO World Heritage Sites
 
 -----
 
-# ================================================================================
 COUNTRY: Bosnia and Herzegovina
 TITLE: Bosnia and Herzegovina — Christianity & Persecution Profile
 SLUG: country-profiles/bosnia-and-herzegovina
@@ -712,7 +698,6 @@ Dayton ended the war in 1995 by dividing the country into two entities. Bosnia h
 
 -----
 
-# ================================================================================
 COUNTRY: Brazil
 TITLE: Brazil — Christianity & Persecution Profile
 SLUG: country-profiles/brazil
@@ -747,7 +732,6 @@ Religious tension in Brazil runs along a different line than persecution of Chri
 
 -----
 
-# ================================================================================
 COUNTRY: Brunei
 TITLE: Brunei — Christianity & Persecution Profile
 SLUG: country-profiles/brunei
@@ -788,7 +772,6 @@ Converts from Islam face family rejection, loss of government benefits, and pres
 
 -----
 
-# ================================================================================
 COUNTRY: Bulgaria
 TITLE: Bulgaria — Christianity & Persecution Profile
 SLUG: country-profiles/bulgaria
@@ -821,7 +804,6 @@ The communist period from 1944 to 1989 suppressed religious life, closed monaste
 
 -----
 
-# ================================================================================
 COUNTRY: Burkina Faso
 TITLE: Burkina Faso — Christianity & Persecution Profile
 SLUG: country-profiles/burkina-faso
@@ -883,7 +865,6 @@ Churches in Ouagadougou and other cities remain open and active. Organized churc
 
 -----
 
-# ================================================================================
 COUNTRY: Burundi
 TITLE: Burundi — Christianity & Persecution Profile
 SLUG: country-profiles/burundi
@@ -925,7 +906,6 @@ The large majority of Burundian Christians, Catholic and mainstream Protestant, 
 
 -----
 
-# ================================================================================
 COUNTRY: Cambodia
 TITLE: Cambodia — Christianity & Persecution Profile
 SLUG: country-profiles/cambodia
@@ -974,5 +954,3 @@ The constitution guarantees religious freedom. Buddhism is the state religion an
 
 -----
 
-*End of Batch 1 Revised 2026 — Afghanistan through Cambodia, 20 Countries*
-*Next: Batch 2 — Cameroon through Ecuador*
