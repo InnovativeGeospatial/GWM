@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Egypt
 TITLE: Egypt — Christianity & Persecution Profile
 SLUG: country-profiles/egypt
@@ -67,7 +66,6 @@ President Sisi has made public gestures toward Copts, attending Christmas servic
 
 -----
 
-# ================================================================================
 COUNTRY: El Salvador
 TITLE: El Salvador — Christianity & Persecution Profile
 SLUG: country-profiles/el-salvador
@@ -108,7 +106,6 @@ For three decades MS-13 and Barrio 18 extorted congregations, recruited from you
 
 -----
 
-# ================================================================================
 COUNTRY: Equatorial Guinea
 TITLE: Equatorial Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/equatorial-guinea
@@ -140,7 +137,6 @@ The country's oil wealth is concentrated among a small elite while much of the p
 
 -----
 
-# ================================================================================
 COUNTRY: Eritrea
 TITLE: Eritrea — Christianity & Persecution Profile
 SLUG: country-profiles/eritrea
@@ -190,7 +186,6 @@ National service is indefinite in practice. Conscripts serve for years or decade
 
 -----
 
-# ================================================================================
 COUNTRY: Estonia
 TITLE: Estonia — Christianity & Persecution Profile
 SLUG: country-profiles/estonia
@@ -222,7 +217,6 @@ The live issue concerns the Estonian Orthodox Church of the Moscow Patriarchate.
 
 -----
 
-# ================================================================================
 COUNTRY: Eswatini
 TITLE: Eswatini — Christianity & Persecution Profile
 SLUG: country-profiles/eswatini
@@ -254,7 +248,6 @@ The country has one of the highest HIV prevalence rates in the world, and church
 
 -----
 
-# ================================================================================
 COUNTRY: Ethiopia
 TITLE: Ethiopia — Christianity & Persecution Profile
 SLUG: country-profiles/ethiopia
@@ -307,7 +300,6 @@ Muslims in the Somali region and parts of Oromia who become Christians face expu
 
 -----
 
-# ================================================================================
 COUNTRY: Fiji
 TITLE: Fiji — Christianity & Persecution Profile
 SLUG: country-profiles/fiji
@@ -339,7 +331,6 @@ Christians face no persecution. The live question is whether Fiji's secular sett
 
 -----
 
-# ================================================================================
 COUNTRY: Finland
 TITLE: Finland — Christianity & Persecution Profile
 SLUG: country-profiles/finland
@@ -372,7 +363,6 @@ The prosecution ran for years and cost both defendants heavily, and it is cited 
 
 -----
 
-# ================================================================================
 COUNTRY: France
 TITLE: France — Christianity & Persecution Profile
 SLUG: country-profiles/france
@@ -408,7 +398,6 @@ Laïcité restricts religious expression in state settings, including a ban on c
 
 -----
 
-# ================================================================================
 COUNTRY: Gabon
 TITLE: Gabon — Christianity & Persecution Profile
 SLUG: country-profiles/gabon
@@ -441,7 +430,6 @@ Jehovah's Witnesses were banned in Gabon for a period in the 1970s and 1980s and
 
 -----
 
-# ================================================================================
 COUNTRY: Gambia
 TITLE: The Gambia — Christianity & Persecution Profile
 SLUG: country-profiles/gambia
@@ -473,7 +461,6 @@ Christians worship freely, run schools attended by Muslim and Christian children
 
 -----
 
-# ================================================================================
 COUNTRY: Georgia
 TITLE: Georgia — Christianity & Persecution Profile
 SLUG: country-profiles/georgia
@@ -508,7 +495,6 @@ Georgia was Christianized through the witness of Saint Nino, and the Svetitskhov
 
 -----
 
-# ================================================================================
 COUNTRY: Germany
 TITLE: Germany — Christianity & Persecution Profile
 SLUG: country-profiles/germany
@@ -543,7 +529,6 @@ Church buildings and cemeteries see vandalism at a level similar to other Wester
 
 -----
 
-# ================================================================================
 COUNTRY: Ghana
 TITLE: Ghana — Christianity & Persecution Profile
 SLUG: country-profiles/ghana
@@ -578,7 +563,6 @@ Chieftaincy and land disputes in the north occasionally take on religious colori
 
 -----
 
-# ================================================================================
 COUNTRY: Greece
 TITLE: Greece — Christianity & Persecution Profile
 SLUG: country-profiles/greece
@@ -611,7 +595,6 @@ Friction is administrative. Catholic, Protestant, and Jehovah's Witness communit
 
 -----
 
-# ================================================================================
 COUNTRY: Guatemala
 TITLE: Guatemala — Christianity & Persecution Profile
 SLUG: country-profiles/guatemala
@@ -644,7 +627,6 @@ Present concerns are criminal rather than religious. Gangs extort churches in ur
 
 -----
 
-# ================================================================================
 COUNTRY: Guinea
 TITLE: Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/guinea
@@ -678,7 +660,6 @@ A military coup removed President Alpha Condé in September 2021 and Mamadi Doum
 
 -----
 
-# ================================================================================
 COUNTRY: Guinea-Bissau
 TITLE: Guinea-Bissau — Christianity & Persecution Profile
 SLUG: country-profiles/guinea-bissau
@@ -711,7 +692,6 @@ Instability rather than religious hostility limits church work. Schools and clin
 
 -----
 
-# ================================================================================
 COUNTRY: Guyana
 TITLE: Guyana — Christianity & Persecution Profile
 SLUG: country-profiles/guyana
@@ -745,5 +725,3 @@ Offshore oil discoveries since 2015 have made Guyana one of the fastest-growing 
 
 -----
 
-*End of Batch 3 Revised 2026 — Egypt through Guyana, 20 Countries*
-*Next: Batch 4*
