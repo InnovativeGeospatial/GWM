@@ -1,8 +1,10 @@
-# GWM Country Profiles — Batch 8 (S–Z, 25 Countries)
+# GWM Country Profiles — Batch 8 (REVISED 2026)
 
-# Sweden through Zimbabwe — FINAL BATCH
+# Sweden through Zimbabwe — 25 Countries
 
-# Format: WordPress-ready | Tiers: High (1,700–2,100w) | Moderate (600–900w) | Low (250–400w)
+# Scores from GWM rankings.json, 20 September 2026
+
+# No inline citations. Sources listed at the end of each profile.
 
 -----
 
@@ -10,25 +12,31 @@
 COUNTRY: Sweden
 TITLE: Sweden — Christianity & Persecution Profile
 SLUG: country-profiles/sweden
-META DESCRIPTION: Sweden is one of the world’s most secular nations, with a historic Lutheran state church and full religious freedom. Christians practice freely; the country is a significant global humanitarian donor and a home to large communities of Christian refugees from persecuted nations.
+META DESCRIPTION: Sweden is among the most secular countries in the world with full religious freedom. Muslim-background converts face pressure in asylum accommodation and in the asylum process.
 CATEGORY: Country Profiles
-TAGS: Sweden, Scandinavia, Lutheran, Secular, Religious Freedom, Refugee Christians, State Church
-PERSECUTION TIER: Low
+TAGS: Sweden, Nordic, Lutheran, Church of Sweden, Secularization, Converts, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Sweden is a Nordic welfare state of approximately 10.5 million people and one of the most secular societies in the world — surveys consistently place Sweden among the top nations by proportion of population with no religious belief or affiliation. The Church of Sweden (Svenska kyrkan) — an Evangelical Lutheran body that was formally the state church until its disestablishment in 2000 — retains nominal membership of approximately 57% of Swedes, though active weekly attendance is estimated at under 5%. Christians of all traditions practice freely; there is no persecution, no restriction on worship or evangelism, and no pattern of anti-Christian violence.
+Sweden is among the most secular societies anywhere. The Church of Sweden separated from the state in 2000 and still counts around 52 percent of the population as members, down from over 80 percent at separation, with weekly attendance in the low single digits. Religious freedom is complete and there is no persecution.
 
-Sweden’s Christian history is shaped by the Viking-era conversion of the 10th–11th centuries — St. Ansgar made early missionary visits to Birka; King Olof Skötkonung was baptized around 1008 — and by the Swedish Reformation in the 1520s under Gustav Vasa, which established Lutheranism as the state religion in a process more politically than theologically driven. The 19th century produced remarkable Swedish revivalist movements — the Mission Covenant, the Baptist movement, and the Salvation Army’s Swedish presence — that shaped Swedish Christian identity in ways still felt. Sweden also produced significant mission societies that established churches across Africa and Asia.
+Two concerns recur. Christian converts from Muslim backgrounds, many from Iran and Afghanistan, report harassment and threats in asylum accommodation from other residents. The Migration Agency assesses the genuineness of conversions when deciding asylum claims, and churches have criticized the questioning as a test of theological knowledge that sincere new believers can fail. Deportations of converts to Iran and Afghanistan have drawn sustained church protest.
 
-One dimension of Sweden’s current Christian life worth noting for GWM users: Sweden is home to large diaspora communities of Christians from persecuted nations — Assyrian and Chaldean Christians from Iraq and Syria, Eritrean Christians, Iranian converts, Afghan Christians, and others who fled persecution and found refuge in Sweden. These communities maintain active churches in Södertälje, Stockholm, Gothenburg, and elsewhere. The Assyrian and Syriac Christian communities of Sweden are among the most organized and politically active diaspora advocacy groups for Middle Eastern Christian rights in Europe.
+Public Quran burnings in 2023 caused a diplomatic crisis and led to debate about restoring a form of blasphemy restriction, which Sweden did not adopt. Swedish churches were among the voices condemning the burnings. Sweden's free church movement, including Pentecostals, Evangelical Free, and the Uniting Church, is proportionally significant and increasingly made up of immigrant congregations.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~60% (nominal; active practice very low)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** Large diaspora Christian communities from persecuted nations (Iraqi, Syrian, Eritrean, Iranian) active in advocacy and worship in Sweden
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 52 percent by Church of Sweden membership, far lower by practice
+- **Current Status:** Full religious freedom
+- **Live Issues:** Harassment of converts in asylum housing, assessment of conversion in asylum claims
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Sweden* (most recent edition) — state.gov
+- Church of Sweden, membership statistics — svenskakyrkan.se
+- Open Doors Sweden, reporting on converts — opendoors.se
 
 -----
 
@@ -36,25 +44,33 @@ One dimension of Sweden’s current Christian life worth noting for GWM users: S
 COUNTRY: Switzerland
 TITLE: Switzerland — Christianity & Persecution Profile
 SLUG: country-profiles/switzerland
-META DESCRIPTION: Switzerland is a historically Protestant and Catholic nation — the birthplace of Calvinist Reformed theology — with full religious freedom and a central role in the history of Christian thought.
+META DESCRIPTION: Switzerland has full religious freedom organized canton by canton. Christian affiliation is falling, and referendums have restricted minarets and face coverings.
 CATEGORY: Country Profiles
-TAGS: Switzerland, Western Europe, Reformed, Catholic, Calvin, Zwingli, Religious Freedom, Reformation
-PERSECUTION TIER: Low
+TAGS: Switzerland, Central Europe, Reformed, Catholic, Cantons, Referendums, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Switzerland is approximately 35% Catholic and 23% Protestant, with full constitutional religious freedom and a historically divided religious landscape: the German-speaking cantons were predominantly Reformed Protestant, shaped by the Reformation theology of Ulrich Zwingli (Zurich) and Heinrich Bullinger; the French-speaking cantons of Vaud and Geneva became the base of John Calvin’s systematized Calvinist theology, which from Geneva spread to the Netherlands, Scotland, England, Hungary, and the broader Reformed Protestant world. The Council of Constance (1414–1418) — at which Jan Hus was condemned and burned — met on Swiss soil, and the Swiss Confederation’s confessional complexity shaped the development of early modern religious pluralism in Europe.
+Switzerland is around 53 percent Christian, split between Catholics and Reformed Protestants, with the non-religious share now the largest single category at over 35 percent. Religious freedom is protected federally, and church-state relations are set canton by canton, with most cantons recognizing the Catholic and Reformed churches as public bodies entitled to collect church tax.
 
-Geneva specifically was Calvin’s city from 1541 until his death in 1564, and the Genevan Academy he founded trained the Reformed ministry of the Protestant world. The impact of what Calvin produced in Geneva on the theology, governance, and culture of Protestantism — and through Puritanism, on the foundations of Anglo-American democratic and legal thought — is difficult to overstate.
+Switzerland was a center of the Reformation through Zwingli in Zurich and Calvin in Geneva, and the confessional divide shaped the country's politics for centuries, including the Sonderbund war of 1847.
 
-Switzerland is not on the Open Doors World Watch List. Christians of all traditions practice freely. The country hosts the headquarters of the World Council of Churches in Geneva — a continuing token of Switzerland’s historical significance to global ecumenical Christianity.
+Direct democracy has produced referendums touching religion. A 2009 vote banned the construction of new minarets, and a 2021 vote banned face coverings in public. Both fell on the Muslim minority, and the major churches opposed both. None of this restricts Christian worship.
+
+Church membership is falling steeply, driven by aging, disaffiliation, and abuse revelations. A University of Zurich study commissioned by the Catholic bishops identified over 1,000 cases of abuse since 1950 in its 2023 pilot report.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~65% (Catholic and Protestant combined; active practice declining)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Calvin’s Geneva — base of Reformed theology; Zwingli’s Zurich; World Council of Churches headquarters; Council of Constance (Jan Hus burned, 1415)
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 53 percent
+- **Current Status:** Full religious freedom
+- **Notable:** Cantonal church recognition. Zurich and Geneva as Reformation centers
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Switzerland* (most recent edition) — state.gov
+- Swiss Federal Statistical Office, religion data — bfs.admin.ch
+- University of Zurich, *Pilot project on sexual abuse in the Roman Catholic Church in Switzerland* (2023)
 
 -----
 
@@ -62,64 +78,47 @@ Switzerland is not on the Open Doors World Watch List. Christians of all traditi
 COUNTRY: Syria
 TITLE: Syria — Christianity & Persecution Profile
 SLUG: country-profiles/syria
-META DESCRIPTION: Syria was home to some of the world’s oldest Christian communities — Damascus is where Paul was converted, and Antioch is where believers were first called Christians. Civil war, ISIS genocide, and sectarian violence have reduced the Christian population by half. The remnant church clings to ancient ground.
+META DESCRIPTION: Syria's Christian population has collapsed from about 1.5 million to roughly 300,000. A 2025 church bombing in Damascus and sectarian massacres have made the post-Assad period more dangerous, not less.
 CATEGORY: Country Profiles
-TAGS: Syria, Middle East, Ancient Church, Antioch, ISIS, Civil War, Christian Displacement, WWL Top 25, Syriac, Greek Orthodox
-PERSECUTION TIER: High
-WWL RANKING: #24 (Open Doors 2024)
+TAGS: Syria, Middle East, Post-Assad, HTS, Mar Elias Bombing, Christian Exodus, Antioch, WWL Top 10
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Syria holds a place in Christian history that is almost impossible to overstate. Damascus — the Syrian capital — is where the Apostle Paul was converted on the road (Acts 9), where he was baptized by Ananias in a house on Straight Street, and where he escaped in a basket through the city wall. Antioch — ancient capital of the Seleucid Empire and later a major Roman city in what is now southern Turkey near the Syrian border — was where believers were first called Christians (Acts 11:26), where Paul and Barnabas were sent out on the first missionary journey, and where the multiethnic character of the church was first fully realized. The region of Syria in the broadest sense was the cradle of organized missionary Christianity.
+Syria holds some of the oldest Christian communities on earth, and they are disappearing. The Christian population was estimated at around 1.5 million before 2011 and is now put near 300,000. The fall of the Assad regime in December 2024 brought an Islamist-led transitional government to power, and the months that followed brought a church bombing in Damascus, sectarian massacres on the coast and in Suwayda, and a sharp rise in fear among the Christians who remain. Open Doors moved Syria from 18th to 6th on the 2026 World Watch List, the largest single-year rise it has recorded, with a violence score of 16.1 out of 16.7.
 
-Syria’s Christian community today — an estimated 10% of the population before the civil war that began in 2011, now reduced to perhaps 5% by mass emigration, death, and displacement — is ancient, diverse, and severely diminished. Greek Orthodox, Syriac Orthodox, Syriac Catholic, Armenian, Maronite, Melkite, and Protestant communities all have historic roots in Syrian soil. They have survived centuries of Arab, Crusader, Mongol, Ottoman, and French colonial governance. The civil war, the rise of ISIS, and the Assad regime’s devastating campaign against its own population have produced what two decades of monitoring organizations had feared: the effective emptying of the ancient Syrian Christian heartland.
+## Ancient Presence
 
-## The Apostolic Foundation
+Paul was converted on the road to Damascus and baptized there. Followers of Jesus were first called Christians at Antioch. Syria produced Ephrem the Syrian, John of Damascus, and a monastic tradition including the pillar saint Simeon Stylites. Maaloula still speaks a Western Aramaic dialect. Greek Orthodox, Syriac Orthodox, Melkite Catholic, Armenian, Syriac Catholic, Maronite, Chaldean, Assyrian, and Protestant communities all have deep roots here.
 
-The New Testament’s engagement with Syria is dense and early. Paul’s conversion on the Damascus road (Acts 9) is one of the defining moments in Christian history. The Damascus church — to which Ananias belonged and to which Paul returned after his time in Arabia — was among the earliest Christian communities outside Jerusalem. The Antioch church described in Acts 11 was the first significantly Gentile Christian congregation, the place where the multiethnic character of the gospel became institutionally visible, and the launching point for the church’s global mission.
+## The War, 2011 to 2024
 
-The ancient city of Edessa — in the region of the upper Euphrates, now Urfa in southeastern Turkey but historically part of the Syrian cultural sphere — was among the earliest Christianized cities in the world; the Syriac church that developed there produced the Peshitta — the Syriac Bible — and a theological tradition that spread east through Persia to India and China. The Syriac churches that worship in Syria today worship in a language directly descended from the language of that ancient apostolic community — and ultimately akin to the language Jesus himself spoke.
+The Assad government presented itself as a protector of minorities, and many Christians feared what would follow it more than the regime itself. The civil war killed hundreds of thousands. Islamic State and other jihadist groups took Christian towns, destroyed churches, and kidnapped clergy. Two archbishops of Aleppo, Syriac Orthodox Mor Gregorios Yohanna Ibrahim and Greek Orthodox Boulos Yazigi, were abducted in April 2013 and have never been found. Islamic State held Assyrian villages on the Khabur River in 2015 and took over 200 hostages. Emigration emptied whole communities.
 
-## Christianity Under Ottoman and French Rule
+## After Assad
 
-Under the Ottoman millet system, Syria’s Christian communities — Greek Orthodox, Armenian, Syriac, and Catholic — were recognized as distinct communities with limited self-governance. Periods of relative tolerance alternated with periods of targeted violence; the Druze massacres of Christians in Lebanon and Damascus in 1860 killed thousands and produced a significant refugee crisis. The late Ottoman period brought the Armenian Genocide (1915), which devastated the Armenian community of Syria as it did communities across Anatolia — hundreds of thousands of Armenian survivors fled to Syrian cities, particularly Aleppo and Damascus, where substantial Armenian communities established themselves.
+Hayat Tahrir al-Sham led the offensive that took Damascus on 8 December 2024. Its leader, Ahmed al-Sharaa, became interim president and pledged protection for minorities. The pledge has not been matched on the ground.
 
-French Mandate rule (1920–1946) was more favorable to Christians than the Ottoman framework had been — France had historically styled itself as the protector of Eastern Christians, and Christian communities under the Mandate experienced relative security and institutional development. French Syria’s constitution gave Christians representation in governance structures that exceeded their demographic proportion.
+In March 2025, sectarian killings of Alawite civilians on the coast killed well over a thousand people, and Christians were among those killed. On 22 June 2025, a suicide bomber attacked Mar Elias Greek Orthodox Church in Damascus during the Sunday liturgy, killing 25 worshippers. Mob attacks followed on Christian towns including Suqaylabiyah. In July 2025, violence in Suwayda against the Druze community spread fear across every minority. Security forces have been slow to protect Christian communities and in some cases have arrested those who tried to defend them.
 
-## The Assad Era and Civil War
-
-Under the Assad family — Hafez al-Assad (1970–2000) and Bashar al-Assad (2000–2024) — Syria’s Christian communities occupied a precarious but functional position. The Ba’athist ideology, like its Iraqi counterpart, was formally secular; non-Sunni communities including Christians were generally protected as long as they did not challenge the regime. Syrian Christians supported the regime in large numbers — partly from genuine appreciation for the secular framework that protected them, partly from the rational calculation that the Sunni Islamist opposition was a greater threat. This alignment with the Assad regime has been used by opposition groups to justify targeting Christian communities as collaborators.
-
-The civil war that began in March 2011 as part of the Arab Spring protests rapidly acquired a sectarian character as jihadist factions — Jabhat al-Nusra (al-Qaeda’s Syrian affiliate), Ahrar al-Sham, and eventually ISIS — became dominant players in the opposition. For Syrian Christians, the war created an immediate existential threat from multiple directions: barrel bombs from the Assad regime falling on mixed neighborhoods, jihadist factions that specifically targeted Christian communities in the areas they captured, and the general breakdown of the social order that protected minorities.
-
-The ancient Christian town of Maaloula — one of the last places in the world where Western Aramaic (the language closest to what Jesus spoke) is still a living vernacular — was captured by al-Nusra and rebel forces in September 2013. Churches were vandalized; Christian residents fled. Dozens of nuns from the Mar Thecla convent were abducted and held for months before being ransomed. Maaloula was retaken by regime forces in April 2014; the Christian community returned, significantly reduced. The town’s fate — an Aramaic-speaking Christian community that had existed since the early centuries of the church, threatened with extinction in a single month — became a symbol of what the war was doing to Syria’s irreplaceable Christian heritage.
-
-## ISIS and the Christian Communities of the Northeast
-
-The Islamic State’s seizure of northeastern Syria — including the Khabur River valley, home to ancient Assyrian Christian villages — in early 2015 produced a crisis comparable to what ISIS was simultaneously doing to the Nineveh Plains in Iraq. The Khabur valley Assyrian villages had been home to Christian communities since ancient times; in February 2015, ISIS simultaneously attacked and seized approximately 35 villages, abducting an estimated 220–250 Assyrian Christians. These hostages were held for months; some were killed; most were eventually ransomed at enormous cost through negotiations conducted by church and community leaders.
-
-The Assyrian Christians of the Khabur — many of whom had already been refugees from previous episodes of persecution, some tracing roots to communities displaced during the 1914–1918 Seyfo (Assyrian genocide) — were driven from their villages for the second or third time in a century. Most did not return.
-
-The broader Christian population of Aleppo — Syria’s second city and historically one of the most significant Christian centers in the Middle East — suffered catastrophically through the years-long battle for the city (2012–2016). Church buildings were damaged, neighborhoods destroyed, and an estimated two-thirds of Aleppo’s pre-war Christian population fled. When Syrian government forces retook the city in December 2016, Christians who returned found a largely destroyed urban landscape.
-
-## The Demographic Collapse
-
-Syria’s Christian population before the civil war was estimated at approximately 1.5–1.8 million — roughly 10% of the pre-war population of 22 million. The combination of war deaths, ISIS persecution, and above all emigration has reduced this to an estimated 400,000–600,000 as of early 2025 — with emigration continuing. Syrian Christians have settled in Lebanon (temporarily, and now themselves economically desperate), in the Gulf states, in Europe (Germany, Sweden, the Netherlands), in the United States, Australia, and Canada.
-
-The emigration has accelerated since the fall of Bashar al-Assad’s government in December 2024, when rebel forces led by Hayat Tahrir al-Sham (HTS) — the successor organization to Jabhat al-Nusra — swept to power. HTS has made public statements about protecting minority communities and respecting religious diversity; whether these commitments will be honored by an organization with jihadist roots in practice remains the most acute question facing Syria’s remaining Christians as they assess whether to stay or flee.
-
-## Current Status
-
-Syria ranked #24 on the 2024 Open Doors World Watch List. The fall of the Assad government in December 2024 has created both opportunity and profound uncertainty. The ancient Christian communities of Damascus, Aleppo, Homs, the Orontes valley, and the Khabur region represent thousands of years of unbroken Christian presence — they are among the most historically significant Christian communities in the world. Whether the government that follows Assad will protect them, and whether the diaspora Syrian Christians will return, are the defining questions for the survival of Christianity on the soil where the faith first spread beyond the walls of Jerusalem.
+The transitional constitution names Islamic jurisprudence as the principal source of legislation. Christians hold a small number of symbolic posts. Many who stayed through the war are now leaving.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #24
-- **Christian Population Before War:** ~1.5–1.8 million (~10%)
-- **Current Estimated Christian Population:** ~400,000–600,000 (~5% of reduced population)
-- **Primary Threats:** Civil war violence, ISIS genocide (Khabur Assyrian villages), displacement, continued emigration, uncertain post-Assad governance
-- **Ancient Heritage:** Damascus — Paul’s conversion; Antioch — first use of the name “Christians”; Maaloula — living Aramaic-speaking Christian community; Edessa/Syriac church tradition
-- **Notable:** Maaloula captured and desecrated (2013); Khabur Assyrian Christians abducted by ISIS (2015); December 2024 Assad fall creates uncertain future for remaining community
+- **Persecution Score:** Very High (66/100), **Rank:** #13 of 192 countries
+- **Estimated Christian Population:** roughly 300,000, down from about 1.5 million before 2011
+- **Primary Threats:** Jihadist violence, sectarian massacres, failure of the transitional state to protect minorities, emigration
+- **Open Doors WWL 2026:** #6, up from #18, the largest rise in the list's history
+- **Major Event:** Mar Elias Church bombing, Damascus, 22 June 2025, 25 killed
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Syria* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Syria* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Syrian Network for Human Rights — snhr.org
+- Aid to the Church in Need, *Syria* — acninternational.org
+- Human Rights Watch, *Syria* — hrw.org/middle-east/n-africa/syria
 
 -----
 
@@ -127,27 +126,31 @@ Syria ranked #24 on the 2024 Open Doors World Watch List. The fall of the Assad 
 COUNTRY: Taiwan
 TITLE: Taiwan — Christianity & Persecution Profile
 SLUG: country-profiles/taiwan
-META DESCRIPTION: Taiwan is a free, democratic society with full religious freedom. Christians represent about 6% of the population and practice without restriction. The island’s future is shaped by its relationship with the People’s Republic of China.
+META DESCRIPTION: Taiwan has full religious freedom and a Christian minority of about 5 percent. Its Presbyterian Church played a central role in the democracy movement.
 CATEGORY: Country Profiles
-TAGS: Taiwan, East Asia, Presbyterian, Catholic, Religious Freedom, Democracy, Indigenous Christians
-PERSECUTION TIER: Low
+TAGS: Taiwan, East Asia, Presbyterian, Indigenous Christians, Democracy, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Taiwan is a democratic island nation of approximately 23.5 million people with full constitutional religious freedom. Christians represent approximately 6% of the population — predominantly Presbyterian (with particularly deep roots among Taiwan’s indigenous peoples), Catholic, and a growing evangelical and charismatic community. Taiwan has one of Asia’s most vibrant civil societies and full protections for religious practice.
+Taiwan is around 5 to 6 percent Christian in a population where folk religion, Buddhism, and Taoism predominate. Religious freedom is among the strongest in Asia and there is no persecution.
 
-Christianity arrived in Taiwan primarily through Dutch Reformed missions in the 17th century (1624–1662), then more significantly through English and Canadian Presbyterian missions in the 1860s. George Leslie Mackay, a Canadian Presbyterian who arrived in 1872 and spent 30 years in Taiwan — learning Taiwanese, pulling teeth as a form of practical medical mission, planting over 60 churches, and training indigenous leaders — became one of the most beloved foreign missionaries in Taiwanese Christian history. His model of indigenous leadership development helped establish the Presbyterian Church in Taiwan as a distinctly Taiwanese institution.
+Christianity is strongest among the indigenous peoples, where a majority are Christian, largely through Presbyterian and Catholic missions from the 1940s onward. The Presbyterian Church in Taiwan was a central voice in the democracy movement under martial law. Its 1977 Declaration on Human Rights called for Taiwan to become a new and independent country, and the general secretary Kao Chun-ming was imprisoned for sheltering a democracy activist after the 1979 Kaohsiung Incident.
 
-The Presbyterian Church in Taiwan played a courageous political role under the Kuomintang’s authoritarian rule, issuing declarations in the 1970s calling for the right of the Taiwanese people to self-determination — positions that put it in direct conflict with the government but established it as a voice of conscience and national identity. Among Taiwan’s indigenous peoples, who converted in large numbers through 20th-century missions, Christianity is now the majority faith in several communities.
-
-Taiwan is not on the Open Doors World Watch List. The primary concern about Taiwan’s future religious freedom is not domestic but geopolitical: a Chinese military takeover of Taiwan would impose the PRC’s religious control framework on a currently free society. That possibility, not current reality, is the cloud on Taiwan’s religious freedom horizon.
+Chinese Communist Party pressure on Taiwan has religious dimensions. Beijing cultivates Taiwanese temple networks, and Taiwanese churches with mainland links face scrutiny under laws on Chinese influence. Taiwan hosts refugee pastors and publishing work serving the mainland church.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~6%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** Presbyterian Church in Taiwan — strong indigenous roots; George Leslie Mackay (1872–1901) foundational missionary; Presbyterian Church’s political courage under KMT authoritarianism
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 5 to 6 percent, a majority among indigenous peoples
+- **Current Status:** Full religious freedom
+- **Historical Note:** The Presbyterian Church's role in the democracy movement
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Taiwan* (most recent edition) — state.gov
+- Presbyterian Church in Taiwan — pct.org.tw
+- Ministry of the Interior, religious statistics — moi.gov.tw
 
 -----
 
@@ -155,49 +158,40 @@ Taiwan is not on the Open Doors World Watch List. The primary concern about Taiw
 COUNTRY: Tajikistan
 TITLE: Tajikistan — Christianity & Persecution Profile
 SLUG: country-profiles/tajikistan
-META DESCRIPTION: Tajikistan is a secular authoritarian state in Central Asia where Christianity is tolerated on paper and suppressed in practice. Unregistered churches are raided, pastors imprisoned, Bibles confiscated, and children banned from Christian education. The small evangelical community endures under constant pressure.
+META DESCRIPTION: Tajikistan bans children from religious activity, requires state approval for all religious literature, and imprisons believers for unregistered worship.
 CATEGORY: Country Profiles
-TAGS: Tajikistan, Central Asia, Islam, Registration Requirements, Church Raids, Bible Confiscation, WWL Top 30, Post-Soviet, Religious Control
+TAGS: Tajikistan, Central Asia, Religion Law, Parental Responsibility Law, Registration, Surveillance, WWL Top 50
 PERSECUTION TIER: High
-WWL RANKING: #30 (Open Doors 2024)
 
 ## Overview
 
-Tajikistan is a small, mountainous Central Asian republic of approximately 10 million people, bordered by Afghanistan to the south and Uzbekistan to the west. It is the most ethnically Persian (Tajik) of the former Soviet Central Asian republics and approximately 98% Muslim. Christians represent less than 1% of the population — primarily ethnic Russians and other Slavic minorities (Russian Orthodox), with a small but growing evangelical and charismatic community including Tajik converts. The government of President Emomali Rahmon — who has ruled since 1994 in a nominally secular but deeply authoritarian framework — controls all religious life through a comprehensive registration, surveillance, and restriction system that in practice suppresses independent Christian activity systematically. Tajikistan ranked #30 on the 2024 Open Doors World Watch List.
+Tajikistan is over 95 percent Muslim and one of the most restrictive states in the world for religious practice of any kind. Christians, perhaps 0.1 to 0.2 percent of the population, mainly Russian Orthodox with small Protestant communities, live under the same controls that bear down on Muslims, plus the particular pressure that falls on converts from Islam. Open Doors ranked Tajikistan 27th on the 2026 World Watch List.
 
-## Christianity’s Historical Presence
+## The Controls
 
-Christianity has an ancient, thin trace in the region. The Church of the East — the Nestorian tradition — had missionaries and communities along the Silk Road routes that passed through what is now Tajikistan in the 7th–14th centuries. The cities of Samarkand and Bukhara (now in Uzbekistan but historically tied to the broader Persian cultural sphere) had Nestorian bishops. Archaeological evidence of Christian presence — crosses, inscriptions — has been found along these routes. The Mongol period brought additional contact; some Mongol rulers had Nestorian Christian wives. But organized Christianity in the region was extinguished before the 15th century and left no surviving indigenous community.
+The 2009 religion law requires every group to register and bans unregistered activity. The 2011 Parental Responsibility Law prohibits anyone under 18 from taking part in public religious activity except funerals, which in effect bars children from church. Religious literature requires state approval before import, printing, or distribution. Religious education needs a license and is effectively limited to state-approved institutions.
 
-Russian colonial expansion in the 19th century brought Russian Orthodox Christians to the region as settlers and administrators. The Soviet period brought more Slavic migration. At independence in 1991, the Russian Orthodox community was small but established; the evangelical community was essentially nonexistent.
+A 2024 law banned clothing deemed alien to national culture and restricted children's festive customs tied to religious holidays. Enforcement falls most visibly on Muslims, and it shows the direction of travel.
 
-## Post-Soviet Religious Control
+Protestant congregations have been raided, fined, and denied registration. Pastor Bakhrom Kholmatov of Khujand was imprisoned for three years from 2017 on charges of singing extremist songs, which were hymns. Jehovah's Witnesses have been banned since 2007.
 
-Tajikistan’s civil war (1992–1997) — which pitted secular Soviet-era forces against an Islamist-influenced opposition movement and killed an estimated 50,000–100,000 people — left the Rahmon government deeply suspicious of any religion it could not control. The post-war religious law framework was designed with Islamist movements in mind but applies to all religions. Specific provisions of Tajikistan’s Law on Conscience and Religious Associations (revised multiple times, most recently in 2009 and 2019) include: mandatory state registration for all religious organizations; prohibition of religious activity by unregistered groups; ban on religious education of persons under 18 outside state-approved settings; requirement that all religious literature be submitted for government review before distribution; prohibition on all private religious instruction; and extensive government monitoring of all registered religious organizations’ activities and finances.
+## Converts
 
-For evangelical Christians — who typically operate in small house churches without formal institutional structures, who distribute Bibles and Christian literature as part of their evangelism, and who conduct children’s Sunday schools as part of their church life — almost every aspect of normal evangelical church practice is illegal under this framework.
-
-## Raids, Arrests, and Bible Confiscation
-
-The pattern of persecution for evangelical Christians in Tajikistan is consistent and documented. Police raids on unregistered prayer meetings result in detentions and fines; participants are questioned about their faith, the names of other believers, and the sources of their religious materials. Bibles and Christian literature in Tajik language are confiscated as “illegal religious materials” — the Tajik Bible translation is not officially approved for distribution. Pastors and church leaders face harassment, repeated police visits, and interrogation. Some have been sentenced to prison terms on charges of “organizing illegal religious activity.” Foreign Christians — missionaries or NGO workers who engage in religious activity — are deported.
-
-Children’s Christian education is specifically targeted: any form of Sunday school, youth group, or religious instruction for those under 18 outside government-approved channels is a criminal offense. Parents who provide Christian education to their own children in private settings have been fined. This restriction is enforced — it is not merely a nominal provision.
-
-## Converts from Islam
-
-Tajik Muslims who convert to Christianity face the additional layer of social and community persecution that applies across Central Asia: family rejection, community ostracism, loss of employment, and physical danger from family members who regard apostasy as a matter of honor. The government does not actively protect converts from social persecution and in some documented cases has facilitated the pressure on them through coordinating with family members or community authorities. The combination of state legal pressure and community social enforcement makes the situation for Tajik converts one of the most comprehensive in Central Asia.
-
-## Current Status
-
-Tajikistan ranked #30 in 2024. The trajectory is not improving — the 2019 revision of the religious law tightened restrictions further, and the government’s control apparatus has been systematically applied to the small evangelical community. The Russian Orthodox community operates with somewhat more stability than evangelical groups — its historical presence gives it a degree of institutionally recognized legitimacy that newer evangelical bodies lack. The evangelical community — Tajik converts and Slavic believers alike — continues to meet, to pray, and to navigate the legal exposure of being Christian in a country where Christianity is technically legal and practically suppressed.
+Tajiks who convert from Islam face family pressure, beatings, and expulsion from the home, and local officials frequently side with families. Converts are questioned by the security services and pressured to inform on their congregations.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #30
-- **Estimated Christian Population:** <1% (Russian Orthodox minority plus small evangelical community including Tajik converts)
-- **Primary Threats:** State registration requirements, raids on unregistered churches, Bible confiscation, ban on religious education of children, fines and imprisonment of pastors, deportation of foreign Christians
-- **Legal Status:** Christianity legal in principle; comprehensive restriction framework makes most normal Christian activities illegal in practice
-- **Notable:** Tajik-language Bible not officially approved for distribution; children’s Christian education criminalized
+- **Persecution Score:** High (47/100), **Rank:** #29 of 192 countries
+- **Estimated Christian Population:** roughly 0.1 to 0.2 percent
+- **Primary Threats:** Ban on under-18 religious participation, literature censorship, registration refusals, imprisonment, family pressure on converts
+- **Open Doors WWL 2026:** #27
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Tajikistan* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Tajikistan* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Forum 18 News Service, *Tajikistan* — forum18.org
 
 -----
 
@@ -205,35 +199,31 @@ Tajikistan ranked #30 in 2024. The trajectory is not improving — the 2019 revi
 COUNTRY: Tanzania
 TITLE: Tanzania — Christianity & Persecution Profile
 SLUG: country-profiles/tanzania
-META DESCRIPTION: Tanzania is a roughly equal mix of Christians and Muslims on the mainland, with Zanzibar as a Muslim-majority island where Christian converts face severe pressure. Mainland Christians practice freely; Zanzibar’s Christians navigate a much more challenging environment.
+META DESCRIPTION: Tanzania is majority Christian on the mainland with religious freedom in law. Zanzibar tensions and the crackdown after the 2025 election have raised pressure on churches.
 CATEGORY: Country Profiles
-TAGS: Tanzania, East Africa, Christian Majority, Islam, Zanzibar, Converts, Church Attacks, Religious Harmony
-PERSECUTION TIER: Moderate
+TAGS: Tanzania, East Africa, Zanzibar, Christianity, Islam, Election Violence, Religious Freedom
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Tanzania is approximately 63% Christian and 34% Muslim on the mainland, but the semi-autonomous archipelago of Zanzibar — politically part of Tanzania but with its own government — is approximately 99% Muslim and presents a dramatically different environment for Christians. The mainland is generally characterized by positive interreligious relations; Christian and Muslim communities have a history of coexistence rooted in Tanzania’s deliberate nation-building policies under founding President Julius Nyerere, who carefully avoided mobilizing ethnic or religious identity in politics. Zanzibar is a different matter entirely.
+Tanzania is around 63 percent Christian and 34 percent Muslim, with a Christian majority on the mainland and a Muslim majority of over 95 percent on the islands of Zanzibar. Religious freedom is protected and interfaith relations on the mainland are generally good.
 
-## Christianity in Tanzania
+Zanzibar is where tension concentrates. Churches were burned there in 2012 and 2013, a Catholic priest, Father Evarist Mushi, was shot dead in 2013, and acid attacks targeted clergy. Islamist separatist movements have periodically mobilized, and Christians on the islands report difficulty obtaining building permits and pressure on converts.
 
-Christianity arrived in Tanzania through Catholic White Fathers missions from the 1860s and Protestant missions including the London Missionary Society and the Universities Mission to Central Africa (UMCA). David Livingstone’s travels through Tanzania in the 1860s — he died near Lake Bangweulu in present-day Zambia in 1873 — were connected to the anti-slavery and mission movement that shaped Tanzania’s Christian heritage. By independence in 1961, the Christian community was substantial and institutionally established.
-
-Julius Nyerere — himself a devout Catholic who was beatified as Servant of God by the Catholic Church, with his cause for canonization formally opened — governed Tanzania through a secular socialist framework (Ujamaa) that deliberately kept religion out of politics and built national identity around Tanzanian citizenship rather than ethnicity or faith. This framework was largely successful in preventing the kind of Muslim-Christian political conflict seen in Nigeria or Sudan.
-
-## Zanzibar: A Restricted Environment
-
-Zanzibar’s Islamic character is ancient — Arab traders brought Islam to the East African coast from the 8th century onward, and Zanzibar became a center of the East African slave trade under the Omani Sultanate. The Sultanate’s influence made Zanzibar almost entirely Muslim; it was in cultural and political orientation closer to Oman than to mainland Africa. When Zanzibar united with Tanganyika to form Tanzania in 1964, a political arrangement was made that gave Zanzibar significant internal autonomy — including its own president, parliament, and governance over internal affairs.
-
-Christians in Zanzibar — a very small minority — face significant social and some legal pressure. Construction of new churches is extremely difficult; existing churches face harassment. Christians who convert from Islam face severe family and community consequences, and the social enforcement of Islamic identity on the islands is intense. Periodic attacks on churches — typically arson or vandalism — occur, particularly around sensitive religious or political moments. Pastors working with converts from Muslim backgrounds face threats.
-
-The mainland government’s attitude toward Zanzibar’s treatment of Christians is complicated by the political sensitivity of Zanzibar’s semi-autonomous status and the different demographic reality. Tanzania is not on the Open Doors World Watch List as a top-tier persecution country, but Zanzibar’s treatment of its tiny Christian minority warrants specific monitoring.
+The October 2025 general election produced nationwide unrest after opposition candidates were barred, and security forces used lethal force against protesters. The U.S. raised Tanzania to advisory level 3. Catholic and Lutheran bishops had issued pastoral letters criticizing the political climate before the vote, and church leaders who spoke publicly faced official warnings. Tanzania's registrar of societies has threatened deregistration of religious bodies that engage in politics, and the pressure since the election has grown.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~63% (mainland); ~1% (Zanzibar)
-- **Primary Concerns:** Zanzibar — church construction restrictions, attacks on churches, severe pressure on converts; mainland — largely free
-- **Current Status:** Mainland Christians fully free; Zanzibar Christians in a significantly restricted environment
-- **Open Doors WWL:** Monitored; not top tier
+- **Persecution Score:** Medium (24/100), **Rank:** #62 of 192 countries
+- **Estimated Christian Population:** about 63 percent
+- **Primary Threats:** Tension on Zanzibar, pressure on politically outspoken clergy after the 2025 election
+- **Current Status:** State advisory level 3
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Tanzania* (most recent edition) — state.gov
+- U.S. Department of State, *Tanzania Travel Advisory* — travel.state.gov
+- Human Rights Watch, *Tanzania* — hrw.org/africa/tanzania
 
 -----
 
@@ -241,26 +231,33 @@ The mainland government’s attitude toward Zanzibar’s treatment of Christians
 COUNTRY: Thailand
 TITLE: Thailand — Christianity & Persecution Profile
 SLUG: country-profiles/thailand
-META DESCRIPTION: Thailand is a Buddhist-majority constitutional monarchy where Christians represent less than 1% of the population and practice freely in most of the country, though tribal Christians in the north and Christians in the Muslim-majority south face distinct challenges.
+META DESCRIPTION: Thailand has religious freedom and a Christian minority near 1 percent. Converts face family pressure, and the southern insurgency is localized.
 CATEGORY: Country Profiles
-TAGS: Thailand, Southeast Asia, Buddhism, Christian Minority, Tribal Christians, Southern Insurgency, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Thailand, Southeast Asia, Buddhism, Christian Minority, Deep South, Hill Tribes, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Thailand is approximately 94% Theravada Buddhist and less than 1% Christian — roughly 600,000 believers in a population of 70 million. Christians practice freely in most of the country; no systematic state persecution exists. The Buddhist monarchy is constitutionally established, and Buddhist identity is deeply woven into Thai national culture, but this has not produced organized anti-Christian violence or legal restriction of Christian practice in mainstream Thai society.
+Thailand is around 93 percent Theravada Buddhist with Christians about 1 to 1.5 percent. Religious freedom is protected and Christians face no state persecution. Christianity is strongest among hill tribe peoples in the north, including the Karen, Lahu, and Akha, and among Chinese Thai.
 
-Two specific contexts create more challenging conditions. In northern Thailand, tribal communities — the Karen, Hmong, Akha, Lahu, and others — have been significantly evangelized through 20th-century missions and now have substantial Christian populations. These communities face not religious persecution specifically but social pressure related to their minority ethnic status and pressure from local Buddhist communities who regard Christianity as a foreign disruption of traditional village spiritual life. Tribal Christians sometimes face discrimination in access to land, civic status, and government services.
+Thai identity is closely tied to Buddhism and the monarchy, and converts, particularly ethnic Thai, face family and community pressure, including exclusion from merit-making ceremonies and funerals that bind village life. The government limits the number of foreign missionaries it registers.
 
-In southern Thailand, a Muslim-majority insurgency in the three southernmost provinces (Pattani, Yala, and Narathiwat) has created a conflict zone where Buddhist monks, security forces, and civilians of all backgrounds have been targeted by insurgent violence. Christians in this region are a tiny minority of an already small minority and are not specifically targeted by the insurgency, though they share the general insecurity of the conflict zone.
+The insurgency in the Malay-Muslim provinces of Yala, Pattani, and Narathiwat has killed over 7,000 people since 2004. It targets state symbols, Buddhist monks, and teachers, and Christians in the region are few.
 
-Thailand is not on the Open Doors World Watch List. The evangelical and charismatic community, while small, maintains active church life across the country’s cities and continues to grow.
+Thailand hosts large numbers of refugees from Myanmar, many of them Christian Karen and Chin, and Thai and international church networks run schools and clinics in the border camps. Border fighting with Cambodia in 2025 added a further risk area in the east. The U.S. lowered Thailand's advisory to level 1 in 2026.
 
 ## Key Facts
 
-- **Estimated Christian Population:** <1% (~600,000)
-- **Current Status:** Full legal religious freedom; social pressure in some tribal and Buddhist-majority contexts; southern insurgency creates general insecurity
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (11/100), **Rank:** #89 of 192 countries
+- **Estimated Christian Population:** about 1 to 1.5 percent
+- **Current Status:** Religious freedom
+- **Primary Constraints:** Family and community pressure on converts, limits on foreign missionary registration
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Thailand* (most recent edition) — state.gov
+- U.S. Department of State, *Thailand Travel Advisory* — travel.state.gov
+- Deep South Watch — deepsouthwatch.org
 
 -----
 
@@ -268,25 +265,33 @@ Thailand is not on the Open Doors World Watch List. The evangelical and charisma
 COUNTRY: Timor-Leste
 TITLE: Timor-Leste — Christianity & Persecution Profile
 SLUG: country-profiles/timor-leste
-META DESCRIPTION: Timor-Leste is one of the world’s most Catholic nations — a faith forged under Indonesian military occupation that killed up to 180,000 people. The church was the primary institution of Timorese identity and survival. Christians practice freely today.
+META DESCRIPTION: Timor-Leste is among the most Catholic countries on earth. The church sheltered its people through Indonesian occupation and remains central to national life.
 CATEGORY: Country Profiles
-TAGS: Timor-Leste, East Timor, Southeast Asia, Catholic, Indonesian Occupation, Bishop Belo, Nobel Prize, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Timor-Leste, Southeast Asia, Catholic, Independence, Indonesian Occupation, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Timor-Leste (East Timor) is a small, mountainous nation occupying the eastern half of the island of Timor in Southeast Asia — and it is approximately 98% Catholic, making it one of the most Catholic nations in the world. This extraordinary Catholicism is not merely colonial inheritance; it is a faith forged in suffering and resistance. During Indonesia’s brutal military occupation (1975–1999), in which an estimated 102,000–183,000 Timorese died through direct killing, famine, and disease — out of a pre-occupation population of approximately 600,000 — the Catholic Church was the primary institution through which Timorese identity, culture, and resistance were maintained.
+Timor-Leste is around 97 percent Catholic, the highest share in Asia. Religious freedom is protected and there is no persecution.
 
-Portugal’s colonial presence had brought Catholicism from the 16th century, but it was under Indonesian occupation that the faith deepened dramatically: the church became a refuge, a record-keeper, and a voice when all other voices were silenced. Bishop Carlos Filipe Ximenes Belo of Dili — who spoke consistently and courageously about the occupation’s atrocities, documented killings, and provided sanctuary to the persecuted — received the Nobel Peace Prize in 1996 along with José Ramos-Horta for their efforts on behalf of the Timorese people. Bishop Belo’s courage under occupation made him a globally recognized figure of Christian witness to justice. (His later fall from grace due to sexual abuse allegations, which emerged publicly in 2022, cast a shadow on this legacy — a painful complexity that the Timorese church continues to process.)
+Catholicism was a thin colonial presence under Portuguese rule. Under Indonesian occupation from 1975 to 1999, when the Indonesian state required citizens to hold one of its recognized religions and Catholicism was the only one not associated with the occupier, it became the faith of the resistance. Church membership grew from around 20 percent to near universal. Over 100,000 people died during the occupation. Bishop Carlos Filipe Ximenes Belo shared the Nobel Peace Prize in 1996 with José Ramos-Horta.
 
-Timor-Leste achieved independence in 2002 following a 1999 referendum and subsequent UN administration. Christians practice entirely freely in the independent state. The church remains the most trusted institution in the country and continues its role in education, healthcare, and community life.
+The independence referendum of 1999 was followed by militia massacres, including the attack on the church at Suai in which priests and hundreds of sheltering civilians were killed.
+
+In 2022 the Vatican confirmed disciplinary sanctions against Bishop Belo over allegations of sexual abuse of boys in the 1990s, a revelation that shook the country. Pope Francis visited Dili in September 2024 and celebrated mass for around 600,000 people, close to half the population.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~98% (predominantly Catholic)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Catholic Church was the primary institution of Timorese identity under Indonesian occupation (1975–1999); Bishop Belo — Nobel Peace Prize 1996; up to 183,000 Timorese died under occupation
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 99 percent, 97 percent Catholic
+- **Current Status:** Full religious freedom
+- **Historical Note:** The church as the institution of resistance under Indonesian occupation
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Timor-Leste* (most recent edition) — state.gov
+- Commission for Reception, Truth and Reconciliation in East Timor, *Chega!* (2005)
+- CIA World Factbook: Timor-Leste — cia.gov/the-world-factbook/countries/timor-leste/
 
 -----
 
@@ -294,20 +299,31 @@ Timor-Leste achieved independence in 2002 following a 1999 referendum and subseq
 COUNTRY: Togo
 TITLE: Togo — Christianity & Persecution Profile
 SLUG: country-profiles/togo
-META DESCRIPTION: Togo is a religiously diverse West African nation with a Christian plurality, Muslim minority, and large traditional religion community. Christians practice freely with no persecution.
+META DESCRIPTION: Togo is religiously mixed with religious freedom in law. Jihadist attacks have spread into the far north from Burkina Faso since 2021.
 CATEGORY: Country Profiles
-TAGS: Togo, West Africa, Christian Plurality, Catholic, Evangelical, Traditional Religions, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Togo, West Africa, Christianity, Islam, Vodun, Sahel Spillover, Jihadism
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Togo is a small West African nation of approximately 8.5 million people with approximately 43% Christian (predominantly Catholic and evangelical), 35% traditional African religions, and 20% Muslim. The country has full religious freedom; Christians practice without restriction or persecution. Christianity arrived through German and French colonial missions from the late 19th century, with the Catholic Church building particularly strong institutional roots. Evangelical and Pentecostal churches have grown significantly since the 1980s. Interreligious relations are generally characterized by tolerance and coexistence; it is not uncommon for Togolese families to include members of different faiths who participate in each other’s ceremonies. Togo is not on the Open Doors World Watch List.
+Togo is around 45 percent Christian, 20 percent Muslim, and the remainder following traditional religion, with a great deal of overlap. Religious freedom is protected and interfaith relations are generally good.
+
+The far north, in the Savanes region bordering Burkina Faso, has suffered jihadist attacks since 2021, mostly by JNIM, targeting soldiers and civilians. Areas north of Kandé are designated do-not-travel. Church and mosque communities in affected villages have both been displaced. The pattern next door, where Christians were specifically targeted, makes the northern Christian population vulnerable.
+
+Politically, the Gnassingbé family has governed since 1967. A 2024 constitutional change moved Togo to a parliamentary system, which opponents viewed as a way to extend Faure Gnassingbé's rule without term limits, and protests in 2025 were suppressed. Catholic bishops publicly questioned the constitutional change, drawing government criticism.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~43%
-- **Current Status:** Full religious freedom; no persecution; notable interreligious tolerance
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (15/100), **Rank:** #76 of 192 countries
+- **Estimated Christian Population:** about 45 percent
+- **Current Status:** Religious freedom
+- **Emerging Risk:** Jihadist attacks in the Savanes region since 2021
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Togo* (most recent edition) — state.gov
+- U.S. Department of State, *Togo Travel Advisory* — travel.state.gov
+- ACLED, coastal West Africa conflict data — acleddata.com
 
 -----
 
@@ -315,23 +331,33 @@ Togo is a small West African nation of approximately 8.5 million people with app
 COUNTRY: Trinidad and Tobago
 TITLE: Trinidad and Tobago — Christianity & Persecution Profile
 SLUG: country-profiles/trinidad-and-tobago
-META DESCRIPTION: Trinidad and Tobago is a multi-religious Caribbean nation with a Christian majority, significant Hindu minority, and Muslim community. Christians practice freely with no persecution.
+META DESCRIPTION: Trinidad and Tobago is religiously mixed with strong religious freedom. Violent crime, not religion, is the main threat to church life.
 CATEGORY: Country Profiles
-TAGS: Trinidad and Tobago, Caribbean, Christian Majority, Hindu, Muslim, Religious Freedom, Religious Harmony
-PERSECUTION TIER: Low
+TAGS: Trinidad and Tobago, Caribbean, Christianity, Hinduism, Islam, Pluralism, Crime
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Trinidad and Tobago is a twin-island Caribbean nation of approximately 1.4 million people with a diverse religious landscape reflecting its history of British colonization and indentured labor from India. Approximately 57% of the population is Christian — Anglican, Catholic, Pentecostal, Baptist, and various evangelical denominations — alongside approximately 22% Hindu (descendants of Indian indentured laborers) and 6% Muslim. Christians practice freely; there is no persecution, and interreligious relations are generally positive.
+Trinidad and Tobago is around 63 percent Christian, with large Hindu and Muslim minorities descended from Indian indentured laborers. Religious freedom is protected, public holidays mark Christian, Hindu, and Muslim festivals, and relations between faiths are good.
 
-Christianity arrived through Spanish and then British colonial presence; the Anglican and Catholic missions established deep roots. The Spiritual Baptist tradition — also known as Shouter Baptists — is a distinctive indigenous Afro-Caribbean Christian movement that blends African spiritual traditions with Baptist Christianity, suppressed under British colonial law until 1951 and now celebrated with a national public holiday (Spiritual Baptist Liberation Day, March 30). Evangelical and Pentecostal churches have grown significantly in recent decades. Trinidad is not on the Open Doors World Watch List.
+The Spiritual Baptist faith, which blends Christian and African practice, was banned under the Shouters Prohibition Ordinance from 1917 until 1951. Its repeal is commemorated with a national holiday, Spiritual Baptist Liberation Day, one of very few holidays anywhere marking the end of a religious ban.
+
+The 1990 coup attempt by the Jamaat al Muslimeen, which held parliament and the prime minister hostage, remains the only instance of religiously framed political violence in the country's modern history.
+
+Violent crime is the current threat, and the government declared a nationwide state of emergency in March 2026 over a surge in killings. Churches in affected communities have adjusted service times and run violence-prevention programs. There is no persecution.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~57%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** Spiritual Baptist (Shouter) tradition — indigenous Afro-Caribbean Christian movement suppressed until 1951; now nationally celebrated
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 63 percent
+- **Current Status:** Full religious freedom
+- **Live Context:** National state of emergency over violent crime since March 2026
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Trinidad and Tobago* (most recent edition) — state.gov
+- U.S. Department of State, *Trinidad and Tobago Travel Advisory* — travel.state.gov
+- CIA World Factbook: Trinidad and Tobago — cia.gov/the-world-factbook/countries/trinidad-and-tobago/
 
 -----
 
@@ -339,86 +365,83 @@ Christianity arrived through Spanish and then British colonial presence; the Ang
 COUNTRY: Tunisia
 TITLE: Tunisia — Christianity & Persecution Profile
 SLUG: country-profiles/tunisia
-META DESCRIPTION: Tunisia was the birthplace of Tertullian and Cyprian — the ancient heart of North African Christianity. Today it has virtually no indigenous Christians. Post-Arab Spring openness has given way to increasing authoritarianism, and the tiny community of Tunisian converts practices in total secrecy.
+META DESCRIPTION: Tunisia permits foreign churches and gives Tunisian converts no protection. Family and social pressure keep most believers hidden as democratic space contracts.
 CATEGORY: Country Profiles
-TAGS: Tunisia, North Africa, Islam, Converts, Underground Church, Apostasy, Tertullian, Cyprian, WWL Top 25, Ancient Church
-PERSECUTION TIER: Moderate
+TAGS: Tunisia, North Africa, Islam, Converts, Carthage, Democratic Backsliding, WWL Top 50
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Tunisia was, in the early centuries of Christianity, one of the most vital and productive centers of Christian thought in the world. Carthage — the great North African city on the site of modern Tunis — produced Tertullian (c. 155–220 AD), the first major Christian theologian to write in Latin, whose vocabulary shaped Western Christian thought for centuries; and Cyprian (c. 200–258 AD), Bishop of Carthage, who was martyred under the Emperor Valerian. The North African church was a martyr church, an intellectual church, and a church of extraordinary depth.
+Tunisia is over 99 percent Muslim. A small number of Catholic, Protestant, Orthodox, and Anglican churches serve foreign residents, mainly sub-Saharan African students and migrants and European expatriates. Tunisian believers, estimated in the low thousands, meet privately and face pressure from family and society that the state does little to restrain. Open Doors ranked Tunisia 31st on the 2026 World Watch List.
 
-Today, Tunisia is approximately 99% Muslim. Christianity was extinguished by the Arab Islamic conquest of the 7th century and has never recovered its indigenous presence. The modern Tunisian state that emerged from French colonial rule (1956 independence) under President Habib Bourguiba — and later Ben Ali — was formally secular, and a small Catholic expatriate community maintained churches primarily serving the European population. The 2011 Arab Spring revolution that overthrew Ben Ali opened a brief period of relative political freedom; Christians hoped it might expand religious space. Those hopes have not been fulfilled.
+## Ancient Carthage
 
-## The Legal and Social Framework
+Carthage was one of the great centers of early Latin Christianity. Tertullian, Cyprian, and the martyrs Perpetua and Felicity belong to its history, and Augustine studied and taught there. North African Christianity disappeared after the Arab conquest. A modus vivendi signed with the Holy See in 1964 transferred most church buildings to the state and left the Catholic Church a handful of properties.
 
-Tunisia’s constitution declares Islam the state religion and requires the president to be Muslim. The legal framework does not explicitly criminalize apostasy in the penal code — unlike Mauritania — but social pressure, family consequences, and the risk of prosecution on other pretexts (disturbing public order, insulting religion) make open Christian faith for Tunisian nationals essentially impossible. A Tunisian who converts from Islam faces family rejection, loss of employment, social exclusion, and potential physical danger. There is no state protection.
+## Conditions Today
 
-The small community of Tunisian converts to Christianity — believed to number in the hundreds, possibly low thousands — practices in absolute secrecy. They meet in small groups in private homes, communicate through encrypted messaging, and receive pastoral support primarily from international Christian organizations that work with North African converts. No indigenous Tunisian church with any public existence has been established.
+The 2014 constitution guaranteed freedom of conscience, a real advance at the time. The 2022 constitution, adopted after President Kais Saied suspended parliament and took extensive powers, dropped the civil state language of its predecessor and gave the state a duty to realize the aims of Islam. The direction of travel for minorities is uncertain.
 
-Post-2019, and particularly after President Kais Saied’s 2021 power consolidation (which effectively ended Tunisia’s democratic transition), the political environment has become more authoritarian in ways that reduce space for civil society broadly. Tunisia is not on the Open Doors top tier — the situation is one of near-total exclusion rather than active mass violence — but it is monitored and sits in the moderate tier because of the conditions facing its tiny convert community.
+Apostasy is not criminalized. Converts face family rejection, violence, loss of employment, and divorce, and Tunisians who are open about their faith have been subjected to online harassment campaigns. Registration for Tunisian-led churches is effectively unavailable.
+
+Sub-Saharan migrants, many of them Christian, have been targeted in waves of violence and expulsion since President Saied's February 2023 remarks describing migration as a plot to change Tunisia's demography. Thousands were pushed into desert border areas.
 
 ## Key Facts
 
-- **Estimated Indigenous Christian Population:** Low hundreds to low thousands (all secret believers)
-- **Primary Threats:** Social and family consequences of conversion, risk of prosecution on pretexts, no state protection for converts
-- **Legal Status:** Apostasy not explicitly criminalized; practical consequences devastating
-- **Current Status:** Post-Ben Ali democratic opening has not produced religious freedom gains; Saied authoritarianism limits all civil space
-- **Open Doors WWL:** Monitored; moderate tier
-- **Historical Note:** Carthage (near modern Tunis) was birthplace of Tertullian and Cyprian — foundational figures in Western Christian theology
+- **Persecution Score:** Medium (37/100), **Rank:** #47 of 192 countries
+- **Estimated Christian Population:** low thousands of citizens, plus foreign residents
+- **Primary Threats:** Family and social pressure on converts, no legal space for Tunisian churches, attacks on sub-Saharan migrants
+- **Open Doors WWL 2026:** #31
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Tunisia* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Tunisia* (most recent edition) — state.gov
+- Human Rights Watch, *Tunisia* — hrw.org/middle-east/n-africa/tunisia
+- Middle East Concern — meconcern.org
 
 -----
 
 # ================================================================================
 COUNTRY: Turkey
-TITLE: Turkey — Christianity & Persecution Profile
+TITLE: Türkiye — Christianity & Persecution Profile
 SLUG: country-profiles/turkey
-META DESCRIPTION: Turkey was the heartland of early Christianity — Ephesus, Antioch, the Seven Churches of Revelation, the Councils of Nicaea and Chalcedon all happened here. Today, 99.8% Muslim, it is home to the Ecumenical Patriarchate of Constantinople — besieged, restricted, and fighting for survival on its ancient ground.
+META DESCRIPTION: Türkiye was the heartland of the early church and is now under 0.2 percent Christian. Foreign Christian workers are deported and historic communities cannot train clergy.
 CATEGORY: Country Profiles
-TAGS: Turkey, Middle East, Ecumenical Patriarchate, Constantinople, Armenian Christians, Greek Orthodox, Heybeliada Seminary, WWL Top 30, Historic Churches, Converts
-PERSECUTION TIER: Moderate
+TAGS: Turkey, Türkiye, Anatolia, Ecumenical Patriarchate, Halki Seminary, Deportations, Armenians, WWL Top 50
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Turkey is one of the most theologically and historically consequential countries in all of Christianity — and one of the places where the church’s present situation is most incongruous with its past. Ephesus, where the Apostle Paul established one of the most significant early churches and where tradition places the later life and death of the Apostle John and the Virgin Mary; Antioch, where believers were first called Christians; Nicaea, where the foundational Creed of the church was formulated in 325 AD; Chalcedon, where the definition of Christ’s two natures was established in 451 AD; Constantinople, the city that was the center of the Christian world for a thousand years; the Seven Churches of Revelation — all of these are in Turkey. The land that is now 99.8% Muslim and governed by an increasingly Islamist political party was once the heartland of Christian civilization.
+Türkiye holds more sites of the New Testament and early church than any country outside Israel. Paul was born in Tarsus, the seven churches of Revelation stood in Anatolia, and the first seven ecumenical councils met here. The Christian population is now under 0.2 percent, perhaps 150,000 to 200,000 people. The decline came through the Armenian genocide, the Greek-Turkish population exchange of 1923, the 1955 Istanbul pogrom, and steady emigration. Open Doors ranked Türkiye 41st on the 2026 World Watch List.
 
-Today, Turkey’s indigenous Christian population — Armenian, Greek Orthodox, Syriac, and a tiny number of Protestant and Catholic Turkish nationals — numbers approximately 150,000–200,000 in a country of 85 million. The Ecumenical Patriarchate of Constantinople, which is the spiritual center of worldwide Eastern Orthodoxy with jurisdiction over millions of Orthodox Christians globally, sits in the Istanbul neighborhood of Fener (Phanar) in a modest compound, its Patriarch permitted to function under restrictions that would be intolerable in any country with genuine religious freedom.
+## Historic Communities
 
-## The Historical Erosion
+The Ecumenical Patriarchate in Istanbul is the senior see of world Orthodoxy, and the state recognizes it only as a local Turkish religious institution. The Halki Theological School was closed in 1971 under a law nationalizing private higher education, and the Patriarchate has had no way to train clergy inside the country for over fifty years. Reopening has been promised and not delivered. Armenian, Greek Orthodox, and Syriac communities have fought prolonged battles over confiscated property, with some returned after a 2008 foundations law and much still held.
 
-The dramatic reduction of Christianity in Anatolia is one of the great demographic-religious transformations of modern history. At the end of the 19th century, approximately 20% of the Ottoman Empire’s population in Anatolia were Christian — Greek Orthodox, Armenian, Syriac. The 20th century eliminated most of this presence through a combination of genocide, population exchange, and emigration.
+The conversion of Hagia Sophia from a museum back to a mosque in 2020, followed by Chora, was a symbolic act many Christians read as a statement of the state's direction.
 
-The Armenian Genocide (1915–1923) killed an estimated 600,000 to 1.5 million Armenians — the Ottoman Empire’s largest Christian community. Armenians were deported from their ancestral homeland in eastern Anatolia in death marches toward the Syrian desert; those who survived the marches often died of starvation, exposure, or massacre at the end of them. The genocide did not merely kill people; it erased a civilization — the ancient Armenian churches, monasteries, and cultural centers of eastern Anatolia were destroyed, converted, or abandoned. The Church of the Holy Cross on Akdamar Island in Lake Van — one of the most beautiful medieval Armenian churches in the world — survived, was restored, and hosts annual services (with Turkish government permission) as a symbol of what was lost.
+## Protestants and Foreign Workers
 
-The Seyfo — the Assyrian genocide that occurred alongside and as part of the Armenian genocide — killed an estimated 150,000–300,000 Assyrian Christians in southeastern Turkey and the Hakkari region. The ancient Syriac Christian community of the Tur Abdin region (southeastern Turkey) was devastated; the survivors were scattered to Syria, Iraq, and the diaspora.
+Turkish Protestants number in the low thousands and cannot establish legal church entities easily. Since 2019 the government has deported or refused re-entry to dozens of foreign Christian workers, many long-term residents with Turkish families, using security codes on their residency files without disclosing evidence. The American pastor Andrew Brunson was imprisoned from 2016 to 2018 on terrorism charges in a case that became a diplomatic crisis.
 
-The 1923 population exchange between Greece and Turkey — which followed the Greco-Turkish War — transferred approximately 1.2 million Greek Orthodox Christians from Turkey to Greece and 400,000 Muslims from Greece to Turkey. The Greek Orthodox community of Istanbul, which had numbered several hundred thousand, was further reduced by the anti-Greek pogrom of September 1955 — in which organized mobs attacked Greek property, churches, and cemeteries in Istanbul — and by subsequent discriminatory taxation and legal pressures, leaving barely 3,000 elderly Greek Orthodox residents in the city today.
-
-## The Ecumenical Patriarchate: Besieged but Enduring
-
-The Ecumenical Patriarchate of Constantinople — whose Patriarch holds the title “first among equals” in the Eastern Orthodox communion and whose jurisdiction encompasses Greek Orthodox Christians around the world — sits in Istanbul as a direct continuity with the Byzantine Christian past. Patriarch Bartholomew I, who has served since 1991, has been one of the most globally respected Christian leaders in the world — an advocate for environmental stewardship, a voice for religious freedom, and a consistent presence at international gatherings of world religious leaders.
-
-The Turkish government’s treatment of the Patriarchate has been a source of consistent international concern. The Heybeliada (Halki) Theological Seminary — located on an island in the Sea of Marmara, the Patriarchate’s primary institution for training Orthodox clergy — was closed by the Turkish government in 1971 under a law that nationalized all private higher education institutions. It has never been reopened, despite consistent international advocacy from the United States, the European Union, and the global Orthodox community. The closure forces the Patriarchate to train its clergy abroad — a deliberate institutional weakening. Turkish law requires the Patriarch to be a Turkish citizen, which given the near-total elimination of Greek Orthodox Turkish citizens creates an impossible situation for the Patriarchate’s long-term continuity.
-
-The Patriarchate’s compound in Fener has been the target of arson attacks; Greek Orthodox churches in Istanbul have been vandalized; the community operates in an environment of managed constraint rather than active daily violence but genuine institutional threat.
-
-## Protestant and Catholic Communities and Converts
-
-Turkey has a small but growing Protestant community — perhaps 8,000–10,000 Turkish Protestant Christians, predominantly converts from a Muslim background, worshiping in approximately 150 small congregations across the country. These communities operate legally but in an environment of social hostility and periodic legal harassment. Pastors have been arrested on pretexts; church gatherings have been disrupted by nationalist groups. The 2007 murder of three Christians at a Protestant publishing house in Malatya — two Turkish Christians and a German missionary, bound, tortured, and killed by a group of young men who had attended their Bible study — was the most devastating single act of anti-Christian violence in Turkey in modern times. The perpetrators cited Turkish nationalist motivations; the trial revealed intelligence service connections that were never fully investigated.
-
-Turkish converts from Islam face the standard Central Asian and Middle Eastern pattern of family rejection, community hostility, and loss of employment. The social consequences of conversion are severe. Turkish law does not criminalize apostasy, but the social mechanism of enforcement is powerful.
-
-## Current Status
-
-Turkey sits in the lower-to-middle tier of the Open Doors World Watch List. The Ecumenical Patriarchate’s situation — institutionally restricted, demographically shrinking, physically present on ground sacred to the entire Orthodox world — is the most historically weighty Christian freedom issue in Turkey. The convert community faces real social and occasionally legal pressure. The memory of what was eliminated in Anatolia over the past century weighs on every conversation about Christianity in Turkey.
+Three Christians were murdered at the Zirve publishing house in Malatya in 2007, and the Italian priest Andrea Santoro was shot in Trabzon in 2006. Islamic State gunmen attacked Santa Maria Catholic Church in Istanbul during mass in January 2024, killing one person.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~150,000–200,000 (~0.2%)
-- **Primary Concerns:** Heybeliada Seminary closure (since 1971), Ecumenical Patriarchate’s institutional restrictions, social pressure on Protestant converts, citizenship requirement for Patriarch
-- **Current Status:** Ancient Christian communities demographically near-extinct; small Protestant convert community under social and periodic legal pressure; Patriarchate restricted but enduring
-- **Open Doors WWL:** Lower-mid tier monitored
-- **Historical Significance:** Ephesus, Antioch, Nicaea, Chalcedon, Constantinople — the entire geography of early Christian councils and apostolic missions; Armenian and Assyrian genocides eliminated most of Turkey’s historic Christian population
+- **Persecution Score:** Medium (38/100), **Rank:** #46 of 192 countries
+- **Estimated Christian Population:** about 150,000 to 200,000, under 0.2 percent
+- **Primary Threats:** Deportation of foreign Christian workers, inability to train clergy, property confiscation, social hostility toward converts
+- **Open Doors WWL 2026:** #41
+- **Historical Note:** The seven churches of Revelation and the first seven ecumenical councils
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Türkiye* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Turkey* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Association of Protestant Churches in Türkiye, annual rights violations report
+- Ecumenical Patriarchate — patriarchate.org
 
 -----
 
@@ -426,43 +449,38 @@ Turkey sits in the lower-to-middle tier of the Open Doors World Watch List. The 
 COUNTRY: Turkmenistan
 TITLE: Turkmenistan — Christianity & Persecution Profile
 SLUG: country-profiles/turkmenistan
-META DESCRIPTION: Turkmenistan is one of the world’s most closed and repressive states — a personality cult dictatorship that controls every dimension of life, including religion. Christians are surveilled, raided, fined, and imprisoned. The church meets in extreme secrecy in one of the most isolated countries on earth.
+META DESCRIPTION: Turkmenistan is among the most closed countries on earth. Almost no Christian group outside the Russian Orthodox Church can register, and unregistered worship is illegal.
 CATEGORY: Country Profiles
-TAGS: Turkmenistan, Central Asia, Islam, Personality Cult, Raids, Surveillance, WWL Top 20, Unregistered Churches, Religious Control, Berdimuhamedow
+TAGS: Turkmenistan, Central Asia, Closed State, Registration, Surveillance, House Churches, WWL Top 50
 PERSECUTION TIER: High
-WWL RANKING: #19 (Open Doors 2024)
 
 ## Overview
 
-Turkmenistan is one of the most closed and comprehensively controlled states in the world — a Central Asian gas-rich desert dictatorship governed by a personality cult comparable in its scope, if not yet in its duration, to North Korea’s. The country of approximately 6 million people has been governed since 2006 by Gurbanguly Berdimuhamedow — who renamed himself “Arkadag” (“Protector”) and built his own cult of personality — and since 2022 formally by his son Serdar, with Gurbanguly retaining enormous actual power as a kind of shadow ruler. The state controls all media, all civic institutions, all religious expression. Internet access is severely restricted; contact with the outside world is monitored; travel abroad is limited.
+Turkmenistan is one of the most closed and controlled states in the world, comparable in some respects to North Korea. Around 89 percent of the population is Muslim, and Christians, perhaps 5 to 9 percent, are mainly Russian Orthodox. The Orthodox Church and state-controlled Sunni Islam are effectively the only religious bodies that function freely. Open Doors ranked Turkmenistan 35th on the 2026 World Watch List.
 
-Turkmenistan is approximately 89% Muslim and 9% Eastern Orthodox (primarily ethnic Russians). The small evangelical and Protestant Christian community — estimated at a few thousand — faces surveillance, raids, fines, confiscation of literature, and imprisonment. The Russian Orthodox Church operates with greater latitude than evangelical groups due to its historical status as the church of the ethnic Russian minority, though it too is subject to state oversight and limitation.
+## The System
 
-## The Legal and Surveillance Framework
+The 2016 religion law requires registration and bans unregistered activity. Registration needs 50 adult citizen members and state approval, and very few Protestant groups have succeeded. Unregistered congregations meet in homes at the risk of raids, fines, confiscation of literature, and detention. Religious literature cannot be imported or distributed without state expert review. Foreign travel by religious leaders is restricted.
 
-Turkmenistan’s Law on Freedom of Conscience and Religious Organizations requires all religious communities to register with the government. Registration requires a minimum of 500 adult members — a bar designed to exclude small evangelical congregations. Unregistered religious activity is illegal. The registration requirement is also used actively: even registered communities must submit to government monitoring of their activities, lists of their members, financial reporting, and approval of religious literature.
+Surveillance is pervasive. Internet access is heavily censored and VPN use punished. Believers assume their phones are monitored and their gatherings reported.
 
-The government’s State Commission on Religious Affairs (subordinated directly to the presidency) supervises all religious activity. Its apparatus includes informants within religious communities who report on activities, membership, leadership, and contacts with foreign religious organizations. International communication by religious groups is particularly monitored; contacts with foreign Christian organizations are treated as potential intelligence security threats.
+Turkmen converts from Islam face family pressure and the attention of the security services, which treat conversion as disloyalty. Some have lost jobs or been forced to sign statements. Conscientious objectors, mostly Jehovah's Witnesses, were imprisoned for years until a limited alternative service arrangement, which remains restrictive.
 
-## Raids and Imprisonment
-
-Police raids on evangelical house churches are documented regularly by Forum 18 (a religious freedom news service specializing in Central Asia and Eastern Europe) and by Open Doors. The pattern is consistent: a prayer meeting is raided; participants are detained and interrogated; leaders are charged with “organizing illegal religious activity”; all present are fined; Bibles, hymnals, and Christian literature are confiscated. Repeat offenders face prison sentences. Some Christians have been sentenced to short terms in labor colonies for continued house church activity after previous warnings and fines.
-
-Alternative civilian service for conscientious objectors — relevant primarily to Jehovah’s Witnesses who refuse military service on religious grounds — is not available; those who refuse military service face imprisonment.
-
-The totality of control in Turkmenistan means that there is essentially no independent documentation of the situation from within the country. What is known comes from individuals who have managed to leave, from the tiny number of contacts that outside organizations maintain, and from the Turkmenistan Helsinki Foundation and Forum 18’s careful compilation of available information.
-
-## Current Status
-
-Turkmenistan ranked #19 on the 2024 Open Doors World Watch List — higher than many better-known persecution countries. The ranking reflects the comprehensive nature of state control: a tiny Christian community operating in one of the most surveilled states in the world, with no legal pathway for evangelical church life, no independent civic space, and no outside access to document or advocate for their situation. The church meets in whispers, in living rooms, in apartments, in one of the most isolated countries on earth.
+The presidency passed from Gurbanguly Berdimuhamedov to his son Serdar in 2022 with no change in policy.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #19
-- **Estimated Christian Population:** ~9% (Russian Orthodox); small evangelical minority of a few thousand
-- **Primary Threats:** State surveillance, raids on unregistered churches, fines, imprisonment, Bible confiscation, 500-member registration threshold excludes small congregations
-- **Legal Status:** All religious activity tightly controlled; unregistered practice illegal
-- **Notable:** One of the world’s most closed states; personality cult dictatorship severely restricts all independent civic activity including religion
+- **Persecution Score:** High (52/100), **Rank:** #26 of 192 countries
+- **Estimated Christian Population:** about 5 to 9 percent, mainly Russian Orthodox
+- **Primary Threats:** Registration barriers, raids and fines on unregistered worship, censorship, total surveillance
+- **Open Doors WWL 2026:** #35
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Turkmenistan* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Turkmenistan* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Forum 18 News Service, *Turkmenistan* — forum18.org
 
 -----
 
@@ -470,45 +488,34 @@ Turkmenistan ranked #19 on the 2024 Open Doors World Watch List — higher than 
 COUNTRY: Uganda
 TITLE: Uganda — Christianity & Persecution Profile
 SLUG: country-profiles/uganda
-META DESCRIPTION: Uganda is a majority-Christian nation where believers practice freely — but where the 2023 Anti-Homosexuality Act has put Ugandan evangelical Christianity at the center of an international controversy, and where Muslim extremists in the east have conducted attacks on churches and Christian leaders.
+META DESCRIPTION: Uganda is over 80 percent Christian with religious freedom. ADF attacks from Congo and pressure on converts in the Muslim-majority east are the main threats.
 CATEGORY: Country Profiles
-TAGS: Uganda, East Africa, Christian Majority, Anti-Homosexuality Act, ADF, Al-Shabaab, Church Attacks, Evangelical, Catholic, Religious Freedom
-PERSECUTION TIER: Moderate
+TAGS: Uganda, East Africa, ADF, Uganda Martyrs, Converts, Christianity, Islam
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Uganda is approximately 84% Christian — predominantly Catholic (41%) and evangelical Protestant (43%), with significant Anglican and Pentecostal communities — making it one of Africa’s most Christian nations. The majority of Ugandan Christians worship freely; there is no state anti-Christian persecution. Uganda is known internationally for its vibrant evangelical Christianity, its significant role in global Anglican communion politics, and — since March 2023 — its Anti-Homosexuality Act, which has created significant international controversy and strained Uganda’s relationships with Western donors and governments.
+Uganda is over 80 percent Christian, split between Catholic and Anglican majorities with a fast-growing Pentecostal sector, and a Muslim minority near 14 percent concentrated in the east. Religious freedom is protected and Christians dominate public life.
 
-## Christianity’s Deep Roots
+The Uganda Martyrs, over forty Catholic and Anglican young men killed on the orders of King Mwanga II of Buganda between 1885 and 1887, most burned alive at Namugongo, are among the most revered martyrs in African Christianity. Millions gather at Namugongo every June. Idi Amin's regime killed Anglican Archbishop Janani Luwum in 1977.
 
-Christianity arrived in Uganda through the White Fathers (Catholic) and the Church Missionary Society (Anglican) in the 1870s, invited in both cases by the Buganda Kingdom’s kabaka (king). The Uganda Martyrs — 22 young men (Catholic and Anglican) killed on the orders of Kabaka Mwanga II between 1885 and 1887, partly for refusing his sexual demands and partly for their Christian convictions — were among the most significant martyrs of 19th-century Africa. The Catholics were canonized by Pope Paul VI in 1964; the Anglicans are commemorated separately. Their feast is one of the most significant annual Catholic celebrations in Uganda, drawing hundreds of thousands of pilgrims to the Namugongo Martyrs’ Shrine.
+The Allied Democratic Forces, now Islamic State's Central Africa Province and operating from eastern Congo, crossed the border in June 2023 and attacked a secondary school in Mpondwe, killing 42 people, most of them students. Further cross-border raids and bombings in Kampala have followed.
 
-## The Anti-Homosexuality Act (2023)
-
-The March 2023 Anti-Homosexuality Act — which introduced the death penalty for “aggravated homosexuality” (including same-sex acts involving minors or those with HIV), life imprisonment for homosexuality, and prison terms for “promoting” or “facilitating” homosexuality — was passed with significant support from Uganda’s evangelical Christian community and supported by several prominent church leaders.
-
-The act drew immediate and severe international condemnation: the United States suspended Uganda from AGOA (African Growth and Opportunity Act) trade benefits; the World Bank paused new loans; several Western governments issued travel advisories. The Ugandan Constitutional Court upheld most of the law in April 2024 while modifying some provisions.
-
-The international Christian community’s response was divided: Western evangelical and mainline bodies broadly condemned the law as violating human rights; Ugandan evangelical leaders defended it as consistent with biblical teaching and Ugandan cultural values; and the Anglican Communion’s internal tensions over sexuality were significantly worsened by the law and by the Global South Fellowship’s alignment with Uganda’s position.
-
-GWM’s editorial note: This profile documents the act because it is factually significant for understanding Uganda’s Christian landscape; it is not within GWM’s scope to adjudicate the theological debates it has generated. The primary GWM concern remains the freedom of Christians to practice faith — not the political and social policy positions that Christian communities take.
-
-## Muslim Extremist Violence in Eastern Uganda
-
-Separately from the AHA controversy, Uganda faces a genuine and documented threat to Christians from Muslim extremist violence. The Allied Democratic Forces (ADF) — the Congolese-based Islamist group discussed in the DRC profile — has conducted attacks inside Uganda, primarily in the Rwenzori region near the DRC border. Churches and Christian communities have been targeted. A 2021 suicide bombing in Kampala targeted a pedestrian area frequented by Western visitors; a 2021 church attack in Kasese killed worshipers. Al-Shabaab has also targeted Uganda for attacks — most devastatingly the 2010 Kampala World Cup bombing that killed 74 people watching the final, primarily at an outdoor screening organized by a rugby club with largely Christian membership.
-
-## Current Status
-
-Uganda is monitored by Open Doors in the mid-lower tier. The majority of Ugandan Christians worship freely and are not under threat. The documented concerns are the ADF/Islamist violence in the east (real and ongoing) and the humanitarian and legal rights dimensions of the AHA (internationally serious but not a direct persecutory framework aimed at Christians).
+In the east, Muslims who convert face family violence, expulsion, and in documented cases killing. Pastors and converts in the Mbale, Budaka, and Iganga districts have been attacked.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~84%
-- **Primary Documented Threat:** ADF and al-Shabaab attacks on Christian communities in eastern Uganda and Kampala
-- **Major Controversy:** Anti-Homosexuality Act (2023) — internationally condemned; death penalty for aggravated homosexuality; supported by much of Ugandan evangelical leadership
-- **Current Status:** Majority of Christians fully free; eastern regions face Islamist violence; AHA creates significant international controversy
-- **Open Doors WWL:** Mid-lower tier (Islamist violence documented)
-- **Historical Note:** Uganda Martyrs (1885–1887) — 22 Catholic and Anglican martyrs canonized; Namugongo Shrine draws hundreds of thousands annually
+- **Persecution Score:** Medium (20/100), **Rank:** #69 of 192 countries
+- **Estimated Christian Population:** over 80 percent
+- **Primary Threats:** ADF cross-border attacks, violence against converts in the east
+- **Major Event:** Mpondwe school attack, June 2023, 42 killed
+- **Current Status:** State advisory level 4
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Uganda* (most recent edition) — state.gov
+- U.S. Department of State, *Uganda Travel Advisory* — travel.state.gov
+- Morning Star News, Uganda reporting — morningstarnews.org
 
 -----
 
@@ -516,53 +523,39 @@ Uganda is monitored by Open Doors in the mid-lower tier. The majority of Ugandan
 COUNTRY: Ukraine
 TITLE: Ukraine — Christianity & Persecution Profile
 SLUG: country-profiles/ukraine
-META DESCRIPTION: Ukraine is a majority-Orthodox Christian nation enduring one of the worst wars in Europe since 1945 — and its churches have been bombed, its priests killed, and its ancient Christian heritage targeted by Russian military force. The Ukrainian church’s independence from Moscow is both a spiritual statement and an act of national survival.
+META DESCRIPTION: Russia's war has destroyed hundreds of Ukrainian churches and killed clergy. In occupied areas, Protestant and Greek Catholic churches are seized and pastors tortured.
 CATEGORY: Country Profiles
-TAGS: Ukraine, Eastern Europe, Eastern Orthodox, Greek Catholic, Russian Invasion, Church Bombings, Patriarch Kirill, OCU, UOC-MP, WWL Top 25
-PERSECUTION TIER: Moderate
+TAGS: Ukraine, Eastern Europe, War, Occupied Territories, Orthodox Church of Ukraine, Greek Catholic, Protestant, Church Destruction
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Ukraine is approximately 72% Eastern Orthodox Christian — divided between the Orthodox Church of Ukraine (OCU, which received canonical independence from Constantinople in 2019) and the Ukrainian Orthodox Church that had maintained canonical ties to the Moscow Patriarchate (UOC-MP, many of whose dioceses severed ties with Moscow after the 2022 invasion). There is also a significant Greek Catholic (Uniate) community concentrated in western Ukraine, Catholic and Protestant minorities, and a growing evangelical community. Ukraine was not a country of Christian persecution before February 24, 2022 — the day Russia launched its full-scale invasion.
+Ukraine is around 85 percent Christian, divided among the Orthodox Church of Ukraine, the Ukrainian Orthodox Church historically tied to Moscow, the Ukrainian Greek Catholic Church, and a large Protestant population. Religious freedom holds in government-controlled territory. The full-scale Russian invasion of February 2022 has damaged or destroyed hundreds of religious buildings, and in occupied areas Russian authorities have seized churches and detained, tortured, and killed clergy.
 
-Since that date, Ukraine has experienced the bombing of churches, the killing of clergy, the destruction of Christian cultural heritage, the detention and torture of Ukrainian priests in Russian-occupied territories, and the occupation of Ukrainian Orthodox churches by Russian-aligned clergy. The Russian Orthodox Church’s theological justification of the invasion — articulated most explicitly by Patriarch Kirill of Moscow — has made the Ukrainian crisis a specifically Christian story as well as a military and political one. Ukraine ranked in the Open Doors top tier in 2024 specifically because of Russian military actions against its Christian communities.
+## Occupied Territories
 
-## The Ancient Christian Foundation
+Protestant, Greek Catholic, and Orthodox Church of Ukraine congregations in occupied areas have been banned or forced to re-register under Russian law, which most cannot do. Churches have been confiscated and handed to the Moscow Patriarchate or turned to other uses. Pastors have been abducted and held incommunicado, and several have been killed. Two Greek Catholic priests from Berdiansk were detained in 2022, reported tortured, and released in a 2024 prisoner exchange. The Institute for Religious Freedom has documented the killing of dozens of clergy of various denominations since 2022.
 
-Ukraine’s Christian history is inseparable from the founding moment of Eastern Slavic Christianity. Prince Vladimir of Kyiv chose Eastern Christianity in 988 AD — the baptism of Kievan Rus is the origin event of Russian, Ukrainian, and Belarusian Orthodox Christianity. The Kyiv Pechersk Lavra (Monastery of the Caves) — founded in the 11th century, its catacombs holding the relics of saints who lived in underground cells — is one of the holiest sites in all of Eastern Orthodoxy. St. Sophia Cathedral in Kyiv, built by Yaroslav the Wise in the 11th century, is a UNESCO World Heritage Site and one of the great Christian buildings in European history.
+## Government-Controlled Ukraine
 
-Ukraine’s claim to this founding Christian heritage is a matter of deep historical and political contest with Russia — Russia views Kyiv as the “mother of Russian cities” and claims the Kievan Christian tradition as Russian; Ukraine views Kyiv as its own ancient capital and the Christian tradition it generated as Ukrainian. The 2019 granting of autocephaly (ecclesiastical independence) to the Orthodox Church of Ukraine by the Ecumenical Patriarchate of Constantinople was not merely an ecclesiastical decision — it was a statement about this history and about Ukraine’s identity as distinct from Russia.
+The Ukrainian government has moved against the Ukrainian Orthodox Church over its historic ties to Moscow. Security services raided monasteries including the Kyiv Pechersk Lavra and charged some clergy with collaboration. A law signed in August 2024 bans religious organizations affiliated with the Russian Orthodox Church, and its application to the UOC is being tested in the courts. Kyiv frames this as national security during war. Critics, including some international religious freedom bodies, warn it risks punishing believers for affiliation.
 
-## The Invasion and Its Christian Dimensions
-
-Russia’s February 2022 full-scale invasion has produced Christian suffering at a scale not seen in Europe since World War II. Key documented dimensions include:
-
-**Church bombings:** Ukrainian churches have been struck by Russian missiles, artillery, and aerial bombs. The UNESCO-registered St. Transfiguration Cathedral in Odessa — one of the most historically significant Orthodox churches in southern Ukraine — was struck by Russian missiles in July 2023, suffering severe damage to its interior and the destruction of irreplaceable 19th-century frescoes. Dozens of additional churches across Ukraine have been struck, damaged, or destroyed.
-
-**Greek Catholic Church targeting:** The Ukrainian Greek Catholic Church — which has its historical heartland in western Ukraine (Galicia) and is one of the largest Eastern Catholic bodies in the world — has been specifically targeted by Russian state propaganda as a security threat. In Russian-occupied territories, Greek Catholic clergy have been detained, interrogated, and in some cases disappeared. The Greek Catholic Cathedral of the Transfiguration in Kherson was damaged. Several Greek Catholic priests have been killed.
-
-**Moscow Patriarchate churches in occupied territories:** In Russian-occupied areas of southern and eastern Ukraine, the Russian military has in some cases forced the transfer of churches from the UOC (Ukrainian Orthodox Church) to Russian control and imposed Russian Orthodox clergy aligned with the Moscow Patriarchate. The Ukrainian government has in turn pursued legal measures against UOC-MP parishes on Ukrainian-controlled territory, raising complex questions about the balance between state security concerns and religious freedom for communities with Moscow-aligned hierarchies.
-
-**Detention of clergy:** Multiple Ukrainian Orthodox priests have been abducted by Russian forces in occupied territories. Father Bohdan Heleta and several other clergy were held for extended periods; some have not been accounted for. Reports from detainees describe interrogation about their religious and political affiliations and pressure to renounce Ukrainian Orthodox identity.
-
-**The Kyiv Pechersk Lavra:** The historic Monastery of the Caves — which had remained under the UOC-MP jurisdiction — became a flashpoint when the Ukrainian government moved to end the UOC-MP’s lease on the state-owned monastery property in 2023. The UOC-MP community was required to vacate; the process was legally complex and internationally controversial. The underlying question — how to manage a monastery whose canonical leadership was aligned with a church body that had provided theological cover for the invasion of Ukraine — was genuinely difficult and did not yield a clean answer.
-
-## The Ukrainian Church’s Witness
-
-Ukraine’s churches — Greek Catholic, OCU, evangelical, and UOC communities that severed ties with Moscow — have been consistent voices of pastoral care, resistance, and spiritual sustenance throughout the war. Priests have stayed in besieged cities. Monasteries have sheltered displaced civilians. Church buildings have served as distribution points for humanitarian aid. Chaplains serve with Ukrainian military forces. Ukrainian Christian leaders have spoken with consistent moral clarity about the nature of the invasion and about the distinction between genuine Christian faith and the weaponized religion of Kirill’s war theology.
-
-The Greek Catholic Major Archbishop Sviatoslav Shevchuk, based in Kyiv, has become one of the most internationally recognized voices of Ukrainian Christian witness — conducting regular video briefings from war-time Kyiv, engaging global media, and framing Ukraine’s resistance as connected to its Christian dignity and identity.
-
-## Current Status
-
-Ukraine is ranked in the Open Doors top tier due to Russian military targeting of churches and clergy in occupied territories. For Ukrainians in government-controlled areas, the primary experience of the war is humanitarian devastation and the pastoral demands of a nation under attack — not systematic state persecution of Christians. In occupied territories, the situation is more acute: clergy are at risk, ecclesiastical control is contested, and the church’s freedom to operate independently of Russian political direction is directly threatened.
+The Orthodox Church of Ukraine received autocephaly from the Ecumenical Patriarchate in 2019, and many parishes have moved to it since the invasion.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~72% (predominantly Orthodox; Greek Catholic significant in western Ukraine)
-- **Primary Threats:** Russian military strikes on churches, detention and killing of clergy in occupied territories, forced transfer of church properties to Russian control, targeting of Greek Catholic Church
-- **Open Doors WWL:** Top tier (Russian military targeting of Christian communities)
-- **Notable:** St. Transfiguration Cathedral Odessa bombed (2023); Kyiv Pechersk Lavra — holiest Ukrainian Orthodox site — epicenter of church-state-Russia conflict; Patriarch Kirill’s war theology condemned globally
+- **Persecution Score:** Medium (21/100), **Rank:** #68 of 192 countries
+- **Estimated Christian Population:** about 85 percent
+- **Primary Threats:** War damage, seizure of churches and abuse of clergy in occupied territories
+- **Live Issue:** The 2024 law targeting Moscow-affiliated religious organizations
+- **Current Status:** State advisory level 4, do not travel
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Ukraine* (most recent edition) — state.gov
+- Institute for Religious Freedom (Ukraine) — irf.in.ua
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- UN Human Rights Monitoring Mission in Ukraine — ohchr.org
 
 -----
 
@@ -570,34 +563,34 @@ Ukraine is ranked in the Open Doors top tier due to Russian military targeting o
 COUNTRY: United Arab Emirates
 TITLE: United Arab Emirates — Christianity & Persecution Profile
 SLUG: country-profiles/united-arab-emirates
-META DESCRIPTION: The UAE is a Gulf federation with a more open approach to expatriate religion than most of its neighbors. Christians can worship in designated facilities and work freely. But proselytism is illegal, converts face devastating consequences, and no Emirati can legally leave Islam.
+META DESCRIPTION: The UAE is the most open Gulf state for expatriate Christians and has no path for Emirati believers. Churches operate on donated land, and evangelism to Muslims is prohibited.
 CATEGORY: Country Profiles
-TAGS: UAE, Gulf States, Islam, Expat Christians, Church Buildings, Proselytism Ban, Converts, Religious Restrictions
-PERSECUTION TIER: Moderate
+TAGS: United Arab Emirates, Gulf States, Expat Christians, Abrahamic Family House, Converts, Religious Tolerance
+PERSECUTION TIER: Medium
 
 ## Overview
 
-The United Arab Emirates is a federation of seven emirates with a population of approximately 9.9 million — of whom only about 11% are Emirati nationals. The expatriate majority (approximately 89%) includes millions of South Asian, Southeast Asian, Western, and other workers, a substantial proportion of whom are Christian. By Gulf standards, the UAE is among the more religiously open environments for expatriate Christians: purpose-built churches operate in Abu Dhabi, Dubai, and other cities; Christmas is commercially observed and publicly visible; the government has positioned itself internationally as a champion of interreligious dialogue, hosting the Abrahamic Family House in Abu Dhabi (which includes a church, a mosque, and a synagogue on a shared campus).
+The UAE is around 76 percent Muslim, and Christians make up roughly 9 to 13 percent, almost all expatriates. It is the most open of the Gulf states for them, with over 40 churches on land donated by the rulers, including Catholic, Orthodox, Anglican, and evangelical congregations serving hundreds of thousands. Emirati citizens have no path to become Christians.
 
-This openness has real limits. It applies to the expatriate population only. For Emirati nationals — who are by constitutional definition Muslim — the framework is as restrictive as any Gulf state: apostasy is not separately criminalized in the federal penal code but is addressed through Islamic family law, which treats a Muslim who leaves Islam as having departed from their legal status, with consequences including loss of marriage validity, disinheritance, and loss of child custody. Proselytism to Emirati nationals is illegal and subject to imprisonment and deportation. No Emirati can publicly identify as a Christian without catastrophic social and legal consequence.
+The government promotes tolerance as national policy. A Ministry of Tolerance was created in 2016, Pope Francis visited in 2019 and signed the Document on Human Fraternity with the Grand Imam of al-Azhar, and the Abrahamic Family House opened in Abu Dhabi in 2023 with a mosque, church, and synagogue on one site.
 
-## Expatriate Christian Life
+The limits are clear. Evangelizing Muslims is a criminal offense. Apostasy remains a capital offense in principle under the penal code as applied in sharia courts, though no execution has been documented. Emirati converts face family and legal consequences, and the handful who exist are hidden. Religious literature distribution is regulated.
 
-The UAE’s expatriate Christians — Filipino Catholics and evangelicals, Indian Christians across denominations, Korean, African, Western, and other communities — have access to church buildings in designated areas. These are real churches with real congregations; Sunday services draw thousands across the major cities. Christian cemeteries exist; Christian education is available in private schools for Christian children; Christian radio programs are broadcast. By the standards of Saudi Arabia or the Maldives, this is a dramatically more open environment.
-
-The conditions: churches may not proselytize to Muslims; no crosses or other Christian symbols may be displayed in public spaces (as distinct from church buildings); Christian worship is for non-Muslims only in the state’s understanding; and any Christian who attempts to share their faith with an Emirati faces arrest. The framework is a managed tolerance — you are welcome here as a guest with defined limits, not as a bearer of faith with equal rights.
-
-## The Abrahamic Family House
-
-The 2022 opening of the Abrahamic Family House on Saadiyat Island in Abu Dhabi — with a church, a mosque, and a synagogue designed by Sir David Adjaye — has been presented by the UAE as a model of interfaith coexistence. The project has been welcomed by some international religious leaders (Pope Francis visited the UAE in 2019 and the project bears his name alongside that of Ahmed al-Tayeb, Grand Imam of al-Azhar) and criticized by others who argue it provides a diplomatic cover for a state that does not actually allow religious freedom for its own citizens. The tension between these assessments captures something real about the UAE’s religious freedom reality.
+The UAE sits at advisory level 3 following the onset of hostilities between the United States and Iran in February 2026. Iranian missile and drone threats and commercial flight disruption have affected expatriate life across the country.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~13% (almost entirely expatriate)
-- **Primary Restrictions:** Proselytism to Muslims illegal; Emirati converts face devastating consequences; public religious symbols restricted; worship for non-Muslims only in practice
-- **Current Status:** Relatively open for expatriate Christian practice; completely closed for Emirati nationals
-- **Open Doors WWL:** Not in top tier; monitored for convert and proselytism issues
-- **Notable:** Abrahamic Family House — church/mosque/synagogue complex opened 2022; diplomatically significant but does not reflect actual religious freedom for Emirati nationals
+- **Persecution Score:** Medium (26/100), **Rank:** #60 of 192 countries
+- **Estimated Christian Population:** about 9 to 13 percent, almost entirely expatriate
+- **Primary Threats:** No legal path for Emirati converts, ban on evangelism to Muslims
+- **Notable:** Abrahamic Family House, Abu Dhabi, 2023
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: United Arab Emirates* (most recent edition) — state.gov
+- U.S. Department of State, *United Arab Emirates Travel Advisory* — travel.state.gov
+- Apostolic Vicariate of Southern Arabia — avosa.org
+- Middle East Concern — meconcern.org
 
 -----
 
@@ -605,27 +598,34 @@ The 2022 opening of the Abrahamic Family House on Saadiyat Island in Abu Dhabi �
 COUNTRY: United Kingdom
 TITLE: United Kingdom — Christianity & Persecution Profile
 SLUG: country-profiles/united-kingdom
-META DESCRIPTION: The United Kingdom is a historically Christian nation that gave the world the King James Bible, the Reformation’s Protestant tradition, and modern global missions. Christians practice freely, though secularization is rapid and free speech cases involving Christian expression in public life are a recurring legal frontier.
+META DESCRIPTION: The United Kingdom has full religious freedom and an established church in England. Christians are now a minority by census, and street preaching and buffer zone cases have tested free expression.
 CATEGORY: Country Profiles
-TAGS: United Kingdom, Western Europe, Anglican, Catholic, Protestant, Religious Freedom, Secularization, Free Speech, KJV Bible, Mission History
-PERSECUTION TIER: Low
+TAGS: United Kingdom, Western Europe, Church of England, Secularization, Street Preachers, Buffer Zones, Free Speech
+PERSECUTION TIER: Lower
 
 ## Overview
 
-The United Kingdom — comprising England, Scotland, Wales, and Northern Ireland — is a historically Christian nation with full legal religious freedom and one of the most significant Christian institutional and missionary legacies in the world. The Church of England is the established church of England, with the monarch as its Supreme Governor; the Church of Scotland is established in Scotland. All denominations practice freely.
+For the first time, fewer than half of people in England and Wales described themselves as Christian at the 2021 census, 46 percent, with 37 percent reporting no religion. Scotland recorded a similar shift in its 2022 census. The Church of England remains the established church, the monarch is its supreme governor, and bishops sit in the House of Lords. Religious freedom is complete and there is no persecution.
 
-The UK’s Christian history is of global consequence. The English Reformation — driven by Henry VIII’s political break with Rome, shaped theologically by Cranmer’s Book of Common Prayer, and then contested through the Catholic revival under Mary I and the Elizabethan Settlement — produced the Anglican tradition that spread to every continent through the British Empire. The King James Bible (1611) is arguably the most influential single text in the English-speaking world — not merely religiously but literarily, shaping the English language through its poetic and cadenced translation. The Puritans who sailed for New England in the 1620s and 1630s carried a Calvinist-shaped Christianity that shaped American religious and political culture. William Wilberforce’s evangelical Christianity was the driving force behind British abolition of the slave trade (1807). David Livingstone, William Carey (who set out from England), Hudson Taylor, and many others represent the global missionary enterprise that the British evangelical tradition sponsored.
+The live disputes concern expression. Street preachers have been arrested under public order law, usually for statements on sexuality, and most such cases end in acquittal or dropped charges with compensation awarded in several. Safe access zones around abortion clinics took effect across England and Wales in 2024, criminalizing influence including silent prayer within a set distance. Adam Smith-Connor was convicted in 2024 for praying silently near a Bournemouth clinic, a case the U.S. government raised publicly. Scotland introduced similar zones.
 
-The UK is not on the Open Doors World Watch List. The recurring legal issues that GWM users may encounter involve not persecution but the boundaries of religious expression: Christians who have been arrested, cautioned, or taken to employment tribunals for expressing traditional views on sexual ethics in public have generated significant cases. Street preachers have faced charges for words that were deemed offensive. Nurses and registrars have faced employment consequences for declining certain procedures or ceremonies on religious grounds. These cases are real, important for the church’s public witness, and legally contested — but they do not constitute persecution by any globally comparative standard.
+Christians in public employment have brought discrimination claims, with mixed outcomes, over dismissal for expressing religious views. A Church of England review of historic racism and the report on its handling of the John Smyth abuse case, which led to the resignation of Archbishop Justin Welby in November 2024, have reshaped the church's standing.
 
-Northern Ireland’s legacy of Catholic-Protestant sectarian conflict — the Troubles (1968–1998) — claimed approximately 3,500 lives and was explicitly connected to religious identity as a social marker. The Good Friday Agreement (1998) established a peace that has been substantially maintained.
+Churches have been attacked by terrorists, including the murder of Sir David Amess MP at a church hall surgery in 2021 by an Islamic State sympathizer.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~59% (nominal; active practice much lower, particularly in England)
-- **Current Status:** Full religious freedom; no persecution; free speech cases involving Christian expression are an active legal frontier
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** KJV Bible (1611); Anglican Reformation; Puritan foundations of American Christianity; global mission movement; Wilberforce and abolition
+- **Persecution Score:** Lower (10/100), **Rank:** #91 of 192 countries
+- **Estimated Christian Population:** about 46 percent in England and Wales by the 2021 census
+- **Current Status:** Full religious freedom, established Church of England
+- **Live Issues:** Arrests of street preachers, prosecutions within abortion clinic buffer zones
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: United Kingdom* (most recent edition) — state.gov
+- Office for National Statistics, *Census 2021, religion* — ons.gov.uk
+- Makin Review into the John Smyth case (2024) — churchofengland.org
+- Christian Institute and Christian Concern case reporting — christian.org.uk
 
 -----
 
@@ -633,29 +633,34 @@ Northern Ireland’s legacy of Catholic-Protestant sectarian conflict — the Tr
 COUNTRY: United States
 TITLE: United States — Christianity & Persecution Profile
 SLUG: country-profiles/united-states
-META DESCRIPTION: The United States is home to the largest Christian population in the world and is constitutionally founded on religious freedom. Christians practice freely and play central roles in every dimension of public life. Increasing cultural tension over religious expression in public institutions is a domestic concern but not persecution.
+META DESCRIPTION: The United States has among the strongest religious freedom protections in the world. Christian affiliation is falling, and churches have been targets of mass shootings.
 CATEGORY: Country Profiles
-TAGS: United States, North America, Evangelical, Catholic, Baptist, Religious Freedom, First Amendment, Secularization, Religious Liberty Cases
-PERSECUTION TIER: Low
+TAGS: United States, North America, First Amendment, Religious Freedom, Secularization, Church Shootings
+PERSECUTION TIER: Lower
 
 ## Overview
 
-The United States is home to approximately 230–250 million Christians — more than any other country in the world in absolute numbers — and is constitutionally built on the principle that the government shall make no law prohibiting the free exercise of religion. From its Puritan New England foundations through the Great Awakenings, the abolitionist movement, the Holiness and Pentecostal revivals, the civil rights movement (whose leadership was almost entirely drawn from Black Christian churches), and to the present day, Christianity has been woven into American civic, cultural, and intellectual life in ways that are irreplaceable and ongoing.
+The United States is around 62 percent Christian by Pew's 2023 to 2024 Religious Landscape Study, down from 78 percent in 2007, with the decline leveling off in recent years. The religiously unaffiliated make up about 29 percent. First Amendment protection for free exercise and against establishment is among the strongest anywhere, and the Religious Freedom Restoration Act adds a statutory shield. There is no persecution.
 
-Americans across denominational and theological traditions — evangelical, mainline Protestant, Catholic, Orthodox, Pentecostal, charismatic, and others — practice their faith freely. Christians hold elected office at every level of government, operate the largest network of private schools and hospitals in the country, and conduct the most significant per-capita foreign mission enterprise in the world. The United States is not on the Open Doors World Watch List, nor should it be.
+Legal conflict centers on how religious liberty interacts with anti-discrimination law, health mandates, and education. The Supreme Court has ruled for religious claimants in a string of major cases, including *Masterpiece Cakeshop* (2018), *Fulton v. Philadelphia* (2021), *Kennedy v. Bremerton* (2022), and *303 Creative* (2023).
 
-The recurring domestic debates about religious freedom in the United States center on:
+Churches have been sites of mass shootings. Dylann Roof killed nine Black worshippers at Emanuel AME Church in Charleston in 2015. A gunman killed 26 at First Baptist Church in Sutherland Springs, Texas, in 2017. Three children and three adults were killed at the Covenant School in Nashville in 2023. Two children were killed during a school mass at Annunciation Catholic Church in Minneapolis in August 2025. Church vandalism and arson, including a spate of attacks on Catholic churches after 2022, are tracked by several monitoring groups.
 
-**First Amendment cases:** The tension between the Free Exercise clause (protecting religious practice) and the Establishment Clause (prohibiting state establishment of religion), applied to school prayer, government displays of religious symbols, religious exemptions from anti-discrimination law, and public funding of religious institutions — generates a steady stream of significant Supreme Court and lower court cases. Recent decisions including Burwell v. Hobby Lobby (2014), Masterpiece Cakeshop v. Colorado Civil Rights Commission (2018), Fulton v. City of Philadelphia (2021), 303 Creative v. Elenis (2023), and Kennedy v. Bremerton School District (2022) have been significant victories for religious freedom claims in the current Supreme Court era.
-
-**Christian persecution globally:** The United States is the most significant governmental and advocacy force for global religious freedom, through USCIRF (the United States Commission on International Religious Freedom), the State Department’s Office of International Religious Freedom (Ambassador-at-Large for International Religious Freedom), and the Foreign Aid conditionality frameworks that can connect US assistance to religious freedom performance. American evangelical organizations — Open Doors USA, Voice of the Martyrs, International Christian Concern, the 21Wilberforce initiative, and dozens of others — are the primary international advocates for persecuted Christians globally.
+The U.S. government, through the State Department's Office of International Religious Freedom and the independent USCIRF, produces the most extensive official reporting on religious persecution abroad.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~63% (~230–250 million)
-- **Current Status:** Full religious freedom; no persecution; active First Amendment jurisprudence on limits of religious expression in public life
-- **Open Doors WWL:** Not ranked
-- **Global Role:** USCIRF and State Department IRF Office; primary funder and organizer of global religious freedom advocacy; largest single source of global Christian mission activity and support for persecuted Christians worldwide
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 62 percent
+- **Current Status:** Full religious freedom under the First Amendment
+- **Live Issues:** Religious liberty and anti-discrimination law, church shootings and vandalism
+
+### Sources & References
+
+- Pew Research Center, *Religious Landscape Study* (2025) — pewresearch.org/religion/
+- U.S. Department of State, *Report on International Religious Freedom* — state.gov
+- USCIRF — uscirf.gov
+- Family Research Council, *Hostility Against Churches* reporting — frc.org
 
 -----
 
@@ -663,23 +668,29 @@ The recurring domestic debates about religious freedom in the United States cent
 COUNTRY: Uruguay
 TITLE: Uruguay — Christianity & Persecution Profile
 SLUG: country-profiles/uruguay
-META DESCRIPTION: Uruguay is one of the most secular nations in Latin America — and among the most thoroughly de-Christianized. Christians practice freely with no persecution, but active faith is a minority position in a society defined by early and thorough secularization.
+META DESCRIPTION: Uruguay is the most secular country in Latin America, with full religious freedom and a long tradition of strict separation of church and state.
 CATEGORY: Country Profiles
-TAGS: Uruguay, South America, Catholic, Evangelical, Secular, Religious Freedom, Secularization
-PERSECUTION TIER: Low
+TAGS: Uruguay, South America, Secularism, Laicidad, Catholic, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Uruguay stands out in Latin America as the region’s most thoroughly secular society — the product of unusually early and complete separation of church and state under President José Batlle y Ordóñez in the early 20th century. Uruguay removed religious references from the constitution in 1917, secularized public education, abolished religious oaths, and renamed religious holidays (Christmas became “Family Day”; Easter became “Tourism Week” in official usage). The result is a country where approximately 41% of the population identifies as Christian, 39% as non-religious, and 17% as “other religion” or deist — one of the least Christian societies in Latin America.
+Uruguay is the most secular country in the Americas. Around 40 percent of the population identifies as Catholic, roughly 10 percent as evangelical, and a large share, over 40 percent, report no religion. Religious freedom is complete and there is no persecution.
 
-Christians in Uruguay practice entirely freely; no persecution exists. The Catholic Church, evangelical Protestant denominations, and other Christian communities maintain active presence. Uruguay is not on the Open Doors World Watch List. The challenge for the Uruguayan church is not persecution but the cultural context of one of the world’s most comprehensively secular societies.
+Separation of church and state was set in the 1918 constitution after a secularization campaign under President José Batlle y Ordóñez. Christmas is officially Family Day and Holy Week is officially Tourism Week, names still in use. Crucifixes were removed from public hospitals as early as 1906.
+
+Evangelical churches have grown and become more politically visible. Debate over religious symbols in public space recurs, including a long dispute over a statue of the Virgin Mary proposed for the Montevideo waterfront. Crime has risen in parts of Montevideo and Canelones, and churches in affected neighborhoods have been robbed, without religious targeting.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~41%
-- **Current Status:** Full religious freedom; no persecution; one of Latin America’s most secular societies
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Among the earliest and most complete separations of church and state in the Western Hemisphere (early 20th century)
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 50 to 55 percent
+- **Current Status:** Full religious freedom, strict laicidad since 1918
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Uruguay* (most recent edition) — state.gov
+- Pew Research Center, *Religion in Latin America* — pewresearch.org/religion/
 
 -----
 
@@ -687,42 +698,38 @@ Christians in Uruguay practice entirely freely; no persecution exists. The Catho
 COUNTRY: Uzbekistan
 TITLE: Uzbekistan — Christianity & Persecution Profile
 SLUG: country-profiles/uzbekistan
-META DESCRIPTION: Uzbekistan is a majority-Muslim former Soviet republic where the state tightly controls all religious activity. Christians face raids, fines, Bible confiscation, and imprisonment for unregistered church activity. Converts from Islam face severe social and some legal consequences.
+META DESCRIPTION: Uzbekistan eased some religious controls after 2016 but unregistered worship is still illegal. Uzbek converts face heavy family and state pressure.
 CATEGORY: Country Profiles
-TAGS: Uzbekistan, Central Asia, Islam, Registration Requirements, Church Raids, Bible Confiscation, WWL Top 30, Post-Soviet, Converts, Silk Road Christianity
-PERSECUTION TIER: Moderate
+TAGS: Uzbekistan, Central Asia, Religion Law, Registration, Converts, Raids, WWL Top 25
+PERSECUTION TIER: High
 
 ## Overview
 
-Uzbekistan is a Central Asian republic of approximately 36 million people — the most populous in the region — and approximately 88% Muslim. The country occupies some of the most historically significant territory in Silk Road Christian history: Samarkand, Bukhara, and Tashkent were centers of Nestorian Christian presence along the great trade routes, with bishops documented in Samarkand as early as the 5th century and evidence of Christian communities through the Mongol period. Today, Christians represent approximately 1% of the population, predominantly Russian Orthodox (the ethnic Russian minority) with small evangelical and Baptist communities and a tiny number of Uzbek converts.
+Uzbekistan is over 90 percent Muslim with a Christian minority near 2 to 3 percent, mainly Russian Orthodox among ethnic Russians, with small Protestant and Catholic communities. After Shavkat Mirziyoyev succeeded Islam Karimov in 2016 some controls eased, and a new religion law in 2021 made registration somewhat easier. The core system of control remains. Open Doors ranked Uzbekistan 25th on the 2026 World Watch List.
 
-Under President Shavkat Mirziyoyev — who came to power in 2016 following the death of the brutal Islam Karimov — Uzbekistan has pursued selective economic and social opening. Some of the most extreme restrictions of the Karimov era (which included the imprisonment of thousands of religious believers) have been moderated, but the fundamental framework of state control over religion remains: registration requirements, surveillance, raids on unregistered churches, confiscation of religious literature, and the severe social consequences for converts from Islam are all ongoing realities.
+## Controls
 
-## The Control Framework
+Registration still requires a minimum membership of 50 adult citizens and state approval. Unregistered religious activity is an administrative offense, and house churches are raided, members fined, and Bibles and literature confiscated. Religious literature needs state approval. Proselytizing and missionary activity are prohibited. Religious clothing in public is restricted.
 
-Uzbekistan’s Law on Freedom of Conscience and Religious Organizations mirrors the Tajikistani and Turkmen frameworks with some variation. Registration is mandatory; unregistered religious activity is illegal. Religious literature must be submitted for government review before distribution; unapproved literature is confiscated. Religious education of children outside state-approved settings is prohibited. Missionary activity by foreign nationals is banned.
+The 2021 law cut the membership threshold for registration and removed some requirements, and several Protestant congregations have registered since. Many others have been refused or have not applied, knowing the process exposes their members to scrutiny.
 
-For evangelical and Baptist house churches — which typically lack the membership numbers or financial resources to meet registration requirements and which conduct the kind of small-group, Bible-based worship that the state views with suspicion — the framework means permanent legal exposure. Raids on prayer meetings are documented regularly by Forum 18; participants are fined; Bibles are confiscated; leaders face repeated interrogation. Some have been imprisoned.
+## Converts
 
-The Baptist Council of Churches — an unregistered Baptist denomination that on principle refuses to register with the state because registration entails state oversight of sermons and membership — has been particularly targeted across Uzbekistan and the other former Soviet republics. Its members’ principled refusal to register is a theological commitment to the independence of the church from state control; the government treats it as a security threat.
-
-## Converts and Social Enforcement
-
-Uzbek Muslims who convert to Christianity face the comprehensive social consequences common across Central Asia: family rejection, community ostracism, loss of employment, and in some cases physical violence from family members. The Uzbek extended family and mahalla (neighborhood community council) systems make religious nonconformity highly visible and socially costly. Converts who continue to practice Christianity after discovery by family members report extended periods of pressure, isolation, and coercive efforts to return them to Islam.
-
-The state’s role in convert persecution is indirect but real: police have in documented cases facilitated family efforts to pressure converts by conducting investigations, making implied threats about employment and civic status, and in some cases detaining converts briefly to create leverage for family-based recantation campaigns.
-
-## Current Status
-
-Uzbekistan sits in the Open Doors mid-tier. The trajectory under Mirziyoyev is modestly better than under Karimov in some respects — fewer long prison sentences for religious activity, some reduction in the most extreme harassment — but the fundamental framework has not changed. The evangelical and Baptist community continues to meet, worship, and grow at significant legal risk. The Uzbek Christian community’s resilience in a system designed to eliminate it reflects the same pattern seen across Central Asia: the church that grows in difficulty because those who choose it have already counted the cost.
+Uzbek identity is closely tied to Islam, and ethnic Uzbeks who convert face the heaviest pressure. Families confine converts, force divorce, and sometimes involve local imams and the mahalla neighborhood committee, which reports to the authorities. Converts lose jobs and face police questioning. Much of the persecution in Uzbekistan comes from family and community rather than from the state directly.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~1% (Russian Orthodox minority; small evangelical community including Uzbek converts)
-- **Primary Threats:** Registration requirements, raids, Bible confiscation, imprisonment for unregistered church leaders, social persecution of converts from Islam
-- **Current Status:** Mirziyoyev-era modest moderation from Karimov extremes; fundamental control framework unchanged
-- **Open Doors WWL:** Mid-tier monitored
-- **Historical Note:** Samarkand and Bukhara — centers of Nestorian Christianity along the Silk Road from 5th–14th centuries; Christianity was extinguished here before being extinguished almost anywhere else on earth
+- **Persecution Score:** High (42/100), **Rank:** #38 of 192 countries
+- **Estimated Christian Population:** about 2 to 3 percent
+- **Primary Threats:** Registration requirements, raids on unregistered groups, literature censorship, family and mahalla pressure on converts
+- **Open Doors WWL 2026:** #25
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Uzbekistan* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Uzbekistan* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Forum 18 News Service, *Uzbekistan* — forum18.org
 
 -----
 
@@ -730,25 +737,32 @@ Uzbekistan sits in the Open Doors mid-tier. The trajectory under Mirziyoyev is m
 COUNTRY: Venezuela
 TITLE: Venezuela — Christianity & Persecution Profile
 SLUG: country-profiles/venezuela
-META DESCRIPTION: Venezuela is a majority-Christian nation in economic and political collapse. The Maduro government’s hostility toward the Catholic Church — whose leaders have openly criticized the regime — has created friction, but Christians practice with no systematic state persecution.
+META DESCRIPTION: Venezuela is overwhelmingly Christian, and its churches were pressured under Maduro for opposing the regime. Economic collapse drove millions of believers abroad.
 CATEGORY: Country Profiles
-TAGS: Venezuela, South America, Catholic, Evangelical, Maduro, Church-State Tension, Economic Collapse, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Venezuela, South America, Catholic, Evangelical, Maduro, Economic Collapse, Emigration
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Venezuela is approximately 88% Christian — predominantly Catholic, with a growing evangelical and Pentecostal minority — and has full constitutional religious freedom. Christians are not systematically persecuted by the Venezuelan state. However, the Maduro government — which has ruled through increasing authoritarianism since the death of Hugo Chávez in 2013 — has maintained a tense and at times openly hostile relationship with the Catholic Church, whose bishops have been among the most consistent institutional voices documenting the humanitarian and political catastrophe of Venezuela’s collapse.
+Venezuela is around 88 percent Christian, predominantly Catholic with a large evangelical minority. Religious freedom exists in law. Under Nicolás Maduro the pressure on churches was political. Catholic bishops who denounced repression and election fraud faced public attacks from the government, and clergy who aided protesters or distributed food outside state channels were harassed and detained. Economic collapse drove close to eight million people out of the country, emptying congregations.
 
-Venezuela’s economic implosion — hyperinflation, food and medicine scarcity, the emigration of approximately 7–8 million Venezuelans, the collapse of basic services — has devastated the church alongside every other institution. Parishes that fed communities have run out of food. Hospitals the church ran have closed for lack of medicine. Church staff have joined the emigration. The Maduro government has at various times threatened church leaders who spoke publicly about the crisis, surveilled bishops, and in 2019 detained and interrogated a priest who sheltered anti-government demonstrators. These actions are concerning but do not constitute a Nicaragua-level systematic assault on the church.
+The disputed 2024 presidential election, which the opposition and independent observers showed Maduro had lost, was followed by mass arrests. Church leaders spoke against the repression and some were threatened.
 
-Venezuela is not on the Open Doors World Watch List. The primary concern for Venezuelan Christians is the same as for all Venezuelans: survival in a collapsing state.
+Maduro was removed from power in a U.S. operation in January 2026, and the political transition since has been uncertain. The U.S. lowered its advisory to level 3 in March 2026 and removed the wrongful detention indicator, though parts of the country, especially the Colombian border and several interior states, remain designated do-not-travel for crime, kidnapping, and armed groups. Churches in border areas work alongside ELN and FARC dissident presence.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~88%
-- **Current Status:** Full religious freedom; church-state tension under Maduro; no systematic persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** Catholic Church is the most consistent institutional critic of Maduro’s governance; individual church leaders have faced surveillance and intimidation
+- **Persecution Score:** Lower (18/100), **Rank:** #72 of 192 countries
+- **Estimated Christian Population:** about 88 percent
+- **Primary Pressures:** Political pressure on outspoken clergy, emigration of congregations, armed groups in border areas
+- **Current Status:** Political transition since January 2026
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Venezuela* (most recent edition) — state.gov
+- U.S. Department of State, *Venezuela Travel Advisory* — travel.state.gov
+- Venezuelan Episcopal Conference statements — cev.org.ve
+- UNHCR and IOM, Venezuela displacement data — r4v.info
 
 -----
 
@@ -756,60 +770,40 @@ Venezuela is not on the Open Doors World Watch List. The primary concern for Ven
 COUNTRY: Vietnam
 TITLE: Vietnam — Christianity & Persecution Profile
 SLUG: country-profiles/vietnam
-META DESCRIPTION: Vietnam is a one-party communist state where Christianity is legal on paper and controlled in practice. Unregistered house churches — particularly among ethnic minority Christians in the Highlands — face raids, forced recantations, church demolitions, and imprisonment. The church has grown from 10% to nearly 9 million in sixty years despite everything the state has done to stop it.
+META DESCRIPTION: Vietnam's communist government controls religion through registration and pressures ethnic minority Christians in the highlands. Catholic and Protestant churches face land seizures.
 CATEGORY: Country Profiles
-TAGS: Vietnam, Southeast Asia, Communism, VCP, Degar Christians, Central Highlands, House Church, Registration, WWL Top 25, Hmong Christians, Forced Recantation
+TAGS: Vietnam, Southeast Asia, Communism, Montagnard, Hmong, Registration, Land Disputes
 PERSECUTION TIER: High
-WWL RANKING: #19 (Open Doors 2024)
 
 ## Overview
 
-Vietnam is a single-party communist state governed by the Vietnamese Communist Party (VCP) that controls all religious life through a state registration system, a religious affairs bureaucracy, and the surveillance apparatus of a Leninist party-state. Christianity is legal within the approved framework; it is suppressed outside of it. The approved denominations — the Catholic Church, the Evangelical Church of Vietnam (North and South), the Mennonite Church, and several others — operate with a degree of institutional freedom in urban centers. The communities that face severe persecution are those outside or on the margins of the approved framework: independent house churches in urban areas, unregistered house churches in the rural Central Highlands among ethnic minority Christians (Degar/Montagnard peoples), and the growing Hmong and other ethnic minority Christian communities in the northern mountains. Vietnam ranked #19 on the 2024 Open Doors World Watch List.
+Vietnam is around 8 to 9 percent Christian, with about 7 million Catholics and over a million Protestants, in a one-party communist state. Registered churches operate openly under supervision. Unregistered churches, especially among ethnic minorities in the Central Highlands and northwest, face surveillance, raids, and pressure to renounce their faith. Vietnam dropped outside the Open Doors top 50 for 2026 on reduced reported violence, and the underlying control has not changed.
 
-## Christianity’s History in Vietnam
+## Legal Framework
 
-Catholicism arrived in Vietnam through 16th-century Portuguese and then French Dominican and Jesuit missionaries. The most celebrated early missionary was Alexandre de Rhodes, a Jesuit who arrived in 1624, became fluent in Vietnamese, and developed the Quốc Ngữ romanized script for the Vietnamese language — a lasting contribution to Vietnamese literacy that the Vietnamese Communist Party still uses today in its official communications, with characteristic historical irony. The Vietnamese Catholic church grew substantially under French colonial rule; the Catholic community that developed was deeply Vietnamese, not merely a colonial import.
+The 2018 Law on Belief and Religion requires registration of religious organizations and approval of their activities, clergy, and training. Groups that do not register or are refused operate illegally. Registration has been granted to more Protestant bodies in recent years, and the process gives authorities leverage over leadership and activity.
 
-The Vietnamese Catholics who refused to compromise their faith under colonial, wartime, and communist pressure produced martyrs. The 117 Vietnamese Martyrs — killed between 1625 and 1886 for their faith — were canonized by Pope John Paul II in 1988. Among them are Vietnamese bishops, priests, and thousands of laypeople who died refusing to trample on a cross (the specific act of apostasy demanded by authorities in various periods) or to renounce their faith.
+## Ethnic Minorities
 
-Protestant Christianity arrived later, primarily through the Christian and Missionary Alliance (C&MA), which established work in Vietnam in 1911. The Evangelical Church of Vietnam (ECVN) — the primary institutional heir of the C&MA mission — grew substantially in the 20th century, particularly in the south under the South Vietnamese government, which permitted greater freedom than the communist north.
+Hmong in the northwest and Montagnard peoples in the Central Highlands converted in large numbers, much of it through radio and personal networks rather than foreign missions. The state treats these churches as a political risk, linked in official rhetoric to separatism and to wartime alliances with the United States. Believers have been pressured to sign renunciations, fined, beaten, and denied household registration and identity documents that control access to schooling and services. Some have fled to Thailand and Cambodia.
 
-## The Communist State and Religious Control
+## Land Disputes
 
-The VCP’s framework for religious control is consistent with its counterparts in Laos, China, and Cuba: religion is permitted within state-approved structures; anything outside those structures is illegal and subject to administrative and criminal sanction. The state’s concern is not theology but institutional independence — any organized community that maintains loyalty structures outside the party is a potential threat.
-
-Vietnam’s approved religious registration system requires denominational affiliation and state vetting of pastoral appointments, church activities, and finances. Sermons in registered churches are monitored; anything politically sensitive — advocacy for religious freedom, discussion of the government’s treatment of unregistered communities, or contacts with international Christian organizations that the government views as politically subversive — can result in the revocation of a church’s registration or the arrest of its pastor.
-
-## The Central Highlands: Degar Christians
-
-The most acute and documented persecution of Christians in Vietnam occurs among the Degar peoples of the Central Highlands — Jarai, Ede, Bahnar, and related ethnic minority groups who were substantially evangelized through C&MA missions in the 20th century and who are now estimated to be 50–80% Christian in some communities. The Degar (also called Montagnards) have a history of conflict with the Vietnamese government: they cooperated with American Special Forces during the Vietnam War, and the postwar communist government treated them as traitors. Land confiscation in the Highlands — as Vietnamese settlers were moved onto Degar ancestral land — has continued for decades.
-
-For Degar Christians, the combination of ethnic marginalization and Christian faith creates a compound persecution. House churches in Degar communities are raided and demolished by local authorities. Degar Christians who attend unregistered worship gatherings are detained and fined. Pastors who lead unregistered congregations are imprisoned on charges including “undermining national unity” or “spreading false religion.” Church buildings — sometimes simple structures in villages — are torn down. Bibles and Christian materials are confiscated.
-
-The pattern of forced recantation is well-documented: local officials enter a community, identify known Christians, and demand that they sign documents renouncing Christianity and returning to traditional animist practices — which the state officially designates as part of ethnic minority cultural heritage. Christians who refuse face escalating pressure: threats, detention, property confiscation, and exclusion from community resources including water and electricity. Those who eventually sign under extreme coercion sometimes resume practicing Christianity in deeper secrecy.
-
-## Hmong and Northern Minority Christians
-
-A separate but parallel crisis affects the Hmong and other ethnic minority peoples of northern Vietnam — the region bordering China. Hmong Christianity grew through contact with other Hmong Christian communities (across the border in Laos and China, and through radio broadcasting) and has spread rapidly. Local authorities in northern provinces have conducted campaigns against Hmong Christian communities: demolishing churches, confiscating property, arresting pastors, and expelling Christian families from their villages through the same mechanism of collective community decision-making seen in Laos.
-
-The Hmong Christian community in Vietnam — numbering in the hundreds of thousands — represents one of the most remarkable recent church growth stories in Southeast Asia, occurring entirely through indigenous testimony and radio ministry without significant missionary presence, in communities under significant state pressure.
-
-## Urban House Churches
-
-In major Vietnamese cities — Hanoi, Ho Chi Minh City, Da Nang — independent house churches operate outside the state registration framework. These congregations — typically evangelical or charismatic in character, serving Vietnamese professionals and young adults — face periodic raids, pastoral arrests, and pressure to register with approved denominational bodies. The conditions in urban areas are generally less severe than in the rural ethnic minority communities; urban Christians have greater access to legal resources, international contacts, and the attention that urbanization brings. But the legal exposure is the same, and the state’s scrutiny of independent urban house churches has intensified in recent years.
-
-## Growth Despite Persecution
-
-Vietnam’s Christian community has grown from approximately 10% of the population in 1975 to an estimated 9–10 million today — roughly 9.3% of 96 million people. This growth has occurred despite (and arguably because of) the VCP’s religious control framework. The church that costs something attracts those who are genuinely committed; those who are genuinely committed tend to evangelize their communities effectively. The pattern familiar from Laos, China, Iran, and every other communist or Islamist persecution context repeats itself: the church grows most vigorously where the state most actively tries to stop it.
+The Catholic Church has fought prolonged battles over property seized after 1954 and 1975. Protests at the former nunciature and Thai Ha parish in Hanoi in 2008 led to arrests and demolitions. Land disputes continue to be the main friction between the Catholic Church and the state.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #19
-- **Estimated Christian Population:** ~9–10% (~9 million)
-- **Primary Threats:** Registration system, raids on unregistered house churches, forced recantation of ethnic minority Christians, church demolitions, pastoral imprisonment, Bible confiscation
-- **Most Affected Communities:** Degar/Montagnard Christians (Central Highlands), Hmong Christians (northern mountains), urban independent house churches
-- **Legal Status:** Christianity legal within approved framework; unregistered practice illegal and actively suppressed
-- **Growth:** From ~10% (1975) to ~9 million (present) — sustained growth under communist pressure
+- **Persecution Score:** High (44/100), **Rank:** #33 of 192 countries
+- **Estimated Christian Population:** about 8 to 9 percent
+- **Primary Threats:** Registration controls, pressure on Hmong and Montagnard Christians, confiscation of church land
+- **Open Doors WWL 2026:** Outside the top 50
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Vietnam* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Human Rights Watch, *Vietnam* — hrw.org/asia/vietnam
 
 -----
 
@@ -817,48 +811,45 @@ Vietnam’s Christian community has grown from approximately 10% of the populati
 COUNTRY: Yemen
 TITLE: Yemen — Christianity & Persecution Profile
 SLUG: country-profiles/yemen
-META DESCRIPTION: Yemen is in the midst of the world’s worst humanitarian disaster — and it has almost no Christians. The handful of Yemeni converts who practice Christianity face execution under Houthi rule, and the few remaining foreign Christians operate under conditions of extreme danger. Among the world’s most closed countries for Christian faith.
+META DESCRIPTION: Yemen has no legal space for Yemeni Christians. Houthis, al-Qaeda, and Islamic State all treat converts as targets, and the war has made the country one of the worst on earth for believers.
 CATEGORY: Country Profiles
-TAGS: Yemen, Middle East, Houthi, Civil War, WWL Top 5, No Indigenous Church, Converts, Apostasy, Humanitarian Disaster
-PERSECUTION TIER: High
-WWL RANKING: #4 (Open Doors 2024)
+TAGS: Yemen, Middle East, Houthis, AQAP, Civil War, Apostasy, Secret Believers, Missionaries of Charity, WWL Top 5
+PERSECUTION TIER: Extreme
 
 ## Overview
 
-Yemen is ranked #4 on the 2024 Open Doors World Watch List — the fourth most dangerous country in the world to be a Christian. It has no indigenous Christian community, no church buildings, no publicly practicing Christians of any kind, and a civil war that has produced the world’s worst humanitarian catastrophe. The country that was once the ancient Kingdom of Sheba — whose queen, according to both biblical and Islamic tradition, visited Solomon — has no living memory of Christianity and no space for it to emerge. The handful of Yemeni nationals who are believed to have converted to Christianity practice in a level of secrecy that makes North Korea’s underground church look relatively organized by comparison.
+Yemen is close to 100 percent Muslim, and the number of Yemeni believers is estimated in the low thousands at most. There is no legal way to be a Yemeni Christian. Apostasy is a capital crime, family and tribe enforce the rule where the state cannot, and every armed force in the war treats converts as enemies. Open Doors ranked Yemen 3rd on the 2026 World Watch List.
 
-## Yemen’s Religious History
+## Ancient and Modern
 
-Yemen’s pre-Islamic history included a diversity of religious traditions: polytheism, Judaism (Himyarite kings converted to Judaism in the 4th–5th centuries AD), and a significant Christian presence in the ancient cities of Najran and Zafar. The martyrs of Najran — Christians killed by the Jewish Himyarite king Dhu Nuwas around 523 AD for refusing to renounce Christianity — are commemorated in Christian calendars as the “Martyrs of Arabia.” Their story is referenced in the Quran (Surah al-Buruj) as a warning against persecution of believers.
+Christianity existed in pre-Islamic Yemen, with a cathedral at Sana'a and the martyrs of Najran in the sixth century. That presence ended with the Islamic period. Modern Christian presence has been limited to foreign workers and a small number of churches in Aden serving expatriates, now largely closed.
 
-The Prophet Muhammad was born into this religiously diverse Arabia; his campaigns unified the peninsula under Islam, and by the 7th century the Christian and Jewish communities of Yemen had been converted, expelled, or eliminated. Islam has been the exclusive faith of Yemen for over 1,300 years. There is no surviving indigenous Yemeni Christian community; the martyrs of Najran left no descendants in the faith.
+## The War
 
-## The Civil War and Humanitarian Catastrophe
+The Houthi movement took Sana'a in 2014 and the war with the Saudi-led coalition from 2015 produced one of the worst humanitarian crises in the world. The Houthis govern the populous north. The south is contested among the internationally recognized government, the Southern Transitional Council, and al-Qaeda in the Arabian Peninsula, with Islamic State present.
 
-Yemen’s civil war — which began formally in 2014–2015 when Houthi forces (the Ansar Allah movement, backed by Iran) seized the capital Sana’a and the Saudi-led coalition intervened in support of the internationally recognized government — has produced human suffering of staggering scale. The UN has described it as the world’s worst humanitarian crisis for several consecutive years: an estimated 377,000 deaths by the end of 2021 (directly and through famine and disease); 21 million people in need of humanitarian assistance; mass famine conditions in large areas; cholera outbreaks affecting millions; and a healthcare system effectively destroyed.
+In March 2016 gunmen attacked the Missionaries of Charity home for the elderly in Aden and killed four nuns and twelve staff. Father Tom Uzhunnalil, a Salesian priest, was abducted in the attack and held for eighteen months.
 
-In this context, any Christian presence in Yemen faces not merely anti-Christian ideology but the complete breakdown of the social and physical infrastructure within which religious community can exist.
+The Houthis, whose slogan includes a curse on Jews, have arrested people suspected of conversion and Baháʼí believers. They were re-designated a Foreign Terrorist Organization by the United States. AQAP has executed people accused of apostasy in areas it controls.
 
-## Houthi Rule and Christians
+## Believers
 
-The Houthi movement — whose slogan includes “Death to America, Death to Israel, Curse upon the Jews, Victory to Islam” — governs northern Yemen including Sana’a under a theological framework that is explicitly hostile to non-Muslim religious expression. Under Houthi administration, apostasy from Islam is treated as a capital offense; proselytism is criminal; any Christian activity would be treated as an existential threat to the Islamic social order the movement seeks to establish.
-
-The recognized government’s territory in southern Yemen — centered on Aden and other southern cities — is not Houthi-controlled and does not apply the same theological framework. However, the security situation in government-controlled areas is chaotic, and Christian activity of any kind carries extreme risk from a variety of armed actors.
-
-## The Few and the Hidden
-
-The number of known Yemeni converts to Christianity is almost certainly in the dozens — possibly fewer. Their existence is known primarily through contacts with Yemeni diaspora communities in Europe and through the work of specialized mission organizations that maintain the most minimal and cautious of contacts for security reasons. These individuals exist in a level of isolation that makes description difficult: no community, no scripture they can safely hold, no pastor, no fellowship, no external support that can reach them reliably. They pray alone, in secret, in the middle of a war zone, in a country that has never known Christian faith as a living tradition.
-
-Open Doors ranks Yemen at #4 because the comprehensive absence of any Christian space — combined with the active danger of Houthi governance and the humanitarian devastation that leaves individuals maximally vulnerable — produces a total situation as dangerous as anywhere on earth for anyone who has come to faith.
+Yemeni Christians are almost entirely hidden. Discovery by family can bring confinement, forced marriage, or death. Believers in Houthi areas face detention and interrogation by security services. Many have fled to neighboring countries, where they remain at risk from Yemeni networks.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #4
-- **Indigenous Christian Population:** Estimated dozens; possibly fewer
-- **Primary Threats:** Houthi apostasy law; complete absence of any social or institutional space for Christian practice; civil war and humanitarian collapse
-- **Legal Status:** No legal framework for Christian practice; apostasy capital offense under Houthi governance
-- **Churches:** Zero
-- **Historical Note:** Martyrs of Najran (c. 523 AD) — Yemeni Christians killed for refusing to renounce faith; referenced in the Quran; no surviving Christian community descended from them
+- **Persecution Score:** Extreme (79/100), **Rank:** #3 of 192 countries
+- **Estimated Christian Population:** low thousands of citizens at most, entirely secret
+- **Primary Threats:** Houthi detention, AQAP and Islamic State executions, family and tribal violence, capital apostasy law
+- **Open Doors WWL 2026:** #3
+- **Notable:** The 2016 Aden attack that killed four Missionaries of Charity sisters
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Yemen* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Yemen* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- UN Panel of Experts on Yemen — un.org/securitycouncil
 
 -----
 
@@ -866,25 +857,30 @@ Open Doors ranks Yemen at #4 because the comprehensive absence of any Christian 
 COUNTRY: Zambia
 TITLE: Zambia — Christianity & Persecution Profile
 SLUG: country-profiles/zambia
-META DESCRIPTION: Zambia is a constitutionally Christian nation in Southern Africa where believers practice freely and the church plays a central role in national life. No persecution exists.
+META DESCRIPTION: Zambia is constitutionally declared a Christian nation and protects freedom for all faiths. There is no persecution.
 CATEGORY: Country Profiles
-TAGS: Zambia, Southern Africa, Christian Nation, Catholic, Protestant, Evangelical, Religious Freedom, David Livingstone
-PERSECUTION TIER: Low
+TAGS: Zambia, Southern Africa, Christian Nation, Religious Freedom, Constitution
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Zambia is approximately 95% Christian — one of the highest proportions in the world — and is constitutionally declared a Christian nation in its 1991 constitution, a declaration made by President Frederick Chiluba following the country’s democratic transition. All denominations practice freely; there is no persecution and no notable restriction on any form of Christian expression. The Catholic Church, the United Church of Zambia, evangelical denominations, and Pentecostal movements all maintain active, well-established community life.
+Zambia is around 95 percent Christian, and President Frederick Chiluba declared it a Christian nation in 1991, a declaration written into the constitution's preamble in 1996 and retained in the 2016 amendment. The same constitution guarantees freedom of religion for all, and Muslims, Hindus, and Baháʼís practice freely. There is no persecution.
 
-Zambia’s connection to Christian history is particularly linked to David Livingstone, whose missionary journeys through Central Africa in the mid-19th century included extensive travel through what is now Zambia. Livingstone died near Lake Bangweulu in present-day Zambia in 1873 while still searching for the Nile’s source — he died on his knees in prayer. His heart was buried at the site by his companions; a memorial stands there today. Livingstone is venerated in Zambia as a foundational figure in the country’s Christian history, and the city of Livingstone — near Victoria Falls — bears his name.
+A Ministry of National Guidance and Religious Affairs was created in 2016 and later folded into other portfolios, with debate over whether state involvement in religion helps or harms churches. The government periodically proposes regulation of new churches over fraud concerns.
 
-Zambia is not on the Open Doors World Watch List. The country’s challenges — poverty, governance issues, and HIV/AIDS prevalence — are not religious persecution issues. The church is active and vibrant in addressing these challenges through its extensive network of schools, hospitals, and community organizations.
+Church bodies, particularly the Catholic bishops and the Council of Churches in Zambia, have been a significant check on political power, speaking out on election conduct and governance.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~95%
-- **Current Status:** Full religious freedom; constitutionally Christian nation; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** David Livingstone died in Zambia (1873) on his knees in prayer; Livingstone city and Livingstone Museum commemorate him; the church has been at the center of Zambian national life since the 19th century
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 95 percent
+- **Current Status:** Full religious freedom, Christian nation declared in the constitution
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Zambia* (most recent edition) — state.gov
+- Constitution of Zambia (Amendment) Act, 2016
+- CIA World Factbook: Zambia — cia.gov/the-world-factbook/countries/zambia/
 
 -----
 
@@ -892,55 +888,32 @@ Zambia is not on the Open Doors World Watch List. The country’s challenges —
 COUNTRY: Zimbabwe
 TITLE: Zimbabwe — Christianity & Persecution Profile
 SLUG: country-profiles/zimbabwe
-META DESCRIPTION: Zimbabwe is a majority-Christian nation where believers practice freely. The Mugabe era produced economic catastrophe and political oppression, but Christians were not specifically targeted. The church has been a significant voice for human dignity through decades of political crisis.
+META DESCRIPTION: Zimbabwe is around 85 percent Christian with religious freedom in law. Clergy who criticize the government face intimidation and arrest.
 CATEGORY: Country Profiles
-TAGS: Zimbabwe, Southern Africa, Christian Majority, Catholic, Evangelical, ZAPU, Mugabe, Religious Freedom, Church Advocacy
-PERSECUTION TIER: Low
+TAGS: Zimbabwe, Southern Africa, Christianity, Political Repression, Clergy, Apostolic Churches
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Zimbabwe is approximately 85% Christian — with a broad denominational landscape including Catholic, mainstream Protestant, evangelical, Pentecostal, and African Independent Churches, the latter including the Zimbabwe Assemblies of God Africa (ZAOGA) which is one of the largest Pentecostal denominations in Africa. Christians practice freely; there is no systematic persecution of Christians by the state. Zimbabwe is not on the Open Doors World Watch List.
+Zimbabwe is around 85 percent Christian, spanning Catholic, Anglican, Methodist, Pentecostal, and a very large sector of African-initiated Apostolic churches. Religious freedom is protected and there is no persecution of Christianity as such.
 
-Christianity arrived through the London Missionary Society in the 19th century — Robert Moffat, whose daughter Mary married David Livingstone, worked in what is now Zimbabwe; Livingstone himself made contact with the Ndebele king Mzilikazi. Catholic missions established a presence in the 1880s under Jesuit leadership. By independence in 1980, Zimbabwe had deep Christian institutional roots through its mission school and hospital networks.
+The pressure is political. Under Robert Mugabe and since his removal in 2017 under Emmerson Mnangagwa, clergy who criticize the government have been threatened, arrested, and forced into exile. Pastor Evan Mawarire, who launched the #ThisFlag movement in 2016, was repeatedly arrested and charged with subversion. Catholic bishops who issued a 2020 pastoral letter describing a multi-layered crisis were denounced by the government and accused of divisiveness. Anglican property was seized during a schism involving a bishop aligned with ZANU-PF, and courts eventually returned it.
 
-Robert Mugabe’s long rule (1980–2017) was one of the most destructive governance periods in African post-colonial history: hyperinflation destroyed the economy; the Gukurahundi massacres of the 1980s killed an estimated 20,000 Ndebele civilians; land seizures from the 2000s collapsed agricultural production. Through all of this, Christians were not targeted as Christians. Mugabe himself was Catholic and generally maintained a complex but not hostile relationship with church institutions. The Catholic Commission for Justice and Peace in Zimbabwe was among the most consistent voices documenting human rights abuses, and several church leaders were threatened or detained for their advocacy — but this reflected the general suppression of civil society rather than specifically anti-Christian action.
-
-The Zimbabwe Christian Alliance and the Zimbabwe Catholic Bishops’ Conference have been active voices for constitutional governance, human rights, and social justice through the Mugabe era and the subsequent Mnangagwa government. Their institutional advocacy represents the kind of prophetic Christian voice that several of the profiles in this database describe — Christianity functioning as a voice for human dignity within an authoritarian political context.
+Apostolic groups that reject modern medicine have been linked to low vaccination rates and child deaths, including during a 2022 measles outbreak, which prompted government efforts at engagement.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~85%
-- **Current Status:** Full religious freedom; no persecution; church advocates actively for human rights and constitutional governance
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Robert Moffat and David Livingstone — foundational Protestant missionaries; Catholic Commission for Justice and Peace documented Mugabe-era abuses; Gukurahundi massacres targeted Ndebele population (not Christians specifically)
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 85 percent
+- **Current Status:** Religious freedom, political pressure on outspoken clergy
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Zimbabwe* (most recent edition) — state.gov
+- Human Rights Watch, *Zimbabwe* — hrw.org/africa/zimbabwe
+- Zimbabwe Catholic Bishops' Conference statements — zcbc.co.zw
 
 -----
 
-*End of Batch 8 — 25 Countries (Sweden through Zimbabwe)*
-*PROJECT COMPLETE — All 195 Country Profiles Delivered Across 8 Batches*
-
-# ================================================================================
-PROJECT SUMMARY
-
-TOTAL COUNTRIES: 195
-TOTAL BATCHES: 8
-APPROXIMATE TOTAL WORD COUNT: ~115,000 words
-
-TIER 1 (HIGH PERSECUTION — Full Profiles 1,700–2,100w):
-Afghanistan, Algeria, Bangladesh, Bhutan, Burkina Faso, CAR, China, Comoros,
-DRC (ADF violence), Egypt, Eritrea, India, Iran, Iraq, Laos, Libya, Mali,
-Maldives, Mauritania, Morocco, Myanmar, Nepal, Niger, Nigeria, North Korea,
-Pakistan, Saudi Arabia, Somalia, South Sudan, Sudan, Syria, Tajikistan,
-Turkmenistan, Vietnam, Yemen
-
-TIER 2 (MODERATE — 600–900w):
-Albania, Angola, Armenia, Azerbaijan, Bahrain, Belarus, Bosnia, Brunei,
-Burundi, Cambodia, Cameroon, Chad, Colombia, Cuba, Djibouti, Ethiopia,
-Gambia, Georgia, Guatemala, Guinea, Haiti, Honduras, Indonesia, Israel/
-Palestinian Territories, Jordan, Kazakhstan, Kenya, Lebanon, Malaysia,
-Mexico, Moldova, Mongolia, Mozambique, Nicaragua, Oman, Philippines,
-Qatar, Russia, Rwanda, Serbia, Sri Lanka, Tanzania, Tunisia, Turkey,
-Uganda, Ukraine, UAE, Uzbekistan
-
-# TIER 3 (LOW — 250–400w):
-All remaining countries (approximately 110 nations)
+*End of Batch 8 Revised 2026 — Sweden through Zimbabwe, 25 Countries*
+*Next: Batch 9*
