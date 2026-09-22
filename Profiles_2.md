@@ -443,7 +443,7 @@ Evangelical churches have grown substantially and have become a political force,
 
 COUNTRY: Côte d'Ivoire (Ivory Coast)
 TITLE: Côte d'Ivoire — Christianity & Persecution Profile
-SLUG: country-profiles/cote-divoire
+SLUG: country-profiles/ivory-coast
 META DESCRIPTION: Côte d'Ivoire is split between a Muslim north and a Christian south. Religious freedom holds nationally, and jihadist groups from Burkina Faso and Mali press on the northern border.
 CATEGORY: Country Profiles
 TAGS: Cote d Ivoire, West Africa, Islam, Christianity, Sahel Spillover, Jihadism, Basilica
@@ -592,7 +592,7 @@ Regional conflict touched the island directly when a drone struck a building on 
 
 COUNTRY: Czechia (Czech Republic)
 TITLE: Czechia — Christianity & Persecution Profile
-SLUG: country-profiles/czechia
+SLUG: country-profiles/czech-republic
 META DESCRIPTION: Czechia is among the least religious countries in Europe after decades of communist suppression. Christians face no persecution, and the church is small and shrinking.
 CATEGORY: Country Profiles
 TAGS: Czechia, Czech Republic, Central Europe, Secularization, Communism, Catholic, Hussite
