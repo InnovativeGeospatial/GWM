@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Namibia
 TITLE: Namibia — Christianity & Persecution Profile
 SLUG: country-profiles/namibia
@@ -42,7 +41,6 @@ Churches run schools and clinics and speak publicly on corruption, land reform, 
 
 -----
 
-# ================================================================================
 COUNTRY: Nepal
 TITLE: Nepal — Christianity & Persecution Profile
 SLUG: country-profiles/nepal
@@ -91,7 +89,6 @@ Hindu nationalist campaigns to restore Nepal as a Hindu state have gained visibi
 
 -----
 
-# ================================================================================
 COUNTRY: Netherlands
 TITLE: Netherlands — Christianity & Persecution Profile
 SLUG: country-profiles/netherlands
@@ -127,7 +124,6 @@ Church buildings are closed and repurposed at a rate of dozens a year, and vanda
 
 -----
 
-# ================================================================================
 COUNTRY: New Zealand
 TITLE: New Zealand — Christianity & Persecution Profile
 SLUG: country-profiles/new-zealand
@@ -161,7 +157,6 @@ A 2024 royal commission report into abuse in state and faith-based care document
 
 -----
 
-# ================================================================================
 COUNTRY: Nicaragua
 TITLE: Nicaragua — Christianity & Persecution Profile
 SLUG: country-profiles/nicaragua
@@ -206,7 +201,6 @@ Evangelical churches initially fared better, and pressure has extended to them, 
 
 -----
 
-# ================================================================================
 COUNTRY: Niger
 TITLE: Niger — Christianity & Persecution Profile
 SLUG: country-profiles/niger
@@ -251,7 +245,6 @@ Churches in Niamey, Maradi, and other cities operate openly. The Christian commu
 
 -----
 
-# ================================================================================
 COUNTRY: Nigeria
 TITLE: Nigeria — Christianity & Persecution Profile
 SLUG: country-profiles/nigeria
@@ -304,7 +297,6 @@ Twelve northern states adopted sharia criminal law from 1999. It formally applie
 
 -----
 
-# ================================================================================
 COUNTRY: North Korea
 TITLE: North Korea — Christianity & Persecution Profile
 SLUG: country-profiles/north-korea
@@ -356,7 +348,6 @@ North Koreans who encounter Christianity in China and are then repatriated face 
 
 -----
 
-# ================================================================================
 COUNTRY: North Macedonia
 TITLE: North Macedonia — Christianity & Persecution Profile
 SLUG: country-profiles/north-macedonia
@@ -390,7 +381,6 @@ Interethnic tension between Macedonians and Albanians has religious overlap, and
 
 -----
 
-# ================================================================================
 COUNTRY: Norway
 TITLE: Norway — Christianity & Persecution Profile
 SLUG: country-profiles/norway
@@ -424,7 +414,6 @@ The Sámi were subjected to a long assimilation policy in which the Church of No
 
 -----
 
-# ================================================================================
 COUNTRY: Oman
 TITLE: Oman — Christianity & Persecution Profile
 SLUG: country-profiles/oman
@@ -468,7 +457,6 @@ Oman has long positioned itself as a mediator, including between the United Stat
 
 -----
 
-# ================================================================================
 COUNTRY: Pakistan
 TITLE: Pakistan — Christianity & Persecution Profile
 SLUG: country-profiles/pakistan
@@ -520,7 +508,6 @@ Christians are heavily represented in sanitation work, with job advertisements h
 
 -----
 
-# ================================================================================
 COUNTRY: Panama
 TITLE: Panama — Christianity & Persecution Profile
 SLUG: country-profiles/panama
@@ -552,7 +539,6 @@ Panama's indigenous comarcas have their own governance, and evangelical growth a
 
 -----
 
-# ================================================================================
 COUNTRY: Papua New Guinea
 TITLE: Papua New Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/papua-new-guinea
@@ -585,7 +571,6 @@ Tribal violence in the Highlands has intensified with the spread of automatic we
 
 -----
 
-# ================================================================================
 COUNTRY: Paraguay
 TITLE: Paraguay — Christianity & Persecution Profile
 SLUG: country-profiles/paraguay
@@ -619,7 +604,6 @@ Some Christian bodies have raised concerns about jihadist financing networks in 
 
 -----
 
-# ================================================================================
 COUNTRY: Peru
 TITLE: Peru — Christianity & Persecution Profile
 SLUG: country-profiles/peru
@@ -653,7 +637,6 @@ Evangelical churches have become politically organized, and Peruvian politics no
 
 -----
 
-# ================================================================================
 COUNTRY: Philippines
 TITLE: Philippines — Christianity & Persecution Profile
 SLUG: country-profiles/philippines
@@ -696,5 +679,3 @@ Red-tagging, the practice of publicly accusing critics of being communist front 
 
 -----
 
-*End of Batch 6 Revised 2026 — Namibia through Philippines, 17 Countries*
-*Next: Batch 7*
