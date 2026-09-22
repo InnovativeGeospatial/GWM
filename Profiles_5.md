@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Latvia
 TITLE: Latvia — Christianity & Persecution Profile
 SLUG: country-profiles/latvia
@@ -40,7 +39,6 @@ Parliament passed a law in 2022 requiring the Latvian Orthodox Church to be full
 
 -----
 
-# ================================================================================
 COUNTRY: Lebanon
 TITLE: Lebanon — Christianity & Persecution Profile
 SLUG: country-profiles/lebanon
@@ -89,7 +87,6 @@ Estimates of Christian emigration since 2019 run into the tens of thousands, wei
 
 -----
 
-# ================================================================================
 COUNTRY: Lesotho
 TITLE: Lesotho — Christianity & Persecution Profile
 SLUG: country-profiles/lesotho
@@ -120,7 +117,6 @@ The country is entirely surrounded by South Africa, has high HIV prevalence, and
 
 -----
 
-# ================================================================================
 COUNTRY: Liberia
 TITLE: Liberia — Christianity & Persecution Profile
 SLUG: country-profiles/liberia
@@ -152,7 +148,6 @@ Proposals to declare Liberia a Christian state have surfaced periodically, inclu
 
 -----
 
-# ================================================================================
 COUNTRY: Libya
 TITLE: Libya — Christianity & Persecution Profile
 SLUG: country-profiles/libya
@@ -201,7 +196,6 @@ Conversion from Islam is not tolerated by family, community, or any armed group.
 
 -----
 
-# ================================================================================
 COUNTRY: Lithuania
 TITLE: Lithuania — Christianity & Persecution Profile
 SLUG: country-profiles/lithuania
@@ -233,7 +227,6 @@ The 1995 law on religious communities recognizes nine traditional religious comm
 
 -----
 
-# ================================================================================
 COUNTRY: Madagascar
 TITLE: Madagascar — Christianity & Persecution Profile
 SLUG: country-profiles/madagascar
@@ -266,7 +259,6 @@ The Malagasy church holds real political weight. The Council of Christian Church
 
 -----
 
-# ================================================================================
 COUNTRY: Malawi
 TITLE: Malawi — Christianity & Persecution Profile
 SLUG: country-profiles/malawi
@@ -300,7 +292,6 @@ Churches and mosques both run schools and clinics. Attacks on people with albini
 
 -----
 
-# ================================================================================
 COUNTRY: Malaysia
 TITLE: Malaysia — Christianity & Persecution Profile
 SLUG: country-profiles/malaysia
@@ -345,7 +336,6 @@ Pastor Raymond Koh was abducted from his car in Petaling Jaya in February 2017 i
 
 -----
 
-# ================================================================================
 COUNTRY: Maldives
 TITLE: Maldives — Christianity & Persecution Profile
 SLUG: country-profiles/maldives
@@ -388,7 +378,6 @@ Anyone discovered to have left Islam faces loss of employment, family rejection,
 
 -----
 
-# ================================================================================
 COUNTRY: Mali
 TITLE: Mali — Christianity & Persecution Profile
 SLUG: country-profiles/mali
@@ -431,7 +420,6 @@ Christians in Bamako and the south still worship openly. Outside those areas the
 
 -----
 
-# ================================================================================
 COUNTRY: Malta
 TITLE: Malta — Christianity & Persecution Profile
 SLUG: country-profiles/malta
@@ -463,7 +451,6 @@ Practice has fallen sharply in a generation. Sunday mass attendance has dropped 
 
 -----
 
-# ================================================================================
 COUNTRY: Mauritania
 TITLE: Mauritania — Christianity & Persecution Profile
 SLUG: country-profiles/mauritania
@@ -506,7 +493,6 @@ A Mauritanian who is discovered to have converted faces family confinement, forc
 
 -----
 
-# ================================================================================
 COUNTRY: Mauritius
 TITLE: Mauritius — Christianity & Persecution Profile
 SLUG: country-profiles/mauritius
@@ -538,7 +524,6 @@ State funding is allocated to recognized religious bodies in proportion to popul
 
 -----
 
-# ================================================================================
 COUNTRY: Mexico
 TITLE: Mexico — Christianity & Persecution Profile
 SLUG: country-profiles/mexico
@@ -583,7 +568,6 @@ The Mexican Revolution produced a fiercely anticlerical constitution in 1917, an
 
 -----
 
-# ================================================================================
 COUNTRY: Moldova
 TITLE: Moldova — Christianity & Persecution Profile
 SLUG: country-profiles/moldova
@@ -617,7 +601,6 @@ Soviet rule closed most churches and monasteries, and restoration since 1991 has
 
 -----
 
-# ================================================================================
 COUNTRY: Mongolia
 TITLE: Mongolia — Christianity & Persecution Profile
 SLUG: country-profiles/mongolia
@@ -652,7 +635,6 @@ Friction is administrative and social. Religious organizations register with loc
 
 -----
 
-# ================================================================================
 COUNTRY: Morocco
 TITLE: Morocco — Christianity & Persecution Profile
 SLUG: country-profiles/morocco
@@ -697,7 +679,6 @@ Morocco presents itself internationally as a model of religious tolerance, has r
 
 -----
 
-# ================================================================================
 COUNTRY: Mozambique
 TITLE: Mozambique — Christianity & Persecution Profile
 SLUG: country-profiles/mozambique
@@ -740,7 +721,6 @@ Outside the north, Mozambique has religious freedom and no persecution. Catholic
 
 -----
 
-# ================================================================================
 COUNTRY: Myanmar (Burma)
 TITLE: Myanmar — Christianity & Persecution Profile
 SLUG: country-profiles/myanmar
@@ -790,5 +770,3 @@ The military's 2017 campaign against Rohingya Muslims in Rakhine State, which dr
 
 -----
 
-*End of Batch 5 Revised 2026 — Latvia through Myanmar, 20 Countries*
-*Next: Batch 6*
