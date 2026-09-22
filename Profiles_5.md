@@ -723,7 +723,7 @@ Outside the north, Mozambique has religious freedom and no persecution. Catholic
 
 COUNTRY: Myanmar (Burma)
 TITLE: Myanmar — Christianity & Persecution Profile
-SLUG: country-profiles/myanmar
+SLUG: country-profiles/myanmar-burma
 META DESCRIPTION: Myanmar's military has bombed churches and displaced entire Christian populations in Chin, Kachin, and Karen states since the 2021 coup.
 CATEGORY: Country Profiles
 TAGS: Myanmar, Burma, Military Junta, Chin, Kachin, Karen, Airstrikes, Displacement, WWL Top 25
