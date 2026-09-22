@@ -1,8 +1,10 @@
-# GWM Country Profiles — Batch 7 (P–S, 20 Countries)
+# GWM Country Profiles — Batch 7 (REVISED 2026)
 
-# Poland through Suriname
+# Poland through Suriname — 19 Countries
 
-# Format: WordPress-ready | Tiers: High (1,700–2,100w) | Moderate (600–900w) | Low (250–400w)
+# Scores from GWM rankings.json, 20 September 2026
+
+# No inline citations. Sources listed at the end of each profile.
 
 -----
 
@@ -10,41 +12,33 @@
 COUNTRY: Poland
 TITLE: Poland — Christianity & Persecution Profile
 SLUG: country-profiles/poland
-META DESCRIPTION: Poland is the most devoutly Catholic country in Europe — a nation where the church was the backbone of resistance to both Nazi occupation and Soviet communism. Christians practice freely, though church-state tensions have intensified in the current political era.
+META DESCRIPTION: Poland is among the most Catholic countries in Europe and its church outlasted communism. Practice is now falling fast among the young.
 CATEGORY: Country Profiles
-TAGS: Poland, Eastern Europe, Catholic, John Paul II, Solidarity, Communist Resistance, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Poland, Central Europe, Catholic, Solidarity, John Paul II, Secularization, Communism
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Poland is approximately 85–90% Roman Catholic — the most consistently Catholic country in Europe by active practice standards — and one of the defining examples in modern history of a church that became the vessel of national survival. The Catholic faith in Poland is not merely a private spiritual matter; it is bound up with Polish national identity in a way that has been forged through centuries of partition, occupation, and attempted annihilation. The church that sheltered the Solidarity movement, that produced Karol Wojtyła as Pope John Paul II, that outlasted the Nazi and Soviet machines of oppression — this is Poland’s Catholic Church, and it remains the most trusted institution in the country.
+Poland is around 71 percent Catholic by the 2021 census, and Catholicism is bound tightly to national identity. Religious freedom is protected and there is no persecution.
 
-Christians practice entirely freely in Poland. There is no persecution, no state restriction, and no threat to Christian institutions from the government. The current period of Polish politics has actually reinforced — some would say dangerously so — the alignment between national Catholic identity and political power. Poland is not on the Open Doors World Watch List.
+The church here survived partition, occupation, and communism by functioning as the guardian of Polish nationhood. Cardinal Stefan Wyszyński was interned in the 1950s and led the church through the hardest years. Karol Wojtyła's election as Pope John Paul II in 1978 and his visit to Poland in 1979 gave the Solidarity movement its moral footing. Father Jerzy Popiełuszko, a Solidarity chaplain, was murdered by state security officers in 1984 and was beatified in 2010.
 
-## The Church as National Anchor
+Decline has come quickly since. Mass attendance has dropped sharply, and surveys of Poles under 25 show one of the fastest falls in religious practice recorded anywhere. Clerical abuse revelations and the church's alignment with a particular political bloc have both contributed.
 
-Poland’s extraordinary identification of Catholicism with national identity is rooted in a centuries-long experience of the church as the one institution that survived when the Polish state did not. Poland was partitioned between Russia, Prussia, and Austria in 1772, 1793, and 1795 — disappearing from the map of Europe entirely for 123 years. During that period, the Catholic Church maintained Polish language, culture, literature, and memory in ways no secular institution could. The priest who baptized and buried and celebrated weddings was the one Polish-speaking authority in communities where the governing language was German or Russian. Catholicism became the container of Polish identity.
-
-This pattern repeated in the 20th century. Nazi occupation (1939–1945) killed approximately 6 million Polish citizens — half of them Jews, half ethnic Poles — and specifically targeted the educated class, including the Catholic clergy. An estimated 1,800 Polish priests died in concentration camps; Maximilian Kolbe, a Franciscan friar who volunteered to die in place of a fellow prisoner at Auschwitz, was canonized in 1982 as a martyr. The Polish church emerged from World War II grievously wounded but institutionally intact — and immediately faced the Soviet-backed communist government that replaced the Nazi occupation.
-
-Communist Poland’s relationship with the Catholic Church was one of the most significant church-state struggles of the Cold War. The regime attempted to break the church’s hold on Polish society through restricted seminary enrollment, nationalization of church property, surveillance of clergy, and show trials of church leaders — most famously Cardinal Stefan Wyszyński, who was imprisoned from 1953 to 1956 and became the symbol of Catholic resistance. The regime failed. The church maintained its institutional presence, its pastoral reach, and the loyalty of an overwhelming majority of the Polish population.
-
-The election of Cardinal Karol Wojtyła as Pope John Paul II in October 1978 was a moment of transformative consequence — for Poland, for the Catholic Church, and for the Cold War. His return visit to Poland in June 1979, in which nine million Poles gathered over nine days to see him, created a public demonstration of the church’s depth of support that visibly challenged communist legitimacy. His visits are credited by historians including Timothy Garton Ash as essential catalysts for the Solidarity movement that shook Poland in 1980–1981 and ultimately contributed to the unraveling of Soviet communism in Eastern Europe.
-
-## Current Church-State Dynamics
-
-Since 2015, Poland has been governed by the Law and Justice (PiS) party, which pursued an explicitly Catholic nationalist political agenda — prioritizing the church’s institutional interests in state broadcasting, education, and public life; aligning legal changes with Catholic moral positions on abortion and LGBT rights; and presenting a vision of Polish identity as inseparable from Catholic faith. This alignment between political power and institutional Catholicism has been welcomed by Polish conservative Catholics and deeply criticized by liberals, secularists, and those who argue that the church’s entanglement with political power damages its moral credibility.
-
-The 2023 electoral defeat of PiS and the return of a centrist coalition under Donald Tusk opened a new chapter. The new government has pursued more liberal social policies and a cooler institutional relationship with the Catholic Church — changes that some Polish Catholics view as threats to the church’s social influence.
-
-None of this constitutes persecution. Polish Christians are entirely free. The debates are about the proper relationship between the church and the state in a democratic society — important debates, but categorically different from the situations that populate the rest of this database.
+Abortion law remains the sharpest public dispute. A 2020 Constitutional Tribunal ruling removed the fetal abnormality ground and triggered mass protests, during which churches were disrupted and defaced. Blasphemy remains a criminal offense under Article 196, and prosecutions of artists and activists have drawn free expression criticism.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~88% (predominantly Catholic)
-- **Current Status:** Full religious freedom; no persecution; significant church-state political alignment debate
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Catholic Church backbone of resistance to Nazi occupation and Soviet communism; Pope John Paul II (Karol Wojtyła) born in Wadowice; Solidarity movement and Cold War significance
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 71 percent by the 2021 census
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Jerzy Popiełuszko murdered by state security in 1984. John Paul II and Solidarity
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Poland* (most recent edition) — state.gov
+- Statistics Poland, *National Census 2021* — stat.gov.pl
+- Pew Research Center, *The Age Gap in Religion Around the World* — pewresearch.org/religion/
 
 -----
 
@@ -52,27 +46,33 @@ None of this constitutes persecution. Polish Christians are entirely free. The d
 COUNTRY: Portugal
 TITLE: Portugal — Christianity & Persecution Profile
 SLUG: country-profiles/portugal
-META DESCRIPTION: Portugal is a historically Catholic nation with full religious freedom. Fatima, the most visited Catholic Marian shrine in Europe, is Portuguese. Christians practice freely in a country that is secularizing but remains culturally Catholic.
+META DESCRIPTION: Portugal is historically Catholic with full religious freedom and falling practice. An abuse inquiry in 2023 identified thousands of victims and reshaped the church's standing.
 CATEGORY: Country Profiles
-TAGS: Portugal, Western Europe, Catholic, Religious Freedom, Fatima, Secularization, Colonial History
-PERSECUTION TIER: Low
+TAGS: Portugal, Southern Europe, Catholic, Fatima, Secularization, Abuse Inquiry, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Portugal is approximately 80% Catholic — though active practice is declining — with full constitutional religious freedom. The country’s Catholic heritage is among the deepest in Europe: Portugal was a primary engine of Catholic missionary expansion in the 15th and 16th centuries, sending Franciscan and Dominican missionaries to Brazil, Africa, India, China, Japan, and Southeast Asia. Vasco da Gama’s sea route to India (1498), Cabral’s arrival in Brazil (1500), and the Portuguese establishment in Goa, Macau, and Mozambique carried Catholic missionaries along with colonial administrators and merchants — a global project whose religious legacy is still felt in the Catholic communities of Brazil, Angola, Mozambique, Cape Verde, and East Timor.
+Portugal is around 80 percent Catholic by identification with weekly practice far lower, and religious freedom is complete. The 2001 Religious Freedom Law put other registered faiths on a more equal legal footing with the Catholic Church, which retains a concordat with the Holy See.
 
-Fátima — a small town in central Portugal — became one of the most significant Catholic pilgrimage sites in the world following the reported 1917 apparitions of the Virgin Mary to three shepherd children: Lucia dos Santos and her cousins Francisco and Jacinta Marto. The Miracle of the Sun, witnessed by an estimated 70,000 people on October 13, 1917, and the “Three Secrets of Fátima” disclosed by Lucia made Fátima an object of worldwide Catholic devotion. Pope Francis canonized Francisco and Jacinta in 2017 on the centenary of the apparitions. The Sanctuary of Fátima receives approximately six million pilgrims annually.
+Fátima, where three shepherd children reported Marian apparitions in 1917, is one of the largest Catholic pilgrimage sites in the world and drew World Youth Day pilgrims to Portugal in 2023 alongside the main event in Lisbon.
 
-Portugal’s Estado Novo dictatorship (1933–1974) under António de Oliveira Salazar was formally Catholic — Catholicism was privileged in the state without being formally established — and church-state relations under Salazar involved mutual support and limitation. The 1974 Carnation Revolution that ended the dictatorship established a democratic state with full religious freedom; all denominations have operated freely since.
+An independent commission reported in February 2023 that at least 4,815 children had been abused within the Portuguese Catholic Church since 1950, a figure the commission described as a minimum. The findings forced a reckoning that has continued through compensation arrangements and diocesan investigations.
 
-Portugal is not on the Open Doors World Watch List.
+Portugal was governed by the Estado Novo until 1974, a regime that granted the church a privileged position, and the Carnation Revolution brought separation and a rapid secularization that has continued. Same-sex marriage passed in 2010, and assisted dying was legalized in 2023 after repeated vetoes and constitutional challenges, with the bishops opposing throughout.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~80% (predominantly Catholic; active practice declining)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Led Catholic missionary expansion globally (15th–16th centuries); Fátima apparitions (1917) — one of Catholicism’s most significant Marian shrines
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 83 percent nominal, far lower by practice
+- **Current Status:** Full religious freedom, no persecution
+- **Recent Event:** The 2023 abuse commission identifying at least 4,815 victims since 1950
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Portugal* (most recent edition) — state.gov
+- Independent Commission for the Study of Child Abuse in the Catholic Church in Portugal, *Report* (2023)
+- Instituto Nacional de Estatística, census religion data — ine.pt
 
 -----
 
@@ -80,33 +80,36 @@ Portugal is not on the Open Doors World Watch List.
 COUNTRY: Qatar
 TITLE: Qatar — Christianity & Persecution Profile
 SLUG: country-profiles/qatar
-META DESCRIPTION: Qatar is a wealthy Gulf emirate where expatriate Christians can worship in designated compounds, but no churches can be built in public view, proselytism is criminal, and any Qatari who converts from Islam faces devastation. The 2022 World Cup briefly spotlighted these tensions.
+META DESCRIPTION: Qatar allows expatriate Christians to worship inside one walled religious complex with no crosses visible outside. Qatari Christians have no legal existence.
 CATEGORY: Country Profiles
-TAGS: Qatar, Gulf States, Islam, Expat Christians, Proselytism Ban, Converts, Religious Restrictions, World Cup
-PERSECUTION TIER: Moderate
+TAGS: Qatar, Gulf States, Wahhabism, Religious Complex, Expat Christians, Converts, WWL Top 50
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Qatar is a small, extraordinarily wealthy emirate on the Arabian Peninsula, governed by the Al Thani royal family under an absolute monarchy in which Islam is the state religion and Islamic law is a primary source of legislation. Of Qatar’s approximately 2.7 million residents, only about 300,000 are Qatari nationals — the remainder are expatriate workers, primarily from South Asia (India, Nepal, Pakistan, Sri Lanka), Southeast Asia (Philippines, Indonesia), and the West. A significant proportion of these expatriate workers are Christian — estimates suggest 10–13% of Qatar’s total population, meaning 270,000–350,000 Christians.
+Qatar is around 66 percent Muslim with a large expatriate majority in the total population, and Christians make up perhaps 13 percent, almost entirely foreign workers from Asia, Africa, and the West. Worship is confined to a single walled compound at Mesaymeer outside Doha, known as the Religious Complex, which houses Catholic, Anglican, Orthodox, and several Protestant congregations serving well over 100,000 people. No crosses, bells, or signs are permitted on the exterior. Open Doors ranked Qatar 44th on the 2026 World Watch List.
 
-Qatar’s approach to expatriate Christian worship is consistent with the broader Gulf model: a small number of designated worship sites — collectively organized on a single “Religion Complex” campus in Doha — serve the expatriate community. The Catholic, Anglican, Coptic, Greek Orthodox, and several Protestant denominations have purpose-built worship facilities in this compound, which is deliberately set back from public roads and not identifiable by external religious signage. Christians can worship, conduct services, and maintain community life within these facilities. They cannot build churches elsewhere, cannot display religious symbols publicly, cannot evangelize Qatari nationals, and cannot distribute Christian materials outside the compound.
+## Conditions
 
-## Converts and Legal Consequences
+The state follows a conservative interpretation of Sunni Islam. Religious groups outside the recognized bodies cannot register and meet privately at risk. Evangelizing Muslims is prohibited, and foreigners found doing it are deported. Importing Bibles is permitted in limited quantities for personal use, and distribution is not.
 
-Qatar has no penal code provision explicitly prescribing death for apostasy — unlike Pakistan’s blasphemy law or Mauritania’s explicit statutory death penalty — but apostasy and conversion from Islam are addressed through Islamic personal status law that governs marriage, divorce, inheritance, and child custody. A Qatari national who converts from Islam faces catastrophic social consequences: family rejection, loss of inheritance, effective civic death. The legal framework surrounding such a conversion creates obstacles that are designed to be insurmountable in practice. The government does not protect converts; social enforcement is sufficient without formal legal prosecution in most cases.
+Qatari citizens who become Christians have no legal standing. Apostasy is a capital offense under the penal code, no execution has been recorded in modern times, and the practical consequences come through family, employment, and personal status law. The number of Qatari believers is negligible and unverifiable.
 
-Proselytism directed at Qatari Muslims is explicitly illegal under Qatar’s Penal Code and subject to imprisonment and deportation. Foreign workers who engage in religious outreach to Qatari nationals are arrested, detained, and expelled.
-
-## The 2022 World Cup
-
-Qatar’s hosting of the 2022 FIFA World Cup brought unprecedented international scrutiny to the country’s human rights framework, including its treatment of migrant workers and its restrictions on non-Muslim religious practice. The Catholic Church negotiated with Qatari authorities for expanded pastoral access to the hundreds of thousands of Christian migrant workers involved in World Cup construction and operation; the result was some additional temporary pastoral accommodations rather than structural change. The World Cup period also saw some relaxation of Qatar’s alcohol restrictions and modest social opening — none of which extended to structural changes in religious freedom for non-Muslims or any expansion of rights for Qatari converts.
+Migrant workers, who make up the bulk of the Christian population, face labor conditions that drew international scrutiny before and during the 2022 World Cup. Reforms to the kafala system were introduced and enforcement has been uneven. Worship access depends on employer permission for time off and transport to the complex, which many low-wage workers do not get.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~10–13% (almost entirely expatriate)
-- **Primary Restrictions:** No public churches; proselytism criminal; converts face devastating social and legal consequences; worship limited to designated compound
-- **Current Status:** Private expatriate worship tolerated in designated facilities; no indigenous Qatari Christian community
-- **Open Doors WWL:** Monitored; not top tier by physical violence measure but significant structural restriction
+- **Persecution Score:** Medium (36/100), **Rank:** #48 of 192 countries
+- **Estimated Christian Population:** about 13 percent, almost entirely expatriate
+- **Primary Threats:** No legal standing for Qatari converts, worship restricted to one compound, ban on evangelism, labor conditions limiting access to worship
+- **Open Doors WWL 2026:** #44
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Qatar* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Qatar* (most recent edition) — state.gov
+- Apostolic Vicariate of Northern Arabia — avona.org
+- Amnesty International, Qatar labor reporting — amnesty.org
 
 -----
 
@@ -114,27 +117,35 @@ Qatar’s hosting of the 2022 FIFA World Cup brought unprecedented international
 COUNTRY: Romania
 TITLE: Romania — Christianity & Persecution Profile
 SLUG: country-profiles/romania
-META DESCRIPTION: Romania is a majority Orthodox Christian nation with full religious freedom. The communist Ceaușescu regime was one of Europe’s most brutal — and its suppression of the church produced martyrs and the famous Timișoara moment that sparked the 1989 revolution.
+META DESCRIPTION: Romania is overwhelmingly Orthodox and among the most religious countries in Europe. Its churches were persecuted under communism and the Greek Catholic Church was abolished outright.
 CATEGORY: Country Profiles
-TAGS: Romania, Eastern Europe, Eastern Orthodox, Catholic, Ceaușescu, Religious Freedom, Communism, Timișoara Revolution
-PERSECUTION TIER: Low
+TAGS: Romania, Eastern Europe, Orthodox, Greek Catholic, Communism, Securitate, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Romania is approximately 85% Eastern Orthodox Christian — one of the highest Orthodox proportions in Europe — with a significant Greek Catholic (Uniate) community in Transylvania, Roman Catholic minority in the west, and small Protestant communities. Christians practice entirely freely in post-communist Romania; the country is an EU member with strong constitutional religious freedom protections.
+Romania is around 85 percent Orthodox Christian with Catholic, Greek Catholic, Reformed, and Pentecostal minorities, and it consistently records some of the highest levels of religious belief and practice in Europe. Religious freedom is protected and there is no persecution.
 
-Romania’s recent Christian history is defined by the communist Ceaușescu era (1965–1989) — one of Eastern Europe’s most repressive regimes — and the remarkable revolution that ended it. Nicolae Ceaușescu’s cult of personality, which approached a quasi-divine veneration of the dictator himself, was in direct tension with the Christian faith of the Romanian population. The Securitate (secret police) monitored churches, recruited informers among clergy, and suppressed any religious activity that challenged the state. The Greek Catholic Church — suppressed since 1948 when it was forcibly merged into the Romanian Orthodox Church — maintained an underground existence for forty years; its faithful met in secret, its bishops were imprisoned, and several died in prison.
+Communist rule bore down hard. The Greek Catholic Church, in communion with Rome and strongest in Transylvania, was abolished by decree in 1948, its property transferred to the Orthodox Church, and its bishops imprisoned, where several died. Seven of them were beatified by Pope Francis in Blaj in 2019. Restitution of that property has been litigated for over thirty years and remains incomplete.
 
-The revolution that ended Ceaușescu’s rule began in Timișoara in December 1989, sparked by the attempted deportation of Pastor László Tőkés — a Hungarian-background Reformed pastor who had been speaking publicly about the regime’s abuses. When security forces came to remove him, his congregation and neighbors formed a human shield around his church. The protests spread; security forces fired on crowds; hundreds died. Within days the revolution had engulfed the entire country, Ceaușescu fled, was captured, tried in a summary military court, and executed on Christmas Day 1989. The beginning of that revolution — a congregation defending its pastor — is a specifically Christian story that Romanians remember.
+Orthodox clergy who resisted were imprisoned, and the Pitești experiment subjected religious prisoners to systematic torture aimed at destroying their faith. The Securitate also penetrated church hierarchies, and the extent of clerical collaboration is still argued over.
 
-Post-communist Romania has seen the Greek Catholic Church restored, Orthodox institutions rebuilt, and full religious freedom established. Some friction exists for minority religious groups — Jehovah’s Witnesses faced bureaucratic obstacles in the early post-communist period; smaller evangelical denominations sometimes encounter registration complexity — but systematic persecution does not exist.
+Pastor László Tőkés, a Reformed minister in Timișoara, resisted a forced eviction in December 1989 and the protest around his church became the spark of the revolution that brought down Ceaușescu.
+
+Current friction concerns the 2006 religion law, which sets a high membership threshold for recognition as a religion and grants recognized bodies state funding and the right to teach in schools. Smaller groups including Jehovah's Witnesses and some evangelical bodies have contested aspects of it.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~90% (predominantly Orthodox)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Ceaușescu suppressed church for 24 years; Greek Catholic Church underground for 40 years; Pastor László Tőkés’s congregation sparked the 1989 revolution that began on Christmas Day
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 92 percent, overwhelmingly Orthodox
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** The Greek Catholic Church abolished in 1948, seven martyred bishops beatified in 2019
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Romania* (most recent edition) — state.gov
+- Romanian National Institute of Statistics, *Census 2021* — insse.ro
+- Institute for the Investigation of Communist Crimes in Romania — iiccmer.ro
 
 -----
 
@@ -142,56 +153,47 @@ Post-communist Romania has seen the Greek Catholic Church restored, Orthodox ins
 COUNTRY: Russia
 TITLE: Russia — Christianity & Persecution Profile
 SLUG: country-profiles/russia
-META DESCRIPTION: Russia is a majority Orthodox nation where the church is intertwined with state power — and where minority Protestant, charismatic, and independent Christian groups face raids, fines, surveillance, and imprisonment under anti-extremism laws. The Russian Orthodox Church’s theological justification of the Ukraine war has created a profound crisis for global Christianity.
+META DESCRIPTION: Russia privileges the Orthodox Church while prosecuting evangelicals, Jehovah's Witnesses, and Protestants under anti-extremism and anti-missionary laws.
 CATEGORY: Country Profiles
-TAGS: Russia, Eastern Europe, Russian Orthodox, Protestant Persecution, Yarovaya Laws, Jehovah’s Witnesses Ban, Ukraine War, Patriarch Kirill, Extremism Laws
-PERSECUTION TIER: Moderate
+TAGS: Russia, Eastern Europe, Orthodox, Yarovaya Law, Jehovah's Witnesses, Protestants, Occupied Ukraine, WWL
+PERSECUTION TIER: High
 
 ## Overview
 
-Russia’s relationship to Christianity is one of the most complex and consequential in the world. The Russian Orthodox Church — with over 100 million nominal members and an institutional presence that is woven into Russian national identity, cultural memory, and political power — is simultaneously one of the largest Christian bodies on earth and one of the most thoroughly compromised by its alliance with state power. Under President Vladimir Putin and Patriarch Kirill of Moscow, the ROC has been integral to the ideological framework of the Russian state — providing theological legitimacy for authoritarianism, cultural nationalism, and, most catastrophically, the 2022 full-scale invasion of Ukraine.
+Russia is majority Orthodox by identification, and the Russian Orthodox Church holds a position close to a state church in practice. Everything outside it operates under suspicion. Jehovah's Witnesses were banned outright as extremist in 2017 and hundreds have been prosecuted. Protestant and evangelical congregations are fined and closed under anti-missionary rules. In occupied Ukrainian territory, Protestant and Greek Catholic churches have been seized and clergy detained, tortured, and killed.
 
-At the same time, minority Christian communities in Russia — Pentecostals, charismatics, Baptists, independent evangelical groups, and others — face a tightening legal framework of registration requirements, anti-extremism laws, surveillance, raids, fines, and imprisonment that has made Russia an increasingly hostile environment for any Christianity that operates outside the Russian Orthodox institutional framework. Russia does not rank in the Open Doors top tier — the ROC majority operates freely — but the trajectory for minority Christians has been consistently toward restriction for two decades.
+## Church and State
 
-## The Russian Orthodox Tradition
+Orthodoxy survived seventy years of Soviet atheism that killed tens of thousands of clergy and closed most churches. The revival after 1991 was real, and the church has since aligned closely with the Kremlin. Patriarch Kirill publicly supported the invasion of Ukraine, framing it in spiritual terms, which fractured world Orthodoxy and led many Ukrainian parishes to break away.
 
-Christianity arrived in Kievan Rus — the predecessor state to both modern Russia and Ukraine — in 988 AD, when Prince Vladimir chose Eastern Christianity after reportedly sending emissaries to investigate Islam, Judaism, Western Christianity, and Eastern Christianity. The famous account of his emissaries returning from Constantinople dazzled by the beauty of the Divine Liturgy in Hagia Sophia — “we knew not whether we were in heaven or earth” — is legendary and possibly embellished, but the choice for Eastern Christianity shaped Russian civilization decisively.
+The 1997 religion law distinguished four traditional religions, Orthodoxy, Islam, Judaism, and Buddhism, from everything else, and set the pattern for later restriction.
 
-The Russian Orthodox Church developed through the centuries as the spiritual and cultural institution of the Russian state, surviving Mongol occupation, the Time of Troubles, Peter the Great’s subordination of the church to the state through the Holy Synod (1721), the Bolshevik revolution’s catastrophic persecution, and the Soviet period. The Soviet repression of the Russian Orthodox Church was among the most severe in Christian history: by some estimates, 40,000–50,000 clergy were killed between 1917 and 1941; churches were demolished or repurposed as warehouses, cinemas, and factories; monasteries were closed; theological education was suppressed; and the church was reduced to a shadow of its pre-revolutionary self.
+## The Yarovaya Laws
 
-Stalin partially rehabilitated the church during World War II, recognizing its utility in rallying Russian national sentiment against Nazi invasion. The post-war church was permitted limited institutional existence but remained under KGB surveillance and control; the Council for Religious Affairs monitored all church activities. The church that survived the Soviet period did so through a combination of genuine faith, institutional compromise, and careful navigation of what the state would and would not permit.
+A 2016 package framed as counterterrorism banned missionary activity outside registered religious buildings, required written authorization to speak for a religious group, prohibited evangelism in homes, and imposed fines on individuals and organizations. Baptists, Pentecostals, and independent congregations have been fined repeatedly for holding services in houses, posting worship times online, or inviting neighbors.
 
-## Post-Soviet Recovery and State Alliance
+## Jehovah's Witnesses
 
-After 1991, the Russian Orthodox Church recovered with extraordinary speed. Church attendance grew; monasteries reopened; churches were rebuilt; theological education was restored. The ROC positioned itself as the spiritual guardian of Russian national identity and culture — a role that the post-Soviet state, seeking new sources of legitimacy after communist ideology had collapsed, eagerly supported.
+The Supreme Court declared the organization extremist in April 2017, banned it nationwide, and confiscated its property, including the national headquarters. Since then hundreds of believers have been criminally charged for participation in an extremist organization, with sentences of up to eight years, and homes have been raided at dawn. Whatever one makes of Witness theology, the campaign is the clearest case of outright religious criminalization in Russia.
 
-Under Putin, the alliance between the ROC and the Russian state has deepened to the point of near-fusion. Patriarch Kirill — who became Patriarch of Moscow in 2009 — has been a consistent theological apologist for Putin’s political project, describing Putin’s rule as a “miracle of God” and framing Russian national identity in ways that align almost perfectly with the Kremlin’s ideological positions. The church supported the annexation of Crimea in 2014. It has provided theological justification for the war in Ukraine — Kirill’s February 2022 sermon in which he described the war as a “metaphysical” struggle against Western decadence (specifically citing the West’s acceptance of gay pride parades as the existential threat Russia was fighting) was widely cited internationally as a low point in the ROC’s moral credibility.
+## Occupied Ukraine
 
-The global Orthodox community’s response has been significant: the Ecumenical Patriarchate of Constantinople, the Greek Orthodox, the Antiochian Orthodox, and other Orthodox bodies have distanced themselves from Kirill’s position. The Ukrainian Orthodox Church declared independence from Moscow in 2019 (the Orthodox Church of Ukraine received Tomos of autocephaly from Constantinople); the section of the Ukrainian Orthodox Church that remained aligned with Moscow severed its ties in the wake of the 2022 invasion. Kirill is under EU and UK sanctions for his role in supporting the war.
-
-## Minority Christians and the Legal Framework
-
-Russia’s restrictive approach to minority Christian communities has been formalized through several pieces of legislation. The 1997 Law on Freedom of Conscience and Religious Associations created a two-tier system: “traditional” religions (Russian Orthodoxy, Islam, Judaism, and Buddhism) received privileges; minority religious groups required registration and faced greater bureaucratic scrutiny.
-
-The 2016 Yarovaya Laws — anti-terrorism legislation named for State Duma deputy Irina Yarovaya — included provisions that criminalized missionary activity conducted by anyone other than an officially registered religious organization, required religious organizations to obtain government permission before conducting any activities outside of designated worship premises, and restricted the sharing of religious content online without registration. The laws effectively made ordinary Christian witness — sharing faith with a neighbor, posting a Bible verse, distributing a Gospel tract — potentially criminal for members of unregistered churches.
-
-Jehovah’s Witnesses were banned as an “extremist organization” by the Russian Supreme Court in April 2017 — a designation that made membership itself a criminal offense and resulted in raids on meetings, confiscation of property, and imprisonment of members. As noted in other profiles, Jehovah’s Witnesses’ situation in Russia functions as the most visible indicator of what the Russian legal framework does to any organized religious group that operates outside state-approved structures. By early 2025, dozens of Witnesses had been sentenced to prison terms under extremism provisions.
-
-Pentecostal, charismatic, and independent evangelical groups that are not registered through the Russian Union of Evangelical Christians-Baptists or other recognized denominational bodies face raids on their prayer meetings, fines for participants, and the legal jeopardy of the Yarovaya Laws. Several pastors of unregistered congregations have been convicted and fined. Foreign missionary workers have been deported. The space for independent Christian organizing outside the Orthodox institutional framework is narrowing.
-
-## The Ukraine War and Its Christian Dimension
-
-Russia’s 2022 full-scale invasion of Ukraine has a specifically Christian dimension that makes it uniquely significant in this database. The Russian Orthodox Church’s theological legitimation of the invasion — framed as a struggle for the soul of Orthodox civilization against Western secular decadence — represents one of the most politically entangled positions any major church has taken in a military conflict since the 20th century. The bombing of Ukrainian churches, the killing of Ukrainian Christians, and the ROC’s continued support for the war has produced a crisis of ecclesiastical integrity that the global Christian community is still processing.
-
-Ukrainian Orthodox and Greek Catholic churches have been bombed, shelled, and in occupied areas seized and transferred to Russian Orthodox jurisdiction. Ukrainian Christian leaders — particularly those of the Orthodox Church of Ukraine and the Ukrainian Greek Catholic Church — have been consistent voices against the invasion, framing resistance as a matter of national survival and human dignity. The contrast between Kirill’s war theology and the testimony of Ukrainian Christians under bombardment is one of the sharpest moral fault lines in contemporary global Christianity.
+In areas of Ukraine under Russian control, religious organizations must re-register under Russian law, which most Protestant, Greek Catholic, and Orthodox Church of Ukraine communities cannot do. Church buildings have been seized and repurposed. Pastors have been abducted, held incommunicado, and tortured, and some have been killed. Ukrainian Greek Catholic priests were detained in Berdiansk and later released in a prisoner exchange. Independent documentation of these seizures is extensive.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~71% (predominantly Russian Orthodox)
-- **Primary Concerns for Minority Christians:** Yarovaya Laws restricting missionary activity and unregistered worship, Jehovah’s Witnesses banned as extremist, raids on Pentecostal and independent evangelical groups, deportation of foreign missionaries
-- **Open Doors WWL:** Not in top tier; monitored for minority denomination restrictions
-- **Critical Issue:** ROC theological justification of Ukraine war — Patriarch Kirill under EU/UK sanctions; bombing of Ukrainian churches and killing of Ukrainian Christians ongoing
-- **Notable:** 1997 Law created two-tier religious system; 2017 Jehovah’s Witnesses extremism ban; 2016 Yarovaya Laws criminalized unregistered missionary activity
+- **Persecution Score:** High (40/100), **Rank:** #43 of 192 countries
+- **Estimated Christian Population:** roughly 60 to 70 percent nominal Orthodox, with far lower practice
+- **Primary Threats:** Yarovaya anti-missionary restrictions, extremism prosecutions of Jehovah's Witnesses, closure of Protestant churches, seizure of churches in occupied Ukraine
+- **Legal Status:** Orthodoxy privileged. Unregistered and non-traditional groups restricted
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Russia* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Forum 18 News Service, *Russia* — forum18.org
+- Institute for Religious Freedom (Ukraine), documentation of occupied territories — irf.in.ua
 
 -----
 
@@ -199,36 +201,43 @@ Ukrainian Orthodox and Greek Catholic churches have been bombed, shelled, and in
 COUNTRY: Rwanda
 TITLE: Rwanda — Christianity & Persecution Profile
 SLUG: country-profiles/rwanda
-META DESCRIPTION: Rwanda is a majority-Christian nation carrying the weight of a genocide in which churches became sites of massacre. The government has in recent years closed thousands of unregistered churches and restricted religious activity. Christians practice with significant state oversight.
+META DESCRIPTION: Rwanda is over 90 percent Christian and its churches carry the memory of complicity in the 1994 genocide. Thousands of churches have been closed under building standards enforcement.
 CATEGORY: Country Profiles
-TAGS: Rwanda, East Africa, Catholic, Evangelical, Genocide, Church Closures, Government Oversight, Kagame
-PERSECUTION TIER: Moderate
+TAGS: Rwanda, East Africa, Genocide, Catholic, Church Closures, Building Regulations, Reconciliation
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Rwanda is approximately 95% Christian — one of the highest in Africa — with a Catholic majority and significant Protestant evangelical community. It also carries the most devastating association between Christianity and mass violence in modern African history: the 1994 genocide, in which approximately 800,000 to 1,000,000 Tutsi and moderate Hutu were killed in 100 days, saw churches become killing grounds. Tutsi who sought sanctuary in churches — trusting that the sanctity of the building would protect them — were massacred inside them, sometimes with the complicity or participation of clergy.
+Rwanda is over 90 percent Christian, predominantly Catholic with large Protestant, Adventist, and Pentecostal populations. Religious freedom is protected in law. Two things distinguish Rwanda. Its churches carry direct complicity in the 1994 genocide. And its government has closed thousands of churches through enforcement of building and administrative standards.
 
-The post-genocide government of Paul Kagame and the Rwandan Patriotic Front has pursued national reconciliation policies that explicitly addressed the church’s role in the genocide, resulting in periods of significant church-state tension. A 2018 government campaign that closed over 8,000 churches — citing structural safety concerns and noise ordinances — was widely interpreted as an effort to assert state control over independent religious activity. Rwanda is not on the Open Doors World Watch List, but it sits in the moderate tier of monitoring concern because of the government’s demonstrated willingness to use regulatory tools to restrict independent religious organization.
+## The Genocide
 
-## The 1994 Genocide and the Church
+Around 800,000 Tutsi and moderate Hutu were killed in about a hundred days in 1994. Churches were the sites of some of the worst massacres, because people fled to them for sanctuary and were killed there in the thousands. Nyamata, Ntarama, and Nyarubuye are preserved as memorials with the remains still present.
 
-The Rwandan genocide occurred within a society that was, by nominal measures, overwhelmingly Catholic. The Catholic Church had deep colonial roots in Rwanda — Belgian Catholic missionaries and colonial administrators had been close allies in the construction of the Tutsi-Hutu racial categorization that made the genocide ideologically possible. During the genocide itself, the response of individual clergy ranged from heroic protection of the hunted to complicity in killing.
+Clergy participated. Priests and pastors were convicted by the International Criminal Tribunal for Rwanda and by Rwandan and foreign courts for organizing or permitting killings. Two Benedictine nuns were convicted in Belgium in 2001. Pope Francis asked forgiveness in 2017 for the sins of church members during the genocide.
 
-The most documented site is the Nyamata and Ntarama churches in the Bugesera region south of Kigali, where thousands sought refuge and were massacred. The buildings are now genocide memorials, their walls still marked with evidence of the killings, the bones of the dead preserved inside as witnesses. The experience of being killed in a church by people who identified as Christian — often by neighbors one had worshiped alongside for years — is a theological trauma that the Rwandan church and its international partners have spent decades processing.
+Churches also sheltered people at great cost, and Rwandan Christianity today is heavily engaged in reconciliation work, including programs pairing survivors with perpetrators.
 
-## Current Church-State Relations
+## Church Closures
 
-Since 1994, Kagame’s government has maintained a complex relationship with the church. The 2018 church closures — executed over the course of weeks, with thousands of small evangelical and Pentecostal congregations sealed — affected churches that had operated in homes, storefronts, and small buildings without formal construction approval. The government’s stated rationale was safety and neighborhood disruption (noise from amplified worship). Critics argued the real motivation was to consolidate state oversight of civil society, including religious institutions that could function as independent organizing points.
+From 2018 the government closed thousands of churches and mosques for failing to meet building, hygiene, noise, and safety standards, and for having pastors without theological qualifications. More than 7,000 were shut in the initial wave and further closures followed in subsequent years, running into the thousands again in 2024. The government frames this as public safety and consumer protection against exploitative preachers. Church leaders and religious freedom monitors note that the requirements are difficult for poor rural congregations to meet and that enforcement gives the state broad discretion over which churches operate.
 
-The churches that met safety and registration standards were permitted to reopen; many smaller and poorer congregations could not meet the requirements and remained closed. The exercise demonstrated that Rwanda’s government views independent religious institutions with the same oversight lens it applies to all civil society: organizations that operate outside government visibility are presumed problematic.
+A 2018 law also requires pastors to hold a theology degree, which most independent Pentecostal leaders do not have.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~95%
-- **Primary Concerns:** Government church closures (2018, 8,000+ affected), state oversight of religious activity, historical complicity of church institutions in 1994 genocide
-- **Current Status:** Mainstream churches operate; state controls independent evangelical activity through registration requirements
-- **Open Doors WWL:** Monitored; not ranked in top tier
-- **Historical Trauma:** 1994 genocide — churches were killing sites; 800,000–1,000,000 killed
+- **Persecution Score:** Lower (19/100), **Rank:** #71 of 192 countries
+- **Estimated Christian Population:** over 90 percent
+- **Primary Constraint:** Mass church closures under building and qualification requirements since 2018
+- **Historical Weight:** Church complicity in the 1994 genocide, and church-based reconciliation work since
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Rwanda* (most recent edition) — state.gov
+- International Criminal Tribunal for Rwanda, judgments — unirmct.org
+- Human Rights Watch, *Rwanda* — hrw.org/africa/rwanda
+- Rwanda Governance Board, faith-based organization regulation — rgb.rw
+- Longman, Timothy, *Christianity and Genocide in Rwanda* (Cambridge University Press, 2010)
 
 -----
 
@@ -236,67 +245,44 @@ The churches that met safety and registration standards were permitted to reopen
 COUNTRY: Saudi Arabia
 TITLE: Saudi Arabia — Christianity & Persecution Profile
 SLUG: country-profiles/saudi-arabia
-META DESCRIPTION: Saudi Arabia is the birthplace of Islam and the most comprehensively anti-Christian state in the world outside North Korea. No church has ever legally stood on Saudi soil. No public Christian worship is permitted. Apostasy carries the death penalty. The millions of Christian workers in the Kingdom pray in secret, in apartments, with the blinds drawn.
+META DESCRIPTION: Saudi Arabia permits no church buildings and no public Christian worship. Over a million expatriate Christians meet privately at risk, and Saudi converts face death threats from family.
 CATEGORY: Country Profiles
-TAGS: Saudi Arabia, Middle East, Islam, No Churches, Apostasy Death Penalty, Expat Christians, Muttawa, WWL Top 15, Mecca, Medina
-PERSECUTION TIER: High
-WWL RANKING: #17 (Open Doors 2024)
+TAGS: Saudi Arabia, Gulf States, Wahhabism, No Churches, Expat Christians, Apostasy, Mutawa, WWL Top 25
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Saudi Arabia is the heartland of Islam — the nation that contains Mecca and Medina, the two holiest cities in Islamic faith, the land where the Prophet Muhammad was born, received the Quran, and established the first Muslim community. It is also the country with perhaps the longest and most comprehensive history of excluding Christianity from its soil of any nation on earth that is not an active conflict zone. No Christian church has ever been legally built anywhere in Saudi Arabia. No public Christian worship has ever been legally conducted. No Quran of any tradition exists as a permitted public document. No cross or other Christian symbol may be displayed. The death penalty for apostasy from Islam is a codified legal reality. An estimated 1.5–2 million Christian workers — mostly Filipino, Indian, South Korean, and Western — live and work across the Kingdom in conditions that require their faith to be entirely invisible.
+Saudi Arabia has no church buildings, no public Christian worship, and no legal recognition of any religion other than Islam. Over a million Christians live in the kingdom, almost all foreign workers from the Philippines, India, Egypt, Lebanon, Africa, and the West. They may hold private worship in homes in principle, and raids have occurred in practice. Saudi citizens who convert face the death penalty in law and lethal danger from family in fact. Open Doors ranked Saudi Arabia 13th on the 2026 World Watch List.
 
-Saudi Arabia ranked #17 on the 2024 Open Doors World Watch List. Its ranking reflects not the dramatic active violence of Nigeria or Myanmar — Saudi Arabia does not bomb churches or behead pastors in the field — but the total, comprehensive, and structurally maintained elimination of any space for Christian existence within its borders.
+## The Legal and Religious Order
 
-## Islam’s Sacred Geography and the Logic of Exclusion
+The kingdom has no written constitution beyond the Quran and the Sunnah. Islam is the only religion that may be practiced publicly. Mecca and Medina are closed to non-Muslims. Apostasy and blasphemy are capital offenses, and while apostasy executions have not been documented in recent years, blasphemy and sorcery convictions have carried severe sentences.
 
-The Arabian Peninsula is the geographical origin of Islam. Mecca, in the Hejaz region of western Saudi Arabia, was the birthplace of the Prophet Muhammad (approximately 570 AD) and the site of his first revelations. The Kaaba — the cubic structure at the center of the Grand Mosque in Mecca, which Muslims believe was built by Abraham and Ishmael and which is the direction toward which all Muslims pray — is the most sacred site in Islam. Medina, 400 kilometers to the north, contains the Prophet’s Mosque, which marks his burial place.
+The religious police, the mutawa, once raided private gatherings and arrested worshippers, including a well-documented raid on a Filipino Christmas gathering in 2013 in which dozens were detained. Their powers were curtailed in 2016 as part of the broader social changes under Mohammed bin Salman, and pressure on private expatriate worship has eased somewhat without any change in law.
 
-The hadith — the traditions recording the Prophet’s sayings and practices — includes a tradition (from Sahih al-Bukhari) stating that the Arabian Peninsula should not contain two religions simultaneously, and that Jews and Christians should be expelled from the region. While scholars debate the precise application of this hadith in various historical contexts, the modern Saudi state treats it as the theological foundation for the total exclusion of non-Muslim public worship from the Arabian Peninsula. The logic is specific: Mecca and Medina are so sacred that the entire peninsula bearing them cannot accommodate any competing religious presence.
+## Reform and Its Limits
 
-This framework was formalized by the founding of the modern Saudi state. Abdulaziz ibn Saud, who consolidated the Arabian Peninsula into the Kingdom of Saudi Arabia in 1932, made an alliance with the Wahhabi religious establishment — the austere, scripturalist Sunni tradition associated with 18th-century scholar Muhammad ibn Abd al-Wahhab — that has defined the Saudi state’s relationship to religion ever since. Wahhabism’s theological emphasis on strict monotheism (tawhid) and rejection of any innovation or competing religious practice as polytheism (shirk) makes it among the most aggressively exclusive of Islamic traditions. Under Saudi Wahhabi governance, Christianity is not merely a tolerated minority religion — it is theologically inadmissible.
+Vision 2030 has opened cinemas, concerts, and tourism, reduced the power of the clerical establishment, and eased restrictions on women. None of it has changed the position of Christianity. There is still no church, no public worship, no legal path to convert, and no religious education other than Islamic. Bibles may be brought in for personal use in small numbers, with confiscation at customs common. Importing them for distribution is prohibited.
 
-## The Christian Expatriate Population
+Saudi believers number an unverifiable few thousand at most and are entirely hidden. Discovery brings family imprisonment at home, forced divorce, loss of employment and custody, and in some documented cases killing by relatives, treated as a family matter.
 
-The paradox of Saudi Arabia’s Christianity situation is that the Kingdom contains one of the largest concentrations of Christian workers in the Middle East. The oil economy that transformed Saudi Arabia from a poor desert kingdom into the world’s largest petroleum exporter from the 1970s onward required enormous numbers of foreign workers. Filipino nurses and domestic workers, Indian engineers and laborers, South Korean construction workers, Pakistani professionals, Western oil industry executives and technical staff — millions of workers whose labor built and maintained the Saudi infrastructure. A substantial proportion of these workers are Christian.
-
-These workers are permitted to work, live, and — within strictly defined limits — practice their personal faith. They may pray in private in their residences or residential compound chapels. They may possess personal Bibles and religious texts within their homes. They may discuss their faith with other Christians in private settings. What they absolutely may not do: hold any public religious gathering, display any religious symbol in a publicly visible location, bring religious materials into the country in quantities suggestive of distribution, share their faith with any Saudi national, proselytize in any context, or attempt to convert any Saudi from Islam.
-
-Residential compounds for Western workers have historically been the most permissive spaces — private chapels within compound walls, Christmas observances behind compound perimeters, a degree of social life that acknowledges Christian identity. For South Asian and Filipino workers, who live in less privileged accommodations and work in more exposed domestic service contexts, the environment is less protected. Domestic workers who practice Christianity in their employer’s home face the additional vulnerability of their employer’s religious sensibility; some have been terminated, reported to authorities, or physically abused for being discovered with Bibles.
-
-## The Religious Police and Social Enforcement
-
-The Committee for the Promotion of Virtue and Prevention of Vice — the Mutawwa’een, commonly called the religious police — was for decades the primary enforcement arm of Saudi Wahhabism in public life. The Mutawwa’een patrolled streets, markets, and public spaces, enforcing gender segregation, prayer times, modest dress, and the prohibition on public non-Islamic religious activity. They had authority to arrest and detain individuals who violated the moral code. For expatriate Christians, their presence meant that any public marker of Christian identity — a cross visible at a neckline, a Bible visible in a car, a group of Christians meeting outdoors — was a potential encounter with detention and deportation.
-
-Crown Prince Mohammed bin Salman’s Vision 2030 social reform project, launched in 2016, significantly curtailed the Mutawwa’een’s powers — removing their authority to arrest, restricting their public enforcement role, and opening Saudi social life in ways that include women driving, mixed-gender concerts, movie theaters, and reduced enforcement of prayer-time commercial closures. These reforms have materially changed aspects of Saudi social life for expatriates. They have not changed the fundamental framework for religious freedom: no churches have been built, no public Christian worship has been permitted, apostasy remains a capital offense, and no Saudi national has been permitted to leave Islam.
-
-## Converts and the Death Penalty for Apostasy
-
-Saudi Arabia’s Penal Code does not enumerate a specific statutory sentence for apostasy — unlike Mauritania’s 2017 law — but apostasy is treated under the general application of Islamic jurisprudence (fiqh) by Saudi courts, which classify it as a hadd offense (one of a category of serious offenses with prescribed punishments in classical Islamic law). The prescribed punishment under the Hanbali school of Islamic jurisprudence — which Saudi Arabia follows — is death for an adult male Muslim who renounces Islam and fails to repent within a period of days. Documented executions specifically labeled as apostasy are rare in the modern period — the Saudi government typically pursues charges on other grounds (blasphemy, terrorism-related offenses, “insulting Islam”) that carry similar consequences while providing more publicly defensible legal basis.
-
-The effective reality is that a Saudi national who converts from Islam to Christianity and is discovered faces: arrest, imprisonment, interrogation under conditions that are not regulated by any effective accountability mechanism, intense pressure to renounce their faith, the inability to marry, inherit, or conduct normal civic life as a Muslim-classified person who has left Islam, and the real possibility of execution. There are documented cases of Saudi converts who have fled the country — to Europe, to the United States, to Southeast Asia — to practice their faith in safety. Their families, who remain in Saudi Arabia, are frequently cut off from them and occasionally face pressure from the state.
-
-## Saudi Religious Export: Wahhabism and Its Global Impact
-
-Any honest assessment of Saudi Arabia’s impact on global Christianity must address the Kingdom’s role in exporting Wahhabi ideology internationally. Saudi petrodollars — flowing through charities, mosque construction funds, madrassa endowments, and publishing houses — have funded the spread of Wahhabi and Salafi-influenced Islam across Africa, South Asia, Southeast Asia, Central Asia, and Muslim diaspora communities in the West. This ideological export has contributed to the Islamization of previously more syncretic and tolerant Muslim communities in countries including Senegal, Mali, Niger, Guinea, Nigeria, Bangladesh, Indonesia, and Malaysia, creating conditions more hostile to Christianity in those countries.
-
-The connection between Saudi theological export and increased anti-Christian hostility in the Sahel, in West Africa, and in South and Southeast Asia is documented by researchers including Nina Shea of the Hudson Institute and is a dimension of Saudi Arabia’s impact on global religious freedom that is not captured by its domestic WWL ranking alone. Saudi Arabia is not only one of the most restrictive countries for Christians within its own borders; it has been one of the primary funders of the ideological infrastructure that makes other countries more dangerous for Christians as well.
-
-## The Church That Cannot Exist
-
-There is no indigenous Saudi Christian church. There are no Saudi Christian communities in diaspora maintaining connection with a homeland church. There are no Saudi Christian families passing faith across generations within the Kingdom. Saudi Arabia is, in this respect, unlike Afghanistan or Iran, where underground churches exist and are documented. In Saudi Arabia, the conditions for the existence of an underground Christian community — a critical mass of converted nationals, sufficient safety to form relationships of trust, access to scripture, pastoral support — have never converged sufficiently to sustain an organized community. Individual Saudi converts exist; they exist in isolation, abroad, or in secret too complete to be documented. The church in Saudi Arabia is, as far as any outside observer can determine, a community of one.
-
-The millions of Christian workers who have served in the Kingdom and then returned home — Filipino nurses who prayed in apartments in Riyadh, Korean engineers who memorized scripture while working in Dhahran, Western professionals who marked Christmas in compound chapels in Jeddah — have been the church in Saudi Arabia for decades. They leave when their contracts end, taking their faith with them, and new workers arrive to hold the same invisible vigil.
+Migrant workers have limited recourse in labor disputes, and Christian workers report pressure to attend Islamic instruction and dismissal after being found with religious items.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #17
-- **Indigenous Christian Population:** Effectively zero; no documented indigenous Saudi Christian community
-- **Expatriate Christians:** ~1.5–2 million (Filipino, Indian, South Korean, Western); private worship only in residential settings
-- **Legal Status:** No churches built; no public worship; apostasy death penalty under Islamic jurisprudence; proselytism criminal
-- **MBS Reforms:** Curtailed religious police powers; opened social life in limited ways; zero structural change to religious freedom for non-Muslims
-- **Global Impact:** Saudi Wahhabi ideology export has contributed to anti-Christian hostility in Sahel, West Africa, South Asia, Southeast Asia
-- **Notable:** Mecca and Medina — two holiest sites in Islam — on Saudi soil; theological foundation for Christian exclusion rooted in hadith and Wahhabi doctrine
+- **Persecution Score:** Very High (68/100), **Rank:** #10 of 192 countries
+- **Estimated Christian Population:** over 1 million, almost entirely expatriate
+- **Primary Threats:** No legal worship or church buildings, capital apostasy law, family violence against converts, confiscation of religious material
+- **Open Doors WWL 2026:** #13
+- **Legal Status:** Islam is the only religion permitted in public. No other faith recognized
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Saudi Arabia* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Saudi Arabia* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Middle East Concern, *Saudi Arabia* — meconcern.org
+- Human Rights Watch, *Saudi Arabia* — hrw.org/middle-east/n-africa/saudi-arabia
 
 -----
 
@@ -304,25 +290,34 @@ The millions of Christian workers who have served in the Kingdom and then return
 COUNTRY: Senegal
 TITLE: Senegal — Christianity & Persecution Profile
 SLUG: country-profiles/senegal
-META DESCRIPTION: Senegal is one of West Africa’s most stable democracies and a model of Muslim-Christian coexistence. Christians practice freely in a 95% Muslim nation, though converts from Islam face significant social pressure.
+META DESCRIPTION: Senegal is over 95 percent Muslim with a Christian minority that worships freely. It is among the strongest examples of interfaith coexistence in Africa.
 CATEGORY: Country Profiles
-TAGS: Senegal, West Africa, Islam, Sufi, Christian Minority, Interreligious Relations, Religious Freedom, Converts
-PERSECUTION TIER: Low
+TAGS: Senegal, West Africa, Islam, Sufi Brotherhoods, Christian Minority, Interfaith, Casamance
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Senegal is approximately 95% Muslim — dominated by the Tidjaniyya and Mouridiyya Sufi brotherhoods that have shaped West African Islam’s historically tolerant character — and approximately 4% Christian, with the remainder practicing traditional African religions. Christians in Senegal are primarily Catholic, concentrated in the Casamance region in the south and in Dakar, with smaller evangelical communities. For most of Senegal’s modern history, Muslim-Christian relations have been characterized by genuine coexistence: families that include both Muslims and Christians, interreligious festivals observed with mutual respect, and a national tradition — embodied by figures like former President Léopold Sédar Senghor, a Catholic poet who led a 95% Muslim nation — of treating religious plurality as a source of national strength rather than tension.
+Senegal is over 95 percent Muslim, shaped by Sufi brotherhoods including the Tijaniyya and Mouride orders, with a Christian minority near 4 percent, mostly Catholic and concentrated in Dakar and the Casamance. It is among the best examples of Muslim and Christian coexistence anywhere. Religious freedom is protected and there is no persecution.
 
-Christians in Senegal face no state persecution and no organized Islamist violence. The primary concern is social: Senegalese Muslims who convert to Christianity face family rejection, community pressure, and in some cases physical danger from family members who regard apostasy as a profound breach of social obligation. Pastors who disciple converts from Muslim backgrounds receive threats. These dynamics are real but are common across West Africa and do not constitute systematic persecution.
+Senegalese practice of mutual respect goes beyond tolerance. Muslim families attend Christian weddings and funerals and send children to Catholic schools, which are respected and oversubscribed. Christian and Muslim relatives are common within extended families. Léopold Sédar Senghor, the country's first president and a Catholic, governed a Muslim-majority nation for twenty years.
 
-Recent political developments — including growing influence of more conservative Salafi-influenced currents within Senegalese Islam, and political instability around the 2024 elections — warrant monitoring, but Senegal remains a positive example of interreligious coexistence and is not on the Open Doors World Watch List.
+Sufi brotherhoods hold enormous social authority and have consistently opposed Islamist extremism. Senegal has avoided the jihadist violence that has overtaken Mali and Burkina Faso, despite sharing a border region with Mali, and government and religious leaders treat that as something to be actively maintained.
+
+The Casamance separatist conflict in the south, running since 1982 at low intensity, involves a region with a larger Christian and animist population, and the conflict is about regional autonomy rather than religion. Landmines and periodic armed clashes affect church work there.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~4%
-- **Current Status:** Full religious freedom; exemplary Muslim-Christian coexistence; social pressure on converts is the primary concern
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Léopold Sédar Senghor — Catholic intellectual and poet — served as the first President of Senegal (1960–1980) in a 95% Muslim nation; a lasting symbol of the country’s interreligious tolerance
+- **Persecution Score:** Lower (12/100), **Rank:** #83 of 192 countries
+- **Estimated Christian Population:** about 4 percent
+- **Current Status:** Full religious freedom, exceptional interfaith relations
+- **Live Context:** Low-intensity Casamance conflict, jihadist pressure on the Mali border
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Senegal* (most recent edition) — state.gov
+- U.S. Department of State, *Senegal Travel Advisory* — travel.state.gov
+- International Crisis Group, *Senegal* — crisisgroup.org
+- CIA World Factbook: Senegal — cia.gov/the-world-factbook/countries/senegal/
 
 -----
 
@@ -330,23 +325,34 @@ Recent political developments — including growing influence of more conservati
 COUNTRY: Serbia
 TITLE: Serbia — Christianity & Persecution Profile
 SLUG: country-profiles/serbia
-META DESCRIPTION: Serbia is a majority Serbian Orthodox nation with full religious freedom. Christians practice freely, though the Orthodox Church’s dominant cultural position creates some social friction for minority denominations.
+META DESCRIPTION: Serbia is overwhelmingly Orthodox with religious freedom in law. Its church remains entangled in disputes over Kosovo and the Yugoslav wars.
 CATEGORY: Country Profiles
-TAGS: Serbia, Balkans, Serbian Orthodox, Religious Freedom, Minority Denominations, Post-Yugoslav
-PERSECUTION TIER: Low
+TAGS: Serbia, Balkans, Serbian Orthodox, Kosovo, Yugoslav Wars, Religious Freedom, Minority Churches
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Serbia is approximately 85% Serbian Orthodox Christian — an identity so closely bound to Serbian ethnic and national consciousness that to be Serb is, culturally, to be Orthodox, regardless of personal practice level. Full constitutional religious freedom exists; all denominations operate without systematic persecution. The Serbian Orthodox Church’s dominant cultural position does create friction for minority denominations — particularly evangelical and charismatic groups, and religious minorities including Jehovah’s Witnesses — who sometimes encounter social hostility and bureaucratic obstacles, but these do not constitute organized persecution.
+Serbia is around 85 percent Serbian Orthodox, and the church is closely identified with national identity. Religious freedom is protected and there is no persecution of Christians.
 
-Serbia’s recent history is shaped by the violent dissolution of Yugoslavia (1991–1999), in which Serbian Orthodox identity was mobilized — often with the explicit involvement of church leaders — as a marker of nationalist politics and ethnic conflict. The Bosnian and Croatian wars saw Serbian forces commit documented atrocities in which religious identity (Orthodox vs. Catholic vs. Muslim) served as a primary social boundary. The Kosovo conflict (1998–1999) had similar dimensions, with Serbian Orthodox monasteries and churches in Kosovo now under international protection following the conflict. Serbia does not persecute Christians — it is a majority Christian country — but its Orthodox Church’s entanglement with nationalist politics and historic atrocities complicates its moral standing in regional religious freedom conversations.
+The 2006 religion law recognizes seven traditional communities with privileged status, including Orthodox, Catholic, Slovak Lutheran, Reformed, Evangelical, Islamic, and Jewish. Smaller Protestant and evangelical groups have reported difficulty registering, obtaining building permits, and securing restitution of property nationalized under communism.
+
+The Serbian Orthodox Church was deeply involved in the politics of the Yugoslav wars, and some clergy blessed forces later convicted of atrocities while others opposed the wars. Serbian Orthodox monasteries and churches in Kosovo, including Visoki Dečani and the Patriarchate of Peć, are UNESCO World Heritage sites and have been attacked, most severely in the March 2004 riots when dozens of Orthodox sites were damaged or destroyed. They remain under protection, and Dečani has fought a long legal battle over its land despite a Kosovo Constitutional Court ruling in its favor.
+
+The Serbian Church granted autocephaly to the Macedonian Church in 2022, resolving a fifty-year dispute, and continues to contest the status of the Montenegrin Orthodox Church.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~88% (predominantly Serbian Orthodox)
-- **Current Status:** Full religious freedom; no systematic persecution; social friction for minority denominations
-- **Open Doors WWL:** Not ranked
-- **Historical Context:** Serbian Orthodox identity mobilized in 1990s Yugoslav wars; Kosovo Orthodox heritage sites under international protection
+- **Persecution Score:** Lower (9/100), **Rank:** #96 of 192 countries
+- **Estimated Christian Population:** about 90 percent, predominantly Serbian Orthodox
+- **Current Status:** Full religious freedom, with registration friction for smaller Protestant groups
+- **Live Issue:** Protection of Orthodox heritage sites in Kosovo
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Serbia* (most recent edition) — state.gov
+- Statistical Office of the Republic of Serbia, *Census 2022* — stat.gov.rs
+- UNESCO, *Medieval Monuments in Kosovo* — whc.unesco.org
+- Forum 18 News Service, *Serbia* — forum18.org
 
 -----
 
@@ -354,25 +360,33 @@ Serbia’s recent history is shaped by the violent dissolution of Yugoslavia (19
 COUNTRY: Sierra Leone
 TITLE: Sierra Leone — Christianity & Persecution Profile
 SLUG: country-profiles/sierra-leone
-META DESCRIPTION: Sierra Leone is a religiously diverse West African nation with a positive tradition of Muslim-Christian coexistence. Christians practice freely with no systematic persecution.
+META DESCRIPTION: Sierra Leone is majority Muslim with a large Christian minority and unusually strong interfaith relations. Churches helped broker peace after the civil war.
 CATEGORY: Country Profiles
-TAGS: Sierra Leone, West Africa, Christian Minority, Islam, Religious Harmony, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Sierra Leone, West Africa, Islam, Christianity, Interfaith, Civil War, Reconciliation
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Sierra Leone is approximately 78% Muslim and 20% Christian, with the remainder practicing traditional religions — yet it is consistently cited as a model of interreligious harmony in West Africa. Muslims and Christians have historically intermarried, attended each other’s religious ceremonies, and shared community life in ways that distinguish Sierra Leone from more tension-prone religious landscapes. The 11-year civil war (1991–2002) — which killed approximately 50,000 people and was among the most brutal conflicts in African history — was driven by political grievance, resource extraction, and the use of child soldiers by the RUF (Revolutionary United Front), not by religious ideology. Christians and Muslims suffered equally and sometimes fought alongside each other in civil defense forces.
+Sierra Leone is around 77 percent Muslim and 22 percent Christian, and it is among the most religiously harmonious countries in the world. Interfaith marriage is common, families contain both faiths, and public ceremonies typically feature both an imam and a pastor. Religious freedom is protected and there is no persecution.
 
-Christianity arrived through British colonial missions — the Anglican Church Missionary Society, the Wesleyan Methodist Mission, and the American United Brethren Mission all established significant work, particularly in Freetown and the Western Area. Freetown, founded in 1792 as a settlement for freed slaves (first Black Loyalists from Nova Scotia, then liberated captives of the slave trade), developed a distinctive Christian identity among its founding Creole population, known as Krio. The Krio Christian heritage — Baptist, Methodist, Anglican — has been a distinctive cultural presence in Sierra Leonean urban life for over two centuries.
+Freetown was founded as a settlement for freed slaves, including Black Loyalists from Nova Scotia and liberated Africans, who brought Protestant Christianity with them. Fourah Bay College, founded in 1827, was the first Western-style university in sub-Saharan Africa and trained clergy and teachers for the whole region. Samuel Ajayi Crowther, the first African Anglican bishop, studied there.
 
-Sierra Leone is not on the Open Doors World Watch List. The small evangelical and Pentecostal community that has grown alongside the historic denominations practices freely alongside a Muslim majority that has consistently demonstrated genuine tolerance.
+The civil war from 1991 to 2002 killed around 50,000 people and was notorious for amputations and the use of child soldiers. It had no religious dimension. The Inter-Religious Council of Sierra Leone, formed by Christian and Muslim leaders together, mediated between the government and the RUF and was central to the peace process and to the later Truth and Reconciliation Commission.
+
+Ebola in 2014 and 2015 killed nearly 4,000 people, and religious leaders of both faiths changed burial practices publicly to slow transmission.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~20%
-- **Current Status:** Full religious freedom; exemplary interreligious coexistence
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Freetown founded (1792) as freed slave settlement; Krio Christian heritage distinctive; civil war (1991–2002) was not religiously motivated
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** about 22 percent
+- **Current Status:** Full religious freedom, exceptional interfaith relations
+- **Historical Note:** The Inter-Religious Council's role in ending the civil war
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Sierra Leone* (most recent edition) — state.gov
+- Sierra Leone Truth and Reconciliation Commission, *Final Report* (2004)
+- CIA World Factbook: Sierra Leone — cia.gov/the-world-factbook/countries/sierra-leone/
 
 -----
 
@@ -380,27 +394,34 @@ Sierra Leone is not on the Open Doors World Watch List. The small evangelical an
 COUNTRY: Singapore
 TITLE: Singapore — Christianity & Persecution Profile
 SLUG: country-profiles/singapore
-META DESCRIPTION: Singapore is a prosperous multi-religious city-state where Christians practice freely but within tightly managed boundaries. Religious harmony laws restrict religious speech, and several pastors have faced legal action for sermons deemed divisive.
+META DESCRIPTION: Singapore has a large and growing Christian minority and tightly managed religious harmony laws that restrict public evangelism and religious speech.
 CATEGORY: Country Profiles
-TAGS: Singapore, Southeast Asia, Christian Minority, Religious Harmony Act, Mainline Protestant, Catholic, Evangelical, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Singapore, Southeast Asia, Religious Harmony Act, Evangelism Restrictions, Christianity, Jehovah's Witnesses
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Singapore is a multi-religious city-state of approximately 5.7 million people where Christianity represents about 18–19% of the population — predominantly Chinese Singaporeans belonging to Anglican, Methodist, Catholic, Presbyterian, and a growing charismatic and evangelical community. Buddhism is the largest religion at approximately 31%, followed by Islam (15%) and Taoism (8%). Christians practice freely; Singapore is not on the Open Doors World Watch List. The country is genuinely pluralistic, and interreligious relations are relatively harmonious.
+Singapore is around 19 percent Christian and growing, in a population that is also Buddhist, Muslim, Taoist, Hindu, and increasingly non-religious. Churches are large, wealthy, and active, and Singapore functions as a hub for Christian publishing, theological education, and mission agencies across Asia. Religious freedom is protected, and it operates inside a tightly managed framework.
 
-The framework within which all religions operate is Singapore’s Maintenance of Religious Harmony Act (MRHA), which gives the government authority to issue Restraining Orders against religious leaders or organizations whose activities are deemed to cause religious tensions. The MRHA has been invoked against Christians: in 2019, a Restraining Order was issued against City Harvest Church founder Kong Hee (who was also serving a prison sentence for fraud). The law has also been applied to a Buddhist teacher making anti-Christian statements. The framework is explicitly designed to be religiously neutral — applied to all traditions — but it does represent a degree of state oversight of religious speech that is more restrictive than in liberal democracies like the United States or United Kingdom.
+The Maintenance of Religious Harmony Act, passed in 1990 and strengthened in 2019, allows the government to issue restraining orders against religious leaders who cause ill will between groups or mix religion with politics. Orders have been threatened more often than imposed, and the effect is self-censorship. Public evangelism that could be construed as denigrating another religion can bring prosecution under sedition and harmony provisions, and Christians and others have been charged for distributing tracts critical of Islam.
 
-Several evangelical pastors in Singapore have been charged or warned for preaching on homosexuality in ways the government deemed in violation of regulations, reflecting the tension between conservative Christian teaching and Singapore’s evolving social policy. These cases are not persecution by any global comparative standard, but they represent real limits on religious expression in a country where the government takes an active management role in public religious discourse.
+Jehovah's Witnesses and the Unification Church have been banned since 1972 and 1982 respectively, the former for refusal of national service. Witnesses continue to be prosecuted for conscientious objection and for possessing banned publications.
 
-Singapore’s Christian community is globally connected, theologically serious, and missionally active — it sends significant numbers of missionaries and provides substantial financial support for global mission, particularly in Southeast Asia and China. Its challenge is not persecution but the careful navigation of faith expression in a state that prizes social harmony above all.
+Churches are cautious about political speech. Clergy who comment on policy draw official warnings, and foreign religious workers require approval that has been refused over political statements.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~18–19%
-- **Current Status:** Full practical religious freedom; Maintenance of Religious Harmony Act imposes limits on divisive religious speech; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** MRHA used against religious leaders across traditions; Singaporean church a significant source of global mission support and sending
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 19 percent
+- **Primary Constraints:** Religious harmony laws restricting evangelism and religious speech, bans on Jehovah's Witnesses and the Unification Church
+- **Current Status:** Religious freedom within a managed framework
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Singapore* (most recent edition) — state.gov
+- Singapore Department of Statistics, *Census 2020, religion* — singstat.gov.sg
+- Maintenance of Religious Harmony Act — sso.agc.gov.sg
+- Human Rights Watch, *Singapore* — hrw.org/asia/singapore
 
 -----
 
@@ -408,52 +429,46 @@ Singapore’s Christian community is globally connected, theologically serious, 
 COUNTRY: Somalia
 TITLE: Somalia — Christianity & Persecution Profile
 SLUG: country-profiles/somalia
-META DESCRIPTION: Somalia is the second most dangerous country on earth for Christians. Al-Shabaab controls large areas and kills anyone discovered to be a Christian. The indigenous Somali church is measured in dozens to hundreds — every one of them living under sentence of death.
+META DESCRIPTION: Somalia has almost no Christians left and al-Shabaab executes any who are discovered. Leaving Islam is treated as a capital betrayal of clan and nation.
 CATEGORY: Country Profiles
-TAGS: Somalia, Horn of Africa, Al-Shabaab, WWL Top 5, Apostasy Death, No Church, Secret Believers, Converts, Islamist Extremism
-PERSECUTION TIER: High
-WWL RANKING: #2 (Open Doors 2024)
+TAGS: Somalia, Horn of Africa, Al-Shabaab, Apostasy, Clan Society, Secret Believers, WWL Top 5
+PERSECUTION TIER: Extreme
 
 ## Overview
 
-Somalia is ranked #2 on the 2024 Open Doors World Watch List — second only to North Korea as the most dangerous country on earth for Christians. It is 99.9% Muslim. There are no public churches anywhere in the country. There is no Christian institution of any kind. There are no foreign missionaries. The number of known indigenous Somali Christians is estimated at between a few dozen and a few hundred — a figure so small that it is measured not in percentages of the population but in individuals. Every one of those individuals lives under an effective death sentence: Al-Shabaab, the al-Qaeda-affiliated Islamist militant organization that controls large portions of Somalia, kills anyone discovered to be a Christian. The government of Somalia — to the extent it effectively controls its own capital — does not protect converts. Families who discover a member has converted to Christianity have, in documented cases, killed that person themselves. Somalia is a country where Christian faith means, with high probability, death.
+Somalia is close to 100 percent Sunni Muslim, and the number of Somali Christians is estimated in the hundreds at most. Discovery means death, usually quickly. Al-Shabaab hunts converts explicitly and has beheaded people on suspicion alone. Where the group does not operate, clan and family enforce the same rule. Open Doors ranked Somalia 2nd on the 2026 World Watch List.
 
-## A Nation Without Christian History
+## Why It Is This Severe
 
-Somalia has no ancient Christian heritage. The Somali people — a predominantly pastoralist, clan-organized society spread across the Horn of Africa — converted to Islam beginning in the 7th century through Arab merchant contact along the East African coast. Islam has been the faith of the Somali people for over a thousand years, integrated into every dimension of clan culture, family law, social organization, and identity. To be Somali is, in the deepest cultural sense, to be Muslim. There is no pre-Islamic Somali Christian tradition to recover; no ancestor who practiced the faith; no cultural memory of Christianity as anything other than a foreign and threatening imposition.
+Somali identity fuses ethnicity, clan, and Islam so completely that leaving Islam is understood as leaving the Somali people. The provisional constitution makes Islam the state religion, prohibits the propagation of any other, and holds that no law may contradict sharia. Puntland and other regional administrations apply the same.
 
-Italian and British colonial presence in Somalia brought Catholic and Protestant missionaries in the late 19th and early 20th centuries. These missions established schools and hospitals that served the population but produced almost no converts — the depth of Islamic identity in Somali society made conversion to Christianity an essentially unthinkable act. At Somali independence (1960), the Christian presence was effectively limited to the small expatriate colonial community and the institutions they had built.
+Al-Shabaab, affiliated with al-Qaeda, controls significant rural territory in the south and centre and runs its own courts. It has executed people accused of being Christians, including aid workers and returnees from Kenya and the diaspora. It monitors phones and internet use in areas it controls and has killed people for possessing Christian material.
 
-The civil war that began in 1991 with the collapse of Said Barre’s government destroyed the state and, with it, whatever limited protection had existed for minority communities. By the mid-1990s, the few Somali Christians who had existed — mostly aid workers and diplomatic staff with Christian identity — had left along with the broader international community.
+Clan structure makes secrecy nearly impossible. Every Somali is known within a lineage and a locality, and a person who stops attending mosque is noticed. Converts are typically discovered by relatives first. Families have killed their own members to restore honor, and such killings are not prosecuted.
 
-## Al-Shabaab and the Elimination of Christianity
+## Somaliland
 
-Al-Shabaab — Harakat al-Shabaab al-Mujahideen, “Movement of Striving Youth” — emerged from the remnants of the Islamic Courts Union after the 2006 Ethiopian military intervention that drove the ICU from Mogadishu. It has since become the most powerful non-state actor in Somalia, controlling rural areas, taxing populations, conducting suicide bombings and targeted assassinations, and establishing courts that apply strict Wahhabi-influenced Sharia law in areas it governs. It is formally affiliated with al-Qaeda.
+Somaliland, the self-declared state in the northwest, is more stable and has functioning institutions. Its constitution also bars conversion from Islam and prohibits other faiths from proselytizing. A small Catholic church building in Hargeisa survives from the colonial period and does not function as a congregation. Conditions for converts there are dangerous, if less lethal than in al-Shabaab territory.
 
-Al-Shabaab’s theological framework treats Christianity as apostasy for any Somali who practices it, and as a threatening foreign infiltration requiring violent elimination. The group maintains intelligence networks in communities it controls — informants who report on anyone suspected of deviation from strict Islamic practice. Possession of a Bible, a cross, or any Christian material is grounds for arrest and execution. Al-Shabaab’s mobile phone checkpoints — in which travelers’ phones are searched for Christian content, Christian contacts, or church-related applications — have resulted in multiple documented killings. Christians who pass through these checkpoints, or whose phones reveal their identity when intercepted by Al-Shabaab surveillance, are executed.
+## The Church
 
-Even outside Al-Shabaab-controlled territory, in Mogadishu and the areas nominally controlled by the Federal Government of Somalia, a known convert to Christianity faces death — not typically from the government but from family, clan, and community. The principle of collective clan responsibility in Somali society means that a convert who is discovered brings shame and potential retribution on their entire clan network. Families have killed converting members to preserve clan honor. This social mechanism operates independently of Al-Shabaab and would continue even if Al-Shabaab were eliminated tomorrow.
-
-## The Somali Diaspora and Underground Believers
-
-The Somali diaspora — concentrated in Kenya (Dadaab refugee camps and Nairobi), Ethiopia, Uganda, the United Kingdom, the United States (Minnesota, Ohio), Canada, Sweden, and the Netherlands — includes individuals who have encountered Christianity through contact with Christian aid organizations, through diaspora community life, and through genuine spiritual seeking. In diaspora contexts, Somalis can become Christians and practice with relative freedom — though they face family pressure, community rejection, and in some documented cases violence from Somali diaspora community members who regard conversion as a betrayal of Somali identity.
-
-Diaspora Somali Christians are among the most determined advocates for those inside Somalia, and some have returned to Somalia or to the Somali-populated regions of Kenya, Ethiopia, and Djibouti as witnesses, at extraordinary personal risk. The organizations that support the Somali church — primarily specialized mission agencies working in the Horn of Africa, whose names are deliberately not publicized for security reasons — describe a situation of absolute minimal contact and maximum caution.
-
-Inside Somalia itself, the few known Christians exist in isolation so complete that “community” is too generous a word for what they have. They may know of one other believer; they may not know any. They pray alone, in secret, without scripture they can safely hold, in a society where the price of their faith becoming known is death.
-
-## The Broader Somali Regional Context
-
-Somalia’s borders are porous and its population is distributed across Somalia, Somaliland (which functions as a de facto independent state in the north), the Somali Region of Ethiopia, and Kenya’s North Eastern Province. Al-Shabaab operations extend beyond Somalia’s formal borders: the group conducts attacks in Kenya (including the Garissa University massacre discussed in Batch 5) and has conducted operations in Ethiopia and Uganda. The threat to Christians in the broader Somali geographic and diaspora context is shaped by Al-Shabaab’s reach and by the intensity of Somali Islamic identity regardless of nationality.
+There is no public church, no clergy, no Christian school, and no Christian bookshop anywhere in Somalia. Believers do not meet. Contact runs through diaspora networks abroad and through radio and internet, both risky. The Somali church exists mainly outside the country, in Kenya, Ethiopia, Europe, and North America, and those communities are also targeted, with al-Shabaab and clan networks reaching converts in Nairobi and in refugee camps.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #2
-- **Estimated Indigenous Christian Population:** Dozens to a few hundred — among the smallest documented Christian communities in the world
-- **Primary Threats:** Al-Shabaab — execution of discovered Christians; family honor killings of converts; total social elimination of Christian identity
-- **Legal Status:** No legal framework for Christian practice; apostasy considered capital offense under Al-Shabaab Sharia governance; federal government provides no protection for converts
-- **Churches:** Zero public churches anywhere in Somalia
-- **Notable:** Phone checkpoints to search for Christian content — Christians executed when discovered; every known Somali Christian lives under effective death sentence
+- **Persecution Score:** Extreme (84/100), **Rank:** #2 of 192 countries
+- **Estimated Christian Population:** a few hundred at most, entirely secret
+- **Primary Threats:** Al-Shabaab execution of suspected converts, family and clan killing, constitutional prohibition of other faiths
+- **Legal Status:** Islam is the state religion. Propagation of other faiths prohibited
+- **Open Doors WWL 2026:** #2
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Somalia* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Somalia* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- U.S. Department of State, *Somalia Travel Advisory* — travel.state.gov
+- International Christian Concern, *Somalia* — persecution.org
 
 -----
 
@@ -461,25 +476,40 @@ Somalia’s borders are porous and its population is distributed across Somalia,
 COUNTRY: South Africa
 TITLE: South Africa — Christianity & Persecution Profile
 SLUG: country-profiles/south-africa
-META DESCRIPTION: South Africa is an overwhelmingly Christian nation where the church played a central role in both the construction and the dismantling of apartheid. Christians practice freely today, though socioeconomic inequality and rising crime affect all communities including the church.
+META DESCRIPTION: South Africa is around 85 percent Christian with strong constitutional protection. Its churches both defended and dismantled apartheid, and violent crime affects congregations.
 CATEGORY: Country Profiles
-TAGS: South Africa, Southern Africa, Christian Majority, Apartheid, Desmond Tutu, African Independent Churches, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: South Africa, Southern Africa, Apartheid, Dutch Reformed, Desmond Tutu, Religious Freedom, Crime
+PERSECUTION TIER: Lower
 
 ## Overview
 
-South Africa is approximately 86% Christian — one of the most Christian nations by percentage in the world — with an extraordinary diversity of denominational traditions: Dutch Reformed (historically the theological support structure of apartheid), Anglican (whose most famous South African member was Archbishop Desmond Tutu), Catholic, Methodist, Presbyterian, and an enormous community of African Independent Churches (AICs) whose membership runs into the tens of millions and whose theology and worship integrate African cultural expression with Christian faith in ways that make South African Christianity genuinely distinctive.
+South Africa is around 85 percent Christian across an enormous range of denominations, including the Zion Christian Church, one of the largest African-initiated churches on the continent. The constitution provides some of the strongest religious freedom protection anywhere and there is no persecution.
 
-The church’s relationship to apartheid is one of the most significant chapters in 20th-century Christian ethics. The Dutch Reformed Church — the church of the Afrikaner nationalist community — developed a theological framework for racial segregation that theologians within and outside South Africa condemned as heresy. The World Alliance of Reformed Churches declared apartheid a status confessionis (a matter requiring a clear theological confession) in 1982 and suspended the white South African Dutch Reformed churches from membership. Against this, the South African Council of Churches — led by figures including Desmond Tutu, Allan Boesak, and Frank Chikane — was one of the primary institutional voices of anti-apartheid advocacy. The Kairos Document (1985), signed by over 150 South African church leaders, explicitly condemned “state theology” — the theological justification of apartheid — as a perversion of the gospel.
+## Apartheid and the Churches
 
-South Africa is not on the Open Doors World Watch List. Christians practice freely with no state persecution. The country’s significant challenges — among the world’s highest rates of inequality, violent crime, corruption, and load-shedding electricity crises — affect all communities including the church but are not directed at Christians as a religious group.
+The Dutch Reformed Church supplied theological justification for apartheid, teaching separate development as a scriptural principle, and the World Alliance of Reformed Churches suspended it in 1982 and declared apartheid a heresy. The DRC confessed the error in 1986 and 1990, and the Belhar Confession, written by its Coloured sister church in 1986, stands as one of the significant confessional documents of the twentieth century.
+
+Other churches resisted. Desmond Tutu, Beyers Naudé, Denis Hurley, Frank Chikane, and Trevor Huddleston were central to the opposition, and the South African Council of Churches was raided, bombed, and infiltrated by state security. The 1985 Kairos Document, written by theologians in Soweto, rejected both state theology and neutral church theology. Tutu chaired the Truth and Reconciliation Commission from 1996, which was explicitly shaped by Christian categories of confession and forgiveness, and drew criticism for exactly that.
+
+## Today
+
+Violent crime touches churches. Congregations have been robbed during services, and a 2018 attack on a mosque and an assault on a church in KwaZulu-Natal drew national attention. Attacks on farms, which have a contested political framing, have killed church members and clergy. There is no evidence of systematic targeting of Christians.
+
+The CRL Rights Commission investigated commercialization and abuse in some independent churches and proposed a regulatory framework, which most denominations opposed as state overreach into religious affairs. The proposal has not been implemented.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~86%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Church both supported and opposed apartheid; Desmond Tutu — Archbishop of Cape Town, Nobel Peace Prize laureate (1984) — is among the most significant Christian voices of the 20th century
+- **Persecution Score:** Lower (9/100), **Rank:** #96 of 192 countries
+- **Estimated Christian Population:** about 85 percent
+- **Current Status:** Full religious freedom, strong constitutional protection
+- **Historical Weight:** Dutch Reformed theological support for apartheid, church-led resistance, the Belhar Confession and the Kairos Document
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: South Africa* (most recent edition) — state.gov
+- Statistics South Africa, census religion data — statssa.gov.za
+- Truth and Reconciliation Commission of South Africa, *Report* (1998) — justice.gov.za
+- *The Kairos Document* (1985) and *The Belhar Confession* (1986)
 
 -----
 
@@ -487,27 +517,33 @@ South Africa is not on the Open Doors World Watch List. Christians practice free
 COUNTRY: South Korea
 TITLE: South Korea — Christianity & Persecution Profile
 SLUG: country-profiles/south-korea
-META DESCRIPTION: South Korea is home to one of the world’s most dynamic and globally mission-minded Christian communities — a church that grew from near-zero in 1900 to 30% of the population today, and that sends more missionaries per capita than any nation except the United States.
+META DESCRIPTION: South Korea has one of the largest Christian populations in Asia and full religious freedom. It sends missionaries worldwide and several have been killed or taken hostage abroad.
 CATEGORY: Country Profiles
-TAGS: South Korea, East Asia, Presbyterian, Catholic, Megachurch, Missions, Religious Freedom, North Korean Christians
-PERSECUTION TIER: Low
+TAGS: South Korea, East Asia, Protestant, Catholic, Missionaries, Religious Freedom, North Korea Outreach
+PERSECUTION TIER: Lower
 
 ## Overview
 
-South Korea is approximately 27–30% Christian — Presbyterian, Catholic, Methodist, Baptist, Pentecostal, and charismatic — in a nation of 52 million. The South Korean church is one of the most remarkable stories in modern Christian history: in 1900, less than 1% of Koreans were Christian; today, Korea is home to some of the world’s largest individual congregations, is one of the top per-capita missionary-sending nations in the world, and has produced a distinctive theological and worship culture that has influenced global Christianity.
+South Korea is around 30 percent Christian, roughly 20 percent Protestant and 11 percent Catholic, with Buddhism at about 17 percent and a majority of the young reporting no religion. Religious freedom is complete and there is no persecution.
 
-Christianity arrived in Korea through both Catholic missionaries from China in the late 18th century and through Protestant missions in the 1880s — the early Presbyterian and Methodist missions found extraordinary receptivity, helped by the Korean church’s early embrace of indigenous-led evangelism (the Nevius Method, which emphasized training Korean leaders and local self-sufficiency from the start). The Great Revival of 1907 that began in Pyongyang spread south and established patterns of intense prayer, repentance-based spirituality, and fervent evangelism that still characterize Korean Protestantism.
+Korean Christianity grew faster in the twentieth century than almost anywhere. Protestant missionaries arrived in 1884 and the church was tied to national identity under Japanese colonial rule, when Christians were prominent in the independence movement and refused Shinto shrine worship at heavy cost. Korean Catholicism is older still and unusual in origin, having begun in the eighteenth century through Korean scholars who encountered Catholic texts in China and brought the faith home without missionaries. Thousands were martyred in nineteenth-century persecutions, and 103 were canonized in 1984.
 
-South Korean Christians practice entirely freely. The church is a major institutional force in education, social services, and public life. Yoido Full Gospel Church in Seoul — led for decades by David Yonggi Cho — was long considered the world’s largest single congregation. Korea sends approximately 30,000 missionaries globally — more per capita than any country except the United States — with significant deployments in Central Asia, Southeast Asia, the Middle East, and Africa.
+South Korea sends among the largest numbers of Protestant missionaries in the world, second only to the United States by most counts. That has cost lives. Twenty-three Korean missionaries were taken hostage in Afghanistan in 2007 and two were killed. Kim Dong-shik, a pastor working with North Korean refugees, was abducted in China in 2000 and is believed to have died in North Korean custody. Korean churches and NGOs are central to underground work supporting North Korean believers and refugees.
 
-The significant North Korean Christian connection bears noting: South Korean churches and advocacy organizations are among the primary supporters of the underground church in North Korea and of North Korean Christian defectors who reach the South. The Korean Christian community spans the world’s most dramatic religious freedom divide — a vibrant, free church in the south, praying for an invisible, imprisoned church in the north.
+Domestic issues concern conscientious objection, recognized by the Constitutional Court in 2018 with an alternative service system introduced in 2020, and periodic controversy over new religious movements, including the Shincheonji group at the start of the pandemic.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~28–30%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** One of the world’s top missionary-sending nations; Great Revival of 1907 remains formative; South Korean church actively supports North Korean underground believers and defectors
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 30 percent
+- **Current Status:** Full religious freedom
+- **Notable:** Among the largest missionary-sending nations. Korean Catholicism founded by Korean laypeople without missionaries
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Republic of Korea* (most recent edition) — state.gov
+- Statistics Korea, census religion data — kostat.go.kr
+- Korea World Missions Association — kwma.org
 
 -----
 
@@ -515,56 +551,41 @@ The significant North Korean Christian connection bears noting: South Korean chu
 COUNTRY: South Sudan
 TITLE: South Sudan — Christianity & Persecution Profile
 SLUG: country-profiles/south-sudan
-META DESCRIPTION: South Sudan is a majority-Christian nation that fought for independence from Sudan’s Islamist government — and then tore itself apart in civil war. Its Christians have been killed, raped, displaced, and starved not by Islamist persecution but by the armed factions of their own leaders. The church endures in one of the world’s worst humanitarian disasters.
+META DESCRIPTION: South Sudan is a majority Christian nation born out of war with Khartoum. Its violence since independence has been ethnic and political, with Christians on both sides.
 CATEGORY: Country Profiles
-TAGS: South Sudan, East Africa, Civil War, Ethnic Violence, Christian Majority, Displacement, Famine, WWL Top 10, Church Attacks
-PERSECUTION TIER: High
-WWL RANKING: #10 (Open Doors 2024)
+TAGS: South Sudan, East Africa, Independence, Civil War, Ethnic Violence, Catholic, Episcopal, Displacement
+PERSECUTION TIER: Medium
 
 ## Overview
 
-South Sudan presents one of the most heartbreaking chapters in modern Christian history. The world’s newest nation — born on July 9, 2011 after decades of war against Sudan’s Islamist north — is approximately 60% Christian, and its people’s faith was one of the sustaining forces through the longest and most brutal liberation struggle in African history. The church celebrated independence with tears and worship. It was a Christian liberation — or so it seemed.
+South Sudan is around 60 percent Christian, with large Catholic and Episcopal populations and a substantial traditional religious minority. It became independent in 2011 after decades of war with Khartoum in which religion was one dividing line among several. The violence since independence has been ethnic and political rather than religious, and Christians have been both perpetrators and victims. Open Doors has kept it off the recent top 50, and the humanitarian picture remains among the worst in the world.
 
-Less than three years later, in December 2013, South Sudan descended into a civil war whose savagery shocked even a continent accustomed to conflict. The war was between the forces of President Salva Kiir (Dinka ethnic group) and former Vice President Riek Machar (Nuer ethnic group), and it mobilized ethnic violence on a scale that produced mass atrocities: the massacre of Nuer civilians in Juba, the Bor massacre, the Malakal attacks, the systematic burning of villages. By the time a peace agreement was signed in 2018 — imperfectly implemented and periodically violated — the war had killed an estimated 400,000 people, created 4 million internally displaced, and sent 2.5 million refugees to neighboring countries.
+## War and Independence
 
-The tragedy for South Sudan’s Christians is that the primary perpetrators of violence against them are not Islamist militants or foreign enemies. They are their own people — armed forces and militias whose commanders profess Christianity while directing violence against civilian Christian communities. Church buildings have been bombed and burned — by all sides. Pastors and priests have been killed — by all sides. Women have been raped as a weapon of war — by all sides. Aid workers, including those from Christian organizations, have been killed. The weapons of mass atrocity in South Sudan are wielded by people who in many cases were baptized in the same church as their victims.
+Two long civil wars with Sudan, from 1955 to 1972 and 1983 to 2005, killed around two million people. Khartoum's imposition of sharia in 1983 helped trigger the second and gave the southern struggle a religious dimension. Churches held southern society together through those decades, providing education and leadership when nothing else functioned, and church leaders were central to the negotiations that led to the 2005 agreement and the 2011 independence referendum.
 
-## The Liberation War and the Church’s Role
+## Since 2011
 
-The background to South Sudan’s independence is essential. The First Sudanese Civil War (1955–1972) and the Second Sudanese Civil War (1983–2005) were fought between the predominantly Christian and animist south and the Arab-Muslim dominated north, which sought to impose Arabic language and Islamist governance on the entire country. The Sudan People’s Liberation Movement/Army (SPLM/A) was the primary liberation force; the cause of southern Sudanese self-determination was framed partly in religious terms — resistance to the imposition of Sharia law by Khartoum. The church — Catholic, Anglican, Presbyterian, and evangelical — was the institution that educated the leadership class of the south, provided humanitarian services through decades of war, and maintained the hope of a free and dignified future.
+Civil war broke out in December 2013 between forces aligned with President Salva Kiir, a Catholic Dinka, and Riek Machar, a Presbyterian Nuer. The fighting killed an estimated 400,000 people and displaced millions. Massacres were carried out along ethnic lines by men who were mostly Christians on both sides. Churches sheltered civilians and were attacked, and clergy were killed.
 
-When independence was achieved in 2011, it was the culmination of a struggle in which hundreds of thousands had died. The Archbishop of Canterbury and other Christian leaders attended the independence celebration. John Garang, the SPLM’s founding leader (who died in a helicopter crash in 2005), had been a Christian. The symbolic significance of the new nation was immense.
+A 2018 peace agreement reduced large-scale fighting without producing a stable settlement. Elections have been repeatedly postponed. Intercommunal violence, cattle raiding, and militia conflict continue, and flooding and food insecurity affect millions.
 
-## The Civil War: Ethnicity, Power, and Christian-on-Christian Violence
-
-The December 2013 outbreak of civil war was triggered by political competition between Kiir and Machar within the SPLM — not by religious difference. Both are Christian. Their supporters are largely Christian. The war was not anti-Christian; it was anti-the-other-ethnicity, and in South Sudan’s context, ethnicity and armed faction were nearly synonymous.
-
-What made the war catastrophic for South Sudanese Christians as a community was the systematic use of churches as weapons of warfare. When Nuer civilians fled Dinka forces in Juba in December 2013, they sought sanctuary in the UN Protection of Civilians (POC) sites and in churches. When Dinka civilians fled Nuer forces in other areas, they did the same. In some cases, churches were respected as sanctuaries; in others, attackers pursued civilians into church buildings and killed them inside. In Malakal, the main town of Upper Nile State, the Episcopal Church of Sudan cathedral was repeatedly attacked and burned as the town changed hands multiple times between 2013 and 2016.
-
-Pastors who attempted to mediate, shelter civilians, or speak publicly about atrocities were targeted by whichever faction regarded their intervention as hostile. Several clergy were killed. The church was not a safe space — it was a theater of the same war as every other space.
-
-The famine conditions that developed — recognized as a formal famine by the UN in 2017, the first famine declaration in the world since 2011 — added starvation to the instruments of suffering. Christian aid organizations including Samaritan’s Purse, Catholic Relief Services, World Vision, and Tearfund were among the primary humanitarian responders; several of their workers were killed in targeted attacks on aid convoys and facilities.
-
-## Peace, Fragility, and Ongoing Violence
-
-The 2018 Revitalized Agreement on the Resolution of the Conflict in South Sudan (R-ARCSS) brought a nominal ceasefire and the formation of a unity government. Kiir and Machar were reconstituted as president and vice president. But the peace has been fragile: subnational conflicts — involving cattle-raiding, ethnic violence, and armed group competition outside the main SPLM/A framework — have continued to kill civilians, including Christian communities, particularly in Jonglei, Unity, and Western Equatoria states.
-
-The church has been among the most consistent advocates for lasting peace. The South Sudan Council of Churches — which includes Catholic, Anglican, Presbyterian, and evangelical bodies — has engaged in sustained mediation efforts, most notably convening the “National Dialogue” processes and leading the women’s peace advocacy movement. Archbishop Justin Badi Arama, Moderator Samuel Kayanga, and other South Sudanese church leaders have spoken with courage about their nation’s self-destruction and their people’s need for genuine reconciliation.
-
-Pope Francis’s March 2019 visit to Rome — in which he hosted Kiir and Machar for a Vatican retreat and famously knelt and kissed the feet of both men, imploring them to maintain peace — was one of the most striking acts of prophetic Christian diplomacy in the modern papal tradition.
-
-## Current Status
-
-South Sudan ranked #10 on the 2024 Open Doors World Watch List — not primarily for Islamic persecution, which is the driver for most top-10 nations, but for the catastrophic violence, displacement, and state failure that have made Christian communities unable to maintain stable community life. The combination of ongoing subnational conflict, economic collapse, extreme poverty, and a peace process of uncertain durability keeps South Sudan among the most dangerous humanitarian environments in the world — and among the most dangerous for the church specifically.
+Church leaders have been among the most persistent voices for peace. Pope Francis knelt and kissed the feet of South Sudanese leaders at a Vatican retreat in 2019, and travelled to Juba in 2023 with the Archbishop of Canterbury and the Moderator of the Church of Scotland in an unprecedented joint pilgrimage.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #10
-- **Estimated Christian Population:** ~60%
-- **Primary Threats:** Civil war violence, ethnic atrocities, church bombings and burnings, killing of pastors and aid workers, famine and displacement — primarily from internal South Sudanese armed factions
-- **Killed:** ~400,000 in civil war (2013–2018); subnational violence ongoing
-- **Displaced:** 4 million internally displaced; 2.5 million refugees
-- **Notable:** Pope Francis knelt and kissed the feet of President Kiir and VP Machar in Rome (2019) — one of the most striking acts of modern papal peacemaking
+- **Persecution Score:** Medium (25/100), **Rank:** #61 of 192 countries
+- **Estimated Christian Population:** about 60 percent
+- **Primary Threats:** Ethnic and political violence, state collapse, displacement, attacks on churches sheltering civilians
+- **Legal Status:** Religious freedom protected in the constitution
+- **Notable:** The 2023 joint papal, Anglican, and Church of Scotland visit to Juba
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: South Sudan* (most recent edition) — state.gov
+- UN Mission in South Sudan (UNMISS) reporting — unmiss.unmissions.org
+- Human Rights Watch, *South Sudan* — hrw.org/africa/south-sudan
+- Sudan Council of Churches and South Sudan Council of Churches statements
 
 -----
 
@@ -572,25 +593,40 @@ South Sudan ranked #10 on the 2024 Open Doors World Watch List — not primarily
 COUNTRY: Spain
 TITLE: Spain — Christianity & Persecution Profile
 SLUG: country-profiles/spain
-META DESCRIPTION: Spain is a historically Catholic nation that has undergone rapid secularization since the Franco era. Christians practice freely with no persecution, though Catholic institutional influence has declined sharply.
+META DESCRIPTION: Spain is historically Catholic with full religious freedom and rapidly falling practice. Its church carries the memory of mass killings of clergy in the 1930s.
 CATEGORY: Country Profiles
-TAGS: Spain, Western Europe, Catholic, Evangelical, Secularization, Franco, Religious Freedom, Reformation History
-PERSECUTION TIER: Low
+TAGS: Spain, Southern Europe, Catholic, Civil War Martyrs, Secularization, Abuse Inquiry, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Spain is approximately 66% Catholic — though active practice is declining sharply, particularly among younger generations — with full constitutional religious freedom. The Spanish church’s history is among the most significant in Western Christianity: Spain was the base of the Reconquista (the centuries-long reconquest of the Iberian Peninsula from Muslim rule, completed in 1492), the primary engine of Catholic missionary expansion in Latin America, Asia, and Africa, and the homeland of some of the most significant figures in Catholic intellectual and spiritual history including Teresa of Ávila, John of the Cross, Ignatius of Loyola, and Francisco de Vitoria.
+Spain is around 55 to 60 percent Catholic by identification, with weekly practice near 20 percent of those and falling steeply among the young. Religious freedom is complete. Spain is constitutionally non-confessional while maintaining cooperation agreements with the Catholic Church and, since 1992, with Protestant, Jewish, and Muslim federations.
 
-The Spanish Civil War (1936–1939) and the Franco dictatorship (1939–1975) created deep wounds in the relationship between Spanish Catholicism and Spanish society: the church’s alignment with Franco’s regime — which killed approximately 200,000 people in the war and its aftermath — produced an anti-clericalism among Spanish leftists and liberals that contributed to the accelerated secularization after democratization. The transition to democracy following Franco’s death (1975) and Spain’s subsequent entry into the EU (1986) produced rapid social liberalization. Spain legalized same-sex marriage in 2005 — one of the first countries in the world to do so — over strong Catholic Church opposition, a political moment that marked the end of the church’s ability to define Spanish social norms.
+## The 1930s
 
-Evangelical Christianity is a small but growing presence in Spain — approximately 1.3% of the population — including significant communities among Latin American immigrants and among Spanish converts in urban areas. Evangelical and Pentecostal churches have grown in recent decades; they practice freely. Spain is not on the Open Doors World Watch List.
+The Second Republic and the Civil War produced one of the largest killings of clergy in modern European history. Republican and anarchist forces killed nearly 7,000 priests, monks, and nuns between 1936 and 1939, and thousands of churches were burned. The Catholic Church has beatified well over a thousand of those killed. The church then supported Franco, and the dictatorship gave it control over education, censorship, and family law until 1975, which is a large part of why Spanish secularization since has been so rapid and so hostile in tone.
+
+## Current Issues
+
+An investigation by the national ombudsman, reporting in 2023, estimated through survey extrapolation that a substantial number of Spaniards had experienced abuse by clergy or in Catholic institutions, and the church conducted its own parallel inquiry. Compensation arrangements followed.
+
+The 2022 Democratic Memory Law addresses Franco-era legacies, including the removal of Franco's remains from the Valley of the Fallen, a Catholic basilica complex, and the reworking of the site. Church bodies have been divided on it.
+
+Anti-Christian vandalism is recorded in the hundreds annually by the Observatory for Religious Freedom and Conscience, including damage to churches and disruption of services, alongside vandalism of mosques and synagogues.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~70% (predominantly Catholic; active practice much lower)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Center of Catholic missionary expansion to Latin America and Asia; Teresa of Ávila, Ignatius of Loyola; Civil War church-state alignment produced lasting anti-clericalism
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 58 percent, with roughly a fifth practicing
+- **Current Status:** Full religious freedom, non-confessional state
+- **Historical Note:** Nearly 7,000 clergy killed between 1936 and 1939
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Spain* (most recent edition) — state.gov
+- Defensor del Pueblo, report on abuse in the Catholic Church (2023) — defensordelpueblo.es
+- Centro de Investigaciones Sociológicas, religious practice surveys — cis.es
+- Observatorio para la Libertad Religiosa y de Conciencia — libertadreligiosa.es
 
 -----
 
@@ -598,46 +634,42 @@ Evangelical Christianity is a small but growing presence in Spain — approximat
 COUNTRY: Sri Lanka
 TITLE: Sri Lanka — Christianity & Persecution Profile
 SLUG: country-profiles/sri-lanka
-META DESCRIPTION: Sri Lanka’s Christians faced the worst single attack on the church in Asia in modern times — the 2019 Easter Sunday bombings that killed 269. Buddhist nationalist violence against churches is ongoing. A Christian minority navigates between Islamist terrorism and Buddhist extremism.
+META DESCRIPTION: Sri Lanka's Christians were the target of the 2019 Easter bombings that killed over 260 people. Buddhist nationalist pressure and church closures continue.
 CATEGORY: Country Profiles
-TAGS: Sri Lanka, South Asia, Easter Sunday Bombings, Buddhist Nationalism, Catholic, Evangelical, Church Attacks, Anti-Conversion Bills, WWL
-PERSECUTION TIER: Moderate
+TAGS: Sri Lanka, South Asia, Buddhist Nationalism, Easter Bombings, Church Closures, Catholic, Evangelical
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Sri Lanka is approximately 70% Theravada Buddhist, 13% Hindu, 10% Muslim, and 7% Christian (Catholic and Protestant). Christians — the island’s smallest major religious community — occupy a uniquely vulnerable position: they have faced violence from both Islamist terrorism (the 2019 Easter Sunday bombings) and Buddhist nationalist groups who have attacked evangelical churches, disrupted prayer meetings, and pressured the government to enact anti-conversion legislation. Sri Lanka’s Christians pray between two fires — and the island’s government has been insufficiently protective of either threat.
+Sri Lanka is around 7 to 8 percent Christian, mostly Roman Catholic with a growing evangelical minority, in a country that is about 70 percent Theravada Buddhist. Christianity spans both Sinhalese and Tamil communities, which is unusual in a country divided along those lines. The pressure comes from Buddhist nationalist movements, from a registration circular used to close village churches, and from the aftermath of the 2019 Easter attacks.
 
-## Christianity’s Ancient Roots
+## The Easter Bombings
 
-Christian tradition holds that the Apostle Thomas visited the island of Sri Lanka on his way to India — though the historical evidence is thin. More reliably documented is the presence of a small Christian community in the ancient city of Anuradhapura, with some evidence of Christian presence in the early centuries AD through trade contacts. Portuguese colonial arrival in 1505 brought systematic Catholicization of coastal communities; many fisherfolk and lowland communities converted, and Catholic roots in the coastal belt are genuinely ancient. Dutch colonial rule (1658–1796) brought Protestant — specifically Dutch Reformed — Christianity; British colonial rule (from 1796) brought Anglican, Methodist, and Baptist missions. The result is a Christian community with genuine colonial-era roots, concentrated in the northwest coast and in Colombo.
+On Easter Sunday, 21 April 2019, suicide bombers attacked three churches and three hotels, killing over 260 people. St Sebastian's in Negombo, St Anthony's Shrine in Colombo, and the Zion Church in Batticaloa were struck during services. A local group pledged to Islamic State carried out the attacks.
 
-## Easter Sunday 2019: The Worst Anti-Christian Attack in Asia
+Cardinal Malcolm Ranjith restrained Catholic crowds from retaliation in the days afterward, which prevented a wider communal conflict, and he has since pressed relentlessly for an investigation into how intelligence warnings were ignored. Commissions have reported, findings have been disputed, and the church continues to argue that the full account has not been given. That unresolved question dominates Sri Lankan Catholic politics.
 
-On Easter Sunday, April 21, 2019, eight coordinated suicide bombers struck three Catholic churches and three luxury hotels in Sri Lanka simultaneously. The attacks — carried out by members of National Thowheed Jamath, a local Islamist organization with links to the Islamic State — killed 269 people and wounded more than 500. The three churches targeted were: St. Anthony’s Shrine in Kochchikade, Colombo; St. Sebastian’s Church in Negombo; and Zion Church in Batticaloa (a Protestant evangelical congregation).
+## Buddhist Nationalism and Church Closures
 
-The attack on Easter Sunday was not coincidental — it was chosen for its symbolic significance: the most important day of the Christian calendar, targeting worshipers at the moment of maximum gathering. The death toll made it the deadliest single attack on Christians in Asia in modern history. Subsequent investigation revealed that Sri Lankan intelligence agencies had received specific warnings about the planned attacks weeks in advance and failed to act on them — a failure of extraordinary proportions that killed hundreds of people who might have lived.
+A 2008 circular from the Ministry of Buddha Sasana requires new places of worship to obtain ministry approval. It has been applied against small evangelical congregations meeting in homes and rented halls, particularly in rural Sinhalese areas. Local officials, sometimes accompanied by Buddhist monks and villagers, order congregations to stop meeting. The National Christian Evangelical Alliance of Sri Lanka documents dozens of such incidents a year, including mob disruption of services, threats against pastors, and damage to property.
 
-The Catholic community, which suffered the most casualties, responded with a combination of grief, public mourning, and an explicit statement of forgiveness toward the perpetrators from Cardinal Malcolm Ranjith, Archbishop of Colombo — a statement watched globally as a witness to Christian theological commitment to forgiveness under the most extreme circumstances. Sri Lanka’s subsequent prosecution of those responsible for the intelligence failure has been criticized as incomplete.
+Anti-conversion bills have been introduced repeatedly since 2004 without being enacted. Their recurrence shapes the environment even when they fail.
 
-## Buddhist Nationalist Attacks on Evangelical Churches
-
-Separate from Islamist terrorism, Sri Lanka’s evangelical and charismatic churches have faced a sustained pattern of attack by Buddhist nationalist groups — particularly the Bodu Bala Sena (BBS, “Buddhist Power Force”) and related organizations. These groups have organized mob attacks on evangelical churches, disrupted prayer meetings, pressured landlords to evict evangelical congregations from rented premises, and advocated for anti-conversion legislation that would criminalize conversion from Buddhism or Hinduism to Christianity.
-
-The pattern is familiar from India: local Buddhist monks (bhikkus) organize community pressure against evangelical churches accused of using “inducements” (food, education, medical care) to attract converts. Churches in rural areas of Sinhalese Buddhist communities have been vandalized, burned, and their congregants physically attacked. Several pastors have been beaten; others have been arrested on complaints filed by Buddhist groups. Government response has been inconsistent — some local police have protected targeted churches; others have allowed mob violence to proceed without intervention.
-
-Anti-conversion bills have been introduced in the Sri Lankan Parliament multiple times; none has passed as of early 2025, partly due to the opposition of Catholic bishops (who, though not typically targeted by Buddhist nationalists, oppose anti-conversion laws on principle) and partly due to international diplomatic pressure. The Catholic Church’s institutional weight has provided some protection for the broader Christian community that the smaller evangelical community could not achieve alone.
-
-## Current Status
-
-Sri Lanka is monitored by Open Doors in the lower-to-middle tier of the World Watch List. The Easter Sunday attacks are the defining event of the past decade; the ongoing Buddhist nationalist pressure on evangelical churches is the structural, daily reality. The government’s protection of Christians from both threats has been inadequate. The Sri Lankan church is not collapsing — Catholic and evangelical communities maintain active institutional life — but it operates with the knowledge that the space it occupies is contested.
+Catholic and mainline Protestant churches, established long before independence, face less of this than newer evangelical groups, which are characterized as foreign and as buying converts.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~7% (~1.5 million)
-- **Primary Threats:** Islamist terrorism (Easter Sunday 2019 — 269 killed); Buddhist nationalist mob attacks on evangelical churches; anti-conversion legislative pressure
-- **Legal Status:** Christianity legal; no anti-conversion law enacted to date; vulnerable to both Islamist and Buddhist extremist violence
-- **Open Doors WWL:** Lower-mid tier monitored
-- **Notable:** Easter Sunday bombings (April 21, 2019) — deadliest attack on Christians in Asia in modern history; Cardinal Ranjith’s public statement of forgiveness became globally watched witness
+- **Persecution Score:** Medium (34/100), **Rank:** #51 of 192 countries
+- **Estimated Christian Population:** about 7 to 8 percent
+- **Primary Threats:** Buddhist nationalist mobs, the 2008 registration circular used to close churches, recurring anti-conversion bills
+- **Major Event:** Easter Sunday bombings, April 2019, over 260 killed
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Sri Lanka* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- National Christian Evangelical Alliance of Sri Lanka, incident reporting — nceasl.org
+- Human Rights Watch, *Sri Lanka* — hrw.org/asia/sri-lanka
 
 -----
 
@@ -645,66 +677,47 @@ Sri Lanka is monitored by Open Doors in the lower-to-middle tier of the World Wa
 COUNTRY: Sudan
 TITLE: Sudan — Christianity & Persecution Profile
 SLUG: country-profiles/sudan
-META DESCRIPTION: Sudan’s Christians survived three decades of Islamist persecution under Omar al-Bashir — church demolitions, apostasy prosecutions, bombing of churches in the Nuba Mountains — only to face the catastrophic civil war of 2023 that has killed thousands, displaced millions, and devastated the Christian communities of Khartoum and beyond.
+META DESCRIPTION: Sudan's civil war has destroyed churches and displaced millions. Both warring factions have attacked Christian communities, and the legal opening after 2019 has not survived.
 CATEGORY: Country Profiles
-TAGS: Sudan, Northeast Africa, Islamism, Civil War, Nuba Mountains, Church Demolitions, RSF, SAF, WWL Top 10, Al-Bashir, Apostasy, Mariam Ibrahim
-PERSECUTION TIER: High
-WWL RANKING: #8 (Open Doors 2024)
+TAGS: Sudan, Northeast Africa, Civil War, RSF, Church Destruction, Apostasy, Displacement, WWL Top 5
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Sudan has been one of the most consistently dangerous countries for Christians in the world for over three decades. Under President Omar al-Bashir’s Islamist government (1989–2019), Sudan imposed Sharia law, demolished hundreds of churches, prosecuted Christians for apostasy, bombed Christian villages in the Nuba Mountains, and systematically stripped the country’s Christian minority of legal protection and institutional presence. The 2019 revolution that overthrew Bashir offered hope — and then the October 2021 military coup extinguished much of it. When civil war erupted in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF), Sudan became one of the world’s worst humanitarian disasters — and Sudan’s Christians, concentrated in Khartoum and in the conflict zones of Darfur and the Nuba Mountains, were caught once again in a maelstrom not of their making. Sudan ranked #8 on the 2024 Open Doors World Watch List.
+Sudan is around 5 percent Christian, roughly two million people, concentrated in the Nuba Mountains, Blue Nile, Khartoum, and among South Sudanese who remained after 2011. The civil war that began in April 2023 between the army and the Rapid Support Forces has destroyed churches, killed clergy, and displaced more people than any other conflict in the world. Open Doors ranked Sudan 4th on the 2026 World Watch List and recorded it among the three countries with the highest violence scores.
 
-## Ancient Christianity and Islamic Conquest
+## Under Bashir
 
-The ancient kingdoms of Nubia — in the region of what is now northern Sudan — were Christianized in the 6th century when missionaries sent by the Byzantine Emperor Justinian converted the Nubian kings. The Nubian kingdoms of Nobatia, Makuria, and Alodia maintained Christian identity for centuries under Arab Islamic pressure. The Baqt treaty (651–652 AD) between the Arab caliphate and the Nubian kingdom of Makuria established a protected relationship that allowed Nubian Christianity to survive for several hundred years after the Arab conquest of Egypt. The cathedral of Old Dongola — excavated by archaeologists and recently returned to Christian use after centuries as a mosque — testifies to the depth of Nubian Christianity.
+Omar al-Bashir's Islamist government from 1989 imposed sharia, declared jihad against the south, and made Christianity a marker of enemy identity. Church buildings were demolished, permits refused, church property confiscated, and pastors imprisoned. Meriam Ibrahim was sentenced to death for apostasy in 2014 while pregnant, and released after international pressure. The Nuba Mountains, with a large Christian population, were bombed for years by the Sudanese air force.
 
-By the 14th–16th centuries, Nubian Christian kingdoms had been absorbed by the expanding influence of Arab Muslim traders and the Funj Sultanate. The organized church in the region north of what is now the Sudanese capital region had essentially disappeared. Christianity survived in the southern regions — in what is now South Sudan — and in the Nuba Mountains of central Sudan, where tribal communities maintained traditional religions that later proved receptive to Christian missions.
+## The Opening and Its End
 
-## Modern Christianity: Missions, Marginalization, and South Sudan’s Separation
+Bashir fell in 2019. The transitional government abolished the apostasy law in July 2020, ended public order laws, and declared Sudan a state that would not impose religion. Churches were returning to a legal footing for the first time in a generation.
 
-British colonization of Sudan from 1898 brought Protestant and Catholic missions, particularly to the southern region and the Nuba Mountains. American and British missionaries — including the American Mission, the Sudan Interior Mission, and Catholic orders — established churches, schools, and hospitals that became the foundation of the Sudanese Christian community. In the northern Arab-majority regions, missions had limited success; Islam was too deeply embedded. The southern and Nuba communities converted in larger numbers.
+The military coup of October 2021 stalled that, and the war from April 2023 ended it. Islamist networks tied to the old regime have regained influence within the army's political base.
 
-Sudan’s Christian population — estimated at 3–5% of the total after South Sudan’s secession in 2011 removed the large Christian population of the south — is concentrated in Khartoum (where migrants from the south and Nuba Mountains have settled in large numbers), in the Nuba Mountains of South Kordofan state, and in scattered communities across central and eastern Sudan. This community has navigated more than thirty years of Islamist governance that treated their presence as a problem to be solved.
+## The War
 
-## Bashir’s Islamist Persecution (1989–2019)
+Churches have been shelled, burned, occupied, and looted in Khartoum, Omdurman, and across Gezira and Darfur. Church leaders have documented dozens of church buildings destroyed or taken over as barracks. Both the Sudanese Armed Forces and the RSF have attacked civilians, and the RSF has carried out ethnic massacres in Darfur, including the fall of El Fasher. Christian schools and clinics have been destroyed.
 
-The June 1989 military coup that brought Omar al-Bashir to power also brought the National Islamic Front of Hassan al-Turabi to political dominance. The new government committed Sudan to a comprehensive Islamization: Arabic was declared the sole official language, Islamic law was extended to Christians living in the north, and a deliberate campaign began to eliminate or marginalize the Christian presence in Khartoum and the northern states.
-
-Churches were demolished — government authorities ordered the demolition of hundreds of church buildings in Khartoum and its suburbs over the ensuing decades, citing lack of proper permits, urban planning regulations, or proximity to mosques. These demolitions were not random enforcement: they were systematic, targeted at the growing migrant Christian community from the south and the Nuba Mountains, and designed to reduce the visible Christian presence in the capital. Churches that were demolished included both old and newly constructed buildings; communities that rebuilt were demolished again.
-
-The Nuba Mountains — a region of South Kordofan populated by the Nuba people, many of whom are Christian — became one of the most devastating theaters of anti-civilian violence. The Nuba, who largely sided with the SPLM/A in the civil war, faced a government campaign that included aerial bombardment of villages, destruction of food supplies, and blockade of humanitarian access. Churches in the Nuba were bombed — the Heiban airstrip area saw multiple attacks on Christian communities by government Antonov bombers and military jets. The Nuba Mountains crisis was one of the most extensively documented and least-publicized atrocities of the Bashir era.
-
-Apostasy prosecutions were used as a tool of intimidation and coercion. The most internationally publicized case was that of Mariam Ibrahim — a Sudanese Christian woman whose father was Muslim, which under Sudanese law classified her as Muslim. She was prosecuted in 2014 for apostasy (having married a Christian man and practiced Christianity) and sentenced to death by hanging. While pregnant, she gave birth in prison while shackled. Under enormous international pressure — including advocacy by governments, international Christian organizations, and the Vatican — Sudan eventually released her in June 2014. She was subsequently rearrested and held for weeks before being permitted to emigrate to the United States with her husband and children. The Mariam Ibrahim case was the most visible individual episode of what was standard practice against Christian converts in Sudan for three decades.
-
-## The 2019 Revolution and Its Reversal
-
-Bashir’s government fell in April 2019 when mass popular protests — drawing on a broad coalition including Christians, secular liberals, trade unions, and disaffected military factions — forced the military to remove him. Bashir was subsequently prosecuted domestically on corruption charges; his transfer to the International Criminal Court (which had indicted him for genocide and crimes against humanity in Darfur) was promised by the transitional government but not executed.
-
-The transitional government that followed (the Sovereignty Council, combining civilian and military leadership) made meaningful gestures toward religious freedom: apostasy laws were repealed; alcohol prohibitions for non-Muslims were lifted; permits for new church construction were promised. The international Christian community cautiously welcomed these steps.
-
-The October 2021 military coup — in which the military faction of the Sovereignty Council dissolved the civilian government and jailed prime minister Abdalla Hamdok — reversed the democratic transition and returned Sudan to military governance. The religious freedom reforms of the transition period were not fully reversed, but the coup ended the trajectory toward genuine pluralism and accountability.
-
-## The 2023 Civil War and the Current Crisis
-
-In April 2023, fighting broke out in Khartoum between the SAF (Sudanese Armed Forces) and the RSF (Rapid Support Forces), a powerful paramilitary organization that had grown from the Janjaweed militias responsible for the Darfur genocide. The war rapidly engulfed Khartoum — a city of six million — and spread to Darfur and other regions. By early 2025, the conflict had killed tens of thousands, displaced over eight million people internally, and sent millions more as refugees to Egypt, Chad, Ethiopia, South Sudan, and beyond. The UN designated Sudan as the world’s largest displacement crisis by mid-2024.
-
-For Khartoum’s Christian communities — which had spent decades building churches and institutions in the capital despite everything Bashir had done — the civil war was catastrophic. Churches were shelled, some destroyed, others occupied by armed forces. Christian neighborhoods were targeted by RSF forces. Pastors who stayed with their congregations were caught in fighting; some were killed. Christian schools and hospitals — the institutional fruit of decades of mission work — were damaged or destroyed. Thousands of Christian families who had survived Bashir’s persecution were displaced again, this time by a war between the same military establishment and a paramilitary force whose Janjaweed heritage made it particularly dangerous.
-
-The Darfur region — whose genocide under Bashir killed an estimated 200,000–300,000 people, many of them Christian or traditional religion Fur, Masalit, and Zaghawa — has seen renewed RSF atrocities in the 2023 war. El Fasher, Darfur’s last major city outside RSF control, was under RSF siege as of early 2025.
-
-## The Church That Will Not Leave
-
-Sudanese Christian leaders — many of whom were forced to watch their churches demolished, their parishioners persecuted, and their communities displaced through three decades of Islamist governance, and who now navigate a civil war — have consistently demonstrated a theological commitment to staying with their people. The Sudan Council of Churches, the Catholic Church, the Coptic community, and evangelical denominations have all maintained presence and provided pastoral care through conditions that would justify evacuation. They have buried their dead, sheltered their displaced, and continued to proclaim that the people of Sudan — Muslim and Christian alike — are image-bearers of God whose lives have value.
+Over ten million people have been displaced internally and millions more have fled abroad, with famine confirmed in multiple areas. Christian communities in Khartoum have largely scattered. The Nuba Mountains remain contested.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #8
-- **Estimated Christian Population:** 3–5% of approximately 46 million (~1.5–2.5 million)
-- **Primary Historical Threats:** Bashir Islamist governance — church demolitions, apostasy prosecutions (Mariam Ibrahim case), Nuba Mountains bombing campaign
-- **Current Crisis:** April 2023 civil war — churches shelled, Christians displaced, Darfur atrocities renewed
-- **Displacement:** 8+ million internally displaced; millions of refugees — largest displacement crisis in the world (2024)
-- **Notable:** Mariam Ibrahim — sentenced to death for apostasy while pregnant (2014); acquitted under international pressure; Nuba Mountains Christian communities bombed for decades; 2023 war devastated Khartoum’s Christian institutions
+- **Persecution Score:** Very High (73/100), **Rank:** #5 of 192 countries
+- **Estimated Christian Population:** about 2 million, roughly 5 percent
+- **Primary Threats:** Civil war, destruction and occupation of churches, mass displacement, resurgent Islamist influence
+- **Open Doors WWL 2026:** #4, among the highest violence scores recorded
+- **Legal Note:** The apostasy law was abolished in 2020, and the protection it offered has been overtaken by war
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Sudan* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Sudan* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- UN OCHA, *Sudan Situation Reports* — unocha.org
+- Human Rights Watch, *Sudan* — hrw.org/africa/sudan
+- Christian Solidarity Worldwide, *Sudan* — csw.org.uk
 
 -----
 
@@ -712,27 +725,33 @@ Sudanese Christian leaders — many of whom were forced to watch their churches 
 COUNTRY: Suriname
 TITLE: Suriname — Christianity & Persecution Profile
 SLUG: country-profiles/suriname
-META DESCRIPTION: Suriname is a small, religiously diverse South American nation with full religious freedom. Its unique demographic mix includes Christian, Hindu, Muslim, and traditional communities who generally coexist with remarkable tolerance.
+META DESCRIPTION: Suriname is a religiously mixed South American nation with a Christian plurality and strong religious freedom.
 CATEGORY: Country Profiles
-TAGS: Suriname, South America, Christian Majority, Hindu, Muslim, Religious Freedom, Interreligious Harmony
-PERSECUTION TIER: Low
+TAGS: Suriname, South America, Moravian, Catholic, Hinduism, Islam, Pluralism, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Suriname is a small South American nation of approximately 600,000 people with one of the most demographically diverse religious landscapes in the Western Hemisphere, a product of its history of African slavery and indentured laborers from the Netherlands, India, Indonesia, and China. Approximately 48% of Surinamese are Christian — Catholic, Dutch Reformed, Moravian (a particularly significant historical presence), evangelical, and Pentecostal — alongside 22% Hindu, 14% Muslim, 5% Winti (an Afro-Surinamese traditional religion), and smaller communities.
+Suriname is around 48 percent Christian, with Hindus near 22 percent and Muslims near 14 percent, one of the most religiously mixed countries in the Americas as a result of Dutch colonization, slavery, and Indian and Javanese indentured labor. Religious freedom is constitutionally protected, public holidays span all major faiths, and interfaith relations are good.
 
-Christianity arrived through Dutch colonial missions, with the Moravian Brethren playing a particularly remarkable role. The Moravians — a pietist Protestant movement originating in 18th-century Bohemia — established missions in Suriname in 1735 specifically among the enslaved African population. Their willingness to engage enslaved people as full human beings deserving of the gospel — at a time when most colonial Christianity was entirely complicit with slavery — made them historically significant. Two Moravian missionaries, Johann Leonhard Dober and David Nitschmann, famously offered to sell themselves into slavery to reach the enslaved population of the Caribbean. This tradition of committed, sacrificial mission among the poor laid deep roots.
+The Moravian Church, which began work here in 1735, is the largest Protestant body and was among the earliest Protestant missions to enslaved people anywhere. Catholics form the other major group. Maroon communities in the interior, descended from people who escaped slavery, practice a mix of Christianity and African traditional religion, and Winti, the Afro-Surinamese religion, is openly practiced after being outlawed until 1971.
 
-Suriname’s interreligious relations are generally positive. The country’s small size, shared history, and intermarriage across ethnic and religious communities have produced a degree of practical pluralism that larger societies struggle to achieve. Christians practice freely; there is no persecution and no systematic discrimination. Suriname is not on the Open Doors World Watch List.
+A mosque and a synagogue stand side by side in Paramaribo and are a standard emblem of the country's coexistence. There is no persecution.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~48%
-- **Current Status:** Full religious freedom; no persecution; remarkable interreligious coexistence
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Moravian Brethren established mission to enslaved Africans in Suriname (1735) — one of the most significant early Protestant missions to enslaved people in the Caribbean
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 48 percent
+- **Current Status:** Full religious freedom, strong pluralism
+- **Historical Note:** Moravian mission work among enslaved people from 1735
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Suriname* (most recent edition) — state.gov
+- General Bureau of Statistics Suriname, census religion data — statistics-suriname.org
+- CIA World Factbook: Suriname — cia.gov/the-world-factbook/countries/suriname/
 
 -----
 
-*End of Batch 7 — 20 Countries (Poland through Suriname)*
-*Next Batch: Sweden through Zimbabwe (final batch)*
+*End of Batch 7 Revised 2026 — Poland through Suriname, 19 Countries*
+*Next: Batch 8*
