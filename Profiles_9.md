@@ -10,7 +10,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Andorra
 TITLE: Andorra — Christianity & Persecution Profile
 SLUG: country-profiles/andorra
@@ -39,7 +38,6 @@ Minority communities, including a Muslim population among immigrant workers, hav
 
 -----
 
-# ================================================================================
 COUNTRY: Antigua and Barbuda
 TITLE: Antigua and Barbuda — Christianity & Persecution Profile
 SLUG: country-profiles/antigua-and-barbuda
@@ -67,7 +65,6 @@ Hurricane Irma in 2017 destroyed most buildings on Barbuda, including churches, 
 
 -----
 
-# ================================================================================
 COUNTRY: Australia
 TITLE: Australia — Christianity & Persecution Profile
 SLUG: country-profiles/australia
@@ -101,7 +98,6 @@ A bishop and a priest were stabbed during a livestreamed service at a Sydney Ass
 
 -----
 
-# ================================================================================
 COUNTRY: Austria
 TITLE: Austria — Christianity & Persecution Profile
 SLUG: country-profiles/austria
@@ -129,7 +125,6 @@ Tens of thousands leave the Catholic Church each year, partly to avoid the churc
 
 -----
 
-# ================================================================================
 COUNTRY: Barbados
 TITLE: Barbados — Christianity & Persecution Profile
 SLUG: country-profiles/barbados
@@ -157,7 +152,6 @@ Barbados became a republic in November 2021, removing the British monarch as hea
 
 -----
 
-# ================================================================================
 COUNTRY: Belize
 TITLE: Belize — Christianity & Persecution Profile
 SLUG: country-profiles/belize
@@ -186,7 +180,6 @@ Belize runs a church-state partnership in education in which churches manage mos
 
 -----
 
-# ================================================================================
 COUNTRY: Cabo Verde
 TITLE: Cabo Verde — Christianity & Persecution Profile
 SLUG: country-profiles/cabo-verde
@@ -212,7 +205,6 @@ Cabo Verde is around 77 percent Catholic with Protestant, Nazarene, Adventist, a
 
 -----
 
-# ================================================================================
 COUNTRY: Dominica
 TITLE: Dominica — Christianity & Persecution Profile
 SLUG: country-profiles/dominica
@@ -238,7 +230,6 @@ Dominica is around 90 percent Christian, with a Catholic majority from French co
 
 -----
 
-# ================================================================================
 COUNTRY: Grenada
 TITLE: Grenada — Christianity & Persecution Profile
 SLUG: country-profiles/grenada
@@ -264,7 +255,6 @@ Grenada is around 95 percent Christian, with Catholics the largest group alongsi
 
 -----
 
-# ================================================================================
 COUNTRY: Kiribati
 TITLE: Kiribati — Christianity & Persecution Profile
 SLUG: country-profiles/kiribati
@@ -290,7 +280,6 @@ Kiribati is over 95 percent Christian, split mainly between Catholics and the Ki
 
 -----
 
-# ================================================================================
 COUNTRY: Kosovo
 TITLE: Kosovo — Christianity & Persecution Profile
 SLUG: country-profiles/kosovo
@@ -322,7 +311,6 @@ The north, where Serbs are the majority, saw an armed attack at Banjska monaster
 
 -----
 
-# ================================================================================
 COUNTRY: Kuwait
 TITLE: Kuwait — Christianity & Persecution Profile
 SLUG: country-profiles/kuwait
@@ -352,7 +340,6 @@ Evangelizing Muslims is prohibited. A Kuwaiti Muslim who converts faces personal
 
 -----
 
-# ================================================================================
 COUNTRY: Kyrgyzstan
 TITLE: Kyrgyzstan — Christianity & Persecution Profile
 SLUG: country-profiles/kyrgyzstan
@@ -384,7 +371,6 @@ Kyrgyz converts face family and village pressure, including beatings, expulsion 
 
 -----
 
-# ================================================================================
 COUNTRY: Liechtenstein
 TITLE: Liechtenstein — Christianity & Persecution Profile
 SLUG: country-profiles/liechtenstein
@@ -409,7 +395,6 @@ Liechtenstein is around 73 percent Catholic, with Catholicism recognized in the 
 
 -----
 
-# ================================================================================
 COUNTRY: Luxembourg
 TITLE: Luxembourg — Christianity & Persecution Profile
 SLUG: country-profiles/luxembourg
@@ -434,7 +419,6 @@ Luxembourg is around 60 to 70 percent Catholic by identification, with practice 
 
 -----
 
-# ================================================================================
 COUNTRY: Marshall Islands
 TITLE: Marshall Islands — Christianity & Persecution Profile
 SLUG: country-profiles/marshall-islands
@@ -459,7 +443,6 @@ The Marshall Islands is over 95 percent Christian, with the United Church of Chr
 
 -----
 
-# ================================================================================
 COUNTRY: Micronesia
 TITLE: Federated States of Micronesia — Christianity & Persecution Profile
 SLUG: country-profiles/micronesia
@@ -484,7 +467,6 @@ The Federated States of Micronesia is over 95 percent Christian, split roughly b
 
 -----
 
-# ================================================================================
 COUNTRY: Monaco
 TITLE: Monaco — Christianity & Persecution Profile
 SLUG: country-profiles/monaco
@@ -509,7 +491,6 @@ Monaco's constitution names Catholicism as the state religion, and around 80 per
 
 -----
 
-# ================================================================================
 COUNTRY: Nauru
 TITLE: Nauru — Christianity & Persecution Profile
 SLUG: country-profiles/nauru
@@ -534,7 +515,6 @@ Nauru is around 95 percent Christian, predominantly Nauru Congregational Church 
 
 -----
 
-# ================================================================================
 COUNTRY: Palau
 TITLE: Palau — Christianity & Persecution Profile
 SLUG: country-profiles/palau
@@ -559,7 +539,6 @@ Palau is around 90 percent Christian, with Catholics the largest group alongside
 
 -----
 
-# ================================================================================
 COUNTRY: Saint Kitts and Nevis
 TITLE: Saint Kitts and Nevis — Christianity & Persecution Profile
 SLUG: country-profiles/saint-kitts-and-nevis
@@ -584,7 +563,6 @@ Saint Kitts and Nevis is around 90 percent Christian, with Anglicans and Methodi
 
 -----
 
-# ================================================================================
 COUNTRY: Saint Lucia
 TITLE: Saint Lucia — Christianity & Persecution Profile
 SLUG: country-profiles/saint-lucia
@@ -609,7 +587,6 @@ Saint Lucia is around 90 percent Christian with a Catholic majority from French 
 
 -----
 
-# ================================================================================
 COUNTRY: Saint Vincent and the Grenadines
 TITLE: Saint Vincent and the Grenadines — Christianity & Persecution Profile
 SLUG: country-profiles/saint-vincent-and-the-grenadines
@@ -634,7 +611,6 @@ Saint Vincent and the Grenadines is around 90 percent Christian, with Anglican, 
 
 -----
 
-# ================================================================================
 COUNTRY: Samoa
 TITLE: Samoa — Christianity & Persecution Profile
 SLUG: country-profiles/samoa
@@ -659,7 +635,6 @@ Samoa is around 98 percent Christian and amended its constitution in 2017 to dec
 
 -----
 
-# ================================================================================
 COUNTRY: San Marino
 TITLE: San Marino — Christianity & Persecution Profile
 SLUG: country-profiles/san-marino
@@ -684,7 +659,6 @@ San Marino is around 90 percent Catholic and traces its founding to Saint Marinu
 
 -----
 
-# ================================================================================
 COUNTRY: Sao Tome and Principe
 TITLE: São Tomé and Príncipe — Christianity & Persecution Profile
 SLUG: country-profiles/sao-tome-and-principe
@@ -709,7 +683,6 @@ São Tomé and Príncipe is around 55 percent Catholic, with growing Protestant,
 
 -----
 
-# ================================================================================
 COUNTRY: Solomon Islands
 TITLE: Solomon Islands — Christianity & Persecution Profile
 SLUG: country-profiles/solomon-islands
@@ -738,7 +711,6 @@ During the ethnic tensions of 1998 to 2003, the Melanesian Brotherhood, an Angli
 
 -----
 
-# ================================================================================
 COUNTRY: Tonga
 TITLE: Tonga — Christianity & Persecution Profile
 SLUG: country-profiles/tonga
@@ -763,7 +735,6 @@ Tonga is around 98 percent Christian, with the Free Wesleyan Church, Latter-day 
 
 -----
 
-# ================================================================================
 COUNTRY: Tuvalu
 TITLE: Tuvalu — Christianity & Persecution Profile
 SLUG: country-profiles/tuvalu
@@ -788,7 +759,6 @@ Tuvalu is around 94 percent members of the Church of Tuvalu, a Congregationalist
 
 -----
 
-# ================================================================================
 COUNTRY: Vanuatu
 TITLE: Vanuatu — Christianity & Persecution Profile
 SLUG: country-profiles/vanuatu
@@ -813,4 +783,3 @@ Vanuatu is over 90 percent Christian, with Presbyterians the largest group along
 
 -----
 
-*End of Batch 9 Revised 2026 — 30 Countries*
