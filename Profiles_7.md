@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Poland
 TITLE: Poland — Christianity & Persecution Profile
 SLUG: country-profiles/poland
@@ -42,7 +41,6 @@ Abortion law remains the sharpest public dispute. A 2020 Constitutional Tribunal
 
 -----
 
-# ================================================================================
 COUNTRY: Portugal
 TITLE: Portugal — Christianity & Persecution Profile
 SLUG: country-profiles/portugal
@@ -76,7 +74,6 @@ Portugal was governed by the Estado Novo until 1974, a regime that granted the c
 
 -----
 
-# ================================================================================
 COUNTRY: Qatar
 TITLE: Qatar — Christianity & Persecution Profile
 SLUG: country-profiles/qatar
@@ -113,7 +110,6 @@ Migrant workers, who make up the bulk of the Christian population, face labor co
 
 -----
 
-# ================================================================================
 COUNTRY: Romania
 TITLE: Romania — Christianity & Persecution Profile
 SLUG: country-profiles/romania
@@ -149,7 +145,6 @@ Current friction concerns the 2006 religion law, which sets a high membership th
 
 -----
 
-# ================================================================================
 COUNTRY: Russia
 TITLE: Russia — Christianity & Persecution Profile
 SLUG: country-profiles/russia
@@ -197,7 +192,6 @@ In areas of Ukraine under Russian control, religious organizations must re-regis
 
 -----
 
-# ================================================================================
 COUNTRY: Rwanda
 TITLE: Rwanda — Christianity & Persecution Profile
 SLUG: country-profiles/rwanda
@@ -241,7 +235,6 @@ A 2018 law also requires pastors to hold a theology degree, which most independe
 
 -----
 
-# ================================================================================
 COUNTRY: Saudi Arabia
 TITLE: Saudi Arabia — Christianity & Persecution Profile
 SLUG: country-profiles/saudi-arabia
@@ -286,7 +279,6 @@ Migrant workers have limited recourse in labor disputes, and Christian workers r
 
 -----
 
-# ================================================================================
 COUNTRY: Senegal
 TITLE: Senegal — Christianity & Persecution Profile
 SLUG: country-profiles/senegal
@@ -321,7 +313,6 @@ The Casamance separatist conflict in the south, running since 1982 at low intens
 
 -----
 
-# ================================================================================
 COUNTRY: Serbia
 TITLE: Serbia — Christianity & Persecution Profile
 SLUG: country-profiles/serbia
@@ -356,7 +347,6 @@ The Serbian Church granted autocephaly to the Macedonian Church in 2022, resolvi
 
 -----
 
-# ================================================================================
 COUNTRY: Sierra Leone
 TITLE: Sierra Leone — Christianity & Persecution Profile
 SLUG: country-profiles/sierra-leone
@@ -390,7 +380,6 @@ Ebola in 2014 and 2015 killed nearly 4,000 people, and religious leaders of both
 
 -----
 
-# ================================================================================
 COUNTRY: Singapore
 TITLE: Singapore — Christianity & Persecution Profile
 SLUG: country-profiles/singapore
@@ -425,7 +414,6 @@ Churches are cautious about political speech. Clergy who comment on policy draw 
 
 -----
 
-# ================================================================================
 COUNTRY: Somalia
 TITLE: Somalia — Christianity & Persecution Profile
 SLUG: country-profiles/somalia
@@ -472,7 +460,6 @@ There is no public church, no clergy, no Christian school, and no Christian book
 
 -----
 
-# ================================================================================
 COUNTRY: South Africa
 TITLE: South Africa — Christianity & Persecution Profile
 SLUG: country-profiles/south-africa
@@ -513,7 +500,6 @@ The CRL Rights Commission investigated commercialization and abuse in some indep
 
 -----
 
-# ================================================================================
 COUNTRY: South Korea
 TITLE: South Korea — Christianity & Persecution Profile
 SLUG: country-profiles/south-korea
@@ -547,7 +533,6 @@ Domestic issues concern conscientious objection, recognized by the Constitutiona
 
 -----
 
-# ================================================================================
 COUNTRY: South Sudan
 TITLE: South Sudan — Christianity & Persecution Profile
 SLUG: country-profiles/south-sudan
@@ -589,7 +574,6 @@ Church leaders have been among the most persistent voices for peace. Pope Franci
 
 -----
 
-# ================================================================================
 COUNTRY: Spain
 TITLE: Spain — Christianity & Persecution Profile
 SLUG: country-profiles/spain
@@ -630,7 +614,6 @@ Anti-Christian vandalism is recorded in the hundreds annually by the Observatory
 
 -----
 
-# ================================================================================
 COUNTRY: Sri Lanka
 TITLE: Sri Lanka — Christianity & Persecution Profile
 SLUG: country-profiles/sri-lanka
@@ -673,7 +656,6 @@ Catholic and mainline Protestant churches, established long before independence,
 
 -----
 
-# ================================================================================
 COUNTRY: Sudan
 TITLE: Sudan — Christianity & Persecution Profile
 SLUG: country-profiles/sudan
@@ -721,7 +703,6 @@ Over ten million people have been displaced internally and millions more have fl
 
 -----
 
-# ================================================================================
 COUNTRY: Suriname
 TITLE: Suriname — Christianity & Persecution Profile
 SLUG: country-profiles/suriname
@@ -753,5 +734,3 @@ A mosque and a synagogue stand side by side in Paramaribo and are a standard emb
 
 -----
 
-*End of Batch 7 Revised 2026 — Poland through Suriname, 19 Countries*
-*Next: Batch 8*
