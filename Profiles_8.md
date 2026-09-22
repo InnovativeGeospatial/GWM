@@ -8,7 +8,6 @@
 
 -----
 
-# ================================================================================
 COUNTRY: Sweden
 TITLE: Sweden — Christianity & Persecution Profile
 SLUG: country-profiles/sweden
@@ -40,7 +39,6 @@ Public Quran burnings in 2023 caused a diplomatic crisis and led to debate about
 
 -----
 
-# ================================================================================
 COUNTRY: Switzerland
 TITLE: Switzerland — Christianity & Persecution Profile
 SLUG: country-profiles/switzerland
@@ -74,7 +72,6 @@ Church membership is falling steeply, driven by aging, disaffiliation, and abuse
 
 -----
 
-# ================================================================================
 COUNTRY: Syria
 TITLE: Syria — Christianity & Persecution Profile
 SLUG: country-profiles/syria
@@ -122,7 +119,6 @@ The transitional constitution names Islamic jurisprudence as the principal sourc
 
 -----
 
-# ================================================================================
 COUNTRY: Taiwan
 TITLE: Taiwan — Christianity & Persecution Profile
 SLUG: country-profiles/taiwan
@@ -154,7 +150,6 @@ Chinese Communist Party pressure on Taiwan has religious dimensions. Beijing cul
 
 -----
 
-# ================================================================================
 COUNTRY: Tajikistan
 TITLE: Tajikistan — Christianity & Persecution Profile
 SLUG: country-profiles/tajikistan
@@ -195,7 +190,6 @@ Tajiks who convert from Islam face family pressure, beatings, and expulsion from
 
 -----
 
-# ================================================================================
 COUNTRY: Tanzania
 TITLE: Tanzania — Christianity & Persecution Profile
 SLUG: country-profiles/tanzania
@@ -227,7 +221,6 @@ The October 2025 general election produced nationwide unrest after opposition ca
 
 -----
 
-# ================================================================================
 COUNTRY: Thailand
 TITLE: Thailand — Christianity & Persecution Profile
 SLUG: country-profiles/thailand
@@ -261,7 +254,6 @@ Thailand hosts large numbers of refugees from Myanmar, many of them Christian Ka
 
 -----
 
-# ================================================================================
 COUNTRY: Timor-Leste
 TITLE: Timor-Leste — Christianity & Persecution Profile
 SLUG: country-profiles/timor-leste
@@ -295,7 +287,6 @@ In 2022 the Vatican confirmed disciplinary sanctions against Bishop Belo over al
 
 -----
 
-# ================================================================================
 COUNTRY: Togo
 TITLE: Togo — Christianity & Persecution Profile
 SLUG: country-profiles/togo
@@ -327,7 +318,6 @@ Politically, the Gnassingbé family has governed since 1967. A 2024 constitution
 
 -----
 
-# ================================================================================
 COUNTRY: Trinidad and Tobago
 TITLE: Trinidad and Tobago — Christianity & Persecution Profile
 SLUG: country-profiles/trinidad-and-tobago
@@ -361,7 +351,6 @@ Violent crime is the current threat, and the government declared a nationwide st
 
 -----
 
-# ================================================================================
 COUNTRY: Tunisia
 TITLE: Tunisia — Christianity & Persecution Profile
 SLUG: country-profiles/tunisia
@@ -402,7 +391,6 @@ Sub-Saharan migrants, many of them Christian, have been targeted in waves of vio
 
 -----
 
-# ================================================================================
 COUNTRY: Turkey
 TITLE: Türkiye — Christianity & Persecution Profile
 SLUG: country-profiles/turkey
@@ -445,7 +433,6 @@ Three Christians were murdered at the Zirve publishing house in Malatya in 2007,
 
 -----
 
-# ================================================================================
 COUNTRY: Turkmenistan
 TITLE: Turkmenistan — Christianity & Persecution Profile
 SLUG: country-profiles/turkmenistan
@@ -484,7 +471,6 @@ The presidency passed from Gurbanguly Berdimuhamedov to his son Serdar in 2022 w
 
 -----
 
-# ================================================================================
 COUNTRY: Uganda
 TITLE: Uganda — Christianity & Persecution Profile
 SLUG: country-profiles/uganda
@@ -519,7 +505,6 @@ In the east, Muslims who convert face family violence, expulsion, and in documen
 
 -----
 
-# ================================================================================
 COUNTRY: Ukraine
 TITLE: Ukraine — Christianity & Persecution Profile
 SLUG: country-profiles/ukraine
@@ -559,7 +544,6 @@ The Orthodox Church of Ukraine received autocephaly from the Ecumenical Patriarc
 
 -----
 
-# ================================================================================
 COUNTRY: United Arab Emirates
 TITLE: United Arab Emirates — Christianity & Persecution Profile
 SLUG: country-profiles/united-arab-emirates
@@ -594,7 +578,6 @@ The UAE sits at advisory level 3 following the onset of hostilities between the 
 
 -----
 
-# ================================================================================
 COUNTRY: United Kingdom
 TITLE: United Kingdom — Christianity & Persecution Profile
 SLUG: country-profiles/united-kingdom
@@ -629,7 +612,6 @@ Churches have been attacked by terrorists, including the murder of Sir David Ame
 
 -----
 
-# ================================================================================
 COUNTRY: United States
 TITLE: United States — Christianity & Persecution Profile
 SLUG: country-profiles/united-states
@@ -664,7 +646,6 @@ The U.S. government, through the State Department's Office of International Reli
 
 -----
 
-# ================================================================================
 COUNTRY: Uruguay
 TITLE: Uruguay — Christianity & Persecution Profile
 SLUG: country-profiles/uruguay
@@ -694,7 +675,6 @@ Evangelical churches have grown and become more politically visible. Debate over
 
 -----
 
-# ================================================================================
 COUNTRY: Uzbekistan
 TITLE: Uzbekistan — Christianity & Persecution Profile
 SLUG: country-profiles/uzbekistan
@@ -733,7 +713,6 @@ Uzbek identity is closely tied to Islam, and ethnic Uzbeks who convert face the 
 
 -----
 
-# ================================================================================
 COUNTRY: Venezuela
 TITLE: Venezuela — Christianity & Persecution Profile
 SLUG: country-profiles/venezuela
@@ -766,7 +745,6 @@ Maduro was removed from power in a U.S. operation in January 2026, and the polit
 
 -----
 
-# ================================================================================
 COUNTRY: Vietnam
 TITLE: Vietnam — Christianity & Persecution Profile
 SLUG: country-profiles/vietnam
@@ -807,7 +785,6 @@ The Catholic Church has fought prolonged battles over property seized after 1954
 
 -----
 
-# ================================================================================
 COUNTRY: Yemen
 TITLE: Yemen — Christianity & Persecution Profile
 SLUG: country-profiles/yemen
@@ -853,7 +830,6 @@ Yemeni Christians are almost entirely hidden. Discovery by family can bring conf
 
 -----
 
-# ================================================================================
 COUNTRY: Zambia
 TITLE: Zambia — Christianity & Persecution Profile
 SLUG: country-profiles/zambia
@@ -884,7 +860,6 @@ Church bodies, particularly the Catholic bishops and the Council of Churches in 
 
 -----
 
-# ================================================================================
 COUNTRY: Zimbabwe
 TITLE: Zimbabwe — Christianity & Persecution Profile
 SLUG: country-profiles/zimbabwe
@@ -915,5 +890,3 @@ Apostolic groups that reject modern medicine have been linked to low vaccination
 
 -----
 
-*End of Batch 8 Revised 2026 — Sweden through Zimbabwe, 25 Countries*
-*Next: Batch 9*
