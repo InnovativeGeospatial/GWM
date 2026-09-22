@@ -1,8 +1,10 @@
-# GWM Country Profiles — Batch 3 (E–G, 20 Countries)
+# GWM Country Profiles — Batch 3 (REVISED 2026)
 
-# Egypt through Guyana
+# Egypt through Guyana — 20 Countries
 
-# Format: WordPress-ready | Tiers: High (1,700–2,100w) | Moderate (600–900w) | Low (250–400w)
+# Scores from GWM rankings.json, 20 September 2026
+
+# No inline citations. Sources listed at the end of each profile.
 
 -----
 
@@ -10,83 +12,58 @@
 COUNTRY: Egypt
 TITLE: Egypt — Christianity & Persecution Profile
 SLUG: country-profiles/egypt
-META DESCRIPTION: Egypt is home to the Coptic Church — one of the oldest Christian communities on earth — whose 10–12 million members face ISIS bombings, church construction barriers, social discrimination, and severe consequences for those who leave Islam. The church of the martyrs endures.
+META DESCRIPTION: Egypt holds the largest Christian population in the Middle East. Copts trace their church to Mark the Evangelist and face discrimination, mob violence, and restrictions on building churches.
 CATEGORY: Country Profiles
-TAGS: Egypt, North Africa, Coptic Church, Coptic Christians, ISIS, Persecution, WWL Top 40, Apostasy, Church Construction
+TAGS: Egypt, Middle East, Coptic Orthodox, Church Building Law, Mob Violence, Converts, WWL Top 50
 PERSECUTION TIER: High
-WWL RANKING: #35 (Open Doors 2024)
 
 ## Overview
 
-Egypt is home to one of the oldest continuous Christian communities in the world. The Coptic Orthodox Church traces its founding to the Apostle and Evangelist Mark, who according to tradition brought the gospel to Alexandria in the first century AD. From Alexandria, Christianity spread throughout Egypt and across the Roman world. This is not a peripheral branch of Christian history — Egypt was at the center of early Christian theology, monasticism, and biblical scholarship. It is the land of Athanasius and Cyril, of Anthony the Great and Pachomius, of the Desert Fathers who shaped Christian spirituality for all subsequent centuries.
+Egypt holds the largest Christian community in the Middle East, roughly 10 million people, most of them Coptic Orthodox. This is an ancient indigenous church, not a colonial import, and it has survived fourteen centuries of Islamic rule. Copts today face a mix of legal discrimination, mob violence in rural Upper Egypt, and severe danger for Muslims who convert. Open Doors ranked Egypt 42nd on the 2026 World Watch List.
 
-Today, Coptic Christians number between 10 and 12 million — roughly 10% of Egypt’s population of 105 million. They are the largest indigenous Christian community in the Middle East and North Africa. They are also a community under sustained pressure: from laws that restrict church construction, from social discrimination in employment and public life, from the devastating consequences of leaving Islam for those who were born Muslim, and from periodic outbreaks of violent extremism that have bombed their churches, burned their villages, and killed their people. Egypt’s ranking at #35 on the 2024 Open Doors World Watch List reflects this accumulated and ongoing pressure on a community whose roots in their land predate Islam by seven centuries.
+## The Coptic Church
 
-## The Apostolic Foundation: Mark in Alexandria
+Tradition credits Mark the Evangelist with founding the church in Alexandria around 42 AD. Alexandria became one of the great centers of Christian thought, producing Clement, Origen, and Athanasius, whose defense of Nicene orthodoxy shaped the doctrine of the Trinity. Egyptian deserts gave the church monasticism itself, through Anthony the Great and Pachomius, a movement that spread across Christendom.
 
-The tradition that Mark the Evangelist founded the church in Alexandria is both ancient and deeply embedded in Coptic identity. Whether or not Mark arrived personally in Alexandria during his lifetime, what is clear from the historical record is that Christianity was firmly established in Egypt — and particularly in Alexandria — by the late first and early second centuries AD. Alexandria was one of the greatest cities of the ancient world: a center of learning, commerce, and intellectual diversity. Its Jewish community was enormous and already deeply engaged with Greek philosophy; this Alexandrian context shaped how Christianity developed its earliest theological frameworks.
+The Council of Chalcedon in 451 split the Egyptian church from Rome and Constantinople, and the Coptic Orthodox Church has been an Oriental Orthodox body ever since. The Arab conquest of 641 made Copts a dhimmi community, paying the jizya and living under legal disability. Conversion to Islam happened over centuries through a mix of tax pressure, social advantage, and periodic persecution. Copts became a minority sometime around the fourteenth century and have remained one.
 
-The Catechetical School of Alexandria — the first known Christian institution of advanced theological education — produced figures of permanent importance: Clement of Alexandria, Origen, and later Athanasius, whose defense of the full divinity of Christ against Arianism at the Council of Nicaea (325 AD) shaped the Trinitarian orthodoxy that defines Christian faith to this day. The phrase “one in being with the Father” in the Nicene Creed is substantially Athanasius’s formulation.
+## Modern Pressure
 
-Egyptian Christianity also gave the world Christian monasticism. Anthony the Great (c. 251–356 AD), who retreated to the Egyptian desert to live in prayer and ascetic discipline, is considered the father of Christian monasticism. Pachomius developed communal monastic life — the organized monastery — in the 4th century. The traditions Anthony and Pachomius established spread throughout the church and remain foundational to monastic life in both East and West.
+Copts hold Egyptian citizenship with full formal rights and face real limits in practice. They are underrepresented in senior posts in the military, security services, judiciary, and universities. Local officials sometimes side with Muslim complainants in communal disputes.
 
-## The Council of Chalcedon and the Coptic Separation
+Church construction was governed for over a century by rules requiring presidential approval and imposing conditions no mosque faced. A 2016 law moved approval to provincial governors and created a committee to legalize existing unlicensed churches. Thousands of applications have been processed and thousands more wait. Rumors that a building is being used for worship without a permit still trigger mob attacks.
 
-The Council of Chalcedon in 451 AD was the pivotal moment of Coptic divergence from what would become the Greek Orthodox and Roman Catholic traditions. The council defined Christ as having two complete natures — divine and human — in one person. The Coptic Church, along with the Ethiopian, Armenian, and Syriac churches, rejected this formulation. The Copts held to miaphysitism — the belief that Christ’s divine and human natures are united in one nature without separation, confusion, or mixture. This theological difference, sometimes called the Oriental-Chalcedonian split, has kept the Coptic Church in a separate communion from both Catholicism and Eastern Orthodoxy for sixteen centuries, though modern ecumenical dialogue has significantly narrowed the perceived gap.
+Sectarian violence concentrates in Upper Egypt. Houses are burned, shops looted, and families expelled, often after an accusation of a romantic relationship across religious lines or of insulting Islam. Authorities frequently resolve these through customary reconciliation sessions that impose settlements on Copts and bring no prosecutions.
 
-The split had immediate political consequences: the Alexandrian church under a Coptic patriarch was no longer in communion with Constantinople, and the Byzantine emperors who backed Chalcedonian theology treated the Coptic hierarchy as schismatics. By the time of the Arab Islamic conquest in the 7th century, Egypt’s Christian majority was already estranged from the empire that might have defended it.
+## Terrorism
 
-## The Arab Conquest and Dhimmi Status
+Islamic State's Sinai affiliate declared Copts a priority target. Bombings at Cairo's Saint Peter and Saint Paul Church in December 2016 killed at least 28. Coordinated Palm Sunday attacks on churches in Tanta and Alexandria in April 2017 killed at least 45. Gunmen attacked buses carrying pilgrims to the Monastery of Saint Samuel in 2017 and again in 2018. Copts were also abducted and executed in Libya, including the twenty-one killed by Islamic State in 2015 and later recognized as martyrs by the Coptic Church.
 
-Arab Muslim forces under Amr ibn al-As conquered Egypt between 639 and 642 AD. For the Coptic population, the conquest was ambiguous: the Arab conquerors, who were hostile to Byzantine political authority, initially treated the Copts better than the Byzantines had, allowing the Coptic patriarch to return from exile. Over subsequent centuries, however, the situation deteriorated systematically. Under the dhimmi system — the Islamic legal framework governing non-Muslim subjects — Copts were permitted to practice their faith but were subject to a range of disabilities: the jizya (a poll tax levied on non-Muslims), restrictions on building or repairing churches, prohibitions on proselytizing to Muslims, requirements to wear distinctive dress, and exclusion from senior government and military positions.
+Security improved after sustained operations in Sinai, and mass-casualty church attacks have not recurred at the 2016 and 2017 rate.
 
-Over the following millennium, Egypt’s Christian majority gradually became a minority as conversion to Islam — motivated by a combination of genuine conviction, social pressure, economic advantage, and periodic coercion — reduced the Coptic population from the majority of Egypt to somewhere between 10 and 15% by the modern era. The Copts who remained maintained their liturgy in Coptic — a descendant of the ancient Egyptian language — long after it ceased to be a spoken vernacular, a remarkable act of liturgical fidelity to their identity.
+## Converts
 
-## Modern Egypt: Discrimination and Violence
+A Muslim who becomes a Christian in Egypt cannot change the religion listed on national identity documents, which governs marriage, inheritance, and the religious education of children. Converts face family violence, forced divorce, and disappearance. Their situation is far more dangerous than that of born Copts, and they cannot join Coptic congregations safely.
 
-The 20th century was complex for Egyptian Christians. Coptic Pope Shenouda III (1971–2012) was an enormously significant figure who expanded Coptic international presence and Coptic Orthodox diaspora communities while navigating a difficult relationship with successive Egyptian governments. President Nasser’s Arab nationalist project was secular in principle but generated Islamist reaction. President Sadat’s assassination in 1981 was carried out by Islamic Jihad members; Sadat was killed partly because he had engaged in peace with Israel — and his assassins were connected to networks that also targeted Copts. President Mubarak’s long rule (1981–2011) maintained a degree of state protection for Copts while tolerating social Islamization and failing to prosecute anti-Coptic violence reliably.
-
-The January 2011 uprising that removed Mubarak opened a period of acute danger for Copts. The Muslim Brotherhood, which had been suppressed under Mubarak, won both parliamentary elections and the presidency (Mohammed Morsi, 2012–2013). During this period, anti-Coptic violence intensified: churches were burned, Coptic homes and businesses attacked, and Copts reported feeling acute vulnerability. The July 2013 military coup that removed Morsi — led by General Abdel Fattah el-Sisi — was broadly welcomed by Coptic leadership, who had experienced the Brotherhood year as deeply threatening.
-
-Under el-Sisi, who has ruled Egypt since 2014, the government has positioned itself as a protector of Copts — a posture that has produced real security benefits alongside continued structural problems. El-Sisi attended Christmas Mass at the Coptic Cathedral — the first Egyptian president to do so — and has made symbolic gestures of solidarity with the Coptic community. His government has prosecuted some attacks on Copts with more rigor than predecessors.
-
-## ISIS and the Martyrs
-
-The most devastating violence against Egypt’s Christians in modern times came from the Islamic State. Between 2015 and 2018, ISIS in Egypt’s Sinai Peninsula — operating as “ISIS Sinai Province” — conducted a sustained campaign of terror against the Coptic community there, forcing mass displacement of thousands of Coptic families from the town of al-Arish and surrounding villages. The Sinai Copts who fled joined already strained communities elsewhere in Egypt.
-
-The deadliest attacks occurred outside the Sinai. On Palm Sunday 2017, ISIS suicide bombers struck two Coptic churches simultaneously: St. George’s Church in Tanta and St. Mark’s Cathedral in Alexandria — the seat of the Coptic papacy. The attacks killed 45 people and wounded more than 100. In May 2017, gunmen attacked buses carrying Coptic Christians on a pilgrimage to the Monastery of St. Samuel the Confessor in Minya, killing 29 people — including children — in what became known as the Minya Massacre. In November 2018, gunmen attacked another pilgrim bus near the same monastery, killing seven. The pattern was consistent: Copts targeted specifically because of their faith, in places of worship and pilgrimage.
-
-Pope Tawadros II, the current Coptic pope, navigated these attacks with a combination of grief, public solidarity with the victims, and carefully maintained loyalty to the el-Sisi government — a stance that has been both criticized (for providing political cover) and defended (as the realistic posture of a vulnerable minority leadership operating within a powerful state). The Coptic Church has canonized a number of those killed in recent attacks as modern martyrs.
-
-## Church Construction and Repair
-
-One of the most persistent structural problems facing Egypt’s Copts is the extreme difficulty of building or repairing church buildings. For centuries under various legal frameworks, churches required special permits — often from the highest levels of government — while mosques faced no comparable restriction. A 2016 law was intended to rationalize the process, and it has made some improvement, but the construction of new churches remains significantly more difficult in practice than the construction of new mosques, and local resistance — sometimes violent — to new church projects is common in Upper Egypt.
-
-In a country where the Coptic population is roughly 10 million, the disproportion between church construction and population growth is significant. Congregations that outgrow their buildings have few legal options. The repair of existing buildings — which require permits as well — is similarly constrained. In rural Upper Egypt, where Coptic communities have deep roots, the church building problem is most acute.
-
-## Converts from Islam
-
-Christians who were born Muslim face a specific and acute danger in Egypt. Apostasy from Islam is not explicitly criminalized in the Egyptian Penal Code, but a convert faces the loss of their civil status as a Muslim under personal status law — which in Egypt means Islamic law governs their marriage, divorce, inheritance, and child custody. A convert cannot officially change the religion listed on their national identity card from Islam to Christianity without an extraordinary legal process that is rarely successful. Their children are legally classified as Muslim. Their marriages are not recognized under the state’s interpretation of Islamic personal status law if they were married as Christians.
-
-Beyond the legal framework, converts face severe family and community consequences: rejection, violence, threats, and in some documented cases killing by family members who regard apostasy as a matter of family honor. The state provides minimal protection. Organizations working with Egyptian converts from Islam report this as one of the most dangerous situations for any Christian in the Middle East and North Africa.
-
-## The Coptic Diaspora
-
-The Coptic diaspora — estimated at one to two million people in the United States, Canada, Australia, and Europe — has become an important voice for Coptic rights internationally. Diaspora communities maintain strong ties to the homeland church, send significant financial support, and advocate before Western governments and international bodies. The United States Commission on International Religious Freedom (USCIRF) regularly designates Egypt for particular concern. International advocacy has produced some results — increased pressure on Egypt for accountability after anti-Coptic attacks — but the structural situation within Egypt changes slowly.
-
-## The Church Today
-
-The Coptic Orthodox Church under Pope Tawadros II maintains an extraordinarily dense institutional life: hundreds of active monasteries and convents, thousands of churches, extensive social services including schools and hospitals, active youth programs, and a growing international presence. The Coptic church in Egypt is not a dying institution — it is a living, active, deeply rooted community. Its challenge is not theological or institutional exhaustion but external pressure: the accumulated burden of discrimination, periodic violence, legal inequality, and the social cost of conversion for those who choose to become Christian.
-
-The church’s martyrological consciousness is not abstract. The Coptic liturgical calendar is dense with martyrs from every century of its history. The 21 Coptic migrant workers beheaded on a Libyan beach by ISIS in February 2015 — dressed in orange jumpsuits, each speaking the name of Jesus in their final moments — were canonized by the Coptic Church as the “Martyrs of Libya.” Their deaths, filmed and distributed globally by their killers, became for many Copts a modern icon of the ancient reality: that following Jesus in Egypt has always had a cost, and always will, until the day it does not.
+President Sisi has made public gestures toward Copts, attending Christmas services and opening the Cathedral of the Nativity of Christ in the new capital in 2019. Those gestures have not altered the position of converts or ended communal violence.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #35
-- **Estimated Christian Population:** 10–12 million (~10% of population; predominantly Coptic Orthodox)
-- **Primary Threats:** Church construction barriers, discrimination in employment and civil life, violence from Islamist extremists, severe consequences for converts from Islam
-- **Legal Status:** Christianity legal; Islam the state religion; apostasy not explicitly criminalized but legally and socially devastating
-- **Notable:** Coptic Church founded by St. Mark; oldest continuous Christian community in Africa and one of the oldest in the world; 21 Martyrs of Libya canonized 2015; Palm Sunday bombings 2017
+- **Persecution Score:** High (52/100), **Rank:** #26 of 192 countries
+- **Estimated Christian Population:** about 10 million, roughly 10 percent, mostly Coptic Orthodox
+- **Primary Threats:** Mob violence in Upper Egypt, church building restrictions, discrimination in public employment, extreme danger for converts
+- **Open Doors WWL 2026:** #42
+- **Historical Note:** Founded by Mark the Evangelist. Birthplace of Christian monasticism
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Egypt* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Egypt* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Egyptian Initiative for Personal Rights — eipr.org
+- Coptic Orthodox Church — copticchurch.net
+- Human Rights Watch, *Egypt* — hrw.org/middle-east/n-africa/egypt
+- Meinardus, Otto, *Two Thousand Years of Coptic Christianity* (American University in Cairo Press, 2002)
 
 -----
 
@@ -94,40 +71,40 @@ The church’s martyrological consciousness is not abstract. The Coptic liturgic
 COUNTRY: El Salvador
 TITLE: El Salvador — Christianity & Persecution Profile
 SLUG: country-profiles/el-salvador
-META DESCRIPTION: El Salvador is a deeply Christian nation where the primary threat to pastors and church leaders comes not from the state or Islam, but from violent criminal gangs that have systematically targeted churches challenging their territorial control.
+META DESCRIPTION: El Salvador is overwhelmingly Christian with full religious freedom. Its church carries the memory of Óscar Romero, murdered at the altar in 1980 and canonized in 2018.
 CATEGORY: Country Profiles
-TAGS: El Salvador, Central America, Catholic, Evangelical, Gang Violence, MS-13, Pastoral Persecution, Archbishop Romero
-PERSECUTION TIER: Moderate
+TAGS: El Salvador, Central America, Catholic, Evangelical, Oscar Romero, Gang Violence, Martyrdom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-El Salvador is one of the most densely Christian countries in Latin America — approximately 50% Catholic and 36% Protestant, with the majority of the Protestant community belonging to evangelical and Pentecostal denominations. The state fully guarantees religious freedom, and Christians face no government persecution. El Salvador’s challenge for the church is different: for decades, criminal gangs — principally MS-13 (Mara Salvatrucha) and Barrio 18 — controlled significant territory, extorted businesses and individuals, and specifically targeted pastors and church leaders who provided moral community leadership or whose churches offered sanctuary to youth the gangs wanted to recruit. President Nayib Bukele’s aggressive anti-gang crackdown, beginning in 2022, has dramatically reduced gang violence at significant civil liberties cost — a shift that has materially changed the security environment for the church, though questions about its sustainability and human rights impact remain.
+El Salvador is around 80 percent Christian, split roughly between Catholics and a large and growing evangelical population. Religious freedom is protected and there is no persecution. The Salvadoran church carries one of the heaviest martyrdom records in the Americas.
 
-## Christianity in El Salvador
+## Romero and the Civil War
 
-Spanish colonization established Catholicism as the dominant faith from the 16th century. El Salvador’s independence and 19th-century political history were shaped by tension between conservative Catholic and liberal secular forces. The 20th century brought Protestant and Pentecostal missions, which found fertile ground particularly among the rural and urban poor.
+Archbishop Óscar Romero was shot dead while celebrating mass in a hospital chapel in San Salvador on 24 March 1980, after publicly calling on soldiers to stop killing civilians. His funeral was attacked and dozens died. Four American churchwomen were raped and murdered by National Guardsmen that December. Six Jesuit priests, their housekeeper, and her daughter were killed by an army unit at the Central American University in 1989. The civil war killed roughly 75,000 people between 1980 and 1992.
 
-El Salvador’s 1979–1992 civil war — between a U.S.-backed military government and the FMLN (Farabundo Martí National Liberation Front) — produced one of the most significant Christian martyrs of the 20th century: Archbishop Óscar Romero of San Salvador. Romero, initially regarded as a conservative appointment, was transformed by the murder of his close friend Father Rutilio Grande and by direct witness of military atrocities against civilians. He became the most prominent voice in El Salvador calling for peace and justice, reading the names of those killed by security forces on the radio, appealing directly to soldiers to disobey orders to kill their fellow citizens. On March 24, 1980, he was shot dead while celebrating Mass — the assassination carried out by death squads linked to the military establishment. He was beatified by Pope Francis in 2015 and canonized in 2018. His martyrdom and the murders of four American Catholic women missionaries in 1980 galvanized international attention to El Salvador’s human rights crisis.
+Romero was canonized in 2018. The case against his killers has moved slowly, and the 1993 amnesty law was struck down in 2016, reopening war-era prosecutions that remain largely unfinished.
 
-## Gang Violence and the Church
+## Gangs and the Current Period
 
-The post-war period produced the gang crisis through a convergence of poverty, displacement, and the deportation of gang members from the United States who brought MS-13 and Barrio 18 structures back to Central America. By the 2010s, El Salvador had one of the world’s highest murder rates — exceeding 100 per 100,000 in some years — and the gangs controlled significant territory in San Salvador and secondary cities.
-
-For the church, gang control of territory created a specific threat. Pastors whose churches operated in gang-controlled neighborhoods faced extortion. Those who preached against the gang lifestyle, offered rehabilitation programs for former gang members, or refused gang demands for cooperation were targeted with threats and assassination. Several pastors were killed for these reasons. Others were displaced. Churches that ran youth programs were pressured — gangs viewed church youth programs as competing for the recruitment pool they regarded as their own.
-
-## Bukele’s Crackdown and the Current Moment
-
-President Bukele’s declaration of a state of emergency in March 2022 and the mass incarceration of gang members — over 75,000 arrested in less than two years — produced a dramatic reduction in violence. El Salvador’s murder rate fell to among the lowest in Latin America. The physical security environment for pastors in previously gang-controlled areas improved significantly.
-
-The crackdown’s civil liberties implications — mass arrests, credible reports of innocent people detained, suspension of due process rights, prison conditions raising humanitarian concerns — are significant and have been widely documented by human rights organizations. For the church, the current reality is better physical security, with ongoing questions about the rule of law in a country where Bukele has consolidated power dramatically.
+For three decades MS-13 and Barrio 18 extorted congregations, recruited from youth groups, and killed pastors who intervened. Church workers crossing gang boundaries risked being shot. The state of exception declared in March 2022 has imprisoned tens of thousands and cut homicides sharply, and pastors report far greater freedom of movement. Human rights organizations document mass arbitrary detention, deaths in custody, and the detention of innocent people, including some church members. Evangelical leaders have been among the loudest supporters of the crackdown and among its quieter critics.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~86% (Catholic and evangelical combined)
-- **Primary Historical Threat:** Gang violence targeting pastors and churches in territorial control zones
-- **Current Status:** Security dramatically improved under Bukele crackdown; civil liberties concerns remain
-- **Open Doors WWL:** Monitored but not top tier
-- **Notable:** Archbishop Óscar Romero, martyred 1980; canonized 2018 — one of the 20th century’s most significant Christian martyrs
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 80 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Óscar Romero assassinated at the altar in 1980, canonized in 2018
+- **Live Issue:** The state of exception since 2022, sharply lower homicides alongside mass detention
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: El Salvador* (most recent edition) — state.gov
+- UN Truth Commission for El Salvador, *From Madness to Hope* (1993) — un.org
+- Human Rights Watch, *El Salvador* — hrw.org/americas/el-salvador
+- CIA World Factbook: El Salvador — cia.gov/the-world-factbook/countries/el-salvador/
+- Brockman, James R., *Romero: A Life* (Orbis Books, 2005)
 
 -----
 
@@ -135,26 +112,31 @@ The crackdown’s civil liberties implications — mass arrests, credible report
 COUNTRY: Equatorial Guinea
 TITLE: Equatorial Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/equatorial-guinea
-META DESCRIPTION: Equatorial Guinea is a majority-Christian nation under a long-ruling dictatorship. Christians worship freely in formal terms, but the government’s authoritarian character limits civil society — including religious institutions — that challenge its power.
+META DESCRIPTION: Equatorial Guinea is overwhelmingly Catholic and ruled by the world's longest-serving head of state. Churches operate under political control rather than religious restriction.
 CATEGORY: Country Profiles
-TAGS: Equatorial Guinea, Central Africa, Catholic, Protestant, Dictatorship, Religious Freedom, Authoritarian
-PERSECUTION TIER: Low
+TAGS: Equatorial Guinea, Central Africa, Catholic, Authoritarianism, Religious Restrictions, Oil
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Equatorial Guinea is a small oil-rich Central African nation — comprising a mainland territory and several islands, with a population of approximately 1.5 million — that is approximately 93% Christian, with the Catholic Church dominant and Protestant communities also present. The country is formally free for Christian practice; no denomination is banned, and no systematic persecution of Christians exists. However, Equatorial Guinea has been ruled by President Teodoro Obiang Nguema Mbasogo since 1979 — one of the world’s longest-serving dictators — and the authoritarian character of his government limits all civil society, including religious institutions that might challenge his authority.
+Equatorial Guinea is around 85 to 90 percent Catholic, a legacy of Spanish colonial rule. Teodoro Obiang has held power since a 1979 coup, making him the longest-serving head of state in the world. The pressure on churches here is political rather than religious. Clergy who criticize the government are warned, monitored, or expelled, and the Catholic Church is expected to lend legitimacy to the state.
 
-## Christianity in Equatorial Guinea
+Religious organizations must register, and a 1992 decree requires official approval for religious activity outside normal worship hours and gives the government authority over church affairs. Non-Catholic groups face heavier registration burdens. Some clergy have been told not to discuss politics from the pulpit.
 
-Spanish colonial rule established Catholicism deeply in Equatorial Guinea — it was Spain’s only sub-Saharan African colony — from the late 19th century through independence in 1968. The Catholic Church built educational and medical institutions that remain foundational. After independence, Obiang’s predecessor Francisco Macías Nguema conducted one of Africa’s most brutal dictatorships, killing an estimated one-third of the population and declaring himself “the only miracle.” He banned the Catholic Church and expelled missionaries. Obiang seized power in a 1979 coup and restored the church, which has since operated freely.
-
-The Obiang government’s enormous oil wealth — discovered in the 1990s — has produced a kleptocratic elite amid widespread poverty. The church is not persecuted, but religious leaders who challenge corruption or advocate for political rights operate in a constrained environment. The Catholic Church has occasionally spoken on social justice issues; such speech is tolerated within limits. Equatorial Guinea is not on the Open Doors World Watch List.
+The country's oil wealth is concentrated among a small elite while much of the population lives in poverty, and the church runs schools and clinics that fill part of the gap. Equatorial Guinea does not appear on the Open Doors World Watch List.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~93%
-- **Current Status:** Formal religious freedom; authoritarian political context limits civil society broadly
+- **Persecution Score:** Lower (13/100), **Rank:** #79 of 192 countries
+- **Estimated Christian Population:** about 85 to 90 percent, Catholic majority
+- **Primary Restrictions:** Registration requirements, state oversight of church activity, pressure on politically outspoken clergy
 - **Open Doors WWL:** Not ranked
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Equatorial Guinea* (most recent edition) — state.gov
+- Human Rights Watch, *Equatorial Guinea* — hrw.org/africa/equatorial-guinea
+- CIA World Factbook: Equatorial Guinea — cia.gov/the-world-factbook/countries/equatorial-guinea/
 
 -----
 
@@ -162,72 +144,49 @@ The Obiang government’s enormous oil wealth — discovered in the 1990s — ha
 COUNTRY: Eritrea
 TITLE: Eritrea — Christianity & Persecution Profile
 SLUG: country-profiles/eritrea
-META DESCRIPTION: Eritrea is one of the most repressive nations on earth for Christians. Thousands of believers — including members of registered denominations — have been imprisoned in horrific conditions, some for over twenty years, for nothing more than their faith. The underground church endures in darkness.
+META DESCRIPTION: Eritrea recognizes four religious bodies and imprisons believers outside them, some in shipping containers for decades without charge. It is among the worst countries on earth for Christians.
 CATEGORY: Country Profiles
-TAGS: Eritrea, Horn of Africa, WWL Top 10, Imprisonment, Underground Church, Isaias Afwerki, Evangelical, Orthodox, Persecution
-PERSECUTION TIER: High
-WWL RANKING: #6 (Open Doors 2024)
+TAGS: Eritrea, Horn of Africa, Prison, Shipping Containers, Evangelicals, Orthodox, WWL Top 10, Conscription
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Eritrea is a small, isolated East African nation of approximately 3.5 million people that ranks among the world’s most severe persecutors of Christians. The government of President Isaias Afwerki — who has ruled since independence in 1993 and has never held an election — controls every dimension of public life with totalitarian intensity. Since 2002, all religious groups except four recognized denominations have been banned outright, and even members of those recognized groups have been imprisoned for activities the government deems a threat. Christians outside the approved list — evangelical, Pentecostal, Baptist, charismatic, and others — face arrest, imprisonment without charge or trial, and detention in conditions that constitute torture: metal shipping containers baking in the desert heat, underground cells, and military camps where prisoners are subjected to pressure to recant their faith. Thousands have been imprisoned. Some have been held for over two decades. Some have died in custody. The Eritrean church is one of the most severely tested Christian communities on earth.
+Eritrea is one of the most closed states in the world and among the worst places to be a Christian outside the four religious bodies the government recognizes. Those four are the Eritrean Orthodox Tewahedo Church, Sunni Islam, the Roman Catholic Church, and the Evangelical Lutheran Church of Eritrea. Everything else was outlawed in 2002. Believers from unrecognized groups have been imprisoned without charge or trial, some for more than twenty years, held in shipping containers and underground cells. Open Doors ranked Eritrea 5th on the 2026 World Watch List.
 
-## Historical Foundation: Christianity Before Eritrea Was Eritrea
+## Ancient Church, Modern State
 
-Christianity arrived in the region now called Eritrea — the northern highlands of what was then Aksum — among the earliest in Africa. The Kingdom of Aksum adopted Christianity as its official religion approximately 330 AD, when King Ezana was converted through the ministry of Frumentius, a Syrian scholar who had come to Aksum as a slave and eventually became its first bishop. Frumentius was consecrated by Athanasius of Alexandria — the same Athanasius who had just defended Trinitarian orthodoxy at the Council of Nicaea — and returned to Aksum to serve as its first bishop. This ancient connection between Alexandria and the Aksumite church is the origin of the historical relationship between the Coptic and Ethiopian/Eritrean Orthodox traditions.
+Christianity reached the Aksumite kingdom in the fourth century, making this among the earliest Christian regions anywhere. The Eritrean Orthodox Tewahedo Church shares that inheritance with Ethiopia and became autocephalous in 1993 after independence.
 
-The Christianity that took root in Aksum — what is now the Tigrinya-speaking highland core of Eritrea and northern Ethiopia — was deep, ancient, and monastically rich. The Nine Saints, a group of Syrian Christian monks who arrived in the 5th and 6th centuries, established monasteries throughout the highlands and translated the Scriptures into Ge’ez, the classical language of the church in this region. The Debre Bizen monastery in Eritrea, founded in the 14th century, is among the oldest continuously inhabited Christian monasteries in Africa.
+Eritrea won independence from Ethiopia in 1993 after a thirty-year war. Isaias Afwerki has ruled since. No national election has been held. The constitution ratified in 1997 was never implemented. There is no free press and no independent judiciary.
 
-The region that became Eritrea was part of the Ethiopian Empire for much of its history, separated administratively during Italian colonial rule (1890–1941), British administration (1941–1952), and then federated with and subsequently annexed by Ethiopia — an annexation that triggered the Eritrean independence struggle (1961–1991) and ultimately independent statehood in 1993.
+## The 2002 Ban and Its Aftermath
 
-## The Religious Landscape
+In May 2002 the government ordered all religious groups outside the recognized four to register, then approved none of the applications. Pentecostal, evangelical, Jehovah's Witness, and other congregations became illegal overnight. Mass arrests followed at prayer meetings, weddings, and homes. Detainees are held without charge, denied legal access, and pressed to sign statements renouncing their faith as the price of release. Deaths in custody have been reported.
 
-Eritrea’s population is roughly equally divided between Christians and Muslims — approximately 50% of each. The Christians are predominantly Eritrean Orthodox (the ancient church of the highland Tigrinya people), with smaller communities of Catholics (introduced during the Italian colonial period), Lutherans (introduced by Swedish missionaries in the 19th century, the largest Protestant denomination), and evangelical and Pentecostal Christians (who grew significantly during the independence struggle and its aftermath).
+The state also interferes with the recognized bodies. Patriarch Abune Antonios of the Orthodox Church was deposed in 2006 after objecting to government control and held under house arrest until his death in 2022. The government seized all Catholic-run health clinics in 2019, closing facilities that served tens of thousands, after bishops called for reform.
 
-When Eritrea achieved independence in 1993, the Christian communities initially expected a degree of religious freedom. The liberation movement — the Eritrean People’s Liberation Front (EPLF), which became the ruling People’s Front for Democracy and Justice (PFDJ) — was secular in its public ideology. Isaias Afwerki was not an Islamist and did not appear to be building a theocratic state. For a brief period, evangelical Christians in particular experienced openness — church planting, evangelism, and Bible distribution were relatively free.
+Jehovah's Witnesses lost citizenship rights in 1994 for refusing military service and voting. Some were imprisoned for decades.
 
-## The 2002 Crackdown
+## Conscription
 
-In May 2002, the government announced that only four religious groups were officially recognized: the Eritrean Orthodox Church, the Roman Catholic Church, the Evangelical Church of Eritrea (Lutheran), and Islam. All other religious groups — including all evangelical, Pentecostal, charismatic, Baptist, Adventist, and independent Christian communities — were required to register through a process that had never been established and has effectively never been completed. Unregistered religious activity became illegal overnight.
-
-The timing and reasoning remain disputed. The government’s stated rationale was concern about foreign religious influence — particularly from American evangelical missions — destabilizing Eritrean society. The actual motivation appears to have been the same as the motivation behind all of Isaias’s authoritarian measures: the elimination of any organized institution outside state control that could provide an alternative source of loyalty, community, or identity.
-
-Within weeks of the May 2002 announcement, arrests began. Police and military intelligence agents raided house church meetings, prayer groups, and evangelical gatherings, arresting participants en masse. Those arrested were taken to military camps, prisons, and detention facilities — most without formal charges, legal representation, or any semblance of legal process. In many cases, families were not informed of their relatives’ detention or location.
-
-## Conditions of Imprisonment
-
-The conditions in which Eritrean Christian prisoners have been held are among the most severe documented anywhere in the world. The most notorious are the metal shipping containers — standard cargo containers, often buried partially in the ground or exposed to the desert sun — used as cells in facilities including Wi’a and Dahlak Kebir Island. Temperatures inside these containers in the Eritrean lowland heat reach life-threatening levels. Prisoners are crowded together with minimal food, water, and sanitation. Medical care is absent or grossly inadequate. Many prisoners have developed serious health conditions — tuberculosis, malnutrition, infections — through their years of confinement.
-
-Underground cells — dark, subterranean rooms with no light and little air — are used in other facilities. Military camps use hard physical labor, sleep deprivation, and exposure to extreme temperatures. In many cases, prisoners report being given explicit offers: sign a document renouncing their faith and agreeing not to practice Christianity, and be released. Those who refuse continue to be held. Some have signed under duress and been released only to resume practicing and be arrested again. Others have refused for years — for decades.
-
-Documented cases of death in custody include multiple evangelicals who died of illness, injury, or the effects of their conditions. Meron Estifanos, an Eritrean human rights activist based in Sweden, has documented hundreds of individual cases — names, denominations, dates of arrest, last known locations — in an ongoing effort to keep these prisoners visible to the international community.
-
-## Even the Recognized Churches Are Not Free
-
-The four recognized denominations exist on paper, but their freedom is severely constrained. The most dramatic demonstration of this was the government’s treatment of the Eritrean Orthodox Church. In January 2006, the government forcibly removed Patriarch Antonios — the head of the Eritrean Orthodox Church — from office. His offense was refusing to excommunicate members of a renewal movement within the church that the government had labeled a security threat. Patriarch Antonios was placed under house arrest, denied contact with church members and visitors, and stripped of his patriarchal authority. He remained under house arrest for over fifteen years — into his 90s — as one of the world’s longest-detained church leaders. Pope Tewolde Woldemichael was installed in his place by a government-compliant synod. In 2021, there were reports of Antonios being permitted limited contact with church members, but his status remained deeply constrained. He died in March 2024, never having been formally restored to his position.
-
-Catholic clergy — mostly Italian and other foreign nationals — have been restricted or expelled. The Lutheran church operates under close government supervision.
-
-## The Diaspora as the Voice of the Silenced
-
-Because the Eritrean government controls all domestic media and severely restricts outside communication, the Eritrean Christian diaspora — concentrated in Europe (particularly Germany, Sweden, Norway, and the UK), the United States, Canada, and Australia — serves as the primary voice for the imprisoned church. Organizations including Release Eritrea, Open Doors, Jubilee Campaign, and Christian Solidarity Worldwide maintain databases of imprisoned believers, advocate before governments and international bodies, and support the families of prisoners. The United Nations Special Rapporteur on the situation of human rights in Eritrea has repeatedly documented the religious persecution in reports to the Human Rights Council.
-
-Eritrea’s isolation — it has no free press, restricted internet, no meaningful civil society, and almost no independent institutions — means that documentation is necessarily incomplete. The prisoners whose cases are known are the ones whose families managed to report their situations before fleeing the country. An unknown number of additional prisoners may have died without their cases ever being documented.
-
-## The Church Underground
-
-Despite — or because of — two decades of severe persecution, the underground evangelical church in Eritrea has not collapsed. Reports from those who have left the country describe small groups meeting in extreme secrecy, rotating locations, keeping no written records, and trusting only the most vetted members. The faith that drives people to gather under these conditions — knowing that arrest means indefinite detention in a metal container — is not casual religion. It is the kind of costly faith that has historically both tested and deepened the church wherever it has appeared.
-
-Young Eritrean Christians fleeing military conscription and persecution have been among the largest groups of Eritrean refugees in Sudan, Ethiopia (before the Tigray war), Libya, and Europe. These diaspora believers carry their faith with them and establish communities wherever they land — the Eritrean church is not only underground in Eritrea; it is scattered across the world and praying for those left behind.
+National service is indefinite in practice. Conscripts serve for years or decades at minimal pay, which the UN has described as amounting to forced labor. Christians in the military who are caught praying or holding Scripture face punishment. Conscription drives the refugee flow that has made Eritreans one of the largest asylum-seeking populations relative to national size.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #6
-- **Estimated Christian Population:** ~50% of 3.5 million (~1.75 million; predominantly Orthodox, with significant Catholic, Lutheran, and evangelical communities)
-- **Primary Threats:** Imprisonment without trial for members of banned denominations; metal container detention; torture; government removal of recognized church leadership (Patriarch Antonios)
-- **Legal Status:** Only 4 groups recognized; all evangelical, Pentecostal, and independent Christian groups illegal since 2002
-- **Prisoners:** Thousands documented; many held for 10–20+ years; death in custody documented
-- **Notable:** Patriarch Antonios of the Eritrean Orthodox Church held under house arrest for 15+ years; died 2024 without formal restoration
+- **Persecution Score:** Very High (73/100), **Rank:** #5 of 192 countries
+- **Estimated Christian Population:** roughly 45 to 50 percent
+- **Primary Threats:** Imprisonment without charge, container detention, state control of recognized churches, indefinite conscription
+- **Legal Status:** Only four religious bodies recognized. All others banned since 2002
+- **Open Doors WWL 2026:** #5
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Eritrea* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Eritrea* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- UN Commission of Inquiry on Human Rights in Eritrea — ohchr.org
+- Christian Solidarity Worldwide, *Eritrea* — csw.org.uk
+- Release International — releaseinternational.org
 
 -----
 
@@ -235,23 +194,31 @@ Young Eritrean Christians fleeing military conscription and persecution have bee
 COUNTRY: Estonia
 TITLE: Estonia — Christianity & Persecution Profile
 SLUG: country-profiles/estonia
-META DESCRIPTION: Estonia is one of the most secular nations in the world. Christians practice freely but are a minority. The Lutheran heritage is historically significant but today functions more as cultural identity than active faith.
+META DESCRIPTION: Estonia is among the least religious countries in the world after Soviet occupation. Christians face no persecution, and the main live issue is the Orthodox church's ties to Moscow.
 CATEGORY: Country Profiles
-TAGS: Estonia, Baltic, Lutheran, Secular, Religious Freedom, Post-Soviet
-PERSECUTION TIER: Low
+TAGS: Estonia, Baltic, Lutheran, Orthodox, Secularization, Soviet Legacy, Moscow Patriarchate
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Estonia is among the least religious countries in the world by survey — only around 20–25% of Estonians identify with any religious tradition, and active church attendance is far lower. The historical faith is Lutheranism, established during the German Reformation of the 16th century and reinforced through Baltic German noble and merchant class influence. The Orthodox Church has a significant presence among the ethnic Russian minority. Christians of all traditions worship freely; Estonia has full constitutional religious freedom and no pattern of persecution.
+Estonia is one of the least religious countries measured anywhere. Surveys consistently show under a third of the population identifying with any religion, with Lutheran and Orthodox roughly comparable in size and Orthodoxy concentrated among the Russian-speaking minority. Religious freedom is complete.
 
-The Soviet occupation (1940–1991) suppressed religious life severely, closing seminaries, monitoring and imprisoning clergy, and promoting atheism aggressively. Estonia’s post-Soviet secularism reflects both Soviet suppression and a broader Nordic-influenced cultural skepticism toward institutional religion. The church is rebuilding slowly in a society where religious identity is not a primary social marker. Estonia is not on the Open Doors World Watch List and is not a country of concern.
+Soviet occupation from 1940 explains much of this. Churches were closed, clergy deported to Siberia, and atheism taught for fifty years. The Lutheran church that had shaped Estonian life since the Reformation never recovered its position after independence in 1991.
+
+The live issue concerns the Estonian Orthodox Church of the Moscow Patriarchate. Following Russia's full-scale invasion of Ukraine and the Moscow Patriarch's public support for it, the Estonian government pressed the church to sever canonical ties with Moscow, and parliament moved to require it. The church has contested the demand and has taken steps to rename itself and assert independence in governance. The dispute is about national security and foreign influence rather than about religious practice, and worship has continued throughout.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~20–25% (nominal; active practice very low)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Soviet occupation severely suppressed religious life; recovery ongoing
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** under a third, Lutheran and Orthodox
+- **Current Status:** Full religious freedom, no persecution
+- **Live Issue:** Legal pressure to end the Orthodox church's canonical ties to Moscow
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Estonia* (most recent edition) — state.gov
+- Statistics Estonia, *Population and Housing Census, religion* — stat.ee
+- CIA World Factbook: Estonia — cia.gov/the-world-factbook/countries/estonia/
 
 -----
 
@@ -259,25 +226,31 @@ The Soviet occupation (1940–1991) suppressed religious life severely, closing 
 COUNTRY: Eswatini
 TITLE: Eswatini — Christianity & Persecution Profile
 SLUG: country-profiles/eswatini
-META DESCRIPTION: Eswatini (formerly Swaziland) is a majority-Christian nation under an absolute monarchy. Christians worship freely; no systematic persecution exists. The country’s primary challenges are governance, HIV/AIDS, and poverty.
+META DESCRIPTION: Eswatini is overwhelmingly Christian and Africa's last absolute monarchy. Churches operate freely, and clergy who criticize the king face political consequences.
 CATEGORY: Country Profiles
-TAGS: Eswatini, Swaziland, Southern Africa, Christian Majority, Religious Freedom, Monarchy
-PERSECUTION TIER: Low
+TAGS: Eswatini, Southern Africa, Absolute Monarchy, Christianity, Zionist Churches, Political Repression
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Eswatini — formerly Swaziland, renamed in 2018 by King Mswati III — is a small, landlocked kingdom in Southern Africa with a population of approximately 1.2 million. Roughly 90% of the population identifies as Christian, with a blend of Protestant denominations, Zionist and Apostolic African Independent Churches, and Catholic communities. The king — whose rule is absolute, with political parties banned — is himself Christian and supports Christianity as part of the national cultural fabric. Christians practice freely and without persecution.
+Eswatini, formerly Swaziland, is around 90 percent Christian, with a large share in African-initiated Zionist churches that blend Christian worship with Swazi tradition. King Mswati III rules as an absolute monarch, the last in Africa. Political parties have been banned from contesting elections since 1973.
 
-Missionaries arrived in Eswatini in the 19th century — primarily Anglican, Methodist, and later Roman Catholic. African Independent Churches, which blend Christian theology with traditional Swazi spiritual practices, are among the most popular expressions of faith. The country’s serious challenges — among the world’s highest HIV/AIDS prevalence rates, significant poverty, and political repression — affect the general population but are not specifically directed at Christians as a religious group.
+Churches worship without restriction. The constraint is political. Clergy who speak on governance, corruption, or the 2021 pro-democracy protests, which security forces suppressed with dozens killed, face intimidation and surveillance. Some church leaders have been detained or had services monitored. Church bodies that stay clear of politics operate with no interference at all, and some senior clergy are closely aligned with the palace.
 
-Eswatini is not on the Open Doors World Watch List.
+The country has one of the highest HIV prevalence rates in the world, and church-run clinics and orphan care carry much of the response.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~90%
-- **Current Status:** Full religious freedom; no persecution
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 90 percent
+- **Current Status:** Religious freedom in practice, political limits on outspoken clergy
 - **Open Doors WWL:** Not ranked
-- **Primary National Challenges:** HIV/AIDS prevalence, poverty, absolute monarchical governance — not religious persecution
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Eswatini* (most recent edition) — state.gov
+- Human Rights Watch, *Eswatini* — hrw.org/africa/eswatini
+- CIA World Factbook: Eswatini — cia.gov/the-world-factbook/countries/eswatini/
 
 -----
 
@@ -285,62 +258,52 @@ Eswatini is not on the Open Doors World Watch List.
 COUNTRY: Ethiopia
 TITLE: Ethiopia — Christianity & Persecution Profile
 SLUG: country-profiles/ethiopia
-META DESCRIPTION: Ethiopia is home to one of the world’s oldest Christian churches. But since 2020, the Tigray war has devastated ancient Orthodox communities, Islamist attacks in Oromia have burned churches and killed Christians, and the church itself has experienced a painful institutional schism. A Christian nation in deep crisis.
+META DESCRIPTION: Ethiopia has one of the oldest Christian civilizations on earth. War in Tigray and Amhara, communal violence, and pressure on converts have made it one of Africa's harder places for believers.
 CATEGORY: Country Profiles
-TAGS: Ethiopia, Horn of Africa, Ethiopian Orthodox, Tigray War, Islamist Violence, Oromia, Church Schism, WWL
-PERSECUTION TIER: Moderate
+TAGS: Ethiopia, Horn of Africa, Orthodox Tewahedo, Tigray War, Amhara, Converts, WWL Top 50
+PERSECUTION TIER: High
 
 ## Overview
 
-Ethiopia holds a singular place in global Christian history. The Ethiopian Orthodox Tewahedo Church is one of the oldest Christian institutions in the world — Aksum adopted Christianity as the state religion approximately 330 AD, making Ethiopia among the first nations to do so. The church has maintained an unbroken presence for seventeen centuries through Aksumite kings, Muslim invasions, Jesuit pressure, Italian occupation, communist revolution, and civil war. Its liturgy, in the ancient Ge’ez language, preserves a world of biblical and theological richness that is largely unknown to Western Christians. It claims the Ark of the Covenant. It counts among its scriptures books — including 1 Enoch and the Book of Jubilees — not found in other canons. Its monasteries, including the ancient island monasteries of Lake Tana, are among the most extraordinary in the world.
+Ethiopia is one of the oldest Christian nations in the world, roughly 65 percent Christian, with the Ethiopian Orthodox Tewahedo Church the largest body and a substantial and growing evangelical population known as Pentay. Persecution here does not come from a hostile state acting against Christianity. It comes from armed conflict, communal violence between religious and ethnic communities, and pressure on converts in Muslim-majority and Orthodox-majority areas alike. Open Doors ranked Ethiopia 36th on the 2026 World Watch List.
 
-Today, Ethiopia’s Christian story is marked by both this ancient depth and serious, contemporary suffering. The Tigray war (2020–2022) produced one of the world’s worst humanitarian crises and devastated the ancient Orthodox communities of Tigray, including deliberate attacks on churches, monasteries, and priests. Islamist violence in the Oromia and other regions has burned churches and killed Christians with increasing regularity. And the Ethiopian Orthodox Church itself has undergone a painful institutional schism whose resolution remains incomplete. Ethiopia is a Christian nation in crisis — internally and externally.
+## An Ancient Church
 
-## The Ancient Foundation
+The Ethiopian eunuch baptized by Philip in Acts 8 is the earliest scriptural link. King Ezana of Aksum adopted Christianity in the fourth century, making Ethiopia among the first Christian states anywhere. Frumentius became its first bishop. The church developed in relative isolation after the Islamic conquests cut it off from the Mediterranean, producing the rock-hewn churches of Lalibela, the Ge'ez liturgy, a distinctive canon that includes Enoch and Jubilees, and a monastic tradition that has run continuously for over 1,500 years.
 
-As noted in the Eritrea profile, the Aksumite kingdom’s adoption of Christianity traces to the ministry of Frumentius (Abba Selama) and his consecration by Athanasius of Alexandria. From that 4th-century foundation, the Ethiopian church developed a distinctive theological and liturgical tradition — Oriental Orthodox, non-Chalcedonian, maintaining the miaphysite position on Christ’s nature — that sets it apart from both Catholicism and Eastern Orthodoxy while sharing deep kinship with the Coptic, Armenian, and Syriac traditions.
+Ethiopia was never colonized, which spared its church the association with European rule that shaped Christianity elsewhere in Africa.
 
-The Ethiopian church developed its own monastic tradition, its own scriptural canon, its own liturgical year — extraordinarily rich, with over 180 feast days annually — and its own theological scholarship. The 13th and 14th centuries produced great Ethiopian biblical scholarship and iconic art. Rock-hewn churches in Lalibela, built in the late 12th and early 13th centuries, are among the architectural wonders of the world — eleven churches carved entirely from living rock, still in active liturgical use. The Ethiopian church’s claim to house the Ark of the Covenant in Aksum is not medieval legend but a living article of faith.
+## Conflict and Violence
 
-By the time Portuguese explorers made contact with Ethiopia in the early 16th century and Jesuit missionaries attempted to bring Ethiopia into union with Rome in the early 17th century — an attempt that ended in the expulsion of the Jesuits and the execution of converts — Ethiopia had a thoroughly developed and fiercely independent Christian identity that was not going to be reshaped by outside pressure.
+The Tigray war from 2020 to 2022 killed hundreds of thousands. Churches and monasteries were shelled and looted, clergy were killed, and the massacre at Aksum in November 2020, at a site holding what Ethiopians believe to be the Ark of the Covenant, killed hundreds of civilians. Both federal and Eritrean forces were implicated in atrocities.
 
-## The Modern Period: Protestant Growth and Orthodox Dominance
+Conflict shifted to Amhara after the Pretoria agreement, with fighting between federal forces and Fano militias, and continued in Oromia with the Oromo Liberation Army. Civilians of all faiths have been killed in massacres in both regions.
 
-Ethiopia today is approximately 44% Ethiopian Orthodox and 21% Protestant — with the Protestant community having grown dramatically in the 20th century through mission work and, more recently, through the explosive growth of Pentecostal and charismatic churches. The Protestant community, known broadly as P’ent’ay in Ethiopian Christian parlance, is diverse and growing — the Mekane Yesus Church, an Evangelical Lutheran denomination, is among the largest Lutheran bodies in the world. There is also a significant Muslim population — approximately 34% — concentrated in the east (Somali Region) and south (Oromia).
+Communal violence has hit churches directly. Dozens of Orthodox and evangelical churches and mosques were burned in Jimma, Harar, and elsewhere in 2019 and 2020. In 2022 an Orthodox procession in Addis Ababa turned violent with deaths on both sides.
 
-The Ethiopian Orthodox Church maintained its dominant institutional role throughout modern history. It was autocephalous — independent from Alexandria — since 1959. During the Derg communist regime (1974–1991), which overthrew Emperor Haile Selassie and declared Marxist-Leninist governance, the church was severely restricted: its lands were nationalized, its institutions constrained, its Patriarch (Theophilos) executed by the regime. After the fall of the Derg and the establishment of a federal democratic framework in 1991, the church recovered its institutional standing.
+A serious schism opened inside the Orthodox Church in early 2023 when a group of bishops declared a breakaway synod in Oromia, leading to protests and deaths before a settlement was reached.
 
-## The Tigray War (2020–2022) and Its Aftermath
+## Converts and Local Pressure
 
-In November 2020, Prime Minister Abiy Ahmed — who had won the Nobel Peace Prize in 2019 for his peace agreement with Eritrea — launched a military operation against the Tigray People’s Liberation Front (TPLF), which had dominated Ethiopian politics for nearly three decades before Abiy’s rise. What followed was one of the world’s worst humanitarian crises: an estimated 300,000–500,000 deaths (including violence, famine, and disease), mass displacement of millions, and systematic atrocities documented by the United Nations and human rights organizations.
-
-For the Ethiopian Orthodox Church — and for Christianity specifically — the Tigray war was catastrophic. Tigray is the historic heartland of Ethiopian Orthodoxy, the region of Aksum, Lalibela, and Debre Damo — among the most sacred sites in the entire Christian world. Ethiopian federal forces and their Eritrean allies — who entered Tigray as part of the conflict — committed systematic atrocities against civilian populations. Crucially, churches and monasteries were specifically targeted: the ancient Maryam Dengelat Church in Tigray, where civilians sheltering inside were massacred by troops in November 2020, is among the most documented. Priests were killed; monks were expelled; church property was looted; sacred manuscripts were destroyed. The monasteries of Debre Damo and others in the region were damaged or their communities displaced.
-
-The targeting of churches was not incidental — in a region where the church is the center of community life, attacking it was a tool of civilian terror. The full accounting of what was done to the Tigrayan Christian community during the war has not been completed.
-
-A ceasefire agreement was reached in November 2022, but reconstruction — physical and communal — is ongoing. Access to Tigray for journalists and aid organizations has been intermittent and restricted.
-
-## Islamist Violence in Oromia and Beyond
-
-Separately from the Tigray war, Ethiopia has experienced a significant pattern of Islamist violence against Christians, particularly in the Oromia region. Churches have been burned — hundreds, in some reports — as part of ethno-religious violence driven by a combination of factors: Oromo nationalism, local land conflicts, Islamist ideology promoted from some quarters, and political destabilization. The pattern reached particular intensity in 2019 and again in 2022–2023, with mass burnings of churches across Oromia that displaced tens of thousands of Christians and destroyed communities that had existed for generations.
-
-The Ethiopian government has acknowledged some of these attacks but has been slow to prosecute perpetrators or provide substantive protection. Christians in affected areas describe an ongoing vulnerability that the state has not adequately addressed.
-
-## The Orthodox Schism
-
-In 2023, a significant portion of the Ethiopian Orthodox Church’s Oromo leadership declared a separate synod — the Holy Synod of the Oromia Ethiopian Orthodox Tewahedo Church — citing decades of marginalization of Oromo Christians within the church’s historically Amhara-dominated hierarchy. The establishment of the parallel synod was condemned by the official Holy Synod, which excommunicated the breakaway leadership. The government initially intervened to arrest breakaway leaders. The schism remains unresolved and reflects how the ethnic tensions that have driven Ethiopia’s political crises have now penetrated the country’s oldest institution.
-
-## Current Status
-
-Ethiopia is monitored by Open Doors and other organizations. It does not rank in the top tier of the World Watch List by formal score, but the scale of Christian suffering — particularly in Tigray and Oromia — is substantial. A Tier 2 designation reflects the complexity: the state is not conducting anti-Christian persecution as policy; Christianity is not restricted institutionally in most of the country; and the Ethiopian Orthodox Church retains enormous institutional power. But Christians in specific regions have suffered catastrophically, and the church is navigating a crisis of war, violence, and internal schism simultaneously.
+Muslims in the Somali region and parts of Oromia who become Christians face expulsion from family and village, loss of land, and violence. Orthodox believers who join evangelical churches face a milder version of the same in Amhara and Tigray, including exclusion from communal funerals and burial grounds.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~65% (Orthodox ~44%, Protestant ~21%)
-- **Primary Threats:** Tigray war devastation of ancient Orthodox communities (2020–2022); Islamist violence against churches in Oromia; institutional Orthodox schism
-- **Legal Status:** Constitutional religious freedom; no state anti-Christian policy
-- **Open Doors WWL:** Monitored; not in top formal tier but significant suffering documented
-- **Ancient Heritage:** Aksumite Christianity (330 AD); rock-hewn churches of Lalibela; claimed location of the Ark of the Covenant
+- **Persecution Score:** High (41/100), **Rank:** #39 of 192 countries
+- **Estimated Christian Population:** about 65 percent, Orthodox Tewahedo majority with a large evangelical minority
+- **Primary Threats:** Armed conflict in Amhara and Oromia, communal violence, expulsion of converts, internal Orthodox schism
+- **Open Doors WWL 2026:** #36
+- **Historical Note:** Christian state since the fourth century, rock-hewn churches of Lalibela, Ge'ez liturgy
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Ethiopia* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Ethiopia* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Human Rights Watch, *Ethiopia* — hrw.org/africa/ethiopia
+- Ethiopian Orthodox Tewahedo Church — ethiopianorthodox.org
+- International Crisis Group, *Ethiopia* — crisisgroup.org
+- Binns, John, *The Orthodox Church of Ethiopia* (I.B. Tauris, 2016)
 
 -----
 
@@ -348,25 +311,31 @@ Ethiopia is monitored by Open Doors and other organizations. It does not rank in
 COUNTRY: Fiji
 TITLE: Fiji — Christianity & Persecution Profile
 SLUG: country-profiles/fiji
-META DESCRIPTION: Fiji is a majority-Christian Pacific island nation where believers practice freely. Ethnic and religious tensions between indigenous Fijians (predominantly Christian) and Indo-Fijians (predominantly Hindu and Muslim) have shaped the country’s politics but have not produced systematic Christian persecution.
+META DESCRIPTION: Fiji is a majority Christian Pacific nation with religious freedom. Tension runs along ethnic lines between indigenous Christian Fijians and the Hindu and Muslim Indo-Fijian minority.
 CATEGORY: Country Profiles
-TAGS: Fiji, Pacific Islands, Methodist, Catholic, Religious Freedom, Ethnic Tensions, Hindu
-PERSECUTION TIER: Low
+TAGS: Fiji, Pacific, Methodist, Hinduism, Ethnic Tension, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Fiji is a Pacific archipelago nation of approximately 930,000 people, split demographically between indigenous Fijians (approximately 57%) — who are predominantly Christian, mostly Methodist — and Indo-Fijians (approximately 38%) — descendants of laborers brought from India by the British, who are predominantly Hindu and Muslim. Christianity arrived in Fiji through Methodist missionaries in the 1830s and spread rapidly; by 1854, the paramount chief Ratu Seru Epenisa Cakobau converted to Christianity in a moment that effectively Christianized the islands at the highest social level.
+Fiji is around 64 percent Christian, with the Methodist Church the largest body among indigenous iTaukei Fijians, alongside Catholics, Assemblies of God, and others. The Indo-Fijian population, descended from indentured laborers brought under British rule, is predominantly Hindu with a Muslim minority. Religious freedom is constitutionally protected.
 
-Fiji has experienced political instability — four coups since 1987 — that has often had ethnic and religious dimensions, with indigenous Fijian Christians asserting political dominance against Indo-Fijian communities. Sunday observance laws historically restricted commercial activity on Sundays in ways that disadvantaged Indo-Fijian businesses. These tensions reflect ethnic and political conflict more than religious persecution, and they have moderated significantly since the 2013 constitution under the Bainimarama government, which imposed formal secularism and equal rights regardless of ethnicity or religion.
+Tension in Fiji runs along ethnic lines that map onto religion. Coups in 1987, 2000, and 2006 turned on indigenous political control, and some Methodist leaders backed indigenous nationalism, at times calling for a Christian state. The 2013 constitution establishes a secular state and bars religion from being used politically, a provision Methodist leaders criticized. Hindu temples have been targets of burglary and occasional arson, and both governments and church bodies have condemned the attacks.
 
-Christians in Fiji are not persecuted. The Methodist Church remains enormously influential in indigenous Fijian culture. All denominations practice freely. Fiji is not on the Open Doors World Watch List.
+Christians face no persecution. The live question is whether Fiji's secular settlement holds against periodic calls for Christian establishment.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~65% (predominantly Methodist indigenous Fijians)
-- **Current Status:** Full religious freedom; ethnic tensions present but not systematic persecution of Christians
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Chief Cakobau’s 1854 conversion effectively Christianized the islands from the top of society downward
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 64 percent
+- **Current Status:** Full religious freedom, secular constitution
+- **Live Issue:** Ethnic and religious tension between iTaukei and Indo-Fijian communities
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Fiji* (most recent edition) — state.gov
+- Fiji Bureau of Statistics, census religion data — statsfiji.gov.fj
+- CIA World Factbook: Fiji — cia.gov/the-world-factbook/countries/fiji/
 
 -----
 
@@ -374,26 +343,32 @@ Christians in Fiji are not persecuted. The Methodist Church remains enormously i
 COUNTRY: Finland
 TITLE: Finland — Christianity & Persecution Profile
 SLUG: country-profiles/finland
-META DESCRIPTION: Finland is a historically Lutheran nation with full religious freedom. The Evangelical Lutheran Church retains a special constitutional status, but Christians of all traditions worship without restriction.
+META DESCRIPTION: Finland has full religious freedom and a large Lutheran church. A long prosecution of an MP and a bishop over published views on sexuality tested the limits of religious speech.
 CATEGORY: Country Profiles
-TAGS: Finland, Scandinavia, Lutheran, Religious Freedom, State Church, Nordic
-PERSECUTION TIER: Low
+TAGS: Finland, Nordic, Lutheran, Religious Freedom, Free Speech, Rasanen Case
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Finland is a Nordic nation where the Evangelical Lutheran Church of Finland holds a special status — alongside the Finnish Orthodox Church — as a national church with constitutional recognition. Both national churches receive state support and have formal public roles. Despite this formal establishment, Finland has full religious freedom; all denominations operate freely and there is no discrimination against non-Lutheran Christians or other religions.
+Finland is around 63 percent Lutheran by membership, with a small Orthodox church holding national status alongside it. Attendance is low. Religious freedom is complete and there is no persecution.
 
-Christianity reached Finland gradually through Scandinavian and German influence from the 11th century onward, with the Swedish Crusades formally establishing Catholic Christianity in the 12th century. The Reformation reached Finland through Swedish crown influence in the 16th century, and Lutheranism has been the dominant faith since. Finland’s Orthodox community — approximately 1.1% of the population — traces its roots to Karelia and has deep historical ties with Russian Orthodoxy.
+Finland drew international attention through the prosecution of Päivi Räsänen, a member of parliament and former interior minister, and Bishop Juhana Pohjola, over a 2004 pamphlet and later statements setting out a traditional Christian view of sexuality. Prosecutors charged them with ethnic agitation. The Helsinki District Court acquitted both in 2022, the Court of Appeal upheld the acquittals in 2023, and the Supreme Court declined to overturn them in 2025, ending the case.
 
-Finland’s social Lutheran heritage is significant culturally even as active practice declines. The Finnish Revivalist tradition — a series of 19th-century pietist movements within the Lutheran church — produced a culture of Bible literacy and lay leadership that shaped Finnish Protestantism distinctively. Today, approximately 70% of Finns are nominal Lutheran members, though active attendance is lower.
-
-Finland is not on the Open Doors World Watch List. A 2021 criminal prosecution of Member of Parliament Päivi Räsänen and Bishop Juhana Pohjola — charged with “hate speech” for a 2004 church pamphlet on sexual ethics — drew significant international attention from Christian freedom advocates. Both were acquitted by Finnish courts at multiple levels, but the case highlighted ongoing European tensions around the limits of religious speech in secular legal frameworks.
+The prosecution ran for years and cost both defendants heavily, and it is cited internationally as a test of whether publishing historic Christian teaching can be treated as criminal speech in a European democracy. The acquittals settled the question in Finnish law. Nothing about the case amounted to state persecution of the Finnish church, which continues to operate with public funding and legal privileges.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~75% (Lutheran majority, Orthodox minority)
-- **Current Status:** Full religious freedom; no persecution; Päivi Räsänen hate speech case acquitted
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** about 66 percent by membership, far lower by attendance
+- **Current Status:** Full religious freedom, no persecution
+- **Notable Case:** The Räsänen and Pohjola prosecution, acquittals upheld and the case closed in 2025
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Finland* (most recent edition) — state.gov
+- Statistics Finland, *Population by religious affiliation* — stat.fi
+- Alliance Defending Freedom International, *Räsänen case* — adfinternational.org
+- CIA World Factbook: Finland — cia.gov/the-world-factbook/countries/finland/
 
 -----
 
@@ -401,41 +376,35 @@ Finland is not on the Open Doors World Watch List. A 2021 criminal prosecution o
 COUNTRY: France
 TITLE: France — Christianity & Persecution Profile
 SLUG: country-profiles/france
-META DESCRIPTION: France is the birthplace of secular republicanism and a majority-Catholic cultural heritage. Christians worship freely, but France has experienced a striking rise in anti-Christian acts — church vandalism and arson — while legal restrictions on religious expression in public spaces affect all faiths including Christianity.
+META DESCRIPTION: France has full religious freedom under strict secularism. Thousands of acts of vandalism against churches are recorded each year, and a priest was murdered at the altar in 2016.
 CATEGORY: Country Profiles
-TAGS: France, Western Europe, Catholic, Protestant, Secularism, Church Vandalism, Laïcité, Anti-Christian Acts
-PERSECUTION TIER: Low
+TAGS: France, Western Europe, Laicite, Catholic, Church Vandalism, Terrorism, Secularism
+PERSECUTION TIER: Lower
 
 ## Overview
 
-France is a nation of paradoxes in religious life. It is culturally the most Catholic country in Western Europe — the land of Clovis and Charlemagne, of Chartres and Notre-Dame, of Jeanne d’Arc and the Curé d’Ars — whose official ideology of laïcité (strict secularism) is among the most rigorous in the world. Christians worship freely; France has no anti-Christian legislation and no state persecution of Christianity. But France is also a country where anti-Christian acts — particularly the vandalism and arson of church buildings — have occurred at striking frequency, and where the legal framework of strict secularism creates real tensions around religious expression in public life.
+France is around 47 percent Christian and falling, with a Catholic majority, a small Protestant minority, and a large and growing share reporting no religion. Laïcité, the strict separation of religion and state set in the 1905 law, governs public life. Religious freedom is protected and there is no persecution.
 
-## Christianity’s Deep French Roots
+Two things keep France on watch lists that otherwise cover only the developing world. The first is the volume of vandalism. French authorities record around a thousand anti-Christian acts a year, mostly damage to churches, cemeteries, and statues, with a smaller number of thefts and desecrations of the Eucharist. Most are never solved and motives vary from anti-religious hostility to petty crime. Notre-Dame de Paris burned in an accidental fire in 2019 and reopened in December 2024 after reconstruction.
 
-Christianity arrived in Gaul during the Roman period. Lyon, as a major Roman city, had a significant Christian community by the late 2nd century — the martyrs of Lyon (177 AD), including Bishop Pothinus and the slave woman Blandina, are among the early church’s most celebrated martyrs. Clovis I, king of the Franks, converted to Catholic Christianity around 498 AD — a politically decisive moment that aligned the Frankish kingdom with Rome and shaped the religious character of what would become France. The alliance between the Frankish crown and the papacy produced the Carolingian Empire and the concept of Christian Europe as a political reality.
+The second is jihadist terrorism. Father Jacques Hamel was murdered at the altar in Saint-Étienne-du-Rouvray in July 2016 by two attackers who pledged to Islamic State. Three people were killed in the Basilica of Notre-Dame in Nice in October 2020. A Greek Orthodox priest was shot in Lyon in 2020. These attacks sit inside a broader campaign that has also targeted Jews, journalists, teachers, and the general public.
 
-France was the site of extraordinary medieval Christian culture: the Gothic cathedral tradition (Notre-Dame de Paris, Chartres, Reims, Amiens); the scholastic philosophy of Paris’s university (Bonaventure, Thomas Aquinas lectured here); and the Crusades, in which French nobles and kings were the primary military actors. The Protestant Reformation produced a significant French Calvinist community — the Huguenots — whose history of persecution, the Edict of Nantes (1598), its revocation (1685), and eventual legal toleration, is one of the defining narratives of European religious freedom.
-
-The French Revolution’s violent anti-clericalism — the dechristianization campaigns of the 1790s, the execution and exile of priests, the transformation of Notre-Dame into a “Temple of Reason” — created a tradition of radical secularism that has never fully dissolved. The 1905 Law on the Separation of the Churches and the State formalized laïcité, removing all state support for religious institutions and establishing the framework that governs French religious life today.
-
-## Anti-Christian Acts and Church Attacks
-
-A consistent and troubling pattern has emerged in France over the past decade: a high rate of vandalism, desecration, and arson targeting Catholic churches. The French Interior Ministry has documented hundreds of anti-Christian acts annually — ranging from graffiti and desecration of statues to arson. The April 2019 fire at Notre-Dame de Paris, while determined to be accidental, occurred in a context of heightened concern about church attacks and focused international attention on the vulnerability of France’s religious heritage.
-
-The attackers are diverse in motivation: some incidents appear tied to anti-religious sentiment, others to politically motivated vandalism, others to individuals with mental illness. Attribution is complicated, and generalizing about causation requires care. What is clear is that the rate of documented anti-Christian acts in France is significantly higher than the rate of anti-Islamic or anti-Semitic acts (though those also occur), and that the pattern has been under-reported relative to its frequency.
-
-## Laïcité and Religious Expression
-
-France’s strict application of laïcité — which prohibits conspicuous religious symbols in state schools and public institutions for employees — affects Christians alongside other faiths. A Christian nurse or teacher cannot wear a visible cross in a public school under French law; a Muslim woman cannot wear a hijab; a Jewish man cannot wear a visible kippah. The framework applies formally to all religions equally, though in practice debates have centered primarily on Islamic dress. Some Christian communities have argued that laïcité, applied this strictly, creates an environment hostile to any public religious expression — a concern shared by representatives of multiple traditions.
-
-France is not a persecution country by any measure that applies globally. Christians here are not arrested, imprisoned, or killed for their faith. The Catholic Church is a powerful cultural institution. Christians sit in the National Assembly and the highest offices of state. The concerns in France are about cultural trends and legal frameworks — important, but categorically different from what Christians in Eritrea, North Korea, or Afghanistan face.
+Laïcité restricts religious expression in state settings, including a ban on conspicuous religious symbols in public schools. The rules apply to all faiths and fall most heavily on Muslims. A 2021 law against separatism increased oversight of religious associations and their foreign funding, affecting evangelical and Muslim bodies more than the Catholic Church.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~51% (nominal Catholic majority; active practice much lower; Protestant minority ~3%)
-- **Current Status:** Full religious freedom; hundreds of anti-Christian acts annually (vandalism, arson); strict laïcité limits public religious expression
-- **Open Doors WWL:** Not ranked
-- **Notable:** Notre-Dame fire 2019 (accidental); pattern of church vandalism and arson documented by interior ministry; Päivi Räsänen-equivalent speech debates in French legal context ongoing
+- **Persecution Score:** Lower (12/100), **Rank:** #83 of 192 countries
+- **Estimated Christian Population:** about 47 percent, declining
+- **Current Status:** Full religious freedom under laïcité
+- **Live Issues:** Around a thousand anti-Christian incidents a year, jihadist attacks on churches and clergy
+- **Notable:** Father Jacques Hamel murdered in 2016. Notre-Dame reopened in December 2024
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: France* (most recent edition) — state.gov
+- French Ministry of the Interior, statistics on anti-religious acts — interieur.gouv.fr
+- Observatory on Intolerance and Discrimination Against Christians in Europe — intoleranceagainstchristians.eu
+- CIA World Factbook: France — cia.gov/the-world-factbook/countries/france/
 
 -----
 
@@ -443,66 +412,64 @@ France is not a persecution country by any measure that applies globally. Christ
 COUNTRY: Gabon
 TITLE: Gabon — Christianity & Persecution Profile
 SLUG: country-profiles/gabon
-META DESCRIPTION: Gabon is a majority-Christian Central African nation with legal religious freedom. Christians worship freely under a long-ruling political dynasty, now ended by a 2023 military coup. No systematic persecution exists.
+META DESCRIPTION: Gabon is a majority Christian country with religious freedom. A 2023 coup ended 55 years of Bongo family rule, and churches operate without restriction.
 CATEGORY: Country Profiles
-TAGS: Gabon, Central Africa, Catholic, Protestant, Religious Freedom, Coup, Political Transition
-PERSECUTION TIER: Low
+TAGS: Gabon, Central Africa, Catholic, Religious Freedom, Coup, Bwiti
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Gabon is a small, oil-rich Central African nation of approximately 2.3 million people that is approximately 80% Christian — predominantly Catholic, with Protestant and evangelical communities also present. Christians practice freely; religious freedom is constitutionally guaranteed. The country was governed for 56 years by the Bongo family dynasty (Omar Bongo, 1967–2009, and his son Ali Bongo Ondimba, 2009–2023), until a military coup in August 2023 ended the Bongo dynasty following disputed elections. The transitional military government has not indicated any change in policy toward religious communities.
+Gabon is around 75 to 80 percent Christian, predominantly Catholic with Protestant and evangelical minorities, and a persistent traditional Bwiti practice that some Gabonese combine with Christian belief. Religious freedom is protected and there is no persecution.
 
-French colonial missions established Catholicism deeply in Gabon. Albert Schweitzer’s famous hospital at Lambaréné — established by this Franco-Alsatian physician and theologian who spent decades serving in Gabon — is among the most well-known symbols of Christian medical mission in Africa, though Schweitzer’s theology was unorthodox by standard Christian measures. The Catholic and Protestant churches retain significant roles in education and health services.
+The military removed President Ali Bongo in August 2023, ending 55 years of rule by the Bongo family. General Brice Oligui Nguema led the transition and won the presidential election held in April 2025. Church leaders, particularly Catholic bishops, played a public role in calling for a credible transition. Religious organizations register with the state, and the process has been used sparingly against small groups rather than as a general control.
 
-Gabon is not on the Open Doors World Watch List and faces no notable religious freedom concerns for Christians.
+Jehovah's Witnesses were banned in Gabon for a period in the 1970s and 1980s and now operate legally. Gabon does not appear on the Open Doors World Watch List.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~80%
-- **Current Status:** Full religious freedom; no persecution; political transition ongoing after 2023 coup
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** about 75 to 80 percent
+- **Current Status:** Full religious freedom
+- **Political Context:** 2023 coup ended Bongo family rule, election held in 2025
 - **Open Doors WWL:** Not ranked
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Gabon* (most recent edition) — state.gov
+- CIA World Factbook: Gabon — cia.gov/the-world-factbook/countries/gabon/
+- International Crisis Group, *Gabon* — crisisgroup.org
 
 -----
 
 # ================================================================================
 COUNTRY: Gambia
-TITLE: Gambia — Christianity & Persecution Profile
+TITLE: The Gambia — Christianity & Persecution Profile
 SLUG: country-profiles/gambia
-META DESCRIPTION: Gambia is a small, majority-Muslim West African nation where Christians practice with relative freedom compared to more restrictive Islamic states, but where an Islamic identity law proposed under former dictator Jammeh and ongoing social pressure on converts remain concerns.
+META DESCRIPTION: The Gambia is over 95 percent Muslim with a small Christian minority that worships freely. A 2015 attempt to declare an Islamic republic was reversed after the 2017 transition.
 CATEGORY: Country Profiles
-TAGS: Gambia, West Africa, Islam, Christian Minority, Converts, Religious Restrictions, Post-Jammeh
-PERSECUTION TIER: Moderate
+TAGS: Gambia, West Africa, Islam, Christian Minority, Religious Tolerance, Jammeh
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Gambia is a tiny country — the smallest on mainland Africa — surrounded almost entirely by Senegal, with a population of approximately 2.5 million. Approximately 96% of Gambians are Muslim; Christians represent around 4%, concentrated primarily in the western coastal region around the capital Banjul and among certain ethnic groups including the Jola and Manjago. Christians can worship in their churches, maintain schools, and practice openly. However, the legacy of Yahya Jammeh’s 22-year dictatorship (1994–2017) — which declared Gambia an “Islamic Republic” in 2015 and created an environment of acute pressure on religious minorities — continues to shape the country’s religious climate, and converts from Islam face severe social consequences.
+The Gambia is over 95 percent Muslim with a Christian minority of roughly 4 percent, mostly Catholic and Anglican, concentrated around Banjul and among the Aku and some Jola communities. Interfaith relations are unusually good. Christian and Muslim families attend each other's celebrations, and mixed families are common.
 
-## Christianity in Gambia
+President Yahya Jammeh declared The Gambia an Islamic republic in December 2015 without parliamentary process, a move that alarmed the Christian minority even as he promised no change to their rights. He lost the 2016 election and was forced out in January 2017 after regional military pressure. His successor, Adama Barrow, reversed the declaration and restored the secular constitutional framework.
 
-Christianity came to Gambia through British colonial presence — the Gambia was the earliest British territorial claim in Africa — and through missionaries, particularly Methodist and Catholic, who established churches, schools, and medical work from the 19th century. The Christian community, though small, has deep roots, particularly in the western coastal area. The Catholic Diocese of Banjul and several Protestant denominations operate established institutions.
-
-Interreligious relations in Gambia have historically been relatively cordial by regional standards. Christian and Muslim families share the same communities; intermarriage is not unheard of; major Christian and Muslim holidays are observed nationally with a degree of mutual respect.
-
-## The Jammeh Era and Its Legacy
-
-Yahya Jammeh, who ruled Gambia from a 1994 coup until his electoral defeat in 2016, pursued increasingly erratic and Islamist-inflected policies over his final years. His 2015 declaration that Gambia was an “Islamic Republic” alarmed the Christian minority and created immediate concern about whether the framework of legal religious pluralism would be maintained. Jammeh made additional statements threatening Christians and expressing support for a more overtly Islamist social order. The Christian community — already a small minority — navigated this period with considerable anxiety.
-
-Jammeh’s electoral defeat in December 2016 (which he initially refused to accept, requiring ECOWAS military pressure to enforce) and his subsequent exile to Equatorial Guinea ended the immediate crisis. President Adama Barrow, who replaced Jammeh, reversed the “Islamic Republic” declaration, restoring Gambia’s formally secular constitutional framework.
-
-## Converts and Social Pressure
-
-For Gambians who leave Islam for Christianity, the consequences are significant. Social ostracism, family rejection, loss of employment, and community exclusion are the primary tools of enforcement. The government does not actively prosecute converts, and apostasy is not criminalized in the penal code. But the informal social framework is powerful, particularly in rural communities, and pastors who disciple converts from Muslim backgrounds sometimes face threats.
-
-## Current Status
-
-Gambia is monitored but not in the Open Doors top tier. The Christian community practices with relative freedom in formal terms; the concerns are concentrated in social pressure on converts and the legacy of Jammeh’s Islamism, which shaped social expectations even if it was not enshrined in law. The current trajectory under Barrow is more favorable than the Jammeh years, but the social environment for religious minorities in a 96% Muslim country carries inherent constraints.
+Christians worship freely, run schools attended by Muslim and Christian children alike, and hold public office. Converts from Islam face family and community pressure, which is the main constraint on religious freedom here. The Gambia does not appear on the Open Doors World Watch List.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~4%
-- **Primary Concerns:** Social pressure on converts from Islam; Jammeh-era Islamist legacy; Islamic Republic declaration (2015, reversed 2017)
-- **Current Status:** Formal religious freedom restored; social environment challenging for converts and minority Christians
-- **Open Doors WWL:** Monitored; not top tier
+- **Persecution Score:** Lower (13/100), **Rank:** #79 of 192 countries
+- **Estimated Christian Population:** about 4 percent
+- **Current Status:** Religious freedom, secular state restored in 2017
+- **Primary Constraint:** Family and community pressure on converts from Islam
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: The Gambia* (most recent edition) — state.gov
+- CIA World Factbook: The Gambia — cia.gov/the-world-factbook/countries/gambia-the/
+- Human Rights Watch, *Gambia* — hrw.org/africa/gambia
 
 -----
 
@@ -510,46 +477,34 @@ Gambia is monitored but not in the Open Doors top tier. The Christian community 
 COUNTRY: Georgia
 TITLE: Georgia — Christianity & Persecution Profile
 SLUG: country-profiles/georgia
-META DESCRIPTION: Georgia is a fiercely Orthodox Christian nation where the church has been central to national identity and survival for seventeen centuries. Minority denominations — particularly Jehovah’s Witnesses and evangelical groups — faced violent mob persecution in the early 2000s; the situation has improved but social pressure on non-Orthodox Christians remains.
+META DESCRIPTION: Georgia adopted Christianity in the fourth century and its Orthodox Church dominates national life. Minority Christian groups face social hostility and administrative obstacles.
 CATEGORY: Country Profiles
-TAGS: Georgia, Caucasus, Georgian Orthodox, Christian Nation, Minority Denominations, Historical Persecution, Religious Identity
-PERSECUTION TIER: Moderate
+TAGS: Georgia, Caucasus, Georgian Orthodox, Minority Churches, Soviet Legacy, Abkhazia, South Ossetia
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Georgia has been a Christian nation since 327 AD — according to tradition, when St. Nino of Cappadocia evangelized the kingdom of Iberia and converted King Mirian III. That seventeen-century-old Christian identity has been the anchor of Georgian national survival through Persian invasions, Mongol devastation, Ottoman domination, and Soviet suppression. To be Georgian is, in the deepest cultural sense, to be Orthodox — and the Georgian Orthodox Patriarchate commands a degree of public trust and national reverence that is extraordinary even by Eastern Orthodox standards. Approximately 84% of Georgians identify as Orthodox.
+Georgia adopted Christianity as its state religion around 337, among the earliest nations to do so, and the Georgian Orthodox Church remains central to national identity. Around 84 percent of Georgians are Orthodox. The constitution protects religious freedom and gives the Orthodox Church a special constitutional agreement with the state.
 
-The complexity in Georgia’s religious freedom picture is not state persecution of Christians — it is the treatment of minority Christian denominations by a society whose dominant religious institution has, at times, been complicit in or tolerant of violence against those who deviate from Orthodox Christianity.
+The pressure falls on minority Christian groups. Evangelicals, Jehovah's Witnesses, Baptists, and Catholics report difficulty obtaining permits to build or repair churches, disputes over property confiscated during the Soviet period and returned only to the Orthodox Church, and occasional mob harassment. A 2013 attack on Muslim worshippers and repeated incidents involving Jehovah's Witnesses through the 1990s and 2000s marked the worst of it, and the frequency has fallen since. Orthodox clergy have on occasion led or blessed protests against minority religious activity.
 
-## Seventeen Centuries of Christian Identity
+Russian-occupied Abkhazia and South Ossetia are outside Georgian government control. Georgian Orthodox clergy have been barred from both, and church property there is disputed.
 
-Georgia’s conversion is closely tied to the story of St. Nino. By tradition, Nino arrived in what is now eastern Georgia around 320 AD and through her healing ministry and witness converted the queen and eventually King Mirian III, who established Christianity as the state religion around 327 AD. The Georgian church received its own catholicos (head bishop) in the 5th century and has maintained autocephalous (self-governing) status, with its seat in Mtskheta — the ancient capital, still the spiritual center of Georgian Orthodoxy.
-
-Georgia’s geographic position made it a perpetual battleground between larger empires. The Persian Sassanid Empire, the Arab Caliphate, the Seljuk Turks, the Mongols, the Ottoman Empire, and later the Russian Empire all sought control of the Caucasus. Throughout all of this, the Georgian church was the institution that preserved Georgian language, identity, and culture. The martyrdom of the 6,000 at the Cathedral of Svetitskhoveli — killed by Shah Abbas of Persia in 1616 rather than convert to Islam — is among the defining moments of Georgian Christian martyrology.
-
-The Soviet period suppressed the Georgian church severely — monasteries closed, clergy imprisoned, church property confiscated — but it survived. After independence in 1991, the church recovered rapidly and by the 2000s was again the most trusted institution in the country.
-
-## Mob Violence Against Minority Denominations
-
-The early 2000s produced a serious and well-documented pattern of organized religious violence against minority Christian groups — specifically Jehovah’s Witnesses, Baptists, and evangelical Christians — carried out by mobs led by defrocked Orthodox priest Basil Mkalavishvili. These mobs, sometimes numbering in the hundreds, attacked prayer meetings, burned Bibles and religious literature, physically assaulted worshipers, and destroyed property. Police initially failed to intervene and in some cases stood by as attacks occurred.
-
-The violence was documented extensively by human rights organizations. The Georgian Patriarchate’s response was slow and, by the assessment of monitoring organizations, inadequate — there was no early unambiguous denunciation of the attacks. Mkalavishvili was eventually arrested in 2004 and imprisoned; the organized mob violence ended.
-
-As a reference point for GWM users: Jehovah’s Witnesses were among the primary victims of this mob violence in Georgia, which — as discussed in Batch 1 — functioned as a “canary” revealing the degree to which non-Orthodox Christian expression could be targeted with social tolerance and initial state inaction. Baptists and evangelicals were also attacked, illustrating that the violence was not targeted solely at non-Christians or non-Trinitarian groups but at anyone perceived as competing with or departing from Orthodox Christianity.
-
-## Current Status
-
-The situation has improved substantially since the Mkalavishvili period. Georgia has enacted legal protections for religious freedom; the Georgian Patriarchate has more clearly condemned religiously motivated violence; and the physical attacks on minority denominations have ended as an organized phenomenon. However, social pressure on converts from Orthodoxy and on minority Christian communities remains real. Evangelicals and Pentecostals building new churches in predominantly Orthodox communities sometimes face local opposition. Converts from Islam in predominantly Muslim areas of western Georgia (Adjara) face the dual pressure of leaving both Islam and the dominant cultural identity.
-
-Georgia is not in the Open Doors top tier of the World Watch List. It sits in the moderate category — a country with a deeply Christian majority culture that has, in its history, used that cultural power to suppress forms of Christian expression that deviate from its own tradition.
+Georgia was Christianized through the witness of Saint Nino, and the Svetitskhoveli Cathedral at Mtskheta remains the spiritual center of the country.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~89% (predominantly Georgian Orthodox)
-- **Primary Historical Concern:** Organized mob violence against minority Christian groups (2000–2004); Mkalavishvili convicted 2004
-- **Current Status:** Physical attacks ended; social pressure on non-Orthodox Christians and converts persists; formal religious freedom in law
-- **Open Doors WWL:** Not in top tier; historically monitored
-- **Notable:** One of the earliest Christian nations in the world (327 AD); church central to national survival through 17 centuries
+- **Persecution Score:** Lower (13/100), **Rank:** #79 of 192 countries
+- **Estimated Christian Population:** about 88 percent, overwhelmingly Georgian Orthodox
+- **Primary Concerns:** Administrative obstacles and social hostility toward minority denominations, property restitution, exclusion of clergy from occupied territories
+- **Historical Note:** Christianity adopted as state religion around 337
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Georgia* (most recent edition) — state.gov
+- Forum 18 News Service, *Georgia* — forum18.org
+- Georgian Orthodox Church — patriarchate.ge
+- CIA World Factbook: Georgia — cia.gov/the-world-factbook/countries/georgia/
 
 -----
 
@@ -557,27 +512,34 @@ Georgia is not in the Open Doors top tier of the World Watch List. It sits in th
 COUNTRY: Germany
 TITLE: Germany — Christianity & Persecution Profile
 SLUG: country-profiles/germany
-META DESCRIPTION: Germany is a majority-Christian nation with full religious freedom and a complex Christian history — including the Reformation, two world wars, and the Holocaust, in which the churches’ response remains a source of deep theological reckoning.
+META DESCRIPTION: Germany has full religious freedom and a rapidly shrinking church. Christian converts from Islam in refugee accommodation face harassment from other residents.
 CATEGORY: Country Profiles
-TAGS: Germany, Western Europe, Lutheran, Catholic, Religious Freedom, Reformation, Holocaust, Church Tax
-PERSECUTION TIER: Low
+TAGS: Germany, Western Europe, Catholic, Protestant, Secularization, Converts, Church Tax
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Germany is a majority-Christian nation — approximately 53% of the population identifies as Christian, split roughly equally between Catholic and Protestant (Lutheran and Reformed) — with full constitutional religious freedom under Article 4 of the Basic Law. Christians of all traditions practice without persecution. Germany is not on the Open Doors World Watch List.
+Germany is around 48 percent Christian and declining fast. Catholics and the Evangelical Church in Germany are close in size, and both lose hundreds of thousands of members a year, with more than half a million leaving the Catholic Church in 2022 alone after abuse revelations. Religious freedom is complete.
 
-Germany’s significance in Christian history is disproportionate to its size. Martin Luther’s nailing of the 95 Theses to the Wittenberg church door in 1517 launched the Protestant Reformation, permanently dividing Western Christianity. The Peace of Augsburg (1555) and the Peace of Westphalia (1648) — which ended the devastating Thirty Years’ War (1618–1648) — established the principle of cuius regio, eius religio and eventually religious toleration as legal frameworks, shaping the development of European religious pluralism.
+Germany funds churches through a church tax collected by the state, gives them standing as public corporations, and supports religious education in schools. The financial and legal position of the German church is among the strongest in Europe while attendance keeps falling.
 
-The 20th century brought catastrophic chapters. German churches’ response to Nazism was deeply divided: the German Christians movement accommodated National Socialism; the Confessing Church — led by figures including Dietrich Bonhoeffer, Martin Niemöller, and Karl Barth — resisted. Bonhoeffer was executed by the Nazis in April 1945, days before the end of the war; his theology and martyrdom have made him one of the most influential Christian thinkers of the modern era. The Holocaust — the systematic murder of six million Jews — occurred in a historically Christian country and raises questions about Christian anti-Semitism and institutional complicity that the German churches have spent decades reckoning with.
+Two live concerns. Christian converts from Islam, many of them Iranian and Afghan asylum seekers, report harassment, threats, and assaults from other residents in refugee accommodation, and pastors have documented cases where converts had to be relocated. Asylum authorities have also questioned the sincerity of conversions when deciding claims, which churches have challenged.
 
-Germany today has a church tax (Kirchensteuer) system through which registered church members contribute to their denomination through the state tax system — a unique arrangement reflecting Germany’s church-state entanglement. Secularization is advancing, particularly in the former East Germany, which under communist rule became among the most irreligious regions in Europe.
+Church buildings and cemeteries see vandalism at a level similar to other Western European countries, and a small number of jihadist plots against churches have been disrupted. The abuse crisis remains the dominant internal issue, with independent studies documenting thousands of victims in both major churches.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~53%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Significance:** Birthplace of the Protestant Reformation; Dietrich Bonhoeffer martyred 1945; Holocaust reckoning shapes ongoing theological reflection
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 48 percent, falling sharply
+- **Current Status:** Full religious freedom
+- **Live Issues:** Harassment of Muslim-background converts in refugee accommodation, church vandalism, the abuse crisis
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Germany* (most recent edition) — state.gov
+- Open Doors Germany, reports on converts in refugee accommodation — opendoors.de
+- Evangelische Kirche in Deutschland, membership statistics — ekd.de
+- CIA World Factbook: Germany — cia.gov/the-world-factbook/countries/germany/
 
 -----
 
@@ -585,25 +547,34 @@ Germany today has a church tax (Kirchensteuer) system through which registered c
 COUNTRY: Ghana
 TITLE: Ghana — Christianity & Persecution Profile
 SLUG: country-profiles/ghana
-META DESCRIPTION: Ghana is one of West Africa’s most stable democracies and a majority-Christian nation where believers practice freely. Muslims and Christians coexist with generally positive relations, though Islamic pressure on converts in the northern regions is a quiet concern.
+META DESCRIPTION: Ghana is over 70 percent Christian with strong religious freedom and good interfaith relations. Jihadist pressure from Burkina Faso is building along the northern border.
 CATEGORY: Country Profiles
-TAGS: Ghana, West Africa, Christian Majority, Catholic, Pentecostal, Religious Freedom, Religious Harmony
-PERSECUTION TIER: Low
+TAGS: Ghana, West Africa, Christianity, Islam, Religious Freedom, Sahel Spillover, Pentecostalism
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Ghana is a West African nation of approximately 33 million people that is approximately 71% Christian — with an exceptionally diverse range of denominations including Catholic, Methodist, Presbyterian, Baptist, Pentecostal, charismatic, and a thriving independent church movement. Approximately 20% of Ghanaians are Muslim, concentrated primarily in the northern regions. The country is a multi-party democracy and has been praised as one of West Africa’s most stable governance models, completing multiple peaceful transfers of power. Christians practice freely; interreligious relations are generally described as positive and cooperative.
+Ghana is over 70 percent Christian, with a Muslim minority near 18 percent concentrated in the north, and religious freedom is well established in law and practice. Interfaith relations are among the best in West Africa, with the national chief imam and Christian leaders appearing together publicly and Ghanaians of both faiths attending each other's festivals.
 
-Christianity arrived in Ghana through Portuguese Catholic missionaries at Elmina in the 15th century. British colonial missions — particularly Methodist and Basel Mission — established significant Protestant work in the 19th century, building the educational networks that shaped Ghana’s early national leadership. Kwame Nkrumah, Ghana’s independence leader, was educated at mission schools. Since independence in 1957, Christianity has grown dramatically, and Ghana has become a significant exporter of Christian mission — Ghanaian churches have established congregations across Africa and in the diaspora.
+Pentecostal and charismatic churches dominate Ghanaian Christianity and shape public culture, media, and politics. The country exports pastors and church networks across West Africa and the diaspora.
 
-The primary mild concern is social pressure on converts from Islam in the northern regions, where Muslim identity is deeply communal. Converts face family and community pressure, though not typically state persecution. Ghana is not on the Open Doors World Watch List and is a broadly positive model of Christian life in West Africa.
+The northern border with Burkina Faso is the risk. Jihadist groups control territory a short distance north, and Ghana has recorded refugee inflows and periodic security incidents in the Upper East and Upper West regions. No sustained attacks inside Ghana have matched what happened across the border. Government and church bodies have invested in early warning and interfaith cohesion in the north specifically to prevent it.
+
+Chieftaincy and land disputes in the north occasionally take on religious coloring without being religious conflicts.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~71%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Notable:** One of West Africa’s most stable democracies; active Christian mission-sending nation
+- **Persecution Score:** Lower (15/100), **Rank:** #76 of 192 countries
+- **Estimated Christian Population:** over 70 percent
+- **Current Status:** Full religious freedom, strong interfaith relations
+- **Emerging Risk:** Jihadist pressure from Burkina Faso on the northern border
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Ghana* (most recent edition) — state.gov
+- U.S. Department of State, *Ghana Travel Advisory* — travel.state.gov
+- Ghana Statistical Service, *2021 Population and Housing Census* — statsghana.gov.gh
+- International Crisis Group, *Ghana and the Sahel* — crisisgroup.org
 
 -----
 
@@ -611,25 +582,32 @@ The primary mild concern is social pressure on converts from Islam in the northe
 COUNTRY: Greece
 TITLE: Greece — Christianity & Persecution Profile
 SLUG: country-profiles/greece
-META DESCRIPTION: Greece is a deeply Orthodox Christian nation with a constitutionally privileged national church and full religious freedom for all. Christians face no persecution, though proselytism laws have historically created friction for minority denominations.
+META DESCRIPTION: Greece is overwhelmingly Orthodox with the church holding constitutional standing. Minority Christian groups face some administrative friction and there is no persecution.
 CATEGORY: Country Profiles
-TAGS: Greece, Southern Europe, Greek Orthodox, Religious Freedom, Proselytism, Minority Denominations
-PERSECUTION TIER: Low
+TAGS: Greece, Southeast Europe, Greek Orthodox, Mount Athos, Minority Churches, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Greece is approximately 90% Eastern Orthodox Christian, and the Greek Orthodox Church holds a privileged constitutional status as the “prevailing religion.” Christianity arrived in Greece through the Apostle Paul himself — his famous visit to Athens (Acts 17), his letter to the Corinthians and Philippians, and his founding of churches in multiple Greek cities make the Pauline epistles partly a correspondence about the original Greek Christian communities. The Greek church has been central to Greek national identity through Ottoman rule, independence, and the modern state.
+Greece is around 90 percent Greek Orthodox, and the Church of Greece holds a recognized position in the constitution as the prevailing religion. Religious freedom is protected and there is no persecution.
 
-Greece has full religious freedom in law. Catholic, Protestant, and evangelical denominations operate freely, as do Jewish and Muslim communities. However, Greece’s proselytism law — which prohibits “aggressive” proselytism — has historically been used against evangelical and Jehovah’s Witness missionaries, and several cases reached the European Court of Human Rights (notably Kokkinakis v. Greece, 1993), where Greece lost. Enforcement of this law has eased considerably in recent decades.
+Greek Orthodoxy is inseparable from Greek identity, shaped by the Byzantine inheritance and by four centuries of Ottoman rule in which the church preserved language and community. Mount Athos remains a self-governing monastic republic with twenty monasteries and a continuous tradition over a thousand years old.
 
-Minority Christian denominations — evangelical, Pentecostal, and others — sometimes encounter bureaucratic obstacles in registering as religious organizations and face social friction in a culture where Orthodox identity is deeply embedded in national self-understanding. But systematic persecution does not exist. Greece is not on the Open Doors World Watch List.
+Friction is administrative. Catholic, Protestant, and Jehovah's Witness communities have faced delays obtaining permits for houses of worship, and Greece has lost European Court of Human Rights cases over past proselytism prosecutions and permit refusals. Compulsory religious education follows the Orthodox curriculum, with exemptions available. Clergy salaries for the Orthodox Church are paid by the state. These are questions of unequal footing rather than restriction of worship.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~90% (predominantly Orthodox)
-- **Current Status:** Full religious freedom; no systematic persecution; historical proselytism law friction eased
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Paul the Apostle founded churches in Athens, Corinth, Philippi, Thessalonica, and other Greek cities — among the earliest Christian communities in the world
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** about 90 percent, overwhelmingly Orthodox
+- **Current Status:** Full religious freedom with a constitutionally prevailing church
+- **Minor Friction:** Permits for minority houses of worship, Orthodox-based religious education
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Greece* (most recent edition) — state.gov
+- European Court of Human Rights, case law on Greece and religious freedom — echr.coe.int
+- Church of Greece — ecclesia.gr
+- CIA World Factbook: Greece — cia.gov/the-world-factbook/countries/greece/
 
 -----
 
@@ -637,40 +615,32 @@ Minority Christian denominations — evangelical, Pentecostal, and others — so
 COUNTRY: Guatemala
 TITLE: Guatemala — Christianity & Persecution Profile
 SLUG: country-profiles/guatemala
-META DESCRIPTION: Guatemala is a majority-evangelical Protestant nation where pastors and church leaders in rural indigenous communities face targeted violence from drug trafficking organizations and criminal networks that see the church as a threat to their control.
+META DESCRIPTION: Guatemala is overwhelmingly Christian with the largest evangelical share in Latin America. Its church carries the memory of clergy killed during the civil war.
 CATEGORY: Country Profiles
-TAGS: Guatemala, Central America, Evangelical, Catholic, Gang Violence, Pastoral Persecution, Indigenous Christianity, WWL
-PERSECUTION TIER: Moderate
+TAGS: Guatemala, Central America, Evangelical, Catholic, Civil War, Maya, Gerardi
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Guatemala is one of the most Christian countries in Latin America and, strikingly, one of the most evangelical. Approximately 40% of Guatemalans identify as Catholic and 40% as Protestant — the vast majority of the Protestant community belonging to evangelical and Pentecostal denominations. Guatemala has been called the first Latin American country where evangelical Protestants became a majority, and the trajectory toward evangelical dominance has continued. Several of Guatemala’s recent presidents have been evangelical Protestants, and the evangelical community wields significant political influence.
+Guatemala is around 85 to 90 percent Christian and has the largest evangelical share of any country in Latin America, roughly 40 percent, alongside a Catholic population in which Maya communities often blend Christian and traditional practice. Religious freedom is protected and there is no persecution.
 
-The state poses no threat to Christians in Guatemala. Religious freedom is constitutionally guaranteed, and all denominations operate freely. Guatemala’s challenge for the church is similar to Colombia’s: drug trafficking organizations, criminal networks, and gang structures that control rural territory specifically target pastors and church leaders who challenge their authority, recruit youth away from the criminal economy, or provide community moral leadership that competes with criminal power.
+The civil war from 1960 to 1996 killed around 200,000 people, most of them indigenous Maya, and the state was found responsible for acts of genocide. Catechists, priests, and pastors were killed in large numbers because church workers organized rural communities. Bishop Juan Gerardi was beaten to death in 1998, two days after presenting the church's *Guatemala: Nunca Más* report documenting wartime atrocities. Military officers were later convicted for his killing.
 
-## Christianity in Guatemala
-
-Spanish colonization established Catholicism through the Dominican, Franciscan, and Jesuit orders, and Guatemalan Catholicism developed a distinctive character through its interaction with Maya spiritual traditions — the syncretic blending of Christian and indigenous religious practice in some Mayan communities is a documented and complex phenomenon that the church has navigated in various ways. The devastation of Guatemala’s civil war (1960–1996) — which killed an estimated 200,000 people and included documented massacres of indigenous Mayan communities — was a defining trauma in which the Catholic Church’s human rights advocacy (particularly under Bishop Juan Gerardi, murdered in 1998, two days after releasing a major human rights report) cost lives.
-
-Protestant and evangelical Christianity entered Guatemala through Presbyterian missions in the 19th century and exploded in growth during the late 20th century. The 1976 earthquake — which killed approximately 23,000 people — opened Guatemala to a wave of evangelical humanitarian and mission workers who planted churches across the country. By the 1980s, Guatemala had become a model of evangelical growth in Latin America. The conversion of General Efraín Ríos Montt — who became president in a 1982 coup and was later convicted of genocide against indigenous Mayan communities — from Catholicism to Pentecostalism was a controversial moment in this history: his evangelical faith did not prevent atrocities under his government.
-
-## Criminal Violence and the Church
-
-Today’s primary threat to Guatemalan Christians is from organized crime in rural areas. Drug trafficking routes run through Guatemala’s highlands and the Petén region; criminal organizations control significant territory. In communities they control, pastors who preach against drug use, who run rehabilitation programs for addicts or former gang members, who provide moral community leadership that competes with criminal authority — these pastors are targeted. Threats, displacement, and assassination are the methods used. International Christian Concern and Open Doors document Guatemala as a country where pastors are regularly killed by non-state criminal actors, particularly in rural indigenous communities.
-
-The Guatemalan state’s capacity and political will to protect these communities is limited. The criminal organizations are powerful; corruption extends into police and judicial structures; and rural indigenous communities are often the last priority for state protection.
-
-## Current Status
-
-Guatemala sits in the lower-to-middle tier of the Open Doors World Watch List, not for state persecution but for non-state criminal violence against church leaders. The majority of Guatemalan Christians worship freely. The specific risk is geographically concentrated in criminal-controlled rural areas and falls most heavily on pastors — particularly those in indigenous highland and lowland communities who challenge criminal territorial control through their ministry.
+Present concerns are criminal rather than religious. Gangs extort churches in urban neighborhoods, and pastors working with at-risk youth face threats. Church leaders who defend indigenous land rights against mining and hydroelectric projects have been criminalized or attacked, which is a land conflict that touches the church rather than persecution of the faith.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~80% (roughly equal Catholic and evangelical; evangelical growing)
-- **Primary Threat:** Criminal organizations and drug trafficking networks targeting rural pastors and church leaders
-- **Current Status:** Full legal religious freedom; non-state criminal violence against church leaders in rural areas is the documented concern
-- **Open Doors WWL:** Lower-mid tier (non-state criminal actor violence)
-- **Historical Note:** Guatemala is among the most Protestant-evangelical countries in Latin America; evangelical growth is among the most significant in the Western Hemisphere
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** about 85 to 90 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Church workers killed in large numbers during the civil war. Bishop Gerardi murdered in 1998
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Guatemala* (most recent edition) — state.gov
+- Commission for Historical Clarification, *Guatemala: Memory of Silence* — un.org
+- Archdiocese of Guatemala, *Guatemala: Nunca Más* (REMHI, 1998)
+- Pew Research Center, *Religion in Latin America* — pewresearch.org/religion/
 
 -----
 
@@ -678,31 +648,33 @@ Guatemala sits in the lower-to-middle tier of the Open Doors World Watch List, n
 COUNTRY: Guinea
 TITLE: Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/guinea
-META DESCRIPTION: Guinea is a predominantly Muslim West African nation where Christians — about 10% of the population — practice with relative freedom in urban areas but face social discrimination and pressure on converts in Muslim-majority communities. Political instability since 2021 has created a more uncertain environment.
+META DESCRIPTION: Guinea is close to 90 percent Muslim with a Christian minority in the forest region. Believers worship freely, and converts from Islam face family rejection.
 CATEGORY: Country Profiles
-TAGS: Guinea, West Africa, Islam, Christian Minority, Converts, Discrimination, Coup, Political Instability
-PERSECUTION TIER: Moderate
+TAGS: Guinea, West Africa, Islam, Christian Minority, Converts, Coup, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Guinea is a West African nation of approximately 14 million people, of whom roughly 85% are Muslim and approximately 10% are Christian (mainly Catholic and evangelical Protestant), with the remainder practicing traditional religions. Christianity arrived in Guinea through French colonial missions in the 19th and early 20th centuries and found its deepest roots among the Forest Guinea region in the south and among non-Muslim ethnic groups. Christians can practice openly in urban centers and in regions where they form a significant presence. In Muslim-majority communities — particularly among the Fula (Peul) and Mandinka peoples of the Fouta Djallon highlands and the north — converts from Islam face severe social consequences, and the environment for Christian witness is significantly restricted.
+Guinea is close to 90 percent Muslim, with Christians making up roughly 7 percent, concentrated in the forest region of the southeast among the Kpelle, Kissi, and Toma, and in Conakry. The constitution provides for religious freedom and the state generally respects it for established churches.
 
-## Political Context
+Guinea's first president, Sékou Touré, ran an authoritarian socialist state from 1958 to 1984 that expelled foreign missionaries, nationalized church schools, and imprisoned clergy, including Archbishop Raymond-Marie Tchidimbo, who spent years in the Camp Boiro prison. Religious life recovered after 1984.
 
-Guinea has experienced significant political instability. Alpha Condé, who had been president since 2010, was overthrown in a military coup in September 2021 by Colonel Mamadi Doumbouya, who has since ruled through a transitional government. The coup removed a president who had increasingly consolidated authoritarian power but did not introduce any formal change in the status of religious minorities. The transitional government has engaged in dialogue with religious communities and has not signaled hostility toward Christians, but political instability always creates uncertainty for minority communities.
+Converts from Islam face the main pressure, including family rejection, loss of inheritance, and community exclusion, particularly in the Fouta Djallon. Religious activity requires registration and the government has closed unregistered places of worship. Some church construction permits have been delayed.
 
-## Christians in Guinea
-
-The Catholic Church has maintained hospitals, schools, and social services in Guinea that have given it a presence and reputation beyond its numerical weight. Evangelical and Pentecostal communities have grown, particularly in Conakry (the capital) and in the Forest Guinea region. Interreligious relations in urban areas are generally civil; Muslims and Christians work alongside each other in professional settings and live in mixed urban neighborhoods.
-
-In deeply rural Muslim communities, however, conversion from Islam to Christianity is treated as a profound social rupture. Converts risk family rejection, inheritance disinheritance, loss of marital status, and physical danger. Pastors who serve converts from Muslim backgrounds are identified as threats by some communities and face threats. This social enforcement is powerful and pervasive without being state-directed.
+A military coup removed President Alpha Condé in September 2021 and Mamadi Doumbouya has governed since, with a transition timetable that has slipped repeatedly. Political instability rather than religious policy is the main risk to church life.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~10%
-- **Primary Concerns:** Social and family pressure on converts from Islam; discrimination in Muslim-majority communities; political instability post-2021 coup
-- **Current Status:** Urban Christians practice freely; rural converts face serious social consequences
-- **Open Doors WWL:** Monitored; not top tier
+- **Persecution Score:** Lower (16/100), **Rank:** #74 of 192 countries
+- **Estimated Christian Population:** about 7 percent
+- **Primary Constraints:** Family and community pressure on converts, registration requirements
+- **Current Status:** Religious freedom for established churches under a military transitional government
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Guinea* (most recent edition) — state.gov
+- CIA World Factbook: Guinea — cia.gov/the-world-factbook/countries/guinea/
+- Human Rights Watch, *Guinea* — hrw.org/africa/guinea
 
 -----
 
@@ -710,27 +682,32 @@ In deeply rural Muslim communities, however, conversion from Islam to Christiani
 COUNTRY: Guinea-Bissau
 TITLE: Guinea-Bissau — Christianity & Persecution Profile
 SLUG: country-profiles/guinea-bissau
-META DESCRIPTION: Guinea-Bissau is a religiously diverse West African nation with a Muslim majority, Christian minority, and large traditional religion community. Christians practice freely in a largely tolerant environment, though the country’s extreme poverty and chronic political instability create significant hardship.
+META DESCRIPTION: Guinea-Bissau has a Christian minority of roughly 20 percent and no religious persecution. Chronic coups and drug trafficking make instability the main threat to church life.
 CATEGORY: Country Profiles
-TAGS: Guinea-Bissau, West Africa, Islam, Christian Minority, Traditional Religions, Religious Tolerance, Poverty
-PERSECUTION TIER: Low
+TAGS: Guinea-Bissau, West Africa, Catholic, Instability, Coups, Narcotrafficking, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Guinea-Bissau is a small, extremely poor West African nation of approximately 2 million people with a diverse religious landscape: approximately 45% Muslim, 22% Christian (predominantly Catholic, with evangelical communities), and 33% practicing traditional African religions. The country has a remarkable degree of religious syncretism and tolerance — it is not unusual for a Guinean family to include members of all three religious traditions, and the boundaries between traditions are often fluid.
+Guinea-Bissau is roughly 45 percent Muslim, 20 percent Christian, mostly Catholic, and the remainder following traditional religion, with a great deal of overlap between categories. Religious tolerance is high and there is no persecution of Christians.
 
-Christian missionaries — primarily Catholic — arrived under Portuguese colonial rule. The country was Portugal’s last major African colony, gaining independence in 1974 after a long liberation war. The Catholic Church built institutions during the colonial period that remain. Protestant and evangelical missions entered after independence. The Association of Evangelical Churches of Guinea-Bissau has a presence across the country.
+The country's problem is governance. Since independence from Portugal in 1974 it has seen repeated coups and attempted coups, including a further coup in November 2025. No elected president has completed a full term without military interference. Cocaine trafficking through Bissau to Europe has corrupted parts of the state and given it a reputation as a narco-state.
 
-Christians practice freely in Guinea-Bissau. There is no pattern of state persecution, no significant Islamist pressure (Islam in Guinea-Bissau is generally characterized as moderate and sufic in influence rather than Salafist), and no notable violence against Christians. The country’s challenges are governance (multiple coups and political instability) and extreme poverty — it is consistently ranked among the poorest and least-developed nations in the world. These conditions create hardship for all, including the church, but they are not specifically religious in character.
-
-Guinea-Bissau is not on the Open Doors World Watch List.
+Instability rather than religious hostility limits church work. Schools and clinics run by Catholic and Protestant missions supply services the state cannot, and they close or suspend operations during political crises. There is no U.S. embassy in the country, and consular coverage runs from Dakar.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~22%
-- **Current Status:** Full religious freedom; no systematic persecution; notable religious tolerance and syncretism
-- **Open Doors WWL:** Not ranked
-- **Primary National Challenges:** Extreme poverty, chronic political instability — not religious persecution
+- **Persecution Score:** Lower (13/100), **Rank:** #79 of 192 countries
+- **Estimated Christian Population:** about 20 percent, mostly Catholic
+- **Current Status:** Religious freedom, no persecution
+- **Primary Threat:** Political instability, including the coup of November 2025
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Guinea-Bissau* (most recent edition) — state.gov
+- U.S. Department of State, *Guinea-Bissau Travel Advisory* — travel.state.gov
+- CIA World Factbook: Guinea-Bissau — cia.gov/the-world-factbook/countries/guinea-bissau/
+- UN Office on Drugs and Crime, West Africa reporting — unodc.org
 
 -----
 
@@ -738,26 +715,35 @@ Guinea-Bissau is not on the Open Doors World Watch List.
 COUNTRY: Guyana
 TITLE: Guyana — Christianity & Persecution Profile
 SLUG: country-profiles/guyana
-META DESCRIPTION: Guyana is a religiously diverse South American nation where Christians form the majority and practice freely alongside significant Hindu and Muslim communities. No persecution exists; interreligious relations are generally positive.
+META DESCRIPTION: Guyana is around 64 percent Christian alongside large Hindu and Muslim communities. Religious freedom is strong and interfaith relations are good.
 CATEGORY: Country Profiles
-TAGS: Guyana, South America, Christian Majority, Hindu, Muslim, Religious Freedom, Caribbean
-PERSECUTION TIER: Low
+TAGS: Guyana, South America, Caribbean, Christianity, Hinduism, Islam, Religious Freedom, Pluralism
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Guyana is a small South American nation of approximately 800,000 people with an extraordinarily diverse religious landscape inherited from its colonial and post-colonial history. Approximately 57% of Guyanese are Christian — including Anglican, Catholic, Methodist, Pentecostal, and various evangelical denominations. Approximately 25% are Hindu (descendants of indentured Indian laborers brought by the British) and approximately 7% are Muslim. This diversity, unusual for a South American country, reflects Guyana’s unique position as part of the Caribbean cultural sphere despite its South American location.
+Guyana is one of the most religiously mixed countries in the Americas, around 64 percent Christian, 25 percent Hindu, and 7 percent Muslim, reflecting indigenous, African, Indian, and European populations. Christianity spans Anglican, Catholic, Pentecostal, Seventh-day Adventist, and other bodies. Religious freedom is constitutionally protected, public holidays cover all three major faiths, and interfaith relations are cooperative.
 
-Christianity came through British colonial missions to the enslaved African population and through various Protestant bodies. The Anglican, Methodist, and later evangelical and Pentecostal churches all have significant presence. Interreligious relations in Guyana are generally described as harmonious — Hindu, Muslim, and Christian communities celebrate each other’s festivals with a degree of mutual participation that reflects the country’s small size and long shared history. There is no pattern of Christian persecution; all communities practice freely.
+There is no persecution. Crime is the practical concern, with violent robbery common enough that church buildings and clergy have been targeted for money rather than faith.
 
-Guyana is not on the Open Doors World Watch List. The country’s challenges are primarily political (ethnic politics has historically aligned Indian-descended Guyanese with Hindu/Muslim identity and African-descended Guyanese with Christian identity, creating a racial-religious political dynamic) and economic — though recent offshore oil discoveries have dramatically changed the economic outlook.
+Guyana is the site of the 1978 Jonestown deaths, where more than 900 members of Jim Jones's Peoples Temple died in a mass murder-suicide. The group was an American import with no roots in Guyanese Christianity, and the association has faded.
+
+Offshore oil discoveries since 2015 have made Guyana one of the fastest-growing economies in the world, and churches are working through the social effects of that change.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~57%
-- **Current Status:** Full religious freedom; no persecution; notable interreligious harmony
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 64 percent
+- **Current Status:** Full religious freedom, strong pluralism
 - **Open Doors WWL:** Not ranked
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Guyana* (most recent edition) — state.gov
+- Guyana Bureau of Statistics, census religion data — statisticsguyana.gov.gy
+- CIA World Factbook: Guyana — cia.gov/the-world-factbook/countries/guyana/
 
 -----
 
-*End of Batch 3 — 20 Countries (Egypt through Guyana)*
-*Next Batch: Haiti through Indonesia*
+*End of Batch 3 Revised 2026 — Egypt through Guyana, 20 Countries*
+*Next: Batch 4*
