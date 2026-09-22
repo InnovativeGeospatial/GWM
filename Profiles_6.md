@@ -1,8 +1,10 @@
-# GWM Country Profiles — Batch 6 (N–P, 18 Countries)
+# GWM Country Profiles — Batch 6 (REVISED 2026)
 
-# Namibia through Philippines
+# Namibia through Philippines — 17 Countries
 
-# Format: WordPress-ready | Tiers: High (1,700–2,100w) | Moderate (600–900w) | Low (250–400w)
+# Scores from GWM rankings.json, 20 September 2026
+
+# No inline citations. Sources listed at the end of each profile.
 
 -----
 
@@ -10,25 +12,33 @@
 COUNTRY: Namibia
 TITLE: Namibia — Christianity & Persecution Profile
 SLUG: country-profiles/namibia
-META DESCRIPTION: Namibia is a majority-Christian nation in Southern Africa with full religious freedom. Christianity has deep roots through German Lutheran and Catholic missions, and the church was central to the independence struggle against apartheid-era South African administration.
+META DESCRIPTION: Namibia is around 90 percent Christian with full religious freedom. Its Lutheran churches led opposition to apartheid rule and remain influential.
 CATEGORY: Country Profiles
-TAGS: Namibia, Southern Africa, Lutheran, Catholic, Religious Freedom, Independence, Apartheid
-PERSECUTION TIER: Low
+TAGS: Namibia, Southern Africa, Lutheran, Apartheid, Religious Freedom, Herero Genocide
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Namibia is approximately 90% Christian — with the Evangelical Lutheran Church in Namibia (ELCIN) the largest single denomination, followed by Catholic, Dutch Reformed, Anglican, and growing evangelical and Pentecostal communities. The country has full constitutional religious freedom; Christians practice without restriction or persecution. Namibia gained independence in 1990 after decades of South African administration that imposed apartheid-era racial policies; the Lutheran church played a significant role in the independence movement, providing institutional support and moral leadership for the South West Africa People’s Organization (SWAPO) resistance.
+Namibia is around 90 percent Christian, with Lutherans the largest group, a legacy of German and Finnish missionary work, alongside Catholics, Anglicans, and a growing Pentecostal sector. Religious freedom is protected and there is no persecution.
 
-German colonization (1884–1915) brought both brutal colonial violence — the Herero and Nama genocides of 1904–1908, in which an estimated 65,000–80,000 indigenous people were killed in what historians recognize as one of the 20th century’s first genocides — and Lutheran missions that established deep roots among those same indigenous peoples. The Rhenish Missionary Society established the foundation of Namibian Lutheranism; the church that grew from their work became a voice of conscience and resistance during the South African administration period.
+German colonial rule from 1884 produced the genocide of the Herero and Nama peoples between 1904 and 1908, in which tens of thousands died. Missionary societies were entangled in colonial administration, and German churches have since acknowledged their role. Germany formally recognized the genocide in 2021, and negotiations over reparations have continued.
 
-Namibia is not on the Open Doors World Watch List. Its primary legacy issues are historical — the genocide committed by German colonial forces is a deep wound in national memory, and the church’s relationship to that history is complex — not present-day religious persecution.
+Under South African rule the Lutheran churches issued an open letter to the South African prime minister in 1971 condemning apartheid, and church bodies supported the independence struggle throughout. Independence came in 1990.
+
+Churches run schools and clinics and speak publicly on corruption, land reform, and HIV. Namibia consistently ranks among the freer countries in Africa for civil and religious liberty.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~90%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Lutheran church central to independence movement; German colonial genocide (1904–1908) against Herero and Nama peoples is a defining national trauma
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 90 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** The 1971 Lutheran open letter against apartheid. The Herero and Nama genocide, recognized by Germany in 2021
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Namibia* (most recent edition) — state.gov
+- Namibia Statistics Agency, census religion data — nsa.org.na
+- CIA World Factbook: Namibia — cia.gov/the-world-factbook/countries/namibia/
 
 -----
 
@@ -36,56 +46,48 @@ Namibia is not on the Open Doors World Watch List. Its primary legacy issues are
 COUNTRY: Nepal
 TITLE: Nepal — Christianity & Persecution Profile
 SLUG: country-profiles/nepal
-META DESCRIPTION: Nepal was the world’s only Hindu kingdom until 2008. Today it is a secular state — but its new constitution criminalizes conversion and proselytism, Hindu nationalism is rising, and Christians face arrests, imprisonment, and violent attacks in a country where the church has grown from almost nothing to over half a million believers in two generations.
+META DESCRIPTION: Nepal's church has grown from almost nothing to hundreds of thousands in sixty years. A 2017 anti-conversion law now criminalizes evangelism and pastors are arrested under it.
 CATEGORY: Country Profiles
-TAGS: Nepal, South Asia, Hindu Nationalism, Anti-Conversion Law, Persecution, House Church, WWL Top 30, Converts, Secular State
+TAGS: Nepal, South Asia, Hinduism, Anti-Conversion Law, Church Growth, Dalit Christians, WWL Top 50
 PERSECUTION TIER: High
-WWL RANKING: #27 (Open Doors 2024)
 
 ## Overview
 
-Nepal occupies a unique position in the global Christian story: until 2008, it was the world’s only constitutionally Hindu kingdom — a nation that formally defined itself as Hindu and that had, for most of its modern history, criminalized conversion away from Hinduism. The democratic revolution that ended the monarchy in 2008 and established a federal democratic republic brought the formal secularization of the state — but also, paradoxically, a constitutional provision that criminalizes religious conversion in a way more explicit than the old monarchy’s restrictions. Article 26 of Nepal’s 2015 constitution prohibits “converting a person from one religion to another” and bans “disturbing the religion of others” — language broad enough to encompass ordinary Christian witness and that is being actively used to arrest and imprison pastors, Bible distributors, and converts.
+Nepal holds one of the fastest-growing churches in the world. There were almost no Nepali Christians in 1950. There are now somewhere between 400,000 and over a million, depending on the source, in a country that was the world's only Hindu kingdom until 2008. Growth has drawn a response. A 2017 criminal code provision bans conversion and any act of hurting religious sentiment, and pastors have been arrested under it. Open Doors ranked Nepal 46th on the 2026 World Watch List, returning to the list after a period off it.
 
-Nepal’s Christian community — which numbered virtually zero in 1950 and has grown to an estimated 500,000–800,000 today — is one of the most remarkable stories of modern church growth in Asia. It has grown despite the legal framework, not because of it. And it now faces a rising tide of Hindu nationalist pressure that threatens to close the space that growth has created. Nepal ranked #27 on the 2024 Open Doors World Watch List.
+## Growth of the Church
 
-## From Hindu Kingdom to Secular State
+Christianity was effectively banned under the Rana regime and the Shah monarchy. Conversion was a criminal offense and missionaries were barred. The first Nepali congregations formed in the 1950s, many led by Nepalis who had come to faith in India. Believers were imprisoned in the 1960s and 1970s, some for years.
 
-Nepal was sealed to outside religious influence for much of its modern history. The Shah dynasty that unified the country in the 18th century declared Nepal a Hindu kingdom, and the legal framework that governed the country through the Rana oligarchy period (1846–1951) and into the 20th century maintained conversion from Hinduism as a criminal offense punishable by imprisonment and deportation of foreign missionaries. The border with India was the only realistic pathway for Nepali Christians — some converted while working or studying in India and returned with their faith, at serious legal risk.
+The 1990 democracy movement loosened restrictions, and the end of the monarchy in 2008 made Nepal a secular republic. Growth accelerated. The church is disproportionately Dalit and indigenous Janajati, communities for whom the caste order offered little, which is one reason Hindu nationalist groups treat conversion as a social threat.
 
-The political upheaval of 1990 brought Nepal’s first democratic constitution and relaxed some restrictions, allowing greater religious activity, though proselytism remained illegal. The Maoist insurgency (1996–2006) and the subsequent peace process led to the abolition of the monarchy in 2008 and the establishment of a secular republic. The Christian community, which had grown cautiously during the 1990s and 2000s, had hoped that secularism would bring genuine religious freedom.
+## The Anti-Conversion Law
 
-## The 2015 Constitution’s Conversion Ban
+Article 26 of the 2015 constitution protects religious freedom while prohibiting any act to convert another person. The criminal code that took effect in 2018 set penalties of up to five years' imprisonment for conversion activity and up to two years for hurting religious sentiment, with additional penalties and deportation for foreigners.
 
-The 2015 constitution disappointed those hopes. Article 26(3) states: “No person shall, in the exercise of the right conferred by this Article, convert another person from one religion to another, or disturb the religion or religious faith of any person.” The implementing legislation — particularly the Penal Code provisions — criminalizes conversion with penalties of up to five years in prison for the person who facilitates conversion and up to two years for the person who converts. This makes Nepal’s anti-conversion law among the most explicit in the world — far more directly stated than India’s state-level laws, which at least nominally target coercion rather than conversion itself.
+Arrests have followed. Pastors and Christian workers have been detained for distributing literature, for praying for the sick, and in one widely reported case for handing out a comic booklet to schoolchildren. Charitable work by Christian organizations is scrutinized for hidden proselytism. Cases often collapse or end in acquittal after months of legal cost and detention, which is itself the deterrent.
 
-The practical effect has been a steady drumbeat of arrests. Pastors have been arrested for baptizing converts. Bible distributors have been arrested for possessing and distributing scripture. Christians have been arrested for sharing their faith with neighbors or relatives. In most cases, the accused are held for days or weeks, pressured to pay fines or sign agreements not to engage in religious activity, and released — sometimes without trial, sometimes with conviction and fines, occasionally with prison sentences served. The cumulative effect is a chilling of open Christian witness and the creation of legal vulnerability for anyone whose faith becomes visible.
+## Other Pressures
 
-## Hindu Nationalist Violence
+Christians have struggled to secure burial grounds, since Hindu practice is cremation and public land allocation has been refused or reversed in several districts. Converts face family rejection and exclusion from community functions. Church buildings have been bombed on a small number of occasions, including an attack on the Assumption Church in Kathmandu in 2009.
 
-Beyond the legal framework, Nepal’s Christian community faces organized violence from Hindu nationalist groups — particularly the Vishwa Hindu Parishad (VHP), which operates in Nepal as it does in India, and local groups that have formed in the context of rising Hindu nationalist sentiment. Churches have been vandalized and in some cases attacked. Prayer meetings have been disrupted by mobs. Individual Christians have been beaten. Pastors in rural areas — particularly in the Terai region along the Indian border, where both Hindu nationalism and the Christian community are concentrated — face organized opposition from village authorities who coordinate with nationalist groups.
-
-The climate has been shaped partly by the rise of Hindu nationalism in India under the BJP and RSS, whose influence crosses the open border between India and Nepal and resonates with Nepali political actors who see Hindu nationalist politics as an electoral asset. Nepal’s domestic political parties have competed to demonstrate their Hindu nationalist credentials; Christians have become a convenient target for that competition.
-
-## Church Growth Against the Odds
-
-Nepal’s Christian community has grown from an estimated 1,000 believers in 1960 to somewhere between 500,000 and 800,000 today — a figure that represents both the fruit of extraordinary evangelistic effort and the movement of the Holy Spirit in a population that was, by one set of measures, entirely Hindu and yet receptive to the gospel when they encountered it. The growth has been primarily through indigenous witness: Nepali Christians evangelizing their own families, neighbors, and communities.
-
-The church is predominantly house-church-based. Registered churches exist — there are several hundred registered Christian congregations — but the majority of Nepal’s Christian community meets in informal, unregistered gatherings in homes and community spaces. These gatherings are legally vulnerable but socially embedded in ways that registered churches in visible buildings are not. Pastoral training happens informally and through connections with Indian Christian institutions across the border.
-
-The Nepal Christian community’s center of gravity is among the lower castes and Dalit communities, among whom Christianity’s message of equal dignity before God has particular resonance — an echo of the dynamic seen in India’s Christian conversion movements. High-caste Brahmin and Chhetri converts also exist, but they face particularly intense family and community pressure given the traditional connection between high-caste Hindu identity and social authority.
-
-## Current Status
-
-Nepal ranked #27 on the 2024 Open Doors World Watch List. The arrests continue: Open Doors and International Christian Concern document an average of several dozen arrest cases annually, with numbers rising in recent years as political pressure intensifies. The legal framework is clear and hostile; the social environment in rural areas is often dangerous; and the political trajectory — toward Hindu nationalist mobilization — is not favorable. The church grows nonetheless, meeting in homes, praying in secret, and baptizing new believers in rivers when the authorities are not watching.
+Hindu nationalist campaigns to restore Nepal as a Hindu state have gained visibility, and the instability that followed the protests of September 2025 gave those movements more room.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #27
-- **Estimated Christian Population:** 500,000–800,000 (~2–3%)
-- **Primary Threats:** Constitutional anti-conversion law (Article 26), Penal Code criminalization of conversion and proselytism, Hindu nationalist mob violence, arrests of pastors and Bible distributors
-- **Legal Status:** Secular state but conversion criminalized; up to 5 years imprisonment for facilitating conversion
-- **Growth:** From ~1,000 Christians (1960) to 500,000–800,000 (present) — extraordinary growth under legal restriction
-- **Notable:** World’s only Hindu kingdom until 2008; new secular constitution simultaneously eliminated the monarchy and criminalized conversion
+- **Persecution Score:** High (47/100), **Rank:** #29 of 192 countries
+- **Estimated Christian Population:** 400,000 to over 1 million, officially about 1.8 percent
+- **Primary Threats:** Anti-conversion provisions in the criminal code, arrests of pastors, refusal of burial grounds, Hindu nationalist mobilization
+- **Open Doors WWL 2026:** #46
+- **Legal Status:** Secular republic since 2008, with conversion criminalized since 2018
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Nepal* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Nepal* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Christian Solidarity Worldwide, *Nepal* — csw.org.uk
+- National Statistics Office of Nepal, *Census 2021* — censusnepal.cbs.gov.np
 
 -----
 
@@ -93,25 +95,35 @@ Nepal ranked #27 on the 2024 Open Doors World Watch List. The arrests continue: 
 COUNTRY: Netherlands
 TITLE: Netherlands — Christianity & Persecution Profile
 SLUG: country-profiles/netherlands
-META DESCRIPTION: The Netherlands is a highly secular Western European nation with full religious freedom. Once the cradle of Reformed Protestantism, it is now among the least religious countries in Europe. Christians practice freely with no persecution.
+META DESCRIPTION: The Netherlands has full religious freedom and one of the steepest declines in Christian affiliation in Europe. Muslim-background converts face pressure in asylum accommodation.
 CATEGORY: Country Profiles
-TAGS: Netherlands, Western Europe, Reformed, Catholic, Secular, Religious Freedom, Reformation
-PERSECUTION TIER: Low
+TAGS: Netherlands, Western Europe, Secularization, Catholic, Protestant, Converts, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-The Netherlands is a small, densely populated Western European democracy with full constitutional religious freedom and one of the highest rates of religious non-affiliation in the world — approximately 55–60% of Dutch people identify as having no religion. Historically, the Netherlands was the cradle of the Dutch Reformed tradition, the home of major Calvinist theologians and political thinkers, and a significant force in the spread of Protestant Christianity through its colonial empire. Today, active Christian practice is a minority position in Dutch society, maintained primarily by a committed orthodox Reformed community, Catholics, and growing immigrant church communities.
+The Netherlands has moved from a country organized around religious pillars to one where a majority reports no religious affiliation. Statistics Netherlands has recorded the non-religious share passing 55 percent, with Catholics and Protestants each below 20 percent and church attendance in single digits. Religious freedom is complete.
 
-The Dutch Reformation — driven by the influence of Calvin’s Geneva and carried into the Low Countries through figures including Guido de Brès (author of the Belgic Confession, 1561) — shaped not only the church but the political philosophy of the republic. William of Orange’s resistance to Spanish Catholic rule was framed partly in religious terms, and the Dutch Republic’s relative tolerance of religious diversity — Jews, Huguenots, Mennonites, and others found relative refuge in Amsterdam — was historically significant as a model of pluralism. The Dutch East India Company spread Reformed Christianity across its trading network; Dutch colonial missions reached South Africa, Sri Lanka, Indonesia, and the Caribbean.
+Historically this was a Protestant republic that gave refuge to Huguenots, Jews, and English separatists, including the congregation that later sailed on the Mayflower. The pillarized system that organized schools, unions, broadcasters, and political parties along Catholic, Protestant, and secular lines collapsed from the 1960s.
 
-The Netherlands is not on the Open Doors World Watch List. A 2023 case in which a reformed pastor was charged with hate speech for preaching on homosexuality from a conservative biblical perspective drew some international Christian attention, but the case was ultimately not pursued to conviction. The Netherlands’ religious freedom debates are centered on questions of religious speech and its limits in a pluralistic secular society — not persecution by any globally comparative measure.
+Churches retain a legal position through subsidies for historic buildings and the funding of religious schools under Article 23 of the constitution, which guarantees state funding for faith-based education. That provision is periodically challenged.
+
+Two live concerns. Muslim-background converts in asylum reception centres report harassment and threats from other residents, and Dutch churches have documented the pattern and sought separate housing in some cases. Immigration authorities have also assessed the sincerity of conversions in asylum claims using questioning that churches have criticized as inadequate to the subject.
+
+Church buildings are closed and repurposed at a rate of dozens a year, and vandalism occurs at a level comparable to neighboring countries.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~40% (nominal; active practice much lower)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Cradle of Dutch Reformed tradition; Belgic Confession (1561); Dutch Republic modeled early religious pluralism in Europe
+- **Persecution Score:** Lower (8/100), **Rank:** #102 of 192 countries
+- **Estimated Christian Population:** under 40 percent and falling
+- **Current Status:** Full religious freedom
+- **Live Issues:** Harassment of converts in asylum accommodation, assessment of conversion in asylum claims
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Netherlands* (most recent edition) — state.gov
+- Statistics Netherlands (CBS), religious affiliation data — cbs.nl
+- Open Doors Netherlands, reporting on converts in asylum centres — opendoors.nl
 
 -----
 
@@ -119,25 +131,33 @@ The Netherlands is not on the Open Doors World Watch List. A 2023 case in which 
 COUNTRY: New Zealand
 TITLE: New Zealand — Christianity & Persecution Profile
 SLUG: country-profiles/new-zealand
-META DESCRIPTION: New Zealand is a secular Pacific nation with full religious freedom. Christianity has historic roots through British colonial missions to the Māori. Christians face no persecution, though the country is secularizing rapidly.
+META DESCRIPTION: New Zealand has full religious freedom and a Christian population that has fallen below 33 percent. The 2019 Christchurch attack reshaped how the country handles religious hate.
 CATEGORY: Country Profiles
-TAGS: New Zealand, Pacific, Anglican, Catholic, Māori Christianity, Religious Freedom, Secular
-PERSECUTION TIER: Low
+TAGS: New Zealand, Oceania, Anglican, Catholic, Maori Christianity, Secularization, Christchurch
+PERSECUTION TIER: Lower
 
 ## Overview
 
-New Zealand is a Pacific island nation of approximately 5 million people with full constitutional religious freedom and a rapidly secularizing population. Approximately 37% of New Zealanders identified as Christian in the 2018 census, down from 57% in 2006 — one of the steepest rates of Christian decline in the English-speaking world. No persecution exists; Christians of all traditions worship without restriction.
+New Zealand is around 32 percent Christian by the 2023 census, down from over 48 percent in 2013, with the largest single category now no religion at over 51 percent. Religious freedom is complete and there is no persecution.
 
-Christianity arrived in New Zealand through the Church Missionary Society (Anglican) beginning in 1814, when Samuel Marsden conducted the first Christian service on New Zealand soil. The Māori — the indigenous Polynesian people of New Zealand — engaged with Christianity with both receptivity and resistance, developing distinctive Māori Christian expressions including the Rātana movement (founded 1918) and Ringatū (founded by the prophet Te Kooti Arikirangi in the 19th century), which integrated Christian faith with Māori spiritual and cultural traditions. Today, Māori Christians are a significant and distinct part of the New Zealand church.
+Christianity arrived with Samuel Marsden's first sermon in 1814 and spread rapidly among Māori, who had substantially adopted the faith before large-scale European settlement. Missionaries helped draft and translate the Treaty of Waitangi in 1840, and church involvement in the land confiscations that followed remains a subject of reckoning. Māori-led movements including Rātana and Ringatū emerged as distinct expressions of Christian faith and political identity, and Rātana retains a significant place in national political life.
 
-New Zealand is not on the Open Doors World Watch List. The country is known internationally for the March 2019 Christchurch mosque attacks, in which a white supremacist gunman killed 51 Muslim worshipers — an act of anti-Muslim violence that shook the country and prompted significant reflection on the nature of violent extremism. The attack is not a chapter in the history of Christian persecution; the perpetrator was not a Christian in any meaningful sense, and the attack was directed against Muslims.
+The mosque attacks in Christchurch in March 2019, in which 51 Muslims were murdered by a white supremacist gunman, prompted gun law reform and a national reassessment of religious hate speech. Proposals to extend hate speech law to religion were debated at length, narrowed, and largely set aside after concerns from churches and free speech advocates about scope.
+
+A 2024 royal commission report into abuse in state and faith-based care documented widespread abuse across church institutions, and church leaders have issued formal apologies.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~37% (declining rapidly; active practice much lower)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** First Christian service conducted by Samuel Marsden (1814); Rātana and Ringatū are distinctive Māori Christian movements
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 32 percent by the 2023 census
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Rapid Māori adoption of Christianity from the 1820s, and the Rātana and Ringatū movements
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: New Zealand* (most recent edition) — state.gov
+- Stats NZ, *2023 Census, religious affiliation* — stats.govt.nz
+- Royal Commission of Inquiry into Abuse in Care, *Final Report* (2024) — abuseincare.org.nz
 
 -----
 
@@ -145,54 +165,44 @@ New Zealand is not on the Open Doors World Watch List. The country is known inte
 COUNTRY: Nicaragua
 TITLE: Nicaragua — Christianity & Persecution Profile
 SLUG: country-profiles/nicaragua
-META DESCRIPTION: Nicaragua under Daniel Ortega has become one of the Western Hemisphere’s most dangerous countries for the church. Bishops have been imprisoned and exiled, Catholic schools nationalized, the Papal Nuncio expelled, and pastors jailed. The assault on the church is the most comprehensive in Latin American history since Mexico’s Cristero era.
+META DESCRIPTION: Nicaragua's government has expelled nuns, jailed a bishop, stripped clergy of citizenship, and shut hundreds of church organizations. It is the fastest-worsening case in the Americas.
 CATEGORY: Country Profiles
-TAGS: Nicaragua, Central America, Catholic, Evangelical, Ortega, Persecution, Bishop Rolando Álvarez, WWL Top 50, State Persecution
-PERSECUTION TIER: Moderate
+TAGS: Nicaragua, Central America, Ortega, Catholic Church, Bishop Alvarez, Exile, NGO Closures, WWL Top 50
+PERSECUTION TIER: High
 
 ## Overview
 
-Nicaragua is approximately 55% Catholic and 33% evangelical Protestant — a deeply Christian country undergoing one of the most systematic assaults on the church by a government in modern Latin American history. President Daniel Ortega — who has ruled Nicaragua since 2007 — launched a comprehensive campaign against the Catholic Church beginning in 2018, when bishops and priests sided with protesters during a mass uprising against his government. What followed has included the imprisonment and exile of a bishop, the expulsion of the Vatican’s ambassador, the nationalization of Catholic schools and media, the arrest of dozens of priests and lay leaders, and the revocation of the legal status of hundreds of religious organizations. Nicaragua ranked in the Open Doors top 50 in 2024, and the trajectory is sharply deteriorating.
+Nicaragua is the sharpest deterioration for the church anywhere in the Western Hemisphere. Daniel Ortega and Rosario Murillo have moved from confrontation with the Catholic Church to systematic dismantling of it. Bishops and priests have been jailed, stripped of citizenship, and expelled. Religious orders have been banned and their property seized. Hundreds of faith-based organizations have been shut. Open Doors ranked Nicaragua 32nd on the 2026 World Watch List, and it is among the few countries where the driver is a self-described Christian government.
 
-## Christianity in Nicaragua
+## Break with the Church
 
-Spanish colonization established Catholicism as Nicaragua’s foundational religious institution from the 16th century. The Catholic Church was central to Nicaraguan social and cultural life through independence, the Somoza dynasty, and the 1979 Sandinista revolution. The Sandinistas’ first period of rule (1979–1990) had a complicated relationship with the church — liberation theology’s influence was significant among some clergy and religious communities who aligned with the revolutionary project, while the institutional Catholic hierarchy under Cardinal Miguel Obando y Bravo became a leading voice of opposition. The relationship was tense but not openly persecutory in the way the current Ortega period has become.
+Nicaragua is around 85 percent Christian, historically Catholic with a large evangelical minority. The Catholic Church mediated between the government and protesters during the 2018 uprising, in which security forces killed over 300 people. Churches sheltered wounded demonstrators. Ortega then denounced the bishops as coup plotters, and the campaign against the church began.
 
-Evangelical and Pentecostal Christianity grew rapidly in Nicaragua during the 1980s and 1990s, partly through North American evangelical mission activity and partly through indigenous church planting. Today, Nicaragua has one of the highest proportions of evangelical Christians in Central America.
+## What Has Happened Since
 
-## The 2018 Turning Point
+Priests have been assaulted, churches occupied by police, and religious processions banned during Holy Week. The papal nuncio was expelled in 2022. The Missionaries of Charity, Mother Teresa's order, were stripped of legal status and forced to leave the same year.
 
-The April 2018 protests — triggered by social security reform and rapidly expanding into a broad pro-democracy uprising — were a watershed moment. The Catholic Church offered its churches as sanctuaries for protesters and its bishops as mediators. When Ortega’s forces and government-aligned paramilitaries suppressed the protests with lethal force — killing over 300 people — the Catholic hierarchy condemned the violence unambiguously. Cardinal Brenes and other bishops spoke publicly about the killings. Ortega blamed the church for the protests and characterized it as a counter-revolutionary force.
+Bishop Rolando Álvarez of Matagalpa refused to board a deportation flight in February 2023 and was sentenced to 26 years for conspiracy and treason. He was held at La Modelo prison, released in January 2024 after Vatican negotiation, stripped of citizenship, and sent to Rome.
 
-The systematic repression of the church began in earnest in 2019 and accelerated dramatically from 2022 onward. The pattern has been consistent: arrests, expulsions, property seizures, and legal harassment aimed at breaking the institutional church’s capacity to function as an independent voice in Nicaraguan society.
+More than 200 religious figures have been exiled or barred from returning. Over 5,000 civil society organizations have been closed, including Catholic universities, charities, and media, with assets transferred to the state. The Jesuit-run Universidad Centroamericana was seized in 2023. Catholic radio and television stations have been shut down.
 
-## Bishop Rolando Álvarez: The Most Prominent Case
-
-The most internationally recognized case is that of Bishop Rolando Álvarez Lagos of Matagalpa — one of Nicaragua’s most respected Catholic prelates, known for his courage in speaking publicly about justice, democracy, and human rights. In August 2022, government forces placed him under house arrest and subsequently arrested him on charges of “undermining national integrity” and “spreading false news.” He was sentenced in February 2023 to 26 years in prison.
-
-Under intense Vatican and international diplomatic pressure, Ortega released Álvarez in January 2024 — and immediately deported him to Rome, stripping him of his Nicaraguan citizenship. He became one of 19 Catholic priests expelled to Rome in a single day, along with other priests, professors, and religious sisters. The deportations were the largest single expulsion of Catholic clergy from any country since the Mexican Cristero era of the 1920s.
-
-## The Scale of the Assault
-
-The full scope of Ortega’s assault on the church includes:
-
-The expulsion of the Apostolic Nuncio (the Vatican’s ambassador) in 2022 — severing diplomatic relations with the Holy See. The nationalization and closure of Jesuit-run Universidad Centroamericana (UCA) — one of Central America’s most respected universities — in 2023. The revocation of legal status for over 1,500 civil society organizations, including Catholic Caritas and over 100 other explicitly religious organizations. The closure of Catholic radio stations that had served as platforms for pastoral communication. The arrest of several dozen priests on various pretexts. The seizure of Catholic properties including retreat centers, charity offices, and educational facilities. The forced closure of Catholic schools in multiple cities.
-
-Evangelical churches have also been affected: organizations perceived as politically independent or critical of the government have had their legal status revoked; pastors who have spoken on political themes have been warned, arrested, or forced to flee. The overall environment for any religious institution that operates independently of government control is one of threat and diminishing space.
-
-## Current Status
-
-Nicaragua sits in the Open Doors top 50 — a remarkable and alarming development for a country in the Western Hemisphere. The Ortega government’s hostility to the church is not grounded in Islamic ideology or atheist communist dogma but in a specific political project: the elimination of any institutional voice that can challenge his authority. The Catholic Church — with its parishes, its schools, its charitable networks, its moral authority with the population — was the most powerful remaining institution capable of doing so. The assault on it is ruthlessly pragmatic in that sense, even if its consequences for religious freedom are profound.
-
-The Nicaraguan church that remains within the country operates under surveillance, with diminished institutional capacity, and with the knowledge that speaking truth to power can result in deportation or imprisonment. Significant numbers of priests have left — some deported, some fled. The institutional damage will take years, possibly decades, to rebuild.
+Evangelical churches initially fared better, and pressure has extended to them, with pastors detained and church registrations cancelled.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~88% (Catholic and evangelical combined)
-- **Primary Threats:** State persecution — imprisonment and exile of bishops and priests, nationalization of church institutions, revocation of legal status for religious organizations, expulsion of Vatican ambassador
-- **Current Status:** Most comprehensive state assault on the Catholic Church in Latin America since Mexico’s Cristero era
-- **Open Doors WWL:** Top 50 ranked and rising
-- **Notable:** Bishop Rolando Álvarez sentenced to 26 years, subsequently deported; 19 priests expelled to Rome in single day (January 2024); UCA nationalized; 1,500+ civil society organizations including religious groups deregistered
+- **Persecution Score:** High (44/100), **Rank:** #33 of 192 countries
+- **Estimated Christian Population:** about 85 percent
+- **Primary Threats:** State campaign against the Catholic Church, imprisonment and exile of clergy, confiscation of church property and universities, closure of faith-based organizations
+- **Open Doors WWL 2026:** #32
+- **Notable Case:** Bishop Rolando Álvarez, sentenced to 26 years in 2023, exiled to Rome in 2024
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Nicaragua* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Nicaragua* (most recent edition) — state.gov
+- USCIRF, *Annual Report and Nicaragua country update* — uscirf.gov/reports-briefs
+- Human Rights Watch, *Nicaragua* — hrw.org/americas/nicaragua
+- Inter-American Commission on Human Rights, Nicaragua reporting — oas.org/en/iachr
 
 -----
 
@@ -200,43 +210,44 @@ The Nicaraguan church that remains within the country operates under surveillanc
 COUNTRY: Niger
 TITLE: Niger — Christianity & Persecution Profile
 SLUG: country-profiles/niger
-META DESCRIPTION: Niger is a 99% Muslim Sahelian nation where Christians — barely 0.5% of the population — face jihadist violence from multiple armed groups and where the military coup of 2023 has removed the Western partnerships that provided the most security. The church is tiny, isolated, and endangered.
+META DESCRIPTION: Niger's small Christian minority faces jihadist attacks on both borders. Churches were burned in the 2015 riots, and rural congregations in Tillabéri have been abandoned.
 CATEGORY: Country Profiles
-TAGS: Niger, Sahel, West Africa, Jihadism, JNIM, ISIS Sahel, Christian Minority, Coup, WWL Top 25
+TAGS: Niger, Sahel, Boko Haram, ISWAP, ISGS, Church Burnings, Coup, WWL Top 50
 PERSECUTION TIER: High
-WWL RANKING: #29 (Open Doors 2024)
 
 ## Overview
 
-Niger is one of the world’s poorest and most vulnerable nations — a vast, landlocked Sahelian country of 26 million people, of whom approximately 99% are Muslim. Christians represent approximately 0.5% of the population — roughly 130,000 people, concentrated almost entirely in the capital Niamey and in the southwest border region near Benin and Nigeria. Christianity arrived in Niger through French colonial missions in the early 20th century; the White Fathers and Protestant missions established small communities among certain ethnic groups, but widespread conversion never occurred in a society as thoroughly Muslim as Niger’s.
+Niger is over 98 percent Muslim with a Christian minority well under 1 percent, perhaps 60,000 to 80,000 people. Jihadist groups operate on both flanks, ISWAP and Boko Haram in the southeast around Diffa, and ISGS and JNIM in the west along the Mali and Burkina Faso borders. Rural Christian communities in Tillabéri have largely gone. Open Doors ranked Niger 26th on the 2026 World Watch List.
 
-Since approximately 2015, jihadist armed groups — primarily JNIM and the Islamic State in the Greater Sahara (ISGS) — have conducted attacks across Niger’s regions, killing civilians and security forces, burning villages, and specifically targeting Christians in areas where they are present. The July 2023 military coup that removed President Mohamed Bazoum — a democratically elected leader who had been a key Western partner in counterterrorism — expelled French forces and severed security cooperation with Western partners, dramatically worsening the security environment. Niger now faces jihadist insurgency with reduced international support, and its tiny Christian community faces the consequences.
+## The 2015 Riots
 
-## Christianity in Niger: A Fragile Presence
+In January 2015, protests against the Charlie Hebdo cover published in France turned into attacks on Christians across Niger. Around 70 churches were burned in Niamey and Zinder along with Christian schools, orphanages, and homes, and at least ten people were killed. The scale shocked a country that had prided itself on tolerance, and rebuilding took years. It demonstrated how quickly a small and visible minority can be attacked when religious grievance is mobilized.
 
-The French colonial administration brought Catholic missionaries who worked primarily among non-Muslim ethnic groups and settled small communities in Niamey and surrounding areas. The Evangelical Church of Niger — connected to the Sudan Interior Mission (now SIM) — established work in the mid-20th century and has maintained a small presence. At independence in 1960, Niger’s Christian community was estimated at a few tens of thousands; it has grown modestly to approximately 130,000, remaining far below 1% of the population.
+## Jihadist Pressure
 
-Interreligious relations in Niger’s history were characterized by a degree of coexistence rooted in the country’s syncretic Sufi-influenced Islam and the traditional tolerance of West African religious pluralism. That tradition has been disrupted by the entry of Wahhabi and Salafi-influenced ideologies through petro-dollar funding from the Gulf, and by the jihadist insurgency that has made religious identity a life-or-death marker in the conflict zones.
+Attacks in the Tillabéri region have killed hundreds of civilians. Armed groups have ordered communities to conform to their rules, and Christian families in border villages have fled to Niamey or across the border. Churches in affected areas have closed. Pastors and catechists have been abducted. The missionary Jeff Woodke, an American aid worker taken in Abalak in 2016, was held for over six years before release in 2023.
 
-## Jihadist Violence and Church Attacks
+## Politics
 
-Christians in Niger face jihadist violence primarily in two forms: organized attacks on communities in the Tillabéri, Tahoua, and Diffa regions where JNIM and ISGS operate, and sporadic attacks in Niamey itself. In March 2021, rioters in Niamey attacked and burned at least five Christian churches following protests triggered by international publications of cartoons depicting the Prophet Muhammad. The riot — which also targeted French cultural institutions — destroyed churches and Christian-owned businesses, with security forces initially slow to respond.
+A military coup in July 2023 removed President Bazoum, and the junta expelled French and later American forces and turned toward Russian security cooperation. Security has not improved, and the US raised its travel advisory to level 4 in 2025. Religious policy has not changed, and the state remains formally secular.
 
-Rural Christians in areas with jihadist presence face a more sustained threat. Villages with known Christian residents have been targeted; Christians have been killed in attacks that explicitly separated them from Muslim residents. Pastors working in the interior — the most exposed and vulnerable Christian leaders — have been killed. The number is small in absolute terms but represents a significant proportion of a tiny community.
-
-## Post-Coup Vulnerability
-
-The July 2023 coup that brought the military junta (CNSP) to power in Niger severed the country’s Western security partnerships. France withdrew its 1,500 troops; the US military presence was significantly reduced; EU training programs ended. The immediate security consequence was a reduction in the counterterrorism pressure on JNIM and ISGS, which have expanded operations in the aftermath. Niger’s military, without Western support and now with Russian Wagner advisors in a limited capacity, faces a jihadist threat that is not diminishing.
-
-For Niger’s Christians, the coup has compounded an already dangerous situation. The junta has not signaled hostility to Christians as a deliberate policy, but the deterioration of the security environment removes the limited protection that had existed under the previous government’s framework.
+Churches in Niamey, Maradi, and other cities operate openly. The Christian community is heavily made up of minority ethnic groups and of families with roots in Nigeria, Benin, and Togo.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #29
-- **Estimated Christian Population:** ~130,000 (~0.5%)
-- **Primary Threats:** Jihadist violence (JNIM, ISGS), community attacks, church burnings, killing of pastors in rural areas; post-coup security deterioration
-- **Current Status:** Tiny community under existential threat in conflict zones; Niamey community vulnerable to mob violence
-- **Government:** Military junta since July 2023; Western security partnerships severed; situation deteriorating
+- **Persecution Score:** High (43/100), **Rank:** #36 of 192 countries
+- **Estimated Christian Population:** under 1 percent, roughly 60,000 to 80,000
+- **Primary Threats:** ISGS and JNIM in the west, ISWAP and Boko Haram in the southeast, mob violence against churches
+- **Open Doors WWL 2026:** #26
+- **Major Event:** Around 70 churches burned in the January 2015 riots
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Niger* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Niger* (most recent edition) — state.gov
+- U.S. Department of State, *Niger Travel Advisory* — travel.state.gov
+- ACLED, Sahel conflict data — acleddata.com
+- International Crisis Group, *Niger* — crisisgroup.org
 
 -----
 
@@ -244,66 +255,52 @@ For Niger’s Christians, the coup has compounded an already dangerous situation
 COUNTRY: Nigeria
 TITLE: Nigeria — Christianity & Persecution Profile
 SLUG: country-profiles/nigeria
-META DESCRIPTION: Nigeria is the world’s most populated Black nation — and one of its most dangerous places to be a Christian. Boko Haram and ISWAP have killed tens of thousands. Fulani militant attacks have emptied the Middle Belt of Christian communities. Sharia law governs twelve northern states. And yet the Nigerian church is one of the largest, most vibrant, and most globally mission-minded on earth.
+META DESCRIPTION: Nigeria accounts for around 70 percent of Christians killed for their faith worldwide. Boko Haram, ISWAP, and armed herder militias operate across the north and Middle Belt.
 CATEGORY: Country Profiles
-TAGS: Nigeria, West Africa, Boko Haram, ISWAP, Fulani Militants, Middle Belt, Sharia, WWL Top 10, Leah Sharibu, Chibok Girls, Kaduna
-PERSECUTION TIER: High
-WWL RANKING: #6 (Open Doors 2024)
+TAGS: Nigeria, West Africa, Boko Haram, ISWAP, Middle Belt, Fulani Militia, Sharia States, Kidnapping, WWL Top 10
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Nigeria is simultaneously one of the most Christian and one of the most dangerous countries on earth for Christians. It is the most populous country in Africa — approximately 220 million people — roughly divided between a predominantly Muslim north and a predominantly Christian south, with a contested and bleeding Middle Belt region caught between them. Nigeria has more Christians than most European countries have citizens: approximately 95–100 million. It also has Boko Haram, the Islamic State West Africa Province (ISWAP), Fulani militant herdsmen who have systematically attacked and emptied hundreds of Christian farming villages across the Middle Belt, twelve northern states that have implemented Sharia law, and a federal government whose response to anti-Christian violence has been — in the assessment of virtually every monitoring organization and many Nigerian Christian leaders — catastrophically inadequate. Nigeria ranked #6 on the 2024 Open Doors World Watch List. Depending on the metric used, Nigeria accounts for the highest or second-highest number of Christians killed for their faith anywhere in the world in any given recent year.
+More Christians are killed for their faith in Nigeria than in the rest of the world combined. Open Doors recorded 3,490 Christians killed in Nigeria in the 2026 World Watch List reporting year, close to 70 percent of the global total, and the Nigerian research group Intersociety counted over 3,000 more between January and August 2026. The country is roughly half Christian and half Muslim, split between a Muslim-majority north and a Christian-majority south, with the Middle Belt as the fault line. Open Doors ranked Nigeria 7th on the 2026 World Watch List.
 
-## Christianity’s Deep Nigerian Roots
+## Boko Haram and ISWAP
 
-Christianity arrived in Nigeria through multiple channels and over a long period. Portuguese Catholic missionaries had contact with the Kingdom of Benin in the 15th century, but it was the 19th-century British Protestant missions that established the foundations of the modern Nigerian church. The Church Missionary Society (Anglican) worked extensively in the south; the Basel Mission, the Wesleyan Methodist Mission, the Baptist Mission, and others all established significant work. The freed slave Samuel Ajayi Crowther — who became the first African Anglican bishop in 1864, consecrated in Canterbury Cathedral — was himself Nigerian (Yoruba) and translated the Bible into Yoruba, one of the most significant acts of biblical translation in African mission history.
+Boko Haram launched its insurgency in 2009 in Borno State. Its campaign has killed tens of thousands and displaced over two million. Churches were bombed, congregations attacked during services, and pastors executed. The abduction of 276 schoolgirls from Chibok in 2014 drew global attention, and dozens remain missing more than a decade later. Leah Sharibu, taken from Dapchi in 2018, was kept when the other girls were released because she refused to renounce her faith, and she has not been freed.
 
-By independence in 1960, Nigeria had a complex religious map: the predominantly Muslim north under the influence of the historic Sokoto Caliphate and its successor institutions; a largely Christian and animist south under the influence of a century of Protestant and Catholic mission; and a contested Middle Belt where various tribal groups — Berom, Tarok, Mwaghavul, Jukun, and others — had become predominantly Christian through 20th-century missions while living alongside Muslim Fulani pastoralists.
+Islamic State West Africa Province split from Boko Haram in 2016 and has become the stronger force. It has executed Christian captives on video, including aid workers and pastors, and targets Christians specifically while also fighting the Nigerian state.
 
-The post-independence church has grown with extraordinary vigor. Nigeria is home to some of the largest individual Christian congregations in the world — Enoch Adeboye’s Redeemed Christian Church of God, David Oyedepo’s Winners’ Chapel, Chris Oyakhilome’s Christ Embassy, and others — whose campuses function as cities and whose memberships number in the millions. Nigerian Christianity is globally mission-minded; Nigerian missionaries serve across Africa and on every continent. The Nigerian church has theological depth, institutional breadth, and missional energy that makes it one of the most significant Christian communities in the world.
+## The Middle Belt
 
-## The North: Sharia, Boko Haram, and ISWAP
+The larger death toll now comes from the Middle Belt states of Plateau, Benue, Kaduna, Taraba, and Nasarawa. Armed groups, predominantly from Fulani herding communities, attack farming villages that are predominantly Christian. Whole communities have been destroyed overnight, churches burned, and land occupied afterward.
 
-Northern Nigeria’s religious history is defined by the Sokoto Caliphate, founded by Usman dan Fodio in 1804, which brought Sunni Islamic governance to the Hausa-Fulani peoples of the north and created a political tradition of Islamic law and scholarship. When twelve northern states implemented Sharia law beginning in 2000 — Zamfara State first, followed by Sokoto, Kebbi, Niger, Kano, Katsina, Kaduna, Bauchi, Borno, Yobe, Gombe, and Jigawa — the move reflected popular pressure within the Muslim majority of those states as much as political calculation. Christians living in the north — particularly the Hausa-speaking Christian communities and minority tribes — found themselves under governance frameworks that discriminated against them in courts, employment, and public life.
+The conflict has genuine economic and environmental drivers, including desertification, the collapse of grazing routes, and competition for farmland. Framing it as purely religious misses those causes. Framing it as purely economic misses that the victims are overwhelmingly Christian farming communities, that churches are burned while mosques in the same area are not, and that attackers have used religious language. Both things are true and Nigerian church leaders make that point consistently.
 
-Boko Haram — whose name is popularly translated as “Western education is forbidden” — was founded by Mohammed Yusuf in Maiduguri around 2002 and launched an armed insurgency in 2009 after Yusuf was killed in police custody. The group’s goal is the establishment of an Islamic state in northern Nigeria governed by strict Sharia. Christians are a primary target: churches have been bombed (most dramatically at Christmas and Easter), Christian communities attacked, pastors killed, and Christian villages burned. The Christmas Day bombing of St. Theresa’s Catholic Church in Madalla, Niger State, in 2011 — killing 44 people as they left Christmas Mass — is one of the most devastating single attacks.
+Christmas Eve attacks in Plateau State in 2023 killed close to 200 people. Massacres in Benue and Plateau have continued through 2025 and 2026.
 
-After a period in which military pressure significantly reduced Boko Haram’s territorial control, the group splintered. The dominant surviving faction — ISWAP (Islamic State West Africa Province), which formally affiliated with the Islamic State in 2016 — has maintained a significant presence in the Lake Chad basin and surrounding areas of Borno, Yobe, and Adamawa states. ISWAP has conducted a sustained campaign of kidnapping, killing, and village destruction in which Christians are explicitly targeted. The group’s attacks have a theological signature: they distinguish between Muslims (who may be spared, depending on their cooperation) and Christians (who are to be killed, enslaved, or forced to convert).
+## Kidnapping and Sharia States
 
-## The Chibok Girls and Leah Sharibu
+Mass abduction for ransom has become an industry, with schools, churches, and seminaries targeted. Priests and pastors are taken regularly, and some are killed when payment fails.
 
-The April 2014 kidnapping of 276 girls from the Government Secondary School in Chibok, Borno State, by Boko Haram — the “Chibok Girls” — became an international symbol of the group’s savagery and galvanized global attention. The girls were predominantly Christian, attending a school in a predominantly Christian community in a Muslim-majority region. Boko Haram claimed they would be enslaved or sold in marriage; most were eventually released through negotiation, ransom, and escape, but as of early 2025, approximately 100 remain unaccounted for.
-
-The case of Leah Sharibu is distinct and demands specific attention. Leah, 14 years old at the time of her February 2018 kidnapping with 109 other schoolgirls from Dapchi, Yobe State, was the only girl not released when the others were freed in March 2018. Her captors’ stated reason: she refused to renounce her Christian faith and convert to Islam. Leah Sharibu has been held by ISWAP ever since. Reports from captivity suggest she has given birth to children fathered by her captor. She remains, as of early 2025, the longest-held Boko Haram/ISWAP hostage and the most internationally recognized symbol of ISWAP’s anti-Christian theology. Her mother, Rebecca Sharibu, has advocated internationally for her daughter with extraordinary courage and dignity.
-
-## The Middle Belt: Fulani Militant Violence
-
-Separate from — and in some ways more deadly than — the Boko Haram/ISWAP insurgency is the wave of Fulani militant attacks on Christian farming communities across the Middle Belt states of Kaduna, Plateau, Taraba, Benue, Kogi, Nasarawa, and beyond. The Fulani are a predominantly Muslim pastoral people whose traditional economy is nomadic cattle herding; the Christian farming communities are predominantly settled agricultural peoples of various ethnic backgrounds (Berom, Tarok, Mwaghavul, Tiv, Agatu, and many others).
-
-The conflict is partly rooted in resource competition — the encroachment of farmland on traditional grazing routes, the impact of climate change on the Sahel pushing Fulani herders southward, and disputes over land and water access. But it has a clear religious dimension: the attackers are predominantly Muslim; the victims are predominantly Christian; mosques are not attacked while churches are; and the attacks follow a pattern — night raids on farming villages, mass killings of men, women, and children, burning of homes and churches, and seizure of land — that goes beyond what resource competition would explain.
-
-In some of the worst years — 2018, 2019, 2021 — Open Doors documented that more Christians were killed in Nigeria alone than in all other countries on the World Watch List combined. The Middle Belt states of Plateau and Kaduna have been particularly devastated. The Berom people of Plateau State, who were once among the most evangelized communities in West Africa, have experienced the systematic emptying of their farming villages through repeated Fulani militant attacks that the state government of Plateau State and the federal government have failed to prevent or adequately prosecute.
-
-## Government Accountability and its Absence
-
-The failure of successive Nigerian federal governments — both under President Muhammadu Buhari (2015–2023) and in the current Tinubu administration — to adequately prosecute Fulani militant violence against Christian communities has been the subject of sustained criticism from Nigerian Christian leaders, international human rights organizations, and the United States Commission on International Religious Freedom (USCIRF). The pattern of impunity — attacks documented, perpetrators identified in some cases, prosecutions rare and sentences lighter than the crimes warrant — has emboldened the violence. Nigerian Christian leaders, including the Catholic Bishops’ Conference of Nigeria, have repeatedly accused the federal government of favoring Fulani political and economic interests over the lives of Middle Belt Christian communities.
-
-President Tinubu, who took office in 2023, is himself a Muslim — though from the Yoruba south, a different cultural context from northern Muslim politics. His administration’s handling of security in the Middle Belt will be a significant test of whether the pattern of impunity changes.
-
-## The Church That Will Not Stop
-
-Despite the accumulated suffering — which is enormous and ongoing — the Nigerian church is not retreating. In the south, it is growing, dynamic, internationally connected, and globally mission-minded. In the north, small Christian communities maintain their witness in cities like Kano, Maiduguri, and Sokoto under conditions of genuine danger. In the Middle Belt, traumatized communities bury their dead, rebuild what they can, and continue to gather for worship. Pastors who have survived attacks return to their congregations. Families who have lost everything continue to follow Jesus.
-
-Nigerian Christian leaders are among the most articulate voices in global Christianity on the nature and scale of anti-Christian violence. Archbishop Benjamin Kwashi of Jos, Bishop Mathew Kukah of Sokoto, and others have spoken with consistent clarity and courage — within Nigeria and internationally — about the situation their communities face.
+Twelve northern states adopted sharia criminal law from 1999. It formally applies only to Muslims, and Christians in those states report discrimination in land allocation for churches, in access to state employment and education, and in the courts. The musician Yahaya Sharif-Aminu was sentenced to death for blasphemy in Kano in 2020, and the humanist Mubarak Bala was jailed for 24 years in 2022, showing how blasphemy law operates there.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #6
-- **Estimated Christian Population:** ~95–100 million (~45–50%)
-- **Primary Threats:** Boko Haram/ISWAP insurgency (northeast), Fulani militant attacks on farming communities (Middle Belt), Sharia law in twelve northern states, inadequate government protection
-- **Scale of Killing:** Nigeria accounts for the majority of Christians killed for their faith globally in recent years by most monitoring assessments
-- **Notable:** Leah Sharibu — held by ISWAP since 2018 for refusing to renounce Christianity; Chibok Girls kidnapping (2014); Middle Belt village destruction ongoing
-- **Church Strength:** Nigerian church is one of the world’s most dynamic — global mission-sending, enormous congregations, active advocacy
+- **Persecution Score:** Very High (63/100), **Rank:** #17 of 192 countries
+- **Estimated Christian Population:** roughly half the population, over 100 million
+- **Deaths:** 3,490 Christians killed in the WWL 2026 reporting year, about 70 percent of the global total
+- **Primary Threats:** Boko Haram, ISWAP, armed herder militias in the Middle Belt, mass kidnapping for ransom, sharia law discrimination in twelve northern states
+- **Open Doors WWL 2026:** #7
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Nigeria* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Nigeria* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- International Society for Civil Liberties and Rule of Law (Intersociety) — intersociety-ng.org
+- Human Rights Watch, *Nigeria* — hrw.org/africa/nigeria
+- ACLED, Nigeria conflict data — acleddata.com
+- International Crisis Group, *Nigeria* — crisisgroup.org
 
 -----
 
@@ -311,73 +308,51 @@ Nigerian Christian leaders are among the most articulate voices in global Christ
 COUNTRY: North Korea
 TITLE: North Korea — Christianity & Persecution Profile
 SLUG: country-profiles/north-korea
-META DESCRIPTION: North Korea is the world’s most dangerous country for Christians — ranked #1 on the Open Doors World Watch List for 22 consecutive years. In a country where Kim Jong Un is worshiped as a deity, practicing Christianity means labor camps, torture, and death. An estimated 50,000–70,000 Christians are in political prison camps right now.
+META DESCRIPTION: North Korea permits no Christian existence. Believers discovered are sent to labor camps with three generations of their family, and Pyongyang was once called the Jerusalem of the East.
 CATEGORY: Country Profiles
-TAGS: North Korea, East Asia, Kim Jong Un, Juche, Political Prison Camps, Kwanliso, WWL #1, Underground Church, Labor Camps, Totalitarian
-PERSECUTION TIER: High
-WWL RANKING: #1 (Open Doors 2024)
+TAGS: North Korea, East Asia, Kim Regime, Labor Camps, Juche, Underground Church, WWL Number One
+PERSECUTION TIER: Extreme
 
 ## Overview
 
-North Korea has been ranked #1 on the Open Doors World Watch List for twenty-two consecutive years. It is, by every measure available to the outside world, the most dangerous country on earth in which to be a Christian. Under the Kim dynasty — Kim Il Sung, Kim Jong Il, and now Kim Jong Un — North Korea has constructed the most complete totalitarian state in human history, a system in which the ruling family is literally worshiped as divine, in which the state ideology of Juche (self-reliance) functions as a substitute religion with its own theology, liturgy, and object of veneration, and in which any loyalty to any being above the Supreme Leader is treated as an act of treason punishable by imprisonment, torture, and death.
+North Korea has been at or near the top of every persecution index for over two decades, and Open Doors ranked it first again on the 2026 World Watch List. Christianity is treated as a political crime. Believers discovered practicing are sent to political prison camps, often with their parents and children under the three-generations principle, or executed. Estimates of Christians in the camp system run around 50,000 to 70,000. The total number of believers is put at 200,000 to 400,000, all of them secret.
 
-An estimated 50,000 to 70,000 Christians are currently held in North Korea’s political prison camp system — the kwanliso — enduring conditions that United Nations investigators have compared to the Nazi concentration camps in their systematic brutality. They are there not for crimes but for faith. Discovery of a Bible, attendance at a secret prayer meeting, contact with a Christian broadcaster from South Korea — any of these can trigger arrest not only of the individual but of their entire family across three generations. North Korea’s persecution of Christians is total, systematic, and backed by the full coercive power of a state that has never known accountability.
+## Pyongyang, the Jerusalem of the East
 
-## Christianity Before the Division
+Christianity arrived in Korea in the eighteenth century through Catholic texts and in the nineteenth through Protestant missionaries. Pyongyang became the center. The 1907 Pyongyang Revival was one of the most significant awakenings in Asian history, and the city held so many churches and Christian schools that missionaries called it the Jerusalem of the East. Kim Il-sung's own family had Protestant connections, and his maternal grandfather was an elder.
 
-The Korean peninsula has a remarkable Christian history — particularly its northern half. Pyongyang, now the capital of the North Korean state, was known in the early 20th century as the “Jerusalem of the East.” American Presbyterian and Methodist missionaries arrived in Korea in the 1880s and found extraordinary receptivity. The Great Revival of 1907 — which began in Pyongyang and swept through the Korean church — was one of the most significant religious revivals in Asian Christian history, producing intense prayer meetings, mass repentance, and a deeply rooted evangelical Christian culture that spread rapidly through Korean society.
+The division of the peninsula in 1945 put that center inside the communist north. Churches were closed, clergy imprisoned or killed, and believers fled south in large numbers. By the 1960s organized Christianity had been eliminated.
 
-By the time of Japanese colonial annexation in 1910, Korea had a significant and growing Protestant church. The Japanese colonial period (1910–1945) brought its own religious oppression — particularly the forced worship of the Japanese emperor — which Korean Christians largely resisted, at great cost. The March 1st Movement of 1919, in which Koreans rose against Japanese colonial rule, included significant Christian participation; fifteen of the thirty-three signatories of the Declaration of Independence were Christian. The Korean church’s engagement with both revival and resistance shaped a Christian identity that was theologically serious and nationally connected.
+## Juche and the Ten Principles
 
-After Japan’s defeat in 1945, the Korean peninsula was divided along the 38th parallel. The north came under Soviet-backed communist governance under Kim Il Sung, who had been selected by the Soviets partly because his father was a Presbyterian elder — the Soviets calculated this would ease the transition with the northern population. But Kim Il Sung’s actual agenda was the elimination of Christianity along with every other source of loyalty outside the state.
+The state ideology of Juche, combined with the cult around the Kim family, functions as a totalizing system that admits no rival loyalty. The Ten Principles for the Establishment of the One-Ideology System require absolute devotion to the leadership. A Bible in a home is evidence of treason. Portraits of the leaders hang in every household and must be maintained.
 
-## The Construction of the Juche Religion
-
-Kim Il Sung developed Juche — initially a somewhat conventional Marxist-nationalist ideology of Korean self-reliance — into something far more comprehensive: a total worldview that fulfilled the functions of religion while claiming to be its scientific replacement. The Kim family is not merely politically supreme in North Korea; it is metaphysically supreme. Kim Il Sung is called “Eternal President” and is worshiped at shrines across the country. Kim Jong Il is “Eternal General Secretary.” Kim Jong Un inherits divine status as the current embodiment of the Kim lineage. The Korean Workers’ Party functions as a church; its meetings are liturgical; its texts are canonical; its commands are absolute.
-
-In this framework, Christianity is not merely a foreign ideology — it is a competing religion that claims a God above the Kims, a Kingdom not of this world, a loyalty that cannot be subordinated to the Supreme Leader. This is precisely what makes it existentially intolerable to the regime. A North Korean Christian does not merely hold a deviant political opinion — they worship a God who is, by the internal logic of Juche, a direct challenge to the divinity of the Kim family. The response has been consistent: total, systematic, generational elimination.
-
-## The Political Prison Camps: Kwanliso
-
-North Korea operates six known political prison camps — kwanliso — that together hold an estimated 100,000–120,000 prisoners, of whom Christians are believed to comprise approximately 50,000–70,000. The camps are vast — some covering areas of hundreds of square miles — and are effectively communities of forced labor, starvation, torture, and death. Prisoners are worked in mines, farms, and factories under conditions that produce high mortality rates. Beatings are systematic; torture is common as a means of extracting information about underground church networks. Medical care is virtually nonexistent; food rations are below subsistence level.
-
-The “three generations” punishment policy — under which the arrest of a Christian results in the imprisonment of their children and grandchildren — is one of the most savage features of the system. A grandmother who is discovered to have a Bible will see her children and grandchildren imprisoned with her; the goal is the total elimination of the “ideological contamination” through generational punishment. UN investigators have documented this policy through extensive testimony from camp survivors who managed to defect.
-
-The UN Commission of Inquiry on Human Rights in North Korea, which published its findings in 2014, concluded that the crimes committed in these camps constitute crimes against humanity, including “extermination, murder, enslavement, torture, imprisonment, rape, forced abortions and other sexual violence, persecution on political, religious, racial and gender grounds, the forcible transfer of populations, the enforced disappearance of persons and the inhumane act of knowingly causing prolonged starvation.” The Commission specifically documented the targeting of Christians.
+Four showcase churches operate in Pyongyang, including Bongsu and Chilgol Protestant churches and a Catholic cathedral without a priest. Defectors and visitors describe them as presentations for foreign delegations rather than functioning congregations.
 
 ## The Underground Church
 
-Despite — or perhaps driven by — the totality of the repression, an underground Christian community exists in North Korea. Its scale is unknowable with any precision; estimates range from a few thousand to several hundred thousand. It is organized in the smallest possible units — individuals, couples, families — who maintain faith in almost complete isolation from one another and from any outside community. There are no pastors, no Bibles (except those painstakingly memorized or hidden in extraordinary ways), no community worship of any kind that could risk detection. Prayer happens silently, in darkness, alone.
+Believers meet in ones and twos, often within a single family, and many do not know another Christian outside it. Some families have passed faith down for three generations without a Bible. Scripture arrives on memory cards and paper copies carried across the Chinese border, and radio broadcasts from South Korea and elsewhere reach listeners at severe risk.
 
-The underground church exists because Christianity entered the consciousness of some Koreans before the Kim regime could eliminate it entirely, and because the witness of Christian faith — transmitted across generations through mothers, grandmothers, and the occasional trusted neighbor — has proven more durable than the regime’s elimination campaigns. Some North Koreans encounter Christianity through Chinese-manufactured radios that can pick up South Korean Christian broadcasting; others through contact with Korean-Chinese Christians in China when they cross the border; others through the testimony of family members who were Christians before the Kim era.
-
-North Korean defectors who reach South Korea and other safe countries include Christians who maintained their faith through decades of totalitarian suppression. Their testimony — collected by organizations including Open Doors, Jubilee Campaign, and the Database Center for North Korean Human Rights — is the primary source of what the world knows about the underground church.
-
-## The Show Churches of Pyongyang
-
-The Kim regime maintains three show churches in Pyongyang — two Protestant and one Catholic — that are periodically displayed to foreign visitors as evidence of religious freedom. Former visitors, including diplomats and religious delegations, have consistently described these as Potemkin institutions: the “congregation” members do not appear to know the words to the hymns, the services have the character of theatrical performance rather than genuine worship, and access is controlled and staged. These churches are not evidence of religious freedom; they are evidence of the regime’s sophisticated management of its international image.
-
-## International Response
-
-North Korea’s treatment of Christians is among the most extensively documented human rights violations in the world, yet accountability has been almost entirely absent. The UN Commission of Inquiry’s 2014 referral to the International Criminal Court has not resulted in prosecution; China’s border control prevents most defection; and the regime’s nuclear program has made Western governments reluctant to confront it on human rights grounds. North Korea has been designated by the United States Commission on International Religious Freedom (USCIRF) as a Country of Particular Concern every year it has made such designations.
-
-The most significant practical support for North Korean Christians comes through defector assistance networks in China and South Korea, Christian broadcasting (Trans World Radio, Far East Broadcasting Company, and others), and the support of North Korean defector-led advocacy organizations in Seoul that document, publish, and testify about the situation inside the country.
-
-## The Church That Exists in Memory and Hope
-
-The church in North Korea is invisible. It has no buildings, no institutions, no published names, no public existence of any kind. It is a community of individuals who hold their faith alone and in secret, who pray in the dark, who carry the gospel in their minds because they cannot carry it in their hands. It is the most isolated, most endangered, and — by the testimony of those who have experienced both oppression and the grace of God — among the most profoundly real expressions of Christian faith in the world.
-
-The North Korean church is prayed for by millions of Christians globally. It cannot respond to those prayers publicly. It prays back in silence, alone, and waits.
+North Koreans who encounter Christianity in China and are then repatriated face intensified punishment, since contact with missionaries is treated as espionage. Women trafficked into China who are sent back have described specific questioning about church contact.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #1 (22 consecutive years at #1)
-- **Estimated Christian Population:** Unknown; estimates range from 200,000 to 400,000 underground believers
-- **Christians in Prison Camps:** Estimated 50,000–70,000
-- **Primary Mechanism:** Juche state religion that treats Christianity as treason; three-generations punishment policy; total surveillance state
-- **Legal Status:** Christianity entirely illegal; no legal religious expression permitted outside three Pyongyang show churches
-- **Churches:** Three state-controlled Potemkin churches in Pyongyang; zero genuine public worship
-- **UN Finding (2014):** Crimes against humanity including extermination and torture of Christians and others in political prison camps
+- **Persecution Score:** Extreme (79/100), **Rank:** #3 of 192 countries
+- **Estimated Christian Population:** 200,000 to 400,000, all secret
+- **In Prison Camps:** an estimated 50,000 to 70,000 Christians
+- **Primary Threats:** Political prison camps, three-generation punishment, execution, total surveillance
+- **Legal Status:** No legal Christian existence. Faith treated as political treason
+- **Open Doors WWL 2026:** #1
+- **Historical Note:** Pyongyang was called the Jerusalem of the East before 1945
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: North Korea* — opendoors.org/persecution/countries/
+- UN Commission of Inquiry on Human Rights in the DPRK, *Report* (2014) — ohchr.org
+- U.S. Department of State, *Report on International Religious Freedom: North Korea* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Korea Future, documentation of religious freedom violations — koreafuture.org
+- Committee for Human Rights in North Korea (HRNK) — hrnk.org
 
 -----
 
@@ -385,22 +360,33 @@ The North Korean church is prayed for by millions of Christians globally. It can
 COUNTRY: North Macedonia
 TITLE: North Macedonia — Christianity & Persecution Profile
 SLUG: country-profiles/north-macedonia
-META DESCRIPTION: North Macedonia is a majority Orthodox Christian nation with full religious freedom. The Macedonian Orthodox Church’s contested canonical status has been its primary institutional challenge, not persecution.
+META DESCRIPTION: North Macedonia is majority Orthodox with a large Muslim minority. Its church won recognition from other Orthodox churches in 2022 after decades of isolation.
 CATEGORY: Country Profiles
-TAGS: North Macedonia, Balkans, Eastern Orthodox, Religious Freedom, Islam, Inter-Church Relations
-PERSECUTION TIER: Low
+TAGS: North Macedonia, Balkans, Orthodox, Autocephaly, Islam, Religious Freedom, Ohrid
+PERSECUTION TIER: Lower
 
 ## Overview
 
-North Macedonia is a small Balkan nation of approximately 2 million people — approximately 65% Eastern Orthodox Christian and 30% Muslim (predominantly ethnic Albanian), with small Catholic and evangelical communities. The country has full constitutional religious freedom; Christians practice without persecution. The primary institutional challenge facing the Macedonian Orthodox Church has been its canonical status — it declared autocephaly (independence) from the Serbian Orthodox Church in 1967, a declaration not recognized by the broader Orthodox communion until 2022, when the Ecumenical Patriarchate granted it recognition. This decades-long canonical dispute affected the church’s international relationships but not its domestic freedom to function.
+North Macedonia is around 65 percent Orthodox Christian with a Muslim minority near 32 percent, mostly ethnic Albanian. Religious freedom is protected and there is no persecution.
 
-North Macedonia achieved independence from Yugoslavia in 1991 without the violent conflict that accompanied the dissolution of other Yugoslav republics. Muslim and Orthodox communities have coexisted in relative stability, though interethnic tensions between the Macedonian Orthodox majority and Albanian Muslim minority have periodically erupted into violence (most significantly in 2001). These tensions are primarily ethnic and political rather than specifically religious in character. North Macedonia is not on the Open Doors World Watch List.
+The Macedonian Orthodox Church declared independence from the Serbian Orthodox Church in 1967 and spent over fifty years unrecognized by the rest of the Orthodox world. The Ecumenical Patriarchate accepted it into communion in May 2022, and the Serbian Church granted autocephaly shortly after, ending the isolation. The church now uses the name Macedonian Orthodox Church, Ohrid Archbishopric.
+
+Ohrid is one of the oldest centers of Slavic Christianity, where Clement and Naum, disciples of Cyril and Methodius, established a school that shaped Slavic literacy and liturgy in the ninth century. The town and lake are a UNESCO World Heritage site.
+
+Interethnic tension between Macedonians and Albanians has religious overlap, and the 2001 conflict brought damage to churches and mosques. The Ohrid Framework Agreement settled the main disputes. Occasional friction arises over property restitution and over the registration of the small Orthodox Archbishopric of Ohrid that remained aligned with Belgrade, whose leader was imprisoned in the 2000s, a matter now largely resolved.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~65% (predominantly Macedonian Orthodox)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (9/100), **Rank:** #96 of 192 countries
+- **Estimated Christian Population:** about 65 percent, predominantly Orthodox
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Ohrid as a founding center of Slavic Christianity. Autocephaly recognized in 2022
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: North Macedonia* (most recent edition) — state.gov
+- Ecumenical Patriarchate announcements, 2022 — patriarchate.org
+- CIA World Factbook: North Macedonia — cia.gov/the-world-factbook/countries/north-macedonia/
 
 -----
 
@@ -408,25 +394,33 @@ North Macedonia achieved independence from Yugoslavia in 1991 without the violen
 COUNTRY: Norway
 TITLE: Norway — Christianity & Persecution Profile
 SLUG: country-profiles/norway
-META DESCRIPTION: Norway is a historically Lutheran Nordic nation with full religious freedom and a rapidly secularizing society. The Church of Norway retains a formal state church role, though this has been significantly reduced. Christians face no persecution.
+META DESCRIPTION: Norway separated church and state in 2017 and retains a large Lutheran membership with low practice. Religious freedom is complete.
 CATEGORY: Country Profiles
-TAGS: Norway, Scandinavia, Lutheran, State Church, Secular, Religious Freedom
-PERSECUTION TIER: Low
+TAGS: Norway, Scandinavia, Lutheran, Church of Norway, Secularization, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Norway is a Nordic welfare state of approximately 5.5 million people with full religious freedom and one of the world’s lowest rates of active religious practice. Approximately 68% of Norwegians are nominally members of the Church of Norway (Evangelical Lutheran), but active weekly attendance is estimated at under 5%. The Church of Norway’s formal state church status was significantly reduced by a 2017 constitutional amendment that removed language making Lutheranism the state religion while maintaining the church’s public role — a characteristically Nordic half-step toward full secularism.
+Norway is around 63 percent Lutheran by membership in the Church of Norway, with attendance in the low single digits and a growing non-religious share. The constitutional link between church and state was dissolved in stages, completed in 2017, and the Church of Norway is now an independent body that still receives state funding alongside other registered faith communities.
 
-Christianity arrived in Norway through Viking-era conversion — most dramatically under King Olaf Haraldsson (later St. Olav), who was killed at the Battle of Stiklestad in 1030 and whose martyrdom became the founding narrative of Norwegian Christian identity. The Reformation came to Norway as part of Danish colonial religious policy in the 16th century; Lutheranism replaced Catholicism as the official faith.
+Religious freedom is complete. Funding is allocated per member across registered religious and life-stance organizations, which means Muslim, Catholic, Pentecostal, and humanist bodies all receive public money on the same basis. A 2021 law tightened conditions, including a minimum membership threshold and restrictions tied to foreign funding and to activity judged to violate human rights, which some minority groups have contested.
 
-Norway is not on the Open Doors World Watch List. The country has engaged internationally in religious freedom advocacy and human rights monitoring; Norwegian Church Aid is among the most significant Christian humanitarian organizations in the world. A small evangelical and charismatic community maintains active faith; immigrant churches from Africa, Asia, and Latin America have brought vibrant Christian practice to Norwegian cities.
+Debate touches religious schooling, conscience protections for health workers, and the limits of speech on sexuality. Norway's blasphemy provision was repealed in 2015.
+
+The Sámi were subjected to a long assimilation policy in which the Church of Norway participated, and a truth and reconciliation commission reported to parliament in 2023, with the church apologizing for its role.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~75% (nominal; active practice very low)
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** St. Olav (died 1030) — martyred Viking king whose death established Norwegian Christian national identity
+- **Persecution Score:** Lower (6/100), **Rank:** #131 of 192 countries
+- **Estimated Christian Population:** about 66 percent by membership, far lower by practice
+- **Current Status:** Full religious freedom, church and state separated in 2017
+- **Historical Note:** Church participation in Sámi assimilation policy, addressed by the 2023 truth commission
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Norway* (most recent edition) — state.gov
+- Statistics Norway, *Church of Norway and religious communities* — ssb.no
+- Truth and Reconciliation Commission report to the Storting (2023) — stortinget.no
 
 -----
 
@@ -434,33 +428,43 @@ Norway is not on the Open Doors World Watch List. The country has engaged intern
 COUNTRY: Oman
 TITLE: Oman — Christianity & Persecution Profile
 SLUG: country-profiles/oman
-META DESCRIPTION: Oman is a Gulf Arab sultanate where Christians — almost entirely expatriates — can worship in designated areas but face strict limits on any engagement with Omani nationals. Conversion from Islam carries severe social and legal consequences.
+META DESCRIPTION: Oman permits expatriate Christians to worship on designated compounds and forbids any attempt to convert a Muslim. Omani believers have no legal standing.
 CATEGORY: Country Profiles
-TAGS: Oman, Gulf States, Islam, Expat Christians, Religious Restrictions, Middle East, Converts
-PERSECUTION TIER: Moderate
+TAGS: Oman, Gulf States, Ibadi Islam, Expat Christians, Converts, Religious Restrictions, WWL Top 50
+PERSECUTION TIER: Medium
 
 ## Overview
 
-Oman is a constitutional absolute monarchy on the Arabian Peninsula, governed by the Al Said dynasty, with a population of approximately 4.5 million — of whom roughly 85% are Muslim and approximately 6–7% are Christian, almost entirely drawn from the substantial expatriate workforce of Indian, Filipino, Pakistani, and Western nationals employed in Oman’s oil and service economy.
+Oman is around 85 percent Muslim, predominantly Ibadi, a distinct school that has given the country a reputation for restraint. Christians make up perhaps 6 percent, almost entirely expatriate workers from India, the Philippines, Egypt, Europe, and elsewhere. They worship on designated church compounds in Muscat, Sohar, and Salalah, which host dozens of congregations sharing facilities. Omani citizens who become Christians have no legal recognition. Open Doors ranked Oman 38th on the 2026 World Watch List.
 
-Oman is, by Gulf standards, relatively moderate in its approach to religion. The late Sultan Qaboos (ruled 1970–2020) was widely regarded as a stabilizing and tolerant leader who maintained Oman’s distinctiveness from the more rigid religious frameworks of Saudi Arabia and, in earlier decades, the UAE. The current Sultan Haitham bin Tariq has maintained broadly similar policies. Christians in Oman can worship in designated areas — the government has provided land in Muscat and Salalah for the construction of Christian churches, and there are functioning Catholic, Protestant, and Anglican congregations serving the expatriate community. These churches operate under strict conditions: they may serve their own communities; they may not engage Omani nationals in any form of evangelism or worship; they may not conduct services in Arabic in ways that might attract Omani attendees.
+## Legal Framework
 
-## Restrictions and Converts
+The Basic Law provides for freedom to practice religion in accordance with recognized custom and on condition that it does not disrupt public order. Religious groups must register through the Ministry of Endowments and Religious Affairs. Worship outside approved premises is prohibited, as is any publication or distribution of religious material without approval.
 
-The framework is consistent with the Gulf pattern: private expatriate Christian worship is tolerated within defined limits; any interface with Omani Muslim society is strictly prohibited. Proselytism is illegal; importing religious literature in quantities beyond personal use is controlled; and an Omani national who converts from Islam faces consequences that are social (family rejection, community exclusion, loss of social standing) and potentially legal under Islamic personal status law applications.
+A 2018 law criminalized offending religion and, in practice, any attempt to persuade a Muslim to change faith. Non-Muslim religious instruction to Muslims is prohibited. Foreigners found evangelizing are deported.
 
-Oman does not have an explicit apostasy law with criminal penalties in its penal code — a distinction from countries like Mauritania — but the social and legal consequences of conversion are severe enough to make open Christian faith among Omani nationals effectively impossible. The handful of known Omani converts practice in complete secrecy.
+## Omani Believers
 
-## Historical Note
+The number of Omani Christians is very small and unverifiable. Conversion is not criminalized in the penal code under a specific apostasy provision, and the consequences arrive through family and personal status law. A convert cannot register the change, faces loss of inheritance and custody, and risks family confinement. Believers do not gather and are not known to the expatriate congregations.
 
-Oman has a Christian connection that predates Islam: the ancient city of Sohar, on the Gulf of Oman coast, was a Nestorian Christian settlement in the pre-Islamic period, and the region had Christian communities under Sassanid Persian influence. Those communities disappeared with the Islamization of the Arabian Peninsula. The current Christian presence is entirely modern and entirely expatriate.
+## Current Conditions
+
+Oman has long positioned itself as a mediator, including between the United States and Iran. Non-emergency U.S. government personnel and family members were ordered to leave in March 2026 following the onset of hostilities, and the country sits at advisory level 3 with a do-not-travel designation for the Yemen border area.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~6–7% (almost entirely expatriate)
-- **Primary Restrictions:** Proselytism to Omani Muslims illegal; Omani converts face severe social and legal consequences; expatriate worship limited to designated areas
-- **Current Status:** Relatively tolerant by Gulf standards; strict limits on Muslim-Christian interface
-- **Open Doors WWL:** Not in top tier; monitored
+- **Persecution Score:** Medium (29/100), **Rank:** #56 of 192 countries
+- **Estimated Christian Population:** about 6 percent, almost entirely expatriate
+- **Primary Threats:** No legal standing for Omani converts, ban on evangelism, deportation of foreigners
+- **Legal Status:** Registered expatriate worship permitted on designated compounds
+- **Open Doors WWL 2026:** #38
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Oman* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Oman* (most recent edition) — state.gov
+- U.S. Department of State, *Oman Travel Advisory* — travel.state.gov
+- Middle East Concern, *Oman* — meconcern.org
 
 -----
 
@@ -468,66 +472,51 @@ Oman has a Christian connection that predates Islam: the ancient city of Sohar, 
 COUNTRY: Pakistan
 TITLE: Pakistan — Christianity & Persecution Profile
 SLUG: country-profiles/pakistan
-META DESCRIPTION: Pakistan’s blasphemy laws have destroyed lives, incited mob killings, and imprisoned innocent Christians for decades. Asia Bibi spent eight years on death row; Shahbaz Bhatti was assassinated in broad daylight. Christian girls are abducted and forced into marriages. The church endures under comprehensive legal discrimination and the constant threat of mob violence.
+META DESCRIPTION: Pakistan's blasphemy laws carry the death penalty and are used against Christians. Mobs burn Christian neighborhoods, and girls are abducted and forcibly converted.
 CATEGORY: Country Profiles
-TAGS: Pakistan, South Asia, Blasphemy Laws, Asia Bibi, Shahbaz Bhatti, Mob Violence, Forced Marriage, WWL Top 10, Ahmadiyya, Persecution
-PERSECUTION TIER: High
-WWL RANKING: #7 (Open Doors 2024)
+TAGS: Pakistan, South Asia, Blasphemy Laws, Mob Violence, Forced Conversion, Asia Bibi, Jaranwala, WWL Top 10
+PERSECUTION TIER: Very High
 
 ## Overview
 
-Pakistan was created in 1947 as a homeland for South Asian Muslims — a state whose very founding was premised on religious identity. Its Christian community — approximately 4–5 million people, roughly 1.6–1.8% of a population of 220 million — is the remnant and descendant of a mission movement that converted primarily among the poorest castes of undivided India, the people classified as “Untouchables” whose mass conversion in the 19th and early 20th centuries was an act of liberation from a caste system that dehumanized them. Pakistani Christians are disproportionately poor, uneducated by the standards of the broader population, concentrated in sanitation and cleaning work that carries the social stigma of their Dalit heritage, and politically powerless in a state that defines itself by Islam.
+Pakistan holds around 4 million Christians, roughly 1.8 percent of the population, most of them descended from Dalit converts and confined to the bottom of the social order. Three things define their situation. Blasphemy laws carry the death penalty and are used to settle scores. Mobs burn Christian neighborhoods on rumor. Christian and Hindu girls are abducted, forcibly converted, and married to their abductors with little legal recourse. Open Doors ranked Pakistan 8th on the 2026 World Watch List.
 
-What Pakistani Christians face is a comprehensive system of legal discrimination, social marginalization, and physical danger. The blasphemy laws — Sections 295-A, B, and C of the Pakistani Penal Code — have been weaponized against Christians with lethal consistency. Christians have been accused of blasphemy based on false testimony; held for years without trial; acquitted and then killed by mobs that take the law into their own hands; and in some documented cases executed. Christian women and girls are abducted by Muslim men, forcibly converted to Islam, and “married” to their kidnappers under a system that provides no legal recourse for the victim or her family. Christian communities have been mob-attacked on blasphemy pretexts, their homes burned, their churches demolished. The state’s protection is unreliable at best and complicit at worst. Pakistan ranked #7 on the 2024 Open Doors World Watch List.
+## The Blasphemy Laws
 
-## The Founding and the Christian Community
+Sections 295 and 298 of the penal code criminalize insulting religion, defiling the Quran, and insulting the Prophet, the last carrying a mandatory death sentence. No one has been executed by the state under them. Dozens have been killed by mobs or in prison while awaiting trial, and hundreds sit in custody.
 
-Pakistan’s Christian community traces primarily to the mass conversion movements of the 19th century. The Church Missionary Society (Anglican), the Church of Scotland Mission (Presbyterian), the United Presbyterian Mission from America, and Catholic missionaries worked extensively in the Punjab — the heartland of what became Pakistani territory — and found receptivity among the lower castes and tribal communities who had everything to gain from the education, medical care, and social dignity that mission institutions offered. The Chuhra — a sweeper caste — converted in enormous numbers; their descendants constitute the majority of Pakistani Christians today. They became nurses, teachers, church workers, and — most visibly — the people who clean Pakistan’s streets and sewers, a social position that has not improved significantly since independence.
+Accusation is the punishment. A claim is enough to destroy a family, and the burden of disproof is severe. Judges and lawyers who handle these cases are threatened. Governor Salman Taseer was murdered by his own bodyguard in 2011 for calling the laws unjust, and the minorities minister Shahbaz Bhatti, a Christian, was assassinated weeks later for the same reason. Taseer's killer was celebrated by crowds and his shrine draws visitors.
 
-At partition in 1947, Christians in the newly created Pakistan were a recognized religious minority with constitutional protections. The 1956 and 1962 constitutions maintained minority religious rights; Christians could vote on separate minority electoral rolls, which gave them some political voice though in a system designed to keep them marginal.
+Asia Bibi, a farm laborer accused after a dispute over a drinking vessel, spent eight years on death row before the Supreme Court acquitted her in 2018. Mass protests followed and she left the country.
 
-## The Blasphemy Laws: History and Weaponization
+## Mob Violence
 
-Pakistan’s blasphemy laws have colonial-era origins — the British introduced provisions against “outraging religious feelings” in the 19th century Indian Penal Code — but their current, lethal form was shaped by dictator Muhammad Zia ul-Haq, who governed Pakistan from 1977 to 1988 and pursued a comprehensive Islamization of the state. Zia’s 1986 amendment added Section 295-C to the Penal Code, specifying death or life imprisonment for “whoever by words, either spoken or written, or by visible representation, or by any imputation, innuendo, or insinuation, directly or indirectly, defiles the sacred name of the Holy Prophet Muhammad.” No intent is required; no evidence standard beyond accusation is specified in the law itself; and the courts that try blasphemy cases operate in a climate of threat and intimidation that systematically favors conviction.
+Christian neighborhoods have been attacked repeatedly. Gojra in 2009 saw houses burned and several people killed. Joseph Colony in Lahore was torched in 2013. In August 2023 mobs attacked Jaranwala in Punjab after blasphemy allegations against two Christian men, burning at least 19 churches and hundreds of homes and forcing thousands to flee. Arrests followed and prosecutions have been slow.
 
-The laws have been used against Christians in a consistent pattern: a personal dispute or business conflict leads one party to accuse the other of blasphemy; police arrest the accused under social pressure from the Muslim community; the accused — who may be entirely innocent of any religious statement — is imprisoned, sometimes for years; lawyers who defend blasphemy accused are themselves threatened; acquittals trigger mob violence; and some accused are killed in prison by guards or fellow prisoners before cases are concluded.
+Church bombings have also been severe, including the twin suicide attacks on All Saints Church in Peshawar in 2013 that killed over 80 people and the Lahore park bombing on Easter Sunday 2016.
 
-## Asia Bibi: The World’s Most Famous Blasphemy Case
+## Forced Conversion and Social Position
 
-Asia Bibi is a Catholic farmworker from the village of Ittan Wali in Punjab who was accused of blasphemy in 2009 following an altercation with Muslim coworkers over a shared water source. The circumstances of the accusation were disputed; Asia denied any blasphemous statement. She was convicted in 2010 and sentenced to death — becoming the first woman sentenced to death for blasphemy in Pakistan’s history. She spent eight years on death row, in solitary confinement, in conditions that were physically and psychologically devastating.
+Girls as young as twelve have been abducted, converted, and married, with courts often accepting the conversion and marriage as valid on the basis of the girl's own coerced testimony. Legislative attempts to set a minimum age and criminalize forced conversion have repeatedly failed.
 
-Two significant figures were killed for their advocacy on her behalf: Salman Taseer, Governor of Punjab, who visited her in prison and publicly criticized the blasphemy law, was assassinated by his own bodyguard Mumtaz Qadri in January 2011; Shahbaz Bhatti, Pakistan’s Federal Minister for Minorities and the only Christian in the federal cabinet, who had spoken publicly in defense of blasphemy law reform, was assassinated in Islamabad in March 2011 — shot in his car by Taliban-linked militants. Bhatti’s killing was a direct message to any Pakistani official who would defend Christian rights: your life is the price.
-
-The Supreme Court of Pakistan acquitted Asia Bibi in October 2018 in a judgment that cited the inconsistencies and fabricated character of the testimony against her. The acquittal triggered riots across Pakistan organized by the Tehreek-e-Labbaik Pakistan (TLP), an Islamist political party whose platform is centered on enforcing blasphemy law. Asia Bibi fled Pakistan in May 2019, receiving asylum in Canada. She has written a memoir of her ordeal; the story has been told in the film “Forgiven.”
-
-## Forced Conversion and Abduction of Christian Girls
-
-A systematic and documented pattern in Pakistan is the abduction of young Christian (and Hindu) girls — typically between the ages of 12 and 18 — by Muslim men, who forcibly convert them to Islam and “marry” them under a system that takes advantage of Pakistan’s legal framework and social power dynamics. The girl’s family has limited recourse: courts frequently rule that the conversion was voluntary based on testimony from the abductor and his witnesses; family petitions for the girl’s return are often dismissed; police are reluctant to intervene when Muslim men and their families are on the other side of the dispute.
-
-Human rights organizations document hundreds of cases annually. The girls are frequently taken from impoverished Christian families in Punjab; the abductors are often significantly older than the victims. Organizations including the Movement for Solidarity and Peace in Pakistan have documented that in many cases, the girls are trafficked — the “marriage” is a legal cover for prostitution or domestic servitude. The National Commission on the Status of Women has acknowledged the pattern; legislative remedies have been proposed and blocked by religious lobbying. The girls’ Christian identity makes them specifically vulnerable: the combination of poverty, social marginalization, and the blasphemy-driven climate of impunity creates conditions in which this predatory system can operate with minimal accountability.
-
-## Christian Communities Under Mob Attack
-
-Beyond individual cases, Pakistan has experienced numerous episodes of mob violence against Christian communities on blasphemy pretexts. Key incidents include:
-
-The Gojra massacre of August 2009, in which Islamist mobs attacked the Christian district of Gojra in Punjab, killing eight Christians including a family burned alive in their home, destroying over 100 houses, and burning the local church. The Joseph Colony attack in Lahore in March 2013, in which over 100 houses in the Christian district of Joseph Colony were destroyed by a mob acting on a blasphemy accusation — the largest mob attack on a Pakistani Christian community in recent memory. The Jaranwala attack in August 2023, in which mobs attacked dozens of Christian homes, two churches, and a Christian graveyard in Jaranwala, Faisalabad, after blasphemy accusations spread on social media — one of the worst anti-Christian riots in years. In each case, the pattern is similar: an accusation spreads on social media or through mosque announcements; mobs gather; security forces either fail to intervene or arrive too late; and the Christian community bears the loss.
-
-## The Church in Pakistan
-
-Pakistan’s Christian community maintains active denominational life — the Church of Pakistan (Anglican and Methodist-rooted), the Catholic Church, the Presbyterian Church of Pakistan, and numerous evangelical and Pentecostal congregations all function. In Karachi, Lahore, Islamabad, and Faisalabad, churches operate, schools serve Christian and Muslim children alike (the Christian school tradition is one of Pakistan’s most valued educational contributions), and hospitals run by the Diocese of Lahore and Catholic organizations serve patients of all backgrounds.
-
-The church operates in a climate of fear and legal vulnerability but it does not operate in hiding. Pakistani Christian leaders — bishops, pastors, and lay advocates — speak publicly about the situation of their community, advocate before government institutions, and maintain connections with the international church community. The All Pakistan Minorities Alliance and other advocacy bodies document abuses and present them to parliamentary committees and international bodies.
-
-The Pakistani church’s situation is one of the most unjust in the world — a community that cleaned the streets of British India and prayed in the churches of Punjab now lives under a legal system that can destroy any one of them on a false word. It endures, advocates, and refuses to be invisible.
+Christians are heavily represented in sanitation work, with job advertisements historically specifying non-Muslim applicants for such roles. Bonded labor in brick kilns traps many families. Literacy and access to higher education lag far behind the national average.
 
 ## Key Facts
 
-- **Open Doors WWL Ranking (2024):** #7
-- **Estimated Christian Population:** 4–5 million (~1.6–1.8%)
-- **Primary Threats:** Blasphemy laws (Sections 295-A/B/C), mob violence on blasphemy pretexts, forced conversion and abduction of Christian girls, social discrimination, inadequate state protection
-- **Legal Status:** Christianity legal; blasphemy laws create extreme vulnerability; no intent required for blasphemy conviction
-- **Notable:** Asia Bibi — 8 years on death row; acquitted 2018; Shahbaz Bhatti assassinated 2011; Salman Taseer assassinated 2011; Jaranwala riots 2023
-- **Social Position:** Pakistani Christians disproportionately Dalit-descended, concentrated in sanitation work, politically marginalized
+- **Persecution Score:** Very High (69/100), **Rank:** #8 of 192 countries
+- **Estimated Christian Population:** about 4 million, roughly 1.8 percent
+- **Primary Threats:** Blasphemy accusations, mob violence, forced conversion and marriage of girls, caste-based social exclusion
+- **Open Doors WWL 2026:** #8
+- **Major Event:** Jaranwala, August 2023, at least 19 churches burned
+
+### Sources & References
+
+- Open Doors, *World Watch List 2026: Pakistan* — opendoors.org/persecution/countries/
+- U.S. Department of State, *Report on International Religious Freedom: Pakistan* (most recent edition) — state.gov
+- USCIRF, *Annual Report* — uscirf.gov/reports-briefs
+- Centre for Social Justice Pakistan, blasphemy case data — csjpak.org
+- National Commission for Justice and Peace — ncjppk.org
+- Human Rights Commission of Pakistan — hrcp-web.org
 
 -----
 
@@ -535,22 +524,31 @@ The Pakistani church’s situation is one of the most unjust in the world — a 
 COUNTRY: Panama
 TITLE: Panama — Christianity & Persecution Profile
 SLUG: country-profiles/panama
-META DESCRIPTION: Panama is a majority-Catholic Central American nation with full religious freedom. Christians practice freely with no persecution.
+META DESCRIPTION: Panama is overwhelmingly Christian with full religious freedom. Churches are heavily involved in the migrant crisis at the Darién Gap.
 CATEGORY: Country Profiles
-TAGS: Panama, Central America, Catholic, Evangelical, Religious Freedom, Indigenous Christianity
-PERSECUTION TIER: Low
+TAGS: Panama, Central America, Catholic, Evangelical, Darien Gap, Migration, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Panama is approximately 72% Catholic and 20% Protestant — with evangelical and Pentecostal Christianity growing significantly among the urban poor and indigenous communities — and has full constitutional religious freedom. Christianity arrived through Spanish colonization in the 16th century; Panama City (founded 1519) was one of the earliest permanent European cities on the American mainland and a launching point for Spanish evangelization of the continent. The Catholic Church’s institutional presence is deep and historically significant.
+Panama is around 85 percent Christian, with a Catholic majority and an evangelical minority near 25 percent. Religious freedom is constitutionally protected and there is no persecution. Catholicism is recognized as the faith of the majority in the constitution and taught in public schools with an opt-out, and other faiths operate freely.
 
-Indigenous peoples of Panama — particularly the Kuna (Guna), Ngäbe, and Emberá — have their own complex relationships with Christianity: some communities have incorporated Catholic or evangelical practice; others maintain traditional spiritual frameworks; others blend both. Evangelical missions have been particularly active in Ngäbe communities and have produced significant conversion movements. Panama is not on the Open Doors World Watch List. Christians face no persecution.
+The live issue for Panamanian churches is migration. The Darién Gap, the roadless jungle crossing from Colombia, carried record numbers of migrants northward through 2023 and 2024 before a sharp drop in 2025 following enforcement changes in Panama and the United States. Catholic and evangelical networks run shelters, food distribution, and medical care at both ends of the crossing, and church workers have documented the deaths, sexual violence, and robbery migrants suffer in transit.
+
+Panama's indigenous comarcas have their own governance, and evangelical growth among the Ngäbe-Buglé and Guna has produced occasional friction with traditional authorities without the expulsions seen in Mexico and Colombia.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~92%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 85 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Live Issue:** Church humanitarian work at the Darién Gap
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Panama* (most recent edition) — state.gov
+- UN OCHA and IOM, Darién crossing data — unocha.org, iom.int
+- CIA World Factbook: Panama — cia.gov/the-world-factbook/countries/panama/
 
 -----
 
@@ -558,24 +556,32 @@ Indigenous peoples of Panama — particularly the Kuna (Guna), Ngäbe, and Ember
 COUNTRY: Papua New Guinea
 TITLE: Papua New Guinea — Christianity & Persecution Profile
 SLUG: country-profiles/papua-new-guinea
-META DESCRIPTION: Papua New Guinea is a majority-Christian Pacific nation with a constitutionally Christian heritage. Traditional witchcraft beliefs have led to horrific violence against people accused of sorcery — some of whom are Christian leaders — but the state does not persecute Christians.
+META DESCRIPTION: Papua New Guinea is over 95 percent Christian and declared itself a Christian country in 2024. Sorcery accusation violence is the gravest religious problem it faces.
 CATEGORY: Country Profiles
-TAGS: Papua New Guinea, Pacific, Christian Majority, Catholic, Lutheran, Sorcery Violence, Tribal Conflict
-PERSECUTION TIER: Low
+TAGS: Papua New Guinea, Pacific, Christianity, Sorcery Accusations, Constitutional Amendment, Tribal Violence
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Papua New Guinea (PNG) is approximately 97% Christian — one of the highest proportions in the world — with Catholic, Lutheran, Anglican, United, and evangelical denominations all having significant presence. The country’s constitution declares PNG to be a Christian nation, and the church is deeply embedded in educational and social infrastructure. Christianity arrived through German Lutheran and Catholic missions in the late 19th century and spread rapidly through the extraordinary diversity of PNG’s 800+ language groups in the 20th century.
+Papua New Guinea is over 95 percent Christian, one of the highest shares in the world, spread across Catholic, Lutheran, Evangelical Lutheran, United Church, Seventh-day Adventist, Pentecostal, and many other bodies. Parliament amended the constitution in 2024 to declare the country a Christian nation, a change supported by church bodies and criticized by others as excluding the small non-Christian minority. Religious freedom continues in practice.
 
-PNG is not a persecution country in the sense that the state represses Christians. The primary challenge that has attracted international attention is not religious persecution but the brutal violence associated with sorcery accusations (sanguma in Tok Pisin): when illness, misfortune, or death occurs in a community, individuals — sometimes Christian leaders who have spoken against witchcraft practices — are accused of sorcery and subjected to horrific mob violence including torture and killing. This violence reflects the tension between Christian faith and deeply embedded traditional spiritual beliefs in communities where both coexist. It is a social justice and human rights crisis, but not a specifically anti-Christian one.
+Christianity is tightly woven into a society where traditional belief in spirits and sorcery remains strong. The gravest religious violence here is sorcery accusation related violence, in which people, usually women, are accused of causing a death or illness through sorcery and are tortured and killed. Hundreds of cases are documented annually and many more go unreported. Churches are among the leading opponents of the practice, and clergy have intervened to rescue accused women at personal risk. The government repealed the Sorcery Act in 2013 and made sorcery-related killing a capital offense, and enforcement remains weak.
 
-PNG is not on the Open Doors World Watch List.
+Tribal violence in the Highlands has intensified with the spread of automatic weapons, and church buildings and mission stations have been destroyed in fighting. Missionary aviation and church-run health and education services reach areas the state does not.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~97%
-- **Current Status:** Full religious freedom; no state persecution; sorcery accusation violence is a serious social challenge unrelated to anti-Christian ideology
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** over 95 percent
+- **Current Status:** Full religious freedom, constitutionally declared a Christian country in 2024
+- **Primary Violence:** Sorcery accusation related killings, tribal conflict in the Highlands
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Papua New Guinea* (most recent edition) — state.gov
+- U.S. Department of State, *Papua New Guinea Travel Advisory* — travel.state.gov
+- UN Human Rights Office, reporting on sorcery accusation related violence — ohchr.org
+- CIA World Factbook: Papua New Guinea — cia.gov/the-world-factbook/countries/papua-new-guinea/
 
 -----
 
@@ -583,25 +589,33 @@ PNG is not on the Open Doors World Watch List.
 COUNTRY: Paraguay
 TITLE: Paraguay — Christianity & Persecution Profile
 SLUG: country-profiles/paraguay
-META DESCRIPTION: Paraguay is a majority-Catholic South American nation with full religious freedom. Christians practice freely with no persecution.
+META DESCRIPTION: Paraguay is overwhelmingly Catholic with full religious freedom. The Jesuit reductions left one of the most remarkable legacies of indigenous Christianity in the Americas.
 CATEGORY: Country Profiles
-TAGS: Paraguay, South America, Catholic, Evangelical, Religious Freedom, Mennonite
-PERSECUTION TIER: Low
+TAGS: Paraguay, South America, Catholic, Jesuit Reductions, Guarani, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Paraguay is approximately 90% Christian — predominantly Catholic, with a growing evangelical Protestant community and a notable Mennonite presence in the Chaco region. The Mennonites of Paraguay — descendants of communities who migrated from Russia and later Germany in the early 20th century — have established one of the most successful agricultural and commercial communities in South America and maintain their distinctive Anabaptist Christian identity with remarkable stability.
+Paraguay is around 89 percent Catholic with a growing evangelical minority. Religious freedom is constitutionally protected and there is no persecution.
 
-Spanish colonization brought Catholicism and, notably, the Jesuit missions among the Guaraní people — the famous “Reductions” (reducciones) that organized indigenous communities into Christian villages with farming, music, craft production, and self-governance. The Jesuit missions of Paraguay (1609–1767) were one of the most ambitious and, by the standards of their era, humane experiments in indigenous Christian community in the Americas. Their expulsion by royal order in 1767 scattered the Guaraní communities and ended the experiment, but the ruins of the missions are now UNESCO World Heritage Sites and a significant part of Paraguayan national heritage.
+The Jesuit reductions established among the Guaraní from the early 1600s are among the most significant experiments in mission history. Thirty settlements housed tens of thousands of Guaraní, with Guaraní as the working language, protection from slave raiders, and a highly developed musical and artistic culture. The Jesuits were expelled from Spanish territories in 1767 and the reductions collapsed. The ruins at Jesús de Tavarangue and Trinidad are UNESCO World Heritage sites. Guaraní remains an official language spoken by most Paraguayans, an outcome the reductions helped secure.
 
-Paraguay is not on the Open Doors World Watch List. Christians face no persecution.
+The Catholic Church opposed the Stroessner dictatorship from the 1970s, and church radio and human rights offices documented abuses. Fernando Lugo, a former Catholic bishop, served as president from 2008 to 2012.
+
+Some Christian bodies have raised concerns about jihadist financing networks in the tri-border area near Ciudad del Este, which is a security matter rather than a religious freedom one. Northern Paraguay has a small insurgent group, the EPP, which has kidnapped and killed, including an attack that took the life of a Mennonite rancher.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~93%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
-- **Historical Note:** Jesuit missions among the Guaraní (1609–1767) were among the most significant experiments in indigenous Christian community in the Americas
+- **Persecution Score:** Lower (5/100), **Rank:** #152 of 192 countries
+- **Estimated Christian Population:** about 96 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** The Jesuit reductions among the Guaraní, now UNESCO World Heritage sites
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Paraguay* (most recent edition) — state.gov
+- UNESCO World Heritage List, *Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue* — whc.unesco.org
+- CIA World Factbook: Paraguay — cia.gov/the-world-factbook/countries/paraguay/
 
 -----
 
@@ -609,24 +623,33 @@ Paraguay is not on the Open Doors World Watch List. Christians face no persecuti
 COUNTRY: Peru
 TITLE: Peru — Christianity & Persecution Profile
 SLUG: country-profiles/peru
-META DESCRIPTION: Peru is a majority-Catholic Andean nation with full religious freedom and a growing evangelical presence. Christians face no systematic persecution, though the church navigates complex interactions with indigenous spiritual traditions.
+META DESCRIPTION: Peru is overwhelmingly Christian with full religious freedom. Its church remembers the clergy and catechists killed by Shining Path during the internal conflict.
 CATEGORY: Country Profiles
-TAGS: Peru, South America, Catholic, Evangelical, Religious Freedom, Indigenous Christianity, Andean Spirituality
-PERSECUTION TIER: Low
+TAGS: Peru, South America, Catholic, Evangelical, Shining Path, Liberation Theology, Religious Freedom
+PERSECUTION TIER: Lower
 
 ## Overview
 
-Peru is approximately 77% Catholic and 17% Protestant — with evangelical and Pentecostal Christianity growing significantly, particularly among urban poor communities and in the Amazon basin among indigenous peoples. The country has full constitutional religious freedom; Christians face no systematic persecution.
+Peru is around 76 percent Catholic with an evangelical minority near 15 percent and growing. Religious freedom is constitutionally protected and there is no persecution. The Catholic Church holds a concordat with the state granting certain privileges, which evangelical bodies have challenged on grounds of parity.
 
-Spanish colonization brought Catholicism through Dominican, Franciscan, and Jesuit missionaries from the 16th century, with Lima becoming one of the great centers of Spanish colonial Catholic life — the University of San Marcos, founded in 1551, was the first university in the Americas, established under Catholic auspices. The treatment of indigenous peoples by the colonial church was complex: some missionaries vigorously defended indigenous rights (Bartolomé de las Casas’s advocacy extended to Peru), while the broader colonial project involved forced labor and cultural suppression. The Andean churches that developed over centuries incorporate indigenous elements — particularly related to the Pachamama (earth mother) traditions — in ways that reflect the complex negotiation between Christianity and Andean spirituality.
+The internal conflict from 1980 to 2000 killed around 70,000 people. Shining Path, a Maoist insurgency, treated churches as rivals for peasant loyalty and killed priests, nuns, catechists, and evangelical pastors. The massacre at Callqui in 1984 and the killing of evangelical believers in Ayacucho villages were part of a wider campaign. Two Polish Franciscans and an Italian priest were murdered in 1991. The Truth and Reconciliation Commission, which reported in 2003, documented the killings of church workers by Shining Path and abuses by state forces, and the Catholic Church's own human rights offices supplied much of the evidence.
 
-Peru is not on the Open Doors World Watch List. The primary religious freedom conversations in Peru are about the relationship between Christianity and indigenous Andean spiritual practices, and the legal status and social influence of Jehovah’s Witnesses and other minority groups — none of which rise to the level of persecution.
+Peru also produced Gustavo Gutiérrez, whose 1971 *A Theology of Liberation* named and shaped a movement that reoriented Latin American Catholicism toward the poor and drew Vatican scrutiny for decades.
+
+Evangelical churches have become politically organized, and Peruvian politics now features open contests between conservative Christian coalitions and secular parties on family and education policy.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~94%
-- **Current Status:** Full religious freedom; no persecution
-- **Open Doors WWL:** Not ranked
+- **Persecution Score:** Lower (7/100), **Rank:** #118 of 192 countries
+- **Estimated Christian Population:** about 91 percent
+- **Current Status:** Full religious freedom, no persecution
+- **Historical Note:** Clergy and catechists killed by Shining Path. Gustavo Gutiérrez and liberation theology
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Peru* (most recent edition) — state.gov
+- Comisión de la Verdad y Reconciliación, *Informe Final* (2003) — cverdad.org.pe
+- Instituto Nacional de Estadística e Informática, census religion data — inei.gob.pe
 
 -----
 
@@ -634,57 +657,44 @@ Peru is not on the Open Doors World Watch List. The primary religious freedom co
 COUNTRY: Philippines
 TITLE: Philippines — Christianity & Persecution Profile
 SLUG: country-profiles/philippines
-META DESCRIPTION: The Philippines is the only predominantly Christian nation in Southeast Asia — 80% Catholic, with a strong evangelical minority. But in the southern islands of Mindanao and Sulu, Christians face Abu Sayyaf beheadings, BIFF attacks, and the most dangerous mission frontier in Asia.
+META DESCRIPTION: The Philippines is the largest Christian nation in Asia. Islamist groups in Mindanao bomb churches and abduct clergy, and church leaders who oppose killings face state harassment.
 CATEGORY: Country Profiles
-TAGS: Philippines, Southeast Asia, Catholic, Evangelical, Abu Sayyaf, BIFF, Mindanao, Jihadism, Kidnapping, WWL Top 50
-PERSECUTION TIER: Moderate
+TAGS: Philippines, Southeast Asia, Catholic, Mindanao, Abu Sayyaf, Jolo Bombing, Red-Tagging
+PERSECUTION TIER: Lower
 
 ## Overview
 
-The Philippines is Southeast Asia’s only majority-Christian nation — approximately 80% Roman Catholic, 9% Protestant and evangelical, and 1% other Christian — and one of the most devoutly Christian societies in Asia. It is also a country where Christians in the southern regions of Mindanao and the Sulu Archipelago face a deadly and persistent jihadist threat from groups including Abu Sayyaf and the Bangsamoro Islamic Freedom Fighters (BIFF), who have kidnapped, beheaded, and killed Christians in some of the most brutal attacks on record. The Philippines sits in the Open Doors top 50 not because of state persecution — the Philippines is a democracy with constitutional religious freedom — but because of the geographic pocket of extreme anti-Christian violence in the Muslim-majority south.
+The Philippines is the largest Christian country in Asia, around 90 percent Christian with roughly 79 percent Catholic, and the only majority-Christian nation in the region alongside Timor-Leste. Religious freedom is constitutionally protected. Two distinct problems exist. Islamist armed groups in parts of Mindanao attack churches and abduct clergy. Separately, church leaders who criticize state violence have been harassed and labelled as communist sympathizers.
 
-## Christianity’s Deep Philippine Roots
+## Mindanao
 
-Christianity arrived in the Philippines through the Spanish colonial expedition led by Ferdinand Magellan, who planted a cross in Cebu in 1521. Spanish colonial rule (1565–1898) was administered largely through the Catholic Church; the friars were the primary agents of Spanish governance and Christianization across the archipelago. The Philippines is the result of one of the most comprehensive Christianizations of a non-Western society in history — within a century of Spanish arrival, the vast majority of the lowland Filipino population had been baptized, organized into parishes, and drawn into a Catholic framework that shaped family life, governance, education, and culture for the next four centuries.
+The Moro Muslim population of western Mindanao and the Sulu archipelago has fought for autonomy or independence for decades. The Bangsamoro Organic Law of 2018 created an autonomous region and brought the main rebel group into governance, which has reduced large-scale conflict.
 
-The Manila-based Catholic Church became extraordinarily powerful — the wealthiest landowner in the archipelago, the primary provider of education, and the institution with the deepest reach into everyday Filipino life. The nationalist movement of the late 19th century — led by figures including José Rizal — was partly directed against the power of the Spanish friars; Rizal’s novels and his execution by the colonial government made him a national martyr whose Christianity was genuine and whose critique of clerical corruption was sharp.
+Hardline factions rejected the settlement. Abu Sayyaf and Islamic State-aligned groups have bombed churches, beheaded hostages, and kidnapped priests and missionaries. The cathedral bombing in Jolo in January 2019 killed at least 20 people during Sunday mass. Marawi was seized by Islamic State-aligned fighters in 2017, and the five-month battle to retake it destroyed the city, killed over a thousand people, and saw the cathedral desecrated and Father Teresito Suganob taken hostage. A bombing at a Catholic mass at Mindanao State University in Marawi in December 2023 killed four people and was claimed by Islamic State.
 
-American colonial rule (1898–1946) brought Protestant missions and a shift from Spanish Catholic to American Protestant educational models. Presbyterian, Methodist, Baptist, and Congregationalist missions established schools, hospitals, and churches across the country. Today, the evangelical community — built on this American Protestant foundation and dramatically expanded through the Pentecostal and charismatic growth of the late 20th century — is a significant and growing presence.
+## Church and State
 
-## Mindanao: History of Conflict
+The Catholic Church has been politically decisive in the Philippines, most famously through Cardinal Jaime Sin's role in the 1986 People Power revolution. Bishops and clergy who condemned the killings during the anti-drug campaign from 2016 faced public abuse from the presidency, and several priests were murdered in that period in circumstances that were never fully resolved.
 
-Mindanao, the large southern island of the Philippines, was not fully Christianized during the Spanish colonial period. The Muslim sultanates of Mindanao and Sulu — the Sultanate of Maguindanao and the Sultanate of Sulu — resisted Spanish conquest for over three centuries. The Muslim communities of Mindanao and Sulu — collectively known as Moros — maintained their Islamic identity through colonial rule and into independence. The post-independence Philippine governments pursued policies of land settlement in Mindanao that brought large numbers of Christian settlers from Luzon and Visayas into traditionally Muslim territory — creating demographic, economic, and political tensions that fueled the Moro insurgency beginning in the 1970s.
-
-The Moro National Liberation Front (MNLF) and later the Moro Islamic Liberation Front (MILF) pursued independence or autonomy for Muslim Mindanao in conflicts that killed tens of thousands and displaced millions. Peace processes — culminating in the 2014 Comprehensive Agreement on the Bangsamoro and the creation of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) in 2019 — have reduced the mainstream insurgency, though implementation of the peace framework remains incomplete.
-
-## Abu Sayyaf: Kidnapping, Beheading, and Terror
-
-Distinct from the mainstream Moro independence movement, Abu Sayyaf is a jihadist organization with ideological roots in al-Qaeda and later the Islamic State. Founded in the early 1990s under Abdurajak Janjalani, Abu Sayyaf operates primarily in the Sulu Archipelago (Basilan, Sulu, and Tawi-Tawi provinces) and has been responsible for some of the most brutal acts of violence against Christians in Southeast Asian history.
-
-Abu Sayyaf’s methods include: mass kidnapping for ransom (with beheading of those whose ransom is not paid); bombings of public places including churches; attacks on Christian coastal villages; and the killing of priests and pastors as targets of specific religious significance. Key incidents include the April 2000 kidnapping of 21 hostages including foreign tourists from the resort island of Sipadan, Malaysia; the 2001 kidnapping of American missionaries Martin and Gracia Burnham, who were held for over a year in the jungle — Martin Burnham was killed in a rescue operation; the 2019 Jolo Cathedral bombings on the feast of Our Lady of Mount Carmel, in which two suicide bombers killed 20 people at Sunday Mass. The church bombings on Jolo specifically targeted the Catholic community during worship — one of the most direct acts of anti-Christian terrorism in recent Philippine history.
-
-The Bangsamoro Islamic Freedom Fighters (BIFF) — a splinter group from the MILF — similarly conducts attacks in Mindanao, including attacks on Christian communities, churches, and clergy. The BIFF has maintained IS affiliation rhetoric and has targeted civilians in Muslim-Christian borderland communities.
-
-## The Broader Philippine Church
-
-The vast majority of Filipino Christians — in Luzon, Visayas, and non-conflict areas of Mindanao — practice freely, vibrantly, and without threat. The Catholic Church in the Philippines is one of the most active in Asia: producing missionaries, running hospitals and universities, engaging in social justice advocacy, and maintaining a popular devotion (evident in events like the Black Nazarene procession in Manila, which draws millions) that is among the most intense in the Catholic world. The evangelical community is similarly dynamic — the charismatic El Shaddai movement, the Jesus Is Lord Church, and many others draw enormous followings.
-
-The Philippines also has a significant Christian presence among Overseas Filipino Workers (OFWs) in the Gulf States, East Asia, and globally — Filipino Catholics and evangelicals worshiping in societies where they are not free to evangelize form one of the world’s most significant communities of discreet Christian witness.
-
-## Current Status
-
-The Philippines sits in the lower tier of the Open Doors World Watch List — specifically because of the Mindanao and Sulu situation. The scale of the country’s Christian life and freedom makes it categorically different from the truly persecuted nations at the top of the list; the specific violence against Christians in the southern conflict zone is real and deadly. The Bangsamoro peace process, if fully implemented, offers the prospect of reducing the conditions that sustain groups like Abu Sayyaf — though eliminating jihadist violence entirely is a longer-term project.
+Red-tagging, the practice of publicly accusing critics of being communist front operatives, has been applied to church workers, missionaries, and human rights advocates, and the Supreme Court ruled in 2024 that the practice threatens the right to life and security. Church workers in indigenous and rural areas have been arrested on charges human rights groups describe as fabricated.
 
 ## Key Facts
 
-- **Estimated Christian Population:** ~90% (Catholic and Protestant combined)
-- **Primary Threat:** Abu Sayyaf and BIFF jihadist groups in Mindanao and Sulu — kidnapping, beheading, church bombings
-- **Current Status:** Full religious freedom nationally; extreme danger for Christians in specific southern conflict zones
-- **Open Doors WWL:** Lower tier ranked (Mindanao/Sulu jihadist violence)
-- **Notable:** Martin Burnham killed in Abu Sayyaf captivity (2002); Jolo Cathedral bombings killed 20 at Sunday Mass (2019)
-- **Historical Note:** Only predominantly Christian nation in Southeast Asia; Christianized through 333 years of Spanish colonial rule
+- **Persecution Score:** Lower (12/100), **Rank:** #83 of 192 countries
+- **Estimated Christian Population:** about 90 percent
+- **Primary Threats:** Islamist attacks in Mindanao and Sulu, red-tagging and harassment of politically outspoken church workers
+- **Major Events:** Marawi siege 2017, Jolo cathedral bombing 2019, Marawi university bombing 2023
+- **Legal Status:** Full religious freedom
+
+### Sources & References
+
+- U.S. Department of State, *Report on International Religious Freedom: Philippines* (most recent edition) — state.gov
+- U.S. Department of State, *Philippines Travel Advisory* — travel.state.gov
+- Catholic Bishops' Conference of the Philippines — cbcpnews.net
+- Human Rights Watch, *Philippines* — hrw.org/asia/philippines
+- International Crisis Group, *Philippines and the Bangsamoro* — crisisgroup.org
 
 -----
 
-*End of Batch 6 — 18 Countries (Namibia through Philippines)*
-*Next Batch: Poland through Russia*
+*End of Batch 6 Revised 2026 — Namibia through Philippines, 17 Countries*
+*Next: Batch 7*
