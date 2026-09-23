@@ -1,9 +1,229 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-21T04:45:14.644919+00:00",
-  "count": 671,
+  "updated": "2026-09-23T21:53:37.933963+00:00",
+  "count": 693,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12270,
+      "wp_link": "https://globalwitnessmonitor.com/12-christians-arrested-in-algeria-after-special-forces-raid-worship-gathering-bibles-seized/",
+      "date": "2026-09-23T21:53:29",
+      "title": "12 Christians Arrested During Worship Raid, Face Criminal Charges in Algeria",
+      "country": "algeria",
+      "type": "arrest",
+      "lat": 28.0,
+      "lng": 2.6
+    },
+    {
+      "wp_id": 12277,
+      "wp_link": "https://globalwitnessmonitor.com/imprisoned-protestant-pastor-denied-urgent-medical-care-amid-worsening-health-crisis/",
+      "date": "2026-09-23T21:53:08",
+      "title": "Imprisoned Protestant pastor denied urgent medical care amid worsening health crisis",
+      "country": "nicaragua",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": -85.2
+    },
+    {
+      "wp_id": 12276,
+      "wp_link": "https://globalwitnessmonitor.com/weekend-of-coordinated-attacks-across-nigeria-leaves-dozens-dead-and-over-100-abducted/",
+      "date": "2026-09-23T21:52:35",
+      "title": "Weekend of coordinated attacks across Nigeria leaves dozens dead and over 100 abducted",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12275,
+      "wp_link": "https://globalwitnessmonitor.com/christian-women-abducted-and-raped-in-nigerian-forest-camps-u-s-advocate-reports/",
+      "date": "2026-09-23T21:52:14",
+      "title": "Christian Women Abducted and Raped in Nigerian Forest Camps, U.S. Advocate Reports",
+      "country": "nigeria",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12250,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-kills-at-least-eight-christians-in-wave-of-nigeria-attacks/",
+      "date": "2026-09-23T21:51:51",
+      "title": "Pastor and Church Worker Among at Least Eight Christians Killed in Weekend Massacre in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12273,
+      "wp_link": "https://globalwitnessmonitor.com/iran-seizes-oldest-protestant-church-compound-evicts-20-christian-families-un-gets-no-response/",
+      "date": "2026-09-23T21:51:31",
+      "title": "Iran Seizes Oldest Protestant Church Compound, Evicts 20 Christian Families; UN Gets No Response",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 12271,
+      "wp_link": "https://globalwitnessmonitor.com/church-building-razed-overnight-by-municipal-authorities-despite-alleged-court-stay-order/",
+      "date": "2026-09-23T21:50:50",
+      "title": "Church building razed overnight by municipal authorities despite alleged court stay order",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 12269,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-house-church-staff-escalated-to-criminal-detention-in-china/",
+      "date": "2026-09-23T21:49:59",
+      "title": "Pastor and House Church Staff Escalated to Criminal Detention in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12266,
+      "wp_link": "https://globalwitnessmonitor.com/hindu-mobs-storm-two-house-churches-in-india-within-24-hours-pastor-abducted/",
+      "date": "2026-09-23T21:49:09",
+      "title": "Hindu Mobs Storm Two House Churches in India Within 24 Hours, Pastor Abducted",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 12264,
+      "wp_link": "https://globalwitnessmonitor.com/kurdish-convert-pastor-arrested-in-syria-over-social-media-posts-expelled-from-country-after-two-week-detention/",
+      "date": "2026-09-23T21:48:28",
+      "title": "Kurdish convert pastor arrested in Syria over social media posts, expelled from country after two-week detention",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 12262,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-fellow-christian-killed-by-armed-militia-while-walking-to-sunday-service-in-nigeria/",
+      "date": "2026-09-23T21:47:45",
+      "title": "Pastor and Fellow Christian Killed by Armed Militia While Walking to Sunday Service in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12261,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-church-worker-killed-by-militia-gunmen-in-weekend-massacre-as-nigerian-christians-face-relentless-violence/",
+      "date": "2026-09-23T21:47:27",
+      "title": "Pastor and Church Worker Killed by Militia Gunmen in Weekend Massacre as Nigerian Christians Face Relentless Violence",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12260,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-christian-boy-allegedly-coerced-into-islam-separated-from-family/",
+      "date": "2026-09-23T21:46:55",
+      "title": "Pakistani Christian Boy Allegedly Coerced Into Islam, Separated from Family",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12259,
+      "wp_link": "https://globalwitnessmonitor.com/two-christians-held-on-blasphemy-charges-as-shooting-death-of-christian-worker-raises-questions-in-pakistan/",
+      "date": "2026-09-23T21:46:41",
+      "title": "Two Christians Held on Blasphemy Charges as Shooting Death of Christian Worker Raises Questions in Pakistan",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12257,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-reportedly-detain-pastors-and-workers-from-beijing-house-church-network/",
+      "date": "2026-09-23T21:46:10",
+      "title": "Chinese Authorities Reportedly Detain Pastors and Workers from Beijing House Church Network",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12256,
+      "wp_link": "https://globalwitnessmonitor.com/terminally-ill-pastor-blocked-from-leaving-china-after-seven-year-imprisonment/",
+      "date": "2026-09-23T21:45:57",
+      "title": "Terminally Ill Pastor Blocked from Leaving China After Seven-Year Imprisonment",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12255,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-raid-house-church-ban-christian-hymns-in-two-day-operation/",
+      "date": "2026-09-23T21:45:44",
+      "title": "Chinese authorities raid house church, ban Christian hymns in two-day operation",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12254,
+      "wp_link": "https://globalwitnessmonitor.com/two-house-church-members-released-in-china-as-police-pressure-on-congregation-intensifies/",
+      "date": "2026-09-23T21:45:30",
+      "title": "Two house church members released in China as police pressure on congregation intensifies",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12253,
+      "wp_link": "https://globalwitnessmonitor.com/sri-lankan-court-sentences-15-men-over-2019-easter-bombings-that-killed-267/",
+      "date": "2026-09-23T21:45:10",
+      "title": "Sri Lankan court sentences 15 men over 2019 Easter bombings that killed 267",
+      "country": "sri lanka",
+      "type": "church",
+      "lat": 7.9,
+      "lng": 80.7
+    },
+    {
+      "wp_id": 12252,
+      "wp_link": "https://globalwitnessmonitor.com/eight-church-leaders-remain-detained-in-china-ahead-of-u-s-china-summit/",
+      "date": "2026-09-23T21:44:50",
+      "title": "Eight Church Leaders Remain Detained in China Ahead of U.S.-China Summit",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12251,
+      "wp_link": "https://globalwitnessmonitor.com/christian-colleges-in-india-face-government-inspections-and-extremist-pressure/",
+      "date": "2026-09-23T21:44:35",
+      "title": "Christian Colleges in India Face Government Inspections and Extremist Pressure",
+      "country": "india",
+      "type": "restriction",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 12249,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-residents-use-permit-discrepancy-to-block-approved-church-construction-in-indonesia/",
+      "date": "2026-09-23T21:44:05",
+      "title": "Muslim Residents Use Permit Discrepancy to Block Approved Church Construction in Indonesia",
+      "country": "indonesia",
+      "type": "church",
+      "lat": -0.8,
+      "lng": 113.9
+    },
     {
       "wp_id": 11804,
       "wp_link": "https://globalwitnessmonitor.com/pakistani-authorities-re-arrest-human-rights-lawyers-who-defended-blasphemy-accused-hours-after-supreme-court-orders-release/",
