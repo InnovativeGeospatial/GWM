@@ -1,9 +1,79 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-21T04:39:48.900782+00:00",
-  "count": 1215,
+  "updated": "2026-09-23T21:42:49.306114+00:00",
+  "count": 1222,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12248,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-09-21-2026/",
+      "date": "2026-09-23T21:42:41",
+      "title": "Landslide in India 09/21/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 10.177183,
+      "lng": 77.252945
+    },
+    {
+      "wp_id": 12247,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nigeria-09-22-2026/",
+      "date": "2026-09-23T21:42:20",
+      "title": "Landslide in Nigeria 09/22/2026",
+      "country": "Nigeria",
+      "type": "Landslide",
+      "lat": 6.072241,
+      "lng": 7.478024
+    },
+    {
+      "wp_id": 12246,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-09-22-2026/",
+      "date": "2026-09-23T21:38:56",
+      "title": "Storm in Japan 09/22/2026",
+      "country": "Japan",
+      "type": "Storm",
+      "lat": 34.890793,
+      "lng": 138.16257
+    },
+    {
+      "wp_id": 12245,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-22-2026/",
+      "date": "2026-09-23T21:34:11",
+      "title": "Flood in United States 09/22/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.24664,
+      "lng": -82.47897
+    },
+    {
+      "wp_id": 12244,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-09-23-2026/",
+      "date": "2026-09-23T21:30:08",
+      "title": "Drought in Russia 09/23/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 65.58014285714285,
+      "lng": 75.62905714285714
+    },
+    {
+      "wp_id": 12243,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-09-20-2026-magnitude-5/",
+      "date": "2026-09-23T21:23:25",
+      "title": "Earthquake in United States 09/20/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 54.854749,
+      "lng": -163.414368
+    },
+    {
+      "wp_id": 12242,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-09-23-2026-magnitude-5/",
+      "date": "2026-09-23T21:21:14",
+      "title": "Earthquake in Fiji 09/23/2026 — Magnitude 5",
+      "country": "Fiji",
+      "type": "Earthquake",
+      "lat": -16.3072,
+      "lng": 178.0194
+    },
     {
       "wp_id": 11798,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-japan-09-19-2026/",
