@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-23T21:42:49.306114+00:00",
-  "count": 1222,
+  "updated": "2026-09-26T14:39:59.241458+00:00",
+  "count": 1231,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12365,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-09-26-2026/",
+      "date": "2026-09-26T14:37:14",
+      "title": "Landslide in Nepal 09/26/2026",
+      "country": "Nepal",
+      "type": "Landslide",
+      "lat": 28.266335,
+      "lng": 83.59999
+    },
+    {
+      "wp_id": 12364,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-09-25-2026-cat-2/",
+      "date": "2026-09-26T14:36:54",
+      "title": "Storm in United States 09/25/2026 — Cat 2",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 19.149412,
+      "lng": -155.761458
+    },
+    {
+      "wp_id": 12363,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-25-2026/",
+      "date": "2026-09-26T14:34:55",
+      "title": "Wildfire in United States 09/25/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 46.263234,
+      "lng": -119.487647
+    },
+    {
+      "wp_id": 12362,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-26-2026/",
+      "date": "2026-09-26T14:30:12",
+      "title": "Flood in United States 09/26/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 34.057401,
+      "lng": -106.891764
+    },
+    {
+      "wp_id": 12361,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-09-26-2026/",
+      "date": "2026-09-26T14:28:34",
+      "title": "Flood in Thailand 09/26/2026",
+      "country": "Thailand",
+      "type": "Flood",
+      "lat": 13.752494,
+      "lng": 100.493509
+    },
+    {
+      "wp_id": 12360,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-cape-verde-09-25-2026/",
+      "date": "2026-09-26T14:27:49",
+      "title": "Storm in Cape Verde 09/25/2026",
+      "country": "Cape Verde",
+      "type": "Storm",
+      "lat": 17.6,
+      "lng": -23.0
+    },
+    {
+      "wp_id": 12359,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-09-23-2026-magnitude-6/",
+      "date": "2026-09-26T14:23:20",
+      "title": "Earthquake in Tonga 09/23/2026 — Magnitude 6",
+      "country": "Tonga",
+      "type": "Earthquake",
+      "lat": -14.9369,
+      "lng": -175.1114
+    },
+    {
+      "wp_id": 12358,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-24-2026-magnitude-5/",
+      "date": "2026-09-26T14:22:40",
+      "title": "Earthquake in Papua New Guinea 09/24/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.343031,
+      "lng": 152.281275
+    },
+    {
+      "wp_id": 12357,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-china-09-25-2026-magnitude-5/",
+      "date": "2026-09-26T14:21:47",
+      "title": "Earthquake in China 09/25/2026 — Magnitude 5",
+      "country": "China",
+      "type": "Earthquake",
+      "lat": 31.405377,
+      "lng": 102.519789
+    },
     {
       "wp_id": 12248,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-09-21-2026/",
