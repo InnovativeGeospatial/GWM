@@ -1,9 +1,249 @@
 {
   "feed": "conflict",
-  "updated": "2026-09-23T22:29:07.474508+00:00",
-  "count": 2130,
+  "updated": "2026-09-26T15:14:10.560588+00:00",
+  "count": 2154,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12417,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-5/",
+      "date": "2026-09-26T15:13:56",
+      "title": "Armed Conflict in Khan Younis",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.4671,
+      "lng": 34.3993
+    },
+    {
+      "wp_id": 12421,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sumy-5/",
+      "date": "2026-09-26T15:13:05",
+      "title": "Armed Conflict in Sumy",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.909817,
+      "lng": 34.798798
+    },
+    {
+      "wp_id": 12377,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-2/",
+      "date": "2026-09-26T15:12:14",
+      "title": "Armed Conflict in Synelnykove district, Dnipropetrovsk region",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.45,
+      "lng": 30.5241
+    },
+    {
+      "wp_id": 12416,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-belleville/",
+      "date": "2026-09-26T15:09:08",
+      "title": "Civil Unrest in Belleville",
+      "country": "Canada",
+      "type": "Civil Unrest",
+      "lat": 44.16399,
+      "lng": -77.38259
+    },
+    {
+      "wp_id": 12415,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-baghdad-5/",
+      "date": "2026-09-26T15:07:52",
+      "title": "Civil Unrest in Baghdad",
+      "country": "Iraq",
+      "type": "Civil Unrest",
+      "lat": 33.30617,
+      "lng": 44.387221
+    },
+    {
+      "wp_id": 12414,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-saravan-sistan-and-baluchestan-2/",
+      "date": "2026-09-26T15:07:33",
+      "title": "Armed Conflict in Saravan, Sistan and Baluchestan",
+      "country": "Iran",
+      "type": "Armed Conflict",
+      "lat": 27.368877,
+      "lng": 62.338566
+    },
+    {
+      "wp_id": 12413,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pilong-village-kamjong-district/",
+      "date": "2026-09-26T15:05:51",
+      "title": "Armed Conflict in Pilong village, Kamjong district",
+      "country": "India",
+      "type": "Armed Conflict",
+      "lat": 24.857784,
+      "lng": 94.51077
+    },
+    {
+      "wp_id": 12412,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-kachin-state/",
+      "date": "2026-09-26T15:03:53",
+      "title": "Displacement in Kachin State",
+      "country": "Myanmar",
+      "type": "Displacement",
+      "lat": 25.383331,
+      "lng": 97.399993
+    },
+    {
+      "wp_id": 12410,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tigray-afar-amhara/",
+      "date": "2026-09-26T15:03:19",
+      "title": "Armed Conflict in Tigray, Afar, Amhara",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 11.595,
+      "lng": 37.3882
+    },
+    {
+      "wp_id": 12376,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tigray-3/",
+      "date": "2026-09-26T15:02:28",
+      "title": "Armed Conflict in Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 12406,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bur-saruur-middle-shabelle/",
+      "date": "2026-09-26T15:01:22",
+      "title": "Armed Conflict in Bur Saruur, Middle Shabelle",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 2.77973,
+      "lng": 45.504217
+    },
+    {
+      "wp_id": 12396,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-umm-bader-north-kordofan/",
+      "date": "2026-09-26T14:57:00",
+      "title": "Displacement in Umm Bader, North Kordofan",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 14.23656,
+      "lng": 27.938155
+    },
+    {
+      "wp_id": 12395,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-kordofan-2/",
+      "date": "2026-09-26T14:56:37",
+      "title": "Displacement in Kordofan",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 5.741795,
+      "lng": 31.788671
+    },
+    {
+      "wp_id": 12393,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dikera-borgu-district-niger-state/",
+      "date": "2026-09-26T14:55:37",
+      "title": "Armed Conflict in Dikera (Borgu district), Niger State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.886413,
+      "lng": 4.508202
+    },
+    {
+      "wp_id": 12392,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-barkin-ladi/",
+      "date": "2026-09-26T14:55:04",
+      "title": "Armed Conflict in Barkin Ladi",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.544023,
+      "lng": 8.893742
+    },
+    {
+      "wp_id": 12389,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gujba-yobe-state/",
+      "date": "2026-09-26T14:54:40",
+      "title": "Armed Conflict in Gujba, Yobe State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.2789,
+      "lng": 12.0101
+    },
+    {
+      "wp_id": 12388,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maroua-kousseri-corridor/",
+      "date": "2026-09-26T14:51:54",
+      "title": "Armed Conflict in Maroua-Kousséri corridor",
+      "country": "Cameroon",
+      "type": "Armed Conflict",
+      "lat": 12.075564,
+      "lng": 15.024619
+    },
+    {
+      "wp_id": 12383,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-santa-marta-3/",
+      "date": "2026-09-26T14:51:30",
+      "title": "Armed Conflict in Santa Marta",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 11.2321,
+      "lng": -74.195
+    },
+    {
+      "wp_id": 12384,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-santa-marta-2/",
+      "date": "2026-09-26T14:51:09",
+      "title": "Civil Unrest in Santa Marta",
+      "country": "Colombia",
+      "type": "Civil Unrest",
+      "lat": 11.2321,
+      "lng": -74.195
+    },
+    {
+      "wp_id": 12382,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-6/",
+      "date": "2026-09-26T14:49:18",
+      "title": "Armed Conflict in Port-au-Prince",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.539766,
+      "lng": -72.33548
+    },
+    {
+      "wp_id": 12380,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-artibonite-2/",
+      "date": "2026-09-26T14:48:56",
+      "title": "Displacement in Artibonite",
+      "country": "Haiti",
+      "type": "Displacement",
+      "lat": 19.4461,
+      "lng": -72.6884
+    },
+    {
+      "wp_id": 12379,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-zacatecas-morelos-michoacan-queretaro-colima/",
+      "date": "2026-09-26T14:48:10",
+      "title": "Displacement in Zacatecas, Morelos, Michoacan, Queretaro, Colima",
+      "country": "Mexico",
+      "type": "Displacement",
+      "lat": 20.031815,
+      "lng": -101.33758
+    },
+    {
+      "wp_id": 12375,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-stara-hnylytsia-kharkiv-region/",
+      "date": "2026-09-26T14:46:19",
+      "title": "Armed Conflict in Stara Hnylytsia, Kharkiv region",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 49.73688,
+      "lng": 36.687298
+    },
+    {
+      "wp_id": 12374,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dera-ismail-khan/",
+      "date": "2026-09-26T14:45:33",
+      "title": "Armed Conflict in Dera Ismail Khan",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 31.829016,
+      "lng": 70.91177
+    },
     {
       "wp_id": 12282,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-beit-horon/",
