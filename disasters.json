@@ -1,9 +1,207 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-26T14:39:56.947831+00:00",
+  "updated": "2026-09-29T07:47:42.243526+00:00",
   "count": 1000,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 12434,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-29-2026/",
+      "date": "2026-09-29T07:46:01",
+      "title": "Wildfire in United States 09/29/2026",
+      "body": "On September 26, 2026, a brush fire was reported at 1:57 p.m., and an evacuation order was issued at 2:39 p.m. for Olowalu Village in West Maui. The fire was driven by high winds from Hurricane Nolo as it passed hundreds",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 20.811014,
+      "lng": -156.62181,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMmI5MFdfMXR3enpqWm9fSWIwajBuY3BjWjN1WkN6R2tseU9QOVE5R2FEdmF3YUlWYXp5SW1tY0Z5UHpwTF83ODVyeldHOVFfS0pDbGo5dUdPQ2t3VWxIQ1NRbWhUb2Z5MGx0a3dsNU9vWTVhZlRMVjc0RmUwenpFUDhCdTlEMkR6ekdNRXoxZjFNWUNld0VwVVcxUjU5Tzg1bkpYQXZoQnYteEc5Q2xmOFFVSzh1d1FyUUpHamdmdnNreDRNUXlyMmY4Z3pWcTZ4V1E?oc=5",
+      "prayer": "Olowalu Village residents returning home after a wind-driven wildfire burned through West Maui",
+      "alert_summary": "Wildfire burned more than 100 acres in West Maui, forcing evacuation of Olowalu Village with no structures damaged or injuries reported."
+    },
+    {
+      "wp_id": 12433,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-27-2026/",
+      "date": "2026-09-29T07:37:37",
+      "title": "Flood in United States 09/27/2026",
+      "body": "Several people had to be rescued from vehicles as a nor'easter flooded roads and caused widespread closures across New Jersey on September 27. The governor had declared a state of emergency for eight counties before the ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 39.659906,
+      "lng": -74.167514,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRUtremFhcTctdm5fVDRSd1FqTTc3YzdoVGk5MW9JRmFBc2FVS3Q1YXJlVGM3Z0Y1UmxqQi1rYnA3cTR6dmZYNnVmUGxZVGhnenR6Q2F2c3E5b29zbzhFMVZaX1RicjRjRlVkLXdaZ1BZS2k0cDh1QUxfTjRvVVhoUk52MFMyaFNidHctZVBYQk9BZC0xOUREazFCdC14U202ZzhXZGhGTTc?oc=5",
+      "prayer": "New Jersey coastal residents displaced, rescued, and recovering from nor'easter flooding along the Jersey Shore",
+      "alert_summary": "A nor'easter struck New Jersey beginning September 26, 2026, prompting dozens of vehicle rescues, forced evacuations, and at least 15 road closures statewide."
+    },
+    {
+      "wp_id": 12432,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-09-28-2026/",
+      "date": "2026-09-29T07:36:50",
+      "title": "Flood in Thailand 09/28/2026",
+      "body": "On September 26, 2026, a flood disaster emergency was declared in Bangkok following approximately 48 hours of continuous rain that flooded main roads and triggered mass evacuations. More than 330mm (13 inches) of rain fe",
+      "country": "Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "type": "Flood",
+      "lat": 13.752494,
+      "lng": 100.493509,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjV2OVVsQkF6aEpLM3FOYlBlSVpybTdOenZ2X0o2clBNTF94Nm51eDY5Q08xUV9RZENjMklNdG5KMGtaSzhGNjFBUGpWLXhkZF81cTRkMkZFa2NISnU1d2VmQnd4NkdJc1JjN0hIVWVmd21hWElUbTJlOEdXWTBCdVlkVy1mNU5Vcl9LdTl5Zk4wdHhheW94S1JWWG4?oc=5",
+      "prayer": "Residents of Bangkok and surrounding provinces displaced by floodwaters, with tens of thousands of households affected",
+      "alert_summary": "Flooding across Bangkok displaced nearly 4,900 people to shelters and affected about 52,000 households after days of rain."
+    },
+    {
+      "wp_id": 12431,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-27-2026/",
+      "date": "2026-09-29T07:36:11",
+      "title": "Flood in India 09/27/2026",
+      "body": "On September 27, 2026, rain and storms triggered floods and landslides that killed 56 people in India. In Nepal, 14 people died and another 11 are missing. The 56 deaths and 46 injuries in India were recorded during a sp",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSDl0UzBQZFNRMUNTNWZpRnNkVVVILXI5Vk5RRmV1bk5UeURhMWZWbjZkVklUVktUWGlsdmFORXVIQ0pDLWFfRWlxeGhtUl81Y1BlQ21XVThzX2hUSHVualNRdFdHZFIwbk5EaDBkUlBMN3hkV0ljMVJxVklMMHhXaEpwalNGZUVzVi03QnNFaFNuMTVTVHhtaWpoWnJXWFM2YUEwNWRMVS10RXk0VTZlUQ?oc=5",
+      "prayer": "Families in Uttar Pradesh and Nepal who lost homes and loved ones to floods and landslides",
+      "alert_summary": "Floods and landslides killed 56 in Uttar Pradesh, India, and 14 in Nepal, injuring 46 and damaging over 1,000 houses."
+    },
+    {
+      "wp_id": 12430,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-09-28-2026/",
+      "date": "2026-09-29T07:35:27",
+      "title": "Disease in Congo 09/28/2026",
+      "body": "The Ebola outbreak in DRC was confirmed in Ituri Province in northeastern DRC on May 15, 2026. Laboratory analysis identified the cause as Bundibugyo virus disease, a species of Ebola. The outbreak has since grown into t",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.555387,
+      "lng": 30.247854,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/09/1168465",
+      "prayer": "Displaced families near Bunia, Ituri Province, caught between an Ebola outbreak and armed violence with no safe refuge",
+      "alert_summary": "Ebola outbreak in DRC surpassed 8,067 confirmed cases and 3,901 deaths as violence drives thousands from Kigonze displacement camp in Ituri Province"
+    },
+    {
+      "wp_id": 12429,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-09-26-2026/",
+      "date": "2026-09-29T07:34:59",
+      "title": "Storm in United States 09/26/2026",
+      "body": "On September 26, 2026, a slow-moving storm crept along the northeastern coast, bringing high winds and heavy rain. A city housing authority worker was killed by a fallen tree in Brooklyn. Four others were hospitalized wi",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 40.6526,
+      "lng": -73.9497,
+      "source_title": "World | Deutsche Welle",
+      "source_url": "https://www.dw.com/en/powerful-storm-batters-northeast-us-hundreds-of-flights-canceled/a-79446676?maca=en-rss-en-world-4025-rdf",
+      "prayer": "Families and coastal communities across the northeastern United States struck by nor'easter flooding and fallen trees",
+      "alert_summary": "A nor'easter struck the northeastern US on September 26, 2026, killing 1 person and leaving about 100,000 without power."
+    },
+    {
+      "wp_id": 12428,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-nepal-09-28-2026/",
+      "date": "2026-09-29T07:33:56",
+      "title": "Other in Nepal 09/28/2026",
+      "body": "An avalanche struck the base camp of Himlung Himal peak in Manang district on Sunday morning, burying a group of Nepalese nationals who had been sent ahead to prepare the site for foreign climbers. Four bodies have been ",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Other",
+      "lat": 28.538087,
+      "lng": 84.335987,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Nepalese climbing support staff missing after avalanche on Himlung Himal; rescue teams searching under dangerous conditions",
+      "alert_summary": "Avalanche at Himlung Himal base camp killed four people; 12 Nepalese cook staff remain missing after heavy snow fell Sunday."
+    },
+    {
+      "wp_id": 12427,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-09-29-2026/",
+      "date": "2026-09-29T07:29:26",
+      "title": "Flood in Russia 09/29/2026",
+      "body": "Water levels on the lower Amur River between the settlements of Mariinskoe and Bogorodskoe remain elevated above the critical threshold. The floodplain has been inundated to depths ranging from 0.4 to 2.5 meters across t",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Flood",
+      "lat": 54.96509090909091,
+      "lng": 136.91666666666666,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20260929003518-0261409.xml",
+      "prayer": "Residents of the lower Amur River region coping with prolonged flood conditions and inundated floodplain areas",
+      "alert_summary": "Flood waters on the lower Amur River remain elevated 37–48 centimeters above critical threshold; floodplain inundated to depths of 0.4–2.5 meters across a stretch between two settlements."
+    },
+    {
+      "wp_id": 12426,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-25-2026-magnitude-5/",
+      "date": "2026-09-29T07:24:21",
+      "title": "Earthquake in Timor Leste 09/25/2026 — Magnitude 5",
+      "body": "On September 25, 2026, a magnitude 5.0 earthquake occurred approximately 124 kilometers north of Metinaro, Timor-Leste. The event was recorded at a shallow depth of about 10 kilometers. No felt reports were submitted fol",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.4036,
+      "lng": 125.6985,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txim",
+      "prayer": "Residents of Timor-Leste near a shallow offshore earthquake with no reported casualties",
+      "alert_summary": "A magnitude 5 earthquake struck 124 km north of Metinaro, Timor-Leste, at a depth of about 10 km; no casualties or damage reported."
+    },
+    {
+      "wp_id": 12425,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-26-2026-magnitude-6/",
+      "date": "2026-09-29T07:23:36",
+      "title": "Earthquake in Papua New Guinea 09/26/2026 — Magnitude 6",
+      "body": "On September 26, 2026, an earthquake occurred about 74 km east-southeast of Kokopo, Papua New Guinea, at a depth of approximately 58 kilometers. The magnitude was recorded at 5.6. Damage or injury information was not imm",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.343031,
+      "lng": 152.281275,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txtc",
+      "prayer": "Residents near Kokopo, Papua New Guinea, following a submarine earthquake with no confirmed casualties",
+      "alert_summary": "A magnitude 6 earthquake struck 74 km east-southeast of Kokopo, Papua New Guinea, with no casualties reported."
+    },
+    {
+      "wp_id": 12424,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-canada-09-28-2026-magnitude-5/",
+      "date": "2026-09-29T07:22:30",
+      "title": "Earthquake in Canada 09/28/2026 — Magnitude 5",
+      "body": "On September 28, 2026, a magnitude 5.2 earthquake occurred about 190 km west-southwest of Port McNeill, Canada, at a depth of 10 km. The event was reviewed and confirmed as an offshore quake in the North Pacific. The Pac",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Earthquake",
+      "lat": 50.590034,
+      "lng": -127.08632,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty43",
+      "prayer": "Residents of coastal British Columbia after an offshore earthquake west of Port McNeill",
+      "alert_summary": "A magnitude 5 earthquake struck 190 km west-southwest of Port McNeill, British Columbia; no casualties or damage reported."
+    },
     {
       "wp_id": 12365,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-09-26-2026/",
@@ -17706,193 +17904,6 @@
       "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxz1",
       "prayer": "Communities in Peru shaken by a magnitude 5 earthquake with damage and casualty details still unknown"
-    },
-    {
-      "wp_id": 3130,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-15-2026-magnitude-5/",
-      "date": "2026-05-16T12:53:10",
-      "title": "Earthquake in Vanuatu 05/15/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck about 95 kilometers east-southeast of Port-Vila, the capital of Vanuatu, on May 15, 2026. The quake registered magnitude 4.6 and was centered at a shallow depth of about 10 kilometers beneath",
-      "country": "Vanuatu",
-      "countries": [
-        "Vanuatu"
-      ],
-      "type": "Earthquake",
-      "lat": -17.731392,
-      "lng": 168.306222,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5n",
-      "prayer": "Communities in Vanuatu experiencing a shallow magnitude 4.6 earthquake near the capital with no confirmed casualties"
-    },
-    {
-      "wp_id": 3129,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-15-2026-magnitude-5/",
-      "date": "2026-05-16T12:52:59",
-      "title": "Earthquake in Fiji 05/15/2026 — Magnitude 5",
-      "body": "A magnitude 4.5 earthquake struck deep beneath the South Pacific Ocean, about 212 kilometers east of Levuka, Fiji, on May 15, 2026. The quake originated at an extraordinary depth of about 568 kilometers underground, maki",
-      "country": "Fiji",
-      "countries": [
-        "Fiji"
-      ],
-      "type": "Earthquake",
-      "lat": -17.680825,
-      "lng": 178.834031,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy49",
-      "prayer": "Communities in Fiji near a deep-sea earthquake zone monitoring ongoing seismic activity"
-    },
-    {
-      "wp_id": 3128,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-16-2026-magnitude-5/",
-      "date": "2026-05-16T12:52:37",
-      "title": "Earthquake in Chile 05/16/2026 — Magnitude 5",
-      "body": "A magnitude 4.8 earthquake struck about 71 kilometers southwest of Ollagüe, in northern Chile, in the early hours of May 16, 2026. The quake originated deep underground — roughly 133 kilometers below the surface — which ",
-      "country": "Chile",
-      "countries": [
-        "Chile"
-      ],
-      "type": "Earthquake",
-      "lat": -21.22407,
-      "lng": -68.2535,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy50",
-      "prayer": "Communities in northern Chile shaken by a magnitude 4.8 earthquake with damage and casualties still unknown"
-    },
-    {
-      "wp_id": 3127,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-16-2026-magnitude-5/",
-      "date": "2026-05-16T12:52:27",
-      "title": "Earthquake in Tonga 05/16/2026 — Magnitude 5",
-      "body": "A moderate earthquake struck about 145 kilometers west-northwest of Hihifo, Tonga on May 16, 2026. The quake registered a magnitude of 4.6 and was centered very deep underground — roughly 288 kilometers down — which gene",
-      "country": "Tonga",
-      "countries": [
-        "Tonga"
-      ],
-      "type": "Earthquake",
-      "lat": -15.95679,
-      "lng": -173.79214,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5s",
-      "prayer": "communities in Tonga and the surrounding islands as this deep earthquake was felt in the region"
-    },
-    {
-      "wp_id": 3126,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-16-2026-magnitude-5/",
-      "date": "2026-05-16T12:52:15",
-      "title": "Earthquake in New Zealand 05/16/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck the Kermadec Islands region, a remote stretch of the southwestern Pacific Ocean northeast of New Zealand. The quake was shallow, occurring about 10 kilometers below the surface, which can ",
-      "country": "New Zealand",
-      "countries": [
-        "New Zealand"
-      ],
-      "type": "Earthquake",
-      "lat": -31.9282,
-      "lng": -178.203,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy5x",
-      "prayer": "Communities in New Zealand monitoring seismic activity after a shallow magnitude 5 earthquake in a remote Pacific region"
-    },
-    {
-      "wp_id": 3125,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-05-16-2026-magnitude-5/",
-      "date": "2026-05-16T12:52:04",
-      "title": "Earthquake in Argentina 05/16/2026 — Magnitude 5",
-      "body": "A magnitude 4.7 earthquake struck about 67 kilometers west-northwest of El Aguilar, in northwestern Argentina, on May 16, 2026. The quake was very deep, occurring about 245 kilometers underground. At that depth, seismic ",
-      "country": "Argentina",
-      "countries": [
-        "Argentina"
-      ],
-      "type": "Earthquake",
-      "lat": -23.214727,
-      "lng": -65.68143,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy6x",
-      "prayer": "Communities in northwestern Argentina shaken by a magnitude 4.7 earthquake with no reported injuries"
-    },
-    {
-      "wp_id": 3124,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-16-2026-magnitude-5/",
-      "date": "2026-05-16T12:51:52",
-      "title": "Earthquake in Philippines 05/16/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck about 5 kilometers west-southwest of Badak in the southern Philippines on May 16, 2026. The quake was shallow, hitting at a depth of about 10 kilometers beneath the surface. Shallow earthq",
-      "country": "Philippines",
-      "countries": [
-        "Philippines"
-      ],
-      "type": "Earthquake",
-      "lat": 6.8241,
-      "lng": 124.6816,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy76",
-      "prayer": "Residents in the southern Philippines shaken by a shallow magnitude 5 earthquake with potential structural concerns"
-    },
-    {
-      "wp_id": 3123,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7/",
-      "date": "2026-05-16T12:51:40",
-      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
-      "body": "A magnitude 6.7 earthquake struck off the northeastern coast of Japan on May 15, 2026, centered about 49 kilometers east-southeast of Ōfunato, a coastal city in the Iwate region. The quake occurred at a depth of about 44",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 39.082108,
-      "lng": 141.70938,
-      "source_title": "USGS Significant Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq",
-      "prayer": "Coastal communities in Japan assessing conditions after a magnitude 6.7 offshore earthquake"
-    },
-    {
-      "wp_id": 3069,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-14-2026-magnitude-6-2/",
-      "date": "2026-05-15T05:14:22",
-      "title": "Earthquake in Indonesia 05/14/2026 — Magnitude 6.2",
-      "body": "A magnitude 6.2 earthquake struck Indonesia on May 14, 2026. The quake was centered about 146 kilometers deep, which means much of its energy was absorbed before reaching the surface — reducing, but not eliminating, the ",
-      "country": "Indonesia",
-      "countries": [
-        "Indonesia"
-      ],
-      "type": "Earthquake",
-      "lat": -6.198,
-      "lng": 130.3702,
-      "source_title": "GDACS RSS information",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1540730",
-      "prayer": "Tens of thousands of people across Indonesia shaken by a magnitude 6.2 earthquake with uncertain impact"
-    },
-    {
-      "wp_id": 3068,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-14-2026-magnitude-5/",
-      "date": "2026-05-15T05:14:11",
-      "title": "Earthquake in Japan 05/14/2026 — Magnitude 5",
-      "body": "A magnitude 5 earthquake struck the Volcano Islands region of Japan on May 14, 2026. The quake occurred deep underground, at roughly 157 kilometers below the surface, which significantly reduces the amount of shaking fel",
-      "country": "Japan",
-      "countries": [
-        "Japan"
-      ],
-      "type": "Earthquake",
-      "lat": 25.1362,
-      "lng": 141.443,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxnw",
-      "prayer": "Communities in Japan's remote southern islands following a magnitude 5 deep underground earthquake with no reported harm"
-    },
-    {
-      "wp_id": 3066,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-15-2026-magnitude-5/",
-      "date": "2026-05-15T05:13:46",
-      "title": "Earthquake in Papua New Guinea 05/15/2026 — Magnitude 5",
-      "body": "A magnitude 5.4 earthquake struck an area about 119 kilometers southeast of Lorengau, Papua New Guinea, on May 15, 2026. The quake was shallow, originating about 10 kilometers below the surface. Shallow earthquakes like ",
-      "country": "Papua New Guinea",
-      "countries": [
-        "Papua New Guinea"
-      ],
-      "type": "Earthquake",
-      "lat": -2.9915,
-      "lng": 147.7607,
-      "source_title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxu9",
-      "prayer": "Coastal communities in Papua New Guinea on alert after a shallow 5.4-magnitude earthquake and possible aftershocks"
     }
   ]
 }
