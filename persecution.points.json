@@ -1,9 +1,119 @@
 {
   "feed": "persecution",
-  "updated": "2026-09-26T14:43:52.012534+00:00",
-  "count": 699,
+  "updated": "2026-09-29T07:53:31.605429+00:00",
+  "count": 710,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12446,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-martyred-in-armed-attack-in-conflict-torn-central-african-republic/",
+      "date": "2026-09-29T07:53:23",
+      "title": "Catholic Priest Martyred in Armed Attack in Conflict-Torn Central African Republic",
+      "country": "central african republic",
+      "type": "killing",
+      "lat": 6.6,
+      "lng": 20.9
+    },
+    {
+      "wp_id": 12443,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-authorities-detain-multiple-pastors-and-church-workers-in-latest-house-church-crackdown/",
+      "date": "2026-09-29T07:52:47",
+      "title": "China Detains House Church Pastors and Workers in Latest Crackdown on Unregistered Churches",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12444,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-defy-curfew-kill-christians-including-pastor-heading-to-church-in-nigeria/",
+      "date": "2026-09-29T07:52:25",
+      "title": "Fulani Militia Defy Curfew, Kill Christians Including Pastor Heading to Church in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12442,
+      "wp_link": "https://globalwitnessmonitor.com/9-year-old-christian-boy-pepper-sprayed-in-religiously-motivated-attack-suspect-arrested/",
+      "date": "2026-09-29T07:51:30",
+      "title": "9-Year-Old Christian Boy Pepper-Sprayed in Religiously Motivated Attack; Suspect Arrested",
+      "country": "israel",
+      "type": "arrest",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 12441,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-pastor-buries-nine-congregation-members-as-weekly-christian-death-toll-reaches-41/",
+      "date": "2026-09-29T07:50:56",
+      "title": "Nigerian Pastor Buries Nine Congregation Members as Weekly Christian Death Toll Reaches 41",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12440,
+      "wp_link": "https://globalwitnessmonitor.com/baptist-pastor-fatally-shot-in-myanmar-amid-ongoing-military-violence-against-christians/",
+      "date": "2026-09-29T07:50:37",
+      "title": "Baptist Pastor Fatally Shot in Myanmar Amid Ongoing Military Violence Against Christians",
+      "country": "myanmar",
+      "type": "killing",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 12439,
+      "wp_link": "https://globalwitnessmonitor.com/sri-lanka-easter-bombing-convictions-prompt-calls-for-accountability-in-pakistan/",
+      "date": "2026-09-29T07:50:21",
+      "title": "Sri Lanka Easter Bombing Convictions Prompt Calls for Accountability in Pakistan",
+      "country": "sri lanka",
+      "type": "killing",
+      "lat": 7.9,
+      "lng": 80.7
+    },
+    {
+      "wp_id": 12438,
+      "wp_link": "https://globalwitnessmonitor.com/iranian-convert-escapes-deportation-after-diplomatic-appeal-overturns-residency-rejection/",
+      "date": "2026-09-29T07:50:06",
+      "title": "Iranian Convert Escapes Deportation After Diplomatic Appeal Overturns Residency Rejection",
+      "country": "iran",
+      "type": "restriction",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 12437,
+      "wp_link": "https://globalwitnessmonitor.com/imprisoned-chinese-house-church-pastor-reported-to-have-advanced-liver-cancer-amid-restricted-family-access/",
+      "date": "2026-09-29T07:49:25",
+      "title": "Imprisoned Chinese house church pastor reported to have advanced liver cancer amid restricted family access",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12436,
+      "wp_link": "https://globalwitnessmonitor.com/over-40-churches-in-indian-state-restrict-entry-to-christians-only-under-legislative-pressure/",
+      "date": "2026-09-29T07:49:04",
+      "title": "Over 40 Churches in Indian State Restrict Entry to Christians Only Under Legislative Pressure",
+      "country": "india",
+      "type": "restriction",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 12435,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-residents-protest-christian-owned-pork-restaurant-in-indonesia-imposing-unlawful-requirements/",
+      "date": "2026-09-29T07:48:48",
+      "title": "Muslim Residents Protest Christian-Owned Pork Restaurant in Indonesia, Imposing Unlawful Requirements",
+      "country": "indonesia",
+      "type": "restriction",
+      "lat": -0.8,
+      "lng": 113.9
+    },
     {
       "wp_id": 12366,
       "wp_link": "https://globalwitnessmonitor.com/at-least-15-more-christians-killed-in-nigeria-in-five-day-wave-of-fulani-attacks/",
