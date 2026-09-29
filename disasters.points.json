@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-26T14:39:59.241458+00:00",
-  "count": 1231,
+  "updated": "2026-09-29T07:47:44.435248+00:00",
+  "count": 1242,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12434,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-29-2026/",
+      "date": "2026-09-29T07:46:01",
+      "title": "Wildfire in United States 09/29/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 20.811014,
+      "lng": -156.62181
+    },
+    {
+      "wp_id": 12433,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-27-2026/",
+      "date": "2026-09-29T07:37:37",
+      "title": "Flood in United States 09/27/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 39.659906,
+      "lng": -74.167514
+    },
+    {
+      "wp_id": 12432,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-09-28-2026/",
+      "date": "2026-09-29T07:36:50",
+      "title": "Flood in Thailand 09/28/2026",
+      "country": "Thailand",
+      "type": "Flood",
+      "lat": 13.752494,
+      "lng": 100.493509
+    },
+    {
+      "wp_id": 12431,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-india-09-27-2026/",
+      "date": "2026-09-29T07:36:11",
+      "title": "Flood in India 09/27/2026",
+      "country": "India",
+      "type": "Flood",
+      "lat": 27.340831,
+      "lng": 80.501943
+    },
+    {
+      "wp_id": 12430,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-09-28-2026/",
+      "date": "2026-09-29T07:35:27",
+      "title": "Disease in Congo 09/28/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": 1.555387,
+      "lng": 30.247854
+    },
+    {
+      "wp_id": 12429,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-09-26-2026/",
+      "date": "2026-09-29T07:34:59",
+      "title": "Storm in United States 09/26/2026",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 40.6526,
+      "lng": -73.9497
+    },
+    {
+      "wp_id": 12428,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-nepal-09-28-2026/",
+      "date": "2026-09-29T07:33:56",
+      "title": "Other in Nepal 09/28/2026",
+      "country": "Nepal",
+      "type": "Other",
+      "lat": 28.538087,
+      "lng": 84.335987
+    },
+    {
+      "wp_id": 12427,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-russia-09-29-2026/",
+      "date": "2026-09-29T07:29:26",
+      "title": "Flood in Russia 09/29/2026",
+      "country": "Russia",
+      "type": "Flood",
+      "lat": 54.96509090909091,
+      "lng": 136.91666666666666
+    },
+    {
+      "wp_id": 12426,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-09-25-2026-magnitude-5/",
+      "date": "2026-09-29T07:24:21",
+      "title": "Earthquake in Timor Leste 09/25/2026 — Magnitude 5",
+      "country": "Timor Leste",
+      "type": "Earthquake",
+      "lat": -7.4036,
+      "lng": 125.6985
+    },
+    {
+      "wp_id": 12425,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-09-26-2026-magnitude-6/",
+      "date": "2026-09-29T07:23:36",
+      "title": "Earthquake in Papua New Guinea 09/26/2026 — Magnitude 6",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.343031,
+      "lng": 152.281275
+    },
+    {
+      "wp_id": 12424,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-canada-09-28-2026-magnitude-5/",
+      "date": "2026-09-29T07:22:30",
+      "title": "Earthquake in Canada 09/28/2026 — Magnitude 5",
+      "country": "Canada",
+      "type": "Earthquake",
+      "lat": 50.590034,
+      "lng": -127.08632
+    },
     {
       "wp_id": 12365,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-nepal-09-26-2026/",
