@@ -1,9 +1,299 @@
 {
   "feed": "conflict",
-  "updated": "2026-09-26T15:14:10.560588+00:00",
-  "count": 2154,
+  "updated": "2026-09-29T08:30:03.881547+00:00",
+  "count": 2183,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12522,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pirde-altun-kupri-kirkuk/",
+      "date": "2026-09-29T08:29:54",
+      "title": "Armed Conflict in Altun Kupri, Kirkuk",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 35.7541,
+      "lng": 44.1428
+    },
+    {
+      "wp_id": 12526,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-deir-nidham-west-bank/",
+      "date": "2026-09-29T08:29:37",
+      "title": "Civil Unrest in Deir Nidham, West Bank",
+      "country": "Palestine",
+      "type": "Civil Unrest",
+      "lat": 32.002098,
+      "lng": 35.113976
+    },
+    {
+      "wp_id": 12448,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-strip-5/",
+      "date": "2026-09-29T08:28:34",
+      "title": "Armed Conflict in Al-Nasr neighbourhood, Gaza City; Deir al-Balah",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.5129,
+      "lng": 34.4581
+    },
+    {
+      "wp_id": 12486,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyauktaw-rakhine-state/",
+      "date": "2026-09-29T08:27:51",
+      "title": "Armed Conflict in Kyauktaw township, Rakhine state",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 20.8437,
+      "lng": 92.9725
+    },
+    {
+      "wp_id": 12516,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tigyaing-indaw-corridor-sagaing-region/",
+      "date": "2026-09-29T08:25:57",
+      "title": "Armed Conflict in Tigyaing-Indaw corridor, Sagaing Region",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 24.222553,
+      "lng": 96.140526
+    },
+    {
+      "wp_id": 12511,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sun-ye-village-anjanapura-township/",
+      "date": "2026-09-29T08:24:05",
+      "title": "Armed Conflict in Sun Ye Village, Anjanapura Township",
+      "country": "Myanmar",
+      "type": "Armed Conflict",
+      "lat": 21.674674,
+      "lng": 96.211026
+    },
+    {
+      "wp_id": 12461,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tigray-4/",
+      "date": "2026-09-29T08:14:02",
+      "title": "Armed Conflict in Mekelle",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 13.4967,
+      "lng": 39.4768
+    },
+    {
+      "wp_id": 12481,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-galgaduud/",
+      "date": "2026-09-29T08:12:22",
+      "title": "Armed Conflict in Baidoa",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 5.5356,
+      "lng": 46.3831
+    },
+    {
+      "wp_id": 12480,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-tawila/",
+      "date": "2026-09-29T08:11:20",
+      "title": "Displacement in Tawila",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 14.030186,
+      "lng": 22.593948
+    },
+    {
+      "wp_id": 12479,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-darazinda-dera-ismail-khan/",
+      "date": "2026-09-29T08:09:37",
+      "title": "Armed Conflict in Darazinda, Dera Ismail Khan",
+      "country": "Pakistan",
+      "type": "Armed Conflict",
+      "lat": 31.829016,
+      "lng": 70.91177
+    },
+    {
+      "wp_id": 12478,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-northeastern-niger-sahel-region/",
+      "date": "2026-09-29T08:09:10",
+      "title": "Coup/Crisis in northeastern Niger (Sahel region)",
+      "country": "Niger",
+      "type": "Coup or Crisis",
+      "lat": 9.618709,
+      "lng": 6.547575
+    },
+    {
+      "wp_id": 12477,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-ouagadougou-2/",
+      "date": "2026-09-29T08:08:48",
+      "title": "Coup/Crisis in Ouagadougou",
+      "country": "Burkina Faso",
+      "type": "Coup or Crisis",
+      "lat": 12.363142,
+      "lng": -1.529773
+    },
+    {
+      "wp_id": 12476,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-abala-filingue-and-birni-nkonni/",
+      "date": "2026-09-29T08:08:19",
+      "title": "Armed Conflict in Abala-Filingué and Birni-N'Konni",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 13.791612,
+      "lng": 5.24779
+    },
+    {
+      "wp_id": 12469,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hong-local-government-area-adamawa-state/",
+      "date": "2026-09-29T08:07:43",
+      "title": "Armed Conflict in Hong Local Government Area, Adamawa State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.2311,
+      "lng": 12.9299
+    },
+    {
+      "wp_id": 12470,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tsafe/",
+      "date": "2026-09-29T08:07:23",
+      "title": "Armed Conflict in Riyom",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.6876,
+      "lng": 6.8228
+    },
+    {
+      "wp_id": 12471,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-minna-niger-state/",
+      "date": "2026-09-29T08:05:36",
+      "title": "Civil Unrest in Minna, Niger State",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 9.618709,
+      "lng": 6.547575
+    },
+    {
+      "wp_id": 12450,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mariga-niger-state-and-yargada-zamfara/",
+      "date": "2026-09-29T08:03:25",
+      "title": "Armed Conflict in Mariga, Niger State and Yargada, Zamfara State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.1349,
+      "lng": 6.0232
+    },
+    {
+      "wp_id": 12467,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-artibonite/",
+      "date": "2026-09-29T08:02:11",
+      "title": "Armed Conflict in Artibonite",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 19.44606,
+      "lng": -72.688434
+    },
+    {
+      "wp_id": 12465,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-puerto-penasco-2/",
+      "date": "2026-09-29T08:01:49",
+      "title": "Armed Conflict in Chulavista, Cuernavaca",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 31.3139,
+      "lng": -113.5401
+    },
+    {
+      "wp_id": 12464,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-sabana-de-torres/",
+      "date": "2026-09-29T08:01:01",
+      "title": "Civil Unrest in Sabana de Torres",
+      "country": "Colombia",
+      "type": "Civil Unrest",
+      "lat": 7.395068,
+      "lng": -73.49248
+    },
+    {
+      "wp_id": 12451,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kyiv-4/",
+      "date": "2026-09-29T07:59:28",
+      "title": "Armed Conflict in Kyiv",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.45,
+      "lng": 30.5241
+    },
+    {
+      "wp_id": 12454,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris-4/",
+      "date": "2026-09-29T07:59:08",
+      "title": "Civil Unrest in Paris",
+      "country": "France",
+      "type": "Civil Unrest",
+      "lat": 48.8535,
+      "lng": 2.3484
+    },
+    {
+      "wp_id": 12459,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-raf-fairford-gloucestershire/",
+      "date": "2026-09-29T07:59:00",
+      "title": "Armed Conflict in RAF Fairford, Gloucestershire",
+      "country": "United Kingdom",
+      "type": "Armed Conflict",
+      "lat": 51.707466,
+      "lng": -1.781291
+    },
+    {
+      "wp_id": 12458,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-raf-fairford-gloucestershire/",
+      "date": "2026-09-29T07:58:40",
+      "title": "Civil Unrest in RAF Fairford, Gloucestershire",
+      "country": "United Kingdom",
+      "type": "Civil Unrest",
+      "lat": 51.707466,
+      "lng": -1.781291
+    },
+    {
+      "wp_id": 12456,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-kalkaji-delhi/",
+      "date": "2026-09-29T07:57:47",
+      "title": "Civil Unrest in Kalkaji, Delhi",
+      "country": "India",
+      "type": "Civil Unrest",
+      "lat": 28.547092,
+      "lng": 77.25757
+    },
+    {
+      "wp_id": 12455,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-seoul/",
+      "date": "2026-09-29T07:57:23",
+      "title": "Coup/Crisis in Seoul",
+      "country": "South Korea",
+      "type": "Coup or Crisis",
+      "lat": 37.566679,
+      "lng": 126.978291
+    },
+    {
+      "wp_id": 12453,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-puerta-del-sol-madrid/",
+      "date": "2026-09-29T07:56:47",
+      "title": "Civil Unrest in Puerta del Sol, Madrid",
+      "country": "Spain",
+      "type": "Civil Unrest",
+      "lat": 40.246244,
+      "lng": -3.315463
+    },
+    {
+      "wp_id": 12452,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-cernita-solca-wola-krobowska/",
+      "date": "2026-09-29T07:56:26",
+      "title": "Armed Conflict in Cernița, Solca, Wola Krobowska",
+      "country": "Moldova",
+      "type": "Armed Conflict",
+      "lat": 47.96671,
+      "lng": 28.46535
+    },
+    {
+      "wp_id": 12447,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-north-wollo-tigray-afar/",
+      "date": "2026-09-29T07:54:11",
+      "title": "Armed Conflict in North Wollo, Tigray, Afar",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 11.79231,
+      "lng": 41.008916
+    },
     {
       "wp_id": 12417,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-city-5/",
