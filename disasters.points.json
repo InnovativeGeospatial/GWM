@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-09-29T07:47:44.435248+00:00",
-  "count": 1242,
+  "updated": "2026-10-02T00:42:57.618139+00:00",
+  "count": 1254,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12539,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-09-30-2026/",
+      "date": "2026-10-02T00:42:23",
+      "title": "Wildfire in Spain 09/30/2026",
+      "country": "Spain",
+      "type": "Wildfire",
+      "lat": 41.294856,
+      "lng": -4.055685
+    },
+    {
+      "wp_id": 12538,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-29-2026-2/",
+      "date": "2026-10-02T00:41:35",
+      "title": "Wildfire in United States 09/29/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 46.156246,
+      "lng": -119.03386
+    },
+    {
+      "wp_id": 12537,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-09-30-2026/",
+      "date": "2026-10-02T00:37:00",
+      "title": "Flood in Ghana 09/30/2026",
+      "country": "Ghana",
+      "type": "Flood",
+      "lat": 7.153187,
+      "lng": 0.477735
+    },
+    {
+      "wp_id": 12536,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-09-29-2026/",
+      "date": "2026-10-02T00:36:42",
+      "title": "Flood in Thailand 09/29/2026",
+      "country": "Thailand",
+      "type": "Flood",
+      "lat": 15.127333,
+      "lng": 101.017438
+    },
+    {
+      "wp_id": 12535,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-09-30-2026/",
+      "date": "2026-10-02T00:33:25",
+      "title": "Flood in United States 09/30/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 34.324856,
+      "lng": -105.998351
+    },
+    {
+      "wp_id": 12534,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-09-29-2026-cat-2/",
+      "date": "2026-10-02T00:33:07",
+      "title": "Storm in Mexico 09/29/2026 — Cat 2",
+      "country": "Mexico",
+      "type": "Storm",
+      "lat": 23.590473,
+      "lng": -109.579882
+    },
+    {
+      "wp_id": 12533,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-yemen-09-29-2026/",
+      "date": "2026-10-02T00:32:43",
+      "title": "Disease in Yemen 09/29/2026",
+      "country": "Yemen",
+      "type": "Disease",
+      "lat": 12.789585,
+      "lng": 45.028504
+    },
+    {
+      "wp_id": 12532,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10-01-2026/",
+      "date": "2026-10-02T00:32:10",
+      "title": "Disease in Congo 10/01/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 12531,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-10-01-2026/",
+      "date": "2026-10-02T00:32:00",
+      "title": "Flood in Nepal 10/01/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.066923,
+      "lng": 81.62625
+    },
+    {
+      "wp_id": 12530,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-09-30-2026-magnitude-5/",
+      "date": "2026-10-02T00:23:03",
+      "title": "Earthquake in Russia 09/30/2026 — Magnitude 5",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 52.3167,
+      "lng": 160.3332
+    },
+    {
+      "wp_id": 12529,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-costa-rica-09-30-2026-magnitude-6/",
+      "date": "2026-10-02T00:22:48",
+      "title": "Earthquake in Costa Rica 09/30/2026 — Magnitude 6",
+      "country": "Costa Rica",
+      "type": "Earthquake",
+      "lat": 10.30622,
+      "lng": -85.80283
+    },
+    {
+      "wp_id": 12528,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-10-01-2026-magnitude-5/",
+      "date": "2026-10-02T00:21:32",
+      "title": "Earthquake in Solomon Islands 10/01/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.724173,
+      "lng": 165.797764
+    },
     {
       "wp_id": 12434,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-09-29-2026/",
