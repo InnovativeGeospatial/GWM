@@ -1,9 +1,109 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-02T00:42:57.618139+00:00",
-  "count": 1254,
+  "updated": "2026-10-04T17:48:36.840604+00:00",
+  "count": 1264,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12647,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-10-02-2026/",
+      "date": "2026-10-04T17:48:29",
+      "title": "Landslide in India 10/02/2026",
+      "country": "India",
+      "type": "Landslide",
+      "lat": 22.199166,
+      "lng": 78.476681
+    },
+    {
+      "wp_id": 12646,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-01-2026/",
+      "date": "2026-10-04T17:43:11",
+      "title": "Wildfire in United States 10/01/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 33.973033,
+      "lng": -78.385739
+    },
+    {
+      "wp_id": 12645,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-greece-10-03-2026/",
+      "date": "2026-10-04T17:39:38",
+      "title": "Flood in Greece 10/03/2026",
+      "country": "Greece",
+      "type": "Flood",
+      "lat": 35.008633,
+      "lng": 25.739561
+    },
+    {
+      "wp_id": 12644,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-10-02-2026/",
+      "date": "2026-10-04T17:39:16",
+      "title": "Flood in Malaysia 10/02/2026",
+      "country": "Malaysia",
+      "type": "Flood",
+      "lat": 5.911241,
+      "lng": 116.10359
+    },
+    {
+      "wp_id": 12643,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-philippines-10-01-2026/",
+      "date": "2026-10-04T17:38:44",
+      "title": "Disease in Philippines 10/01/2026",
+      "country": "Philippines",
+      "type": "Disease",
+      "lat": 14.426424,
+      "lng": 120.955821
+    },
+    {
+      "wp_id": 12642,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-03-2026/",
+      "date": "2026-10-04T17:37:29",
+      "title": "Flood in United States 10/03/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 32.253136,
+      "lng": -95.784158
+    },
+    {
+      "wp_id": 12641,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-spain-10-04-2026/",
+      "date": "2026-10-04T17:36:53",
+      "title": "Flood in Spain 10/04/2026",
+      "country": "Spain",
+      "type": "Flood",
+      "lat": 41.382894,
+      "lng": 2.177432
+    },
+    {
+      "wp_id": 12640,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-10-02-2026-magnitude-5/",
+      "date": "2026-10-04T17:23:36",
+      "title": "Earthquake in New Zealand 10/02/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -39.156086,
+      "lng": 174.20728
+    },
+    {
+      "wp_id": 12639,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-03-2026-magnitude-6/",
+      "date": "2026-10-04T17:22:43",
+      "title": "Earthquake in Indonesia 10/03/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -10.163221,
+      "lng": 123.601776
+    },
+    {
+      "wp_id": 12638,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-10-04-2026-magnitude-5/",
+      "date": "2026-10-04T17:21:33",
+      "title": "Earthquake in Panama 10/04/2026 — Magnitude 5",
+      "country": "Panama",
+      "type": "Earthquake",
+      "lat": 5.3695,
+      "lng": -82.7171
+    },
     {
       "wp_id": 12539,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-spain-09-30-2026/",
