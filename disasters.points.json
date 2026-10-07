@@ -1,9 +1,149 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-06T03:32:31.224235+00:00",
-  "count": 1177,
+  "updated": "2026-10-07T10:42:28.831845+00:00",
+  "count": 1191,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12883,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-06-2026/",
+      "date": "2026-10-07T10:39:56",
+      "title": "Wildfire in United States 10/06/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 40.196062,
+      "lng": -105.526728
+    },
+    {
+      "wp_id": 12882,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-05-2026/",
+      "date": "2026-10-07T10:38:08",
+      "title": "Flood in United States 10/05/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 32.789284,
+      "lng": -79.938628
+    },
+    {
+      "wp_id": 12881,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-spain-10-04-2026-2/",
+      "date": "2026-10-07T10:36:29",
+      "title": "Flood in Spain 10/04/2026",
+      "country": "Spain",
+      "type": "Flood",
+      "lat": 41.382894,
+      "lng": 2.177432
+    },
+    {
+      "wp_id": 12880,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-senegal-10-05-2026/",
+      "date": "2026-10-07T10:33:45",
+      "title": "Flood in Senegal 10/05/2026",
+      "country": "Senegal",
+      "type": "Flood",
+      "lat": 14.712019,
+      "lng": -17.457171
+    },
+    {
+      "wp_id": 12879,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10-06-2026/",
+      "date": "2026-10-07T10:33:03",
+      "title": "Disease in Congo 10/06/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 12878,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-papua-new-guinea-10-06-2026/",
+      "date": "2026-10-07T10:32:49",
+      "title": "Drought in Papua New Guinea 10/06/2026",
+      "country": "Papua New Guinea",
+      "type": "Drought",
+      "lat": -6.478378,
+      "lng": 145.241749
+    },
+    {
+      "wp_id": 12877,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-russia-10-02-2026/",
+      "date": "2026-10-07T10:32:41",
+      "title": "Disease in Russia 10/02/2026",
+      "country": "Russia",
+      "type": "Disease",
+      "lat": 52.210335,
+      "lng": 104.097855
+    },
+    {
+      "wp_id": 12876,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-10-06-2026/",
+      "date": "2026-10-07T10:32:02",
+      "title": "Flood in Nepal 10/06/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 28.253007,
+      "lng": 83.938548
+    },
+    {
+      "wp_id": 12875,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-07-2026/",
+      "date": "2026-10-07T10:29:27",
+      "title": "Drought in Russia 10/07/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 55.029144,
+      "lng": 82.920876
+    },
+    {
+      "wp_id": 12874,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-10-02-2026-magnitude-5/",
+      "date": "2026-10-07T10:24:11",
+      "title": "Earthquake in Solomon Islands 10/02/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -8.9326,
+      "lng": 158.0215
+    },
+    {
+      "wp_id": 12873,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-02-2026-magnitude-5/",
+      "date": "2026-10-07T10:23:53",
+      "title": "Earthquake in Papua New Guinea 10/02/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -6.304784,
+      "lng": 155.488166
+    },
+    {
+      "wp_id": 12872,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-03-2026-magnitude-6-2/",
+      "date": "2026-10-07T10:23:25",
+      "title": "Earthquake in Indonesia 10/03/2026 — Magnitude 6",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 5.55102,
+      "lng": 95.31782
+    },
+    {
+      "wp_id": 12871,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-10-06-2026-magnitude-5/",
+      "date": "2026-10-07T10:21:38",
+      "title": "Earthquake in India 10/06/2026 — Magnitude 5",
+      "country": "India",
+      "type": "Earthquake",
+      "lat": 29.838774,
+      "lng": 79.77292
+    },
+    {
+      "wp_id": 12870,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-10-06-2026-magnitude-6/",
+      "date": "2026-10-07T10:21:20",
+      "title": "Earthquake in United States 10/06/2026 — Magnitude 6",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 57.789925,
+      "lng": -152.4071
+    },
     {
       "wp_id": 12647,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-india-10-02-2026/",
