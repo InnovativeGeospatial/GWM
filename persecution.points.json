@@ -1,9 +1,159 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-06T03:32:07.141718+00:00",
-  "count": 697,
+  "updated": "2026-10-07T10:50:08.568485+00:00",
+  "count": 712,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12899,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-detained-in-china-on-illegal-religious-activities-charge/",
+      "date": "2026-10-07T10:49:54",
+      "title": "China detains unregistered Protestant pastor on \"illegal religious activities\" charge",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12901,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-church-worker-shot-dead-en-route-to-sunday-service-amid-wave-of-attacks-in-nigeria/",
+      "date": "2026-10-07T10:49:31",
+      "title": "Pastor and church worker shot dead en route to Sunday service amid wave of attacks in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12885,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-gunmen-kill-at-least-12-christians-in-nigeria-over-three-days/",
+      "date": "2026-10-07T10:49:10",
+      "title": "Fulani Gunmen Kill Two, Wound Three Christians in Night Raid in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12898,
+      "wp_link": "https://globalwitnessmonitor.com/armed-gunmen-storm-christian-town-in-syria-wound-resident-and-vandalize-shops/",
+      "date": "2026-10-07T10:47:55",
+      "title": "Armed Gunmen Storm Christian Town in Syria, Wound Resident and Vandalize Shops",
+      "country": "syria",
+      "type": "church",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 12897,
+      "wp_link": "https://globalwitnessmonitor.com/nine-christians-beheaded-by-islamic-state-militants-in-dr-congo/",
+      "date": "2026-10-07T10:47:27",
+      "title": "Nine Christians Beheaded by Islamic State Militants in DR Congo",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 12895,
+      "wp_link": "https://globalwitnessmonitor.com/over-4200-nigerian-christians-killed-in-nine-months-as-new-report-documents-scale-of-militant-violence/",
+      "date": "2026-10-07T10:46:35",
+      "title": "Over 4,200 Nigerian Christians Killed in Nine Months as New Report Documents Scale of Militant Violence",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12894,
+      "wp_link": "https://globalwitnessmonitor.com/christians-and-religious-minorities-face-wave-of-deadly-violence-across-syria/",
+      "date": "2026-10-07T10:46:05",
+      "title": "Christians and Religious Minorities Face Wave of Deadly Violence Across Syria",
+      "country": "syria",
+      "type": "killing",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 12893,
+      "wp_link": "https://globalwitnessmonitor.com/indonesia-bans-gospel-concert-and-blocks-performers-visa-over-perceived-support-for-israel/",
+      "date": "2026-10-07T10:45:51",
+      "title": "Indonesia Bans Gospel Concert and Blocks Performer's Visa Over Perceived Support for Israel",
+      "country": "indonesia",
+      "type": "restriction",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 12892,
+      "wp_link": "https://globalwitnessmonitor.com/christian-man-charged-with-witchcraft-under-sharia-law-for-third-time-remains-detained/",
+      "date": "2026-10-07T10:45:27",
+      "title": "Christian Man Charged with Witchcraft Under Sharia Law for Third Time, Remains Detained",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12891,
+      "wp_link": "https://globalwitnessmonitor.com/jehovahs-witness-believer-sentenced-to-six-years-in-russia-for-religious-activity/",
+      "date": "2026-10-07T10:45:14",
+      "title": "Jehovah's Witness Believer Sentenced to Six Years in Russia for Religious Activity",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 12890,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-among-28-christians-killed-in-week-of-armed-attacks-across-nigeria/",
+      "date": "2026-10-07T10:44:59",
+      "title": "Pastor Among 28 Christians Killed in Week of Armed Attacks Across Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12889,
+      "wp_link": "https://globalwitnessmonitor.com/tribal-christians-in-india-hit-by-floods-and-hindu-nationalist-pressure-face-double-displacement/",
+      "date": "2026-10-07T10:44:43",
+      "title": "Tribal Christians in India Hit by Floods and Hindu Nationalist Pressure Face Double Displacement",
+      "country": "india",
+      "type": "displacement",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 12888,
+      "wp_link": "https://globalwitnessmonitor.com/un-experts-urge-pakistan-to-enforce-protections-for-christian-girls-facing-forced-conversion-and-marriage/",
+      "date": "2026-10-07T10:44:27",
+      "title": "UN Experts Urge Pakistan to Enforce Protections for Christian Girls Facing Forced Conversion and Marriage",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12886,
+      "wp_link": "https://globalwitnessmonitor.com/machete-threat-forces-40-worshippers-out-church-site-subsequently-closed-in-indonesia/",
+      "date": "2026-10-07T10:44:01",
+      "title": "Machete Threat Forces 40 Worshippers Out; Church Site Subsequently Closed in Indonesia",
+      "country": "indonesia",
+      "type": "church",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 12884,
+      "wp_link": "https://globalwitnessmonitor.com/six-christian-workers-released-after-five-day-abduction-in-south-sudan/",
+      "date": "2026-10-07T10:43:36",
+      "title": "Six Christian Workers Released After Five-Day Abduction in South Sudan",
+      "country": "south sudan",
+      "type": "arrest",
+      "lat": 6.9,
+      "lng": 31.3
+    },
     {
       "wp_id": 12656,
       "wp_link": "https://globalwitnessmonitor.com/released-church-leader-describes-harrowing-detention-conditions-calls-for-christian-legal-aid-in-china/",
