@@ -1,9 +1,243 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-07T10:42:26.376522+00:00",
-  "count": 927,
+  "updated": "2026-10-10T03:37:31.336033+00:00",
+  "count": 940,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 12980,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-10-07-2026/",
+      "date": "2026-10-10T03:36:29",
+      "title": "Wildfire in Canada 10/07/2026",
+      "body": "The 2026 Canadian wildfire season has burned more than 4.4 million hectares across the country, including Ontario, with at least five deaths and more than 24,000 people evacuated nationally. The largest single fire, Thun",
+      "country": "Canada",
+      "countries": [
+        "Canada"
+      ],
+      "type": "Wildfire",
+      "lat": 49.451564,
+      "lng": -84.253981,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQVlRna1NmOTkzV1pVT3dDWlVKRDJlTkVPY0V2MmI0bXdIWlhIcjR5b1VudUNRdjRDSE9HdUhNMDBLZ1FNS2F6emNZMklZaTBzcXJZSmxyRHllcUhRbXU1Rmo4NEZwSUE5emlpVGpBTElvTDNTOHNfTTZheGo3SlA1b1JuRklEZ2drS0ZDQXdmNXpDekc3UmxJeW5lTWV5TkhOS25YalBsYTN0cE40MDBPS1AyLUgxQjlrbmtocExOMjE5YjJHM3NSU0xlTjc3Z3ExQTN3eWJNQVpTazVBZkxKaDlUYnFubWR3UG1sNkFkZ3k4aWdpamEwNjNac18xWW1ZUk41MEhTeUtDY1NJSm5Pdy1meFhoVmlRRHRr?oc=5",
+      "prayer": "Ontario resort owners and communities affected by wildfire amid disputed fire ban decisions",
+      "alert_summary": "A wildfire struck at least one resort in Ontario during the 2026 Canadian wildfire season; no casualty or displacement figure was reported in available sources."
+    },
+    {
+      "wp_id": 12979,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-10-2026/",
+      "date": "2026-10-10T03:35:51",
+      "title": "Wildfire in United States 10/10/2026",
+      "body": "On October 9, 2026, a fire broke out near Cyrus Canyon Road and Sierra Way just after 2 p.m. The blaze, burning in the Kernville area, was named the Cyrus Fire and burned 327 acres. The Kern County Fire Department report",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 35.753919,
+      "lng": -118.425509,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVDByX0ZpWFBFZklqTzRsYkkyT1JleEdtLXZWM01WTzVZX0lmeFpCZVJ6VG5ScW5hZGk5cDhacmwxMjdZQXRwUGdSTktfWXhXQjlUV1V3UzlHeVNUSkNZM3BPR3NpRTktdWtiUWRvWUViX090UWpnSk1qWGwxcUNVYUlqWXpDcHhUOEUxSGZTekpWV1lsaXVr?oc=5",
+      "prayer": "Kernville-area residents under evacuation order as the Cyrus Fire burns through their community",
+      "alert_summary": "The Cyrus Fire burned over 320 acres near Kernville, California, prompting an evacuation order and warnings on October 9, 2026."
+    },
+    {
+      "wp_id": 12978,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-10-07-2026/",
+      "date": "2026-10-10T03:35:33",
+      "title": "Flood in Thailand 10/07/2026",
+      "body": "Flooding across 27 provinces and Bangkok has left 52 people dead and affected more than 3.16 million residents, driven by heavy rain and runoff flowing south from northern Thailand. As of October 7, floods were affecting",
+      "country": "Thailand",
+      "countries": [
+        "Thailand"
+      ],
+      "type": "Flood",
+      "lat": 13.593699,
+      "lng": 100.597496,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdHpETW5WTEV2dDhBbW9LTWFjVzFkNU0xN0JPM0ZkajltaVhhMGVGaVR5MGJVTXFBcTQyWWd5VXBlS2RNNHBsNUdnaTN0M2VyTDk5THFyZlVjaExpOEY3V0VOSkpmSFFWa2VRWm5jVGg2dklRYzFQMnpLWnpPUmRZMHJ2dVV0d2o1R1IwNjJNdFFEMEU?oc=5",
+      "prayer": "Millions of Thai residents across 27 provinces and Bangkok displaced by ongoing flooding",
+      "alert_summary": "Flooding across 27 Thai provinces and Bangkok has killed 52 people and affected over 3.16 million residents as of October 7, 2026."
+    },
+    {
+      "wp_id": 12977,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-chile-10-09-2026/",
+      "date": "2026-10-10T03:33:29",
+      "title": "Flood in Chile 10/09/2026",
+      "body": "On October 8, 2026, heavy rains struck Chile's capital and surrounding region, triggering mudslides that swept cars through streets, flooded homes, forced residents to evacuate, and injured at least six people. The injur",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Flood",
+      "lat": -33.408745,
+      "lng": -70.567375,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd0xtM1hWNG9EQmItZnZ0aDdZVTFQUzZVRGVBQ0lhX09teTRYMVRucnpERk9xaTJoTjZ1Vm9BYm5MOThfelhBejdMZWxvWVRMU3RERTZhdjhNdmxjQ3dadGZiNU1LeUVJN21vX0lqRGZ1eHU2aXExS2hhc25XdGdVY0tCRUdCQ0hraE9OSm4yd3pINjdmdlVlNWR1ZjBLMC0zcGhONXBpQjhYLXpDRUpZ0gG0AUFVX3lxTE1KVk5BT0ozeUVQaFJTUHVOSm1DXzUwV2VpbWpCWndxTlBwclBtN0NNMmRvWS00enk3X2ZOdkNXSXkwOWxEbzlPY0draFVpbE5ZMlc2N01aR283aGszRVBxWGJhUDRSQkxHcW1Ec1Awc3pxb2hOVGR0VGRBZU8xbzJNUE9tczVkaWtmcUJXWEJXcnVsdWtnMWJ5SUZtenF1dTF5dWU2TGNGeVdRMWdYS1J1NjdOeg?oc=5",
+      "prayer": "Residents of Las Condes and Santiago displaced and injured after flash floods and mudslides swept through the capital",
+      "alert_summary": "Flash floods and mudslides struck Las Condes, Santiago on October 8, 2026, injuring at least 6 people and prompting evacuation of more than 1,000 residents."
+    },
+    {
+      "wp_id": 12976,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-nepal-10-09-2026/",
+      "date": "2026-10-10T03:30:52",
+      "title": "Disease in Nepal 10/09/2026",
+      "body": "Officials have stalled planned measles vaccination in the flood-hit districts of Rasuwa, Nuwakot, and Dhading indefinitely, as they have been unable to locate the flood-displaced children. More than 35,000 children aged ",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Disease",
+      "lat": 28.131453,
+      "lng": 83.89468,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVFNBbUNjQV9iWjJIcVZZV1lpNHYwTkI3aUNlRG5ncGJfaEFibW5TaDZadGhMM1JwbnVyZjdPc3Y3a3hlRjdkSnprQ3ROZXdQN1R0YnRJMnRLOHA2ZnljbkZYZkFpdWppSjVvNThOR3VRSmM0ajRuZEFfVHRtbDVmVG4wT3VmQkk4N3Z3bGkyWjVDTER0bzdkb1AydTlJMWNqWDc0amEyOUgwdTB5S0YwQTJnREZxQVJIX0Uweld3MHBzZw?oc=5",
+      "prayer": "Children displaced by the Bhotekoshi flood in Nepal's Rasuwa, Nuwakot, and Dhading districts who cannot be reached for measles vaccination",
+      "alert_summary": "Measles vaccination for more than 35,000 children has stalled indefinitely across three flood-hit districts of Nepal after flooding displaced families."
+    },
+    {
+      "wp_id": 12975,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-09-2026-cat-2/",
+      "date": "2026-10-10T03:29:11",
+      "title": "Storm in United States 10/09/2026 — Cat 2",
+      "body": "Hurricane Isaias, the first hurricane of the 2026 Atlantic season, made landfall Friday night near Destin, Florida, along the northern Gulf Coast. The storm had briefly strengthened into a Category 3 earlier in the day b",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 30.394653,
+      "lng": -86.507842,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa3ZkbFRnRlAxeFpmMzFCd2NWU3JUamVKZV9FbExXUDVaT1BZcGg0UEFhS3lNN05NWk1YQ0JfWHV1dHQ1MTFSdmdkNjQtMTE0dHMtMzFFcXNDZDlaUGtvT0tlVVkxT2ZDcWQ3UzByUzlBSnZQYS1oM3pmSTFTWExrbW5GQ0dQeDFOeE9vbnp6anlzOWptbkx5MlJER1R6eGNEbHVLNkh1ajZIU3F6eHhjZXZUTlpPS3BlbnJpVktuaFE?oc=5",
+      "prayer": "Tens of thousands evacuated along the Florida Panhandle and Gulf Coast facing storm surge, flooding, and power outages",
+      "alert_summary": "Category 2 Hurricane Isaias made landfall near Destin, Florida on October 9, 2026, knocking out power to over 512,000 customers and prompting tens of thousands to evacuate."
+    },
+    {
+      "wp_id": 12974,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-10-07-2026/",
+      "date": "2026-10-10T03:28:35",
+      "title": "Disease in Kenya 10/07/2026",
+      "body": "Kenya confirmed its first death from Ebola on October 6, 2026. The victim was a man who had lived in the Democratic Republic of the Congo, fell ill there, and flew to Nairobi via Uganda on October 3. He went straight to ",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Disease",
+      "lat": -1.289001,
+      "lng": 36.817281,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/10/1168542",
+      "prayer": "Kenya's health workers and contacts of Ebola victim under quarantine; containment efforts in early critical days",
+      "alert_summary": "Kenya confirmed its first Ebola death in Nairobi on October 6; authorities are tracing contacts including about 10 relatives and 21 health workers."
+    },
+    {
+      "wp_id": 12973,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-indonesia-10-09-2026/",
+      "date": "2026-10-10T03:27:58",
+      "title": "Wildfire in Indonesia 10/09/2026",
+      "body": "A young female orangutan was rescued from wildfires burning across Borneo Island in Indonesia, suffering burns to her hands and feet; she is now being treated at an animal hospital. She is among dozens of orangutans resc",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Wildfire",
+      "lat": -0.50178,
+      "lng": 117.139309,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/injured-orangutan-rescued-from-indonesia-wildfires?traffic_source=rss",
+      "prayer": "Critically endangered orangutans and wildlife in Borneo's burning forests facing habitat destruction",
+      "alert_summary": "Wildfires across Borneo have burned roughly 900,000 hectares and prompted rescues of at least 53 orangutans as of late September 2026."
+    },
+    {
+      "wp_id": 12972,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-07-2026-cat-3/",
+      "date": "2026-10-10T03:27:17",
+      "title": "Storm in Mexico 10/07/2026 — Cat 3",
+      "body": "Tropical Storm Simon formed on October 7, 2026, in the Pacific Ocean off the southwestern coast of Mexico. By October 9, Simon had rapidly intensified with sustained winds of 110 mph (177 kph) and was forecast to reach C",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Storm",
+      "lat": 19.05161,
+      "lng": -104.31777,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
+      "prayer": "Residents along Mexico's Pacific coast — including Manzanillo, Colima, Michoacán, and Jalisco — facing a rapidly intensifying hurricane",
+      "alert_summary": "Hurricane Simon, with sustained winds of 110 mph, is churning toward Mexico's Pacific coast between Manzanillo and Puerto Vallarta, affecting an estimated 845,000 people."
+    },
+    {
+      "wp_id": 12971,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-10-08-2026/",
+      "date": "2026-10-10T03:26:44",
+      "title": "Volcano in Philippines 10/08/2026",
+      "body": "On October 8, 2026, Taal Volcano near the Philippine capital erupted, sending a dark grey ash plume 4,000 metres above its crater, accompanied by volcanic lightning. The eruption was reported at 10:06 UTC, with volcanic ",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Volcano",
+      "lat": 13.879807,
+      "lng": 120.92103,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000151",
+      "prayer": "Communities near Taal Volcano in Batangas province as eruptions continue",
+      "alert_summary": "Taal Volcano erupted on October 8, 2026, sending an ash plume 4,000 metres above its crater alongside volcanic lightning."
+    },
+    {
+      "wp_id": 12970,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-10-2026-magnitude-5/",
+      "date": "2026-10-10T03:22:23",
+      "title": "Earthquake in Indonesia 10/10/2026 — Magnitude 5",
+      "body": "On October 10, 2026, a magnitude 5 earthquake struck the Molucca Sea, centered about 133 kilometers west-northwest of Ternate in North Maluku province, Indonesia. The event was recorded at approximately 2:30 AM UTC. No r",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": 1.416,
+      "lng": 126.3601,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs",
+      "prayer": "Communities near Ternate, Indonesia, after an offshore earthquake in the Molucca Sea",
+      "alert_summary": "Magnitude 5 earthquake struck 133 km WNW of Ternate, Indonesia; no casualty figures reported."
+    },
+    {
+      "wp_id": 12969,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-10-08-2026-magnitude-6/",
+      "date": "2026-10-10T03:22:01",
+      "title": "Earthquake in Vanuatu 10/08/2026 — Magnitude 6",
+      "body": "On October 8, 2026, a magnitude 6.3 earthquake struck 102 km northeast of Norsup, Vanuatu, at a shallow depth of 10 km. No tsunami warning, advisory, watch, or threat was in effect following the earthquake. An estimated ",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -15.5411,
+      "lng": 168.1889,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi",
+      "prayer": "Residents of Penama Island and surrounding communities in Vanuatu after a shallow earthquake",
+      "alert_summary": "Magnitude 6 earthquake struck 102 km northeast of Norsup, Vanuatu at a depth of 10 km; no casualties reported."
+    },
+    {
+      "wp_id": 12968,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-10-09-2026-magnitude-7/",
+      "date": "2026-10-10T03:21:28",
+      "title": "Earthquake in Panama 10/09/2026 — Magnitude 7",
+      "body": "On October 9, 2026, Panama was struck by two earthquakes in the same afternoon. A magnitude 7.7 earthquake shook the central coast of Panama, prompting tsunami warnings for several neighboring countries. Around three hou",
+      "country": "Panama",
+      "countries": [
+        "Panama"
+      ],
+      "type": "Earthquake",
+      "lat": 7.7176,
+      "lng": -81.4687,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
+      "prayer": "Residents across Panama's Pacific coast communities after two earthquakes, building collapses, and widespread evacuations on October 9",
+      "alert_summary": "A magnitude 6.6 aftershock struck near Río Grande, Panama, hours after a magnitude 7.7 mainshock that collapsed buildings and injured several people."
+    },
     {
       "wp_id": 12883,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-06-2026/",
