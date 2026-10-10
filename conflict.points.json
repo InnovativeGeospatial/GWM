@@ -1,9 +1,299 @@
 {
   "feed": "conflict",
-  "updated": "2026-10-10T04:22:38.777821+00:00",
-  "count": 2248,
+  "updated": "2026-10-10T23:52:59.016987+00:00",
+  "count": 2260,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13185,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-pryluky-chernihiv-oblast/",
+      "date": "2026-10-10T23:52:51",
+      "title": "Armed Conflict in Kyiv, Pryluky, Kramatorsk, Donetsk",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 50.5951,
+      "lng": 32.3839
+    },
+    {
+      "wp_id": 13050,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-mall-of-america-minnesota/",
+      "date": "2026-10-10T23:51:00",
+      "title": "Civil Unrest in West Philadelphia",
+      "country": "United States",
+      "type": "Civil Unrest",
+      "lat": 33.1041,
+      "lng": -96.8097
+    },
+    {
+      "wp_id": 13016,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kramatorsk/",
+      "date": "2026-10-10T23:50:38",
+      "title": "Armed Conflict in Zaporizhzhia",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.7384,
+      "lng": 37.5887
+    },
+    {
+      "wp_id": 13163,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-west-philadelphia/",
+      "date": "2026-10-10T23:50:17",
+      "title": "Armed Conflict in West Philadelphia",
+      "country": "United States",
+      "type": "Armed Conflict",
+      "lat": 39.9527,
+      "lng": -75.2005
+    },
+    {
+      "wp_id": 13081,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-king-khalid-international-airport-riyadh/",
+      "date": "2026-10-10T23:49:58",
+      "title": "Armed Conflict in King Khalid International Airport, Riyadh",
+      "country": "Saudi Arabia",
+      "type": "Armed Conflict",
+      "lat": 24.6333,
+      "lng": 46.7167
+    },
+    {
+      "wp_id": 13014,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-6/",
+      "date": "2026-10-10T23:49:34",
+      "title": "Armed Conflict in Gaza City",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.5124,
+      "lng": 34.4572
+    },
+    {
+      "wp_id": 13012,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hermel-district/",
+      "date": "2026-10-10T23:41:01",
+      "title": "Armed Conflict in Hosh al-Sayyed Ali, Hermel district",
+      "country": "Lebanon",
+      "type": "Armed Conflict",
+      "lat": 34.3965,
+      "lng": 36.3845
+    },
+    {
+      "wp_id": 13075,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-hasakah/",
+      "date": "2026-10-10T23:40:42",
+      "title": "Civil Unrest in Hasakah",
+      "country": "Syria",
+      "type": "Civil Unrest",
+      "lat": 36.5014,
+      "lng": 40.747
+    },
+    {
+      "wp_id": 13158,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hawija-kirkuk-2/",
+      "date": "2026-10-10T23:40:25",
+      "title": "Armed Conflict in Hawija, Kirkuk",
+      "country": "Iraq",
+      "type": "Armed Conflict",
+      "lat": 35.3233,
+      "lng": 43.7824
+    },
+    {
+      "wp_id": 13023,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-adigrat/",
+      "date": "2026-10-10T23:38:55",
+      "title": "Armed Conflict in Adigrat, northern Tigray",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 14.2774,
+      "lng": 39.4615
+    },
+    {
+      "wp_id": 13015,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wad-al-mahi-blue-nile-state/",
+      "date": "2026-10-10T23:38:37",
+      "title": "Armed Conflict in Abu Shendi, Wad al-Mahi, Blue Nile state",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 11.4167,
+      "lng": 34.6167
+    },
+    {
+      "wp_id": 13017,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-south-kordofan-2/",
+      "date": "2026-10-10T23:35:36",
+      "title": "Armed Conflict in El Fasher",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 11.0086,
+      "lng": 29.7156
+    },
+    {
+      "wp_id": 13053,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-masisi-north-kivu/",
+      "date": "2026-10-10T23:33:59",
+      "title": "Armed Conflict in Haut-Uélé",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -1.3988,
+      "lng": 28.8162
+    },
+    {
+      "wp_id": 13041,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kukawa-borno/",
+      "date": "2026-10-10T23:32:49",
+      "title": "Armed Conflict in Maiyama, Kebbi State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.8119,
+      "lng": 13.5551
+    },
+    {
+      "wp_id": 13142,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-benue-state-rivers-state-cross-river-state/",
+      "date": "2026-10-10T23:31:26",
+      "title": "Civil Unrest in Benue State; Rivers State; Cross River State",
+      "country": "Nigeria",
+      "type": "Civil Unrest",
+      "lat": 7.731263,
+      "lng": 8.538425
+    },
+    {
+      "wp_id": 13141,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-zamfara-state-ogun-state-rivers-state/",
+      "date": "2026-10-10T23:31:05",
+      "title": "Armed Conflict in Zamfara State; Ogun State; Rivers State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 12.165836,
+      "lng": 6.66064
+    },
+    {
+      "wp_id": 13040,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chikun-county-kaduna-state/",
+      "date": "2026-10-10T23:29:40",
+      "title": "Armed Conflict in Chikun County",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.4503,
+      "lng": 7.4555
+    },
+    {
+      "wp_id": 13135,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-puerto-bolivar-el-oro-province/",
+      "date": "2026-10-10T23:28:39",
+      "title": "Armed Conflict in Puerto Bolívar, El Oro province",
+      "country": "Ecuador",
+      "type": "Armed Conflict",
+      "lat": -3.268238,
+      "lng": -79.999367
+    },
+    {
+      "wp_id": 13035,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-8/",
+      "date": "2026-10-10T23:28:04",
+      "title": "Armed Conflict in Kenscoff",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.5398,
+      "lng": -72.3355
+    },
+    {
+      "wp_id": 13034,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mazatlan/",
+      "date": "2026-10-10T23:27:46",
+      "title": "Armed Conflict in Mazatlan, Sinaloa",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 23.1985,
+      "lng": -106.4228
+    },
+    {
+      "wp_id": 13025,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris-7/",
+      "date": "2026-10-10T23:27:24",
+      "title": "Civil Unrest in Saint-Ouen-l'Aumone",
+      "country": "France",
+      "type": "Civil Unrest",
+      "lat": 48.8535,
+      "lng": 2.3484
+    },
+    {
+      "wp_id": 13131,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-khan-yunis/",
+      "date": "2026-10-10T23:27:10",
+      "title": "Displacement in Khan Yunis",
+      "country": "Palestine",
+      "type": "Displacement",
+      "lat": 31.343477,
+      "lng": 34.30874
+    },
+    {
+      "wp_id": 13129,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bab-al-mandab/",
+      "date": "2026-10-10T23:26:34",
+      "title": "Armed Conflict in Bab al-Mandab",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 13.851818,
+      "lng": 44.344228
+    },
+    {
+      "wp_id": 13020,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-jantar-mantar-new-delhi-5/",
+      "date": "2026-10-10T23:26:16",
+      "title": "Civil Unrest in New Delhi",
+      "country": "India",
+      "type": "Civil Unrest",
+      "lat": 28.629,
+      "lng": 77.2194
+    },
+    {
+      "wp_id": 13027,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-soweto-durban/",
+      "date": "2026-10-10T23:25:38",
+      "title": "Civil Unrest in Durban",
+      "country": "South Africa",
+      "type": "Civil Unrest",
+      "lat": -29.7311,
+      "lng": 30.8723
+    },
+    {
+      "wp_id": 13122,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dubai-tel-aviv-flight-diverted-to-saudi-arabia/",
+      "date": "2026-10-10T23:25:08",
+      "title": "Armed Conflict in Dubai-Tel Aviv flight (diverted to Saudi Arabia)",
+      "country": "Saudi Arabia",
+      "type": "Armed Conflict",
+      "lat": 23.384784,
+      "lng": 44.652426
+    },
+    {
+      "wp_id": 13115,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-london-berlin-rome-warsaw/",
+      "date": "2026-10-10T23:23:01",
+      "title": "Civil Unrest in London, Berlin, Rome, Warsaw",
+      "country": "United Kingdom",
+      "type": "Civil Unrest",
+      "lat": 51.550448,
+      "lng": -0.401841
+    },
+    {
+      "wp_id": 13112,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-balakhany-masally-district/",
+      "date": "2026-10-10T23:22:10",
+      "title": "Civil Unrest in Balakhany, Masally district",
+      "country": "Azerbaijan",
+      "type": "Civil Unrest",
+      "lat": 39.032211,
+      "lng": 48.672109
+    },
+    {
+      "wp_id": 13109,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mocha-and-dhubab/",
+      "date": "2026-10-10T23:21:08",
+      "title": "Armed Conflict in Mocha and Dhubab",
+      "country": "Yemen",
+      "type": "Armed Conflict",
+      "lat": 13.317916,
+      "lng": 43.250109
+    },
     {
       "wp_id": 13082,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-barangay-sabong-lamitan-city-basilan/",
@@ -13,16 +303,6 @@
       "type": "Armed Conflict",
       "lat": 6.611445,
       "lng": 122.15826
-    },
-    {
-      "wp_id": 13081,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-king-khalid-international-airport-riyadh/",
-      "date": "2026-10-10T04:22:04",
-      "title": "Armed Conflict in King Khalid International Airport, Riyadh",
-      "country": "Saudi Arabia",
-      "type": "Armed Conflict",
-      "lat": 24.633333,
-      "lng": 46.716667
     },
     {
       "wp_id": 13080,
@@ -43,26 +323,6 @@
       "type": "Coup or Crisis",
       "lat": 11.861324,
       "lng": -15.583055
-    },
-    {
-      "wp_id": 13016,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kramatorsk/",
-      "date": "2026-10-10T04:20:29",
-      "title": "Armed Conflict in Kramatorsk",
-      "country": "Ukraine",
-      "type": "Armed Conflict",
-      "lat": 48.7384,
-      "lng": 37.5887
-    },
-    {
-      "wp_id": 13075,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-hasakah/",
-      "date": "2026-10-10T04:17:09",
-      "title": "Civil Unrest in Hasakah",
-      "country": "Syria",
-      "type": "Civil Unrest",
-      "lat": 36.501374,
-      "lng": 40.746995
     },
     {
       "wp_id": 13074,
@@ -95,36 +355,6 @@
       "lng": 98.23976
     },
     {
-      "wp_id": 13023,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-adigrat/",
-      "date": "2026-10-10T04:14:49",
-      "title": "Armed Conflict in Adigrat",
-      "country": "Ethiopia",
-      "type": "Armed Conflict",
-      "lat": 14.2774,
-      "lng": 39.4615
-    },
-    {
-      "wp_id": 13015,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wad-al-mahi-blue-nile-state/",
-      "date": "2026-10-10T04:14:08",
-      "title": "Armed Conflict in Abu Shendi, Blue Nile state",
-      "country": "Sudan",
-      "type": "Armed Conflict",
-      "lat": 11.4167,
-      "lng": 34.6167
-    },
-    {
-      "wp_id": 13050,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-mall-of-america-minnesota/",
-      "date": "2026-10-10T04:13:06",
-      "title": "Civil Unrest in Bloomington, Minnesota",
-      "country": "United States",
-      "type": "Civil Unrest",
-      "lat": 33.1041,
-      "lng": -96.8097
-    },
-    {
       "wp_id": 13065,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-menz-amhara-region/",
       "date": "2026-10-10T04:12:46",
@@ -135,26 +365,6 @@
       "lng": 39.5
     },
     {
-      "wp_id": 13053,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-masisi-north-kivu/",
-      "date": "2026-10-10T04:09:07",
-      "title": "Armed Conflict in Goma",
-      "country": "Congo",
-      "type": "Armed Conflict",
-      "lat": -1.3988,
-      "lng": 28.8162
-    },
-    {
-      "wp_id": 13041,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-kukawa-borno/",
-      "date": "2026-10-10T04:06:20",
-      "title": "Armed Conflict in Kukawa, Borno State",
-      "country": "Nigeria",
-      "type": "Armed Conflict",
-      "lat": 12.8119,
-      "lng": 13.5551
-    },
-    {
       "wp_id": 13043,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-bala-tela-village-gombi-local-government-area/",
       "date": "2026-10-10T04:03:02",
@@ -163,16 +373,6 @@
       "type": "Armed Conflict",
       "lat": 10.38301,
       "lng": 11.206567
-    },
-    {
-      "wp_id": 13040,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-chikun-county-kaduna-state/",
-      "date": "2026-10-10T04:01:32",
-      "title": "Armed Conflict in Chikun County, Kaduna state",
-      "country": "Nigeria",
-      "type": "Armed Conflict",
-      "lat": 10.450287,
-      "lng": 7.455515
     },
     {
       "wp_id": 13037,
@@ -195,36 +395,6 @@
       "lng": -74.083633
     },
     {
-      "wp_id": 13035,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-port-au-prince-8/",
-      "date": "2026-10-10T03:59:32",
-      "title": "Armed Conflict in Port-au-Prince",
-      "country": "Haiti",
-      "type": "Armed Conflict",
-      "lat": 18.539766,
-      "lng": -72.33548
-    },
-    {
-      "wp_id": 13034,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mazatlan/",
-      "date": "2026-10-10T03:58:32",
-      "title": "Armed Conflict in Mazatlán",
-      "country": "Mexico",
-      "type": "Armed Conflict",
-      "lat": 23.198515,
-      "lng": -106.42282
-    },
-    {
-      "wp_id": 13025,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris-7/",
-      "date": "2026-10-10T03:58:01",
-      "title": "Civil Unrest in France",
-      "country": "France",
-      "type": "Civil Unrest",
-      "lat": 48.8535,
-      "lng": 2.3484
-    },
-    {
       "wp_id": 13013,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tabuk-2/",
       "date": "2026-10-10T03:57:49",
@@ -235,16 +405,6 @@
       "lng": 36.5665
     },
     {
-      "wp_id": 13020,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-jantar-mantar-new-delhi-5/",
-      "date": "2026-10-10T03:56:59",
-      "title": "Civil Unrest in New Delhi",
-      "country": "India",
-      "type": "Civil Unrest",
-      "lat": 28.629,
-      "lng": 77.2194
-    },
-    {
       "wp_id": 13029,
       "wp_link": "https://globalwitnessmonitor.com/displacement-in-kyiv/",
       "date": "2026-10-10T03:56:39",
@@ -253,16 +413,6 @@
       "type": "Displacement",
       "lat": 50.450034,
       "lng": 30.524136
-    },
-    {
-      "wp_id": 13027,
-      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-soweto-durban/",
-      "date": "2026-10-10T03:55:39",
-      "title": "Civil Unrest in Soweto, Durban",
-      "country": "South Africa",
-      "type": "Civil Unrest",
-      "lat": -29.731108,
-      "lng": 30.872326
     },
     {
       "wp_id": 13024,
@@ -293,36 +443,6 @@
       "type": "Civil Unrest",
       "lat": 34.349144,
       "lng": 62.216325
-    },
-    {
-      "wp_id": 13017,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-south-kordofan-2/",
-      "date": "2026-10-10T03:51:59",
-      "title": "Armed Conflict in South Kordofan",
-      "country": "Sudan",
-      "type": "Armed Conflict",
-      "lat": 11.008593,
-      "lng": 29.715575
-    },
-    {
-      "wp_id": 13014,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaza-6/",
-      "date": "2026-10-10T03:50:20",
-      "title": "Armed Conflict in Gaza",
-      "country": "Palestine",
-      "type": "Armed Conflict",
-      "lat": 31.512442,
-      "lng": 34.457165
-    },
-    {
-      "wp_id": 13012,
-      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hermel-district/",
-      "date": "2026-10-10T03:49:41",
-      "title": "Armed Conflict in Hermel district",
-      "country": "Lebanon",
-      "type": "Armed Conflict",
-      "lat": 34.39648,
-      "lng": 36.38452
     },
     {
       "wp_id": 12915,
