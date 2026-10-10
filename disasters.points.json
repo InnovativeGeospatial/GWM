@@ -1,9 +1,139 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-07T10:42:28.831845+00:00",
-  "count": 1191,
+  "updated": "2026-10-10T03:37:33.433148+00:00",
+  "count": 1204,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 12980,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-10-07-2026/",
+      "date": "2026-10-10T03:36:29",
+      "title": "Wildfire in Canada 10/07/2026",
+      "country": "Canada",
+      "type": "Wildfire",
+      "lat": 49.451564,
+      "lng": -84.253981
+    },
+    {
+      "wp_id": 12979,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-10-2026/",
+      "date": "2026-10-10T03:35:51",
+      "title": "Wildfire in United States 10/10/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 35.753919,
+      "lng": -118.425509
+    },
+    {
+      "wp_id": 12978,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-thailand-10-07-2026/",
+      "date": "2026-10-10T03:35:33",
+      "title": "Flood in Thailand 10/07/2026",
+      "country": "Thailand",
+      "type": "Flood",
+      "lat": 13.593699,
+      "lng": 100.597496
+    },
+    {
+      "wp_id": 12977,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-chile-10-09-2026/",
+      "date": "2026-10-10T03:33:29",
+      "title": "Flood in Chile 10/09/2026",
+      "country": "Chile",
+      "type": "Flood",
+      "lat": -33.408745,
+      "lng": -70.567375
+    },
+    {
+      "wp_id": 12976,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-nepal-10-09-2026/",
+      "date": "2026-10-10T03:30:52",
+      "title": "Disease in Nepal 10/09/2026",
+      "country": "Nepal",
+      "type": "Disease",
+      "lat": 28.131453,
+      "lng": 83.89468
+    },
+    {
+      "wp_id": 12975,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-09-2026-cat-2/",
+      "date": "2026-10-10T03:29:11",
+      "title": "Storm in United States 10/09/2026 — Cat 2",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 30.394653,
+      "lng": -86.507842
+    },
+    {
+      "wp_id": 12974,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-10-07-2026/",
+      "date": "2026-10-10T03:28:35",
+      "title": "Disease in Kenya 10/07/2026",
+      "country": "Kenya",
+      "type": "Disease",
+      "lat": -1.289001,
+      "lng": 36.817281
+    },
+    {
+      "wp_id": 12973,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-indonesia-10-09-2026/",
+      "date": "2026-10-10T03:27:58",
+      "title": "Wildfire in Indonesia 10/09/2026",
+      "country": "Indonesia",
+      "type": "Wildfire",
+      "lat": -0.50178,
+      "lng": 117.139309
+    },
+    {
+      "wp_id": 12972,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-07-2026-cat-3/",
+      "date": "2026-10-10T03:27:17",
+      "title": "Storm in Mexico 10/07/2026 — Cat 3",
+      "country": "Mexico",
+      "type": "Storm",
+      "lat": 19.05161,
+      "lng": -104.31777
+    },
+    {
+      "wp_id": 12971,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-10-08-2026/",
+      "date": "2026-10-10T03:26:44",
+      "title": "Volcano in Philippines 10/08/2026",
+      "country": "Philippines",
+      "type": "Volcano",
+      "lat": 13.879807,
+      "lng": 120.92103
+    },
+    {
+      "wp_id": 12970,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-10-2026-magnitude-5/",
+      "date": "2026-10-10T03:22:23",
+      "title": "Earthquake in Indonesia 10/10/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 1.416,
+      "lng": 126.3601
+    },
+    {
+      "wp_id": 12969,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-10-08-2026-magnitude-6/",
+      "date": "2026-10-10T03:22:01",
+      "title": "Earthquake in Vanuatu 10/08/2026 — Magnitude 6",
+      "country": "Vanuatu",
+      "type": "Earthquake",
+      "lat": -15.5411,
+      "lng": 168.1889
+    },
+    {
+      "wp_id": 12968,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-10-09-2026-magnitude-7/",
+      "date": "2026-10-10T03:21:28",
+      "title": "Earthquake in Panama 10/09/2026 — Magnitude 7",
+      "country": "Panama",
+      "type": "Earthquake",
+      "lat": 7.7176,
+      "lng": -81.4687
+    },
     {
       "wp_id": 12883,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-06-2026/",
