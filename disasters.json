@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-10T03:37:31.336033+00:00",
-  "count": 940,
+  "updated": "2026-10-10T23:17:07.662441+00:00",
+  "count": 949,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 13101,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-turkey-10-08-2026/",
+      "date": "2026-10-10T23:14:02",
+      "title": "Landslide in Turkey 10/08/2026",
+      "body": "On October 8, 2026, a landslide occurred in the morning near the Turkish border city of Hopa, when boulders and soil broke loose from a slope and crashed onto a parking area used by heavy trucks. One person was killed, a",
+      "country": "Turkey",
+      "countries": [
+        "Turkey"
+      ],
+      "type": "Landslide",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUGNLM0FTNEFYU2c0ZHBvZU5jUXBZRk1CbjFUcGZtRk9YakN6UXpTRXd5S212MnM2R29vUTRmZ2xvOUpxTTh4TnF5MDBDQWtEbldFSk1FQl9BMnFZbFVBRFc4QTdPSTF4WGFENlBDWWkwNy1yeWN3TnBTTDgwbG9TSnlhaHJ5aktvQlh2NFdoRVk4dw?oc=5",
+      "prayer": "Truck drivers and workers near Hopa after a deadly landslide struck a border parking area",
+      "alert_summary": "A landslide near Hopa, Turkey killed 1 person and damaged 8 trucks in a border area parking lot."
+    },
+    {
+      "wp_id": 13100,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-philippines-10-10-2026/",
+      "date": "2026-10-10T23:13:30",
+      "title": "Landslide in Philippines 10/10/2026",
+      "body": "On October 9, 2026, four relatives were having lunch together in a home in Sitio Riverside, Barangay Pulangbato, Cebu City, when a landslide buried them around noon, killing two young boys and their grandmother while the",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Landslide",
+      "lat": 10.398038,
+      "lng": 123.90637,
+      "source_title": "\"landslide OR mudslide killed OR buried when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzbFBBc19seDNpOVdyMWgyZDljSGx3VU1WRkNiTWVPZkxqMXJDeG1na1p0WWx0R0JIY29oZ3lBa29XWGcxcXV3SnVhbm81ZHY1X3R4OTRoOEtQQ19QV0dmbWI1aW1WQ09pYjFZT090VTRMTE0?oc=5",
+      "prayer": "A grandmother and two young grandchildren killed by a landslide in Cebu City, and 137 residents displaced",
+      "alert_summary": "A landslide in Barangay Pulangbato, Cebu City killed 3 and injured 1, displacing 137 residents across 35 families"
+    },
+    {
+      "wp_id": 13099,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-russia-10-10-2026/",
+      "date": "2026-10-10T23:07:33",
+      "title": "Disease in Russia 10/10/2026",
+      "body": "A 28-year-old laboratory technician at the Irkutsk Antiplague Research Institute died on October 2 after falling ill with pneumonia of unknown cause. Russian authorities quarantined about 200 people following her death. ",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Disease",
+      "lat": 52.284096,
+      "lng": 104.28476,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death?traffic_source=rss",
+      "prayer": "Laboratory worker and contacts in Irkutsk after undiagnosed pneumonia death; clarity on cause of illness",
+      "alert_summary": "A laboratory worker at a plague research institute in Irkutsk died of pneumonia on October 2; no plague diagnosis confirmed and no ongoing transmission detected."
+    },
+    {
+      "wp_id": 13098,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-10-2026-cat-4/",
+      "date": "2026-10-10T23:07:24",
+      "title": "Storm in United States 10/10/2026 — Cat 4",
+      "body": "Hurricane Isaias struck the southern United States on October 11, 2026, as a Category 4 hurricane with maximum sustained winds of 105 mph. The storm made landfall in Florida late on Friday evening before weakening to a p",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 31.240688,
+      "lng": -86.52774,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Four people killed and 600,000 without power across the southern United States after Hurricane Isaias made landfall",
+      "alert_summary": "Hurricane Isaias made landfall in Florida with 105 mph winds, killing four people and leaving 600,000 without power across multiple states."
+    },
+    {
+      "wp_id": 13097,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-07-2026-cat-4/",
+      "date": "2026-10-10T23:07:07",
+      "title": "Storm in Mexico 10/07/2026 — Cat 4",
+      "body": "Tropical Storm Simon formed on October 7, 2026, in the Pacific Ocean off the southwestern coast of Mexico. It intensified rapidly over the following days. By early Saturday, October 10, Simon had strengthened into a Cate",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Storm",
+      "lat": 19.215651,
+      "lng": -104.607168,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
+      "prayer": "Residents along Mexico's west-central Pacific coast facing a Category 4 hurricane and life-threatening flooding",
+      "alert_summary": "Hurricane Simon reached Category 4 with 150 mph winds on October 10, 2026, threatening about 749,000 people along Mexico's west-central coast."
+    },
+    {
+      "wp_id": 13096,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-china-10-10-2026/",
+      "date": "2026-10-10T23:06:42",
+      "title": "Wildfire in China 10/10/2026",
+      "body": "A forest fire started in Mongolia, China on September 10, 2026 and continued until October 10, 2026. No information on the area burned, number of people affected, or damage was provided in the available report.",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Wildfire",
+      "lat": 46.755627039016346,
+      "lng": 119.11747015453685,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032703",
+      "prayer": "Firefighters and communities in Mongolia, China battling forest fire",
+      "alert_summary": "A forest fire burned in Mongolia, China from September 10 to October 10, 2026; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 13095,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-09-2026/",
+      "date": "2026-10-10T23:04:44",
+      "title": "Drought in Russia 10/09/2026",
+      "body": "The Ob River near Novosibirsk had fallen to notably low levels by October 2026, with water dropping below long-term historical minimums and exposing riverbed and sandbars within the city limits. The primary driver is red",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 55.838497,
+      "lng": 83.85485,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20261009044004-0264082.xml",
+      "prayer": "Communities along the Ob River near Novosibirsk facing prolonged low water and disrupted river access",
+      "alert_summary": "Low water conditions on the Ob River near Novosibirsk, Dubrovina, and Kruglikovo have dropped below historical minimums with no end in sight."
+    },
+    {
+      "wp_id": 13094,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-10-10-2026-magnitude-5/",
+      "date": "2026-10-10T22:56:37",
+      "title": "Earthquake in Chile 10/10/2026 — Magnitude 5",
+      "body": "On October 10, 2026, a magnitude 5.3 earthquake occurred southeast of Easter Island. With a focal depth of about 10 km, the quake was shallow, meaning shaking is typically felt more strongly at the surface. The epicenter",
+      "country": "Chile",
+      "countries": [
+        "Chile"
+      ],
+      "type": "Earthquake",
+      "lat": -27.147003,
+      "lng": -109.43021,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
+      "prayer": "Easter Island and surrounding communities after an oceanic earthquake struck nearby waters",
+      "alert_summary": "Magnitude 5 earthquake struck southeast of Easter Island on October 10, 2026, at a depth of about 10 km; no casualty figures reported."
+    },
+    {
+      "wp_id": 13093,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-10-09-2026-magnitude-6/",
+      "date": "2026-10-10T22:56:22",
+      "title": "Earthquake in Panama 10/09/2026 — Magnitude 6",
+      "body": "On October 9, 2026, a magnitude 7.7 earthquake struck Panama. The magnitude 5.8 event near El Cacao was one of several significant aftershocks that followed the mainshock, recorded at a depth of about 10 kilometers. Othe",
+      "country": "Panama",
+      "countries": [
+        "Panama"
+      ],
+      "type": "Earthquake",
+      "lat": 7.449253,
+      "lng": -80.403595,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18x",
+      "prayer": "Residents of Panama's Los Santos and Veraguas provinces after a sequence of earthquakes including a magnitude 7.7 mainshock",
+      "alert_summary": "A magnitude 5.8 aftershock struck near El Cacao, Panama on October 9, 2026, part of a sequence triggered by a magnitude 7.7 mainshock."
+    },
     {
       "wp_id": 12980,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-10-07-2026/",
