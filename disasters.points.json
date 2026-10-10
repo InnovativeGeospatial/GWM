@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-10T03:37:33.433148+00:00",
-  "count": 1204,
+  "updated": "2026-10-10T23:17:09.488297+00:00",
+  "count": 1213,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13101,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-turkey-10-08-2026/",
+      "date": "2026-10-10T23:14:02",
+      "title": "Landslide in Turkey 10/08/2026",
+      "country": "Turkey",
+      "type": "Landslide",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 13100,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-philippines-10-10-2026/",
+      "date": "2026-10-10T23:13:30",
+      "title": "Landslide in Philippines 10/10/2026",
+      "country": "Philippines",
+      "type": "Landslide",
+      "lat": 10.398038,
+      "lng": 123.90637
+    },
+    {
+      "wp_id": 13099,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-russia-10-10-2026/",
+      "date": "2026-10-10T23:07:33",
+      "title": "Disease in Russia 10/10/2026",
+      "country": "Russia",
+      "type": "Disease",
+      "lat": 52.284096,
+      "lng": 104.28476
+    },
+    {
+      "wp_id": 13098,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-10-2026-cat-4/",
+      "date": "2026-10-10T23:07:24",
+      "title": "Storm in United States 10/10/2026 — Cat 4",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 31.240688,
+      "lng": -86.52774
+    },
+    {
+      "wp_id": 13097,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-07-2026-cat-4/",
+      "date": "2026-10-10T23:07:07",
+      "title": "Storm in Mexico 10/07/2026 — Cat 4",
+      "country": "Mexico",
+      "type": "Storm",
+      "lat": 19.215651,
+      "lng": -104.607168
+    },
+    {
+      "wp_id": 13096,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-china-10-10-2026/",
+      "date": "2026-10-10T23:06:42",
+      "title": "Wildfire in China 10/10/2026",
+      "country": "China",
+      "type": "Wildfire",
+      "lat": 46.755627039016346,
+      "lng": 119.11747015453685
+    },
+    {
+      "wp_id": 13095,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-09-2026/",
+      "date": "2026-10-10T23:04:44",
+      "title": "Drought in Russia 10/09/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 55.838497,
+      "lng": 83.85485
+    },
+    {
+      "wp_id": 13094,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-10-10-2026-magnitude-5/",
+      "date": "2026-10-10T22:56:37",
+      "title": "Earthquake in Chile 10/10/2026 — Magnitude 5",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -27.147003,
+      "lng": -109.43021
+    },
+    {
+      "wp_id": 13093,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-panama-10-09-2026-magnitude-6/",
+      "date": "2026-10-10T22:56:22",
+      "title": "Earthquake in Panama 10/09/2026 — Magnitude 6",
+      "country": "Panama",
+      "type": "Earthquake",
+      "lat": 7.449253,
+      "lng": -80.403595
+    },
     {
       "wp_id": 12980,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-canada-10-07-2026/",
