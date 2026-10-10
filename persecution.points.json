@@ -1,9 +1,79 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-10T03:48:51.674684+00:00",
-  "count": 734,
+  "updated": "2026-10-10T23:20:28.033238+00:00",
+  "count": 741,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13108,
+      "wp_link": "https://globalwitnessmonitor.com/blasphemy-accusation-triggers-mob-arson-mass-displacement-of-christian-families-in-pakistan/",
+      "date": "2026-10-10T23:20:11",
+      "title": "Blasphemy accusation triggers mob arson, mass displacement of Christian families in Pakistan",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13107,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christians-home-and-clinic-in-pakistan-after-blasphemy-accusation-displacing-dozens-of-families/",
+      "date": "2026-10-10T23:19:51",
+      "title": "Muslim Mob Burns Christian's Home and Clinic in Pakistan After Blasphemy Accusation, Displacing Dozens of Families",
+      "country": "pakistan",
+      "type": "church",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13106,
+      "wp_link": "https://globalwitnessmonitor.com/historic-wooden-catholic-church-destroyed-in-arson-attack-in-canada/",
+      "date": "2026-10-10T23:19:22",
+      "title": "Historic Wooden Catholic Church Destroyed in Arson Attack in Canada",
+      "country": "canada",
+      "type": "church",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 13105,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christian-home-and-shop-over-blasphemy-accusation-displacing-dozens-of-families/",
+      "date": "2026-10-10T23:19:06",
+      "title": "Muslim Mob Burns Christian Home and Shop Over Blasphemy Accusation, Displacing Dozens of Families",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13104,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-arrested-by-secret-service-while-praying-outside-chinese-embassy-in-solidarity-with-persecuted-christians/",
+      "date": "2026-10-10T23:18:49",
+      "title": "Pastor arrested by Secret Service while praying outside Chinese Embassy in solidarity with persecuted Christians",
+      "country": "united states",
+      "type": "arrest",
+      "lat": 37.1,
+      "lng": -95.7
+    },
+    {
+      "wp_id": 13103,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-attackers-kill-one-abduct-multiple-christians-including-infant-and-pregnant-woman-in-nigeria/",
+      "date": "2026-10-10T23:18:32",
+      "title": "Fulani Attackers Kill One, Abduct Multiple Christians Including Infant and Pregnant Woman in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13102,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-christians-death-sentence-upheld-by-supreme-court-in-blasphemy-case/",
+      "date": "2026-10-10T23:18:12",
+      "title": "Pakistani Christian's Death Sentence Upheld by Supreme Court in Blasphemy Case",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
     {
       "wp_id": 13011,
       "wp_link": "https://globalwitnessmonitor.com/12-christians-arrested-and-interrogated-after-worship-raid-at-humanitarian-shelter/",
