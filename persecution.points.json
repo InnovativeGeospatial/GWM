@@ -1,9 +1,229 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-07T10:50:08.568485+00:00",
-  "count": 712,
+  "updated": "2026-10-10T03:48:51.674684+00:00",
+  "count": 734,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13011,
+      "wp_link": "https://globalwitnessmonitor.com/12-christians-arrested-and-interrogated-after-worship-raid-at-humanitarian-shelter/",
+      "date": "2026-10-10T03:48:45",
+      "title": "12 Christians arrested and interrogated after worship raid at humanitarian shelter",
+      "country": "algeria",
+      "type": "arrest",
+      "lat": 28.0,
+      "lng": 2.6
+    },
+    {
+      "wp_id": 13010,
+      "wp_link": "https://globalwitnessmonitor.com/cuban-court-convicts-christian-woman-and-mother-for-faith-linked-online-video-pastor-also-detained/",
+      "date": "2026-10-10T03:48:06",
+      "title": "Cuban court convicts Christian woman and mother for faith-linked online video; pastor also detained",
+      "country": "cuba",
+      "type": "arrest",
+      "lat": 21.5,
+      "lng": -79.5
+    },
+    {
+      "wp_id": 13009,
+      "wp_link": "https://globalwitnessmonitor.com/christian-arrested-on-blasphemy-charges-as-mob-targets-home-and-clinic-village-in-fear/",
+      "date": "2026-10-10T03:47:38",
+      "title": "Christian Arrested on Blasphemy Charges as Mob Targets Home and Clinic, Village in Fear",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13008,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militants-abduct-pastors-wife-and-three-children-on-nigerian-highway/",
+      "date": "2026-10-10T03:47:27",
+      "title": "Islamist Militants Abduct Pastor's Wife and Three Children on Nigerian Highway",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13007,
+      "wp_link": "https://globalwitnessmonitor.com/christian-missionary-kidnapped-for-five-days-in-nigerias-muslim-majority-borderland/",
+      "date": "2026-10-10T03:47:09",
+      "title": "Christian Missionary Kidnapped for Five Days in Nigeria's Muslim-Majority Borderland",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13006,
+      "wp_link": "https://globalwitnessmonitor.com/christian-family-demands-return-of-teenage-son-allegedly-kidnapped-and-forcibly-converted-in-pakistan/",
+      "date": "2026-10-10T03:46:50",
+      "title": "Christian Family Demands Return of Teenage Son Allegedly Kidnapped and Forcibly Converted in Pakistan",
+      "country": "pakistan",
+      "type": "arrest",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12984,
+      "wp_link": "https://globalwitnessmonitor.com/christian-convert-woman-in-somalia-beaten-and-confined-by-family-after-apostasy-discovered/",
+      "date": "2026-10-10T03:46:29",
+      "title": "Convert Beaten and Confined by Family in Somalia After Embracing Christianity",
+      "country": "somalia",
+      "type": "arrest",
+      "lat": 6.1,
+      "lng": 46.2
+    },
+    {
+      "wp_id": 13004,
+      "wp_link": "https://globalwitnessmonitor.com/young-pastor-killed-in-uganda-following-interfaith-debate-imam-named-as-suspect/",
+      "date": "2026-10-10T03:46:13",
+      "title": "Young pastor killed in Uganda following interfaith debate; imam named as suspect",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 13000,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-upholds-christian-mans-blasphemy-death-sentence-in-landmark-ruling/",
+      "date": "2026-10-10T03:45:53",
+      "title": "Pakistan's Supreme Court Upholds Christian Man's Death Sentence While Acquitting His Brother in Same Blasphemy Case",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12981,
+      "wp_link": "https://globalwitnessmonitor.com/blasphemy-accusation-triggers-mob-arson-displaces-over-35-christian-families-in-pakistan/",
+      "date": "2026-10-10T03:45:16",
+      "title": "Muslim mob burns Christian man's home and shop in Pakistan amid blasphemy accusation, displacing dozens of families",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 12999,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-state-imposes-curfew-after-pastor-and-27-others-killed-in-week-of-attacks/",
+      "date": "2026-10-10T03:44:39",
+      "title": "Nigerian State Imposes Curfew After Pastor and 27 Others Killed in Week of Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12994,
+      "wp_link": "https://globalwitnessmonitor.com/orthodox-priest-narrowly-escapes-gunfire-as-armed-men-attack-christian-town-in-syria/",
+      "date": "2026-10-10T03:43:57",
+      "title": "Armed men open fire on Christian village in Syria; priest narrowly escapes shooting",
+      "country": "syria",
+      "type": "arrest",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 12983,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-military-detains-christian-journalist-visiting-attacked-relatives-in-hospital/",
+      "date": "2026-10-10T03:43:32",
+      "title": "Nigerian Military Detains Christian Journalist Without Charge After Fulani Attack on Family",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12996,
+      "wp_link": "https://globalwitnessmonitor.com/us-pastor-arrested-by-secret-service-while-praying-for-chinas-persecuted-outside-chinese-embassy/",
+      "date": "2026-10-10T03:43:14",
+      "title": "US Pastor Arrested by Secret Service While Praying for China's Persecuted Outside Chinese Embassy",
+      "country": "united states",
+      "type": "arrest",
+      "lat": 37.1,
+      "lng": -95.7
+    },
+    {
+      "wp_id": 12995,
+      "wp_link": "https://globalwitnessmonitor.com/eight-house-church-leaders-remain-imprisoned-one-year-after-chinas-largest-anti-christian-crackdown-since-2018/",
+      "date": "2026-10-10T03:42:57",
+      "title": "Eight house church leaders remain imprisoned one year after China's largest anti-Christian crackdown since 2018",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12982,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-attacks-kill-two-kidnap-multiple-christians-including-infant-in-nigeria/",
+      "date": "2026-10-10T03:42:00",
+      "title": "Six Christians Killed in Weekend Attacks in Central Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 12991,
+      "wp_link": "https://globalwitnessmonitor.com/syrian-christian-town-suffers-second-mob-attack-in-2026/",
+      "date": "2026-10-10T03:41:26",
+      "title": "Syrian Christian town suffers second mob attack in 2026",
+      "country": "syria",
+      "type": "displacement",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 12990,
+      "wp_link": "https://globalwitnessmonitor.com/coptic-engineer-arrested-in-egypt-over-facebook-posts-under-contempt-of-religion-charge/",
+      "date": "2026-10-10T03:41:03",
+      "title": "Coptic engineer arrested in Egypt over Facebook posts under \"contempt of religion\" charge",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 12989,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-sealed-and-organizer-detained-15-days-in-china-crackdown-on-unregistered-worship/",
+      "date": "2026-10-10T03:40:47",
+      "title": "House church sealed and organizer detained 15 days in China crackdown on unregistered worship",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12988,
+      "wp_link": "https://globalwitnessmonitor.com/formerly-jailed-chinese-pastor-to-receive-human-rights-prize-as-eight-church-members-remain-detained/",
+      "date": "2026-10-10T03:40:36",
+      "title": "Formerly jailed Chinese pastor to receive human rights prize as eight church members remain detained",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 12987,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-background-convert-in-uganda-survives-sword-attack-after-refusing-to-deny-christ/",
+      "date": "2026-10-10T03:40:18",
+      "title": "Muslim-Background Convert in Uganda Survives Sword Attack After Refusing to Deny Christ",
+      "country": "uganda",
+      "type": "arrest",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 12986,
+      "wp_link": "https://globalwitnessmonitor.com/armenian-christian-prisoners-in-azerbaijan-reportedly-denied-bibles-and-religious-rights/",
+      "date": "2026-10-10T03:40:06",
+      "title": "Armenian Christian Prisoners in Azerbaijan Reportedly Denied Bibles and Religious Rights",
+      "country": "azerbaijan",
+      "type": "restriction",
+      "lat": 40.1,
+      "lng": 47.6
+    },
     {
       "wp_id": 12899,
       "wp_link": "https://globalwitnessmonitor.com/pastor-detained-in-china-on-illegal-religious-activities-charge/",
