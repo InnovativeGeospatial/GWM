@@ -1,9 +1,89 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-13T03:10:10.832544+00:00",
-  "count": 748,
+  "updated": "2026-10-13T16:23:57.322088+00:00",
+  "count": 756,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13241,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christian-mans-home-and-pharmacy-over-blasphemy-allegation-forcing-dozens-of-families-to-flee/",
+      "date": "2026-10-13T16:23:40",
+      "title": "Muslim Mob Burns Christian Man's Home and Pharmacy Over Blasphemy Allegation, Forcing Dozens of Families to Flee",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13240,
+      "wp_link": "https://globalwitnessmonitor.com/three-church-leaders-charged-after-four-children-burned-in-alleged-exorcism-ritual/",
+      "date": "2026-10-13T16:23:14",
+      "title": "Three Church Leaders Charged After Four Children Burned in Alleged Exorcism Ritual",
+      "country": "kenya",
+      "type": "assault",
+      "lat": 0.0,
+      "lng": 37.9
+    },
+    {
+      "wp_id": 13239,
+      "wp_link": "https://globalwitnessmonitor.com/deliberate-arson-destroys-150-year-old-catholic-convent-in-northern-ireland/",
+      "date": "2026-10-13T16:22:56",
+      "title": "Deliberate arson destroys 150-year-old Catholic convent in Northern Ireland",
+      "country": "united kingdom",
+      "type": "church",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 13238,
+      "wp_link": "https://globalwitnessmonitor.com/radical-attackers-burn-century-old-orthodox-church-kill-christians-displace-hundreds-in-ethiopia/",
+      "date": "2026-10-13T16:22:38",
+      "title": "Radical attackers burn century-old Orthodox church, kill Christians, displace hundreds in Ethiopia",
+      "country": "ethiopia",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 40.5
+    },
+    {
+      "wp_id": 13237,
+      "wp_link": "https://globalwitnessmonitor.com/nepal-detains-24-south-korean-christians-for-alleged-missionary-activity-on-tourist-visas/",
+      "date": "2026-10-13T16:22:20",
+      "title": "Nepal detains 24 South Korean Christians for alleged missionary activity on tourist visas",
+      "country": "nepal",
+      "type": "arrest",
+      "lat": 28.4,
+      "lng": 84.1
+    },
+    {
+      "wp_id": 13236,
+      "wp_link": "https://globalwitnessmonitor.com/mob-forces-early-end-to-indigenous-christian-bible-convention-with-more-than-1900-attendees/",
+      "date": "2026-10-13T16:22:05",
+      "title": "Mob Forces Early End to Indigenous Christian Bible Convention With More Than 1,900 Attendees",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13235,
+      "wp_link": "https://globalwitnessmonitor.com/report-documents-60-anti-christian-incidents-in-india-in-four-months/",
+      "date": "2026-10-13T16:21:45",
+      "title": "Report Documents 60 Anti-Christian Incidents in India in Four Months",
+      "country": "india",
+      "type": "harassment",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13234,
+      "wp_link": "https://globalwitnessmonitor.com/retired-pastor-appeals-criminal-conviction-for-open-air-worship-in-abortion-buffer-zone/",
+      "date": "2026-10-13T16:21:11",
+      "title": "Retired pastor appeals criminal conviction for open-air worship in abortion buffer zone",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
     {
       "wp_id": 13191,
       "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christians-home-and-pharmacy-in-pakistan-dozens-of-families-displaced/",
