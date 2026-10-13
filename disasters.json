@@ -1,9 +1,225 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-10T23:17:07.662441+00:00",
-  "count": 949,
+  "updated": "2026-10-13T16:18:08.870133+00:00",
+  "count": 961,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 13233,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-11-2026/",
+      "date": "2026-10-13T16:15:17",
+      "title": "Wildfire in United States 10/11/2026",
+      "body": "On October 11, 2026, a wildfire broke out near Santa Clarita in Los Angeles County. The Bike Fire was reported around 1:30 p.m. at Cambria Estates Lane and Ravenhill Road, near Sand Canyon and Placerita Canyon roads. The",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 34.428514,
+      "lng": -118.536045,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcTZGNlVvRHpHVGNuWW1XUTViRFhSWkJnT1d2NkR2R0RlS3pCSmE5RHNhRlJ0bEkyZ010Q0l5a0JWem5qMTlORlpqbVZUdkRFbzRpTmpjOVlhRUc0M1RwcGVNNEwwaHl1aWtzSUtWdWRTSE5WcHRvOUQ5a3I0c0RKZ3RUZEVTaDNydVY4cmlnY0Z0dWtQR19ENml1b1NGV19JR0FkY0NwanRiaFF2SXFjWUFPeWtUYjQzcVZ2MS1ueEVXVXdlMmRzdlYxd05ySm15SXBrZHh0d2QzMUZmb0JtaW02dVU5ZlcxTl9CVnJR0gHzAUFVX3lxTE1OTXhidzJmNE9NUDNXNDdoZ0s3aEcxQjI1Mm1yMWttXzFZZFN1aG9Hd1dfUEZ6NTItLWlaVVVtYmc3M0xCUC1xVVRhQThYeHg1YnFRMzlJaGNaTjQ4VDQxN0doLXg0YkEydDZ6LVdyYTg3YW1VZXUxN1VfMjk0Q3BKOGJneWlDTENxYTVSa3k5Ym82dklJT2JPSDh4aHRRN3BYdTRuODJlS3IyekpsUnpyX01JRGRJMkdoZjhuSm5VRktJckZqbDBxQ3hXU0kyYWRObUpNVVNLTXRMa1RscFB2MGx4UlZCcVlsUWJyUTkyamczOA?oc=5",
+      "prayer": "Residents of Santa Clarita displaced and threatened by the Bike Fire in Los Angeles County",
+      "alert_summary": "Wildfire burned 172 acres near Santa Clarita, triggering mandatory evacuation orders across multiple residential zones."
+    },
+    {
+      "wp_id": 13232,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-10-2026-cat-2/",
+      "date": "2026-10-13T16:10:47",
+      "title": "Storm in United States 10/10/2026 — Cat 2",
+      "body": "Hurricane Isaias made landfall along the northern Gulf Coast near Destin, Florida, on Friday night as a Category 2 storm. The storm carried winds up to 105 mph before weakening to a Category 1 and then to a post-tropical",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Storm",
+      "lat": 30.394653,
+      "lng": -86.507842,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM2c1OGdqSnBtOE96MHliVWxhdHJmQ3RzTVk2Q0NZVDZrSVFiVDZvSkxHMnFoWV9TNDdCZ3dpM3FvUF9GVTltakNkRTZqM1VLZGNPZVV3RVBYUV90cTlrQXRoUlUtdFVHdnkzZXdsbXhiUXVBQWlEbEhWOTFSV2tobmVwYW5HT1YwT3FvTzdHMkZhUGxYRnFBWlVyUHlZdWkxQUxtblZVRFhlNExmVlZPLXc4clpIYmE3WnM5M0N6ZC1rdw?oc=5",
+      "prayer": "Families in Florida and Alabama grieving deaths and widespread power loss after Hurricane Isaias",
+      "alert_summary": "Hurricane Isaias made landfall near Destin, Florida as a Category 2 storm, killing 4 people across Florida and Alabama and cutting power to nearly 900,000 customers."
+    },
+    {
+      "wp_id": 13231,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-12-2026/",
+      "date": "2026-10-13T16:09:12",
+      "title": "Flood in United States 10/12/2026",
+      "body": "About 70 runners and volunteers spent a cold, soaked night stranded on the course of Utah's Moab 240 ultramarathon after a storm tore through the Bears Ears region, knocking down trees and flooding sections of the route.",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 40.605616,
+      "lng": -111.853183,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdG1ha1VaaVZMcjlyNzdWeVNhX0ctUHRhQ1oyaDZBSGw0QjBRRDM4a1RuSWx5V0pTTnlhWjlxRVVJRDkyVTRfZEgxZ0xfZVQ4T2VockV1UTVwWlpHc2htY1RmTjgzVXlrdFJlTnNRN3NQNHpSQ3M2TU4yWTRocTVYT2NLWlZUOXo1dlY5TzVtRXhTU0x3VU9J?oc=5",
+      "prayer": "About 70 runners and volunteers stranded overnight by flash flooding in San Juan County, Utah",
+      "alert_summary": "Flash flooding near Cottonwood Creek, Utah stranded about 70 runners and volunteers overnight before a bus evacuation on October 11, 2026."
+    },
+    {
+      "wp_id": 13230,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-13-2026-cat-2/",
+      "date": "2026-10-13T16:08:51",
+      "title": "Storm in Mexico 10/13/2026 — Cat 2",
+      "body": "On October 12, 2026, Hurricane Simon pounded western Mexico with wind and rain after tropical weather systems caused five deaths and damage in Pacific coastal towns and resorts. The eye of the Category 2 storm stayed off",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Storm",
+      "lat": 31.866417,
+      "lng": -116.60352,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:3d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVUdFNjY1X0tSWjg1UkVCaDRrVmw5MG8wSks4UmVqYnY3OUY2RlYyY0Z6eDBNV1JsUXp2a2RSTU9HSzdqLXRoSTBndTVzZnhKUW5GcmFybkprN0lRZjR2NldIQzlMT2s5NUFEWkN3N1lweU1IV0hOLXdoMWVyT05RN2NfdHlMMllSbnJRRE5oblFjaDdBQkpGdlRIOUNsWlhTakpPbVAwSG5aMm1RUnQ2WUZESlhpVVRyUmZWUA?oc=5",
+      "prayer": "Families in Baja California and Guerrero grieving five deaths from Hurricane Simon and post-tropical cyclone Rachel",
+      "alert_summary": "Hurricane Simon and post-tropical cyclone Rachel killed five people across western Mexico, with flooding and landslides reported in Ensenada and Guerrero."
+    },
+    {
+      "wp_id": 13229,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-10-12-2026/",
+      "date": "2026-10-13T16:08:27",
+      "title": "Flood in Nepal 10/12/2026",
+      "body": "Flash floods struck the central Gorkha district on Sunday, triggered by a landslide that blocked the Budhi Gandaki River. At least five people are missing and 95 have been rescued, with hundreds affected overall. The flo",
+      "country": "Nepal",
+      "countries": [
+        "Nepal"
+      ],
+      "type": "Flood",
+      "lat": 27.999067,
+      "lng": 84.6227,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/10/1168576",
+      "prayer": "Five people missing and hundreds affected by flash floods in central Nepal; displaced families lacking shelter and clean water",
+      "alert_summary": "Flash floods in Gorkha district on Sunday swept away homes and bridges; at least five people missing and 95 rescued."
+    },
+    {
+      "wp_id": 13228,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-sudan-10-12-2026/",
+      "date": "2026-10-13T16:08:17",
+      "title": "Drought in Sudan 10/12/2026",
+      "body": "On October 12, 2026, a global food security monitor issued an alert warning that famine conditions are approaching in parts of Greater Darfur and Greater Kordofan, Sudan. An El Niño-induced drought, affecting roughly hal",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Drought",
+      "lat": 13.831539,
+      "lng": 30.049948,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/10/1168577",
+      "prayer": "Families in Greater Darfur and Greater Kordofan facing crop failure, acute malnutrition, and blocked aid access",
+      "alert_summary": "El Niño drought covering more than half of Sudan has pushed famine risk higher across Greater Darfur and Greater Kordofan, where 300,000 people have been displaced since October 2025."
+    },
+    {
+      "wp_id": 13227,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-indonesia-10-11-2026/",
+      "date": "2026-10-13T16:07:48",
+      "title": "Wildfire in Indonesia 10/11/2026",
+      "body": "Eight orangutans were released into a reserve in western Borneo on Friday after being rescued from intense wildfires. The group included three mothers, three daughters, and two adult males. Indonesian wildlife authoritie",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Wildfire",
+      "lat": -6.175554,
+      "lng": 106.827216,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Critically endangered orangutans and their habitat in Borneo recovering after wildfires destroyed their forest home",
+      "alert_summary": "Wildfires in Borneo destroyed orangutan habitat in August and September; Indonesian authorities rescued 46 critically endangered apes."
+    },
+    {
+      "wp_id": 13226,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-10-12-2026/",
+      "date": "2026-10-13T16:07:30",
+      "title": "Volcano in Philippines 10/12/2026",
+      "body": "A moderately explosive eruption occurred at Kanlaon Volcano at 12:46 PM on October 10, 2026. The eruption sent thick plumes of ash up to 6 kilometres high. An eruption was also reported the following day, October 11, 202",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Volcano",
+      "lat": 10.412,
+      "lng": 123.132,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000152",
+      "prayer": "Residents of Negros Island living near Kanlaon Volcano amid ongoing eruptions and ash fall",
+      "alert_summary": "Kanlaon Volcano on Negros Island erupted on October 10, 2026, sending an ash column 5–6 km high drifting northwest."
+    },
+    {
+      "wp_id": 13225,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-china-10-12-2026/",
+      "date": "2026-10-13T16:07:10",
+      "title": "Wildfire in China 10/12/2026",
+      "body": "A forest fire started in Mongolia, China on November 10, 2026 and burned until November 13, 2026. No information on the size of the fire, number of people affected, homes destroyed, or injuries is provided in the availab",
+      "country": "China",
+      "countries": [
+        "China"
+      ],
+      "type": "Wildfire",
+      "lat": 47.08216368763152,
+      "lng": 119.70791334653843,
+      "source_title": "GDACS RSS information",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032753",
+      "prayer": "Residents and firefighters in Mongolia, China affected by forest fire",
+      "alert_summary": "A forest fire burned in Mongolia, China from November 10 to 13, 2026; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 13224,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-10-12-2026-magnitude-6/",
+      "date": "2026-10-13T15:57:35",
+      "title": "Earthquake in Tonga 10/12/2026 — Magnitude 6",
+      "body": "On October 12, 2026, a magnitude 5.5 earthquake struck about 122 km west of Neiafu, in the Vavaʻu island group of Tonga. The quake occurred at a depth of approximately 195 km — deep enough that shaking at the surface is ",
+      "country": "Tonga",
+      "countries": [
+        "Tonga"
+      ],
+      "type": "Earthquake",
+      "lat": -18.651457,
+      "lng": -173.98355,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pl",
+      "prayer": "Residents near Neiafu, Tonga, following an intermediate-depth earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5.5 earthquake struck 122 km west of Neiafu, Tonga; no casualties or damage reported."
+    },
+    {
+      "wp_id": 13223,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-13-2026-magnitude-5/",
+      "date": "2026-10-13T15:57:13",
+      "title": "Earthquake in Indonesia 10/13/2026 — Magnitude 5",
+      "body": "On October 13, 2026, a magnitude 5.1 earthquake struck approximately 119 km south-southwest of Gambiran Satu, Indonesia, at a depth of about 10 km. The shallow depth means shaking was felt more strongly at the surface. N",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -2.980614,
+      "lng": 104.79065,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ye",
+      "prayer": "Coastal communities south of Gambiran Satu, East Java, after a shallow earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck about 119 km south-southwest of Gambiran Satu, Indonesia; no casualty figures reported."
+    },
+    {
+      "wp_id": 13222,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-13-2026-magnitude-5/",
+      "date": "2026-10-13T15:56:51",
+      "title": "Earthquake in Papua New Guinea 10/13/2026 — Magnitude 5",
+      "body": "On October 13, 2026, a magnitude 5.3 earthquake struck 122 km south of Kokopo, Papua New Guinea. No casualty, injury, or displacement figures have been reported at this time. The area south of Kokopo sits within one of t",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -5.4448,
+      "lng": 152.1255,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s",
+      "prayer": "Communities near Kokopo, Papua New Guinea, after a magnitude 5 earthquake struck offshore",
+      "alert_summary": "Magnitude 5.3 earthquake struck 122 km south of Kokopo, Papua New Guinea; no casualty figure reported."
+    },
     {
       "wp_id": 13101,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-turkey-10-08-2026/",
