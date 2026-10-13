@@ -1,9 +1,99 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-10T23:20:28.033238+00:00",
-  "count": 741,
+  "updated": "2026-10-13T02:36:22.489911+00:00",
+  "count": 750,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13191,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christians-home-and-pharmacy-in-pakistan-dozens-of-families-displaced/",
+      "date": "2026-10-13T02:35:55",
+      "title": "Muslim Mob Burns Christian's Home and Pharmacy Over Blasphemy Accusation, Dozens of Families Flee",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13200,
+      "wp_link": "https://globalwitnessmonitor.com/blasphemy-accusation-triggers-mob-arson-mass-displacement-of-christian-families/",
+      "date": "2026-10-13T02:35:21",
+      "title": "Blasphemy Accusation Triggers Mob Arson, Mass Displacement of Christian Families",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13188,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-upholds-christians-death-sentence-under-blasphemy-law-acquits-brother/",
+      "date": "2026-10-13T02:33:41",
+      "title": "Pakistan's Supreme Court Upholds Christian Man's Death Sentence Under Blasphemy Law",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13195,
+      "wp_link": "https://globalwitnessmonitor.com/24-south-korean-christians-arrested-in-nepal-for-alleged-missionary-activities-on-tourist-visas/",
+      "date": "2026-10-13T02:33:23",
+      "title": "24 South Korean Christians Arrested in Nepal for Alleged Missionary Activities on Tourist Visas",
+      "country": "nepal",
+      "type": "arrest",
+      "lat": 28.4,
+      "lng": 84.1
+    },
+    {
+      "wp_id": 13193,
+      "wp_link": "https://globalwitnessmonitor.com/armed-militia-kill-12-christians-including-toddler-in-coordinated-nigeria-attacks/",
+      "date": "2026-10-13T02:33:03",
+      "title": "Fulani Militia Kill 12 Christians in Week of Coordinated Attacks Across Nigeria's Middle Belt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13192,
+      "wp_link": "https://globalwitnessmonitor.com/hindu-nationalist-mob-storms-catholic-church-beats-worshippers-disrupts-annual-christian-convention/",
+      "date": "2026-10-13T02:32:17",
+      "title": "Hindu Nationalist Mob Storms Catholic Church, Beats Worshippers, Disrupts Annual Christian Convention",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13190,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-council-pressures-government-to-ban-christian-and-pro-israel-artists-from-performing/",
+      "date": "2026-10-13T02:31:38",
+      "title": "Islamic Council Pressures Government to Ban Christian and Pro-Israel Artists From Performing",
+      "country": "indonesia",
+      "type": "restriction",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 13189,
+      "wp_link": "https://globalwitnessmonitor.com/freed-chinese-pastor-to-receive-human-rights-prize-as-eight-believers-remain-imprisoned/",
+      "date": "2026-10-13T02:31:03",
+      "title": "Freed Chinese Pastor to Receive Human Rights Prize as Eight Believers Remain Imprisoned",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13187,
+      "wp_link": "https://globalwitnessmonitor.com/islamic-militants-kill-at-least-one-christian-and-burn-church-in-attacks-on-three-nigerian-villages/",
+      "date": "2026-10-13T02:30:25",
+      "title": "Islamic Militants Kill at Least One Christian and Burn Church in Attacks on Three Nigerian Villages",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
     {
       "wp_id": 13108,
       "wp_link": "https://globalwitnessmonitor.com/blasphemy-accusation-triggers-mob-arson-mass-displacement-of-christian-families-in-pakistan/",
