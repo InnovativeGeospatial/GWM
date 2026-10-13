@@ -1,9 +1,129 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-10T23:17:09.488297+00:00",
-  "count": 1213,
+  "updated": "2026-10-13T16:18:11.535951+00:00",
+  "count": 1225,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13233,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-11-2026/",
+      "date": "2026-10-13T16:15:17",
+      "title": "Wildfire in United States 10/11/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 34.428514,
+      "lng": -118.536045
+    },
+    {
+      "wp_id": 13232,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-10-2026-cat-2/",
+      "date": "2026-10-13T16:10:47",
+      "title": "Storm in United States 10/10/2026 — Cat 2",
+      "country": "United States",
+      "type": "Storm",
+      "lat": 30.394653,
+      "lng": -86.507842
+    },
+    {
+      "wp_id": 13231,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-12-2026/",
+      "date": "2026-10-13T16:09:12",
+      "title": "Flood in United States 10/12/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 40.605616,
+      "lng": -111.853183
+    },
+    {
+      "wp_id": 13230,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-13-2026-cat-2/",
+      "date": "2026-10-13T16:08:51",
+      "title": "Storm in Mexico 10/13/2026 — Cat 2",
+      "country": "Mexico",
+      "type": "Storm",
+      "lat": 31.866417,
+      "lng": -116.60352
+    },
+    {
+      "wp_id": 13229,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nepal-10-12-2026/",
+      "date": "2026-10-13T16:08:27",
+      "title": "Flood in Nepal 10/12/2026",
+      "country": "Nepal",
+      "type": "Flood",
+      "lat": 27.999067,
+      "lng": 84.6227
+    },
+    {
+      "wp_id": 13228,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-sudan-10-12-2026/",
+      "date": "2026-10-13T16:08:17",
+      "title": "Drought in Sudan 10/12/2026",
+      "country": "Sudan",
+      "type": "Drought",
+      "lat": 13.831539,
+      "lng": 30.049948
+    },
+    {
+      "wp_id": 13227,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-indonesia-10-11-2026/",
+      "date": "2026-10-13T16:07:48",
+      "title": "Wildfire in Indonesia 10/11/2026",
+      "country": "Indonesia",
+      "type": "Wildfire",
+      "lat": -6.175554,
+      "lng": 106.827216
+    },
+    {
+      "wp_id": 13226,
+      "wp_link": "https://globalwitnessmonitor.com/volcano-in-philippines-10-12-2026/",
+      "date": "2026-10-13T16:07:30",
+      "title": "Volcano in Philippines 10/12/2026",
+      "country": "Philippines",
+      "type": "Volcano",
+      "lat": 10.412,
+      "lng": 123.132
+    },
+    {
+      "wp_id": 13225,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-china-10-12-2026/",
+      "date": "2026-10-13T16:07:10",
+      "title": "Wildfire in China 10/12/2026",
+      "country": "China",
+      "type": "Wildfire",
+      "lat": 47.08216368763152,
+      "lng": 119.70791334653843
+    },
+    {
+      "wp_id": 13224,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-10-12-2026-magnitude-6/",
+      "date": "2026-10-13T15:57:35",
+      "title": "Earthquake in Tonga 10/12/2026 — Magnitude 6",
+      "country": "Tonga",
+      "type": "Earthquake",
+      "lat": -18.651457,
+      "lng": -173.98355
+    },
+    {
+      "wp_id": 13223,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-13-2026-magnitude-5/",
+      "date": "2026-10-13T15:57:13",
+      "title": "Earthquake in Indonesia 10/13/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -2.980614,
+      "lng": 104.79065
+    },
+    {
+      "wp_id": 13222,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-13-2026-magnitude-5/",
+      "date": "2026-10-13T15:56:51",
+      "title": "Earthquake in Papua New Guinea 10/13/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.4448,
+      "lng": 152.1255
+    },
     {
       "wp_id": 13101,
       "wp_link": "https://globalwitnessmonitor.com/landslide-in-turkey-10-08-2026/",
