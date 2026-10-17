@@ -1,9 +1,319 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-13T16:23:57.322088+00:00",
-  "count": 756,
+  "updated": "2026-10-17T20:37:10.734144+00:00",
+  "count": 787,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13342,
+      "wp_link": "https://globalwitnessmonitor.com/christian-red-cross-volunteer-shot-dead-by-gunmen-in-northwest-nigeria/",
+      "date": "2026-10-17T20:36:57",
+      "title": "Christian Red Cross Volunteer Shot Dead by Gunmen in Northwest Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13372,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-wife-shot-dead-outside-their-home-in-mexico-one-suspect-detained/",
+      "date": "2026-10-17T20:36:35",
+      "title": "Pastor and wife shot dead outside their home in Mexico; one suspect detained",
+      "country": "mexico",
+      "type": "killing",
+      "lat": 23.6,
+      "lng": -102.6
+    },
+    {
+      "wp_id": 13369,
+      "wp_link": "https://globalwitnessmonitor.com/mob-of-200-storms-bible-convention-in-india-forcing-early-closure-of-2000-strong-gathering/",
+      "date": "2026-10-17T20:36:01",
+      "title": "Mob of 200 attacks Bible convention, injuring Christians and forcing early closure",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13335,
+      "wp_link": "https://globalwitnessmonitor.com/mob-burns-christian-property-in-pakistan-after-blasphemy-allegation-displacing-dozens-of-families/",
+      "date": "2026-10-17T20:35:10",
+      "title": "Mob burns Christian man's home and pharmacy over blasphemy allegation, forcing dozens of families to flee",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13367,
+      "wp_link": "https://globalwitnessmonitor.com/rights-body-warns-of-systematic-blasphemy-abuse-and-forced-conversions-against-religious-minorities/",
+      "date": "2026-10-17T20:34:53",
+      "title": "Rights body warns of systematic blasphemy abuse and forced conversions against religious minorities",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13356,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-supreme-court-upholds-christian-fathers-death-sentence-under-blasphemy-law/",
+      "date": "2026-10-17T20:34:30",
+      "title": "Pakistan's Highest Court Upholds Christian Man's Blasphemy Death Sentence, Sparking International Outcry",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13365,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militia-abducts-seven-christians-including-a-pastor-in-back-to-back-raids-in-kaduna-state/",
+      "date": "2026-10-17T20:34:07",
+      "title": "Fulani Militia Abducts Seven Christians, Including a Pastor, in Back-to-Back Raids in Kaduna State",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13364,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-abducted-in-nigerias-middle-belt-second-taken-from-same-parish-in-three-years/",
+      "date": "2026-10-17T20:33:45",
+      "title": "Catholic Priest Abducted in Nigeria's Middle Belt — Second Taken from Same Parish in Three Years",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13363,
+      "wp_link": "https://globalwitnessmonitor.com/over-10-abducted-christians-freed-in-cross-state-rescue-operation-in-nigeria/",
+      "date": "2026-10-17T20:33:26",
+      "title": "Over 10 Abducted Christians Freed in Cross-State Rescue Operation in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13353,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-diocese-indefinitely-closes-schools-hospital-and-parish-after-four-arson-attacks/",
+      "date": "2026-10-17T20:33:07",
+      "title": "Nigerian Diocese Shuts Parish, Hospital, and Three Schools Indefinitely After Repeated Attacks",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13361,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-kidnapped-by-armed-gunmen-in-nigeria/",
+      "date": "2026-10-17T20:32:50",
+      "title": "Catholic Priest Kidnapped by Armed Gunmen in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13331,
+      "wp_link": "https://globalwitnessmonitor.com/two-pastors-in-south-sudan-refugee-camp-targeted-with-death-threats-by-muslim-extremists/",
+      "date": "2026-10-17T20:32:30",
+      "title": "Two Pastors in Refugee Camp Face Death Threats from Muslim Extremists",
+      "country": "south sudan",
+      "type": "harassment",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 13359,
+      "wp_link": "https://globalwitnessmonitor.com/christian-families-fight-to-reclaim-daughters-after-alleged-forced-conversions/",
+      "date": "2026-10-17T20:32:12",
+      "title": "Christian Families Fight to Reclaim Daughters After Alleged Forced Conversions",
+      "country": "nigeria",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13333,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-christians-death-sentence-upheld-by-supreme-court-after-eight-years/",
+      "date": "2026-10-17T20:31:34",
+      "title": "Pakistan's Highest Court Upholds Christian's Death Sentence Under Blasphemy Law",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13355,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-destroys-two-churches-in-separate-strikes-within-three-days/",
+      "date": "2026-10-17T20:30:57",
+      "title": "Myanmar Military Destroys Two Churches in Separate Strikes Within Three Days",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 13354,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-christian-mother-sentenced-to-14-years-for-sharing-her-faith-with-a-willing-convert/",
+      "date": "2026-10-17T20:30:14",
+      "title": "Nigerian Christian Mother Sentenced to 14 Years for Sharing Her Faith With a Willing Convert",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13352,
+      "wp_link": "https://globalwitnessmonitor.com/boko-haram-destroys-church-and-empties-eight-christian-villages-in-coordinated-nigeria-attacks/",
+      "date": "2026-10-17T20:29:34",
+      "title": "Boko Haram destroys church and empties eight Christian villages in coordinated Nigeria attacks",
+      "country": "nigeria",
+      "type": "church",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13351,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-burns-christian-church-amid-ongoing-kachin-state-offensive/",
+      "date": "2026-10-17T20:29:14",
+      "title": "Myanmar Military Burns Christian Church Amid Ongoing Kachin State Offensive",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 13349,
+      "wp_link": "https://globalwitnessmonitor.com/13-christians-released-after-four-months-imprisoned-for-attending-worship-gathering/",
+      "date": "2026-10-17T20:28:33",
+      "title": "13 Christians Released After Four Months Imprisoned for Attending Worship Gathering",
+      "country": "eritrea",
+      "type": "arrest",
+      "lat": 15.2,
+      "lng": 39.8
+    },
+    {
+      "wp_id": 13332,
+      "wp_link": "https://globalwitnessmonitor.com/christian-aid-worker-killed-in-armed-ambush-in-northwest-nigeria/",
+      "date": "2026-10-17T20:27:53",
+      "title": "Christian humanitarian volunteer shot dead in armed ambush in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13346,
+      "wp_link": "https://globalwitnessmonitor.com/islamist-militia-kill-12-christians-including-toddler-in-coordinated-nigeria-attacks/",
+      "date": "2026-10-17T20:27:36",
+      "title": "Islamist Militia Kill 12 Christians, Including Toddler, in Coordinated Nigeria Attacks",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13345,
+      "wp_link": "https://globalwitnessmonitor.com/20-christians-killed-in-ongoing-fulani-militant-attacks-in-nigeria/",
+      "date": "2026-10-17T20:27:02",
+      "title": "20 Christians Killed in Ongoing Fulani Militant Attacks in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13344,
+      "wp_link": "https://globalwitnessmonitor.com/christian-teacher-dismissed-for-pro-life-views-ahead-of-tribunal-hearing/",
+      "date": "2026-10-17T20:26:33",
+      "title": "Christian Teacher Dismissed for Pro-Life Views Ahead of Tribunal Hearing",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 13343,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-appeals-conviction-for-preaching-within-abortion-buffer-zone/",
+      "date": "2026-10-17T20:26:18",
+      "title": "Pastor Appeals Conviction for Preaching Within Abortion Buffer Zone",
+      "country": "united kingdom",
+      "type": "restriction",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 13341,
+      "wp_link": "https://globalwitnessmonitor.com/armed-attackers-target-christian-homes-businesses-and-church-property-in-syria/",
+      "date": "2026-10-17T20:25:51",
+      "title": "Armed attackers target Christian homes, businesses, and church property in Syria",
+      "country": "syria",
+      "type": "church",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 13340,
+      "wp_link": "https://globalwitnessmonitor.com/egypt-deploys-terrorism-courts-and-blasphemy-laws-against-christians-in-growing-wave-of-cases/",
+      "date": "2026-10-17T20:25:23",
+      "title": "Egypt Deploys Terrorism Courts and Blasphemy Laws Against Christians in Growing Wave of Cases",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13339,
+      "wp_link": "https://globalwitnessmonitor.com/china-ranked-7th-globally-for-bible-shortages-as-restrictions-on-scripture-access-tighten/",
+      "date": "2026-10-17T20:25:05",
+      "title": "China ranked 7th globally for Bible shortages as restrictions on Scripture access tighten",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13338,
+      "wp_link": "https://globalwitnessmonitor.com/eight-house-church-leaders-detained-in-beijing-as-multiple-christian-imprisonment-cases-persist-across-china/",
+      "date": "2026-10-17T20:24:49",
+      "title": "Eight house church leaders detained in Beijing as multiple Christian imprisonment cases persist across China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13337,
+      "wp_link": "https://globalwitnessmonitor.com/burmese-military-and-allied-militia-occupy-two-churches-using-them-as-military-sites/",
+      "date": "2026-10-17T20:23:57",
+      "title": "Burmese Military and Allied Militia Occupy Two Churches, Using Them as Military Sites",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 13336,
+      "wp_link": "https://globalwitnessmonitor.com/indias-anti-conversion-law-faces-court-challenge-as-christians-report-escalating-harassment/",
+      "date": "2026-10-17T20:23:44",
+      "title": "India's Anti-Conversion Law Faces Court Challenge as Christians Report Escalating Harassment",
+      "country": "india",
+      "type": "restriction",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13334,
+      "wp_link": "https://globalwitnessmonitor.com/24-south-korean-christians-arrested-at-nepalese-bible-college-for-alleged-illegal-religious-activity/",
+      "date": "2026-10-17T20:23:19",
+      "title": "24 South Korean Christians Arrested at Nepalese Bible College for Alleged Illegal Religious Activity",
+      "country": "nepal",
+      "type": "arrest",
+      "lat": 28.4,
+      "lng": 84.1
+    },
     {
       "wp_id": 13241,
       "wp_link": "https://globalwitnessmonitor.com/muslim-mob-burns-christian-mans-home-and-pharmacy-over-blasphemy-allegation-forcing-dozens-of-families-to-flee/",
