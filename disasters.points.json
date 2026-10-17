@@ -1,9 +1,169 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-13T16:18:11.535951+00:00",
-  "count": 1225,
+  "updated": "2026-10-17T20:20:08.469969+00:00",
+  "count": 1241,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13330,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026/",
+      "date": "2026-10-17T20:16:36",
+      "title": "Wildfire in United States 10/17/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 33.610154,
+      "lng": -117.65332
+    },
+    {
+      "wp_id": 13329,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-10-17-2026/",
+      "date": "2026-10-17T20:16:18",
+      "title": "Flood in Nigeria 10/17/2026",
+      "country": "Nigeria",
+      "type": "Flood",
+      "lat": 8.392136,
+      "lng": 8.35642
+    },
+    {
+      "wp_id": 13328,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-cambodia-10-14-2026/",
+      "date": "2026-10-17T20:15:32",
+      "title": "Flood in Cambodia 10/14/2026",
+      "country": "Cambodia",
+      "type": "Flood",
+      "lat": 12.532455,
+      "lng": 104.210014
+    },
+    {
+      "wp_id": 13327,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-mexico-10-13-2026/",
+      "date": "2026-10-17T20:13:58",
+      "title": "Flood in Mexico 10/13/2026",
+      "country": "Mexico",
+      "type": "Flood",
+      "lat": 17.558574,
+      "lng": -99.511031
+    },
+    {
+      "wp_id": 13326,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-turkey-10-15-2026/",
+      "date": "2026-10-17T20:09:42",
+      "title": "Flood in Turkey 10/15/2026",
+      "country": "Turkey",
+      "type": "Flood",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 13325,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-yemen-10-13-2026/",
+      "date": "2026-10-17T20:09:15",
+      "title": "Disease in Yemen 10/13/2026",
+      "country": "Yemen",
+      "type": "Disease",
+      "lat": 13.584882,
+      "lng": 44.023895
+    },
+    {
+      "wp_id": 13324,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10-14-2026/",
+      "date": "2026-10-17T20:08:48",
+      "title": "Disease in Congo 10/14/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -3.511863,
+      "lng": 29.104251
+    },
+    {
+      "wp_id": 13323,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-mexico-10-17-2026-cat-2/",
+      "date": "2026-10-17T20:07:55",
+      "title": "Storm in Mexico 10/17/2026 — Cat 2",
+      "country": "Mexico",
+      "type": "Storm",
+      "lat": 32.447551,
+      "lng": -114.760714
+    },
+    {
+      "wp_id": 13322,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-10-17-2026/",
+      "date": "2026-10-17T20:07:45",
+      "title": "Disease in Kenya 10/17/2026",
+      "country": "Kenya",
+      "type": "Disease",
+      "lat": 0.529862,
+      "lng": 37.857882
+    },
+    {
+      "wp_id": 13321,
+      "wp_link": "https://globalwitnessmonitor.com/other-in-russia-10-14-2026/",
+      "date": "2026-10-17T20:06:06",
+      "title": "Other in Russia 10/14/2026",
+      "country": "Russia",
+      "type": "Other",
+      "lat": 65.58014285714285,
+      "lng": 75.62905714285714
+    },
+    {
+      "wp_id": 13320,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-16-2026/",
+      "date": "2026-10-17T20:05:25",
+      "title": "Drought in Russia 10/16/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 55.029144,
+      "lng": 82.920876
+    },
+    {
+      "wp_id": 13319,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-10-15-2026-magnitude-6/",
+      "date": "2026-10-17T19:58:24",
+      "title": "Earthquake in United States 10/15/2026 — Magnitude 6",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 63.88246,
+      "lng": -152.313402
+    },
+    {
+      "wp_id": 13318,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-10-15-2026-magnitude-5/",
+      "date": "2026-10-17T19:57:55",
+      "title": "Earthquake in Tonga 10/15/2026 — Magnitude 5",
+      "country": "Tonga",
+      "type": "Earthquake",
+      "lat": -15.95679,
+      "lng": -173.79214
+    },
+    {
+      "wp_id": 13317,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-10-16-2026-magnitude-5/",
+      "date": "2026-10-17T19:57:39",
+      "title": "Earthquake in New Zealand 10/16/2026 — Magnitude 5",
+      "country": "New Zealand",
+      "type": "Earthquake",
+      "lat": -49.8826,
+      "lng": 163.4041
+    },
+    {
+      "wp_id": 13316,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-10-16-2026-magnitude-7/",
+      "date": "2026-10-17T19:56:48",
+      "title": "Earthquake in Russia 10/16/2026 — Magnitude 7",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 51.497,
+      "lng": 156.507
+    },
+    {
+      "wp_id": 13315,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-pakistan-10-17-2026-magnitude-6/",
+      "date": "2026-10-17T19:56:27",
+      "title": "Earthquake in Pakistan 10/17/2026 — Magnitude 6",
+      "country": "Pakistan",
+      "type": "Earthquake",
+      "lat": 27.806559,
+      "lng": 66.61078
+    },
     {
       "wp_id": 13233,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-11-2026/",
