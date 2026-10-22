@@ -1,9 +1,261 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-17T20:20:06.240541+00:00",
-  "count": 977,
+  "updated": "2026-10-22T00:18:28.018312+00:00",
+  "count": 991,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 13455,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026-2/",
+      "date": "2026-10-22T00:16:42",
+      "title": "Wildfire in United States 10/17/2026",
+      "body": "On October 17, 2026, at least six homes burned and two firefighters were injured as a wildfire moved through parts of Southern California. About 6,000 homes came under evacuation orders, affecting roughly 16,000 resident",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Wildfire",
+      "lat": 33.49989,
+      "lng": -117.662504,
+      "source_title": "\"wildfire OR bushfire evacuation OR destroyed when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcU5DN3V4VDdIbm52NXl5N2Y1SVk4cDNiOE5pbWEybVluM2Zxb0gtNnJQaTlqb01FVUtJT055UWhJTXVzSU9MU0VXMTZXVGRWc2libDdJYUhsbmp5em8yckV2RGJ3RDFMRWhFdjdDNDBWdVNXNTJjaVpyVFlJb2xDMU9jNA?oc=5",
+      "prayer": "Residents of San Juan Capistrano and San Clemente displaced by the Norte Fire, and two injured firefighters",
+      "alert_summary": "The Norte Fire burned six homes and injured two firefighters in Orange County, California, prompting evacuation orders for about 16,000 residents."
+    },
+    {
+      "wp_id": 13454,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-10-19-2026/",
+      "date": "2026-10-22T00:14:40",
+      "title": "Flood in Nigeria 10/19/2026",
+      "body": "At least two people died and more than 18 communities were submerged by flooding in Doma Local Government Area of Nasarawa State, displacing thousands of residents and destroying homes, farmlands, and roads. Residents sa",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Flood",
+      "lat": 8.392136,
+      "lng": 8.35642,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb2hxdDZySU9KRUY2TFVld1BlQk5rSE15TXZkdXBaUkx1bmtIaUZiSmhnemFWQ3VyTGZqRFAyOThLajBFRzVrVV9JanhPZEwyOUhtYkNlQUQzVElwbTdFVllGMDhZSDZQNjhNeTRubnBWZkpDTU1hN0ZEUF93c0F2U1BhM2FnTEt5eGc?oc=5",
+      "prayer": "Thousands of displaced residents in Doma, Nasarawa State, sheltering after River Benue flooding destroyed homes and harvests",
+      "alert_summary": "River Benue flooding submerged 18 communities in Doma Local Government Area, Nasarawa State, killing 2 and displacing over 5,000 residents."
+    },
+    {
+      "wp_id": 13453,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-10-18-2026/",
+      "date": "2026-10-22T00:14:02",
+      "title": "Flood in Malaysia 10/18/2026",
+      "body": "On October 17, 2026, flooding in Kubang Semang, Bukit Mertajam, Penang caused 24 people from eight families to be evacuated to a temporary relief centre at Sekolah Kebangsaan Seri Penanti. Heavy rain caused flooding in e",
+      "country": "Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "type": "Flood",
+      "lat": 5.365348,
+      "lng": 100.461624,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSTVpNWdlLXJYMkVPUnRJb1kxeVUtYVg1RU91R0g3UlRhNEN1SnZERkFqUVRUSWxGMktIQ0VaN2NYV2lKdTFSWlQxZnc1VmJsT1ZlWVVFMmVoOWt6ZkNRU1pPdXVnbGlJUDFsRUhZRzVmUDFzNHRlSnZuZkpiSkQ3NjEzX1dLSFRXVVJtUE1CeUR2cnFZdkhZN0lBLXNWamdoMHBiQnlzNFpTLWJ4T1E?oc=5",
+      "prayer": "Families in Kubang Semang, Penang displaced by flash flooding with homes inundated",
+      "alert_summary": "Flash flooding in Kubang Semang, Penang on October 17, 2026 displaced 36 people from 10 families to a temporary relief centre."
+    },
+    {
+      "wp_id": 13452,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-sudan-10-18-2026/",
+      "date": "2026-10-22T00:12:14",
+      "title": "Flood in South Sudan 10/18/2026",
+      "body": "Flooding in Leer County, in South Sudan's Unity State, has displaced approximately 1,300 people, according to Eye Radio. No date for the event was given in the source, and no deaths or injuries were reported. Leer County",
+      "country": "South Sudan",
+      "countries": [
+        "South Sudan"
+      ],
+      "type": "Flood",
+      "lat": 7.265386,
+      "lng": 30.05489,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QR3BSSktCYmtYNG9rbVBVQ3lsLS1HQ3N3WUt3ZXVNS2pnUGctSE5mVmtaR2NUS3dxZUhtbEU1TjF4VXJSVmZfam4yNDIwWFNzbTM5cHZSZHpOZ0NuWjlLVGZCdVBIdlkzaTZ0OVItSk_SAXZBVV95cUxQQ3NXU3lfdzc2dXd6YTFoSDBvN282cjQwSVN2NEQ3ZU52RVlNMXFpeXFxOVoyc0VMaVhrblFwMTM1N1AxU2pUNHo1blZOYThRckprR0lLSU1Tc3U3WVVSUDRGbGNQR2R6cFI5OGdXUFgtMllidDJn?oc=5",
+      "prayer": "Approximately 1,300 people displaced by flooding in Leer County, South Sudan",
+      "alert_summary": "Flooding in Leer County, South Sudan displaced approximately 1,300 people; no casualty figure reported."
+    },
+    {
+      "wp_id": 13451,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-italy-10-20-2026/",
+      "date": "2026-10-22T00:11:21",
+      "title": "Storm in Italy 10/20/2026",
+      "body": "Storm Adam is the first named storm of the 2026–2027 season. As the system moved across the western Mediterranean around October 18–19, 2026, it struck multiple areas, including the Italian island of Sardinia, where floo",
+      "country": "Italy",
+      "countries": [
+        "Italy"
+      ],
+      "type": "Storm",
+      "lat": 39.217199,
+      "lng": 9.113311,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX2FzcHVZNjI2RmstVFNaYUJUcldWT05fT0JwaGI5T3U0U2QycTdwS3EwVk1VLTY2THJhVVl0SnJFaER5TkxzWFlIY18tSFM1eTFNaTF1RV9rWWNrWjRMTHJLOE1iLVVXQzFJMEl6Q2loSFFQdkNDSjVITXFBdExPODF6ZWt2cTItWEpXYnI0X1lXM3ZtNnNvdnJYZVF1eDl5a1ltX09XdUNNTkdEc3kw?oc=5",
+      "prayer": "Residents of Sardinia displaced and waiting for emergency help amid Storm Adam flooding",
+      "alert_summary": "Storm Adam brought flooding to Sardinia, prompting home evacuations and 97 emergency calls; no casualty figure reported for Italy."
+    },
+    {
+      "wp_id": 13450,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-somalia-10-21-2026/",
+      "date": "2026-10-22T00:08:55",
+      "title": "Flood in Somalia 10/21/2026",
+      "body": "On October 21, 2026, the International Organization for Migration warned that nearly 874,000 people could be forced from their homes in Somalia over the next three months due to flooding, as rising rivers and heavy rainf",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Flood",
+      "lat": 6.770091,
+      "lng": 47.43048,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOV9ZR19hMjMxUmZzaFp0aHoyMmxEb1pUcTRqai0zYWJ6bmZmSk8xN1NjZnF4SnlvczJyNldFYk43QkwzeklQakFpT0hQLUE3QXBMczNYUUlWckxFX3BobmZxUmRpWkZsdzd3UjNEZWhlOGpJODFHM2w5ZVhHeE9neUdRdUx5ckg0ZUpKemtYRTlFUk1fcUZEaTd1eVpNYjRUZ1ZadUZxcmx5cl9Qc1E?oc=5",
+      "prayer": "Nearly 874,000 Somalis at risk of displacement as rainy season floods rise",
+      "alert_summary": "Flooding in Somalia has begun with rivers near capacity; up to 874,319 people projected displaced by December."
+    },
+    {
+      "wp_id": 13449,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-spain-10-20-2026/",
+      "date": "2026-10-22T00:08:25",
+      "title": "Flood in Spain 10/20/2026",
+      "body": "DANA weather system Storm Adam brought torrential rain and flooding to eastern Spain from October 17 to 19, 2026, placing restrictions across 145 municipalities in Valencia and Alicante. Emergency services carried out mo",
+      "country": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "type": "Flood",
+      "lat": 38.838227,
+      "lng": 0.101451,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYUpwc0FfdkhlLVR0R0N4RjloWjJxdzdUN1E1WF9keUZBYkF6SC1PYlUyX1lya3ZlUVpYZFc1dE5fMGlZQnh5OTROMWFiUjl3a19JRWhGMHk1UlVFc0RfWmRRclpyel9GX2Z4MmxIMXhjV0l3UE5fdXhSWDJpSl9lcjhaSTZYMGs4ZHdxSnJ0dThrcldBZGVTRmNCMDJ1NXJOTWdHWWs3YkZTVGRuVy1tbmNxcHFtblBqUzVZRnZwSzJRUUU?oc=5",
+      "prayer": "Residents of Valencia and Alicante cut off by floodwaters, grieving four or more lost to Storm Adam",
+      "alert_summary": "Storm Adam flooding in eastern Spain killed at least five people and prompted more than 1,000 rescues on October 19, 2026."
+    },
+    {
+      "wp_id": 13448,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-nigeria-10-21-2026/",
+      "date": "2026-10-22T00:07:11",
+      "title": "Disease in Nigeria 10/21/2026",
+      "body": "Nigerian health officials confirmed the country's first case of the Bundibugyo strain of Ebola on October 21. The case involves a woman who travelled from Uganda to Abuja on October 3. She was tested for Ebola on October",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Disease",
+      "lat": 9.073523,
+      "lng": 7.475731,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say?traffic_source=rss",
+      "prayer": "Nigerian healthcare workers and contacts of the first Ebola case in West Africa, facing rapid disease spread",
+      "alert_summary": "Nigeria confirmed its first case of Bundibugyo strain Ebola in a woman who travelled from Uganda; 44 contacts identified."
+    },
+    {
+      "wp_id": 13447,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-20-2026/",
+      "date": "2026-10-22T00:05:32",
+      "title": "Drought in Russia 10/20/2026",
+      "body": "On October 2, 2026, water levels on the Ob River at the Yugan Ob channel near Nefteyugansk reached critically low conditions. The water level fell to 290 centimeters, below the planned navigation threshold required for s",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 61.090546,
+      "lng": 72.6085,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20261020111248-0266958.xml",
+      "prayer": "River communities along the Ob River facing critically low water levels affecting navigation and livelihoods",
+      "alert_summary": "Water levels on the Ob River near Nefteyugansk dropped to critically low on October 2, 2026, below safe navigation thresholds."
+    },
+    {
+      "wp_id": 13446,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-18-2026-magnitude-5/",
+      "date": "2026-10-21T23:59:43",
+      "title": "Earthquake in Papua New Guinea 10/18/2026 — Magnitude 5",
+      "body": "On October 18, 2026, a magnitude 5.1 earthquake was recorded about 129 km south-southeast of Kokopo, Papua New Guinea. The quake struck at a depth of about 10 km, making it a shallow event whose shaking is typically felt",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -5.4567,
+      "lng": 152.6162,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g",
+      "prayer": "Residents near Kokopo, Papua New Guinea following a shallow earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5 earthquake struck 129 km SSE of Kokopo, Papua New Guinea; no casualties reported."
+    },
+    {
+      "wp_id": 13445,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iceland-10-19-2026-magnitude-5/",
+      "date": "2026-10-21T23:59:14",
+      "title": "Earthquake in Iceland 10/19/2026 — Magnitude 5",
+      "body": "On October 19, 2026, a magnitude 5.3 earthquake struck near Skaftárhreppur, Iceland. The quake occurred at 14:44 UTC and was centered at a depth of 10 kilometers. At that shallow depth, shaking is typically felt more str",
+      "country": "Iceland",
+      "countries": [
+        "Iceland"
+      ],
+      "type": "Earthquake",
+      "lat": 64.5774,
+      "lng": -17.5136,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ct",
+      "prayer": "Residents of Iceland's Skaftárhreppur region shaken by a shallow earthquake on October 19",
+      "alert_summary": "Magnitude 5 earthquake struck near Skaftárhreppur, Iceland on October 19, 2026; no casualty figure reported."
+    },
+    {
+      "wp_id": 13444,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-10-20-2026-magnitude-5/",
+      "date": "2026-10-21T23:58:21",
+      "title": "Earthquake in United States 10/20/2026 — Magnitude 5",
+      "body": "A magnitude 5.0 earthquake struck the Alaska Peninsula on October 20, 2026. The quake was centered about 81.7 km south of Sand Point, Alaska, at a depth of 35 km. No damage details were reported. The event has been ident",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 55.340238,
+      "lng": -160.498026,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lf",
+      "prayer": "Coastal communities near Sand Point, Alaska, after a magnitude 5 earthquake offshore",
+      "alert_summary": "Magnitude 5 earthquake struck about 81 km south of Sand Point, Alaska, with no damage or casualties reported."
+    },
+    {
+      "wp_id": 13443,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-south-africa-10-21-2026-magnitude-5/",
+      "date": "2026-10-21T23:57:12",
+      "title": "Earthquake in South Africa 10/21/2026 — Magnitude 5",
+      "body": "On October 21, 2026, a magnitude 5.1 earthquake struck south of Africa, with its epicenter at approximately 52.83 degrees south latitude and 27.53 degrees east longitude. With a focal depth of about 10 km, this was a sha",
+      "country": "South Africa",
+      "countries": [
+        "South Africa"
+      ],
+      "type": "Earthquake",
+      "lat": -33.78557,
+      "lng": 25.584704,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3wh",
+      "prayer": "Remote ocean communities and field workers near southern Africa after an earthquake struck the Southern Ocean",
+      "alert_summary": "Magnitude 5 earthquake struck the Southern Ocean south of Africa at a depth of 10 km; no casualties or damage reported."
+    },
+    {
+      "wp_id": 13442,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-10-20-2026-magnitude-6/",
+      "date": "2026-10-21T23:56:30",
+      "title": "Earthquake in Vanuatu 10/20/2026 — Magnitude 6",
+      "body": "On October 20, 2026, a magnitude 6.3 earthquake struck about 204 km west-northwest of Port-Olry, Vanuatu. The quake occurred at a shallow depth of about 10 km, meaning shaking would typically be felt more strongly at the",
+      "country": "Vanuatu",
+      "countries": [
+        "Vanuatu"
+      ],
+      "type": "Earthquake",
+      "lat": -13.9906,
+      "lng": 165.5892,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3jl",
+      "prayer": "Residents of Vanuatu after an offshore earthquake with no immediate reports of casualties",
+      "alert_summary": "Magnitude 6 earthquake struck offshore waters about 200 km from Port-Olry, Vanuatu; no casualties or damage reported."
+    },
     {
       "wp_id": 13330,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026/",
