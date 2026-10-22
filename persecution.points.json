@@ -1,9 +1,249 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-17T20:37:10.734144+00:00",
-  "count": 787,
+  "updated": "2026-10-22T00:32:25.157529+00:00",
+  "count": 811,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13456,
+      "wp_link": "https://globalwitnessmonitor.com/christian-killed-in-uganda-after-sheltering-muslim-converts/",
+      "date": "2026-10-22T00:32:03",
+      "title": "Christian man killed in Uganda after sheltering Muslim-background converts from Islam",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 13481,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-beaten-to-death-by-gang-members-he-was-evangelizing-in-colombia/",
+      "date": "2026-10-22T00:31:35",
+      "title": "Pastor Beaten to Death by Gang He Was Evangelizing in Colombia",
+      "country": "colombia",
+      "type": "killing",
+      "lat": 4.1,
+      "lng": -74.3
+    },
+    {
+      "wp_id": 13485,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-churches-broken-into-and-desecrated-amid-nationwide-riots-in-france/",
+      "date": "2026-10-22T00:30:51",
+      "title": "Catholic churches broken into and desecrated amid nationwide riots in France",
+      "country": "france",
+      "type": "church",
+      "lat": 46.2,
+      "lng": 2.2
+    },
+    {
+      "wp_id": 13484,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-church-vandalized-in-israel-as-anti-christian-incidents-continue-to-rise/",
+      "date": "2026-10-22T00:30:31",
+      "title": "Catholic Church Vandalized in Israel as Anti-Christian Incidents Continue to Rise",
+      "country": "israel",
+      "type": "church",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 13483,
+      "wp_link": "https://globalwitnessmonitor.com/christian-farmer-hacked-to-death-in-religiously-targeted-ambush-in-nigeria/",
+      "date": "2026-10-22T00:29:40",
+      "title": "Christian Farmer Hacked to Death in Religiously Targeted Ambush in Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13482,
+      "wp_link": "https://globalwitnessmonitor.com/christian-aid-volunteer-killed-in-armed-ambush-in-northwest-nigeria/",
+      "date": "2026-10-22T00:29:18",
+      "title": "Christian Aid Volunteer Killed in Armed Ambush in Northwest Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13480,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-highest-court-upholds-christian-mans-blasphemy-death-sentence-by-hanging/",
+      "date": "2026-10-22T00:28:23",
+      "title": "Pakistan's Highest Court Upholds Christian Man's Blasphemy Death Sentence by Hanging",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13479,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-wife-fatally-shot-outside-home-in-mexico-one-suspect-detained/",
+      "date": "2026-10-22T00:27:58",
+      "title": "Pastor and Wife Fatally Shot Outside Home in Mexico; One Suspect Detained",
+      "country": "mexico",
+      "type": "killing",
+      "lat": 23.6,
+      "lng": -102.6
+    },
+    {
+      "wp_id": 13478,
+      "wp_link": "https://globalwitnessmonitor.com/13-christians-released-after-four-months-in-indian-prison-following-worship-convention-raid/",
+      "date": "2026-10-22T00:27:38",
+      "title": "13 Christians Released After Four Months in Indian Prison Following Worship Convention Raid",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13477,
+      "wp_link": "https://globalwitnessmonitor.com/nepal-detains-and-releases-24-foreign-christians-for-religious-training-on-tourist-visas/",
+      "date": "2026-10-22T00:27:17",
+      "title": "Nepal detains and releases 24 foreign Christians for religious training on tourist visas",
+      "country": "nepal",
+      "type": "arrest",
+      "lat": 28.4,
+      "lng": 84.1
+    },
+    {
+      "wp_id": 13476,
+      "wp_link": "https://globalwitnessmonitor.com/christian-converts-terrorism-trial-resumes-in-egypt-with-life-imprisonment-at-stake/",
+      "date": "2026-10-22T00:26:56",
+      "title": "Christian convert's terrorism trial resumes in Egypt with life imprisonment at stake",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13462,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-kills-pastors-burns-churches-as-u-s-resumes-diplomatic-talks/",
+      "date": "2026-10-22T00:26:34",
+      "title": "Myanmar Military Bombs and Burns Two Churches in Predominantly Christian Regions Within Three Days",
+      "country": "myanmar",
+      "type": "church",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 13461,
+      "wp_link": "https://globalwitnessmonitor.com/armed-mob-attacks-santhali-christian-bible-convention-in-india/",
+      "date": "2026-10-22T00:25:18",
+      "title": "Armed Mob Attacks Indigenous Christian Bible Convention, Injuring Believers and Forcing Early Closure",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13470,
+      "wp_link": "https://globalwitnessmonitor.com/anti-christian-harassment-in-israel-hits-new-quarterly-high-with-spitting-dominating-reported-incidents/",
+      "date": "2026-10-22T00:24:44",
+      "title": "Anti-Christian harassment in Israel hits new quarterly high, with spitting dominating reported incidents",
+      "country": "israel",
+      "type": "harassment",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 13469,
+      "wp_link": "https://globalwitnessmonitor.com/kenyan-court-convicts-cult-leader-and-28-others-in-murder-of-191-children/",
+      "date": "2026-10-22T00:24:08",
+      "title": "Kenyan Court Convicts Cult Leader and 28 Others in Murder of 191 Children",
+      "country": "kenya",
+      "type": "killing",
+      "lat": 0.0,
+      "lng": 37.9
+    },
+    {
+      "wp_id": 13467,
+      "wp_link": "https://globalwitnessmonitor.com/chinas-crackdown-on-unregistered-organizations-formally-bans-multiple-independent-christian-churches/",
+      "date": "2026-10-22T00:23:41",
+      "title": "China's crackdown on unregistered organizations formally bans multiple independent Christian churches",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13466,
+      "wp_link": "https://globalwitnessmonitor.com/christian-ministry-worker-detained-in-china-under-national-security-law/",
+      "date": "2026-10-22T00:23:28",
+      "title": "Christian Ministry Worker Detained in China Under National Security Law",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13465,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-preacher-released-after-latest-15-day-detention-in-china/",
+      "date": "2026-10-22T00:23:16",
+      "title": "House church preacher released after latest 15-day detention in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13464,
+      "wp_link": "https://globalwitnessmonitor.com/police-shove-lawyers-defending-house-church-leaders-on-fraud-charges-in-china/",
+      "date": "2026-10-22T00:23:03",
+      "title": "Police Shove Lawyers Defending House Church Leaders on Fraud Charges in China",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13463,
+      "wp_link": "https://globalwitnessmonitor.com/church-leaders-condemn-settler-attack-on-west-bank-christian-village-during-olive-harvest/",
+      "date": "2026-10-22T00:22:49",
+      "title": "Church Leaders Condemn Settler Attack on West Bank Christian Village During Olive Harvest",
+      "country": "palestine",
+      "type": "assault",
+      "lat": 31.9,
+      "lng": 35.2
+    },
+    {
+      "wp_id": 13460,
+      "wp_link": "https://globalwitnessmonitor.com/six-member-congregations-worship-suspended-amid-alleged-intimidation-of-pastor/",
+      "date": "2026-10-22T00:22:02",
+      "title": "Six-Member Congregation's Worship Suspended Amid Alleged Intimidation of Pastor",
+      "country": "indonesia",
+      "type": "restriction",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 13459,
+      "wp_link": "https://globalwitnessmonitor.com/christian-teen-recovers-from-mob-assault-in-pakistan-as-legal-case-continues/",
+      "date": "2026-10-22T00:21:47",
+      "title": "Christian Teen Recovers from Mob Assault in Pakistan as Legal Case Continues",
+      "country": "pakistan",
+      "type": "assault",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13458,
+      "wp_link": "https://globalwitnessmonitor.com/christian-mother-sentenced-to-14-years-for-sharing-faith-in-nigeria/",
+      "date": "2026-10-22T00:21:30",
+      "title": "Christian Mother Sentenced to 14 Years for Sharing Faith in Nigeria",
+      "country": "nigeria",
+      "type": "restriction",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13457,
+      "wp_link": "https://globalwitnessmonitor.com/christian-woman-rescued-after-years-in-adf-captivity-and-forced-religious-coercion/",
+      "date": "2026-10-22T00:21:18",
+      "title": "Christian Woman Rescued After Years in ADF Captivity and Forced Religious Coercion",
+      "country": "dr congo",
+      "type": "displacement",
+      "lat": -2.9,
+      "lng": 24.0
+    },
     {
       "wp_id": 13342,
       "wp_link": "https://globalwitnessmonitor.com/christian-red-cross-volunteer-shot-dead-by-gunmen-in-northwest-nigeria/",
