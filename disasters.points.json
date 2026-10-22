@@ -1,9 +1,149 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-17T20:20:08.469969+00:00",
-  "count": 1241,
+  "updated": "2026-10-22T00:18:30.527090+00:00",
+  "count": 1255,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13455,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026-2/",
+      "date": "2026-10-22T00:16:42",
+      "title": "Wildfire in United States 10/17/2026",
+      "country": "United States",
+      "type": "Wildfire",
+      "lat": 33.49989,
+      "lng": -117.662504
+    },
+    {
+      "wp_id": 13454,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-nigeria-10-19-2026/",
+      "date": "2026-10-22T00:14:40",
+      "title": "Flood in Nigeria 10/19/2026",
+      "country": "Nigeria",
+      "type": "Flood",
+      "lat": 8.392136,
+      "lng": 8.35642
+    },
+    {
+      "wp_id": 13453,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-10-18-2026/",
+      "date": "2026-10-22T00:14:02",
+      "title": "Flood in Malaysia 10/18/2026",
+      "country": "Malaysia",
+      "type": "Flood",
+      "lat": 5.365348,
+      "lng": 100.461624
+    },
+    {
+      "wp_id": 13452,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-south-sudan-10-18-2026/",
+      "date": "2026-10-22T00:12:14",
+      "title": "Flood in South Sudan 10/18/2026",
+      "country": "South Sudan",
+      "type": "Flood",
+      "lat": 7.265386,
+      "lng": 30.05489
+    },
+    {
+      "wp_id": 13451,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-italy-10-20-2026/",
+      "date": "2026-10-22T00:11:21",
+      "title": "Storm in Italy 10/20/2026",
+      "country": "Italy",
+      "type": "Storm",
+      "lat": 39.217199,
+      "lng": 9.113311
+    },
+    {
+      "wp_id": 13450,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-somalia-10-21-2026/",
+      "date": "2026-10-22T00:08:55",
+      "title": "Flood in Somalia 10/21/2026",
+      "country": "Somalia",
+      "type": "Flood",
+      "lat": 6.770091,
+      "lng": 47.43048
+    },
+    {
+      "wp_id": 13449,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-spain-10-20-2026/",
+      "date": "2026-10-22T00:08:25",
+      "title": "Flood in Spain 10/20/2026",
+      "country": "Spain",
+      "type": "Flood",
+      "lat": 38.838227,
+      "lng": 0.101451
+    },
+    {
+      "wp_id": 13448,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-nigeria-10-21-2026/",
+      "date": "2026-10-22T00:07:11",
+      "title": "Disease in Nigeria 10/21/2026",
+      "country": "Nigeria",
+      "type": "Disease",
+      "lat": 9.073523,
+      "lng": 7.475731
+    },
+    {
+      "wp_id": 13447,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-20-2026/",
+      "date": "2026-10-22T00:05:32",
+      "title": "Drought in Russia 10/20/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 61.090546,
+      "lng": 72.6085
+    },
+    {
+      "wp_id": 13446,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-18-2026-magnitude-5/",
+      "date": "2026-10-21T23:59:43",
+      "title": "Earthquake in Papua New Guinea 10/18/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.4567,
+      "lng": 152.6162
+    },
+    {
+      "wp_id": 13445,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-iceland-10-19-2026-magnitude-5/",
+      "date": "2026-10-21T23:59:14",
+      "title": "Earthquake in Iceland 10/19/2026 — Magnitude 5",
+      "country": "Iceland",
+      "type": "Earthquake",
+      "lat": 64.5774,
+      "lng": -17.5136
+    },
+    {
+      "wp_id": 13444,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-10-20-2026-magnitude-5/",
+      "date": "2026-10-21T23:58:21",
+      "title": "Earthquake in United States 10/20/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 55.340238,
+      "lng": -160.498026
+    },
+    {
+      "wp_id": 13443,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-south-africa-10-21-2026-magnitude-5/",
+      "date": "2026-10-21T23:57:12",
+      "title": "Earthquake in South Africa 10/21/2026 — Magnitude 5",
+      "country": "South Africa",
+      "type": "Earthquake",
+      "lat": -33.78557,
+      "lng": 25.584704
+    },
+    {
+      "wp_id": 13442,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-10-20-2026-magnitude-6/",
+      "date": "2026-10-21T23:56:30",
+      "title": "Earthquake in Vanuatu 10/20/2026 — Magnitude 6",
+      "country": "Vanuatu",
+      "type": "Earthquake",
+      "lat": -13.9906,
+      "lng": 165.5892
+    },
     {
       "wp_id": 13330,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026/",
