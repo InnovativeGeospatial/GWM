@@ -1,9 +1,135 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-22T00:18:28.018312+00:00",
-  "count": 991,
+  "updated": "2026-10-26T04:17:52.565671+00:00",
+  "count": 998,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 13573,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-somalia-10-24-2026/",
+      "date": "2026-10-26T04:15:49",
+      "title": "Flood in Somalia 10/24/2026",
+      "body": "On October 21, 2026, the International Organization for Migration warned that nearly 874,000 people could be forced from their homes in Somalia over the next three months as rising rivers and heavy rainfall threaten comm",
+      "country": "Somalia",
+      "countries": [
+        "Somalia"
+      ],
+      "type": "Flood",
+      "lat": 6.770091,
+      "lng": 47.43048,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZG1GVVB0alh3STh3eFR3b0Y0cnBwNFlLd200S3gxdTVTYVEzR3JVZzZmMTZ6M3lBb0JvdzFqQVdmWlp3NlVhZ0ozZ0xNMFAxNmI2czEycHl4VTE3VFBlTVdDNEoxWXdfTkYybEFXMlVGeU1JS1J0bHRwcmVRVGFoeXNJRjd4cEtfdlctTE5OUDA3TlhqVUJSYkJ1NA?oc=5",
+      "prayer": "Nearly 874,000 Somalis already stretched by drought and repeated displacement now facing flood-driven loss of homes and livelihoods",
+      "alert_summary": "Rising rivers and rainfall in Somalia put an estimated 874,319 people at risk of displacement between October and December 2026."
+    },
+    {
+      "wp_id": 13572,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-25-2026/",
+      "date": "2026-10-26T04:08:47",
+      "title": "Flood in United States 10/25/2026",
+      "body": "The Four Corners region had experienced unusually heavy rain since Wednesday, causing rivers to surge, flooding homes, and forcing water rescues. The Navajo Nation Department of Emergency Management issued a notice of ev",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Flood",
+      "lat": 37.261603,
+      "lng": -109.306272,
+      "source_title": "\"flood OR flooding deaths OR displaced OR evacuated when:5d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc0NkYXBqc2loVTIteGVoYWczaFR2aWJfTmlMdWs4aWtuMUtfUTZCYXRqQ0YwUkNHQ3E5b254MTVXRDdVZXQwWVlKWGc2ZjZBczQwaFlMcV8zeDl0SXVnS2h1Z2tYWm92a29fZVhvY3lKcnNiNWhlNmZmU3V1ZU1maml6Ym5xY0V1dWcxN2hPT3F2clJlUzVVRjFxSUFlMkdwdDdOeklfR0QzSjdCSy11RVY2dTk?oc=5",
+      "prayer": "Navajo Nation families in Bluff, Montezuma Creek, and Aneth displaced by San Juan River flooding",
+      "alert_summary": "San Juan River flooding triggered evacuation orders for three Navajo Nation communities in Utah, displacing an estimated 150 residents."
+    },
+    {
+      "wp_id": 13571,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-10-26-2026-cat-1/",
+      "date": "2026-10-26T04:07:27",
+      "title": "Storm in India 10/26/2026 — Cat 1",
+      "body": "On October 26, 2026, Tropical Cyclone TWO-26 brought Category 1 wind speeds of 120 km/h to the North Indian Ocean region. About 356,000 residents faced impact from the cyclone as it affected India.",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Storm",
+      "lat": 30.176414,
+      "lng": 78.64993,
+      "source_title": "GDACS RSS information",
+      "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
+      "prayer": "Residents in northern India affected by tropical cyclone winds and storm surge",
+      "alert_summary": "Tropical cyclone TWO-26 with 120 km/h winds affected about 356,000 people across India on October 26, 2026."
+    },
+    {
+      "wp_id": 13570,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-10-21-2026-magnitude-5/",
+      "date": "2026-10-26T04:00:39",
+      "title": "Earthquake in Timor Leste 10/21/2026 — Magnitude 5",
+      "body": "On October 21, 2026, a magnitude 5.1 earthquake occurred approximately 164 km northeast of Lospalos, Timor-Leste, at a depth of about 123 km. The event was reviewed and confirmed by U.S. monitoring authorities. Because t",
+      "country": "Timor Leste",
+      "countries": [
+        "Timor Leste"
+      ],
+      "type": "Earthquake",
+      "lat": -7.5619,
+      "lng": 128.1355,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t4",
+      "prayer": "Residents of eastern Timor-Leste after an offshore earthquake northeast of Lospalos",
+      "alert_summary": "Magnitude 5 earthquake struck 164 km northeast of Lospalos, Timor-Leste; no casualties reported."
+    },
+    {
+      "wp_id": 13569,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-10-24-2026-magnitude-5/",
+      "date": "2026-10-26T03:58:26",
+      "title": "Earthquake in Russia 10/24/2026 — Magnitude 5",
+      "body": "On October 24, 2026, a magnitude 5.3 earthquake was recorded near Vilyuchinsk, Russia. The quake struck at a depth of about 70 kilometers. The epicenter was located about 101 kilometers south-southeast of the city, in th",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Earthquake",
+      "lat": 52.931564,
+      "lng": 158.40579,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4pa",
+      "prayer": "Residents near Vilyuchinsk on Russia's Kamchatka Peninsula following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 101 km southeast of Vilyuchinsk, Russia; no casualty figure reported."
+    },
+    {
+      "wp_id": 13568,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-25-2026-magnitude-5/",
+      "date": "2026-10-26T03:57:33",
+      "title": "Earthquake in Papua New Guinea 10/25/2026 — Magnitude 5",
+      "body": "On October 25, 2026, a magnitude 5.4 earthquake was recorded near Ambunti, Papua New Guinea. The quake struck at a depth of about 72 kilometers — deep enough that shaking at the surface is typically reduced compared to s",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.218041,
+      "lng": 142.822534,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4tq",
+      "prayer": "People near Ambunti in East Sepik Province, Papua New Guinea, after a magnitude 5 earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 33 km from Ambunti, East Sepik Province, Papua New Guinea; no casualty figure reported."
+    },
+    {
+      "wp_id": 13567,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-10-25-2026-magnitude-7/",
+      "date": "2026-10-26T03:56:45",
+      "title": "Earthquake in Japan 10/25/2026 — Magnitude 7",
+      "body": "On October 25, 2026, a magnitude 6.5 earthquake hit the Bonin Islands, Japan, at a depth of approximately 480–492 kilometers. The Bonin Islands, also known as the Ogasawara Islands, lie approximately 1,000 kilometers sou",
+      "country": "Japan",
+      "countries": [
+        "Japan"
+      ],
+      "type": "Earthquake",
+      "lat": 27.7953,
+      "lng": 139.6184,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9",
+      "prayer": "Residents of the Bonin Islands and nearby communities after an earthquake deep beneath the ocean",
+      "alert_summary": "Magnitude 6.5 earthquake struck the Bonin Islands, Japan at about 492 km depth on October 25, 2026; no casualties or damage reported."
+    },
     {
       "wp_id": 13455,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026-2/",
