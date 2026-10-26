@@ -1,9 +1,79 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-22T00:18:30.527090+00:00",
-  "count": 1255,
+  "updated": "2026-10-26T04:17:54.739478+00:00",
+  "count": 1262,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13573,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-somalia-10-24-2026/",
+      "date": "2026-10-26T04:15:49",
+      "title": "Flood in Somalia 10/24/2026",
+      "country": "Somalia",
+      "type": "Flood",
+      "lat": 6.770091,
+      "lng": 47.43048
+    },
+    {
+      "wp_id": 13572,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-25-2026/",
+      "date": "2026-10-26T04:08:47",
+      "title": "Flood in United States 10/25/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 37.261603,
+      "lng": -109.306272
+    },
+    {
+      "wp_id": 13571,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-10-26-2026-cat-1/",
+      "date": "2026-10-26T04:07:27",
+      "title": "Storm in India 10/26/2026 — Cat 1",
+      "country": "India",
+      "type": "Storm",
+      "lat": 30.176414,
+      "lng": 78.64993
+    },
+    {
+      "wp_id": 13570,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-timor-leste-10-21-2026-magnitude-5/",
+      "date": "2026-10-26T04:00:39",
+      "title": "Earthquake in Timor Leste 10/21/2026 — Magnitude 5",
+      "country": "Timor Leste",
+      "type": "Earthquake",
+      "lat": -7.5619,
+      "lng": 128.1355
+    },
+    {
+      "wp_id": 13569,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-10-24-2026-magnitude-5/",
+      "date": "2026-10-26T03:58:26",
+      "title": "Earthquake in Russia 10/24/2026 — Magnitude 5",
+      "country": "Russia",
+      "type": "Earthquake",
+      "lat": 52.931564,
+      "lng": 158.40579
+    },
+    {
+      "wp_id": 13568,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-25-2026-magnitude-5/",
+      "date": "2026-10-26T03:57:33",
+      "title": "Earthquake in Papua New Guinea 10/25/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.218041,
+      "lng": 142.822534
+    },
+    {
+      "wp_id": 13567,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-10-25-2026-magnitude-7/",
+      "date": "2026-10-26T03:56:45",
+      "title": "Earthquake in Japan 10/25/2026 — Magnitude 7",
+      "country": "Japan",
+      "type": "Earthquake",
+      "lat": 27.7953,
+      "lng": 139.6184
+    },
     {
       "wp_id": 13455,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-10-17-2026-2/",
