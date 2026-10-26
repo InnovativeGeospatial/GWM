@@ -1,9 +1,209 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-23T03:34:11.536750+00:00",
-  "count": 734,
+  "updated": "2026-10-26T04:47:16.185225+00:00",
+  "count": 754,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13574,
+      "wp_link": "https://globalwitnessmonitor.com/pakistan-court-adjourns-hearing-on-abducted-christian-girl-as-police-fail-to-serve-summons/",
+      "date": "2026-10-26T04:46:52",
+      "title": "Pakistan's Top Court Adjourns Hearing in Abducted Christian Girl's Case Due to Police Failure",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13576,
+      "wp_link": "https://globalwitnessmonitor.com/gunmen-kill-nine-at-church-funeral-service-in-jordan/",
+      "date": "2026-10-26T04:46:32",
+      "title": "Gunmen open fire on church funeral gathering in Jordan, killing at least nine",
+      "country": "jordan",
+      "type": "church",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 13656,
+      "wp_link": "https://globalwitnessmonitor.com/three-christian-families-assaulted-and-coerced-to-renounce-faith-during-religious-festival-in-india/",
+      "date": "2026-10-26T04:45:25",
+      "title": "Three Christian Families Assaulted and Coerced to Renounce Faith During Religious Festival in India",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13637,
+      "wp_link": "https://globalwitnessmonitor.com/arson-attack-on-egyptian-coptic-church-suspect-arrested-after-early-morning-blaze/",
+      "date": "2026-10-26T04:40:40",
+      "title": "Arson attack on Coptic church leaves building damaged, suspect arrested",
+      "country": "egypt",
+      "type": "church",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13638,
+      "wp_link": "https://globalwitnessmonitor.com/arson-attack-on-coptic-church-in-egypt-suspect-arrested-no-injuries/",
+      "date": "2026-10-26T04:39:57",
+      "title": "Arson Attack on Coptic Church in Egypt; Suspect Arrested, No Injuries",
+      "country": "egypt",
+      "type": "church",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13636,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-school-principal-critically-injured-in-violent-night-attack-in-india/",
+      "date": "2026-10-26T04:39:17",
+      "title": "Catholic School Principal Critically Injured in Violent Night Attack in India",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13635,
+      "wp_link": "https://globalwitnessmonitor.com/wives-of-detained-christian-volunteer-guards-cry-out-after-years-of-alleged-secret-imprisonment-in-nigeria/",
+      "date": "2026-10-26T04:38:53",
+      "title": "Wives of Detained Christian Volunteer Guards Cry Out After Years of Alleged Secret Imprisonment in Nigeria",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13634,
+      "wp_link": "https://globalwitnessmonitor.com/christian-family-pays-millions-in-ransom-sons-remain-captive-and-feared-recruited-as-child-soldiers/",
+      "date": "2026-10-26T04:38:32",
+      "title": "Christian Family Pays Millions in Ransom, Sons Remain Captive and Feared Recruited as Child Soldiers",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13633,
+      "wp_link": "https://globalwitnessmonitor.com/three-christians-killed-in-separate-attacks-across-nigeria-within-days/",
+      "date": "2026-10-26T04:38:05",
+      "title": "Three Christians killed in separate attacks across Nigeria within days",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13632,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-upholds-christian-mans-blasphemy-death-sentence-after-more-than-a-decade-of-proceedings/",
+      "date": "2026-10-26T04:37:44",
+      "title": "Pakistan's Supreme Court upholds Christian man's blasphemy death sentence after more than a decade of proceedings",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13623,
+      "wp_link": "https://globalwitnessmonitor.com/christian-medics-clinic-and-home-torched-by-mob-over-blasphemy-allegation-in-pakistan/",
+      "date": "2026-10-26T04:35:01",
+      "title": "Christian Medic's Clinic and Home Torched by Mob Over Blasphemy Allegation in Pakistan",
+      "country": "pakistan",
+      "type": "church",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13619,
+      "wp_link": "https://globalwitnessmonitor.com/six-young-christians-detained-in-egypt-over-tiktok-comedy-clip-under-blasphemy-laws/",
+      "date": "2026-10-26T04:34:43",
+      "title": "Six Christian men jailed in Egypt over TikTok video deemed offensive to Islam",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13588,
+      "wp_link": "https://globalwitnessmonitor.com/police-detain-more-than-20-christians-at-house-church-gathering-in-china/",
+      "date": "2026-10-26T04:23:43",
+      "title": "Police Detain More Than 20 Christians at House Church Gathering in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13587,
+      "wp_link": "https://globalwitnessmonitor.com/demolished-chinese-church-converted-into-public-park-as-20-believers-remain-detained/",
+      "date": "2026-10-26T04:23:28",
+      "title": "Demolished Chinese church converted into public park as 20 believers remain detained",
+      "country": "china",
+      "type": "church",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13580,
+      "wp_link": "https://globalwitnessmonitor.com/nigerian-authorities-hold-27-christian-children-in-state-custody-defying-multiple-court-orders-to-release-them/",
+      "date": "2026-10-26T04:22:58",
+      "title": "Nigerian Christian Children Remain in State Custody Six Years After Raids, Court Orders Defied",
+      "country": "nigeria",
+      "type": "restriction",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13581,
+      "wp_link": "https://globalwitnessmonitor.com/christian-children-remain-in-state-custody-after-six-years-of-forced-islamisation-and-defied-court-orders/",
+      "date": "2026-10-26T04:22:30",
+      "title": "Christian Children Remain in State Custody Six Years After Raids, Facing Forced Islamisation",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13579,
+      "wp_link": "https://globalwitnessmonitor.com/christian-orphanage-children-held-in-nigeria-since-2019-forced-toward-islam-despite-court-orders/",
+      "date": "2026-10-26T04:21:35",
+      "title": "Christian Orphanage Children Held in Nigeria Since 2019, Forced Toward Islam Despite Court Orders",
+      "country": "nigeria",
+      "type": "restriction",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13578,
+      "wp_link": "https://globalwitnessmonitor.com/christians-endure-drone-strikes-and-church-destruction-amid-sudanese-civil-war/",
+      "date": "2026-10-26T04:21:22",
+      "title": "Christians Endure Drone Strikes and Church Destruction Amid Sudanese Civil War",
+      "country": "sudan",
+      "type": "displacement",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 13577,
+      "wp_link": "https://globalwitnessmonitor.com/wrongfully-imprisoned-man-released-after-more-than-a-year-in-sudanese-detention/",
+      "date": "2026-10-26T04:21:09",
+      "title": "Wrongfully Imprisoned Man Released After More Than a Year in Sudanese Detention",
+      "country": "sudan",
+      "type": "arrest",
+      "lat": 12.9,
+      "lng": 29.9
+    },
+    {
+      "wp_id": 13575,
+      "wp_link": "https://globalwitnessmonitor.com/syrian-christian-village-suffers-second-armed-attack-in-six-months/",
+      "date": "2026-10-26T04:20:40",
+      "title": "Syrian Christian Village Suffers Second Armed Attack in Six Months",
+      "country": "syria",
+      "type": "assault",
+      "lat": 34.8,
+      "lng": 38.3
+    },
     {
       "wp_id": 13456,
       "wp_link": "https://globalwitnessmonitor.com/christian-killed-in-uganda-after-sheltering-muslim-converts/",
