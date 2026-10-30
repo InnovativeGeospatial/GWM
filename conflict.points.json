@@ -1,9 +1,329 @@
 {
   "feed": "conflict",
-  "updated": "2026-10-26T05:25:59.264879+00:00",
-  "count": 2410,
+  "updated": "2026-10-30T09:24:39.745654+00:00",
+  "count": 2442,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13888,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-khartoum/",
+      "date": "2026-10-30T09:24:30",
+      "title": "Armed Conflict in Khartoum",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 15.588,
+      "lng": 32.525
+    },
+    {
+      "wp_id": 13871,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jameeca-jameeo-bay-region-lower-shabelle-south-west-state/",
+      "date": "2026-10-30T09:24:07",
+      "title": "Armed Conflict in Jameeca, Burhakaba district, Bay region",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 2.7206,
+      "lng": 44.2126
+    },
+    {
+      "wp_id": 13893,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-leego-lower-shabelle/",
+      "date": "2026-10-30T09:23:45",
+      "title": "Armed Conflict in Lower Shabelle",
+      "country": "Somalia",
+      "type": "Armed Conflict",
+      "lat": 1.7148,
+      "lng": 44.7699
+    },
+    {
+      "wp_id": 13841,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-moyale-2/",
+      "date": "2026-10-30T09:22:41",
+      "title": "Displacement in Moyale",
+      "country": "Ethiopia",
+      "type": "Displacement",
+      "lat": 10.1192,
+      "lng": 39.6607
+    },
+    {
+      "wp_id": 13904,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-omdurman-al-managil-gezira-state/",
+      "date": "2026-10-30T09:20:21",
+      "title": "Armed Conflict in Omdurman, Al-Managil, Gezira State",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 14.246744,
+      "lng": 32.985854
+    },
+    {
+      "wp_id": 13840,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-obeid-10/",
+      "date": "2026-10-30T09:19:47",
+      "title": "Armed Conflict in Omdurman, El Manaqil, Rabak",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 13.1834,
+      "lng": 30.2226
+    },
+    {
+      "wp_id": 13890,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hayiq/",
+      "date": "2026-10-30T09:14:34",
+      "title": "Armed Conflict in Hayiq",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 11.313169,
+      "lng": 39.676983
+    },
+    {
+      "wp_id": 13886,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-damazin-sennar-kosti-el-obeid-omdurman-el-manaqil/",
+      "date": "2026-10-30T09:13:07",
+      "title": "Armed Conflict in El Damazin, Sennar, Kosti, El Obeid, Omdurman, El Manaqil",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 9.592152,
+      "lng": 27.391154
+    },
+    {
+      "wp_id": 13881,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hammoud-karak/",
+      "date": "2026-10-30T09:10:42",
+      "title": "Armed Conflict in Hammoud, Karak",
+      "country": "Jordan",
+      "type": "Armed Conflict",
+      "lat": 31.184722,
+      "lng": 35.704722
+    },
+    {
+      "wp_id": 13880,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-el-fasher-north-darfur-3/",
+      "date": "2026-10-30T09:10:01",
+      "title": "Displacement in El Fasher, North Darfur",
+      "country": "Sudan",
+      "type": "Displacement",
+      "lat": 13.623824,
+      "lng": 25.355556
+    },
+    {
+      "wp_id": 13878,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-goma-6/",
+      "date": "2026-10-30T09:07:56",
+      "title": "Armed Conflict in Goma",
+      "country": "Congo",
+      "type": "Armed Conflict",
+      "lat": -1.666705,
+      "lng": 29.225677
+    },
+    {
+      "wp_id": 13874,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-middle-belt/",
+      "date": "2026-10-30T09:07:36",
+      "title": "Displacement in Middle Belt",
+      "country": "Nigeria",
+      "type": "Displacement",
+      "lat": 7.3012,
+      "lng": 5.1362
+    },
+    {
+      "wp_id": 13876,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-tagadayat-menaka-region/",
+      "date": "2026-10-30T09:07:19",
+      "title": "Armed Conflict in Tagadayat, Menaka region",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 15.9167,
+      "lng": 2.4
+    },
+    {
+      "wp_id": 13875,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-agadez-region/",
+      "date": "2026-10-30T09:06:51",
+      "title": "Armed Conflict in Agadez region",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 14.727898,
+      "lng": 6.193094
+    },
+    {
+      "wp_id": 13873,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-madama-northern-niger/",
+      "date": "2026-10-30T09:05:38",
+      "title": "Armed Conflict in Madama, northern Niger",
+      "country": "Niger",
+      "type": "Armed Conflict",
+      "lat": 10.531851,
+      "lng": 5.010931
+    },
+    {
+      "wp_id": 13872,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-near-the-mauritania-border/",
+      "date": "2026-10-30T09:05:18",
+      "title": "Armed Conflict in Near the Mauritania border",
+      "country": "Mali",
+      "type": "Armed Conflict",
+      "lat": 17.350335,
+      "lng": -1.252145
+    },
+    {
+      "wp_id": 13870,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-gaya-sikalmi-and-gaya-gartsanau-hong-local-government-area-adamawa-state/",
+      "date": "2026-10-30T09:03:52",
+      "title": "Armed Conflict in Gaya-Sikalmi and Gaya-Gartsanau, Hong Local Government Area, Adamawa State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 10.231108,
+      "lng": 12.929896
+    },
+    {
+      "wp_id": 13869,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-maiduguri/",
+      "date": "2026-10-30T09:03:17",
+      "title": "Armed Conflict in Maiduguri",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.839723,
+      "lng": 13.154308
+    },
+    {
+      "wp_id": 13867,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-binnari-karim-lamido-taraba-state/",
+      "date": "2026-10-30T09:02:52",
+      "title": "Armed Conflict in Binnari, Taraba state",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 9.3142,
+      "lng": 11.1938
+    },
+    {
+      "wp_id": 13866,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-buni-yadi-gujba-lga-yobe-state/",
+      "date": "2026-10-30T09:02:06",
+      "title": "Armed Conflict in Buni Yadi, Gujba LGA, Yobe State",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.278869,
+      "lng": 12.010094
+    },
+    {
+      "wp_id": 13864,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-suaza-huila/",
+      "date": "2026-10-30T09:01:24",
+      "title": "Armed Conflict in Cúcuta",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 1.977,
+      "lng": -75.795
+    },
+    {
+      "wp_id": 13862,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-tambo-cauca-2/",
+      "date": "2026-10-30T09:00:10",
+      "title": "Armed Conflict in El Escobal, Cúcuta",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 2.4502,
+      "lng": -76.8081
+    },
+    {
+      "wp_id": 13846,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-croix-des-bouquets-3/",
+      "date": "2026-10-30T08:59:29",
+      "title": "Armed Conflict in Croix-des-Bouquets",
+      "country": "Haiti",
+      "type": "Armed Conflict",
+      "lat": 18.5777,
+      "lng": -72.2263
+    },
+    {
+      "wp_id": 13857,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-port-au-prince-3/",
+      "date": "2026-10-30T08:58:02",
+      "title": "Displacement in Port-au-Prince",
+      "country": "Haiti",
+      "type": "Displacement",
+      "lat": 18.539766,
+      "lng": -72.33548
+    },
+    {
+      "wp_id": 13854,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-alfredo-v-bonfil-guasave/",
+      "date": "2026-10-30T08:56:11",
+      "title": "Armed Conflict in Alfredo V. Bonfil, Guasave",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 25.481671,
+      "lng": -108.369918
+    },
+    {
+      "wp_id": 13839,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dnipro-4/",
+      "date": "2026-10-30T08:55:27",
+      "title": "Armed Conflict in Oleshky",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 48.4635,
+      "lng": 35.0475
+    },
+    {
+      "wp_id": 13848,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-paris-9/",
+      "date": "2026-10-30T08:55:10",
+      "title": "Civil Unrest in Paris, Limoges",
+      "country": "France",
+      "type": "Civil Unrest",
+      "lat": 48.8535,
+      "lng": 2.3484
+    },
+    {
+      "wp_id": 13850,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-trappes-and-la-verriere/",
+      "date": "2026-10-30T08:54:50",
+      "title": "Armed Conflict in Trappes and La Verrière",
+      "country": "France",
+      "type": "Armed Conflict",
+      "lat": 44.3084,
+      "lng": 4.693
+    },
+    {
+      "wp_id": 13849,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-wonsan/",
+      "date": "2026-10-30T08:54:00",
+      "title": "Armed Conflict in Wonsan",
+      "country": "North Korea",
+      "type": "Armed Conflict",
+      "lat": 39.17284,
+      "lng": 127.429665
+    },
+    {
+      "wp_id": 13843,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hebron-3/",
+      "date": "2026-10-30T08:50:52",
+      "title": "Armed Conflict in Hebron",
+      "country": "Palestine",
+      "type": "Armed Conflict",
+      "lat": 31.528053,
+      "lng": 35.093998
+    },
+    {
+      "wp_id": 13838,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-nyala-south-darfur/",
+      "date": "2026-10-30T08:47:35",
+      "title": "Armed Conflict in Nyala, South Darfur",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 12.05051,
+      "lng": 24.879511
+    },
+    {
+      "wp_id": 13837,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-jammu-and-kashmir/",
+      "date": "2026-10-30T08:46:23",
+      "title": "Armed Conflict in Jammu and Kashmir",
+      "country": "India",
+      "type": "Armed Conflict",
+      "lat": 33.559707,
+      "lng": 75.289307
+    },
     {
       "wp_id": 13744,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-leego-bay-region/",
