@@ -1,9 +1,119 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-26T04:17:54.739478+00:00",
-  "count": 1262,
+  "updated": "2026-10-30T08:18:32.263782+00:00",
+  "count": 1273,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13755,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-10-28-2026/",
+      "date": "2026-10-30T08:16:51",
+      "title": "Flood in Malaysia 10/28/2026",
+      "country": "Malaysia",
+      "type": "Flood",
+      "lat": 5.795129,
+      "lng": 100.37239
+    },
+    {
+      "wp_id": 13754,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-10-29-2026/",
+      "date": "2026-10-30T08:16:16",
+      "title": "Storm in India 10/29/2026",
+      "country": "India",
+      "type": "Storm",
+      "lat": 19.387339,
+      "lng": 85.05152
+    },
+    {
+      "wp_id": 13753,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-haiti-10-27-2026/",
+      "date": "2026-10-30T08:11:29",
+      "title": "Flood in Haiti 10/27/2026",
+      "country": "Haiti",
+      "type": "Flood",
+      "lat": 19.182436,
+      "lng": -72.434515
+    },
+    {
+      "wp_id": 13752,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-10-30-2026/",
+      "date": "2026-10-30T08:10:12",
+      "title": "Flood in United States 10/30/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 43.77326,
+      "lng": -88.448231
+    },
+    {
+      "wp_id": 13751,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-syria-10-30-2026/",
+      "date": "2026-10-30T08:09:46",
+      "title": "Flood in Syria 10/30/2026",
+      "country": "Syria",
+      "type": "Flood",
+      "lat": 35.333334,
+      "lng": 40.15
+    },
+    {
+      "wp_id": 13750,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-10-26-2026-cat-1-2/",
+      "date": "2026-10-30T08:09:22",
+      "title": "Storm in India 10/26/2026 — Cat 1",
+      "country": "India",
+      "type": "Storm",
+      "lat": 16.4,
+      "lng": 81.8
+    },
+    {
+      "wp_id": 13749,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-10-30-2026/",
+      "date": "2026-10-30T08:05:12",
+      "title": "Drought in Russia 10/30/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 55.094658,
+      "lng": 36.61259
+    },
+    {
+      "wp_id": 13748,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-10-28-2026-magnitude-5/",
+      "date": "2026-10-30T08:00:08",
+      "title": "Earthquake in Indonesia 10/28/2026 — Magnitude 5",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": 2.4277,
+      "lng": 126.7587
+    },
+    {
+      "wp_id": 13747,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-10-29-2026-magnitude-5/",
+      "date": "2026-10-30T07:58:31",
+      "title": "Earthquake in United States 10/29/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 54.854749,
+      "lng": -163.414368
+    },
+    {
+      "wp_id": 13746,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-10-30-2026-magnitude-5/",
+      "date": "2026-10-30T07:57:54",
+      "title": "Earthquake in Papua New Guinea 10/30/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -5.8137,
+      "lng": 148.3151
+    },
+    {
+      "wp_id": 13745,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-10-29-2026-magnitude-6/",
+      "date": "2026-10-30T07:57:37",
+      "title": "Earthquake in Chile 10/29/2026 — Magnitude 6",
+      "country": "Chile",
+      "type": "Earthquake",
+      "lat": -27.147003,
+      "lng": -109.43021
+    },
     {
       "wp_id": 13573,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-somalia-10-24-2026/",
