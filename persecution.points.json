@@ -1,9 +1,419 @@
 {
   "feed": "persecution",
-  "updated": "2026-10-30T08:44:57.768426+00:00",
-  "count": 781,
+  "updated": "2026-11-06T08:42:28.375038+00:00",
+  "count": 822,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13954,
+      "wp_link": "https://globalwitnessmonitor.com/mob-storms-newly-inaugurated-church-in-india-vandalises-building-and-assaults-worshippers/",
+      "date": "2026-11-06T08:42:06",
+      "title": "Mob storms church inauguration in India, beats clergy and devotees, vandalises cross",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13980,
+      "wp_link": "https://globalwitnessmonitor.com/hindutva-mob-storms-christian-prayer-meeting-several-injured/",
+      "date": "2026-11-06T08:41:29",
+      "title": "Hindutva Mob Storms Christian Prayer Meeting, Several Injured",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13978,
+      "wp_link": "https://globalwitnessmonitor.com/christian-man-killed-in-uganda-after-sheltering-muslim-converts/",
+      "date": "2026-11-06T08:41:06",
+      "title": "Christian Teacher Killed in Uganda After Sheltering Muslim Converts",
+      "country": "uganda",
+      "type": "killing",
+      "lat": 1.4,
+      "lng": 32.3
+    },
+    {
+      "wp_id": 13943,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-sentenced-to-three-years-after-secret-trial-in-belarus/",
+      "date": "2026-11-06T08:40:19",
+      "title": "Catholic Priest Sentenced to Three Years for Opposing War and Aiding Refugees",
+      "country": "belarus",
+      "type": "arrest",
+      "lat": 53.7,
+      "lng": 28.0
+    },
+    {
+      "wp_id": 13976,
+      "wp_link": "https://globalwitnessmonitor.com/catholic-priest-murdered-in-his-home-in-lebanon-suspect-arrested/",
+      "date": "2026-11-06T08:40:02",
+      "title": "Catholic Priest Murdered in His Home in Lebanon, Suspect Arrested",
+      "country": "lebanon",
+      "type": "killing",
+      "lat": 33.9,
+      "lng": 35.9
+    },
+    {
+      "wp_id": 13975,
+      "wp_link": "https://globalwitnessmonitor.com/armed-militia-abduct-seven-christian-mourners-along-nigerian-highway-demand-ransom/",
+      "date": "2026-11-06T08:39:45",
+      "title": "Armed Militia Abduct Seven Christian Mourners Along Nigerian Highway, Demand Ransom",
+      "country": "nigeria",
+      "type": "arrest",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13974,
+      "wp_link": "https://globalwitnessmonitor.com/five-tribal-christians-killed-amid-escalating-intercommunal-violence-in-indias-northeast/",
+      "date": "2026-11-06T08:39:26",
+      "title": "Five Tribal Christians Killed Amid Escalating Intercommunal Violence in India's Northeast",
+      "country": "india",
+      "type": "killing",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13942,
+      "wp_link": "https://globalwitnessmonitor.com/over-60-christians-killed-in-ethiopia-in-coordinated-attacks-described-as-massacre/",
+      "date": "2026-11-06T08:39:03",
+      "title": "At Least 60 Orthodox Christians Killed in Twin Armed Attacks in Ethiopia",
+      "country": "ethiopia",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 40.5
+    },
+    {
+      "wp_id": 13971,
+      "wp_link": "https://globalwitnessmonitor.com/man-pleads-guilty-to-arson-that-levelled-century-old-catholic-church-in-canada/",
+      "date": "2026-11-06T08:38:26",
+      "title": "Man pleads guilty to arson that levelled century-old Catholic church in Canada",
+      "country": "canada",
+      "type": "church",
+      "lat": 60.0,
+      "lng": -96.8
+    },
+    {
+      "wp_id": 13970,
+      "wp_link": "https://globalwitnessmonitor.com/nepal-detains-foreign-christian-workers-in-back-to-back-crackdowns-on-missionary-activities/",
+      "date": "2026-11-06T08:38:00",
+      "title": "Nepal detains foreign Christian workers in back-to-back crackdowns on missionary activities",
+      "country": "nepal",
+      "type": "arrest",
+      "lat": 28.4,
+      "lng": 84.1
+    },
+    {
+      "wp_id": 13969,
+      "wp_link": "https://globalwitnessmonitor.com/un-rapporteur-links-historic-church-seizure-to-escalating-campaign-against-irans-christians/",
+      "date": "2026-11-06T08:37:42",
+      "title": "UN Rapporteur Links Historic Church Seizure to Escalating Campaign Against Iran's Christians",
+      "country": "iran",
+      "type": "church",
+      "lat": 32.4,
+      "lng": 53.7
+    },
+    {
+      "wp_id": 13968,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-stabbed-to-death-in-his-home-church-in-india/",
+      "date": "2026-11-06T08:37:19",
+      "title": "Pastor Stabbed to Death in His Home-Church in India",
+      "country": "india",
+      "type": "killing",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13967,
+      "wp_link": "https://globalwitnessmonitor.com/17-christian-worshippers-die-in-captivity-after-church-abductions-4-still-held/",
+      "date": "2026-11-06T08:36:58",
+      "title": "17 Christian worshippers die in captivity after church abductions; 4 still held",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13966,
+      "wp_link": "https://globalwitnessmonitor.com/us-sanctions-former-libyan-prison-official-for-torture-and-murder-of-christian-detainees/",
+      "date": "2026-11-06T08:36:40",
+      "title": "US Sanctions Former Libyan Prison Official for Torture and Murder of Christian Detainees",
+      "country": "libya",
+      "type": "restriction",
+      "lat": 26.3,
+      "lng": 17.2
+    },
+    {
+      "wp_id": 13965,
+      "wp_link": "https://globalwitnessmonitor.com/myanmar-military-drone-strike-kills-three-female-students-at-christian-bible-school/",
+      "date": "2026-11-06T08:36:21",
+      "title": "Myanmar military drone strike kills three female students at Christian Bible school",
+      "country": "myanmar",
+      "type": "killing",
+      "lat": 17.1,
+      "lng": 95.9
+    },
+    {
+      "wp_id": 13964,
+      "wp_link": "https://globalwitnessmonitor.com/13-year-old-girl-dies-after-seven-months-of-captivity-dozens-of-christians-killed-or-lost-in-ongoing-nigeria-kidnappings/",
+      "date": "2026-11-06T08:35:57",
+      "title": "13-Year-Old Girl Dies After Seven Months of Captivity; Dozens of Christians Killed or Lost in Ongoing Nigeria Kidnappings",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 13957,
+      "wp_link": "https://globalwitnessmonitor.com/coptic-christian-killed-by-is-in-libya-after-refusing-to-deny-his-faith/",
+      "date": "2026-11-06T08:35:35",
+      "title": "Egyptian Coptic Christian killed by Islamic State in Libya after refusing to deny his faith",
+      "country": "libya",
+      "type": "killing",
+      "lat": 26.3,
+      "lng": 17.2
+    },
+    {
+      "wp_id": 13961,
+      "wp_link": "https://globalwitnessmonitor.com/pakistans-supreme-court-upholds-christian-mans-death-sentence-in-historic-blasphemy-ruling/",
+      "date": "2026-11-06T08:35:15",
+      "title": "Pakistan's Highest Court Upholds Christian's Death Sentence in Landmark Blasphemy Ruling",
+      "country": "pakistan",
+      "type": "restriction",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 13959,
+      "wp_link": "https://globalwitnessmonitor.com/two-christian-women-physically-attacked-over-alleged-conversion-activity-in-india/",
+      "date": "2026-11-06T08:34:11",
+      "title": "Two Christian Women Physically Attacked Over Alleged Conversion Activity in India",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13958,
+      "wp_link": "https://globalwitnessmonitor.com/three-christian-families-beaten-and-coerced-to-renounce-faith-in-india/",
+      "date": "2026-11-06T08:33:46",
+      "title": "Three Christian Families Beaten and Coerced to Renounce Faith in India",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13940,
+      "wp_link": "https://globalwitnessmonitor.com/coptic-christian-arrested-in-egypt-for-online-objection-to-islamic-education-in-schools/",
+      "date": "2026-11-06T08:32:52",
+      "title": "Coptic Christian engineer arrested for online objection to Islamic education in schools",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13939,
+      "wp_link": "https://globalwitnessmonitor.com/egyptian-christian-convert-faces-execution-as-uk-parliament-presses-for-diplomatic-action/",
+      "date": "2026-11-06T08:32:31",
+      "title": "Egyptian Convert Faces Death Penalty or 25 Years as UK Parliament Presses for Intervention",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 13952,
+      "wp_link": "https://globalwitnessmonitor.com/three-charged-with-terrorism-after-deadly-attack-on-christians-at-church-funeral-service/",
+      "date": "2026-11-06T08:31:27",
+      "title": "Three charged with terrorism after deadly attack on Christians at church funeral service",
+      "country": "jordan",
+      "type": "killing",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 13949,
+      "wp_link": "https://globalwitnessmonitor.com/nine-killed-in-armed-terrorist-attack-on-church-funeral-gathering-in-jordan/",
+      "date": "2026-11-06T08:30:27",
+      "title": "Nine killed in armed terrorist attack on church funeral gathering in Jordan",
+      "country": "jordan",
+      "type": "killing",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 13948,
+      "wp_link": "https://globalwitnessmonitor.com/nine-killed-in-mass-shooting-at-greek-orthodox-church-during-funeral-service/",
+      "date": "2026-11-06T08:30:06",
+      "title": "Nine killed in mass shooting at Greek Orthodox church during funeral service",
+      "country": "jordan",
+      "type": "killing",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 13947,
+      "wp_link": "https://globalwitnessmonitor.com/teacher-who-served-700-days-in-prison-over-trans-pronoun-dispute-confronts-church-leader/",
+      "date": "2026-11-06T08:29:39",
+      "title": "Teacher Who Served 700 Days in Prison Over Trans Pronoun Dispute Confronts Church Leader",
+      "country": "ireland",
+      "type": "harassment",
+      "lat": 53.4,
+      "lng": -8.2
+    },
+    {
+      "wp_id": 13946,
+      "wp_link": "https://globalwitnessmonitor.com/displaced-lebanese-christians-hope-olive-harvest-signals-path-home-after-six-months-away/",
+      "date": "2026-11-06T08:29:14",
+      "title": "Displaced Lebanese Christians hope olive harvest signals path home after six months away",
+      "country": "lebanon",
+      "type": "displacement",
+      "lat": 33.9,
+      "lng": 35.9
+    },
+    {
+      "wp_id": 13945,
+      "wp_link": "https://globalwitnessmonitor.com/jesus-statue-beheaded-and-war-memorial-defaced-at-uk-catholic-church/",
+      "date": "2026-11-06T08:28:58",
+      "title": "Jesus Statue Beheaded and War Memorial Defaced at UK Catholic Church",
+      "country": "united kingdom",
+      "type": "harassment",
+      "lat": 55.4,
+      "lng": -3.4
+    },
+    {
+      "wp_id": 13944,
+      "wp_link": "https://globalwitnessmonitor.com/settler-attacks-and-military-restrictions-drive-christian-families-from-the-west-banks-last-all-christian-village/",
+      "date": "2026-11-06T08:28:38",
+      "title": "Settler attacks and military restrictions drive Christian families from the West Bank's last all-Christian village",
+      "country": "israel",
+      "type": "displacement",
+      "lat": 31.0,
+      "lng": 34.9
+    },
+    {
+      "wp_id": 13941,
+      "wp_link": "https://globalwitnessmonitor.com/nine-killed-dozens-wounded-in-terrorist-attack-on-church-during-funeral/",
+      "date": "2026-11-06T08:27:34",
+      "title": "Nine Killed, Dozens Wounded in Terrorist Attack on Church During Funeral",
+      "country": "jordan",
+      "type": "killing",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 13938,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-elder-released-in-china-as-two-pastors-remain-jailed/",
+      "date": "2026-11-06T08:26:32",
+      "title": "House Church Elder Released in China as Two Pastors Remain Jailed",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13937,
+      "wp_link": "https://globalwitnessmonitor.com/beijing-house-church-pastor-held-on-fraud-charges-as-seven-coworkers-released-on-bail/",
+      "date": "2026-11-06T08:26:20",
+      "title": "Beijing house church pastor held on fraud charges as seven coworkers released on bail",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13936,
+      "wp_link": "https://globalwitnessmonitor.com/chinese-pastor-writes-from-detention-urging-christians-to-persevere-after-more-than-a-year-behind-bars/",
+      "date": "2026-11-06T08:26:04",
+      "title": "Chinese pastor writes from detention urging Christians to persevere after more than a year behind bars",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13935,
+      "wp_link": "https://globalwitnessmonitor.com/china-blocks-christian-rights-defender-from-legal-credentials-after-politically-motivated-conviction/",
+      "date": "2026-11-06T08:25:50",
+      "title": "China blocks Christian rights defender from legal credentials after politically motivated conviction",
+      "country": "china",
+      "type": "restriction",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 13927,
+      "wp_link": "https://globalwitnessmonitor.com/russian-jehovahs-witness-sentenced-to-four-years-forced-labor-for-discussing-the-bible/",
+      "date": "2026-11-06T08:25:05",
+      "title": "Russian Court Sentences Jehovah's Witness to Over Six Years for Religious Activity",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 13926,
+      "wp_link": "https://globalwitnessmonitor.com/woman-sentenced-to-five-years-in-russia-for-bible-discussion-with-jehovahs-witnesses/",
+      "date": "2026-11-06T08:24:54",
+      "title": "Jehovah's Witness Sentenced to Four Years in Russia for Religious Membership",
+      "country": "russia",
+      "type": "arrest",
+      "lat": 61.5,
+      "lng": 105.3
+    },
+    {
+      "wp_id": 13925,
+      "wp_link": "https://globalwitnessmonitor.com/conflict-drives-tens-of-thousands-of-ethiopian-christians-into-displacement-crisis/",
+      "date": "2026-11-06T08:23:34",
+      "title": "Conflict Drives Tens of Thousands of Ethiopian Christians into Displacement Crisis",
+      "country": "ethiopia",
+      "type": "displacement",
+      "lat": 9.1,
+      "lng": 40.5
+    },
+    {
+      "wp_id": 13924,
+      "wp_link": "https://globalwitnessmonitor.com/29-hostages-including-christians-freed-from-adf-militants-in-dr-congo/",
+      "date": "2026-11-06T08:22:58",
+      "title": "29 Hostages Including Christians Freed from ADF Militants in DR Congo",
+      "country": "dr congo",
+      "type": "displacement",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 13923,
+      "wp_link": "https://globalwitnessmonitor.com/adf-attack-kills-christian-displaces-residents-already-facing-ebola-crisis-in-dr-congo/",
+      "date": "2026-11-06T08:22:45",
+      "title": "ADF Attack Kills Christian, Displaces Residents Already Facing Ebola Crisis in DR Congo",
+      "country": "dr congo",
+      "type": "displacement",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 13922,
+      "wp_link": "https://globalwitnessmonitor.com/three-christian-families-flee-ancestral-home-in-india-after-mob-attack-and-forced-conversion-pressure/",
+      "date": "2026-11-06T08:22:30",
+      "title": "Three Christian Families Flee Ancestral Home in India After Mob Attack and Forced-Conversion Pressure",
+      "country": "india",
+      "type": "displacement",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 13921,
+      "wp_link": "https://globalwitnessmonitor.com/sudanese-church-facing-imminent-demolition-threat-as-paperwork-stalls-in-bureaucracy/",
+      "date": "2026-11-06T08:22:15",
+      "title": "Sudanese Church Facing Imminent Demolition Threat as Paperwork Stalls in Bureaucracy",
+      "country": "sudan",
+      "type": "church",
+      "lat": 12.9,
+      "lng": 29.9
+    },
     {
       "wp_id": 13836,
       "wp_link": "https://globalwitnessmonitor.com/catholic-priest-disappears-in-cartel-plagued-mexican-state-bishops-and-government-launch-urgent-search/",
