@@ -1,9 +1,59 @@
 {
   "feed": "disasters",
-  "updated": "2026-10-30T08:18:32.263782+00:00",
-  "count": 1273,
+  "updated": "2026-11-06T08:19:38.068635+00:00",
+  "count": 1278,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 13920,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-11-02-2026/",
+      "date": "2026-11-06T08:17:12",
+      "title": "Storm in India 11/02/2026",
+      "country": "India",
+      "type": "Storm",
+      "lat": 15.518033,
+      "lng": 79.36247
+    },
+    {
+      "wp_id": 13919,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-10-29-2026/",
+      "date": "2026-11-06T08:16:51",
+      "title": "Wildfire in Australia 10/29/2026",
+      "country": "Australia",
+      "type": "Wildfire",
+      "lat": -31.972143,
+      "lng": 116.056786
+    },
+    {
+      "wp_id": 13918,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-united-states-11-03-2026/",
+      "date": "2026-11-06T08:08:50",
+      "title": "Flood in United States 11/03/2026",
+      "country": "United States",
+      "type": "Flood",
+      "lat": 27.995929,
+      "lng": -80.63456
+    },
+    {
+      "wp_id": 13917,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-11-04-2026-magnitude-5/",
+      "date": "2026-11-06T07:57:18",
+      "title": "Earthquake in Philippines 11/04/2026 — Magnitude 5",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 4.3895,
+      "lng": 127.0325
+    },
+    {
+      "wp_id": 13916,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-11-05-2026-magnitude-6/",
+      "date": "2026-11-06T07:56:39",
+      "title": "Earthquake in Fiji 11/05/2026 — Magnitude 6",
+      "country": "Fiji",
+      "type": "Earthquake",
+      "lat": -17.68069,
+      "lng": 178.833399
+    },
     {
       "wp_id": 13755,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-malaysia-10-28-2026/",
