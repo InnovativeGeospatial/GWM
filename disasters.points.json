@@ -1,7 +1,7 @@
 {
   "feed": "disasters",
-  "updated": "2026-11-12T04:41:53.687126+00:00",
-  "count": 1172,
+  "updated": "2026-11-12T04:53:23.867136+00:00",
+  "count": 1111,
   "limit": 10000,
   "events": [
     {
@@ -793,16 +793,6 @@
       "type": "Disease",
       "lat": 28.131453,
       "lng": 83.89468
-    },
-    {
-      "wp_id": 12975,
-      "wp_link": "https://globalwitnessmonitor.com/storm-in-united-states-10-09-2026-cat-2/",
-      "date": "2026-10-10T03:29:11",
-      "title": "Storm in United States 10/09/2026 — Cat 2",
-      "country": "United States",
-      "type": "Storm",
-      "lat": 30.394653,
-      "lng": -86.507842
     },
     {
       "wp_id": 12974,
@@ -3965,16 +3955,6 @@
       "lng": 103.470244
     },
     {
-      "wp_id": 8819,
-      "wp_link": "https://globalwitnessmonitor.com/heatwave-in-kazakhstan-07-18-2026/",
-      "date": "2026-07-18T15:23:16",
-      "title": "Heatwave in Kazakhstan 07/18/2026",
-      "country": "Kazakhstan",
-      "type": "Heatwave",
-      "lat": 48.160088,
-      "lng": 67.301774
-    },
-    {
       "wp_id": 8818,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-07-14-2026-magnitude-5/",
       "date": "2026-07-18T15:20:15",
@@ -4735,16 +4715,6 @@
       "lng": -66.7593
     },
     {
-      "wp_id": 8099,
-      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-france-07-02-2026/",
-      "date": "2026-07-03T13:27:19",
-      "title": "Wildfire in France 07/02/2026",
-      "country": "France",
-      "type": "Wildfire",
-      "lat": 42.724953,
-      "lng": 3.016082
-    },
-    {
       "wp_id": 8097,
       "wp_link": "https://globalwitnessmonitor.com/wildfire-in-united-states-07-01-2026/",
       "date": "2026-07-03T13:25:17",
@@ -5203,16 +5173,6 @@
       "type": "Heatwave",
       "lat": 48.87664,
       "lng": 2.31769
-    },
-    {
-      "wp_id": 7667,
-      "wp_link": "https://globalwitnessmonitor.com/flood-in-ghana-06-29-2026/",
-      "date": "2026-06-29T17:09:21",
-      "title": "Flood in Ghana 06/29/2026",
-      "country": "Ghana",
-      "type": "Flood",
-      "lat": 5.58505,
-      "lng": -0.210768
     },
     {
       "wp_id": 7665,
@@ -7555,16 +7515,6 @@
       "lng": 106.827216
     },
     {
-      "wp_id": 6376,
-      "wp_link": "https://globalwitnessmonitor.com/storm-in-madagascar-2/",
-      "date": "2026-06-13T17:05:17",
-      "title": "Storm in Madagascar",
-      "country": "Madagascar",
-      "type": "Storm",
-      "lat": -19.373534,
-      "lng": 46.705984
-    },
-    {
       "wp_id": 6375,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-canada-4/",
       "date": "2026-06-13T17:04:32",
@@ -8045,16 +7995,6 @@
       "lng": 158.6476
     },
     {
-      "wp_id": 6229,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-06-11-2026-magnitude-6/",
-      "date": "2026-06-11T17:01:18",
-      "title": "Earthquake in Chile 06/11/2026 — Magnitude 6",
-      "country": "Chile",
-      "type": "Earthquake",
-      "lat": -27.8038,
-      "lng": -71.7406
-    },
-    {
       "wp_id": 6181,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-indonesia/",
       "date": "2026-06-11T03:35:55",
@@ -8355,16 +8295,6 @@
       "lng": 142.822534
     },
     {
-      "wp_id": 5923,
-      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-10/",
-      "date": "2026-06-05T17:01:56",
-      "title": "Disease in Congo",
-      "country": "Congo",
-      "type": "Disease",
-      "lat": 1.936693,
-      "lng": 30.045987
-    },
-    {
       "wp_id": 5922,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-uganda-05-15-2025/",
       "date": "2026-06-05T17:01:42",
@@ -8385,16 +8315,6 @@
       "lng": 77.01456
     },
     {
-      "wp_id": 5912,
-      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-9/",
-      "date": "2026-06-05T05:02:21",
-      "title": "Disease in Congo",
-      "country": "Congo",
-      "type": "Disease",
-      "lat": -1.172919,
-      "lng": 23.166899
-    },
-    {
       "wp_id": 5911,
       "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-2/",
       "date": "2026-06-05T05:02:10",
@@ -8403,16 +8323,6 @@
       "type": "Disease",
       "lat": 0.529862,
       "lng": 37.857882
-    },
-    {
-      "wp_id": 5910,
-      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states/",
-      "date": "2026-06-05T05:01:59",
-      "title": "Disease in United States",
-      "country": "United States",
-      "type": "Disease",
-      "lat": 28.941375,
-      "lng": -99.850075
     },
     {
       "wp_id": 5909,
@@ -8463,16 +8373,6 @@
       "type": "Earthquake",
       "lat": -0.86147,
       "lng": 134.06201
-    },
-    {
-      "wp_id": 5859,
-      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-7/",
-      "date": "2026-06-03T17:02:24",
-      "title": "Disease in Congo",
-      "country": "Congo",
-      "type": "Disease",
-      "lat": -1.172919,
-      "lng": 23.166899
     },
     {
       "wp_id": 5858,
@@ -9105,16 +9005,6 @@
       "lng": 109.423134
     },
     {
-      "wp_id": 3596,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-16-2026-magnitude-5-3/",
-      "date": "2026-05-18T12:45:57",
-      "title": "Earthquake in Vanuatu 05/16/2026 — Magnitude 5",
-      "country": "Vanuatu",
-      "type": "Earthquake",
-      "lat": -17.731392,
-      "lng": 168.306222
-    },
-    {
       "wp_id": 3595,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-17-2026-magnitude-5/",
       "date": "2026-05-18T12:45:46",
@@ -9153,16 +9043,6 @@
       "type": "Earthquake",
       "lat": -6.988818,
       "lng": 106.55121
-    },
-    {
-      "wp_id": 3590,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-17-2026-magnitude-5-3/",
-      "date": "2026-05-18T12:44:43",
-      "title": "Earthquake in Papua New Guinea 05/17/2026 — Magnitude 5",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -5.545937,
-      "lng": 150.142797
     },
     {
       "wp_id": 3589,
@@ -9285,26 +9165,6 @@
       "lng": 160.699265
     },
     {
-      "wp_id": 3324,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-16-2026-magnitude-5-2/",
-      "date": "2026-05-17T13:13:55",
-      "title": "Earthquake in Vanuatu 05/16/2026 — Magnitude 5",
-      "country": "Vanuatu",
-      "type": "Earthquake",
-      "lat": -17.731392,
-      "lng": 168.306222
-    },
-    {
-      "wp_id": 3323,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-16-2026-magnitude-5-2/",
-      "date": "2026-05-17T13:13:43",
-      "title": "Earthquake in Tonga 05/16/2026 — Magnitude 5",
-      "country": "Tonga",
-      "type": "Earthquake",
-      "lat": -18.651457,
-      "lng": -173.98355
-    },
-    {
       "wp_id": 3321,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-india-05-16-2026-magnitude-5/",
       "date": "2026-05-17T13:13:19",
@@ -9355,16 +9215,6 @@
       "lng": 147.7681
     },
     {
-      "wp_id": 3316,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-russia-05-17-2026-magnitude-6/",
-      "date": "2026-05-17T13:12:20",
-      "title": "Earthquake in Russia 05/17/2026 — Magnitude 6",
-      "country": "Russia",
-      "type": "Earthquake",
-      "lat": 50.67055,
-      "lng": 156.11896
-    },
-    {
       "wp_id": 3137,
       "wp_link": "https://globalwitnessmonitor.com/drought-in-somalia-2/",
       "date": "2026-05-16T12:54:50",
@@ -9395,16 +9245,6 @@
       "lng": 124.748923
     },
     {
-      "wp_id": 3133,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-7-2/",
-      "date": "2026-05-16T12:53:58",
-      "title": "Earthquake in Japan 05/15/2026 — Magnitude 7",
-      "country": "Japan",
-      "type": "Earthquake",
-      "lat": 38.9127,
-      "lng": 142.2498
-    },
-    {
       "wp_id": 3132,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-15-2026-magnitude-5/",
       "date": "2026-05-16T12:53:35",
@@ -9423,16 +9263,6 @@
       "type": "Earthquake",
       "lat": -10.183634,
       "lng": -75.149124
-    },
-    {
-      "wp_id": 3130,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-vanuatu-05-15-2026-magnitude-5/",
-      "date": "2026-05-16T12:53:10",
-      "title": "Earthquake in Vanuatu 05/15/2026 — Magnitude 5",
-      "country": "Vanuatu",
-      "type": "Earthquake",
-      "lat": -17.731392,
-      "lng": 168.306222
     },
     {
       "wp_id": 3129,
@@ -9525,16 +9355,6 @@
       "lng": 141.443
     },
     {
-      "wp_id": 3066,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-15-2026-magnitude-5/",
-      "date": "2026-05-15T05:13:46",
-      "title": "Earthquake in Papua New Guinea 05/15/2026 — Magnitude 5",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -2.9915,
-      "lng": 147.7607
-    },
-    {
       "wp_id": 3008,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6-2/",
       "date": "2026-05-14T14:24:53",
@@ -9555,16 +9375,6 @@
       "lng": 131.79236738189468
     },
     {
-      "wp_id": 3005,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-13-2026-magnitude-5/",
-      "date": "2026-05-14T14:24:20",
-      "title": "Earthquake in Tonga 05/13/2026 — Magnitude 5",
-      "country": "Tonga",
-      "type": "Earthquake",
-      "lat": -15.95679,
-      "lng": -173.79214
-    },
-    {
       "wp_id": 3004,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-13-2026-magnitude-5-2/",
       "date": "2026-05-14T14:24:11",
@@ -9583,16 +9393,6 @@
       "type": "Earthquake",
       "lat": 4.96835,
       "lng": 36.487794
-    },
-    {
-      "wp_id": 3001,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-argentina-05-14-2026-magnitude-5/",
-      "date": "2026-05-14T14:23:32",
-      "title": "Earthquake in Argentina 05/14/2026 — Magnitude 5",
-      "country": "Argentina",
-      "type": "Earthquake",
-      "lat": -24.217514,
-      "lng": -66.32092
     },
     {
       "wp_id": 3000,
@@ -9663,16 +9463,6 @@
       "type": "Flood",
       "lat": 33.712802,
       "lng": 71.2678805
-    },
-    {
-      "wp_id": 2969,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-5-6/",
-      "date": "2026-05-13T15:10:31",
-      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 5.6",
-      "country": "Solomon Islands",
-      "type": "Earthquake",
-      "lat": -10.649,
-      "lng": 164.9925
     },
     {
       "wp_id": 2968,
@@ -9805,16 +9595,6 @@
       "lng": 125.603134
     },
     {
-      "wp_id": 2926,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-12-05-2026-magnitude-6/",
-      "date": "2026-05-12T22:36:44",
-      "title": "Earthquake in Solomon Islands 12/05/2026 — Magnitude 6",
-      "country": "Solomon Islands",
-      "type": "Earthquake",
-      "lat": -10.6279,
-      "lng": 164.9205
-    },
-    {
       "wp_id": 2925,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-12-05-2026-magnitude-5-7/",
       "date": "2026-05-12T22:36:33",
@@ -9833,16 +9613,6 @@
       "type": "Earthquake",
       "lat": 34.04533,
       "lng": 113.82427
-    },
-    {
-      "wp_id": 2923,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-05-12-2026-magnitude-6/",
-      "date": "2026-05-12T22:36:11",
-      "title": "Earthquake in Solomon Islands 05/12/2026 — Magnitude 6",
-      "country": "Solomon Islands",
-      "type": "Earthquake",
-      "lat": -10.724173,
-      "lng": 165.797764
     },
     {
       "wp_id": 2922,
@@ -9865,16 +9635,6 @@
       "lng": -175.30415
     },
     {
-      "wp_id": 2920,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-12-2026-magnitude-5/",
-      "date": "2026-05-12T22:35:41",
-      "title": "Earthquake in Tonga 05/12/2026 — Magnitude 5",
-      "country": "Tonga",
-      "type": "Earthquake",
-      "lat": -21.340223,
-      "lng": -174.95555
-    },
-    {
       "wp_id": 2874,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-solomon-islands/",
       "date": "2026-05-12T14:01:03",
@@ -9893,16 +9653,6 @@
       "type": "Volcano",
       "lat": 0.65,
       "lng": 127.9
-    },
-    {
-      "wp_id": 2871,
-      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-australia-11-05-2026/",
-      "date": "2026-05-12T14:00:23",
-      "title": "Wildfire in Australia 11/05/2026",
-      "country": "Australia",
-      "type": "Wildfire",
-      "lat": -14.972754530773363,
-      "lng": 130.57707218271906
     },
     {
       "wp_id": 2870,
@@ -10005,16 +9755,6 @@
       "lng": -73.1062
     },
     {
-      "wp_id": 2815,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-3/",
-      "date": "2026-05-11T15:28:11",
-      "title": "Volcano in Indonesia",
-      "country": "Indonesia",
-      "type": "Volcano",
-      "lat": 1.488,
-      "lng": 127.63
-    },
-    {
       "wp_id": 2814,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-tonga-05-09-2026-magnitude-5/",
       "date": "2026-05-11T15:27:57",
@@ -10095,16 +9835,6 @@
       "lng": 145.6782
     },
     {
-      "wp_id": 2805,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-10-2026-magnitude-5/",
-      "date": "2026-05-11T15:26:28",
-      "title": "Earthquake in Fiji 05/10/2026 — Magnitude 5",
-      "country": "Fiji",
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406
-    },
-    {
       "wp_id": 2804,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-11-2026-magnitude-5-2/",
       "date": "2026-05-11T15:26:17",
@@ -10133,16 +9863,6 @@
       "type": "Earthquake",
       "lat": -9.2967,
       "lng": 159.1915
-    },
-    {
-      "wp_id": 2775,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-2/",
-      "date": "2026-05-10T16:32:26",
-      "title": "Volcano in Indonesia",
-      "country": "Indonesia",
-      "type": "Volcano",
-      "lat": 1.539476,
-      "lng": 127.60065
     },
     {
       "wp_id": 2774,
@@ -10205,16 +9925,6 @@
       "lng": -82.8661
     },
     {
-      "wp_id": 2768,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-09-2026-magnitude-5/",
-      "date": "2026-05-10T16:30:54",
-      "title": "Earthquake in Fiji 05/09/2026 — Magnitude 5",
-      "country": "Fiji",
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406
-    },
-    {
       "wp_id": 2767,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-09-2026-magnitude-5/",
       "date": "2026-05-10T16:30:44",
@@ -10223,16 +9933,6 @@
       "type": "Earthquake",
       "lat": -38.98885,
       "lng": 175.80905
-    },
-    {
-      "wp_id": 2766,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-05-10-2026-magnitude-5/",
-      "date": "2026-05-10T16:30:34",
-      "title": "Earthquake in Philippines 05/10/2026 — Magnitude 5",
-      "country": "Philippines",
-      "type": "Earthquake",
-      "lat": 6.358398,
-      "lng": 126.17333
     },
     {
       "wp_id": 2765,
@@ -10253,16 +9953,6 @@
       "type": "Earthquake",
       "lat": 32.978625,
       "lng": -115.533615
-    },
-    {
-      "wp_id": 2762,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-chile-05-10-2026-magnitude-5/",
-      "date": "2026-05-10T16:29:45",
-      "title": "Earthquake in Chile 05/10/2026 — Magnitude 5",
-      "country": "Chile",
-      "type": "Earthquake",
-      "lat": -37.79989,
-      "lng": -73.399445
     },
     {
       "wp_id": 2761,
@@ -10293,66 +9983,6 @@
       "type": "Drought",
       "lat": null,
       "lng": null
-    },
-    {
-      "wp_id": 2721,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-23-2025/",
-      "date": "2026-05-09T03:26:28",
-      "title": "Volcano in Indonesia 05/23/2025",
-      "country": "Indonesia",
-      "type": "Volcano",
-      "lat": 0.65,
-      "lng": 127.9
-    },
-    {
-      "wp_id": 2720,
-      "wp_link": "https://globalwitnessmonitor.com/volcano-in-indonesia-05-09-2025/",
-      "date": "2026-05-09T03:26:13",
-      "title": "Volcano in Indonesia 05/09/2025",
-      "country": "Indonesia",
-      "type": "Volcano",
-      "lat": 1.539476,
-      "lng": 127.60065
-    },
-    {
-      "wp_id": 2719,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-05-05-2026-magnitude-6/",
-      "date": "2026-05-09T03:26:00",
-      "title": "Earthquake in Indonesia 05/05/2026 — Magnitude 6",
-      "country": "Indonesia",
-      "type": "Earthquake",
-      "lat": -10.1135,
-      "lng": 119.3245
-    },
-    {
-      "wp_id": 2718,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-new-zealand-05-05-2026-magnitude-6/",
-      "date": "2026-05-09T03:25:49",
-      "title": "Earthquake in New Zealand 05/05/2026 — Magnitude 6",
-      "country": "New Zealand",
-      "type": "Earthquake",
-      "lat": -36.7452,
-      "lng": 177.2617
-    },
-    {
-      "wp_id": 2717,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-06-05-2026-magnitude-6/",
-      "date": "2026-05-09T03:25:27",
-      "title": "Earthquake in United States 06/05/2026 — Magnitude 6",
-      "country": "United States",
-      "type": "Earthquake",
-      "lat": 52.2595,
-      "lng": 176.518
-    },
-    {
-      "wp_id": 2716,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-06-05-2026-magnitude-5-5/",
-      "date": "2026-05-09T03:25:16",
-      "title": "Earthquake in Philippines 06/05/2026 — Magnitude 5.5",
-      "country": "Philippines",
-      "type": "Earthquake",
-      "lat": 7.6333,
-      "lng": 126.7818
     },
     {
       "wp_id": 2715,
@@ -10485,26 +10115,6 @@
       "lng": 92.8746
     },
     {
-      "wp_id": 2702,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-05-08-2026-magnitude-5-2/",
-      "date": "2026-05-09T03:22:35",
-      "title": "Earthquake in Papua New Guinea 05/08/2026 — Magnitude 5",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -2.032957,
-      "lng": 147.278918
-    },
-    {
-      "wp_id": 2701,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-japan-05-08-2026-magnitude-5/",
-      "date": "2026-05-09T03:22:25",
-      "title": "Earthquake in Japan 05/08/2026 — Magnitude 5",
-      "country": "Japan",
-      "type": "Earthquake",
-      "lat": 31.72605,
-      "lng": 131.06433
-    },
-    {
       "wp_id": 2700,
       "wp_link": "https://globalwitnessmonitor.com/earthquake-in-peru-05-08-2026-magnitude-5/",
       "date": "2026-05-09T03:22:15",
@@ -10513,26 +10123,6 @@
       "type": "Earthquake",
       "lat": -12.001515,
       "lng": -77.00836
-    },
-    {
-      "wp_id": 2699,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-05-08-2026-magnitude-5/",
-      "date": "2026-05-09T03:22:04",
-      "title": "Earthquake in United States 05/08/2026 — Magnitude 5",
-      "country": "United States",
-      "type": "Earthquake",
-      "lat": 51.873833,
-      "lng": -176.639163
-    },
-    {
-      "wp_id": 2698,
-      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-fiji-05-08-2026-magnitude-5/",
-      "date": "2026-05-09T03:21:54",
-      "title": "Earthquake in Fiji 05/08/2026 — Magnitude 5",
-      "country": "Fiji",
-      "type": "Earthquake",
-      "lat": -18.1456,
-      "lng": 178.4406
     },
     {
       "wp_id": 2696,
@@ -10605,16 +10195,6 @@
       "lng": 126.7818
     },
     {
-      "wp_id": 2689,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-6-25-km-ne-of-la-troncal-ecuador/",
-      "date": "2026-05-07T19:27:06",
-      "title": "M 4.6 &#8211; 25 km NE of La Troncal, Ecuador",
-      "country": "Ecuador",
-      "type": "Earthquake",
-      "lat": -2.4248,
-      "lng": -79.3416
-    },
-    {
       "wp_id": 2260,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-3-earthquake-strikes-near-gisborne-north-island/",
       "date": "2026-05-06T23:36:25",
@@ -10665,16 +10245,6 @@
       "lng": -177.9339
     },
     {
-      "wp_id": 2255,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-united-states-at-shallow-depth/",
-      "date": "2026-05-06T23:35:11",
-      "title": "Magnitude 5.8 Earthquake Strikes United States at Shallow Depth",
-      "country": "United States",
-      "type": "Earthquake",
-      "lat": 52.2595,
-      "lng": 176.518
-    },
-    {
       "wp_id": 2254,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-5-5-earthquake-strikes-philippines-at-shallow-depth/",
       "date": "2026-05-06T23:34:58",
@@ -10683,16 +10253,6 @@
       "type": "Earthquake",
       "lat": 14.5868,
       "lng": 120.9818
-    },
-    {
-      "wp_id": 2253,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-3-earthquake-strikes-banda-sea-region/",
-      "date": "2026-05-06T23:34:44",
-      "title": "Magnitude 5.3 Earthquake Strikes Banda Sea Region",
-      "country": "Indonesia",
-      "type": "Earthquake",
-      "lat": -6.4335,
-      "lng": 130.1627
     },
     {
       "wp_id": 2252,
@@ -10725,16 +10285,6 @@
       "lng": 126.552
     },
     {
-      "wp_id": 2249,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-east-of-kokopo/",
-      "date": "2026-05-06T23:33:54",
-      "title": "Magnitude 4.5 Earthquake Strikes East of Kokopo",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813
-    },
-    {
       "wp_id": 2248,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-8-earthquake-strikes-izu-islands-region/",
       "date": "2026-05-06T23:33:42",
@@ -10753,16 +10303,6 @@
       "type": "Earthquake",
       "lat": 29.5563,
       "lng": 70.3797
-    },
-    {
-      "wp_id": 2246,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-2-earthquake-strikes-west-of-panguna/",
-      "date": "2026-05-06T23:33:17",
-      "title": "Magnitude 5.2 Earthquake Strikes West of Panguna",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -6.3048,
-      "lng": 155.4882
     },
     {
       "wp_id": 2245,
@@ -10815,16 +10355,6 @@
       "lng": 96.5428
     },
     {
-      "wp_id": 2239,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-5-earthquake-strikes-near-baganga-philippines/",
-      "date": "2026-05-06T23:31:47",
-      "title": "Magnitude 5.5 Earthquake Strikes Near Baganga Philippines",
-      "country": "Philippines",
-      "type": "Earthquake",
-      "lat": 7.5745,
-      "lng": 126.5621
-    },
-    {
       "wp_id": 2238,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-northeast-of-la-troncal/",
       "date": "2026-05-06T23:31:29",
@@ -10863,16 +10393,6 @@
       "type": "Wildfire",
       "lat": 1.6121,
       "lng": 10.5258
-    },
-    {
-      "wp_id": 2214,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-6-earthquake-strikes-philippines-at-moderate-depth-2/",
-      "date": "2026-05-05T23:53:52",
-      "title": "Magnitude 6 Earthquake Strikes Philippines at Moderate Depth",
-      "country": "Philippines",
-      "type": "Earthquake",
-      "lat": 14.5868,
-      "lng": 120.9818
     },
     {
       "wp_id": 2213,
@@ -10955,16 +10475,6 @@
       "lng": 97.3995
     },
     {
-      "wp_id": 2205,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-8-earthquake-strikes-south-of-tambolaka-indonesia/",
-      "date": "2026-05-05T23:51:47",
-      "title": "Magnitude 5.8 Earthquake Strikes South of Tambolaka Indonesia",
-      "country": "Indonesia",
-      "type": "Earthquake",
-      "lat": -10.1135,
-      "lng": 119.3245
-    },
-    {
       "wp_id": 2204,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-northwest-of-hicks-bay/",
       "date": "2026-05-05T23:51:34",
@@ -10973,16 +10483,6 @@
       "type": "Earthquake",
       "lat": -37.5935,
       "lng": 178.2922
-    },
-    {
-      "wp_id": 2203,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-northeast-of-pauanui/",
-      "date": "2026-05-05T23:51:22",
-      "title": "Magnitude 4.5 Earthquake Strikes Northeast of Pauanui",
-      "country": "New Zealand",
-      "type": "Earthquake",
-      "lat": -37.0242,
-      "lng": 175.86
     },
     {
       "wp_id": 2202,
@@ -11085,16 +10585,6 @@
       "lng": 121.2377
     },
     {
-      "wp_id": 2153,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-mexico-affecting-thousands/",
-      "date": "2026-05-05T02:41:58",
-      "title": "Magnitude 5.7 Earthquake Strikes Mexico Affecting Thousands",
-      "country": "Mexico",
-      "type": "Earthquake",
-      "lat": 16.6223,
-      "lng": -97.9846
-    },
-    {
       "wp_id": 2152,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-northeast-of-yonakuni-japan/",
       "date": "2026-05-05T02:41:38",
@@ -11103,16 +10593,6 @@
       "type": "Earthquake",
       "lat": 24.4569,
       "lng": 122.9886
-    },
-    {
-      "wp_id": 2151,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-0-earthquake-strikes-west-of-neiafu-tonga/",
-      "date": "2026-05-05T02:41:27",
-      "title": "Magnitude 5.0 Earthquake Strikes West of Neiafu Tonga",
-      "country": "Tonga",
-      "type": "Earthquake",
-      "lat": -18.6515,
-      "lng": -173.9836
     },
     {
       "wp_id": 2150,
@@ -11175,16 +10655,6 @@
       "lng": 73.9852
     },
     {
-      "wp_id": 2144,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-6-0-earthquake-strikes-near-nena-philippines/",
-      "date": "2026-05-05T02:40:08",
-      "title": "Magnitude 6.0 Earthquake Strikes Near Nena, Philippines",
-      "country": "Philippines",
-      "type": "Earthquake",
-      "lat": 11.7774,
-      "lng": 125.3718
-    },
-    {
       "wp_id": 2143,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-7-earthquake-strikes-northeast-of-kokopo/",
       "date": "2026-05-05T02:39:53",
@@ -11245,16 +10715,6 @@
       "lng": 48.0838
     },
     {
-      "wp_id": 2136,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-5-earthquake-strikes-remote-alaskan-aleutian-waters/",
-      "date": "2026-05-05T02:38:35",
-      "title": "Magnitude 4.5 Earthquake Strikes Remote Alaskan Aleutian Waters",
-      "country": "United States",
-      "type": "Earthquake",
-      "lat": 52.8895,
-      "lng": 173.1169
-    },
-    {
       "wp_id": 2129,
       "wp_link": "https://globalwitnessmonitor.com/flood-victim-swept-away-in-crocodile/",
       "date": "2026-05-03T16:37:11",
@@ -11293,26 +10753,6 @@
       "type": "Earthquake",
       "lat": 36.3865,
       "lng": 138.5922
-    },
-    {
-      "wp_id": 2124,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-1-earthquake-strikes-near-hicks-bay/",
-      "date": "2026-05-03T16:35:54",
-      "title": "Magnitude 5.1 Earthquake Strikes Near Hicks Bay",
-      "country": "New Zealand",
-      "type": "Earthquake",
-      "lat": -37.5935,
-      "lng": 178.2922
-    },
-    {
-      "wp_id": 2123,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-9-earthquake-strikes-near-kokopo-region/",
-      "date": "2026-05-03T16:35:43",
-      "title": "Magnitude 4.9 Earthquake Strikes Near Kokopo Region",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813
     },
     {
       "wp_id": 2122,
@@ -11373,16 +10813,6 @@
       "type": "Flood",
       "lat": 12.9833,
       "lng": 77.6047
-    },
-    {
-      "wp_id": 2098,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-5-7-earthquake-strikes-japan-at-moderate-depth/",
-      "date": "2026-05-02T18:17:52",
-      "title": "Magnitude 5.7 Earthquake Strikes Japan at Moderate Depth",
-      "country": "Japan",
-      "type": "Earthquake",
-      "lat": 36.3865,
-      "lng": 138.5922
     },
     {
       "wp_id": 2097,
@@ -11535,16 +10965,6 @@
       "lng": -173.9836
     },
     {
-      "wp_id": 2082,
-      "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-east-of-kokopo/",
-      "date": "2026-05-02T18:14:50",
-      "title": "Magnitude 4.6 Earthquake Strikes East of Kokopo",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813
-    },
-    {
       "wp_id": 2081,
       "wp_link": "https://globalwitnessmonitor.com/magnitude-4-6-earthquake-strikes-south-of-cilacap-indonesia/",
       "date": "2026-05-02T18:14:40",
@@ -11655,16 +11075,6 @@
       "lng": 141.7686
     },
     {
-      "wp_id": 2056,
-      "wp_link": "https://globalwitnessmonitor.com/m-5-0-135-km-wnw-of-neiafu-tonga/",
-      "date": "2026-05-01T03:23:22",
-      "title": "M 5.0 &#8211; 135 km WNW of Neiafu, Tonga",
-      "country": "Tonga",
-      "type": "Earthquake",
-      "lat": -18.6515,
-      "lng": -173.9836
-    },
-    {
       "wp_id": 2055,
       "wp_link": "https://globalwitnessmonitor.com/m-5-7-234-km-se-of-lorengau-papua-new-guinea/",
       "date": "2026-05-01T03:23:11",
@@ -11673,16 +11083,6 @@
       "type": "Earthquake",
       "lat": -2.033,
       "lng": 147.2789
-    },
-    {
-      "wp_id": 2054,
-      "wp_link": "https://globalwitnessmonitor.com/m-4-8-85-km-ese-of-kokopo-papua-new-guinea/",
-      "date": "2026-05-01T03:22:55",
-      "title": "M 4.8 &#8211; 85 km ESE of Kokopo, Papua New Guinea",
-      "country": "Papua New Guinea",
-      "type": "Earthquake",
-      "lat": -4.343,
-      "lng": 152.2813
     },
     {
       "wp_id": 2050,
@@ -11703,16 +11103,6 @@
       "type": "Earthquake",
       "lat": 8.8893,
       "lng": 126.3101
-    },
-    {
-      "wp_id": 2047,
-      "wp_link": "https://globalwitnessmonitor.com/forest-fire-notification-in-united-kingdom/",
-      "date": "2026-04-29T19:20:44",
-      "title": "forest fire notification in United Kingdom",
-      "country": "United Kingdom",
-      "type": "Wildfire",
-      "lat": 52.304,
-      "lng": -3.6908
     },
     {
       "wp_id": 2046,
