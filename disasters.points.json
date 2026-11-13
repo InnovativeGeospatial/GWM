@@ -1,9 +1,99 @@
 {
   "feed": "disasters",
-  "updated": "2026-11-12T04:53:23.867136+00:00",
-  "count": 1111,
+  "updated": "2026-11-13T08:20:34.630946+00:00",
+  "count": 1120,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 14978,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-palestine-11-09-2026/",
+      "date": "2026-11-13T08:11:06",
+      "title": "Flood in Palestine 11/09/2026",
+      "country": "Palestine",
+      "type": "Flood",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 14977,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-11-11-2026/",
+      "date": "2026-11-13T08:09:32",
+      "title": "Disease in Kenya 11/11/2026",
+      "country": "Kenya",
+      "type": "Disease",
+      "lat": 0.529862,
+      "lng": 37.857882
+    },
+    {
+      "wp_id": 14976,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11-12-2026/",
+      "date": "2026-11-13T08:09:23",
+      "title": "Disease in Congo 11/12/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899
+    },
+    {
+      "wp_id": 14975,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-11-13-2026/",
+      "date": "2026-11-13T08:03:50",
+      "title": "Drought in Russia 11/13/2026",
+      "country": "Russia",
+      "type": "Drought",
+      "lat": 65.58014285714285,
+      "lng": 75.62905714285714
+    },
+    {
+      "wp_id": 14974,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-slovenia-11-13-2026/",
+      "date": "2026-11-13T08:03:36",
+      "title": "Flood in Slovenia 11/13/2026",
+      "country": "Slovenia",
+      "type": "Flood",
+      "lat": 45.846629,
+      "lng": 13.961222
+    },
+    {
+      "wp_id": 14973,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-guatemala-11-10-2026-magnitude-6/",
+      "date": "2026-11-13T07:59:33",
+      "title": "Earthquake in Guatemala 11/10/2026 — Magnitude 6",
+      "country": "Guatemala",
+      "type": "Earthquake",
+      "lat": 13.919366,
+      "lng": -90.820076
+    },
+    {
+      "wp_id": 14972,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-11-12-2026-magnitude-6/",
+      "date": "2026-11-13T07:57:25",
+      "title": "Earthquake in Papua New Guinea 11/12/2026 — Magnitude 6",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -2.576154,
+      "lng": 150.791234
+    },
+    {
+      "wp_id": 14971,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-congo-11-13-2026-magnitude-5/",
+      "date": "2026-11-13T07:56:59",
+      "title": "Earthquake in Congo 11/13/2026 — Magnitude 5",
+      "country": "Congo",
+      "type": "Earthquake",
+      "lat": -6.9392,
+      "lng": 22.68
+    },
+    {
+      "wp_id": 14970,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-11-09-2026-magnitude-6/",
+      "date": "2026-11-13T07:56:42",
+      "title": "Earthquake in Solomon Islands 11/09/2026 — Magnitude 6",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -10.724173,
+      "lng": 165.797764
+    },
     {
       "wp_id": 13920,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-india-11-02-2026/",
