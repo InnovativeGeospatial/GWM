@@ -1,9 +1,169 @@
 {
   "feed": "conflict",
-  "updated": "2026-11-12T02:03:25.459827+00:00",
-  "count": 2407,
+  "updated": "2026-11-13T09:10:08.851094+00:00",
+  "count": 2423,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 15042,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mandera-county-5/",
+      "date": "2026-11-13T09:09:45",
+      "title": "Armed Conflict in Hagarsu, Mandera County",
+      "country": "Kenya",
+      "type": "Armed Conflict",
+      "lat": 3.9384,
+      "lng": 41.8573
+    },
+    {
+      "wp_id": 15047,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dalati-assosa-zone-benishangul-gumuz/",
+      "date": "2026-11-13T09:08:11",
+      "title": "Armed Conflict in Dalati, Assosa Zone, Benishangul-Gumuz",
+      "country": "Ethiopia",
+      "type": "Armed Conflict",
+      "lat": 10.064635,
+      "lng": 34.543702
+    },
+    {
+      "wp_id": 15041,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-walikale-north-kivu/",
+      "date": "2026-11-13T09:00:18",
+      "title": "Coup/Crisis in Walikale, North Kivu",
+      "country": "Congo",
+      "type": "Coup or Crisis",
+      "lat": -1.430115,
+      "lng": 28.075108
+    },
+    {
+      "wp_id": 15040,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-badau-gora-malumfashi/",
+      "date": "2026-11-13T08:57:28",
+      "title": "Armed Conflict in Bada'u Gora, Malumfashi",
+      "country": "Nigeria",
+      "type": "Armed Conflict",
+      "lat": 11.785303,
+      "lng": 7.621414
+    },
+    {
+      "wp_id": 15039,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-madagascar/",
+      "date": "2026-11-13T08:57:05",
+      "title": "Coup/Crisis in Madagascar",
+      "country": "Madagascar",
+      "type": "Coup or Crisis",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "wp_id": 15038,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-northern-nigeria-2/",
+      "date": "2026-11-13T08:56:43",
+      "title": "Displacement in northern Nigeria",
+      "country": "Nigeria",
+      "type": "Displacement",
+      "lat": 12.0338,
+      "lng": 8.52948
+    },
+    {
+      "wp_id": 15035,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-santa-rosa-del-sur/",
+      "date": "2026-11-13T08:53:09",
+      "title": "Armed Conflict in Santa Rosa del Sur",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 7.9624,
+      "lng": -74.0522
+    },
+    {
+      "wp_id": 15036,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-la-guajira-arauca/",
+      "date": "2026-11-13T08:52:49",
+      "title": "Armed Conflict in La Guajira, Arauca",
+      "country": "Colombia",
+      "type": "Armed Conflict",
+      "lat": 6.674413,
+      "lng": -71.40295
+    },
+    {
+      "wp_id": 15034,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-balcon-guerrero/",
+      "date": "2026-11-13T08:47:23",
+      "title": "Armed Conflict in El Balcón, Guerrero",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 19.396502,
+      "lng": -99.195723
+    },
+    {
+      "wp_id": 15033,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-benemerito-de-las-americas-chiapas/",
+      "date": "2026-11-13T08:47:01",
+      "title": "Armed Conflict in Benemérito de las Américas, Chiapas",
+      "country": "Mexico",
+      "type": "Armed Conflict",
+      "lat": 16.514904,
+      "lng": -90.65688
+    },
+    {
+      "wp_id": 15032,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-kostyantynivka/",
+      "date": "2026-11-13T08:45:29",
+      "title": "Armed Conflict in Moscow / Kostyantynivka",
+      "country": "Ukraine",
+      "type": "Armed Conflict",
+      "lat": 46.834324,
+      "lng": 35.423176
+    },
+    {
+      "wp_id": 15030,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-italy/",
+      "date": "2026-11-13T08:44:25",
+      "title": "Civil Unrest in Italy, Scotland, Northern Ireland",
+      "country": "Italy",
+      "type": "Civil Unrest",
+      "lat": 44.4359,
+      "lng": 8.7822
+    },
+    {
+      "wp_id": 15029,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-al-berka-reservoir-west-of-deir-al-balah/",
+      "date": "2026-11-13T08:42:52",
+      "title": "Displacement in Al Berka Reservoir, west of Deir Al Balah",
+      "country": "Israel",
+      "type": "Displacement",
+      "lat": 31.417446,
+      "lng": 34.35114
+    },
+    {
+      "wp_id": 15028,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-nationwide-power-grid/",
+      "date": "2026-11-13T08:42:38",
+      "title": "Armed Conflict in Sudan (nationwide power grid)",
+      "country": "Sudan",
+      "type": "Armed Conflict",
+      "lat": 12.905479,
+      "lng": 25.928809
+    },
+    {
+      "wp_id": 15027,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-diffa-tahoua/",
+      "date": "2026-11-13T08:41:44",
+      "title": "Displacement in Diffa, Tahoua",
+      "country": "Nigeria",
+      "type": "Displacement",
+      "lat": 13.313075,
+      "lng": 12.613661
+    },
+    {
+      "wp_id": 15026,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-manama-2/",
+      "date": "2026-11-13T08:39:21",
+      "title": "Armed Conflict in Manama",
+      "country": "Bahrain",
+      "type": "Armed Conflict",
+      "lat": 26.223963,
+      "lng": 50.583763
+    },
     {
       "wp_id": 14066,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hpapun-mutraw-district-karen-state/",
