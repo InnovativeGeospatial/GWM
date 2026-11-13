@@ -1,9 +1,302 @@
 {
   "feed": "conflict",
-  "updated": "2026-11-12T02:03:22.646187+00:00",
-  "count": 930,
+  "updated": "2026-11-13T09:10:05.715431+00:00",
+  "count": 946,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 15042,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-mandera-county-5/",
+      "date": "2026-11-13T09:09:45",
+      "title": "Armed Conflict in Hagarsu, Mandera County",
+      "body": "On November 10, 2026, suspected al-Shabaab militants ambushed a vehicle escorting workers along the Arabia-Lafey road in the Hagarsu area of Mandera County, killing all eight occupants. The eight killed were two police r",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Armed Conflict",
+      "lat": 3.9384,
+      "lng": 41.8573,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14Q3FZZTFkMDk2SnRlbGd6M0E0VFdHd1J5Rm9tb1RTNXdkYnhfWURFN1BHb2MzeUxOVF9MdHJKY3NoUVdBTFExYkJiSnZDWlZDd2JEQkVVS3VmRHRzWkhlVzZDRUpyQkFmUlhWZXVhQXBqbXFjeUZDSERELWZEZUE?oc=5",
+      "prayer": "Eight road workers and police reservists killed in an al-Shabaab ambush in Mandera County, and their families",
+      "alert_summary": "Suspected al-Shabaab militants ambushed a vehicle in Mandera County, Kenya, killing 8 people on November 10, 2026."
+    },
+    {
+      "wp_id": 15047,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-dalati-assosa-zone-benishangul-gumuz/",
+      "date": "2026-11-13T09:08:11",
+      "title": "Armed Conflict in Dalati, Assosa Zone, Benishangul-Gumuz",
+      "body": "More than 65 people were killed in an armed attack in Dalati locality, Buldiglu Woreda, Assosa Zone, in Ethiopia's Benishangul-Gumuz Regional State. The attacks, which took place on November 5 and 6, targeted members of ",
+      "country": "Ethiopia",
+      "countries": [
+        "Ethiopia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 10.064635,
+      "lng": 34.543702,
+      "source_title": "\"Ethiopia OR Somalia al-Shabaab OR clashes OR drone when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tSzQweVNLZVJlTHhsWEpmUEx1MEV5SmE1Zm1NMVpTb0oxczltbEY1dldvcUd4QmRkeGNwWlFUQ1lyTnVqSEY5X1FZMGN5VmVhbnJDcTBkd2ZaOUZQSF9IZ3duMmZReHZ4alVOQ2w4czB2eE53NGgw?oc=5",
+      "prayer": "Civilians, women, and children killed in the Assosa Zone attacks, and families of regional security forces lost in the fighting",
+      "alert_summary": "Armed attackers killed at least 65 people — including 27 civilians — in Dalati, Assosa Zone, Benishangul-Gumuz Region on November 5–6, 2026."
+    },
+    {
+      "wp_id": 15041,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-walikale-north-kivu/",
+      "date": "2026-11-13T09:00:18",
+      "title": "Coup/Crisis in Walikale, North Kivu",
+      "body": "The 66 soldiers were among 71 members of the Congolese armed forces who stood trial before the Goma Garrison Military Court, sitting in Walikale, North Kivu Province. They were convicted of cowardice, refusing to obey or",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Coup or Crisis",
+      "lat": -1.430115,
+      "lng": 28.075108,
+      "source_title": "\"DR Congo M23 OR rebels OR massacre OR clashes when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FcG9ESWhVTFpNeC14aTZWWVEyY2hnck5oVnpnMjNWbzktNzUzMkUxWXNJUWJvYVZGYl93dlJ6ZjZ5OEQ5LTU0Ql8tb0EzTXU5ODRQUWJ1YUpBa011T29CV1RYMVFyWVY5M1o3SnV3?oc=5",
+      "prayer": "66 Congolese soldiers under death sentence after a military trial in Walikale, and families of troops caught in the conflict in eastern Congo",
+      "alert_summary": "A military court in Walikale sentenced 66 soldiers to death for cowardice and mutiny; 4 were acquitted and 1 received a 10-year term."
+    },
+    {
+      "wp_id": 15040,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-badau-gora-malumfashi/",
+      "date": "2026-11-13T08:57:28",
+      "title": "Armed Conflict in Bada'u Gora, Malumfashi",
+      "body": "On November 10, 2026, soldiers acting on intelligence about armed men at Bada'u Gora in Malumfashi Local Government Area of Katsina State moved to intercept a group reportedly planning to attack local residents. The sold",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria"
+      ],
+      "type": "Armed Conflict",
+      "lat": 11.785303,
+      "lng": 7.621414,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX2tscUgxcXprTFVOU3Fvbk43NWpjekpaM0l2aWtXWWY2TGpfeHdkemhSWUFNMmdGXzFrd3dFRERwZ1FIaHNjU1g2SzB1VDktSGZMT3Z5Rlc2S3REcktpQXhiSVNzVkhaR3BvTXZrSFZmTXJOYWUtMnRlM1RDa0txS0N6RFE2LVlVbWQ1ZEczNTF0MjJDMllsNVZReUtzS1A0LUlJTndiWnZQNGQ2TUNJZ3FjVFhWM3pZc3Vmb05VRC1WQQ?oc=5",
+      "prayer": "Residents of Bada'u Gora and Malumfashi facing planned armed attacks by militants in Katsina State",
+      "alert_summary": "Soldiers killed 1 suspected terrorist and arrested 2 others during operations in Katsina and Sokoto states on November 10–11, 2026."
+    },
+    {
+      "wp_id": 15039,
+      "wp_link": "https://globalwitnessmonitor.com/coup-crisis-in-madagascar/",
+      "date": "2026-11-13T08:57:05",
+      "title": "Coup/Crisis in Madagascar",
+      "body": "The deputy head of US Africa Command warned Madagascar's military government against expanding defence cooperation with Russia, which has supplied weapons and instructors since the 2025 takeover. The warning was delivere",
+      "country": "Madagascar",
+      "countries": [
+        "Madagascar"
+      ],
+      "type": "Coup or Crisis",
+      "lat": null,
+      "lng": null,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTEY0ci1MUVFNLTRIcE9zQlhyT0lmRFNkdkxwblVyUzRfTE1hUnNVRm54NDdabEdkekZzcFpBTUhrdUFVNDRpSUZFOEN1YnFwWlpFaGh0RmNDS0wyMzFZVWFSWk45X0tySHNLZWZpZ1czZHhUSkRCTnR3T0x3REdLa1Q1ZG5EVnUzdi1fWTRlektQUFUxSFpLQUkwd1p6cGxKNXg5VTdWd1h2dUgtb0lrRzhFcjVUb21YQ0NFSTBOMzFHVmF5TjFhNUp4RWdnaHNvaUE?oc=5",
+      "prayer": "Madagascar's military government and civilians amid deepening Russian military involvement and US diplomatic pressure",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 15038,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-northern-nigeria-2/",
+      "date": "2026-11-13T08:56:43",
+      "title": "Displacement in northern Nigeria",
+      "body": "Nearly 64,000 people have fled northern Nigeria for neighbouring Niger this year, escaping attacks by Islamist militants and armed gangs. Several hundred Nigerians have also sought refuge in Benin. Northern Nigeria has b",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria",
+        "Niger",
+        "Benin"
+      ],
+      "type": "Displacement",
+      "lat": 12.0338,
+      "lng": 8.52948,
+      "source_title": "\"Sahel OR Burkina Faso OR Mali OR Niger attack OR militants when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGxYRW1BUXpjaE5vZWFyWkFtQmJpQklMYlpuZjlhUEk5aFVsYjlwbHZHV0ozRWV2dXY2cUtCVzZkU2pWQzhxcTF3dFFpc3V5dFpFTkVpaXB0cXFtM3oyT3FSOVlxSVdiaTZIdzU0NVdtdHZZcFlURG13Z0FqX3JJZTZxZE1aYjV2elVaeHhjRlMweVRTWTVKOE5YTXBJQjV3OWs2czVqRVpTOUpscWlCVm55R0Mzdi00LU13?oc=5",
+      "prayer": "Nearly 64,000 refugees from northern Nigeria — many of them children — facing hunger, scarce water, and makeshift shelter in Niger and Benin",
+      "alert_summary": "Nearly 64,000 people fled violence in northern Nigeria into Niger in 2026, with several hundred more crossing into Benin, UNHCR reported on November 10."
+    },
+    {
+      "wp_id": 15035,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-santa-rosa-del-sur/",
+      "date": "2026-11-13T08:53:09",
+      "title": "Armed Conflict in Santa Rosa del Sur",
+      "body": "Explosive-laden drones struck a military compound in the department of Bolívar on Saturday, targeting the base home to the army's 48th Jungle Battalion in Santa Rosa del Sur. Three soldiers were killed and at least 16 wo",
+      "country": "Colombia",
+      "countries": [
+        "Colombia"
+      ],
+      "type": "Armed Conflict",
+      "lat": 7.9624,
+      "lng": -74.0522,
+      "source_title": "\"Colombia OR Ecuador armed group OR massacre OR violence when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeEpacElJTnZDOTNZT01XcmdtZmNKYVVtb0QweDZvX09MTl94ZXRJckpyUFRtNVAzZmlBX21Rd0FubFFXWEg3SmtveTd3cnptaGNPX0tDTGFlYjU1QUtrM25PM0VhTnE0V1ZwQ0VXaFh1aTRDZzNnSEV4NHBPRklyWFdpR1YxbnRmWXl5c2xYSVdSTlhsYjdZWm1oanZieC1PWC1WZnNKYkl4REdkVXJuU3Y2Z3RqYjBPdHlaX3J0cDRfcXlWNjRLT3ZxblpTQ1pveG0zb3JqOUg1aEhLQUZMdW1PUWplUHhKM0lScWhsZHY0b2p4SkdZ?oc=5",
+      "prayer": "Three soldiers killed and up to 16 wounded in a drone attack on a military base in Santa Rosa del Sur, Colombia",
+      "alert_summary": "A drone attack on a military base in Santa Rosa del Sur, northern Colombia, killed 3 soldiers and wounded at least 8 on November 7, 2026."
+    },
+    {
+      "wp_id": 15036,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-la-guajira-arauca/",
+      "date": "2026-11-13T08:52:49",
+      "title": "Armed Conflict in La Guajira, Arauca",
+      "body": "Two people were kidnapped along Colombia's border with Venezuela in separate incidents in early November 2026. A woman, the wife of the mayor of Uribia in the northern department of La Guajira — roughly 30 km from the Ve",
+      "country": "Colombia",
+      "countries": [
+        "Colombia",
+        "Venezuela"
+      ],
+      "type": "Armed Conflict",
+      "lat": 6.674413,
+      "lng": -71.40295,
+      "source_title": "\"Colombia OR Ecuador armed group OR massacre OR violence when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjFQM3Z1RUNQdmtuXzRvWWJWZ3NldjRJdkFQSVctQXBRSm5OR2VwTGF3aHZDRjlDU0RvUzY4d0RURk80bzZTZUpRcl9ob2I4UGVfaFRaTjZ6YUVHcUFfaU5fOV9GbWNqRHllN2NfdDJxTmoydXVlZ0JsbUdjbHN6cldJOEh0YjY5Q0VLT0NoTHNBb0FlRklnNDAwNHd6amVLYnBYanlkZ3FobjNZdkluekJoQWhadEhGNlZr?oc=5",
+      "prayer": "A mayor's wife and an army officer kidnapped along the Colombia-Venezuela border by armed groups",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 15034,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-el-balcon-guerrero/",
+      "date": "2026-11-13T08:47:23",
+      "title": "Armed Conflict in El Balcón, Guerrero",
+      "body": "Eight villagers were abducted from El Balcón, a remote community in Mexico's southern Guerrero state. Most of those taken spent 22 days in captivity. One person remains missing. The captives were held as part of a larger",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Armed Conflict",
+      "lat": 19.396502,
+      "lng": -99.195723,
+      "source_title": "\"Mexico cartel violence OR kidnapping OR gunmen when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPSE5oYTR4SmxKRGE2WkV2SXhnYkpSWnVQcWcwWm9KZUVJRl9qVXlpX0dnclh2YzQ4VmgtZDQ2WDRlVnlKWVFfQjJ2cjk3UFBvRm95emo4a3R2bGMwdDZ5SEEtM0o0THUyOTVRWVFlLTRnOGRnRnhJTEZPWXdrUmlOam5UeW5zRkZzMXowcUtFNUd5NXh1MkVFR2NHMkswN1NwN1lwalZYd0g2cWZiczdIUWFsUlJsSGxiMWhlQzlmMUxJSlhuNmN4OExodjIyS0J6VG1KaEh2QWdpVGdhMUtDT19fSUt6bXhBZjNtd1kyYlFBMmZoSW1vX0txbUhxc1FldU16ZVlZQ3NvbFdrdmtMb3ZIRWdjTWc?oc=5",
+      "prayer": "Eight villagers from El Balcón held captive by armed cartel gunmen, one still missing",
+      "alert_summary": "Gunmen abducted 8 villagers from El Balcón, Guerrero; 7 were eventually released after 22 days, with 1 still missing."
+    },
+    {
+      "wp_id": 15033,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-benemerito-de-las-americas-chiapas/",
+      "date": "2026-11-13T08:47:01",
+      "title": "Armed Conflict in Benemérito de las Américas, Chiapas",
+      "body": "On November 11, 2026, Mexico's Security Cabinet announced the arrest of 14 suspected Sinaloa Cartel members, including two alleged regional leaders, during an operation in the southern state of Chiapas, which borders Gua",
+      "country": "Mexico",
+      "countries": [
+        "Mexico"
+      ],
+      "type": "Armed Conflict",
+      "lat": 16.514904,
+      "lng": -90.65688,
+      "source_title": "\"Mexico cartel violence OR kidnapping OR gunmen when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNzRaQ2pNSHRyQnBMLS02MHhJd2RZbEhseUp4Z2pxcEE3VUZGdUhrb0ktWFpUMktoUzF4Um55UDFfcVlqYjRCczZtbGJySnNuSUdXXzkyMGpTR1hRbzAxZkEtTzdRemRRazVQdFF4RmNvVWlfTlI1ZjNmZTFCak5jVU5KNFkxQmIwQ3ZPSXFrRkotbnYwMVZQOXlFODhxRGxQTWNIbWpfd3dwR0l6d05pS9IBtgFBVV95cUxNOVVnZ3BRb291enlqd05rSXZRSExrd2pOOUtacmtxOVlHQ21DSlJMMFNGWUlDVjhRRmZFUGl2Y3NqclBKczhoRU9XYW1NMmNBeWdlU1R0MmZ3UjZFSl9uU2lpR0hBRUIxVTMzS1hTNHB2WkFkLU5CZmlLbmpFb3pYX0VlbmtQaHVzSFFjSEVXazd0dDVpM04xMmhjcVU1T05RbjRmUUgyY1hlR0RrQkg4dmQzbDZ5Zw?oc=5",
+      "prayer": "14 people arrested in a cartel operation in Chiapas, near the Guatemala border, where communities face ongoing cartel violence",
+      "alert_summary": "Security forces arrested 14 suspected Sinaloa Cartel members, including 2 alleged regional leaders, in Benemérito de las Américas, Chiapas."
+    },
+    {
+      "wp_id": 15032,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-moscow-kostyantynivka/",
+      "date": "2026-11-13T08:45:29",
+      "title": "Armed Conflict in Moscow / Kostyantynivka",
+      "body": "On November 12, 2026, US envoys met with Russia's president at the Kremlin and then left for Ireland to talk with Ukraine's president as Washington sought new momentum in its peace efforts. The meeting at the Kremlin las",
+      "country": "Ukraine",
+      "countries": [
+        "Ukraine"
+      ],
+      "type": "Armed Conflict",
+      "lat": 46.834324,
+      "lng": 35.423176,
+      "source_title": "France 24 - International breaking news, top stories and headlines",
+      "source_url": "https://www.france24.com/en/video/20261112-russia-s-vladimir-putin-suggests-no-ukraine-compromise-in-meeting-with-us-envoys",
+      "prayer": "Civilians in Kostyantynivka and across Ukraine amid stalled peace negotiations",
+      "alert_summary": "US envoys met with Russia's president in Moscow on November 12; Russia signaled no compromise on core demands but offered a limited ceasefire in Kostyantynivka."
+    },
+    {
+      "wp_id": 15030,
+      "wp_link": "https://globalwitnessmonitor.com/civil-unrest-in-italy/",
+      "date": "2026-11-13T08:44:25",
+      "title": "Civil Unrest in Italy, Scotland, Northern Ireland",
+      "body": "On November 11, 2026, roughly 6,300 Italian state schools and more than 700 schools in Scotland and Northern Ireland received bomb threat emails. Authorities in all three places assessed the warnings as hoaxes, saying th",
+      "country": "Italy",
+      "countries": [
+        "Italy",
+        "United Kingdom"
+      ],
+      "type": "Civil Unrest",
+      "lat": 44.4359,
+      "lng": 8.7822,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Students, parents, and school staff across Italy, Scotland, and Northern Ireland shaken by coordinated bomb hoax emails",
+      "alert_summary": "Bomb threat emails sent to about 6,300 schools in Italy and more than 700 in Scotland and Northern Ireland prompted evacuations; authorities assessed threats as hoaxes with no public risk."
+    },
+    {
+      "wp_id": 15029,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-al-berka-reservoir-west-of-deir-al-balah/",
+      "date": "2026-11-13T08:42:52",
+      "title": "Displacement in Al Berka Reservoir, west of Deir Al Balah",
+      "body": "On the night of Friday, November 7, 2026, heavy rain and strong winds began sweeping across Gaza. A sand dune collapsed onto tents at Al Berka Reservoir, west of Deir Al Balah, killing three children and two women and in",
+      "country": "Israel",
+      "countries": [
+        "Israel"
+      ],
+      "type": "Displacement",
+      "lat": 31.417446,
+      "lng": 34.35114,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/11/1168766",
+      "prayer": "1.4 million Gazans in worn-out tents and makeshift shelters facing floods, collapsed dunes, and exhausted aid supplies",
+      "alert_summary": "A sand dune collapsed on tents near Deir Al Balah, killing five people including three children, as flooding damaged more than 6,000 shelters across Gaza."
+    },
+    {
+      "wp_id": 15028,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-sudan-nationwide-power-grid/",
+      "date": "2026-11-13T08:42:38",
+      "title": "Armed Conflict in Sudan (nationwide power grid)",
+      "body": "During the final week of October 2026, not a single day passed without an armed drone striking a power station in Sudan, with up to 15 power stations hit across the month. UNICEF issued the warning on November 10, 2026, ",
+      "country": "Sudan",
+      "countries": [
+        "Sudan"
+      ],
+      "type": "Armed Conflict",
+      "lat": 12.905479,
+      "lng": 25.928809,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/11/1168771",
+      "prayer": "Children across Sudan losing water, healthcare, and schooling as drone strikes hit power stations and drought deepens hunger",
+      "alert_summary": "Drone strikes hit up to 15 power stations across Sudan in October 2026, while two in three child casualties this year were caused by armed drones."
+    },
+    {
+      "wp_id": 15027,
+      "wp_link": "https://globalwitnessmonitor.com/displacement-in-diffa-tahoua/",
+      "date": "2026-11-13T08:41:44",
+      "title": "Displacement in Diffa, Tahoua",
+      "body": "Since the start of 2026, violence in northern Nigeria has driven nearly 64,000 people across the border into Niger. Those fleeing are escaping attacks by Islamist militants and armed criminal gangs. Several hundred Niger",
+      "country": "Nigeria",
+      "countries": [
+        "Nigeria",
+        "Niger"
+      ],
+      "type": "Displacement",
+      "lat": 13.313075,
+      "lng": 12.613661,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/11/1168779",
+      "prayer": "Nearly 64,000 people — many of them children — who have fled northern Nigeria into Niger, facing hunger, unsafe shelter, and lack of clean water",
+      "alert_summary": ""
+    },
+    {
+      "wp_id": 15026,
+      "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-manama-2/",
+      "date": "2026-11-13T08:39:21",
+      "title": "Armed Conflict in Manama",
+      "body": "Iran's Islamic Revolutionary Guard Corps (IRGC) claimed on November 13, 2026, that it struck and destroyed a US early-warning radar installation at the Naval Support Activity base in Manama, Bahrain, home to the US Navy'",
+      "country": "Bahrain",
+      "countries": [
+        "Bahrain"
+      ],
+      "type": "Armed Conflict",
+      "lat": 26.223963,
+      "lng": 50.583763,
+      "source_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+      "prayer": "US military personnel and civilians near the Naval Support Activity base in Manama amid ongoing strikes",
+      "alert_summary": "Iran's IRGC claimed it struck and destroyed a US early-warning radar installation at a base in Manama, Bahrain; no casualties were reported."
+    },
     {
       "wp_id": 14066,
       "wp_link": "https://globalwitnessmonitor.com/armed-conflict-in-hpapun-mutraw-district-karen-state/",
