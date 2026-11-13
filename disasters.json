@@ -1,9 +1,171 @@
 {
   "feed": "disasters",
-  "updated": "2026-11-12T04:53:21.212662+00:00",
-  "count": 888,
+  "updated": "2026-11-13T08:20:32.116389+00:00",
+  "count": 897,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 14978,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-palestine-11-09-2026/",
+      "date": "2026-11-13T08:11:06",
+      "title": "Flood in Palestine 11/09/2026",
+      "body": "Flooding began on Friday, November 6, 2026, as heavy rain and strong winds swept across Gaza. A sand dune collapsed onto tents at Al Berka Reservoir, west of Deir al-Balah in central Gaza, killing three children and two ",
+      "country": "Palestine",
+      "countries": [
+        "Palestine"
+      ],
+      "type": "Flood",
+      "lat": null,
+      "lng": null,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/11/1168766",
+      "prayer": "Displaced families in Gaza's tent camps with no shelter, no supplies, and no protection from flood and cold",
+      "alert_summary": "Flooding and a sand dune collapse near Deir al-Balah killed six people, including three children and an infant, and damaged shelters of more than 26,000 households."
+    },
+    {
+      "wp_id": 14977,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-kenya-11-11-2026/",
+      "date": "2026-11-13T08:09:32",
+      "title": "Disease in Kenya 11/11/2026",
+      "body": "Kenya has discharged its last Ebola patient, marking a major turning point in the country's response to the virus. Seven people have recovered from Ebola in Kenya, and all 135 identified contacts of infected patients hav",
+      "country": "Kenya",
+      "countries": [
+        "Kenya"
+      ],
+      "type": "Disease",
+      "lat": 0.529862,
+      "lng": 37.857882,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Kenya's health system and contacts of Ebola patients as the nation enters its 42-day countdown toward disease-free status",
+      "alert_summary": "Kenya discharged its last Ebola patient on November 11, with seven total recoveries and no new cases since October 20."
+    },
+    {
+      "wp_id": 14976,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11-12-2026/",
+      "date": "2026-11-13T08:09:23",
+      "title": "Disease in Congo 11/12/2026",
+      "body": "More than 5,400 people have died and 11,000 have been infected with Ebola in the Democratic Republic of Congo since the outbreak was declared in May 2026, making it the second-most deadly outbreak of the disease ever rec",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": -1.172919,
+      "lng": 23.166899,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+      "prayer": "Ebola response workers in Democratic Republic of Congo lacking pay, training, and supplies while outbreak spreads",
+      "alert_summary": "Ebola outbreak in Democratic Republic of Congo has killed more than 5,400 and infected 11,000 since May; front-line workers are unpaid and lack essential supplies."
+    },
+    {
+      "wp_id": 14975,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-russia-11-13-2026/",
+      "date": "2026-11-13T08:03:50",
+      "title": "Drought in Russia 11/13/2026",
+      "body": "The Malaya Ob River near Muzhi recorded critically low water levels for over a month. From October 5 through November 12, 2026, water levels met the criteria for \"low seasonal flow.\" The lowest point was reached on Octob",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Drought",
+      "lat": 65.58014285714285,
+      "lng": 75.62905714285714,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/20261113041229-0272445.xml",
+      "prayer": "Communities along the Malaya Ob River experiencing critically low water levels during autumn months",
+      "alert_summary": "Water levels on the Malaya Ob River fell to critically low conditions from October 5 to November 12, 2026."
+    },
+    {
+      "wp_id": 14974,
+      "wp_link": "https://globalwitnessmonitor.com/flood-in-slovenia-11-13-2026/",
+      "date": "2026-11-13T08:03:36",
+      "title": "Flood in Slovenia 11/13/2026",
+      "body": "On November 12, 2026, the Vipava River began rising rapidly, with flooding reported along areas prone to inundation across its entire course. The Vipava was among several rivers across Slovenia reported to be overflowing",
+      "country": "Slovenia",
+      "countries": [
+        "Slovenia"
+      ],
+      "type": "Flood",
+      "lat": 45.846629,
+      "lng": 13.961222,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://feeds.meteoalarm.org/api/v1/warnings/feeds-slovenia/014806fc-7fc2-4340-902f-cca8fe9e4f8a?index_info=0&index_area=0&index_polygon=0",
+      "prayer": "Residents along the Vipava River facing rising floodwaters and risk of displacement",
+      "alert_summary": "The Vipava River overflowed its banks along its full course; no casualty figures reported."
+    },
+    {
+      "wp_id": 14973,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-guatemala-11-10-2026-magnitude-6/",
+      "date": "2026-11-13T07:59:33",
+      "title": "Earthquake in Guatemala 11/10/2026 — Magnitude 6",
+      "body": "On November 10, 2026, a magnitude 5.6 earthquake struck off the coast of Guatemala, causing buildings in Guatemala City to shake. The epicenter was located about 43 kilometers south of Puerto San José, with the hypocente",
+      "country": "Guatemala",
+      "countries": [
+        "Guatemala"
+      ],
+      "type": "Earthquake",
+      "lat": 13.919366,
+      "lng": -90.820076,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8",
+      "prayer": "Residents of Guatemala, El Salvador, and Nicaragua shaken by an offshore earthquake with no reported casualties",
+      "alert_summary": "Magnitude 5.6 earthquake struck off Guatemala's Pacific coast on November 10, 2026, with no casualties or major damage reported."
+    },
+    {
+      "wp_id": 14972,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-11-12-2026-magnitude-6/",
+      "date": "2026-11-13T07:57:25",
+      "title": "Earthquake in Papua New Guinea 11/12/2026 — Magnitude 6",
+      "body": "A magnitude 5.8 earthquake struck 148 km northwest of Kavieng, Papua New Guinea on November 12, 2026. With a focal depth of about 10 km, this was a shallow earthquake, whose shaking is typically felt more strongly at the",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -2.576154,
+      "lng": 150.791234,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+      "prayer": "Residents near Kavieng, New Ireland, after a shallow offshore earthquake with no reported damage",
+      "alert_summary": "Magnitude 6 earthquake struck 148 km northwest of Kavieng, Papua New Guinea; no damage or casualties reported."
+    },
+    {
+      "wp_id": 14971,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-congo-11-13-2026-magnitude-5/",
+      "date": "2026-11-13T07:56:59",
+      "title": "Earthquake in Congo 11/13/2026 — Magnitude 5",
+      "body": "On November 13, 2026, a magnitude 5.0 earthquake struck approximately 85 kilometers west of Mwene-Ditu, in the Democratic Republic of the Congo, at a depth of about 10 kilometers. Mwene-Ditu is a town in southern DRC, lo",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Earthquake",
+      "lat": -6.9392,
+      "lng": 22.68,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxl",
+      "prayer": "Communities near Mwene-Ditu, in Lomami Province, following a magnitude 5 earthquake",
+      "alert_summary": "A magnitude 5 earthquake struck about 85 km west of Mwene-Ditu, Democratic Republic of the Congo; no casualty figure reported."
+    },
+    {
+      "wp_id": 14970,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-11-09-2026-magnitude-6/",
+      "date": "2026-11-13T07:56:42",
+      "title": "Earthquake in Solomon Islands 11/09/2026 — Magnitude 6",
+      "body": "On November 9, 2026, a magnitude 6.4 earthquake struck approximately 30 km west-southwest of Lata, in the Santa Cruz Islands area of Solomon Islands. The quake occurred at a depth of about 17 km, making it a relatively s",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -10.724173,
+      "lng": 165.797764,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16",
+      "prayer": "Residents of Lata and Temotu Province, Solomon Islands, shaken by an offshore earthquake",
+      "alert_summary": "A magnitude 6.4 earthquake struck about 27 km southwest of Lata, Solomon Islands; no casualties reported."
+    },
     {
       "wp_id": 13920,
       "wp_link": "https://globalwitnessmonitor.com/storm-in-india-11-02-2026/",
