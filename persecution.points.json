@@ -1,9 +1,349 @@
 {
   "feed": "persecution",
-  "updated": "2026-11-13T08:38:20.240992+00:00",
-  "count": 832,
+  "updated": "2026-11-20T08:46:27.073049+00:00",
+  "count": 866,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 15126,
+      "wp_link": "https://globalwitnessmonitor.com/mexican-authorities-block-priests-passport-renewal-over-clerical-attire-in-photo/",
+      "date": "2026-11-20T08:46:10",
+      "title": "Mexican authorities block priest's passport renewal over clerical attire in photo",
+      "country": "mexico",
+      "type": "restriction",
+      "lat": 23.6,
+      "lng": -102.6
+    },
+    {
+      "wp_id": 15125,
+      "wp_link": "https://globalwitnessmonitor.com/russian-drone-strike-damages-catholic-cathedral-in-ukraine-killing-four-in-city-wide-attack/",
+      "date": "2026-11-20T08:45:30",
+      "title": "Russian Drone Strike Damages Catholic Cathedral in Ukraine, Killing Four in City-Wide Attack",
+      "country": "ukraine",
+      "type": "church",
+      "lat": 48.4,
+      "lng": 31.2
+    },
+    {
+      "wp_id": 15124,
+      "wp_link": "https://globalwitnessmonitor.com/archbishop-assaulted-as-church-leaders-warn-over-christians-future-in-syria/",
+      "date": "2026-11-20T08:45:08",
+      "title": "Archbishop Assaulted as Church Leaders Warn Over Christians' Future in Syria",
+      "country": "syria",
+      "type": "assault",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 15123,
+      "wp_link": "https://globalwitnessmonitor.com/pakistani-court-dismisses-case-of-abducted-forcibly-converted-12-year-old-christian-girl/",
+      "date": "2026-11-20T08:44:48",
+      "title": "Pakistani Court Dismisses Case of Abducted, Forcibly Converted 12-Year-Old Christian Girl",
+      "country": "pakistan",
+      "type": "displacement",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 15122,
+      "wp_link": "https://globalwitnessmonitor.com/christian-council-urges-government-intervention-after-churches-attacked-at-nine-sites-ahead-of-christmas/",
+      "date": "2026-11-20T08:44:29",
+      "title": "Christian Council urges government intervention after churches attacked at nine sites ahead of Christmas",
+      "country": "india",
+      "type": "church",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 15120,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-extremists-attack-christian-worship-service-at-refugee-camp-in-south-sudan/",
+      "date": "2026-11-20T08:44:08",
+      "title": "Muslim Extremists Attack Church Service at Refugee Camp, Injuring Pastors and Worshippers",
+      "country": "south sudan",
+      "type": "assault",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 15119,
+      "wp_link": "https://globalwitnessmonitor.com/egyptian-christian-worker-killed-by-isis-in-libya-after-refusing-to-renounce-faith/",
+      "date": "2026-11-20T08:43:07",
+      "title": "Egyptian Christian Worker Killed by ISIS in Libya After Refusing to Renounce Faith",
+      "country": "libya",
+      "type": "killing",
+      "lat": 26.3,
+      "lng": 17.2
+    },
+    {
+      "wp_id": 15118,
+      "wp_link": "https://globalwitnessmonitor.com/christian-doctor-arrested-clinic-and-home-torched-by-mob-after-blasphemy-allegation-in-pakistan/",
+      "date": "2026-11-20T08:42:36",
+      "title": "Christian Doctor Arrested, Clinic and Home Torched by Mob After Blasphemy Allegation in Pakistan",
+      "country": "pakistan",
+      "type": "church",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 15070,
+      "wp_link": "https://globalwitnessmonitor.com/fulani-militants-kill-at-least-14-christians-in-nigeria-hours-after-presidential-security-pledges/",
+      "date": "2026-11-20T08:42:03",
+      "title": "Fulani Militants Kill at Least 14 Christians in Weekend Attacks Across Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 15100,
+      "wp_link": "https://globalwitnessmonitor.com/egyptian-christian-convert-faces-death-penalty-as-u-s-presses-for-religious-freedom/",
+      "date": "2026-11-20T08:41:38",
+      "title": "Egyptian Convert Faces Death Penalty as U.S. Presses for Religious Freedom",
+      "country": "egypt",
+      "type": "restriction",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 15114,
+      "wp_link": "https://globalwitnessmonitor.com/unknown-vandals-break-into-greek-orthodox-church-burn-sacred-icons-and-liturgical-objects/",
+      "date": "2026-11-20T08:41:03",
+      "title": "Unknown Vandals Break Into Greek Orthodox Church, Burn Sacred Icons and Liturgical Objects",
+      "country": "greece",
+      "type": "church",
+      "lat": 39.1,
+      "lng": 21.8
+    },
+    {
+      "wp_id": 15113,
+      "wp_link": "https://globalwitnessmonitor.com/bone-fragment-relic-stolen-and-destroyed-at-french-basilica-weeks-before-saints-feast-day/",
+      "date": "2026-11-20T08:40:46",
+      "title": "Bone Fragment Relic Stolen and Destroyed at French Basilica Weeks Before Saint's Feast Day",
+      "country": "france",
+      "type": "church",
+      "lat": 46.2,
+      "lng": 2.2
+    },
+    {
+      "wp_id": 15077,
+      "wp_link": "https://globalwitnessmonitor.com/egyptian-convert-faces-execution-as-prosecutors-demand-maximum-sentence-in-terrorism-court/",
+      "date": "2026-11-20T08:39:12",
+      "title": "Egyptian convert from Islam faces death penalty or life sentence in terrorism court trial",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 15107,
+      "wp_link": "https://globalwitnessmonitor.com/china-lifts-bail-restrictions-on-4-house-church-members-while-8-remain-imprisoned/",
+      "date": "2026-11-20T08:38:58",
+      "title": "China Lifts Bail Restrictions on 4 House Church Members While 8 Remain Imprisoned",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 15106,
+      "wp_link": "https://globalwitnessmonitor.com/christian-woman-beaten-to-death-in-south-sudan-for-refusing-forced-marriage-to-muslim-man/",
+      "date": "2026-11-20T08:38:39",
+      "title": "Christian Woman Beaten to Death in South Sudan for Refusing Forced Marriage to Muslim Man",
+      "country": "south sudan",
+      "type": "killing",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 15104,
+      "wp_link": "https://globalwitnessmonitor.com/four-christian-women-arrested-in-india-over-alleged-faith-outreach-to-slum-children/",
+      "date": "2026-11-20T08:38:04",
+      "title": "Four Christian Women Arrested in India Over Alleged Faith Outreach to Slum Children",
+      "country": "india",
+      "type": "arrest",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 15102,
+      "wp_link": "https://globalwitnessmonitor.com/coptic-christian-arrested-and-held-incommunicado-for-criticizing-forced-islamic-education/",
+      "date": "2026-11-20T08:37:27",
+      "title": "Coptic Christian Arrested and Held Incommunicado for Criticizing Forced Islamic Education",
+      "country": "egypt",
+      "type": "arrest",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 15099,
+      "wp_link": "https://globalwitnessmonitor.com/five-christians-killed-twelve-children-kidnapped-in-borno-state-attack/",
+      "date": "2026-11-20T08:36:28",
+      "title": "Five Christians Killed, Twelve Children Kidnapped in Borno State Attack",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 15098,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-and-two-relatives-killed-in-militia-attack-in-northeastern-nigeria/",
+      "date": "2026-11-20T08:36:11",
+      "title": "Pastor and Two Relatives Killed in Militia Attack in Northeastern Nigeria",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 15080,
+      "wp_link": "https://globalwitnessmonitor.com/jordan-court-sentences-three-to-death-for-deadly-church-shooting-that-killed-nine/",
+      "date": "2026-11-20T08:35:56",
+      "title": "Jordan sentences three men to death for deadly church attack that killed nine worshippers",
+      "country": "jordan",
+      "type": "killing",
+      "lat": 30.6,
+      "lng": 37.2
+    },
+    {
+      "wp_id": 15096,
+      "wp_link": "https://globalwitnessmonitor.com/up-to-143-christians-killed-in-two-week-islamist-terror-wave-in-eastern-congo/",
+      "date": "2026-11-20T08:35:40",
+      "title": "Up to 143 Christians killed in two-week Islamist terror wave in eastern Congo",
+      "country": "dr congo",
+      "type": "killing",
+      "lat": -2.9,
+      "lng": 24.0
+    },
+    {
+      "wp_id": 15085,
+      "wp_link": "https://globalwitnessmonitor.com/at-least-14-christians-killed-in-fresh-islamist-attacks-across-nigerias-middle-belt/",
+      "date": "2026-11-20T08:32:21",
+      "title": "At Least 14 Christians Killed in Fresh Islamist Attacks Across Nigeria's Middle Belt",
+      "country": "nigeria",
+      "type": "killing",
+      "lat": 9.1,
+      "lng": 8.7
+    },
+    {
+      "wp_id": 15079,
+      "wp_link": "https://globalwitnessmonitor.com/archbishop-bound-and-robbed-as-church-leaders-warn-of-rising-violence-against-syrian-christians/",
+      "date": "2026-11-20T08:30:30",
+      "title": "Archbishop Bound and Robbed as Church Leaders Warn of Rising Violence Against Syrian Christians",
+      "country": "syria",
+      "type": "assault",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 15078,
+      "wp_link": "https://globalwitnessmonitor.com/egypts-highest-court-upholds-five-year-blasphemy-sentence-against-coptic-researcher/",
+      "date": "2026-11-20T08:30:13",
+      "title": "Egypt's Highest Court Upholds Five-Year Blasphemy Sentence Against Coptic Researcher",
+      "country": "egypt",
+      "type": "restriction",
+      "lat": 26.8,
+      "lng": 30.8
+    },
+    {
+      "wp_id": 15076,
+      "wp_link": "https://globalwitnessmonitor.com/armed-men-assault-archbishop-in-syria-sparking-alarm-over-christian-security/",
+      "date": "2026-11-20T08:29:40",
+      "title": "Armed Men Assault Archbishop in Syria, Sparking Alarm Over Christian Security",
+      "country": "syria",
+      "type": "assault",
+      "lat": 34.8,
+      "lng": 38.3
+    },
+    {
+      "wp_id": 15075,
+      "wp_link": "https://globalwitnessmonitor.com/lawyers-detained-as-house-church-pastors-fraud-trial-ends-without-verdict-in-china/",
+      "date": "2026-11-20T08:29:26",
+      "title": "Lawyers detained as house church pastor's fraud trial ends without verdict in China",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 15074,
+      "wp_link": "https://globalwitnessmonitor.com/kazakh-christian-family-flees-to-europe-as-father-sentenced-to-prison-in-china/",
+      "date": "2026-11-20T08:29:05",
+      "title": "Kazakh Christian family flees to Europe as father sentenced to prison in China",
+      "country": "china",
+      "type": "displacement",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 15073,
+      "wp_link": "https://globalwitnessmonitor.com/four-members-of-unregistered-chinese-fellowship-face-trial-on-cult-charges-after-16-months-in-detention/",
+      "date": "2026-11-20T08:28:35",
+      "title": "Four members of unregistered Chinese fellowship face trial on \"cult\" charges after 16 months in detention",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 15072,
+      "wp_link": "https://globalwitnessmonitor.com/house-church-pastor-released-in-china-after-18-months-one-co-defendant-remains-jailed/",
+      "date": "2026-11-20T08:28:21",
+      "title": "House church pastor released in China after 18 months; one co-defendant remains jailed",
+      "country": "china",
+      "type": "arrest",
+      "lat": 35.9,
+      "lng": 104.2
+    },
+    {
+      "wp_id": 15071,
+      "wp_link": "https://globalwitnessmonitor.com/hindu-nationalist-groups-launch-dozens-of-attacks-on-christians-across-indian-state/",
+      "date": "2026-11-20T08:27:57",
+      "title": "Hindu Nationalist Groups Launch Dozens of Attacks on Christians Across Indian State",
+      "country": "india",
+      "type": "assault",
+      "lat": 20.6,
+      "lng": 78.7
+    },
+    {
+      "wp_id": 15069,
+      "wp_link": "https://globalwitnessmonitor.com/muslim-protests-target-two-church-construction-sites-despite-full-legal-compliance/",
+      "date": "2026-11-20T08:27:30",
+      "title": "Muslim Protests Target Two Church Construction Sites Despite Full Legal Compliance",
+      "country": "indonesia",
+      "type": "harassment",
+      "lat": -0.8,
+      "lng": 113.9
+    },
+    {
+      "wp_id": 15068,
+      "wp_link": "https://globalwitnessmonitor.com/84-cases-of-abduction-and-forced-conversion-of-minority-women-reported-in-pakistan-in-ten-months/",
+      "date": "2026-11-20T08:27:16",
+      "title": "84 Cases of Abduction and Forced Conversion of Minority Women Reported in Pakistan in Ten Months",
+      "country": "pakistan",
+      "type": "harassment",
+      "lat": 30.4,
+      "lng": 69.3
+    },
+    {
+      "wp_id": 15067,
+      "wp_link": "https://globalwitnessmonitor.com/pastor-sentenced-to-eight-months-for-using-instruments-in-christian-funeral-hymn/",
+      "date": "2026-11-20T08:27:02",
+      "title": "Pastor Sentenced to Eight Months for Using Instruments in Christian Funeral Hymn",
+      "country": "south sudan",
+      "type": "restriction",
+      "lat": 6.9,
+      "lng": 31.3
+    },
+    {
+      "wp_id": 15066,
+      "wp_link": "https://globalwitnessmonitor.com/pastors-and-congregants-injured-as-muslim-extremists-storm-church-service-at-refugee-camp/",
+      "date": "2026-11-20T08:26:48",
+      "title": "Pastors and Congregants Injured as Muslim Extremists Storm Church Service at Refugee Camp",
+      "country": "south sudan",
+      "type": "assault",
+      "lat": 6.9,
+      "lng": 31.3
+    },
     {
       "wp_id": 14980,
       "wp_link": "https://globalwitnessmonitor.com/children-die-after-release-from-seven-month-kidnapping-in-nigeria/",
