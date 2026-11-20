@@ -1,9 +1,279 @@
 {
   "feed": "disasters",
-  "updated": "2026-11-13T08:20:32.116389+00:00",
-  "count": 897,
+  "updated": "2026-11-20T08:23:53.810230+00:00",
+  "count": 912,
   "limit": 1000,
   "events": [
+    {
+      "wp_id": 15065,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-fiji-11-19-2026/",
+      "date": "2026-11-20T08:22:09",
+      "title": "Drought in Fiji 11/19/2026",
+      "body": "Fiji declared a national state of disaster after an El Niño-driven drought caused widespread water shortages, with the national weather bureau forecasting below-normal rainfall until at least April. The government alloca",
+      "country": "Fiji",
+      "countries": [
+        "Fiji"
+      ],
+      "type": "Drought",
+      "lat": -18.1456,
+      "lng": 178.4406,
+      "source_title": "\"drought OR famine emergency OR crisis when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1dfbGxkWnZxMTdBR2tnVW9OMDVBcTRtLWw3TUJjRDBzbHpHcjEyamZRdWR1bjdocXhpUDFlMjdTN3pkdVZkOVg2UEF6a3pyNzBkMTFoeDJrMjl0WGszbTE3TnBPRU5PLXBBc216MlItU1JzZ01WRGpJdTlJRHF3cWZxa1FjaGRWRmFKVmpnbFBKRUx4R2l3U054dzFNX1U4eVl0UVo2bXRBRzdlem8taUtybw?oc=5",
+      "prayer": "Families and farmers across Fiji facing prolonged water shortages and failed crops during the El Niño drought",
+      "alert_summary": "Fiji declared a national state of disaster on November 18, 2026, as an El Niño drought caused widespread water shortages across the country."
+    },
+    {
+      "wp_id": 15064,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-11-17-2026/",
+      "date": "2026-11-20T08:20:47",
+      "title": "Disease in United States 11/17/2026",
+      "body": "The number of confirmed measles cases in the United States in 2026 has surpassed 5,700 — more than twice the total reported in all of 2025 and the most cases in a single year since 1991. State health departments have rep",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Disease",
+      "lat": 41.24444,
+      "lng": -81.790318,
+      "source_title": "\"disease outbreak OR cholera OR ebola OR measles OR mpox when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMEVFUk5jN3g3N2dHOUQ3TW90OWs1eW4wYVRjeDhxN1FqU0lzbW8ydFFEMmllYi1jVkVvakdpR3lQQ2RObGtPdUk2NTYyZHNzaEI3clZsVmVvbmZVQWFhZmRmZDZGUjJNemxCYWhhWWhUVWpWZURaMHFzUXg3QVh2ckI2UXhwTDNEZEt1dGZyLWpoY3AtQWFWclE2M1M4WVU?oc=5",
+      "prayer": "Unvaccinated children and communities across the United States amid a nationwide measles resurgence",
+      "alert_summary": "Measles outbreaks in 2026 have produced more than 5,400 confirmed cases and at least 10 deaths across the United States, the highest annual case count since 1991."
+    },
+    {
+      "wp_id": 15063,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-pakistan-11-15-2026/",
+      "date": "2026-11-20T08:18:12",
+      "title": "Landslide in Pakistan 11/15/2026",
+      "body": "Three workers were killed after a mound of earth collapsed during illegal gold mining in the Dara Bokach area of Gumbat tehsil in Khyber Pakhtunkhwa's Kohat district on Sunday. According to police, the incident occurred ",
+      "country": "Pakistan",
+      "countries": [
+        "Pakistan"
+      ],
+      "type": "Landslide",
+      "lat": 33.497944,
+      "lng": 71.67523,
+      "source_title": "\"landslide OR mudslide killed OR buried when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNclBRdEFWNVVTbW9aSlp2bm9RSjZORlM3WVU2ZVd1VHMyY2RhMzlqc01mb0JqaTBJTHRoVlBiNV94ZzRpSW9ORmxJTC1iOWFxNEpMbUtvN3FlMi1wcVVHNUZuQ09KczIxTWQxdjVqMFRhOHl5ZjE2R3hibU43QmdlVFZGYVQyWUxoR2k4c2Y5WVpMWlgzUHEtaDBHbm8tWmxydDFaYlBLTlFVUDg?oc=5",
+      "prayer": "Three workers buried and killed in an earth collapse at an illegal gold mine in Kohat, Khyber Pakhtunkhwa",
+      "alert_summary": "A soil collapse at an illegal gold mine in Dara Bokach, Kohat district killed three workers on November 16, 2026."
+    },
+    {
+      "wp_id": 15062,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-malaysia-11-17-2026/",
+      "date": "2026-11-20T08:17:55",
+      "title": "Landslide in Malaysia 11/17/2026",
+      "body": "A 34-year-old construction worker from Bangladesh was killed after being buried under earth in a landslide at Kampung Melayu Kepong, Kuala Lumpur. The worker was buried under tonnes of earth at a worksite and found after",
+      "country": "Malaysia",
+      "countries": [
+        "Malaysia"
+      ],
+      "type": "Landslide",
+      "lat": 3.214029,
+      "lng": 101.634842,
+      "source_title": "\"landslide OR mudslide killed OR buried when:8d\" - Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2tGaGFjX3FvM2R1Q2cxTllrRUdVTWVNU0c3OEdtTW5aRy1mVWZURFBRc0pBa2c5ZjRMNWxYTG9KTF9adGhvM1VuRTNTU1MzTnRvSzJXeEo5N3p3VS10Nmdhcl9UQ2g5ZldfbVZiSGIyM1NGRVdWeTgzVWp0QkFxSzFRTXNqMFFtbEpJM2dQOHh4WTFtWFlyUEdOc9IBoAFBVV95cUxORy1DbVBUX213ck5nZVBlLU5pWVQ4LUhHVHpaQWZVOEtlQjBGcUtFRXFpRWdEMXMwSlI3YWgyM0VNZmFjYWVIZ2dfZGswejNHV2c5MXlWR2h4d0xQMENFZ0RJLVY1MTRSZXFONmFCVGZVZ3BackF0QV9JaG5oUHVLTFdqeFRNX0dTUFZOU05Xd3RvbXpOd2k1SWh6UmZTNmRR?oc=5",
+      "prayer": "A construction worker from Bangladesh killed by a landslide at a Kuala Lumpur worksite",
+      "alert_summary": "A landslide in Kampung Melayu Kepong, Kuala Lumpur killed 1 worker on November 18, 2026."
+    },
+    {
+      "wp_id": 15061,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11-17-2026/",
+      "date": "2026-11-20T08:13:39",
+      "title": "Disease in Congo 11/17/2026",
+      "body": "The Bundibugyo virus disease outbreak in the Democratic Republic of the Congo has grown rapidly since its detection in May 2026. The outbreak was first reported in Ituri Province, and has expanded rapidly, reaching thous",
+      "country": "Congo",
+      "countries": [
+        "Congo"
+      ],
+      "type": "Disease",
+      "lat": 1.562053,
+      "lng": 30.247884,
+      "source_title": "UN News - Global perspective Human stories",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/11/1168827",
+      "prayer": "Children and communities across eight provinces of the DRC bearing the heaviest toll of the Bundibugyo virus outbreak",
+      "alert_summary": "Bundibugyo virus disease outbreak in DRC has surpassed 11,000 cases and 5,400 deaths across 67 health zones in eight provinces."
+    },
+    {
+      "wp_id": 15060,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-uganda-11-19-2026/",
+      "date": "2026-11-20T08:13:09",
+      "title": "Landslide in Uganda 11/19/2026",
+      "body": "Survivors of a landslide in Bududa, a mountainous district in eastern Uganda, have brought their case to the United Nations Human Rights Committee, seeking justice and relocation assistance. The 2019 event killed more th",
+      "country": "Uganda",
+      "countries": [
+        "Uganda"
+      ],
+      "type": "Landslide",
+      "lat": 1.012134,
+      "lng": 34.33281,
+      "source_title": "BBC News",
+      "source_url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+      "prayer": "Survivors of Uganda's 2019 landslide and their families seeking justice, compensation, and safe relocation after losing loved ones",
+      "alert_summary": "A 2019 landslide in Bududa killed more than 50 people, including at least 33 children; survivors now seek UN intervention for relocation and compensation."
+    },
+    {
+      "wp_id": 15059,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-togo-11-18-2026/",
+      "date": "2026-11-20T08:12:57",
+      "title": "Wildfire in Togo 11/18/2026",
+      "body": "A forest fire burned across three West African countries—Togo, Benin, and Burkina Faso—beginning on November 14, 2026, and continuing through November 19. The source provides no information on the area burned, number of ",
+      "country": "Togo",
+      "countries": [
+        "Togo"
+      ],
+      "type": "Wildfire",
+      "lat": 11.221070423091557,
+      "lng": 1.0807495614777864,
+      "source_title": "GDACS RSS information",
+      "source_url": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923",
+      "prayer": "Communities affected by forest fires across Togo, Benin, and Burkina Faso",
+      "alert_summary": "Forest fire burned across Togo, Benin, and Burkina Faso from November 14 to 19, 2026; no casualty or damage figures reported."
+    },
+    {
+      "wp_id": 15058,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-11-16-2026/",
+      "date": "2026-11-20T08:12:44",
+      "title": "Storm in India 11/16/2026",
+      "body": "Cyclone Akvan formed in the Bay of Bengal and was active beginning November 16, 2026, developing into a Severe Cyclonic Storm by November 18. The IMD forecast that the storm would make landfall on the coast of North Andh",
+      "country": "India",
+      "countries": [
+        "India"
+      ],
+      "type": "Storm",
+      "lat": 26.733129,
+      "lng": 88.422506,
+      "source_title": "GDACS RSS information",
+      "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+      "prayer": "Residents along India's North Andhra Pradesh and South Odisha coasts as Cyclone Akvan approaches landfall",
+      "alert_summary": "Cyclone Akvan formed in the Bay of Bengal on November 16, 2026, and tracked toward the coasts of North Andhra Pradesh and South Odisha."
+    },
+    {
+      "wp_id": 15057,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-russia-11-18-2026/",
+      "date": "2026-11-20T08:11:25",
+      "title": "Storm in Russia 11/18/2026",
+      "body": "On November 18, 2026, a cyclone swept across Russia's Far East, bringing wet snow to the region. Heavy snowfall blanketed Vladivostok, with accumulations reaching approximately 15 cm in some areas. The Russian meteorolog",
+      "country": "Russia",
+      "countries": [
+        "Russia"
+      ],
+      "type": "Storm",
+      "lat": 43.11638,
+      "lng": 131.88248,
+      "source_title": "IFRC Alert Hub",
+      "source_url": "https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/20261118025247-0273902.xml",
+      "prayer": "Residents of Vladivostok and Russia's Far East navigating hazardous conditions after a cyclonic snowstorm",
+      "alert_summary": "A cyclone brought wet snow accumulations of up to 20 mm or more in 12 hours across Russia's Far East, including Vladivostok; no casualty figure reported."
+    },
+    {
+      "wp_id": 15056,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-11-15-2026-magnitude-6/",
+      "date": "2026-11-20T08:01:14",
+      "title": "Earthquake in Philippines 11/15/2026 — Magnitude 6",
+      "body": "On November 15, 2026, a magnitude 5.5 earthquake struck 9 km east of Union, Philippines, at a depth of 10 km. Union is located in the Caraga region of the Philippines. The quake was moderate and capable of light damage t",
+      "country": "Philippines",
+      "countries": [
+        "Philippines"
+      ],
+      "type": "Earthquake",
+      "lat": 9.7595,
+      "lng": 126.2,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+      "prayer": "Residents near Union, Caraga after a shallow magnitude 5.5 earthquake struck the area",
+      "alert_summary": "Magnitude 5.5 earthquake struck 9 km east of Union, Caraga, Philippines at a depth of 10 km; no casualty figures reported."
+    },
+    {
+      "wp_id": 15055,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-11-17-2026-magnitude-5/",
+      "date": "2026-11-20T08:00:13",
+      "title": "Earthquake in Solomon Islands 11/17/2026 — Magnitude 5",
+      "body": "On November 17, 2026, a magnitude 5.0 earthquake was recorded near Kirakira in the Solomon Islands, with the tremor measured at a depth of about 10 kilometers. The epicenter was approximately 137 km from Kirakira. The sh",
+      "country": "Solomon Islands",
+      "countries": [
+        "Solomon Islands"
+      ],
+      "type": "Earthquake",
+      "lat": -11.5293,
+      "lng": 162.5497,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyq5",
+      "prayer": "Communities near Kirakira in the Solomon Islands following an offshore earthquake",
+      "alert_summary": "Magnitude 5 earthquake struck 137 km SSE of Kirakira, Solomon Islands; no casualty figures reported."
+    },
+    {
+      "wp_id": 15054,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-11-19-2026-magnitude-5/",
+      "date": "2026-11-20T07:58:14",
+      "title": "Earthquake in Papua New Guinea 11/19/2026 — Magnitude 5",
+      "body": "On November 19, 2026, a magnitude 5.0 earthquake struck the Bismarck Sea about 31 kilometers west-southwest of Rabaul, in East New Britain Province, Papua New Guinea. The quake was recorded at a depth of approximately 19",
+      "country": "Papua New Guinea",
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "type": "Earthquake",
+      "lat": -4.213787,
+      "lng": 152.17622,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubz1",
+      "prayer": "Residents near Rabaul in East New Britain Province after a deep-focus earthquake struck the Bismarck Sea",
+      "alert_summary": "Magnitude 5 earthquake struck 31 km west-southwest of Rabaul, Papua New Guinea, on November 19, 2026; no casualty figures reported."
+    },
+    {
+      "wp_id": 15053,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-11-16-2026-magnitude-7/",
+      "date": "2026-11-20T07:57:23",
+      "title": "Earthquake in Indonesia 11/16/2026 — Magnitude 7",
+      "body": "On November 16, 2026, a magnitude 6.6 earthquake struck waters off Indonesia. The quake occurred approximately 148 kilometers west-southwest of Tual, Maluku, at a depth of 68 kilometers. Indonesia's national meteorologic",
+      "country": "Indonesia",
+      "countries": [
+        "Indonesia"
+      ],
+      "type": "Earthquake",
+      "lat": -5.637642,
+      "lng": 132.74513,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
+      "prayer": "Residents of Tual and surrounding Maluku communities shaken by an offshore earthquake",
+      "alert_summary": "Magnitude 6.6 earthquake struck the Banda Sea about 148 km west-southwest of Tual, Indonesia; no casualties reported"
+    },
+    {
+      "wp_id": 15052,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-romania-11-18-2026-magnitude-5/",
+      "date": "2026-11-20T07:57:06",
+      "title": "Earthquake in Romania 11/18/2026 — Magnitude 5",
+      "body": "A magnitude 5.3 earthquake struck near Comandău, in Covasna County, Romania on November 18, 2026. The quake reached a depth of about 130 km. At that depth, the energy is spread across a wide area and ground shaking at th",
+      "country": "Romania",
+      "countries": [
+        "Romania"
+      ],
+      "type": "Earthquake",
+      "lat": 45.75855,
+      "lng": 26.275642,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8",
+      "prayer": "Residents across Covasna County, Romania rattled by a magnitude 5 earthquake in the night",
+      "alert_summary": "Magnitude 5.3 earthquake struck 17 km from Comandău, Romania; no casualties reported."
+    },
+    {
+      "wp_id": 15051,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-11-20-2026-magnitude-5/",
+      "date": "2026-11-20T07:56:48",
+      "title": "Earthquake in United States 11/20/2026 — Magnitude 5",
+      "body": "On the evening of November 19, 2026, a magnitude 5.0 earthquake struck near Pinnacles at 10:49 p.m. The quake was centered about 10 kilometers northwest of Pinnacles at a depth of 6.7 kilometers. Shaking was felt across ",
+      "country": "United States",
+      "countries": [
+        "United States"
+      ],
+      "type": "Earthquake",
+      "lat": 36.530796,
+      "lng": -121.145195,
+      "source_title": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702",
+      "prayer": "Residents across San Benito County and the Central Coast shaken by a swarm of earthquakes near Pinnacles",
+      "alert_summary": "Magnitude 5.0 earthquake struck 10 km northwest of Pinnacles, California, with no injuries or damage reported."
+    },
     {
       "wp_id": 14978,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-palestine-11-09-2026/",
