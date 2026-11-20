@@ -1,9 +1,159 @@
 {
   "feed": "disasters",
-  "updated": "2026-11-13T08:20:34.630946+00:00",
-  "count": 1120,
+  "updated": "2026-11-20T08:23:56.128475+00:00",
+  "count": 1135,
   "limit": 10000,
   "events": [
+    {
+      "wp_id": 15065,
+      "wp_link": "https://globalwitnessmonitor.com/drought-in-fiji-11-19-2026/",
+      "date": "2026-11-20T08:22:09",
+      "title": "Drought in Fiji 11/19/2026",
+      "country": "Fiji",
+      "type": "Drought",
+      "lat": -18.1456,
+      "lng": 178.4406
+    },
+    {
+      "wp_id": 15064,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-united-states-11-17-2026/",
+      "date": "2026-11-20T08:20:47",
+      "title": "Disease in United States 11/17/2026",
+      "country": "United States",
+      "type": "Disease",
+      "lat": 41.24444,
+      "lng": -81.790318
+    },
+    {
+      "wp_id": 15063,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-pakistan-11-15-2026/",
+      "date": "2026-11-20T08:18:12",
+      "title": "Landslide in Pakistan 11/15/2026",
+      "country": "Pakistan",
+      "type": "Landslide",
+      "lat": 33.497944,
+      "lng": 71.67523
+    },
+    {
+      "wp_id": 15062,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-malaysia-11-17-2026/",
+      "date": "2026-11-20T08:17:55",
+      "title": "Landslide in Malaysia 11/17/2026",
+      "country": "Malaysia",
+      "type": "Landslide",
+      "lat": 3.214029,
+      "lng": 101.634842
+    },
+    {
+      "wp_id": 15061,
+      "wp_link": "https://globalwitnessmonitor.com/disease-in-congo-11-17-2026/",
+      "date": "2026-11-20T08:13:39",
+      "title": "Disease in Congo 11/17/2026",
+      "country": "Congo",
+      "type": "Disease",
+      "lat": 1.562053,
+      "lng": 30.247884
+    },
+    {
+      "wp_id": 15060,
+      "wp_link": "https://globalwitnessmonitor.com/landslide-in-uganda-11-19-2026/",
+      "date": "2026-11-20T08:13:09",
+      "title": "Landslide in Uganda 11/19/2026",
+      "country": "Uganda",
+      "type": "Landslide",
+      "lat": 1.012134,
+      "lng": 34.33281
+    },
+    {
+      "wp_id": 15059,
+      "wp_link": "https://globalwitnessmonitor.com/wildfire-in-togo-11-18-2026/",
+      "date": "2026-11-20T08:12:57",
+      "title": "Wildfire in Togo 11/18/2026",
+      "country": "Togo",
+      "type": "Wildfire",
+      "lat": 11.221070423091557,
+      "lng": 1.0807495614777864
+    },
+    {
+      "wp_id": 15058,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-india-11-16-2026/",
+      "date": "2026-11-20T08:12:44",
+      "title": "Storm in India 11/16/2026",
+      "country": "India",
+      "type": "Storm",
+      "lat": 26.733129,
+      "lng": 88.422506
+    },
+    {
+      "wp_id": 15057,
+      "wp_link": "https://globalwitnessmonitor.com/storm-in-russia-11-18-2026/",
+      "date": "2026-11-20T08:11:25",
+      "title": "Storm in Russia 11/18/2026",
+      "country": "Russia",
+      "type": "Storm",
+      "lat": 43.11638,
+      "lng": 131.88248
+    },
+    {
+      "wp_id": 15056,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-philippines-11-15-2026-magnitude-6/",
+      "date": "2026-11-20T08:01:14",
+      "title": "Earthquake in Philippines 11/15/2026 — Magnitude 6",
+      "country": "Philippines",
+      "type": "Earthquake",
+      "lat": 9.7595,
+      "lng": 126.2
+    },
+    {
+      "wp_id": 15055,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-solomon-islands-11-17-2026-magnitude-5/",
+      "date": "2026-11-20T08:00:13",
+      "title": "Earthquake in Solomon Islands 11/17/2026 — Magnitude 5",
+      "country": "Solomon Islands",
+      "type": "Earthquake",
+      "lat": -11.5293,
+      "lng": 162.5497
+    },
+    {
+      "wp_id": 15054,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-papua-new-guinea-11-19-2026-magnitude-5/",
+      "date": "2026-11-20T07:58:14",
+      "title": "Earthquake in Papua New Guinea 11/19/2026 — Magnitude 5",
+      "country": "Papua New Guinea",
+      "type": "Earthquake",
+      "lat": -4.213787,
+      "lng": 152.17622
+    },
+    {
+      "wp_id": 15053,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-indonesia-11-16-2026-magnitude-7/",
+      "date": "2026-11-20T07:57:23",
+      "title": "Earthquake in Indonesia 11/16/2026 — Magnitude 7",
+      "country": "Indonesia",
+      "type": "Earthquake",
+      "lat": -5.637642,
+      "lng": 132.74513
+    },
+    {
+      "wp_id": 15052,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-romania-11-18-2026-magnitude-5/",
+      "date": "2026-11-20T07:57:06",
+      "title": "Earthquake in Romania 11/18/2026 — Magnitude 5",
+      "country": "Romania",
+      "type": "Earthquake",
+      "lat": 45.75855,
+      "lng": 26.275642
+    },
+    {
+      "wp_id": 15051,
+      "wp_link": "https://globalwitnessmonitor.com/earthquake-in-united-states-11-20-2026-magnitude-5/",
+      "date": "2026-11-20T07:56:48",
+      "title": "Earthquake in United States 11/20/2026 — Magnitude 5",
+      "country": "United States",
+      "type": "Earthquake",
+      "lat": 36.530796,
+      "lng": -121.145195
+    },
     {
       "wp_id": 14978,
       "wp_link": "https://globalwitnessmonitor.com/flood-in-palestine-11-09-2026/",
